@@ -19,8 +19,7 @@ source .venv/bin/activate  # (Windows) .venv\Scripts\activate
 
 # 2️⃣ 의존성 설치
 pip install -r requirements.txt
-
----
+```
 
 ## 🗄️ Database
 
