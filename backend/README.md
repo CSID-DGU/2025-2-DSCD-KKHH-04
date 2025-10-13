@@ -26,15 +26,12 @@ pip install -r requirements.txt
 
 DB 엔진: PostgreSQL
 
----
-🚀 Run Server
+## 🚀 Run Server
 
 - uvicorn
 - channels
 
----
-
-Notes
+## 🧠 Notes
 
 pnpm workspace는 루트 기준이므로, 백엔드는 별도의 가상환경(Python venv)에서 동작
 
