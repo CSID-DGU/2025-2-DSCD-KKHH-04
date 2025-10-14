@@ -1,0 +1,9 @@
+Django==4.2.15
+uvicorn[standard]==0.30.6
+channels==4.1.0
+daphne==4.1.2
+channels-redis==4.2.0
+redis==5.0.8
+psycopg2-binary==2.9.9
+django-environ==0.11.2
+# (나중에 연동할 때 설치) django-cors-headers==4.4.0
