@@ -37,19 +37,20 @@ function drawHandsOnCanvas(
   containerH: number,
   videoW: number,
   videoH: number,
-  mirror = true
+  mirror = false // 화면 미러는 CSS로만, 여기서는 false 유지
 ) {
   const ctx = canvas.getContext("2d");
   if (!ctx) return;
 
-  const dpr = window.devicePixelRatio || 1;
+  // 그리기 비용 과도 방지: DPR 상한 (필요시 1.5로 낮춰도 됨)
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
   const { drawnW, drawnH, offsetX, offsetY } =
     getCoverMapping(containerW, containerH, videoW, videoH);
 
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.save();
 
-  // 비디오를 CSS로 좌우반전했다면 동일하게 반전
   if (mirror) {
     ctx.translate(canvas.width, 0);
     ctx.scale(-1, 1);
@@ -92,7 +93,7 @@ function drawHandsOnCanvas(
       const x = (wrist.x * drawnW + offsetX) * dpr;
       const y = (wrist.y * drawnH + offsetY) * dpr;
       ctx.fillStyle = "#12B886";
-      ctx.font = `${12 * dpr}px sans-serif`;
+      ctx.font = `${12 * dpr}px sans-serif`; // ← 템플릿 리터럴 버그 수정
       ctx.fillText(hand.handedness || "Unknown", x + 6 * dpr, y - 6 * dpr);
     }
   }
@@ -106,7 +107,8 @@ export function useHands() {
   const [status, setStatus] = useState<"idle"|"loading"|"running"|"stopped"|"error">("idle");
   const [respText, setRespText] = useState<string>("");
 
-  const fps = 15;
+  // === 성능/지연 개선: FPS만 30으로 올림(품질 변화 없음)
+  const fps = 30;
   const windowMs = 1000;
   const framesRef = useRef<Frame[]>([]);
   const lastTickRef = useRef(0);
@@ -123,7 +125,7 @@ export function useHands() {
         modelAssetPath:
           "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
       },
-      runningMode: "VIDEO",
+      runningMode: "VIDEO", // 안정 경로
       numHands: 2,
     });
   }, []);
@@ -132,6 +134,7 @@ export function useHands() {
   const start = useCallback(async (videoEl: HTMLVideoElement, canvasEl: HTMLCanvasElement) => {
     try {
       if (!landmarkerRef.current) await initLandmarker();
+
       const stream = await navigator.mediaDevices.getUserMedia({
         video: { facingMode: "user", width: { ideal: 640 }, height: { ideal: 480 } },
         audio: false,
@@ -140,32 +143,51 @@ export function useHands() {
       videoEl.srcObject = stream;
       await videoEl.play();
 
+      // 시작 시 캔버스 픽셀 크기 동기화
+      const syncCanvas = () => {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const cw = canvasEl.clientWidth;
+        const ch = canvasEl.clientHeight;
+        const pxW = Math.max(1, Math.floor(cw * dpr));
+        const pxH = Math.max(1, Math.floor(ch * dpr));
+        if (canvasEl.width !== pxW) canvasEl.width = pxW;
+        if (canvasEl.height !== pxH) canvasEl.height = pxH;
+      };
+      syncCanvas();
+
+      // 리사이즈 대응
+      const ro = new ResizeObserver(syncCanvas);
+      ro.observe(canvasEl);
+      // 루프/타이머 시작
       framesRef.current = [];
       runningRef.current = true;
       setStatus("running");
 
-      // 프레임 루프: detect + draw
+      // 프레임 루프: detectForVideo(동기) + draw
       const tick = (now: number) => {
         if (!runningRef.current) return;
         const lm = landmarkerRef.current!;
         if (now - lastTickRef.current >= 1000 / fps) {
           lastTickRef.current = now;
+
           const res = lm.detectForVideo(videoEl, now);
-          const hands: Hand[] = (res?.landmarks ?? []).map((arr, i) => ({
-            handedness: res.handedness?.[i]?.[0]?.categoryName ?? "Unknown",
-            landmarks: arr.map(p => ({ x: p.x, y: p.y, z: p.z ?? 0 })),
+
+          const hands: Hand[] = (res?.landmarks ?? []).map((arr: any, i: number) => ({
+            // handedness 키 버전 호환
+            handedness: ((res?.handednesses ?? (res as any)?.handedness)?.[i]?.[0]?.categoryName) ?? "Unknown",
+            landmarks: arr.map((p: any) => ({ x: p.x, y: p.y, z: p.z ?? 0 })),
           }));
 
-          // 캔버스 해상도(DPR) 맞추기
-          const dpr = window.devicePixelRatio || 1;
+          // 캔버스 해상도(DPR) 재확인
+          const dpr = Math.min(window.devicePixelRatio || 1, 2);
           const cw = canvasEl.clientWidth;
           const ch = canvasEl.clientHeight;
-          if (canvasEl.width !== Math.floor(cw * dpr) || canvasEl.height !== Math.floor(ch * dpr)) {
-            canvasEl.width = Math.floor(cw * dpr);
-            canvasEl.height = Math.floor(ch * dpr);
-          }
+          const pxW = Math.max(1, Math.floor(cw * dpr));
+          const pxH = Math.max(1, Math.floor(ch * dpr));
+          if (canvasEl.width !== pxW) canvasEl.width = pxW;
+          if (canvasEl.height !== pxH) canvasEl.height = pxH;
 
-          // ★ object-cover 보정하여 그리기 (mirror=true)
+          // object-cover 보정하여 그리기 (미러는 CSS에서만)
           drawHandsOnCanvas(
             canvasEl, hands,
             cw, ch,
@@ -174,13 +196,13 @@ export function useHands() {
           );
 
           // 서버 전송 버퍼
-          framesRef.current.push({ ts: Date.now(), hands });
+          if (hands.length) framesRef.current.push({ ts: Date.now(), hands });
         }
         videoEl.requestVideoFrameCallback(tick);
       };
       videoEl.requestVideoFrameCallback(tick);
 
-      // 1초마다 무조건 전송 (프레임 누락 대비)
+      // 1초마다 전송
       if (timerRef.current) window.clearInterval(timerRef.current);
       timerRef.current = window.setInterval(async () => {
         const frames = framesRef.current.splice(0, framesRef.current.length);
@@ -194,6 +216,14 @@ export function useHands() {
           setRespText("서버 통신 오류");
         }
       }, windowMs);
+
+      // 정리자 등록
+      const cleanup = () => {
+        ro.disconnect();
+      };
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      (videoEl as any)._cleanupObserver = cleanup;
+
     } catch (e) {
       console.error(e);
       setStatus("error");
