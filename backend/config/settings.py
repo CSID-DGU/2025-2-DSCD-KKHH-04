@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "corsheaders",  
     "sign",
     "rest_framework",
+    "stream",
     # "channels",     # 실시간 통신 추가 시 활성화
 ]
 

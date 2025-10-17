@@ -17,8 +17,10 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from stream.views import ingest_seq
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("sign.urls")), 
+    path("api/seq/ingest/", ingest_seq),
 ]
