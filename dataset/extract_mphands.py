@@ -12,9 +12,9 @@ import mediapipe as mp
 # =========================
 # 설정
 # =========================
-DATA_DIR = Path("dataset")
+DATA_DIR = Path(".")
 RAW_DIR = DATA_DIR / "raw_videos"
-LABEL_CSV = DATA_DIR / "labels.csv"
+LABEL_CSV = DATA_DIR / "label.csv"
 OUT_DIR = DATA_DIR / "processed"       # 시퀀스 저장 폴더
 FPS_TARGET = 30                        # 필요시 리샘플
 MAX_LEN = None                         # 길이 고정 원하면 정수(예: 120)로 지정. None이면 원길이 유지.
@@ -159,7 +159,7 @@ def process_video(video_path: Path, label_text: str, out_dir: Path):
 def main():
     ensure_dir(OUT_DIR)
     rows = []
-    with open(LABEL_CSV, "r", encoding="utf-8") as f:
+    with open(LABEL_CSV, "r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for r in reader:
             rows.append(r)
