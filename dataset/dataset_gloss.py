@@ -3,13 +3,14 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 from pathlib import Path
-
+    
 class GlossSeqDataset(Dataset):
-    def __init__(self, root="dataset/processed", index_csv="index.csv", vocab_json="vocab.json", split="train", split_ratio=0.9, seed=42):
+    def __init__(self, root="processed", index_csv="index.csv", vocab_json="vocab.json", split="train", split_ratio=0.9, seed=42):
         self.root = Path(root)
         self.items = []
         with open(self.root / index_csv, "r", encoding="utf-8") as f:
             lines = f.read().strip().splitlines()[1:]
+
         rng = np.random.default_rng(seed)
         rng.shuffle(lines)
         n_train = int(len(lines)*split_ratio)
@@ -24,8 +25,10 @@ class GlossSeqDataset(Dataset):
             stem = Path(file).stem
             self.items.append((stem, label.strip().split()))
 
-        with open(self.root / vocab_json, "r", encoding="utf-8") as f:
+        
+        with open(self.root / vocab_json, "r", encoding="utf-8-sig") as f:
             vocab = json.load(f)["tokens"]
+
         self.token2id = {tok:i+1 for i,tok in enumerate(vocab)} # CTC용: 0은 blank로 예약한다고 가정
         self.blank_id = 0
 

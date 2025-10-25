@@ -14,7 +14,7 @@ import mediapipe as mp
 # =========================
 DATA_DIR = Path(".")
 RAW_DIR = DATA_DIR / "raw_videos"
-LABEL_CSV = DATA_DIR / "label.csv"
+LABEL_CSV = DATA_DIR / "labels.csv"
 OUT_DIR = DATA_DIR / "processed"       # 시퀀스 저장 폴더
 FPS_TARGET = 30                        # 필요시 리샘플
 MAX_LEN = None                         # 길이 고정 원하면 정수(예: 120)로 지정. None이면 원길이 유지.
