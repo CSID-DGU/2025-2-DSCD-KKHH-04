@@ -6,6 +6,8 @@
     "module": "ESNext",
     "types": ["node"],
     "skipLibCheck": true,
+    "composite": true,
+    "incremental": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -18,9 +20,9 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
+    //"erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    //"noUncheckedSideEffectImports": true
   },
   "include": ["vite.config.ts"]
 }
