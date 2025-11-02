@@ -1,0 +1,347 @@
+{
+  "id": "VXPAKOKS240330470",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "카드값 납부 기한을 지키고, 소득이 올랐다면 카드사에 한도 상향을 요청할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.693,
+        "end": 1.89,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.138,
+        "end": 2.595,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.724,
+        "end": 2.892,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.175,
+        "end": 3.668,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.872,
+        "end": 4.175,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.561,
+        "end": 4.844,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.401,
+        "end": 5.554,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.94,
+        "end": 6.086,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.385,
+        "end": 6.712,
+        "gloss_id": "오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.099,
+        "end": 7.411,
+        "gloss_id": "바꾸다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.644,
+        "end": 7.834,
+        "gloss_id": "제안하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 8.079,
+        "end": 8.312,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.872,
+        "end": 4.175,
+        "loc": "4",
+        "word": "소득이"
+      },
+      {
+        "start": 4.561,
+        "end": 4.844,
+        "loc": "5",
+        "word": "올랐다면"
+      },
+      {
+        "start": 7.644,
+        "end": 7.834,
+        "loc": "9",
+        "word": "요청할"
+      },
+      {
+        "start": 8.079,
+        "end": 8.312,
+        "loc": "10,11",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 1.693,
+        "end": 1.883,
+        "loc": "0,1",
+        "word": "카드값 납부"
+      },
+      {
+        "start": 2.138,
+        "end": 2.595,
+        "loc": "2",
+        "word": "기한을"
+      },
+      {
+        "start": 2.724,
+        "end": 3.664,
+        "loc": "3",
+        "word": "지키고,"
+      },
+      {
+        "start": 5.401,
+        "end": 5.554,
+        "loc": "6",
+        "word": "카드사에"
+      },
+      {
+        "start": 5.94,
+        "end": 6.086,
+        "loc": "7",
+        "word": "한도"
+      },
+      {
+        "start": 6.385,
+        "end": 7.405,
+        "loc": "8",
+        "word": "상향을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.693,
+        "end": 1.89,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.138,
+        "end": 2.595,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.724,
+        "end": 2.892,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.175,
+        "end": 3.668,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.872,
+        "end": 4.175,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.94,
+        "end": 6.086,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.644,
+        "end": 7.834,
+        "gloss_id": "제안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.138,
+        "end": 2.595
+      },
+      {
+        "descriptor": "",
+        "start": 3.175,
+        "end": 3.668
+      },
+      {
+        "descriptor": "",
+        "start": 4.561,
+        "end": 4.844
+      },
+      {
+        "descriptor": "",
+        "start": 8.079,
+        "end": 8.312
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.079,
+        "end": 8.312
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.937,
+        "end": 7.39
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.175,
+        "end": 3.668
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.872,
+        "end": 4.841
+      },
+      {
+        "descriptor": "",
+        "start": 1.693,
+        "end": 2.576
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330470",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:31:02",
+    "sentence_ID": "VXPAKOKS240330470",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    260,
+    126
+  ],
+  "file": "VXPAKOKS240330470.mp4",
+  "saved_as": "VXPAKOKS240330470-카드값납부기한을지키고,소득이올랐다면카드사에한도상향을요청할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

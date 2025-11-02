@@ -1,0 +1,380 @@
+{
+  "id": "VXPAKOKS240351650",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "인터넷 뱅킹이나 모바일 애플리케이션에서 언제든지 적금 계좌를 해지할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.579,
+        "end": 1.841,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.005,
+        "end": 2.178,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.417,
+        "end": 2.635,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.81,
+        "end": 2.931,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.065,
+        "end": 3.263,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.436,
+        "end": 3.596,
+        "gloss_id": "다운1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.767,
+        "end": 4.1,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.323,
+        "end": 4.868,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.012,
+        "end": 5.152,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.264,
+        "end": 5.482,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.647,
+        "end": 5.8,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.95,
+        "end": 6.065,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.252,
+        "end": 6.425,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.579,
+        "end": 1.841,
+        "loc": "0",
+        "word": "인터넷"
+      },
+      {
+        "start": 2.005,
+        "end": 2.678,
+        "loc": "1",
+        "word": "뱅킹이나"
+      },
+      {
+        "start": 2.81,
+        "end": 3.258,
+        "loc": "2",
+        "word": "모바일"
+      },
+      {
+        "start": 3.436,
+        "end": 4.103,
+        "loc": "3",
+        "word": "애플리케이션에서"
+      },
+      {
+        "start": 4.323,
+        "end": 4.868,
+        "loc": "4",
+        "word": "언제든지"
+      },
+      {
+        "start": 5.012,
+        "end": 5.492,
+        "loc": "5",
+        "word": "적금"
+      },
+      {
+        "start": 5.647,
+        "end": 5.8,
+        "loc": "6",
+        "word": "계좌를"
+      },
+      {
+        "start": 5.95,
+        "end": 6.065,
+        "loc": "7",
+        "word": "해지할"
+      },
+      {
+        "start": 6.252,
+        "end": 6.425,
+        "loc": "8,9",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.579,
+        "end": 1.841,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.005,
+        "end": 2.178,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.417,
+        "end": 2.635,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.065,
+        "end": 3.263,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.436,
+        "end": 3.596,
+        "gloss_id": "다운1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.767,
+        "end": 4.1,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.323,
+        "end": 4.868,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.264,
+        "end": 5.482,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.647,
+        "end": 5.8,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.95,
+        "end": 6.065,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.252,
+        "end": 6.425
+      },
+      {
+        "descriptor": "",
+        "start": 2.417,
+        "end": 2.635
+      },
+      {
+        "descriptor": "",
+        "start": 3.767,
+        "end": 4.1
+      },
+      {
+        "descriptor": "",
+        "start": 4.58,
+        "end": 4.836
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.252,
+        "end": 6.425
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.323,
+        "end": 4.868
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.81,
+        "end": 4.079
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.579,
+        "end": 2.2
+      },
+      {
+        "descriptor": "",
+        "start": 3.767,
+        "end": 4.1
+      },
+      {
+        "descriptor": "",
+        "start": 5.264,
+        "end": 5.784
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351650",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:46:49",
+    "sentence_ID": "VXPAKOKS240351650",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240351650.mp4",
+  "saved_as": "VXPAKOKS240351650-인터넷뱅킹이나모바일애플리케이션에서언제든지적금계좌를해지할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

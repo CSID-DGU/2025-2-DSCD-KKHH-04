@@ -1,0 +1,301 @@
+{
+  "id": "VXPAKOKS240328040",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "카드회사의 애플리케이션에는 카드 사용 내용이나 포인트, 한도를 확인할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.099,
+        "end": 2.365,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.533,
+        "end": 2.785,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.866,
+        "end": 3.41,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.599,
+        "end": 4.333,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.599,
+        "end": 4.894,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.033,
+        "end": 5.533,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.933,
+        "end": 6.433,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.766,
+        "end": 6.966,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.133,
+        "end": 7.523,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.64,
+        "end": 7.899,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.033,
+        "end": 5.533,
+        "loc": "4",
+        "word": "내용이나"
+      },
+      {
+        "start": 5.933,
+        "end": 6.433,
+        "loc": "5",
+        "word": "포인트,"
+      },
+      {
+        "start": 6.766,
+        "end": 6.966,
+        "loc": "6",
+        "word": "한도를"
+      },
+      {
+        "start": 7.133,
+        "end": 7.523,
+        "loc": "7",
+        "word": "확인할"
+      },
+      {
+        "start": 7.633,
+        "end": 7.899,
+        "loc": "8,9",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 4.599,
+        "end": 4.894,
+        "loc": "2,3",
+        "word": "카드 사용"
+      },
+      {
+        "start": 2.099,
+        "end": 2.781,
+        "loc": "0",
+        "word": "카드회사의"
+      },
+      {
+        "start": 2.866,
+        "end": 4.323,
+        "loc": "1",
+        "word": "애플리케이션에는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.533,
+        "end": 2.785,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.599,
+        "end": 4.333,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.599,
+        "end": 4.894,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.766,
+        "end": 6.966,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.033,
+        "end": 5.533,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.933,
+        "end": 6.433,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 2.866,
+        "end": 3.41
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.033,
+        "end": 6.439
+      },
+      {
+        "descriptor": "",
+        "start": 3.599,
+        "end": 4.333
+      },
+      {
+        "descriptor": "",
+        "start": 7.64,
+        "end": 7.899
+      },
+      {
+        "descriptor": "",
+        "start": 7.133,
+        "end": 7.523
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.633,
+        "end": 7.899
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.533,
+        "end": 2.785
+      },
+      {
+        "descriptor": "",
+        "start": 2.099,
+        "end": 2.365
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328040",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:05:15",
+    "sentence_ID": "VXPAKOKS240328040",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    263,
+    126
+  ],
+  "file": "VXPAKOKS240328040.mp4",
+  "saved_as": "VXPAKOKS240328040-카드회사의애플리케이션에는카드사용내용이나포인트,한도를확인할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

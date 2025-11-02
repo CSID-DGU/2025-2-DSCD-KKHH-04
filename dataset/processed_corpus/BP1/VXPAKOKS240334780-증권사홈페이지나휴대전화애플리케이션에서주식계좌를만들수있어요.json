@@ -1,0 +1,277 @@
+{
+  "id": "VXPAKOKS240334780",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "증권사 홈페이지나 휴대전화 애플리케이션에서 주식 계좌를 만들 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.268,
+        "end": 2.454,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.689,
+        "end": 3.091,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.336,
+        "end": 3.982,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.318,
+        "end": 4.532,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.725,
+        "end": 5.176,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.448,
+        "end": 5.627,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.856,
+        "end": 6.175,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.405,
+        "end": 6.682,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.941,
+        "end": 7.134,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.268,
+        "end": 3.074,
+        "loc": "0",
+        "word": "증권사"
+      },
+      {
+        "start": 3.336,
+        "end": 3.982,
+        "loc": "1",
+        "word": "홈페이지나"
+      },
+      {
+        "start": 4.318,
+        "end": 4.532,
+        "loc": "2",
+        "word": "휴대전화"
+      },
+      {
+        "start": 4.725,
+        "end": 5.176,
+        "loc": "3",
+        "word": "애플리케이션에서"
+      },
+      {
+        "start": 5.448,
+        "end": 5.627,
+        "loc": "4",
+        "word": "주식"
+      },
+      {
+        "start": 5.856,
+        "end": 6.175,
+        "loc": "5",
+        "word": "계좌를"
+      },
+      {
+        "start": 6.405,
+        "end": 7.135,
+        "loc": "6,7,8",
+        "word": "만들 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.268,
+        "end": 2.454,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.689,
+        "end": 3.091,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.448,
+        "end": 5.627,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.856,
+        "end": 6.175,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.405,
+        "end": 6.682,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 4.725,
+        "end": 5.176
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.689,
+        "end": 3.091
+      },
+      {
+        "descriptor": "",
+        "start": 3.566,
+        "end": 3.982
+      },
+      {
+        "descriptor": "",
+        "start": 4.837,
+        "end": 5.176
+      },
+      {
+        "descriptor": "",
+        "start": 6.941,
+        "end": 7.134
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.941,
+        "end": 7.134
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.268,
+        "end": 4.002
+      },
+      {
+        "descriptor": "",
+        "start": 4.725,
+        "end": 5.176
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334780",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:32:16",
+    "sentence_ID": "VXPAKOKS240334780",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240334780.mp4",
+  "saved_as": "VXPAKOKS240334780-증권사홈페이지나휴대전화애플리케이션에서주식계좌를만들수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

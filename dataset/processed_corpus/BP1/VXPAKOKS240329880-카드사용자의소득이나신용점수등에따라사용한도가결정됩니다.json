@@ -1,0 +1,242 @@
+{
+  "id": "VXPAKOKS240329880",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "카드 사용자의 소득이나 신용점수 등에 따라 사용한도가 결정됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.09,
+        "end": 2.343,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.532,
+        "end": 2.905,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.329,
+        "end": 3.545,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.892,
+        "end": 3.976,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.194,
+        "end": 4.525,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.921,
+        "end": 5.113,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.319,
+        "end": 5.59,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.837,
+        "end": 6.18,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.428,
+        "end": 6.729,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.089,
+        "end": 2.89,
+        "loc": "0,1,2",
+        "word": "카드 사용자의 소득이나"
+      },
+      {
+        "start": 3.329,
+        "end": 4.533,
+        "loc": "3,4,5",
+        "word": "신용점수 등에 따라"
+      },
+      {
+        "start": 4.921,
+        "end": 6.186,
+        "loc": "6",
+        "word": "사용한도가"
+      },
+      {
+        "start": 6.428,
+        "end": 6.729,
+        "loc": "7",
+        "word": "결정됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.09,
+        "end": 2.343,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.329,
+        "end": 3.545,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.319,
+        "end": 5.59,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.837,
+        "end": 6.18,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.428,
+        "end": 6.729,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.532,
+        "end": 2.905
+      },
+      {
+        "descriptor": "",
+        "start": 4.194,
+        "end": 4.525
+      },
+      {
+        "descriptor": "",
+        "start": 6.428,
+        "end": 6.729
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.892,
+        "end": 4.5
+      },
+      {
+        "descriptor": "",
+        "start": 2.089,
+        "end": 2.89
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329880",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:30:02",
+    "sentence_ID": "VXPAKOKS240329880",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    217,
+    126
+  ],
+  "file": "VXPAKOKS240329880.mp4",
+  "saved_as": "VXPAKOKS240329880-카드사용자의소득이나신용점수등에따라사용한도가결정됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

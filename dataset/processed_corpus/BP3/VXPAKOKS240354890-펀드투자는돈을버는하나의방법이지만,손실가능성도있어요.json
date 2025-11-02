@@ -1,0 +1,283 @@
+{
+  "id": "VXPAKOKS240354890",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자는 돈을 버는 하나의 방법이지만, 손실 가능성도 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.277,
+        "end": 2.019,
+        "gloss_id": "펀드",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.245,
+        "end": 2.545,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.76,
+        "end": 2.924,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.165,
+        "end": 3.593,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.895,
+        "end": 4.081,
+        "gloss_id": "일3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.334,
+        "end": 4.669,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.955,
+        "end": 5.383,
+        "gloss_id": "맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.883,
+        "end": 6.54,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.05,
+        "end": 7.285,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.277,
+        "end": 2.019,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 2.245,
+        "end": 2.545,
+        "loc": "1",
+        "word": "투자는"
+      },
+      {
+        "start": 2.76,
+        "end": 2.924,
+        "loc": "2",
+        "word": "돈을"
+      },
+      {
+        "start": 3.165,
+        "end": 3.593,
+        "loc": "3",
+        "word": "버는"
+      },
+      {
+        "start": 4.334,
+        "end": 5.376,
+        "loc": "5",
+        "word": "방법이지만,"
+      },
+      {
+        "start": 5.883,
+        "end": 6.54,
+        "loc": "6",
+        "word": "손실"
+      },
+      {
+        "start": 7.05,
+        "end": 7.285,
+        "loc": "7,8",
+        "word": "가능성도 있어요."
+      },
+      {
+        "start": 3.895,
+        "end": 4.081,
+        "loc": "4",
+        "word": "하나의"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.165,
+        "end": 4.086,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.334,
+        "end": 5.376,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.883,
+        "end": 6.54,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.05,
+        "end": 7.285
+      },
+      {
+        "descriptor": "",
+        "start": 2.245,
+        "end": 2.545
+      },
+      {
+        "descriptor": "",
+        "start": 3.165,
+        "end": 3.593
+      },
+      {
+        "descriptor": "",
+        "start": 5.883,
+        "end": 6.54
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.05,
+        "end": 7.285
+      },
+      {
+        "descriptor": "",
+        "start": 6.351,
+        "end": 6.537
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.895,
+        "end": 5.023
+      },
+      {
+        "descriptor": "",
+        "start": 6.389,
+        "end": 7.281
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.277,
+        "end": 2.019
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.598,
+        "end": 3.347
+      },
+      {
+        "descriptor": "",
+        "start": 5.883,
+        "end": 6.283
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354890",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:18:02",
+    "sentence_ID": "VXPAKOKS240354890",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240354890.mp4",
+  "saved_as": "VXPAKOKS240354890-펀드투자는돈을버는하나의방법이지만,손실가능성도있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

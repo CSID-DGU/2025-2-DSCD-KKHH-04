@@ -1,0 +1,271 @@
+{
+  "id": "VXPAKOKS240334160",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "우리나라 주식을 사고팔 수 있는 곳을 증권회사라고 하더라고요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.393,
+        "end": 2.535,
+        "gloss_id": "한국1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.717,
+        "end": 3.002,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.38,
+        "end": 3.614,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.798,
+        "end": 4.096,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.274,
+        "end": 4.436,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.628,
+        "end": 5.115,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.39,
+        "end": 5.578,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.799,
+        "end": 6.279,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.521,
+        "end": 6.878,
+        "gloss_id": "말하다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.393,
+        "end": 2.535,
+        "loc": "0",
+        "word": "우리나라"
+      },
+      {
+        "start": 2.717,
+        "end": 3.002,
+        "loc": "1",
+        "word": "주식을"
+      },
+      {
+        "start": 3.38,
+        "end": 4.095,
+        "loc": "2",
+        "word": "사고팔"
+      },
+      {
+        "start": 4.274,
+        "end": 4.436,
+        "loc": "3,4",
+        "word": "수 있는"
+      },
+      {
+        "start": 4.628,
+        "end": 5.115,
+        "loc": "5",
+        "word": "곳을"
+      },
+      {
+        "start": 5.39,
+        "end": 6.273,
+        "loc": "6",
+        "word": "증권회사라고"
+      },
+      {
+        "start": 6.521,
+        "end": 6.878,
+        "loc": "7",
+        "word": "하더라고요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.717,
+        "end": 3.002,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.38,
+        "end": 3.614,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.798,
+        "end": 4.096,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.39,
+        "end": 5.578,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.799,
+        "end": 6.279,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.717,
+        "end": 3.002
+      },
+      {
+        "descriptor": "",
+        "start": 4.628,
+        "end": 5.115
+      },
+      {
+        "descriptor": "",
+        "start": 5.799,
+        "end": 6.279
+      },
+      {
+        "descriptor": "",
+        "start": 6.521,
+        "end": 6.878
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.274,
+        "end": 4.436
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.393,
+        "end": 3.003
+      },
+      {
+        "descriptor": "",
+        "start": 3.38,
+        "end": 5.115
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334160",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:29:06",
+    "sentence_ID": "VXPAKOKS240334160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    234,
+    126
+  ],
+  "file": "VXPAKOKS240334160.mp4",
+  "saved_as": "VXPAKOKS240334160-우리나라주식을사고팔수있는곳을증권회사라고하더라고요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

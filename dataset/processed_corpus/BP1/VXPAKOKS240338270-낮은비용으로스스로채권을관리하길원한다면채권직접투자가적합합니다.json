@@ -1,0 +1,336 @@
+{
+  "id": "VXPAKOKS240338270",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "낮은 비용으로 스스로 채권을 관리하길 원한다면 채권 직접 투자가 적합합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.261,
+        "end": 2.551,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.659,
+        "end": 2.826,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.106,
+        "end": 3.358,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.699,
+        "end": 4.275,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.612,
+        "end": 4.978,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.164,
+        "end": 5.292,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.499,
+        "end": 6.056,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.239,
+        "end": 6.335,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.479,
+        "end": 6.626,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.785,
+        "end": 7.285,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.509,
+        "end": 7.885,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.127,
+        "end": 8.351,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.708,
+        "end": 8.941,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.699,
+        "end": 4.275,
+        "loc": "0",
+        "word": "낮은"
+      },
+      {
+        "start": 4.612,
+        "end": 4.978,
+        "loc": "2",
+        "word": "스스로"
+      },
+      {
+        "start": 8.127,
+        "end": 8.351,
+        "loc": "8",
+        "word": "투자가"
+      },
+      {
+        "start": 8.708,
+        "end": 8.941,
+        "loc": "9",
+        "word": "적합합니다."
+      },
+      {
+        "start": 2.261,
+        "end": 3.361,
+        "loc": "1",
+        "word": "비용으로"
+      },
+      {
+        "start": 5.164,
+        "end": 6.064,
+        "loc": "4,5",
+        "word": "관리하길 원한다면"
+      },
+      {
+        "start": 6.239,
+        "end": 7.288,
+        "loc": "3",
+        "word": "채권을"
+      },
+      {
+        "start": 7.509,
+        "end": 7.885,
+        "loc": "6,7",
+        "word": "채권 직접"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.261,
+        "end": 3.351,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.699,
+        "end": 4.275,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.612,
+        "end": 4.978,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.785,
+        "end": 7.285,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.509,
+        "end": 7.885,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.708,
+        "end": 8.941,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.708,
+        "end": 8.941
+      },
+      {
+        "descriptor": "",
+        "start": 3.832,
+        "end": 4.275
+      },
+      {
+        "descriptor": "",
+        "start": 5.499,
+        "end": 6.056
+      },
+      {
+        "descriptor": "",
+        "start": 6.89,
+        "end": 7.285
+      },
+      {
+        "descriptor": "",
+        "start": 8.127,
+        "end": 8.351
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.708,
+        "end": 8.941
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.499,
+        "end": 6.056
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.27,
+        "end": 4.275
+      },
+      {
+        "descriptor": "",
+        "start": 5.499,
+        "end": 6.056
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338270",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:30",
+    "sentence_ID": "VXPAKOKS240338270",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    343,
+    126
+  ],
+  "file": "VXPAKOKS240338270.mp4",
+  "saved_as": "VXPAKOKS240338270-낮은비용으로스스로채권을관리하길원한다면채권직접투자가적합합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

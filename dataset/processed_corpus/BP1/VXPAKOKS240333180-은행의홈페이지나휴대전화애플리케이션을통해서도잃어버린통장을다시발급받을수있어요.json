@@ -1,0 +1,304 @@
+{
+  "id": "VXPAKOKS240333180",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "은행의 홈페이지나 휴대전화 애플리케이션을 통해서도 잃어버린 통장을 다시 발급받을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.073,
+        "end": 3.275,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.475,
+        "end": 4.111,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.325,
+        "end": 4.632,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.9,
+        "end": 5.296,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.634,
+        "end": 5.788,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.003,
+        "end": 6.551,
+        "gloss_id": "앱 ",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.868,
+        "end": 7.054,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.267,
+        "end": 7.446,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.676,
+        "end": 7.959,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.179,
+        "end": 8.422,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.9,
+        "end": 5.296,
+        "loc": "1",
+        "word": "홈페이지나"
+      },
+      {
+        "start": 5.634,
+        "end": 5.788,
+        "loc": "2",
+        "word": "휴대전화"
+      },
+      {
+        "start": 6.003,
+        "end": 6.551,
+        "loc": "3,4",
+        "word": "애플리케이션을 통해서도"
+      },
+      {
+        "start": 7.267,
+        "end": 7.96,
+        "loc": "8",
+        "word": "발급받을"
+      },
+      {
+        "start": 8.179,
+        "end": 8.422,
+        "loc": "9,10",
+        "word": "수 있어요."
+      },
+      {
+        "start": 3.073,
+        "end": 3.275,
+        "loc": "6",
+        "word": "통장을"
+      },
+      {
+        "start": 3.475,
+        "end": 4.111,
+        "loc": "5",
+        "word": "잃어버린"
+      },
+      {
+        "start": 4.325,
+        "end": 4.632,
+        "loc": "0",
+        "word": "은행의"
+      },
+      {
+        "start": 6.868,
+        "end": 7.054,
+        "loc": "7",
+        "word": "다시"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.073,
+        "end": 4.103,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.9,
+        "end": 5.296,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.325,
+        "end": 4.632,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.267,
+        "end": 7.446,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.676,
+        "end": 7.959,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 6.003,
+        "end": 6.551
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.9,
+        "end": 5.296
+      },
+      {
+        "descriptor": "",
+        "start": 6.305,
+        "end": 6.547
+      },
+      {
+        "descriptor": "",
+        "start": 8.179,
+        "end": 8.422
+      },
+      {
+        "descriptor": "",
+        "start": 3.7,
+        "end": 4.103
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.179,
+        "end": 8.422
+      },
+      {
+        "descriptor": "",
+        "start": 3.684,
+        "end": 4.096
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.9,
+        "end": 6.549
+      },
+      {
+        "descriptor": "",
+        "start": 3.475,
+        "end": 4.111
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333180",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:27:49",
+    "sentence_ID": "VXPAKOKS240333180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    289,
+    126
+  ],
+  "file": "VXPAKOKS240333180.mp4",
+  "saved_as": "VXPAKOKS240333180-은행의홈페이지나휴대전화애플리케이션을통해서도잃어버린통장을다시발급받을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

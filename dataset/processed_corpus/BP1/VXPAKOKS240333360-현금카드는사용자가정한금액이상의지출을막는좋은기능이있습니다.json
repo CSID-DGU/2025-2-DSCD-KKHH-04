@@ -1,0 +1,206 @@
+{
+  "id": "VXPAKOKS240333360",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드는 사용자가 정한 금액 이상의 지출을 막는 좋은 기능이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.657,
+        "end": 2.721,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.949,
+        "end": 3.194,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.61,
+        "end": 4.351,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.698,
+        "end": 4.975,
+        "gloss_id": "빨강2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.293,
+        "end": 5.538,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.783,
+        "end": 6.009,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.657,
+        "end": 3.16,
+        "loc": "0",
+        "word": "현금카드는"
+      },
+      {
+        "start": 3.61,
+        "end": 4.351,
+        "loc": "1,2,3",
+        "word": "사용자가 정한 금액"
+      },
+      {
+        "start": 4.698,
+        "end": 4.975,
+        "loc": "4,5",
+        "word": "이상의 지출을"
+      },
+      {
+        "start": 5.293,
+        "end": 5.538,
+        "loc": "6",
+        "word": "막는"
+      },
+      {
+        "start": 5.783,
+        "end": 6.009,
+        "loc": "7,8,9",
+        "word": "좋은 기능이 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.61,
+        "end": 4.975,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.293,
+        "end": 5.538,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.949,
+        "end": 3.194
+      },
+      {
+        "descriptor": "",
+        "start": 3.61,
+        "end": 4.351
+      },
+      {
+        "descriptor": "",
+        "start": 5.293,
+        "end": 5.538
+      },
+      {
+        "descriptor": "",
+        "start": 5.783,
+        "end": 6.009
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.357,
+        "end": 5.544
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.61,
+        "end": 4.968
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.657,
+        "end": 3.192
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333360",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:08",
+    "sentence_ID": "VXPAKOKS240333360",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    229,
+    126
+  ],
+  "file": "VXPAKOKS240333360.mp4",
+  "saved_as": "VXPAKOKS240333360-현금카드는사용자가정한금액이상의지출을막는좋은기능이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

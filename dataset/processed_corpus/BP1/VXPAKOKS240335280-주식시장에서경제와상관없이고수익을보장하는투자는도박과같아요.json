@@ -1,0 +1,283 @@
+{
+  "id": "VXPAKOKS240335280",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 시장에서 경제와 상관없이 고수익을 보장하는 투자는 도박과 같아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.446,
+        "end": 2.877,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.2,
+        "end": 3.511,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.814,
+        "end": 4.099,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.059,
+        "end": 5.24,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.492,
+        "end": 5.656,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.007,
+        "end": 6.154,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.404,
+        "end": 6.956,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.383,
+        "end": 7.78,
+        "gloss_id": "변수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.069,
+        "end": 8.414,
+        "gloss_id": "같다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.415,
+        "end": 4.846,
+        "gloss_id": "오르다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.446,
+        "end": 4.108,
+        "loc": "0,1,2,3",
+        "word": "주식 시장에서 경제와 상관없이"
+      },
+      {
+        "start": 7.383,
+        "end": 7.78,
+        "loc": "7",
+        "word": "도박과"
+      },
+      {
+        "start": 8.069,
+        "end": 8.414,
+        "loc": "8",
+        "word": "같아요."
+      },
+      {
+        "start": 6.404,
+        "end": 6.956,
+        "loc": "6",
+        "word": "투자는"
+      },
+      {
+        "start": 4.415,
+        "end": 6.181,
+        "loc": "4,5",
+        "word": "고수익을 보장하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.446,
+        "end": 2.877,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.2,
+        "end": 3.511,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.814,
+        "end": 4.099,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.007,
+        "end": 6.154,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.069,
+        "end": 8.414,
+        "gloss_id": "같다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.415,
+        "end": 4.846,
+        "gloss_id": "구형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.446,
+        "end": 2.877
+      },
+      {
+        "descriptor": "",
+        "start": 4.553,
+        "end": 4.811
+      },
+      {
+        "descriptor": "",
+        "start": 6.007,
+        "end": 6.154
+      },
+      {
+        "descriptor": "",
+        "start": 6.587,
+        "end": 6.923
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.553,
+        "end": 4.82
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.383,
+        "end": 8.425
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.446,
+        "end": 2.877
+      },
+      {
+        "descriptor": "",
+        "start": 4.415,
+        "end": 6.146
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335280",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:35:30",
+    "sentence_ID": "VXPAKOKS240335280",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    310,
+    126
+  ],
+  "file": "VXPAKOKS240335280.mp4",
+  "saved_as": "VXPAKOKS240335280-주식시장에서경제와상관없이고수익을보장하는투자는도박과같아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

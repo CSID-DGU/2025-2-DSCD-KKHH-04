@@ -1,0 +1,270 @@
+{
+  "id": "VXPAKOKS240330570",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "도난이나 분실에 주의하고, 거래할 때는 수수료를 확인하는 게 좋습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.805,
+        "end": 2.359,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.672,
+        "end": 3.172,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.46,
+        "end": 4.135,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.427,
+        "end": 4.826,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.028,
+        "end": 5.488,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.785,
+        "end": 6.023,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.208,
+        "end": 6.594,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.828,
+        "end": 7.173,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.805,
+        "end": 2.359,
+        "loc": "0",
+        "word": "도난이나"
+      },
+      {
+        "start": 2.672,
+        "end": 3.172,
+        "loc": "1",
+        "word": "분실에"
+      },
+      {
+        "start": 3.46,
+        "end": 4.135,
+        "loc": "2",
+        "word": "주의하고,"
+      },
+      {
+        "start": 4.427,
+        "end": 4.826,
+        "loc": "3,4",
+        "word": "거래할 때는"
+      },
+      {
+        "start": 5.028,
+        "end": 5.488,
+        "loc": "5",
+        "word": "수수료를"
+      },
+      {
+        "start": 5.785,
+        "end": 6.588,
+        "loc": "6,7",
+        "word": "확인하는 게"
+      },
+      {
+        "start": 6.828,
+        "end": 7.173,
+        "loc": "8",
+        "word": "좋습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.805,
+        "end": 2.359,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.46,
+        "end": 4.135,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.028,
+        "end": 5.488,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.828,
+        "end": 7.173,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.069,
+        "end": 2.34
+      },
+      {
+        "descriptor": "",
+        "start": 2.924,
+        "end": 3.189
+      },
+      {
+        "descriptor": "",
+        "start": 3.615,
+        "end": 4.122
+      },
+      {
+        "descriptor": "",
+        "start": 5.785,
+        "end": 6.023
+      },
+      {
+        "descriptor": "",
+        "start": 6.284,
+        "end": 6.589
+      },
+      {
+        "descriptor": "",
+        "start": 6.828,
+        "end": 7.173
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.07,
+        "end": 2.362
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.805,
+        "end": 3.206
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.828,
+        "end": 7.173
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.427,
+        "end": 4.826
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330570",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:32:53",
+    "sentence_ID": "VXPAKOKS240330570",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    242,
+    126
+  ],
+  "file": "VXPAKOKS240330570.mp4",
+  "saved_as": "VXPAKOKS240330570-도난이나분실에주의하고,거래할때는수수료를확인하는게좋습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

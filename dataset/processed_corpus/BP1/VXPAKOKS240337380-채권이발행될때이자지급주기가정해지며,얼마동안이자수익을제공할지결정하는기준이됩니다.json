@@ -1,0 +1,364 @@
+{
+  "id": "VXPAKOKS240337380",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권이 발행될 때 이자 지급 주기가 정해지며, 얼마 동안 이자 수익을 제공할지 결정하는 기준이 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.571,
+        "end": 2.649,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.879,
+        "end": 3.041,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.329,
+        "end": 3.759,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.12,
+        "end": 4.381,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.657,
+        "end": 5.206,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.567,
+        "end": 5.888,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.128,
+        "end": 6.369,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.527,
+        "end": 7.116,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.429,
+        "end": 7.7,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.851,
+        "end": 8.062,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.296,
+        "end": 8.577,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.86,
+        "end": 9.071,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.392,
+        "end": 9.574,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.186,
+        "end": 9.295,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.865,
+        "end": 10.225,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.575,
+        "end": 3.761,
+        "loc": "0",
+        "word": "채권이"
+      },
+      {
+        "start": 4.12,
+        "end": 4.381,
+        "loc": "1",
+        "word": "발행될"
+      },
+      {
+        "start": 4.657,
+        "end": 5.206,
+        "loc": "2",
+        "word": "때"
+      },
+      {
+        "start": 5.567,
+        "end": 5.888,
+        "loc": "3",
+        "word": "이자"
+      },
+      {
+        "start": 6.128,
+        "end": 6.369,
+        "loc": "4",
+        "word": "지급"
+      },
+      {
+        "start": 6.527,
+        "end": 7.116,
+        "loc": "5,6",
+        "word": "주기가 정해지며,"
+      },
+      {
+        "start": 7.429,
+        "end": 8.575,
+        "loc": "7,8",
+        "word": "얼마 동안"
+      },
+      {
+        "start": 8.86,
+        "end": 9.558,
+        "loc": "9,10,11",
+        "word": "이자 수익을 제공할지"
+      },
+      {
+        "start": 9.865,
+        "end": 10.225,
+        "loc": "12,13,14",
+        "word": "결정하는 기준이 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.329,
+        "end": 3.759,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.657,
+        "end": 5.206,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.527,
+        "end": 7.116,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.429,
+        "end": 7.7,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.851,
+        "end": 8.062,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.296,
+        "end": 8.577,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.865,
+        "end": 10.225,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.865,
+        "end": 10.225
+      },
+      {
+        "descriptor": "",
+        "start": 3.329,
+        "end": 3.759
+      },
+      {
+        "descriptor": "",
+        "start": 4.657,
+        "end": 5.206
+      },
+      {
+        "descriptor": "",
+        "start": 6.56,
+        "end": 7.116
+      },
+      {
+        "descriptor": "",
+        "start": 8.296,
+        "end": 8.577
+      },
+      {
+        "descriptor": "",
+        "start": 9.392,
+        "end": 9.574
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.429,
+        "end": 7.7
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.879,
+        "end": 4.393
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337380",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:36:36",
+    "sentence_ID": "VXPAKOKS240337380",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    358,
+    126
+  ],
+  "file": "VXPAKOKS240337380.mp4",
+  "saved_as": "VXPAKOKS240337380-채권이발행될때이자지급주기가정해지며,얼마동안이자수익을제공할지결정하는기준이됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

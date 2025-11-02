@@ -1,0 +1,307 @@
+{
+  "id": "VXPAKOKS240335450",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "자산을 모으려면 투자 성향에 맞는 주식을 선택한 후 오랫동안 보유해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.597,
+        "end": 2.931,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.222,
+        "end": 3.746,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.903,
+        "end": 4.157,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.362,
+        "end": 4.585,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.829,
+        "end": 5.289,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.581,
+        "end": 5.685,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.938,
+        "end": 6.406,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.761,
+        "end": 6.897,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.133,
+        "end": 7.688,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.597,
+        "end": 2.931,
+        "loc": "0",
+        "word": "자산을"
+      },
+      {
+        "start": 3.222,
+        "end": 3.746,
+        "loc": "1",
+        "word": "모으려면"
+      },
+      {
+        "start": 3.903,
+        "end": 4.157,
+        "loc": "2",
+        "word": "투자"
+      },
+      {
+        "start": 4.362,
+        "end": 4.585,
+        "loc": "3",
+        "word": "성향에"
+      },
+      {
+        "start": 4.829,
+        "end": 5.289,
+        "loc": "4",
+        "word": "맞는"
+      },
+      {
+        "start": 5.581,
+        "end": 5.685,
+        "loc": "5",
+        "word": "주식을"
+      },
+      {
+        "start": 5.938,
+        "end": 6.406,
+        "loc": "6,7",
+        "word": "선택한 후"
+      },
+      {
+        "start": 6.761,
+        "end": 6.897,
+        "loc": "8",
+        "word": "오랫동안"
+      },
+      {
+        "start": 7.133,
+        "end": 7.688,
+        "loc": "9,10",
+        "word": "보유해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.362,
+        "end": 4.585,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.829,
+        "end": 5.289,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.581,
+        "end": 5.685,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.938,
+        "end": 6.406,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.761,
+        "end": 6.897,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.133,
+        "end": 7.688,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.222,
+        "end": 3.746
+      },
+      {
+        "descriptor": "",
+        "start": 4.829,
+        "end": 5.289
+      },
+      {
+        "descriptor": "",
+        "start": 5.938,
+        "end": 6.406
+      },
+      {
+        "descriptor": "",
+        "start": 6.761,
+        "end": 6.897
+      },
+      {
+        "descriptor": "",
+        "start": 7.133,
+        "end": 7.688
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.027,
+        "end": 5.289
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.222,
+        "end": 3.746
+      },
+      {
+        "descriptor": "",
+        "start": 7.133,
+        "end": 7.688
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.597,
+        "end": 3.754
+      },
+      {
+        "descriptor": "",
+        "start": 4.829,
+        "end": 5.289
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335450",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:36:18",
+    "sentence_ID": "VXPAKOKS240335450",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    285,
+    126
+  ],
+  "file": "VXPAKOKS240335450.mp4",
+  "saved_as": "VXPAKOKS240335450-자산을모으려면투자성향에맞는주식을선택한후오랫동안보유해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

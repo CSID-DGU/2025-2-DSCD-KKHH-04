@@ -1,0 +1,330 @@
+{
+  "id": "VXPAKOKS240376710",
+  "opertor": "label11",
+  "krlgg_sntenc": {
+    "koreanText": "카드는 등록한 주소로 우편 발송되거나 은행 지점에서 직접 수령할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.51,
+        "end": 2.595,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.832,
+        "end": 3.201,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.373,
+        "end": 3.496,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.056,
+        "end": 4.309,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.559,
+        "end": 5.097,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.369,
+        "end": 5.46,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.645,
+        "end": 5.852,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.01,
+        "end": 6.402,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.594,
+        "end": 7.055,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.635,
+        "end": 3.847,
+        "gloss_id": "주소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.51,
+        "end": 2.595,
+        "loc": "0",
+        "word": "카드는"
+      },
+      {
+        "start": 2.832,
+        "end": 3.201,
+        "loc": "1",
+        "word": "등록한"
+      },
+      {
+        "start": 3.373,
+        "end": 3.853,
+        "loc": "2",
+        "word": "주소로"
+      },
+      {
+        "start": 4.056,
+        "end": 4.309,
+        "loc": "3",
+        "word": "우편"
+      },
+      {
+        "start": 4.559,
+        "end": 5.097,
+        "loc": "4",
+        "word": "발송되거나"
+      },
+      {
+        "start": 5.645,
+        "end": 6.402,
+        "loc": "7",
+        "word": "직접"
+      },
+      {
+        "start": 5.369,
+        "end": 5.46,
+        "loc": "5,6",
+        "word": "은행 지점에서"
+      },
+      {
+        "start": 6.594,
+        "end": 7.055,
+        "loc": "8,9,10",
+        "word": "수령할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.103,
+        "end": 2.596,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.939,
+        "end": 7.055,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.832,
+        "end": 3.201,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.635,
+        "end": 3.847,
+        "gloss_id": "주소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.056,
+        "end": 4.309,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.559,
+        "end": 5.097,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.369,
+        "end": 5.46,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.645,
+        "end": 5.852,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.01,
+        "end": 6.402,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.939,
+        "end": 7.043
+      },
+      {
+        "descriptor": "",
+        "start": 2.103,
+        "end": 2.603
+      },
+      {
+        "descriptor": "",
+        "start": 4.559,
+        "end": 5.097
+      },
+      {
+        "descriptor": "",
+        "start": 6.01,
+        "end": 6.402
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.939,
+        "end": 7.043
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.559,
+        "end": 5.097
+      },
+      {
+        "descriptor": "",
+        "start": 6.01,
+        "end": 6.926
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.51,
+        "end": 2.595
+      },
+      {
+        "descriptor": "",
+        "start": 4.559,
+        "end": 5.097
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240376710",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:47:50",
+    "sentence_ID": "VXPAKOKS240376710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    277,
+    126
+  ],
+  "file": "VXPAKOKS240376710.mp4",
+  "saved_as": "VXPAKOKS240376710-카드는등록한주소로우편발송되거나은행지점에서직접수령할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

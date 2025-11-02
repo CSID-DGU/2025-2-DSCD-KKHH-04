@@ -1,0 +1,352 @@
+{
+  "id": "VXPAKOKS240351370",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 이자율이 높으면 저축을 통해 얻는 이익도 커지므로 사람들이 많이 가입하게 돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.496,
+        "end": 1.634,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.792,
+        "end": 2.051,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.067,
+        "end": 3.278,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.498,
+        "end": 3.958,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.269,
+        "end": 4.64,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.819,
+        "end": 5.062,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.266,
+        "end": 5.525,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.717,
+        "end": 5.896,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.118,
+        "end": 6.481,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.728,
+        "end": 6.867,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.015,
+        "end": 7.443,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.637,
+        "end": 7.984,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.247,
+        "end": 8.602,
+        "gloss_id": "증가12",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.496,
+        "end": 2.027,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.227,
+        "end": 3.353,
+        "loc": "1",
+        "word": "이자율이"
+      },
+      {
+        "start": 3.498,
+        "end": 3.958,
+        "loc": "2",
+        "word": "높으면"
+      },
+      {
+        "start": 4.269,
+        "end": 4.64,
+        "loc": "3",
+        "word": "저축을"
+      },
+      {
+        "start": 4.819,
+        "end": 5.062,
+        "loc": "4",
+        "word": "통해"
+      },
+      {
+        "start": 5.266,
+        "end": 5.525,
+        "loc": "6",
+        "word": "이익도"
+      },
+      {
+        "start": 5.717,
+        "end": 5.896,
+        "loc": "5",
+        "word": "얻는"
+      },
+      {
+        "start": 6.118,
+        "end": 6.481,
+        "loc": "7",
+        "word": "커지므로"
+      },
+      {
+        "start": 6.728,
+        "end": 7.437,
+        "loc": "8",
+        "word": "사람들이"
+      },
+      {
+        "start": 7.637,
+        "end": 7.976,
+        "loc": "10,11",
+        "word": "가입하게 돼요."
+      },
+      {
+        "start": 8.247,
+        "end": 8.602,
+        "loc": "9",
+        "word": "많이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.792,
+        "end": 2.051,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.227,
+        "end": 2.55,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.789,
+        "end": 3.289,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.269,
+        "end": 4.64,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.728,
+        "end": 7.444,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.637,
+        "end": 7.984,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.247,
+        "end": 8.602,
+        "gloss_id": "증가12",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.498,
+        "end": 3.958
+      },
+      {
+        "descriptor": "",
+        "start": 8.247,
+        "end": 8.602
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.819,
+        "end": 5.062
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.717,
+        "end": 6.53
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.498,
+        "end": 3.958
+      },
+      {
+        "descriptor": "",
+        "start": 5.266,
+        "end": 5.525
+      },
+      {
+        "descriptor": "",
+        "start": 6.728,
+        "end": 7.172
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351370",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:03",
+    "sentence_ID": "VXPAKOKS240351370",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    289,
+    126
+  ],
+  "file": "VXPAKOKS240351370.mp4",
+  "saved_as": "VXPAKOKS240351370-적금이자율이높으면저축을통해얻는이익도커지므로사람들이많이가입하게돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

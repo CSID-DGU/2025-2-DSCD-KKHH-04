@@ -1,0 +1,308 @@
+{
+  "id": "VXPAKOKS240351490",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "은행에 가면 고금리 적금 상품에 관해 상담할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.312,
+        "end": 1.474,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.701,
+        "end": 2.551,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.806,
+        "end": 2.988,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.212,
+        "end": 3.438,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.664,
+        "end": 4.081,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.331,
+        "end": 4.474,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.66,
+        "end": 4.899,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.125,
+        "end": 5.421,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.586,
+        "end": 5.73,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.889,
+        "end": 6.128,
+        "gloss_id": "상담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.329,
+        "end": 6.53,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.312,
+        "end": 1.474,
+        "loc": "0",
+        "word": "은행에"
+      },
+      {
+        "start": 1.701,
+        "end": 2.551,
+        "loc": "1",
+        "word": "가면"
+      },
+      {
+        "start": 2.806,
+        "end": 4.077,
+        "loc": "2",
+        "word": "고금리"
+      },
+      {
+        "start": 4.331,
+        "end": 4.9,
+        "loc": "3",
+        "word": "적금"
+      },
+      {
+        "start": 5.125,
+        "end": 5.421,
+        "loc": "4",
+        "word": "상품에"
+      },
+      {
+        "start": 5.586,
+        "end": 5.73,
+        "loc": "5",
+        "word": "관해"
+      },
+      {
+        "start": 5.889,
+        "end": 6.128,
+        "loc": "6",
+        "word": "상담할"
+      },
+      {
+        "start": 6.329,
+        "end": 6.53,
+        "loc": "7,8",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.312,
+        "end": 1.474,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.701,
+        "end": 2.551,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.66,
+        "end": 4.899,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.125,
+        "end": 5.727,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.889,
+        "end": 6.128,
+        "gloss_id": "상담1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.329,
+        "end": 6.53
+      },
+      {
+        "descriptor": "",
+        "start": 1.701,
+        "end": 2.105
+      },
+      {
+        "descriptor": "",
+        "start": 3.664,
+        "end": 4.081
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.329,
+        "end": 6.53
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.664,
+        "end": 4.081
+      },
+      {
+        "descriptor": "",
+        "start": 5.586,
+        "end": 6.131
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.701,
+        "end": 2.016
+      },
+      {
+        "descriptor": "",
+        "start": 3.664,
+        "end": 4.081
+      },
+      {
+        "descriptor": "",
+        "start": 4.66,
+        "end": 5.376
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351490",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:42",
+    "sentence_ID": "VXPAKOKS240351490",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    229,
+    126
+  ],
+  "file": "VXPAKOKS240351490.mp4",
+  "saved_as": "VXPAKOKS240351490-은행에가면고금리적금상품에관해상담할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

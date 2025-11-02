@@ -1,0 +1,261 @@
+{
+  "id": "VXPAKOKS240330220",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "카드 결제일에 카드값을 납부하지 못했을 때 연체료가 발생해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.227,
+        "end": 2.387,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.55,
+        "end": 2.692,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.938,
+        "end": 3.468,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.714,
+        "end": 3.981,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.168,
+        "end": 4.626,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.488,
+        "end": 5.791,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.966,
+        "end": 6.311,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.998,
+        "end": 5.302,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.227,
+        "end": 2.387,
+        "loc": "0",
+        "word": "카드"
+      },
+      {
+        "start": 2.55,
+        "end": 3.462,
+        "loc": "1",
+        "word": "결제일에"
+      },
+      {
+        "start": 3.714,
+        "end": 3.981,
+        "loc": "2,3",
+        "word": "카드값을 납부하지"
+      },
+      {
+        "start": 4.168,
+        "end": 4.626,
+        "loc": "4,5",
+        "word": "못했을 때"
+      },
+      {
+        "start": 4.998,
+        "end": 6.304,
+        "loc": "6,7",
+        "word": "연체료가 발생해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.55,
+        "end": 2.692,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.938,
+        "end": 3.468,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.714,
+        "end": 4.626,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.998,
+        "end": 5.307,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.966,
+        "end": 6.311,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.938,
+        "end": 3.468
+      },
+      {
+        "descriptor": "",
+        "start": 4.168,
+        "end": 4.626
+      },
+      {
+        "descriptor": "",
+        "start": 4.998,
+        "end": 5.307
+      },
+      {
+        "descriptor": "",
+        "start": 5.966,
+        "end": 6.311
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.1,
+        "end": 5.307
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 3.738,
+        "end": 4.065
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.938,
+        "end": 3.468
+      },
+      {
+        "descriptor": "",
+        "start": 4.998,
+        "end": 6.311
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.998,
+        "end": 5.774
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330220",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:58:29",
+    "sentence_ID": "VXPAKOKS240330220",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    215,
+    126
+  ],
+  "file": "VXPAKOKS240330220.mp4",
+  "saved_as": "VXPAKOKS240330220-카드결제일에카드값을납부하지못했을때연체료가발생해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

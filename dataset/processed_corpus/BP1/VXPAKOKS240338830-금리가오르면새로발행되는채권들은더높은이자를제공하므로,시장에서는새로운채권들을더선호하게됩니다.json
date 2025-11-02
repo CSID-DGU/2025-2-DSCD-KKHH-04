@@ -1,0 +1,354 @@
+{
+  "id": "VXPAKOKS240338830",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "금리가 오르면 새로 발행되는 채권들은 더 높은 이자를 제공하므로, 시장에서는 새로운 채권들을 더 선호하게 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.703,
+        "end": 2.02,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.248,
+        "end": 2.787,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.253,
+        "end": 3.364,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.405,
+        "end": 3.524,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.661,
+        "end": 3.772,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.101,
+        "end": 4.403,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.706,
+        "end": 4.921,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.193,
+        "end": 5.455,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.989,
+        "end": 6.362,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.614,
+        "end": 6.694,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.869,
+        "end": 6.98,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.179,
+        "end": 7.346,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.736,
+        "end": 7.951,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.293,
+        "end": 8.515,
+        "gloss_id": "인기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.253,
+        "end": 3.364,
+        "loc": "2,3",
+        "word": "새로 발행되는"
+      },
+      {
+        "start": 3.405,
+        "end": 4.411,
+        "loc": "4",
+        "word": "채권들은"
+      },
+      {
+        "start": 4.706,
+        "end": 4.921,
+        "loc": "7,8",
+        "word": "이자를 제공하므로,"
+      },
+      {
+        "start": 5.193,
+        "end": 6.366,
+        "loc": "5,6",
+        "word": "더 높은"
+      },
+      {
+        "start": 6.614,
+        "end": 7.36,
+        "loc": "9,11",
+        "word": "시장에서는 채권들을"
+      },
+      {
+        "start": 1.703,
+        "end": 2.02,
+        "loc": "0",
+        "word": "금리가"
+      },
+      {
+        "start": 2.248,
+        "end": 2.787,
+        "loc": "1",
+        "word": "오르면"
+      },
+      {
+        "start": 7.736,
+        "end": 7.951,
+        "loc": "10",
+        "word": "새로운"
+      },
+      {
+        "start": 8.293,
+        "end": 8.515,
+        "loc": "12,13,14",
+        "word": "더 선호하게 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.253,
+        "end": 3.364,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.101,
+        "end": 4.403,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.179,
+        "end": 7.346,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.989,
+        "end": 6.362,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.736,
+        "end": 7.951,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.414,
+        "end": 2.732
+      },
+      {
+        "descriptor": "",
+        "start": 4.101,
+        "end": 4.403
+      },
+      {
+        "descriptor": "",
+        "start": 5.989,
+        "end": 6.362
+      },
+      {
+        "descriptor": "",
+        "start": 7.736,
+        "end": 7.951
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.414,
+        "end": 2.732
+      },
+      {
+        "descriptor": "",
+        "start": 5.989,
+        "end": 6.362
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.706,
+        "end": 5.444
+      },
+      {
+        "descriptor": "",
+        "start": 3.253,
+        "end": 3.507
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.703,
+        "end": 2.726
+      },
+      {
+        "descriptor": "",
+        "start": 4.101,
+        "end": 4.403
+      },
+      {
+        "descriptor": "",
+        "start": 7.179,
+        "end": 7.94
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338830",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:46:22",
+    "sentence_ID": "VXPAKOKS240338830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    285,
+    126
+  ],
+  "file": "VXPAKOKS240338830.mp4",
+  "saved_as": "VXPAKOKS240338830-금리가오르면새로발행되는채권들은더높은이자를제공하므로,시장에서는새로운채권들을더선호하게됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

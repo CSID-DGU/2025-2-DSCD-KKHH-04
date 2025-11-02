@@ -1,0 +1,267 @@
+{
+  "id": "VXPAKOKS240338400",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자자는 투자 기간에 세금 부담 없이 투자 수익을 가져갑니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.998,
+        "end": 2.096,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.279,
+        "end": 2.402,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.597,
+        "end": 3.031,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.293,
+        "end": 3.613,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.861,
+        "end": 4.025,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.289,
+        "end": 4.887,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.174,
+        "end": 5.436,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.722,
+        "end": 6.181,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.484,
+        "end": 6.91,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.24,
+        "end": 7.469,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.998,
+        "end": 3.03,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.301,
+        "end": 3.613,
+        "loc": "1",
+        "word": "투자자는"
+      },
+      {
+        "start": 3.861,
+        "end": 4.902,
+        "loc": "2,3",
+        "word": "투자 기간에"
+      },
+      {
+        "start": 5.174,
+        "end": 5.436,
+        "loc": "4,5",
+        "word": "세금 부담"
+      },
+      {
+        "start": 5.722,
+        "end": 6.181,
+        "loc": "6",
+        "word": "없이"
+      },
+      {
+        "start": 6.484,
+        "end": 7.467,
+        "loc": "7,8,9",
+        "word": "투자 수익을 가져갑니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.597,
+        "end": 3.031,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.861,
+        "end": 4.025,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.289,
+        "end": 4.887,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.174,
+        "end": 5.436,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.24,
+        "end": 7.469
+      },
+      {
+        "descriptor": "",
+        "start": 2.695,
+        "end": 3.031
+      },
+      {
+        "descriptor": "",
+        "start": 4.445,
+        "end": 4.887
+      },
+      {
+        "descriptor": "",
+        "start": 5.722,
+        "end": 6.181
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.24,
+        "end": 7.469
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.279,
+        "end": 4.877
+      },
+      {
+        "descriptor": "",
+        "start": 5.722,
+        "end": 6.181
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338400",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:43:08",
+    "sentence_ID": "VXPAKOKS240338400",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    295,
+    126
+  ],
+  "file": "VXPAKOKS240338400.mp4",
+  "saved_as": "VXPAKOKS240338400-채권투자자는투자기간에세금부담없이투자수익을가져갑니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

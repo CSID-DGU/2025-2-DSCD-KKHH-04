@@ -1,0 +1,271 @@
+{
+  "id": "VXPAKOKS240330850",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "결제 취소를 요청했지만, 환불을 받지 못하는 경우도 발생할 수 있습니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.723,
+        "end": 1.95,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.206,
+        "end": 2.493,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.8,
+        "end": 3.1,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.393,
+        "end": 4.066,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.293,
+        "end": 4.653,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.926,
+        "end": 5.466,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.773,
+        "end": 6.046,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.186,
+        "end": 6.846,
+        "gloss_id": "가끔1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.723,
+        "end": 2.503,
+        "loc": "0",
+        "word": "결제"
+      },
+      {
+        "start": 2.8,
+        "end": 3.1,
+        "loc": "1",
+        "word": "취소를"
+      },
+      {
+        "start": 3.393,
+        "end": 4.066,
+        "loc": "2",
+        "word": "요청했지만,"
+      },
+      {
+        "start": 4.293,
+        "end": 5.46,
+        "loc": "3",
+        "word": "환불을"
+      },
+      {
+        "start": 5.773,
+        "end": 6.046,
+        "loc": "4,5,6",
+        "word": "받지 못하는 경우도"
+      },
+      {
+        "start": 6.186,
+        "end": 6.846,
+        "loc": "7,8,9",
+        "word": "발생할 수 있습니까?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.8,
+        "end": 3.1,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.393,
+        "end": 4.066,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.293,
+        "end": 4.653,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.926,
+        "end": 5.466,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.186,
+        "end": 6.846,
+        "gloss_id": "가끔1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.186,
+        "end": 6.846
+      },
+      {
+        "descriptor": "",
+        "start": 2.206,
+        "end": 2.493
+      },
+      {
+        "descriptor": "",
+        "start": 2.8,
+        "end": 3.1
+      },
+      {
+        "descriptor": "",
+        "start": 3.693,
+        "end": 4.066
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.206,
+        "end": 2.493
+      },
+      {
+        "descriptor": "",
+        "start": 3.686,
+        "end": 4.066
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.8,
+        "end": 3.1
+      },
+      {
+        "descriptor": "",
+        "start": 4.926,
+        "end": 6.046
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.186,
+        "end": 6.846
+      },
+      {
+        "descriptor": "",
+        "start": 1.723,
+        "end": 2.477
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330850",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:39:06",
+    "sentence_ID": "VXPAKOKS240330850",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    240,
+    126
+  ],
+  "file": "VXPAKOKS240330850.mp4",
+  "saved_as": "VXPAKOKS240330850-결제취소를요청했지만,환불을받지못하는경우도발생할수있습니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

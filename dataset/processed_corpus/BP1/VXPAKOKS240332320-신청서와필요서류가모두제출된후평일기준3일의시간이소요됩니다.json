@@ -1,0 +1,344 @@
+{
+  "id": "VXPAKOKS240332320",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "신청서와 필요 서류가 모두 제출된 후 평일 기준 3일의 시간이 소요됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.581,
+        "end": 1.738,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.914,
+        "end": 2.768,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.079,
+        "end": 3.442,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.753,
+        "end": 4.104,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.284,
+        "end": 4.509,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.746,
+        "end": 5.789,
+        "gloss_id": "완전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.118,
+        "end": 6.297,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.428,
+        "end": 6.72,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.957,
+        "end": 7.271,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.504,
+        "end": 7.676,
+        "gloss_id": "날짜(활용):3일",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.937,
+        "end": 8.31,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.581,
+        "end": 2.743,
+        "loc": "0",
+        "word": "신청서와"
+      },
+      {
+        "start": 3.079,
+        "end": 3.415,
+        "loc": "1",
+        "word": "필요"
+      },
+      {
+        "start": 3.753,
+        "end": 4.074,
+        "loc": "2",
+        "word": "서류가"
+      },
+      {
+        "start": 4.284,
+        "end": 5.804,
+        "loc": "3,4,5",
+        "word": "모두 제출된 후"
+      },
+      {
+        "start": 6.118,
+        "end": 6.699,
+        "loc": "6",
+        "word": "평일"
+      },
+      {
+        "start": 6.957,
+        "end": 7.271,
+        "loc": "7",
+        "word": "기준"
+      },
+      {
+        "start": 7.504,
+        "end": 7.676,
+        "loc": "8,9",
+        "word": "3일의 시간이"
+      },
+      {
+        "start": 7.937,
+        "end": 8.31,
+        "loc": "10",
+        "word": "소요됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.581,
+        "end": 1.738,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.914,
+        "end": 2.768,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.079,
+        "end": 3.442,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.753,
+        "end": 4.104,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.746,
+        "end": 5.789,
+        "gloss_id": "완전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.118,
+        "end": 6.297,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.428,
+        "end": 6.72,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.957,
+        "end": 7.271,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.937,
+        "end": 8.31,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.284,
+        "end": 4.509,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "삼일",
+        "start": 7.504,
+        "end": 7.651
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.454,
+        "end": 6.006
+      },
+      {
+        "descriptor": "",
+        "start": 2.215,
+        "end": 2.863
+      },
+      {
+        "descriptor": "",
+        "start": 6.957,
+        "end": 7.382
+      },
+      {
+        "descriptor": "",
+        "start": 7.937,
+        "end": 8.421
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.465,
+        "end": 6.001
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.504,
+        "end": 8.435
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.957,
+        "end": 7.382
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332320",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:44:23",
+    "sentence_ID": "VXPAKOKS240332320",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    268,
+    126
+  ],
+  "file": "VXPAKOKS240332320.mp4",
+  "saved_as": "VXPAKOKS240332320-신청서와필요서류가모두제출된후평일기준3일의시간이소요됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

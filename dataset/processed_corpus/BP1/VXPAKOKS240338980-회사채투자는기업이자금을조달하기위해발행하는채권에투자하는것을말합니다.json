@@ -1,0 +1,345 @@
+{
+  "id": "VXPAKOKS240338980",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "회사채 투자는 기업이 자금을 조달하기 위해 발행하는 채권에 투자하는 것을 말합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.059,
+        "end": 2.501,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.764,
+        "end": 2.847,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.994,
+        "end": 3.154,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.385,
+        "end": 3.636,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.814,
+        "end": 4.231,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.391,
+        "end": 4.568,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.742,
+        "end": 5.25,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.629,
+        "end": 5.831,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.983,
+        "end": 6.085,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.466,
+        "end": 6.908,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.105,
+        "end": 7.195,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.391,
+        "end": 7.543,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.793,
+        "end": 8.119,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.225,
+        "end": 8.559,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.857,
+        "end": 9.1,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.059,
+        "end": 3.644,
+        "loc": "0",
+        "word": "회사채"
+      },
+      {
+        "start": 3.814,
+        "end": 5.25,
+        "loc": "1",
+        "word": "투자는"
+      },
+      {
+        "start": 5.983,
+        "end": 6.085,
+        "loc": "3",
+        "word": "자금을"
+      },
+      {
+        "start": 7.113,
+        "end": 8.123,
+        "loc": "6,7",
+        "word": "발행하는 채권에"
+      },
+      {
+        "start": 8.225,
+        "end": 8.559,
+        "loc": "8,9",
+        "word": "투자하는 것을"
+      },
+      {
+        "start": 5.629,
+        "end": 5.831,
+        "loc": "2",
+        "word": "기업이"
+      },
+      {
+        "start": 6.466,
+        "end": 6.908,
+        "loc": "4,5",
+        "word": "조달하기 위해"
+      },
+      {
+        "start": 8.857,
+        "end": 9.1,
+        "loc": "10",
+        "word": "말합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.059,
+        "end": 2.501,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.385,
+        "end": 3.636,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.793,
+        "end": 8.119,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.629,
+        "end": 6.079,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.466,
+        "end": 6.908,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.857,
+        "end": 9.1,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.059,
+        "end": 2.501
+      },
+      {
+        "descriptor": "",
+        "start": 4.742,
+        "end": 5.25
+      },
+      {
+        "descriptor": "",
+        "start": 6.466,
+        "end": 6.908
+      },
+      {
+        "descriptor": "",
+        "start": 7.793,
+        "end": 8.119
+      },
+      {
+        "descriptor": "",
+        "start": 8.857,
+        "end": 9.1
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.383,
+        "end": 5.247
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.059,
+        "end": 3.637
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338980",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:48:49",
+    "sentence_ID": "VXPAKOKS240338980",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    298,
+    126
+  ],
+  "file": "VXPAKOKS240338980.mp4",
+  "saved_as": "VXPAKOKS240338980-회사채투자는기업이자금을조달하기위해발행하는채권에투자하는것을말합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

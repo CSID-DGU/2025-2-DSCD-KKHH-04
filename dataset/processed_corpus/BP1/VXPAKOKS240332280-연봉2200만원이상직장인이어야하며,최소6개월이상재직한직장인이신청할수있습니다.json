@@ -1,0 +1,344 @@
+{
+  "id": "VXPAKOKS240332280",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "연봉 2200만 원 이상 직장인이어야 하며, 최소 6개월 이상 재직한 직장인이 신청할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.675,
+        "end": 1.776,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.943,
+        "end": 2.581,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.798,
+        "end": 3.189,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.407,
+        "end": 4.182,
+        "gloss_id": "22000000",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.422,
+        "end": 4.842,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.089,
+        "end": 5.212,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.386,
+        "end": 5.915,
+        "gloss_id": "다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.184,
+        "end": 6.481,
+        "gloss_id": "날짜(활용):6개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.738,
+        "end": 6.999,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.242,
+        "end": 7.589,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.764,
+        "end": 7.988,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.407,
+        "end": 4.182,
+        "loc": "1,2",
+        "word": "2200만 원"
+      },
+      {
+        "start": 4.422,
+        "end": 4.842,
+        "loc": "3",
+        "word": "이상"
+      },
+      {
+        "start": 6.184,
+        "end": 6.481,
+        "loc": "6,7",
+        "word": "최소 6개월"
+      },
+      {
+        "start": 6.738,
+        "end": 6.999,
+        "loc": "8",
+        "word": "이상"
+      },
+      {
+        "start": 5.089,
+        "end": 5.917,
+        "loc": "9,10",
+        "word": "재직한 직장인이"
+      },
+      {
+        "start": 7.242,
+        "end": 7.589,
+        "loc": "11",
+        "word": "신청할"
+      },
+      {
+        "start": 7.764,
+        "end": 7.988,
+        "loc": "12,13",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 1.943,
+        "end": 3.185,
+        "loc": "0",
+        "word": "연봉"
+      },
+      {
+        "start": 1.675,
+        "end": 1.776,
+        "loc": "4,5",
+        "word": "직장인이어야 하며,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.675,
+        "end": 1.776,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.943,
+        "end": 2.581,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.798,
+        "end": 3.189,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.089,
+        "end": 5.212,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.386,
+        "end": 5.915,
+        "gloss_id": "다니다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.242,
+        "end": 7.589,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "이천이백만",
+        "start": 3.407,
+        "end": 4.182
+      },
+      {
+        "descriptor": "일 년",
+        "start": 1.943,
+        "end": 2.581
+      },
+      {
+        "descriptor": "육개월",
+        "start": 6.184,
+        "end": 6.481
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.422,
+        "end": 4.842
+      },
+      {
+        "descriptor": "",
+        "start": 5.386,
+        "end": 5.915
+      },
+      {
+        "descriptor": "",
+        "start": 6.738,
+        "end": 6.999
+      },
+      {
+        "descriptor": "",
+        "start": 7.764,
+        "end": 7.988
+      },
+      {
+        "descriptor": "",
+        "start": 2.199,
+        "end": 2.59
+      },
+      {
+        "descriptor": "",
+        "start": 2.798,
+        "end": 3.189
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.764,
+        "end": 7.988
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.386,
+        "end": 5.915
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.402,
+        "end": 5.774
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.675,
+        "end": 1.978
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332280",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:43:56",
+    "sentence_ID": "VXPAKOKS240332280",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    261,
+    126
+  ],
+  "file": "VXPAKOKS240332280.mp4",
+  "saved_as": "VXPAKOKS240332280-연봉2200만원이상직장인이어야하며,최소6개월이상재직한직장인이신청할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

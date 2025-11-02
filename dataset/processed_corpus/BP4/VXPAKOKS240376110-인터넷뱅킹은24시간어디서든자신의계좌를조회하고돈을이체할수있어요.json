@@ -1,0 +1,329 @@
+{
+  "id": "VXPAKOKS240376110",
+  "opertor": "label26",
+  "krlgg_sntenc": {
+    "koreanText": "인터넷 뱅킹은 24시간 어디서든 자신의 계좌를 조회하고 돈을 이체할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.582,
+        "end": 1.812,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.052,
+        "end": 2.242,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.425,
+        "end": 2.949,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.308,
+        "end": 3.538,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.618,
+        "end": 4.126,
+        "gloss_id": "곳1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.238,
+        "end": 4.396,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.445,
+        "end": 4.525,
+        "gloss_id": "가지다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.922,
+        "end": 5.183,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.431,
+        "end": 5.947,
+        "gloss_id": "시간:24시간",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.449,
+        "end": 6.973,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.069,
+        "end": 7.149,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.268,
+        "end": 7.553,
+        "gloss_id": "송금1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.705,
+        "end": 7.895,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.582,
+        "end": 1.812,
+        "loc": "0",
+        "word": "인터넷"
+      },
+      {
+        "start": 2.052,
+        "end": 2.942,
+        "loc": "1",
+        "word": "뱅킹은"
+      },
+      {
+        "start": 3.308,
+        "end": 4.118,
+        "loc": "3",
+        "word": "어디서든"
+      },
+      {
+        "start": 4.238,
+        "end": 4.523,
+        "loc": "4",
+        "word": "자신의"
+      },
+      {
+        "start": 7.069,
+        "end": 7.149,
+        "loc": "7",
+        "word": "돈을"
+      },
+      {
+        "start": 7.268,
+        "end": 7.887,
+        "loc": "8,9,10",
+        "word": "이체할 수 있어요."
+      },
+      {
+        "start": 4.922,
+        "end": 5.183,
+        "loc": "5",
+        "word": "계좌를"
+      },
+      {
+        "start": 5.431,
+        "end": 5.947,
+        "loc": "2",
+        "word": "24시간"
+      },
+      {
+        "start": 6.449,
+        "end": 6.973,
+        "loc": "6",
+        "word": "조회하고"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.582,
+        "end": 1.812,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.052,
+        "end": 2.242,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.922,
+        "end": 5.183,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.431,
+        "end": 5.947,
+        "gloss_id": "시간:24시간",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.268,
+        "end": 7.553,
+        "gloss_id": "송금1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.425,
+        "end": 2.949
+      },
+      {
+        "descriptor": "",
+        "start": 4.922,
+        "end": 5.183
+      },
+      {
+        "descriptor": "",
+        "start": 7.705,
+        "end": 7.895
+      },
+      {
+        "descriptor": "",
+        "start": 3.618,
+        "end": 4.126
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.705,
+        "end": 7.895
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.313,
+        "end": 4.115
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.425,
+        "end": 2.949
+      },
+      {
+        "descriptor": "",
+        "start": 3.308,
+        "end": 4.118
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240376110",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:44:27",
+    "sentence_ID": "VXPAKOKS240376110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240376110.mp4",
+  "saved_as": "VXPAKOKS240376110-인터넷뱅킹은24시간어디서든자신의계좌를조회하고돈을이체할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

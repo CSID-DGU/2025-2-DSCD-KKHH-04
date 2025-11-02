@@ -1,0 +1,306 @@
+{
+  "id": "VXPAKOKS240343190",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "통장 사본을 요구받았을 때, 왜 필요한지 명확히 확인하고 제공해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.535,
+        "end": 1.729,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.097,
+        "end": 2.305,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.729,
+        "end": 3.264,
+        "gloss_id": "주세요1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.514,
+        "end": 3.799,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.173,
+        "end": 4.333,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.736,
+        "end": 4.944,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.097,
+        "end": 5.673,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.854,
+        "end": 6.076,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.271,
+        "end": 6.563,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.535,
+        "end": 1.729,
+        "loc": "0",
+        "word": "통장"
+      },
+      {
+        "start": 2.097,
+        "end": 2.305,
+        "loc": "1",
+        "word": "사본을"
+      },
+      {
+        "start": 2.729,
+        "end": 3.264,
+        "loc": "2,3",
+        "word": "요구받았을 때,"
+      },
+      {
+        "start": 4.173,
+        "end": 4.333,
+        "loc": "4",
+        "word": "왜"
+      },
+      {
+        "start": 3.514,
+        "end": 3.799,
+        "loc": "5",
+        "word": "필요한지"
+      },
+      {
+        "start": 4.736,
+        "end": 4.944,
+        "loc": "6",
+        "word": "명확히"
+      },
+      {
+        "start": 5.097,
+        "end": 5.673,
+        "loc": "7",
+        "word": "확인하고"
+      },
+      {
+        "start": 5.854,
+        "end": 6.562,
+        "loc": "8,9",
+        "word": "제공해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.535,
+        "end": 1.729,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.097,
+        "end": 2.305,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.729,
+        "end": 3.264,
+        "gloss_id": "주세요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.514,
+        "end": 3.799,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.736,
+        "end": 4.944,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.271,
+        "end": 6.563,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.097,
+        "end": 2.305
+      },
+      {
+        "descriptor": "",
+        "start": 2.729,
+        "end": 3.264
+      },
+      {
+        "descriptor": "",
+        "start": 4.173,
+        "end": 4.333
+      },
+      {
+        "descriptor": "",
+        "start": 5.564,
+        "end": 5.678
+      },
+      {
+        "descriptor": "",
+        "start": 5.854,
+        "end": 6.076
+      },
+      {
+        "descriptor": "",
+        "start": 4.736,
+        "end": 4.944
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.564,
+        "end": 5.678
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.346,
+        "end": 4.399
+      },
+      {
+        "descriptor": "",
+        "start": 5.854,
+        "end": 6.43
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.018,
+        "end": 3.126
+      },
+      {
+        "descriptor": "",
+        "start": 4.966,
+        "end": 5.585
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343190",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:30:31",
+    "sentence_ID": "VXPAKOKS240343190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    250,
+    126
+  ],
+  "file": "VXPAKOKS240343190.mp4",
+  "saved_as": "VXPAKOKS240343190-통장사본을요구받았을때,왜필요한지명확히확인하고제공해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

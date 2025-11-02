@@ -1,0 +1,231 @@
+{
+  "id": "VXPAKOKS240334750",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 가격이 내려가면 두려움을 느끼기 때문에 자신의 마음을 관리할 수 있어야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.613,
+        "end": 2.76,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.02,
+        "end": 3.598,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.822,
+        "end": 4.165,
+        "gloss_id": "불안1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.442,
+        "end": 4.726,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.062,
+        "end": 5.34,
+        "gloss_id": "마음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.526,
+        "end": 5.934,
+        "gloss_id": "지혜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.163,
+        "end": 6.441,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.613,
+        "end": 2.76,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 3.02,
+        "end": 3.598,
+        "loc": "1,2",
+        "word": "가격이 내려가면"
+      },
+      {
+        "start": 3.822,
+        "end": 4.727,
+        "loc": "3,4,5",
+        "word": "두려움을 느끼기 때문에"
+      },
+      {
+        "start": 5.062,
+        "end": 5.34,
+        "loc": "6,7",
+        "word": "자신의 마음을"
+      },
+      {
+        "start": 5.526,
+        "end": 6.444,
+        "loc": "8,9,10,11",
+        "word": "관리할 수 있어야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.613,
+        "end": 2.76,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.822,
+        "end": 4.165,
+        "gloss_id": "불안1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.062,
+        "end": 5.34,
+        "gloss_id": "마음1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.526,
+        "end": 5.934,
+        "gloss_id": "지혜1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.163,
+        "end": 6.441,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.02,
+        "end": 3.598,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.163,
+        "end": 6.441
+      },
+      {
+        "descriptor": "",
+        "start": 4.442,
+        "end": 4.726
+      },
+      {
+        "descriptor": "",
+        "start": 5.578,
+        "end": 5.934
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.02,
+        "end": 4.696
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240334750",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:32:06",
+    "sentence_ID": "VXPAKOKS240334750",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    235,
+    126
+  ],
+  "file": "VXPAKOKS240334750.mp4",
+  "saved_as": "VXPAKOKS240334750-주식가격이내려가면두려움을느끼기때문에자신의마음을관리할수있어야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,353 @@
+{
+  "id": "VXPAKOKS240353710",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "친구들끼리 해외여행을 가기 위해 각자 1년 동안 매월 10만 원씩 적금하기로 했어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.374,
+        "end": 2.017,
+        "gloss_id": "친구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.28,
+        "end": 2.693,
+        "gloss_id": "모임1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.939,
+        "end": 3.058,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.201,
+        "end": 3.637,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.972,
+        "end": 4.464,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.631,
+        "end": 5.131,
+        "gloss_id": "각각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.346,
+        "end": 5.806,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.069,
+        "end": 6.394,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.682,
+        "end": 7.039,
+        "gloss_id": "100000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.182,
+        "end": 7.261,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.38,
+        "end": 7.602,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.746,
+        "end": 7.968,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.374,
+        "end": 2.684,
+        "loc": "0",
+        "word": "친구들끼리"
+      },
+      {
+        "start": 2.939,
+        "end": 3.638,
+        "loc": "1,2",
+        "word": "해외여행을 가기"
+      },
+      {
+        "start": 3.972,
+        "end": 4.464,
+        "loc": "3",
+        "word": "위해"
+      },
+      {
+        "start": 4.631,
+        "end": 5.131,
+        "loc": "4",
+        "word": "각자"
+      },
+      {
+        "start": 5.346,
+        "end": 5.806,
+        "loc": "5,6",
+        "word": "1년 동안"
+      },
+      {
+        "start": 6.069,
+        "end": 6.394,
+        "loc": "7",
+        "word": "매월"
+      },
+      {
+        "start": 6.682,
+        "end": 7.039,
+        "loc": "8,9",
+        "word": "10만 원씩"
+      },
+      {
+        "start": 7.182,
+        "end": 7.968,
+        "loc": "10,11",
+        "word": "적금하기로 했어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.374,
+        "end": 2.017,
+        "gloss_id": "친구1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.28,
+        "end": 2.693,
+        "gloss_id": "모임1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.939,
+        "end": 3.058,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.201,
+        "end": 3.637,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.972,
+        "end": 4.464,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.346,
+        "end": 6.386,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.38,
+        "end": 7.602,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.746,
+        "end": 7.968,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일년",
+        "start": 5.346,
+        "end": 5.806
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.28,
+        "end": 2.693
+      },
+      {
+        "descriptor": "",
+        "start": 3.972,
+        "end": 4.464
+      },
+      {
+        "descriptor": "",
+        "start": 7.781,
+        "end": 7.968
+      },
+      {
+        "descriptor": "",
+        "start": 6.069,
+        "end": 6.394
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.786,
+        "end": 7.968
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.38,
+        "end": 7.787
+      },
+      {
+        "descriptor": "",
+        "start": 6.117,
+        "end": 6.314
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.28,
+        "end": 2.693
+      },
+      {
+        "descriptor": "",
+        "start": 4.631,
+        "end": 5.131
+      },
+      {
+        "descriptor": "",
+        "start": 6.069,
+        "end": 6.394
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353710",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:09:00",
+    "sentence_ID": "VXPAKOKS240353710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240353710.mp4",
+  "saved_as": "VXPAKOKS240353710-친구들끼리해외여행을가기위해각자1년동안매월10만원씩적금하기로했어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

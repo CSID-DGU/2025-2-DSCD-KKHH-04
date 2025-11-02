@@ -1,0 +1,353 @@
+{
+  "id": "VXPAKOKS240351470",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금은 매달 정해진 금액을 납입하고, 원금이 보장되는 금융 상품이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.404,
+        "end": 1.553,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.746,
+        "end": 2.287,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.521,
+        "end": 2.718,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.299,
+        "end": 4.198,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.614,
+        "end": 4.845,
+        "gloss_id": "언제1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.058,
+        "end": 5.436,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.658,
+        "end": 5.865,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.114,
+        "end": 6.524,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.767,
+        "end": 7.063,
+        "gloss_id": "백점1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.291,
+        "end": 7.758,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "3"
+        }
+      },
+      {
+        "start": 8.009,
+        "end": 8.15,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.313,
+        "end": 8.666,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.81,
+        "end": 3.023,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.404,
+        "end": 2.294,
+        "loc": "0",
+        "word": "적금은"
+      },
+      {
+        "start": 4.614,
+        "end": 5.415,
+        "loc": "2",
+        "word": "정해진"
+      },
+      {
+        "start": 5.658,
+        "end": 6.508,
+        "loc": "5",
+        "word": "원금이"
+      },
+      {
+        "start": 6.767,
+        "end": 7.763,
+        "loc": "6",
+        "word": "보장되는"
+      },
+      {
+        "start": 8.009,
+        "end": 8.15,
+        "loc": "7",
+        "word": "금융"
+      },
+      {
+        "start": 8.313,
+        "end": 8.666,
+        "loc": "8",
+        "word": "상품이에요."
+      },
+      {
+        "start": 2.521,
+        "end": 3.028,
+        "loc": "1",
+        "word": "매달"
+      },
+      {
+        "start": 3.299,
+        "end": 4.198,
+        "loc": "3,4",
+        "word": "금액을 납입하고,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.746,
+        "end": 2.287,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.614,
+        "end": 4.845,
+        "gloss_id": "언제1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.058,
+        "end": 5.436,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.658,
+        "end": 5.865,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.291,
+        "end": 7.758,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.009,
+        "end": 8.15,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.313,
+        "end": 8.666,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.746,
+        "end": 2.287
+      },
+      {
+        "descriptor": "",
+        "start": 2.521,
+        "end": 3.028
+      },
+      {
+        "descriptor": "",
+        "start": 5.058,
+        "end": 5.436
+      },
+      {
+        "descriptor": "",
+        "start": 6.114,
+        "end": 6.524
+      },
+      {
+        "descriptor": "",
+        "start": 8.313,
+        "end": 8.666
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.521,
+        "end": 3.028
+      },
+      {
+        "descriptor": "",
+        "start": 5.058,
+        "end": 5.436
+      },
+      {
+        "descriptor": "",
+        "start": 6.767,
+        "end": 7.063
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.404,
+        "end": 2.302
+      },
+      {
+        "descriptor": "",
+        "start": 6.114,
+        "end": 6.524
+      },
+      {
+        "descriptor": "",
+        "start": 7.291,
+        "end": 7.758
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351470",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:37",
+    "sentence_ID": "VXPAKOKS240351470",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    293,
+    126
+  ],
+  "file": "VXPAKOKS240351470.mp4",
+  "saved_as": "VXPAKOKS240351470-적금은매달정해진금액을납입하고,원금이보장되는금융상품이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

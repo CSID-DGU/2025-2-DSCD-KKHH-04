@@ -1,0 +1,258 @@
+{
+  "id": "VXPAKOKS240352170",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "대전 은행에서는 매월 5만 원을 납입하는 적금 상품이 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.799,
+        "end": 2.122,
+        "gloss_id": "대전2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.379,
+        "end": 2.599,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.852,
+        "end": 3.117,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.293,
+        "end": 3.484,
+        "gloss_id": "50000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.546,
+        "end": 4.218,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.373,
+        "end": 4.512,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.648,
+        "end": 4.896,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.095,
+        "end": 5.246,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.406,
+        "end": 5.551,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.799,
+        "end": 2.116,
+        "loc": "0",
+        "word": "대전"
+      },
+      {
+        "start": 2.379,
+        "end": 2.599,
+        "loc": "1",
+        "word": "은행에서는"
+      },
+      {
+        "start": 2.852,
+        "end": 3.117,
+        "loc": "2",
+        "word": "매월"
+      },
+      {
+        "start": 3.293,
+        "end": 3.49,
+        "loc": "3,4",
+        "word": "5만 원을"
+      },
+      {
+        "start": 3.546,
+        "end": 4.218,
+        "loc": "5",
+        "word": "납입하는"
+      },
+      {
+        "start": 4.373,
+        "end": 4.889,
+        "loc": "6",
+        "word": "적금"
+      },
+      {
+        "start": 5.095,
+        "end": 5.246,
+        "loc": "7",
+        "word": "상품이"
+      },
+      {
+        "start": 5.406,
+        "end": 5.551,
+        "loc": "8",
+        "word": "있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.799,
+        "end": 2.122,
+        "gloss_id": "대전2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.379,
+        "end": 2.599,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.648,
+        "end": 4.896,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.095,
+        "end": 5.246,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.406,
+        "end": 5.551
+      },
+      {
+        "descriptor": "",
+        "start": 2.379,
+        "end": 2.599
+      },
+      {
+        "descriptor": "",
+        "start": 2.852,
+        "end": 3.117
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.379,
+        "end": 2.599
+      },
+      {
+        "descriptor": "",
+        "start": 4.094,
+        "end": 4.783
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352170",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:50:50",
+    "sentence_ID": "VXPAKOKS240352170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    206,
+    126
+  ],
+  "file": "VXPAKOKS240352170.mp4",
+  "saved_as": "VXPAKOKS240352170-대전은행에서는매월5만원을납입하는적금상품이있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

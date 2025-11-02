@@ -1,0 +1,325 @@
+{
+  "id": "VXPAKOKS240328950",
+  "opertor": "label15",
+  "krlgg_sntenc": {
+    "koreanText": "적금 가입이 고민된다면, 은행 직원이나 전문가와 상담하는 게 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.947,
+        "end": 2.574,
+        "gloss_id": "고민1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.799,
+        "end": 3.058,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.188,
+        "end": 3.985,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.222,
+        "end": 4.722,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.837,
+        "end": 5.082,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.156,
+        "end": 5.302,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.366,
+        "end": 5.859,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.933,
+        "end": 6.121,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.233,
+        "end": 7.016,
+        "gloss_id": "상담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.199,
+        "end": 7.607,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.947,
+        "end": 2.574,
+        "loc": "2",
+        "word": "고민된다면,"
+      },
+      {
+        "start": 4.837,
+        "end": 5.082,
+        "loc": "3",
+        "word": "은행"
+      },
+      {
+        "start": 5.156,
+        "end": 5.854,
+        "loc": "4",
+        "word": "직원이나"
+      },
+      {
+        "start": 5.933,
+        "end": 6.121,
+        "loc": "5",
+        "word": "전문가와"
+      },
+      {
+        "start": 6.233,
+        "end": 7.016,
+        "loc": "6,7",
+        "word": "상담하는 게"
+      },
+      {
+        "start": 7.199,
+        "end": 7.607,
+        "loc": "8",
+        "word": "좋아요."
+      },
+      {
+        "start": 2.799,
+        "end": 3.979,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 4.222,
+        "end": 4.722,
+        "loc": "1",
+        "word": "가입이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.947,
+        "end": 2.574,
+        "gloss_id": "고민1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.188,
+        "end": 3.985,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.222,
+        "end": 4.722,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.837,
+        "end": 5.082,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.156,
+        "end": 5.302,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.366,
+        "end": 6.121,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.233,
+        "end": 7.016,
+        "gloss_id": "상담1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.199,
+        "end": 7.607,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.799,
+        "end": 3.058,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.947,
+        "end": 2.574
+      },
+      {
+        "descriptor": "",
+        "start": 3.188,
+        "end": 3.985
+      },
+      {
+        "descriptor": "",
+        "start": 4.222,
+        "end": 4.722
+      },
+      {
+        "descriptor": "",
+        "start": 5.366,
+        "end": 5.859
+      },
+      {
+        "descriptor": "",
+        "start": 6.233,
+        "end": 7.016
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.947,
+        "end": 2.574
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.233,
+        "end": 7.016
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.156,
+        "end": 7.023
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328950",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:39:42",
+    "sentence_ID": "VXPAKOKS240328950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    255,
+    126
+  ],
+  "file": "VXPAKOKS240328950.mp4",
+  "saved_as": "VXPAKOKS240328950-적금가입이고민된다면,은행직원이나전문가와상담하는게좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

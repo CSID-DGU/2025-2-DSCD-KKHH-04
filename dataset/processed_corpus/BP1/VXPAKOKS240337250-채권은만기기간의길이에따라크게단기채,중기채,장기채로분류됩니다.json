@@ -1,0 +1,331 @@
+{
+  "id": "VXPAKOKS240337250",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권은 만기 기간의 길이에 따라 크게 단기채, 중기채, 장기채로 분류됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.268,
+        "end": 2.4,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.595,
+        "end": 2.754,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.038,
+        "end": 3.547,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.902,
+        "end": 4.07,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.276,
+        "end": 4.372,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.655,
+        "end": 5.299,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.612,
+        "end": 6.049,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.337,
+        "end": 6.612,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.885,
+        "end": 7.25,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.568,
+        "end": 7.879,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.137,
+        "end": 8.322,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.268,
+        "end": 3.549,
+        "loc": "0",
+        "word": "채권은"
+      },
+      {
+        "start": 3.902,
+        "end": 4.07,
+        "loc": "1",
+        "word": "만기"
+      },
+      {
+        "start": 4.276,
+        "end": 5.288,
+        "loc": "2,3,4",
+        "word": "기간의 길이에 따라"
+      },
+      {
+        "start": 5.612,
+        "end": 6.049,
+        "loc": "5,6",
+        "word": "크게 단기채,"
+      },
+      {
+        "start": 6.337,
+        "end": 6.612,
+        "loc": "7",
+        "word": "중기채,"
+      },
+      {
+        "start": 6.885,
+        "end": 7.25,
+        "loc": "8",
+        "word": "장기채로"
+      },
+      {
+        "start": 7.568,
+        "end": 8.319,
+        "loc": "9",
+        "word": "분류됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.038,
+        "end": 3.547,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.902,
+        "end": 4.07,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.276,
+        "end": 4.372,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.655,
+        "end": 5.299,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.612,
+        "end": 6.049,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.337,
+        "end": 6.612,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.885,
+        "end": 7.25,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.568,
+        "end": 7.879,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.137,
+        "end": 8.322
+      },
+      {
+        "descriptor": "",
+        "start": 3.038,
+        "end": 3.547
+      },
+      {
+        "descriptor": "",
+        "start": 4.655,
+        "end": 5.299
+      },
+      {
+        "descriptor": "",
+        "start": 5.684,
+        "end": 6.049
+      },
+      {
+        "descriptor": "",
+        "start": 6.337,
+        "end": 6.612
+      },
+      {
+        "descriptor": "",
+        "start": 6.885,
+        "end": 7.25
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.902,
+        "end": 4.07
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.885,
+        "end": 7.25
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.038,
+        "end": 3.547
+      },
+      {
+        "descriptor": "",
+        "start": 3.902,
+        "end": 5.3
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337250",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:35:55",
+    "sentence_ID": "VXPAKOKS240337250",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    323,
+    126
+  ],
+  "file": "VXPAKOKS240337250.mp4",
+  "saved_as": "VXPAKOKS240337250-채권은만기기간의길이에따라크게단기채,중기채,장기채로분류됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

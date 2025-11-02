@@ -1,0 +1,369 @@
+{
+  "id": "VXPAKOKS240354900",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자자는 여러 펀드의 성과를 비교하여 가장 적합한 것을 선택할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.225,
+        "end": 2.306,
+        "gloss_id": "펀드",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.543,
+        "end": 3.043,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.377,
+        "end": 3.643,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.864,
+        "end": 4.795,
+        "gloss_id": "펀드",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.121,
+        "end": 5.293,
+        "gloss_id": "잡다하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.465,
+        "end": 5.937,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.235,
+        "end": 6.904,
+        "gloss_id": "성공1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.133,
+        "end": 7.848,
+        "gloss_id": "비교1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.539,
+        "end": 8.645,
+        "gloss_id": "정상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.867,
+        "end": 9.067,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.298,
+        "end": 9.429,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.55,
+        "end": 9.666,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.225,
+        "end": 2.306,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 2.543,
+        "end": 3.633,
+        "loc": "1",
+        "word": "투자자는"
+      },
+      {
+        "start": 3.864,
+        "end": 4.795,
+        "loc": "3",
+        "word": "펀드의"
+      },
+      {
+        "start": 5.121,
+        "end": 5.93,
+        "loc": "2",
+        "word": "여러"
+      },
+      {
+        "start": 6.235,
+        "end": 6.904,
+        "loc": "4",
+        "word": "성과를"
+      },
+      {
+        "start": 7.133,
+        "end": 7.848,
+        "loc": "5",
+        "word": "비교하여"
+      },
+      {
+        "start": 8.539,
+        "end": 9.076,
+        "loc": "6,7,8",
+        "word": "가장 적합한 것을"
+      },
+      {
+        "start": 9.298,
+        "end": 9.429,
+        "loc": "9",
+        "word": "선택할"
+      },
+      {
+        "start": 9.55,
+        "end": 9.666,
+        "loc": "10,11",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.377,
+        "end": 3.643,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.121,
+        "end": 5.293,
+        "gloss_id": "잡다하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.465,
+        "end": 5.937,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.235,
+        "end": 6.904,
+        "gloss_id": "성공1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.133,
+        "end": 7.848,
+        "gloss_id": "비교1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.539,
+        "end": 8.645,
+        "gloss_id": "정상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.867,
+        "end": 9.067,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.298,
+        "end": 9.429,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "펀드",
+        "start": 3.864,
+        "end": 4.795
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.55,
+        "end": 9.666
+      },
+      {
+        "descriptor": "",
+        "start": 5.465,
+        "end": 5.937
+      },
+      {
+        "descriptor": "",
+        "start": 8.895,
+        "end": 9.067
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.55,
+        "end": 9.666
+      },
+      {
+        "descriptor": "",
+        "start": 3.377,
+        "end": 3.643
+      },
+      {
+        "descriptor": "",
+        "start": 8.899,
+        "end": 9.071
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.121,
+        "end": 5.911
+      },
+      {
+        "descriptor": "",
+        "start": 9.298,
+        "end": 9.429
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.007,
+        "end": 3.643
+      },
+      {
+        "descriptor": "",
+        "start": 6.235,
+        "end": 6.904
+      },
+      {
+        "descriptor": "",
+        "start": 7.133,
+        "end": 7.848
+      },
+      {
+        "descriptor": "",
+        "start": 8.867,
+        "end": 9.067
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354900",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:18:06",
+    "sentence_ID": "VXPAKOKS240354900",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    337,
+    126
+  ],
+  "file": "VXPAKOKS240354900.mp4",
+  "saved_as": "VXPAKOKS240354900-펀드투자자는여러펀드의성과를비교하여가장적합한것을선택할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,212 @@
+{
+  "id": "VXPAKOKS240330920",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "3년 전에 썼던 카드 내용을 알고 싶은데, 확인 방법을 알려 주세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.954,
+        "end": 2.679,
+        "gloss_id": "날짜(활용):3년전",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.948,
+        "end": 3.409,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.648,
+        "end": 4.114,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.313,
+        "end": 4.683,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.95,
+        "end": 5.134,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.345,
+        "end": 5.772,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.954,
+        "end": 2.679,
+        "loc": "0,1",
+        "word": "3년 전에"
+      },
+      {
+        "start": 2.948,
+        "end": 3.409,
+        "loc": "3,4",
+        "word": "카드 내용을"
+      },
+      {
+        "start": 3.648,
+        "end": 4.114,
+        "loc": "2",
+        "word": "썼던"
+      },
+      {
+        "start": 4.313,
+        "end": 4.683,
+        "loc": "5",
+        "word": "알고"
+      },
+      {
+        "start": 4.95,
+        "end": 5.134,
+        "loc": "6",
+        "word": "싶은데,"
+      },
+      {
+        "start": 5.345,
+        "end": 5.772,
+        "loc": "7,8,9,10",
+        "word": "확인 방법을 알려 주세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.954,
+        "end": 2.679,
+        "gloss_id": "날짜(활용):3년전",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.345,
+        "end": 5.772,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.954,
+        "end": 2.679
+      },
+      {
+        "descriptor": "",
+        "start": 3.648,
+        "end": 4.114
+      },
+      {
+        "descriptor": "",
+        "start": 5.345,
+        "end": 5.772
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.907,
+        "end": 4.12
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.313,
+        "end": 5.782
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.954,
+        "end": 2.679
+      },
+      {
+        "descriptor": "",
+        "start": 5.345,
+        "end": 5.772
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330920",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:39:38",
+    "sentence_ID": "VXPAKOKS240330920",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    203,
+    126
+  ],
+  "file": "VXPAKOKS240330920.mp4",
+  "saved_as": "VXPAKOKS240330920-3년전에썼던카드내용을알고싶은데,확인방법을알려주세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

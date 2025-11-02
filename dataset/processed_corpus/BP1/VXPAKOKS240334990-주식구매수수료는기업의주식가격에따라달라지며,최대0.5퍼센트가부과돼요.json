@@ -1,0 +1,362 @@
+{
+  "id": "VXPAKOKS240334990",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 구매 수수료는 기업의 주식 가격에 따라 달라지며, 최대 0.5퍼센트가 부과돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.306,
+        "end": 2.561,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.673,
+        "end": 2.937,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.105,
+        "end": 3.614,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.001,
+        "end": 4.247,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.486,
+        "end": 4.759,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.03,
+        "end": 5.267,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.638,
+        "end": 6.119,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.354,
+        "end": 6.482,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.726,
+        "end": 7.117,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.463,
+        "end": 7.664,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.758,
+        "end": 7.849,
+        "gloss_id": "5",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.983,
+        "end": 8.374,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.613,
+        "end": 9.158,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.306,
+        "end": 2.561,
+        "loc": "3",
+        "word": "기업의"
+      },
+      {
+        "start": 4.486,
+        "end": 5.239,
+        "loc": "2",
+        "word": "수수료는"
+      },
+      {
+        "start": 3.105,
+        "end": 3.614,
+        "loc": "5,6",
+        "word": "가격에 따라"
+      },
+      {
+        "start": 5.638,
+        "end": 6.119,
+        "loc": "7",
+        "word": "달라지며,"
+      },
+      {
+        "start": 6.354,
+        "end": 7.116,
+        "loc": "8",
+        "word": "최대"
+      },
+      {
+        "start": 7.361,
+        "end": 8.359,
+        "loc": "9",
+        "word": "0.5퍼센트가"
+      },
+      {
+        "start": 8.613,
+        "end": 9.158,
+        "loc": "10",
+        "word": "부과돼요."
+      },
+      {
+        "start": 2.673,
+        "end": 2.937,
+        "loc": "4",
+        "word": "주식"
+      },
+      {
+        "start": 4.001,
+        "end": 4.247,
+        "loc": "0,1",
+        "word": "주식 구매"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.306,
+        "end": 2.561,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.673,
+        "end": 2.937,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.001,
+        "end": 4.247,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.486,
+        "end": 5.257,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.638,
+        "end": 6.119,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.726,
+        "end": 7.117,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.361,
+        "end": 8.359,
+        "gloss_id": "0",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.613,
+        "end": 9.158,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.613,
+        "end": 9.158
+      },
+      {
+        "descriptor": "",
+        "start": 3.105,
+        "end": 3.614
+      },
+      {
+        "descriptor": "",
+        "start": 4.52,
+        "end": 5.267
+      },
+      {
+        "descriptor": "",
+        "start": 5.711,
+        "end": 6.119
+      },
+      {
+        "descriptor": "",
+        "start": 6.726,
+        "end": 7.117
+      },
+      {
+        "descriptor": "",
+        "start": 7.983,
+        "end": 8.374
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.638,
+        "end": 6.119
+      },
+      {
+        "descriptor": "",
+        "start": 7.983,
+        "end": 9.153
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.526,
+        "end": 5.267
+      },
+      {
+        "descriptor": "",
+        "start": 6.726,
+        "end": 7.117
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334990",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:33:53",
+    "sentence_ID": "VXPAKOKS240334990",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    326,
+    126
+  ],
+  "file": "VXPAKOKS240334990.mp4",
+  "saved_as": "VXPAKOKS240334990-주식구매수수료는기업의주식가격에따라달라지며,최대0.5퍼센트가부과돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,390 @@
+{
+  "id": "VXPAKOKS240351440",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금은 사람들이 좋아하는 재테크 방법으로 원금을 잃지 않으면서 이자 소득을 받을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.231,
+        "end": 1.42,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.601,
+        "end": 1.926,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.203,
+        "end": 2.711,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.038,
+        "end": 3.41,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.648,
+        "end": 3.965,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.257,
+        "end": 4.486,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.663,
+        "end": 4.804,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.982,
+        "end": 5.41,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.672,
+        "end": 5.853,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.014,
+        "end": 6.155,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.419,
+        "end": 6.704,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.912,
+        "end": 7.3,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.527,
+        "end": 7.788,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.098,
+        "end": 8.359,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.531,
+        "end": 8.728,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.231,
+        "end": 1.93,
+        "loc": "1",
+        "word": "사람들이"
+      },
+      {
+        "start": 2.203,
+        "end": 3.404,
+        "loc": "3",
+        "word": "재테크"
+      },
+      {
+        "start": 3.648,
+        "end": 3.965,
+        "loc": "4",
+        "word": "방법으로"
+      },
+      {
+        "start": 4.257,
+        "end": 4.486,
+        "loc": "2",
+        "word": "좋아하는"
+      },
+      {
+        "start": 4.663,
+        "end": 5.442,
+        "loc": "0",
+        "word": "적금은"
+      },
+      {
+        "start": 5.672,
+        "end": 6.148,
+        "loc": "5",
+        "word": "원금을"
+      },
+      {
+        "start": 6.419,
+        "end": 6.704,
+        "loc": "6",
+        "word": "잃지"
+      },
+      {
+        "start": 6.912,
+        "end": 7.3,
+        "loc": "7",
+        "word": "않으면서"
+      },
+      {
+        "start": 7.527,
+        "end": 7.788,
+        "loc": "8",
+        "word": "이자"
+      },
+      {
+        "start": 8.098,
+        "end": 8.359,
+        "loc": "9,10",
+        "word": "소득을 받을"
+      },
+      {
+        "start": 8.531,
+        "end": 8.728,
+        "loc": "11,12",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.231,
+        "end": 1.42,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.203,
+        "end": 2.711,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.038,
+        "end": 3.41,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.648,
+        "end": 3.965,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.982,
+        "end": 5.41,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.672,
+        "end": 5.853,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.419,
+        "end": 6.704,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.098,
+        "end": 8.359,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.531,
+        "end": 8.728
+      },
+      {
+        "descriptor": "",
+        "start": 1.601,
+        "end": 1.926
+      },
+      {
+        "descriptor": "",
+        "start": 4.982,
+        "end": 5.41
+      },
+      {
+        "descriptor": "",
+        "start": 6.912,
+        "end": 7.3
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.531,
+        "end": 8.728
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.257,
+        "end": 4.486
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.038,
+        "end": 3.84
+      },
+      {
+        "descriptor": "",
+        "start": 5.672,
+        "end": 7.304
+      },
+      {
+        "descriptor": "",
+        "start": 7.527,
+        "end": 7.788
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351440",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:27",
+    "sentence_ID": "VXPAKOKS240351440",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    287,
+    126
+  ],
+  "file": "VXPAKOKS240351440.mp4",
+  "saved_as": "VXPAKOKS240351440-적금은사람들이좋아하는재테크방법으로원금을잃지않으면서이자소득을받을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

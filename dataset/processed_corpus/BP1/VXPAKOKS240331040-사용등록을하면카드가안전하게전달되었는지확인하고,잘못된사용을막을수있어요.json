@@ -1,0 +1,327 @@
+{
+  "id": "VXPAKOKS240331040",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "사용등록을 하면 카드가 안전하게 전달되었는지 확인하고, 잘못된 사용을 막을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.109,
+        "end": 2.455,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.697,
+        "end": 2.908,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.196,
+        "end": 3.316,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.606,
+        "end": 4.043,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.405,
+        "end": 4.598,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.829,
+        "end": 4.985,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.263,
+        "end": 5.682,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.989,
+        "end": 6.218,
+        "gloss_id": "맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.579,
+        "end": 7.061,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.37,
+        "end": 7.744,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.18,
+        "end": 8.28,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.575,
+        "end": 8.821,
+        "gloss_id": "잘못1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.039,
+        "end": 9.413,
+        "gloss_id": "가져가다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.648,
+        "end": 9.948,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.109,
+        "end": 4.03,
+        "loc": "0,1",
+        "word": "사용등록을 하면"
+      },
+      {
+        "start": 4.405,
+        "end": 4.598,
+        "loc": "2",
+        "word": "카드가"
+      },
+      {
+        "start": 4.829,
+        "end": 6.198,
+        "loc": "3,4",
+        "word": "안전하게 전달되었는지"
+      },
+      {
+        "start": 6.579,
+        "end": 7.061,
+        "loc": "5",
+        "word": "확인하고,"
+      },
+      {
+        "start": 7.37,
+        "end": 9.392,
+        "loc": "6,7",
+        "word": "잘못된 사용을"
+      },
+      {
+        "start": 9.648,
+        "end": 9.948,
+        "loc": "8,9,10",
+        "word": "막을 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.109,
+        "end": 2.455,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.697,
+        "end": 2.908,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.829,
+        "end": 4.985,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.575,
+        "end": 8.821,
+        "gloss_id": "잘못1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.648,
+        "end": 9.948,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.606,
+        "end": 4.043
+      },
+      {
+        "descriptor": "",
+        "start": 5.989,
+        "end": 6.218
+      },
+      {
+        "descriptor": "",
+        "start": 6.579,
+        "end": 7.061
+      },
+      {
+        "descriptor": "",
+        "start": 9.648,
+        "end": 9.948
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.989,
+        "end": 6.218
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 8.18,
+        "end": 9.404
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.263,
+        "end": 5.682
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.263,
+        "end": 6.216
+      },
+      {
+        "descriptor": "",
+        "start": 2.109,
+        "end": 4.04
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331040",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:06:33",
+    "sentence_ID": "VXPAKOKS240331040",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    326,
+    126
+  ],
+  "file": "VXPAKOKS240331040.mp4",
+  "saved_as": "VXPAKOKS240331040-사용등록을하면카드가안전하게전달되었는지확인하고,잘못된사용을막을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

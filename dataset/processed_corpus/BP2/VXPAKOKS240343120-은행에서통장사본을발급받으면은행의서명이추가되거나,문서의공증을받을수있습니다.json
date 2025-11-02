@@ -1,0 +1,332 @@
+{
+  "id": "VXPAKOKS240343120",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 통장 사본을 발급받으면 은행의 서명이 추가되거나, 문서의 공증을 받을 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.733,
+        "end": 1.971,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.211,
+        "end": 2.393,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.688,
+        "end": 2.973,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.399,
+        "end": 4.376,
+        "gloss_id": "인쇄1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.851,
+        "end": 5.335,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.55,
+        "end": 5.684,
+        "gloss_id": "이름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.9,
+        "end": 6.352,
+        "gloss_id": "사인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.568,
+        "end": 7.124,
+        "gloss_id": "도장2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.45,
+        "end": 7.791,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.968,
+        "end": 8.07,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.733,
+        "end": 1.971,
+        "loc": "0",
+        "word": "은행에서"
+      },
+      {
+        "start": 2.211,
+        "end": 2.393,
+        "loc": "1",
+        "word": "통장"
+      },
+      {
+        "start": 2.688,
+        "end": 2.973,
+        "loc": "2",
+        "word": "사본을"
+      },
+      {
+        "start": 3.399,
+        "end": 4.376,
+        "loc": "3",
+        "word": "발급받으면"
+      },
+      {
+        "start": 4.851,
+        "end": 5.335,
+        "loc": "4",
+        "word": "은행의"
+      },
+      {
+        "start": 5.55,
+        "end": 6.36,
+        "loc": "5,6",
+        "word": "서명이 추가되거나,"
+      },
+      {
+        "start": 6.568,
+        "end": 7.124,
+        "loc": "7,8",
+        "word": "문서의 공증을"
+      },
+      {
+        "start": 7.968,
+        "end": 8.07,
+        "loc": "10,11",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 7.45,
+        "end": 7.791,
+        "loc": "9",
+        "word": "받을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.733,
+        "end": 1.971,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.211,
+        "end": 2.393,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.688,
+        "end": 2.973,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.399,
+        "end": 4.376,
+        "gloss_id": "인쇄1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.851,
+        "end": 5.335,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.55,
+        "end": 6.352,
+        "gloss_id": "사인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.568,
+        "end": 7.124,
+        "gloss_id": "도장2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.45,
+        "end": 7.791,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.968,
+        "end": 8.07
+      },
+      {
+        "descriptor": "",
+        "start": 1.733,
+        "end": 1.971
+      },
+      {
+        "descriptor": "",
+        "start": 2.688,
+        "end": 2.973
+      },
+      {
+        "descriptor": "",
+        "start": 3.399,
+        "end": 4.164
+      },
+      {
+        "descriptor": "",
+        "start": 4.851,
+        "end": 5.335
+      },
+      {
+        "descriptor": "",
+        "start": 5.9,
+        "end": 6.352
+      },
+      {
+        "descriptor": "",
+        "start": 6.568,
+        "end": 7.124
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.968,
+        "end": 8.07
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.733,
+        "end": 1.971
+      },
+      {
+        "descriptor": "",
+        "start": 2.599,
+        "end": 2.945
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343120",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:30:14",
+    "sentence_ID": "VXPAKOKS240343120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240343120.mp4",
+  "saved_as": "VXPAKOKS240343120-은행에서통장사본을발급받으면은행의서명이추가되거나,문서의공증을받을수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

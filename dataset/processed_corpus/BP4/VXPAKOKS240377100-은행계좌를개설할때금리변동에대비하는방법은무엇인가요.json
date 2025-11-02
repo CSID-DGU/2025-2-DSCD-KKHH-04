@@ -1,0 +1,294 @@
+{
+  "id": "VXPAKOKS240377100",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "은행 계좌를 개설할 때 금리 변동에 대비하는 방법은 무엇인가요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.273,
+        "end": 1.405,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.575,
+        "end": 1.662,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.789,
+        "end": 1.941,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.117,
+        "end": 3.099,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.498,
+        "end": 3.83,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.987,
+        "end": 4.226,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.335,
+        "end": 4.453,
+        "gloss_id": "아마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.63,
+        "end": 5.003,
+        "gloss_id": "오르내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.173,
+        "end": 5.565,
+        "gloss_id": "혹시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.769,
+        "end": 6.135,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.273,
+        "end": 1.405,
+        "loc": "0",
+        "word": "은행"
+      },
+      {
+        "start": 1.575,
+        "end": 1.662,
+        "loc": "1",
+        "word": "계좌를"
+      },
+      {
+        "start": 1.789,
+        "end": 3.087,
+        "loc": "2,3",
+        "word": "개설할 때"
+      },
+      {
+        "start": 3.498,
+        "end": 4.212,
+        "loc": "4",
+        "word": "금리"
+      },
+      {
+        "start": 4.342,
+        "end": 5.003,
+        "loc": "5",
+        "word": "변동에"
+      },
+      {
+        "start": 5.173,
+        "end": 5.565,
+        "loc": "6",
+        "word": "대비하는"
+      },
+      {
+        "start": 5.769,
+        "end": 6.135,
+        "loc": "7,8",
+        "word": "방법은 무엇인가요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.273,
+        "end": 1.405,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.575,
+        "end": 1.662,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.789,
+        "end": 1.941,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.117,
+        "end": 3.829,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.912,
+        "end": 5.013,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.769,
+        "end": 6.135,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.117,
+        "end": 3.079
+      },
+      {
+        "descriptor": "",
+        "start": 5.173,
+        "end": 5.559
+      },
+      {
+        "descriptor": "",
+        "start": 5.769,
+        "end": 6.135
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.49,
+        "end": 4.446
+      },
+      {
+        "descriptor": "",
+        "start": 5.769,
+        "end": 6.135
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.722,
+        "end": 2.537
+      },
+      {
+        "descriptor": "",
+        "start": 4.63,
+        "end": 6.122
+      },
+      {
+        "descriptor": "",
+        "start": 3.498,
+        "end": 4.406
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240377100",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:49:19",
+    "sentence_ID": "VXPAKOKS240377100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    241,
+    126
+  ],
+  "file": "VXPAKOKS240377100.mp4",
+  "saved_as": "VXPAKOKS240377100-은행계좌를개설할때금리변동에대비하는방법은무엇인가요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,241 @@
+{
+  "id": "VXPAKOKS240330670",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "임시 카드를 발급이 가능하고, 임시 카드를 원한다면 카드사에 문의해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.616,
+        "end": 1.828,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.004,
+        "end": 2.284,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.469,
+        "end": 2.706,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.968,
+        "end": 3.216,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.434,
+        "end": 3.839,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.149,
+        "end": 4.35,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.488,
+        "end": 4.867,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.053,
+        "end": 5.432,
+        "gloss_id": "질문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.616,
+        "end": 1.828,
+        "loc": "0",
+        "word": "임시"
+      },
+      {
+        "start": 2.004,
+        "end": 2.284,
+        "loc": "1",
+        "word": "카드를"
+      },
+      {
+        "start": 2.469,
+        "end": 2.706,
+        "loc": "2",
+        "word": "발급이"
+      },
+      {
+        "start": 2.968,
+        "end": 3.216,
+        "loc": "3",
+        "word": "가능하고,"
+      },
+      {
+        "start": 3.434,
+        "end": 3.839,
+        "loc": "4,5,6",
+        "word": "임시 카드를 원한다면"
+      },
+      {
+        "start": 4.149,
+        "end": 4.859,
+        "loc": "7",
+        "word": "카드사에"
+      },
+      {
+        "start": 5.053,
+        "end": 5.432,
+        "loc": "8,9",
+        "word": "문의해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.488,
+        "end": 4.867,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.469,
+        "end": 2.706,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.616,
+        "end": 1.828,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.434,
+        "end": 3.839
+      },
+      {
+        "descriptor": "",
+        "start": 5.053,
+        "end": 5.432
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.066,
+        "end": 3.33
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.434,
+        "end": 3.839
+      },
+      {
+        "descriptor": "",
+        "start": 5.053,
+        "end": 5.432
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.434,
+        "end": 3.839
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330670",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:34:56",
+    "sentence_ID": "VXPAKOKS240330670",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    189,
+    126
+  ],
+  "file": "VXPAKOKS240330670.mp4",
+  "saved_as": "VXPAKOKS240330670-임시카드를발급이가능하고,임시카드를원한다면카드사에문의해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

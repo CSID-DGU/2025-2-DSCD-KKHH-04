@@ -1,0 +1,282 @@
+{
+  "id": "VXPAKOKS240330400",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 할부 기간을 6개월에서 10개월로 바꿀 수 있는지 문의하고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.761,
+        "end": 1.967,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.12,
+        "end": 2.396,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.603,
+        "end": 3.156,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.274,
+        "end": 3.409,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.615,
+        "end": 3.809,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.098,
+        "end": 4.521,
+        "gloss_id": "날짜(활용):6개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.793,
+        "end": 5.063,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.276,
+        "end": 5.511,
+        "gloss_id": "날짜(활용):10개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.759,
+        "end": 6.1,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.761,
+        "end": 2.409,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.603,
+        "end": 3.815,
+        "loc": "1,2",
+        "word": "할부 기간을"
+      },
+      {
+        "start": 4.098,
+        "end": 4.521,
+        "loc": "3",
+        "word": "6개월에서"
+      },
+      {
+        "start": 5.276,
+        "end": 5.511,
+        "loc": "4",
+        "word": "10개월로"
+      },
+      {
+        "start": 4.793,
+        "end": 5.063,
+        "loc": "5",
+        "word": "바꿀"
+      },
+      {
+        "start": 5.759,
+        "end": 6.1,
+        "loc": "6,7,8,9",
+        "word": "수 있는지 문의하고 싶어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.761,
+        "end": 2.409,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.603,
+        "end": 3.156,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.274,
+        "end": 3.409,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.615,
+        "end": 3.809,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.793,
+        "end": 5.063,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "육개월",
+        "start": 4.098,
+        "end": 4.521
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.12,
+        "end": 2.396
+      },
+      {
+        "descriptor": "",
+        "start": 3.615,
+        "end": 3.809
+      },
+      {
+        "descriptor": "",
+        "start": 4.098,
+        "end": 4.521
+      },
+      {
+        "descriptor": "",
+        "start": 5.759,
+        "end": 6.1
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.853,
+        "end": 6.1
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.098,
+        "end": 5.051
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.761,
+        "end": 2.414
+      },
+      {
+        "descriptor": "",
+        "start": 3.274,
+        "end": 3.809
+      },
+      {
+        "descriptor": "",
+        "start": 5.27,
+        "end": 6.1
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330400",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:01:36",
+    "sentence_ID": "VXPAKOKS240330400",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    212,
+    126
+  ],
+  "file": "VXPAKOKS240330400.mp4",
+  "saved_as": "VXPAKOKS240330400-신용카드할부기간을6개월에서10개월로바꿀수있는지문의하고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

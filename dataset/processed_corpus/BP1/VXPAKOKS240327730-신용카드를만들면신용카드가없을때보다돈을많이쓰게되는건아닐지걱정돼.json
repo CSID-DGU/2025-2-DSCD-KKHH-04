@@ -1,0 +1,243 @@
+{
+  "id": "VXPAKOKS240327730",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드를 만들면 신용카드가 없을 때보다 돈을 많이 쓰게 되는 건 아닐지 걱정돼.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.867,
+        "end": 2.062,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.237,
+        "end": 2.405,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.515,
+        "end": 3.01,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.25,
+        "end": 3.445,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.539,
+        "end": 3.816,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.022,
+        "end": 4.326,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.486,
+        "end": 4.959,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.189,
+        "end": 5.65,
+        "gloss_id": "걱정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.486,
+        "end": 4.959,
+        "loc": "5,6,7,8,9,10",
+        "word": "돈을 많이 쓰게 되는 건 아닐지"
+      },
+      {
+        "start": 5.189,
+        "end": 5.65,
+        "loc": "11",
+        "word": "걱정돼."
+      },
+      {
+        "start": 3.25,
+        "end": 3.445,
+        "loc": "0",
+        "word": "신용카드를"
+      },
+      {
+        "start": 3.539,
+        "end": 4.322,
+        "loc": "1",
+        "word": "만들면"
+      },
+      {
+        "start": 1.872,
+        "end": 3.009,
+        "loc": "2,3,4",
+        "word": "신용카드가 없을 때보다"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.237,
+        "end": 3.02,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.25,
+        "end": 3.445,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.539,
+        "end": 3.816,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.022,
+        "end": 4.326,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.236,
+        "end": 5.646
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.25,
+        "end": 3.445
+      },
+      {
+        "descriptor": "",
+        "start": 4.022,
+        "end": 4.326
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 2.649,
+        "end": 3.022
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.486,
+        "end": 5.656
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.25,
+        "end": 4.321
+      },
+      {
+        "descriptor": "",
+        "start": 1.867,
+        "end": 2.062
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327730",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:20:54",
+    "sentence_ID": "VXPAKOKS240327730",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    196,
+    126
+  ],
+  "file": "VXPAKOKS240327730.mp4",
+  "saved_as": "VXPAKOKS240327730-신용카드를만들면신용카드가없을때보다돈을많이쓰게되는건아닐지걱정돼.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

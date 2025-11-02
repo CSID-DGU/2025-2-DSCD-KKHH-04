@@ -1,0 +1,390 @@
+{
+  "id": "VXPAKOKS240352470",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "군인 전용 적금 상품은 최소 1천 원부터 최대 20만 원까지 가입할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.439,
+        "end": 1.627,
+        "gloss_id": "군대1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.873,
+        "end": 2.141,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.288,
+        "end": 2.447,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.622,
+        "end": 2.86,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.094,
+        "end": 3.376,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.525,
+        "end": 3.669,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.859,
+        "end": 4.235,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.496,
+        "end": 4.799,
+        "gloss_id": "1000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.254,
+        "end": 5.442,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.672,
+        "end": 5.911,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.092,
+        "end": 6.273,
+        "gloss_id": "200000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.429,
+        "end": 6.624,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.836,
+        "end": 7.111,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.255,
+        "end": 7.443,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.439,
+        "end": 1.627,
+        "loc": "0",
+        "word": "군인"
+      },
+      {
+        "start": 1.873,
+        "end": 2.141,
+        "loc": "1",
+        "word": "전용"
+      },
+      {
+        "start": 2.288,
+        "end": 2.853,
+        "loc": "2",
+        "word": "적금"
+      },
+      {
+        "start": 3.094,
+        "end": 3.376,
+        "loc": "3",
+        "word": "상품은"
+      },
+      {
+        "start": 3.525,
+        "end": 4.235,
+        "loc": "4",
+        "word": "최소"
+      },
+      {
+        "start": 5.254,
+        "end": 5.914,
+        "loc": "7",
+        "word": "최대"
+      },
+      {
+        "start": 6.092,
+        "end": 6.636,
+        "loc": "8,9",
+        "word": "20만 원까지"
+      },
+      {
+        "start": 4.496,
+        "end": 4.799,
+        "loc": "5,6",
+        "word": "1천 원부터"
+      },
+      {
+        "start": 6.836,
+        "end": 7.452,
+        "loc": "10,11,12",
+        "word": "가입할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.439,
+        "end": 1.627,
+        "gloss_id": "군대1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.873,
+        "end": 2.141,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.622,
+        "end": 2.86,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.094,
+        "end": 3.376,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.859,
+        "end": 4.801,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.672,
+        "end": 6.273,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.429,
+        "end": 6.624,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.836,
+        "end": 7.111,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "천",
+        "start": 4.496,
+        "end": 4.799
+      },
+      {
+        "descriptor": "이십십",
+        "start": 6.092,
+        "end": 6.273
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.255,
+        "end": 7.443
+      },
+      {
+        "descriptor": "",
+        "start": 1.873,
+        "end": 2.141
+      },
+      {
+        "descriptor": "",
+        "start": 3.859,
+        "end": 4.235
+      },
+      {
+        "descriptor": "",
+        "start": 5.672,
+        "end": 5.911
+      },
+      {
+        "descriptor": "",
+        "start": 6.429,
+        "end": 6.624
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.255,
+        "end": 7.443
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.873,
+        "end": 2.141
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.429,
+        "end": 7.117
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.873,
+        "end": 2.141
+      },
+      {
+        "descriptor": "",
+        "start": 3.094,
+        "end": 3.376
+      },
+      {
+        "descriptor": "",
+        "start": 5.254,
+        "end": 5.892
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352470",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:58:15",
+    "sentence_ID": "VXPAKOKS240352470",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    261,
+    126
+  ],
+  "file": "VXPAKOKS240352470.mp4",
+  "saved_as": "VXPAKOKS240352470-군인전용적금상품은최소1천원부터최대20만원까지가입할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

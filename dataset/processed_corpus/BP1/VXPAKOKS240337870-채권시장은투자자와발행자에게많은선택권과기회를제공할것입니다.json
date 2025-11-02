@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240337870",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장은 투자자와 발행자에게 많은 선택권과 기회를 제공할 것입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.744,
+        "end": 1.793,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.998,
+        "end": 2.154,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.353,
+        "end": 3.115,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.419,
+        "end": 3.647,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.837,
+        "end": 4.826,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.177,
+        "end": 5.414,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.693,
+        "end": 5.958,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.203,
+        "end": 6.667,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.957,
+        "end": 7.131,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.381,
+        "end": 7.7,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.015,
+        "end": 8.243,
+        "gloss_id": "기회1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.408,
+        "end": 8.69,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.737,
+        "end": 3.115,
+        "loc": "0,1",
+        "word": "채권 시장은"
+      },
+      {
+        "start": 3.419,
+        "end": 4.824,
+        "loc": "2",
+        "word": "투자자와"
+      },
+      {
+        "start": 5.177,
+        "end": 6.655,
+        "loc": "3",
+        "word": "발행자에게"
+      },
+      {
+        "start": 6.957,
+        "end": 7.692,
+        "loc": "4,5",
+        "word": "많은 선택권과"
+      },
+      {
+        "start": 8.015,
+        "end": 8.243,
+        "loc": "6",
+        "word": "기회를"
+      },
+      {
+        "start": 8.408,
+        "end": 8.69,
+        "loc": "7,8",
+        "word": "제공할 것입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.353,
+        "end": 3.115,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.837,
+        "end": 4.826,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.177,
+        "end": 5.414,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.693,
+        "end": 5.958,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.381,
+        "end": 7.7,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.015,
+        "end": 8.243,
+        "gloss_id": "기회1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.203,
+        "end": 6.667,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.408,
+        "end": 8.69
+      },
+      {
+        "descriptor": "",
+        "start": 2.525,
+        "end": 3.115
+      },
+      {
+        "descriptor": "",
+        "start": 4.1,
+        "end": 4.826
+      },
+      {
+        "descriptor": "",
+        "start": 6.203,
+        "end": 6.667
+      },
+      {
+        "descriptor": "",
+        "start": 7.381,
+        "end": 7.7
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.744,
+        "end": 3.113
+      },
+      {
+        "descriptor": "",
+        "start": 6.203,
+        "end": 6.657
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337870",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:40:38",
+    "sentence_ID": "VXPAKOKS240337870",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    326,
+    126
+  ],
+  "file": "VXPAKOKS240337870.mp4",
+  "saved_as": "VXPAKOKS240337870-채권시장은투자자와발행자에게많은선택권과기회를제공할것입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

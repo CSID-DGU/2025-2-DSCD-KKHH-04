@@ -1,0 +1,260 @@
+{
+  "id": "VXPAKOKS240328140",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "당신이 원할 때 간단하게 입금과 출금을 할 수 있는 예금도 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.917,
+        "end": 2.045,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.38,
+        "end": 2.828,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.951,
+        "end": 3.033,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.303,
+        "end": 3.803,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.034,
+        "end": 4.092,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.3,
+        "end": 4.806,
+        "gloss_id": "넣다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.899,
+        "end": 5.138,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.283,
+        "end": 5.586,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.813,
+        "end": 5.93,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.951,
+        "end": 3.033,
+        "loc": "0",
+        "word": "당신이"
+      },
+      {
+        "start": 3.303,
+        "end": 3.803,
+        "loc": "1,2",
+        "word": "원할 때"
+      },
+      {
+        "start": 1.917,
+        "end": 2.8,
+        "loc": "9,10",
+        "word": "예금도 있어요."
+      },
+      {
+        "start": 4.034,
+        "end": 5.584,
+        "loc": "4,5,6",
+        "word": "입금과 출금을 할"
+      },
+      {
+        "start": 5.813,
+        "end": 5.93,
+        "loc": "7,8",
+        "word": "수 있는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.38,
+        "end": 3.031,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.303,
+        "end": 3.803,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.3,
+        "end": 4.806,
+        "gloss_id": "넣다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.283,
+        "end": 5.586,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.899,
+        "end": 5.138,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.38,
+        "end": 2.828
+      },
+      {
+        "descriptor": "",
+        "start": 3.303,
+        "end": 3.803
+      },
+      {
+        "descriptor": "",
+        "start": 5.813,
+        "end": 5.93
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.813,
+        "end": 5.93
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 2.38,
+        "end": 2.828
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.917,
+        "end": 2.045
+      },
+      {
+        "descriptor": "",
+        "start": 2.951,
+        "end": 3.799
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328140",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:24:34",
+    "sentence_ID": "VXPAKOKS240328140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    209,
+    126
+  ],
+  "file": "VXPAKOKS240328140.mp4",
+  "saved_as": "VXPAKOKS240328140-당신이원할때간단하게입금과출금을할수있는예금도있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

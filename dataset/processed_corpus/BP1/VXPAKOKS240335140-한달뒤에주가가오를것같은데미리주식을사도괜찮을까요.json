@@ -1,0 +1,279 @@
+{
+  "id": "VXPAKOKS240335140",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "한 달 뒤에 주가가 오를 것 같은데 미리 주식을 사도 괜찮을까요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.479,
+        "end": 2.728,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.031,
+        "end": 3.44,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.718,
+        "end": 3.932,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.229,
+        "end": 4.45,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.748,
+        "end": 5.032,
+        "gloss_id": "아마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.406,
+        "end": 5.683,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.896,
+        "end": 6.047,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.315,
+        "end": 6.634,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.883,
+        "end": 7.181,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.479,
+        "end": 2.728,
+        "loc": "0,1",
+        "word": "한 달"
+      },
+      {
+        "start": 3.031,
+        "end": 3.44,
+        "loc": "2",
+        "word": "뒤에"
+      },
+      {
+        "start": 3.718,
+        "end": 3.932,
+        "loc": "3",
+        "word": "주가가"
+      },
+      {
+        "start": 4.229,
+        "end": 4.45,
+        "loc": "4,5",
+        "word": "오를 것"
+      },
+      {
+        "start": 4.748,
+        "end": 5.032,
+        "loc": "6",
+        "word": "같은데"
+      },
+      {
+        "start": 5.406,
+        "end": 5.683,
+        "loc": "7",
+        "word": "미리"
+      },
+      {
+        "start": 5.896,
+        "end": 6.047,
+        "loc": "8",
+        "word": "주식을"
+      },
+      {
+        "start": 6.315,
+        "end": 6.634,
+        "loc": "9",
+        "word": "사도"
+      },
+      {
+        "start": 6.883,
+        "end": 7.181,
+        "loc": "10",
+        "word": "괜찮을까요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.031,
+        "end": 3.44,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.718,
+        "end": 3.932,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.229,
+        "end": 4.45,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.406,
+        "end": 5.683,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.896,
+        "end": 6.047,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "한 달",
+        "start": 2.479,
+        "end": 2.728
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.748,
+        "end": 5.032
+      },
+      {
+        "descriptor": "",
+        "start": 6.883,
+        "end": 7.181
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.229,
+        "end": 4.45
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.479,
+        "end": 3.418
+      },
+      {
+        "descriptor": "",
+        "start": 5.406,
+        "end": 7.189
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335140",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:50",
+    "sentence_ID": "VXPAKOKS240335140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240335140.mp4",
+  "saved_as": "VXPAKOKS240335140-한달뒤에주가가오를것같은데미리주식을사도괜찮을까요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

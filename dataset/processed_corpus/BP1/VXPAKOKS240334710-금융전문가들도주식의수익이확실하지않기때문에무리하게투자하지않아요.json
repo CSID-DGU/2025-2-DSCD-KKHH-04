@@ -1,0 +1,367 @@
+{
+  "id": "VXPAKOKS240334710",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "금융 전문가들도 주식의 수익이 확실하지 않기 때문에 무리하게 투자하지 않아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.454,
+        "end": 2.628,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.843,
+        "end": 3.351,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.535,
+        "end": 3.682,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.836,
+        "end": 4.209,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.556,
+        "end": 4.965,
+        "gloss_id": "같다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.19,
+        "end": 5.463,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.719,
+        "end": 6.047,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.346,
+        "end": 7.063,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.322,
+        "end": 7.568,
+        "gloss_id": "모르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.87,
+        "end": 8.07,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.305,
+        "end": 8.524,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.742,
+        "end": 9.07,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.276,
+        "end": 9.586,
+        "gloss_id": "아니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.454,
+        "end": 2.628,
+        "loc": "0",
+        "word": "금융"
+      },
+      {
+        "start": 2.843,
+        "end": 4.963,
+        "loc": "1",
+        "word": "전문가들도"
+      },
+      {
+        "start": 5.19,
+        "end": 5.463,
+        "loc": "2",
+        "word": "주식의"
+      },
+      {
+        "start": 5.719,
+        "end": 7.061,
+        "loc": "3",
+        "word": "수익이"
+      },
+      {
+        "start": 7.322,
+        "end": 7.568,
+        "loc": "4,5",
+        "word": "확실하지 않기"
+      },
+      {
+        "start": 7.87,
+        "end": 8.07,
+        "loc": "6",
+        "word": "때문에"
+      },
+      {
+        "start": 8.305,
+        "end": 9.583,
+        "loc": "7,8,9",
+        "word": "무리하게 투자하지 않아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.454,
+        "end": 2.628,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.843,
+        "end": 3.351,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.535,
+        "end": 3.682,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.556,
+        "end": 4.965,
+        "gloss_id": "같다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.19,
+        "end": 6.043,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.87,
+        "end": 8.07,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.276,
+        "end": 9.586,
+        "gloss_id": "아니다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.346,
+        "end": 7.063,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.87,
+        "end": 8.07
+      },
+      {
+        "descriptor": "",
+        "start": 8.742,
+        "end": 9.07
+      },
+      {
+        "descriptor": "",
+        "start": 2.843,
+        "end": 3.351
+      },
+      {
+        "descriptor": "",
+        "start": 4.556,
+        "end": 4.965
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.87,
+        "end": 8.07
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 9.276,
+        "end": 9.586
+      },
+      {
+        "descriptor": "",
+        "start": 6.946,
+        "end": 7.446
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.535,
+        "end": 4.234
+      },
+      {
+        "descriptor": "",
+        "start": 6.58,
+        "end": 7.569
+      },
+      {
+        "descriptor": "",
+        "start": 9.276,
+        "end": 9.586
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.454,
+        "end": 3.334
+      },
+      {
+        "descriptor": "",
+        "start": 5.19,
+        "end": 6.024
+      },
+      {
+        "descriptor": "",
+        "start": 8.305,
+        "end": 9.049
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334710",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:31:55",
+    "sentence_ID": "VXPAKOKS240334710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    326,
+    126
+  ],
+  "file": "VXPAKOKS240334710.mp4",
+  "saved_as": "VXPAKOKS240334710-금융전문가들도주식의수익이확실하지않기때문에무리하게투자하지않아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

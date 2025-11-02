@@ -1,0 +1,329 @@
+{
+  "id": "VXPAKOKS240335580",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자는 장기적으로 보면 수익성이 높지만, 단기적으로는 원금 손실 위험이 크다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.921,
+        "end": 2.224,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.456,
+        "end": 2.808,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.978,
+        "end": 3.158,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.25,
+        "end": 3.347,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.532,
+        "end": 3.991,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.261,
+        "end": 4.473,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.683,
+        "end": 5.199,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.572,
+        "end": 5.719,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.934,
+        "end": 6.352,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.579,
+        "end": 6.923,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.185,
+        "end": 7.528,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.921,
+        "end": 2.224,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.456,
+        "end": 2.808,
+        "loc": "1",
+        "word": "투자는"
+      },
+      {
+        "start": 2.978,
+        "end": 3.988,
+        "loc": "2,3",
+        "word": "장기적으로 보면"
+      },
+      {
+        "start": 4.261,
+        "end": 4.473,
+        "loc": "4",
+        "word": "수익성이"
+      },
+      {
+        "start": 4.683,
+        "end": 5.199,
+        "loc": "5",
+        "word": "높지만,"
+      },
+      {
+        "start": 5.572,
+        "end": 6.336,
+        "loc": "6",
+        "word": "단기적으로는"
+      },
+      {
+        "start": 6.579,
+        "end": 6.923,
+        "loc": "7,8,9",
+        "word": "원금 손실 위험이"
+      },
+      {
+        "start": 7.185,
+        "end": 7.528,
+        "loc": "10",
+        "word": "크다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.921,
+        "end": 2.224,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.978,
+        "end": 3.158,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.25,
+        "end": 3.347,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.532,
+        "end": 3.991,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.572,
+        "end": 5.719,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.934,
+        "end": 6.352,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.579,
+        "end": 6.923,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.185,
+        "end": 7.528
+      },
+      {
+        "descriptor": "",
+        "start": 2.456,
+        "end": 2.808
+      },
+      {
+        "descriptor": "",
+        "start": 3.532,
+        "end": 3.991
+      },
+      {
+        "descriptor": "",
+        "start": 4.823,
+        "end": 5.199
+      },
+      {
+        "descriptor": "",
+        "start": 5.934,
+        "end": 6.352
+      },
+      {
+        "descriptor": "",
+        "start": 6.579,
+        "end": 6.923
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 3.532,
+        "end": 3.991
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.579,
+        "end": 7.498
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.921,
+        "end": 3.967
+      },
+      {
+        "descriptor": "",
+        "start": 5.572,
+        "end": 6.286
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335580",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:13",
+    "sentence_ID": "VXPAKOKS240335580",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    296,
+    126
+  ],
+  "file": "VXPAKOKS240335580.mp4",
+  "saved_as": "VXPAKOKS240335580-주식투자는장기적으로보면수익성이높지만,단기적으로는원금손실위험이크다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,331 @@
+{
+  "id": "VXPAKOKS240352830",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금을 처음 시작할 때는 1년에서 5년으로 기간을 나눠서 여러 개의 적금에 가입하는 게 좋아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.173,
+        "end": 1.349,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.463,
+        "end": 1.631,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.899,
+        "end": 2.075,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.405,
+        "end": 2.72,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.971,
+        "end": 3.471,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.575,
+        "end": 3.758,
+        "gloss_id": "일형3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.888,
+        "end": 4.179,
+        "gloss_id": "날짜(활용):5년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.361,
+        "end": 4.807,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.152,
+        "end": 5.891,
+        "gloss_id": "간격1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.253,
+        "end": 6.421,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.564,
+        "end": 6.948,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.137,
+        "end": 7.575,
+        "gloss_id": "가입1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.786,
+        "end": 8.139,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.173,
+        "end": 1.634,
+        "loc": "0",
+        "word": "적금을"
+      },
+      {
+        "start": 1.899,
+        "end": 2.075,
+        "loc": "1",
+        "word": "처음"
+      },
+      {
+        "start": 2.405,
+        "end": 2.72,
+        "loc": "2,3",
+        "word": "시작할 때는"
+      },
+      {
+        "start": 2.971,
+        "end": 4.174,
+        "loc": "4,5",
+        "word": "1년에서 5년으로"
+      },
+      {
+        "start": 4.361,
+        "end": 4.807,
+        "loc": "6",
+        "word": "기간을"
+      },
+      {
+        "start": 5.152,
+        "end": 5.891,
+        "loc": "7",
+        "word": "나눠서"
+      },
+      {
+        "start": 6.253,
+        "end": 7.571,
+        "loc": "8,9,10,11,12",
+        "word": "여러 개의 적금에 가입하는 게"
+      },
+      {
+        "start": 7.786,
+        "end": 8.139,
+        "loc": "13",
+        "word": "좋아."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.463,
+        "end": 1.631,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.405,
+        "end": 2.72,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.971,
+        "end": 4.166,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.361,
+        "end": 4.807,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.564,
+        "end": 6.948,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.137,
+        "end": 7.575,
+        "gloss_id": "가입1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.786,
+        "end": 8.147,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.152,
+        "end": 5.891,
+        "gloss_id": "간격1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.405,
+        "end": 2.72
+      },
+      {
+        "descriptor": "",
+        "start": 4.361,
+        "end": 4.807
+      },
+      {
+        "descriptor": "",
+        "start": 7.786,
+        "end": 8.139
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.137,
+        "end": 7.575
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.903,
+        "end": 2.72
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352830",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:02:20",
+    "sentence_ID": "VXPAKOKS240352830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    278,
+    126
+  ],
+  "file": "VXPAKOKS240352830.mp4",
+  "saved_as": "VXPAKOKS240352830-적금을처음시작할때는1년에서5년으로기간을나눠서여러개의적금에가입하는게좋아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

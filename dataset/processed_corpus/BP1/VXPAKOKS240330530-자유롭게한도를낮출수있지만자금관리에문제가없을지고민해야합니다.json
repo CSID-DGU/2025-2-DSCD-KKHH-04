@@ -1,0 +1,297 @@
+{
+  "id": "VXPAKOKS240330530",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "자유롭게 한도를 낮출 수 있지만 자금 관리에 문제가 없을지 고민해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.949,
+        "end": 2.241,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.512,
+        "end": 2.804,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.952,
+        "end": 3.32,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.578,
+        "end": 3.971,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.275,
+        "end": 4.894,
+        "gloss_id": "환기6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.117,
+        "end": 5.346,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.497,
+        "end": 5.795,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.964,
+        "end": 6.193,
+        "gloss_id": "생각2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.386,
+        "end": 6.804,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.949,
+        "end": 2.241,
+        "loc": "1",
+        "word": "한도를"
+      },
+      {
+        "start": 2.512,
+        "end": 2.804,
+        "loc": "2",
+        "word": "낮출"
+      },
+      {
+        "start": 2.952,
+        "end": 3.32,
+        "loc": "0",
+        "word": "자유롭게"
+      },
+      {
+        "start": 3.578,
+        "end": 3.971,
+        "loc": "3,4",
+        "word": "수 있지만"
+      },
+      {
+        "start": 4.275,
+        "end": 4.894,
+        "loc": "5,6",
+        "word": "자금 관리에"
+      },
+      {
+        "start": 5.117,
+        "end": 5.346,
+        "loc": "7",
+        "word": "문제가"
+      },
+      {
+        "start": 5.497,
+        "end": 5.795,
+        "loc": "8",
+        "word": "없을지"
+      },
+      {
+        "start": 5.964,
+        "end": 6.193,
+        "loc": "9",
+        "word": "고민해야"
+      },
+      {
+        "start": 6.386,
+        "end": 6.804,
+        "loc": "10",
+        "word": "합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.949,
+        "end": 2.241,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.512,
+        "end": 2.804,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.952,
+        "end": 3.32,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.117,
+        "end": 5.346,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.386,
+        "end": 6.804,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.275,
+        "end": 4.894,
+        "gloss_id": "환기6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.578,
+        "end": 3.971
+      },
+      {
+        "descriptor": "",
+        "start": 2.512,
+        "end": 2.804
+      },
+      {
+        "descriptor": "",
+        "start": 6.386,
+        "end": 6.804
+      },
+      {
+        "descriptor": "",
+        "start": 5.497,
+        "end": 5.795
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.578,
+        "end": 3.971
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.275,
+        "end": 5.639
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.949,
+        "end": 2.802
+      },
+      {
+        "descriptor": "",
+        "start": 5.117,
+        "end": 5.825
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330530",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:31:41",
+    "sentence_ID": "VXPAKOKS240330530",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    227,
+    126
+  ],
+  "file": "VXPAKOKS240330530.mp4",
+  "saved_as": "VXPAKOKS240330530-자유롭게한도를낮출수있지만자금관리에문제가없을지고민해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

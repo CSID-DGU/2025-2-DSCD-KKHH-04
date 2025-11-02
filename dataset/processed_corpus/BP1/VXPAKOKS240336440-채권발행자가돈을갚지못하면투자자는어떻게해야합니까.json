@@ -1,0 +1,245 @@
+{
+  "id": "VXPAKOKS240336440",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 발행자가 돈을 갚지 못하면 투자자는 어떻게 해야 합니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.899,
+        "end": 1.998,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.266,
+        "end": 2.426,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.666,
+        "end": 3.431,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.705,
+        "end": 4.24,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.526,
+        "end": 4.955,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.164,
+        "end": 5.614,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.808,
+        "end": 6.216,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.905,
+        "end": 3.431,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.705,
+        "end": 4.24,
+        "loc": "1",
+        "word": "발행자가"
+      },
+      {
+        "start": 4.526,
+        "end": 4.955,
+        "loc": "2,3",
+        "word": "돈을 갚지"
+      },
+      {
+        "start": 5.164,
+        "end": 5.614,
+        "loc": "4",
+        "word": "못하면"
+      },
+      {
+        "start": 5.808,
+        "end": 6.216,
+        "loc": "5,6,7,8",
+        "word": "투자자는 어떻게 해야 합니까?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.666,
+        "end": 3.431,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.705,
+        "end": 4.24,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.526,
+        "end": 4.955,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.164,
+        "end": 5.614,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.808,
+        "end": 6.216,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.932,
+        "end": 3.432
+      },
+      {
+        "descriptor": "",
+        "start": 3.705,
+        "end": 4.24
+      },
+      {
+        "descriptor": "",
+        "start": 5.808,
+        "end": 6.216
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.339,
+        "end": 5.61
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.048,
+        "end": 5.543
+      },
+      {
+        "descriptor": "",
+        "start": 3.705,
+        "end": 4.24
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.266,
+        "end": 3.427
+      },
+      {
+        "descriptor": "",
+        "start": 5.808,
+        "end": 6.216
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336440",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:00",
+    "sentence_ID": "VXPAKOKS240336440",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    255,
+    126
+  ],
+  "file": "VXPAKOKS240336440.mp4",
+  "saved_as": "VXPAKOKS240336440-채권발행자가돈을갚지못하면투자자는어떻게해야합니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

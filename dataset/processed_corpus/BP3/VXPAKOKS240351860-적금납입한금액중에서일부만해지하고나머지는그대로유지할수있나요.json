@@ -1,0 +1,318 @@
+{
+  "id": "VXPAKOKS240351860",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 납입한 금액 중에서 일부만 해지하고 나머지는 그대로 유지할 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.39,
+        "end": 1.517,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.695,
+        "end": 2.125,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.342,
+        "end": 2.673,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.973,
+        "end": 3.431,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.674,
+        "end": 3.998,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.206,
+        "end": 4.579,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.876,
+        "end": 5.193,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.384,
+        "end": 5.504,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.683,
+        "end": 5.902,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.154,
+        "end": 6.415,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.582,
+        "end": 6.864,
+        "gloss_id": "~대로1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.048,
+        "end": 7.245,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.39,
+        "end": 2.115,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.973,
+        "end": 4.001,
+        "loc": "1",
+        "word": "납입한"
+      },
+      {
+        "start": 2.342,
+        "end": 2.673,
+        "loc": "2,3",
+        "word": "금액 중에서"
+      },
+      {
+        "start": 4.876,
+        "end": 5.193,
+        "loc": "5",
+        "word": "해지하고"
+      },
+      {
+        "start": 4.206,
+        "end": 4.579,
+        "loc": "4",
+        "word": "일부만"
+      },
+      {
+        "start": 5.384,
+        "end": 5.905,
+        "loc": "6",
+        "word": "나머지는"
+      },
+      {
+        "start": 6.154,
+        "end": 6.415,
+        "loc": "7",
+        "word": "그대로"
+      },
+      {
+        "start": 6.582,
+        "end": 7.244,
+        "loc": "8,9,10",
+        "word": "유지할 수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.695,
+        "end": 2.132,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.674,
+        "end": 3.998,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.206,
+        "end": 4.579,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.876,
+        "end": 5.193,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.683,
+        "end": 5.902,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.154,
+        "end": 6.415,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.582,
+        "end": 7.244,
+        "gloss_id": "~대로1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.048,
+        "end": 7.245
+      },
+      {
+        "descriptor": "",
+        "start": 2.342,
+        "end": 2.673
+      },
+      {
+        "descriptor": "",
+        "start": 3.674,
+        "end": 3.998
+      },
+      {
+        "descriptor": "",
+        "start": 4.876,
+        "end": 5.193
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.048,
+        "end": 7.245
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.206,
+        "end": 7.245
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351860",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:48:18",
+    "sentence_ID": "VXPAKOKS240351860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    253,
+    126
+  ],
+  "file": "VXPAKOKS240351860.mp4",
+  "saved_as": "VXPAKOKS240351860-적금납입한금액중에서일부만해지하고나머지는그대로유지할수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,297 @@
+{
+  "id": "VXPAKOKS240334870",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "경제 뉴스나 방송에서 주식에 대한 용어를 공부하는 것도 좋은 방법이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.166,
+        "end": 2.541,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.806,
+        "end": 3.19,
+        "gloss_id": "이야기하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.485,
+        "end": 3.775,
+        "gloss_id": "TV",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.186,
+        "end": 4.717,
+        "gloss_id": "방송하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.894,
+        "end": 5.036,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.252,
+        "end": 5.588,
+        "gloss_id": "단어1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.843,
+        "end": 5.985,
+        "gloss_id": "배우다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.187,
+        "end": 6.804,
+        "gloss_id": "배우다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.965,
+        "end": 7.043,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.261,
+        "end": 7.66,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.166,
+        "end": 2.541,
+        "loc": "0",
+        "word": "경제"
+      },
+      {
+        "start": 2.806,
+        "end": 3.19,
+        "loc": "1",
+        "word": "뉴스나"
+      },
+      {
+        "start": 3.485,
+        "end": 4.733,
+        "loc": "2",
+        "word": "방송에서"
+      },
+      {
+        "start": 4.894,
+        "end": 5.036,
+        "loc": "3",
+        "word": "주식에"
+      },
+      {
+        "start": 5.252,
+        "end": 5.588,
+        "loc": "4,5",
+        "word": "대한 용어를"
+      },
+      {
+        "start": 5.843,
+        "end": 6.802,
+        "loc": "6,7",
+        "word": "공부하는 것도"
+      },
+      {
+        "start": 6.965,
+        "end": 7.043,
+        "loc": "8",
+        "word": "좋은"
+      },
+      {
+        "start": 7.261,
+        "end": 7.66,
+        "loc": "9",
+        "word": "방법이에요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.166,
+        "end": 2.541,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.806,
+        "end": 3.19,
+        "gloss_id": "이야기하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.186,
+        "end": 4.717,
+        "gloss_id": "방송하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.894,
+        "end": 5.036,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.252,
+        "end": 5.588,
+        "gloss_id": "단어1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.187,
+        "end": 6.804,
+        "gloss_id": "배우다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.261,
+        "end": 7.66,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.806,
+        "end": 3.19
+      },
+      {
+        "descriptor": "",
+        "start": 4.186,
+        "end": 4.717
+      },
+      {
+        "descriptor": "",
+        "start": 6.187,
+        "end": 6.804
+      },
+      {
+        "descriptor": "",
+        "start": 7.261,
+        "end": 7.66
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.166,
+        "end": 3.187
+      },
+      {
+        "descriptor": "",
+        "start": 4.186,
+        "end": 6.811
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334870",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:33:06",
+    "sentence_ID": "VXPAKOKS240334870",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    280,
+    126
+  ],
+  "file": "VXPAKOKS240334870.mp4",
+  "saved_as": "VXPAKOKS240334870-경제뉴스나방송에서주식에대한용어를공부하는것도좋은방법이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

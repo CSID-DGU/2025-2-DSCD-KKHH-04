@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240331250",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 비밀번호는 항상 안전하게 관리하고, 다른 사람에게 노출하지 않아야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.596,
+        "end": 1.874,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.135,
+        "end": 2.347,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.561,
+        "end": 2.714,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.0,
+        "end": 3.167,
+        "gloss_id": "비밀1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.376,
+        "end": 3.824,
+        "gloss_id": "숫자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.149,
+        "end": 4.516,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.822,
+        "end": 5.418,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.688,
+        "end": 5.988,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.261,
+        "end": 6.458,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.649,
+        "end": 6.839,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.043,
+        "end": 7.542,
+        "gloss_id": "알려주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.717,
+        "end": 8.062,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.596,
+        "end": 2.332,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.561,
+        "end": 2.714,
+        "loc": "2",
+        "word": "항상"
+      },
+      {
+        "start": 3.0,
+        "end": 3.84,
+        "loc": "1",
+        "word": "비밀번호는"
+      },
+      {
+        "start": 4.149,
+        "end": 4.516,
+        "loc": "3",
+        "word": "안전하게"
+      },
+      {
+        "start": 4.822,
+        "end": 5.418,
+        "loc": "4",
+        "word": "관리하고,"
+      },
+      {
+        "start": 5.688,
+        "end": 6.446,
+        "loc": "5,6",
+        "word": "다른 사람에게"
+      },
+      {
+        "start": 6.649,
+        "end": 8.058,
+        "loc": "7,8,9",
+        "word": "노출하지 않아야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.596,
+        "end": 2.34,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.561,
+        "end": 2.714,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.0,
+        "end": 3.832,
+        "gloss_id": "비밀1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.149,
+        "end": 4.516,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.261,
+        "end": 6.458,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.649,
+        "end": 6.839,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.561,
+        "end": 2.714
+      },
+      {
+        "descriptor": "",
+        "start": 4.822,
+        "end": 5.418
+      },
+      {
+        "descriptor": "",
+        "start": 3.376,
+        "end": 3.824
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 6.557,
+        "end": 8.054
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.561,
+        "end": 2.714
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.688,
+        "end": 6.86
+      },
+      {
+        "descriptor": "",
+        "start": 1.596,
+        "end": 2.318
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331250",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:08:51",
+    "sentence_ID": "VXPAKOKS240331250",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    266,
+    126
+  ],
+  "file": "VXPAKOKS240331250.mp4",
+  "saved_as": "VXPAKOKS240331250-신용카드비밀번호는항상안전하게관리하고,다른사람에게노출하지않아야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

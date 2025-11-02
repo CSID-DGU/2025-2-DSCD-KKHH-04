@@ -1,0 +1,475 @@
+{
+  "id": "VXPAKOKS240337140",
+  "opertor": "label26",
+  "krlgg_sntenc": {
+    "koreanText": "투자자들이 증권 거래소에서 거래되지 않는 채권을 사고팔 때 일반 투자 회사의 협조가 필요합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.137,
+        "end": 2.319,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.506,
+        "end": 2.656,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.824,
+        "end": 3.61,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.954,
+        "end": 4.152,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.312,
+        "end": 4.796,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.98,
+        "end": 5.146,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.378,
+        "end": 5.623,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.84,
+        "end": 6.125,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.405,
+        "end": 6.84,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.97,
+        "end": 7.064,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.168,
+        "end": 7.381,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.533,
+        "end": 7.794,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.036,
+        "end": 8.218,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.465,
+        "end": 8.814,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.059,
+        "end": 9.276,
+        "gloss_id": "보통2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.436,
+        "end": 9.642,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 9.786,
+        "end": 10.071,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.311,
+        "end": 10.659,
+        "gloss_id": "협상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.844,
+        "end": 11.32,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.137,
+        "end": 3.6,
+        "loc": "0",
+        "word": "투자자들이"
+      },
+      {
+        "start": 3.954,
+        "end": 4.152,
+        "loc": "1",
+        "word": "증권"
+      },
+      {
+        "start": 4.312,
+        "end": 5.141,
+        "loc": "2",
+        "word": "거래소에서"
+      },
+      {
+        "start": 5.378,
+        "end": 5.623,
+        "loc": "3",
+        "word": "거래되지"
+      },
+      {
+        "start": 5.84,
+        "end": 6.125,
+        "loc": "4",
+        "word": "않는"
+      },
+      {
+        "start": 6.405,
+        "end": 7.798,
+        "loc": "5",
+        "word": "채권을"
+      },
+      {
+        "start": 8.036,
+        "end": 8.819,
+        "loc": "6,7",
+        "word": "사고팔 때"
+      },
+      {
+        "start": 9.07,
+        "end": 9.276,
+        "loc": "8",
+        "word": "일반"
+      },
+      {
+        "start": 9.436,
+        "end": 9.642,
+        "loc": "9",
+        "word": "투자"
+      },
+      {
+        "start": 9.786,
+        "end": 10.071,
+        "loc": "10",
+        "word": "회사의"
+      },
+      {
+        "start": 10.311,
+        "end": 10.659,
+        "loc": "11",
+        "word": "협조가"
+      },
+      {
+        "start": 10.844,
+        "end": 11.32,
+        "loc": "12",
+        "word": "필요합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.506,
+        "end": 2.656,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.954,
+        "end": 4.151,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.312,
+        "end": 5.154,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.378,
+        "end": 6.132,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.405,
+        "end": 7.382,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.533,
+        "end": 7.794,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.036,
+        "end": 8.814,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.786,
+        "end": 10.071,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.311,
+        "end": 10.659,
+        "gloss_id": "협상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.844,
+        "end": 11.32,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.059,
+        "end": 9.276,
+        "gloss_id": "보통2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.912,
+        "end": 3.61
+      },
+      {
+        "descriptor": "",
+        "start": 4.98,
+        "end": 5.146
+      },
+      {
+        "descriptor": "",
+        "start": 5.84,
+        "end": 6.125
+      },
+      {
+        "descriptor": "",
+        "start": 6.405,
+        "end": 6.841
+      },
+      {
+        "descriptor": "",
+        "start": 8.465,
+        "end": 8.814
+      },
+      {
+        "descriptor": "",
+        "start": 10.844,
+        "end": 11.32
+      },
+      {
+        "descriptor": "",
+        "start": 10.311,
+        "end": 10.659
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.538,
+        "end": 6.029
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.333,
+        "end": 8.817
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.137,
+        "end": 2.975
+      },
+      {
+        "descriptor": "",
+        "start": 4.312,
+        "end": 5.074
+      },
+      {
+        "descriptor": "",
+        "start": 7.333,
+        "end": 8.772
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337140",
+  "potogrf": {
+    "createdTime": "2024-10-22 04:18:31",
+    "sentence_ID": "VXPAKOKS240337140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    401,
+    126
+  ],
+  "file": "VXPAKOKS240337140.mp4",
+  "saved_as": "VXPAKOKS240337140-투자자들이증권거래소에서거래되지않는채권을사고팔때일반투자회사의협조가필요합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

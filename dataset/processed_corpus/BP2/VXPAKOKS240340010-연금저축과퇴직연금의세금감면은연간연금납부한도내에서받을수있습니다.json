@@ -1,0 +1,364 @@
+{
+  "id": "VXPAKOKS240340010",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "연금 저축과 퇴직 연금의 세금 감면은 연간 연금 납부 한도 내에서 받을 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.263,
+        "end": 1.483,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 1.774,
+        "end": 2.191,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.652,
+        "end": 2.736,
+        "gloss_id": "늙다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.891,
+        "end": 3.262,
+        "gloss_id": "그만두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.467,
+        "end": 3.778,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.047,
+        "end": 4.472,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.748,
+        "end": 4.84,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.043,
+        "end": 5.339,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.436,
+        "end": 5.739,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.93,
+        "end": 6.483,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.881,
+        "end": 7.109,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.396,
+        "end": 7.578,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.837,
+        "end": 8.02,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.263,
+        "end": 1.483,
+        "loc": "0",
+        "word": "연금"
+      },
+      {
+        "start": 1.774,
+        "end": 2.191,
+        "loc": "1",
+        "word": "저축과"
+      },
+      {
+        "start": 2.652,
+        "end": 3.265,
+        "loc": "2",
+        "word": "퇴직"
+      },
+      {
+        "start": 3.467,
+        "end": 3.778,
+        "loc": "3",
+        "word": "연금의"
+      },
+      {
+        "start": 4.047,
+        "end": 4.835,
+        "loc": "6",
+        "word": "연간"
+      },
+      {
+        "start": 5.043,
+        "end": 5.724,
+        "loc": "7,8",
+        "word": "연금 납부"
+      },
+      {
+        "start": 5.93,
+        "end": 6.483,
+        "loc": "9,10",
+        "word": "한도 내에서"
+      },
+      {
+        "start": 6.881,
+        "end": 7.109,
+        "loc": "4",
+        "word": "세금"
+      },
+      {
+        "start": 7.396,
+        "end": 7.578,
+        "loc": "5",
+        "word": "감면은"
+      },
+      {
+        "start": 7.837,
+        "end": 8.02,
+        "loc": "11,12,13",
+        "word": "받을 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.774,
+        "end": 2.191,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.891,
+        "end": 3.262,
+        "gloss_id": "그만두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.047,
+        "end": 4.472,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.748,
+        "end": 4.84,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.043,
+        "end": 5.732,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.93,
+        "end": 6.483,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.881,
+        "end": 7.109,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.396,
+        "end": 7.578,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일년",
+        "start": 4.047,
+        "end": 4.472
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.774,
+        "end": 2.191
+      },
+      {
+        "descriptor": "",
+        "start": 3.467,
+        "end": 3.778
+      },
+      {
+        "descriptor": "",
+        "start": 5.93,
+        "end": 6.483
+      },
+      {
+        "descriptor": "",
+        "start": 7.837,
+        "end": 8.02
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.837,
+        "end": 8.02
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.263,
+        "end": 2.171
+      },
+      {
+        "descriptor": "",
+        "start": 2.891,
+        "end": 3.791
+      },
+      {
+        "descriptor": "",
+        "start": 5.043,
+        "end": 6.495
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340010",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:02:01",
+    "sentence_ID": "VXPAKOKS240340010",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    272,
+    126
+  ],
+  "file": "VXPAKOKS240340010.mp4",
+  "saved_as": "VXPAKOKS240340010-연금저축과퇴직연금의세금감면은연간연금납부한도내에서받을수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

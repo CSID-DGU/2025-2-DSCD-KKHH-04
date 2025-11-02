@@ -1,0 +1,192 @@
+{
+  "id": "VXPAKOKS240330790",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "실적을 채우는 데 도움이 될 수 있지만, 금전적 다툼이 발생합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.563,
+        "end": 1.832,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.969,
+        "end": 2.375,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.545,
+        "end": 3.718,
+        "gloss_id": "빠르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.864,
+        "end": 4.118,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.244,
+        "end": 4.847,
+        "gloss_id": "말다툼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.563,
+        "end": 1.832,
+        "loc": "0",
+        "word": "실적을"
+      },
+      {
+        "start": 1.969,
+        "end": 2.375,
+        "loc": "1,2",
+        "word": "채우는 데"
+      },
+      {
+        "start": 2.545,
+        "end": 3.718,
+        "loc": "3,4,5,6",
+        "word": "도움이 될 수 있지만,"
+      },
+      {
+        "start": 3.864,
+        "end": 4.118,
+        "loc": "7",
+        "word": "금전적"
+      },
+      {
+        "start": 4.244,
+        "end": 4.847,
+        "loc": "8,9",
+        "word": "다툼이 발생합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.969,
+        "end": 2.375,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.244,
+        "end": 4.847,
+        "gloss_id": "말다툼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.866,
+        "end": 3.366
+      },
+      {
+        "descriptor": "",
+        "start": 4.244,
+        "end": 4.847
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.866,
+        "end": 3.366
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.864,
+        "end": 4.846
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 1.969,
+        "end": 2.375
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.563,
+        "end": 3.351
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330790",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:35:59",
+    "sentence_ID": "VXPAKOKS240330790",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    177,
+    126
+  ],
+  "file": "VXPAKOKS240330790.mp4",
+  "saved_as": "VXPAKOKS240330790-실적을채우는데도움이될수있지만,금전적다툼이발생합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

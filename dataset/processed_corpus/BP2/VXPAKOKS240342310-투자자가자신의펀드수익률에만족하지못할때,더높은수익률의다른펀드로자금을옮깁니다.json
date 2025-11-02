@@ -1,0 +1,301 @@
+{
+  "id": "VXPAKOKS240342310",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "투자자가 자신의 펀드 수익률에 만족하지 못할 때, 더 높은 수익률의 다른 펀드로 자금을 옮깁니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.331,
+        "end": 1.473,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 1.84,
+        "end": 2.286,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.54,
+        "end": 2.756,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.063,
+        "end": 3.157,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.394,
+        "end": 3.638,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.955,
+        "end": 4.313,
+        "gloss_id": "맛아직2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.69,
+        "end": 5.028,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.198,
+        "end": 5.361,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.513,
+        "end": 5.655,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.859,
+        "end": 6.149,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.53,
+        "end": 6.631,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.972,
+        "end": 7.425,
+        "gloss_id": "옮기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.331,
+        "end": 2.297,
+        "loc": "0",
+        "word": "투자자가"
+      },
+      {
+        "start": 2.54,
+        "end": 2.756,
+        "loc": "1,2",
+        "word": "자신의 펀드"
+      },
+      {
+        "start": 3.063,
+        "end": 3.157,
+        "loc": "3",
+        "word": "수익률에"
+      },
+      {
+        "start": 3.394,
+        "end": 4.3,
+        "loc": "4,5,6",
+        "word": "만족하지 못할 때,"
+      },
+      {
+        "start": 4.69,
+        "end": 5.028,
+        "loc": "10",
+        "word": "다른"
+      },
+      {
+        "start": 5.198,
+        "end": 5.361,
+        "loc": "11",
+        "word": "펀드로"
+      },
+      {
+        "start": 5.513,
+        "end": 5.655,
+        "loc": "9",
+        "word": "수익률의"
+      },
+      {
+        "start": 5.859,
+        "end": 6.149,
+        "loc": "7,8",
+        "word": "더 높은"
+      },
+      {
+        "start": 6.53,
+        "end": 6.631,
+        "loc": "12",
+        "word": "자금을"
+      },
+      {
+        "start": 6.972,
+        "end": 7.425,
+        "loc": "13",
+        "word": "옮깁니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.834,
+        "end": 2.286,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.69,
+        "end": 5.028,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.82,
+        "end": 2.286
+      },
+      {
+        "descriptor": "",
+        "start": 3.394,
+        "end": 3.638
+      },
+      {
+        "descriptor": "",
+        "start": 3.955,
+        "end": 4.313
+      },
+      {
+        "descriptor": "",
+        "start": 5.859,
+        "end": 6.149
+      },
+      {
+        "descriptor": "",
+        "start": 6.972,
+        "end": 7.425
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.056,
+        "end": 4.313
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.54,
+        "end": 4.31
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.198,
+        "end": 6.151
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342310",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:20:41",
+    "sentence_ID": "VXPAKOKS240342310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    243,
+    126
+  ],
+  "file": "VXPAKOKS240342310.mp4",
+  "saved_as": "VXPAKOKS240342310-투자자가자신의펀드수익률에만족하지못할때,더높은수익률의다른펀드로자금을옮깁니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

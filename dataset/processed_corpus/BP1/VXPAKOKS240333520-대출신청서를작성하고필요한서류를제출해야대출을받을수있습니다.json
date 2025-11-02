@@ -1,0 +1,259 @@
+{
+  "id": "VXPAKOKS240333520",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "대출 신청서를 작성하고 필요한 서류를 제출해야 대출을 받을 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.931,
+        "end": 3.135,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.345,
+        "end": 3.627,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.954,
+        "end": 4.649,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.955,
+        "end": 5.362,
+        "gloss_id": "타자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.672,
+        "end": 5.938,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.201,
+        "end": 6.693,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.967,
+        "end": 7.241,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.432,
+        "end": 7.683,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.931,
+        "end": 3.135,
+        "loc": "0",
+        "word": "대출"
+      },
+      {
+        "start": 3.345,
+        "end": 4.647,
+        "loc": "1",
+        "word": "신청서를"
+      },
+      {
+        "start": 4.955,
+        "end": 5.362,
+        "loc": "2",
+        "word": "작성하고"
+      },
+      {
+        "start": 5.672,
+        "end": 5.938,
+        "loc": "3,4",
+        "word": "필요한 서류를"
+      },
+      {
+        "start": 6.201,
+        "end": 6.693,
+        "loc": "5",
+        "word": "제출해야"
+      },
+      {
+        "start": 6.967,
+        "end": 7.661,
+        "loc": "6,7,8,9",
+        "word": "대출을 받을 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.345,
+        "end": 3.627,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.955,
+        "end": 5.362,
+        "gloss_id": "타자1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.672,
+        "end": 5.938,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.954,
+        "end": 4.649,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.345,
+        "end": 3.627
+      },
+      {
+        "descriptor": "",
+        "start": 4.317,
+        "end": 4.646
+      },
+      {
+        "descriptor": "",
+        "start": 4.955,
+        "end": 5.362
+      },
+      {
+        "descriptor": "",
+        "start": 6.201,
+        "end": 6.693
+      },
+      {
+        "descriptor": "",
+        "start": 7.432,
+        "end": 7.683
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.432,
+        "end": 7.683
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.955,
+        "end": 5.362
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 6.201,
+        "end": 6.693
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.931,
+        "end": 3.587
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333520",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:23:07",
+    "sentence_ID": "VXPAKOKS240333520",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    280,
+    126
+  ],
+  "file": "VXPAKOKS240333520.mp4",
+  "saved_as": "VXPAKOKS240333520-대출신청서를작성하고필요한서류를제출해야대출을받을수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

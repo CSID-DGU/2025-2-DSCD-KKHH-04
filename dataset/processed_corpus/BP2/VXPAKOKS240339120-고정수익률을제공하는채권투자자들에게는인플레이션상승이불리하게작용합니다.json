@@ -1,0 +1,362 @@
+{
+  "id": "VXPAKOKS240339120",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "고정 수익률을 제공하는 채권 투자자들에게는 인플레이션 상승이 불리하게 작용합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.266,
+        "end": 1.331,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.508,
+        "end": 1.642,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 1.867,
+        "end": 2.464,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.807,
+        "end": 2.994,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.29,
+        "end": 3.614,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.838,
+        "end": 3.998,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.06,
+        "end": 4.24,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.641,
+        "end": 5.161,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.529,
+        "end": 5.651,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.777,
+        "end": 5.977,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.378,
+        "end": 6.681,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.887,
+        "end": 7.028,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.376,
+        "end": 7.693,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.912,
+        "end": 8.229,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.266,
+        "end": 2.49,
+        "loc": "3",
+        "word": "채권"
+      },
+      {
+        "start": 2.807,
+        "end": 3.613,
+        "loc": "4",
+        "word": "투자자들에게는"
+      },
+      {
+        "start": 3.838,
+        "end": 3.998,
+        "loc": "1",
+        "word": "수익률을"
+      },
+      {
+        "start": 4.06,
+        "end": 4.24,
+        "loc": "2",
+        "word": "제공하는"
+      },
+      {
+        "start": 4.641,
+        "end": 5.161,
+        "loc": "0",
+        "word": "고정"
+      },
+      {
+        "start": 5.529,
+        "end": 5.651,
+        "loc": "5",
+        "word": "인플레이션"
+      },
+      {
+        "start": 5.777,
+        "end": 6.752,
+        "loc": "6",
+        "word": "상승이"
+      },
+      {
+        "start": 6.887,
+        "end": 8.25,
+        "loc": "7,8",
+        "word": "불리하게 작용합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.867,
+        "end": 2.464,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.29,
+        "end": 3.614,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.641,
+        "end": 5.161,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.529,
+        "end": 5.651,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.376,
+        "end": 7.693,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.912,
+        "end": 8.229,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.867,
+        "end": 2.464
+      },
+      {
+        "descriptor": "",
+        "start": 4.641,
+        "end": 5.161
+      },
+      {
+        "descriptor": "",
+        "start": 3.29,
+        "end": 3.614
+      },
+      {
+        "descriptor": "",
+        "start": 6.464,
+        "end": 6.681
+      },
+      {
+        "descriptor": "",
+        "start": 7.376,
+        "end": 7.693
+      },
+      {
+        "descriptor": "",
+        "start": 7.912,
+        "end": 8.229
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.457,
+        "end": 6.681
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.641,
+        "end": 5.161
+      },
+      {
+        "descriptor": "",
+        "start": 6.887,
+        "end": 8.319
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.641,
+        "end": 5.161
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.287,
+        "end": 3.576
+      },
+      {
+        "descriptor": "",
+        "start": 5.529,
+        "end": 6.703
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339120",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:55:59",
+    "sentence_ID": "VXPAKOKS240339120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    282,
+    126
+  ],
+  "file": "VXPAKOKS240339120.mp4",
+  "saved_as": "VXPAKOKS240339120-고정수익률을제공하는채권투자자들에게는인플레이션상승이불리하게작용합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

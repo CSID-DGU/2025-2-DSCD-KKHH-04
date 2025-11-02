@@ -1,0 +1,317 @@
+{
+  "id": "VXPAKOKS240332540",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "차 사려고 1월에 대출받은 적이 있었는데, 대출하는 과정이 쉽지 않다고 하더라.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.579,
+        "end": 2.8,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.117,
+        "end": 3.303,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.578,
+        "end": 3.999,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.317,
+        "end": 4.442,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.675,
+        "end": 5.052,
+        "gloss_id": "날짜:1월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.311,
+        "end": 5.496,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.695,
+        "end": 6.177,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.445,
+        "end": 6.762,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.104,
+        "end": 7.351,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.529,
+        "end": 7.715,
+        "gloss_id": "아니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.903,
+        "end": 8.289,
+        "gloss_id": "말하다1",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.117,
+        "end": 4.027,
+        "loc": "1",
+        "word": "사려고"
+      },
+      {
+        "start": 4.317,
+        "end": 5.052,
+        "loc": "2",
+        "word": "1월에"
+      },
+      {
+        "start": 5.695,
+        "end": 6.177,
+        "loc": "4,5",
+        "word": "적이 있었는데,"
+      },
+      {
+        "start": 6.445,
+        "end": 6.762,
+        "loc": "6,7",
+        "word": "대출하는 과정이"
+      },
+      {
+        "start": 7.104,
+        "end": 7.351,
+        "loc": "8",
+        "word": "쉽지"
+      },
+      {
+        "start": 2.579,
+        "end": 2.8,
+        "loc": "0",
+        "word": "차"
+      },
+      {
+        "start": 5.311,
+        "end": 5.496,
+        "loc": "3",
+        "word": "대출받은"
+      },
+      {
+        "start": 7.529,
+        "end": 8.256,
+        "loc": "9,10",
+        "word": "않다고 하더라."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.117,
+        "end": 3.303,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.578,
+        "end": 3.999,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.445,
+        "end": 6.762,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.104,
+        "end": 7.351,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.579,
+        "end": 2.8,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.675,
+        "end": 5.052,
+        "gloss_id": "날짜:1월",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일월",
+        "start": 4.675,
+        "end": 5.052
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.578,
+        "end": 3.999
+      },
+      {
+        "descriptor": "",
+        "start": 5.843,
+        "end": 6.177
+      },
+      {
+        "descriptor": "",
+        "start": 7.529,
+        "end": 7.715
+      },
+      {
+        "descriptor": "",
+        "start": 7.903,
+        "end": 8.289
+      },
+      {
+        "descriptor": "",
+        "start": 6.445,
+        "end": 6.762
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.861,
+        "end": 6.177
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.104,
+        "end": 7.726
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.578,
+        "end": 4.47
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332540",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:32",
+    "sentence_ID": "VXPAKOKS240332540",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    314,
+    126
+  ],
+  "file": "VXPAKOKS240332540.mp4",
+  "saved_as": "VXPAKOKS240332540-차사려고1월에대출받은적이있었는데,대출하는과정이쉽지않다고하더라.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

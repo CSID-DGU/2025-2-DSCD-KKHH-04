@@ -1,0 +1,208 @@
+{
+  "id": "VXPAKOKS240327760",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "현금으로 결제하는 것과 신용카드로 결제하는 것 중 어느 게 더 안전할까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.423,
+        "end": 2.413,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.821,
+        "end": 2.999,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.194,
+        "end": 3.759,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.08,
+        "end": 4.645,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.917,
+        "end": 5.156,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.328,
+        "end": 5.648,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.423,
+        "end": 2.413,
+        "loc": "0,1,2",
+        "word": "현금으로 결제하는 것과"
+      },
+      {
+        "start": 2.821,
+        "end": 3.75,
+        "loc": "3,4,5",
+        "word": "신용카드로 결제하는 것"
+      },
+      {
+        "start": 4.08,
+        "end": 4.645,
+        "loc": "6",
+        "word": "중"
+      },
+      {
+        "start": 5.328,
+        "end": 5.648,
+        "loc": "7,8",
+        "word": "어느 게"
+      },
+      {
+        "start": 4.917,
+        "end": 5.156,
+        "loc": "9,10",
+        "word": "더 안전할까?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.821,
+        "end": 2.999,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.08,
+        "end": 4.645,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.917,
+        "end": 5.156,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.423,
+        "end": 2.413
+      },
+      {
+        "descriptor": "",
+        "start": 3.194,
+        "end": 3.759
+      },
+      {
+        "descriptor": "",
+        "start": 5.328,
+        "end": 5.648
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.423,
+        "end": 2.413
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.423,
+        "end": 2.413
+      },
+      {
+        "descriptor": "",
+        "start": 5.328,
+        "end": 5.648
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327760",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:21:59",
+    "sentence_ID": "VXPAKOKS240327760",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    196,
+    126
+  ],
+  "file": "VXPAKOKS240327760.mp4",
+  "saved_as": "VXPAKOKS240327760-현금으로결제하는것과신용카드로결제하는것중어느게더안전할까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

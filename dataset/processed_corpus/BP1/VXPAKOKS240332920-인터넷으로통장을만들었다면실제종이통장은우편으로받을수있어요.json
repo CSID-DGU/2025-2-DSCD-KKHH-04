@@ -1,0 +1,313 @@
+{
+  "id": "VXPAKOKS240332920",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "인터넷으로 통장을 만들었다면 실제 종이 통장은 우편으로 받을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.646,
+        "end": 2.732,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.021,
+        "end": 3.365,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.598,
+        "end": 3.739,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.105,
+        "end": 4.55,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.816,
+        "end": 5.027,
+        "gloss_id": "맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.261,
+        "end": 5.425,
+        "gloss_id": "종이2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.487,
+        "end": 6.003,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.447,
+        "end": 6.736,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.939,
+        "end": 7.205,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.352,
+        "end": 7.852,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.646,
+        "end": 3.364,
+        "loc": "1,2",
+        "word": "통장을 만들었다면"
+      },
+      {
+        "start": 3.598,
+        "end": 4.543,
+        "loc": "0",
+        "word": "인터넷으로"
+      },
+      {
+        "start": 4.816,
+        "end": 5.027,
+        "loc": "3",
+        "word": "실제"
+      },
+      {
+        "start": 5.269,
+        "end": 5.995,
+        "loc": "4",
+        "word": "종이"
+      },
+      {
+        "start": 6.447,
+        "end": 6.736,
+        "loc": "5",
+        "word": "통장은"
+      },
+      {
+        "start": 6.939,
+        "end": 7.205,
+        "loc": "6",
+        "word": "우편으로"
+      },
+      {
+        "start": 7.352,
+        "end": 7.852,
+        "loc": "7,8,9",
+        "word": "받을 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.646,
+        "end": 2.732,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.021,
+        "end": 3.365,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.598,
+        "end": 3.739,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.105,
+        "end": 4.55,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.261,
+        "end": 5.425,
+        "gloss_id": "종이2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.487,
+        "end": 6.003,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.447,
+        "end": 6.736,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.939,
+        "end": 7.197,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.352,
+        "end": 7.852,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.021,
+        "end": 3.365
+      },
+      {
+        "descriptor": "",
+        "start": 4.105,
+        "end": 4.55
+      },
+      {
+        "descriptor": "",
+        "start": 6.447,
+        "end": 6.736
+      },
+      {
+        "descriptor": "",
+        "start": 7.629,
+        "end": 7.852
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.634,
+        "end": 7.852
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.646,
+        "end": 3.38
+      },
+      {
+        "descriptor": "",
+        "start": 4.816,
+        "end": 7.197
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332920",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:26:15",
+    "sentence_ID": "VXPAKOKS240332920",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    281,
+    126
+  ],
+  "file": "VXPAKOKS240332920.mp4",
+  "saved_as": "VXPAKOKS240332920-인터넷으로통장을만들었다면실제종이통장은우편으로받을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

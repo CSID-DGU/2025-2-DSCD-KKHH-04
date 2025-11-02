@@ -1,0 +1,257 @@
+{
+  "id": "VXPAKOKS240331370",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "신용등급을 확인한다는 것은 신용 점수가 앞으로의 신용카드 사용에 영향을 미쳐 예측할 수 있음을 뜻해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.799,
+        "end": 2.01,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.17,
+        "end": 2.351,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.459,
+        "end": 2.766,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.833,
+        "end": 3.532,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.641,
+        "end": 4.141,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.43,
+        "end": 4.665,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.852,
+        "end": 5.352,
+        "gloss_id": "모습1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.515,
+        "end": 5.864,
+        "gloss_id": "파악하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.027,
+        "end": 6.262,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.799,
+        "end": 2.745,
+        "loc": "0",
+        "word": "신용등급을"
+      },
+      {
+        "start": 2.833,
+        "end": 4.153,
+        "loc": "1,2",
+        "word": "확인한다는 것은"
+      },
+      {
+        "start": 4.43,
+        "end": 5.334,
+        "loc": "3,4,5,6,7,8,9",
+        "word": "신용 점수가 앞으로의 신용카드 사용에 영향을 미쳐"
+      },
+      {
+        "start": 5.515,
+        "end": 5.864,
+        "loc": "10",
+        "word": "예측할"
+      },
+      {
+        "start": 6.027,
+        "end": 6.262,
+        "loc": "11,12,13",
+        "word": "수 있음을 뜻해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.799,
+        "end": 2.01,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.43,
+        "end": 4.665,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.852,
+        "end": 5.352,
+        "gloss_id": "모습1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.515,
+        "end": 5.864,
+        "gloss_id": "파악하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.459,
+        "end": 2.766
+      },
+      {
+        "descriptor": "",
+        "start": 2.833,
+        "end": 3.532
+      },
+      {
+        "descriptor": "",
+        "start": 3.641,
+        "end": 4.141
+      },
+      {
+        "descriptor": "",
+        "start": 4.852,
+        "end": 5.352
+      },
+      {
+        "descriptor": "",
+        "start": 6.027,
+        "end": 6.262
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.027,
+        "end": 6.262
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.833,
+        "end": 3.532
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.641,
+        "end": 4.141
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331370",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:09:56",
+    "sentence_ID": "VXPAKOKS240331370",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    217,
+    126
+  ],
+  "file": "VXPAKOKS240331370.mp4",
+  "saved_as": "VXPAKOKS240331370-신용등급을확인한다는것은신용점수가앞으로의신용카드사용에영향을미쳐예측할수있음을뜻해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

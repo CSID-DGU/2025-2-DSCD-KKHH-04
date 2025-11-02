@@ -1,0 +1,272 @@
+{
+  "id": "VXPAKOKS240336410",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "정부 채권은 금융 시장에서 빠르게 거래되어 현금화가 쉽습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.059,
+        "end": 2.689,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.815,
+        "end": 2.916,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.154,
+        "end": 3.342,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.581,
+        "end": 4.103,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.266,
+        "end": 4.374,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.567,
+        "end": 4.835,
+        "gloss_id": "현금주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.988,
+        "end": 5.51,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.691,
+        "end": 5.945,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.286,
+        "end": 6.467,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.713,
+        "end": 6.952,
+        "gloss_id": "기름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.059,
+        "end": 2.689,
+        "loc": "0",
+        "word": "정부"
+      },
+      {
+        "start": 2.806,
+        "end": 4.103,
+        "loc": "1",
+        "word": "채권은"
+      },
+      {
+        "start": 4.254,
+        "end": 6.963,
+        "loc": "2,3,4,5,6,7",
+        "word": "금융 시장에서 빠르게 거래되어 현금화가 쉽습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.059,
+        "end": 2.689,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.581,
+        "end": 4.378,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.567,
+        "end": 4.835,
+        "gloss_id": "현금주다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.988,
+        "end": 5.941,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.286,
+        "end": 6.467,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.424,
+        "end": 2.683
+      },
+      {
+        "descriptor": "",
+        "start": 3.581,
+        "end": 4.103
+      },
+      {
+        "descriptor": "",
+        "start": 5.233,
+        "end": 5.509
+      },
+      {
+        "descriptor": "",
+        "start": 5.766,
+        "end": 5.946
+      },
+      {
+        "descriptor": "",
+        "start": 6.286,
+        "end": 6.467
+      },
+      {
+        "descriptor": "",
+        "start": 6.713,
+        "end": 6.952
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.766,
+        "end": 5.946
+      },
+      {
+        "descriptor": "",
+        "start": 6.286,
+        "end": 6.467
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.059,
+        "end": 4.099
+      },
+      {
+        "descriptor": "",
+        "start": 4.988,
+        "end": 5.51
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336410",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:29:53",
+    "sentence_ID": "VXPAKOKS240336410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    261,
+    126
+  ],
+  "file": "VXPAKOKS240336410.mp4",
+  "saved_as": "VXPAKOKS240336410-정부채권은금융시장에서빠르게거래되어현금화가쉽습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

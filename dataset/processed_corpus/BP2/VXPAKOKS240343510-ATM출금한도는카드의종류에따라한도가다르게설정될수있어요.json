@@ -1,0 +1,425 @@
+{
+  "id": "VXPAKOKS240343510",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "ATM 출금 한도는 카드의 종류에 따라 한도가 다르게 설정될 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.006,
+        "end": 2.207,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.376,
+        "end": 2.627,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.914,
+        "end": 3.404,
+        "gloss_id": "기관2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.611,
+        "end": 3.723,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.901,
+        "end": 4.093,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.218,
+        "end": 4.301,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.482,
+        "end": 4.766,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.024,
+        "end": 5.186,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.431,
+        "end": 5.649,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.927,
+        "end": 6.244,
+        "gloss_id": "종류2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.609,
+        "end": 6.901,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.07,
+        "end": 7.661,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.81,
+        "end": 7.945,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.307,
+        "end": 8.558,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.764,
+        "end": 8.974,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.091,
+        "end": 9.284,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.444,
+        "end": 9.596,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.005,
+        "end": 3.391,
+        "loc": "0",
+        "word": "ATM"
+      },
+      {
+        "start": 3.611,
+        "end": 4.081,
+        "loc": "1",
+        "word": "출금"
+      },
+      {
+        "start": 4.218,
+        "end": 5.177,
+        "loc": "2",
+        "word": "한도는"
+      },
+      {
+        "start": 5.431,
+        "end": 5.649,
+        "loc": "3",
+        "word": "카드의"
+      },
+      {
+        "start": 5.927,
+        "end": 6.244,
+        "loc": "4",
+        "word": "종류에"
+      },
+      {
+        "start": 6.609,
+        "end": 7.667,
+        "loc": "5",
+        "word": "따라"
+      },
+      {
+        "start": 7.81,
+        "end": 8.552,
+        "loc": "6",
+        "word": "한도가"
+      },
+      {
+        "start": 8.764,
+        "end": 8.974,
+        "loc": "7",
+        "word": "다르게"
+      },
+      {
+        "start": 9.091,
+        "end": 9.591,
+        "loc": "8,9,10",
+        "word": "설정될 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.006,
+        "end": 2.207,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.376,
+        "end": 2.627,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.914,
+        "end": 3.732,
+        "gloss_id": "기관2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.901,
+        "end": 4.292,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.482,
+        "end": 4.766,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.07,
+        "end": 7.661,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.307,
+        "end": 8.558,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.764,
+        "end": 8.974,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.091,
+        "end": 9.284,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.927,
+        "end": 6.244,
+        "gloss_id": "종류2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.914,
+        "end": 3.404
+      },
+      {
+        "descriptor": "",
+        "start": 6.609,
+        "end": 6.901
+      },
+      {
+        "descriptor": "",
+        "start": 8.307,
+        "end": 8.558
+      },
+      {
+        "descriptor": "",
+        "start": 9.444,
+        "end": 9.596
+      },
+      {
+        "descriptor": "",
+        "start": 4.482,
+        "end": 4.766
+      },
+      {
+        "descriptor": "",
+        "start": 5.024,
+        "end": 5.186
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.444,
+        "end": 9.596
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.609,
+        "end": 7.638
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.901,
+        "end": 5.188
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.005,
+        "end": 5.013
+      },
+      {
+        "descriptor": "",
+        "start": 7.81,
+        "end": 8.429
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343510",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:53:52",
+    "sentence_ID": "VXPAKOKS240343510",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    358,
+    126
+  ],
+  "file": "VXPAKOKS240343510.mp4",
+  "saved_as": "VXPAKOKS240343510-ATM출금한도는카드의종류에따라한도가다르게설정될수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,243 @@
+{
+  "id": "VXPAKOKS240333380",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드는 가까운 현금 자동 입출금 기기에서 편리하게 돈을 찾을 수 있는 장점이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.468,
+        "end": 2.57,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.729,
+        "end": 2.94,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.203,
+        "end": 3.678,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.943,
+        "end": 4.013,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.193,
+        "end": 4.713,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.046,
+        "end": 5.187,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.383,
+        "end": 5.543,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.77,
+        "end": 6.014,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.328,
+        "end": 6.482,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.943,
+        "end": 4.725,
+        "loc": "0",
+        "word": "현금카드는"
+      },
+      {
+        "start": 5.046,
+        "end": 5.187,
+        "loc": "6",
+        "word": "편리하게"
+      },
+      {
+        "start": 5.383,
+        "end": 5.543,
+        "loc": "7",
+        "word": "돈을"
+      },
+      {
+        "start": 2.468,
+        "end": 3.667,
+        "loc": "1,2,3,4,5",
+        "word": "가까운 현금 자동 입출금 기기에서"
+      },
+      {
+        "start": 5.77,
+        "end": 6.482,
+        "loc": "8,9,10,11,12",
+        "word": "찾을 수 있는 장점이 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.729,
+        "end": 2.94,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.046,
+        "end": 5.54,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.77,
+        "end": 6.014,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.203,
+        "end": 3.678
+      },
+      {
+        "descriptor": "",
+        "start": 4.193,
+        "end": 4.713
+      },
+      {
+        "descriptor": "",
+        "start": 5.77,
+        "end": 6.014
+      },
+      {
+        "descriptor": "",
+        "start": 6.322,
+        "end": 6.482
+      },
+      {
+        "descriptor": "",
+        "start": 2.729,
+        "end": 2.94
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.322,
+        "end": 6.482
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.468,
+        "end": 5.522
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333380",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:13",
+    "sentence_ID": "VXPAKOKS240333380",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240333380.mp4",
+  "saved_as": "VXPAKOKS240333380-현금카드는가까운현금자동입출금기기에서편리하게돈을찾을수있는장점이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

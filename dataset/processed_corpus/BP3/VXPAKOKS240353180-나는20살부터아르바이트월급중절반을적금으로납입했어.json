@@ -1,0 +1,298 @@
+{
+  "id": "VXPAKOKS240353180",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "나는 20살부터 아르바이트 월급 중 절반을 적금으로 납입했어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.236,
+        "end": 1.555,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.41,
+        "end": 2.573,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.739,
+        "end": 2.896,
+        "gloss_id": "계란1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.138,
+        "end": 3.451,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.69,
+        "end": 3.829,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.986,
+        "end": 4.448,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.711,
+        "end": 4.931,
+        "gloss_id": "반1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.148,
+        "end": 5.268,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.394,
+        "end": 5.495,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.651,
+        "end": 5.939,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.236,
+        "end": 1.555,
+        "loc": "0",
+        "word": "나는"
+      },
+      {
+        "start": 1.805,
+        "end": 2.566,
+        "loc": "1",
+        "word": "20살부터"
+      },
+      {
+        "start": 2.739,
+        "end": 3.444,
+        "loc": "2",
+        "word": "아르바이트"
+      },
+      {
+        "start": 3.69,
+        "end": 4.452,
+        "loc": "3,4",
+        "word": "월급 중"
+      },
+      {
+        "start": 4.711,
+        "end": 4.931,
+        "loc": "5",
+        "word": "절반을"
+      },
+      {
+        "start": 5.148,
+        "end": 5.498,
+        "loc": "6",
+        "word": "적금으로"
+      },
+      {
+        "start": 5.651,
+        "end": 5.939,
+        "loc": "7",
+        "word": "납입했어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.805,
+        "end": 1.887,
+        "gloss_id": "나이1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.019,
+        "end": 2.189,
+        "gloss_id": "20",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.41,
+        "end": 2.897,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.138,
+        "end": 3.825,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.986,
+        "end": 4.448,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.711,
+        "end": 4.931,
+        "gloss_id": "반1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.394,
+        "end": 5.495,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.236,
+        "end": 1.555
+      },
+      {
+        "descriptor": "",
+        "start": 3.986,
+        "end": 4.448
+      },
+      {
+        "descriptor": "",
+        "start": 5.782,
+        "end": 5.939
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.779,
+        "end": 5.939
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.986,
+        "end": 4.448
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.236,
+        "end": 1.298
+      },
+      {
+        "descriptor": "",
+        "start": 3.69,
+        "end": 4.433
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353180",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:04:41",
+    "sentence_ID": "VXPAKOKS240353180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240353180.mp4",
+  "saved_as": "VXPAKOKS240353180-나는20살부터아르바이트월급중절반을적금으로납입했어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

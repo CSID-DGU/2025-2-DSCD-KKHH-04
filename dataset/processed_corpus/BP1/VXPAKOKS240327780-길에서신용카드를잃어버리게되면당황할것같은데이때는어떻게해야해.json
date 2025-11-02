@@ -1,0 +1,203 @@
+{
+  "id": "VXPAKOKS240327780",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "길에서 신용카드를 잃어버리게 되면 당황할 것 같은데 이때는 어떻게 해야 해?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.477,
+        "end": 1.893,
+        "gloss_id": "길1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.066,
+        "end": 2.237,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.288,
+        "end": 2.362,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.536,
+        "end": 2.947,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.22,
+        "end": 3.582,
+        "gloss_id": "걱정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.816,
+        "end": 4.338,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.477,
+        "end": 1.893,
+        "loc": "0",
+        "word": "길에서"
+      },
+      {
+        "start": 2.066,
+        "end": 2.361,
+        "loc": "1",
+        "word": "신용카드를"
+      },
+      {
+        "start": 2.536,
+        "end": 2.947,
+        "loc": "2,3",
+        "word": "잃어버리게 되면"
+      },
+      {
+        "start": 3.816,
+        "end": 4.338,
+        "loc": "7,8,9,10",
+        "word": "이때는 어떻게 해야 해?"
+      },
+      {
+        "start": 3.22,
+        "end": 3.582,
+        "loc": "4,5,6",
+        "word": "당황할 것 같은데"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.477,
+        "end": 1.893,
+        "gloss_id": "길1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.066,
+        "end": 2.352,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.816,
+        "end": 4.338,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.536,
+        "end": 2.947
+      },
+      {
+        "descriptor": "",
+        "start": 3.816,
+        "end": 4.338
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.714,
+        "end": 2.947
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.536,
+        "end": 2.947
+      },
+      {
+        "descriptor": "",
+        "start": 3.816,
+        "end": 4.338
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240327780",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:22:12",
+    "sentence_ID": "VXPAKOKS240327780",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    160,
+    126
+  ],
+  "file": "VXPAKOKS240327780.mp4",
+  "saved_as": "VXPAKOKS240327780-길에서신용카드를잃어버리게되면당황할것같은데이때는어떻게해야해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

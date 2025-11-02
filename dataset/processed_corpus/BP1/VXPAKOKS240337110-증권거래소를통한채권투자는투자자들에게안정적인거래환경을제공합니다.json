@@ -1,0 +1,289 @@
+{
+  "id": "VXPAKOKS240337110",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "증권 거래소를 통한 채권 투자는 투자자들에게 안정적인 거래 환경을 제공합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.999,
+        "end": 3.193,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.391,
+        "end": 3.49,
+        "gloss_id": "바꾸다5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.69,
+        "end": 3.847,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.233,
+        "end": 4.696,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.936,
+        "end": 5.122,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.381,
+        "end": 5.553,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.717,
+        "end": 6.21,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.286,
+        "end": 6.358,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.475,
+        "end": 6.647,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.84,
+        "end": 7.23,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.423,
+        "end": 7.726,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.963,
+        "end": 8.353,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.999,
+        "end": 3.853,
+        "loc": "0,1",
+        "word": "증권 거래소를"
+      },
+      {
+        "start": 4.233,
+        "end": 4.696,
+        "loc": "2",
+        "word": "통한"
+      },
+      {
+        "start": 4.936,
+        "end": 6.207,
+        "loc": "5",
+        "word": "투자자들에게"
+      },
+      {
+        "start": 6.284,
+        "end": 7.23,
+        "loc": "3",
+        "word": "채권"
+      },
+      {
+        "start": 7.423,
+        "end": 7.726,
+        "loc": "4",
+        "word": "투자는"
+      },
+      {
+        "start": 7.963,
+        "end": 8.353,
+        "loc": "6,7,8,9",
+        "word": "안정적인 거래 환경을 제공합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.999,
+        "end": 3.193,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.391,
+        "end": 3.49,
+        "gloss_id": "바꾸다5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.382,
+        "end": 5.552,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.84,
+        "end": 7.23,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.963,
+        "end": 8.353,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.963,
+        "end": 8.353
+      },
+      {
+        "descriptor": "",
+        "start": 4.233,
+        "end": 4.696
+      },
+      {
+        "descriptor": "",
+        "start": 5.717,
+        "end": 6.209
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.166,
+        "end": 4.689
+      },
+      {
+        "descriptor": "",
+        "start": 5.533,
+        "end": 6.178
+      },
+      {
+        "descriptor": "",
+        "start": 6.742,
+        "end": 7.231
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337110",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:34:01",
+    "sentence_ID": "VXPAKOKS240337110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    315,
+    126
+  ],
+  "file": "VXPAKOKS240337110.mp4",
+  "saved_as": "VXPAKOKS240337110-증권거래소를통한채권투자는투자자들에게안정적인거래환경을제공합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

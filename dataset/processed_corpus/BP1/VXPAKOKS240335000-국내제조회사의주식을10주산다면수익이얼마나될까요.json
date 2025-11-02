@@ -1,0 +1,298 @@
+{
+  "id": "VXPAKOKS240335000",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "국내 제조 회사의 주식을 10주 산다면 수익이 얼마나 될까요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.989,
+        "end": 3.209,
+        "gloss_id": "한국1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.416,
+        "end": 3.579,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.752,
+        "end": 4.145,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.399,
+        "end": 4.874,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.103,
+        "end": 5.48,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.763,
+        "end": 6.099,
+        "gloss_id": "주",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.357,
+        "end": 6.66,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.893,
+        "end": 7.13,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.329,
+        "end": 7.648,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.848,
+        "end": 8.192,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.989,
+        "end": 3.209,
+        "loc": "0",
+        "word": "국내"
+      },
+      {
+        "start": 3.416,
+        "end": 4.138,
+        "loc": "1",
+        "word": "제조"
+      },
+      {
+        "start": 4.399,
+        "end": 4.874,
+        "loc": "2",
+        "word": "회사의"
+      },
+      {
+        "start": 5.103,
+        "end": 5.48,
+        "loc": "3",
+        "word": "주식을"
+      },
+      {
+        "start": 5.763,
+        "end": 6.099,
+        "loc": "4",
+        "word": "10주"
+      },
+      {
+        "start": 6.357,
+        "end": 7.128,
+        "loc": "5",
+        "word": "산다면"
+      },
+      {
+        "start": 7.329,
+        "end": 7.648,
+        "loc": "6",
+        "word": "수익이"
+      },
+      {
+        "start": 7.848,
+        "end": 8.192,
+        "loc": "7,8",
+        "word": "얼마나 될까요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.416,
+        "end": 3.579,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.399,
+        "end": 4.874,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.103,
+        "end": 5.48,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.763,
+        "end": 6.099,
+        "gloss_id": "10",
+        "express": "f",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.357,
+        "end": 6.66,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.893,
+        "end": 7.13,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.752,
+        "end": 4.145,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "십주",
+        "start": 5.763,
+        "end": 6.099
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.848,
+        "end": 8.192
+      },
+      {
+        "descriptor": "",
+        "start": 3.752,
+        "end": 4.145
+      },
+      {
+        "descriptor": "",
+        "start": 4.399,
+        "end": 4.874
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.416,
+        "end": 4.861
+      },
+      {
+        "descriptor": "",
+        "start": 7.848,
+        "end": 8.192
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335000",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:33:57",
+    "sentence_ID": "VXPAKOKS240335000",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    296,
+    126
+  ],
+  "file": "VXPAKOKS240335000.mp4",
+  "saved_as": "VXPAKOKS240335000-국내제조회사의주식을10주산다면수익이얼마나될까요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,355 @@
+{
+  "id": "VXPAKOKS240352810",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "2024년 최고의 재테크 방법은 원금을 보장받을 수 있는 적금에 가입하는 거야.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.543,
+        "end": 2.33,
+        "gloss_id": "2024",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.569,
+        "end": 2.724,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.977,
+        "end": 3.197,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.354,
+        "end": 3.452,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.608,
+        "end": 3.814,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.072,
+        "end": 4.464,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.669,
+        "end": 4.933,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.131,
+        "end": 5.387,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.522,
+        "end": 5.764,
+        "gloss_id": "백점1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.926,
+        "end": 6.333,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "3"
+        }
+      },
+      {
+        "start": 6.482,
+        "end": 6.616,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.703,
+        "end": 6.995,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.203,
+        "end": 7.588,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.569,
+        "end": 3.183,
+        "loc": "1",
+        "word": "최고의"
+      },
+      {
+        "start": 3.354,
+        "end": 3.803,
+        "loc": "2",
+        "word": "재테크"
+      },
+      {
+        "start": 4.072,
+        "end": 4.464,
+        "loc": "3",
+        "word": "방법은"
+      },
+      {
+        "start": 4.669,
+        "end": 5.392,
+        "loc": "4",
+        "word": "원금을"
+      },
+      {
+        "start": 5.522,
+        "end": 6.331,
+        "loc": "5,6,7",
+        "word": "보장받을 수 있는"
+      },
+      {
+        "start": 6.482,
+        "end": 7.01,
+        "loc": "8",
+        "word": "적금에"
+      },
+      {
+        "start": 7.203,
+        "end": 7.588,
+        "loc": "9,10",
+        "word": "가입하는 거야."
+      },
+      {
+        "start": 1.543,
+        "end": 2.33,
+        "loc": "0",
+        "word": "2024년"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.977,
+        "end": 3.197,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.608,
+        "end": 3.814,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.072,
+        "end": 4.464,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.669,
+        "end": 5.391,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.926,
+        "end": 6.333,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.703,
+        "end": 6.995,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.203,
+        "end": 7.588,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.203,
+        "end": 7.588
+      },
+      {
+        "descriptor": "",
+        "start": 1.833,
+        "end": 2.326
+      },
+      {
+        "descriptor": "",
+        "start": 2.977,
+        "end": 3.197
+      },
+      {
+        "descriptor": "",
+        "start": 4.072,
+        "end": 4.464
+      },
+      {
+        "descriptor": "",
+        "start": 5.131,
+        "end": 5.387
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.637,
+        "end": 5.764
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.569,
+        "end": 3.212
+      },
+      {
+        "descriptor": "",
+        "start": 5.926,
+        "end": 6.333
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.203,
+        "end": 7.588
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.708,
+        "end": 2.158
+      },
+      {
+        "descriptor": "",
+        "start": 3.85,
+        "end": 4.306
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352810",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:02:07",
+    "sentence_ID": "VXPAKOKS240352810",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240352810.mp4",
+  "saved_as": "VXPAKOKS240352810-2024년최고의재테크방법은원금을보장받을수있는적금에가입하는거야.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

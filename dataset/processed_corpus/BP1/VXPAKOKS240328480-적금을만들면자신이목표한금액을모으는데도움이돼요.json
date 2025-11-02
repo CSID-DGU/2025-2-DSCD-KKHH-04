@@ -1,0 +1,260 @@
+{
+  "id": "VXPAKOKS240328480",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "적금을 만들면 자신이 목표한 금액을 모으는 데 도움이 돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.077,
+        "end": 2.158,
+        "gloss_id": "저축2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.297,
+        "end": 2.732,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.946,
+        "end": 3.452,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.703,
+        "end": 3.867,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.109,
+        "end": 4.384,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.612,
+        "end": 5.357,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.665,
+        "end": 6.288,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.547,
+        "end": 6.879,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.084,
+        "end": 2.745,
+        "loc": "0",
+        "word": "적금을"
+      },
+      {
+        "start": 2.946,
+        "end": 3.452,
+        "loc": "1",
+        "word": "만들면"
+      },
+      {
+        "start": 3.703,
+        "end": 3.867,
+        "loc": "2",
+        "word": "자신이"
+      },
+      {
+        "start": 4.612,
+        "end": 5.357,
+        "loc": "3",
+        "word": "목표한"
+      },
+      {
+        "start": 5.665,
+        "end": 6.288,
+        "loc": "5,6",
+        "word": "모으는 데"
+      },
+      {
+        "start": 4.109,
+        "end": 4.384,
+        "loc": "4",
+        "word": "금액을"
+      },
+      {
+        "start": 6.547,
+        "end": 6.879,
+        "loc": "7,8",
+        "word": "도움이 돼요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.297,
+        "end": 2.732,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.665,
+        "end": 6.288,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.612,
+        "end": 5.357,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.077,
+        "end": 2.158,
+        "gloss_id": "저축2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.946,
+        "end": 3.452
+      },
+      {
+        "descriptor": "",
+        "start": 4.632,
+        "end": 5.377
+      },
+      {
+        "descriptor": "",
+        "start": 5.665,
+        "end": 6.288
+      },
+      {
+        "descriptor": "",
+        "start": 6.547,
+        "end": 6.879
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.547,
+        "end": 6.879
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.612,
+        "end": 5.112
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.863,
+        "end": 6.363
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.946,
+        "end": 3.452
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328480",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:32:37",
+    "sentence_ID": "VXPAKOKS240328480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240328480.mp4",
+  "saved_as": "VXPAKOKS240328480-적금을만들면자신이목표한금액을모으는데도움이돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

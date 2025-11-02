@@ -1,0 +1,383 @@
+{
+  "id": "VXPAKOKS240354010",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "적금은 최소 1개월에서 최대 5년까지의 기간으로 설정할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.217,
+        "end": 1.389,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.522,
+        "end": 1.887,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.017,
+        "end": 2.125,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.274,
+        "end": 2.71,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.935,
+        "end": 3.184,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.353,
+        "end": 3.583,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.712,
+        "end": 3.955,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.104,
+        "end": 4.752,
+        "gloss_id": "날짜(활용):5년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.971,
+        "end": 5.047,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.177,
+        "end": 5.337,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.511,
+        "end": 5.677,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.793,
+        "end": 6.113,
+        "gloss_id": "선택3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.217,
+        "end": 6.338,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.448,
+        "end": 6.581,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.217,
+        "end": 1.883,
+        "loc": "0",
+        "word": "적금은"
+      },
+      {
+        "start": 2.017,
+        "end": 2.709,
+        "loc": "1",
+        "word": "최소"
+      },
+      {
+        "start": 2.935,
+        "end": 3.184,
+        "loc": "2",
+        "word": "1개월에서"
+      },
+      {
+        "start": 3.353,
+        "end": 3.949,
+        "loc": "3",
+        "word": "최대"
+      },
+      {
+        "start": 4.104,
+        "end": 4.752,
+        "loc": "4",
+        "word": "5년까지의"
+      },
+      {
+        "start": 4.971,
+        "end": 5.689,
+        "loc": "5",
+        "word": "기간으로"
+      },
+      {
+        "start": 5.793,
+        "end": 6.344,
+        "loc": "6",
+        "word": "설정할"
+      },
+      {
+        "start": 6.448,
+        "end": 6.575,
+        "loc": "7,8",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.522,
+        "end": 1.887,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.274,
+        "end": 2.71,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.712,
+        "end": 3.955,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.104,
+        "end": 4.752,
+        "gloss_id": "날짜(활용):5년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.177,
+        "end": 5.684,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.793,
+        "end": 6.113,
+        "gloss_id": "선택3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.217,
+        "end": 6.338,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.971,
+        "end": 5.047,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.217,
+        "end": 1.389
+      },
+      {
+        "descriptor": "",
+        "start": 1.522,
+        "end": 1.887
+      },
+      {
+        "descriptor": "",
+        "start": 2.274,
+        "end": 2.71
+      },
+      {
+        "descriptor": "",
+        "start": 2.935,
+        "end": 3.184
+      },
+      {
+        "descriptor": "",
+        "start": 3.712,
+        "end": 3.955
+      },
+      {
+        "descriptor": "",
+        "start": 4.104,
+        "end": 4.752
+      },
+      {
+        "descriptor": "",
+        "start": 6.448,
+        "end": 6.575
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.448,
+        "end": 6.575
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.274,
+        "end": 2.71
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.104,
+        "end": 4.752
+      },
+      {
+        "descriptor": "",
+        "start": 5.819,
+        "end": 6.338
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.353,
+        "end": 3.956
+      },
+      {
+        "descriptor": "",
+        "start": 5.511,
+        "end": 5.677
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354010",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:11:13",
+    "sentence_ID": "VXPAKOKS240354010",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240354010.mp4",
+  "saved_as": "VXPAKOKS240354010-적금은최소1개월에서최대5년까지의기간으로설정할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

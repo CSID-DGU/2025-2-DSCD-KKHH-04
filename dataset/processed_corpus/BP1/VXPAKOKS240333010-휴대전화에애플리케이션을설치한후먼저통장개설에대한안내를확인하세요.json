@@ -1,0 +1,340 @@
+{
+  "id": "VXPAKOKS240333010",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "휴대전화에 애플리케이션을 설치한 후 먼저 통장 개설에 대한 안내를 확인하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.375,
+        "end": 2.5,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.716,
+        "end": 3.161,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.478,
+        "end": 4.157,
+        "gloss_id": "세우다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.823,
+        "end": 4.963,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.198,
+        "end": 5.347,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.51,
+        "end": 5.698,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.869,
+        "end": 6.228,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.416,
+        "end": 6.697,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.931,
+        "end": 7.189,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.36,
+        "end": 7.657,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.371,
+        "end": 4.619,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.716,
+        "end": 3.161,
+        "loc": "1",
+        "word": "애플리케이션을"
+      },
+      {
+        "start": 3.478,
+        "end": 4.157,
+        "loc": "2,3",
+        "word": "설치한 후"
+      },
+      {
+        "start": 4.815,
+        "end": 5.353,
+        "loc": "5",
+        "word": "통장"
+      },
+      {
+        "start": 5.51,
+        "end": 5.698,
+        "loc": "6,7",
+        "word": "개설에 대한"
+      },
+      {
+        "start": 5.869,
+        "end": 7.188,
+        "loc": "8",
+        "word": "안내를"
+      },
+      {
+        "start": 2.375,
+        "end": 2.5,
+        "loc": "0",
+        "word": "휴대전화에"
+      },
+      {
+        "start": 4.371,
+        "end": 4.619,
+        "loc": "4",
+        "word": "먼저"
+      },
+      {
+        "start": 7.36,
+        "end": 7.657,
+        "loc": "9",
+        "word": "확인하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.478,
+        "end": 4.61,
+        "gloss_id": "세우다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.51,
+        "end": 5.698,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.869,
+        "end": 6.228,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.416,
+        "end": 6.697,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.823,
+        "end": 4.963,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.198,
+        "end": 5.347,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.931,
+        "end": 7.189,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 2.716,
+        "end": 3.161
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.716,
+        "end": 3.161
+      },
+      {
+        "descriptor": "",
+        "start": 3.969,
+        "end": 4.165
+      },
+      {
+        "descriptor": "",
+        "start": 4.371,
+        "end": 4.619
+      },
+      {
+        "descriptor": "",
+        "start": 5.869,
+        "end": 6.228
+      },
+      {
+        "descriptor": "",
+        "start": 6.931,
+        "end": 7.189
+      },
+      {
+        "descriptor": "",
+        "start": 7.36,
+        "end": 7.657
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.985,
+        "end": 4.157
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.869,
+        "end": 6.228
+      },
+      {
+        "descriptor": "",
+        "start": 3.478,
+        "end": 3.962
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.375,
+        "end": 3.164
+      },
+      {
+        "descriptor": "",
+        "start": 6.416,
+        "end": 6.697
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333010",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:26:36",
+    "sentence_ID": "VXPAKOKS240333010",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    281,
+    126
+  ],
+  "file": "VXPAKOKS240333010.mp4",
+  "saved_as": "VXPAKOKS240333010-휴대전화에애플리케이션을설치한후먼저통장개설에대한안내를확인하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

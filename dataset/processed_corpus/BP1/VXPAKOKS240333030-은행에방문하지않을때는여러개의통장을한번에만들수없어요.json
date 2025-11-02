@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240333030",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "은행에 방문하지 않을 때는 여러 개의 통장을 한 번에 만들 수 없어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.477,
+        "end": 2.618,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.874,
+        "end": 3.289,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.525,
+        "end": 3.702,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.915,
+        "end": 4.044,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.268,
+        "end": 4.561,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.817,
+        "end": 5.183,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.419,
+        "end": 5.724,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.817,
+        "end": 5.183,
+        "loc": "4,5",
+        "word": "여러 개의"
+      },
+      {
+        "start": 3.525,
+        "end": 4.561,
+        "loc": "0,1,2,3",
+        "word": "은행에 방문하지 않을 때는"
+      },
+      {
+        "start": 2.477,
+        "end": 3.287,
+        "loc": "6",
+        "word": "통장을"
+      },
+      {
+        "start": 5.419,
+        "end": 5.724,
+        "loc": "7,8,9,10,11",
+        "word": "한 번에 만들 수 없어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.268,
+        "end": 4.561,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.477,
+        "end": 2.618,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.874,
+        "end": 3.289,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.525,
+        "end": 3.702,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.268,
+        "end": 4.561
+      },
+      {
+        "descriptor": "",
+        "start": 2.874,
+        "end": 3.289
+      },
+      {
+        "descriptor": "",
+        "start": 5.419,
+        "end": 5.724
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.817,
+        "end": 5.183
+      },
+      {
+        "descriptor": "",
+        "start": 2.477,
+        "end": 3.275
+      },
+      {
+        "descriptor": "",
+        "start": 3.915,
+        "end": 4.561
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333030",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:26:41",
+    "sentence_ID": "VXPAKOKS240333030",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    219,
+    126
+  ],
+  "file": "VXPAKOKS240333030.mp4",
+  "saved_as": "VXPAKOKS240333030-은행에방문하지않을때는여러개의통장을한번에만들수없어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

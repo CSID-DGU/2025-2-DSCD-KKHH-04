@@ -1,0 +1,324 @@
+{
+  "id": "VXPAKOKS240335520",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "단기적인 주식 투자는 원금 손실 위험이 높지만, 장기적인 주식 투자는 자산 형성에 도움이 돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.329,
+        "end": 2.533,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.735,
+        "end": 3.087,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.286,
+        "end": 3.389,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.477,
+        "end": 3.596,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.843,
+        "end": 4.133,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.397,
+        "end": 4.593,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.883,
+        "end": 5.476,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.711,
+        "end": 5.83,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.008,
+        "end": 6.414,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.696,
+        "end": 7.032,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.207,
+        "end": 7.419,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.329,
+        "end": 2.533,
+        "loc": "1",
+        "word": "주식"
+      },
+      {
+        "start": 2.735,
+        "end": 3.087,
+        "loc": "2",
+        "word": "투자는"
+      },
+      {
+        "start": 3.286,
+        "end": 4.12,
+        "loc": "0",
+        "word": "단기적인"
+      },
+      {
+        "start": 4.397,
+        "end": 4.593,
+        "loc": "3,4,5",
+        "word": "원금 손실 위험이"
+      },
+      {
+        "start": 4.883,
+        "end": 5.476,
+        "loc": "6",
+        "word": "높지만,"
+      },
+      {
+        "start": 7.207,
+        "end": 7.419,
+        "loc": "12,13",
+        "word": "도움이 돼요."
+      },
+      {
+        "start": 6.696,
+        "end": 7.032,
+        "loc": "10,11",
+        "word": "자산 형성에"
+      },
+      {
+        "start": 5.711,
+        "end": 6.398,
+        "loc": "7,8,9",
+        "word": "장기적인 주식 투자는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.329,
+        "end": 2.533,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.286,
+        "end": 3.389,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.477,
+        "end": 3.596,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.843,
+        "end": 4.133,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.397,
+        "end": 4.593,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.711,
+        "end": 5.83,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.008,
+        "end": 6.414,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.207,
+        "end": 7.419
+      },
+      {
+        "descriptor": "",
+        "start": 2.735,
+        "end": 3.087
+      },
+      {
+        "descriptor": "",
+        "start": 3.843,
+        "end": 4.133
+      },
+      {
+        "descriptor": "",
+        "start": 5.015,
+        "end": 5.476
+      },
+      {
+        "descriptor": "",
+        "start": 6.008,
+        "end": 6.414
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.207,
+        "end": 7.419
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.397,
+        "end": 5.48
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.329,
+        "end": 4.127
+      },
+      {
+        "descriptor": "",
+        "start": 5.711,
+        "end": 6.406
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335520",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:43:47",
+    "sentence_ID": "VXPAKOKS240335520",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    280,
+    126
+  ],
+  "file": "VXPAKOKS240335520.mp4",
+  "saved_as": "VXPAKOKS240335520-단기적인주식투자는원금손실위험이높지만,장기적인주식투자는자산형성에도움이돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

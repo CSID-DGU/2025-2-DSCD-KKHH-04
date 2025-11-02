@@ -1,0 +1,299 @@
+{
+  "id": "VXPAKOKS240351600",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "고객이 적금 계좌 해지를 요청해도 은행에서 이를 거부할 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.766,
+        "end": 2.379,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.57,
+        "end": 2.687,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.861,
+        "end": 3.084,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.302,
+        "end": 3.425,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.652,
+        "end": 3.794,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.045,
+        "end": 4.74,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.028,
+        "end": 5.333,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.534,
+        "end": 5.745,
+        "gloss_id": "막히다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.974,
+        "end": 6.279,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.766,
+        "end": 2.379,
+        "loc": "0",
+        "word": "고객이"
+      },
+      {
+        "start": 2.57,
+        "end": 3.076,
+        "loc": "1",
+        "word": "적금"
+      },
+      {
+        "start": 3.302,
+        "end": 3.425,
+        "loc": "2",
+        "word": "계좌"
+      },
+      {
+        "start": 3.652,
+        "end": 3.794,
+        "loc": "3",
+        "word": "해지를"
+      },
+      {
+        "start": 4.045,
+        "end": 4.74,
+        "loc": "4",
+        "word": "요청해도"
+      },
+      {
+        "start": 5.028,
+        "end": 5.333,
+        "loc": "5",
+        "word": "은행에서"
+      },
+      {
+        "start": 5.534,
+        "end": 5.745,
+        "loc": "6,7",
+        "word": "이를 거부할"
+      },
+      {
+        "start": 5.974,
+        "end": 6.279,
+        "loc": "8,9",
+        "word": "수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.766,
+        "end": 2.379,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.861,
+        "end": 3.084,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.302,
+        "end": 3.425,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.045,
+        "end": 4.74,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.652,
+        "end": 3.794,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.028,
+        "end": 5.333,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.534,
+        "end": 5.745,
+        "gloss_id": "막히다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.974,
+        "end": 6.279
+      },
+      {
+        "descriptor": "",
+        "start": 1.766,
+        "end": 2.379
+      },
+      {
+        "descriptor": "",
+        "start": 4.461,
+        "end": 4.747
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.005,
+        "end": 6.279
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.614,
+        "end": 4.753
+      },
+      {
+        "descriptor": "",
+        "start": 5.534,
+        "end": 5.745
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.974,
+        "end": 6.279
+      },
+      {
+        "descriptor": "",
+        "start": 4.045,
+        "end": 4.564
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351600",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:46:29",
+    "sentence_ID": "VXPAKOKS240351600",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    226,
+    126
+  ],
+  "file": "VXPAKOKS240351600.mp4",
+  "saved_as": "VXPAKOKS240351600-고객이적금계좌해지를요청해도은행에서이를거부할수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

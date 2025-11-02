@@ -1,0 +1,243 @@
+{
+  "id": "VXPAKOKS240332240",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "자신의 소득과 지출을 생각하여 상환 능력을 넘지 않는 범위 안에서 대출을 이용해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.841,
+        "end": 2.171,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.271,
+        "end": 2.916,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.136,
+        "end": 3.509,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.7,
+        "end": 3.909,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.003,
+        "end": 4.466,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.724,
+        "end": 4.921,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.25,
+        "end": 5.762,
+        "gloss_id": "생각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.023,
+        "end": 6.432,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.841,
+        "end": 2.171,
+        "loc": "0,1",
+        "word": "자신의 소득과"
+      },
+      {
+        "start": 3.136,
+        "end": 3.509,
+        "loc": "4",
+        "word": "상환"
+      },
+      {
+        "start": 3.7,
+        "end": 3.909,
+        "loc": "5",
+        "word": "능력을"
+      },
+      {
+        "start": 4.003,
+        "end": 4.923,
+        "loc": "6,7,8,9",
+        "word": "넘지 않는 범위 안에서"
+      },
+      {
+        "start": 2.271,
+        "end": 2.916,
+        "loc": "2",
+        "word": "지출을"
+      },
+      {
+        "start": 5.25,
+        "end": 5.762,
+        "loc": "3",
+        "word": "생각하여"
+      },
+      {
+        "start": 6.023,
+        "end": 6.432,
+        "loc": "10,11,12",
+        "word": "대출을 이용해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.841,
+        "end": 2.171,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.271,
+        "end": 2.916,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.136,
+        "end": 3.509,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.724,
+        "end": 4.921,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.25,
+        "end": 5.762
+      },
+      {
+        "descriptor": "",
+        "start": 2.271,
+        "end": 2.916
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.7,
+        "end": 3.909
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.25,
+        "end": 5.762
+      },
+      {
+        "descriptor": "",
+        "start": 1.841,
+        "end": 2.171
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332240",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:43:38",
+    "sentence_ID": "VXPAKOKS240332240",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    218,
+    126
+  ],
+  "file": "VXPAKOKS240332240.mp4",
+  "saved_as": "VXPAKOKS240332240-자신의소득과지출을생각하여상환능력을넘지않는범위안에서대출을이용해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

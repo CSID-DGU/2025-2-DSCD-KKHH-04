@@ -1,0 +1,298 @@
+{
+  "id": "VXPAKOKS240341970",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자 후에는 금융 시장 변화를 자주 확인하여 펀드 운용 구조를 바꿔 투자할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.41,
+        "end": 2.307,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.6,
+        "end": 2.756,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.033,
+        "end": 3.559,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.772,
+        "end": 4.093,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.338,
+        "end": 5.037,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.253,
+        "end": 5.495,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.705,
+        "end": 5.86,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.022,
+        "end": 6.403,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.61,
+        "end": 6.885,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.163,
+        "end": 7.392,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.41,
+        "end": 2.307,
+        "loc": "0,1,2",
+        "word": "펀드 투자 후에는"
+      },
+      {
+        "start": 3.772,
+        "end": 4.093,
+        "loc": "6",
+        "word": "자주"
+      },
+      {
+        "start": 4.338,
+        "end": 5.037,
+        "loc": "7",
+        "word": "확인하여"
+      },
+      {
+        "start": 6.022,
+        "end": 6.403,
+        "loc": "11",
+        "word": "바꿔"
+      },
+      {
+        "start": 6.61,
+        "end": 6.885,
+        "loc": "12",
+        "word": "투자할"
+      },
+      {
+        "start": 7.163,
+        "end": 7.392,
+        "loc": "13,14",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 3.033,
+        "end": 3.559,
+        "loc": "4,5",
+        "word": "시장 변화를"
+      },
+      {
+        "start": 2.6,
+        "end": 2.756,
+        "loc": "3",
+        "word": "금융"
+      },
+      {
+        "start": 5.253,
+        "end": 5.495,
+        "loc": "8",
+        "word": "펀드"
+      },
+      {
+        "start": 5.705,
+        "end": 5.86,
+        "loc": "9",
+        "word": "운용"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 6.022,
+        "end": 6.403,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.033,
+        "end": 3.559,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.705,
+        "end": 5.86,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.41,
+        "end": 1.837
+      },
+      {
+        "descriptor": "",
+        "start": 4.338,
+        "end": 5.037
+      },
+      {
+        "descriptor": "",
+        "start": 6.022,
+        "end": 6.403
+      },
+      {
+        "descriptor": "",
+        "start": 7.163,
+        "end": 7.392
+      },
+      {
+        "descriptor": "",
+        "start": 2.065,
+        "end": 2.307
+      },
+      {
+        "descriptor": "",
+        "start": 3.033,
+        "end": 3.559
+      },
+      {
+        "descriptor": "",
+        "start": 5.705,
+        "end": 5.86
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.163,
+        "end": 7.392
+      },
+      {
+        "descriptor": "",
+        "start": 2.066,
+        "end": 2.308
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.41,
+        "end": 1.969
+      }
+    ],
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240341970",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:18:14",
+    "sentence_ID": "VXPAKOKS240341970",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    238,
+    126
+  ],
+  "file": "VXPAKOKS240341970.mp4",
+  "saved_as": "VXPAKOKS240341970-펀드투자후에는금융시장변화를자주확인하여펀드운용구조를바꿔투자할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

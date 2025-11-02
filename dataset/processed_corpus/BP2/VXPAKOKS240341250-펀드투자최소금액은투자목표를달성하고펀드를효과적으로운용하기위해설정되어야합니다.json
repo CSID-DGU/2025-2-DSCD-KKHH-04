@@ -1,0 +1,291 @@
+{
+  "id": "VXPAKOKS240341250",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자 최소 금액은 투자 목표를 달성하고 펀드를 효과적으로 운용하기 위해 설정되어야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.256,
+        "end": 1.629,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.926,
+        "end": 2.496,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.75,
+        "end": 3.355,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.771,
+        "end": 4.011,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.225,
+        "end": 4.415,
+        "gloss_id": "기름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.658,
+        "end": 5.08,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.345,
+        "end": 5.606,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.815,
+        "end": 6.244,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.582,
+        "end": 6.793,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.044,
+        "end": 7.263,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.433,
+        "end": 7.736,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.771,
+        "end": 4.011,
+        "loc": "7",
+        "word": "펀드를"
+      },
+      {
+        "start": 4.225,
+        "end": 5.083,
+        "loc": "8,9,10",
+        "word": "효과적으로 운용하기 위해"
+      },
+      {
+        "start": 5.345,
+        "end": 5.606,
+        "loc": "1",
+        "word": "투자"
+      },
+      {
+        "start": 5.815,
+        "end": 6.244,
+        "loc": "2,3",
+        "word": "최소 금액은"
+      },
+      {
+        "start": 6.582,
+        "end": 7.257,
+        "loc": "11",
+        "word": "설정되어야"
+      },
+      {
+        "start": 7.433,
+        "end": 7.736,
+        "loc": "12",
+        "word": "합니다."
+      },
+      {
+        "start": 1.256,
+        "end": 1.629,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 1.926,
+        "end": 3.312,
+        "loc": "4,5,6",
+        "word": "투자 목표를 달성하고"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.771,
+        "end": 4.011,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.658,
+        "end": 5.08,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.582,
+        "end": 6.793,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.044,
+        "end": 7.263,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.433,
+        "end": 7.736,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.926,
+        "end": 2.496
+      },
+      {
+        "descriptor": "",
+        "start": 2.75,
+        "end": 3.355
+      },
+      {
+        "descriptor": "",
+        "start": 4.658,
+        "end": 5.08
+      },
+      {
+        "descriptor": "",
+        "start": 6.582,
+        "end": 6.793
+      },
+      {
+        "descriptor": "",
+        "start": 7.433,
+        "end": 7.736
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.225,
+        "end": 5.013
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341250",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:12:17",
+    "sentence_ID": "VXPAKOKS240341250",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    253,
+    126
+  ],
+  "file": "VXPAKOKS240341250.mp4",
+  "saved_as": "VXPAKOKS240341250-펀드투자최소금액은투자목표를달성하고펀드를효과적으로운용하기위해설정되어야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

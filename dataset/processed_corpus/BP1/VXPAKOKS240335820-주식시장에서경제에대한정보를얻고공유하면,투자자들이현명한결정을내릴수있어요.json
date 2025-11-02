@@ -1,0 +1,229 @@
+{
+  "id": "VXPAKOKS240335820",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 시장에서 경제에 대한 정보를 얻고 공유하면, 투자자들이 현명한 결정을 내릴 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.919,
+        "end": 2.355,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.585,
+        "end": 2.771,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.96,
+        "end": 3.627,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.886,
+        "end": 4.046,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.286,
+        "end": 4.446,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.615,
+        "end": 5.019,
+        "gloss_id": "지혜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.231,
+        "end": 5.449,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.919,
+        "end": 2.355,
+        "loc": "0,1",
+        "word": "주식 시장에서"
+      },
+      {
+        "start": 2.585,
+        "end": 2.771,
+        "loc": "2,3,4,5",
+        "word": "경제에 대한 정보를 얻고"
+      },
+      {
+        "start": 2.96,
+        "end": 3.627,
+        "loc": "6",
+        "word": "공유하면,"
+      },
+      {
+        "start": 3.886,
+        "end": 4.444,
+        "loc": "7",
+        "word": "투자자들이"
+      },
+      {
+        "start": 4.615,
+        "end": 5.449,
+        "loc": "8,9,10,11,12",
+        "word": "현명한 결정을 내릴 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.919,
+        "end": 2.355,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.585,
+        "end": 2.771,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.96,
+        "end": 3.627,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.886,
+        "end": 4.046,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.615,
+        "end": 5.019,
+        "gloss_id": "지혜1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.088,
+        "end": 3.627
+      },
+      {
+        "descriptor": "",
+        "start": 4.615,
+        "end": 5.019
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.231,
+        "end": 5.449
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.919,
+        "end": 3.625
+      },
+      {
+        "descriptor": "",
+        "start": 4.286,
+        "end": 5.017
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335820",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:45:21",
+    "sentence_ID": "VXPAKOKS240335820",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240335820.mp4",
+  "saved_as": "VXPAKOKS240335820-주식시장에서경제에대한정보를얻고공유하면,투자자들이현명한결정을내릴수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

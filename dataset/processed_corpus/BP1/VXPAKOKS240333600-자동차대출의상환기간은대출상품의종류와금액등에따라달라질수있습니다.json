@@ -1,0 +1,289 @@
+{
+  "id": "VXPAKOKS240333600",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "자동차 대출의 상환 기간은 대출 상품의 종류와 금액 등에 따라 달라질 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.359,
+        "end": 2.628,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.896,
+        "end": 3.247,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.641,
+        "end": 3.89,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.365,
+        "end": 4.608,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.943,
+        "end": 5.233,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.376,
+        "end": 5.517,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.733,
+        "end": 6.036,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.3,
+        "end": 6.82,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.101,
+        "end": 4.222,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.359,
+        "end": 2.628,
+        "loc": "0",
+        "word": "자동차"
+      },
+      {
+        "start": 2.896,
+        "end": 3.247,
+        "loc": "1",
+        "word": "대출의"
+      },
+      {
+        "start": 3.641,
+        "end": 3.89,
+        "loc": "4,5,6",
+        "word": "대출 상품의 종류와"
+      },
+      {
+        "start": 4.101,
+        "end": 4.608,
+        "loc": "7,8",
+        "word": "금액 등에"
+      },
+      {
+        "start": 4.943,
+        "end": 5.233,
+        "loc": "2",
+        "word": "상환"
+      },
+      {
+        "start": 5.376,
+        "end": 6.025,
+        "loc": "3",
+        "word": "기간은"
+      },
+      {
+        "start": 6.3,
+        "end": 6.82,
+        "loc": "9,10,11,12",
+        "word": "따라 달라질 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.359,
+        "end": 3.238,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.641,
+        "end": 3.89,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.376,
+        "end": 5.517,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.733,
+        "end": 6.036,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.3,
+        "end": 6.82,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.943,
+        "end": 5.233,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.3,
+        "end": 6.82
+      },
+      {
+        "descriptor": "",
+        "start": 2.896,
+        "end": 3.247
+      },
+      {
+        "descriptor": "",
+        "start": 3.641,
+        "end": 3.89
+      },
+      {
+        "descriptor": "",
+        "start": 4.182,
+        "end": 4.608
+      },
+      {
+        "descriptor": "",
+        "start": 5.733,
+        "end": 6.036
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.641,
+        "end": 4.615
+      },
+      {
+        "descriptor": "",
+        "start": 6.3,
+        "end": 6.82
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.896,
+        "end": 3.247
+      },
+      {
+        "descriptor": "",
+        "start": 5.376,
+        "end": 6.025
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333600",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:23:32",
+    "sentence_ID": "VXPAKOKS240333600",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    244,
+    126
+  ],
+  "file": "VXPAKOKS240333600.mp4",
+  "saved_as": "VXPAKOKS240333600-자동차대출의상환기간은대출상품의종류와금액등에따라달라질수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

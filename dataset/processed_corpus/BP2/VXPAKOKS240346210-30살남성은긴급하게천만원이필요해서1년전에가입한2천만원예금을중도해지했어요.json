@@ -1,0 +1,349 @@
+{
+  "id": "VXPAKOKS240346210",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "30살 남성은 긴급하게 천만 원이 필요해서 1년 전에 가입한 2천만 원 예금을 중도 해지했어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.141,
+        "end": 2.24,
+        "gloss_id": "나이1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.413,
+        "end": 3.061,
+        "gloss_id": "30",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.584,
+        "end": 4.261,
+        "gloss_id": "10000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.659,
+        "end": 4.971,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.196,
+        "end": 5.38,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.7,
+        "end": 6.249,
+        "gloss_id": "날짜(활용):1년전",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.587,
+        "end": 7.255,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.486,
+        "end": 7.966,
+        "gloss_id": "20000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.371,
+        "end": 8.693,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.977,
+        "end": 9.23,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.412,
+        "end": 9.655,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.644,
+        "end": 3.052,
+        "loc": "0,1",
+        "word": "30살 남성은"
+      },
+      {
+        "start": 3.584,
+        "end": 4.261,
+        "loc": "3,4",
+        "word": "천만 원이"
+      },
+      {
+        "start": 4.659,
+        "end": 4.971,
+        "loc": "2",
+        "word": "긴급하게"
+      },
+      {
+        "start": 5.196,
+        "end": 5.38,
+        "loc": "5",
+        "word": "필요해서"
+      },
+      {
+        "start": 5.7,
+        "end": 6.249,
+        "loc": "6,7",
+        "word": "1년 전에"
+      },
+      {
+        "start": 6.587,
+        "end": 7.255,
+        "loc": "8",
+        "word": "가입한"
+      },
+      {
+        "start": 7.486,
+        "end": 7.966,
+        "loc": "9,10",
+        "word": "2천만 원"
+      },
+      {
+        "start": 8.371,
+        "end": 8.693,
+        "loc": "11",
+        "word": "예금을"
+      },
+      {
+        "start": 8.977,
+        "end": 9.23,
+        "loc": "12",
+        "word": "중도"
+      },
+      {
+        "start": 9.412,
+        "end": 9.655,
+        "loc": "13",
+        "word": "해지했어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.644,
+        "end": 3.062,
+        "gloss_id": "남자1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.659,
+        "end": 4.971,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.196,
+        "end": 5.38,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.587,
+        "end": 7.955,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.371,
+        "end": 8.693,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.977,
+        "end": 9.23,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.412,
+        "end": 9.655,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.7,
+        "end": 6.249,
+        "gloss_id": "날짜(활용):1년전",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.581,
+        "end": 3.061
+      },
+      {
+        "descriptor": "",
+        "start": 3.795,
+        "end": 4.265
+      },
+      {
+        "descriptor": "",
+        "start": 6.755,
+        "end": 7.255
+      },
+      {
+        "descriptor": "",
+        "start": 8.977,
+        "end": 9.23
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.412,
+        "end": 9.655
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.141,
+        "end": 3.065
+      },
+      {
+        "descriptor": "",
+        "start": 3.584,
+        "end": 5.366
+      },
+      {
+        "descriptor": "",
+        "start": 8.977,
+        "end": 9.654
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.584,
+        "end": 4.103
+      },
+      {
+        "descriptor": "",
+        "start": 5.92,
+        "end": 6.913
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346210",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:42:58",
+    "sentence_ID": "VXPAKOKS240346210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    355,
+    126
+  ],
+  "file": "VXPAKOKS240346210.mp4",
+  "saved_as": "VXPAKOKS240346210-30살남성은긴급하게천만원이필요해서1년전에가입한2천만원예금을중도해지했어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

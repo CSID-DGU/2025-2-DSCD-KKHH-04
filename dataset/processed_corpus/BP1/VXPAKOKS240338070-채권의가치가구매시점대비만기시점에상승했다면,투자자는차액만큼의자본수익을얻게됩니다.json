@@ -1,0 +1,319 @@
+{
+  "id": "VXPAKOKS240338070",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 가치가 구매 시점 대비 만기 시점에 상승했다면, 투자자는 차액만큼의 자본 수익을 얻게 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.042,
+        "end": 2.131,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.347,
+        "end": 2.491,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.737,
+        "end": 3.13,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.364,
+        "end": 3.713,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.023,
+        "end": 4.621,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.038,
+        "end": 5.289,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.486,
+        "end": 6.137,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.496,
+        "end": 7.227,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.448,
+        "end": 7.575,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.725,
+        "end": 7.887,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.064,
+        "end": 8.315,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.507,
+        "end": 8.723,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.042,
+        "end": 3.135,
+        "loc": "0,1",
+        "word": "채권의 가치가"
+      },
+      {
+        "start": 3.364,
+        "end": 4.611,
+        "loc": "2,3",
+        "word": "구매 시점"
+      },
+      {
+        "start": 5.038,
+        "end": 6.153,
+        "loc": "4,5,6",
+        "word": "대비 만기 시점에"
+      },
+      {
+        "start": 6.496,
+        "end": 7.227,
+        "loc": "7",
+        "word": "상승했다면,"
+      },
+      {
+        "start": 7.448,
+        "end": 7.868,
+        "loc": "8,9",
+        "word": "투자자는 차액만큼의"
+      },
+      {
+        "start": 8.064,
+        "end": 8.715,
+        "loc": "10,11,12,13",
+        "word": "자본 수익을 얻게 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.737,
+        "end": 3.13,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.364,
+        "end": 3.713,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.023,
+        "end": 4.621,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.038,
+        "end": 5.289,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.486,
+        "end": 6.137,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.496,
+        "end": 7.227,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.737,
+        "end": 3.13
+      },
+      {
+        "descriptor": "",
+        "start": 4.165,
+        "end": 4.621
+      },
+      {
+        "descriptor": "",
+        "start": 5.593,
+        "end": 6.137
+      },
+      {
+        "descriptor": "",
+        "start": 6.864,
+        "end": 7.231
+      },
+      {
+        "descriptor": "",
+        "start": 8.507,
+        "end": 8.723
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.507,
+        "end": 8.723
+      },
+      {
+        "descriptor": "",
+        "start": 5.038,
+        "end": 5.289
+      },
+      {
+        "descriptor": "",
+        "start": 6.874,
+        "end": 7.227
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.207,
+        "end": 8.51
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.347,
+        "end": 3.122
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338070",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:33",
+    "sentence_ID": "VXPAKOKS240338070",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    320,
+    126
+  ],
+  "file": "VXPAKOKS240338070.mp4",
+  "saved_as": "VXPAKOKS240338070-채권의가치가구매시점대비만기시점에상승했다면,투자자는차액만큼의자본수익을얻게됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

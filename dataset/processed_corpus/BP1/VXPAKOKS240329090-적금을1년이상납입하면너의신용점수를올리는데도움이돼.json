@@ -1,0 +1,290 @@
+{
+  "id": "VXPAKOKS240329090",
+  "opertor": "label16",
+  "krlgg_sntenc": {
+    "koreanText": "적금을 1년 이상 납입하면 너의 신용점수를 올리는 데 도움이 돼.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.532,
+        "end": 1.974,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.299,
+        "end": 2.645,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.999,
+        "end": 3.173,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.433,
+        "end": 3.515,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.866,
+        "end": 4.606,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.764,
+        "end": 4.852,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.233,
+        "end": 5.491,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.699,
+        "end": 6.119,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.399,
+        "end": 6.659,
+        "gloss_id": "오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.798,
+        "end": 7.126,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.532,
+        "end": 1.974,
+        "loc": "1",
+        "word": "1년"
+      },
+      {
+        "start": 2.299,
+        "end": 2.645,
+        "loc": "2",
+        "word": "이상"
+      },
+      {
+        "start": 2.999,
+        "end": 3.515,
+        "loc": "0",
+        "word": "적금을"
+      },
+      {
+        "start": 3.866,
+        "end": 4.606,
+        "loc": "3",
+        "word": "납입하면"
+      },
+      {
+        "start": 5.233,
+        "end": 6.118,
+        "loc": "5",
+        "word": "신용점수를"
+      },
+      {
+        "start": 6.399,
+        "end": 6.659,
+        "loc": "6,7",
+        "word": "올리는 데"
+      },
+      {
+        "start": 6.785,
+        "end": 7.126,
+        "loc": "8,9",
+        "word": "도움이 돼."
+      },
+      {
+        "start": 4.764,
+        "end": 4.852,
+        "loc": "4",
+        "word": "너의"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.532,
+        "end": 1.974,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.433,
+        "end": 3.515,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.866,
+        "end": 4.849,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.699,
+        "end": 6.119,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일월",
+        "start": 2.999,
+        "end": 3.173
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.532,
+        "end": 1.974
+      },
+      {
+        "descriptor": "",
+        "start": 2.299,
+        "end": 2.645
+      },
+      {
+        "descriptor": "",
+        "start": 3.866,
+        "end": 4.606
+      },
+      {
+        "descriptor": "",
+        "start": 6.798,
+        "end": 7.126
+      },
+      {
+        "descriptor": "",
+        "start": 5.699,
+        "end": 6.119
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.866,
+        "end": 4.606
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.532,
+        "end": 1.974
+      },
+      {
+        "descriptor": "",
+        "start": 4.764,
+        "end": 6.137
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329090",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:41:35",
+    "sentence_ID": "VXPAKOKS240329090",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    236,
+    126
+  ],
+  "file": "VXPAKOKS240329090.mp4",
+  "saved_as": "VXPAKOKS240329090-적금을1년이상납입하면너의신용점수를올리는데도움이돼.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

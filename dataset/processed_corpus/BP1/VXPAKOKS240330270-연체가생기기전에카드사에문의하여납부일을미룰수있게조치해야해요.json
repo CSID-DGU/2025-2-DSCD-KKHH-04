@@ -1,0 +1,339 @@
+{
+  "id": "VXPAKOKS240330270",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "연체가 생기기 전에 카드사에 문의하여 납부일을 미룰 수 있게 조치해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.149,
+        "end": 2.29,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.482,
+        "end": 2.906,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.093,
+        "end": 3.676,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.906,
+        "end": 4.1,
+        "gloss_id": "할부2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.312,
+        "end": 4.98,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.203,
+        "end": 5.42,
+        "gloss_id": "미루다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.598,
+        "end": 5.984,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.218,
+        "end": 6.412,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.569,
+        "end": 6.786,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.944,
+        "end": 7.39,
+        "gloss_id": "질문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.592,
+        "end": 7.886,
+        "gloss_id": "해결1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.112,
+        "end": 8.405,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.149,
+        "end": 2.893,
+        "loc": "0",
+        "word": "연체가"
+      },
+      {
+        "start": 3.093,
+        "end": 3.676,
+        "loc": "1,2",
+        "word": "생기기 전에"
+      },
+      {
+        "start": 6.218,
+        "end": 6.778,
+        "loc": "3",
+        "word": "카드사에"
+      },
+      {
+        "start": 6.944,
+        "end": 7.39,
+        "loc": "4",
+        "word": "문의하여"
+      },
+      {
+        "start": 3.906,
+        "end": 4.986,
+        "loc": "5",
+        "word": "납부일을"
+      },
+      {
+        "start": 5.203,
+        "end": 5.42,
+        "loc": "6",
+        "word": "미룰"
+      },
+      {
+        "start": 5.598,
+        "end": 5.984,
+        "loc": "7,8",
+        "word": "수 있게"
+      },
+      {
+        "start": 7.592,
+        "end": 7.886,
+        "loc": "9",
+        "word": "조치해야"
+      },
+      {
+        "start": 8.112,
+        "end": 8.405,
+        "loc": "10",
+        "word": "해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.482,
+        "end": 3.654,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.906,
+        "end": 4.1,
+        "gloss_id": "할부2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.312,
+        "end": 4.98,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.203,
+        "end": 5.42,
+        "gloss_id": "미루다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.569,
+        "end": 6.786,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.592,
+        "end": 7.886,
+        "gloss_id": "해결1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.112,
+        "end": 8.405,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.598,
+        "end": 5.984
+      },
+      {
+        "descriptor": "",
+        "start": 3.093,
+        "end": 3.676
+      },
+      {
+        "descriptor": "",
+        "start": 4.625,
+        "end": 4.98
+      },
+      {
+        "descriptor": "",
+        "start": 6.944,
+        "end": 7.39
+      },
+      {
+        "descriptor": "",
+        "start": 8.112,
+        "end": 8.405
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.598,
+        "end": 5.984
+      },
+      {
+        "descriptor": "",
+        "start": 2.482,
+        "end": 2.906
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.598,
+        "end": 5.984
+      },
+      {
+        "descriptor": "",
+        "start": 2.149,
+        "end": 3.657
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330270",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:00:27",
+    "sentence_ID": "VXPAKOKS240330270",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    275,
+    126
+  ],
+  "file": "VXPAKOKS240330270.mp4",
+  "saved_as": "VXPAKOKS240330270-연체가생기기전에카드사에문의하여납부일을미룰수있게조치해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

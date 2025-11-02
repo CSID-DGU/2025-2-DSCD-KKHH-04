@@ -1,0 +1,208 @@
+{
+  "id": "VXPAKOKS240329940",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 사용 후 청구서 확인하는 방법을 알고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.83,
+        "end": 2.068,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.222,
+        "end": 2.868,
+        "gloss_id": "카드2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.032,
+        "end": 3.602,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.74,
+        "end": 3.858,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.959,
+        "end": 4.122,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.248,
+        "end": 4.622,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.771,
+        "end": 5.321,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.83,
+        "end": 2.867,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 3.032,
+        "end": 4.11,
+        "loc": "1,2,3",
+        "word": "사용 후 청구서"
+      },
+      {
+        "start": 4.248,
+        "end": 4.622,
+        "loc": "4",
+        "word": "확인하는"
+      },
+      {
+        "start": 4.771,
+        "end": 5.321,
+        "loc": "5,6,7",
+        "word": "방법을 알고 싶어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.83,
+        "end": 2.068,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.032,
+        "end": 3.602,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.771,
+        "end": 5.321,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.771,
+        "end": 5.321
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.771,
+        "end": 5.321
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 2.222,
+        "end": 2.868
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.83,
+        "end": 2.068
+      },
+      {
+        "descriptor": "",
+        "start": 3.032,
+        "end": 4.12
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329940",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:49:09",
+    "sentence_ID": "VXPAKOKS240329940",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    181,
+    126
+  ],
+  "file": "VXPAKOKS240329940.mp4",
+  "saved_as": "VXPAKOKS240329940-신용카드사용후청구서확인하는방법을알고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

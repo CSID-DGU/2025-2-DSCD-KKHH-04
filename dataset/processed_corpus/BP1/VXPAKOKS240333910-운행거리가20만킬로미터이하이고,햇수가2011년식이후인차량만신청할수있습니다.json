@@ -1,0 +1,387 @@
+{
+  "id": "VXPAKOKS240333910",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "운행 거리가 20만 킬로미터 이하이고, 햇수가 2011년식 이후인 차량만 신청할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.538,
+        "end": 2.669,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.873,
+        "end": 3.096,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.268,
+        "end": 3.611,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.006,
+        "end": 4.819,
+        "gloss_id": "2011",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.04,
+        "end": 5.669,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.963,
+        "end": 6.055,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.092,
+        "end": 6.738,
+        "gloss_id": "승용차1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.015,
+        "end": 7.146,
+        "gloss_id": "평수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.357,
+        "end": 7.857,
+        "gloss_id": "200000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.063,
+        "end": 8.415,
+        "gloss_id": "후배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.677,
+        "end": 9.001,
+        "gloss_id": "인정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.249,
+        "end": 9.444,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 9.619,
+        "end": 9.814,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.538,
+        "end": 2.669,
+        "loc": "8",
+        "word": "차량만"
+      },
+      {
+        "start": 2.873,
+        "end": 3.603,
+        "loc": "5",
+        "word": "햇수가"
+      },
+      {
+        "start": 4.006,
+        "end": 4.819,
+        "loc": "6",
+        "word": "2011년식"
+      },
+      {
+        "start": 5.04,
+        "end": 5.669,
+        "loc": "7",
+        "word": "이후인"
+      },
+      {
+        "start": 5.963,
+        "end": 6.055,
+        "loc": "0",
+        "word": "운행"
+      },
+      {
+        "start": 6.092,
+        "end": 7.126,
+        "loc": "1",
+        "word": "거리가"
+      },
+      {
+        "start": 7.357,
+        "end": 7.857,
+        "loc": "2,3",
+        "word": "20만 킬로미터"
+      },
+      {
+        "start": 8.063,
+        "end": 9.015,
+        "loc": "4",
+        "word": "이하이고,"
+      },
+      {
+        "start": 9.249,
+        "end": 9.444,
+        "loc": "9",
+        "word": "신청할"
+      },
+      {
+        "start": 9.619,
+        "end": 9.814,
+        "loc": "10,11",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.538,
+        "end": 2.668,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.873,
+        "end": 3.096,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.268,
+        "end": 3.611,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.04,
+        "end": 5.669,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.963,
+        "end": 6.055,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.015,
+        "end": 7.145,
+        "gloss_id": "평수1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.249,
+        "end": 9.444,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "2011",
+        "start": 4.006,
+        "end": 4.819
+      },
+      {
+        "descriptor": "이십만",
+        "start": 7.357,
+        "end": 7.857
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.268,
+        "end": 3.611
+      },
+      {
+        "descriptor": "",
+        "start": 4.462,
+        "end": 4.819
+      },
+      {
+        "descriptor": "",
+        "start": 5.04,
+        "end": 5.669
+      },
+      {
+        "descriptor": "",
+        "start": 6.456,
+        "end": 6.738
+      },
+      {
+        "descriptor": "",
+        "start": 7.015,
+        "end": 7.146
+      },
+      {
+        "descriptor": "",
+        "start": 8.063,
+        "end": 8.415
+      },
+      {
+        "descriptor": "",
+        "start": 8.677,
+        "end": 9.001
+      },
+      {
+        "descriptor": "",
+        "start": 9.619,
+        "end": 9.814
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.619,
+        "end": 9.814
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 6.395,
+        "end": 6.641
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.538,
+        "end": 3.592
+      },
+      {
+        "descriptor": "",
+        "start": 8.246,
+        "end": 9.001
+      },
+      {
+        "descriptor": "",
+        "start": 5.04,
+        "end": 5.669
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333910",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:04",
+    "sentence_ID": "VXPAKOKS240333910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    332,
+    126
+  ],
+  "file": "VXPAKOKS240333910.mp4",
+  "saved_as": "VXPAKOKS240333910-운행거리가20만킬로미터이하이고,햇수가2011년식이후인차량만신청할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,319 @@
+{
+  "id": "VXPAKOKS240327620",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "신용점수는 대출을 신청하거나 집을 살 때, 신용카드를 발급받을 때 중요한 역할을 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.016,
+        "end": 2.23,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.491,
+        "end": 2.777,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.187,
+        "end": 3.501,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.653,
+        "end": 3.745,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.019,
+        "end": 4.49,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.795,
+        "end": 4.995,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.16,
+        "end": 5.367,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.56,
+        "end": 5.953,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.256,
+        "end": 6.406,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.622,
+        "end": 6.858,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.029,
+        "end": 7.601,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.653,
+        "end": 3.745,
+        "loc": "3",
+        "word": "집을"
+      },
+      {
+        "start": 4.019,
+        "end": 4.49,
+        "loc": "4,5",
+        "word": "살 때,"
+      },
+      {
+        "start": 6.256,
+        "end": 6.863,
+        "loc": "0",
+        "word": "신용점수는"
+      },
+      {
+        "start": 7.029,
+        "end": 7.601,
+        "loc": "9,10,11",
+        "word": "중요한 역할을 해요."
+      },
+      {
+        "start": 2.016,
+        "end": 2.78,
+        "loc": "6",
+        "word": "신용카드를"
+      },
+      {
+        "start": 3.187,
+        "end": 3.501,
+        "loc": "7,8",
+        "word": "발급받을 때"
+      },
+      {
+        "start": 4.795,
+        "end": 4.995,
+        "loc": "1",
+        "word": "대출을"
+      },
+      {
+        "start": 5.16,
+        "end": 5.946,
+        "loc": "2",
+        "word": "신청하거나"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.016,
+        "end": 2.766,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.187,
+        "end": 3.501,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.653,
+        "end": 3.745,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.019,
+        "end": 4.49,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.16,
+        "end": 5.367,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.256,
+        "end": 6.406,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.029,
+        "end": 7.601,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.029,
+        "end": 7.601
+      },
+      {
+        "descriptor": "",
+        "start": 2.491,
+        "end": 2.777
+      },
+      {
+        "descriptor": "",
+        "start": 5.56,
+        "end": 5.953
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.226,
+        "end": 4.49
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.795,
+        "end": 4.995
+      },
+      {
+        "descriptor": "",
+        "start": 6.622,
+        "end": 7.601
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.16,
+        "end": 5.953
+      },
+      {
+        "descriptor": "",
+        "start": 3.187,
+        "end": 3.501
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327620",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:19:26",
+    "sentence_ID": "VXPAKOKS240327620",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240327620.mp4",
+  "saved_as": "VXPAKOKS240327620-신용점수는대출을신청하거나집을살때,신용카드를발급받을때중요한역할을해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

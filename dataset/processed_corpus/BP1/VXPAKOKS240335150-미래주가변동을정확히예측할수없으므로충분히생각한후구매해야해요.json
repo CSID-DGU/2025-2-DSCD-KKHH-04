@@ -1,0 +1,257 @@
+{
+  "id": "VXPAKOKS240335150",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "미래 주가 변동을 정확히 예측할 수 없으므로 충분히 생각한 후 구매해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.447,
+        "end": 2.747,
+        "gloss_id": "미래1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.068,
+        "end": 3.185,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.486,
+        "end": 4.201,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.612,
+        "end": 5.208,
+        "gloss_id": "모르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.678,
+        "end": 6.146,
+        "gloss_id": "생각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.609,
+        "end": 7.029,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.34,
+        "end": 7.625,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.85,
+        "end": 7.991,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.447,
+        "end": 2.747,
+        "loc": "0",
+        "word": "미래"
+      },
+      {
+        "start": 3.068,
+        "end": 3.185,
+        "loc": "1",
+        "word": "주가"
+      },
+      {
+        "start": 3.486,
+        "end": 4.201,
+        "loc": "2,3",
+        "word": "변동을 정확히"
+      },
+      {
+        "start": 4.612,
+        "end": 5.208,
+        "loc": "4,5,6",
+        "word": "예측할 수 없으므로"
+      },
+      {
+        "start": 5.678,
+        "end": 6.146,
+        "loc": "7,8",
+        "word": "충분히 생각한"
+      },
+      {
+        "start": 6.609,
+        "end": 7.029,
+        "loc": "9",
+        "word": "후"
+      },
+      {
+        "start": 7.34,
+        "end": 7.625,
+        "loc": "10",
+        "word": "구매해야"
+      },
+      {
+        "start": 7.85,
+        "end": 7.991,
+        "loc": "11",
+        "word": "해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.068,
+        "end": 3.185,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.486,
+        "end": 4.201,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.609,
+        "end": 7.029,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.612,
+        "end": 5.052
+      },
+      {
+        "descriptor": "",
+        "start": 5.678,
+        "end": 6.146
+      },
+      {
+        "descriptor": "",
+        "start": 6.724,
+        "end": 7.029
+      },
+      {
+        "descriptor": "",
+        "start": 7.85,
+        "end": 7.991
+      },
+      {
+        "descriptor": "",
+        "start": 7.34,
+        "end": 7.625
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.732,
+        "end": 7.032
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 4.078,
+        "end": 4.551
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.612,
+        "end": 5.208
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240335150",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:53",
+    "sentence_ID": "VXPAKOKS240335150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    287,
+    126
+  ],
+  "file": "VXPAKOKS240335150.mp4",
+  "saved_as": "VXPAKOKS240335150-미래주가변동을정확히예측할수없으므로충분히생각한후구매해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

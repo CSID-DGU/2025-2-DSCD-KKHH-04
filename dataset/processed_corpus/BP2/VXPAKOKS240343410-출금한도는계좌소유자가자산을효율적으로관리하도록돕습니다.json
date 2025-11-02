@@ -1,0 +1,300 @@
+{
+  "id": "VXPAKOKS240343410",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "출금 한도는 계좌 소유자가 자산을 효율적으로 관리하도록 돕습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.469,
+        "end": 1.589,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.785,
+        "end": 1.976,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.107,
+        "end": 2.22,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.422,
+        "end": 2.707,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.045,
+        "end": 3.23,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.34,
+        "end": 3.575,
+        "gloss_id": "가지다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.813,
+        "end": 4.062,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.415,
+        "end": 5.087,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.439,
+        "end": 5.674,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.848,
+        "end": 6.076,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.249,
+        "end": 6.598,
+        "gloss_id": "돕다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.469,
+        "end": 1.969,
+        "loc": "0",
+        "word": "출금"
+      },
+      {
+        "start": 2.107,
+        "end": 2.693,
+        "loc": "1",
+        "word": "한도는"
+      },
+      {
+        "start": 3.045,
+        "end": 3.23,
+        "loc": "2",
+        "word": "계좌"
+      },
+      {
+        "start": 3.34,
+        "end": 4.054,
+        "loc": "3",
+        "word": "소유자가"
+      },
+      {
+        "start": 4.415,
+        "end": 5.087,
+        "loc": "4",
+        "word": "자산을"
+      },
+      {
+        "start": 6.249,
+        "end": 6.598,
+        "loc": "7",
+        "word": "돕습니다."
+      },
+      {
+        "start": 5.439,
+        "end": 5.674,
+        "loc": "6",
+        "word": "관리하도록"
+      },
+      {
+        "start": 5.848,
+        "end": 6.083,
+        "loc": "5",
+        "word": "효율적으로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.785,
+        "end": 2.215,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.422,
+        "end": 2.707,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.045,
+        "end": 3.574,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.813,
+        "end": 4.062,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.415,
+        "end": 5.661,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.249,
+        "end": 6.598,
+        "gloss_id": "돕다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.422,
+        "end": 2.707
+      },
+      {
+        "descriptor": "",
+        "start": 4.415,
+        "end": 5.087
+      },
+      {
+        "descriptor": "",
+        "start": 5.848,
+        "end": 6.076
+      },
+      {
+        "descriptor": "",
+        "start": 6.249,
+        "end": 6.598
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.848,
+        "end": 6.593
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.469,
+        "end": 2.633
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343410",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:31:20",
+    "sentence_ID": "VXPAKOKS240343410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240343410.mp4",
+  "saved_as": "VXPAKOKS240343410-출금한도는계좌소유자가자산을효율적으로관리하도록돕습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

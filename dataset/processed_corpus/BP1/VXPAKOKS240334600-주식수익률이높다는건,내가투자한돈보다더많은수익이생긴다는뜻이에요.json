@@ -1,0 +1,339 @@
+{
+  "id": "VXPAKOKS240334600",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 수익률이 높다는 건, 내가 투자한 돈보다 더 많은 수익이 생긴다는 뜻이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.324,
+        "end": 2.579,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.746,
+        "end": 2.93,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.208,
+        "end": 3.725,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.081,
+        "end": 4.353,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.628,
+        "end": 4.874,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.272,
+        "end": 5.421,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.6,
+        "end": 5.784,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.882,
+        "end": 6.014,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.421,
+        "end": 6.737,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.006,
+        "end": 7.26,
+        "gloss_id": "더1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.483,
+        "end": 7.746,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.942,
+        "end": 8.205,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.368,
+        "end": 8.649,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.324,
+        "end": 2.579,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.746,
+        "end": 3.718,
+        "loc": "1",
+        "word": "수익률이"
+      },
+      {
+        "start": 4.628,
+        "end": 4.874,
+        "loc": "3",
+        "word": "건,"
+      },
+      {
+        "start": 5.272,
+        "end": 5.771,
+        "loc": "4,5",
+        "word": "내가 투자한"
+      },
+      {
+        "start": 5.882,
+        "end": 6.732,
+        "loc": "6",
+        "word": "돈보다"
+      },
+      {
+        "start": 7.006,
+        "end": 7.26,
+        "loc": "7",
+        "word": "더"
+      },
+      {
+        "start": 7.483,
+        "end": 7.746,
+        "loc": "9,10",
+        "word": "수익이 생긴다는"
+      },
+      {
+        "start": 7.942,
+        "end": 8.205,
+        "loc": "8",
+        "word": "많은"
+      },
+      {
+        "start": 8.368,
+        "end": 8.649,
+        "loc": "11",
+        "word": "뜻이에요."
+      },
+      {
+        "start": 4.081,
+        "end": 4.353,
+        "loc": "2",
+        "word": "높다는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.324,
+        "end": 2.579,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.208,
+        "end": 3.725,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.421,
+        "end": 6.737,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.006,
+        "end": 7.26,
+        "gloss_id": "더1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.368,
+        "end": 8.649,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.368,
+        "end": 8.649
+      },
+      {
+        "descriptor": "",
+        "start": 3.322,
+        "end": 3.725
+      },
+      {
+        "descriptor": "",
+        "start": 4.628,
+        "end": 4.874
+      },
+      {
+        "descriptor": "",
+        "start": 6.421,
+        "end": 6.737
+      },
+      {
+        "descriptor": "",
+        "start": 4.081,
+        "end": 4.353
+      },
+      {
+        "descriptor": "",
+        "start": 7.942,
+        "end": 8.205
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.272,
+        "end": 5.421
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.324,
+        "end": 4.348
+      },
+      {
+        "descriptor": "",
+        "start": 5.882,
+        "end": 6.706
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334600",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:31:19",
+    "sentence_ID": "VXPAKOKS240334600",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    315,
+    126
+  ],
+  "file": "VXPAKOKS240334600.mp4",
+  "saved_as": "VXPAKOKS240334600-주식수익률이높다는건,내가투자한돈보다더많은수익이생긴다는뜻이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

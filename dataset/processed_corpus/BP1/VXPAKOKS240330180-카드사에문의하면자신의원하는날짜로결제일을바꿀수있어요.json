@@ -1,0 +1,247 @@
+{
+  "id": "VXPAKOKS240330180",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "카드사에 문의하면 자신의 원하는 날짜로 결제일을 바꿀 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.529,
+        "end": 1.709,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.855,
+        "end": 2.355,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.533,
+        "end": 3.105,
+        "gloss_id": "전화하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.427,
+        "end": 3.586,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.802,
+        "end": 4.018,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.172,
+        "end": 4.522,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.68,
+        "end": 4.983,
+        "gloss_id": "바꾸다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.15,
+        "end": 5.386,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.529,
+        "end": 2.344,
+        "loc": "0",
+        "word": "카드사에"
+      },
+      {
+        "start": 2.533,
+        "end": 3.105,
+        "loc": "1",
+        "word": "문의하면"
+      },
+      {
+        "start": 3.802,
+        "end": 4.018,
+        "loc": "2,3",
+        "word": "자신의 원하는"
+      },
+      {
+        "start": 4.172,
+        "end": 4.522,
+        "loc": "4",
+        "word": "날짜로"
+      },
+      {
+        "start": 3.427,
+        "end": 3.586,
+        "loc": "5",
+        "word": "결제일을"
+      },
+      {
+        "start": 4.68,
+        "end": 4.983,
+        "loc": "6",
+        "word": "바꿀"
+      },
+      {
+        "start": 5.15,
+        "end": 5.386,
+        "loc": "7,8",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.855,
+        "end": 2.355,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.427,
+        "end": 4.02,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.172,
+        "end": 4.522,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.15,
+        "end": 5.386
+      },
+      {
+        "descriptor": "",
+        "start": 2.533,
+        "end": 3.105
+      },
+      {
+        "descriptor": "",
+        "start": 4.172,
+        "end": 4.522
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.199,
+        "end": 5.379
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.802,
+        "end": 4.018
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.68,
+        "end": 4.983
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.172,
+        "end": 4.522
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330180",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:58:13",
+    "sentence_ID": "VXPAKOKS240330180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    186,
+    126
+  ],
+  "file": "VXPAKOKS240330180.mp4",
+  "saved_as": "VXPAKOKS240330180-카드사에문의하면자신의원하는날짜로결제일을바꿀수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

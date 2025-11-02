@@ -1,0 +1,247 @@
+{
+  "id": "VXPAKOKS240330990",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "카드값이 미납되지 않으려면 카드 결제일에 자동으로 결제되도록 자동이체를 신청하면 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.092,
+        "end": 2.796,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.244,
+        "end": 3.579,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.835,
+        "end": 4.236,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.444,
+        "end": 4.977,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.354,
+        "end": 5.558,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.73,
+        "end": 5.907,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.193,
+        "end": 6.37,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.577,
+        "end": 6.853,
+        "gloss_id": "낫다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.092,
+        "end": 4.962,
+        "loc": "0,1,2",
+        "word": "카드값이 미납되지 않으려면"
+      },
+      {
+        "start": 5.354,
+        "end": 5.907,
+        "loc": "3,4,5,6,7",
+        "word": "카드 결제일에 자동으로 결제되도록 자동이체를"
+      },
+      {
+        "start": 6.193,
+        "end": 6.37,
+        "loc": "8",
+        "word": "신청하면"
+      },
+      {
+        "start": 6.577,
+        "end": 6.853,
+        "loc": "9",
+        "word": "좋아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.244,
+        "end": 3.579,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.835,
+        "end": 4.236,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.444,
+        "end": 4.977,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.354,
+        "end": 5.558,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.73,
+        "end": 5.907,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.193,
+        "end": 6.37,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.092,
+        "end": 2.796
+      },
+      {
+        "descriptor": "",
+        "start": 4.444,
+        "end": 4.977
+      },
+      {
+        "descriptor": "",
+        "start": 6.577,
+        "end": 6.853
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.835,
+        "end": 4.236
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.244,
+        "end": 4.205
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.444,
+        "end": 4.977
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330990",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:02:10",
+    "sentence_ID": "VXPAKOKS240330990",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    237,
+    126
+  ],
+  "file": "VXPAKOKS240330990.mp4",
+  "saved_as": "VXPAKOKS240330990-카드값이미납되지않으려면카드결제일에자동으로결제되도록자동이체를신청하면좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

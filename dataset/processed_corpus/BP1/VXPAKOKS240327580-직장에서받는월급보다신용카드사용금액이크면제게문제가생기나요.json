@@ -1,0 +1,264 @@
+{
+  "id": "VXPAKOKS240327580",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "직장에서 받는 월급보다 신용카드 사용금액이 크면 제게 문제가 생기나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.138,
+        "end": 2.328,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.723,
+        "end": 3.255,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.491,
+        "end": 3.785,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.04,
+        "end": 4.185,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.342,
+        "end": 4.597,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.765,
+        "end": 5.033,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.265,
+        "end": 5.681,
+        "gloss_id": "많다7",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.948,
+        "end": 6.189,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.447,
+        "end": 6.682,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.138,
+        "end": 2.328,
+        "loc": "0",
+        "word": "직장에서"
+      },
+      {
+        "start": 2.723,
+        "end": 3.784,
+        "loc": "1,2",
+        "word": "받는 월급보다"
+      },
+      {
+        "start": 4.04,
+        "end": 4.598,
+        "loc": "3",
+        "word": "신용카드"
+      },
+      {
+        "start": 5.948,
+        "end": 6.189,
+        "loc": "6,7",
+        "word": "제게 문제가"
+      },
+      {
+        "start": 6.447,
+        "end": 6.682,
+        "loc": "8",
+        "word": "생기나요?"
+      },
+      {
+        "start": 4.765,
+        "end": 5.033,
+        "loc": "4",
+        "word": "사용금액이"
+      },
+      {
+        "start": 5.265,
+        "end": 5.681,
+        "loc": "5",
+        "word": "크면"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.138,
+        "end": 2.328,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.491,
+        "end": 3.785,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.04,
+        "end": 4.598,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.765,
+        "end": 5.033,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.948,
+        "end": 6.189,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.723,
+        "end": 3.255,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.447,
+        "end": 6.682
+      },
+      {
+        "descriptor": "",
+        "start": 2.723,
+        "end": 3.255
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.342,
+        "end": 6.177
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.447,
+        "end": 6.682
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327580",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:18:44",
+    "sentence_ID": "VXPAKOKS240327580",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240327580.mp4",
+  "saved_as": "VXPAKOKS240327580-직장에서받는월급보다신용카드사용금액이크면제게문제가생기나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

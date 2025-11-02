@@ -1,0 +1,358 @@
+{
+  "id": "VXPAKOKS240377310",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "가족 계좌 패키지를 통해 여러 계좌를 통합 관리할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.69,
+        "end": 2.027,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.309,
+        "end": 3.177,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.532,
+        "end": 3.706,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.951,
+        "end": 4.263,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.391,
+        "end": 4.608,
+        "gloss_id": "종합4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.699,
+        "end": 4.814,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.0,
+        "end": 5.611,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.927,
+        "end": 6.427,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.618,
+        "end": 6.784,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.949,
+        "end": 7.406,
+        "gloss_id": "종합1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.501,
+        "end": 7.587,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.706,
+        "end": 7.949,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.066,
+        "end": 8.223,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.69,
+        "end": 2.027,
+        "loc": "0",
+        "word": "가족"
+      },
+      {
+        "start": 2.309,
+        "end": 3.699,
+        "loc": "1",
+        "word": "계좌"
+      },
+      {
+        "start": 7.706,
+        "end": 8.206,
+        "loc": "7,8,9",
+        "word": "관리할 수 있습니다."
+      },
+      {
+        "start": 5.0,
+        "end": 5.611,
+        "loc": "3",
+        "word": "통해"
+      },
+      {
+        "start": 3.951,
+        "end": 4.811,
+        "loc": "2",
+        "word": "패키지를"
+      },
+      {
+        "start": 5.922,
+        "end": 7.611,
+        "loc": "4,5,6",
+        "word": "여러 계좌를 통합"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.309,
+        "end": 4.256,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.391,
+        "end": 4.813,
+        "gloss_id": "종합4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.0,
+        "end": 5.611,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.927,
+        "end": 6.427,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.949,
+        "end": 7.602,
+        "gloss_id": "종합1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.69,
+        "end": 2.027,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.618,
+        "end": 6.784,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.066,
+        "end": 8.223
+      },
+      {
+        "descriptor": "",
+        "start": 1.69,
+        "end": 2.027
+      },
+      {
+        "descriptor": "",
+        "start": 2.463,
+        "end": 3.177
+      },
+      {
+        "descriptor": "",
+        "start": 4.699,
+        "end": 4.814
+      },
+      {
+        "descriptor": "",
+        "start": 5.154,
+        "end": 5.611
+      },
+      {
+        "descriptor": "",
+        "start": 4.391,
+        "end": 4.608
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.066,
+        "end": 8.223
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.706,
+        "end": 7.949
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.0,
+        "end": 5.611
+      },
+      {
+        "descriptor": "",
+        "start": 7.706,
+        "end": 7.949
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.69,
+        "end": 2.027
+      },
+      {
+        "descriptor": "",
+        "start": 2.309,
+        "end": 2.766
+      },
+      {
+        "descriptor": "",
+        "start": 3.951,
+        "end": 4.768
+      },
+      {
+        "descriptor": "",
+        "start": 6.949,
+        "end": 7.406
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240377310",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:50:14",
+    "sentence_ID": "VXPAKOKS240377310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    308,
+    126
+  ],
+  "file": "VXPAKOKS240377310.mp4",
+  "saved_as": "VXPAKOKS240377310-가족계좌패키지를통해여러계좌를통합관리할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

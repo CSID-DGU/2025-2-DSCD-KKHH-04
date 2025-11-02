@@ -1,0 +1,321 @@
+{
+  "id": "VXPAKOKS240329240",
+  "opertor": "label17",
+  "krlgg_sntenc": {
+    "koreanText": "적금이 만기 되면 이자율이 높은 다른 예금으로 돈을 옮기는 게 좋겠지?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.799,
+        "end": 2.021,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.133,
+        "end": 2.479,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.633,
+        "end": 2.884,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.187,
+        "end": 3.811,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.966,
+        "end": 4.356,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.433,
+        "end": 4.655,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.833,
+        "end": 4.982,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.223,
+        "end": 5.643,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.799,
+        "end": 6.336,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.466,
+        "end": 6.571,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.711,
+        "end": 7.357,
+        "gloss_id": "넣다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.621,
+        "end": 7.945,
+        "gloss_id": "낫다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.799,
+        "end": 2.482,
+        "loc": "0",
+        "word": "적금이"
+      },
+      {
+        "start": 2.633,
+        "end": 3.805,
+        "loc": "1,2",
+        "word": "만기 되면"
+      },
+      {
+        "start": 3.966,
+        "end": 4.356,
+        "loc": "5",
+        "word": "다른"
+      },
+      {
+        "start": 4.433,
+        "end": 4.977,
+        "loc": "6",
+        "word": "예금으로"
+      },
+      {
+        "start": 5.238,
+        "end": 5.643,
+        "loc": "3",
+        "word": "이자율이"
+      },
+      {
+        "start": 5.799,
+        "end": 6.336,
+        "loc": "4",
+        "word": "높은"
+      },
+      {
+        "start": 6.466,
+        "end": 6.571,
+        "loc": "7",
+        "word": "돈을"
+      },
+      {
+        "start": 7.628,
+        "end": 7.945,
+        "loc": "10",
+        "word": "좋겠지?"
+      },
+      {
+        "start": 6.699,
+        "end": 7.36,
+        "loc": "8,9",
+        "word": "옮기는 게"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.799,
+        "end": 2.021,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.133,
+        "end": 2.479,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.633,
+        "end": 2.884,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.966,
+        "end": 4.356,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.833,
+        "end": 6.576,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.187,
+        "end": 3.811,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.799,
+        "end": 6.336
+      },
+      {
+        "descriptor": "",
+        "start": 3.187,
+        "end": 3.811
+      },
+      {
+        "descriptor": "",
+        "start": 7.621,
+        "end": 7.945
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.34,
+        "end": 3.635
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.799,
+        "end": 6.336
+      },
+      {
+        "descriptor": "",
+        "start": 1.799,
+        "end": 2.021
+      },
+      {
+        "descriptor": "",
+        "start": 7.621,
+        "end": 7.945
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329240",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:43:52",
+    "sentence_ID": "VXPAKOKS240329240",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    263,
+    126
+  ],
+  "file": "VXPAKOKS240329240.mp4",
+  "saved_as": "VXPAKOKS240329240-적금이만기되면이자율이높은다른예금으로돈을옮기는게좋겠지.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,313 @@
+{
+  "id": "VXPAKOKS240327910",
+  "opertor": "label22",
+  "krlgg_sntenc": {
+    "koreanText": "백화점 카드, 여행 카드, 쇼핑 카드 등 종류가 여러가지인만큼 본인의 소비에 맞게 선택해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.327,
+        "end": 1.493,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.767,
+        "end": 2.267,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.548,
+        "end": 3.245,
+        "gloss_id": "백화점1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.837,
+        "end": 4.125,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.505,
+        "end": 5.119,
+        "gloss_id": "사다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.392,
+        "end": 5.793,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.097,
+        "end": 6.332,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.689,
+        "end": 7.007,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.462,
+        "end": 7.538,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.773,
+        "end": 8.007,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.548,
+        "end": 3.245,
+        "loc": "0,1",
+        "word": "백화점 카드,"
+      },
+      {
+        "start": 6.097,
+        "end": 6.999,
+        "loc": "10,11",
+        "word": "소비에 맞게"
+      },
+      {
+        "start": 7.462,
+        "end": 8.007,
+        "loc": "12,13",
+        "word": "선택해야 해요."
+      },
+      {
+        "start": 4.505,
+        "end": 5.127,
+        "loc": "4,5,6",
+        "word": "쇼핑 카드 등"
+      },
+      {
+        "start": 5.392,
+        "end": 5.793,
+        "loc": "9",
+        "word": "본인의"
+      },
+      {
+        "start": 3.837,
+        "end": 4.125,
+        "loc": "2,3",
+        "word": "여행 카드,"
+      },
+      {
+        "start": 1.327,
+        "end": 2.274,
+        "loc": "7,8",
+        "word": "종류가 여러가지인만큼"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.767,
+        "end": 2.267,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.548,
+        "end": 3.245,
+        "gloss_id": "백화점1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.837,
+        "end": 4.125,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.097,
+        "end": 6.331,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.689,
+        "end": 7.007,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.773,
+        "end": 8.007,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.505,
+        "end": 5.119,
+        "gloss_id": "사다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.689,
+        "end": 7.007
+      },
+      {
+        "descriptor": "",
+        "start": 1.767,
+        "end": 2.267
+      },
+      {
+        "descriptor": "",
+        "start": 4.505,
+        "end": 4.702
+      },
+      {
+        "descriptor": "",
+        "start": 4.884,
+        "end": 5.126
+      },
+      {
+        "descriptor": "",
+        "start": 7.773,
+        "end": 8.007
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.505,
+        "end": 4.702
+      },
+      {
+        "descriptor": "",
+        "start": 4.884,
+        "end": 5.126
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.767,
+        "end": 2.267
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.689,
+        "end": 7.007
+      },
+      {
+        "descriptor": "",
+        "start": 5.392,
+        "end": 5.793
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327910",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:02:03",
+    "sentence_ID": "VXPAKOKS240327910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    273,
+    126
+  ],
+  "file": "VXPAKOKS240327910.mp4",
+  "saved_as": "VXPAKOKS240327910-백화점카드,여행카드,쇼핑카드등종류가여러가지인만큼본인의소비에맞게선택해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

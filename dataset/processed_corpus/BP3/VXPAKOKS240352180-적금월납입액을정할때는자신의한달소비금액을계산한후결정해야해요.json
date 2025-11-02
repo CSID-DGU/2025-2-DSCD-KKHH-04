@@ -1,0 +1,346 @@
+{
+  "id": "VXPAKOKS240352180",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 월 납입액을 정할 때는 자신의 한 달 소비 금액을 계산한 후 결정해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.505,
+        "end": 1.656,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.8,
+        "end": 2.227,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.527,
+        "end": 2.861,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.098,
+        "end": 3.735,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.072,
+        "end": 4.572,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.844,
+        "end": 5.307,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.544,
+        "end": 5.861,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.153,
+        "end": 6.845,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.962,
+        "end": 7.398,
+        "gloss_id": "사다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.689,
+        "end": 8.115,
+        "gloss_id": "얼마1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.385,
+        "end": 9.086,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.275,
+        "end": 9.481,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.612,
+        "end": 9.883,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.505,
+        "end": 2.224,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.527,
+        "end": 2.861,
+        "loc": "1",
+        "word": "월"
+      },
+      {
+        "start": 3.098,
+        "end": 3.735,
+        "loc": "2",
+        "word": "납입액을"
+      },
+      {
+        "start": 4.072,
+        "end": 4.572,
+        "loc": "3,4",
+        "word": "정할 때는"
+      },
+      {
+        "start": 4.844,
+        "end": 5.307,
+        "loc": "5",
+        "word": "자신의"
+      },
+      {
+        "start": 5.544,
+        "end": 5.861,
+        "loc": "6,7",
+        "word": "한 달"
+      },
+      {
+        "start": 6.153,
+        "end": 7.404,
+        "loc": "8",
+        "word": "소비"
+      },
+      {
+        "start": 7.689,
+        "end": 8.115,
+        "loc": "9",
+        "word": "금액을"
+      },
+      {
+        "start": 8.385,
+        "end": 9.086,
+        "loc": "10,11",
+        "word": "계산한 후"
+      },
+      {
+        "start": 9.275,
+        "end": 9.884,
+        "loc": "12,13",
+        "word": "결정해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.8,
+        "end": 2.227,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.072,
+        "end": 4.572,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.844,
+        "end": 5.307,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.385,
+        "end": 9.086,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.275,
+        "end": 9.481,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.612,
+        "end": 9.882,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.962,
+        "end": 7.398,
+        "gloss_id": "사다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.072,
+        "end": 4.572
+      },
+      {
+        "descriptor": "",
+        "start": 8.72,
+        "end": 9.073
+      },
+      {
+        "descriptor": "",
+        "start": 1.8,
+        "end": 2.227
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.72,
+        "end": 9.091
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 9.275,
+        "end": 9.481
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.527,
+        "end": 4.236
+      },
+      {
+        "descriptor": "",
+        "start": 8.385,
+        "end": 8.71
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352180",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:51:09",
+    "sentence_ID": "VXPAKOKS240352180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    330,
+    126
+  ],
+  "file": "VXPAKOKS240352180.mp4",
+  "saved_as": "VXPAKOKS240352180-적금월납입액을정할때는자신의한달소비금액을계산한후결정해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

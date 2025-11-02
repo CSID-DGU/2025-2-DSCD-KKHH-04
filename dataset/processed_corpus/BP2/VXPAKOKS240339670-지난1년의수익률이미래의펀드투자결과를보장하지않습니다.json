@@ -1,0 +1,311 @@
+{
+  "id": "VXPAKOKS240339670",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "지난 1년의 수익률이 미래의 펀드 투자 결과를 보장하지 않습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.17,
+        "end": 1.28,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.425,
+        "end": 1.818,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.113,
+        "end": 2.407,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.652,
+        "end": 2.854,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.008,
+        "end": 3.331,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.794,
+        "end": 4.095,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.39,
+        "end": 4.592,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.833,
+        "end": 5.056,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.299,
+        "end": 5.451,
+        "gloss_id": "미래1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.699,
+        "end": 5.865,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.072,
+        "end": 6.324,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.649,
+        "end": 7.191,
+        "gloss_id": "물음표1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.17,
+        "end": 1.28,
+        "loc": "0",
+        "word": "지난"
+      },
+      {
+        "start": 1.425,
+        "end": 2.421,
+        "loc": "1",
+        "word": "1년의"
+      },
+      {
+        "start": 2.652,
+        "end": 4.081,
+        "loc": "2",
+        "word": "수익률이"
+      },
+      {
+        "start": 5.299,
+        "end": 5.451,
+        "loc": "3",
+        "word": "미래의"
+      },
+      {
+        "start": 4.39,
+        "end": 5.117,
+        "loc": "4",
+        "word": "펀드"
+      },
+      {
+        "start": 5.699,
+        "end": 5.865,
+        "loc": "5,6",
+        "word": "투자 결과를"
+      },
+      {
+        "start": 6.072,
+        "end": 7.281,
+        "loc": "7,8",
+        "word": "보장하지 않습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.425,
+        "end": 1.818,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.113,
+        "end": 2.407,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.959,
+        "end": 3.331,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.833,
+        "end": 5.453,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일년",
+        "start": 1.425,
+        "end": 1.854
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.794,
+        "end": 4.095
+      },
+      {
+        "descriptor": "",
+        "start": 6.072,
+        "end": 6.324
+      },
+      {
+        "descriptor": "",
+        "start": 6.649,
+        "end": 7.191
+      },
+      {
+        "descriptor": "",
+        "start": 2.113,
+        "end": 2.407
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.122,
+        "end": 6.324
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.833,
+        "end": 6.382
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.649,
+        "end": 7.191
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.794,
+        "end": 4.095
+      },
+      {
+        "descriptor": "",
+        "start": 1.17,
+        "end": 1.79
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339670",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:59:54",
+    "sentence_ID": "VXPAKOKS240339670",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    255,
+    126
+  ],
+  "file": "VXPAKOKS240339670.mp4",
+  "saved_as": "VXPAKOKS240339670-지난1년의수익률이미래의펀드투자결과를보장하지않습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

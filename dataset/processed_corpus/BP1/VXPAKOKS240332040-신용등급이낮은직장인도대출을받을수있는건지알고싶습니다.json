@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240332040",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "신용등급이 낮은 직장인도 대출을 받을 수 있는 건지 알고 싶습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.501,
+        "end": 1.652,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.779,
+        "end": 2.117,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.234,
+        "end": 2.517,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.654,
+        "end": 2.997,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.089,
+        "end": 3.589,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.69,
+        "end": 4.271,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.347,
+        "end": 4.847,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.501,
+        "end": 2.102,
+        "loc": "2",
+        "word": "직장인도"
+      },
+      {
+        "start": 2.234,
+        "end": 2.997,
+        "loc": "0",
+        "word": "신용등급이"
+      },
+      {
+        "start": 3.089,
+        "end": 3.589,
+        "loc": "1",
+        "word": "낮은"
+      },
+      {
+        "start": 3.69,
+        "end": 4.271,
+        "loc": "3,4",
+        "word": "대출을 받을"
+      },
+      {
+        "start": 4.347,
+        "end": 4.847,
+        "loc": "5,6,7,8,9",
+        "word": "수 있는 건지 알고 싶습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.501,
+        "end": 1.652,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.779,
+        "end": 2.117,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.234,
+        "end": 2.517,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.779,
+        "end": 2.117
+      },
+      {
+        "descriptor": "",
+        "start": 3.291,
+        "end": 3.589
+      },
+      {
+        "descriptor": "",
+        "start": 4.347,
+        "end": 4.847
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.372,
+        "end": 4.847
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.654,
+        "end": 3.558
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.69,
+        "end": 4.883
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332040",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:41:11",
+    "sentence_ID": "VXPAKOKS240332040",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    182,
+    126
+  ],
+  "file": "VXPAKOKS240332040.mp4",
+  "saved_as": "VXPAKOKS240332040-신용등급이낮은직장인도대출을받을수있는건지알고싶습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

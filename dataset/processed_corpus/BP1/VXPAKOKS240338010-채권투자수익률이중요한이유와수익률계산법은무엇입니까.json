@@ -1,0 +1,317 @@
+{
+  "id": "VXPAKOKS240338010",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자 수익률이 중요한 이유와 수익률 계산법은 무엇입니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.592,
+        "end": 1.679,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.887,
+        "end": 2.099,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.305,
+        "end": 2.77,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.026,
+        "end": 3.395,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.616,
+        "end": 3.898,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.074,
+        "end": 4.591,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.808,
+        "end": 4.924,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.167,
+        "end": 5.841,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.263,
+        "end": 6.475,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.583,
+        "end": 6.908,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.217,
+        "end": 7.621,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.829,
+        "end": 8.224,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 7.829,
+        "end": 8.224,
+        "loc": "7",
+        "word": "무엇입니까?"
+      },
+      {
+        "start": 6.589,
+        "end": 7.621,
+        "loc": "6",
+        "word": "계산법은"
+      },
+      {
+        "start": 6.263,
+        "end": 6.475,
+        "loc": "5",
+        "word": "수익률"
+      },
+      {
+        "start": 5.167,
+        "end": 5.841,
+        "loc": "3",
+        "word": "중요한"
+      },
+      {
+        "start": 4.808,
+        "end": 4.924,
+        "loc": "4",
+        "word": "이유와"
+      },
+      {
+        "start": 1.592,
+        "end": 2.769,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.026,
+        "end": 3.395,
+        "loc": "1",
+        "word": "투자"
+      },
+      {
+        "start": 3.616,
+        "end": 4.587,
+        "loc": "2",
+        "word": "수익률이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.305,
+        "end": 2.77,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.074,
+        "end": 4.591,
+        "gloss_id": "얼마2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.167,
+        "end": 5.841,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.583,
+        "end": 6.908,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.217,
+        "end": 7.621,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.305,
+        "end": 2.77
+      },
+      {
+        "descriptor": "",
+        "start": 5.162,
+        "end": 5.841
+      },
+      {
+        "descriptor": "",
+        "start": 7.217,
+        "end": 7.621
+      },
+      {
+        "descriptor": "",
+        "start": 7.829,
+        "end": 8.224
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.808,
+        "end": 5.848
+      },
+      {
+        "descriptor": "",
+        "start": 7.217,
+        "end": 8.223
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.887,
+        "end": 2.718
+      },
+      {
+        "descriptor": "",
+        "start": 6.263,
+        "end": 6.895
+      },
+      {
+        "descriptor": "",
+        "start": 7.829,
+        "end": 8.224
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338010",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:14",
+    "sentence_ID": "VXPAKOKS240338010",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    314,
+    126
+  ],
+  "file": "VXPAKOKS240338010.mp4",
+  "saved_as": "VXPAKOKS240338010-채권투자수익률이중요한이유와수익률계산법은무엇입니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

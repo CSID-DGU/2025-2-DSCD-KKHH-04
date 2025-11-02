@@ -1,0 +1,324 @@
+{
+  "id": "VXPAKOKS240335590",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 거래는 경제 발전에 도움이 되지만, 무리한 투자는 금융 시장의 안정성을 떨어트린다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.794,
+        "end": 2.025,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.292,
+        "end": 2.596,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.776,
+        "end": 2.999,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.254,
+        "end": 3.762,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.012,
+        "end": 4.308,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.526,
+        "end": 4.741,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.928,
+        "end": 5.346,
+        "gloss_id": "그러나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.789,
+        "end": 6.069,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.328,
+        "end": 6.673,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.908,
+        "end": 7.335,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.55,
+        "end": 8.025,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.794,
+        "end": 2.025,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.292,
+        "end": 2.596,
+        "loc": "1",
+        "word": "거래는"
+      },
+      {
+        "start": 2.776,
+        "end": 2.999,
+        "loc": "2",
+        "word": "경제"
+      },
+      {
+        "start": 3.254,
+        "end": 3.762,
+        "loc": "3",
+        "word": "발전에"
+      },
+      {
+        "start": 4.012,
+        "end": 5.342,
+        "loc": "4,5",
+        "word": "도움이 되지만,"
+      },
+      {
+        "start": 5.789,
+        "end": 6.069,
+        "loc": "6",
+        "word": "무리한"
+      },
+      {
+        "start": 6.328,
+        "end": 6.673,
+        "loc": "7",
+        "word": "투자는"
+      },
+      {
+        "start": 6.908,
+        "end": 7.335,
+        "loc": "8,9",
+        "word": "금융 시장의"
+      },
+      {
+        "start": 7.55,
+        "end": 8.025,
+        "loc": "10,11",
+        "word": "안정성을 떨어트린다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.794,
+        "end": 2.025,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.776,
+        "end": 2.999,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.254,
+        "end": 3.762,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.789,
+        "end": 6.069,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.908,
+        "end": 7.335,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.55,
+        "end": 8.025,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.292,
+        "end": 2.596
+      },
+      {
+        "descriptor": "",
+        "start": 4.928,
+        "end": 5.346
+      },
+      {
+        "descriptor": "",
+        "start": 6.328,
+        "end": 6.673
+      },
+      {
+        "descriptor": "",
+        "start": 7.68,
+        "end": 8.025
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.526,
+        "end": 4.741
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.917,
+        "end": 8.016
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.789,
+        "end": 6.069
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.789,
+        "end": 6.069
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.794,
+        "end": 2.587
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335590",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:15",
+    "sentence_ID": "VXPAKOKS240335590",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    293,
+    126
+  ],
+  "file": "VXPAKOKS240335590.mp4",
+  "saved_as": "VXPAKOKS240335590-주식거래는경제발전에도움이되지만,무리한투자는금융시장의안정성을떨어트린다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,292 @@
+{
+  "id": "VXPAKOKS240336150",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 단점은 금리의 변동에 따라 채권의 가격도 변동될 수 있다는 것입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.948,
+        "end": 2.271,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.486,
+        "end": 2.993,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.199,
+        "end": 3.564,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.704,
+        "end": 3.829,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.009,
+        "end": 4.119,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.335,
+        "end": 4.885,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.193,
+        "end": 5.799,
+        "gloss_id": "비싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.907,
+        "end": 6.265,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.502,
+        "end": 6.676,
+        "gloss_id": "나쁘다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.8,
+        "end": 6.96,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.948,
+        "end": 2.271,
+        "loc": "2",
+        "word": "금리의"
+      },
+      {
+        "start": 2.486,
+        "end": 2.993,
+        "loc": "3",
+        "word": "변동에"
+      },
+      {
+        "start": 3.199,
+        "end": 3.564,
+        "loc": "4",
+        "word": "따라"
+      },
+      {
+        "start": 3.697,
+        "end": 4.885,
+        "loc": "5",
+        "word": "채권의"
+      },
+      {
+        "start": 5.193,
+        "end": 6.272,
+        "loc": "6,7,8,9,10",
+        "word": "가격도 변동될 수 있다는 것입니다."
+      },
+      {
+        "start": 6.502,
+        "end": 6.943,
+        "loc": "0,1",
+        "word": "채권의 단점은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.335,
+        "end": 4.884,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.192,
+        "end": 5.799,
+        "gloss_id": "비싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.907,
+        "end": 6.265,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.486,
+        "end": 2.993,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.199,
+        "end": 3.564,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.8,
+        "end": 6.96
+      },
+      {
+        "descriptor": "",
+        "start": 3.411,
+        "end": 3.564
+      },
+      {
+        "descriptor": "",
+        "start": 4.5,
+        "end": 4.885
+      },
+      {
+        "descriptor": "",
+        "start": 5.433,
+        "end": 5.799
+      },
+      {
+        "descriptor": "",
+        "start": 5.907,
+        "end": 6.265
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.411,
+        "end": 3.564
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.978,
+        "end": 6.261
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.842,
+        "end": 6.96
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.948,
+        "end": 2.944
+      },
+      {
+        "descriptor": "",
+        "start": 3.704,
+        "end": 4.746
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336150",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:48",
+    "sentence_ID": "VXPAKOKS240336150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    255,
+    126
+  ],
+  "file": "VXPAKOKS240336150.mp4",
+  "saved_as": "VXPAKOKS240336150-채권의단점은금리의변동에따라채권의가격도변동될수있다는것입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

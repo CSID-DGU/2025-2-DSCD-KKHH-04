@@ -1,0 +1,386 @@
+{
+  "id": "VXPAKOKS240337610",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 만기 기간에 따라 단기 채권, 중기 채권, 장기 채권 중 어떤 채권에 투자할지를 결정해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.214,
+        "end": 2.314,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.514,
+        "end": 2.623,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.927,
+        "end": 3.3,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.599,
+        "end": 3.735,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.903,
+        "end": 4.075,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.344,
+        "end": 4.807,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.107,
+        "end": 5.407,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.679,
+        "end": 5.906,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.196,
+        "end": 6.496,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.721,
+        "end": 6.957,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.157,
+        "end": 7.33,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.537,
+        "end": 7.791,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.067,
+        "end": 8.458,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.693,
+        "end": 8.957,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.214,
+        "end": 3.286,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 3.599,
+        "end": 3.735,
+        "loc": "1",
+        "word": "만기"
+      },
+      {
+        "start": 3.903,
+        "end": 4.811,
+        "loc": "2,3",
+        "word": "기간에 따라"
+      },
+      {
+        "start": 5.107,
+        "end": 5.407,
+        "loc": "4,5",
+        "word": "단기 채권,"
+      },
+      {
+        "start": 5.679,
+        "end": 5.906,
+        "loc": "6,7",
+        "word": "중기 채권,"
+      },
+      {
+        "start": 6.196,
+        "end": 6.496,
+        "loc": "8,9,10",
+        "word": "장기 채권 중"
+      },
+      {
+        "start": 7.146,
+        "end": 7.791,
+        "loc": "11",
+        "word": "어떤"
+      },
+      {
+        "start": 6.721,
+        "end": 6.957,
+        "loc": "12",
+        "word": "채권에"
+      },
+      {
+        "start": 8.067,
+        "end": 8.458,
+        "loc": "13",
+        "word": "투자할지를"
+      },
+      {
+        "start": 8.693,
+        "end": 8.957,
+        "loc": "14,15",
+        "word": "결정해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.927,
+        "end": 3.299,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.599,
+        "end": 3.735,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.903,
+        "end": 4.075,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.344,
+        "end": 4.807,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.107,
+        "end": 5.407,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.679,
+        "end": 5.906,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.196,
+        "end": 6.496,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.067,
+        "end": 8.458,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.693,
+        "end": 8.956,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.927,
+        "end": 3.3
+      },
+      {
+        "descriptor": "",
+        "start": 3.903,
+        "end": 4.807
+      },
+      {
+        "descriptor": "",
+        "start": 5.107,
+        "end": 5.407
+      },
+      {
+        "descriptor": "",
+        "start": 5.679,
+        "end": 5.906
+      },
+      {
+        "descriptor": "",
+        "start": 6.196,
+        "end": 6.496
+      },
+      {
+        "descriptor": "",
+        "start": 7.537,
+        "end": 7.791
+      },
+      {
+        "descriptor": "",
+        "start": 8.067,
+        "end": 8.458
+      },
+      {
+        "descriptor": "",
+        "start": 8.693,
+        "end": 8.957
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.599,
+        "end": 3.735
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.537,
+        "end": 7.791
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337610",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:29",
+    "sentence_ID": "VXPAKOKS240337610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    327,
+    126
+  ],
+  "file": "VXPAKOKS240337610.mp4",
+  "saved_as": "VXPAKOKS240337610-채권의만기기간에따라단기채권,중기채권,장기채권중어떤채권에투자할지를결정해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

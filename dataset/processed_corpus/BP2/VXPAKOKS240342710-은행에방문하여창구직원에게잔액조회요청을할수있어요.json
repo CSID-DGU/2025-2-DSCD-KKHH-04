@@ -1,0 +1,281 @@
+{
+  "id": "VXPAKOKS240342710",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "은행에 방문하여 창구 직원에게 잔액조회 요청을 할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.087,
+        "end": 2.245,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.518,
+        "end": 2.82,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.113,
+        "end": 3.181,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.418,
+        "end": 3.596,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.753,
+        "end": 3.931,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.24,
+        "end": 4.357,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.592,
+        "end": 4.88,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.154,
+        "end": 5.285,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.44,
+        "end": 5.637,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.828,
+        "end": 5.924,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.087,
+        "end": 2.245,
+        "loc": "0",
+        "word": "은행에"
+      },
+      {
+        "start": 2.518,
+        "end": 2.82,
+        "loc": "1",
+        "word": "방문하여"
+      },
+      {
+        "start": 3.113,
+        "end": 3.941,
+        "loc": "2,3",
+        "word": "창구 직원에게"
+      },
+      {
+        "start": 4.24,
+        "end": 5.287,
+        "loc": "4",
+        "word": "잔액조회"
+      },
+      {
+        "start": 5.44,
+        "end": 5.637,
+        "loc": "5,6",
+        "word": "요청을 할"
+      },
+      {
+        "start": 5.828,
+        "end": 5.924,
+        "loc": "7,8",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.087,
+        "end": 2.245,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.518,
+        "end": 2.82,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.113,
+        "end": 3.181,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.418,
+        "end": 3.931,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.24,
+        "end": 4.357,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.592,
+        "end": 5.29,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.44,
+        "end": 5.637,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.518,
+        "end": 2.82
+      },
+      {
+        "descriptor": "",
+        "start": 3.753,
+        "end": 3.931
+      },
+      {
+        "descriptor": "",
+        "start": 5.828,
+        "end": 5.924
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.828,
+        "end": 5.924
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.421,
+        "end": 3.928
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342710",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:50:23",
+    "sentence_ID": "VXPAKOKS240342710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    246,
+    126
+  ],
+  "file": "VXPAKOKS240342710.mp4",
+  "saved_as": "VXPAKOKS240342710-은행에방문하여창구직원에게잔액조회요청을할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,210 @@
+{
+  "id": "VXPAKOKS240333140",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "통장을 잃어버리게 된다면 제가 어떻게 해야 하는지 자세히 알고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.53,
+        "end": 2.876,
+        "gloss_id": "만약2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.169,
+        "end": 3.356,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.623,
+        "end": 4.105,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.437,
+        "end": 4.595,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.831,
+        "end": 5.119,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.363,
+        "end": 5.716,
+        "gloss_id": "궁금하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.169,
+        "end": 3.356,
+        "loc": "0",
+        "word": "통장을"
+      },
+      {
+        "start": 5.363,
+        "end": 5.716,
+        "loc": "7,8",
+        "word": "자세히 알고"
+      },
+      {
+        "start": 4.437,
+        "end": 5.119,
+        "loc": "3,4,5,6",
+        "word": "제가 어떻게 해야 하는지"
+      },
+      {
+        "start": 3.623,
+        "end": 4.105,
+        "loc": "1,2",
+        "word": "잃어버리게 된다면"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.169,
+        "end": 4.098,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.53,
+        "end": 2.876,
+        "gloss_id": "만약2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.437,
+        "end": 4.595,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.831,
+        "end": 5.119,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.363,
+        "end": 5.716
+      },
+      {
+        "descriptor": "",
+        "start": 2.53,
+        "end": 2.876
+      },
+      {
+        "descriptor": "",
+        "start": 3.823,
+        "end": 4.105
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.823,
+        "end": 4.105
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.53,
+        "end": 2.876
+      },
+      {
+        "descriptor": "",
+        "start": 3.623,
+        "end": 4.105
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240333140",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:27:30",
+    "sentence_ID": "VXPAKOKS240333140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    212,
+    126
+  ],
+  "file": "VXPAKOKS240333140.mp4",
+  "saved_as": "VXPAKOKS240333140-통장을잃어버리게된다면제가어떻게해야하는지자세히알고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,429 @@
+{
+  "id": "VXPAKOKS240339130",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "투자자들은 인플레이션으로 인해 감소한 실제 수익률을 보완하기 위해 채권 발생 회사에 더 높은 수익률을 요구합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.585,
+        "end": 1.816,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.1,
+        "end": 2.331,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.639,
+        "end": 2.939,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.208,
+        "end": 3.408,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.623,
+        "end": 3.853,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.038,
+        "end": 4.254,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.615,
+        "end": 4.992,
+        "gloss_id": "퍼센트6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.3,
+        "end": 5.782,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.1,
+        "end": 6.554,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.684,
+        "end": 7.154,
+        "gloss_id": "주세요1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.358,
+        "end": 7.43,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.561,
+        "end": 7.738,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.908,
+        "end": 8.238,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.454,
+        "end": 8.6,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.861,
+        "end": 9.176,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.384,
+        "end": 9.877,
+        "gloss_id": "제안하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.585,
+        "end": 2.36,
+        "loc": "1",
+        "word": "인플레이션으로"
+      },
+      {
+        "start": 2.639,
+        "end": 2.939,
+        "loc": "2",
+        "word": "인해"
+      },
+      {
+        "start": 3.208,
+        "end": 3.869,
+        "loc": "0",
+        "word": "투자자들은"
+      },
+      {
+        "start": 5.3,
+        "end": 5.773,
+        "loc": "3",
+        "word": "감소한"
+      },
+      {
+        "start": 4.038,
+        "end": 4.992,
+        "loc": "4,5",
+        "word": "실제 수익률을"
+      },
+      {
+        "start": 7.338,
+        "end": 8.639,
+        "loc": "8,9",
+        "word": "채권 발생"
+      },
+      {
+        "start": 8.861,
+        "end": 9.176,
+        "loc": "10",
+        "word": "회사에"
+      },
+      {
+        "start": 9.384,
+        "end": 9.877,
+        "loc": "14",
+        "word": "요구합니다."
+      },
+      {
+        "start": 6.1,
+        "end": 7.209,
+        "loc": "11,12,13",
+        "word": "더 높은 수익률을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.585,
+        "end": 1.816,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.1,
+        "end": 2.331,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.623,
+        "end": 3.853,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.615,
+        "end": 4.992,
+        "gloss_id": "주먹형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.3,
+        "end": 5.782,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.1,
+        "end": 6.554,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.684,
+        "end": 7.154,
+        "gloss_id": "주세요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.908,
+        "end": 8.238,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.454,
+        "end": 8.6,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.861,
+        "end": 9.176,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.384,
+        "end": 9.877,
+        "gloss_id": "제안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.384,
+        "end": 9.877
+      },
+      {
+        "descriptor": "",
+        "start": 2.639,
+        "end": 2.939
+      },
+      {
+        "descriptor": "",
+        "start": 6.684,
+        "end": 7.154
+      },
+      {
+        "descriptor": "",
+        "start": 8.861,
+        "end": 9.176
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.731,
+        "end": 2.939
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 5.64,
+        "end": 5.742
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 9.384,
+        "end": 9.877
+      },
+      {
+        "descriptor": "",
+        "start": 5.64,
+        "end": 5.732
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 9.384,
+        "end": 9.877
+      },
+      {
+        "descriptor": "",
+        "start": 5.622,
+        "end": 5.732
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.585,
+        "end": 2.897
+      },
+      {
+        "descriptor": "",
+        "start": 6.684,
+        "end": 8.621
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339130",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:56:04",
+    "sentence_ID": "VXPAKOKS240339130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    332,
+    126
+  ],
+  "file": "VXPAKOKS240339130.mp4",
+  "saved_as": "VXPAKOKS240339130-투자자들은인플레이션으로인해감소한실제수익률을보완하기위해채권발생회사에더높은수익률을요구합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

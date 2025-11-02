@@ -1,0 +1,292 @@
+{
+  "id": "VXPAKOKS240332800",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "청약에 당첨되면 아파트를 저렴한 분양가로 구입할 수 있는 장점이 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.848,
+        "end": 2.947,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.083,
+        "end": 3.662,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.983,
+        "end": 4.081,
+        "gloss_id": "추첨1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.131,
+        "end": 4.324,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.571,
+        "end": 5.032,
+        "gloss_id": "합격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.35,
+        "end": 5.456,
+        "gloss_id": "아파트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.752,
+        "end": 6.409,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.696,
+        "end": 7.031,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.207,
+        "end": 7.305,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.396,
+        "end": 7.613,
+        "gloss_id": "가지다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.853,
+        "end": 8.03,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.848,
+        "end": 3.631,
+        "loc": "0",
+        "word": "청약에"
+      },
+      {
+        "start": 3.983,
+        "end": 5.041,
+        "loc": "1",
+        "word": "당첨되면"
+      },
+      {
+        "start": 5.35,
+        "end": 5.456,
+        "loc": "2",
+        "word": "아파트를"
+      },
+      {
+        "start": 5.752,
+        "end": 6.409,
+        "loc": "3,4",
+        "word": "저렴한 분양가로"
+      },
+      {
+        "start": 6.696,
+        "end": 8.03,
+        "loc": "5,6,7,8,9",
+        "word": "구입할 수 있는 장점이 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.083,
+        "end": 3.662,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.848,
+        "end": 2.947,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.983,
+        "end": 4.081,
+        "gloss_id": "추첨1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.131,
+        "end": 4.324,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.35,
+        "end": 5.456,
+        "gloss_id": "아파트1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.752,
+        "end": 6.409,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.083,
+        "end": 3.662
+      },
+      {
+        "descriptor": "",
+        "start": 4.807,
+        "end": 5.047
+      },
+      {
+        "descriptor": "",
+        "start": 7.396,
+        "end": 7.613
+      },
+      {
+        "descriptor": "",
+        "start": 7.853,
+        "end": 8.03
+      },
+      {
+        "descriptor": "",
+        "start": 6.177,
+        "end": 6.401
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.853,
+        "end": 8.03
+      },
+      {
+        "descriptor": "",
+        "start": 4.807,
+        "end": 5.031
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.848,
+        "end": 5.048
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332800",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:21:46",
+    "sentence_ID": "VXPAKOKS240332800",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    283,
+    126
+  ],
+  "file": "VXPAKOKS240332800.mp4",
+  "saved_as": "VXPAKOKS240332800-청약에당첨되면아파트를저렴한분양가로구입할수있는장점이있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

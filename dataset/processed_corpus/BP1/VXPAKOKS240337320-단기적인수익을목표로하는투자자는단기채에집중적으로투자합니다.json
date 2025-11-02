@@ -1,0 +1,299 @@
+{
+  "id": "VXPAKOKS240337320",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "단기적인 수익을 목표로 하는 투자자는 단기채에 집중적으로 투자합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.289,
+        "end": 2.535,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.653,
+        "end": 2.788,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.004,
+        "end": 3.448,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.683,
+        "end": 4.072,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.29,
+        "end": 4.639,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.762,
+        "end": 4.881,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.045,
+        "end": 5.219,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.447,
+        "end": 6.027,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.253,
+        "end": 6.388,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.538,
+        "end": 6.713,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.862,
+        "end": 7.227,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.463,
+        "end": 7.86,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.289,
+        "end": 3.44,
+        "loc": "0",
+        "word": "단기적인"
+      },
+      {
+        "start": 3.683,
+        "end": 4.072,
+        "loc": "1",
+        "word": "수익을"
+      },
+      {
+        "start": 4.29,
+        "end": 4.639,
+        "loc": "2,3,4",
+        "word": "목표로 하는 투자자는"
+      },
+      {
+        "start": 4.762,
+        "end": 6.712,
+        "loc": "5",
+        "word": "단기채에"
+      },
+      {
+        "start": 6.862,
+        "end": 7.869,
+        "loc": "6,7",
+        "word": "집중적으로 투자합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.289,
+        "end": 2.535,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.653,
+        "end": 2.788,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.004,
+        "end": 3.448,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.447,
+        "end": 6.027,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.253,
+        "end": 6.388,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.538,
+        "end": 6.713,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.463,
+        "end": 7.86,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.004,
+        "end": 3.448
+      },
+      {
+        "descriptor": "",
+        "start": 4.29,
+        "end": 4.639
+      },
+      {
+        "descriptor": "",
+        "start": 5.566,
+        "end": 6.027
+      },
+      {
+        "descriptor": "",
+        "start": 6.862,
+        "end": 7.227
+      },
+      {
+        "descriptor": "",
+        "start": 7.463,
+        "end": 7.86
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.004,
+        "end": 4.639
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337320",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:36:11",
+    "sentence_ID": "VXPAKOKS240337320",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240337320.mp4",
+  "saved_as": "VXPAKOKS240337320-단기적인수익을목표로하는투자자는단기채에집중적으로투자합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

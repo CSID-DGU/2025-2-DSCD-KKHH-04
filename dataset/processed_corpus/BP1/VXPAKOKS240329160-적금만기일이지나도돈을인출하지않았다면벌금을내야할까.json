@@ -1,0 +1,275 @@
+{
+  "id": "VXPAKOKS240329160",
+  "opertor": "label17",
+  "krlgg_sntenc": {
+    "koreanText": "적금 만기일이 지나도 돈을 인출하지 않았다면 벌금을 내야 할까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.066,
+        "end": 2.224,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.366,
+        "end": 2.774,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.899,
+        "end": 3.112,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.299,
+        "end": 3.762,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.033,
+        "end": 4.429,
+        "gloss_id": "만약2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.633,
+        "end": 4.895,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.099,
+        "end": 5.544,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.715,
+        "end": 5.866,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.033,
+        "end": 6.515,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.715,
+        "end": 6.514,
+        "loc": "6,7,8",
+        "word": "벌금을 내야 할까?"
+      },
+      {
+        "start": 2.066,
+        "end": 2.774,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.899,
+        "end": 3.754,
+        "loc": "1,2",
+        "word": "만기일이 지나도"
+      },
+      {
+        "start": 4.033,
+        "end": 5.541,
+        "loc": "3,4,5",
+        "word": "돈을 인출하지 않았다면"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.066,
+        "end": 2.224,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.366,
+        "end": 2.774,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.899,
+        "end": 3.112,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.299,
+        "end": 3.762,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.033,
+        "end": 4.429,
+        "gloss_id": "만약2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.633,
+        "end": 4.895,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.715,
+        "end": 5.866,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.366,
+        "end": 2.774
+      },
+      {
+        "descriptor": "",
+        "start": 3.299,
+        "end": 3.762
+      },
+      {
+        "descriptor": "",
+        "start": 5.099,
+        "end": 5.544
+      },
+      {
+        "descriptor": "",
+        "start": 6.033,
+        "end": 6.515
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.299,
+        "end": 3.762
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.033,
+        "end": 6.515
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.033,
+        "end": 4.429
+      },
+      {
+        "descriptor": "",
+        "start": 5.099,
+        "end": 6.522
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329160",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:42:38",
+    "sentence_ID": "VXPAKOKS240329160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    220,
+    126
+  ],
+  "file": "VXPAKOKS240329160.mp4",
+  "saved_as": "VXPAKOKS240329160-적금만기일이지나도돈을인출하지않았다면벌금을내야할까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

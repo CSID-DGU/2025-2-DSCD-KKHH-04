@@ -1,0 +1,374 @@
+{
+  "id": "VXPAKOKS240336330",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 가격은 시장의 이자율 변화에 따라 달라지고, 기업의 신용도에 따라 안전성도 달라집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.062,
+        "end": 2.168,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.343,
+        "end": 2.561,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.845,
+        "end": 3.216,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.476,
+        "end": 3.649,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.902,
+        "end": 4.349,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.61,
+        "end": 4.958,
+        "gloss_id": "미루다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.325,
+        "end": 5.566,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.842,
+        "end": 6.699,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.96,
+        "end": 7.293,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.439,
+        "end": 7.725,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.048,
+        "end": 8.449,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.656,
+        "end": 9.004,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 9.303,
+        "end": 9.499,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.79,
+        "end": 10.161,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.421,
+        "end": 10.647,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.847,
+        "end": 11.035,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.96,
+        "end": 7.293,
+        "loc": "7",
+        "word": "기업의"
+      },
+      {
+        "start": 8.656,
+        "end": 10.164,
+        "loc": "10",
+        "word": "안전성도"
+      },
+      {
+        "start": 10.421,
+        "end": 11.037,
+        "loc": "11",
+        "word": "달라집니다."
+      },
+      {
+        "start": 7.439,
+        "end": 8.452,
+        "loc": "8,9",
+        "word": "신용도에 따라"
+      },
+      {
+        "start": 2.082,
+        "end": 3.216,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.458,
+        "end": 4.349,
+        "loc": "1,2",
+        "word": "가격은 시장의"
+      },
+      {
+        "start": 4.61,
+        "end": 6.715,
+        "loc": "3,4,5,6",
+        "word": "이자율 변화에 따라 달라지고,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.845,
+        "end": 3.646,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.61,
+        "end": 5.566,
+        "gloss_id": "미루다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.96,
+        "end": 7.292,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.439,
+        "end": 7.726,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.303,
+        "end": 9.499,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.421,
+        "end": 10.647,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.902,
+        "end": 4.349,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.842,
+        "end": 6.699,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 10.847,
+        "end": 11.035
+      },
+      {
+        "descriptor": "",
+        "start": 2.845,
+        "end": 3.216
+      },
+      {
+        "descriptor": "",
+        "start": 4.057,
+        "end": 4.349
+      },
+      {
+        "descriptor": "",
+        "start": 5.325,
+        "end": 5.566
+      },
+      {
+        "descriptor": "",
+        "start": 5.842,
+        "end": 6.291
+      },
+      {
+        "descriptor": "",
+        "start": 8.048,
+        "end": 8.449
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.062,
+        "end": 4.284
+      },
+      {
+        "descriptor": "",
+        "start": 5.266,
+        "end": 5.424
+      },
+      {
+        "descriptor": "",
+        "start": 6.398,
+        "end": 8.273
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336330",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:29:07",
+    "sentence_ID": "VXPAKOKS240336330",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    383,
+    126
+  ],
+  "file": "VXPAKOKS240336330.mp4",
+  "saved_as": "VXPAKOKS240336330-채권가격은시장의이자율변화에따라달라지고,기업의신용도에따라안전성도달라집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,225 @@
+{
+  "id": "VXPAKOKS240330480",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 한도가 초과되었을 때 발생하는 문제에 대해 알고 싶습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.475,
+        "end": 1.745,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.922,
+        "end": 2.135,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.265,
+        "end": 2.672,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.902,
+        "end": 3.667,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.864,
+        "end": 4.072,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.237,
+        "end": 4.675,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.475,
+        "end": 2.134,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.265,
+        "end": 2.672,
+        "loc": "1",
+        "word": "한도가"
+      },
+      {
+        "start": 2.902,
+        "end": 3.667,
+        "loc": "2,3,4,5",
+        "word": "초과되었을 때 발생하는 문제에"
+      },
+      {
+        "start": 4.237,
+        "end": 4.675,
+        "loc": "7,8",
+        "word": "알고 싶습니다."
+      },
+      {
+        "start": 3.864,
+        "end": 4.072,
+        "loc": "6",
+        "word": "대해"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.475,
+        "end": 1.745,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.265,
+        "end": 2.672,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.902,
+        "end": 3.667,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.864,
+        "end": 4.072,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.237,
+        "end": 4.675,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.237,
+        "end": 4.675
+      },
+      {
+        "descriptor": "",
+        "start": 3.216,
+        "end": 3.667
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.216,
+        "end": 3.659
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.237,
+        "end": 4.675
+      },
+      {
+        "descriptor": "",
+        "start": 3.216,
+        "end": 3.667
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.237,
+        "end": 4.675
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330480",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:31:11",
+    "sentence_ID": "VXPAKOKS240330480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    159,
+    126
+  ],
+  "file": "VXPAKOKS240330480.mp4",
+  "saved_as": "VXPAKOKS240330480-신용카드한도가초과되었을때발생하는문제에대해알고싶습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

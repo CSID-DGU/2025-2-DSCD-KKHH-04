@@ -1,0 +1,344 @@
+{
+  "id": "VXPAKOKS240331500",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드로 휴대전화 요금이나 전기세, 수도세 등과 같은 공과금을 납부할 수 있게 자동이체를 신청할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.655,
+        "end": 1.832,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.958,
+        "end": 2.341,
+        "gloss_id": "요금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.639,
+        "end": 3.146,
+        "gloss_id": "전기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.523,
+        "end": 3.796,
+        "gloss_id": "물1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.063,
+        "end": 4.277,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.459,
+        "end": 4.746,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.099,
+        "end": 5.643,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.731,
+        "end": 5.909,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.087,
+        "end": 6.338,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.578,
+        "end": 6.726,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.91,
+        "end": 7.161,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.373,
+        "end": 7.69,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.868,
+        "end": 8.111,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.655,
+        "end": 1.832,
+        "loc": "1",
+        "word": "휴대전화"
+      },
+      {
+        "start": 1.958,
+        "end": 2.341,
+        "loc": "2",
+        "word": "요금이나"
+      },
+      {
+        "start": 2.639,
+        "end": 3.146,
+        "loc": "3",
+        "word": "전기세,"
+      },
+      {
+        "start": 3.523,
+        "end": 4.273,
+        "loc": "4",
+        "word": "수도세"
+      },
+      {
+        "start": 5.731,
+        "end": 6.319,
+        "loc": "0",
+        "word": "현금카드로"
+      },
+      {
+        "start": 6.578,
+        "end": 7.166,
+        "loc": "11",
+        "word": "자동이체를"
+      },
+      {
+        "start": 7.373,
+        "end": 7.69,
+        "loc": "12",
+        "word": "신청할"
+      },
+      {
+        "start": 7.868,
+        "end": 8.111,
+        "loc": "13,14",
+        "word": "수 있어요."
+      },
+      {
+        "start": 4.459,
+        "end": 5.655,
+        "loc": "5,6,7,8,9,10",
+        "word": "등과 같은 공과금을 납부할 수 있게"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.639,
+        "end": 3.146,
+        "gloss_id": "전기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.063,
+        "end": 4.277,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.099,
+        "end": 5.643,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.459,
+        "end": 4.746,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.578,
+        "end": 6.726,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.91,
+        "end": 7.161,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.373,
+        "end": 7.69,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.159,
+        "end": 2.344
+      },
+      {
+        "descriptor": "",
+        "start": 2.923,
+        "end": 3.232
+      },
+      {
+        "descriptor": "",
+        "start": 5.281,
+        "end": 5.627
+      },
+      {
+        "descriptor": "",
+        "start": 7.868,
+        "end": 8.111
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.868,
+        "end": 8.111
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.655,
+        "end": 2.338
+      },
+      {
+        "descriptor": "",
+        "start": 4.063,
+        "end": 4.277
+      },
+      {
+        "descriptor": "",
+        "start": 5.099,
+        "end": 5.643
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331500",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:12:18",
+    "sentence_ID": "VXPAKOKS240331500",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    264,
+    126
+  ],
+  "file": "VXPAKOKS240331500.mp4",
+  "saved_as": "VXPAKOKS240331500-현금카드로휴대전화요금이나전기세,수도세등과같은공과금을납부할수있게자동이체를신청할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

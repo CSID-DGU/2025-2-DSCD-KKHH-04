@@ -1,0 +1,362 @@
+{
+  "id": "VXPAKOKS240376810",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "수표 발행 전 계좌 잔액을 확인하고, 수표를 안전한 장소에 보관하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.644,
+        "end": 1.829,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.004,
+        "end": 2.237,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.53,
+        "end": 2.688,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.058,
+        "end": 3.195,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.384,
+        "end": 3.508,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.87,
+        "end": 4.432,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.806,
+        "end": 5.012,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.313,
+        "end": 5.451,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.722,
+        "end": 5.976,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.155,
+        "end": 6.224,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.324,
+        "end": 6.393,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.571,
+        "end": 6.715,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.644,
+        "end": 1.829,
+        "loc": "0",
+        "word": "수표"
+      },
+      {
+        "start": 2.004,
+        "end": 2.237,
+        "loc": "1",
+        "word": "발행"
+      },
+      {
+        "start": 2.53,
+        "end": 2.688,
+        "loc": "2",
+        "word": "전"
+      },
+      {
+        "start": 3.058,
+        "end": 3.195,
+        "loc": "3",
+        "word": "계좌"
+      },
+      {
+        "start": 3.384,
+        "end": 3.508,
+        "loc": "4",
+        "word": "잔액을"
+      },
+      {
+        "start": 3.87,
+        "end": 4.432,
+        "loc": "5",
+        "word": "확인하고,"
+      },
+      {
+        "start": 4.806,
+        "end": 5.026,
+        "loc": "6",
+        "word": "수표를"
+      },
+      {
+        "start": 5.313,
+        "end": 5.451,
+        "loc": "8",
+        "word": "장소에"
+      },
+      {
+        "start": 5.722,
+        "end": 5.976,
+        "loc": "7",
+        "word": "안전한"
+      },
+      {
+        "start": 6.155,
+        "end": 6.71,
+        "loc": "9",
+        "word": "보관하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.644,
+        "end": 1.829,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.004,
+        "end": 2.237,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.53,
+        "end": 2.688,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.058,
+        "end": 3.195,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.384,
+        "end": 3.508,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.722,
+        "end": 6.215,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.324,
+        "end": 6.393,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.571,
+        "end": 6.715,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.806,
+        "end": 5.012,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.53,
+        "end": 2.688
+      },
+      {
+        "descriptor": "",
+        "start": 4.228,
+        "end": 4.413
+      },
+      {
+        "descriptor": "",
+        "start": 6.571,
+        "end": 6.715
+      },
+      {
+        "descriptor": "",
+        "start": 5.722,
+        "end": 6.386
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.155,
+        "end": 6.374
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.155,
+        "end": 6.703
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.013,
+        "end": 2.677
+      },
+      {
+        "descriptor": "",
+        "start": 4.228,
+        "end": 4.393
+      },
+      {
+        "descriptor": "",
+        "start": 5.313,
+        "end": 5.95
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240376810",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:48:18",
+    "sentence_ID": "VXPAKOKS240376810",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    246,
+    126
+  ],
+  "file": "VXPAKOKS240376810.mp4",
+  "saved_as": "VXPAKOKS240376810-수표발행전계좌잔액을확인하고,수표를안전한장소에보관하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

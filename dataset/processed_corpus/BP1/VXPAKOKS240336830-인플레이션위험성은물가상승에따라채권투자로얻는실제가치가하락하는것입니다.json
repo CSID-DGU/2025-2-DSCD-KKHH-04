@@ -1,0 +1,364 @@
+{
+  "id": "VXPAKOKS240336830",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "인플레이션 위험성은 물가 상승에 따라 채권 투자로 얻는 실제 가치가 하락하는 것입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.164,
+        "end": 5.623,
+        "gloss_id": "인플레이션",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.776,
+        "end": 5.926,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.19,
+        "end": 6.523,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.699,
+        "end": 6.904,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.2,
+        "end": 7.533,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.821,
+        "end": 8.185,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.569,
+        "end": 8.798,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.887,
+        "end": 9.002,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.149,
+        "end": 9.347,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 10.597,
+        "end": 10.985,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.21,
+        "end": 11.638,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.539,
+        "end": 10.173,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.164,
+        "end": 5.623,
+        "loc": "0",
+        "word": "인플레이션"
+      },
+      {
+        "start": 5.776,
+        "end": 6.947,
+        "loc": "1",
+        "word": "위험성은"
+      },
+      {
+        "start": 7.2,
+        "end": 7.533,
+        "loc": "2",
+        "word": "물가"
+      },
+      {
+        "start": 7.821,
+        "end": 8.185,
+        "loc": "3",
+        "word": "상승에"
+      },
+      {
+        "start": 8.569,
+        "end": 8.798,
+        "loc": "4",
+        "word": "따라"
+      },
+      {
+        "start": 8.889,
+        "end": 10.173,
+        "loc": "5",
+        "word": "채권"
+      },
+      {
+        "start": 10.597,
+        "end": 11.647,
+        "loc": "6,7,8,9,10,11",
+        "word": "투자로 얻는 실제 가치가 하락하는 것입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 7.821,
+        "end": 8.185,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.19,
+        "end": 6.905,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.2,
+        "end": 7.533,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.569,
+        "end": 8.798,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.539,
+        "end": 10.173,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.597,
+        "end": 10.985,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.21,
+        "end": 11.638,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "인플레이션",
+        "start": 2.164,
+        "end": 5.623
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.194,
+        "end": 5.618
+      },
+      {
+        "descriptor": "",
+        "start": 6.699,
+        "end": 6.904
+      },
+      {
+        "descriptor": "",
+        "start": 8.569,
+        "end": 8.798
+      },
+      {
+        "descriptor": "",
+        "start": 9.539,
+        "end": 10.173
+      },
+      {
+        "descriptor": "",
+        "start": 11.368,
+        "end": 11.638
+      },
+      {
+        "descriptor": "",
+        "start": 2.164,
+        "end": 2.664
+      },
+      {
+        "descriptor": "",
+        "start": 3.113,
+        "end": 3.477
+      },
+      {
+        "descriptor": "",
+        "start": 3.923,
+        "end": 4.145
+      },
+      {
+        "descriptor": "",
+        "start": 4.406,
+        "end": 4.634
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.944,
+        "end": 8.179
+      },
+      {
+        "descriptor": "",
+        "start": 8.569,
+        "end": 8.798
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.776,
+        "end": 6.794
+      },
+      {
+        "descriptor": "",
+        "start": 8.033,
+        "end": 8.176
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.164,
+        "end": 5.525
+      },
+      {
+        "descriptor": "",
+        "start": 8.032,
+        "end": 10.169
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336830",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:32:12",
+    "sentence_ID": "VXPAKOKS240336830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    401,
+    126
+  ],
+  "file": "VXPAKOKS240336830.mp4",
+  "saved_as": "VXPAKOKS240336830-인플레이션위험성은물가상승에따라채권투자로얻는실제가치가하락하는것입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

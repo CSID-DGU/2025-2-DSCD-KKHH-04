@@ -1,0 +1,366 @@
+{
+  "id": "VXPAKOKS240338800",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "만기가 가까운 채권에 투자하는 것은 만기 시점에 자금을 회수하여 재투자 기회를 만드는 데 도움이 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.65,
+        "end": 1.719,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.98,
+        "end": 2.149,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.388,
+        "end": 2.844,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.147,
+        "end": 3.297,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.427,
+        "end": 3.576,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.826,
+        "end": 4.496,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.792,
+        "end": 5.391,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.619,
+        "end": 5.77,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.02,
+        "end": 6.548,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.888,
+        "end": 7.257,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.434,
+        "end": 7.569,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.736,
+        "end": 8.099,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.343,
+        "end": 8.485,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.654,
+        "end": 8.859,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.65,
+        "end": 2.834,
+        "loc": "2",
+        "word": "채권에"
+      },
+      {
+        "start": 3.147,
+        "end": 3.573,
+        "loc": "0",
+        "word": "만기가"
+      },
+      {
+        "start": 5.603,
+        "end": 6.549,
+        "loc": "5,6",
+        "word": "만기 시점에"
+      },
+      {
+        "start": 6.888,
+        "end": 7.257,
+        "loc": "7,8",
+        "word": "자금을 회수하여"
+      },
+      {
+        "start": 7.434,
+        "end": 8.485,
+        "loc": "9,10,11,12",
+        "word": "재투자 기회를 만드는 데"
+      },
+      {
+        "start": 3.826,
+        "end": 4.496,
+        "loc": "1",
+        "word": "가까운"
+      },
+      {
+        "start": 4.792,
+        "end": 5.391,
+        "loc": "3,4",
+        "word": "투자하는 것은"
+      },
+      {
+        "start": 8.654,
+        "end": 8.859,
+        "loc": "13,14",
+        "word": "도움이 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.427,
+        "end": 3.576,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.02,
+        "end": 6.548,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.888,
+        "end": 7.257,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.388,
+        "end": 2.844,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.147,
+        "end": 3.297,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.826,
+        "end": 4.496,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.619,
+        "end": 5.77,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.654,
+        "end": 8.859,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.388,
+        "end": 2.844
+      },
+      {
+        "descriptor": "",
+        "start": 4.008,
+        "end": 4.5
+      },
+      {
+        "descriptor": "",
+        "start": 6.02,
+        "end": 6.548
+      },
+      {
+        "descriptor": "",
+        "start": 7.736,
+        "end": 8.099
+      },
+      {
+        "descriptor": "",
+        "start": 8.654,
+        "end": 8.859
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.427,
+        "end": 3.576
+      },
+      {
+        "descriptor": "",
+        "start": 8.343,
+        "end": 8.485
+      },
+      {
+        "descriptor": "",
+        "start": 6.02,
+        "end": 6.548
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.65,
+        "end": 4.503
+      },
+      {
+        "descriptor": "",
+        "start": 5.619,
+        "end": 6.515
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338800",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:46:16",
+    "sentence_ID": "VXPAKOKS240338800",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    297,
+    126
+  ],
+  "file": "VXPAKOKS240338800.mp4",
+  "saved_as": "VXPAKOKS240338800-만기가가까운채권에투자하는것은만기시점에자금을회수하여재투자기회를만드는데도움이됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

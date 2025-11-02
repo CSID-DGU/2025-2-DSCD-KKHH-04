@@ -1,0 +1,245 @@
+{
+  "id": "VXPAKOKS240338060",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 수익에는 채권 가격의 변동으로 인해 발생하는 자본 수익이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.823,
+        "end": 1.905,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.113,
+        "end": 2.335,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.555,
+        "end": 3.235,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.488,
+        "end": 4.257,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.628,
+        "end": 5.218,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.54,
+        "end": 5.885,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.147,
+        "end": 6.491,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.732,
+        "end": 6.97,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.144,
+        "end": 7.366,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.823,
+        "end": 3.229,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 5.54,
+        "end": 5.885,
+        "loc": "5",
+        "word": "인해"
+      },
+      {
+        "start": 4.628,
+        "end": 5.218,
+        "loc": "2,3,4",
+        "word": "채권 가격의 변동으로"
+      },
+      {
+        "start": 7.144,
+        "end": 7.366,
+        "loc": "9",
+        "word": "있습니다."
+      },
+      {
+        "start": 6.732,
+        "end": 6.97,
+        "loc": "6,7",
+        "word": "발생하는 자본"
+      },
+      {
+        "start": 6.147,
+        "end": 6.491,
+        "loc": "8",
+        "word": "수익이"
+      },
+      {
+        "start": 3.488,
+        "end": 4.257,
+        "loc": "1",
+        "word": "수익에는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.555,
+        "end": 3.235,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.628,
+        "end": 5.218,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.54,
+        "end": 5.885,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.568,
+        "end": 3.235
+      },
+      {
+        "descriptor": "",
+        "start": 3.474,
+        "end": 4.249
+      },
+      {
+        "descriptor": "",
+        "start": 7.144,
+        "end": 7.366
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.626,
+        "end": 5.885
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.628,
+        "end": 5.888
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240338060",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:27",
+    "sentence_ID": "VXPAKOKS240338060",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    294,
+    126
+  ],
+  "file": "VXPAKOKS240338060.mp4",
+  "saved_as": "VXPAKOKS240338060-채권수익에는채권가격의변동으로인해발생하는자본수익이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

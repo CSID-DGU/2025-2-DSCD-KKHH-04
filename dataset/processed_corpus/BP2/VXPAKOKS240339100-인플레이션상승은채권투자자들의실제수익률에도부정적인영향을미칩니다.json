@@ -1,0 +1,281 @@
+{
+  "id": "VXPAKOKS240339100",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "인플레이션 상승은 채권 투자자들의 실제 수익률에도 부정적인 영향을 미칩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.371,
+        "end": 1.579,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.731,
+        "end": 2.299,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.484,
+        "end": 2.533,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.664,
+        "end": 2.79,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.043,
+        "end": 3.358,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.578,
+        "end": 3.791,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.604,
+        "end": 4.797,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.976,
+        "end": 4.369,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.992,
+        "end": 5.195,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.571,
+        "end": 5.915,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.371,
+        "end": 1.579,
+        "loc": "0",
+        "word": "인플레이션"
+      },
+      {
+        "start": 1.731,
+        "end": 2.299,
+        "loc": "1",
+        "word": "상승은"
+      },
+      {
+        "start": 2.484,
+        "end": 3.338,
+        "loc": "2",
+        "word": "채권"
+      },
+      {
+        "start": 3.578,
+        "end": 4.339,
+        "loc": "3",
+        "word": "투자자들의"
+      },
+      {
+        "start": 4.604,
+        "end": 4.826,
+        "loc": "4,5",
+        "word": "실제 수익률에도"
+      },
+      {
+        "start": 4.994,
+        "end": 5.915,
+        "loc": "6,7,8",
+        "word": "부정적인 영향을 미칩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.371,
+        "end": 1.579,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.731,
+        "end": 2.299,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.043,
+        "end": 3.358,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.976,
+        "end": 4.369,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.571,
+        "end": 5.915,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.97,
+        "end": 2.299
+      },
+      {
+        "descriptor": "",
+        "start": 3.976,
+        "end": 4.369
+      },
+      {
+        "descriptor": "",
+        "start": 5.571,
+        "end": 5.915
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 1.959,
+        "end": 2.299
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.731,
+        "end": 2.299
+      },
+      {
+        "descriptor": "",
+        "start": 5.571,
+        "end": 5.915
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.371,
+        "end": 1.579
+      },
+      {
+        "descriptor": "",
+        "start": 2.484,
+        "end": 4.436
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339100",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:55:53",
+    "sentence_ID": "VXPAKOKS240339100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    210,
+    126
+  ],
+  "file": "VXPAKOKS240339100.mp4",
+  "saved_as": "VXPAKOKS240339100-인플레이션상승은채권투자자들의실제수익률에도부정적인영향을미칩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

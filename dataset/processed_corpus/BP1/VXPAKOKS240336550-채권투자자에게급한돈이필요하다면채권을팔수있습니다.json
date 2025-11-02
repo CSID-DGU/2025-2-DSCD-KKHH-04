@@ -1,0 +1,259 @@
+{
+  "id": "VXPAKOKS240336550",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자자에게 급한 돈이 필요하다면 채권을 팔 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.033,
+        "end": 2.34,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.47,
+        "end": 2.572,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.785,
+        "end": 3.163,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.399,
+        "end": 3.482,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.632,
+        "end": 3.862,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.043,
+        "end": 4.472,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.678,
+        "end": 4.966,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.172,
+        "end": 5.505,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.678,
+        "end": 4.966,
+        "loc": "6",
+        "word": "팔"
+      },
+      {
+        "start": 5.172,
+        "end": 5.505,
+        "loc": "7,8",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 3.408,
+        "end": 4.472,
+        "loc": "5",
+        "word": "채권을"
+      },
+      {
+        "start": 2.785,
+        "end": 3.163,
+        "loc": "4",
+        "word": "필요하다면"
+      },
+      {
+        "start": 2.033,
+        "end": 2.34,
+        "loc": "0,1,2",
+        "word": "채권 투자자에게 급한"
+      },
+      {
+        "start": 2.47,
+        "end": 2.572,
+        "loc": "3",
+        "word": "돈이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.033,
+        "end": 2.57,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.785,
+        "end": 3.866,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.043,
+        "end": 4.472,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.678,
+        "end": 4.966,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.258,
+        "end": 5.505
+      },
+      {
+        "descriptor": "",
+        "start": 2.785,
+        "end": 3.163
+      },
+      {
+        "descriptor": "",
+        "start": 4.247,
+        "end": 4.474
+      },
+      {
+        "descriptor": "",
+        "start": 3.632,
+        "end": 3.862
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.258,
+        "end": 5.505
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.033,
+        "end": 3.054
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.533,
+        "end": 5.242
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.47,
+        "end": 3.053
+      },
+      {
+        "descriptor": "",
+        "start": 3.899,
+        "end": 4.479
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336550",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:27",
+    "sentence_ID": "VXPAKOKS240336550",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240336550.mp4",
+  "saved_as": "VXPAKOKS240336550-채권투자자에게급한돈이필요하다면채권을팔수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

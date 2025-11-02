@@ -1,0 +1,277 @@
+{
+  "id": "VXPAKOKS240338110",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "투자자가 채권을 얼마나 오랫동안 보유하느냐에 따라 수익률에 차이가 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.973,
+        "end": 2.099,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.295,
+        "end": 2.467,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.639,
+        "end": 3.525,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.934,
+        "end": 4.183,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.427,
+        "end": 4.985,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.256,
+        "end": 6.528,
+        "gloss_id": "가지고다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.907,
+        "end": 7.301,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.485,
+        "end": 7.686,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.861,
+        "end": 8.091,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.193,
+        "end": 8.583,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.778,
+        "end": 9.133,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.934,
+        "end": 4.974,
+        "loc": "2,3",
+        "word": "얼마나 오랫동안"
+      },
+      {
+        "start": 5.256,
+        "end": 6.528,
+        "loc": "4",
+        "word": "보유하느냐에"
+      },
+      {
+        "start": 6.907,
+        "end": 7.301,
+        "loc": "5",
+        "word": "따라"
+      },
+      {
+        "start": 7.485,
+        "end": 8.101,
+        "loc": "6",
+        "word": "수익률에"
+      },
+      {
+        "start": 8.189,
+        "end": 9.124,
+        "loc": "7,8",
+        "word": "차이가 있습니다."
+      },
+      {
+        "start": 1.973,
+        "end": 3.517,
+        "loc": "0,1",
+        "word": "투자자가 채권을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.639,
+        "end": 3.525,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.934,
+        "end": 4.183,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.427,
+        "end": 4.985,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.778,
+        "end": 9.133,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.784,
+        "end": 3.525
+      },
+      {
+        "descriptor": "",
+        "start": 6.907,
+        "end": 7.301
+      },
+      {
+        "descriptor": "",
+        "start": 8.778,
+        "end": 9.133
+      },
+      {
+        "descriptor": "",
+        "start": 8.44,
+        "end": 8.583
+      },
+      {
+        "descriptor": "",
+        "start": 5.363,
+        "end": 6.528
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.372,
+        "end": 6.528
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.907,
+        "end": 7.301
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338110",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:55",
+    "sentence_ID": "VXPAKOKS240338110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    347,
+    126
+  ],
+  "file": "VXPAKOKS240338110.mp4",
+  "saved_as": "VXPAKOKS240338110-투자자가채권을얼마나오랫동안보유하느냐에따라수익률에차이가있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

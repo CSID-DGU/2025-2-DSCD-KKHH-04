@@ -1,0 +1,350 @@
+{
+  "id": "VXPAKOKS240351110",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금으로 모은 돈으로 다른 은행의 예금이나 적금에 가입할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.674,
+        "end": 1.793,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.94,
+        "end": 2.153,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.29,
+        "end": 2.395,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.63,
+        "end": 3.338,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.517,
+        "end": 3.694,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.9,
+        "end": 4.163,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.374,
+        "end": 4.601,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.835,
+        "end": 5.263,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.443,
+        "end": 5.662,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.862,
+        "end": 6.225,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.41,
+        "end": 6.731,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.908,
+        "end": 7.028,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.189,
+        "end": 7.359,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.674,
+        "end": 2.137,
+        "loc": "0",
+        "word": "적금으로"
+      },
+      {
+        "start": 3.517,
+        "end": 3.694,
+        "loc": "3",
+        "word": "다른"
+      },
+      {
+        "start": 3.9,
+        "end": 4.163,
+        "loc": "4",
+        "word": "은행의"
+      },
+      {
+        "start": 4.374,
+        "end": 6.739,
+        "loc": "5,6",
+        "word": "예금이나 적금에"
+      },
+      {
+        "start": 6.908,
+        "end": 7.028,
+        "loc": "7",
+        "word": "가입할"
+      },
+      {
+        "start": 7.189,
+        "end": 7.359,
+        "loc": "8,9",
+        "word": "수 있어요."
+      },
+      {
+        "start": 2.29,
+        "end": 3.321,
+        "loc": "1,2",
+        "word": "모은 돈으로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.94,
+        "end": 2.153,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.63,
+        "end": 3.338,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.517,
+        "end": 3.694,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.9,
+        "end": 4.163,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.374,
+        "end": 4.601,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.835,
+        "end": 5.263,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.862,
+        "end": 6.225,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.41,
+        "end": 6.731,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.908,
+        "end": 7.028,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.189,
+        "end": 7.359
+      },
+      {
+        "descriptor": "",
+        "start": 4.835,
+        "end": 5.263
+      },
+      {
+        "descriptor": "",
+        "start": 5.862,
+        "end": 6.225
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.189,
+        "end": 7.359
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.63,
+        "end": 3.338
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.443,
+        "end": 6.243
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.63,
+        "end": 3.338
+      },
+      {
+        "descriptor": "",
+        "start": 3.9,
+        "end": 4.163
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351110",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:43:03",
+    "sentence_ID": "VXPAKOKS240351110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240351110.mp4",
+  "saved_as": "VXPAKOKS240351110-적금으로모은돈으로다른은행의예금이나적금에가입할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

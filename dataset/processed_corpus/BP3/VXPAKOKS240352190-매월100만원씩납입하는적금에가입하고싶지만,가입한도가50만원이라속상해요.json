@@ -1,0 +1,322 @@
+{
+  "id": "VXPAKOKS240352190",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "매월 100만 원씩 납입하는 적금에 가입하고 싶지만, 가입 한도가 50만 원이라 속상해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.383,
+        "end": 1.653,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.869,
+        "end": 2.01,
+        "gloss_id": "1000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.028,
+        "end": 2.23,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.047,
+        "end": 3.325,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.481,
+        "end": 3.706,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.876,
+        "end": 4.04,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.325,
+        "end": 5.077,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.4,
+        "end": 5.678,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.857,
+        "end": 5.998,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.186,
+        "end": 6.434,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.674,
+        "end": 7.96,
+        "gloss_id": "500000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.307,
+        "end": 2.585,
+        "gloss_id": "1000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.612,
+        "end": 2.786,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.383,
+        "end": 1.653,
+        "loc": "0",
+        "word": "매월"
+      },
+      {
+        "start": 3.047,
+        "end": 3.722,
+        "loc": "4",
+        "word": "적금에"
+      },
+      {
+        "start": 3.876,
+        "end": 4.04,
+        "loc": "5",
+        "word": "가입하고"
+      },
+      {
+        "start": 4.325,
+        "end": 5.077,
+        "loc": "6",
+        "word": "싶지만,"
+      },
+      {
+        "start": 5.408,
+        "end": 5.678,
+        "loc": "7",
+        "word": "가입"
+      },
+      {
+        "start": 5.857,
+        "end": 6.418,
+        "loc": "8",
+        "word": "한도가"
+      },
+      {
+        "start": 6.674,
+        "end": 7.96,
+        "loc": "9,10,11",
+        "word": "50만 원이라 속상해요."
+      },
+      {
+        "start": 1.869,
+        "end": 2.797,
+        "loc": "1,2,3",
+        "word": "100만 원씩 납입하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.481,
+        "end": 3.706,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.876,
+        "end": 4.04,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.4,
+        "end": 5.678,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.186,
+        "end": 6.434,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.537,
+        "end": 7.961,
+        "gloss_id": "답답하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.383,
+        "end": 1.653
+      },
+      {
+        "descriptor": "",
+        "start": 2.386,
+        "end": 2.787
+      },
+      {
+        "descriptor": "",
+        "start": 4.325,
+        "end": 5.077
+      },
+      {
+        "descriptor": "",
+        "start": 7.537,
+        "end": 7.961
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.859,
+        "end": 5.649
+      },
+      {
+        "descriptor": "",
+        "start": 6.674,
+        "end": 7.96
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.028,
+        "end": 2.78
+      },
+      {
+        "descriptor": "",
+        "start": 5.307,
+        "end": 6.242
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352190",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:51:12",
+    "sentence_ID": "VXPAKOKS240352190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    275,
+    126
+  ],
+  "file": "VXPAKOKS240352190.mp4",
+  "saved_as": "VXPAKOKS240352190-매월100만원씩납입하는적금에가입하고싶지만,가입한도가50만원이라속상해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,259 @@
+{
+  "id": "VXPAKOKS240339610",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "펀드에 처음 투자할 때 중요하게 확인해야 하는 기준는 무엇입니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.248,
+        "end": 1.489,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 1.821,
+        "end": 2.045,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.328,
+        "end": 2.76,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.092,
+        "end": 3.418,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.733,
+        "end": 4.007,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.233,
+        "end": 4.541,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.765,
+        "end": 5.045,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.287,
+        "end": 5.629,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.328,
+        "end": 2.76,
+        "loc": "1",
+        "word": "처음"
+      },
+      {
+        "start": 3.092,
+        "end": 3.418,
+        "loc": "3",
+        "word": "때"
+      },
+      {
+        "start": 1.248,
+        "end": 2.03,
+        "loc": "0,2",
+        "word": "펀드에 투자할"
+      },
+      {
+        "start": 3.733,
+        "end": 4.007,
+        "loc": "7",
+        "word": "기준는"
+      },
+      {
+        "start": 4.233,
+        "end": 4.541,
+        "loc": "5,6",
+        "word": "확인해야 하는"
+      },
+      {
+        "start": 4.765,
+        "end": 5.045,
+        "loc": "4",
+        "word": "중요하게"
+      },
+      {
+        "start": 5.287,
+        "end": 5.629,
+        "loc": "8",
+        "word": "무엇입니까?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.821,
+        "end": 2.755,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.092,
+        "end": 3.418,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.733,
+        "end": 4.007,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.765,
+        "end": 5.045,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.328,
+        "end": 2.76
+      },
+      {
+        "descriptor": "",
+        "start": 1.821,
+        "end": 2.045
+      },
+      {
+        "descriptor": "",
+        "start": 5.287,
+        "end": 5.629
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 1.877,
+        "end": 2.045
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.328,
+        "end": 2.76
+      },
+      {
+        "descriptor": "",
+        "start": 4.252,
+        "end": 5.084
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.248,
+        "end": 2.052
+      },
+      {
+        "descriptor": "",
+        "start": 5.287,
+        "end": 5.629
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339610",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:59:28",
+    "sentence_ID": "VXPAKOKS240339610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    203,
+    126
+  ],
+  "file": "VXPAKOKS240339610.mp4",
+  "saved_as": "VXPAKOKS240339610-펀드에처음투자할때중요하게확인해야하는기준는무엇입니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

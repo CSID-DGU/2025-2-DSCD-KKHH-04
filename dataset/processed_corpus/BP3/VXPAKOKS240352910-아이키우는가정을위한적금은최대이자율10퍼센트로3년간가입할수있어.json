@@ -1,0 +1,415 @@
+{
+  "id": "VXPAKOKS240352910",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "아이 키우는 가정을 위한 적금은 최대 이자율 10퍼센트로 3년간 가입할 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.608,
+        "end": 1.773,
+        "gloss_id": "아이1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.986,
+        "end": 2.46,
+        "gloss_id": "키우다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.742,
+        "end": 3.276,
+        "gloss_id": "가정2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.489,
+        "end": 3.594,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.742,
+        "end": 3.984,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.238,
+        "end": 4.489,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.662,
+        "end": 4.862,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.041,
+        "end": 5.61,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.971,
+        "end": 6.471,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.617,
+        "end": 7.109,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.295,
+        "end": 7.847,
+        "gloss_id": "날짜(활용):3년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.003,
+        "end": 8.125,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.327,
+        "end": 8.423,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.555,
+        "end": 8.746,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.608,
+        "end": 1.773,
+        "loc": "0",
+        "word": "아이"
+      },
+      {
+        "start": 1.986,
+        "end": 2.46,
+        "loc": "1",
+        "word": "키우는"
+      },
+      {
+        "start": 3.489,
+        "end": 3.972,
+        "loc": "4",
+        "word": "적금은"
+      },
+      {
+        "start": 2.742,
+        "end": 3.276,
+        "loc": "2",
+        "word": "가정을"
+      },
+      {
+        "start": 4.238,
+        "end": 4.489,
+        "loc": "3",
+        "word": "위한"
+      },
+      {
+        "start": 4.662,
+        "end": 7.094,
+        "loc": "5,6,7",
+        "word": "최대 이자율 10퍼센트로"
+      },
+      {
+        "start": 7.295,
+        "end": 8.13,
+        "loc": "8",
+        "word": "3년간"
+      },
+      {
+        "start": 8.327,
+        "end": 8.423,
+        "loc": "9",
+        "word": "가입할"
+      },
+      {
+        "start": 8.555,
+        "end": 8.746,
+        "loc": "10,11",
+        "word": "수 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.608,
+        "end": 1.773,
+        "gloss_id": "아이1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.986,
+        "end": 2.46,
+        "gloss_id": "키우다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.742,
+        "end": 3.276,
+        "gloss_id": "가정2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.742,
+        "end": 3.984,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.238,
+        "end": 4.489,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.041,
+        "end": 5.266,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.471,
+        "end": 5.593,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.777,
+        "end": 6.225,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.392,
+        "end": 7.107,
+        "gloss_id": "10",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.295,
+        "end": 7.847,
+        "gloss_id": "날짜(활용):3년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.003,
+        "end": 8.125,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.327,
+        "end": 8.423,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.555,
+        "end": 8.746
+      },
+      {
+        "descriptor": "",
+        "start": 2.742,
+        "end": 3.276
+      },
+      {
+        "descriptor": "",
+        "start": 4.238,
+        "end": 4.489
+      },
+      {
+        "descriptor": "",
+        "start": 5.041,
+        "end": 5.275
+      },
+      {
+        "descriptor": "",
+        "start": 6.617,
+        "end": 7.109
+      },
+      {
+        "descriptor": "",
+        "start": 8.003,
+        "end": 8.125
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.555,
+        "end": 8.746
+      },
+      {
+        "descriptor": "",
+        "start": 4.238,
+        "end": 4.489
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.662,
+        "end": 5.257
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.986,
+        "end": 2.46
+      },
+      {
+        "descriptor": "",
+        "start": 4.662,
+        "end": 5.265
+      },
+      {
+        "descriptor": "",
+        "start": 8.003,
+        "end": 8.125
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352910",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:03:08",
+    "sentence_ID": "VXPAKOKS240352910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    309,
+    126
+  ],
+  "file": "VXPAKOKS240352910.mp4",
+  "saved_as": "VXPAKOKS240352910-아이키우는가정을위한적금은최대이자율10퍼센트로3년간가입할수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

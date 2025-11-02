@@ -1,0 +1,236 @@
+{
+  "id": "VXPAKOKS240333430",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드는 현금 자동 입출금 기기 이용 시 발생하는 수수료가 있을 수 있으므로 주의가 필요합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.596,
+        "end": 2.703,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.872,
+        "end": 3.073,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.273,
+        "end": 3.805,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.183,
+        "end": 4.282,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.621,
+        "end": 5.491,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.726,
+        "end": 5.888,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.051,
+        "end": 6.229,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.422,
+        "end": 6.702,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.925,
+        "end": 7.291,
+        "gloss_id": "기억1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.726,
+        "end": 6.218,
+        "loc": "7,8",
+        "word": "발생하는 수수료가"
+      },
+      {
+        "start": 6.422,
+        "end": 6.702,
+        "loc": "9,10,11",
+        "word": "있을 수 있으므로"
+      },
+      {
+        "start": 6.925,
+        "end": 7.291,
+        "loc": "12,13",
+        "word": "주의가 필요합니다."
+      },
+      {
+        "start": 2.596,
+        "end": 2.703,
+        "loc": "1",
+        "word": "현금"
+      },
+      {
+        "start": 4.183,
+        "end": 5.508,
+        "loc": "0",
+        "word": "현금카드는"
+      },
+      {
+        "start": 2.872,
+        "end": 3.789,
+        "loc": "2,3,4,5,6",
+        "word": "자동 입출금 기기 이용 시"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.872,
+        "end": 3.073,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.726,
+        "end": 5.888,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.273,
+        "end": 3.805
+      },
+      {
+        "descriptor": "",
+        "start": 6.422,
+        "end": 6.702
+      },
+      {
+        "descriptor": "",
+        "start": 6.925,
+        "end": 7.291
+      },
+      {
+        "descriptor": "",
+        "start": 4.876,
+        "end": 5.47
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.059,
+        "end": 7.291
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.596,
+        "end": 5.493
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333430",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:27",
+    "sentence_ID": "VXPAKOKS240333430",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    283,
+    126
+  ],
+  "file": "VXPAKOKS240333430.mp4",
+  "saved_as": "VXPAKOKS240333430-현금카드는현금자동입출금기기이용시발생하는수수료가있을수있으므로주의가필요합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

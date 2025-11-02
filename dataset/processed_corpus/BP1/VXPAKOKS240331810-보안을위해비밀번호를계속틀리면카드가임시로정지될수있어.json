@@ -1,0 +1,249 @@
+{
+  "id": "VXPAKOKS240331810",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "보안을 위해 비밀번호를 계속 틀리면 카드가 임시로 정지될 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.882,
+        "end": 2.065,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.221,
+        "end": 2.478,
+        "gloss_id": "비밀1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.65,
+        "end": 2.789,
+        "gloss_id": "숫자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.067,
+        "end": 3.89,
+        "gloss_id": "틀리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.249,
+        "end": 4.463,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.704,
+        "end": 4.88,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.176,
+        "end": 5.601,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.817,
+        "end": 6.037,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.271,
+        "end": 6.703,
+        "gloss_id": "금지1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.882,
+        "end": 2.787,
+        "loc": "2",
+        "word": "비밀번호를"
+      },
+      {
+        "start": 3.067,
+        "end": 3.89,
+        "loc": "3,4",
+        "word": "계속 틀리면"
+      },
+      {
+        "start": 4.249,
+        "end": 5.595,
+        "loc": "0,1",
+        "word": "보안을 위해"
+      },
+      {
+        "start": 5.817,
+        "end": 6.037,
+        "loc": "6",
+        "word": "임시로"
+      },
+      {
+        "start": 6.271,
+        "end": 6.703,
+        "loc": "5,7,8,9",
+        "word": "카드가 정지될 수 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.221,
+        "end": 2.478,
+        "gloss_id": "비밀1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.249,
+        "end": 4.886,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.176,
+        "end": 5.601,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.817,
+        "end": 6.037,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.271,
+        "end": 6.703,
+        "gloss_id": "금지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.067,
+        "end": 3.89
+      },
+      {
+        "descriptor": "",
+        "start": 5.176,
+        "end": 5.601
+      },
+      {
+        "descriptor": "",
+        "start": 6.271,
+        "end": 6.703
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.067,
+        "end": 3.89
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.271,
+        "end": 6.703
+      }
+    ],
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240331810",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:15:12",
+    "sentence_ID": "VXPAKOKS240331810",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240331810.mp4",
+  "saved_as": "VXPAKOKS240331810-보안을위해비밀번호를계속틀리면카드가임시로정지될수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

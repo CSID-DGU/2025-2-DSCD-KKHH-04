@@ -1,0 +1,465 @@
+{
+  "id": "VXPAKOKS240354150",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "적금 상품마다 최소 가입 금액과 기간이 다르므로, 가입 전에 꼼꼼히 확인해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.322,
+        "end": 1.448,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.596,
+        "end": 1.968,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.189,
+        "end": 3.127,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.493,
+        "end": 4.066,
+        "gloss_id": "각각1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.323,
+        "end": 4.531,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.788,
+        "end": 4.969,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.189,
+        "end": 5.351,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.636,
+        "end": 5.999,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.238,
+        "end": 6.483,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.658,
+        "end": 6.866,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.104,
+        "end": 7.613,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.852,
+        "end": 8.069,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.234,
+        "end": 8.469,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.591,
+        "end": 8.881,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.011,
+        "end": 9.219,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.394,
+        "end": 9.593,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.322,
+        "end": 1.95,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.189,
+        "end": 4.057,
+        "loc": "1",
+        "word": "상품마다"
+      },
+      {
+        "start": 4.323,
+        "end": 4.95,
+        "loc": "2",
+        "word": "최소"
+      },
+      {
+        "start": 5.18,
+        "end": 5.351,
+        "loc": "3",
+        "word": "가입"
+      },
+      {
+        "start": 5.636,
+        "end": 5.999,
+        "loc": "4",
+        "word": "금액과"
+      },
+      {
+        "start": 6.238,
+        "end": 6.866,
+        "loc": "5",
+        "word": "기간이"
+      },
+      {
+        "start": 7.104,
+        "end": 7.613,
+        "loc": "6",
+        "word": "다르므로,"
+      },
+      {
+        "start": 7.852,
+        "end": 8.069,
+        "loc": "7",
+        "word": "가입"
+      },
+      {
+        "start": 8.234,
+        "end": 8.469,
+        "loc": "8",
+        "word": "전에"
+      },
+      {
+        "start": 8.591,
+        "end": 8.881,
+        "loc": "9",
+        "word": "꼼꼼히"
+      },
+      {
+        "start": 9.011,
+        "end": 9.219,
+        "loc": "10",
+        "word": "확인해야"
+      },
+      {
+        "start": 9.394,
+        "end": 9.593,
+        "loc": "11",
+        "word": "해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.596,
+        "end": 1.968,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.189,
+        "end": 4.066,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.788,
+        "end": 4.969,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.189,
+        "end": 5.989,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.238,
+        "end": 6.483,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.658,
+        "end": 6.866,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.104,
+        "end": 7.613,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.852,
+        "end": 8.069,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.234,
+        "end": 8.469,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.591,
+        "end": 9.209,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.394,
+        "end": 9.593,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.189,
+        "end": 3.127
+      },
+      {
+        "descriptor": "",
+        "start": 3.493,
+        "end": 4.066
+      },
+      {
+        "descriptor": "",
+        "start": 4.788,
+        "end": 4.969
+      },
+      {
+        "descriptor": "",
+        "start": 5.636,
+        "end": 5.999
+      },
+      {
+        "descriptor": "",
+        "start": 6.658,
+        "end": 6.866
+      },
+      {
+        "descriptor": "",
+        "start": 8.591,
+        "end": 8.881
+      },
+      {
+        "descriptor": "",
+        "start": 9.011,
+        "end": 9.219
+      },
+      {
+        "descriptor": "",
+        "start": 9.394,
+        "end": 9.593
+      },
+      {
+        "descriptor": "",
+        "start": 7.104,
+        "end": 7.613
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.788,
+        "end": 4.969
+      },
+      {
+        "descriptor": "",
+        "start": 7.104,
+        "end": 7.613
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.234,
+        "end": 9.208
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.189,
+        "end": 3.127
+      },
+      {
+        "descriptor": "",
+        "start": 3.493,
+        "end": 4.066
+      },
+      {
+        "descriptor": "",
+        "start": 4.788,
+        "end": 4.969
+      },
+      {
+        "descriptor": "",
+        "start": 6.238,
+        "end": 6.483
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354150",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:12:10",
+    "sentence_ID": "VXPAKOKS240354150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    328,
+    126
+  ],
+  "file": "VXPAKOKS240354150.mp4",
+  "saved_as": "VXPAKOKS240354150-적금상품마다최소가입금액과기간이다르므로,가입전에꼼꼼히확인해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

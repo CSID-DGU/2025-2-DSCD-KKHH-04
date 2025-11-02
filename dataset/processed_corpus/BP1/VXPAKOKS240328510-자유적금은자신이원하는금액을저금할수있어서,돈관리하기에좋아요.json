@@ -1,0 +1,344 @@
+{
+  "id": "VXPAKOKS240328510",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "자유적금은 자신이 원하는 금액을 저금할 수 있어서, 돈 관리하기에 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.542,
+        "end": 1.792,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.963,
+        "end": 2.148,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.334,
+        "end": 2.648,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.813,
+        "end": 3.077,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.327,
+        "end": 3.491,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.612,
+        "end": 3.805,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.005,
+        "end": 4.818,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.16,
+        "end": 5.624,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.389,
+        "end": 6.689,
+        "gloss_id": "자연1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.86,
+        "end": 7.324,
+        "gloss_id": "조절2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.567,
+        "end": 7.803,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.853,
+        "end": 6.081,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.542,
+        "end": 3.07,
+        "loc": "0",
+        "word": "자유적금은"
+      },
+      {
+        "start": 3.327,
+        "end": 3.491,
+        "loc": "1",
+        "word": "자신이"
+      },
+      {
+        "start": 3.612,
+        "end": 3.812,
+        "loc": "2",
+        "word": "원하는"
+      },
+      {
+        "start": 4.012,
+        "end": 4.818,
+        "loc": "3",
+        "word": "금액을"
+      },
+      {
+        "start": 5.853,
+        "end": 6.681,
+        "loc": "5,6",
+        "word": "수 있어서,"
+      },
+      {
+        "start": 6.86,
+        "end": 7.324,
+        "loc": "7,8",
+        "word": "돈 관리하기에"
+      },
+      {
+        "start": 7.567,
+        "end": 7.803,
+        "loc": "9",
+        "word": "좋아요."
+      },
+      {
+        "start": 5.16,
+        "end": 5.624,
+        "loc": "4",
+        "word": "저금할"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.334,
+        "end": 2.648,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.86,
+        "end": 7.324,
+        "gloss_id": "조절2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.389,
+        "end": 6.689,
+        "gloss_id": "자연1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.542,
+        "end": 1.792,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.963,
+        "end": 2.148,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.16,
+        "end": 5.624,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.567,
+        "end": 7.803,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.346,
+        "end": 4.846
+      },
+      {
+        "descriptor": "",
+        "start": 2.334,
+        "end": 2.648
+      },
+      {
+        "descriptor": "",
+        "start": 2.813,
+        "end": 3.077
+      },
+      {
+        "descriptor": "",
+        "start": 6.389,
+        "end": 6.689
+      },
+      {
+        "descriptor": "",
+        "start": 7.567,
+        "end": 7.803
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.853,
+        "end": 6.081
+      },
+      {
+        "descriptor": "",
+        "start": 6.389,
+        "end": 6.689
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.334,
+        "end": 2.648
+      },
+      {
+        "descriptor": "",
+        "start": 5.16,
+        "end": 5.624
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.542,
+        "end": 2.635
+      },
+      {
+        "descriptor": "",
+        "start": 4.012,
+        "end": 4.818
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328510",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:32:57",
+    "sentence_ID": "VXPAKOKS240328510",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240328510.mp4",
+  "saved_as": "VXPAKOKS240328510-자유적금은자신이원하는금액을저금할수있어서,돈관리하기에좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

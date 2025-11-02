@@ -1,0 +1,303 @@
+{
+  "id": "VXPAKOKS240351120",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 계좌에서 제가 알 수 없는 거래가 발생하여 해지하고 싶은데 어떻게 하나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.296,
+        "end": 1.455,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.617,
+        "end": 1.892,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.172,
+        "end": 2.763,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.028,
+        "end": 3.37,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.519,
+        "end": 3.732,
+        "gloss_id": "모르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.994,
+        "end": 4.196,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.214,
+        "end": 4.433,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.498,
+        "end": 4.62,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.852,
+        "end": 5.017,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.203,
+        "end": 5.392,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.573,
+        "end": 5.793,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.909,
+        "end": 6.22,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.296,
+        "end": 1.887,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.172,
+        "end": 2.763,
+        "loc": "1",
+        "word": "계좌에서"
+      },
+      {
+        "start": 3.028,
+        "end": 3.37,
+        "loc": "2",
+        "word": "제가"
+      },
+      {
+        "start": 3.519,
+        "end": 3.738,
+        "loc": "3,4,5",
+        "word": "알 수 없는"
+      },
+      {
+        "start": 3.982,
+        "end": 5.018,
+        "loc": "6,7",
+        "word": "거래가 발생하여"
+      },
+      {
+        "start": 5.203,
+        "end": 5.392,
+        "loc": "8",
+        "word": "해지하고"
+      },
+      {
+        "start": 5.573,
+        "end": 5.793,
+        "loc": "9",
+        "word": "싶은데"
+      },
+      {
+        "start": 5.909,
+        "end": 6.22,
+        "loc": "10,11",
+        "word": "어떻게 하나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.617,
+        "end": 1.892,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.525,
+        "end": 5.012,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.203,
+        "end": 5.782,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.909,
+        "end": 6.22,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.172,
+        "end": 2.763,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.172,
+        "end": 2.55
+      },
+      {
+        "descriptor": "",
+        "start": 4.852,
+        "end": 5.017
+      },
+      {
+        "descriptor": "",
+        "start": 5.909,
+        "end": 6.22
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 5.807,
+        "end": 6.197
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.028,
+        "end": 6.195
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.909,
+        "end": 6.22
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351120",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:43:09",
+    "sentence_ID": "VXPAKOKS240351120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    219,
+    126
+  ],
+  "file": "VXPAKOKS240351120.mp4",
+  "saved_as": "VXPAKOKS240351120-적금계좌에서제가알수없는거래가발생하여해지하고싶은데어떻게하나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

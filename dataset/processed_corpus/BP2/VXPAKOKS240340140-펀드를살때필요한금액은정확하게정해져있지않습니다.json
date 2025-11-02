@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240340140",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "펀드를 살 때 필요한 금액은 정확하게 정해져 있지 않습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.342,
+        "end": 1.662,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.874,
+        "end": 2.254,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.603,
+        "end": 3.066,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.263,
+        "end": 3.518,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.761,
+        "end": 3.929,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.139,
+        "end": 4.464,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.342,
+        "end": 2.243,
+        "loc": "0",
+        "word": "펀드를"
+      },
+      {
+        "start": 2.603,
+        "end": 3.066,
+        "loc": "1,2",
+        "word": "살 때"
+      },
+      {
+        "start": 3.263,
+        "end": 3.518,
+        "loc": "3,4",
+        "word": "필요한 금액은"
+      },
+      {
+        "start": 3.761,
+        "end": 3.929,
+        "loc": "5,6,7",
+        "word": "정확하게 정해져 있지"
+      },
+      {
+        "start": 4.139,
+        "end": 4.464,
+        "loc": "8",
+        "word": "않습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.874,
+        "end": 2.254,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.603,
+        "end": 3.527,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.761,
+        "end": 3.929,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.874,
+        "end": 2.254
+      },
+      {
+        "descriptor": "",
+        "start": 2.603,
+        "end": 3.066
+      },
+      {
+        "descriptor": "",
+        "start": 3.263,
+        "end": 3.518
+      },
+      {
+        "descriptor": "",
+        "start": 4.139,
+        "end": 4.464
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.022,
+        "end": 2.254
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.139,
+        "end": 4.464
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.342,
+        "end": 2.248
+      },
+      {
+        "descriptor": "",
+        "start": 2.603,
+        "end": 3.527
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340140",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:03:08",
+    "sentence_ID": "VXPAKOKS240340140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    166,
+    126
+  ],
+  "file": "VXPAKOKS240340140.mp4",
+  "saved_as": "VXPAKOKS240340140-펀드를살때필요한금액은정확하게정해져있지않습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,346 @@
+{
+  "id": "VXPAKOKS240350630",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "금리가 2퍼센트인 적금을 1년 동안 매월 10만 원씩 납부했을 때 총이자는 21만 998원입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.328,
+        "end": 1.505,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.71,
+        "end": 1.97,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.243,
+        "end": 2.743,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.15,
+        "end": 3.312,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.48,
+        "end": 3.695,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.848,
+        "end": 4.685,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.063,
+        "end": 5.375,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.558,
+        "end": 5.652,
+        "gloss_id": "100000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.75,
+        "end": 7.093,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.245,
+        "end": 7.385,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.815,
+        "end": 7.963,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.114,
+        "end": 9.709,
+        "gloss_id": "210998",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.688,
+        "end": 6.341,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.328,
+        "end": 1.973,
+        "loc": "0",
+        "word": "금리가"
+      },
+      {
+        "start": 2.243,
+        "end": 2.743,
+        "loc": "1",
+        "word": "2퍼센트인"
+      },
+      {
+        "start": 3.15,
+        "end": 3.672,
+        "loc": "2",
+        "word": "적금을"
+      },
+      {
+        "start": 3.848,
+        "end": 4.685,
+        "loc": "3,4",
+        "word": "1년 동안"
+      },
+      {
+        "start": 5.063,
+        "end": 5.375,
+        "loc": "5",
+        "word": "매월"
+      },
+      {
+        "start": 5.558,
+        "end": 6.372,
+        "loc": "6,7,8,9",
+        "word": "10만 원씩 납부했을 때"
+      },
+      {
+        "start": 6.75,
+        "end": 7.372,
+        "loc": "10",
+        "word": "총이자는"
+      },
+      {
+        "start": 7.781,
+        "end": 9.709,
+        "loc": "11,12",
+        "word": "21만 998원입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.243,
+        "end": 2.725,
+        "gloss_id": "2",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.48,
+        "end": 3.695,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.848,
+        "end": 4.685,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.75,
+        "end": 7.093,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "이십일만구백구십팔",
+        "start": 8.114,
+        "end": 9.694
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.71,
+        "end": 1.97
+      },
+      {
+        "descriptor": "",
+        "start": 3.848,
+        "end": 4.685
+      },
+      {
+        "descriptor": "",
+        "start": 7.245,
+        "end": 7.385
+      },
+      {
+        "descriptor": "",
+        "start": 9.491,
+        "end": 9.709
+      },
+      {
+        "descriptor": "",
+        "start": 2.243,
+        "end": 2.743
+      },
+      {
+        "descriptor": "",
+        "start": 6.204,
+        "end": 6.38
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.063,
+        "end": 6.374
+      },
+      {
+        "descriptor": "",
+        "start": 7.815,
+        "end": 7.963
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.71,
+        "end": 1.97
+      },
+      {
+        "descriptor": "",
+        "start": 5.558,
+        "end": 6.372
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.328,
+        "end": 1.918
+      },
+      {
+        "descriptor": "",
+        "start": 3.155,
+        "end": 6.188
+      },
+      {
+        "descriptor": "",
+        "start": 6.75,
+        "end": 7.466
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240350630",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:40:09",
+    "sentence_ID": "VXPAKOKS240350630",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    324,
+    126
+  ],
+  "file": "VXPAKOKS240350630.mp4",
+  "saved_as": "VXPAKOKS240350630-금리가2퍼센트인적금을1년동안매월10만원씩납부했을때총이자는21만998원입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

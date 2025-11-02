@@ -1,0 +1,308 @@
+{
+  "id": "VXPAKOKS240330100",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "영수증을 확인한 후, 잘못 결제한 곳에 결제 취소가 가능한지 문의하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.259,
+        "end": 2.549,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.782,
+        "end": 3.099,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.279,
+        "end": 3.971,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.238,
+        "end": 4.459,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.705,
+        "end": 5.161,
+        "gloss_id": "잘못1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.58,
+        "end": 6.08,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.413,
+        "end": 7.192,
+        "gloss_id": "전화하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.431,
+        "end": 7.608,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.746,
+        "end": 8.159,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.328,
+        "end": 8.601,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.847,
+        "end": 9.146,
+        "gloss_id": "질문1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 9.271,
+        "end": 9.692,
+        "gloss_id": "보다10",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.259,
+        "end": 3.098,
+        "loc": "0",
+        "word": "영수증을"
+      },
+      {
+        "start": 3.279,
+        "end": 3.971,
+        "loc": "1,2",
+        "word": "확인한 후,"
+      },
+      {
+        "start": 4.238,
+        "end": 4.459,
+        "loc": "4",
+        "word": "결제한"
+      },
+      {
+        "start": 4.705,
+        "end": 5.161,
+        "loc": "3",
+        "word": "잘못"
+      },
+      {
+        "start": 5.58,
+        "end": 6.08,
+        "loc": "5",
+        "word": "곳에"
+      },
+      {
+        "start": 7.746,
+        "end": 8.159,
+        "loc": "6,7",
+        "word": "결제 취소가"
+      },
+      {
+        "start": 8.328,
+        "end": 8.601,
+        "loc": "8",
+        "word": "가능한지"
+      },
+      {
+        "start": 8.847,
+        "end": 9.678,
+        "loc": "9",
+        "word": "문의하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.782,
+        "end": 3.971,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.705,
+        "end": 5.161,
+        "gloss_id": "잘못1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.746,
+        "end": 8.603,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.271,
+        "end": 9.692
+      },
+      {
+        "descriptor": "",
+        "start": 3.279,
+        "end": 3.971
+      },
+      {
+        "descriptor": "",
+        "start": 5.58,
+        "end": 6.08
+      },
+      {
+        "descriptor": "",
+        "start": 8.328,
+        "end": 8.601
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.328,
+        "end": 8.601
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.231,
+        "end": 5.161
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 9.271,
+        "end": 9.692
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.259,
+        "end": 3.962
+      },
+      {
+        "descriptor": "",
+        "start": 8.328,
+        "end": 8.601
+      },
+      {
+        "descriptor": "",
+        "start": 5.58,
+        "end": 6.08
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330100",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:50:46",
+    "sentence_ID": "VXPAKOKS240330100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    314,
+    126
+  ],
+  "file": "VXPAKOKS240330100.mp4",
+  "saved_as": "VXPAKOKS240330100-영수증을확인한후,잘못결제한곳에결제취소가가능한지문의하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

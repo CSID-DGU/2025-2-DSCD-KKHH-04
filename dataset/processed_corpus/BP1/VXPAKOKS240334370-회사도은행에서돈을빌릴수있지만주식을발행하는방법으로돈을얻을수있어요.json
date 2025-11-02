@@ -1,0 +1,349 @@
+{
+  "id": "VXPAKOKS240334370",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "회사도 은행에서 돈을 빌릴 수 있지만 주식을 발행하는 방법으로 돈을 얻을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.647,
+        "end": 2.963,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.334,
+        "end": 3.503,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.735,
+        "end": 3.963,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.197,
+        "end": 4.388,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.524,
+        "end": 4.597,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.833,
+        "end": 5.149,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.408,
+        "end": 5.643,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.85,
+        "end": 5.99,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.192,
+        "end": 6.736,
+        "gloss_id": "삽입1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.973,
+        "end": 7.054,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.22,
+        "end": 7.433,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.713,
+        "end": 7.852,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.647,
+        "end": 2.963,
+        "loc": "0",
+        "word": "회사도"
+      },
+      {
+        "start": 3.334,
+        "end": 3.503,
+        "loc": "1",
+        "word": "은행에서"
+      },
+      {
+        "start": 3.735,
+        "end": 4.375,
+        "loc": "2,3,4,5",
+        "word": "돈을 빌릴 수 있지만"
+      },
+      {
+        "start": 5.408,
+        "end": 5.643,
+        "loc": "6",
+        "word": "주식을"
+      },
+      {
+        "start": 5.85,
+        "end": 6.733,
+        "loc": "7,8",
+        "word": "발행하는 방법으로"
+      },
+      {
+        "start": 6.973,
+        "end": 7.054,
+        "loc": "9",
+        "word": "돈을"
+      },
+      {
+        "start": 7.22,
+        "end": 7.838,
+        "loc": "10,11,12",
+        "word": "얻을 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.647,
+        "end": 2.963,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.334,
+        "end": 3.503,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.833,
+        "end": 5.149,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.408,
+        "end": 5.643,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.85,
+        "end": 5.99,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.192,
+        "end": 7.06,
+        "gloss_id": "삽입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.22,
+        "end": 7.433,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.647,
+        "end": 2.963
+      },
+      {
+        "descriptor": "",
+        "start": 4.197,
+        "end": 4.388
+      },
+      {
+        "descriptor": "",
+        "start": 4.833,
+        "end": 5.149
+      },
+      {
+        "descriptor": "",
+        "start": 6.192,
+        "end": 6.736
+      },
+      {
+        "descriptor": "",
+        "start": 7.713,
+        "end": 7.852
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.197,
+        "end": 4.388
+      },
+      {
+        "descriptor": "",
+        "start": 6.457,
+        "end": 6.736
+      },
+      {
+        "descriptor": "",
+        "start": 7.713,
+        "end": 7.852
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.735,
+        "end": 4.382
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.22,
+        "end": 7.433
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.647,
+        "end": 2.963
+      },
+      {
+        "descriptor": "",
+        "start": 4.524,
+        "end": 5.142
+      },
+      {
+        "descriptor": "",
+        "start": 6.192,
+        "end": 6.736
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334370",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:30:05",
+    "sentence_ID": "VXPAKOKS240334370",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    265,
+    126
+  ],
+  "file": "VXPAKOKS240334370.mp4",
+  "saved_as": "VXPAKOKS240334370-회사도은행에서돈을빌릴수있지만주식을발행하는방법으로돈을얻을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

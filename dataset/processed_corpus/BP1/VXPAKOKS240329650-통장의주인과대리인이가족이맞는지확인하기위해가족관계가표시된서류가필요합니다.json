@@ -1,0 +1,356 @@
+{
+  "id": "VXPAKOKS240329650",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "통장의 주인과 대리인이 가족이 맞는지 확인하기 위해 가족관계가 표시된 서류가 필요합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.775,
+        "end": 2.157,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.226,
+        "end": 2.399,
+        "gloss_id": "가지다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.66,
+        "end": 3.29,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.55,
+        "end": 4.005,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.159,
+        "end": 4.771,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.908,
+        "end": 5.295,
+        "gloss_id": "가족1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.522,
+        "end": 5.802,
+        "gloss_id": "맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.979,
+        "end": 6.462,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.656,
+        "end": 6.902,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.128,
+        "end": 7.335,
+        "gloss_id": "가족1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.444,
+        "end": 7.566,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.81,
+        "end": 8.191,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.475,
+        "end": 8.84,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.55,
+        "end": 4.794,
+        "loc": "2",
+        "word": "대리인이"
+      },
+      {
+        "start": 4.908,
+        "end": 5.295,
+        "loc": "3",
+        "word": "가족이"
+      },
+      {
+        "start": 5.522,
+        "end": 5.802,
+        "loc": "4",
+        "word": "맞는지"
+      },
+      {
+        "start": 5.979,
+        "end": 6.896,
+        "loc": "5,6",
+        "word": "확인하기 위해"
+      },
+      {
+        "start": 7.81,
+        "end": 8.191,
+        "loc": "9",
+        "word": "서류가"
+      },
+      {
+        "start": 8.475,
+        "end": 8.84,
+        "loc": "10",
+        "word": "필요합니다."
+      },
+      {
+        "start": 7.128,
+        "end": 7.564,
+        "loc": "7,8",
+        "word": "가족관계가 표시된"
+      },
+      {
+        "start": 1.775,
+        "end": 2.157,
+        "loc": "0",
+        "word": "통장의"
+      },
+      {
+        "start": 2.226,
+        "end": 3.298,
+        "loc": "1",
+        "word": "주인과"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.775,
+        "end": 3.288,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.55,
+        "end": 4.78,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.908,
+        "end": 5.295,
+        "gloss_id": "가족1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.656,
+        "end": 6.902,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.128,
+        "end": 7.335,
+        "gloss_id": "가족1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.444,
+        "end": 7.566,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.81,
+        "end": 8.191,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.475,
+        "end": 8.84,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.66,
+        "end": 3.29
+      },
+      {
+        "descriptor": "",
+        "start": 4.159,
+        "end": 4.771
+      },
+      {
+        "descriptor": "",
+        "start": 5.522,
+        "end": 5.802
+      },
+      {
+        "descriptor": "",
+        "start": 6.656,
+        "end": 6.902
+      },
+      {
+        "descriptor": "",
+        "start": 8.475,
+        "end": 8.84
+      },
+      {
+        "descriptor": "",
+        "start": 7.81,
+        "end": 8.191
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.66,
+        "end": 3.29
+      },
+      {
+        "descriptor": "",
+        "start": 4.159,
+        "end": 4.771
+      },
+      {
+        "descriptor": "",
+        "start": 5.522,
+        "end": 5.802
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329650",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:28:19",
+    "sentence_ID": "VXPAKOKS240329650",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    284,
+    126
+  ],
+  "file": "VXPAKOKS240329650.mp4",
+  "saved_as": "VXPAKOKS240329650-통장의주인과대리인이가족이맞는지확인하기위해가족관계가표시된서류가필요합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,265 @@
+{
+  "id": "VXPAKOKS240333120",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "통장 유지 기간에 대해 은행에서 정한 기준이 있을 거예요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.593,
+        "end": 2.848,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.147,
+        "end": 3.458,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.74,
+        "end": 4.485,
+        "gloss_id": "몇년1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.654,
+        "end": 4.782,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.965,
+        "end": 5.115,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.376,
+        "end": 5.596,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.864,
+        "end": 6.0,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.247,
+        "end": 6.544,
+        "gloss_id": "아마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.247,
+        "end": 6.544,
+        "loc": "8",
+        "word": "거예요."
+      },
+      {
+        "start": 2.593,
+        "end": 3.471,
+        "loc": "0,1",
+        "word": "통장 유지"
+      },
+      {
+        "start": 3.74,
+        "end": 4.485,
+        "loc": "2,3",
+        "word": "기간에 대해"
+      },
+      {
+        "start": 4.654,
+        "end": 4.782,
+        "loc": "4",
+        "word": "은행에서"
+      },
+      {
+        "start": 4.965,
+        "end": 5.115,
+        "loc": "6",
+        "word": "기준이"
+      },
+      {
+        "start": 5.376,
+        "end": 5.596,
+        "loc": "5",
+        "word": "정한"
+      },
+      {
+        "start": 5.864,
+        "end": 6.0,
+        "loc": "7",
+        "word": "있을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.593,
+        "end": 2.848,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.147,
+        "end": 3.458,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.74,
+        "end": 4.485,
+        "gloss_id": "몇년1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.654,
+        "end": 4.782,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.965,
+        "end": 5.115,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.376,
+        "end": 5.596,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.147,
+        "end": 3.458
+      },
+      {
+        "descriptor": "",
+        "start": 4.112,
+        "end": 4.479
+      },
+      {
+        "descriptor": "",
+        "start": 5.864,
+        "end": 6.0
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.247,
+        "end": 6.544
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.965,
+        "end": 5.991
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.593,
+        "end": 4.487
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333120",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:27:25",
+    "sentence_ID": "VXPAKOKS240333120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    252,
+    126
+  ],
+  "file": "VXPAKOKS240333120.mp4",
+  "saved_as": "VXPAKOKS240333120-통장유지기간에대해은행에서정한기준이있을거예요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

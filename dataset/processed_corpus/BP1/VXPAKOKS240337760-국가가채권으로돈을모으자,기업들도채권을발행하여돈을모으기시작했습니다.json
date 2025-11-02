@@ -1,0 +1,418 @@
+{
+  "id": "VXPAKOKS240337760",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "국가가 채권으로 돈을 모으자, 기업들도 채권을 발행하여 돈을 모으기 시작했습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.197,
+        "end": 2.448,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.558,
+        "end": 2.698,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.929,
+        "end": 3.106,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.352,
+        "end": 3.649,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.898,
+        "end": 4.37,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.477,
+        "end": 4.617,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.857,
+        "end": 5.265,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.588,
+        "end": 5.903,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.091,
+        "end": 6.342,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.562,
+        "end": 6.795,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.024,
+        "end": 7.469,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.678,
+        "end": 8.086,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.268,
+        "end": 8.593,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.71,
+        "end": 8.823,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.014,
+        "end": 9.385,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.197,
+        "end": 2.448,
+        "loc": "0",
+        "word": "국가가"
+      },
+      {
+        "start": 2.558,
+        "end": 4.358,
+        "loc": "1",
+        "word": "채권으로"
+      },
+      {
+        "start": 4.857,
+        "end": 5.91,
+        "loc": "3",
+        "word": "모으자,"
+      },
+      {
+        "start": 6.091,
+        "end": 7.457,
+        "loc": "4",
+        "word": "기업들도"
+      },
+      {
+        "start": 7.678,
+        "end": 8.086,
+        "loc": "5",
+        "word": "채권을"
+      },
+      {
+        "start": 8.268,
+        "end": 8.593,
+        "loc": "6",
+        "word": "발행하여"
+      },
+      {
+        "start": 8.71,
+        "end": 8.823,
+        "loc": "7",
+        "word": "돈을"
+      },
+      {
+        "start": 9.014,
+        "end": 9.385,
+        "loc": "8,9",
+        "word": "모으기 시작했습니다."
+      },
+      {
+        "start": 4.477,
+        "end": 4.617,
+        "loc": "2",
+        "word": "돈을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.197,
+        "end": 2.448,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.352,
+        "end": 3.649,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.898,
+        "end": 4.37,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.857,
+        "end": 5.265,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.588,
+        "end": 5.903,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.091,
+        "end": 6.342,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.562,
+        "end": 6.795,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.024,
+        "end": 7.469,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.678,
+        "end": 8.086,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.268,
+        "end": 8.593,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.014,
+        "end": 9.385,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.898,
+        "end": 4.37
+      },
+      {
+        "descriptor": "",
+        "start": 4.857,
+        "end": 5.265
+      },
+      {
+        "descriptor": "",
+        "start": 5.588,
+        "end": 5.903
+      },
+      {
+        "descriptor": "",
+        "start": 7.024,
+        "end": 7.469
+      },
+      {
+        "descriptor": "",
+        "start": 8.268,
+        "end": 8.593
+      },
+      {
+        "descriptor": "",
+        "start": 9.014,
+        "end": 9.385
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.588,
+        "end": 5.903
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.562,
+        "end": 7.431
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 9.014,
+        "end": 9.385
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.558,
+        "end": 4.367
+      },
+      {
+        "descriptor": "",
+        "start": 6.091,
+        "end": 6.342
+      },
+      {
+        "descriptor": "",
+        "start": 7.678,
+        "end": 8.584
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337760",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:40:13",
+    "sentence_ID": "VXPAKOKS240337760",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    332,
+    126
+  ],
+  "file": "VXPAKOKS240337760.mp4",
+  "saved_as": "VXPAKOKS240337760-국가가채권으로돈을모으자,기업들도채권을발행하여돈을모으기시작했습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

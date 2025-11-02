@@ -1,0 +1,327 @@
+{
+  "id": "VXPAKOKS240345150",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "예금 금리는 경제 상황과 밀접한 관계가 있으므로 경제 뉴스를 자주 확인해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.666,
+        "end": 2.281,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.566,
+        "end": 3.197,
+        "gloss_id": "여부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.376,
+        "end": 3.613,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.728,
+        "end": 3.859,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.014,
+        "end": 4.669,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.826,
+        "end": 5.555,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.899,
+        "end": 6.219,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.424,
+        "end": 6.67,
+        "gloss_id": "이야기하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.801,
+        "end": 6.981,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.096,
+        "end": 7.325,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.481,
+        "end": 7.735,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.899,
+        "end": 6.219,
+        "loc": "7",
+        "word": "경제"
+      },
+      {
+        "start": 6.424,
+        "end": 6.67,
+        "loc": "8",
+        "word": "뉴스를"
+      },
+      {
+        "start": 6.801,
+        "end": 6.981,
+        "loc": "9",
+        "word": "자주"
+      },
+      {
+        "start": 7.096,
+        "end": 7.325,
+        "loc": "10",
+        "word": "확인해야"
+      },
+      {
+        "start": 7.481,
+        "end": 7.735,
+        "loc": "11",
+        "word": "합니다."
+      },
+      {
+        "start": 1.666,
+        "end": 2.281,
+        "loc": "2",
+        "word": "경제"
+      },
+      {
+        "start": 2.566,
+        "end": 3.197,
+        "loc": "3",
+        "word": "상황과"
+      },
+      {
+        "start": 3.376,
+        "end": 3.613,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 3.728,
+        "end": 3.859,
+        "loc": "1",
+        "word": "금리는"
+      },
+      {
+        "start": 4.014,
+        "end": 5.554,
+        "loc": "4,5,6",
+        "word": "밀접한 관계가 있으므로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.666,
+        "end": 2.281,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.376,
+        "end": 3.858,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.826,
+        "end": 5.555,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.899,
+        "end": 6.219,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.424,
+        "end": 7.33,
+        "gloss_id": "이야기하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.481,
+        "end": 7.735,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.566,
+        "end": 2.956
+      },
+      {
+        "descriptor": "",
+        "start": 4.014,
+        "end": 4.669
+      },
+      {
+        "descriptor": "",
+        "start": 7.096,
+        "end": 7.325
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.666,
+        "end": 2.949
+      },
+      {
+        "descriptor": "",
+        "start": 4.826,
+        "end": 5.447
+      },
+      {
+        "descriptor": "",
+        "start": 6.699,
+        "end": 7.3
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.666,
+        "end": 2.949
+      },
+      {
+        "descriptor": "",
+        "start": 4.014,
+        "end": 4.474
+      },
+      {
+        "descriptor": "",
+        "start": 5.899,
+        "end": 6.506
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345150",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:35:09",
+    "sentence_ID": "VXPAKOKS240345150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    295,
+    126
+  ],
+  "file": "VXPAKOKS240345150.mp4",
+  "saved_as": "VXPAKOKS240345150-예금금리는경제상황과밀접한관계가있으므로경제뉴스를자주확인해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

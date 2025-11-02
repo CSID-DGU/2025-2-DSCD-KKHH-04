@@ -1,0 +1,285 @@
+{
+  "id": "VXPAKOKS240330450",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "카드 발급 회사의 기준과 소득, 신용점수 등에 의해 결정됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.098,
+        "end": 2.326,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.582,
+        "end": 2.796,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.021,
+        "end": 3.37,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.851,
+        "end": 4.079,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.507,
+        "end": 4.921,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.243,
+        "end": 5.32,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.657,
+        "end": 5.748,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.955,
+        "end": 6.334,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.631,
+        "end": 6.808,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.019,
+        "end": 7.268,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.509,
+        "end": 7.759,
+        "gloss_id": "주다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.507,
+        "end": 4.921,
+        "loc": "4",
+        "word": "소득,"
+      },
+      {
+        "start": 2.098,
+        "end": 2.792,
+        "loc": "0,1,2",
+        "word": "카드 발급 회사의"
+      },
+      {
+        "start": 3.021,
+        "end": 4.079,
+        "loc": "3",
+        "word": "기준과"
+      },
+      {
+        "start": 5.243,
+        "end": 5.75,
+        "loc": "5",
+        "word": "신용점수"
+      },
+      {
+        "start": 5.955,
+        "end": 6.334,
+        "loc": "6,7",
+        "word": "등에 의해"
+      },
+      {
+        "start": 6.625,
+        "end": 7.748,
+        "loc": "8",
+        "word": "결정됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.582,
+        "end": 2.796,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.021,
+        "end": 3.37,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.507,
+        "end": 4.921,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.243,
+        "end": 5.32,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.019,
+        "end": 7.268,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.851,
+        "end": 4.079
+      },
+      {
+        "descriptor": "",
+        "start": 4.507,
+        "end": 4.921
+      },
+      {
+        "descriptor": "",
+        "start": 5.955,
+        "end": 6.334
+      },
+      {
+        "descriptor": "",
+        "start": 7.509,
+        "end": 7.759
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.021,
+        "end": 4.066
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.657,
+        "end": 6.329
+      },
+      {
+        "descriptor": "",
+        "start": 2.098,
+        "end": 2.791
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330450",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:30:52",
+    "sentence_ID": "VXPAKOKS240330450",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240330450.mp4",
+  "saved_as": "VXPAKOKS240330450-카드발급회사의기준과소득,신용점수등에의해결정됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

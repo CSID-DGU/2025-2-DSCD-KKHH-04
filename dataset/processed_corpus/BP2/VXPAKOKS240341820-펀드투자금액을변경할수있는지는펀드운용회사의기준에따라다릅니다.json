@@ -1,0 +1,320 @@
+{
+  "id": "VXPAKOKS240341820",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자 금액을 변경할 수 있는지는 펀드 운용 회사의 기준에 따라 다릅니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.359,
+        "end": 1.859,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.065,
+        "end": 2.565,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.015,
+        "end": 3.288,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.482,
+        "end": 3.748,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.951,
+        "end": 4.408,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.683,
+        "end": 4.992,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.192,
+        "end": 5.422,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.578,
+        "end": 5.826,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.059,
+        "end": 6.332,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.555,
+        "end": 7.006,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.359,
+        "end": 1.859,
+        "loc": "0,1",
+        "word": "펀드 투자"
+      },
+      {
+        "start": 2.065,
+        "end": 2.565,
+        "loc": "2",
+        "word": "금액을"
+      },
+      {
+        "start": 3.015,
+        "end": 3.743,
+        "loc": "3",
+        "word": "변경할"
+      },
+      {
+        "start": 3.951,
+        "end": 4.408,
+        "loc": "4,5",
+        "word": "수 있는지는"
+      },
+      {
+        "start": 4.683,
+        "end": 4.992,
+        "loc": "6",
+        "word": "펀드"
+      },
+      {
+        "start": 5.192,
+        "end": 5.422,
+        "loc": "7",
+        "word": "운용"
+      },
+      {
+        "start": 5.578,
+        "end": 5.826,
+        "loc": "8",
+        "word": "회사의"
+      },
+      {
+        "start": 6.059,
+        "end": 6.332,
+        "loc": "9,10",
+        "word": "기준에 따라"
+      },
+      {
+        "start": 6.555,
+        "end": 7.006,
+        "loc": "11",
+        "word": "다릅니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.015,
+        "end": 3.288,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.192,
+        "end": 5.422,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.578,
+        "end": 5.826,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.059,
+        "end": 6.332,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.555,
+        "end": 7.006,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.951,
+        "end": 4.408
+      },
+      {
+        "descriptor": "",
+        "start": 6.059,
+        "end": 6.332
+      },
+      {
+        "descriptor": "",
+        "start": 1.359,
+        "end": 1.859
+      },
+      {
+        "descriptor": "",
+        "start": 2.065,
+        "end": 2.565
+      },
+      {
+        "descriptor": "",
+        "start": 6.555,
+        "end": 7.006
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.951,
+        "end": 4.408
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.059,
+        "end": 7.002
+      },
+      {
+        "descriptor": "",
+        "start": 2.065,
+        "end": 2.565
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.279,
+        "end": 7.006
+      },
+      {
+        "descriptor": "",
+        "start": 3.015,
+        "end": 3.743
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.478,
+        "end": 4.408
+      },
+      {
+        "descriptor": "",
+        "start": 1.359,
+        "end": 1.859
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341820",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:16:16",
+    "sentence_ID": "VXPAKOKS240341820",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    221,
+    126
+  ],
+  "file": "VXPAKOKS240341820.mp4",
+  "saved_as": "VXPAKOKS240341820-펀드투자금액을변경할수있는지는펀드운용회사의기준에따라다릅니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

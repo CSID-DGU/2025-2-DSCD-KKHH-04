@@ -1,0 +1,383 @@
+{
+  "id": "VXPAKOKS240341700",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "컴퓨터 기술 발달로 2010년 이후에는 투자자들이 펀드 투자에 대한 손익을 빠르게 확인할 수 있게 되었습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.432,
+        "end": 1.932,
+        "gloss_id": "2010",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.227,
+        "end": 2.727,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.889,
+        "end": 3.124,
+        "gloss_id": "컴퓨터1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.365,
+        "end": 3.481,
+        "gloss_id": "기술1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.793,
+        "end": 4.144,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.413,
+        "end": 4.714,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.993,
+        "end": 5.112,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.38,
+        "end": 5.615,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.84,
+        "end": 6.133,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.427,
+        "end": 6.802,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.073,
+        "end": 7.573,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.839,
+        "end": 8.239,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.447,
+        "end": 8.674,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.812,
+        "end": 9.013,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.432,
+        "end": 1.932,
+        "loc": "3",
+        "word": "2010년"
+      },
+      {
+        "start": 2.227,
+        "end": 2.727,
+        "loc": "4",
+        "word": "이후에는"
+      },
+      {
+        "start": 2.889,
+        "end": 3.124,
+        "loc": "0",
+        "word": "컴퓨터"
+      },
+      {
+        "start": 3.365,
+        "end": 3.481,
+        "loc": "1",
+        "word": "기술"
+      },
+      {
+        "start": 3.793,
+        "end": 4.707,
+        "loc": "2",
+        "word": "발달로"
+      },
+      {
+        "start": 5.001,
+        "end": 5.6,
+        "loc": "5",
+        "word": "투자자들이"
+      },
+      {
+        "start": 5.84,
+        "end": 6.133,
+        "loc": "6,7",
+        "word": "펀드 투자에"
+      },
+      {
+        "start": 7.839,
+        "end": 8.239,
+        "loc": "11",
+        "word": "확인할"
+      },
+      {
+        "start": 8.447,
+        "end": 8.674,
+        "loc": "10",
+        "word": "빠르게"
+      },
+      {
+        "start": 8.812,
+        "end": 9.013,
+        "loc": "12,13,14",
+        "word": "수 있게 되었습니다."
+      },
+      {
+        "start": 6.427,
+        "end": 7.572,
+        "loc": "9",
+        "word": "손익을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.227,
+        "end": 2.727,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.889,
+        "end": 3.124,
+        "gloss_id": "컴퓨터1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.793,
+        "end": 4.144,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.413,
+        "end": 4.714,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.38,
+        "end": 5.615,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.073,
+        "end": 7.573,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.447,
+        "end": 8.674,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "이천십",
+        "start": 1.432,
+        "end": 1.932
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.812,
+        "end": 9.013
+      },
+      {
+        "descriptor": "",
+        "start": 2.227,
+        "end": 2.727
+      },
+      {
+        "descriptor": "",
+        "start": 4.413,
+        "end": 4.714
+      },
+      {
+        "descriptor": "",
+        "start": 7.839,
+        "end": 8.239
+      },
+      {
+        "descriptor": "",
+        "start": 7.073,
+        "end": 7.573
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.812,
+        "end": 9.013
+      },
+      {
+        "descriptor": "",
+        "start": 4.413,
+        "end": 4.714
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.365,
+        "end": 4.143
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.432,
+        "end": 2.726
+      },
+      {
+        "descriptor": "",
+        "start": 4.413,
+        "end": 5.103
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341700",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:15:35",
+    "sentence_ID": "VXPAKOKS240341700",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    298,
+    126
+  ],
+  "file": "VXPAKOKS240341700.mp4",
+  "saved_as": "VXPAKOKS240341700-컴퓨터기술발달로2010년이후에는투자자들이펀드투자에대한손익을빠르게확인할수있게되었습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

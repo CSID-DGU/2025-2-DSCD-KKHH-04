@@ -1,0 +1,422 @@
+{
+  "id": "VXPAKOKS240336570",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "국채 금리는 국가가 발행하는 채권의 금리로, 국채 금리를 보고 경제의 금리 수준을 의미합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.333,
+        "end": 4.958,
+        "gloss_id": "국채금리",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.09,
+        "end": 5.212,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.393,
+        "end": 5.893,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.189,
+        "end": 6.355,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.448,
+        "end": 6.58,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.743,
+        "end": 6.941,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.14,
+        "end": 7.488,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.801,
+        "end": 7.96,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.141,
+        "end": 8.363,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.66,
+        "end": 9.387,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.85,
+        "end": 9.982,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.19,
+        "end": 10.643,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.946,
+        "end": 11.228,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 11.531,
+        "end": 11.86,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.145,
+        "end": 12.258,
+        "gloss_id": "기름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.504,
+        "end": 12.635,
+        "gloss_id": "어렵다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.863,
+        "end": 13.013,
+        "gloss_id": "눈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 13.184,
+        "end": 13.486,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 13.675,
+        "end": 13.873,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.333,
+        "end": 5.9,
+        "loc": "0,1",
+        "word": "국채 금리는"
+      },
+      {
+        "start": 6.176,
+        "end": 6.355,
+        "loc": "2",
+        "word": "국가가"
+      },
+      {
+        "start": 6.49,
+        "end": 7.489,
+        "loc": "3,4",
+        "word": "발행하는 채권의"
+      },
+      {
+        "start": 11.531,
+        "end": 11.86,
+        "loc": "9",
+        "word": "경제의"
+      },
+      {
+        "start": 12.145,
+        "end": 13.882,
+        "loc": "10,11,12",
+        "word": "금리 수준을 의미합니다."
+      },
+      {
+        "start": 7.801,
+        "end": 9.39,
+        "loc": "5",
+        "word": "금리로,"
+      },
+      {
+        "start": 10.946,
+        "end": 11.228,
+        "loc": "8",
+        "word": "보고"
+      },
+      {
+        "start": 9.85,
+        "end": 10.636,
+        "loc": "6,7",
+        "word": "국채 금리를"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 10.19,
+        "end": 10.642,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.14,
+        "end": 7.489,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.66,
+        "end": 9.387,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.531,
+        "end": 11.859,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 13.184,
+        "end": 13.486,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.189,
+        "end": 6.354,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "국채금리",
+        "start": 2.333,
+        "end": 4.958
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 13.675,
+        "end": 13.873
+      },
+      {
+        "descriptor": "",
+        "start": 5.393,
+        "end": 5.893
+      },
+      {
+        "descriptor": "",
+        "start": 8.141,
+        "end": 8.356
+      },
+      {
+        "descriptor": "",
+        "start": 8.921,
+        "end": 9.38
+      },
+      {
+        "descriptor": "",
+        "start": 10.946,
+        "end": 11.227
+      },
+      {
+        "descriptor": "",
+        "start": 12.145,
+        "end": 12.258
+      },
+      {
+        "descriptor": "",
+        "start": 12.504,
+        "end": 12.635
+      },
+      {
+        "descriptor": "",
+        "start": 13.184,
+        "end": 13.486
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 13.675,
+        "end": 13.873
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 12.145,
+        "end": 12.641
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.866,
+        "end": 4.844
+      },
+      {
+        "descriptor": "",
+        "start": 6.998,
+        "end": 8.312
+      },
+      {
+        "descriptor": "",
+        "start": 9.566,
+        "end": 11.203
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336570",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:54",
+    "sentence_ID": "VXPAKOKS240336570",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    476,
+    126
+  ],
+  "file": "VXPAKOKS240336570.mp4",
+  "saved_as": "VXPAKOKS240336570-국채금리는국가가발행하는채권의금리로,국채금리를보고경제의금리수준을의미합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

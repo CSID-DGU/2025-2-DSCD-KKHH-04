@@ -1,0 +1,218 @@
+{
+  "id": "VXPAKOKS240351040",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "적금 해지 시 해지 영수증을 받을 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.252,
+        "end": 1.325,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.422,
+        "end": 1.701,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.019,
+        "end": 2.387,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.61,
+        "end": 2.689,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.833,
+        "end": 3.09,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.301,
+        "end": 3.558,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.673,
+        "end": 3.875,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.252,
+        "end": 1.692,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.61,
+        "end": 3.109,
+        "loc": "4",
+        "word": "영수증을"
+      },
+      {
+        "start": 3.301,
+        "end": 3.558,
+        "loc": "5",
+        "word": "받을"
+      },
+      {
+        "start": 3.673,
+        "end": 3.875,
+        "loc": "6,7",
+        "word": "수 있나요?"
+      },
+      {
+        "start": 2.019,
+        "end": 2.387,
+        "loc": "1,2,3",
+        "word": "해지 시 해지"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.422,
+        "end": 1.701,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.019,
+        "end": 2.387,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.833,
+        "end": 3.09,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.019,
+        "end": 2.387
+      },
+      {
+        "descriptor": "",
+        "start": 3.704,
+        "end": 3.875
+      },
+      {
+        "descriptor": "",
+        "start": 3.301,
+        "end": 3.558
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.713,
+        "end": 3.875
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.019,
+        "end": 2.387
+      },
+      {
+        "descriptor": "",
+        "start": 2.833,
+        "end": 3.881
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351040",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:42:37",
+    "sentence_ID": "VXPAKOKS240351040",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    159,
+    126
+  ],
+  "file": "VXPAKOKS240351040.mp4",
+  "saved_as": "VXPAKOKS240351040-적금해지시해지영수증을받을수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

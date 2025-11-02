@@ -1,0 +1,256 @@
+{
+  "id": "VXPAKOKS240331960",
+  "opertor": "label10",
+  "krlgg_sntenc": {
+    "koreanText": "직장에 오래 근무하고 있다면 대출 금리가 낮아질 수 있다는 게 사실입니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.655,
+        "end": 1.892,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.001,
+        "end": 2.119,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.335,
+        "end": 3.026,
+        "gloss_id": "오래2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.343,
+        "end": 3.652,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.03,
+        "end": 4.285,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.461,
+        "end": 4.836,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.01,
+        "end": 5.367,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.637,
+        "end": 6.035,
+        "gloss_id": "맞다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.655,
+        "end": 1.892,
+        "loc": "0",
+        "word": "직장에"
+      },
+      {
+        "start": 2.001,
+        "end": 3.026,
+        "loc": "1,2,3",
+        "word": "오래 근무하고 있다면"
+      },
+      {
+        "start": 3.343,
+        "end": 3.652,
+        "loc": "4",
+        "word": "대출"
+      },
+      {
+        "start": 4.03,
+        "end": 4.836,
+        "loc": "5",
+        "word": "금리가"
+      },
+      {
+        "start": 5.01,
+        "end": 5.367,
+        "loc": "6,7,8,9",
+        "word": "낮아질 수 있다는 게"
+      },
+      {
+        "start": 5.637,
+        "end": 6.035,
+        "loc": "10",
+        "word": "사실입니까?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.001,
+        "end": 2.119,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.655,
+        "end": 1.892,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.335,
+        "end": 3.026,
+        "gloss_id": "오래2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.461,
+        "end": 4.836,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.01,
+        "end": 5.367,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.335,
+        "end": 3.026
+      },
+      {
+        "descriptor": "",
+        "start": 5.01,
+        "end": 5.367
+      },
+      {
+        "descriptor": "",
+        "start": 5.637,
+        "end": 6.035
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.343,
+        "end": 3.652
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.637,
+        "end": 6.035
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.637,
+        "end": 6.035
+      },
+      {
+        "descriptor": "",
+        "start": 5.01,
+        "end": 5.367
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331960",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:40:24",
+    "sentence_ID": "VXPAKOKS240331960",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    215,
+    126
+  ],
+  "file": "VXPAKOKS240331960.mp4",
+  "saved_as": "VXPAKOKS240331960-직장에오래근무하고있다면대출금리가낮아질수있다는게사실입니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

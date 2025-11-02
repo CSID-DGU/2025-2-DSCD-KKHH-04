@@ -1,0 +1,452 @@
+{
+  "id": "VXPAKOKS240343310",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "은행거래확인서는 계좌 소유자임을 증명하는 공식 문서로, 금융 기관에서 발급하는 확인서입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.463,
+        "end": 1.679,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.81,
+        "end": 1.922,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.129,
+        "end": 2.261,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.288,
+        "end": 2.393,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.572,
+        "end": 2.864,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.12,
+        "end": 3.932,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.244,
+        "end": 4.404,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.597,
+        "end": 4.792,
+        "gloss_id": "가지다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.117,
+        "end": 5.374,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.831,
+        "end": 6.067,
+        "gloss_id": "맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.344,
+        "end": 6.823,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.066,
+        "end": 7.365,
+        "gloss_id": "공공1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.558,
+        "end": 8.085,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.348,
+        "end": 8.571,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.834,
+        "end": 9.34,
+        "gloss_id": "기관1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.673,
+        "end": 9.986,
+        "gloss_id": "인쇄1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 10.241,
+        "end": 10.36,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.546,
+        "end": 11.15,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.463,
+        "end": 3.92,
+        "loc": "0",
+        "word": "은행거래확인서는"
+      },
+      {
+        "start": 4.244,
+        "end": 4.404,
+        "loc": "1",
+        "word": "계좌"
+      },
+      {
+        "start": 4.597,
+        "end": 5.369,
+        "loc": "2",
+        "word": "소유자임을"
+      },
+      {
+        "start": 5.831,
+        "end": 6.821,
+        "loc": "3",
+        "word": "증명하는"
+      },
+      {
+        "start": 7.066,
+        "end": 7.365,
+        "loc": "4",
+        "word": "공식"
+      },
+      {
+        "start": 7.558,
+        "end": 8.085,
+        "loc": "5",
+        "word": "문서로,"
+      },
+      {
+        "start": 8.348,
+        "end": 8.571,
+        "loc": "6",
+        "word": "금융"
+      },
+      {
+        "start": 8.834,
+        "end": 9.34,
+        "loc": "7",
+        "word": "기관에서"
+      },
+      {
+        "start": 9.673,
+        "end": 9.986,
+        "loc": "8",
+        "word": "발급하는"
+      },
+      {
+        "start": 10.241,
+        "end": 11.159,
+        "loc": "9",
+        "word": "확인서입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.463,
+        "end": 1.679,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.814,
+        "end": 2.865,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.12,
+        "end": 3.932,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.244,
+        "end": 4.792,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.117,
+        "end": 6.071,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.066,
+        "end": 7.365,
+        "gloss_id": "공공1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.558,
+        "end": 8.085,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.348,
+        "end": 8.57,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.673,
+        "end": 10.358,
+        "gloss_id": "인쇄1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.834,
+        "end": 9.34,
+        "gloss_id": "기관1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.546,
+        "end": 11.15,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.463,
+        "end": 1.679
+      },
+      {
+        "descriptor": "",
+        "start": 3.12,
+        "end": 3.932
+      },
+      {
+        "descriptor": "",
+        "start": 5.831,
+        "end": 6.067
+      },
+      {
+        "descriptor": "",
+        "start": 6.344,
+        "end": 6.823
+      },
+      {
+        "descriptor": "",
+        "start": 7.558,
+        "end": 8.085
+      },
+      {
+        "descriptor": "",
+        "start": 9.673,
+        "end": 9.986
+      },
+      {
+        "descriptor": "",
+        "start": 10.546,
+        "end": 11.15
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.831,
+        "end": 6.82
+      },
+      {
+        "descriptor": "",
+        "start": 9.673,
+        "end": 10.231
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.572,
+        "end": 3.912
+      },
+      {
+        "descriptor": "",
+        "start": 5.838,
+        "end": 6.662
+      },
+      {
+        "descriptor": "",
+        "start": 8.23,
+        "end": 8.965
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343310",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:31:02",
+    "sentence_ID": "VXPAKOKS240343310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    399,
+    126
+  ],
+  "file": "VXPAKOKS240343310.mp4",
+  "saved_as": "VXPAKOKS240343310-은행거래확인서는계좌소유자임을증명하는공식문서로,금융기관에서발급하는확인서입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,371 @@
+{
+  "id": "VXPAKOKS240341790",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 판매 회사는 투자자의 펀드에 대한 모든 거래 내용과 수익 정보를 제일 정확하게 확인하고 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.399,
+        "end": 1.8,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.096,
+        "end": 2.251,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.6,
+        "end": 3.001,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.188,
+        "end": 3.401,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.658,
+        "end": 3.83,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.043,
+        "end": 4.518,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.856,
+        "end": 5.011,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.061,
+        "end": 5.208,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.422,
+        "end": 6.045,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.25,
+        "end": 6.528,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.726,
+        "end": 7.226,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.468,
+        "end": 7.689,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.924,
+        "end": 8.219,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.416,
+        "end": 8.867,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.399,
+        "end": 1.8,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 2.6,
+        "end": 3.001,
+        "loc": "2",
+        "word": "회사는"
+      },
+      {
+        "start": 3.188,
+        "end": 3.819,
+        "loc": "3",
+        "word": "투자자의"
+      },
+      {
+        "start": 4.043,
+        "end": 4.518,
+        "loc": "4",
+        "word": "펀드에"
+      },
+      {
+        "start": 4.856,
+        "end": 5.216,
+        "loc": "5,6,7",
+        "word": "대한 모든 거래"
+      },
+      {
+        "start": 5.422,
+        "end": 6.045,
+        "loc": "8",
+        "word": "내용과"
+      },
+      {
+        "start": 6.25,
+        "end": 6.528,
+        "loc": "9",
+        "word": "수익"
+      },
+      {
+        "start": 6.726,
+        "end": 7.226,
+        "loc": "10",
+        "word": "정보를"
+      },
+      {
+        "start": 7.468,
+        "end": 7.689,
+        "loc": "11",
+        "word": "제일"
+      },
+      {
+        "start": 7.924,
+        "end": 8.219,
+        "loc": "12",
+        "word": "정확하게"
+      },
+      {
+        "start": 8.416,
+        "end": 8.867,
+        "loc": "13,14",
+        "word": "확인하고 있습니다."
+      },
+      {
+        "start": 2.096,
+        "end": 2.251,
+        "loc": "1",
+        "word": "판매"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.6,
+        "end": 3.001,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.856,
+        "end": 5.208,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.422,
+        "end": 6.529,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.726,
+        "end": 7.226,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.924,
+        "end": 8.219,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.096,
+        "end": 2.251,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.658,
+        "end": 3.83,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.399,
+        "end": 1.8
+      },
+      {
+        "descriptor": "",
+        "start": 2.6,
+        "end": 3.001
+      },
+      {
+        "descriptor": "",
+        "start": 8.416,
+        "end": 8.867
+      },
+      {
+        "descriptor": "",
+        "start": 5.422,
+        "end": 6.045
+      },
+      {
+        "descriptor": "",
+        "start": 6.726,
+        "end": 7.226
+      },
+      {
+        "descriptor": "",
+        "start": 7.924,
+        "end": 8.219
+      },
+      {
+        "descriptor": "",
+        "start": 7.468,
+        "end": 7.689
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.399,
+        "end": 2.997
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341790",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:16:03",
+    "sentence_ID": "VXPAKOKS240341790",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    295,
+    126
+  ],
+  "file": "VXPAKOKS240341790.mp4",
+  "saved_as": "VXPAKOKS240341790-펀드판매회사는투자자의펀드에대한모든거래내용과수익정보를제일정확하게확인하고있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

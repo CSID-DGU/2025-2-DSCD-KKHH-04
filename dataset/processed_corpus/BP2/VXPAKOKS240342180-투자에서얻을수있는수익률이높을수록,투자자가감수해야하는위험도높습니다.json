@@ -1,0 +1,278 @@
+{
+  "id": "VXPAKOKS240342180",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "투자에서 얻을 수 있는 수익률이 높을수록, 투자자가 감수해야 하는 위험도 높습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.462,
+        "end": 2.018,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.558,
+        "end": 2.658,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.937,
+        "end": 3.224,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.444,
+        "end": 3.837,
+        "gloss_id": "오히려1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.046,
+        "end": 4.19,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.441,
+        "end": 4.878,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.207,
+        "end": 5.438,
+        "gloss_id": "희생2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.727,
+        "end": 5.908,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.078,
+        "end": 6.209,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.523,
+        "end": 6.735,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.462,
+        "end": 2.018,
+        "loc": "0",
+        "word": "투자에서"
+      },
+      {
+        "start": 2.558,
+        "end": 2.658,
+        "loc": "1,2,3,4",
+        "word": "얻을 수 있는 수익률이"
+      },
+      {
+        "start": 2.937,
+        "end": 3.837,
+        "loc": "5",
+        "word": "높을수록,"
+      },
+      {
+        "start": 4.046,
+        "end": 4.884,
+        "loc": "6",
+        "word": "투자자가"
+      },
+      {
+        "start": 5.207,
+        "end": 5.438,
+        "loc": "7,8",
+        "word": "감수해야 하는"
+      },
+      {
+        "start": 5.727,
+        "end": 6.202,
+        "loc": "9",
+        "word": "위험도"
+      },
+      {
+        "start": 6.523,
+        "end": 6.735,
+        "loc": "10",
+        "word": "높습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.444,
+        "end": 3.837,
+        "gloss_id": "오히려1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.441,
+        "end": 4.878,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.207,
+        "end": 5.438,
+        "gloss_id": "희생2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.727,
+        "end": 5.908,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.462,
+        "end": 2.018
+      },
+      {
+        "descriptor": "",
+        "start": 3.444,
+        "end": 3.837
+      },
+      {
+        "descriptor": "",
+        "start": 5.207,
+        "end": 5.438
+      },
+      {
+        "descriptor": "",
+        "start": 6.523,
+        "end": 6.735
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.937,
+        "end": 3.224
+      },
+      {
+        "descriptor": "",
+        "start": 5.727,
+        "end": 6.214
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.462,
+        "end": 2.018
+      },
+      {
+        "descriptor": "",
+        "start": 3.444,
+        "end": 4.864
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342180",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:19:34",
+    "sentence_ID": "VXPAKOKS240342180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    225,
+    126
+  ],
+  "file": "VXPAKOKS240342180.mp4",
+  "saved_as": "VXPAKOKS240342180-투자에서얻을수있는수익률이높을수록,투자자가감수해야하는위험도높습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

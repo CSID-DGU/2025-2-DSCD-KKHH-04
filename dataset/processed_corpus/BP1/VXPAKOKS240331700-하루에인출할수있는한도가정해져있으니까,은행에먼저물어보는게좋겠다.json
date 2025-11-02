@@ -1,0 +1,281 @@
+{
+  "id": "VXPAKOKS240331700",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "하루에 인출할 수 있는 한도가 정해져 있으니까, 은행에 먼저 물어보는 게 좋겠다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.728,
+        "end": 1.929,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.171,
+        "end": 2.371,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.667,
+        "end": 3.269,
+        "gloss_id": "하루1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.471,
+        "end": 3.971,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.308,
+        "end": 4.645,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.833,
+        "end": 5.333,
+        "gloss_id": "혹시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.526,
+        "end": 5.788,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.927,
+        "end": 6.127,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.295,
+        "end": 6.795,
+        "gloss_id": "질문1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.159,
+        "end": 7.366,
+        "gloss_id": "낫다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.654,
+        "end": 3.269,
+        "loc": "0",
+        "word": "하루에"
+      },
+      {
+        "start": 1.728,
+        "end": 2.357,
+        "loc": "1,2,3",
+        "word": "인출할 수 있는"
+      },
+      {
+        "start": 3.471,
+        "end": 3.971,
+        "loc": "4",
+        "word": "한도가"
+      },
+      {
+        "start": 4.308,
+        "end": 4.645,
+        "loc": "5,6",
+        "word": "정해져 있으니까,"
+      },
+      {
+        "start": 5.927,
+        "end": 6.127,
+        "loc": "7",
+        "word": "은행에"
+      },
+      {
+        "start": 4.832,
+        "end": 5.788,
+        "loc": "8",
+        "word": "먼저"
+      },
+      {
+        "start": 6.295,
+        "end": 7.36,
+        "loc": "9,10,11",
+        "word": "물어보는 게 좋겠다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.471,
+        "end": 4.651,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.927,
+        "end": 6.127,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.171,
+        "end": 2.371,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.295,
+        "end": 6.795
+      },
+      {
+        "descriptor": "",
+        "start": 4.308,
+        "end": 4.645
+      },
+      {
+        "descriptor": "",
+        "start": 4.833,
+        "end": 5.333
+      },
+      {
+        "descriptor": "",
+        "start": 5.526,
+        "end": 5.788
+      },
+      {
+        "descriptor": "",
+        "start": 7.159,
+        "end": 7.366
+      },
+      {
+        "descriptor": "",
+        "start": 2.171,
+        "end": 2.371
+      },
+      {
+        "descriptor": "",
+        "start": 2.667,
+        "end": 3.269
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.574,
+        "end": 5.788
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.817,
+        "end": 4.637
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.728,
+        "end": 2.664
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331700",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:14:20",
+    "sentence_ID": "VXPAKOKS240331700",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240331700.mp4",
+  "saved_as": "VXPAKOKS240331700-하루에인출할수있는한도가정해져있으니까,은행에먼저물어보는게좋겠다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

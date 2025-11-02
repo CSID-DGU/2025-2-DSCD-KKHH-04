@@ -1,0 +1,269 @@
+{
+  "id": "VXPAKOKS240336210",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장의 참여자는 금융기관, 개인 투자자가 있으며 투자 목적에 따라 채권을 거래합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.21,
+        "end": 2.307,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.563,
+        "end": 2.675,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.95,
+        "end": 3.709,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.912,
+        "end": 4.186,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.413,
+        "end": 4.986,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.27,
+        "end": 5.455,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.666,
+        "end": 6.206,
+        "gloss_id": "기관1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.531,
+        "end": 6.845,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.081,
+        "end": 7.492,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.776,
+        "end": 7.977,
+        "gloss_id": "둘중하나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.27,
+        "end": 6.215,
+        "loc": "3",
+        "word": "금융기관,"
+      },
+      {
+        "start": 6.531,
+        "end": 7.492,
+        "loc": "4,5,6",
+        "word": "개인 투자자가 있으며"
+      },
+      {
+        "start": 2.223,
+        "end": 3.684,
+        "loc": "0,1,2",
+        "word": "채권 시장의 참여자는"
+      },
+      {
+        "start": 4.413,
+        "end": 4.986,
+        "loc": "8,9",
+        "word": "목적에 따라"
+      },
+      {
+        "start": 7.776,
+        "end": 7.977,
+        "loc": "10,11",
+        "word": "채권을 거래합니다."
+      },
+      {
+        "start": 3.912,
+        "end": 4.186,
+        "loc": "7",
+        "word": "투자"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.413,
+        "end": 4.986,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.27,
+        "end": 5.454,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.666,
+        "end": 6.206,
+        "gloss_id": "기관1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.531,
+        "end": 6.845,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.95,
+        "end": 3.709,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.081,
+        "end": 7.492
+      },
+      {
+        "descriptor": "",
+        "start": 2.95,
+        "end": 3.709
+      },
+      {
+        "descriptor": "",
+        "start": 4.566,
+        "end": 4.982
+      },
+      {
+        "descriptor": "",
+        "start": 5.829,
+        "end": 6.205
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.21,
+        "end": 3.219
+      },
+      {
+        "descriptor": "",
+        "start": 5.666,
+        "end": 6.206
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336210",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:28:36",
+    "sentence_ID": "VXPAKOKS240336210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    291,
+    126
+  ],
+  "file": "VXPAKOKS240336210.mp4",
+  "saved_as": "VXPAKOKS240336210-채권시장의참여자는금융기관,개인투자자가있으며투자목적에따라채권을거래합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

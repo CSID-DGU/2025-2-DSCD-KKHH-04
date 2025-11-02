@@ -1,0 +1,365 @@
+{
+  "id": "VXPAKOKS240331520",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "환불은 결제를 취소한 날로부터 3일 안에 처리되고, 은행 담당자가 결제 취소 내역을 확인 후 해당 계좌로 이체할 거에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.041,
+        "end": 2.637,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.207,
+        "end": 3.577,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.856,
+        "end": 4.112,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.362,
+        "end": 4.645,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.848,
+        "end": 5.191,
+        "gloss_id": "부터3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.519,
+        "end": 5.654,
+        "gloss_id": "날짜(활용):3일",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.795,
+        "end": 6.495,
+        "gloss_id": "안1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.831,
+        "end": 7.009,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.083,
+        "end": 7.209,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.362,
+        "end": 7.479,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.63,
+        "end": 8.234,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.53,
+        "end": 8.891,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.154,
+        "end": 9.602,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.343,
+        "end": 5.173,
+        "loc": "3",
+        "word": "날로부터"
+      },
+      {
+        "start": 5.519,
+        "end": 5.654,
+        "loc": "4",
+        "word": "3일"
+      },
+      {
+        "start": 6.831,
+        "end": 7.009,
+        "loc": "7",
+        "word": "은행"
+      },
+      {
+        "start": 5.795,
+        "end": 6.495,
+        "loc": "5,6",
+        "word": "안에 처리되고,"
+      },
+      {
+        "start": 7.083,
+        "end": 7.478,
+        "loc": "8",
+        "word": "담당자가"
+      },
+      {
+        "start": 8.53,
+        "end": 9.586,
+        "loc": "14,15,16,17",
+        "word": "해당 계좌로 이체할 거에요."
+      },
+      {
+        "start": 7.63,
+        "end": 8.234,
+        "loc": "9,10,11,12,13",
+        "word": "결제 취소 내역을 확인 후"
+      },
+      {
+        "start": 3.207,
+        "end": 4.125,
+        "loc": "1,2",
+        "word": "결제를 취소한"
+      },
+      {
+        "start": 2.041,
+        "end": 2.637,
+        "loc": "0",
+        "word": "환불은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.207,
+        "end": 3.577,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.856,
+        "end": 4.112,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.362,
+        "end": 4.645,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.795,
+        "end": 6.495,
+        "gloss_id": "안1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.831,
+        "end": 7.009,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.083,
+        "end": 7.209,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.362,
+        "end": 7.479,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.53,
+        "end": 8.891,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "삼",
+        "start": 5.519,
+        "end": 5.654
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.931,
+        "end": 8.231
+      },
+      {
+        "descriptor": "",
+        "start": 2.041,
+        "end": 2.637
+      },
+      {
+        "descriptor": "",
+        "start": 5.795,
+        "end": 6.495
+      },
+      {
+        "descriptor": "",
+        "start": 9.154,
+        "end": 9.602
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.733,
+        "end": 3.094
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.207,
+        "end": 3.577
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 9.025,
+        "end": 9.622
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.856,
+        "end": 5.199
+      },
+      {
+        "descriptor": "",
+        "start": 6.831,
+        "end": 7.481
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331520",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:12:26",
+    "sentence_ID": "VXPAKOKS240331520",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    313,
+    126
+  ],
+  "file": "VXPAKOKS240331520.mp4",
+  "saved_as": "VXPAKOKS240331520-환불은결제를취소한날로부터3일안에처리되고,은행담당자가결제취소내역을확인후해당계좌로이체할거에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

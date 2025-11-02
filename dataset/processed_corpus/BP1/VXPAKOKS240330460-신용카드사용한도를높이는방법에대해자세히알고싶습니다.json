@@ -1,0 +1,226 @@
+{
+  "id": "VXPAKOKS240330460",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 사용 한도를 높이는 방법에 대해 자세히 알고 싶습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.885,
+        "end": 2.02,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.308,
+        "end": 2.529,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.042,
+        "end": 3.263,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.703,
+        "end": 3.978,
+        "gloss_id": "오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.195,
+        "end": 4.443,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.757,
+        "end": 4.984,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.209,
+        "end": 5.736,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.885,
+        "end": 2.519,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 3.042,
+        "end": 3.263,
+        "loc": "1,2",
+        "word": "사용 한도를"
+      },
+      {
+        "start": 3.703,
+        "end": 4.439,
+        "loc": "3",
+        "word": "높이는"
+      },
+      {
+        "start": 4.757,
+        "end": 4.984,
+        "loc": "6,7,8",
+        "word": "자세히 알고 싶습니다."
+      },
+      {
+        "start": 5.209,
+        "end": 5.736,
+        "loc": "4,5",
+        "word": "방법에 대해"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.885,
+        "end": 2.524,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.042,
+        "end": 3.263,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.757,
+        "end": 4.984,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.209,
+        "end": 5.736,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.195,
+        "end": 4.443
+      },
+      {
+        "descriptor": "",
+        "start": 5.209,
+        "end": 5.736
+      },
+      {
+        "descriptor": "",
+        "start": 3.042,
+        "end": 3.263
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.757,
+        "end": 5.729
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.042,
+        "end": 3.263
+      },
+      {
+        "descriptor": "",
+        "start": 4.195,
+        "end": 4.443
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330460",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:30:57",
+    "sentence_ID": "VXPAKOKS240330460",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    193,
+    126
+  ],
+  "file": "VXPAKOKS240330460.mp4",
+  "saved_as": "VXPAKOKS240330460-신용카드사용한도를높이는방법에대해자세히알고싶습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

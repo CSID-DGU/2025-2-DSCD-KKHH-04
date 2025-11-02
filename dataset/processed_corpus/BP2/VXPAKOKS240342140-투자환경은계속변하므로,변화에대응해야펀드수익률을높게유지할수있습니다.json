@@ -1,0 +1,380 @@
+{
+  "id": "VXPAKOKS240342140",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "투자 환경은 계속 변하므로, 변화에 대응해야 펀드 수익률을 높게 유지할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.245,
+        "end": 1.558,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.792,
+        "end": 2.42,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.666,
+        "end": 3.081,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.424,
+        "end": 3.932,
+        "gloss_id": "오르내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.26,
+        "end": 4.504,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.722,
+        "end": 5.248,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.392,
+        "end": 5.764,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.066,
+        "end": 6.412,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.629,
+        "end": 7.12,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.5,
+        "end": 7.659,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.915,
+        "end": 8.27,
+        "gloss_id": "오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.528,
+        "end": 8.789,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.967,
+        "end": 9.151,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.245,
+        "end": 1.558,
+        "loc": "0",
+        "word": "투자"
+      },
+      {
+        "start": 1.792,
+        "end": 2.42,
+        "loc": "1",
+        "word": "환경은"
+      },
+      {
+        "start": 2.666,
+        "end": 3.081,
+        "loc": "2",
+        "word": "계속"
+      },
+      {
+        "start": 3.424,
+        "end": 4.52,
+        "loc": "3",
+        "word": "변하므로,"
+      },
+      {
+        "start": 4.722,
+        "end": 5.758,
+        "loc": "4",
+        "word": "변화에"
+      },
+      {
+        "start": 6.066,
+        "end": 6.412,
+        "loc": "5",
+        "word": "대응해야"
+      },
+      {
+        "start": 6.629,
+        "end": 7.12,
+        "loc": "6",
+        "word": "펀드"
+      },
+      {
+        "start": 7.5,
+        "end": 7.659,
+        "loc": "7",
+        "word": "수익률을"
+      },
+      {
+        "start": 7.915,
+        "end": 8.27,
+        "loc": "8",
+        "word": "높게"
+      },
+      {
+        "start": 8.528,
+        "end": 9.156,
+        "loc": "9,10,11",
+        "word": "유지할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.792,
+        "end": 2.42,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.666,
+        "end": 3.081,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.26,
+        "end": 4.504,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.722,
+        "end": 5.248,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.066,
+        "end": 6.412,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.915,
+        "end": 8.27,
+        "gloss_id": "오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.528,
+        "end": 8.789,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.392,
+        "end": 5.764,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.666,
+        "end": 3.081
+      },
+      {
+        "descriptor": "",
+        "start": 4.26,
+        "end": 4.504
+      },
+      {
+        "descriptor": "",
+        "start": 6.066,
+        "end": 6.412
+      },
+      {
+        "descriptor": "",
+        "start": 6.629,
+        "end": 7.12
+      },
+      {
+        "descriptor": "",
+        "start": 7.915,
+        "end": 8.27
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.26,
+        "end": 4.504
+      },
+      {
+        "descriptor": "",
+        "start": 6.219,
+        "end": 6.412
+      },
+      {
+        "descriptor": "",
+        "start": 8.967,
+        "end": 9.151
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.666,
+        "end": 3.899
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.915,
+        "end": 8.27
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.245,
+        "end": 2.376
+      },
+      {
+        "descriptor": "",
+        "start": 4.722,
+        "end": 7.132
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342140",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:19:21",
+    "sentence_ID": "VXPAKOKS240342140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    307,
+    126
+  ],
+  "file": "VXPAKOKS240342140.mp4",
+  "saved_as": "VXPAKOKS240342140-투자환경은계속변하므로,변화에대응해야펀드수익률을높게유지할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

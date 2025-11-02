@@ -1,0 +1,363 @@
+{
+  "id": "VXPAKOKS240337730",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "국가가 세금이라는 자금 조달 방법이 있었음에도 채권을 발행하게 된 이유는 무엇입니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.907,
+        "end": 2.128,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.371,
+        "end": 2.609,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.883,
+        "end": 3.409,
+        "gloss_id": "쓸어담다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.94,
+        "end": 4.169,
+        "gloss_id": "예산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.49,
+        "end": 4.955,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.186,
+        "end": 5.354,
+        "gloss_id": "돈주다9",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.625,
+        "end": 5.846,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.181,
+        "end": 6.471,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.612,
+        "end": 6.699,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.858,
+        "end": 7.018,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.268,
+        "end": 7.558,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.787,
+        "end": 8.069,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.276,
+        "end": 8.558,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.711,
+        "end": 3.808,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.907,
+        "end": 2.128,
+        "loc": "0",
+        "word": "국가가"
+      },
+      {
+        "start": 2.371,
+        "end": 2.609,
+        "loc": "1",
+        "word": "세금이라는"
+      },
+      {
+        "start": 4.49,
+        "end": 5.356,
+        "loc": "3",
+        "word": "조달"
+      },
+      {
+        "start": 5.625,
+        "end": 5.846,
+        "loc": "4",
+        "word": "방법이"
+      },
+      {
+        "start": 6.181,
+        "end": 6.471,
+        "loc": "5",
+        "word": "있었음에도"
+      },
+      {
+        "start": 6.612,
+        "end": 7.571,
+        "loc": "6",
+        "word": "채권을"
+      },
+      {
+        "start": 7.787,
+        "end": 8.069,
+        "loc": "7,8",
+        "word": "발행하게 된"
+      },
+      {
+        "start": 8.276,
+        "end": 8.558,
+        "loc": "9,10",
+        "word": "이유는 무엇입니까?"
+      },
+      {
+        "start": 2.883,
+        "end": 4.15,
+        "loc": "2",
+        "word": "자금"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.907,
+        "end": 2.128,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.371,
+        "end": 2.609,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.49,
+        "end": 4.955,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.186,
+        "end": 5.354,
+        "gloss_id": "돈주다9",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.625,
+        "end": 5.846,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.268,
+        "end": 7.558,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.787,
+        "end": 8.069,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.883,
+        "end": 4.159,
+        "gloss_id": "쓸어담다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.94,
+        "end": 4.169
+      },
+      {
+        "descriptor": "",
+        "start": 4.656,
+        "end": 4.964
+      },
+      {
+        "descriptor": "",
+        "start": 6.181,
+        "end": 6.471
+      },
+      {
+        "descriptor": "",
+        "start": 8.276,
+        "end": 8.558
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.609,
+        "end": 6.47
+      },
+      {
+        "descriptor": "",
+        "start": 7.787,
+        "end": 8.54
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.883,
+        "end": 3.339
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.371,
+        "end": 3.385
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337730",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:40:06",
+    "sentence_ID": "VXPAKOKS240337730",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    314,
+    126
+  ],
+  "file": "VXPAKOKS240337730.mp4",
+  "saved_as": "VXPAKOKS240337730-국가가세금이라는자금조달방법이있었음에도채권을발행하게된이유는무엇입니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

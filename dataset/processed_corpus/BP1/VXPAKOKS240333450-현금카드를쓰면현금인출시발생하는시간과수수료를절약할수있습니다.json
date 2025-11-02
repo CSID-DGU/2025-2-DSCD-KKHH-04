@@ -1,0 +1,272 @@
+{
+  "id": "VXPAKOKS240333450",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드를 쓰면 현금 인출 시 발생하는 시간과 수수료를 절약할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.759,
+        "end": 2.85,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.029,
+        "end": 3.304,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.514,
+        "end": 3.594,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.757,
+        "end": 4.441,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.739,
+        "end": 5.303,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.534,
+        "end": 5.865,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.235,
+        "end": 6.382,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.648,
+        "end": 6.939,
+        "gloss_id": "아끼다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.193,
+        "end": 7.388,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.759,
+        "end": 3.299,
+        "loc": "0,1",
+        "word": "현금카드를 쓰면"
+      },
+      {
+        "start": 3.514,
+        "end": 3.594,
+        "loc": "2",
+        "word": "현금"
+      },
+      {
+        "start": 3.757,
+        "end": 4.441,
+        "loc": "3,4",
+        "word": "인출 시"
+      },
+      {
+        "start": 4.739,
+        "end": 5.303,
+        "loc": "5,6",
+        "word": "발생하는 시간과"
+      },
+      {
+        "start": 5.534,
+        "end": 6.346,
+        "loc": "7",
+        "word": "수수료를"
+      },
+      {
+        "start": 6.648,
+        "end": 7.405,
+        "loc": "8,9,10",
+        "word": "절약할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.757,
+        "end": 4.441,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.739,
+        "end": 5.303,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.534,
+        "end": 6.379,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.648,
+        "end": 6.939,
+        "gloss_id": "아끼다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.029,
+        "end": 3.304
+      },
+      {
+        "descriptor": "",
+        "start": 3.757,
+        "end": 4.441
+      },
+      {
+        "descriptor": "",
+        "start": 4.739,
+        "end": 5.303
+      },
+      {
+        "descriptor": "",
+        "start": 5.534,
+        "end": 5.865
+      },
+      {
+        "descriptor": "",
+        "start": 6.235,
+        "end": 6.382
+      },
+      {
+        "descriptor": "",
+        "start": 7.193,
+        "end": 7.388
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.982,
+        "end": 4.441
+      },
+      {
+        "descriptor": "",
+        "start": 7.193,
+        "end": 7.388
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.759,
+        "end": 4.431
+      },
+      {
+        "descriptor": "",
+        "start": 5.534,
+        "end": 6.322
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333450",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:35",
+    "sentence_ID": "VXPAKOKS240333450",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    289,
+    126
+  ],
+  "file": "VXPAKOKS240333450.mp4",
+  "saved_as": "VXPAKOKS240333450-현금카드를쓰면현금인출시발생하는시간과수수료를절약할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

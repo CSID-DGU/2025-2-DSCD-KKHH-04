@@ -1,0 +1,342 @@
+{
+  "id": "VXPAKOKS240329950",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "이메일이나 문자메시지 또는 카드사 홈페이지를 통해 카드 사용 내용을 알 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.73,
+        "end": 2.426,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.624,
+        "end": 3.086,
+        "gloss_id": "문장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.319,
+        "end": 3.872,
+        "gloss_id": "문자보내다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.064,
+        "end": 4.315,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.505,
+        "end": 4.725,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.857,
+        "end": 5.221,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.39,
+        "end": 5.875,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.107,
+        "end": 6.531,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.723,
+        "end": 7.163,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.283,
+        "end": 7.473,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.63,
+        "end": 8.123,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.31,
+        "end": 8.5,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.73,
+        "end": 2.426,
+        "loc": "0",
+        "word": "이메일이나"
+      },
+      {
+        "start": 2.624,
+        "end": 3.856,
+        "loc": "1",
+        "word": "문자메시지"
+      },
+      {
+        "start": 4.064,
+        "end": 4.723,
+        "loc": "2,3",
+        "word": "또는 카드사"
+      },
+      {
+        "start": 4.857,
+        "end": 5.221,
+        "loc": "4",
+        "word": "홈페이지를"
+      },
+      {
+        "start": 5.39,
+        "end": 5.875,
+        "loc": "5",
+        "word": "통해"
+      },
+      {
+        "start": 6.107,
+        "end": 6.531,
+        "loc": "6",
+        "word": "카드"
+      },
+      {
+        "start": 6.723,
+        "end": 7.163,
+        "loc": "7",
+        "word": "사용"
+      },
+      {
+        "start": 7.283,
+        "end": 7.473,
+        "loc": "8",
+        "word": "내용을"
+      },
+      {
+        "start": 7.63,
+        "end": 8.123,
+        "loc": "9",
+        "word": "알"
+      },
+      {
+        "start": 8.31,
+        "end": 8.5,
+        "loc": "10,11",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.73,
+        "end": 2.426,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.624,
+        "end": 3.086,
+        "gloss_id": "문장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.319,
+        "end": 3.872,
+        "gloss_id": "문자보내다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.505,
+        "end": 4.725,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.39,
+        "end": 5.875,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.723,
+        "end": 7.163,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.73,
+        "end": 2.426
+      },
+      {
+        "descriptor": "",
+        "start": 3.319,
+        "end": 3.872
+      },
+      {
+        "descriptor": "",
+        "start": 4.857,
+        "end": 5.221
+      },
+      {
+        "descriptor": "",
+        "start": 5.39,
+        "end": 5.875
+      },
+      {
+        "descriptor": "",
+        "start": 7.63,
+        "end": 8.123
+      },
+      {
+        "descriptor": "",
+        "start": 8.31,
+        "end": 8.5
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.31,
+        "end": 8.5
+      },
+      {
+        "descriptor": "",
+        "start": 3.319,
+        "end": 3.872
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.505,
+        "end": 5.201
+      },
+      {
+        "descriptor": "",
+        "start": 7.63,
+        "end": 8.123
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329950",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:49:14",
+    "sentence_ID": "VXPAKOKS240329950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    272,
+    126
+  ],
+  "file": "VXPAKOKS240329950.mp4",
+  "saved_as": "VXPAKOKS240329950-이메일이나문자메시지또는카드사홈페이지를통해카드사용내용을알수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

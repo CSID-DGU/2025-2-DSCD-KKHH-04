@@ -1,0 +1,268 @@
+{
+  "id": "VXPAKOKS240331130",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 결제 계좌를 한국은행 계좌로 바꾸면 현금서비스 기능을 사용할 수 없게 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.928,
+        "end": 2.192,
+        "gloss_id": "한국1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.343,
+        "end": 2.533,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.77,
+        "end": 3.278,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.526,
+        "end": 3.904,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.035,
+        "end": 4.217,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.434,
+        "end": 4.795,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.868,
+        "end": 4.982,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.039,
+        "end": 5.523,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.686,
+        "end": 6.015,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.928,
+        "end": 2.517,
+        "loc": "3",
+        "word": "한국은행"
+      },
+      {
+        "start": 3.526,
+        "end": 3.904,
+        "loc": "5",
+        "word": "바꾸면"
+      },
+      {
+        "start": 5.686,
+        "end": 6.015,
+        "loc": "10,11",
+        "word": "없게 됩니다."
+      },
+      {
+        "start": 4.035,
+        "end": 4.798,
+        "loc": "0,1,2",
+        "word": "신용카드 결제 계좌를"
+      },
+      {
+        "start": 2.77,
+        "end": 3.278,
+        "loc": "4",
+        "word": "계좌로"
+      },
+      {
+        "start": 4.868,
+        "end": 4.982,
+        "loc": "6,7",
+        "word": "현금서비스 기능을"
+      },
+      {
+        "start": 5.039,
+        "end": 5.523,
+        "loc": "8,9",
+        "word": "사용할 수"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.343,
+        "end": 2.533,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.77,
+        "end": 3.278,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.526,
+        "end": 3.904,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.035,
+        "end": 4.809,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.187,
+        "end": 5.523
+      },
+      {
+        "descriptor": "",
+        "start": 5.686,
+        "end": 6.015
+      },
+      {
+        "descriptor": "",
+        "start": 4.434,
+        "end": 4.795
+      },
+      {
+        "descriptor": "",
+        "start": 2.77,
+        "end": 3.278
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.686,
+        "end": 6.015
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.343,
+        "end": 3.908
+      },
+      {
+        "descriptor": "",
+        "start": 5.039,
+        "end": 5.523
+      },
+      {
+        "descriptor": "",
+        "start": 4.044,
+        "end": 4.801
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331130",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:07:13",
+    "sentence_ID": "VXPAKOKS240331130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    205,
+    126
+  ],
+  "file": "VXPAKOKS240331130.mp4",
+  "saved_as": "VXPAKOKS240331130-신용카드결제계좌를한국은행계좌로바꾸면현금서비스기능을사용할수없게됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

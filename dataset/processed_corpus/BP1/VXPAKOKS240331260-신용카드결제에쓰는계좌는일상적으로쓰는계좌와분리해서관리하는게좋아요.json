@@ -1,0 +1,302 @@
+{
+  "id": "VXPAKOKS240331260",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 결제에 쓰는 계좌는 일상적으로 쓰는 계좌와 분리해서 관리하는 게 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.628,
+        "end": 1.842,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.071,
+        "end": 2.654,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.188,
+        "end": 3.605,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.945,
+        "end": 4.46,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.784,
+        "end": 5.419,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.778,
+        "end": 6.12,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.428,
+        "end": 6.642,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.998,
+        "end": 7.242,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.476,
+        "end": 7.682,
+        "gloss_id": "따로1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.864,
+        "end": 8.093,
+        "gloss_id": "낫다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.628,
+        "end": 2.647,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 3.188,
+        "end": 4.448,
+        "loc": "1,2",
+        "word": "결제에 쓰는"
+      },
+      {
+        "start": 4.784,
+        "end": 5.419,
+        "loc": "3",
+        "word": "계좌는"
+      },
+      {
+        "start": 7.476,
+        "end": 7.682,
+        "loc": "7,8,9",
+        "word": "분리해서 관리하는 게"
+      },
+      {
+        "start": 7.864,
+        "end": 8.093,
+        "loc": "10",
+        "word": "좋아요."
+      },
+      {
+        "start": 5.778,
+        "end": 6.632,
+        "loc": "4,5",
+        "word": "일상적으로 쓰는"
+      },
+      {
+        "start": 6.998,
+        "end": 7.242,
+        "loc": "6",
+        "word": "계좌와"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.628,
+        "end": 2.662,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.188,
+        "end": 4.448,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.784,
+        "end": 5.419,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.428,
+        "end": 6.642,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.998,
+        "end": 7.242,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.778,
+        "end": 6.12,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.476,
+        "end": 7.682,
+        "gloss_id": "따로1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.945,
+        "end": 4.46
+      },
+      {
+        "descriptor": "",
+        "start": 6.998,
+        "end": 7.242
+      },
+      {
+        "descriptor": "",
+        "start": 7.864,
+        "end": 8.093
+      },
+      {
+        "descriptor": "",
+        "start": 4.784,
+        "end": 5.419
+      },
+      {
+        "descriptor": "",
+        "start": 5.778,
+        "end": 6.12
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.778,
+        "end": 7.249
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.645,
+        "end": 4.448
+      },
+      {
+        "descriptor": "",
+        "start": 6.998,
+        "end": 7.242
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331260",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:08:55",
+    "sentence_ID": "VXPAKOKS240331260",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    271,
+    126
+  ],
+  "file": "VXPAKOKS240331260.mp4",
+  "saved_as": "VXPAKOKS240331260-신용카드결제에쓰는계좌는일상적으로쓰는계좌와분리해서관리하는게좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

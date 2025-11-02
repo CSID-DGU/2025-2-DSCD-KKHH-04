@@ -1,0 +1,464 @@
+{
+  "id": "VXPAKOKS240346300",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "고객이 직접 예금 만기일을 지정할 상품에 가입하면 자금이 필요한 날짜를 만기일로 지정할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.885,
+        "end": 2.228,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.584,
+        "end": 2.843,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.104,
+        "end": 3.478,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.916,
+        "end": 4.646,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.024,
+        "end": 5.356,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.623,
+        "end": 5.872,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.098,
+        "end": 6.535,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.838,
+        "end": 7.516,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.785,
+        "end": 8.054,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.392,
+        "end": 8.63,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.922,
+        "end": 9.359,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.624,
+        "end": 9.768,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.022,
+        "end": 10.176,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.37,
+        "end": 10.475,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.615,
+        "end": 10.769,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.885,
+        "end": 2.228,
+        "loc": "0",
+        "word": "고객이"
+      },
+      {
+        "start": 2.584,
+        "end": 2.843,
+        "loc": "2",
+        "word": "예금"
+      },
+      {
+        "start": 3.104,
+        "end": 4.651,
+        "loc": "3",
+        "word": "만기일을"
+      },
+      {
+        "start": 5.024,
+        "end": 5.356,
+        "loc": "1",
+        "word": "직접"
+      },
+      {
+        "start": 5.623,
+        "end": 5.872,
+        "loc": "4",
+        "word": "지정할"
+      },
+      {
+        "start": 6.098,
+        "end": 6.535,
+        "loc": "5",
+        "word": "상품에"
+      },
+      {
+        "start": 6.838,
+        "end": 7.516,
+        "loc": "6",
+        "word": "가입하면"
+      },
+      {
+        "start": 7.785,
+        "end": 8.054,
+        "loc": "7",
+        "word": "자금이"
+      },
+      {
+        "start": 8.392,
+        "end": 8.63,
+        "loc": "8",
+        "word": "필요한"
+      },
+      {
+        "start": 8.922,
+        "end": 9.359,
+        "loc": "9",
+        "word": "날짜를"
+      },
+      {
+        "start": 9.624,
+        "end": 10.176,
+        "loc": "10",
+        "word": "만기일로"
+      },
+      {
+        "start": 10.37,
+        "end": 10.755,
+        "loc": "11,12,13",
+        "word": "지정할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.885,
+        "end": 2.228,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.584,
+        "end": 2.843,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.104,
+        "end": 3.478,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.916,
+        "end": 4.646,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.024,
+        "end": 5.356,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.623,
+        "end": 5.872,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.098,
+        "end": 6.535,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.838,
+        "end": 7.516,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.785,
+        "end": 8.054,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.392,
+        "end": 8.63,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.922,
+        "end": 9.359,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.624,
+        "end": 9.768,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.022,
+        "end": 10.176,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.37,
+        "end": 10.475,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.885,
+        "end": 2.228
+      },
+      {
+        "descriptor": "",
+        "start": 3.916,
+        "end": 4.646
+      },
+      {
+        "descriptor": "",
+        "start": 6.098,
+        "end": 6.535
+      },
+      {
+        "descriptor": "",
+        "start": 7.039,
+        "end": 7.507
+      },
+      {
+        "descriptor": "",
+        "start": 8.392,
+        "end": 8.63
+      },
+      {
+        "descriptor": "",
+        "start": 10.022,
+        "end": 10.176
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 10.615,
+        "end": 10.769
+      },
+      {
+        "descriptor": "",
+        "start": 7.039,
+        "end": 7.507
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.623,
+        "end": 5.872
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.584,
+        "end": 4.675
+      },
+      {
+        "descriptor": "",
+        "start": 6.098,
+        "end": 6.535
+      },
+      {
+        "descriptor": "",
+        "start": 8.392,
+        "end": 8.63
+      },
+      {
+        "descriptor": "",
+        "start": 8.922,
+        "end": 10.134
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346300",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:43:19",
+    "sentence_ID": "VXPAKOKS240346300",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    377,
+    126
+  ],
+  "file": "VXPAKOKS240346300.mp4",
+  "saved_as": "VXPAKOKS240346300-고객이직접예금만기일을지정할상품에가입하면자금이필요한날짜를만기일로지정할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

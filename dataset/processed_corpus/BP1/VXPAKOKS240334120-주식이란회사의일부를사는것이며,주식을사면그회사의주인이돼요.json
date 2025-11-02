@@ -1,0 +1,279 @@
+{
+  "id": "VXPAKOKS240334120",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주식이란 회사의 일부를 사는 것이며, 주식을 사면 그 회사의 주인이 돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.453,
+        "end": 2.845,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.996,
+        "end": 3.093,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.269,
+        "end": 3.754,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.057,
+        "end": 4.347,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.722,
+        "end": 4.881,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.053,
+        "end": 5.13,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.579,
+        "end": 6.242,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.469,
+        "end": 6.744,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.031,
+        "end": 7.368,
+        "gloss_id": "장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.582,
+        "end": 7.772,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.453,
+        "end": 3.729,
+        "loc": "0",
+        "word": "주식이란"
+      },
+      {
+        "start": 4.057,
+        "end": 4.347,
+        "loc": "1",
+        "word": "회사의"
+      },
+      {
+        "start": 7.031,
+        "end": 7.368,
+        "loc": "9",
+        "word": "주인이"
+      },
+      {
+        "start": 7.582,
+        "end": 7.772,
+        "loc": "10",
+        "word": "돼요."
+      },
+      {
+        "start": 4.722,
+        "end": 4.881,
+        "loc": "2",
+        "word": "일부를"
+      },
+      {
+        "start": 5.053,
+        "end": 5.13,
+        "loc": "3,4",
+        "word": "사는 것이며,"
+      },
+      {
+        "start": 5.579,
+        "end": 6.242,
+        "loc": "5,6",
+        "word": "주식을 사면"
+      },
+      {
+        "start": 6.469,
+        "end": 6.744,
+        "loc": "7,8",
+        "word": "그 회사의"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.453,
+        "end": 2.845,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.057,
+        "end": 4.347,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.722,
+        "end": 5.121,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.469,
+        "end": 6.744,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.453,
+        "end": 2.845
+      },
+      {
+        "descriptor": "",
+        "start": 3.269,
+        "end": 3.754
+      },
+      {
+        "descriptor": "",
+        "start": 5.579,
+        "end": 6.242
+      },
+      {
+        "descriptor": "",
+        "start": 7.582,
+        "end": 7.772
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.582,
+        "end": 7.772
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.453,
+        "end": 2.845
+      },
+      {
+        "descriptor": "",
+        "start": 5.053,
+        "end": 5.13
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334120",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:50",
+    "sentence_ID": "VXPAKOKS240334120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    279,
+    126
+  ],
+  "file": "VXPAKOKS240334120.mp4",
+  "saved_as": "VXPAKOKS240334120-주식이란회사의일부를사는것이며,주식을사면그회사의주인이돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

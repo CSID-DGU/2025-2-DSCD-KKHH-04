@@ -1,0 +1,273 @@
+{
+  "id": "VXPAKOKS240341850",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자는 여러 자산에 투자하기 때문에 위험은 줄이고 수익은 높이는 투자 방법입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.431,
+        "end": 1.869,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.245,
+        "end": 2.696,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.824,
+        "end": 3.305,
+        "gloss_id": "투자1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.595,
+        "end": 3.799,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.971,
+        "end": 4.224,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.531,
+        "end": 4.815,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.97,
+        "end": 5.211,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.451,
+        "end": 5.84,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.117,
+        "end": 6.475,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.431,
+        "end": 1.869,
+        "loc": "0,1",
+        "word": "펀드 투자는"
+      },
+      {
+        "start": 2.245,
+        "end": 2.696,
+        "loc": "2",
+        "word": "여러"
+      },
+      {
+        "start": 2.824,
+        "end": 3.305,
+        "loc": "4",
+        "word": "투자하기"
+      },
+      {
+        "start": 3.595,
+        "end": 3.799,
+        "loc": "5",
+        "word": "때문에"
+      },
+      {
+        "start": 3.971,
+        "end": 4.224,
+        "loc": "6",
+        "word": "위험은"
+      },
+      {
+        "start": 4.531,
+        "end": 4.815,
+        "loc": "7",
+        "word": "줄이고"
+      },
+      {
+        "start": 4.97,
+        "end": 5.211,
+        "loc": "8",
+        "word": "수익은"
+      },
+      {
+        "start": 5.451,
+        "end": 5.84,
+        "loc": "9",
+        "word": "높이는"
+      },
+      {
+        "start": 6.117,
+        "end": 6.475,
+        "loc": "11",
+        "word": "방법입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.595,
+        "end": 3.799,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.971,
+        "end": 4.224,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.117,
+        "end": 6.475,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.431,
+        "end": 1.869
+      },
+      {
+        "descriptor": "",
+        "start": 2.824,
+        "end": 3.305
+      },
+      {
+        "descriptor": "",
+        "start": 4.531,
+        "end": 4.815
+      },
+      {
+        "descriptor": "",
+        "start": 6.117,
+        "end": 6.475
+      },
+      {
+        "descriptor": "",
+        "start": 5.451,
+        "end": 5.84
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.65,
+        "end": 3.799
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.971,
+        "end": 4.81
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.451,
+        "end": 5.84
+      }
+    ],
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240341850",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:16:39",
+    "sentence_ID": "VXPAKOKS240341850",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    222,
+    126
+  ],
+  "file": "VXPAKOKS240341850.mp4",
+  "saved_as": "VXPAKOKS240341850-펀드투자는여러자산에투자하기때문에위험은줄이고수익은높이는투자방법입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

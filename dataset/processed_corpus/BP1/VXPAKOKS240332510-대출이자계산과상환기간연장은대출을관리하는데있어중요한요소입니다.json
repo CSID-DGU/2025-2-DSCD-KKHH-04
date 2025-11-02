@@ -1,0 +1,295 @@
+{
+  "id": "VXPAKOKS240332510",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "대출 이자 계산과 상환 기간 연장은 대출을 관리하는 데 있어 중요한 요소입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.338,
+        "end": 2.523,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.759,
+        "end": 3.007,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.428,
+        "end": 3.921,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.225,
+        "end": 4.386,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.576,
+        "end": 4.747,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.926,
+        "end": 5.174,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.29,
+        "end": 5.86,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.112,
+        "end": 6.217,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.441,
+        "end": 6.745,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.937,
+        "end": 7.409,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.759,
+        "end": 3.007,
+        "loc": "1",
+        "word": "이자"
+      },
+      {
+        "start": 2.338,
+        "end": 2.523,
+        "loc": "0",
+        "word": "대출"
+      },
+      {
+        "start": 3.428,
+        "end": 3.921,
+        "loc": "2",
+        "word": "계산과"
+      },
+      {
+        "start": 4.225,
+        "end": 4.386,
+        "loc": "3",
+        "word": "상환"
+      },
+      {
+        "start": 4.576,
+        "end": 5.174,
+        "loc": "4",
+        "word": "기간"
+      },
+      {
+        "start": 5.29,
+        "end": 5.86,
+        "loc": "5",
+        "word": "연장은"
+      },
+      {
+        "start": 6.112,
+        "end": 6.217,
+        "loc": "6",
+        "word": "대출을"
+      },
+      {
+        "start": 6.441,
+        "end": 6.745,
+        "loc": "7,8,9",
+        "word": "관리하는 데 있어"
+      },
+      {
+        "start": 6.937,
+        "end": 7.409,
+        "loc": "10,11",
+        "word": "중요한 요소입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.428,
+        "end": 3.921,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.225,
+        "end": 4.386,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.576,
+        "end": 4.747,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.926,
+        "end": 5.174,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.29,
+        "end": 5.86,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.937,
+        "end": 7.409,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.428,
+        "end": 3.921
+      },
+      {
+        "descriptor": "",
+        "start": 5.29,
+        "end": 5.86
+      },
+      {
+        "descriptor": "",
+        "start": 6.937,
+        "end": 7.409
+      },
+      {
+        "descriptor": "",
+        "start": 6.441,
+        "end": 6.745
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.338,
+        "end": 4.036
+      },
+      {
+        "descriptor": "",
+        "start": 4.926,
+        "end": 5.797
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332510",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:20:16",
+    "sentence_ID": "VXPAKOKS240332510",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    252,
+    126
+  ],
+  "file": "VXPAKOKS240332510.mp4",
+  "saved_as": "VXPAKOKS240332510-대출이자계산과상환기간연장은대출을관리하는데있어중요한요소입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

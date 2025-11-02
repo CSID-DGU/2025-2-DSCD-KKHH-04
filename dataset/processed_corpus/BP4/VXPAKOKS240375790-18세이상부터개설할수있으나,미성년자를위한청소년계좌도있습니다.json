@@ -1,0 +1,273 @@
+{
+  "id": "VXPAKOKS240375790",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "18세 이상부터 개설할 수 있으나, 미성년자를 위한 청소년 계좌도 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.012,
+        "end": 2.298,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.435,
+        "end": 2.6,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.835,
+        "end": 3.033,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.365,
+        "end": 3.657,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.4,
+        "end": 4.84,
+        "gloss_id": "후배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.259,
+        "end": 5.431,
+        "gloss_id": "젊다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.541,
+        "end": 5.686,
+        "gloss_id": "학생1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.878,
+        "end": 6.009,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.13,
+        "end": 6.224,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.701,
+        "end": 2.308,
+        "loc": "0,1",
+        "word": "18세 이상부터"
+      },
+      {
+        "start": 2.435,
+        "end": 3.665,
+        "loc": "2,3,4",
+        "word": "개설할 수 있으나,"
+      },
+      {
+        "start": 4.114,
+        "end": 4.822,
+        "loc": "5,6",
+        "word": "미성년자를 위한"
+      },
+      {
+        "start": 5.878,
+        "end": 6.009,
+        "loc": "8",
+        "word": "계좌도"
+      },
+      {
+        "start": 6.13,
+        "end": 6.224,
+        "loc": "9",
+        "word": "있습니다."
+      },
+      {
+        "start": 5.259,
+        "end": 5.685,
+        "loc": "7",
+        "word": "청소년"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.701,
+        "end": 2.308,
+        "gloss_id": "나이:18살",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.435,
+        "end": 2.6,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.835,
+        "end": 3.033,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.114,
+        "end": 4.828,
+        "gloss_id": "나이:19살",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.541,
+        "end": 5.686,
+        "gloss_id": "학생1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.878,
+        "end": 6.217,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.13,
+        "end": 6.224
+      },
+      {
+        "descriptor": "",
+        "start": 2.012,
+        "end": 2.298
+      },
+      {
+        "descriptor": "",
+        "start": 4.4,
+        "end": 4.84
+      },
+      {
+        "descriptor": "",
+        "start": 3.365,
+        "end": 3.657
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.365,
+        "end": 3.657
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.012,
+        "end": 2.298
+      },
+      {
+        "descriptor": "",
+        "start": 4.4,
+        "end": 4.706
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240375790",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:42:15",
+    "sentence_ID": "VXPAKOKS240375790",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    241,
+    126
+  ],
+  "file": "VXPAKOKS240375790.mp4",
+  "saved_as": "VXPAKOKS240375790-18세이상부터개설할수있으나,미성년자를위한청소년계좌도있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

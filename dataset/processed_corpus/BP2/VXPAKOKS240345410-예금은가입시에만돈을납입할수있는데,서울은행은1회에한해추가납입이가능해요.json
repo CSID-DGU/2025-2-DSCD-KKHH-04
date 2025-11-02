@@ -1,0 +1,341 @@
+{
+  "id": "VXPAKOKS240345410",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "예금은 가입 시에만 돈을 납입할 수 있는데, 서울 은행은 1회에 한해 추가 납입이 가능해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.566,
+        "end": 1.815,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.184,
+        "end": 2.842,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.02,
+        "end": 3.721,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.855,
+        "end": 3.961,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.179,
+        "end": 4.421,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.62,
+        "end": 4.862,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.121,
+        "end": 5.241,
+        "gloss_id": "서울1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.428,
+        "end": 5.699,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.357,
+        "end": 6.563,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.741,
+        "end": 7.241,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.855,
+        "end": 6.155,
+        "gloss_id": "회",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.566,
+        "end": 1.815,
+        "loc": "0",
+        "word": "예금은"
+      },
+      {
+        "start": 2.184,
+        "end": 2.842,
+        "loc": "1,2",
+        "word": "가입 시에만"
+      },
+      {
+        "start": 5.121,
+        "end": 5.241,
+        "loc": "7",
+        "word": "서울"
+      },
+      {
+        "start": 5.428,
+        "end": 5.699,
+        "loc": "8",
+        "word": "은행은"
+      },
+      {
+        "start": 5.855,
+        "end": 6.155,
+        "loc": "9",
+        "word": "1회에"
+      },
+      {
+        "start": 6.357,
+        "end": 6.563,
+        "loc": "10,11",
+        "word": "한해 추가"
+      },
+      {
+        "start": 6.741,
+        "end": 7.241,
+        "loc": "12,13",
+        "word": "납입이 가능해요."
+      },
+      {
+        "start": 3.02,
+        "end": 4.875,
+        "loc": "3,4,5,6",
+        "word": "돈을 납입할 수 있는데,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.566,
+        "end": 1.815,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.184,
+        "end": 3.967,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.179,
+        "end": 4.844,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.428,
+        "end": 5.699,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.357,
+        "end": 6.563,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.018,
+        "end": 7.232,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.855,
+        "end": 6.155,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일회",
+        "start": 5.855,
+        "end": 6.155
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.62,
+        "end": 4.862
+      },
+      {
+        "descriptor": "",
+        "start": 7.018,
+        "end": 7.224
+      },
+      {
+        "descriptor": "",
+        "start": 5.855,
+        "end": 6.155
+      },
+      {
+        "descriptor": "",
+        "start": 2.441,
+        "end": 2.855
+      },
+      {
+        "descriptor": "",
+        "start": 5.428,
+        "end": 5.699
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.62,
+        "end": 4.862
+      },
+      {
+        "descriptor": "",
+        "start": 7.018,
+        "end": 7.238
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.855,
+        "end": 4.699
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.184,
+        "end": 2.842
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.184,
+        "end": 2.842
+      },
+      {
+        "descriptor": "",
+        "start": 5.121,
+        "end": 6.087
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345410",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:39:15",
+    "sentence_ID": "VXPAKOKS240345410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240345410.mp4",
+  "saved_as": "VXPAKOKS240345410-예금은가입시에만돈을납입할수있는데,서울은행은1회에한해추가납입이가능해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

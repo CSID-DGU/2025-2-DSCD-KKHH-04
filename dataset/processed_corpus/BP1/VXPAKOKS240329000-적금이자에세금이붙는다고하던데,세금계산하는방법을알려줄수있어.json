@@ -1,0 +1,305 @@
+{
+  "id": "VXPAKOKS240329000",
+  "opertor": "label15",
+  "krlgg_sntenc": {
+    "koreanText": "적금 이자에 세금이 붙는다고 하던데, 세금 계산하는 방법을 알려줄 수 있어?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.592,
+        "end": 1.763,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.928,
+        "end": 2.467,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.745,
+        "end": 3.047,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.256,
+        "end": 3.795,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.066,
+        "end": 4.698,
+        "gloss_id": "말하다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.023,
+        "end": 5.292,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.445,
+        "end": 5.616,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.858,
+        "end": 6.207,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.333,
+        "end": 6.905,
+        "gloss_id": "교육1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.699,
+        "end": 3.047,
+        "loc": "1",
+        "word": "이자에"
+      },
+      {
+        "start": 6.333,
+        "end": 6.905,
+        "loc": "8,9,10",
+        "word": "알려줄 수 있어?"
+      },
+      {
+        "start": 1.592,
+        "end": 2.454,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 3.256,
+        "end": 3.795,
+        "loc": "2,3",
+        "word": "세금이 붙는다고"
+      },
+      {
+        "start": 4.066,
+        "end": 4.698,
+        "loc": "4",
+        "word": "하던데,"
+      },
+      {
+        "start": 5.023,
+        "end": 5.292,
+        "loc": "5",
+        "word": "세금"
+      },
+      {
+        "start": 5.445,
+        "end": 5.616,
+        "loc": "6",
+        "word": "계산하는"
+      },
+      {
+        "start": 5.858,
+        "end": 6.207,
+        "loc": "7",
+        "word": "방법을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.928,
+        "end": 3.04,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.256,
+        "end": 3.795,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.333,
+        "end": 6.905,
+        "gloss_id": "교육1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.592,
+        "end": 1.763,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.023,
+        "end": 5.292,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.445,
+        "end": 5.616,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.858,
+        "end": 6.207,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "말하다1",
+        "start": 4.066,
+        "end": 4.698
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.096,
+        "end": 2.438
+      },
+      {
+        "descriptor": "",
+        "start": 3.476,
+        "end": 3.779
+      },
+      {
+        "descriptor": "",
+        "start": 4.226,
+        "end": 4.699
+      },
+      {
+        "descriptor": "",
+        "start": 6.333,
+        "end": 6.905
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.467,
+        "end": 6.908
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.745,
+        "end": 4.673
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.592,
+        "end": 2.415
+      },
+      {
+        "descriptor": "",
+        "start": 6.333,
+        "end": 6.905
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329000",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:40:25",
+    "sentence_ID": "VXPAKOKS240329000",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    237,
+    126
+  ],
+  "file": "VXPAKOKS240329000.mp4",
+  "saved_as": "VXPAKOKS240329000-적금이자에세금이붙는다고하던데,세금계산하는방법을알려줄수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

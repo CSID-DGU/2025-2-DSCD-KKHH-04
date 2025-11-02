@@ -1,0 +1,269 @@
+{
+  "id": "VXPAKOKS240346010",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "고금리 시대에는 예금을 통해 어떻게 수익을 더 얻을 수 있는지 잘 확인해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.714,
+        "end": 1.891,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.156,
+        "end": 2.832,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.336,
+        "end": 3.966,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.195,
+        "end": 4.434,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.565,
+        "end": 4.911,
+        "gloss_id": "더1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.207,
+        "end": 5.576,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.822,
+        "end": 5.976,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.223,
+        "end": 6.477,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.652,
+        "end": 6.829,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.004,
+        "end": 7.219,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.714,
+        "end": 2.82,
+        "loc": "0,1",
+        "word": "고금리 시대에는"
+      },
+      {
+        "start": 3.336,
+        "end": 3.966,
+        "loc": "2,3",
+        "word": "예금을 통해"
+      },
+      {
+        "start": 4.195,
+        "end": 4.434,
+        "loc": "5",
+        "word": "수익을"
+      },
+      {
+        "start": 4.565,
+        "end": 4.911,
+        "loc": "6",
+        "word": "더"
+      },
+      {
+        "start": 5.207,
+        "end": 5.975,
+        "loc": "7,8,9",
+        "word": "얻을 수 있는지"
+      },
+      {
+        "start": 6.223,
+        "end": 6.477,
+        "loc": "4",
+        "word": "어떻게"
+      },
+      {
+        "start": 6.652,
+        "end": 7.22,
+        "loc": "10,11,12",
+        "word": "잘 확인해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.336,
+        "end": 3.966,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.565,
+        "end": 4.911,
+        "gloss_id": "더1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.223,
+        "end": 6.477,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.004,
+        "end": 7.219,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.537,
+        "end": 3.968
+      },
+      {
+        "descriptor": "",
+        "start": 7.004,
+        "end": 7.219
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.822,
+        "end": 5.976
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.742,
+        "end": 2.832
+      },
+      {
+        "descriptor": "",
+        "start": 6.671,
+        "end": 7.209
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.336,
+        "end": 3.966
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346010",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:42:04",
+    "sentence_ID": "VXPAKOKS240346010",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    276,
+    126
+  ],
+  "file": "VXPAKOKS240346010.mp4",
+  "saved_as": "VXPAKOKS240346010-고금리시대에는예금을통해어떻게수익을더얻을수있는지잘확인해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

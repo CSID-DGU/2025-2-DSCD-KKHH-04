@@ -1,0 +1,336 @@
+{
+  "id": "VXPAKOKS240341040",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "시장 가격이 높을 때는 적은 양의 펀드를 매입하고, 가격이 낮을 때는 많은 양을 매입해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.118,
+        "end": 1.554,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.837,
+        "end": 2.309,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.435,
+        "end": 2.629,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.829,
+        "end": 3.421,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.678,
+        "end": 3.936,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.13,
+        "end": 4.587,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.849,
+        "end": 5.313,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.463,
+        "end": 5.608,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.814,
+        "end": 6.35,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.564,
+        "end": 6.758,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.953,
+        "end": 7.161,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.385,
+        "end": 7.643,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.118,
+        "end": 2.308,
+        "loc": "0",
+        "word": "시장"
+      },
+      {
+        "start": 2.438,
+        "end": 3.421,
+        "loc": "1,2,3",
+        "word": "가격이 높을 때는"
+      },
+      {
+        "start": 4.13,
+        "end": 4.587,
+        "loc": "4,5",
+        "word": "적은 양의"
+      },
+      {
+        "start": 3.678,
+        "end": 3.936,
+        "loc": "6,7",
+        "word": "펀드를 매입하고,"
+      },
+      {
+        "start": 4.849,
+        "end": 5.605,
+        "loc": "8",
+        "word": "가격이"
+      },
+      {
+        "start": 5.814,
+        "end": 6.35,
+        "loc": "9,10",
+        "word": "낮을 때는"
+      },
+      {
+        "start": 6.564,
+        "end": 7.156,
+        "loc": "11,12,13",
+        "word": "많은 양을 매입해야"
+      },
+      {
+        "start": 7.385,
+        "end": 7.643,
+        "loc": "14",
+        "word": "합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.837,
+        "end": 2.629,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.829,
+        "end": 3.421,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.849,
+        "end": 5.612,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.814,
+        "end": 6.35,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.953,
+        "end": 7.161,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.385,
+        "end": 7.643,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.385,
+        "end": 7.643
+      },
+      {
+        "descriptor": "",
+        "start": 1.118,
+        "end": 1.554
+      },
+      {
+        "descriptor": "",
+        "start": 2.829,
+        "end": 3.421
+      },
+      {
+        "descriptor": "",
+        "start": 4.13,
+        "end": 4.587
+      },
+      {
+        "descriptor": "",
+        "start": 5.814,
+        "end": 6.35
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.829,
+        "end": 3.421
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.564,
+        "end": 7.142
+      },
+      {
+        "descriptor": "",
+        "start": 3.678,
+        "end": 4.355
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.118,
+        "end": 1.554
+      },
+      {
+        "descriptor": "",
+        "start": 2.829,
+        "end": 3.421
+      },
+      {
+        "descriptor": "",
+        "start": 4.882,
+        "end": 6.35
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341040",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:10:25",
+    "sentence_ID": "VXPAKOKS240341040",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    256,
+    126
+  ],
+  "file": "VXPAKOKS240341040.mp4",
+  "saved_as": "VXPAKOKS240341040-시장가격이높을때는적은양의펀드를매입하고,가격이낮을때는많은양을매입해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

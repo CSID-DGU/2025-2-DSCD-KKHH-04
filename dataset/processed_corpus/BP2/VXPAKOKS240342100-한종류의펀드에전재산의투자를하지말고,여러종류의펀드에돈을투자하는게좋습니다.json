@@ -1,0 +1,298 @@
+{
+  "id": "VXPAKOKS240342100",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "한 종류의 펀드에 전 재산의 투자를 하지 말고, 여러 종류의 펀드에 돈을 투자하는 게 좋습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.43,
+        "end": 1.694,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.862,
+        "end": 2.146,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.311,
+        "end": 2.811,
+        "gloss_id": "일3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.996,
+        "end": 3.364,
+        "gloss_id": "모두1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.62,
+        "end": 4.245,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.442,
+        "end": 4.699,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.956,
+        "end": 5.442,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.669,
+        "end": 6.058,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.193,
+        "end": 6.86,
+        "gloss_id": "투자1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.061,
+        "end": 7.317,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.43,
+        "end": 1.694,
+        "loc": "2",
+        "word": "펀드에"
+      },
+      {
+        "start": 1.862,
+        "end": 2.146,
+        "loc": "1",
+        "word": "종류의"
+      },
+      {
+        "start": 2.311,
+        "end": 2.811,
+        "loc": "0",
+        "word": "한"
+      },
+      {
+        "start": 2.996,
+        "end": 3.364,
+        "loc": "3",
+        "word": "전"
+      },
+      {
+        "start": 3.62,
+        "end": 4.245,
+        "loc": "4",
+        "word": "재산의"
+      },
+      {
+        "start": 4.442,
+        "end": 4.699,
+        "loc": "5",
+        "word": "투자를"
+      },
+      {
+        "start": 4.956,
+        "end": 5.442,
+        "loc": "6,7",
+        "word": "하지 말고,"
+      },
+      {
+        "start": 5.669,
+        "end": 6.058,
+        "loc": "8,9",
+        "word": "여러 종류의"
+      },
+      {
+        "start": 6.193,
+        "end": 6.86,
+        "loc": "10,11,12,13",
+        "word": "펀드에 돈을 투자하는 게"
+      },
+      {
+        "start": 7.061,
+        "end": 7.317,
+        "loc": "14",
+        "word": "좋습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.862,
+        "end": 2.146,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.996,
+        "end": 3.364,
+        "gloss_id": "모두1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.62,
+        "end": 4.697,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.956,
+        "end": 5.442,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.311,
+        "end": 2.811
+      },
+      {
+        "descriptor": "",
+        "start": 7.061,
+        "end": 7.317
+      },
+      {
+        "descriptor": "",
+        "start": 4.956,
+        "end": 5.442
+      },
+      {
+        "descriptor": "",
+        "start": 6.193,
+        "end": 6.86
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.956,
+        "end": 5.442
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 4.599,
+        "end": 4.897
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.996,
+        "end": 4.9
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.428,
+        "end": 2.811
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342100",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:19:03",
+    "sentence_ID": "VXPAKOKS240342100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    250,
+    126
+  ],
+  "file": "VXPAKOKS240342100.mp4",
+  "saved_as": "VXPAKOKS240342100-한종류의펀드에전재산의투자를하지말고,여러종류의펀드에돈을투자하는게좋습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

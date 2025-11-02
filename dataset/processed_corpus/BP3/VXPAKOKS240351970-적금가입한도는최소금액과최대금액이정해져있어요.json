@@ -1,0 +1,341 @@
+{
+  "id": "VXPAKOKS240351970",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 가입 한도는 최소 금액과 최대 금액이 정해져 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.167,
+        "end": 1.306,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.463,
+        "end": 1.667,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.858,
+        "end": 2.197,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.393,
+        "end": 2.5,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.711,
+        "end": 3.05,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.18,
+        "end": 3.358,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.514,
+        "end": 3.801,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.058,
+        "end": 4.352,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.551,
+        "end": 4.703,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.918,
+        "end": 5.179,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.402,
+        "end": 5.638,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.78,
+        "end": 6.029,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.182,
+        "end": 6.327,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.167,
+        "end": 1.673,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 1.858,
+        "end": 2.197,
+        "loc": "1",
+        "word": "가입"
+      },
+      {
+        "start": 2.393,
+        "end": 3.054,
+        "loc": "2",
+        "word": "한도는"
+      },
+      {
+        "start": 3.18,
+        "end": 3.79,
+        "loc": "3",
+        "word": "최소"
+      },
+      {
+        "start": 4.058,
+        "end": 4.352,
+        "loc": "4",
+        "word": "금액과"
+      },
+      {
+        "start": 4.551,
+        "end": 5.193,
+        "loc": "5",
+        "word": "최대"
+      },
+      {
+        "start": 5.402,
+        "end": 5.638,
+        "loc": "6",
+        "word": "금액이"
+      },
+      {
+        "start": 5.78,
+        "end": 6.029,
+        "loc": "7",
+        "word": "정해져"
+      },
+      {
+        "start": 6.182,
+        "end": 6.327,
+        "loc": "8",
+        "word": "있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.463,
+        "end": 1.667,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.858,
+        "end": 2.197,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.711,
+        "end": 3.05,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.514,
+        "end": 3.801,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.918,
+        "end": 5.179,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.78,
+        "end": 6.029,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.858,
+        "end": 2.197
+      },
+      {
+        "descriptor": "",
+        "start": 2.711,
+        "end": 3.05
+      },
+      {
+        "descriptor": "",
+        "start": 6.182,
+        "end": 6.327
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.551,
+        "end": 5.167
+      },
+      {
+        "descriptor": "",
+        "start": 5.78,
+        "end": 6.332
+      },
+      {
+        "descriptor": "",
+        "start": 3.18,
+        "end": 3.776
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.393,
+        "end": 2.906
+      },
+      {
+        "descriptor": "",
+        "start": 4.058,
+        "end": 4.352
+      },
+      {
+        "descriptor": "",
+        "start": 5.402,
+        "end": 5.638
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351970",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:49:30",
+    "sentence_ID": "VXPAKOKS240351970",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240351970.mp4",
+  "saved_as": "VXPAKOKS240351970-적금가입한도는최소금액과최대금액이정해져있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

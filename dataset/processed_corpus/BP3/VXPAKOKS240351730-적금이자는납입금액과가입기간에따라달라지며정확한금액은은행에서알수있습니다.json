@@ -1,0 +1,390 @@
+{
+  "id": "VXPAKOKS240351730",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "적금 이자는 납입 금액과 가입 기간에 따라 달라지며 정확한 금액은 은행에서 알 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.295,
+        "end": 1.386,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.469,
+        "end": 1.789,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.023,
+        "end": 2.267,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.556,
+        "end": 2.89,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.118,
+        "end": 3.652,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.963,
+        "end": 4.158,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.371,
+        "end": 4.477,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.649,
+        "end": 4.934,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.313,
+        "end": 5.495,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.854,
+        "end": 6.312,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.831,
+        "end": 7.178,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.399,
+        "end": 7.767,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.036,
+        "end": 8.231,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.485,
+        "end": 8.73,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.295,
+        "end": 1.768,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.023,
+        "end": 2.267,
+        "loc": "1",
+        "word": "이자는"
+      },
+      {
+        "start": 2.556,
+        "end": 2.89,
+        "loc": "2",
+        "word": "납입"
+      },
+      {
+        "start": 3.118,
+        "end": 3.652,
+        "loc": "3",
+        "word": "금액과"
+      },
+      {
+        "start": 3.963,
+        "end": 4.158,
+        "loc": "4",
+        "word": "가입"
+      },
+      {
+        "start": 4.371,
+        "end": 4.901,
+        "loc": "5",
+        "word": "기간에"
+      },
+      {
+        "start": 6.831,
+        "end": 7.178,
+        "loc": "9",
+        "word": "금액은"
+      },
+      {
+        "start": 7.399,
+        "end": 7.767,
+        "loc": "8",
+        "word": "정확한"
+      },
+      {
+        "start": 8.036,
+        "end": 8.231,
+        "loc": "10",
+        "word": "은행에서"
+      },
+      {
+        "start": 8.485,
+        "end": 8.73,
+        "loc": "11,12,13",
+        "word": "알 수 있습니다."
+      },
+      {
+        "start": 5.313,
+        "end": 5.495,
+        "loc": "6",
+        "word": "따라"
+      },
+      {
+        "start": 5.854,
+        "end": 6.312,
+        "loc": "7",
+        "word": "달라지며"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 8.487,
+        "end": 8.73,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.469,
+        "end": 1.789,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.963,
+        "end": 4.158,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.371,
+        "end": 4.477,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.649,
+        "end": 5.507,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.854,
+        "end": 7.176,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.399,
+        "end": 7.767,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.036,
+        "end": 8.231,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.023,
+        "end": 2.267
+      },
+      {
+        "descriptor": "",
+        "start": 3.118,
+        "end": 3.652
+      },
+      {
+        "descriptor": "",
+        "start": 5.313,
+        "end": 5.495
+      },
+      {
+        "descriptor": "",
+        "start": 7.399,
+        "end": 7.767
+      },
+      {
+        "descriptor": "",
+        "start": 8.485,
+        "end": 8.73
+      },
+      {
+        "descriptor": "",
+        "start": 4.649,
+        "end": 4.934
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.313,
+        "end": 6.468
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.023,
+        "end": 2.267
+      },
+      {
+        "descriptor": "",
+        "start": 4.371,
+        "end": 4.871
+      },
+      {
+        "descriptor": "",
+        "start": 6.831,
+        "end": 7.934
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351730",
+  "potogrf": {
+    "createdTime": "2024-10-11 01:53:19",
+    "sentence_ID": "VXPAKOKS240351730",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    299,
+    126
+  ],
+  "file": "VXPAKOKS240351730.mp4",
+  "saved_as": "VXPAKOKS240351730-적금이자는납입금액과가입기간에따라달라지며정확한금액은은행에서알수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

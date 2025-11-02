@@ -1,0 +1,402 @@
+{
+  "id": "VXPAKOKS240338440",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "세법은 자주 개정되므로 투자 결정 전에 최신 세법 정보를 확인해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.019,
+        "end": 2.257,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.498,
+        "end": 2.664,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.907,
+        "end": 3.19,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.386,
+        "end": 3.588,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.811,
+        "end": 4.392,
+        "gloss_id": "수리1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.735,
+        "end": 4.883,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.093,
+        "end": 5.737,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.141,
+        "end": 6.289,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.508,
+        "end": 6.629,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.818,
+        "end": 7.038,
+        "gloss_id": "요즘1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.277,
+        "end": 7.632,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.912,
+        "end": 8.195,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.364,
+        "end": 8.701,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.945,
+        "end": 9.292,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.019,
+        "end": 2.654,
+        "loc": "0",
+        "word": "세법은"
+      },
+      {
+        "start": 2.907,
+        "end": 3.19,
+        "loc": "1",
+        "word": "자주"
+      },
+      {
+        "start": 3.386,
+        "end": 4.409,
+        "loc": "2",
+        "word": "개정되므로"
+      },
+      {
+        "start": 4.735,
+        "end": 4.883,
+        "loc": "3",
+        "word": "투자"
+      },
+      {
+        "start": 5.093,
+        "end": 5.737,
+        "loc": "4,5",
+        "word": "결정 전에"
+      },
+      {
+        "start": 6.129,
+        "end": 6.629,
+        "loc": "7",
+        "word": "세법"
+      },
+      {
+        "start": 6.818,
+        "end": 7.616,
+        "loc": "6",
+        "word": "최신"
+      },
+      {
+        "start": 7.912,
+        "end": 8.195,
+        "loc": "8",
+        "word": "정보를"
+      },
+      {
+        "start": 8.364,
+        "end": 9.288,
+        "loc": "9,10",
+        "word": "확인해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.019,
+        "end": 2.257,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.498,
+        "end": 2.664,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.907,
+        "end": 3.19,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.386,
+        "end": 3.588,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.811,
+        "end": 4.392,
+        "gloss_id": "수리1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.093,
+        "end": 5.737,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.141,
+        "end": 6.289,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.508,
+        "end": 6.629,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.277,
+        "end": 7.632,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.912,
+        "end": 8.195,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.945,
+        "end": 9.292,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.498,
+        "end": 2.664
+      },
+      {
+        "descriptor": "",
+        "start": 2.907,
+        "end": 3.19
+      },
+      {
+        "descriptor": "",
+        "start": 3.824,
+        "end": 4.329
+      },
+      {
+        "descriptor": "",
+        "start": 5.093,
+        "end": 5.737
+      },
+      {
+        "descriptor": "",
+        "start": 7.373,
+        "end": 7.632
+      },
+      {
+        "descriptor": "",
+        "start": 8.364,
+        "end": 8.701
+      },
+      {
+        "descriptor": "",
+        "start": 8.945,
+        "end": 9.292
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.373,
+        "end": 7.632
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.907,
+        "end": 4.111
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.735,
+        "end": 5.74
+      },
+      {
+        "descriptor": "",
+        "start": 7.277,
+        "end": 7.632
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338440",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:43:17",
+    "sentence_ID": "VXPAKOKS240338440",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    325,
+    126
+  ],
+  "file": "VXPAKOKS240338440.mp4",
+  "saved_as": "VXPAKOKS240338440-세법은자주개정되므로투자결정전에최신세법정보를확인해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

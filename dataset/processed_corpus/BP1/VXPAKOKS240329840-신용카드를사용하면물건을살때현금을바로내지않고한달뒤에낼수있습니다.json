@@ -1,0 +1,321 @@
+{
+  "id": "VXPAKOKS240329840",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드를 사용하면 물건을 살 때 현금을 바로 내지 않고 한 달 뒤에 낼 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.721,
+        "end": 2.068,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.347,
+        "end": 2.79,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.168,
+        "end": 3.274,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.454,
+        "end": 3.909,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.198,
+        "end": 4.494,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.656,
+        "end": 4.889,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.101,
+        "end": 5.467,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.871,
+        "end": 5.977,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.248,
+        "end": 6.385,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.628,
+        "end": 6.975,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.721,
+        "end": 2.068,
+        "loc": "2",
+        "word": "물건을"
+      },
+      {
+        "start": 2.347,
+        "end": 2.79,
+        "loc": "3,4",
+        "word": "살 때"
+      },
+      {
+        "start": 3.168,
+        "end": 3.274,
+        "loc": "6",
+        "word": "바로"
+      },
+      {
+        "start": 3.454,
+        "end": 3.909,
+        "loc": "5",
+        "word": "현금을"
+      },
+      {
+        "start": 4.198,
+        "end": 4.494,
+        "loc": "7,8",
+        "word": "내지 않고"
+      },
+      {
+        "start": 5.871,
+        "end": 5.977,
+        "loc": "9,10",
+        "word": "한 달"
+      },
+      {
+        "start": 6.248,
+        "end": 6.385,
+        "loc": "11",
+        "word": "뒤에"
+      },
+      {
+        "start": 6.628,
+        "end": 6.975,
+        "loc": "12,13,14",
+        "word": "낼 수 있습니다."
+      },
+      {
+        "start": 4.656,
+        "end": 5.461,
+        "loc": "0,1",
+        "word": "신용카드를 사용하면"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.721,
+        "end": 2.068,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.347,
+        "end": 2.79,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.168,
+        "end": 3.274,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.198,
+        "end": 4.494,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.656,
+        "end": 4.889,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.248,
+        "end": 6.385,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.628,
+        "end": 6.975,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "한",
+        "start": 5.865,
+        "end": 5.983
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.101,
+        "end": 5.467
+      },
+      {
+        "descriptor": "",
+        "start": 6.248,
+        "end": 6.385
+      },
+      {
+        "descriptor": "",
+        "start": 6.628,
+        "end": 6.975
+      },
+      {
+        "descriptor": "",
+        "start": 3.454,
+        "end": 3.909
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.168,
+        "end": 3.274
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.857,
+        "end": 6.975
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.721,
+        "end": 2.812
+      },
+      {
+        "descriptor": "",
+        "start": 5.871,
+        "end": 6.384
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329840",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:29:21",
+    "sentence_ID": "VXPAKOKS240329840",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    229,
+    126
+  ],
+  "file": "VXPAKOKS240329840.mp4",
+  "saved_as": "VXPAKOKS240329840-신용카드를사용하면물건을살때현금을바로내지않고한달뒤에낼수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

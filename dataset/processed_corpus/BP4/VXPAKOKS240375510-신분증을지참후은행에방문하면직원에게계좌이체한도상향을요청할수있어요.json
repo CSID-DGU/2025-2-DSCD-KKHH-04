@@ -1,0 +1,400 @@
+{
+  "id": "VXPAKOKS240375510",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "신분증을 지참 후 은행에 방문하면 직원에게 계좌 이체 한도 상향을 요청할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.545,
+        "end": 2.124,
+        "gloss_id": "신분증2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.32,
+        "end": 2.646,
+        "gloss_id": "가지다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.85,
+        "end": 3.137,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.4,
+        "end": 3.686,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.811,
+        "end": 3.986,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.176,
+        "end": 4.415,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.658,
+        "end": 4.817,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.952,
+        "end": 5.04,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.15,
+        "end": 5.286,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.383,
+        "end": 5.535,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.982,
+        "end": 6.466,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.691,
+        "end": 7.072,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.234,
+        "end": 7.393,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.462,
+        "end": 7.59,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.545,
+        "end": 2.124,
+        "loc": "0",
+        "word": "신분증을"
+      },
+      {
+        "start": 2.32,
+        "end": 2.646,
+        "loc": "1,2",
+        "word": "지참 후"
+      },
+      {
+        "start": 2.85,
+        "end": 3.137,
+        "loc": "3",
+        "word": "은행에"
+      },
+      {
+        "start": 3.4,
+        "end": 3.686,
+        "loc": "4",
+        "word": "방문하면"
+      },
+      {
+        "start": 3.811,
+        "end": 4.429,
+        "loc": "5",
+        "word": "직원에게"
+      },
+      {
+        "start": 4.658,
+        "end": 4.817,
+        "loc": "6",
+        "word": "계좌"
+      },
+      {
+        "start": 4.952,
+        "end": 5.277,
+        "loc": "7",
+        "word": "이체"
+      },
+      {
+        "start": 5.383,
+        "end": 6.461,
+        "loc": "8",
+        "word": "한도"
+      },
+      {
+        "start": 6.691,
+        "end": 7.072,
+        "loc": "9",
+        "word": "상향을"
+      },
+      {
+        "start": 7.234,
+        "end": 7.599,
+        "loc": "10,11,12",
+        "word": "요청할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.545,
+        "end": 2.124,
+        "gloss_id": "신분증2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.85,
+        "end": 3.136,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.4,
+        "end": 3.686,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.811,
+        "end": 3.986,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.168,
+        "end": 4.414,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.658,
+        "end": 4.817,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.15,
+        "end": 5.286,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.982,
+        "end": 6.466,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.691,
+        "end": 7.072,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.234,
+        "end": 7.393,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.462,
+        "end": 7.59
+      },
+      {
+        "descriptor": "",
+        "start": 2.32,
+        "end": 2.646
+      },
+      {
+        "descriptor": "",
+        "start": 4.168,
+        "end": 4.415
+      },
+      {
+        "descriptor": "",
+        "start": 5.982,
+        "end": 6.466
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.462,
+        "end": 7.59
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.545,
+        "end": 2.124
+      },
+      {
+        "descriptor": "",
+        "start": 3.4,
+        "end": 4.414
+      },
+      {
+        "descriptor": "",
+        "start": 6.691,
+        "end": 7.373
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.711,
+        "end": 2.124
+      },
+      {
+        "descriptor": "",
+        "start": 3.811,
+        "end": 4.279
+      },
+      {
+        "descriptor": "",
+        "start": 5.15,
+        "end": 6.458
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240375510",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:41:09",
+    "sentence_ID": "VXPAKOKS240375510",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    285,
+    126
+  ],
+  "file": "VXPAKOKS240375510.mp4",
+  "saved_as": "VXPAKOKS240375510-신분증을지참후은행에방문하면직원에게계좌이체한도상향을요청할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,249 @@
+{
+  "id": "VXPAKOKS240334760",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "미성년자가 주식 계좌를 만들고 싶다면 어떻게 해야 하나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.365,
+        "end": 2.507,
+        "gloss_id": "나이1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.674,
+        "end": 2.881,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.105,
+        "end": 3.52,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.753,
+        "end": 4.012,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.248,
+        "end": 4.585,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.833,
+        "end": 5.079,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.332,
+        "end": 5.65,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.872,
+        "end": 6.294,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.365,
+        "end": 3.522,
+        "loc": "0",
+        "word": "미성년자가"
+      },
+      {
+        "start": 3.753,
+        "end": 4.012,
+        "loc": "1",
+        "word": "주식"
+      },
+      {
+        "start": 4.248,
+        "end": 4.585,
+        "loc": "2",
+        "word": "계좌를"
+      },
+      {
+        "start": 4.833,
+        "end": 5.079,
+        "loc": "3",
+        "word": "만들고"
+      },
+      {
+        "start": 5.332,
+        "end": 5.65,
+        "loc": "4",
+        "word": "싶다면"
+      },
+      {
+        "start": 5.872,
+        "end": 6.294,
+        "loc": "5,6,7",
+        "word": "어떻게 해야 하나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.105,
+        "end": 3.52,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.753,
+        "end": 4.012,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.248,
+        "end": 4.585,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.833,
+        "end": 5.645,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.872,
+        "end": 6.294,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.872,
+        "end": 6.294
+      },
+      {
+        "descriptor": "",
+        "start": 3.105,
+        "end": 3.52
+      },
+      {
+        "descriptor": "",
+        "start": 5.332,
+        "end": 5.65
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.365,
+        "end": 3.359
+      },
+      {
+        "descriptor": "",
+        "start": 4.248,
+        "end": 4.585
+      },
+      {
+        "descriptor": "",
+        "start": 5.872,
+        "end": 6.294
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334760",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:32:10",
+    "sentence_ID": "VXPAKOKS240334760",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    234,
+    126
+  ],
+  "file": "VXPAKOKS240334760.mp4",
+  "saved_as": "VXPAKOKS240334760-미성년자가주식계좌를만들고싶다면어떻게해야하나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

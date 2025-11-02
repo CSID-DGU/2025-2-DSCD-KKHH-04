@@ -1,0 +1,297 @@
+{
+  "id": "VXPAKOKS240328500",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "정기적금은 원하는 기간에 원하는 금액을 모으는 것으로, 만기 전에는 출금할 수 없어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.187,
+        "end": 2.558,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.717,
+        "end": 3.023,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.214,
+        "end": 3.757,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.028,
+        "end": 4.234,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.443,
+        "end": 4.915,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.017,
+        "end": 5.352,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.566,
+        "end": 6.231,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.432,
+        "end": 6.86,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.03,
+        "end": 7.336,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.513,
+        "end": 7.841,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.028,
+        "end": 5.352,
+        "loc": "2",
+        "word": "기간에"
+      },
+      {
+        "start": 5.579,
+        "end": 6.86,
+        "loc": "7,8",
+        "word": "만기 전에는"
+      },
+      {
+        "start": 7.03,
+        "end": 7.336,
+        "loc": "9",
+        "word": "출금할"
+      },
+      {
+        "start": 7.513,
+        "end": 7.841,
+        "loc": "10,11",
+        "word": "수 없어요."
+      },
+      {
+        "start": 2.187,
+        "end": 2.558,
+        "loc": "5,6",
+        "word": "모으는 것으로,"
+      },
+      {
+        "start": 2.717,
+        "end": 3.023,
+        "loc": "4",
+        "word": "금액을"
+      },
+      {
+        "start": 3.214,
+        "end": 3.757,
+        "loc": "3",
+        "word": "원하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.187,
+        "end": 2.558,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.028,
+        "end": 4.234,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.443,
+        "end": 4.915,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.017,
+        "end": 5.352,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.566,
+        "end": 6.231,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.432,
+        "end": 6.86,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.03,
+        "end": 7.336,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.214,
+        "end": 3.757
+      },
+      {
+        "descriptor": "",
+        "start": 5.017,
+        "end": 5.352
+      },
+      {
+        "descriptor": "",
+        "start": 6.432,
+        "end": 6.86
+      },
+      {
+        "descriptor": "",
+        "start": 7.513,
+        "end": 7.841
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.566,
+        "end": 6.231
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.187,
+        "end": 2.558
+      },
+      {
+        "descriptor": "",
+        "start": 6.432,
+        "end": 6.86
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328500",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:32:51",
+    "sentence_ID": "VXPAKOKS240328500",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240328500.mp4",
+  "saved_as": "VXPAKOKS240328500-정기적금은원하는기간에원하는금액을모으는것으로,만기전에는출금할수없어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

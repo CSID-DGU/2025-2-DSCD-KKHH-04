@@ -1,0 +1,319 @@
+{
+  "id": "VXPAKOKS240338420",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자는 다른 투자보다 낮은 세금 부담을 통해 이익을 극대화합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.738,
+        "end": 3.015,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.26,
+        "end": 3.465,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.77,
+        "end": 4.145,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.226,
+        "end": 4.311,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.467,
+        "end": 4.669,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.851,
+        "end": 5.113,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.334,
+        "end": 5.775,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.036,
+        "end": 6.219,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.468,
+        "end": 6.903,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.127,
+        "end": 7.334,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.512,
+        "end": 7.659,
+        "gloss_id": "부담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.912,
+        "end": 8.372,
+        "gloss_id": "축소2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.738,
+        "end": 3.015,
+        "loc": "2",
+        "word": "다른"
+      },
+      {
+        "start": 3.26,
+        "end": 4.143,
+        "loc": "3",
+        "word": "투자보다"
+      },
+      {
+        "start": 4.226,
+        "end": 5.105,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 5.334,
+        "end": 5.775,
+        "loc": "1",
+        "word": "투자는"
+      },
+      {
+        "start": 7.512,
+        "end": 7.659,
+        "loc": "6,7",
+        "word": "부담을 통해"
+      },
+      {
+        "start": 7.127,
+        "end": 7.334,
+        "loc": "5",
+        "word": "세금"
+      },
+      {
+        "start": 6.036,
+        "end": 6.87,
+        "loc": "8,9",
+        "word": "이익을 극대화합니다."
+      },
+      {
+        "start": 7.912,
+        "end": 8.372,
+        "loc": "4",
+        "word": "낮은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.738,
+        "end": 3.015,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.77,
+        "end": 4.145,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.851,
+        "end": 5.113,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.127,
+        "end": 7.664,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.912,
+        "end": 8.372,
+        "gloss_id": "축소2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.738,
+        "end": 3.015
+      },
+      {
+        "descriptor": "",
+        "start": 3.77,
+        "end": 4.145
+      },
+      {
+        "descriptor": "",
+        "start": 5.334,
+        "end": 5.775
+      },
+      {
+        "descriptor": "",
+        "start": 6.513,
+        "end": 6.897
+      },
+      {
+        "descriptor": "",
+        "start": 7.912,
+        "end": 8.372
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.513,
+        "end": 6.894
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.912,
+        "end": 8.372
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 7.512,
+        "end": 7.659
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.851,
+        "end": 5.782
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338420",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:43:13",
+    "sentence_ID": "VXPAKOKS240338420",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    321,
+    126
+  ],
+  "file": "VXPAKOKS240338420.mp4",
+  "saved_as": "VXPAKOKS240338420-채권투자는다른투자보다낮은세금부담을통해이익을극대화합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

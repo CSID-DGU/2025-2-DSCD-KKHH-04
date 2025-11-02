@@ -1,0 +1,302 @@
+{
+  "id": "VXPAKOKS240333440",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주로 개인이나 기업이 지출을 간편하게 관리하기 위해 현금카드를 사용할 때가 많습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.337,
+        "end": 2.743,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.063,
+        "end": 3.648,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.991,
+        "end": 4.398,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.545,
+        "end": 4.773,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.069,
+        "end": 5.271,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.478,
+        "end": 5.842,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.163,
+        "end": 6.535,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.828,
+        "end": 6.928,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.139,
+        "end": 7.384,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.772,
+        "end": 8.28,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.337,
+        "end": 2.743,
+        "loc": "0",
+        "word": "주로"
+      },
+      {
+        "start": 3.063,
+        "end": 3.648,
+        "loc": "1",
+        "word": "개인이나"
+      },
+      {
+        "start": 3.991,
+        "end": 4.398,
+        "loc": "2",
+        "word": "기업이"
+      },
+      {
+        "start": 4.545,
+        "end": 4.773,
+        "loc": "3",
+        "word": "지출을"
+      },
+      {
+        "start": 5.478,
+        "end": 5.842,
+        "loc": "4",
+        "word": "간편하게"
+      },
+      {
+        "start": 5.069,
+        "end": 5.271,
+        "loc": "5",
+        "word": "관리하기"
+      },
+      {
+        "start": 6.163,
+        "end": 6.535,
+        "loc": "6",
+        "word": "위해"
+      },
+      {
+        "start": 6.828,
+        "end": 7.362,
+        "loc": "7",
+        "word": "현금카드를"
+      },
+      {
+        "start": 7.772,
+        "end": 8.28,
+        "loc": "8,9,10",
+        "word": "사용할 때가 많습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.337,
+        "end": 2.743,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.063,
+        "end": 3.648,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.991,
+        "end": 4.398,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.545,
+        "end": 4.773,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.478,
+        "end": 5.842,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.163,
+        "end": 6.535,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.772,
+        "end": 8.28,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.337,
+        "end": 2.743
+      },
+      {
+        "descriptor": "",
+        "start": 3.063,
+        "end": 3.648
+      },
+      {
+        "descriptor": "",
+        "start": 3.991,
+        "end": 4.398
+      },
+      {
+        "descriptor": "",
+        "start": 6.163,
+        "end": 6.535
+      },
+      {
+        "descriptor": "",
+        "start": 7.139,
+        "end": 7.384
+      },
+      {
+        "descriptor": "",
+        "start": 7.772,
+        "end": 8.28
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240333440",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:31",
+    "sentence_ID": "VXPAKOKS240333440",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    306,
+    126
+  ],
+  "file": "VXPAKOKS240333440.mp4",
+  "saved_as": "VXPAKOKS240333440-주로개인이나기업이지출을간편하게관리하기위해현금카드를사용할때가많습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

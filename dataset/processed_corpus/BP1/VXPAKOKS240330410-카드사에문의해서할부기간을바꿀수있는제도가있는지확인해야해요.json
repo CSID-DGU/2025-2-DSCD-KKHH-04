@@ -1,0 +1,236 @@
+{
+  "id": "VXPAKOKS240330410",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "카드사에 문의해서 할부 기간을 바꿀 수 있는 제도가 있는지 확인해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.169,
+        "end": 2.563,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.843,
+        "end": 3.249,
+        "gloss_id": "몇개월1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.405,
+        "end": 3.7,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.015,
+        "end": 4.391,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.7,
+        "end": 4.895,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.087,
+        "end": 5.265,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.538,
+        "end": 5.856,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.125,
+        "end": 6.432,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.169,
+        "end": 3.237,
+        "loc": "2,3",
+        "word": "할부 기간을"
+      },
+      {
+        "start": 3.405,
+        "end": 3.7,
+        "loc": "4",
+        "word": "바꿀"
+      },
+      {
+        "start": 4.015,
+        "end": 4.391,
+        "loc": "5,6,7,8",
+        "word": "수 있는 제도가 있는지"
+      },
+      {
+        "start": 4.7,
+        "end": 5.264,
+        "loc": "0,1",
+        "word": "카드사에 문의해서"
+      },
+      {
+        "start": 5.538,
+        "end": 6.424,
+        "loc": "9,10",
+        "word": "확인해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.169,
+        "end": 2.563,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.405,
+        "end": 3.7,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.087,
+        "end": 5.265,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.125,
+        "end": 6.432,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.169,
+        "end": 2.563
+      },
+      {
+        "descriptor": "",
+        "start": 4.015,
+        "end": 4.391
+      },
+      {
+        "descriptor": "",
+        "start": 5.538,
+        "end": 5.856
+      },
+      {
+        "descriptor": "",
+        "start": 6.125,
+        "end": 6.432
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.203,
+        "end": 4.391
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.843,
+        "end": 3.249
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330410",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:01:40",
+    "sentence_ID": "VXPAKOKS240330410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    211,
+    126
+  ],
+  "file": "VXPAKOKS240330410.mp4",
+  "saved_as": "VXPAKOKS240330410-카드사에문의해서할부기간을바꿀수있는제도가있는지확인해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

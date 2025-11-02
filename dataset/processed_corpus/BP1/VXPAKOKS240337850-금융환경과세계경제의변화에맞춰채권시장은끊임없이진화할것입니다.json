@@ -1,0 +1,333 @@
+{
+  "id": "VXPAKOKS240337850",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "금융 환경과 세계 경제의 변화에 맞춰 채권 시장은 끊임없이 진화할 것입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.269,
+        "end": 2.615,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.86,
+        "end": 3.155,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.408,
+        "end": 3.694,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.127,
+        "end": 4.866,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.195,
+        "end": 5.601,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.753,
+        "end": 5.86,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.977,
+        "end": 6.16,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.327,
+        "end": 6.716,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.009,
+        "end": 7.406,
+        "gloss_id": "계속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.687,
+        "end": 8.059,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.287,
+        "end": 8.582,
+        "gloss_id": "아마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.86,
+        "end": 3.155,
+        "loc": "2",
+        "word": "세계"
+      },
+      {
+        "start": 3.408,
+        "end": 3.694,
+        "loc": "3",
+        "word": "경제의"
+      },
+      {
+        "start": 2.269,
+        "end": 2.615,
+        "loc": "0,1",
+        "word": "금융 환경과"
+      },
+      {
+        "start": 4.127,
+        "end": 5.602,
+        "loc": "4,5",
+        "word": "변화에 맞춰"
+      },
+      {
+        "start": 5.753,
+        "end": 6.715,
+        "loc": "6",
+        "word": "채권"
+      },
+      {
+        "start": 8.287,
+        "end": 8.582,
+        "loc": "10",
+        "word": "것입니다."
+      },
+      {
+        "start": 7.009,
+        "end": 7.406,
+        "loc": "7,8",
+        "word": "시장은 끊임없이"
+      },
+      {
+        "start": 7.687,
+        "end": 8.059,
+        "loc": "9",
+        "word": "진화할"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.269,
+        "end": 2.615,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.86,
+        "end": 3.155,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.408,
+        "end": 3.694,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.127,
+        "end": 4.866,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.195,
+        "end": 5.601,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.327,
+        "end": 6.716,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.009,
+        "end": 7.406,
+        "gloss_id": "계속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.687,
+        "end": 8.059,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.287,
+        "end": 8.582
+      },
+      {
+        "descriptor": "",
+        "start": 2.269,
+        "end": 2.615
+      },
+      {
+        "descriptor": "",
+        "start": 4.147,
+        "end": 4.866
+      },
+      {
+        "descriptor": "",
+        "start": 5.195,
+        "end": 5.601
+      },
+      {
+        "descriptor": "",
+        "start": 7.009,
+        "end": 7.406
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.195,
+        "end": 5.601
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.009,
+        "end": 7.406
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.287,
+        "end": 8.582
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.269,
+        "end": 4.882
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337850",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:40:34",
+    "sentence_ID": "VXPAKOKS240337850",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    308,
+    126
+  ],
+  "file": "VXPAKOKS240337850.mp4",
+  "saved_as": "VXPAKOKS240337850-금융환경과세계경제의변화에맞춰채권시장은끊임없이진화할것입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

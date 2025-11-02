@@ -1,0 +1,286 @@
+{
+  "id": "VXPAKOKS240333330",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드는 은행 계좌와 직접 연결되어 있어서 계좌에 있는 돈을 사용할 수 있는 카드입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.338,
+        "end": 2.462,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.645,
+        "end": 3.091,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.32,
+        "end": 3.574,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.856,
+        "end": 4.371,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.707,
+        "end": 5.122,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.489,
+        "end": 6.035,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.248,
+        "end": 6.441,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.586,
+        "end": 6.978,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.245,
+        "end": 7.384,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.621,
+        "end": 7.844,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.338,
+        "end": 3.551,
+        "loc": "0",
+        "word": "현금카드는"
+      },
+      {
+        "start": 3.856,
+        "end": 4.371,
+        "loc": "1",
+        "word": "은행"
+      },
+      {
+        "start": 5.489,
+        "end": 6.035,
+        "loc": "3,4",
+        "word": "직접 연결되어"
+      },
+      {
+        "start": 6.586,
+        "end": 6.978,
+        "loc": "5",
+        "word": "있어서"
+      },
+      {
+        "start": 6.248,
+        "end": 6.441,
+        "loc": "7,8",
+        "word": "있는 돈을"
+      },
+      {
+        "start": 7.245,
+        "end": 7.821,
+        "loc": "9,10,11,12",
+        "word": "사용할 수 있는 카드입니다."
+      },
+      {
+        "start": 4.707,
+        "end": 5.122,
+        "loc": "2,6",
+        "word": "계좌와 계좌에"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.856,
+        "end": 4.371,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.707,
+        "end": 5.122,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.489,
+        "end": 6.035,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.248,
+        "end": 6.97,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.245,
+        "end": 7.384,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.586,
+        "end": 6.978
+      },
+      {
+        "descriptor": "",
+        "start": 2.645,
+        "end": 3.091
+      },
+      {
+        "descriptor": "",
+        "start": 7.621,
+        "end": 7.844
+      },
+      {
+        "descriptor": "",
+        "start": 3.32,
+        "end": 3.574
+      },
+      {
+        "descriptor": "",
+        "start": 5.489,
+        "end": 6.035
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.621,
+        "end": 7.844
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.338,
+        "end": 3.574
+      },
+      {
+        "descriptor": "",
+        "start": 5.489,
+        "end": 6.97
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333330",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:21:58",
+    "sentence_ID": "VXPAKOKS240333330",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    276,
+    126
+  ],
+  "file": "VXPAKOKS240333330.mp4",
+  "saved_as": "VXPAKOKS240333330-현금카드는은행계좌와직접연결되어있어서계좌에있는돈을사용할수있는카드입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

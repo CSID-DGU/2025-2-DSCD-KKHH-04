@@ -1,0 +1,274 @@
+{
+  "id": "VXPAKOKS240337190",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자에는 채권을 담보로 사용하여 대출받거나 대출을 해주는 방법이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.984,
+        "end": 2.073,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.218,
+        "end": 2.419,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.599,
+        "end": 3.002,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.241,
+        "end": 3.959,
+        "gloss_id": "가지고다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.192,
+        "end": 4.514,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.782,
+        "end": 4.927,
+        "gloss_id": "입장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.185,
+        "end": 5.79,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.999,
+        "end": 6.136,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.386,
+        "end": 6.571,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.789,
+        "end": 7.16,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.313,
+        "end": 7.523,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.999,
+        "end": 6.561,
+        "loc": "5",
+        "word": "대출받거나"
+      },
+      {
+        "start": 6.789,
+        "end": 7.509,
+        "loc": "6,7,8,9",
+        "word": "대출을 해주는 방법이 있습니다."
+      },
+      {
+        "start": 3.241,
+        "end": 4.519,
+        "loc": "2",
+        "word": "채권을"
+      },
+      {
+        "start": 4.782,
+        "end": 4.927,
+        "loc": "3",
+        "word": "담보로"
+      },
+      {
+        "start": 5.185,
+        "end": 5.79,
+        "loc": "4",
+        "word": "사용하여"
+      },
+      {
+        "start": 1.972,
+        "end": 3.002,
+        "loc": "0,1",
+        "word": "채권 투자에는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.599,
+        "end": 3.002,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.782,
+        "end": 4.927,
+        "gloss_id": "입장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.185,
+        "end": 5.79,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.313,
+        "end": 7.523
+      },
+      {
+        "descriptor": "",
+        "start": 3.456,
+        "end": 3.959
+      },
+      {
+        "descriptor": "",
+        "start": 5.185,
+        "end": 5.79
+      },
+      {
+        "descriptor": "",
+        "start": 6.386,
+        "end": 6.571
+      },
+      {
+        "descriptor": "",
+        "start": 6.789,
+        "end": 7.16
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.313,
+        "end": 7.523
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.033,
+        "end": 3.95
+      },
+      {
+        "descriptor": "",
+        "start": 4.666,
+        "end": 5.589
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337190",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:35:44",
+    "sentence_ID": "VXPAKOKS240337190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    290,
+    126
+  ],
+  "file": "VXPAKOKS240337190.mp4",
+  "saved_as": "VXPAKOKS240337190-채권투자에는채권을담보로사용하여대출받거나대출을해주는방법이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240331770",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "현금 자동 입출금 기기는 24시간 운영하지만, 은행이나 지역에 따라 달라질 수 있으니 참고해.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.78,
+        "end": 2.131,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.313,
+        "end": 2.719,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.88,
+        "end": 3.692,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.027,
+        "end": 4.785,
+        "gloss_id": "시간:24시간",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.034,
+        "end": 5.549,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.784,
+        "end": 6.409,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.783,
+        "end": 7.174,
+        "gloss_id": "지역1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.439,
+        "end": 7.595,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.766,
+        "end": 8.414,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.78,
+        "end": 3.684,
+        "loc": "0,1,2,3",
+        "word": "현금 자동 입출금 기기는"
+      },
+      {
+        "start": 4.027,
+        "end": 4.785,
+        "loc": "4",
+        "word": "24시간"
+      },
+      {
+        "start": 5.034,
+        "end": 5.549,
+        "loc": "5",
+        "word": "운영하지만,"
+      },
+      {
+        "start": 5.784,
+        "end": 6.409,
+        "loc": "6",
+        "word": "은행이나"
+      },
+      {
+        "start": 6.783,
+        "end": 7.174,
+        "loc": "7,8",
+        "word": "지역에 따라"
+      },
+      {
+        "start": 7.439,
+        "end": 8.399,
+        "loc": "9,10,11,12",
+        "word": "달라질 수 있으니 참고해."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.78,
+        "end": 2.131,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.313,
+        "end": 2.719,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.027,
+        "end": 4.785,
+        "gloss_id": "시간:24시간",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.784,
+        "end": 6.409,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.783,
+        "end": 7.174,
+        "gloss_id": "지역1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.439,
+        "end": 7.595,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.766,
+        "end": 8.414,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "이십사",
+        "start": 4.027,
+        "end": 4.785
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.313,
+        "end": 2.719
+      },
+      {
+        "descriptor": "",
+        "start": 2.88,
+        "end": 3.692
+      },
+      {
+        "descriptor": "",
+        "start": 5.034,
+        "end": 5.549
+      },
+      {
+        "descriptor": "",
+        "start": 5.784,
+        "end": 6.409
+      },
+      {
+        "descriptor": "",
+        "start": 7.766,
+        "end": 8.414
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.206,
+        "end": 5.549
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.766,
+        "end": 8.414
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.313,
+        "end": 3.687
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331770",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:14:55",
+    "sentence_ID": "VXPAKOKS240331770",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    281,
+    126
+  ],
+  "file": "VXPAKOKS240331770.mp4",
+  "saved_as": "VXPAKOKS240331770-현금자동입출금기기는24시간운영하지만,은행이나지역에따라달라질수있으니참고해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

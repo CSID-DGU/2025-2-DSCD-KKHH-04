@@ -1,0 +1,311 @@
+{
+  "id": "VXPAKOKS240328750",
+  "opertor": "label13",
+  "krlgg_sntenc": {
+    "koreanText": "해지 수수료가 있는지 미리 확인하고, 수수료가 있다면 그 비용도 생각해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.395,
+        "end": 3.109,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.772,
+        "end": 4.11,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.218,
+        "end": 4.381,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.594,
+        "end": 4.68,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.962,
+        "end": 5.667,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.057,
+        "end": 6.66,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.066,
+        "end": 7.635,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.973,
+        "end": 8.182,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.452,
+        "end": 8.575,
+        "gloss_id": "생각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.786,
+        "end": 9.089,
+        "gloss_id": "보다10",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.831,
+        "end": 2.112,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.43,
+        "end": 3.591,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.43,
+        "end": 4.11,
+        "loc": "1",
+        "word": "수수료가"
+      },
+      {
+        "start": 4.218,
+        "end": 4.68,
+        "loc": "2",
+        "word": "있는지"
+      },
+      {
+        "start": 1.831,
+        "end": 2.112,
+        "loc": "3",
+        "word": "미리"
+      },
+      {
+        "start": 4.962,
+        "end": 5.667,
+        "loc": "4",
+        "word": "확인하고,"
+      },
+      {
+        "start": 7.973,
+        "end": 9.089,
+        "loc": "7,8,9,10",
+        "word": "그 비용도 생각해야 해요."
+      },
+      {
+        "start": 6.057,
+        "end": 7.635,
+        "loc": "5,6",
+        "word": "수수료가 있다면"
+      },
+      {
+        "start": 2.395,
+        "end": 3.109,
+        "loc": "0",
+        "word": "해지"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 7.973,
+        "end": 8.182,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.43,
+        "end": 4.11,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.395,
+        "end": 3.109,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.125,
+        "end": 5.667
+      },
+      {
+        "descriptor": "",
+        "start": 6.057,
+        "end": 6.66
+      },
+      {
+        "descriptor": "",
+        "start": 8.786,
+        "end": 9.089
+      },
+      {
+        "descriptor": "",
+        "start": 7.066,
+        "end": 7.635
+      },
+      {
+        "descriptor": "",
+        "start": 2.666,
+        "end": 3.106
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.218,
+        "end": 4.675
+      },
+      {
+        "descriptor": "",
+        "start": 7.066,
+        "end": 7.635
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.786,
+        "end": 9.089
+      },
+      {
+        "descriptor": "",
+        "start": 7.066,
+        "end": 7.635
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.057,
+        "end": 6.66
+      },
+      {
+        "descriptor": "",
+        "start": 4.962,
+        "end": 5.667
+      },
+      {
+        "descriptor": "",
+        "start": 2.395,
+        "end": 3.109
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328750",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:36:53",
+    "sentence_ID": "VXPAKOKS240328750",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    308,
+    126
+  ],
+  "file": "VXPAKOKS240328750.mp4",
+  "saved_as": "VXPAKOKS240328750-해지수수료가있는지미리확인하고,수수료가있다면그비용도생각해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

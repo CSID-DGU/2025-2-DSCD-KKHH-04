@@ -1,0 +1,334 @@
+{
+  "id": "VXPAKOKS240345910",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "예금 중도 해지를 해야 하는 상황이라면, 은행과 상담해 손실을 최소화할 수 있는 방법을 찾으세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.412,
+        "end": 1.754,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.985,
+        "end": 2.209,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.472,
+        "end": 2.689,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.049,
+        "end": 3.533,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.843,
+        "end": 4.154,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.361,
+        "end": 4.727,
+        "gloss_id": "상담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.977,
+        "end": 5.288,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.542,
+        "end": 5.711,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.911,
+        "end": 6.033,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.178,
+        "end": 6.363,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.5,
+        "end": 6.811,
+        "gloss_id": "찾다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.973,
+        "end": 7.15,
+        "gloss_id": "보다10",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.412,
+        "end": 1.754,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 1.985,
+        "end": 2.209,
+        "loc": "1",
+        "word": "중도"
+      },
+      {
+        "start": 2.472,
+        "end": 2.689,
+        "loc": "2",
+        "word": "해지를"
+      },
+      {
+        "start": 3.049,
+        "end": 3.533,
+        "loc": "3,4,5",
+        "word": "해야 하는 상황이라면,"
+      },
+      {
+        "start": 3.843,
+        "end": 4.154,
+        "loc": "6",
+        "word": "은행과"
+      },
+      {
+        "start": 4.361,
+        "end": 4.727,
+        "loc": "7",
+        "word": "상담해"
+      },
+      {
+        "start": 4.977,
+        "end": 5.288,
+        "loc": "8",
+        "word": "손실을"
+      },
+      {
+        "start": 5.542,
+        "end": 6.034,
+        "loc": "9,10,11",
+        "word": "최소화할 수 있는"
+      },
+      {
+        "start": 6.178,
+        "end": 6.363,
+        "loc": "12",
+        "word": "방법을"
+      },
+      {
+        "start": 6.5,
+        "end": 7.157,
+        "loc": "13",
+        "word": "찾으세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.412,
+        "end": 1.754,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.985,
+        "end": 2.209,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.472,
+        "end": 2.688,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.049,
+        "end": 3.533,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.843,
+        "end": 4.154,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.361,
+        "end": 4.727,
+        "gloss_id": "상담1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.977,
+        "end": 5.288,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.178,
+        "end": 6.363,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.049,
+        "end": 3.533
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.911,
+        "end": 6.033
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.542,
+        "end": 6.041
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.049,
+        "end": 3.533
+      },
+      {
+        "descriptor": "",
+        "start": 6.5,
+        "end": 6.811
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345910",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:41:42",
+    "sentence_ID": "VXPAKOKS240345910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    283,
+    126
+  ],
+  "file": "VXPAKOKS240345910.mp4",
+  "saved_as": "VXPAKOKS240345910-예금중도해지를해야하는상황이라면,은행과상담해손실을최소화할수있는방법을찾으세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

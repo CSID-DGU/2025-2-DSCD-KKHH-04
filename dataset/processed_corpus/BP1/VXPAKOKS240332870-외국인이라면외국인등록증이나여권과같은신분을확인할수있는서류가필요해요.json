@@ -1,0 +1,306 @@
+{
+  "id": "VXPAKOKS240332870",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "외국인이라면 외국인 등록증이나 여권과 같은 신분을 확인할 수 있는 서류가 필요해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.672,
+        "end": 2.864,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.105,
+        "end": 3.463,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.753,
+        "end": 3.906,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.181,
+        "end": 4.389,
+        "gloss_id": "맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.685,
+        "end": 5.019,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.305,
+        "end": 5.45,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.668,
+        "end": 5.796,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.974,
+        "end": 6.695,
+        "gloss_id": "신분증2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.887,
+        "end": 7.103,
+        "gloss_id": "비행기3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.379,
+        "end": 7.674,
+        "gloss_id": "책1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.914,
+        "end": 8.256,
+        "gloss_id": "가져오다7",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.672,
+        "end": 3.456,
+        "loc": "0",
+        "word": "외국인이라면"
+      },
+      {
+        "start": 5.305,
+        "end": 5.805,
+        "loc": "1",
+        "word": "외국인"
+      },
+      {
+        "start": 5.974,
+        "end": 6.695,
+        "loc": "2",
+        "word": "등록증이나"
+      },
+      {
+        "start": 7.914,
+        "end": 8.256,
+        "loc": "10",
+        "word": "필요해요."
+      },
+      {
+        "start": 6.887,
+        "end": 7.672,
+        "loc": "3,4,9",
+        "word": "여권과 같은 서류가"
+      },
+      {
+        "start": 3.753,
+        "end": 5.027,
+        "loc": "5,6,7,8",
+        "word": "신분을 확인할 수 있는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.672,
+        "end": 2.864,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.105,
+        "end": 3.463,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.685,
+        "end": 5.019,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.305,
+        "end": 5.45,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.668,
+        "end": 5.796,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.974,
+        "end": 6.695,
+        "gloss_id": "신분증2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.379,
+        "end": 7.674,
+        "gloss_id": "책1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.105,
+        "end": 3.463
+      },
+      {
+        "descriptor": "",
+        "start": 4.181,
+        "end": 4.389
+      },
+      {
+        "descriptor": "",
+        "start": 4.685,
+        "end": 5.019
+      },
+      {
+        "descriptor": "",
+        "start": 6.436,
+        "end": 6.715
+      },
+      {
+        "descriptor": "",
+        "start": 7.379,
+        "end": 7.674
+      },
+      {
+        "descriptor": "",
+        "start": 7.914,
+        "end": 8.256
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.181,
+        "end": 4.389
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.672,
+        "end": 4.396
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332870",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:26:02",
+    "sentence_ID": "VXPAKOKS240332870",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    284,
+    126
+  ],
+  "file": "VXPAKOKS240332870.mp4",
+  "saved_as": "VXPAKOKS240332870-외국인이라면외국인등록증이나여권과같은신분을확인할수있는서류가필요해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

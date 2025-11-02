@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240341630",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "주식 시장이 하락할 때 펀드의 수익률이 주식 수익률보다 높아집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.191,
+        "end": 1.413,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.711,
+        "end": 2.327,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.643,
+        "end": 3.068,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.395,
+        "end": 3.617,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.811,
+        "end": 4.12,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.301,
+        "end": 4.645,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.896,
+        "end": 5.35,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.587,
+        "end": 5.786,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.02,
+        "end": 6.323,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.191,
+        "end": 1.413,
+        "loc": "0,1",
+        "word": "주식 시장이"
+      },
+      {
+        "start": 1.711,
+        "end": 2.327,
+        "loc": "2",
+        "word": "하락할"
+      },
+      {
+        "start": 2.643,
+        "end": 3.068,
+        "loc": "3",
+        "word": "때"
+      },
+      {
+        "start": 3.395,
+        "end": 3.617,
+        "loc": "6",
+        "word": "주식"
+      },
+      {
+        "start": 3.811,
+        "end": 4.64,
+        "loc": "7",
+        "word": "수익률보다"
+      },
+      {
+        "start": 4.896,
+        "end": 5.35,
+        "loc": "4",
+        "word": "펀드의"
+      },
+      {
+        "start": 5.587,
+        "end": 5.786,
+        "loc": "5",
+        "word": "수익률이"
+      },
+      {
+        "start": 6.02,
+        "end": 6.323,
+        "loc": "8",
+        "word": "높아집니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.191,
+        "end": 1.413,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.643,
+        "end": 3.068,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.395,
+        "end": 3.617,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.301,
+        "end": 4.645,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.711,
+        "end": 2.327,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.191,
+        "end": 1.413
+      },
+      {
+        "descriptor": "",
+        "start": 2.805,
+        "end": 3.068
+      },
+      {
+        "descriptor": "",
+        "start": 4.301,
+        "end": 4.645
+      },
+      {
+        "descriptor": "",
+        "start": 6.02,
+        "end": 6.323
+      },
+      {
+        "descriptor": "",
+        "start": 4.896,
+        "end": 5.35
+      },
+      {
+        "descriptor": "",
+        "start": 1.711,
+        "end": 2.327
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.811,
+        "end": 3.068
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.711,
+        "end": 2.327
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.191,
+        "end": 1.413
+      },
+      {
+        "descriptor": "",
+        "start": 3.395,
+        "end": 4.126
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341630",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:15:01",
+    "sentence_ID": "VXPAKOKS240341630",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    208,
+    126
+  ],
+  "file": "VXPAKOKS240341630.mp4",
+  "saved_as": "VXPAKOKS240341630-주식시장이하락할때펀드의수익률이주식수익률보다높아집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

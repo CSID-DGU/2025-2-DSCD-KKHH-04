@@ -1,0 +1,347 @@
+{
+  "id": "VXPAKOKS240334860",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주식을 사고팔기 전에 자주 증권회사의 홈페이지에서 주가를 확인하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.843,
+        "end": 2.986,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.192,
+        "end": 3.505,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.696,
+        "end": 3.944,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.372,
+        "end": 4.79,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.957,
+        "end": 5.092,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.288,
+        "end": 5.488,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.633,
+        "end": 5.947,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.184,
+        "end": 6.505,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.792,
+        "end": 6.976,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.126,
+        "end": 7.642,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.804,
+        "end": 8.028,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.233,
+        "end": 8.741,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.843,
+        "end": 2.986,
+        "loc": "0",
+        "word": "주식을"
+      },
+      {
+        "start": 3.192,
+        "end": 3.935,
+        "loc": "1",
+        "word": "사고팔기"
+      },
+      {
+        "start": 4.372,
+        "end": 4.79,
+        "loc": "2",
+        "word": "전에"
+      },
+      {
+        "start": 4.957,
+        "end": 5.477,
+        "loc": "4",
+        "word": "증권회사의"
+      },
+      {
+        "start": 5.633,
+        "end": 6.502,
+        "loc": "5",
+        "word": "홈페이지에서"
+      },
+      {
+        "start": 6.792,
+        "end": 7.649,
+        "loc": "6",
+        "word": "주가를"
+      },
+      {
+        "start": 7.804,
+        "end": 8.028,
+        "loc": "3",
+        "word": "자주"
+      },
+      {
+        "start": 8.233,
+        "end": 8.741,
+        "loc": "7",
+        "word": "확인하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.843,
+        "end": 2.986,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.192,
+        "end": 3.505,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.696,
+        "end": 3.944,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.372,
+        "end": 4.79,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.957,
+        "end": 5.092,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.288,
+        "end": 5.488,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.184,
+        "end": 6.505,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.792,
+        "end": 6.976,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.126,
+        "end": 7.642,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.804,
+        "end": 8.028,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.372,
+        "end": 4.79
+      },
+      {
+        "descriptor": "",
+        "start": 6.184,
+        "end": 6.505
+      },
+      {
+        "descriptor": "",
+        "start": 7.804,
+        "end": 8.028
+      },
+      {
+        "descriptor": "",
+        "start": 8.233,
+        "end": 8.741
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.785,
+        "end": 3.944
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.843,
+        "end": 4.827
+      },
+      {
+        "descriptor": "",
+        "start": 5.633,
+        "end": 5.947
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334860",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:33:03",
+    "sentence_ID": "VXPAKOKS240334860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    292,
+    126
+  ],
+  "file": "VXPAKOKS240334860.mp4",
+  "saved_as": "VXPAKOKS240334860-주식을사고팔기전에자주증권회사의홈페이지에서주가를확인하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

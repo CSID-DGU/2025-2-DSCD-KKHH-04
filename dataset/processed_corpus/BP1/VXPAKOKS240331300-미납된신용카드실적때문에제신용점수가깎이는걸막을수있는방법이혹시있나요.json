@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240331300",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "미납된 신용카드 실적 때문에 제 신용 점수가 깎이는 걸 막을 수 있는 방법이 혹시 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.654,
+        "end": 1.855,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.029,
+        "end": 2.224,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.385,
+        "end": 2.777,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.862,
+        "end": 3.235,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.467,
+        "end": 4.196,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.338,
+        "end": 4.673,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.822,
+        "end": 5.01,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.165,
+        "end": 5.913,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.068,
+        "end": 6.307,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.431,
+        "end": 6.931,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.654,
+        "end": 2.205,
+        "loc": "1",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.385,
+        "end": 3.21,
+        "loc": "0,2",
+        "word": "미납된 실적"
+      },
+      {
+        "start": 3.467,
+        "end": 4.196,
+        "loc": "3",
+        "word": "때문에"
+      },
+      {
+        "start": 4.338,
+        "end": 4.679,
+        "loc": "4,5",
+        "word": "제 신용"
+      },
+      {
+        "start": 4.822,
+        "end": 5.01,
+        "loc": "6",
+        "word": "점수가"
+      },
+      {
+        "start": 5.165,
+        "end": 5.913,
+        "loc": "7,8",
+        "word": "깎이는 걸"
+      },
+      {
+        "start": 6.068,
+        "end": 6.307,
+        "loc": "9,10,11",
+        "word": "막을 수 있는"
+      },
+      {
+        "start": 6.431,
+        "end": 6.931,
+        "loc": "12,13,14",
+        "word": "방법이 혹시 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.654,
+        "end": 1.855,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.338,
+        "end": 4.673,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.165,
+        "end": 5.913,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.068,
+        "end": 6.307,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.431,
+        "end": 6.931,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.467,
+        "end": 4.086
+      },
+      {
+        "descriptor": "",
+        "start": 2.862,
+        "end": 3.235
+      },
+      {
+        "descriptor": "",
+        "start": 5.165,
+        "end": 5.913
+      },
+      {
+        "descriptor": "",
+        "start": 6.431,
+        "end": 6.931
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.589,
+        "end": 4.089
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.165,
+        "end": 5.913
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.654,
+        "end": 1.855
+      },
+      {
+        "descriptor": "",
+        "start": 6.068,
+        "end": 6.307
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331300",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:09:10",
+    "sentence_ID": "VXPAKOKS240331300",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    229,
+    126
+  ],
+  "file": "VXPAKOKS240331300.mp4",
+  "saved_as": "VXPAKOKS240331300-미납된신용카드실적때문에제신용점수가깎이는걸막을수있는방법이혹시있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

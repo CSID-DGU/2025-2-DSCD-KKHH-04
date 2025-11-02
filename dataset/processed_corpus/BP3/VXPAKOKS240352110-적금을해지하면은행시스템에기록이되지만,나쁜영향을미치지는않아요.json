@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240352110",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금을 해지하면 은행 시스템에 기록이 되지만, 나쁜 영향을 미치지는 않아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.383,
+        "end": 1.519,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.662,
+        "end": 1.903,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.183,
+        "end": 2.369,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.641,
+        "end": 2.794,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.064,
+        "end": 3.344,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.559,
+        "end": 3.828,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.023,
+        "end": 4.182,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.372,
+        "end": 4.954,
+        "gloss_id": "맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.191,
+        "end": 5.515,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.665,
+        "end": 5.901,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.383,
+        "end": 1.893,
+        "loc": "0",
+        "word": "적금을"
+      },
+      {
+        "start": 2.183,
+        "end": 2.369,
+        "loc": "1",
+        "word": "해지하면"
+      },
+      {
+        "start": 2.641,
+        "end": 2.794,
+        "loc": "2",
+        "word": "은행"
+      },
+      {
+        "start": 3.064,
+        "end": 3.36,
+        "loc": "3",
+        "word": "시스템에"
+      },
+      {
+        "start": 3.559,
+        "end": 3.828,
+        "loc": "4",
+        "word": "기록이"
+      },
+      {
+        "start": 4.023,
+        "end": 4.953,
+        "loc": "5",
+        "word": "되지만,"
+      },
+      {
+        "start": 5.191,
+        "end": 5.878,
+        "loc": "6,7,8,9",
+        "word": "나쁜 영향을 미치지는 않아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.662,
+        "end": 1.903,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.183,
+        "end": 2.369,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.641,
+        "end": 2.794,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.064,
+        "end": 3.344,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.559,
+        "end": 4.945,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.191,
+        "end": 5.515,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.183,
+        "end": 2.369
+      },
+      {
+        "descriptor": "",
+        "start": 3.559,
+        "end": 3.828
+      },
+      {
+        "descriptor": "",
+        "start": 4.372,
+        "end": 4.954
+      },
+      {
+        "descriptor": "",
+        "start": 5.191,
+        "end": 5.515
+      },
+      {
+        "descriptor": "",
+        "start": 1.662,
+        "end": 1.903
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.559,
+        "end": 5.898
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.665,
+        "end": 5.901
+      },
+      {
+        "descriptor": "",
+        "start": 3.559,
+        "end": 3.828
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.183,
+        "end": 2.369
+      },
+      {
+        "descriptor": "",
+        "start": 5.191,
+        "end": 5.515
+      },
+      {
+        "descriptor": "",
+        "start": 1.662,
+        "end": 1.903
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352110",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:50:25",
+    "sentence_ID": "VXPAKOKS240352110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    198,
+    126
+  ],
+  "file": "VXPAKOKS240352110.mp4",
+  "saved_as": "VXPAKOKS240352110-적금을해지하면은행시스템에기록이되지만,나쁜영향을미치지는않아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

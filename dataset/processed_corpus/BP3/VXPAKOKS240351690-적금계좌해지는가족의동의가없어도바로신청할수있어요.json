@@ -1,0 +1,305 @@
+{
+  "id": "VXPAKOKS240351690",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 계좌 해지는 가족의 동의가 없어도 바로 신청할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.349,
+        "end": 1.489,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.638,
+        "end": 1.853,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.051,
+        "end": 2.166,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.433,
+        "end": 2.688,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.919,
+        "end": 3.074,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.281,
+        "end": 3.481,
+        "gloss_id": "공감1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.676,
+        "end": 4.061,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.239,
+        "end": 4.384,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.53,
+        "end": 4.625,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.78,
+        "end": 4.975,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.349,
+        "end": 1.849,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.051,
+        "end": 2.166,
+        "loc": "1",
+        "word": "계좌"
+      },
+      {
+        "start": 2.433,
+        "end": 2.688,
+        "loc": "2",
+        "word": "해지는"
+      },
+      {
+        "start": 2.919,
+        "end": 3.074,
+        "loc": "3",
+        "word": "가족의"
+      },
+      {
+        "start": 3.281,
+        "end": 3.481,
+        "loc": "4",
+        "word": "동의가"
+      },
+      {
+        "start": 3.676,
+        "end": 4.061,
+        "loc": "5",
+        "word": "없어도"
+      },
+      {
+        "start": 4.239,
+        "end": 4.384,
+        "loc": "6",
+        "word": "바로"
+      },
+      {
+        "start": 4.53,
+        "end": 4.625,
+        "loc": "7",
+        "word": "신청할"
+      },
+      {
+        "start": 4.78,
+        "end": 4.975,
+        "loc": "8,9",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.051,
+        "end": 2.166,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.433,
+        "end": 2.688,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.919,
+        "end": 3.074,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.281,
+        "end": 4.056,
+        "gloss_id": "공감1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.239,
+        "end": 4.384,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.53,
+        "end": 4.625,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.638,
+        "end": 1.853,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.78,
+        "end": 4.975
+      },
+      {
+        "descriptor": "",
+        "start": 2.433,
+        "end": 2.688
+      },
+      {
+        "descriptor": "",
+        "start": 3.676,
+        "end": 4.061
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.78,
+        "end": 4.975
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.239,
+        "end": 4.619
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.433,
+        "end": 2.688
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351690",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:47:05",
+    "sentence_ID": "VXPAKOKS240351690",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    180,
+    126
+  ],
+  "file": "VXPAKOKS240351690.mp4",
+  "saved_as": "VXPAKOKS240351690-적금계좌해지는가족의동의가없어도바로신청할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

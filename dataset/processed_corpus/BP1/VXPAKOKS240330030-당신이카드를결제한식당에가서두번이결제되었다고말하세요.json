@@ -1,0 +1,251 @@
+{
+  "id": "VXPAKOKS240330030",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "당신이 카드를 결제한 식당에 가서 두 번이 결제되었다고 말하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.22,
+        "end": 2.434,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.532,
+        "end": 3.2,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.341,
+        "end": 4.04,
+        "gloss_id": "한적있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.168,
+        "end": 4.32,
+        "gloss_id": "먹다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.38,
+        "end": 4.5,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.573,
+        "end": 5.247,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.319,
+        "end": 5.601,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.687,
+        "end": 5.957,
+        "gloss_id": "2",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.141,
+        "end": 6.641,
+        "gloss_id": "말하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.22,
+        "end": 2.434,
+        "loc": "0",
+        "word": "당신이"
+      },
+      {
+        "start": 2.532,
+        "end": 3.2,
+        "loc": "1",
+        "word": "카드를"
+      },
+      {
+        "start": 3.341,
+        "end": 4.04,
+        "loc": "2",
+        "word": "결제한"
+      },
+      {
+        "start": 4.168,
+        "end": 4.513,
+        "loc": "3",
+        "word": "식당에"
+      },
+      {
+        "start": 4.573,
+        "end": 5.247,
+        "loc": "4",
+        "word": "가서"
+      },
+      {
+        "start": 5.319,
+        "end": 5.601,
+        "loc": "7",
+        "word": "결제되었다고"
+      },
+      {
+        "start": 5.687,
+        "end": 5.957,
+        "loc": "5,6",
+        "word": "두 번이"
+      },
+      {
+        "start": 6.141,
+        "end": 6.641,
+        "loc": "8",
+        "word": "말하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.573,
+        "end": 5.247,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "두번",
+        "start": 5.687,
+        "end": 5.957
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.532,
+        "end": 3.2
+      },
+      {
+        "descriptor": "",
+        "start": 3.341,
+        "end": 4.04
+      },
+      {
+        "descriptor": "",
+        "start": 4.573,
+        "end": 5.247
+      },
+      {
+        "descriptor": "",
+        "start": 6.141,
+        "end": 6.641
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.615,
+        "end": 3.972
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.236,
+        "end": 3.2
+      },
+      {
+        "descriptor": "",
+        "start": 3.341,
+        "end": 4.04
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330030",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:49:47",
+    "sentence_ID": "VXPAKOKS240330030",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240330030.mp4",
+  "saved_as": "VXPAKOKS240330030-당신이카드를결제한식당에가서두번이결제되었다고말하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

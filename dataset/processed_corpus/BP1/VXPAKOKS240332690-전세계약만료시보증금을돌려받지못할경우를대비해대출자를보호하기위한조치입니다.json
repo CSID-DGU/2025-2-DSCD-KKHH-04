@@ -1,0 +1,364 @@
+{
+  "id": "VXPAKOKS240332690",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "전세 계약 만료 시 보증금을 돌려받지 못할 경우를 대비해 대출자를 보호하기 위한 조치입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.544,
+        "end": 2.64,
+        "gloss_id": "안보이다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.99,
+        "end": 3.327,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.566,
+        "end": 3.903,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.369,
+        "end": 4.601,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.754,
+        "end": 4.909,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.145,
+        "end": 5.405,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.629,
+        "end": 5.756,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.979,
+        "end": 6.211,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.609,
+        "end": 6.937,
+        "gloss_id": "혹시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.32,
+        "end": 7.456,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.776,
+        "end": 7.872,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.025,
+        "end": 8.12,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.263,
+        "end": 8.562,
+        "gloss_id": "보호2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.723,
+        "end": 9.242,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.544,
+        "end": 2.64,
+        "loc": "0",
+        "word": "전세"
+      },
+      {
+        "start": 2.99,
+        "end": 3.327,
+        "loc": "1",
+        "word": "계약"
+      },
+      {
+        "start": 3.566,
+        "end": 3.903,
+        "loc": "2,3",
+        "word": "만료 시"
+      },
+      {
+        "start": 4.369,
+        "end": 4.917,
+        "loc": "4",
+        "word": "보증금을"
+      },
+      {
+        "start": 5.145,
+        "end": 5.749,
+        "loc": "5",
+        "word": "돌려받지"
+      },
+      {
+        "start": 5.979,
+        "end": 6.211,
+        "loc": "6,7",
+        "word": "못할 경우를"
+      },
+      {
+        "start": 6.609,
+        "end": 6.937,
+        "loc": "8",
+        "word": "대비해"
+      },
+      {
+        "start": 7.32,
+        "end": 7.874,
+        "loc": "9",
+        "word": "대출자를"
+      },
+      {
+        "start": 8.025,
+        "end": 8.566,
+        "loc": "10,11",
+        "word": "보호하기 위한"
+      },
+      {
+        "start": 8.723,
+        "end": 9.242,
+        "loc": "12",
+        "word": "조치입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.99,
+        "end": 3.327,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.566,
+        "end": 3.903,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.776,
+        "end": 7.872,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.263,
+        "end": 8.562,
+        "gloss_id": "보호2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.723,
+        "end": 9.242,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.145,
+        "end": 5.405,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.566,
+        "end": 3.903
+      },
+      {
+        "descriptor": "",
+        "start": 5.979,
+        "end": 6.211
+      },
+      {
+        "descriptor": "",
+        "start": 6.609,
+        "end": 6.937
+      },
+      {
+        "descriptor": "",
+        "start": 8.723,
+        "end": 9.242
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.729,
+        "end": 3.903
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.369,
+        "end": 6.198
+      },
+      {
+        "descriptor": "",
+        "start": 8.025,
+        "end": 8.525
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.723,
+        "end": 9.242
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.544,
+        "end": 4.0
+      },
+      {
+        "descriptor": "",
+        "start": 7.308,
+        "end": 7.836
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332690",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:20:57",
+    "sentence_ID": "VXPAKOKS240332690",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    344,
+    126
+  ],
+  "file": "VXPAKOKS240332690.mp4",
+  "saved_as": "VXPAKOKS240332690-전세계약만료시보증금을돌려받지못할경우를대비해대출자를보호하기위한조치입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

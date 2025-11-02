@@ -1,0 +1,236 @@
+{
+  "id": "VXPAKOKS240331220",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 대금을 결제일이 오기 전에 결제할 수 있는지 알고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.683,
+        "end": 1.847,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.111,
+        "end": 2.324,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.542,
+        "end": 2.82,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.067,
+        "end": 3.345,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.633,
+        "end": 4.046,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.174,
+        "end": 4.257,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.473,
+        "end": 4.697,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.876,
+        "end": 5.289,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.683,
+        "end": 2.313,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.542,
+        "end": 3.351,
+        "loc": "2,3",
+        "word": "결제일이 오기"
+      },
+      {
+        "start": 4.174,
+        "end": 4.257,
+        "loc": "1",
+        "word": "대금을"
+      },
+      {
+        "start": 4.473,
+        "end": 5.287,
+        "loc": "5,6,7,8,9",
+        "word": "결제할 수 있는지 알고 싶어요."
+      },
+      {
+        "start": 3.633,
+        "end": 4.046,
+        "loc": "4",
+        "word": "전에"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.683,
+        "end": 2.318,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.542,
+        "end": 2.82,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.067,
+        "end": 4.038,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.473,
+        "end": 4.697,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.111,
+        "end": 2.324
+      },
+      {
+        "descriptor": "",
+        "start": 3.067,
+        "end": 3.345
+      },
+      {
+        "descriptor": "",
+        "start": 4.876,
+        "end": 5.289
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.876,
+        "end": 5.289
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.542,
+        "end": 3.329
+      },
+      {
+        "descriptor": "",
+        "start": 4.174,
+        "end": 5.281
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331220",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:08:33",
+    "sentence_ID": "VXPAKOKS240331220",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    195,
+    126
+  ],
+  "file": "VXPAKOKS240331220.mp4",
+  "saved_as": "VXPAKOKS240331220-신용카드대금을결제일이오기전에결제할수있는지알고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

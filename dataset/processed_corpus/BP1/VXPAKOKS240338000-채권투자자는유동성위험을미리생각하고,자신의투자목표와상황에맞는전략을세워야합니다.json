@@ -1,0 +1,394 @@
+{
+  "id": "VXPAKOKS240338000",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자자는 유동성 위험을 미리 생각하고, 자신의 투자 목표와 상황에 맞는 전략을 세워야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.014,
+        "end": 2.119,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.23,
+        "end": 2.458,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.64,
+        "end": 3.265,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.637,
+        "end": 3.802,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.189,
+        "end": 4.459,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.906,
+        "end": 5.249,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.48,
+        "end": 5.698,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.914,
+        "end": 6.581,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.875,
+        "end": 7.208,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.524,
+        "end": 8.107,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.367,
+        "end": 8.7,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.962,
+        "end": 9.316,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.519,
+        "end": 9.706,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 9.906,
+        "end": 10.249,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.014,
+        "end": 3.278,
+        "loc": "0,1",
+        "word": "채권 투자자는"
+      },
+      {
+        "start": 3.637,
+        "end": 3.812,
+        "loc": "2",
+        "word": "유동성"
+      },
+      {
+        "start": 4.189,
+        "end": 5.253,
+        "loc": "3",
+        "word": "위험을"
+      },
+      {
+        "start": 5.48,
+        "end": 5.698,
+        "loc": "4",
+        "word": "미리"
+      },
+      {
+        "start": 5.914,
+        "end": 6.581,
+        "loc": "5",
+        "word": "생각하고,"
+      },
+      {
+        "start": 6.875,
+        "end": 7.208,
+        "loc": "6,7",
+        "word": "자신의 투자"
+      },
+      {
+        "start": 7.524,
+        "end": 8.107,
+        "loc": "8",
+        "word": "목표와"
+      },
+      {
+        "start": 8.367,
+        "end": 8.7,
+        "loc": "9",
+        "word": "상황에"
+      },
+      {
+        "start": 8.962,
+        "end": 9.316,
+        "loc": "10",
+        "word": "맞는"
+      },
+      {
+        "start": 9.519,
+        "end": 10.238,
+        "loc": "11,12,13",
+        "word": "전략을 세워야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.64,
+        "end": 3.265,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.48,
+        "end": 5.698,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.524,
+        "end": 8.107,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.367,
+        "end": 8.7,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.962,
+        "end": 9.305,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.906,
+        "end": 10.249,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.637,
+        "end": 3.802,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.875,
+        "end": 7.208,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.906,
+        "end": 10.249
+      },
+      {
+        "descriptor": "",
+        "start": 2.64,
+        "end": 3.265
+      },
+      {
+        "descriptor": "",
+        "start": 4.906,
+        "end": 5.249
+      },
+      {
+        "descriptor": "",
+        "start": 5.927,
+        "end": 6.584
+      },
+      {
+        "descriptor": "",
+        "start": 7.544,
+        "end": 8.107
+      },
+      {
+        "descriptor": "",
+        "start": 9.108,
+        "end": 9.316
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.108,
+        "end": 9.316
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.637,
+        "end": 4.439
+      },
+      {
+        "descriptor": "",
+        "start": 5.48,
+        "end": 5.698
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.906,
+        "end": 5.249
+      },
+      {
+        "descriptor": "",
+        "start": 5.914,
+        "end": 6.581
+      },
+      {
+        "descriptor": "",
+        "start": 7.524,
+        "end": 8.107
+      },
+      {
+        "descriptor": "",
+        "start": 8.962,
+        "end": 9.316
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338000",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:12",
+    "sentence_ID": "VXPAKOKS240338000",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    376,
+    126
+  ],
+  "file": "VXPAKOKS240338000.mp4",
+  "saved_as": "VXPAKOKS240338000-채권투자자는유동성위험을미리생각하고,자신의투자목표와상황에맞는전략을세워야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

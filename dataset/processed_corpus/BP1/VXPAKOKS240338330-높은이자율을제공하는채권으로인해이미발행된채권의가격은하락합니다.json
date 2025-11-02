@@ -1,0 +1,302 @@
+{
+  "id": "VXPAKOKS240338330",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "높은 이자율을 제공하는 채권으로 인해 이미 발행된 채권의 가격은 하락합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.99,
+        "end": 2.098,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.292,
+        "end": 2.434,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.598,
+        "end": 3.173,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.414,
+        "end": 3.764,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.99,
+        "end": 4.673,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.024,
+        "end": 5.416,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.766,
+        "end": 6.041,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.364,
+        "end": 6.564,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.789,
+        "end": 7.097,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.322,
+        "end": 7.505,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.758,
+        "end": 8.208,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.99,
+        "end": 3.156,
+        "loc": "3",
+        "word": "채권으로"
+      },
+      {
+        "start": 3.99,
+        "end": 4.673,
+        "loc": "0",
+        "word": "높은"
+      },
+      {
+        "start": 3.414,
+        "end": 3.764,
+        "loc": "1,2",
+        "word": "이자율을 제공하는"
+      },
+      {
+        "start": 5.024,
+        "end": 5.416,
+        "loc": "4",
+        "word": "인해"
+      },
+      {
+        "start": 5.766,
+        "end": 6.041,
+        "loc": "5",
+        "word": "이미"
+      },
+      {
+        "start": 6.364,
+        "end": 7.081,
+        "loc": "6",
+        "word": "발행된"
+      },
+      {
+        "start": 7.322,
+        "end": 7.505,
+        "loc": "7,8",
+        "word": "채권의 가격은"
+      },
+      {
+        "start": 7.758,
+        "end": 8.208,
+        "loc": "9",
+        "word": "하락합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.598,
+        "end": 3.173,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.364,
+        "end": 7.089,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.758,
+        "end": 8.208,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.681,
+        "end": 3.173
+      },
+      {
+        "descriptor": "",
+        "start": 4.157,
+        "end": 4.673
+      },
+      {
+        "descriptor": "",
+        "start": 5.024,
+        "end": 5.416
+      },
+      {
+        "descriptor": "",
+        "start": 6.789,
+        "end": 7.097
+      },
+      {
+        "descriptor": "",
+        "start": 7.322,
+        "end": 7.505
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.024,
+        "end": 5.416
+      },
+      {
+        "descriptor": "",
+        "start": 6.789,
+        "end": 7.097
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.414,
+        "end": 4.689
+      },
+      {
+        "descriptor": "",
+        "start": 7.322,
+        "end": 8.188
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.99,
+        "end": 3.165
+      },
+      {
+        "descriptor": "",
+        "start": 5.766,
+        "end": 7.133
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338330",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:43",
+    "sentence_ID": "VXPAKOKS240338330",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    300,
+    126
+  ],
+  "file": "VXPAKOKS240338330.mp4",
+  "saved_as": "VXPAKOKS240338330-높은이자율을제공하는채권으로인해이미발행된채권의가격은하락합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

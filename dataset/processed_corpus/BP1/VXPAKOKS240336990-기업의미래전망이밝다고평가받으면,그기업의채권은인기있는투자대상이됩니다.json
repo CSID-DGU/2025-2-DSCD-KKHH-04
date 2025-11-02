@@ -1,0 +1,276 @@
+{
+  "id": "VXPAKOKS240336990",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "기업의 미래 전망이 밝다고 평가받으면, 그 기업의 채권은 인기 있는 투자 대상이 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.731,
+        "end": 2.828,
+        "gloss_id": "눈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.005,
+        "end": 3.32,
+        "gloss_id": "평가1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.593,
+        "end": 3.763,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.947,
+        "end": 4.044,
+        "gloss_id": "미래1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.293,
+        "end": 4.616,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.785,
+        "end": 5.229,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.391,
+        "end": 5.48,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.65,
+        "end": 5.803,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.977,
+        "end": 6.332,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.46,
+        "end": 6.815,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.072,
+        "end": 7.354,
+        "gloss_id": "인기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.593,
+        "end": 3.763,
+        "loc": "0",
+        "word": "기업의"
+      },
+      {
+        "start": 3.947,
+        "end": 4.044,
+        "loc": "1",
+        "word": "미래"
+      },
+      {
+        "start": 4.293,
+        "end": 4.616,
+        "loc": "2",
+        "word": "전망이"
+      },
+      {
+        "start": 4.785,
+        "end": 5.229,
+        "loc": "3",
+        "word": "밝다고"
+      },
+      {
+        "start": 2.732,
+        "end": 3.32,
+        "loc": "4",
+        "word": "평가받으면,"
+      },
+      {
+        "start": 7.072,
+        "end": 7.354,
+        "loc": "8,9",
+        "word": "인기 있는"
+      },
+      {
+        "start": 6.46,
+        "end": 6.815,
+        "loc": "10,11,12",
+        "word": "투자 대상이 됩니다."
+      },
+      {
+        "start": 5.395,
+        "end": 6.332,
+        "loc": "5,6,7",
+        "word": "그 기업의 채권은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.005,
+        "end": 3.32,
+        "gloss_id": "평가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.293,
+        "end": 4.616,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.593,
+        "end": 3.763,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.072,
+        "end": 7.354
+      },
+      {
+        "descriptor": "",
+        "start": 4.866,
+        "end": 5.225
+      },
+      {
+        "descriptor": "",
+        "start": 3.005,
+        "end": 3.32
+      },
+      {
+        "descriptor": "",
+        "start": 6.46,
+        "end": 6.815
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.866,
+        "end": 5.225
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.366,
+        "end": 5.23
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336990",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:33:32",
+    "sentence_ID": "VXPAKOKS240336990",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    290,
+    126
+  ],
+  "file": "VXPAKOKS240336990.mp4",
+  "saved_as": "VXPAKOKS240336990-기업의미래전망이밝다고평가받으면,그기업의채권은인기있는투자대상이됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

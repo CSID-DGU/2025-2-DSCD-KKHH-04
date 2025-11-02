@@ -1,0 +1,209 @@
+{
+  "id": "VXPAKOKS240333960",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "과거에 연체 기록이 있다면, 대출 금리에 영향을 미칠 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.854,
+        "end": 3.005,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.204,
+        "end": 3.311,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.593,
+        "end": 3.764,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.998,
+        "end": 4.555,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.074,
+        "end": 5.346,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.609,
+        "end": 5.849,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.162,
+        "end": 6.459,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.854,
+        "end": 3.005,
+        "loc": "0",
+        "word": "과거에"
+      },
+      {
+        "start": 3.204,
+        "end": 3.761,
+        "loc": "1,2",
+        "word": "연체 기록이"
+      },
+      {
+        "start": 3.998,
+        "end": 4.555,
+        "loc": "3",
+        "word": "있다면,"
+      },
+      {
+        "start": 5.074,
+        "end": 5.346,
+        "loc": "4",
+        "word": "대출"
+      },
+      {
+        "start": 5.609,
+        "end": 5.849,
+        "loc": "5",
+        "word": "금리에"
+      },
+      {
+        "start": 6.162,
+        "end": 6.459,
+        "loc": "6,7,8,9",
+        "word": "영향을 미칠 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.593,
+        "end": 3.764,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.998,
+        "end": 4.555
+      },
+      {
+        "descriptor": "",
+        "start": 6.162,
+        "end": 6.459
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.153,
+        "end": 4.551
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.854,
+        "end": 4.59
+      },
+      {
+        "descriptor": "",
+        "start": 6.162,
+        "end": 6.459
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.854,
+        "end": 5.833
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333960",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:16",
+    "sentence_ID": "VXPAKOKS240333960",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    228,
+    126
+  ],
+  "file": "VXPAKOKS240333960.mp4",
+  "saved_as": "VXPAKOKS240333960-과거에연체기록이있다면,대출금리에영향을미칠수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

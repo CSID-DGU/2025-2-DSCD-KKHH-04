@@ -1,0 +1,222 @@
+{
+  "id": "VXPAKOKS240351940",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "주민등록증을 분실한 상태에서 적금 계좌를 해지할 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.486,
+        "end": 1.909,
+        "gloss_id": "신분증2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.185,
+        "end": 2.743,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.036,
+        "end": 3.195,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.307,
+        "end": 3.437,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.602,
+        "end": 3.727,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.857,
+        "end": 3.991,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.134,
+        "end": 4.417,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.486,
+        "end": 1.909,
+        "loc": "0",
+        "word": "주민등록증을"
+      },
+      {
+        "start": 2.185,
+        "end": 2.743,
+        "loc": "1,2",
+        "word": "분실한 상태에서"
+      },
+      {
+        "start": 3.036,
+        "end": 3.431,
+        "loc": "3",
+        "word": "적금"
+      },
+      {
+        "start": 3.602,
+        "end": 3.727,
+        "loc": "4",
+        "word": "계좌를"
+      },
+      {
+        "start": 3.857,
+        "end": 4.4,
+        "loc": "5,6,7",
+        "word": "해지할 수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.486,
+        "end": 1.909,
+        "gloss_id": "신분증2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.307,
+        "end": 3.437,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.602,
+        "end": 3.727,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.857,
+        "end": 4.405,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.134,
+        "end": 4.417
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.134,
+        "end": 4.417
+      },
+      {
+        "descriptor": "",
+        "start": 2.44,
+        "end": 2.743
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.185,
+        "end": 2.743
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.857,
+        "end": 4.405
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351940",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:49:21",
+    "sentence_ID": "VXPAKOKS240351940",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    173,
+    126
+  ],
+  "file": "VXPAKOKS240351940.mp4",
+  "saved_as": "VXPAKOKS240351940-주민등록증을분실한상태에서적금계좌를해지할수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,328 @@
+{
+  "id": "VXPAKOKS240375910",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "돈을 관리하려면 은행 계좌의 거래 내용을 자주 확인해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.378,
+        "end": 1.535,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.757,
+        "end": 2.017,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.223,
+        "end": 2.593,
+        "gloss_id": "신경1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.842,
+        "end": 2.999,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.289,
+        "end": 3.432,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.647,
+        "end": 3.831,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.924,
+        "end": 3.993,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.11,
+        "end": 4.267,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.288,
+        "end": 4.424,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.623,
+        "end": 4.965,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.214,
+        "end": 5.467,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.636,
+        "end": 6.012,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.185,
+        "end": 6.404,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.378,
+        "end": 1.535,
+        "loc": "0",
+        "word": "돈을"
+      },
+      {
+        "start": 1.757,
+        "end": 2.991,
+        "loc": "1",
+        "word": "관리하려면"
+      },
+      {
+        "start": 3.289,
+        "end": 3.432,
+        "loc": "2",
+        "word": "은행"
+      },
+      {
+        "start": 3.647,
+        "end": 3.831,
+        "loc": "3",
+        "word": "계좌의"
+      },
+      {
+        "start": 3.924,
+        "end": 4.418,
+        "loc": "4",
+        "word": "거래"
+      },
+      {
+        "start": 4.623,
+        "end": 4.965,
+        "loc": "5",
+        "word": "내용을"
+      },
+      {
+        "start": 5.214,
+        "end": 5.467,
+        "loc": "6",
+        "word": "자주"
+      },
+      {
+        "start": 5.636,
+        "end": 6.389,
+        "loc": "7,8",
+        "word": "확인해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.223,
+        "end": 2.593,
+        "gloss_id": "신경1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.289,
+        "end": 3.432,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.647,
+        "end": 3.831,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.11,
+        "end": 4.425,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.623,
+        "end": 6.392,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.842,
+        "end": 2.999
+      },
+      {
+        "descriptor": "",
+        "start": 4.623,
+        "end": 4.965
+      },
+      {
+        "descriptor": "",
+        "start": 5.636,
+        "end": 6.012
+      },
+      {
+        "descriptor": "",
+        "start": 1.378,
+        "end": 1.535
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.757,
+        "end": 2.586
+      },
+      {
+        "descriptor": "",
+        "start": 5.636,
+        "end": 6.382
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.757,
+        "end": 3.012
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.757,
+        "end": 3.032
+      },
+      {
+        "descriptor": "",
+        "start": 3.647,
+        "end": 4.977
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240375910",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:42:46",
+    "sentence_ID": "VXPAKOKS240375910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    247,
+    126
+  ],
+  "file": "VXPAKOKS240375910.mp4",
+  "saved_as": "VXPAKOKS240375910-돈을관리하려면은행계좌의거래내용을자주확인해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

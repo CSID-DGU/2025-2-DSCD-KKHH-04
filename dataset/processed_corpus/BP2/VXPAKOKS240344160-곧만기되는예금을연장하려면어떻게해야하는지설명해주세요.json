@@ -1,0 +1,316 @@
+{
+  "id": "VXPAKOKS240344160",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "곧 만기 되는 예금을 연장하려면 어떻게 해야 하는지 설명해 주세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.868,
+        "end": 1.989,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.221,
+        "end": 2.416,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.743,
+        "end": 3.206,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.495,
+        "end": 3.832,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.234,
+        "end": 4.466,
+        "gloss_id": "미루다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.666,
+        "end": 4.995,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.293,
+        "end": 5.756,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.933,
+        "end": 6.173,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.364,
+        "end": 6.464,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.595,
+        "end": 6.857,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.868,
+        "end": 2.42,
+        "loc": "1,2",
+        "word": "만기 되는"
+      },
+      {
+        "start": 2.743,
+        "end": 3.206,
+        "loc": "0",
+        "word": "곧"
+      },
+      {
+        "start": 3.495,
+        "end": 3.832,
+        "loc": "3",
+        "word": "예금을"
+      },
+      {
+        "start": 4.234,
+        "end": 4.994,
+        "loc": "4",
+        "word": "연장하려면"
+      },
+      {
+        "start": 5.293,
+        "end": 5.756,
+        "loc": "5,6,7",
+        "word": "어떻게 해야 하는지"
+      },
+      {
+        "start": 5.933,
+        "end": 6.173,
+        "loc": "8",
+        "word": "설명해"
+      },
+      {
+        "start": 6.364,
+        "end": 6.857,
+        "loc": "9",
+        "word": "주세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.868,
+        "end": 1.989,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.221,
+        "end": 2.416,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.743,
+        "end": 3.206,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.495,
+        "end": 3.832,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.234,
+        "end": 4.466,
+        "gloss_id": "미루다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.293,
+        "end": 5.756,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.933,
+        "end": 6.462,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.595,
+        "end": 6.857,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.743,
+        "end": 3.206
+      },
+      {
+        "descriptor": "",
+        "start": 4.666,
+        "end": 4.995
+      },
+      {
+        "descriptor": "",
+        "start": 6.372,
+        "end": 6.857
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.743,
+        "end": 3.206
+      },
+      {
+        "descriptor": "",
+        "start": 4.666,
+        "end": 6.858
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.868,
+        "end": 2.398
+      },
+      {
+        "descriptor": "",
+        "start": 4.835,
+        "end": 4.995
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.868,
+        "end": 2.383
+      },
+      {
+        "descriptor": "",
+        "start": 4.234,
+        "end": 4.459
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344160",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:58:21",
+    "sentence_ID": "VXPAKOKS240344160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    267,
+    126
+  ],
+  "file": "VXPAKOKS240344160.mp4",
+  "saved_as": "VXPAKOKS240344160-곧만기되는예금을연장하려면어떻게해야하는지설명해주세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

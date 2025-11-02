@@ -1,0 +1,290 @@
+{
+  "id": "VXPAKOKS240339310",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "투자자가 전략적이고 체계적인 투자 결정을 내릴 수 있게 도움 받을 수 있으므로 펀드 매니저에게 맡깁니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.496,
+        "end": 1.624,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.847,
+        "end": 2.263,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.511,
+        "end": 2.702,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.976,
+        "end": 3.33,
+        "gloss_id": "종류2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.484,
+        "end": 3.717,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.143,
+        "end": 4.46,
+        "gloss_id": "돕다2",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.758,
+        "end": 4.993,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.315,
+        "end": 5.501,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.932,
+        "end": 6.139,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.496,
+        "end": 2.239,
+        "loc": "0",
+        "word": "투자자가"
+      },
+      {
+        "start": 4.143,
+        "end": 4.46,
+        "loc": "8,9",
+        "word": "도움 받을"
+      },
+      {
+        "start": 4.758,
+        "end": 4.993,
+        "loc": "10,11",
+        "word": "수 있으므로"
+      },
+      {
+        "start": 5.315,
+        "end": 5.501,
+        "loc": "12,13",
+        "word": "펀드 매니저에게"
+      },
+      {
+        "start": 5.932,
+        "end": 6.139,
+        "loc": "14",
+        "word": "맡깁니다."
+      },
+      {
+        "start": 3.484,
+        "end": 3.717,
+        "loc": "4,5,6,7",
+        "word": "결정을 내릴 수 있게"
+      },
+      {
+        "start": 2.505,
+        "end": 3.33,
+        "loc": "1,2,3",
+        "word": "전략적이고 체계적인 투자"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.847,
+        "end": 2.263,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.976,
+        "end": 3.33,
+        "gloss_id": "종류2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.484,
+        "end": 3.717,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.143,
+        "end": 4.46,
+        "gloss_id": "돕다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.315,
+        "end": 5.501,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.932,
+        "end": 6.139,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.847,
+        "end": 2.263
+      },
+      {
+        "descriptor": "",
+        "start": 4.808,
+        "end": 4.993
+      },
+      {
+        "descriptor": "",
+        "start": 5.995,
+        "end": 6.139
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.82,
+        "end": 4.993
+      },
+      {
+        "descriptor": "",
+        "start": 6.001,
+        "end": 6.139
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.315,
+        "end": 5.501
+      },
+      {
+        "descriptor": "",
+        "start": 2.976,
+        "end": 3.33
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.496,
+        "end": 1.789
+      },
+      {
+        "descriptor": "",
+        "start": 3.484,
+        "end": 5.016
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339310",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:57:32",
+    "sentence_ID": "VXPAKOKS240339310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    226,
+    126
+  ],
+  "file": "VXPAKOKS240339310.mp4",
+  "saved_as": "VXPAKOKS240339310-투자자가전략적이고체계적인투자결정을내릴수있게도움받을수있으므로펀드매니저에게맡깁니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,301 @@
+{
+  "id": "VXPAKOKS240336270",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장에는 보험회사, 연구소, 기업이 참여하여 채권을 구매하고 투자합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.039,
+        "end": 2.195,
+        "gloss_id": "생명1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.351,
+        "end": 2.925,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.206,
+        "end": 3.468,
+        "gloss_id": "연구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.708,
+        "end": 4.044,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.382,
+        "end": 4.989,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.106,
+        "end": 5.188,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.344,
+        "end": 5.49,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.673,
+        "end": 6.017,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.339,
+        "end": 6.551,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.824,
+        "end": 7.069,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.268,
+        "end": 7.464,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.039,
+        "end": 2.917,
+        "loc": "2",
+        "word": "보험회사,"
+      },
+      {
+        "start": 3.206,
+        "end": 4.044,
+        "loc": "3",
+        "word": "연구소,"
+      },
+      {
+        "start": 4.382,
+        "end": 4.989,
+        "loc": "4",
+        "word": "기업이"
+      },
+      {
+        "start": 6.824,
+        "end": 7.439,
+        "loc": "7,8",
+        "word": "구매하고 투자합니다."
+      },
+      {
+        "start": 6.339,
+        "end": 6.551,
+        "loc": "5",
+        "word": "참여하여"
+      },
+      {
+        "start": 5.106,
+        "end": 6.018,
+        "loc": "6",
+        "word": "채권을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.351,
+        "end": 2.925,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.206,
+        "end": 4.043,
+        "gloss_id": "연구1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.382,
+        "end": 5.488,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.673,
+        "end": 6.017,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.824,
+        "end": 7.069,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.319,
+        "end": 7.464
+      },
+      {
+        "descriptor": "",
+        "start": 2.516,
+        "end": 2.924
+      },
+      {
+        "descriptor": "",
+        "start": 3.708,
+        "end": 4.044
+      },
+      {
+        "descriptor": "",
+        "start": 4.666,
+        "end": 4.992
+      },
+      {
+        "descriptor": "",
+        "start": 6.339,
+        "end": 6.551
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.319,
+        "end": 7.464
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.099,
+        "end": 7.321
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.039,
+        "end": 2.638
+      },
+      {
+        "descriptor": "",
+        "start": 3.206,
+        "end": 3.923
+      },
+      {
+        "descriptor": "",
+        "start": 4.233,
+        "end": 4.98
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336270",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:28:49",
+    "sentence_ID": "VXPAKOKS240336270",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    296,
+    126
+  ],
+  "file": "VXPAKOKS240336270.mp4",
+  "saved_as": "VXPAKOKS240336270-채권시장에는보험회사,연구소,기업이참여하여채권을구매하고투자합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

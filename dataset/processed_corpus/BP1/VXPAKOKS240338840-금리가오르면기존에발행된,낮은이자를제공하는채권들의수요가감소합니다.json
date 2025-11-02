@@ -1,0 +1,282 @@
+{
+  "id": "VXPAKOKS240338840",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "금리가 오르면 기존에 발행된, 낮은 이자를 제공하는 채권들의 수요가 감소합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.685,
+        "end": 1.947,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.211,
+        "end": 2.662,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.998,
+        "end": 3.137,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.253,
+        "end": 3.314,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.396,
+        "end": 3.553,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.779,
+        "end": 4.144,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.478,
+        "end": 4.715,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.994,
+        "end": 5.293,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.64,
+        "end": 5.871,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.235,
+        "end": 6.546,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.685,
+        "end": 1.947,
+        "loc": "0",
+        "word": "금리가"
+      },
+      {
+        "start": 3.253,
+        "end": 4.145,
+        "loc": "7",
+        "word": "채권들의"
+      },
+      {
+        "start": 4.478,
+        "end": 4.715,
+        "loc": "5,6",
+        "word": "이자를 제공하는"
+      },
+      {
+        "start": 4.994,
+        "end": 5.293,
+        "loc": "4",
+        "word": "낮은"
+      },
+      {
+        "start": 6.235,
+        "end": 6.546,
+        "loc": "9",
+        "word": "감소합니다."
+      },
+      {
+        "start": 2.211,
+        "end": 2.662,
+        "loc": "1",
+        "word": "오르면"
+      },
+      {
+        "start": 2.998,
+        "end": 3.137,
+        "loc": "2,3",
+        "word": "기존에 발행된,"
+      },
+      {
+        "start": 5.64,
+        "end": 5.871,
+        "loc": "8",
+        "word": "수요가"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 6.235,
+        "end": 6.546,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.779,
+        "end": 4.144,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.64,
+        "end": 5.871,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.333,
+        "end": 2.649
+      },
+      {
+        "descriptor": "",
+        "start": 3.779,
+        "end": 4.144
+      },
+      {
+        "descriptor": "",
+        "start": 5.64,
+        "end": 5.871
+      },
+      {
+        "descriptor": "",
+        "start": 6.235,
+        "end": 6.546
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.327,
+        "end": 2.637
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.014,
+        "end": 6.542
+      },
+      {
+        "descriptor": "",
+        "start": 2.998,
+        "end": 3.412
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.685,
+        "end": 2.643
+      },
+      {
+        "descriptor": "",
+        "start": 3.487,
+        "end": 3.84
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338840",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:46:24",
+    "sentence_ID": "VXPAKOKS240338840",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    220,
+    126
+  ],
+  "file": "VXPAKOKS240338840.mp4",
+  "saved_as": "VXPAKOKS240338840-금리가오르면기존에발행된,낮은이자를제공하는채권들의수요가감소합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

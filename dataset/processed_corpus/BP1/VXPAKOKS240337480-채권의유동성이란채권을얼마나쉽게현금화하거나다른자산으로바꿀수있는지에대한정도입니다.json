@@ -1,0 +1,362 @@
+{
+  "id": "VXPAKOKS240337480",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 유동성이란 채권을 얼마나 쉽게 현금화하거나 다른 자산으로 바꿀 수 있는지에 대한 정도입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.963,
+        "end": 2.014,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.179,
+        "end": 2.353,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.611,
+        "end": 3.279,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.549,
+        "end": 5.528,
+        "gloss_id": "유동성",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.632,
+        "end": 5.744,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.89,
+        "end": 6.345,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.761,
+        "end": 6.98,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.263,
+        "end": 7.673,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.874,
+        "end": 8.194,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.369,
+        "end": 8.444,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.673,
+        "end": 9.128,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.554,
+        "end": 9.751,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.001,
+        "end": 10.265,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.432,
+        "end": 10.663,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.882,
+        "end": 11.09,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.274,
+        "end": 11.606,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.949,
+        "end": 3.279,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 3.549,
+        "end": 6.358,
+        "loc": "1",
+        "word": "유동성이란"
+      },
+      {
+        "start": 6.761,
+        "end": 7.676,
+        "loc": "2",
+        "word": "채권을"
+      },
+      {
+        "start": 7.874,
+        "end": 9.136,
+        "loc": "3,4,5",
+        "word": "얼마나 쉽게 현금화하거나"
+      },
+      {
+        "start": 9.554,
+        "end": 11.098,
+        "loc": "6,7,8,9,10",
+        "word": "다른 자산으로 바꿀 수 있는지에"
+      },
+      {
+        "start": 11.274,
+        "end": 11.606,
+        "loc": "11,12",
+        "word": "대한 정도입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.611,
+        "end": 3.278,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.263,
+        "end": 7.672,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.874,
+        "end": 8.194,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.673,
+        "end": 9.128,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.554,
+        "end": 9.751,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.001,
+        "end": 10.265,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.274,
+        "end": 11.606,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 11.274,
+        "end": 11.606
+      },
+      {
+        "descriptor": "",
+        "start": 2.712,
+        "end": 3.279
+      },
+      {
+        "descriptor": "",
+        "start": 5.89,
+        "end": 6.345
+      },
+      {
+        "descriptor": "",
+        "start": 7.263,
+        "end": 7.673
+      },
+      {
+        "descriptor": "",
+        "start": 8.673,
+        "end": 9.128
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 10.882,
+        "end": 11.09
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.673,
+        "end": 9.128
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.263,
+        "end": 7.673
+      },
+      {
+        "descriptor": "",
+        "start": 5.89,
+        "end": 6.345
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337480",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:38:54",
+    "sentence_ID": "VXPAKOKS240337480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    404,
+    126
+  ],
+  "file": "VXPAKOKS240337480.mp4",
+  "saved_as": "VXPAKOKS240337480-채권의유동성이란채권을얼마나쉽게현금화하거나다른자산으로바꿀수있는지에대한정도입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

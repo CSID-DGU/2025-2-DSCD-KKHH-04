@@ -1,0 +1,343 @@
+{
+  "id": "VXPAKOKS240375210",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "체크카드나 신용카드를 매월 30만 원 이상 사용하면 계좌이체 수수료가 면제돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.637,
+        "end": 1.721,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.885,
+        "end": 2.301,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.676,
+        "end": 2.822,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.055,
+        "end": 3.201,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.594,
+        "end": 3.841,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.123,
+        "end": 5.069,
+        "gloss_id": "300000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.378,
+        "end": 5.651,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.925,
+        "end": 6.273,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.472,
+        "end": 6.556,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.658,
+        "end": 6.905,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.163,
+        "end": 7.326,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.491,
+        "end": 7.646,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.76,
+        "end": 7.957,
+        "gloss_id": "공짜2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.637,
+        "end": 2.293,
+        "loc": "0",
+        "word": "체크카드나"
+      },
+      {
+        "start": 2.676,
+        "end": 3.201,
+        "loc": "1",
+        "word": "신용카드를"
+      },
+      {
+        "start": 3.594,
+        "end": 3.841,
+        "loc": "2",
+        "word": "매월"
+      },
+      {
+        "start": 4.123,
+        "end": 5.069,
+        "loc": "3,4,5",
+        "word": "30만 원 이상"
+      },
+      {
+        "start": 5.378,
+        "end": 5.651,
+        "loc": "6",
+        "word": "사용하면"
+      },
+      {
+        "start": 5.925,
+        "end": 6.913,
+        "loc": "7",
+        "word": "계좌이체"
+      },
+      {
+        "start": 7.163,
+        "end": 7.663,
+        "loc": "8",
+        "word": "수수료가"
+      },
+      {
+        "start": 7.76,
+        "end": 7.957,
+        "loc": "9",
+        "word": "면제돼요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.629,
+        "end": 5.062,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.637,
+        "end": 1.721,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.676,
+        "end": 2.822,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.925,
+        "end": 6.273,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.658,
+        "end": 6.905,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.163,
+        "end": 7.326,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.491,
+        "end": 7.646,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.885,
+        "end": 2.301
+      },
+      {
+        "descriptor": "",
+        "start": 3.055,
+        "end": 3.201
+      },
+      {
+        "descriptor": "",
+        "start": 4.629,
+        "end": 5.129
+      },
+      {
+        "descriptor": "",
+        "start": 5.378,
+        "end": 5.651
+      },
+      {
+        "descriptor": "",
+        "start": 7.76,
+        "end": 7.957
+      },
+      {
+        "descriptor": "",
+        "start": 3.594,
+        "end": 3.841
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.925,
+        "end": 6.896
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.885,
+        "end": 3.201
+      },
+      {
+        "descriptor": "",
+        "start": 4.629,
+        "end": 5.642
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240375210",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:40:02",
+    "sentence_ID": "VXPAKOKS240375210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    303,
+    126
+  ],
+  "file": "VXPAKOKS240375210.mp4",
+  "saved_as": "VXPAKOKS240375210-체크카드나신용카드를매월30만원이상사용하면계좌이체수수료가면제돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,400 @@
+{
+  "id": "VXPAKOKS240353150",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "부모님의 수술비나 자동차 구매 비용을 마련하려면 지금부터라도 적금에 가입해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.682,
+        "end": 1.947,
+        "gloss_id": "부모1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.285,
+        "end": 2.531,
+        "gloss_id": "수술1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.73,
+        "end": 2.9,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.352,
+        "end": 3.459,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.745,
+        "end": 3.934,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.133,
+        "end": 4.328,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.584,
+        "end": 4.671,
+        "gloss_id": "혹시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.92,
+        "end": 5.154,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.377,
+        "end": 5.7,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.822,
+        "end": 5.966,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.317,
+        "end": 6.493,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.621,
+        "end": 6.734,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.926,
+        "end": 7.001,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.117,
+        "end": 7.439,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.644,
+        "end": 7.852,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.682,
+        "end": 1.947,
+        "loc": "0",
+        "word": "부모님의"
+      },
+      {
+        "start": 2.285,
+        "end": 2.889,
+        "loc": "1",
+        "word": "수술비나"
+      },
+      {
+        "start": 3.352,
+        "end": 3.459,
+        "loc": "2",
+        "word": "자동차"
+      },
+      {
+        "start": 3.745,
+        "end": 3.934,
+        "loc": "3",
+        "word": "구매"
+      },
+      {
+        "start": 4.133,
+        "end": 4.328,
+        "loc": "4",
+        "word": "비용을"
+      },
+      {
+        "start": 4.584,
+        "end": 5.669,
+        "loc": "5",
+        "word": "마련하려면"
+      },
+      {
+        "start": 5.822,
+        "end": 6.514,
+        "loc": "6",
+        "word": "지금부터라도"
+      },
+      {
+        "start": 6.637,
+        "end": 7.001,
+        "loc": "7",
+        "word": "적금에"
+      },
+      {
+        "start": 7.117,
+        "end": 7.85,
+        "loc": "8,9",
+        "word": "가입해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.285,
+        "end": 2.531,
+        "gloss_id": "수술1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.352,
+        "end": 3.459,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.745,
+        "end": 4.315,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.92,
+        "end": 5.154,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.822,
+        "end": 5.966,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.317,
+        "end": 6.493,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.926,
+        "end": 7.001,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.117,
+        "end": 7.439,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.644,
+        "end": 7.852,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.377,
+        "end": 5.7
+      },
+      {
+        "descriptor": "",
+        "start": 1.682,
+        "end": 1.947
+      },
+      {
+        "descriptor": "",
+        "start": 2.73,
+        "end": 2.9
+      },
+      {
+        "descriptor": "",
+        "start": 4.133,
+        "end": 4.328
+      },
+      {
+        "descriptor": "",
+        "start": 7.644,
+        "end": 7.852
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.285,
+        "end": 2.531
+      },
+      {
+        "descriptor": "",
+        "start": 4.584,
+        "end": 5.084
+      },
+      {
+        "descriptor": "",
+        "start": 5.822,
+        "end": 6.482
+      },
+      {
+        "descriptor": "",
+        "start": 7.644,
+        "end": 7.852
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.682,
+        "end": 1.947
+      },
+      {
+        "descriptor": "",
+        "start": 3.187,
+        "end": 4.294
+      },
+      {
+        "descriptor": "",
+        "start": 5.377,
+        "end": 5.502
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353150",
+  "potogrf": {
+    "createdTime": "2024-10-11 01:57:19",
+    "sentence_ID": "VXPAKOKS240353150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    274,
+    126
+  ],
+  "file": "VXPAKOKS240353150.mp4",
+  "saved_as": "VXPAKOKS240353150-부모님의수술비나자동차구매비용을마련하려면지금부터라도적금에가입해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

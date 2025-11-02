@@ -1,0 +1,341 @@
+{
+  "id": "VXPAKOKS240353310",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "요즘은 적금 상품이 다양해져서 자기에게 맞은 상품을 선택하는 재미가 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.562,
+        "end": 2.203,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.474,
+        "end": 2.606,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.813,
+        "end": 3.072,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.241,
+        "end": 3.408,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.59,
+        "end": 3.729,
+        "gloss_id": "잡다하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.887,
+        "end": 4.571,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.787,
+        "end": 5.067,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.276,
+        "end": 5.45,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.667,
+        "end": 6.131,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.367,
+        "end": 6.69,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.873,
+        "end": 7.288,
+        "gloss_id": "재미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.562,
+        "end": 2.203,
+        "loc": "0",
+        "word": "요즘은"
+      },
+      {
+        "start": 2.474,
+        "end": 3.073,
+        "loc": "1",
+        "word": "적금"
+      },
+      {
+        "start": 3.241,
+        "end": 3.408,
+        "loc": "2",
+        "word": "상품이"
+      },
+      {
+        "start": 3.59,
+        "end": 4.572,
+        "loc": "3",
+        "word": "다양해져서"
+      },
+      {
+        "start": 4.787,
+        "end": 5.067,
+        "loc": "4",
+        "word": "자기에게"
+      },
+      {
+        "start": 5.276,
+        "end": 5.45,
+        "loc": "6",
+        "word": "상품을"
+      },
+      {
+        "start": 5.667,
+        "end": 6.131,
+        "loc": "5",
+        "word": "맞은"
+      },
+      {
+        "start": 6.374,
+        "end": 6.69,
+        "loc": "7",
+        "word": "선택하는"
+      },
+      {
+        "start": 6.873,
+        "end": 7.288,
+        "loc": "8,9",
+        "word": "재미가 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.562,
+        "end": 2.203,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.813,
+        "end": 3.072,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.241,
+        "end": 3.408,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.59,
+        "end": 3.729,
+        "gloss_id": "잡다하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.887,
+        "end": 5.06,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.276,
+        "end": 5.45,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.667,
+        "end": 6.131,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.374,
+        "end": 6.69,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.873,
+        "end": 7.288,
+        "gloss_id": "재미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.562,
+        "end": 2.203
+      },
+      {
+        "descriptor": "",
+        "start": 5.667,
+        "end": 6.131
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.474,
+        "end": 2.939
+      },
+      {
+        "descriptor": "",
+        "start": 3.59,
+        "end": 4.536
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.667,
+        "end": 6.131
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.562,
+        "end": 2.203
+      },
+      {
+        "descriptor": "",
+        "start": 3.59,
+        "end": 4.225
+      },
+      {
+        "descriptor": "",
+        "start": 5.667,
+        "end": 6.131
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353310",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:05:51",
+    "sentence_ID": "VXPAKOKS240353310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    255,
+    126
+  ],
+  "file": "VXPAKOKS240353310.mp4",
+  "saved_as": "VXPAKOKS240353310-요즘은적금상품이다양해져서자기에게맞은상품을선택하는재미가있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

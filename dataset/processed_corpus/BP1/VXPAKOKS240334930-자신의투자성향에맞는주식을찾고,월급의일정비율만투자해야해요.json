@@ -1,0 +1,277 @@
+{
+  "id": "VXPAKOKS240334930",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "자신의 투자 성향에 맞는 주식을 찾고, 월급의 일정 비율만 투자해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.577,
+        "end": 2.696,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.932,
+        "end": 3.115,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.344,
+        "end": 3.557,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.936,
+        "end": 4.148,
+        "gloss_id": "방식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.467,
+        "end": 4.788,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.04,
+        "end": 5.741,
+        "gloss_id": "찾다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.056,
+        "end": 6.232,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.475,
+        "end": 6.673,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.942,
+        "end": 7.385,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.577,
+        "end": 2.696,
+        "loc": "0",
+        "word": "자신의"
+      },
+      {
+        "start": 2.932,
+        "end": 3.539,
+        "loc": "1",
+        "word": "투자"
+      },
+      {
+        "start": 3.936,
+        "end": 4.148,
+        "loc": "2",
+        "word": "성향에"
+      },
+      {
+        "start": 4.467,
+        "end": 4.788,
+        "loc": "3,4",
+        "word": "맞는 주식을"
+      },
+      {
+        "start": 5.04,
+        "end": 5.741,
+        "loc": "5",
+        "word": "찾고,"
+      },
+      {
+        "start": 6.056,
+        "end": 6.232,
+        "loc": "6",
+        "word": "월급의"
+      },
+      {
+        "start": 6.475,
+        "end": 6.673,
+        "loc": "7,8",
+        "word": "일정 비율만"
+      },
+      {
+        "start": 6.942,
+        "end": 7.385,
+        "loc": "9,10",
+        "word": "투자해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.932,
+        "end": 3.115,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.936,
+        "end": 4.148,
+        "gloss_id": "방식1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.467,
+        "end": 5.743,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.056,
+        "end": 6.232,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.475,
+        "end": 6.673,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.589,
+        "end": 4.788
+      },
+      {
+        "descriptor": "",
+        "start": 5.04,
+        "end": 5.586
+      },
+      {
+        "descriptor": "",
+        "start": 6.475,
+        "end": 6.673
+      },
+      {
+        "descriptor": "",
+        "start": 6.942,
+        "end": 7.385
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.593,
+        "end": 4.788
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.577,
+        "end": 5.584
+      },
+      {
+        "descriptor": "",
+        "start": 6.475,
+        "end": 6.673
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334930",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:33:30",
+    "sentence_ID": "VXPAKOKS240334930",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    259,
+    126
+  ],
+  "file": "VXPAKOKS240334930.mp4",
+  "saved_as": "VXPAKOKS240334930-자신의투자성향에맞는주식을찾고,월급의일정비율만투자해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

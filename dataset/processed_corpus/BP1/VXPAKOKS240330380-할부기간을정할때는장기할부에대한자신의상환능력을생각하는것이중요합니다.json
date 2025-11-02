@@ -1,0 +1,200 @@
+{
+  "id": "VXPAKOKS240330380",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "할부 기간을 정할 때는 장기 할부에 대한 자신의 상환 능력을 생각하는 것이 중요합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.031,
+        "end": 2.389,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.545,
+        "end": 2.776,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.932,
+        "end": 3.649,
+        "gloss_id": "몇년1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.801,
+        "end": 4.282,
+        "gloss_id": "자아성찰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.471,
+        "end": 4.891,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.031,
+        "end": 3.654,
+        "loc": "0,1,2,3,4,5,6",
+        "word": "할부 기간을 정할 때는 장기 할부에 대한"
+      },
+      {
+        "start": 3.801,
+        "end": 4.282,
+        "loc": "7,8,9,10,11",
+        "word": "자신의 상환 능력을 생각하는 것이"
+      },
+      {
+        "start": 4.471,
+        "end": 4.891,
+        "loc": "12",
+        "word": "중요합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.031,
+        "end": 2.389,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.932,
+        "end": 3.649,
+        "gloss_id": "몇년1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.801,
+        "end": 4.282,
+        "gloss_id": "자아성찰1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.471,
+        "end": 4.891,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.545,
+        "end": 2.776
+      },
+      {
+        "descriptor": "",
+        "start": 2.932,
+        "end": 3.649
+      },
+      {
+        "descriptor": "",
+        "start": 3.801,
+        "end": 4.282
+      },
+      {
+        "descriptor": "",
+        "start": 4.471,
+        "end": 4.891
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.654,
+        "end": 2.776
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.801,
+        "end": 4.282
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.031,
+        "end": 2.389
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330380",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:01:28",
+    "sentence_ID": "VXPAKOKS240330380",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    170,
+    126
+  ],
+  "file": "VXPAKOKS240330380.mp4",
+  "saved_as": "VXPAKOKS240330380-할부기간을정할때는장기할부에대한자신의상환능력을생각하는것이중요합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

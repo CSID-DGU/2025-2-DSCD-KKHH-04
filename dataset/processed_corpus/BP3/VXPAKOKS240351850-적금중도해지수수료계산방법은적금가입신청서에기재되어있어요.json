@@ -1,0 +1,411 @@
+{
+  "id": "VXPAKOKS240351850",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 중도 해지 수수료 계산 방법은 적금 가입 신청서에 기재되어 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.244,
+        "end": 1.382,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.568,
+        "end": 1.904,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.149,
+        "end": 2.443,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.675,
+        "end": 3.002,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.227,
+        "end": 3.431,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.664,
+        "end": 3.786,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.981,
+        "end": 4.308,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.51,
+        "end": 4.656,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.804,
+        "end": 4.95,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.145,
+        "end": 5.522,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.75,
+        "end": 5.904,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.112,
+        "end": 6.374,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.578,
+        "end": 6.906,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.125,
+        "end": 7.28,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.513,
+        "end": 8.021,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.201,
+        "end": 8.553,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.244,
+        "end": 1.916,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.149,
+        "end": 3.002,
+        "loc": "1",
+        "word": "중도"
+      },
+      {
+        "start": 3.227,
+        "end": 3.431,
+        "loc": "2",
+        "word": "해지"
+      },
+      {
+        "start": 3.664,
+        "end": 4.304,
+        "loc": "3",
+        "word": "수수료"
+      },
+      {
+        "start": 4.51,
+        "end": 4.944,
+        "loc": "4",
+        "word": "계산"
+      },
+      {
+        "start": 5.145,
+        "end": 5.522,
+        "loc": "5",
+        "word": "방법은"
+      },
+      {
+        "start": 5.75,
+        "end": 6.381,
+        "loc": "6",
+        "word": "적금"
+      },
+      {
+        "start": 6.578,
+        "end": 6.906,
+        "loc": "7",
+        "word": "가입"
+      },
+      {
+        "start": 7.125,
+        "end": 8.053,
+        "loc": "8",
+        "word": "신청서에"
+      },
+      {
+        "start": 8.201,
+        "end": 8.553,
+        "loc": "9,10",
+        "word": "기재되어 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.568,
+        "end": 1.904,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.675,
+        "end": 3.002,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.227,
+        "end": 3.431,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.664,
+        "end": 3.786,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.981,
+        "end": 4.308,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.804,
+        "end": 4.95,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.145,
+        "end": 5.522,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.112,
+        "end": 6.374,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.578,
+        "end": 6.906,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.125,
+        "end": 7.28,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.513,
+        "end": 8.556,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.201,
+        "end": 8.553
+      },
+      {
+        "descriptor": "",
+        "start": 1.568,
+        "end": 1.904
+      },
+      {
+        "descriptor": "",
+        "start": 2.675,
+        "end": 3.002
+      },
+      {
+        "descriptor": "",
+        "start": 5.145,
+        "end": 5.522
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.244,
+        "end": 1.941
+      },
+      {
+        "descriptor": "",
+        "start": 3.227,
+        "end": 3.431
+      },
+      {
+        "descriptor": "",
+        "start": 5.145,
+        "end": 5.522
+      },
+      {
+        "descriptor": "",
+        "start": 7.125,
+        "end": 7.913
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351850",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:48:13",
+    "sentence_ID": "VXPAKOKS240351850",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    296,
+    126
+  ],
+  "file": "VXPAKOKS240351850.mp4",
+  "saved_as": "VXPAKOKS240351850-적금중도해지수수료계산방법은적금가입신청서에기재되어있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

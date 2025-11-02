@@ -1,0 +1,343 @@
+{
+  "id": "VXPAKOKS240336360",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "정부 채권과 기업 채권의 차이점은 신용 위험의 정도이며, 정부 채권의 신용 위험도가 낮습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.462,
+        "end": 2.581,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.733,
+        "end": 2.965,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.185,
+        "end": 3.737,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.062,
+        "end": 4.59,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.799,
+        "end": 5.314,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.558,
+        "end": 5.825,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.034,
+        "end": 6.564,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.934,
+        "end": 7.099,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.359,
+        "end": 7.74,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.991,
+        "end": 8.216,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.46,
+        "end": 8.796,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.077,
+        "end": 9.384,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.546,
+        "end": 9.703,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.829,
+        "end": 10.039,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.298,
+        "end": 10.694,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.062,
+        "end": 4.59,
+        "loc": "8",
+        "word": "정부"
+      },
+      {
+        "start": 2.471,
+        "end": 3.737,
+        "loc": "9",
+        "word": "채권의"
+      },
+      {
+        "start": 6.034,
+        "end": 6.564,
+        "loc": "12",
+        "word": "낮습니다."
+      },
+      {
+        "start": 4.799,
+        "end": 5.819,
+        "loc": "10,11",
+        "word": "신용 위험도가"
+      },
+      {
+        "start": 9.546,
+        "end": 10.698,
+        "loc": "0,1,2,3,4",
+        "word": "정부 채권과 기업 채권의 차이점은"
+      },
+      {
+        "start": 6.932,
+        "end": 9.427,
+        "loc": "5,6,7",
+        "word": "신용 위험의 정도이며,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.185,
+        "end": 3.737,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.062,
+        "end": 4.592,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.558,
+        "end": 5.82,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.934,
+        "end": 7.099,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.991,
+        "end": 8.216,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.298,
+        "end": 10.694,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.185,
+        "end": 3.737
+      },
+      {
+        "descriptor": "",
+        "start": 4.799,
+        "end": 5.314
+      },
+      {
+        "descriptor": "",
+        "start": 6.199,
+        "end": 6.569
+      },
+      {
+        "descriptor": "",
+        "start": 9.077,
+        "end": 9.384
+      },
+      {
+        "descriptor": "",
+        "start": 10.432,
+        "end": 10.697
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.991,
+        "end": 9.366
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.462,
+        "end": 3.64
+      },
+      {
+        "descriptor": "",
+        "start": 4.062,
+        "end": 5.207
+      },
+      {
+        "descriptor": "",
+        "start": 6.733,
+        "end": 7.55
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336360",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:29:15",
+    "sentence_ID": "VXPAKOKS240336360",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    375,
+    126
+  ],
+  "file": "VXPAKOKS240336360.mp4",
+  "saved_as": "VXPAKOKS240336360-정부채권과기업채권의차이점은신용위험의정도이며,정부채권의신용위험도가낮습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

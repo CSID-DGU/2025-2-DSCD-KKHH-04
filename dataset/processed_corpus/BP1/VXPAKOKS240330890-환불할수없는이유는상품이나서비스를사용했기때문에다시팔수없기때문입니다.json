@@ -1,0 +1,291 @@
+{
+  "id": "VXPAKOKS240330890",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "환불할 수 없는 이유는 상품이나 서비스를 사용했기 때문에 다시 팔 수 없기 때문입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.68,
+        "end": 1.766,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.842,
+        "end": 2.222,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.484,
+        "end": 2.678,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.018,
+        "end": 3.428,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.695,
+        "end": 3.817,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.043,
+        "end": 4.297,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.511,
+        "end": 4.903,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.123,
+        "end": 5.239,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.489,
+        "end": 5.761,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.101,
+        "end": 6.397,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.68,
+        "end": 2.222,
+        "loc": "0",
+        "word": "환불할"
+      },
+      {
+        "start": 2.484,
+        "end": 2.678,
+        "loc": "1,2",
+        "word": "수 없는"
+      },
+      {
+        "start": 3.018,
+        "end": 3.428,
+        "loc": "3",
+        "word": "이유는"
+      },
+      {
+        "start": 3.695,
+        "end": 3.817,
+        "loc": "4",
+        "word": "상품이나"
+      },
+      {
+        "start": 4.043,
+        "end": 4.297,
+        "loc": "5",
+        "word": "서비스를"
+      },
+      {
+        "start": 4.511,
+        "end": 4.903,
+        "loc": "6,7",
+        "word": "사용했기 때문에"
+      },
+      {
+        "start": 5.123,
+        "end": 5.239,
+        "loc": "8",
+        "word": "다시"
+      },
+      {
+        "start": 5.489,
+        "end": 5.761,
+        "loc": "9",
+        "word": "팔"
+      },
+      {
+        "start": 6.101,
+        "end": 6.397,
+        "loc": "10,11,12",
+        "word": "수 없기 때문입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.842,
+        "end": 2.222,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.695,
+        "end": 3.817,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.043,
+        "end": 4.903,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.489,
+        "end": 5.761,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.018,
+        "end": 3.428
+      },
+      {
+        "descriptor": "",
+        "start": 4.511,
+        "end": 4.903
+      },
+      {
+        "descriptor": "",
+        "start": 6.101,
+        "end": 6.397
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.511,
+        "end": 4.903
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.842,
+        "end": 3.416
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.018,
+        "end": 3.428
+      },
+      {
+        "descriptor": "",
+        "start": 4.511,
+        "end": 4.903
+      },
+      {
+        "descriptor": "",
+        "start": 6.101,
+        "end": 6.397
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330890",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:39:24",
+    "sentence_ID": "VXPAKOKS240330890",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    216,
+    126
+  ],
+  "file": "VXPAKOKS240330890.mp4",
+  "saved_as": "VXPAKOKS240330890-환불할수없는이유는상품이나서비스를사용했기때문에다시팔수없기때문입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

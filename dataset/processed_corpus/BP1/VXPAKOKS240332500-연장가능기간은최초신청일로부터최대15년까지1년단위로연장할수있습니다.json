@@ -1,0 +1,391 @@
+{
+  "id": "VXPAKOKS240332500",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "연장 가능 기간은 최초 신청일로부터 최대 15년까지 1년 단위로 연장할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.599,
+        "end": 2.728,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.033,
+        "end": 3.326,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.486,
+        "end": 3.865,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.193,
+        "end": 4.434,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.794,
+        "end": 5.035,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.414,
+        "end": 5.612,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.759,
+        "end": 6.026,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.253,
+        "end": 6.583,
+        "gloss_id": "부터3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.863,
+        "end": 7.441,
+        "gloss_id": "날짜(활용):15년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.65,
+        "end": 8.107,
+        "gloss_id": "까지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.389,
+        "end": 8.785,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.048,
+        "end": 9.522,
+        "gloss_id": "각각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.813,
+        "end": 10.054,
+        "gloss_id": "미루다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.459,
+        "end": 10.671,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.599,
+        "end": 2.728,
+        "loc": "2",
+        "word": "기간은"
+      },
+      {
+        "start": 3.033,
+        "end": 3.853,
+        "loc": "0",
+        "word": "연장"
+      },
+      {
+        "start": 4.193,
+        "end": 4.434,
+        "loc": "1",
+        "word": "가능"
+      },
+      {
+        "start": 4.794,
+        "end": 5.035,
+        "loc": "3",
+        "word": "최초"
+      },
+      {
+        "start": 5.414,
+        "end": 6.588,
+        "loc": "4",
+        "word": "신청일로부터"
+      },
+      {
+        "start": 6.863,
+        "end": 8.054,
+        "loc": "5,6",
+        "word": "최대 15년까지"
+      },
+      {
+        "start": 8.389,
+        "end": 8.785,
+        "loc": "7",
+        "word": "1년"
+      },
+      {
+        "start": 9.048,
+        "end": 9.522,
+        "loc": "8",
+        "word": "단위로"
+      },
+      {
+        "start": 9.813,
+        "end": 10.634,
+        "loc": "9,10,11",
+        "word": "연장할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.599,
+        "end": 2.727,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.033,
+        "end": 3.326,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.414,
+        "end": 5.612,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.759,
+        "end": 6.595,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.389,
+        "end": 8.785,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.048,
+        "end": 9.522,
+        "gloss_id": "각각1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.813,
+        "end": 10.054,
+        "gloss_id": "미루다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.486,
+        "end": 4.435,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.863,
+        "end": 7.44,
+        "gloss_id": "날짜(활용):15년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "십오년",
+        "start": 6.863,
+        "end": 7.363
+      },
+      {
+        "descriptor": "일년",
+        "start": 8.389,
+        "end": 8.733
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.193,
+        "end": 4.434
+      },
+      {
+        "descriptor": "",
+        "start": 4.794,
+        "end": 5.035
+      },
+      {
+        "descriptor": "",
+        "start": 7.65,
+        "end": 8.107
+      },
+      {
+        "descriptor": "",
+        "start": 6.118,
+        "end": 6.583
+      },
+      {
+        "descriptor": "",
+        "start": 9.048,
+        "end": 9.522
+      },
+      {
+        "descriptor": "",
+        "start": 10.459,
+        "end": 10.671
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.288,
+        "end": 4.434
+      },
+      {
+        "descriptor": "",
+        "start": 10.459,
+        "end": 10.671
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.599,
+        "end": 3.997
+      },
+      {
+        "descriptor": "",
+        "start": 4.836,
+        "end": 6.06
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332500",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:20:07",
+    "sentence_ID": "VXPAKOKS240332500",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    373,
+    126
+  ],
+  "file": "VXPAKOKS240332500.mp4",
+  "saved_as": "VXPAKOKS240332500-연장가능기간은최초신청일로부터최대15년까지1년단위로연장할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

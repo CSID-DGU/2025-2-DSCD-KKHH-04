@@ -1,0 +1,404 @@
+{
+  "id": "VXPAKOKS240341190",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "세계 경제와 정치적 변화, 중앙은행의 정책 변화는 해외 펀드 수익률에 영향을 미칩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.745,
+        "end": 1.979,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.15,
+        "end": 2.65,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.049,
+        "end": 3.584,
+        "gloss_id": "다스리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.871,
+        "end": 3.999,
+        "gloss_id": "중앙1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.16,
+        "end": 4.624,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.881,
+        "end": 5.221,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.474,
+        "end": 6.027,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.234,
+        "end": 6.397,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.504,
+        "end": 6.623,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.781,
+        "end": 7.183,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.42,
+        "end": 7.61,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.817,
+        "end": 8.201,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.372,
+        "end": 8.659,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.956,
+        "end": 9.332,
+        "gloss_id": "영향2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 9.63,
+        "end": 9.767,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.745,
+        "end": 1.979,
+        "loc": "0",
+        "word": "세계"
+      },
+      {
+        "start": 2.15,
+        "end": 2.65,
+        "loc": "1",
+        "word": "경제와"
+      },
+      {
+        "start": 3.049,
+        "end": 3.584,
+        "loc": "2",
+        "word": "정치적"
+      },
+      {
+        "start": 6.234,
+        "end": 6.62,
+        "loc": "7",
+        "word": "해외"
+      },
+      {
+        "start": 6.781,
+        "end": 7.183,
+        "loc": "8",
+        "word": "펀드"
+      },
+      {
+        "start": 7.42,
+        "end": 8.195,
+        "loc": "9",
+        "word": "수익률에"
+      },
+      {
+        "start": 8.372,
+        "end": 8.659,
+        "loc": "6",
+        "word": "변화는"
+      },
+      {
+        "start": 8.956,
+        "end": 9.766,
+        "loc": "10,11",
+        "word": "영향을 미칩니다."
+      },
+      {
+        "start": 3.871,
+        "end": 4.619,
+        "loc": "4,5",
+        "word": "중앙은행의 정책"
+      },
+      {
+        "start": 4.881,
+        "end": 6.036,
+        "loc": "3",
+        "word": "변화,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.745,
+        "end": 1.979,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.15,
+        "end": 2.65,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.049,
+        "end": 3.584,
+        "gloss_id": "다스리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.16,
+        "end": 4.624,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.474,
+        "end": 6.027,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.234,
+        "end": 6.397,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.504,
+        "end": 6.623,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.817,
+        "end": 8.201,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.372,
+        "end": 8.659,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.956,
+        "end": 9.332,
+        "gloss_id": "영향2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.15,
+        "end": 2.65
+      },
+      {
+        "descriptor": "",
+        "start": 3.049,
+        "end": 3.584
+      },
+      {
+        "descriptor": "",
+        "start": 4.16,
+        "end": 4.624
+      },
+      {
+        "descriptor": "",
+        "start": 5.474,
+        "end": 6.027
+      },
+      {
+        "descriptor": "",
+        "start": 6.781,
+        "end": 7.183
+      },
+      {
+        "descriptor": "",
+        "start": 8.956,
+        "end": 9.332
+      },
+      {
+        "descriptor": "",
+        "start": 9.63,
+        "end": 9.767
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 8.956,
+        "end": 9.332
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.745,
+        "end": 2.661
+      },
+      {
+        "descriptor": "",
+        "start": 4.881,
+        "end": 6.01
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341190",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:11:38",
+    "sentence_ID": "VXPAKOKS240341190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    319,
+    126
+  ],
+  "file": "VXPAKOKS240341190.mp4",
+  "saved_as": "VXPAKOKS240341190-세계경제와정치적변화,중앙은행의정책변화는해외펀드수익률에영향을미칩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

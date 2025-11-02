@@ -1,0 +1,335 @@
+{
+  "id": "VXPAKOKS240333350",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드와 달리 실제 통장에 있는 돈이 바로 출금되는 방식으로 작동합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.471,
+        "end": 2.625,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.854,
+        "end": 3.043,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.281,
+        "end": 3.763,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.028,
+        "end": 4.234,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.544,
+        "end": 4.897,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.142,
+        "end": 5.495,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.822,
+        "end": 6.019,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.222,
+        "end": 6.593,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.838,
+        "end": 6.924,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.15,
+        "end": 7.495,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.702,
+        "end": 7.977,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.237,
+        "end": 8.702,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.471,
+        "end": 3.031,
+        "loc": "0",
+        "word": "신용카드와"
+      },
+      {
+        "start": 3.281,
+        "end": 3.763,
+        "loc": "1",
+        "word": "달리"
+      },
+      {
+        "start": 4.028,
+        "end": 4.89,
+        "loc": "2,3",
+        "word": "실제 통장에"
+      },
+      {
+        "start": 6.838,
+        "end": 7.961,
+        "loc": "6,7",
+        "word": "바로 출금되는"
+      },
+      {
+        "start": 8.237,
+        "end": 8.702,
+        "loc": "8,9",
+        "word": "방식으로 작동합니다."
+      },
+      {
+        "start": 5.822,
+        "end": 6.019,
+        "loc": "5",
+        "word": "돈이"
+      },
+      {
+        "start": 6.222,
+        "end": 6.593,
+        "loc": "4",
+        "word": "있는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.471,
+        "end": 3.04,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.281,
+        "end": 3.763,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.028,
+        "end": 4.234,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.544,
+        "end": 4.897,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.142,
+        "end": 5.495,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.822,
+        "end": 6.589,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.237,
+        "end": 8.702,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.702,
+        "end": 7.977,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.854,
+        "end": 3.043
+      },
+      {
+        "descriptor": "",
+        "start": 3.281,
+        "end": 3.763
+      },
+      {
+        "descriptor": "",
+        "start": 6.222,
+        "end": 6.593
+      },
+      {
+        "descriptor": "",
+        "start": 7.15,
+        "end": 7.495
+      },
+      {
+        "descriptor": "",
+        "start": 8.237,
+        "end": 8.702
+      },
+      {
+        "descriptor": "",
+        "start": 4.544,
+        "end": 5.994
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.84,
+        "end": 8.029
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.028,
+        "end": 6.584
+      },
+      {
+        "descriptor": "",
+        "start": 2.471,
+        "end": 3.04
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333350",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:05",
+    "sentence_ID": "VXPAKOKS240333350",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    311,
+    126
+  ],
+  "file": "VXPAKOKS240333350.mp4",
+  "saved_as": "VXPAKOKS240333350-신용카드와달리실제통장에있는돈이바로출금되는방식으로작동합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

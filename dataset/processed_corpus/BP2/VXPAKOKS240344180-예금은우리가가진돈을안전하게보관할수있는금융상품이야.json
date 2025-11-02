@@ -1,0 +1,296 @@
+{
+  "id": "VXPAKOKS240344180",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "예금은 우리가 가진 돈을 안전하게 보관할 수 있는 금융 상품이야.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.486,
+        "end": 1.898,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.248,
+        "end": 2.661,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.92,
+        "end": 3.063,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.202,
+        "end": 3.374,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.725,
+        "end": 3.934,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.205,
+        "end": 4.537,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.72,
+        "end": 4.841,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.135,
+        "end": 5.38,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.714,
+        "end": 6.017,
+        "gloss_id": "번째(활용):5개 중3번째",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.42,
+        "end": 6.796,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.486,
+        "end": 1.898,
+        "loc": "1",
+        "word": "우리가"
+      },
+      {
+        "start": 2.248,
+        "end": 2.661,
+        "loc": "2,3",
+        "word": "가진 돈을"
+      },
+      {
+        "start": 2.92,
+        "end": 3.93,
+        "loc": "5,6,7",
+        "word": "보관할 수 있는"
+      },
+      {
+        "start": 4.205,
+        "end": 4.537,
+        "loc": "4",
+        "word": "안전하게"
+      },
+      {
+        "start": 4.72,
+        "end": 4.841,
+        "loc": "8",
+        "word": "금융"
+      },
+      {
+        "start": 5.135,
+        "end": 6.014,
+        "loc": "9",
+        "word": "상품이야."
+      },
+      {
+        "start": 6.42,
+        "end": 6.796,
+        "loc": "0",
+        "word": "예금은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.202,
+        "end": 3.935,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.205,
+        "end": 4.537,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.72,
+        "end": 4.841,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.135,
+        "end": 6.014,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.42,
+        "end": 6.796,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.486,
+        "end": 1.898
+      },
+      {
+        "descriptor": "",
+        "start": 2.248,
+        "end": 2.661
+      },
+      {
+        "descriptor": "",
+        "start": 3.725,
+        "end": 3.934
+      },
+      {
+        "descriptor": "",
+        "start": 4.205,
+        "end": 4.537
+      },
+      {
+        "descriptor": "",
+        "start": 5.135,
+        "end": 5.38
+      },
+      {
+        "descriptor": "",
+        "start": 6.42,
+        "end": 6.796
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.725,
+        "end": 3.934
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.486,
+        "end": 2.67
+      },
+      {
+        "descriptor": "",
+        "start": 4.205,
+        "end": 4.537
+      },
+      {
+        "descriptor": "",
+        "start": 4.72,
+        "end": 5.373
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344180",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:58:27",
+    "sentence_ID": "VXPAKOKS240344180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    262,
+    126
+  ],
+  "file": "VXPAKOKS240344180.mp4",
+  "saved_as": "VXPAKOKS240344180-예금은우리가가진돈을안전하게보관할수있는금융상품이야.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,377 @@
+{
+  "id": "VXPAKOKS240343910",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "거래 일자는 고객이 금융 활동을 추적하고 특정 시점에 어떤 거래가 이루어졌는지 나타내요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.85,
+        "end": 2.074,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.089,
+        "end": 2.218,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.359,
+        "end": 2.507,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.82,
+        "end": 3.129,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.219,
+        "end": 3.339,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.513,
+        "end": 3.709,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.18,
+        "end": 4.537,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.941,
+        "end": 5.036,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.111,
+        "end": 5.231,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.365,
+        "end": 5.647,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.676,
+        "end": 5.834,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.219,
+        "end": 6.738,
+        "gloss_id": "어디3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.207,
+        "end": 7.906,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.367,
+        "end": 9.019,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.199,
+        "end": 9.3,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.85,
+        "end": 2.236,
+        "loc": "0",
+        "word": "거래"
+      },
+      {
+        "start": 2.359,
+        "end": 3.724,
+        "loc": "1",
+        "word": "일자는"
+      },
+      {
+        "start": 4.18,
+        "end": 4.537,
+        "loc": "2",
+        "word": "고객이"
+      },
+      {
+        "start": 4.941,
+        "end": 5.825,
+        "loc": "3,4",
+        "word": "금융 활동을"
+      },
+      {
+        "start": 6.219,
+        "end": 6.738,
+        "loc": "5",
+        "word": "추적하고"
+      },
+      {
+        "start": 7.207,
+        "end": 7.906,
+        "loc": "6,7",
+        "word": "특정 시점에"
+      },
+      {
+        "start": 8.367,
+        "end": 9.019,
+        "loc": "8,9,10",
+        "word": "어떤 거래가 이루어졌는지"
+      },
+      {
+        "start": 9.199,
+        "end": 9.3,
+        "loc": "11",
+        "word": "나타내요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.85,
+        "end": 2.226,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.359,
+        "end": 2.507,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.82,
+        "end": 3.718,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.18,
+        "end": 4.537,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.941,
+        "end": 5.245,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.365,
+        "end": 5.837,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.207,
+        "end": 7.906,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.367,
+        "end": 9.304,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.513,
+        "end": 3.709
+      },
+      {
+        "descriptor": "",
+        "start": 6.219,
+        "end": 6.738
+      },
+      {
+        "descriptor": "",
+        "start": 7.207,
+        "end": 7.906
+      },
+      {
+        "descriptor": "",
+        "start": 8.367,
+        "end": 9.019
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 9.199,
+        "end": 9.3
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.85,
+        "end": 2.245
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.85,
+        "end": 3.719
+      },
+      {
+        "descriptor": "",
+        "start": 5.365,
+        "end": 6.73
+      },
+      {
+        "descriptor": "",
+        "start": 7.207,
+        "end": 7.877
+      },
+      {
+        "descriptor": "",
+        "start": 8.367,
+        "end": 9.019
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343910",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:55:36",
+    "sentence_ID": "VXPAKOKS240343910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    342,
+    126
+  ],
+  "file": "VXPAKOKS240343910.mp4",
+  "saved_as": "VXPAKOKS240343910-거래일자는고객이금융활동을추적하고특정시점에어떤거래가이루어졌는지나타내요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

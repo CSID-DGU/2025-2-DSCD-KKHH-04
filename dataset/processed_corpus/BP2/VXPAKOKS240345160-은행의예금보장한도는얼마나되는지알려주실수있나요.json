@@ -1,0 +1,273 @@
+{
+  "id": "VXPAKOKS240345160",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "은행의 예금 보장 한도는 얼마나 되는지 알려주실 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.208,
+        "end": 2.395,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.713,
+        "end": 3.298,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.507,
+        "end": 3.8,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.954,
+        "end": 4.106,
+        "gloss_id": "맡다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.303,
+        "end": 4.753,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.946,
+        "end": 5.026,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.283,
+        "end": 5.505,
+        "gloss_id": "가득하다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.771,
+        "end": 5.879,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.091,
+        "end": 6.349,
+        "gloss_id": "알려주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.557,
+        "end": 6.751,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.208,
+        "end": 2.395,
+        "loc": "0",
+        "word": "은행의"
+      },
+      {
+        "start": 2.713,
+        "end": 3.298,
+        "loc": "1",
+        "word": "예금"
+      },
+      {
+        "start": 3.507,
+        "end": 4.746,
+        "loc": "2",
+        "word": "보장"
+      },
+      {
+        "start": 4.946,
+        "end": 5.503,
+        "loc": "3",
+        "word": "한도는"
+      },
+      {
+        "start": 5.771,
+        "end": 5.879,
+        "loc": "4,5",
+        "word": "얼마나 되는지"
+      },
+      {
+        "start": 6.091,
+        "end": 6.733,
+        "loc": "6,7,8",
+        "word": "알려주실 수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.208,
+        "end": 2.395,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.713,
+        "end": 3.298,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.303,
+        "end": 4.753,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.283,
+        "end": 5.505,
+        "gloss_id": "가득하다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.713,
+        "end": 3.298
+      },
+      {
+        "descriptor": "",
+        "start": 2.208,
+        "end": 2.395
+      },
+      {
+        "descriptor": "",
+        "start": 4.303,
+        "end": 4.753
+      },
+      {
+        "descriptor": "",
+        "start": 6.557,
+        "end": 6.744
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.557,
+        "end": 6.744
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.507,
+        "end": 5.487
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.303,
+        "end": 6.753
+      },
+      {
+        "descriptor": "",
+        "start": 2.713,
+        "end": 3.298
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345160",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:03:37",
+    "sentence_ID": "VXPAKOKS240345160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    256,
+    126
+  ],
+  "file": "VXPAKOKS240345160.mp4",
+  "saved_as": "VXPAKOKS240345160-은행의예금보장한도는얼마나되는지알려주실수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

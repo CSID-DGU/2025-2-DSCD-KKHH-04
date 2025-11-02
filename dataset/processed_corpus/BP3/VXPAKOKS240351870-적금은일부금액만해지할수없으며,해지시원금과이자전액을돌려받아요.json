@@ -1,0 +1,352 @@
+{
+  "id": "VXPAKOKS240351870",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금은 일부 금액만 해지할 수 없으며, 해지 시 원금과 이자 전액을 돌려받아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.517,
+        "end": 1.685,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.86,
+        "end": 2.171,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.409,
+        "end": 2.833,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.176,
+        "end": 3.42,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.729,
+        "end": 4.033,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.392,
+        "end": 4.628,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.854,
+        "end": 5.052,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.298,
+        "end": 5.617,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.769,
+        "end": 5.937,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.121,
+        "end": 6.44,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.636,
+        "end": 6.97,
+        "gloss_id": "모두3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.097,
+        "end": 7.363,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.536,
+        "end": 7.878,
+        "gloss_id": "가져오다8",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.517,
+        "end": 2.167,
+        "loc": "0",
+        "word": "적금은"
+      },
+      {
+        "start": 2.409,
+        "end": 2.833,
+        "loc": "1,2",
+        "word": "일부 금액만"
+      },
+      {
+        "start": 3.176,
+        "end": 3.42,
+        "loc": "3",
+        "word": "해지할"
+      },
+      {
+        "start": 3.729,
+        "end": 4.033,
+        "loc": "4,5",
+        "word": "수 없으며,"
+      },
+      {
+        "start": 4.392,
+        "end": 4.628,
+        "loc": "6,7",
+        "word": "해지 시"
+      },
+      {
+        "start": 4.854,
+        "end": 5.624,
+        "loc": "8",
+        "word": "원금과"
+      },
+      {
+        "start": 5.769,
+        "end": 6.449,
+        "loc": "9",
+        "word": "이자"
+      },
+      {
+        "start": 6.636,
+        "end": 6.97,
+        "loc": "10",
+        "word": "전액을"
+      },
+      {
+        "start": 7.097,
+        "end": 7.875,
+        "loc": "11",
+        "word": "돌려받아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.86,
+        "end": 2.171,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.409,
+        "end": 2.833,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.176,
+        "end": 3.42,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.392,
+        "end": 4.628,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.854,
+        "end": 5.052,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.636,
+        "end": 6.97,
+        "gloss_id": "모두3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.097,
+        "end": 7.363,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.536,
+        "end": 7.878,
+        "gloss_id": "가져오다8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.409,
+        "end": 2.833
+      },
+      {
+        "descriptor": "",
+        "start": 5.298,
+        "end": 5.617
+      },
+      {
+        "descriptor": "",
+        "start": 6.121,
+        "end": 6.44
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.729,
+        "end": 4.033
+      },
+      {
+        "descriptor": "",
+        "start": 7.097,
+        "end": 7.868
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.517,
+        "end": 2.845
+      },
+      {
+        "descriptor": "",
+        "start": 4.392,
+        "end": 4.628
+      },
+      {
+        "descriptor": "",
+        "start": 5.298,
+        "end": 6.197
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351870",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:48:23",
+    "sentence_ID": "VXPAKOKS240351870",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    271,
+    126
+  ],
+  "file": "VXPAKOKS240351870.mp4",
+  "saved_as": "VXPAKOKS240351870-적금은일부금액만해지할수없으며,해지시원금과이자전액을돌려받아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

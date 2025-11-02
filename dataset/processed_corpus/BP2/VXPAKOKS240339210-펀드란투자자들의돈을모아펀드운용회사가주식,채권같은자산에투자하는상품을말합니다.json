@@ -1,0 +1,401 @@
+{
+  "id": "VXPAKOKS240339210",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "펀드란 투자자들의 돈을 모아 펀드 운용 회사가 주식, 채권같은 자산에 투자하는 상품을 말합니다",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.578,
+        "end": 2.684,
+        "gloss_id": " 펀드",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.01,
+        "end": 3.494,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.762,
+        "end": 3.927,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.098,
+        "end": 4.222,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.368,
+        "end": 4.474,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.809,
+        "end": 5.039,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.464,
+        "end": 5.964,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.109,
+        "end": 6.191,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.298,
+        "end": 6.438,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.435,
+        "end": 7.763,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.674,
+        "end": 7.174,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.073,
+        "end": 8.336,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.531,
+        "end": 8.859,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.12,
+        "end": 9.268,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.488,
+        "end": 9.816,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 10.102,
+        "end": 10.405,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.578,
+        "end": 3.518,
+        "loc": "0",
+        "word": "펀드란"
+      },
+      {
+        "start": 3.762,
+        "end": 4.251,
+        "loc": "1",
+        "word": "투자자들의"
+      },
+      {
+        "start": 4.368,
+        "end": 5.014,
+        "loc": "2,3",
+        "word": "돈을 모아"
+      },
+      {
+        "start": 5.464,
+        "end": 5.964,
+        "loc": "7",
+        "word": "주식,"
+      },
+      {
+        "start": 6.109,
+        "end": 7.751,
+        "loc": "8",
+        "word": "채권같은"
+      },
+      {
+        "start": 8.073,
+        "end": 8.336,
+        "loc": "9,10",
+        "word": "자산에 투자하는"
+      },
+      {
+        "start": 8.531,
+        "end": 8.859,
+        "loc": "4,5",
+        "word": "펀드 운용"
+      },
+      {
+        "start": 9.12,
+        "end": 9.268,
+        "loc": "6",
+        "word": "회사가"
+      },
+      {
+        "start": 9.488,
+        "end": 10.405,
+        "loc": "11,12",
+        "word": "상품을 말합니다"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.098,
+        "end": 4.222,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.464,
+        "end": 5.964,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.674,
+        "end": 7.174,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.435,
+        "end": 7.763,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.531,
+        "end": 8.859,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.12,
+        "end": 9.268,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.488,
+        "end": 9.816,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "펀드",
+        "start": 1.578,
+        "end": 2.684
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.128,
+        "end": 3.494
+      },
+      {
+        "descriptor": "",
+        "start": 4.809,
+        "end": 5.039
+      },
+      {
+        "descriptor": "",
+        "start": 5.464,
+        "end": 5.964
+      },
+      {
+        "descriptor": "",
+        "start": 6.674,
+        "end": 7.174
+      },
+      {
+        "descriptor": "",
+        "start": 10.102,
+        "end": 10.405
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.118,
+        "end": 3.494
+      },
+      {
+        "descriptor": "",
+        "start": 9.668,
+        "end": 9.767
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.01,
+        "end": 3.494
+      },
+      {
+        "descriptor": "",
+        "start": 7.435,
+        "end": 7.935
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.578,
+        "end": 2.684
+      },
+      {
+        "descriptor": "",
+        "start": 3.762,
+        "end": 5.037
+      },
+      {
+        "descriptor": "",
+        "start": 9.12,
+        "end": 9.268
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339210",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:56:36",
+    "sentence_ID": "VXPAKOKS240339210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    353,
+    126
+  ],
+  "file": "VXPAKOKS240339210.mp4",
+  "saved_as": "VXPAKOKS240339210-펀드란투자자들의돈을모아펀드운용회사가주식,채권같은자산에투자하는상품을말합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

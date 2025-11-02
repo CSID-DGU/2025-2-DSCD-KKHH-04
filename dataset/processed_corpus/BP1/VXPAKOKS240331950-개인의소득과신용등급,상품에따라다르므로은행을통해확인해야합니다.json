@@ -1,0 +1,271 @@
+{
+  "id": "VXPAKOKS240331950",
+  "opertor": "label10",
+  "krlgg_sntenc": {
+    "koreanText": "개인의 소득과 신용등급, 상품에 따라 다르므로 은행을 통해 확인해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.492,
+        "end": 1.905,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.029,
+        "end": 2.616,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.872,
+        "end": 3.103,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.403,
+        "end": 3.903,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.066,
+        "end": 4.418,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.548,
+        "end": 5.048,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.296,
+        "end": 5.93,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.184,
+        "end": 6.368,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.554,
+        "end": 7.054,
+        "gloss_id": "질문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.492,
+        "end": 1.905,
+        "loc": "0",
+        "word": "개인의"
+      },
+      {
+        "start": 2.029,
+        "end": 2.616,
+        "loc": "1",
+        "word": "소득과"
+      },
+      {
+        "start": 2.872,
+        "end": 3.903,
+        "loc": "2",
+        "word": "신용등급,"
+      },
+      {
+        "start": 4.066,
+        "end": 5.048,
+        "loc": "3,4",
+        "word": "상품에 따라"
+      },
+      {
+        "start": 5.296,
+        "end": 5.93,
+        "loc": "5",
+        "word": "다르므로"
+      },
+      {
+        "start": 6.184,
+        "end": 6.368,
+        "loc": "6,7",
+        "word": "은행을 통해"
+      },
+      {
+        "start": 6.554,
+        "end": 7.054,
+        "loc": "8,9",
+        "word": "확인해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.029,
+        "end": 2.616,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.872,
+        "end": 3.103,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.548,
+        "end": 5.048,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.296,
+        "end": 5.93,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.184,
+        "end": 6.368,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.554,
+        "end": 7.054
+      },
+      {
+        "descriptor": "",
+        "start": 3.403,
+        "end": 3.903
+      },
+      {
+        "descriptor": "",
+        "start": 4.548,
+        "end": 5.048
+      },
+      {
+        "descriptor": "",
+        "start": 2.029,
+        "end": 2.616
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.548,
+        "end": 5.048
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.492,
+        "end": 1.905
+      },
+      {
+        "descriptor": "",
+        "start": 6.554,
+        "end": 7.054
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331950",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:40:21",
+    "sentence_ID": "VXPAKOKS240331950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    242,
+    126
+  ],
+  "file": "VXPAKOKS240331950.mp4",
+  "saved_as": "VXPAKOKS240331950-개인의소득과신용등급,상품에따라다르므로은행을통해확인해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

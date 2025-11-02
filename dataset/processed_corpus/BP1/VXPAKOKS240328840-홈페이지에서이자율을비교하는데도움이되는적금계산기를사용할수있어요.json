@@ -1,0 +1,294 @@
+{
+  "id": "VXPAKOKS240328840",
+  "opertor": "label13",
+  "krlgg_sntenc": {
+    "koreanText": "홈페이지에서 이자율을 비교하는 데 도움이 되는 적금 계산기를 사용할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.115,
+        "end": 2.465,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.76,
+        "end": 3.132,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.322,
+        "end": 3.754,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.885,
+        "end": 4.295,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.522,
+        "end": 5.307,
+        "gloss_id": "비교1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.505,
+        "end": 6.275,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.922,
+        "end": 7.647,
+        "gloss_id": "뜨다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.889,
+        "end": 8.112,
+        "gloss_id": "읽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.295,
+        "end": 8.495,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.42,
+        "end": 6.68,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.115,
+        "end": 3.132,
+        "loc": "0",
+        "word": "홈페이지에서"
+      },
+      {
+        "start": 5.505,
+        "end": 7.64,
+        "loc": "4,5,6,7",
+        "word": "도움이 되는 적금 계산기를"
+      },
+      {
+        "start": 3.322,
+        "end": 4.294,
+        "loc": "1",
+        "word": "이자율을"
+      },
+      {
+        "start": 4.522,
+        "end": 5.307,
+        "loc": "2,3",
+        "word": "비교하는 데"
+      },
+      {
+        "start": 7.889,
+        "end": 8.112,
+        "loc": "8",
+        "word": "사용할"
+      },
+      {
+        "start": 8.295,
+        "end": 8.495,
+        "loc": "9,10",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.76,
+        "end": 3.132,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.885,
+        "end": 4.295,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.522,
+        "end": 5.307,
+        "gloss_id": "비교1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.922,
+        "end": 8.104,
+        "gloss_id": "뜨다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.76,
+        "end": 3.132
+      },
+      {
+        "descriptor": "",
+        "start": 2.115,
+        "end": 2.465
+      },
+      {
+        "descriptor": "",
+        "start": 4.747,
+        "end": 5.307
+      },
+      {
+        "descriptor": "",
+        "start": 8.295,
+        "end": 8.495
+      },
+      {
+        "descriptor": "",
+        "start": 6.922,
+        "end": 7.647
+      },
+      {
+        "descriptor": "",
+        "start": 6.42,
+        "end": 6.68
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.295,
+        "end": 8.495
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 5.505,
+        "end": 6.275
+      }
+    ],
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.889,
+        "end": 8.112
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.115,
+        "end": 2.465
+      },
+      {
+        "descriptor": "",
+        "start": 6.42,
+        "end": 6.68
+      },
+      {
+        "descriptor": "",
+        "start": 7.166,
+        "end": 7.644
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328840",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:38:13",
+    "sentence_ID": "VXPAKOKS240328840",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    270,
+    126
+  ],
+  "file": "VXPAKOKS240328840.mp4",
+  "saved_as": "VXPAKOKS240328840-홈페이지에서이자율을비교하는데도움이되는적금계산기를사용할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

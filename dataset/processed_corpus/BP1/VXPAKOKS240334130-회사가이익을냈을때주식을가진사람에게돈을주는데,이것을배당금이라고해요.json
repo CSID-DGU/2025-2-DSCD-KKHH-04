@@ -1,0 +1,325 @@
+{
+  "id": "VXPAKOKS240334130",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "회사가 이익을 냈을 때 주식을 가진 사람에게 돈을 주는데, 이것을 배당금이라고 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.735,
+        "end": 2.905,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.072,
+        "end": 3.164,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.441,
+        "end": 4.005,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.366,
+        "end": 4.563,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.836,
+        "end": 5.106,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.412,
+        "end": 5.746,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.848,
+        "end": 5.94,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.131,
+        "end": 6.631,
+        "gloss_id": "돈주다9",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.909,
+        "end": 7.01,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.202,
+        "end": 9.051,
+        "gloss_id": "배당금",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.235,
+        "end": 9.551,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.735,
+        "end": 2.905,
+        "loc": "0",
+        "word": "회사가"
+      },
+      {
+        "start": 3.072,
+        "end": 3.164,
+        "loc": "1",
+        "word": "이익을"
+      },
+      {
+        "start": 3.441,
+        "end": 4.005,
+        "loc": "2,3",
+        "word": "냈을 때"
+      },
+      {
+        "start": 4.366,
+        "end": 4.563,
+        "loc": "4",
+        "word": "주식을"
+      },
+      {
+        "start": 4.836,
+        "end": 5.106,
+        "loc": "5",
+        "word": "가진"
+      },
+      {
+        "start": 5.412,
+        "end": 5.746,
+        "loc": "6",
+        "word": "사람에게"
+      },
+      {
+        "start": 5.848,
+        "end": 5.94,
+        "loc": "7",
+        "word": "돈을"
+      },
+      {
+        "start": 6.131,
+        "end": 6.631,
+        "loc": "8",
+        "word": "주는데,"
+      },
+      {
+        "start": 6.909,
+        "end": 7.01,
+        "loc": "9",
+        "word": "이것을"
+      },
+      {
+        "start": 7.202,
+        "end": 9.051,
+        "loc": "10",
+        "word": "배당금이라고"
+      },
+      {
+        "start": 9.235,
+        "end": 9.551,
+        "loc": "11",
+        "word": "해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.735,
+        "end": 2.905,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.366,
+        "end": 4.563,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.412,
+        "end": 5.746,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.131,
+        "end": 6.631,
+        "gloss_id": "돈주다9",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.235,
+        "end": 9.551,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "배당금",
+        "start": 7.202,
+        "end": 9.051
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.441,
+        "end": 4.005
+      },
+      {
+        "descriptor": "",
+        "start": 5.412,
+        "end": 5.746
+      },
+      {
+        "descriptor": "",
+        "start": 6.131,
+        "end": 6.631
+      },
+      {
+        "descriptor": "",
+        "start": 6.909,
+        "end": 7.01
+      },
+      {
+        "descriptor": "",
+        "start": 9.235,
+        "end": 9.551
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.735,
+        "end": 3.988
+      },
+      {
+        "descriptor": "",
+        "start": 4.836,
+        "end": 5.739
+      },
+      {
+        "descriptor": "",
+        "start": 6.909,
+        "end": 7.01
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334130",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:53",
+    "sentence_ID": "VXPAKOKS240334130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    330,
+    126
+  ],
+  "file": "VXPAKOKS240334130.mp4",
+  "saved_as": "VXPAKOKS240334130-회사가이익을냈을때주식을가진사람에게돈을주는데,이것을배당금이라고해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,368 @@
+{
+  "id": "VXPAKOKS240346190",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "특별 예금은 목표 계좌 수만큼만 가입을 받기 때문에 빠르면 2일 이내에 가입이 마감돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.503,
+        "end": 1.763,
+        "gloss_id": "특별1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.054,
+        "end": 2.4,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.644,
+        "end": 2.93,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.173,
+        "end": 3.357,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.588,
+        "end": 3.831,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.139,
+        "end": 4.425,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.695,
+        "end": 5.161,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.523,
+        "end": 5.784,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.051,
+        "end": 6.397,
+        "gloss_id": "빠르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.738,
+        "end": 7.187,
+        "gloss_id": "날짜(활용):2일",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.659,
+        "end": 7.92,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.127,
+        "end": 8.431,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.503,
+        "end": 1.763,
+        "loc": "0",
+        "word": "특별"
+      },
+      {
+        "start": 2.054,
+        "end": 2.4,
+        "loc": "1",
+        "word": "예금은"
+      },
+      {
+        "start": 2.644,
+        "end": 2.93,
+        "loc": "2",
+        "word": "목표"
+      },
+      {
+        "start": 3.164,
+        "end": 3.357,
+        "loc": "3",
+        "word": "계좌"
+      },
+      {
+        "start": 3.588,
+        "end": 4.429,
+        "loc": "4",
+        "word": "수만큼만"
+      },
+      {
+        "start": 4.695,
+        "end": 5.767,
+        "loc": "5,6,7",
+        "word": "가입을 받기 때문에"
+      },
+      {
+        "start": 6.051,
+        "end": 6.397,
+        "loc": "8",
+        "word": "빠르면"
+      },
+      {
+        "start": 6.738,
+        "end": 7.187,
+        "loc": "9,10",
+        "word": "2일 이내에"
+      },
+      {
+        "start": 7.659,
+        "end": 7.92,
+        "loc": "11",
+        "word": "가입이"
+      },
+      {
+        "start": 8.127,
+        "end": 8.431,
+        "loc": "12",
+        "word": "마감돼요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.503,
+        "end": 1.763,
+        "gloss_id": "특별1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.054,
+        "end": 2.4,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.644,
+        "end": 2.93,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.164,
+        "end": 3.357,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.588,
+        "end": 3.831,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.139,
+        "end": 4.425,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.695,
+        "end": 5.784,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.659,
+        "end": 7.92,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.127,
+        "end": 8.431,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "이일",
+        "start": 6.738,
+        "end": 7.187
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.738,
+        "end": 7.187
+      },
+      {
+        "descriptor": "",
+        "start": 2.054,
+        "end": 2.4
+      },
+      {
+        "descriptor": "",
+        "start": 4.139,
+        "end": 4.425
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.127,
+        "end": 8.431
+      },
+      {
+        "descriptor": "",
+        "start": 5.523,
+        "end": 5.784
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.503,
+        "end": 3.342
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.503,
+        "end": 2.224
+      },
+      {
+        "descriptor": "",
+        "start": 3.588,
+        "end": 4.223
+      },
+      {
+        "descriptor": "",
+        "start": 6.051,
+        "end": 6.235
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346190",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:42:52",
+    "sentence_ID": "VXPAKOKS240346190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    307,
+    126
+  ],
+  "file": "VXPAKOKS240346190.mp4",
+  "saved_as": "VXPAKOKS240346190-특별예금은목표계좌수만큼만가입을받기때문에빠르면2일이내에가입이마감돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

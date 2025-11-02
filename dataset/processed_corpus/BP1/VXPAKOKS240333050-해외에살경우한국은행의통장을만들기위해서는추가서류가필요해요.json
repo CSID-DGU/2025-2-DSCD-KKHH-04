@@ -1,0 +1,316 @@
+{
+  "id": "VXPAKOKS240333050",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "해외에 살 경우 한국은행의 통장을 만들기 위해서는 추가 서류가 필요해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.49,
+        "end": 2.665,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.839,
+        "end": 3.51,
+        "gloss_id": "머무르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.832,
+        "end": 3.983,
+        "gloss_id": "한국1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.205,
+        "end": 4.449,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.701,
+        "end": 4.922,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.05,
+        "end": 5.333,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.593,
+        "end": 5.845,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.105,
+        "end": 6.481,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.664,
+        "end": 6.931,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.183,
+        "end": 7.505,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.49,
+        "end": 2.665,
+        "loc": "0",
+        "word": "해외에"
+      },
+      {
+        "start": 2.839,
+        "end": 3.51,
+        "loc": "1,2",
+        "word": "살 경우"
+      },
+      {
+        "start": 3.832,
+        "end": 4.456,
+        "loc": "3",
+        "word": "한국은행의"
+      },
+      {
+        "start": 4.701,
+        "end": 4.922,
+        "loc": "4",
+        "word": "통장을"
+      },
+      {
+        "start": 5.05,
+        "end": 5.837,
+        "loc": "5,6",
+        "word": "만들기 위해서는"
+      },
+      {
+        "start": 6.105,
+        "end": 6.481,
+        "loc": "8",
+        "word": "서류가"
+      },
+      {
+        "start": 6.664,
+        "end": 6.931,
+        "loc": "7",
+        "word": "추가"
+      },
+      {
+        "start": 7.183,
+        "end": 7.505,
+        "loc": "9",
+        "word": "필요해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.49,
+        "end": 2.665,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.839,
+        "end": 3.51,
+        "gloss_id": "머무르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.205,
+        "end": 4.449,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.701,
+        "end": 4.922,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.05,
+        "end": 5.333,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.105,
+        "end": 6.481,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.664,
+        "end": 6.931,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.183,
+        "end": 7.505,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.839,
+        "end": 3.51
+      },
+      {
+        "descriptor": "",
+        "start": 4.205,
+        "end": 4.449
+      },
+      {
+        "descriptor": "",
+        "start": 5.593,
+        "end": 5.845
+      },
+      {
+        "descriptor": "",
+        "start": 6.105,
+        "end": 6.481
+      },
+      {
+        "descriptor": "",
+        "start": 7.183,
+        "end": 7.505
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.701,
+        "end": 5.86
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.49,
+        "end": 3.533
+      },
+      {
+        "descriptor": "",
+        "start": 6.105,
+        "end": 6.481
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333050",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:26:46",
+    "sentence_ID": "VXPAKOKS240333050",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    279,
+    126
+  ],
+  "file": "VXPAKOKS240333050.mp4",
+  "saved_as": "VXPAKOKS240333050-해외에살경우한국은행의통장을만들기위해서는추가서류가필요해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

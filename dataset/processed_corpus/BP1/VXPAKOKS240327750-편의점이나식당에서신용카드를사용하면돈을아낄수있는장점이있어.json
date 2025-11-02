@@ -1,0 +1,271 @@
+{
+  "id": "VXPAKOKS240327750",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "편의점이나 식당에서 신용카드를 사용하면 돈을 아낄 수 있는 장점이 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.658,
+        "end": 2.302,
+        "gloss_id": "시간:24시간",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.605,
+        "end": 2.76,
+        "gloss_id": "먹다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.944,
+        "end": 3.403,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.633,
+        "end": 3.813,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.115,
+        "end": 4.649,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.799,
+        "end": 4.91,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.085,
+        "end": 5.271,
+        "gloss_id": "아끼다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.487,
+        "end": 5.773,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.957,
+        "end": 6.181,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.264,
+        "end": 6.4,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.658,
+        "end": 2.302,
+        "loc": "0",
+        "word": "편의점이나"
+      },
+      {
+        "start": 2.605,
+        "end": 3.41,
+        "loc": "1",
+        "word": "식당에서"
+      },
+      {
+        "start": 3.633,
+        "end": 4.654,
+        "loc": "2",
+        "word": "신용카드를"
+      },
+      {
+        "start": 4.799,
+        "end": 4.91,
+        "loc": "4",
+        "word": "돈을"
+      },
+      {
+        "start": 5.085,
+        "end": 5.271,
+        "loc": "5",
+        "word": "아낄"
+      },
+      {
+        "start": 5.487,
+        "end": 5.773,
+        "loc": "6,7",
+        "word": "수 있는"
+      },
+      {
+        "start": 5.957,
+        "end": 6.401,
+        "loc": "8,9",
+        "word": "장점이 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.633,
+        "end": 3.813,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.658,
+        "end": 2.302,
+        "gloss_id": "시간:24시간",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.085,
+        "end": 5.271,
+        "gloss_id": "아끼다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.658,
+        "end": 2.302
+      },
+      {
+        "descriptor": "",
+        "start": 5.487,
+        "end": 5.773
+      },
+      {
+        "descriptor": "",
+        "start": 2.944,
+        "end": 3.403
+      },
+      {
+        "descriptor": "",
+        "start": 4.115,
+        "end": 4.649
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.487,
+        "end": 5.773
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.957,
+        "end": 6.388
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.109,
+        "end": 4.649
+      },
+      {
+        "descriptor": "",
+        "start": 1.658,
+        "end": 2.302
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327750",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:21:53",
+    "sentence_ID": "VXPAKOKS240327750",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    226,
+    126
+  ],
+  "file": "VXPAKOKS240327750.mp4",
+  "saved_as": "VXPAKOKS240327750-편의점이나식당에서신용카드를사용하면돈을아낄수있는장점이있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

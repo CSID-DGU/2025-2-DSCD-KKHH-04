@@ -1,0 +1,312 @@
+{
+  "id": "VXPAKOKS240344140",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "제가 해외에 살고 있는데, 예금 계좌를 해외에서도 사용할 수 있는지 궁금합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.41,
+        "end": 1.568,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.773,
+        "end": 2.21,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.433,
+        "end": 2.947,
+        "gloss_id": "머무르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.224,
+        "end": 3.668,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.95,
+        "end": 4.506,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.914,
+        "end": 5.288,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.374,
+        "end": 5.483,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.653,
+        "end": 5.874,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.093,
+        "end": 6.251,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.47,
+        "end": 6.74,
+        "gloss_id": "궁금하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.41,
+        "end": 1.568,
+        "loc": "0",
+        "word": "제가"
+      },
+      {
+        "start": 1.773,
+        "end": 2.21,
+        "loc": "1",
+        "word": "해외에"
+      },
+      {
+        "start": 2.433,
+        "end": 2.947,
+        "loc": "2,3",
+        "word": "살고 있는데,"
+      },
+      {
+        "start": 3.224,
+        "end": 3.668,
+        "loc": "4",
+        "word": "예금"
+      },
+      {
+        "start": 3.95,
+        "end": 4.506,
+        "loc": "5",
+        "word": "계좌를"
+      },
+      {
+        "start": 4.914,
+        "end": 5.469,
+        "loc": "6",
+        "word": "해외에서도"
+      },
+      {
+        "start": 6.47,
+        "end": 6.74,
+        "loc": "10",
+        "word": "궁금합니다."
+      },
+      {
+        "start": 6.093,
+        "end": 6.251,
+        "loc": "8,9",
+        "word": "수 있는지"
+      },
+      {
+        "start": 5.653,
+        "end": 5.874,
+        "loc": "7",
+        "word": "사용할"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.773,
+        "end": 2.21,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.433,
+        "end": 2.947,
+        "gloss_id": "머무르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.224,
+        "end": 3.668,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.95,
+        "end": 4.506,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.914,
+        "end": 5.482,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.653,
+        "end": 5.874,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.41,
+        "end": 1.568
+      },
+      {
+        "descriptor": "",
+        "start": 3.95,
+        "end": 4.416
+      },
+      {
+        "descriptor": "",
+        "start": 6.093,
+        "end": 6.251
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.093,
+        "end": 6.251
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.41,
+        "end": 1.568
+      },
+      {
+        "descriptor": "",
+        "start": 2.433,
+        "end": 3.397
+      },
+      {
+        "descriptor": "",
+        "start": 6.47,
+        "end": 6.74
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.41,
+        "end": 1.568
+      },
+      {
+        "descriptor": "",
+        "start": 4.574,
+        "end": 6.249
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344140",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:34:03",
+    "sentence_ID": "VXPAKOKS240344140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240344140.mp4",
+  "saved_as": "VXPAKOKS240344140-제가해외에살고있는데,예금계좌를해외에서도사용할수있는지궁금합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

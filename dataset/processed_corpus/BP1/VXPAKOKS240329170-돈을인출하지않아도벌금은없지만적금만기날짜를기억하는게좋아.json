@@ -1,0 +1,327 @@
+{
+  "id": "VXPAKOKS240329170",
+  "opertor": "label17",
+  "krlgg_sntenc": {
+    "koreanText": "돈을 인출하지 않아도 벌금은 없지만 적금 만기날짜를 기억하는 게 좋아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.066,
+        "end": 2.153,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.299,
+        "end": 2.599,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.766,
+        "end": 3.08,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.299,
+        "end": 3.634,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.866,
+        "end": 4.049,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.233,
+        "end": 4.843,
+        "gloss_id": "없다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.099,
+        "end": 5.365,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.533,
+        "end": 5.943,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.133,
+        "end": 6.364,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.533,
+        "end": 6.792,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.099,
+        "end": 7.461,
+        "gloss_id": "기억1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.066,
+        "end": 2.153,
+        "loc": "0",
+        "word": "돈을"
+      },
+      {
+        "start": 2.299,
+        "end": 2.599,
+        "loc": "1",
+        "word": "인출하지"
+      },
+      {
+        "start": 2.766,
+        "end": 3.631,
+        "loc": "2",
+        "word": "않아도"
+      },
+      {
+        "start": 3.866,
+        "end": 4.049,
+        "loc": "3",
+        "word": "벌금은"
+      },
+      {
+        "start": 4.233,
+        "end": 4.843,
+        "loc": "4",
+        "word": "없지만"
+      },
+      {
+        "start": 6.133,
+        "end": 6.791,
+        "loc": "6",
+        "word": "만기날짜를"
+      },
+      {
+        "start": 7.099,
+        "end": 7.461,
+        "loc": "7,8,9",
+        "word": "기억하는 게 좋아."
+      },
+      {
+        "start": 5.099,
+        "end": 5.944,
+        "loc": "5",
+        "word": "적금"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.299,
+        "end": 3.067,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.866,
+        "end": 4.049,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.099,
+        "end": 5.365,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.533,
+        "end": 5.943,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.133,
+        "end": 6.364,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.533,
+        "end": 6.792,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.766,
+        "end": 3.08
+      },
+      {
+        "descriptor": "",
+        "start": 5.533,
+        "end": 5.943
+      },
+      {
+        "descriptor": "",
+        "start": 7.099,
+        "end": 7.461
+      },
+      {
+        "descriptor": "",
+        "start": 6.533,
+        "end": 6.792
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.533,
+        "end": 6.792
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 4.233,
+        "end": 4.843
+      },
+      {
+        "descriptor": "",
+        "start": 3.866,
+        "end": 4.049
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.766,
+        "end": 3.08
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.066,
+        "end": 2.153
+      },
+      {
+        "descriptor": "",
+        "start": 6.133,
+        "end": 6.364
+      },
+      {
+        "descriptor": "",
+        "start": 6.533,
+        "end": 6.792
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329170",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:42:45",
+    "sentence_ID": "VXPAKOKS240329170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    248,
+    126
+  ],
+  "file": "VXPAKOKS240329170.mp4",
+  "saved_as": "VXPAKOKS240329170-돈을인출하지않아도벌금은없지만적금만기날짜를기억하는게좋아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,279 @@
+{
+  "id": "VXPAKOKS240336100",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "원금 손실 위험이 낮고, 수익을 예상할 수 있는 것이 채권이 장점입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.11,
+        "end": 2.239,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.521,
+        "end": 2.699,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.94,
+        "end": 3.504,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.721,
+        "end": 3.979,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.197,
+        "end": 4.52,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.752,
+        "end": 5.284,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.598,
+        "end": 5.76,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.001,
+        "end": 6.267,
+        "gloss_id": "아마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.476,
+        "end": 6.75,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.984,
+        "end": 7.105,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.298,
+        "end": 7.516,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.126,
+        "end": 3.504,
+        "loc": "9",
+        "word": "채권이"
+      },
+      {
+        "start": 6.984,
+        "end": 7.512,
+        "loc": "10",
+        "word": "장점입니다."
+      },
+      {
+        "start": 5.598,
+        "end": 5.76,
+        "loc": "4",
+        "word": "수익을"
+      },
+      {
+        "start": 6.001,
+        "end": 6.267,
+        "loc": "5",
+        "word": "예상할"
+      },
+      {
+        "start": 6.476,
+        "end": 6.75,
+        "loc": "6,7,8",
+        "word": "수 있는 것이"
+      },
+      {
+        "start": 3.721,
+        "end": 3.979,
+        "loc": "0",
+        "word": "원금"
+      },
+      {
+        "start": 4.197,
+        "end": 4.52,
+        "loc": "1,2",
+        "word": "손실 위험이"
+      },
+      {
+        "start": 4.752,
+        "end": 5.284,
+        "loc": "3",
+        "word": "낮고,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.94,
+        "end": 3.982,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.197,
+        "end": 4.52,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.298,
+        "end": 7.516
+      },
+      {
+        "descriptor": "",
+        "start": 2.94,
+        "end": 3.504
+      },
+      {
+        "descriptor": "",
+        "start": 4.92,
+        "end": 5.277
+      },
+      {
+        "descriptor": "",
+        "start": 6.565,
+        "end": 6.75
+      },
+      {
+        "descriptor": "",
+        "start": 6.001,
+        "end": 6.267
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.561,
+        "end": 6.75
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.37,
+        "end": 7.516
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.11,
+        "end": 3.51
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336100",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:32",
+    "sentence_ID": "VXPAKOKS240336100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    290,
+    126
+  ],
+  "file": "VXPAKOKS240336100.mp4",
+  "saved_as": "VXPAKOKS240336100-원금손실위험이낮고,수익을예상할수있는것이채권이장점입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

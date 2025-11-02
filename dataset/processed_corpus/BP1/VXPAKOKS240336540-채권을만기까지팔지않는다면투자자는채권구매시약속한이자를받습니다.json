@@ -1,0 +1,252 @@
+{
+  "id": "VXPAKOKS240336540",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권을 만기까지 팔지 않는다면 투자자는 채권 구매 시 약속한 이자를 받습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.409,
+        "end": 2.514,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.699,
+        "end": 2.851,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.066,
+        "end": 3.388,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.566,
+        "end": 4.131,
+        "gloss_id": "가지고다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.482,
+        "end": 4.666,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.927,
+        "end": 5.928,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.117,
+        "end": 6.374,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.545,
+        "end": 6.964,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.241,
+        "end": 7.611,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.411,
+        "end": 3.388,
+        "loc": "0",
+        "word": "채권을"
+      },
+      {
+        "start": 4.474,
+        "end": 5.928,
+        "loc": "1",
+        "word": "만기까지"
+      },
+      {
+        "start": 3.566,
+        "end": 4.131,
+        "loc": "2,3",
+        "word": "팔지 않는다면"
+      },
+      {
+        "start": 6.117,
+        "end": 6.956,
+        "loc": "4,5,6,7,8,9",
+        "word": "투자자는 채권 구매 시 약속한 이자를"
+      },
+      {
+        "start": 7.241,
+        "end": 7.611,
+        "loc": "10",
+        "word": "받습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.066,
+        "end": 3.388,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.482,
+        "end": 4.666,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.927,
+        "end": 6.373,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.545,
+        "end": 7.619,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.135,
+        "end": 5.731
+      },
+      {
+        "descriptor": "",
+        "start": 6.768,
+        "end": 6.966
+      },
+      {
+        "descriptor": "",
+        "start": 7.241,
+        "end": 7.611
+      },
+      {
+        "descriptor": "",
+        "start": 3.566,
+        "end": 4.131
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.135,
+        "end": 5.727
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 3.833,
+        "end": 4.128
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.699,
+        "end": 6.364
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336540",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:25",
+    "sentence_ID": "VXPAKOKS240336540",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    291,
+    126
+  ],
+  "file": "VXPAKOKS240336540.mp4",
+  "saved_as": "VXPAKOKS240336540-채권을만기까지팔지않는다면투자자는채권구매시약속한이자를받습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

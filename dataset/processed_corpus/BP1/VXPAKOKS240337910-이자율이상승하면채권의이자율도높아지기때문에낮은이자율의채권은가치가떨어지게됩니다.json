@@ -1,0 +1,374 @@
+{
+  "id": "VXPAKOKS240337910",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "이자율이 상승하면 채권의 이자율도 높아지기 때문에 낮은 이자율의 채권은 가치가 떨어지게 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.147,
+        "end": 2.557,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.825,
+        "end": 4.381,
+        "gloss_id": "오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.684,
+        "end": 4.937,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.168,
+        "end": 5.354,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.529,
+        "end": 5.883,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.084,
+        "end": 6.293,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.509,
+        "end": 6.886,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.327,
+        "end": 7.636,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.764,
+        "end": 7.826,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.993,
+        "end": 8.163,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.341,
+        "end": 8.774,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.032,
+        "end": 9.47,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.788,
+        "end": 10.305,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.485,
+        "end": 10.582,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.802,
+        "end": 11.263,
+        "gloss_id": "감소2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.898,
+        "end": 3.476,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.147,
+        "end": 3.497,
+        "loc": "0",
+        "word": "이자율이"
+      },
+      {
+        "start": 3.825,
+        "end": 4.381,
+        "loc": "1",
+        "word": "상승하면"
+      },
+      {
+        "start": 4.684,
+        "end": 5.866,
+        "loc": "2",
+        "word": "채권의"
+      },
+      {
+        "start": 6.084,
+        "end": 6.293,
+        "loc": "3",
+        "word": "이자율도"
+      },
+      {
+        "start": 6.509,
+        "end": 6.886,
+        "loc": "4",
+        "word": "높아지기"
+      },
+      {
+        "start": 7.327,
+        "end": 7.636,
+        "loc": "5",
+        "word": "때문에"
+      },
+      {
+        "start": 7.769,
+        "end": 8.767,
+        "loc": "8",
+        "word": "채권은"
+      },
+      {
+        "start": 9.032,
+        "end": 9.47,
+        "loc": "7",
+        "word": "이자율의"
+      },
+      {
+        "start": 9.788,
+        "end": 10.305,
+        "loc": "6",
+        "word": "낮은"
+      },
+      {
+        "start": 10.485,
+        "end": 10.582,
+        "loc": "9",
+        "word": "가치가"
+      },
+      {
+        "start": 10.802,
+        "end": 11.263,
+        "loc": "10,11",
+        "word": "떨어지게 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 5.529,
+        "end": 5.883,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.327,
+        "end": 7.636,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.341,
+        "end": 8.772,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.788,
+        "end": 10.305,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.898,
+        "end": 3.475,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.825,
+        "end": 4.381,
+        "gloss_id": "오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.327,
+        "end": 7.636
+      },
+      {
+        "descriptor": "",
+        "start": 10.802,
+        "end": 11.261
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.825,
+        "end": 4.381
+      },
+      {
+        "descriptor": "",
+        "start": 7.327,
+        "end": 7.636
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 9.032,
+        "end": 11.261
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.147,
+        "end": 5.847
+      },
+      {
+        "descriptor": "",
+        "start": 7.764,
+        "end": 8.779
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337910",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:40:47",
+    "sentence_ID": "VXPAKOKS240337910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    403,
+    126
+  ],
+  "file": "VXPAKOKS240337910.mp4",
+  "saved_as": "VXPAKOKS240337910-이자율이상승하면채권의이자율도높아지기때문에낮은이자율의채권은가치가떨어지게됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

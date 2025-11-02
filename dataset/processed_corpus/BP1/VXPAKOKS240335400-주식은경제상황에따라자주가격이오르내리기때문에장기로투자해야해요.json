@@ -1,0 +1,314 @@
+{
+  "id": "VXPAKOKS240335400",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주식은 경제 상황에 따라 자주 가격이 오르내리기 때문에 장기로 투자해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.479,
+        "end": 2.907,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.197,
+        "end": 3.673,
+        "gloss_id": "맥락1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.802,
+        "end": 4.095,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.078,
+        "end": 5.45,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.867,
+        "end": 6.136,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.497,
+        "end": 6.71,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.888,
+        "end": 7.627,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.868,
+        "end": 8.193,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.321,
+        "end": 4.869,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.479,
+        "end": 2.907,
+        "loc": "1",
+        "word": "경제"
+      },
+      {
+        "start": 3.197,
+        "end": 3.673,
+        "loc": "2,3",
+        "word": "상황에 따라"
+      },
+      {
+        "start": 3.802,
+        "end": 4.095,
+        "loc": "4",
+        "word": "자주"
+      },
+      {
+        "start": 4.321,
+        "end": 4.853,
+        "loc": "5,6",
+        "word": "가격이 오르내리기"
+      },
+      {
+        "start": 5.078,
+        "end": 5.45,
+        "loc": "7",
+        "word": "때문에"
+      },
+      {
+        "start": 5.867,
+        "end": 6.136,
+        "loc": "0",
+        "word": "주식은"
+      },
+      {
+        "start": 6.497,
+        "end": 6.71,
+        "loc": "8",
+        "word": "장기로"
+      },
+      {
+        "start": 6.888,
+        "end": 8.185,
+        "loc": "9,10",
+        "word": "투자해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.479,
+        "end": 2.907,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.197,
+        "end": 3.673,
+        "gloss_id": "맥락1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.802,
+        "end": 4.095,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.078,
+        "end": 5.45,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.867,
+        "end": 6.136,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.497,
+        "end": 6.71,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.888,
+        "end": 7.627,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.868,
+        "end": 8.193,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.321,
+        "end": 4.869,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.221,
+        "end": 5.426
+      },
+      {
+        "descriptor": "",
+        "start": 5.867,
+        "end": 6.136
+      },
+      {
+        "descriptor": "",
+        "start": 6.888,
+        "end": 7.627
+      },
+      {
+        "descriptor": "",
+        "start": 3.197,
+        "end": 3.673
+      },
+      {
+        "descriptor": "",
+        "start": 3.802,
+        "end": 4.095
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.221,
+        "end": 5.434
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.479,
+        "end": 3.648
+      },
+      {
+        "descriptor": "",
+        "start": 5.867,
+        "end": 6.136
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335400",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:36:03",
+    "sentence_ID": "VXPAKOKS240335400",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    287,
+    126
+  ],
+  "file": "VXPAKOKS240335400.mp4",
+  "saved_as": "VXPAKOKS240335400-주식은경제상황에따라자주가격이오르내리기때문에장기로투자해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

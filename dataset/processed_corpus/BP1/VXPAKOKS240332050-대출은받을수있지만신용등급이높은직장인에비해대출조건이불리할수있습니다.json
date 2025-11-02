@@ -1,0 +1,247 @@
+{
+  "id": "VXPAKOKS240332050",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "대출은 받을 수 있지만 신용등급이 높은 직장인에 비해 대출 조건이 불리할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.449,
+        "end": 1.696,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.788,
+        "end": 2.066,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.207,
+        "end": 2.577,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.701,
+        "end": 3.053,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.12,
+        "end": 3.799,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.909,
+        "end": 4.292,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.427,
+        "end": 4.927,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.074,
+        "end": 5.975,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.166,
+        "end": 6.666,
+        "gloss_id": "힘들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.449,
+        "end": 2.078,
+        "loc": "6",
+        "word": "직장인에"
+      },
+      {
+        "start": 2.207,
+        "end": 3.033,
+        "loc": "4",
+        "word": "신용등급이"
+      },
+      {
+        "start": 5.074,
+        "end": 5.975,
+        "loc": "9",
+        "word": "조건이"
+      },
+      {
+        "start": 6.166,
+        "end": 6.666,
+        "loc": "10,11,12",
+        "word": "불리할 수 있습니다."
+      },
+      {
+        "start": 3.909,
+        "end": 4.292,
+        "loc": "0",
+        "word": "대출은"
+      },
+      {
+        "start": 4.427,
+        "end": 4.927,
+        "loc": "1,2,3",
+        "word": "받을 수 있지만"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.443,
+        "end": 1.696,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.788,
+        "end": 2.066,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.207,
+        "end": 2.577,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.074,
+        "end": 5.975,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.12,
+        "end": 3.799
+      },
+      {
+        "descriptor": "",
+        "start": 5.179,
+        "end": 5.679
+      },
+      {
+        "descriptor": "",
+        "start": 6.166,
+        "end": 6.666
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.587,
+        "end": 4.914
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.701,
+        "end": 3.053
+      }
+    ],
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240332050",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:41:22",
+    "sentence_ID": "VXPAKOKS240332050",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    222,
+    126
+  ],
+  "file": "VXPAKOKS240332050.mp4",
+  "saved_as": "VXPAKOKS240332050-대출은받을수있지만신용등급이높은직장인에비해대출조건이불리할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

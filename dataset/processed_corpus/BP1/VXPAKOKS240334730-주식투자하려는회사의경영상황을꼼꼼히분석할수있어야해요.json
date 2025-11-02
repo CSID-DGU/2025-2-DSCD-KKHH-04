@@ -1,0 +1,274 @@
+{
+  "id": "VXPAKOKS240334730",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자하려는 회사의 경영 상황을 꼼꼼히 분석할 수 있어야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.328,
+        "end": 2.541,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.717,
+        "end": 2.937,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.206,
+        "end": 3.566,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.845,
+        "end": 4.079,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.301,
+        "end": 5.018,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.287,
+        "end": 5.612,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.827,
+        "end": 6.194,
+        "gloss_id": "분석1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.412,
+        "end": 6.744,
+        "gloss_id": "돋보기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.99,
+        "end": 7.364,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.328,
+        "end": 2.541,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.717,
+        "end": 3.546,
+        "loc": "1",
+        "word": "투자하려는"
+      },
+      {
+        "start": 3.845,
+        "end": 4.079,
+        "loc": "2",
+        "word": "회사의"
+      },
+      {
+        "start": 4.301,
+        "end": 5.018,
+        "loc": "3",
+        "word": "경영"
+      },
+      {
+        "start": 5.287,
+        "end": 5.612,
+        "loc": "4",
+        "word": "상황을"
+      },
+      {
+        "start": 5.827,
+        "end": 7.357,
+        "loc": "5,6,7,8,9",
+        "word": "꼼꼼히 분석할 수 있어야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.328,
+        "end": 2.541,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.845,
+        "end": 4.079,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.301,
+        "end": 5.018,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.287,
+        "end": 5.612,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.827,
+        "end": 6.194,
+        "gloss_id": "분석1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.99,
+        "end": 7.364,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.99,
+        "end": 7.364
+      },
+      {
+        "descriptor": "",
+        "start": 3.206,
+        "end": 3.566
+      },
+      {
+        "descriptor": "",
+        "start": 4.502,
+        "end": 5.009
+      },
+      {
+        "descriptor": "",
+        "start": 6.412,
+        "end": 6.744
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.827,
+        "end": 6.719
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.206,
+        "end": 3.566
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.328,
+        "end": 3.585
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334730",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:32:01",
+    "sentence_ID": "VXPAKOKS240334730",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    252,
+    126
+  ],
+  "file": "VXPAKOKS240334730.mp4",
+  "saved_as": "VXPAKOKS240334730-주식투자하려는회사의경영상황을꼼꼼히분석할수있어야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

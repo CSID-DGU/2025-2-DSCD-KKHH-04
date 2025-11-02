@@ -1,0 +1,226 @@
+{
+  "id": "VXPAKOKS240328850",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "적금 계산기를 사용하면 금액에 따른 이자를 간단하게 계산할 수 있는 장점이 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.131,
+        "end": 2.273,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.537,
+        "end": 2.809,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.996,
+        "end": 2.076,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.02,
+        "end": 3.211,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.594,
+        "end": 4.191,
+        "gloss_id": "뜨다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.479,
+        "end": 4.881,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.103,
+        "end": 5.278,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.461,
+        "end": 5.592,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.722,
+        "end": 5.87,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.02,
+        "end": 3.211,
+        "loc": "5",
+        "word": "이자를"
+      },
+      {
+        "start": 5.461,
+        "end": 5.874,
+        "loc": "10,11",
+        "word": "장점이 있어요."
+      },
+      {
+        "start": 1.996,
+        "end": 2.803,
+        "loc": "3,4",
+        "word": "금액에 따른"
+      },
+      {
+        "start": 3.594,
+        "end": 5.264,
+        "loc": "6,7,8,9",
+        "word": "간단하게 계산할 수 있는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.594,
+        "end": 5.281,
+        "gloss_id": "뜨다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.859,
+        "end": 4.142
+      },
+      {
+        "descriptor": "",
+        "start": 4.479,
+        "end": 4.881
+      },
+      {
+        "descriptor": "",
+        "start": 5.103,
+        "end": 5.278
+      },
+      {
+        "descriptor": "",
+        "start": 5.722,
+        "end": 5.87
+      },
+      {
+        "descriptor": "",
+        "start": 2.537,
+        "end": 2.809
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.103,
+        "end": 5.278
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.996,
+        "end": 2.274
+      },
+      {
+        "descriptor": "",
+        "start": 4.028,
+        "end": 4.63
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328850",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:38:23",
+    "sentence_ID": "VXPAKOKS240328850",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    195,
+    126
+  ],
+  "file": "VXPAKOKS240328850.mp4",
+  "saved_as": "VXPAKOKS240328850-적금계산기를사용하면금액에따른이자를간단하게계산할수있는장점이있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,286 @@
+{
+  "id": "VXPAKOKS240329800",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "500만원 이상의 돈을 보낼 일이 생겼는데, 이체 한도는 어떻게 늘릴 수 있어?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.597,
+        "end": 1.709,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.949,
+        "end": 2.384,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.543,
+        "end": 2.965,
+        "gloss_id": "5000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.115,
+        "end": 3.401,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.664,
+        "end": 4.403,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.663,
+        "end": 5.131,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.4,
+        "end": 5.861,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.993,
+        "end": 6.156,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.319,
+        "end": 6.495,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.754,
+        "end": 7.215,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.597,
+        "end": 1.709,
+        "loc": "2",
+        "word": "돈을"
+      },
+      {
+        "start": 1.949,
+        "end": 2.384,
+        "loc": "3",
+        "word": "보낼"
+      },
+      {
+        "start": 2.543,
+        "end": 2.965,
+        "loc": "0",
+        "word": "500만원"
+      },
+      {
+        "start": 3.115,
+        "end": 3.401,
+        "loc": "1",
+        "word": "이상의"
+      },
+      {
+        "start": 3.664,
+        "end": 4.403,
+        "loc": "4,5",
+        "word": "일이 생겼는데,"
+      },
+      {
+        "start": 5.993,
+        "end": 6.156,
+        "loc": "6",
+        "word": "이체"
+      },
+      {
+        "start": 4.663,
+        "end": 5.856,
+        "loc": "7",
+        "word": "한도는"
+      },
+      {
+        "start": 6.327,
+        "end": 7.215,
+        "loc": "8,9,10,11",
+        "word": "어떻게 늘릴 수 있어?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.664,
+        "end": 4.403,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.663,
+        "end": 5.131,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.4,
+        "end": 5.861,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.754,
+        "end": 7.215,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.949,
+        "end": 2.384,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.993,
+        "end": 6.156,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "오백만원원",
+        "start": 2.543,
+        "end": 2.965
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.664,
+        "end": 4.403
+      },
+      {
+        "descriptor": "",
+        "start": 6.754,
+        "end": 7.215
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.319,
+        "end": 6.495
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.754,
+        "end": 7.215
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329800",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:48:49",
+    "sentence_ID": "VXPAKOKS240329800",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    233,
+    126
+  ],
+  "file": "VXPAKOKS240329800.mp4",
+  "saved_as": "VXPAKOKS240329800-500만원이상의돈을보낼일이생겼는데,이체한도는어떻게늘릴수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

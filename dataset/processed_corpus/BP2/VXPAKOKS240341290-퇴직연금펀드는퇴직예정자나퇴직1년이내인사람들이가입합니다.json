@@ -1,0 +1,403 @@
+{
+  "id": "VXPAKOKS240341290",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "퇴직 연금 펀드는 퇴직 예정자나 퇴직 1년 이내인 사람들이 가입합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.543,
+        "end": 1.737,
+        "gloss_id": "나이1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.012,
+        "end": 2.243,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.559,
+        "end": 2.818,
+        "gloss_id": "그만두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.089,
+        "end": 3.413,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.71,
+        "end": 4.229,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.573,
+        "end": 4.851,
+        "gloss_id": "그만두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.014,
+        "end": 5.496,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.766,
+        "end": 6.257,
+        "gloss_id": "안1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.557,
+        "end": 7.066,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.431,
+        "end": 7.709,
+        "gloss_id": "그만두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.889,
+        "end": 8.195,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.384,
+        "end": 8.745,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.981,
+        "end": 9.324,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.597,
+        "end": 9.949,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.559,
+        "end": 2.818,
+        "loc": "3",
+        "word": "퇴직"
+      },
+      {
+        "start": 3.089,
+        "end": 4.218,
+        "loc": "4",
+        "word": "예정자나"
+      },
+      {
+        "start": 4.573,
+        "end": 4.851,
+        "loc": "5",
+        "word": "퇴직"
+      },
+      {
+        "start": 5.014,
+        "end": 5.496,
+        "loc": "6",
+        "word": "1년"
+      },
+      {
+        "start": 5.766,
+        "end": 6.257,
+        "loc": "7",
+        "word": "이내인"
+      },
+      {
+        "start": 7.431,
+        "end": 7.709,
+        "loc": "0",
+        "word": "퇴직"
+      },
+      {
+        "start": 7.889,
+        "end": 8.195,
+        "loc": "1",
+        "word": "연금"
+      },
+      {
+        "start": 8.384,
+        "end": 8.745,
+        "loc": "9",
+        "word": "가입합니다."
+      },
+      {
+        "start": 8.981,
+        "end": 9.324,
+        "loc": "2",
+        "word": "펀드는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.012,
+        "end": 2.243,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.559,
+        "end": 2.818,
+        "gloss_id": "그만두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.089,
+        "end": 3.413,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.71,
+        "end": 4.229,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.573,
+        "end": 4.851,
+        "gloss_id": "그만두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.014,
+        "end": 5.496,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.766,
+        "end": 6.257,
+        "gloss_id": "안1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.557,
+        "end": 7.066,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.431,
+        "end": 7.709,
+        "gloss_id": "그만두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.384,
+        "end": 8.745,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.597,
+        "end": 9.949,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일년",
+        "start": 5.014,
+        "end": 5.496
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.71,
+        "end": 4.229
+      },
+      {
+        "descriptor": "",
+        "start": 5.766,
+        "end": 6.257
+      },
+      {
+        "descriptor": "",
+        "start": 6.557,
+        "end": 7.066
+      },
+      {
+        "descriptor": "",
+        "start": 7.889,
+        "end": 8.195
+      },
+      {
+        "descriptor": "",
+        "start": 8.384,
+        "end": 8.745
+      },
+      {
+        "descriptor": "",
+        "start": 8.981,
+        "end": 9.324
+      },
+      {
+        "descriptor": "",
+        "start": 9.597,
+        "end": 9.949
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.132,
+        "end": 2.243
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.089,
+        "end": 3.413
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.012,
+        "end": 3.91
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341290",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:12:34",
+    "sentence_ID": "VXPAKOKS240341290",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    333,
+    126
+  ],
+  "file": "VXPAKOKS240341290.mp4",
+  "saved_as": "VXPAKOKS240341290-퇴직연금펀드는퇴직예정자나퇴직1년이내인사람들이가입합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

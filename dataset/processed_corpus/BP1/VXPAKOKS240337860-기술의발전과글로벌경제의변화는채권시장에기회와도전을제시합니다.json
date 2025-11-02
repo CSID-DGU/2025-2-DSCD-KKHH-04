@@ -1,0 +1,329 @@
+{
+  "id": "VXPAKOKS240337860",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "기술의 발전과 글로벌 경제의 변화는 채권 시장에 기회와 도전을 제시합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.032,
+        "end": 2.203,
+        "gloss_id": "기술1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.463,
+        "end": 3.021,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.332,
+        "end": 3.832,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.02,
+        "end": 4.714,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.141,
+        "end": 5.612,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.72,
+        "end": 5.817,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.943,
+        "end": 6.078,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.271,
+        "end": 6.964,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.218,
+        "end": 7.554,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.875,
+        "end": 8.239,
+        "gloss_id": "기회1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.513,
+        "end": 8.82,
+        "gloss_id": "도전1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 9.075,
+        "end": 9.227,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.032,
+        "end": 2.203,
+        "loc": "0",
+        "word": "기술의"
+      },
+      {
+        "start": 2.463,
+        "end": 3.021,
+        "loc": "1",
+        "word": "발전과"
+      },
+      {
+        "start": 3.332,
+        "end": 3.832,
+        "loc": "2",
+        "word": "글로벌"
+      },
+      {
+        "start": 4.02,
+        "end": 4.714,
+        "loc": "3",
+        "word": "경제의"
+      },
+      {
+        "start": 5.141,
+        "end": 5.612,
+        "loc": "4",
+        "word": "변화는"
+      },
+      {
+        "start": 5.72,
+        "end": 6.977,
+        "loc": "5,6",
+        "word": "채권 시장에"
+      },
+      {
+        "start": 7.218,
+        "end": 8.24,
+        "loc": "7",
+        "word": "기회와"
+      },
+      {
+        "start": 8.513,
+        "end": 9.236,
+        "loc": "8,9",
+        "word": "도전을 제시합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.463,
+        "end": 3.021,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.332,
+        "end": 3.832,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.02,
+        "end": 4.714,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.141,
+        "end": 5.612,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.271,
+        "end": 6.964,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.875,
+        "end": 8.239,
+        "gloss_id": "기회1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.513,
+        "end": 8.82,
+        "gloss_id": "도전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.463,
+        "end": 3.021
+      },
+      {
+        "descriptor": "",
+        "start": 4.184,
+        "end": 4.714
+      },
+      {
+        "descriptor": "",
+        "start": 6.435,
+        "end": 6.964
+      },
+      {
+        "descriptor": "",
+        "start": 7.875,
+        "end": 8.239
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.075,
+        "end": 9.227
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.332,
+        "end": 3.832
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.032,
+        "end": 3.025
+      },
+      {
+        "descriptor": "",
+        "start": 4.02,
+        "end": 4.714
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337860",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:40:36",
+    "sentence_ID": "VXPAKOKS240337860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    348,
+    126
+  ],
+  "file": "VXPAKOKS240337860.mp4",
+  "saved_as": "VXPAKOKS240337860-기술의발전과글로벌경제의변화는채권시장에기회와도전을제시합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

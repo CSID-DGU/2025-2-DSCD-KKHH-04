@@ -1,0 +1,398 @@
+{
+  "id": "VXPAKOKS240328100",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "현금 사용을 줄이고 신용카드 사용을 늘리면 현금 관리에 드는 시간과 노력을 줄일 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.049,
+        "end": 2.525,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.777,
+        "end": 3.078,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.371,
+        "end": 3.641,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.778,
+        "end": 3.92,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.163,
+        "end": 4.266,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.494,
+        "end": 4.851,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.305,
+        "end": 5.829,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.249,
+        "end": 6.352,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.571,
+        "end": 6.936,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.142,
+        "end": 7.229,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.493,
+        "end": 7.62,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.859,
+        "end": 8.16,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.381,
+        "end": 8.73,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.049,
+        "end": 2.525,
+        "loc": "0",
+        "word": "현금"
+      },
+      {
+        "start": 2.777,
+        "end": 3.078,
+        "loc": "1",
+        "word": "사용을"
+      },
+      {
+        "start": 3.371,
+        "end": 3.641,
+        "loc": "2",
+        "word": "줄이고"
+      },
+      {
+        "start": 3.778,
+        "end": 4.254,
+        "loc": "3",
+        "word": "신용카드"
+      },
+      {
+        "start": 4.494,
+        "end": 4.851,
+        "loc": "4",
+        "word": "사용을"
+      },
+      {
+        "start": 5.305,
+        "end": 5.829,
+        "loc": "5",
+        "word": "늘리면"
+      },
+      {
+        "start": 8.381,
+        "end": 8.73,
+        "loc": "11,12,13",
+        "word": "줄일 수 있습니다."
+      },
+      {
+        "start": 7.859,
+        "end": 8.16,
+        "loc": "10",
+        "word": "노력을"
+      },
+      {
+        "start": 7.142,
+        "end": 7.229,
+        "loc": "9",
+        "word": "시간과"
+      },
+      {
+        "start": 7.493,
+        "end": 7.62,
+        "loc": "8",
+        "word": "드는"
+      },
+      {
+        "start": 6.249,
+        "end": 6.932,
+        "loc": "6,7",
+        "word": "현금 관리에"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.049,
+        "end": 2.525,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.777,
+        "end": 3.078,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.371,
+        "end": 3.641,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.778,
+        "end": 4.262,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.494,
+        "end": 4.851,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.305,
+        "end": 5.829,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.249,
+        "end": 6.352,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.142,
+        "end": 7.229,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.493,
+        "end": 7.62,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.859,
+        "end": 8.16,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.381,
+        "end": 8.73,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.571,
+        "end": 6.936,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.305,
+        "end": 5.829
+      },
+      {
+        "descriptor": "",
+        "start": 8.381,
+        "end": 8.73
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.305,
+        "end": 5.829
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.494,
+        "end": 5.812
+      },
+      {
+        "descriptor": "",
+        "start": 7.859,
+        "end": 8.16
+      },
+      {
+        "descriptor": "",
+        "start": 3.371,
+        "end": 3.641
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.381,
+        "end": 8.73
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.249,
+        "end": 6.924
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328100",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:23:50",
+    "sentence_ID": "VXPAKOKS240328100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240328100.mp4",
+  "saved_as": "VXPAKOKS240328100-현금사용을줄이고신용카드사용을늘리면현금관리에드는시간과노력을줄일수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

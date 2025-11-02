@@ -1,0 +1,316 @@
+{
+  "id": "VXPAKOKS240338290",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장에서 금리의 하락은 기존 채권의 가치를 상승시키는 중요한 원인입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.942,
+        "end": 2.054,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.225,
+        "end": 2.443,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.671,
+        "end": 3.162,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.454,
+        "end": 3.875,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.206,
+        "end": 4.838,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.172,
+        "end": 5.461,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.679,
+        "end": 5.844,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.025,
+        "end": 6.419,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.591,
+        "end": 7.065,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.324,
+        "end": 7.524,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.761,
+        "end": 8.146,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.454,
+        "end": 3.875,
+        "loc": "2",
+        "word": "금리의"
+      },
+      {
+        "start": 4.206,
+        "end": 4.838,
+        "loc": "3",
+        "word": "하락은"
+      },
+      {
+        "start": 5.172,
+        "end": 6.412,
+        "loc": "4",
+        "word": "기존"
+      },
+      {
+        "start": 6.591,
+        "end": 7.065,
+        "loc": "5",
+        "word": "채권의"
+      },
+      {
+        "start": 7.761,
+        "end": 8.146,
+        "loc": "7,8,9",
+        "word": "상승시키는 중요한 원인입니다."
+      },
+      {
+        "start": 1.942,
+        "end": 3.146,
+        "loc": "0,1",
+        "word": "채권 시장에서"
+      },
+      {
+        "start": 7.324,
+        "end": 7.524,
+        "loc": "6",
+        "word": "가치를"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.671,
+        "end": 3.866,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.206,
+        "end": 4.838,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.679,
+        "end": 5.844,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.591,
+        "end": 7.064,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.761,
+        "end": 8.146,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.324,
+        "end": 7.524,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.671,
+        "end": 3.162
+      },
+      {
+        "descriptor": "",
+        "start": 4.206,
+        "end": 4.838
+      },
+      {
+        "descriptor": "",
+        "start": 6.591,
+        "end": 7.065
+      },
+      {
+        "descriptor": "",
+        "start": 7.324,
+        "end": 7.524
+      },
+      {
+        "descriptor": "",
+        "start": 7.761,
+        "end": 8.146
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.025,
+        "end": 6.419
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.761,
+        "end": 8.146
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.206,
+        "end": 4.838
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.454,
+        "end": 4.835
+      },
+      {
+        "descriptor": "",
+        "start": 5.172,
+        "end": 7.46
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338290",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:34",
+    "sentence_ID": "VXPAKOKS240338290",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    317,
+    126
+  ],
+  "file": "VXPAKOKS240338290.mp4",
+  "saved_as": "VXPAKOKS240338290-채권시장에서금리의하락은기존채권의가치를상승시키는중요한원인입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

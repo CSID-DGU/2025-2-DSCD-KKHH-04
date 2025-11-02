@@ -1,0 +1,356 @@
+{
+  "id": "VXPAKOKS240335770",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "투기를 막기 위해 생활비가 모자라지 않을 정도만 주식에 투자해야 한다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.449,
+        "end": 3.83,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.061,
+        "end": 4.274,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.58,
+        "end": 4.813,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.18,
+        "end": 5.334,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.632,
+        "end": 5.994,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.18,
+        "end": 6.561,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.687,
+        "end": 6.748,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.924,
+        "end": 7.345,
+        "gloss_id": "충분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.605,
+        "end": 8.006,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.355,
+        "end": 8.568,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.69,
+        "end": 8.834,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.997,
+        "end": 9.23,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 9.431,
+        "end": 9.733,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.449,
+        "end": 4.807,
+        "loc": "0",
+        "word": "투기를"
+      },
+      {
+        "start": 5.18,
+        "end": 6.007,
+        "loc": "1,2",
+        "word": "막기 위해"
+      },
+      {
+        "start": 6.18,
+        "end": 6.748,
+        "loc": "3",
+        "word": "생활비가"
+      },
+      {
+        "start": 6.924,
+        "end": 8.569,
+        "loc": "4,5,6",
+        "word": "모자라지 않을 정도만"
+      },
+      {
+        "start": 8.69,
+        "end": 8.834,
+        "loc": "7",
+        "word": "주식에"
+      },
+      {
+        "start": 8.997,
+        "end": 9.723,
+        "loc": "8,9",
+        "word": "투자해야 한다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.449,
+        "end": 3.83,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.061,
+        "end": 4.274,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.18,
+        "end": 5.334,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.632,
+        "end": 5.993,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.18,
+        "end": 6.561,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.605,
+        "end": 8.006,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.355,
+        "end": 8.568,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.69,
+        "end": 8.834,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.431,
+        "end": 9.733
+      },
+      {
+        "descriptor": "",
+        "start": 4.58,
+        "end": 4.813
+      },
+      {
+        "descriptor": "",
+        "start": 5.632,
+        "end": 5.994
+      },
+      {
+        "descriptor": "",
+        "start": 6.924,
+        "end": 7.345
+      },
+      {
+        "descriptor": "",
+        "start": 7.605,
+        "end": 8.006
+      },
+      {
+        "descriptor": "",
+        "start": 8.997,
+        "end": 9.23
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.18,
+        "end": 5.334
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.061,
+        "end": 4.787
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.963,
+        "end": 7.315
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.358,
+        "end": 5.994
+      },
+      {
+        "descriptor": "",
+        "start": 6.687,
+        "end": 7.345
+      },
+      {
+        "descriptor": "",
+        "start": 8.355,
+        "end": 8.568
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335770",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:59",
+    "sentence_ID": "VXPAKOKS240335770",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    355,
+    126
+  ],
+  "file": "VXPAKOKS240335770.mp4",
+  "saved_as": "VXPAKOKS240335770-투기를막기위해생활비가모자라지않을정도만주식에투자해야한다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

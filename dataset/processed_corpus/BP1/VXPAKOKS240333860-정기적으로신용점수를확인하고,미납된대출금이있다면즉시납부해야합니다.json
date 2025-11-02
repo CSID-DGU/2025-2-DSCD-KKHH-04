@@ -1,0 +1,255 @@
+{
+  "id": "VXPAKOKS240333860",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "정기적으로 신용 점수를 확인하고, 미납된 대출금이 있다면 즉시 납부해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.561,
+        "end": 2.712,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.994,
+        "end": 3.305,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.566,
+        "end": 4.408,
+        "gloss_id": "신경1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.747,
+        "end": 5.073,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.409,
+        "end": 5.678,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.883,
+        "end": 6.18,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.358,
+        "end": 6.655,
+        "gloss_id": "빨리1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.958,
+        "end": 7.29,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.561,
+        "end": 2.712,
+        "loc": "1",
+        "word": "신용"
+      },
+      {
+        "start": 2.994,
+        "end": 3.305,
+        "loc": "2",
+        "word": "점수를"
+      },
+      {
+        "start": 3.566,
+        "end": 4.408,
+        "loc": "0,3",
+        "word": "정기적으로 확인하고,"
+      },
+      {
+        "start": 5.409,
+        "end": 6.16,
+        "loc": "4,6",
+        "word": "미납된 있다면"
+      },
+      {
+        "start": 6.958,
+        "end": 7.29,
+        "loc": "8,9",
+        "word": "납부해야 합니다."
+      },
+      {
+        "start": 4.747,
+        "end": 5.073,
+        "loc": "5",
+        "word": "대출금이"
+      },
+      {
+        "start": 6.358,
+        "end": 6.655,
+        "loc": "7",
+        "word": "즉시"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.561,
+        "end": 2.712,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.566,
+        "end": 4.408,
+        "gloss_id": "신경1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.958,
+        "end": 7.29,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.994,
+        "end": 3.305
+      },
+      {
+        "descriptor": "",
+        "start": 3.789,
+        "end": 4.408
+      },
+      {
+        "descriptor": "",
+        "start": 6.958,
+        "end": 7.29
+      },
+      {
+        "descriptor": "",
+        "start": 5.883,
+        "end": 6.18
+      },
+      {
+        "descriptor": "",
+        "start": 6.358,
+        "end": 6.655
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.566,
+        "end": 4.408
+      },
+      {
+        "descriptor": "",
+        "start": 5.409,
+        "end": 6.181
+      },
+      {
+        "descriptor": "",
+        "start": 6.491,
+        "end": 7.298
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.747,
+        "end": 5.073
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333860",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:24:46",
+    "sentence_ID": "VXPAKOKS240333860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240333860.mp4",
+  "saved_as": "VXPAKOKS240333860-정기적으로신용점수를확인하고,미납된대출금이있다면즉시납부해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

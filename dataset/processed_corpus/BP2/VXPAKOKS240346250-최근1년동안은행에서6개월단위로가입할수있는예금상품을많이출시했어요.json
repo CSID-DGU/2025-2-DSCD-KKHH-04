@@ -1,0 +1,396 @@
+{
+  "id": "VXPAKOKS240346250",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "최근 1년 동안 은행에서 6개월 단위로 가입할 수 있는 예금 상품을 많이 출시했어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.348,
+        "end": 1.559,
+        "gloss_id": "며칠전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.81,
+        "end": 2.285,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.471,
+        "end": 2.674,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.884,
+        "end": 3.359,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.281,
+        "end": 4.616,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.893,
+        "end": 5.112,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.419,
+        "end": 5.771,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.113,
+        "end": 6.522,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.777,
+        "end": 7.343,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.563,
+        "end": 7.807,
+        "gloss_id": "새롭다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.007,
+        "end": 8.259,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.348,
+        "end": 1.559,
+        "loc": "0",
+        "word": "최근"
+      },
+      {
+        "start": 1.81,
+        "end": 2.285,
+        "loc": "1",
+        "word": "1년"
+      },
+      {
+        "start": 2.471,
+        "end": 2.674,
+        "loc": "2",
+        "word": "동안"
+      },
+      {
+        "start": 2.884,
+        "end": 3.359,
+        "loc": "3",
+        "word": "은행에서"
+      },
+      {
+        "start": 3.619,
+        "end": 3.937,
+        "loc": "4",
+        "word": "6개월"
+      },
+      {
+        "start": 4.281,
+        "end": 4.616,
+        "loc": "5",
+        "word": "단위로"
+      },
+      {
+        "start": 4.893,
+        "end": 5.772,
+        "loc": "6,7,8",
+        "word": "가입할 수 있는"
+      },
+      {
+        "start": 6.113,
+        "end": 6.522,
+        "loc": "9",
+        "word": "예금"
+      },
+      {
+        "start": 6.777,
+        "end": 7.343,
+        "loc": "10",
+        "word": "상품을"
+      },
+      {
+        "start": 7.563,
+        "end": 7.807,
+        "loc": "12",
+        "word": "출시했어요."
+      },
+      {
+        "start": 8.007,
+        "end": 8.259,
+        "loc": "11",
+        "word": "많이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.471,
+        "end": 2.674,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.884,
+        "end": 3.359,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.619,
+        "end": 3.946,
+        "gloss_id": "날짜(활용):6개월",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.281,
+        "end": 4.616,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.893,
+        "end": 5.772,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.113,
+        "end": 6.522,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.777,
+        "end": 7.343,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.563,
+        "end": 7.807,
+        "gloss_id": "새롭다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.007,
+        "end": 8.259,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.81,
+        "end": 2.285,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "육개월",
+        "start": 3.619,
+        "end": 3.937
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.007,
+        "end": 8.259
+      },
+      {
+        "descriptor": "",
+        "start": 5.419,
+        "end": 5.771
+      },
+      {
+        "descriptor": "",
+        "start": 1.348,
+        "end": 1.559
+      },
+      {
+        "descriptor": "",
+        "start": 2.471,
+        "end": 2.674
+      },
+      {
+        "descriptor": "",
+        "start": 2.983,
+        "end": 3.359
+      },
+      {
+        "descriptor": "",
+        "start": 4.281,
+        "end": 4.616
+      },
+      {
+        "descriptor": "",
+        "start": 7.108,
+        "end": 7.352
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.419,
+        "end": 5.771
+      },
+      {
+        "descriptor": "",
+        "start": 7.563,
+        "end": 7.645
+      },
+      {
+        "descriptor": "",
+        "start": 7.697,
+        "end": 7.817
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.348,
+        "end": 1.559
+      },
+      {
+        "descriptor": "",
+        "start": 2.471,
+        "end": 2.674
+      },
+      {
+        "descriptor": "",
+        "start": 4.281,
+        "end": 4.5
+      },
+      {
+        "descriptor": "",
+        "start": 6.113,
+        "end": 7.033
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346250",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:43:11",
+    "sentence_ID": "VXPAKOKS240346250",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    297,
+    126
+  ],
+  "file": "VXPAKOKS240346250.mp4",
+  "saved_as": "VXPAKOKS240346250-최근1년동안은행에서6개월단위로가입할수있는예금상품을많이출시했어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

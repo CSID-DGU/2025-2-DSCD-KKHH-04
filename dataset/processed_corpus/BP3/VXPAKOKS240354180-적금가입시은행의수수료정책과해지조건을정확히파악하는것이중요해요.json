@@ -1,0 +1,400 @@
+{
+  "id": "VXPAKOKS240354180",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "적금 가입 시 은행의 수수료 정책과 해지 조건을 정확히 파악하는 것이 중요해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.173,
+        "end": 1.292,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.405,
+        "end": 1.688,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.868,
+        "end": 2.338,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.54,
+        "end": 2.666,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.78,
+        "end": 2.922,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.123,
+        "end": 3.391,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.582,
+        "end": 3.813,
+        "gloss_id": "다스리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.005,
+        "end": 4.385,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.677,
+        "end": 4.908,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.191,
+        "end": 5.579,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.909,
+        "end": 6.17,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.489,
+        "end": 6.787,
+        "gloss_id": "파악하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.008,
+        "end": 7.231,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.173,
+        "end": 1.688,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 1.868,
+        "end": 2.338,
+        "loc": "1,2",
+        "word": "가입 시"
+      },
+      {
+        "start": 2.54,
+        "end": 2.666,
+        "loc": "3",
+        "word": "은행의"
+      },
+      {
+        "start": 2.78,
+        "end": 3.4,
+        "loc": "4",
+        "word": "수수료"
+      },
+      {
+        "start": 3.582,
+        "end": 4.381,
+        "loc": "5",
+        "word": "정책과"
+      },
+      {
+        "start": 4.677,
+        "end": 4.908,
+        "loc": "6",
+        "word": "해지"
+      },
+      {
+        "start": 5.191,
+        "end": 5.579,
+        "loc": "7",
+        "word": "조건을"
+      },
+      {
+        "start": 5.909,
+        "end": 6.17,
+        "loc": "8",
+        "word": "정확히"
+      },
+      {
+        "start": 6.489,
+        "end": 6.787,
+        "loc": "9,10",
+        "word": "파악하는 것이"
+      },
+      {
+        "start": 7.008,
+        "end": 7.231,
+        "loc": "11",
+        "word": "중요해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.405,
+        "end": 1.688,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.868,
+        "end": 2.338,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.54,
+        "end": 2.666,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.78,
+        "end": 2.922,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.123,
+        "end": 3.391,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.582,
+        "end": 3.813,
+        "gloss_id": "다스리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.005,
+        "end": 4.385,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.677,
+        "end": 4.908,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.191,
+        "end": 5.579,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.909,
+        "end": 6.17,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.489,
+        "end": 6.787,
+        "gloss_id": "파악하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.008,
+        "end": 7.231,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.868,
+        "end": 2.338
+      },
+      {
+        "descriptor": "",
+        "start": 4.005,
+        "end": 4.385
+      },
+      {
+        "descriptor": "",
+        "start": 7.008,
+        "end": 7.231
+      },
+      {
+        "descriptor": "",
+        "start": 5.191,
+        "end": 5.579
+      },
+      {
+        "descriptor": "",
+        "start": 5.909,
+        "end": 6.17
+      },
+      {
+        "descriptor": "",
+        "start": 6.489,
+        "end": 6.787
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.008,
+        "end": 7.231
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.868,
+        "end": 2.338
+      },
+      {
+        "descriptor": "",
+        "start": 4.005,
+        "end": 4.385
+      },
+      {
+        "descriptor": "",
+        "start": 4.677,
+        "end": 5.558
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354180",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:12:19",
+    "sentence_ID": "VXPAKOKS240354180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    269,
+    126
+  ],
+  "file": "VXPAKOKS240354180.mp4",
+  "saved_as": "VXPAKOKS240354180-적금가입시은행의수수료정책과해지조건을정확히파악하는것이중요해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,322 @@
+{
+  "id": "VXPAKOKS240334380",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "회사가 주식을 만들어서 사람들에게 팔면 그 돈으로 사업을 할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.742,
+        "end": 3.051,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.365,
+        "end": 3.51,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.715,
+        "end": 3.81,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.054,
+        "end": 4.699,
+        "gloss_id": "삽입1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.035,
+        "end": 5.114,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.266,
+        "end": 5.567,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.686,
+        "end": 5.765,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.909,
+        "end": 6.501,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.766,
+        "end": 6.845,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.011,
+        "end": 7.426,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.622,
+        "end": 7.839,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.742,
+        "end": 3.051,
+        "loc": "0",
+        "word": "회사가"
+      },
+      {
+        "start": 3.365,
+        "end": 3.51,
+        "loc": "1",
+        "word": "주식을"
+      },
+      {
+        "start": 3.715,
+        "end": 4.689,
+        "loc": "2",
+        "word": "만들어서"
+      },
+      {
+        "start": 5.035,
+        "end": 5.588,
+        "loc": "3",
+        "word": "사람들에게"
+      },
+      {
+        "start": 5.686,
+        "end": 6.491,
+        "loc": "4",
+        "word": "팔면"
+      },
+      {
+        "start": 6.766,
+        "end": 7.418,
+        "loc": "5,6,7",
+        "word": "그 돈으로 사업을"
+      },
+      {
+        "start": 7.622,
+        "end": 7.839,
+        "loc": "8,9,10",
+        "word": "할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.742,
+        "end": 3.051,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.365,
+        "end": 3.51,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.715,
+        "end": 3.81,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.054,
+        "end": 4.699,
+        "gloss_id": "삽입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.035,
+        "end": 5.114,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.766,
+        "end": 6.845,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.011,
+        "end": 7.426,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.742,
+        "end": 3.051
+      },
+      {
+        "descriptor": "",
+        "start": 4.536,
+        "end": 4.699
+      },
+      {
+        "descriptor": "",
+        "start": 5.909,
+        "end": 6.501
+      },
+      {
+        "descriptor": "",
+        "start": 7.622,
+        "end": 7.839
+      },
+      {
+        "descriptor": "",
+        "start": 5.266,
+        "end": 5.567
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.543,
+        "end": 4.699
+      },
+      {
+        "descriptor": "",
+        "start": 7.622,
+        "end": 7.839
+      },
+      {
+        "descriptor": "",
+        "start": 7.011,
+        "end": 7.426
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.742,
+        "end": 4.717
+      },
+      {
+        "descriptor": "",
+        "start": 5.266,
+        "end": 5.567
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334380",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:30:07",
+    "sentence_ID": "VXPAKOKS240334380",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    275,
+    126
+  ],
+  "file": "VXPAKOKS240334380.mp4",
+  "saved_as": "VXPAKOKS240334380-회사가주식을만들어서사람들에게팔면그돈으로사업을할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

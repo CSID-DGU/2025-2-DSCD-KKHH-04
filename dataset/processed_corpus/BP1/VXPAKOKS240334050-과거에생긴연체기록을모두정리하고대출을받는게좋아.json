@@ -1,0 +1,279 @@
+{
+  "id": "VXPAKOKS240334050",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "과거에 생긴 연체 기록을 모두 정리하고 대출을 받는 게 좋아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.537,
+        "end": 2.689,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.887,
+        "end": 3.047,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.467,
+        "end": 4.029,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.303,
+        "end": 4.595,
+        "gloss_id": "깨끗하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.712,
+        "end": 4.921,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.119,
+        "end": 5.786,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.137,
+        "end": 6.637,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.775,
+        "end": 7.018,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.23,
+        "end": 7.459,
+        "gloss_id": "낫다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.537,
+        "end": 2.689,
+        "loc": "0",
+        "word": "과거에"
+      },
+      {
+        "start": 2.887,
+        "end": 4.019,
+        "loc": "1,2,3",
+        "word": "생긴 연체 기록을"
+      },
+      {
+        "start": 4.303,
+        "end": 4.595,
+        "loc": "4",
+        "word": "모두"
+      },
+      {
+        "start": 4.712,
+        "end": 5.789,
+        "loc": "5",
+        "word": "정리하고"
+      },
+      {
+        "start": 6.137,
+        "end": 6.637,
+        "loc": "6",
+        "word": "대출을"
+      },
+      {
+        "start": 6.775,
+        "end": 7.018,
+        "loc": "7,8",
+        "word": "받는 게"
+      },
+      {
+        "start": 7.23,
+        "end": 7.459,
+        "loc": "9",
+        "word": "좋아."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.467,
+        "end": 4.029,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.712,
+        "end": 4.921,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.119,
+        "end": 5.786,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.775,
+        "end": 7.018,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.467,
+        "end": 4.029
+      },
+      {
+        "descriptor": "",
+        "start": 5.119,
+        "end": 5.786
+      },
+      {
+        "descriptor": "",
+        "start": 6.137,
+        "end": 6.637
+      },
+      {
+        "descriptor": "",
+        "start": 6.775,
+        "end": 7.018
+      },
+      {
+        "descriptor": "",
+        "start": 7.23,
+        "end": 7.459
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.467,
+        "end": 4.029
+      },
+      {
+        "descriptor": "",
+        "start": 5.355,
+        "end": 5.786
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.537,
+        "end": 4.953
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.467,
+        "end": 4.029
+      },
+      {
+        "descriptor": "",
+        "start": 5.119,
+        "end": 5.786
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334050",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:32",
+    "sentence_ID": "VXPAKOKS240334050",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    250,
+    126
+  ],
+  "file": "VXPAKOKS240334050.mp4",
+  "saved_as": "VXPAKOKS240334050-과거에생긴연체기록을모두정리하고대출을받는게좋아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

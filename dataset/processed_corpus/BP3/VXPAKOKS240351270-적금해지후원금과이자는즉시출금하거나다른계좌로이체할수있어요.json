@@ -1,0 +1,368 @@
+{
+  "id": "VXPAKOKS240351270",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 해지 후 원금과 이자는 즉시 출금하거나 다른 계좌로 이체할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.587,
+        "end": 1.719,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.839,
+        "end": 2.114,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.258,
+        "end": 2.901,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.191,
+        "end": 3.419,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.68,
+        "end": 3.873,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.081,
+        "end": 4.281,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.508,
+        "end": 4.817,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.991,
+        "end": 5.096,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.298,
+        "end": 5.736,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.962,
+        "end": 6.128,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.28,
+        "end": 6.392,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.447,
+        "end": 6.515,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.619,
+        "end": 6.792,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.936,
+        "end": 7.129,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.587,
+        "end": 2.114,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 3.191,
+        "end": 3.855,
+        "loc": "3",
+        "word": "원금과"
+      },
+      {
+        "start": 4.081,
+        "end": 4.281,
+        "loc": "4",
+        "word": "이자는"
+      },
+      {
+        "start": 4.508,
+        "end": 4.817,
+        "loc": "5",
+        "word": "즉시"
+      },
+      {
+        "start": 4.991,
+        "end": 5.75,
+        "loc": "6",
+        "word": "출금하거나"
+      },
+      {
+        "start": 5.962,
+        "end": 6.128,
+        "loc": "7",
+        "word": "다른"
+      },
+      {
+        "start": 6.28,
+        "end": 6.392,
+        "loc": "8",
+        "word": "계좌로"
+      },
+      {
+        "start": 6.447,
+        "end": 7.169,
+        "loc": "9,10,11",
+        "word": "이체할 수 있어요."
+      },
+      {
+        "start": 2.258,
+        "end": 2.901,
+        "loc": "1,2",
+        "word": "해지 후"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.839,
+        "end": 2.114,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.191,
+        "end": 3.419,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.298,
+        "end": 5.736,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.962,
+        "end": 6.128,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.28,
+        "end": 6.392,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.619,
+        "end": 6.792,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.508,
+        "end": 4.817,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.258,
+        "end": 2.901,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.936,
+        "end": 7.129
+      },
+      {
+        "descriptor": "",
+        "start": 2.798,
+        "end": 2.917
+      },
+      {
+        "descriptor": "",
+        "start": 3.68,
+        "end": 3.873
+      },
+      {
+        "descriptor": "",
+        "start": 4.508,
+        "end": 4.817
+      },
+      {
+        "descriptor": "",
+        "start": 5.298,
+        "end": 5.736
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.936,
+        "end": 7.129
+      },
+      {
+        "descriptor": "",
+        "start": 2.798,
+        "end": 2.923
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.508,
+        "end": 4.817
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.191,
+        "end": 4.223
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351270",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:44:11",
+    "sentence_ID": "VXPAKOKS240351270",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240351270.mp4",
+  "saved_as": "VXPAKOKS240351270-적금해지후원금과이자는즉시출금하거나다른계좌로이체할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

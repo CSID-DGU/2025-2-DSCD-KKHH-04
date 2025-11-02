@@ -1,0 +1,334 @@
+{
+  "id": "VXPAKOKS240341720",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 판매 회사에서 제공하는 웹 사이트나 모바일 애플리케이션을 통해 투자자가 로그인하여 자신의 펀드를 관리할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.356,
+        "end": 1.856,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.202,
+        "end": 2.405,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.674,
+        "end": 3.509,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.878,
+        "end": 4.264,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.563,
+        "end": 4.735,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.937,
+        "end": 5.368,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.5,
+        "end": 5.673,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.889,
+        "end": 6.024,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.194,
+        "end": 6.412,
+        "gloss_id": "이름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.74,
+        "end": 7.278,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.512,
+        "end": 7.852,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.994,
+        "end": 8.22,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.356,
+        "end": 1.856,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 2.202,
+        "end": 2.405,
+        "loc": "1",
+        "word": "판매"
+      },
+      {
+        "start": 2.674,
+        "end": 3.509,
+        "loc": "2,3",
+        "word": "회사에서 제공하는"
+      },
+      {
+        "start": 3.878,
+        "end": 4.264,
+        "loc": "4,5",
+        "word": "웹 사이트나"
+      },
+      {
+        "start": 4.563,
+        "end": 4.735,
+        "loc": "6",
+        "word": "모바일"
+      },
+      {
+        "start": 4.937,
+        "end": 5.368,
+        "loc": "7,8",
+        "word": "애플리케이션을 통해"
+      },
+      {
+        "start": 5.5,
+        "end": 6.039,
+        "loc": "9",
+        "word": "투자자가"
+      },
+      {
+        "start": 6.194,
+        "end": 7.265,
+        "loc": "10",
+        "word": "로그인하여"
+      },
+      {
+        "start": 7.512,
+        "end": 7.852,
+        "loc": "11,12,13",
+        "word": "자신의 펀드를 관리할"
+      },
+      {
+        "start": 7.994,
+        "end": 8.22,
+        "loc": "14,15",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.202,
+        "end": 2.405,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.674,
+        "end": 3.509,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.878,
+        "end": 4.264,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.937,
+        "end": 5.368,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.889,
+        "end": 6.024,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.74,
+        "end": 7.278
+      },
+      {
+        "descriptor": "",
+        "start": 7.994,
+        "end": 8.22
+      },
+      {
+        "descriptor": "",
+        "start": 1.356,
+        "end": 1.856
+      },
+      {
+        "descriptor": "",
+        "start": 2.674,
+        "end": 3.509
+      },
+      {
+        "descriptor": "",
+        "start": 4.937,
+        "end": 5.368
+      },
+      {
+        "descriptor": "",
+        "start": 3.878,
+        "end": 4.264
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.984,
+        "end": 7.278
+      },
+      {
+        "descriptor": "",
+        "start": 7.994,
+        "end": 8.22
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.491,
+        "end": 7.278
+      },
+      {
+        "descriptor": "",
+        "start": 1.356,
+        "end": 2.389
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341720",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:15:43",
+    "sentence_ID": "VXPAKOKS240341720",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    274,
+    126
+  ],
+  "file": "VXPAKOKS240341720.mp4",
+  "saved_as": "VXPAKOKS240341720-펀드판매회사에서제공하는웹사이트나모바일애플리케이션을통해투자자가로그인하여자신의펀드를관리할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

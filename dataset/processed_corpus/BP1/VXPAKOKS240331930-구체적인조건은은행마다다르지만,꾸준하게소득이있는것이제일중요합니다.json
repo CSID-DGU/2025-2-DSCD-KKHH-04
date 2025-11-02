@@ -1,0 +1,326 @@
+{
+  "id": "VXPAKOKS240331930",
+  "opertor": "label10",
+  "krlgg_sntenc": {
+    "koreanText": "구체적인 조건은 은행마다 다르지만, 꾸준하게 소득이 있는 것이 제일 중요합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.553,
+        "end": 2.17,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.458,
+        "end": 3.058,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.375,
+        "end": 3.525,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.658,
+        "end": 4.058,
+        "gloss_id": "곳1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.194,
+        "end": 4.977,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.349,
+        "end": 5.616,
+        "gloss_id": "제일1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.705,
+        "end": 6.205,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.524,
+        "end": 6.874,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.016,
+        "end": 7.458,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.691,
+        "end": 8.583,
+        "gloss_id": "오래2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.724,
+        "end": 9.091,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.553,
+        "end": 2.17,
+        "loc": "1",
+        "word": "조건은"
+      },
+      {
+        "start": 2.458,
+        "end": 3.058,
+        "loc": "0",
+        "word": "구체적인"
+      },
+      {
+        "start": 3.375,
+        "end": 4.058,
+        "loc": "2",
+        "word": "은행마다"
+      },
+      {
+        "start": 4.194,
+        "end": 4.977,
+        "loc": "3",
+        "word": "다르지만,"
+      },
+      {
+        "start": 5.349,
+        "end": 6.205,
+        "loc": "8",
+        "word": "제일"
+      },
+      {
+        "start": 6.524,
+        "end": 8.583,
+        "loc": "5,6,7",
+        "word": "소득이 있는 것이"
+      },
+      {
+        "start": 8.724,
+        "end": 9.091,
+        "loc": "9",
+        "word": "중요합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.553,
+        "end": 2.17,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.458,
+        "end": 3.058,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.375,
+        "end": 3.525,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.194,
+        "end": 4.977,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.016,
+        "end": 7.458,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.691,
+        "end": 8.583,
+        "gloss_id": "오래2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.724,
+        "end": 9.091,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.524,
+        "end": 6.874,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.553,
+        "end": 2.17
+      },
+      {
+        "descriptor": "",
+        "start": 2.458,
+        "end": 3.058
+      },
+      {
+        "descriptor": "",
+        "start": 4.194,
+        "end": 4.977
+      },
+      {
+        "descriptor": "",
+        "start": 5.705,
+        "end": 6.205
+      },
+      {
+        "descriptor": "",
+        "start": 7.691,
+        "end": 8.583
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.194,
+        "end": 4.977
+      },
+      {
+        "descriptor": "",
+        "start": 7.691,
+        "end": 8.583
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.705,
+        "end": 6.205
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.553,
+        "end": 2.17
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331930",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:40:10",
+    "sentence_ID": "VXPAKOKS240331930",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    300,
+    126
+  ],
+  "file": "VXPAKOKS240331930.mp4",
+  "saved_as": "VXPAKOKS240331930-구체적인조건은은행마다다르지만,꾸준하게소득이있는것이제일중요합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

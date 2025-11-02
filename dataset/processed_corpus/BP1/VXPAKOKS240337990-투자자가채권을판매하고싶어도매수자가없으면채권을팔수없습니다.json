@@ -1,0 +1,307 @@
+{
+  "id": "VXPAKOKS240337990",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "투자자가 채권을 판매하고 싶어도 매수자가 없으면 채권을 팔 수 없습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.891,
+        "end": 2.091,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.267,
+        "end": 2.7,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.817,
+        "end": 2.909,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.1,
+        "end": 3.342,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.555,
+        "end": 4.172,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.578,
+        "end": 4.77,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.029,
+        "end": 5.246,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.46,
+        "end": 5.593,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.938,
+        "end": 6.188,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.386,
+        "end": 6.894,
+        "gloss_id": "없다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.289,
+        "end": 7.523,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.796,
+        "end": 8.029,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.891,
+        "end": 2.691,
+        "loc": "0",
+        "word": "투자자가"
+      },
+      {
+        "start": 2.817,
+        "end": 4.184,
+        "loc": "1",
+        "word": "채권을"
+      },
+      {
+        "start": 4.578,
+        "end": 4.77,
+        "loc": "2",
+        "word": "판매하고"
+      },
+      {
+        "start": 5.029,
+        "end": 5.246,
+        "loc": "3",
+        "word": "싶어도"
+      },
+      {
+        "start": 5.46,
+        "end": 6.176,
+        "loc": "4",
+        "word": "매수자가"
+      },
+      {
+        "start": 6.386,
+        "end": 6.894,
+        "loc": "5",
+        "word": "없으면"
+      },
+      {
+        "start": 7.289,
+        "end": 8.031,
+        "loc": "6,7,8,9",
+        "word": "채권을 팔 수 없습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.267,
+        "end": 2.7,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.555,
+        "end": 4.172,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.578,
+        "end": 5.245,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.938,
+        "end": 6.88,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.289,
+        "end": 7.523,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.796,
+        "end": 8.029
+      },
+      {
+        "descriptor": "",
+        "start": 2.35,
+        "end": 2.7
+      },
+      {
+        "descriptor": "",
+        "start": 3.705,
+        "end": 4.172
+      },
+      {
+        "descriptor": "",
+        "start": 5.029,
+        "end": 5.246
+      },
+      {
+        "descriptor": "",
+        "start": 6.528,
+        "end": 6.894
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 7.289,
+        "end": 7.56
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.578,
+        "end": 8.028
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.267,
+        "end": 3.866
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337990",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:10",
+    "sentence_ID": "VXPAKOKS240337990",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    300,
+    126
+  ],
+  "file": "VXPAKOKS240337990.mp4",
+  "saved_as": "VXPAKOKS240337990-투자자가채권을판매하고싶어도매수자가없으면채권을팔수없습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

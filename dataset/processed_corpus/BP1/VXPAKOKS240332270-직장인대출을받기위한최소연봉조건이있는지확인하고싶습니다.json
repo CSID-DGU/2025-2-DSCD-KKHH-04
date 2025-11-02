@@ -1,0 +1,251 @@
+{
+  "id": "VXPAKOKS240332270",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "직장인 대출을 받기 위한 최소 연봉 조건이 있는지 확인하고 싶습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.505,
+        "end": 1.665,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.766,
+        "end": 1.932,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.107,
+        "end": 2.329,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.538,
+        "end": 3.106,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.468,
+        "end": 3.888,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.15,
+        "end": 4.707,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.916,
+        "end": 5.206,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.259,
+        "end": 5.38,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.513,
+        "end": 6.024,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.505,
+        "end": 1.929,
+        "loc": "0",
+        "word": "직장인"
+      },
+      {
+        "start": 2.107,
+        "end": 2.329,
+        "loc": "1",
+        "word": "대출을"
+      },
+      {
+        "start": 2.538,
+        "end": 3.106,
+        "loc": "2,3",
+        "word": "받기 위한"
+      },
+      {
+        "start": 4.15,
+        "end": 6.02,
+        "loc": "4,5,8,9",
+        "word": "최소 연봉 확인하고 싶습니다."
+      },
+      {
+        "start": 3.468,
+        "end": 3.888,
+        "loc": "6,7",
+        "word": "조건이 있는지"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.505,
+        "end": 1.665,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.766,
+        "end": 2.328,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.538,
+        "end": 3.106,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.15,
+        "end": 4.707,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.916,
+        "end": 5.206,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.468,
+        "end": 3.888,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.538,
+        "end": 3.106
+      },
+      {
+        "descriptor": "",
+        "start": 5.513,
+        "end": 6.024
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.505,
+        "end": 1.929
+      },
+      {
+        "descriptor": "",
+        "start": 4.966,
+        "end": 6.017
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332270",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:43:52",
+    "sentence_ID": "VXPAKOKS240332270",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    204,
+    126
+  ],
+  "file": "VXPAKOKS240332270.mp4",
+  "saved_as": "VXPAKOKS240332270-직장인대출을받기위한최소연봉조건이있는지확인하고싶습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

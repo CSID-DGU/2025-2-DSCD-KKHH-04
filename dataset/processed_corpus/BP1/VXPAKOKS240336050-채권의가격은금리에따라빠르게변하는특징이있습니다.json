@@ -1,0 +1,328 @@
+{
+  "id": "VXPAKOKS240336050",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 가격은 금리에 따라 빠르게 변하는 특징이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.199,
+        "end": 2.575,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.88,
+        "end": 3.3,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.476,
+        "end": 4.011,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.373,
+        "end": 4.642,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.733,
+        "end": 4.842,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.013,
+        "end": 5.202,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.399,
+        "end": 6.023,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.257,
+        "end": 6.579,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.889,
+        "end": 7.247,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.484,
+        "end": 7.771,
+        "gloss_id": "특별1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.911,
+        "end": 8.206,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.444,
+        "end": 8.686,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.743,
+        "end": 6.023,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 6.248,
+        "end": 6.579,
+        "loc": "1",
+        "word": "가격은"
+      },
+      {
+        "start": 7.484,
+        "end": 8.193,
+        "loc": "6",
+        "word": "특징이"
+      },
+      {
+        "start": 8.444,
+        "end": 8.686,
+        "loc": "7",
+        "word": "있습니다."
+      },
+      {
+        "start": 2.199,
+        "end": 3.28,
+        "loc": "2",
+        "word": "금리에"
+      },
+      {
+        "start": 3.476,
+        "end": 4.65,
+        "loc": "3",
+        "word": "따라"
+      },
+      {
+        "start": 6.889,
+        "end": 7.247,
+        "loc": "4,5",
+        "word": "빠르게 변하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.476,
+        "end": 4.011,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.373,
+        "end": 4.642,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.399,
+        "end": 6.583,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.484,
+        "end": 7.771,
+        "gloss_id": "특별1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.911,
+        "end": 8.207,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.88,
+        "end": 3.3,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.889,
+        "end": 7.247,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.444,
+        "end": 8.686
+      },
+      {
+        "descriptor": "",
+        "start": 4.373,
+        "end": 4.642
+      },
+      {
+        "descriptor": "",
+        "start": 7.911,
+        "end": 8.206
+      },
+      {
+        "descriptor": "",
+        "start": 5.399,
+        "end": 6.023
+      },
+      {
+        "descriptor": "",
+        "start": 6.257,
+        "end": 6.579
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.373,
+        "end": 4.642
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.484,
+        "end": 8.195
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.199,
+        "end": 2.571
+      },
+      {
+        "descriptor": "",
+        "start": 4.699,
+        "end": 6.577
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336050",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:20",
+    "sentence_ID": "VXPAKOKS240336050",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    320,
+    126
+  ],
+  "file": "VXPAKOKS240336050.mp4",
+  "saved_as": "VXPAKOKS240336050-채권의가격은금리에따라빠르게변하는특징이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

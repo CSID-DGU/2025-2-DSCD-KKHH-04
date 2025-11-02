@@ -1,0 +1,234 @@
+{
+  "id": "VXPAKOKS240332640",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "계약하려는 집이 전세자금 대출의 대상이 되는 주택인지 확인하는 과정이 필요합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.618,
+        "end": 2.717,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.989,
+        "end": 3.196,
+        "gloss_id": "안보이다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.497,
+        "end": 3.961,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.212,
+        "end": 4.284,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.033,
+        "end": 5.27,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.415,
+        "end": 5.82,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.103,
+        "end": 6.406,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.531,
+        "end": 4.785,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.618,
+        "end": 2.717,
+        "loc": "1",
+        "word": "집이"
+      },
+      {
+        "start": 2.989,
+        "end": 3.196,
+        "loc": "2",
+        "word": "전세자금"
+      },
+      {
+        "start": 3.497,
+        "end": 4.276,
+        "loc": "0",
+        "word": "계약하려는"
+      },
+      {
+        "start": 4.531,
+        "end": 5.273,
+        "loc": "3,4,5,6",
+        "word": "대출의 대상이 되는 주택인지"
+      },
+      {
+        "start": 5.415,
+        "end": 5.82,
+        "loc": "7,8",
+        "word": "확인하는 과정이"
+      },
+      {
+        "start": 6.103,
+        "end": 6.406,
+        "loc": "9",
+        "word": "필요합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.618,
+        "end": 2.717,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.497,
+        "end": 4.284,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.103,
+        "end": 6.406,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.033,
+        "end": 5.27
+      },
+      {
+        "descriptor": "",
+        "start": 6.103,
+        "end": 6.406
+      },
+      {
+        "descriptor": "",
+        "start": 3.497,
+        "end": 3.961
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.033,
+        "end": 5.27
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.618,
+        "end": 4.0
+      },
+      {
+        "descriptor": "",
+        "start": 4.531,
+        "end": 5.294
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332640",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:20:40",
+    "sentence_ID": "VXPAKOKS240332640",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240332640.mp4",
+  "saved_as": "VXPAKOKS240332640-계약하려는집이전세자금대출의대상이되는주택인지확인하는과정이필요합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,292 @@
+{
+  "id": "VXPAKOKS240345810",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "예금을 해지하고 나면, 다시는 같은 금융 상품을 이용할 수 없다는 점을 기억하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.32,
+        "end": 1.643,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.866,
+        "end": 2.597,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.824,
+        "end": 3.392,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.586,
+        "end": 3.739,
+        "gloss_id": "금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.036,
+        "end": 4.638,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.049,
+        "end": 5.324,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.594,
+        "end": 6.033,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.199,
+        "end": 6.508,
+        "gloss_id": "기억1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.655,
+        "end": 6.924,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.32,
+        "end": 1.643,
+        "loc": "0",
+        "word": "예금을"
+      },
+      {
+        "start": 1.866,
+        "end": 2.597,
+        "loc": "1,2",
+        "word": "해지하고 나면,"
+      },
+      {
+        "start": 5.049,
+        "end": 6.025,
+        "loc": "7,8,9,10",
+        "word": "이용할 수 없다는 점을"
+      },
+      {
+        "start": 6.199,
+        "end": 6.916,
+        "loc": "11",
+        "word": "기억하세요."
+      },
+      {
+        "start": 2.824,
+        "end": 3.392,
+        "loc": "3,4",
+        "word": "다시는 같은"
+      },
+      {
+        "start": 3.586,
+        "end": 4.63,
+        "loc": "5,6",
+        "word": "금융 상품을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.32,
+        "end": 1.643,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.866,
+        "end": 2.597,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.824,
+        "end": 3.392,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.036,
+        "end": 4.638,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.049,
+        "end": 6.032,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.655,
+        "end": 6.923,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.586,
+        "end": 3.739,
+        "gloss_id": "금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.366,
+        "end": 2.596
+      },
+      {
+        "descriptor": "",
+        "start": 2.824,
+        "end": 3.371
+      },
+      {
+        "descriptor": "",
+        "start": 4.036,
+        "end": 4.395
+      },
+      {
+        "descriptor": "",
+        "start": 6.199,
+        "end": 6.508
+      },
+      {
+        "descriptor": "",
+        "start": 6.655,
+        "end": 6.924
+      },
+      {
+        "descriptor": "",
+        "start": 5.594,
+        "end": 6.033
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.299,
+        "end": 6.003
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.655,
+        "end": 6.924
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.813,
+        "end": 4.369
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345810",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:36:22",
+    "sentence_ID": "VXPAKOKS240345810",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240345810.mp4",
+  "saved_as": "VXPAKOKS240345810-예금을해지하고나면,다시는같은금융상품을이용할수없다는점을기억하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

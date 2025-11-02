@@ -1,0 +1,281 @@
+{
+  "id": "VXPAKOKS240330720",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "카드 현금 서비스, 카드 수수료, 1년 회비 등은 실적에 포함되지 않으니 주의해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.324,
+        "end": 2.601,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.702,
+        "end": 3.871,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.115,
+        "end": 4.392,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.555,
+        "end": 5.009,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.273,
+        "end": 5.75,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.97,
+        "end": 6.424,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.625,
+        "end": 7.001,
+        "gloss_id": "여러가지4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.298,
+        "end": 7.621,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.817,
+        "end": 8.148,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.324,
+        "end": 2.601,
+        "loc": "0",
+        "word": "카드"
+      },
+      {
+        "start": 2.702,
+        "end": 3.871,
+        "loc": "1,2",
+        "word": "현금 서비스,"
+      },
+      {
+        "start": 4.115,
+        "end": 4.392,
+        "loc": "3",
+        "word": "카드"
+      },
+      {
+        "start": 4.555,
+        "end": 5.009,
+        "loc": "4",
+        "word": "수수료,"
+      },
+      {
+        "start": 5.273,
+        "end": 5.75,
+        "loc": "5",
+        "word": "1년"
+      },
+      {
+        "start": 5.97,
+        "end": 6.424,
+        "loc": "6",
+        "word": "회비"
+      },
+      {
+        "start": 6.625,
+        "end": 7.001,
+        "loc": "7",
+        "word": "등은"
+      },
+      {
+        "start": 7.298,
+        "end": 7.621,
+        "loc": "8",
+        "word": "실적에"
+      },
+      {
+        "start": 7.817,
+        "end": 8.148,
+        "loc": "9,10,11,12",
+        "word": "포함되지 않으니 주의해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.555,
+        "end": 5.009,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.273,
+        "end": 5.75,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.817,
+        "end": 8.148,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일년",
+        "start": 5.273,
+        "end": 5.75
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.033,
+        "end": 3.533
+      },
+      {
+        "descriptor": "",
+        "start": 5.97,
+        "end": 6.424
+      },
+      {
+        "descriptor": "",
+        "start": 6.625,
+        "end": 7.001
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.033,
+        "end": 3.533
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 7.817,
+        "end": 8.148
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.625,
+        "end": 7.001
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.817,
+        "end": 8.148
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.324,
+        "end": 3.509
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330720",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:35:18",
+    "sentence_ID": "VXPAKOKS240330720",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    277,
+    126
+  ],
+  "file": "VXPAKOKS240330720.mp4",
+  "saved_as": "VXPAKOKS240330720-카드현금서비스,카드수수료,1년회비등은실적에포함되지않으니주의해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

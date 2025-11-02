@@ -1,0 +1,330 @@
+{
+  "id": "VXPAKOKS240344130",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "예금 금리는 은행 정책에 따라 월이나 분기 단위로 변경됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.44,
+        "end": 2.781,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.973,
+        "end": 3.135,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.332,
+        "end": 3.911,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.405,
+        "end": 4.607,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.844,
+        "end": 5.135,
+        "gloss_id": "다스리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.366,
+        "end": 5.587,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.971,
+        "end": 6.252,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.538,
+        "end": 6.779,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.502,
+        "end": 7.821,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.564,
+        "end": 8.799,
+        "gloss_id": "날짜(활용):3개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.189,
+        "end": 9.699,
+        "gloss_id": "바꾸다2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.298,
+        "end": 8.5,
+        "gloss_id": "날짜(활용):3개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.292,
+        "end": 7.462,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.44,
+        "end": 2.781,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.973,
+        "end": 3.911,
+        "loc": "1",
+        "word": "금리는"
+      },
+      {
+        "start": 4.405,
+        "end": 4.607,
+        "loc": "2",
+        "word": "은행"
+      },
+      {
+        "start": 4.844,
+        "end": 5.583,
+        "loc": "3",
+        "word": "정책에"
+      },
+      {
+        "start": 5.971,
+        "end": 6.779,
+        "loc": "4",
+        "word": "따라"
+      },
+      {
+        "start": 7.292,
+        "end": 7.821,
+        "loc": "5",
+        "word": "월이나"
+      },
+      {
+        "start": 8.299,
+        "end": 8.799,
+        "loc": "6,7",
+        "word": "분기 단위로"
+      },
+      {
+        "start": 9.189,
+        "end": 9.699,
+        "loc": "8",
+        "word": "변경됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.44,
+        "end": 2.781,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.405,
+        "end": 4.607,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.844,
+        "end": 5.135,
+        "gloss_id": "다스리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.366,
+        "end": 6.244,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.538,
+        "end": 6.779,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.189,
+        "end": 9.699,
+        "gloss_id": "2",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.332,
+        "end": 3.911
+      },
+      {
+        "descriptor": "",
+        "start": 6.538,
+        "end": 6.779
+      },
+      {
+        "descriptor": "",
+        "start": 7.292,
+        "end": 7.821
+      },
+      {
+        "descriptor": "",
+        "start": 8.299,
+        "end": 8.799
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.844,
+        "end": 7.793
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.44,
+        "end": 3.915
+      },
+      {
+        "descriptor": "",
+        "start": 5.971,
+        "end": 6.72
+      },
+      {
+        "descriptor": "",
+        "start": 7.292,
+        "end": 8.796
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344130",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:58:18",
+    "sentence_ID": "VXPAKOKS240344130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    358,
+    126
+  ],
+  "file": "VXPAKOKS240344130.mp4",
+  "saved_as": "VXPAKOKS240344130-예금금리는은행정책에따라월이나분기단위로변경됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

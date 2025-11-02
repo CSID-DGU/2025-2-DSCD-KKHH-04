@@ -1,0 +1,331 @@
+{
+  "id": "VXPAKOKS240333250",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "여행 경비나 가족끼리 쓸 수 있는 모임 통장을 만들어서 관리할 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.327,
+        "end": 2.546,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.872,
+        "end": 3.129,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.434,
+        "end": 3.699,
+        "gloss_id": "가족1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.901,
+        "end": 4.19,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.574,
+        "end": 4.84,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.214,
+        "end": 5.534,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.818,
+        "end": 5.951,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.147,
+        "end": 6.366,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.575,
+        "end": 6.762,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.945,
+        "end": 7.187,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.44,
+        "end": 7.682,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.327,
+        "end": 2.546,
+        "loc": "0",
+        "word": "여행"
+      },
+      {
+        "start": 2.872,
+        "end": 3.129,
+        "loc": "1",
+        "word": "경비나"
+      },
+      {
+        "start": 3.434,
+        "end": 3.7,
+        "loc": "2",
+        "word": "가족끼리"
+      },
+      {
+        "start": 3.901,
+        "end": 4.854,
+        "loc": "3,4,5",
+        "word": "쓸 수 있는"
+      },
+      {
+        "start": 5.214,
+        "end": 5.534,
+        "loc": "6",
+        "word": "모임"
+      },
+      {
+        "start": 5.818,
+        "end": 6.373,
+        "loc": "7",
+        "word": "통장을"
+      },
+      {
+        "start": 6.575,
+        "end": 7.191,
+        "loc": "8,9",
+        "word": "만들어서 관리할"
+      },
+      {
+        "start": 7.44,
+        "end": 7.682,
+        "loc": "10,11",
+        "word": "수 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.327,
+        "end": 2.546,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.434,
+        "end": 3.7,
+        "gloss_id": "가족1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.901,
+        "end": 4.19,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.574,
+        "end": 5.535,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.818,
+        "end": 5.951,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.147,
+        "end": 6.366,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.575,
+        "end": 6.762,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.945,
+        "end": 7.187,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.872,
+        "end": 3.129
+      },
+      {
+        "descriptor": "",
+        "start": 3.901,
+        "end": 4.19
+      },
+      {
+        "descriptor": "",
+        "start": 4.574,
+        "end": 4.84
+      },
+      {
+        "descriptor": "",
+        "start": 6.147,
+        "end": 6.366
+      },
+      {
+        "descriptor": "",
+        "start": 6.945,
+        "end": 7.187
+      },
+      {
+        "descriptor": "",
+        "start": 7.44,
+        "end": 7.682
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.44,
+        "end": 7.682
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.327,
+        "end": 2.546
+      },
+      {
+        "descriptor": "",
+        "start": 5.214,
+        "end": 6.362
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333250",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:04",
+    "sentence_ID": "VXPAKOKS240333250",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    281,
+    126
+  ],
+  "file": "VXPAKOKS240333250.mp4",
+  "saved_as": "VXPAKOKS240333250-여행경비나가족끼리쓸수있는모임통장을만들어서관리할수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

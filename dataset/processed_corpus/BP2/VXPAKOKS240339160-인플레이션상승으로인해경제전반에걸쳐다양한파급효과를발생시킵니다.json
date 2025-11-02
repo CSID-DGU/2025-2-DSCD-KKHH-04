@@ -1,0 +1,249 @@
+{
+  "id": "VXPAKOKS240339160",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "인플레이션 상승으로 인해 경제 전반에 걸쳐 다양한 파급 효과를 발생시킵니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.496,
+        "end": 1.73,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.929,
+        "end": 2.274,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.49,
+        "end": 2.874,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.133,
+        "end": 3.505,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.686,
+        "end": 4.177,
+        "gloss_id": "모두1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.363,
+        "end": 4.597,
+        "gloss_id": "영향1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.766,
+        "end": 5.137,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.496,
+        "end": 1.73,
+        "loc": "0",
+        "word": "인플레이션"
+      },
+      {
+        "start": 1.929,
+        "end": 2.274,
+        "loc": "1",
+        "word": "상승으로"
+      },
+      {
+        "start": 2.49,
+        "end": 2.874,
+        "loc": "2",
+        "word": "인해"
+      },
+      {
+        "start": 3.133,
+        "end": 3.505,
+        "loc": "3",
+        "word": "경제"
+      },
+      {
+        "start": 4.766,
+        "end": 5.137,
+        "loc": "9",
+        "word": "발생시킵니다."
+      },
+      {
+        "start": 4.363,
+        "end": 4.597,
+        "loc": "7,8",
+        "word": "파급 효과를"
+      },
+      {
+        "start": 3.686,
+        "end": 4.177,
+        "loc": "4,5,6",
+        "word": "전반에 걸쳐 다양한"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.496,
+        "end": 1.73,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.133,
+        "end": 3.505,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.686,
+        "end": 4.177,
+        "gloss_id": "모두1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.363,
+        "end": 4.597,
+        "gloss_id": "영향1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.929,
+        "end": 2.274
+      },
+      {
+        "descriptor": "",
+        "start": 2.649,
+        "end": 2.874
+      },
+      {
+        "descriptor": "",
+        "start": 4.766,
+        "end": 5.137
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.655,
+        "end": 2.874
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.929,
+        "end": 2.886
+      },
+      {
+        "descriptor": "",
+        "start": 3.686,
+        "end": 4.177
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.496,
+        "end": 1.677
+      },
+      {
+        "descriptor": "",
+        "start": 3.133,
+        "end": 3.505
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339160",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:56:12",
+    "sentence_ID": "VXPAKOKS240339160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    185,
+    126
+  ],
+  "file": "VXPAKOKS240339160.mp4",
+  "saved_as": "VXPAKOKS240339160-인플레이션상승으로인해경제전반에걸쳐다양한파급효과를발생시킵니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

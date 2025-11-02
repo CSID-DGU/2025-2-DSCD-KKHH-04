@@ -1,0 +1,292 @@
+{
+  "id": "VXPAKOKS240335860",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식을 사려는 회사에 대해 꼼꼼하게 분석해야 투자한 돈을 잃지 않는다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.81,
+        "end": 1.956,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.161,
+        "end": 2.589,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.913,
+        "end": 3.132,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.362,
+        "end": 3.589,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.83,
+        "end": 4.426,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.637,
+        "end": 4.896,
+        "gloss_id": "분석1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.148,
+        "end": 5.503,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.714,
+        "end": 5.949,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.115,
+        "end": 6.47,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.635,
+        "end": 6.862,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.81,
+        "end": 2.59,
+        "loc": "0",
+        "word": "주식을"
+      },
+      {
+        "start": 2.913,
+        "end": 3.132,
+        "loc": "1",
+        "word": "사려는"
+      },
+      {
+        "start": 3.362,
+        "end": 4.425,
+        "loc": "2,3",
+        "word": "회사에 대해"
+      },
+      {
+        "start": 4.637,
+        "end": 5.507,
+        "loc": "4,5",
+        "word": "꼼꼼하게 분석해야"
+      },
+      {
+        "start": 5.714,
+        "end": 5.949,
+        "loc": "6,7",
+        "word": "투자한 돈을"
+      },
+      {
+        "start": 6.115,
+        "end": 6.47,
+        "loc": "8",
+        "word": "잃지"
+      },
+      {
+        "start": 6.635,
+        "end": 6.862,
+        "loc": "9",
+        "word": "않는다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.81,
+        "end": 1.956,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.362,
+        "end": 3.589,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.83,
+        "end": 4.426,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.637,
+        "end": 4.896,
+        "gloss_id": "분석1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.115,
+        "end": 6.47,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.635,
+        "end": 6.862
+      },
+      {
+        "descriptor": "",
+        "start": 2.161,
+        "end": 2.589
+      },
+      {
+        "descriptor": "",
+        "start": 2.913,
+        "end": 3.132
+      },
+      {
+        "descriptor": "",
+        "start": 3.942,
+        "end": 4.426
+      },
+      {
+        "descriptor": "",
+        "start": 5.148,
+        "end": 5.503
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.637,
+        "end": 4.896
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.635,
+        "end": 6.862
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.81,
+        "end": 3.121
+      },
+      {
+        "descriptor": "",
+        "start": 5.148,
+        "end": 5.503
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335860",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:45:45",
+    "sentence_ID": "VXPAKOKS240335860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    289,
+    126
+  ],
+  "file": "VXPAKOKS240335860.mp4",
+  "saved_as": "VXPAKOKS240335860-주식을사려는회사에대해꼼꼼하게분석해야투자한돈을잃지않는다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

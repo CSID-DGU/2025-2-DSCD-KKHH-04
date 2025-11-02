@@ -1,0 +1,285 @@
+{
+  "id": "VXPAKOKS240338740",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "단일 산업이나 기업에 과도하게 집중적으로 투자하는 것은 투자금 손실 위험을 증가시킵니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.005,
+        "end": 2.505,
+        "gloss_id": "공장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.878,
+        "end": 3.139,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.526,
+        "end": 3.779,
+        "gloss_id": "일3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.349,
+        "end": 4.711,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.015,
+        "end": 5.363,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.565,
+        "end": 5.688,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.978,
+        "end": 6.239,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.539,
+        "end": 6.77,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.964,
+        "end": 7.282,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.005,
+        "end": 2.505,
+        "loc": "1",
+        "word": "산업이나"
+      },
+      {
+        "start": 2.878,
+        "end": 3.139,
+        "loc": "2",
+        "word": "기업에"
+      },
+      {
+        "start": 3.526,
+        "end": 3.779,
+        "loc": "0",
+        "word": "단일"
+      },
+      {
+        "start": 4.349,
+        "end": 4.726,
+        "loc": "3,4",
+        "word": "과도하게 집중적으로"
+      },
+      {
+        "start": 5.015,
+        "end": 5.363,
+        "loc": "5,6",
+        "word": "투자하는 것은"
+      },
+      {
+        "start": 5.565,
+        "end": 5.688,
+        "loc": "7",
+        "word": "투자금"
+      },
+      {
+        "start": 5.978,
+        "end": 6.239,
+        "loc": "8",
+        "word": "손실"
+      },
+      {
+        "start": 6.539,
+        "end": 6.77,
+        "loc": "10",
+        "word": "증가시킵니다."
+      },
+      {
+        "start": 6.964,
+        "end": 7.282,
+        "loc": "9",
+        "word": "위험을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.005,
+        "end": 2.505,
+        "gloss_id": "공장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.878,
+        "end": 3.139,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.349,
+        "end": 4.726,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.978,
+        "end": 6.239,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.565,
+        "end": 5.688
+      },
+      {
+        "descriptor": "",
+        "start": 6.964,
+        "end": 7.282
+      },
+      {
+        "descriptor": "",
+        "start": 2.005,
+        "end": 2.505
+      },
+      {
+        "descriptor": "",
+        "start": 3.526,
+        "end": 3.779
+      },
+      {
+        "descriptor": "",
+        "start": 6.539,
+        "end": 6.77
+      },
+      {
+        "descriptor": "",
+        "start": 4.349,
+        "end": 4.711
+      },
+      {
+        "descriptor": "",
+        "start": 5.015,
+        "end": 5.363
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.978,
+        "end": 6.768
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.526,
+        "end": 5.678
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338740",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:45:58",
+    "sentence_ID": "VXPAKOKS240338740",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    261,
+    126
+  ],
+  "file": "VXPAKOKS240338740.mp4",
+  "saved_as": "VXPAKOKS240338740-단일산업이나기업에과도하게집중적으로투자하는것은투자금손실위험을증가시킵니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

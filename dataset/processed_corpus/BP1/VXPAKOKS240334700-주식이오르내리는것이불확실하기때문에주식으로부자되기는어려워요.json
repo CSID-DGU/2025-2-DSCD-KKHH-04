@@ -1,0 +1,243 @@
+{
+  "id": "VXPAKOKS240334700",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식이 오르내리는 것이 불확실하기 때문에 주식으로 부자 되기는 어려워요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.139,
+        "end": 2.772,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.209,
+        "end": 3.827,
+        "gloss_id": "오르내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.292,
+        "end": 4.562,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.847,
+        "end": 5.591,
+        "gloss_id": "애매하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.882,
+        "end": 6.204,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.391,
+        "end": 6.735,
+        "gloss_id": "부자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.005,
+        "end": 7.305,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.43,
+        "end": 7.744,
+        "gloss_id": "아니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.139,
+        "end": 2.772,
+        "loc": "0",
+        "word": "주식이"
+      },
+      {
+        "start": 3.209,
+        "end": 4.561,
+        "loc": "1,2",
+        "word": "오르내리는 것이"
+      },
+      {
+        "start": 4.847,
+        "end": 5.591,
+        "loc": "3,4",
+        "word": "불확실하기 때문에"
+      },
+      {
+        "start": 5.882,
+        "end": 6.204,
+        "loc": "5",
+        "word": "주식으로"
+      },
+      {
+        "start": 6.391,
+        "end": 6.735,
+        "loc": "6,7",
+        "word": "부자 되기는"
+      },
+      {
+        "start": 7.005,
+        "end": 7.735,
+        "loc": "8",
+        "word": "어려워요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.139,
+        "end": 2.772,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.292,
+        "end": 4.562,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.847,
+        "end": 5.592,
+        "gloss_id": "애매하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.005,
+        "end": 7.305,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.43,
+        "end": 7.744
+      },
+      {
+        "descriptor": "",
+        "start": 2.287,
+        "end": 2.772
+      },
+      {
+        "descriptor": "",
+        "start": 3.365,
+        "end": 3.827
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.366,
+        "end": 4.562
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 6.096,
+        "end": 7.011
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.139,
+        "end": 7.304
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240334700",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:31:53",
+    "sentence_ID": "VXPAKOKS240334700",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    267,
+    126
+  ],
+  "file": "VXPAKOKS240334700.mp4",
+  "saved_as": "VXPAKOKS240334700-주식이오르내리는것이불확실하기때문에주식으로부자되기는어려워요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

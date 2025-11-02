@@ -1,0 +1,348 @@
+{
+  "id": "VXPAKOKS240337970",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "유동성 위험은 채권을 처분하거나 현금화하기 어려운 상황에서 발생하는 위험을 말합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.393,
+        "end": 4.18,
+        "gloss_id": "유동성",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.605,
+        "end": 4.966,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.186,
+        "end": 5.292,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.483,
+        "end": 5.823,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.939,
+        "end": 6.066,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.249,
+        "end": 6.749,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.993,
+        "end": 7.333,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.79,
+        "end": 8.088,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.248,
+        "end": 8.365,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.591,
+        "end": 8.793,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.022,
+        "end": 9.256,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.46,
+        "end": 9.928,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.18,
+        "end": 10.51,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.686,
+        "end": 11.026,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.393,
+        "end": 4.18,
+        "loc": "0",
+        "word": "유동성"
+      },
+      {
+        "start": 4.605,
+        "end": 5.828,
+        "loc": "1",
+        "word": "위험은"
+      },
+      {
+        "start": 5.939,
+        "end": 7.332,
+        "loc": "2",
+        "word": "채권을"
+      },
+      {
+        "start": 7.79,
+        "end": 8.088,
+        "loc": "3",
+        "word": "처분하거나"
+      },
+      {
+        "start": 8.248,
+        "end": 9.269,
+        "loc": "4",
+        "word": "현금화하기"
+      },
+      {
+        "start": 9.46,
+        "end": 9.928,
+        "loc": "5,6",
+        "word": "어려운 상황에서"
+      },
+      {
+        "start": 10.18,
+        "end": 10.51,
+        "loc": "7,8",
+        "word": "발생하는 위험을"
+      },
+      {
+        "start": 10.686,
+        "end": 11.026,
+        "loc": "9",
+        "word": "말합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 6.993,
+        "end": 7.333,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.79,
+        "end": 8.088,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.591,
+        "end": 8.793,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.022,
+        "end": 9.256,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.686,
+        "end": 11.026,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "유동성",
+        "start": 2.393,
+        "end": 4.18
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 10.686,
+        "end": 11.026
+      },
+      {
+        "descriptor": "",
+        "start": 3.402,
+        "end": 4.179
+      },
+      {
+        "descriptor": "",
+        "start": 4.605,
+        "end": 4.966
+      },
+      {
+        "descriptor": "",
+        "start": 5.483,
+        "end": 5.823
+      },
+      {
+        "descriptor": "",
+        "start": 9.46,
+        "end": 9.928
+      },
+      {
+        "descriptor": "",
+        "start": 7.79,
+        "end": 8.088
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.79,
+        "end": 8.088
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.605,
+        "end": 5.806
+      },
+      {
+        "descriptor": "",
+        "start": 7.79,
+        "end": 8.088
+      },
+      {
+        "descriptor": "",
+        "start": 9.022,
+        "end": 9.905
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240337970",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:05",
+    "sentence_ID": "VXPAKOKS240337970",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    383,
+    126
+  ],
+  "file": "VXPAKOKS240337970.mp4",
+  "saved_as": "VXPAKOKS240337970-유동성위험은채권을처분하거나현금화하기어려운상황에서발생하는위험을말합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

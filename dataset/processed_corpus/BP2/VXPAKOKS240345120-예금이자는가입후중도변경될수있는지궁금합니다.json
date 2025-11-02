@@ -1,0 +1,256 @@
+{
+  "id": "VXPAKOKS240345120",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "예금 이자는 가입 후 중도 변경될 수 있는지 궁금합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.799,
+        "end": 2.166,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.352,
+        "end": 2.684,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.994,
+        "end": 4.178,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.39,
+        "end": 4.82,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.046,
+        "end": 5.302,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.521,
+        "end": 5.749,
+        "gloss_id": "바꾸다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.926,
+        "end": 6.161,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.26,
+        "end": 6.572,
+        "gloss_id": "궁금하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.799,
+        "end": 2.166,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.352,
+        "end": 2.684,
+        "loc": "1",
+        "word": "이자는"
+      },
+      {
+        "start": 2.994,
+        "end": 4.178,
+        "loc": "2,3",
+        "word": "가입 후"
+      },
+      {
+        "start": 4.39,
+        "end": 5.295,
+        "loc": "4",
+        "word": "중도"
+      },
+      {
+        "start": 5.521,
+        "end": 5.749,
+        "loc": "5",
+        "word": "변경될"
+      },
+      {
+        "start": 5.933,
+        "end": 6.154,
+        "loc": "6,7",
+        "word": "수 있는지"
+      },
+      {
+        "start": 6.253,
+        "end": 6.572,
+        "loc": "8",
+        "word": "궁금합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.799,
+        "end": 2.166,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.046,
+        "end": 5.741,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.994,
+        "end": 4.178,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.352,
+        "end": 2.579
+      },
+      {
+        "descriptor": "",
+        "start": 3.857,
+        "end": 4.137
+      },
+      {
+        "descriptor": "",
+        "start": 5.046,
+        "end": 5.302
+      },
+      {
+        "descriptor": "",
+        "start": 5.933,
+        "end": 6.154
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.861,
+        "end": 4.125
+      },
+      {
+        "descriptor": "",
+        "start": 5.933,
+        "end": 6.154
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.253,
+        "end": 6.572
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.966,
+        "end": 2.56
+      },
+      {
+        "descriptor": "",
+        "start": 5.433,
+        "end": 6.016
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345120",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:35:00",
+    "sentence_ID": "VXPAKOKS240345120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240345120.mp4",
+  "saved_as": "VXPAKOKS240345120-예금이자는가입후중도변경될수있는지궁금합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

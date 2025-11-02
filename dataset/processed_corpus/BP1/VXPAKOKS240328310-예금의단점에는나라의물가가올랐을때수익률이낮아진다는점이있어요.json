@@ -1,0 +1,280 @@
+{
+  "id": "VXPAKOKS240328310",
+  "opertor": "label11",
+  "krlgg_sntenc": {
+    "koreanText": "예금의 단점에는 나라의 물가가 올랐을 때 수익률이 낮아진다는 점이 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.299,
+        "end": 1.483,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.699,
+        "end": 1.893,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.966,
+        "end": 2.187,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.294,
+        "end": 2.649,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.933,
+        "end": 3.224,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.333,
+        "end": 3.415,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.592,
+        "end": 3.85,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.999,
+        "end": 4.354,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.399,
+        "end": 4.818,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.933,
+        "end": 5.159,
+        "gloss_id": "나쁘다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.399,
+        "end": 5.561,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.299,
+        "end": 1.483,
+        "loc": "2",
+        "word": "나라의"
+      },
+      {
+        "start": 1.699,
+        "end": 2.188,
+        "loc": "3",
+        "word": "물가가"
+      },
+      {
+        "start": 4.933,
+        "end": 5.561,
+        "loc": "1",
+        "word": "단점에는"
+      },
+      {
+        "start": 3.333,
+        "end": 3.854,
+        "loc": "0",
+        "word": "예금의"
+      },
+      {
+        "start": 3.999,
+        "end": 4.354,
+        "loc": "6",
+        "word": "수익률이"
+      },
+      {
+        "start": 4.399,
+        "end": 4.818,
+        "loc": "7,8,9",
+        "word": "낮아진다는 점이 있어요."
+      },
+      {
+        "start": 2.294,
+        "end": 3.223,
+        "loc": "4,5",
+        "word": "올랐을 때"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.299,
+        "end": 1.483,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.699,
+        "end": 2.413,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.933,
+        "end": 3.417,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.592,
+        "end": 4.821,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.399,
+        "end": 5.561
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.933,
+        "end": 3.224
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.294,
+        "end": 2.649
+      },
+      {
+        "descriptor": "",
+        "start": 3.999,
+        "end": 4.82
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.399,
+        "end": 5.561
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.592,
+        "end": 3.85
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328310",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:28:16",
+    "sentence_ID": "VXPAKOKS240328310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    193,
+    126
+  ],
+  "file": "VXPAKOKS240328310.mp4",
+  "saved_as": "VXPAKOKS240328310-예금의단점에는나라의물가가올랐을때수익률이낮아진다는점이있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

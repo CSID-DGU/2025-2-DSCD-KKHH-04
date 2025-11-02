@@ -1,0 +1,381 @@
+{
+  "id": "VXPAKOKS240337820",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "정보 기술의 발달로 세계화되어, 전 세계의 투자자들이 채권시장에 쉽게 접근할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.006,
+        "end": 2.402,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.632,
+        "end": 2.886,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.067,
+        "end": 3.189,
+        "gloss_id": "기술1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.558,
+        "end": 3.888,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.147,
+        "end": 4.571,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.842,
+        "end": 5.106,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.282,
+        "end": 5.385,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.583,
+        "end": 6.092,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.195,
+        "end": 6.326,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.513,
+        "end": 6.654,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.872,
+        "end": 7.117,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.443,
+        "end": 7.603,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.876,
+        "end": 8.036,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.248,
+        "end": 8.625,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.88,
+        "end": 9.116,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.006,
+        "end": 4.574,
+        "loc": "0,1,2,3",
+        "word": "정보 기술의 발달로 세계화되어,"
+      },
+      {
+        "start": 5.282,
+        "end": 6.102,
+        "loc": "6",
+        "word": "투자자들이"
+      },
+      {
+        "start": 4.842,
+        "end": 5.106,
+        "loc": "4,5",
+        "word": "전 세계의"
+      },
+      {
+        "start": 6.195,
+        "end": 7.129,
+        "loc": "7",
+        "word": "채권시장에"
+      },
+      {
+        "start": 8.88,
+        "end": 9.116,
+        "loc": "10,11",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 8.248,
+        "end": 8.625,
+        "loc": "8",
+        "word": "쉽게"
+      },
+      {
+        "start": 7.443,
+        "end": 8.028,
+        "loc": "9",
+        "word": "접근할"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.006,
+        "end": 2.402,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.632,
+        "end": 2.886,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.558,
+        "end": 3.888,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.147,
+        "end": 4.571,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.842,
+        "end": 5.106,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.282,
+        "end": 5.385,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.872,
+        "end": 7.117,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.443,
+        "end": 7.603,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.876,
+        "end": 8.036,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.248,
+        "end": 8.625,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.147,
+        "end": 4.571
+      },
+      {
+        "descriptor": "",
+        "start": 5.583,
+        "end": 6.092
+      },
+      {
+        "descriptor": "",
+        "start": 7.443,
+        "end": 7.603
+      },
+      {
+        "descriptor": "",
+        "start": 8.248,
+        "end": 8.625
+      },
+      {
+        "descriptor": "",
+        "start": 8.88,
+        "end": 9.116
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.88,
+        "end": 9.116
+      },
+      {
+        "descriptor": "",
+        "start": 4.147,
+        "end": 4.571
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.632,
+        "end": 3.887
+      },
+      {
+        "descriptor": "",
+        "start": 4.839,
+        "end": 6.093
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337820",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:40:28",
+    "sentence_ID": "VXPAKOKS240337820",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    340,
+    126
+  ],
+  "file": "VXPAKOKS240337820.mp4",
+  "saved_as": "VXPAKOKS240337820-정보기술의발달로세계화되어,전세계의투자자들이채권시장에쉽게접근할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

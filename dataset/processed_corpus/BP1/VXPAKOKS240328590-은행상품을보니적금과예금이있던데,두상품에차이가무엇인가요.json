@@ -1,0 +1,274 @@
+{
+  "id": "VXPAKOKS240328590",
+  "opertor": "label9",
+  "krlgg_sntenc": {
+    "koreanText": "은행 상품을 보니 적금과 예금이 있던데, 두 상품에 차이가 무엇인가요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.885,
+        "end": 2.974,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.233,
+        "end": 3.358,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.542,
+        "end": 4.023,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.199,
+        "end": 4.324,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.427,
+        "end": 4.988,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.276,
+        "end": 5.696,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.899,
+        "end": 6.172,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.321,
+        "end": 6.698,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.233,
+        "end": 4.027,
+        "loc": "3",
+        "word": "적금과"
+      },
+      {
+        "start": 4.199,
+        "end": 4.993,
+        "loc": "4,5",
+        "word": "예금이 있던데,"
+      },
+      {
+        "start": 5.276,
+        "end": 5.696,
+        "loc": "6,7",
+        "word": "두 상품에"
+      },
+      {
+        "start": 5.899,
+        "end": 6.172,
+        "loc": "8",
+        "word": "차이가"
+      },
+      {
+        "start": 6.327,
+        "end": 6.698,
+        "loc": "9",
+        "word": "무엇인가요?"
+      },
+      {
+        "start": 1.885,
+        "end": 2.974,
+        "loc": "0,1,2",
+        "word": "은행 상품을 보니"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.885,
+        "end": 2.974,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.233,
+        "end": 3.358,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.542,
+        "end": 4.023,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.427,
+        "end": 4.988,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.276,
+        "end": 5.696,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.899,
+        "end": 6.172,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.885,
+        "end": 2.974
+      },
+      {
+        "descriptor": "",
+        "start": 3.542,
+        "end": 4.023
+      },
+      {
+        "descriptor": "",
+        "start": 4.427,
+        "end": 4.988
+      },
+      {
+        "descriptor": "",
+        "start": 6.321,
+        "end": 6.698
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.276,
+        "end": 5.696
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.542,
+        "end": 4.023
+      },
+      {
+        "descriptor": "",
+        "start": 4.427,
+        "end": 4.988
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.885,
+        "end": 2.974
+      },
+      {
+        "descriptor": "",
+        "start": 5.899,
+        "end": 6.688
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328590",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:34:26",
+    "sentence_ID": "VXPAKOKS240328590",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    221,
+    126
+  ],
+  "file": "VXPAKOKS240328590.mp4",
+  "saved_as": "VXPAKOKS240328590-은행상품을보니적금과예금이있던데,두상품에차이가무엇인가요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

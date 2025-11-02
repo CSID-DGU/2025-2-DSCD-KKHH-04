@@ -1,0 +1,440 @@
+{
+  "id": "VXPAKOKS240344410",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "예금을 다른 은행으로 옮기려면 기존 예금을 해지하고 새로운 은행에 예금 계좌를 개설해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.172,
+        "end": 2.702,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.002,
+        "end": 3.15,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.433,
+        "end": 3.591,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.991,
+        "end": 4.421,
+        "gloss_id": "옮기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.712,
+        "end": 4.991,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.287,
+        "end": 5.535,
+        "gloss_id": "원래2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.784,
+        "end": 6.053,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.311,
+        "end": 6.771,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.121,
+        "end": 7.349,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.582,
+        "end": 8.022,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.297,
+        "end": 8.535,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.694,
+        "end": 8.993,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.27,
+        "end": 9.428,
+        "gloss_id": "세우다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.539,
+        "end": 9.898,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.172,
+        "end": 2.702,
+        "loc": "0",
+        "word": "예금을"
+      },
+      {
+        "start": 3.002,
+        "end": 3.15,
+        "loc": "1",
+        "word": "다른"
+      },
+      {
+        "start": 3.433,
+        "end": 3.591,
+        "loc": "2",
+        "word": "은행으로"
+      },
+      {
+        "start": 3.991,
+        "end": 4.995,
+        "loc": "3",
+        "word": "옮기려면"
+      },
+      {
+        "start": 5.277,
+        "end": 5.535,
+        "loc": "4",
+        "word": "기존"
+      },
+      {
+        "start": 5.784,
+        "end": 6.053,
+        "loc": "5",
+        "word": "예금을"
+      },
+      {
+        "start": 6.311,
+        "end": 6.771,
+        "loc": "6",
+        "word": "해지하고"
+      },
+      {
+        "start": 7.121,
+        "end": 7.349,
+        "loc": "7",
+        "word": "새로운"
+      },
+      {
+        "start": 7.582,
+        "end": 8.022,
+        "loc": "8",
+        "word": "은행에"
+      },
+      {
+        "start": 8.297,
+        "end": 8.535,
+        "loc": "10",
+        "word": "계좌를"
+      },
+      {
+        "start": 8.694,
+        "end": 8.993,
+        "loc": "9",
+        "word": "예금"
+      },
+      {
+        "start": 9.27,
+        "end": 9.428,
+        "loc": "11",
+        "word": "개설해야"
+      },
+      {
+        "start": 9.539,
+        "end": 9.898,
+        "loc": "12",
+        "word": "해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.172,
+        "end": 2.702,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.002,
+        "end": 3.15,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.433,
+        "end": 3.591,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.277,
+        "end": 5.535,
+        "gloss_id": "원래2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.784,
+        "end": 6.053,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.311,
+        "end": 6.771,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.121,
+        "end": 7.349,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.582,
+        "end": 8.022,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.297,
+        "end": 8.535,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.694,
+        "end": 8.993,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.27,
+        "end": 9.428,
+        "gloss_id": "세우다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.539,
+        "end": 9.898,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.172,
+        "end": 2.702
+      },
+      {
+        "descriptor": "",
+        "start": 4.712,
+        "end": 4.991
+      },
+      {
+        "descriptor": "",
+        "start": 6.311,
+        "end": 6.771
+      },
+      {
+        "descriptor": "",
+        "start": 7.582,
+        "end": 8.022
+      },
+      {
+        "descriptor": "",
+        "start": 5.277,
+        "end": 5.535
+      },
+      {
+        "descriptor": "",
+        "start": 9.539,
+        "end": 9.898
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.311,
+        "end": 6.771
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 9.267,
+        "end": 9.898
+      },
+      {
+        "descriptor": "",
+        "start": 5.287,
+        "end": 5.535
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.172,
+        "end": 4.967
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.172,
+        "end": 2.702
+      },
+      {
+        "descriptor": "",
+        "start": 4.712,
+        "end": 8.0
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344410",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:59:47",
+    "sentence_ID": "VXPAKOKS240344410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    362,
+    126
+  ],
+  "file": "VXPAKOKS240344410.mp4",
+  "saved_as": "VXPAKOKS240344410-예금을다른은행으로옮기려면기존예금을해지하고새로운은행에예금계좌를개설해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

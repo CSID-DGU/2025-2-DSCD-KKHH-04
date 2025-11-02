@@ -1,0 +1,282 @@
+{
+  "id": "VXPAKOKS240333290",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "여행 다녀와서 남은 돈은 어떻게 할지도 모임 통장에서 같이 논의할 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.523,
+        "end": 2.729,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.973,
+        "end": 3.608,
+        "gloss_id": "오가다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.958,
+        "end": 4.18,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.475,
+        "end": 4.705,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.932,
+        "end": 5.067,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.269,
+        "end": 5.658,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.958,
+        "end": 6.204,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.52,
+        "end": 7.012,
+        "gloss_id": "회의1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.346,
+        "end": 7.6,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.523,
+        "end": 2.729,
+        "loc": "0",
+        "word": "여행"
+      },
+      {
+        "start": 2.973,
+        "end": 3.608,
+        "loc": "1",
+        "word": "다녀와서"
+      },
+      {
+        "start": 3.958,
+        "end": 4.704,
+        "loc": "2",
+        "word": "남은"
+      },
+      {
+        "start": 4.932,
+        "end": 5.067,
+        "loc": "3",
+        "word": "돈은"
+      },
+      {
+        "start": 5.269,
+        "end": 5.658,
+        "loc": "4,5",
+        "word": "어떻게 할지도"
+      },
+      {
+        "start": 5.958,
+        "end": 6.204,
+        "loc": "6,7",
+        "word": "모임 통장에서"
+      },
+      {
+        "start": 6.52,
+        "end": 7.012,
+        "loc": "8,9",
+        "word": "같이 논의할"
+      },
+      {
+        "start": 7.346,
+        "end": 7.6,
+        "loc": "10,11",
+        "word": "수 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.523,
+        "end": 2.729,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.958,
+        "end": 4.18,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.475,
+        "end": 4.705,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.269,
+        "end": 5.658,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.52,
+        "end": 7.012,
+        "gloss_id": "회의1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.369,
+        "end": 3.599
+      },
+      {
+        "descriptor": "",
+        "start": 5.269,
+        "end": 5.658
+      },
+      {
+        "descriptor": "",
+        "start": 6.52,
+        "end": 7.012
+      },
+      {
+        "descriptor": "",
+        "start": 7.346,
+        "end": 7.6
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.369,
+        "end": 3.623
+      },
+      {
+        "descriptor": "",
+        "start": 7.346,
+        "end": 7.6
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.523,
+        "end": 2.729
+      },
+      {
+        "descriptor": "",
+        "start": 3.958,
+        "end": 5.665
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333290",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:15",
+    "sentence_ID": "VXPAKOKS240333290",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240333290.mp4",
+  "saved_as": "VXPAKOKS240333290-여행다녀와서남은돈은어떻게할지도모임통장에서같이논의할수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

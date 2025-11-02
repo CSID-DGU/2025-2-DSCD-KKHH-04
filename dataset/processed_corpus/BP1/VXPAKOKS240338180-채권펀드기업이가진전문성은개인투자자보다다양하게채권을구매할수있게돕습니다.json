@@ -1,0 +1,363 @@
+{
+  "id": "VXPAKOKS240338180",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 펀드 기업이 가진 전문성은 개인 투자자보다 다양하게 채권을 구매할 수 있게 돕습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.196,
+        "end": 2.481,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.723,
+        "end": 2.874,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.179,
+        "end": 3.545,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.704,
+        "end": 3.754,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.894,
+        "end": 4.135,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.404,
+        "end": 4.823,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.088,
+        "end": 5.534,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.805,
+        "end": 6.09,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.315,
+        "end": 6.869,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.183,
+        "end": 7.574,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.783,
+        "end": 8.032,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.228,
+        "end": 8.54,
+        "gloss_id": "돕다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.747,
+        "end": 9.014,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.196,
+        "end": 2.481,
+        "loc": "5",
+        "word": "개인"
+      },
+      {
+        "start": 2.723,
+        "end": 3.545,
+        "loc": "6",
+        "word": "투자자보다"
+      },
+      {
+        "start": 7.171,
+        "end": 7.574,
+        "loc": "7",
+        "word": "다양하게"
+      },
+      {
+        "start": 8.228,
+        "end": 9.006,
+        "loc": "12",
+        "word": "돕습니다."
+      },
+      {
+        "start": 7.783,
+        "end": 8.032,
+        "loc": "8,9,10,11",
+        "word": "채권을 구매할 수 있게"
+      },
+      {
+        "start": 3.7,
+        "end": 4.837,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 6.315,
+        "end": 6.869,
+        "loc": "1",
+        "word": "펀드"
+      },
+      {
+        "start": 5.088,
+        "end": 5.534,
+        "loc": "4",
+        "word": "전문성은"
+      },
+      {
+        "start": 5.805,
+        "end": 6.09,
+        "loc": "2,3",
+        "word": "기업이 가진"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.196,
+        "end": 2.481,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.179,
+        "end": 3.544,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.404,
+        "end": 4.823,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.088,
+        "end": 5.534,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.805,
+        "end": 6.09,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.315,
+        "end": 6.869,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.228,
+        "end": 8.54,
+        "gloss_id": "돕다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.183,
+        "end": 7.574,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.747,
+        "end": 9.014
+      },
+      {
+        "descriptor": "",
+        "start": 3.179,
+        "end": 3.545
+      },
+      {
+        "descriptor": "",
+        "start": 4.404,
+        "end": 4.823
+      },
+      {
+        "descriptor": "",
+        "start": 6.516,
+        "end": 6.873
+      },
+      {
+        "descriptor": "",
+        "start": 7.177,
+        "end": 7.574
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.747,
+        "end": 9.014
+      },
+      {
+        "descriptor": "",
+        "start": 6.516,
+        "end": 6.882
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.188,
+        "end": 7.574
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.196,
+        "end": 2.481
+      },
+      {
+        "descriptor": "",
+        "start": 4.404,
+        "end": 6.059
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338180",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:11",
+    "sentence_ID": "VXPAKOKS240338180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    322,
+    126
+  ],
+  "file": "VXPAKOKS240338180.mp4",
+  "saved_as": "VXPAKOKS240338180-채권펀드기업이가진전문성은개인투자자보다다양하게채권을구매할수있게돕습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

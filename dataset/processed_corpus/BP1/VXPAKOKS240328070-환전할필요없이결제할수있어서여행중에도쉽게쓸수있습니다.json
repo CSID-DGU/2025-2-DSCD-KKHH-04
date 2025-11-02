@@ -1,0 +1,261 @@
+{
+  "id": "VXPAKOKS240328070",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "환전할 필요 없이 결제할 수 있어서 여행 중에도 쉽게 쓸 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.466,
+        "end": 1.766,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.989,
+        "end": 2.409,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.533,
+        "end": 2.593,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.733,
+        "end": 3.233,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.466,
+        "end": 3.871,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.033,
+        "end": 4.183,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.266,
+        "end": 4.576,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.733,
+        "end": 5.063,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.466,
+        "end": 3.871,
+        "loc": "1,2",
+        "word": "필요 없이"
+      },
+      {
+        "start": 1.466,
+        "end": 1.766,
+        "loc": "6",
+        "word": "여행"
+      },
+      {
+        "start": 2.533,
+        "end": 3.228,
+        "loc": "0",
+        "word": "환전할"
+      },
+      {
+        "start": 4.733,
+        "end": 5.063,
+        "loc": "8,9,10,11",
+        "word": "쉽게 쓸 수 있습니다."
+      },
+      {
+        "start": 4.033,
+        "end": 4.568,
+        "loc": "3,4,5",
+        "word": "결제할 수 있어서"
+      },
+      {
+        "start": 1.989,
+        "end": 2.409,
+        "loc": "7",
+        "word": "중에도"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.466,
+        "end": 1.766,
+        "gloss_id": "여행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.733,
+        "end": 3.233,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.466,
+        "end": 3.871,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.033,
+        "end": 4.183,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.989,
+        "end": 2.409,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.733,
+        "end": 3.233
+      },
+      {
+        "descriptor": "",
+        "start": 3.466,
+        "end": 3.871
+      },
+      {
+        "descriptor": "",
+        "start": 4.733,
+        "end": 5.063
+      },
+      {
+        "descriptor": "",
+        "start": 1.989,
+        "end": 2.409
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.733,
+        "end": 5.063
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.466,
+        "end": 3.871
+      },
+      {
+        "descriptor": "",
+        "start": 1.989,
+        "end": 2.409
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.466,
+        "end": 1.766
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328070",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:05:35",
+    "sentence_ID": "VXPAKOKS240328070",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    180,
+    126
+  ],
+  "file": "VXPAKOKS240328070.mp4",
+  "saved_as": "VXPAKOKS240328070-환전할필요없이결제할수있어서여행중에도쉽게쓸수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

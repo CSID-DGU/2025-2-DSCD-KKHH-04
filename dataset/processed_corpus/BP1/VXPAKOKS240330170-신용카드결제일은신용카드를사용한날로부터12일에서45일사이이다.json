@@ -1,0 +1,257 @@
+{
+  "id": "VXPAKOKS240330170",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 결제일은 신용카드를 사용한 날로부터 12일에서 45일 사이이다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.367,
+        "end": 1.595,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 1.711,
+        "end": 2.46,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.707,
+        "end": 2.953,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.08,
+        "end": 3.373,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.544,
+        "end": 3.979,
+        "gloss_id": "부터1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.555,
+        "end": 4.96,
+        "gloss_id": "일형3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.165,
+        "end": 5.641,
+        "gloss_id": "날짜(활용):45일",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.815,
+        "end": 6.297,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.367,
+        "end": 2.453,
+        "loc": "1",
+        "word": "결제일은"
+      },
+      {
+        "start": 2.707,
+        "end": 3.367,
+        "loc": "2,3",
+        "word": "신용카드를 사용한"
+      },
+      {
+        "start": 3.544,
+        "end": 3.979,
+        "loc": "4",
+        "word": "날로부터"
+      },
+      {
+        "start": 4.236,
+        "end": 6.28,
+        "loc": "5,6,7,8,9,10",
+        "word": "12일에서 45일 사이에 설정할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.236,
+        "end": 5.635,
+        "gloss_id": "날짜(활용):12일",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.367,
+        "end": 1.595,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.711,
+        "end": 2.46,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.707,
+        "end": 3.373,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.544,
+        "end": 3.979,
+        "gloss_id": "부터1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.815,
+        "end": 6.297,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "사십오일",
+        "start": 5.165,
+        "end": 5.629
+      },
+      {
+        "descriptor": "십이",
+        "start": 4.236,
+        "end": 4.552
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.711,
+        "end": 2.46
+      },
+      {
+        "descriptor": "",
+        "start": 3.544,
+        "end": 3.979
+      },
+      {
+        "descriptor": "",
+        "start": 5.815,
+        "end": 6.297
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.544,
+        "end": 3.979
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.711,
+        "end": 2.46
+      },
+      {
+        "descriptor": "",
+        "start": 3.08,
+        "end": 3.959
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330170",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:58:09",
+    "sentence_ID": "VXPAKOKS240330170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    364,
+    126
+  ],
+  "file": "VXPAKOKS240330170.mp4",
+  "saved_as": "VXPAKOKS240330170-신용카드결제일은신용카드를사용한날로부터12일에서45일사이이다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

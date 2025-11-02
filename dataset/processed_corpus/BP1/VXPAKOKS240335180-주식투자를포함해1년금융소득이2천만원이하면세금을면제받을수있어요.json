@@ -1,0 +1,300 @@
+{
+  "id": "VXPAKOKS240335180",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자를 포함해 1년 금융소득이 2천만 원 이하면 세금을 면제받을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.666,
+        "end": 2.87,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.109,
+        "end": 3.489,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.812,
+        "end": 4.432,
+        "gloss_id": "포함1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.764,
+        "end": 5.152,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.381,
+        "end": 5.793,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.162,
+        "end": 6.478,
+        "gloss_id": "20000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.768,
+        "end": 7.18,
+        "gloss_id": "후배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.473,
+        "end": 7.789,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.076,
+        "end": 8.36,
+        "gloss_id": "없다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.666,
+        "end": 2.87,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 3.109,
+        "end": 3.489,
+        "loc": "1",
+        "word": "투자를"
+      },
+      {
+        "start": 3.812,
+        "end": 4.432,
+        "loc": "2",
+        "word": "포함해"
+      },
+      {
+        "start": 4.764,
+        "end": 5.152,
+        "loc": "4",
+        "word": "금융소득이"
+      },
+      {
+        "start": 5.381,
+        "end": 5.793,
+        "loc": "3",
+        "word": "1년"
+      },
+      {
+        "start": 6.162,
+        "end": 6.478,
+        "loc": "5,6",
+        "word": "2천만 원"
+      },
+      {
+        "start": 6.768,
+        "end": 7.18,
+        "loc": "7",
+        "word": "이하면"
+      },
+      {
+        "start": 7.473,
+        "end": 7.789,
+        "loc": "8",
+        "word": "세금을"
+      },
+      {
+        "start": 8.076,
+        "end": 8.36,
+        "loc": "9,10,11",
+        "word": "면제받을 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.666,
+        "end": 2.87,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.812,
+        "end": 4.432,
+        "gloss_id": "포함1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.764,
+        "end": 5.152,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.381,
+        "end": 5.793,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.473,
+        "end": 7.789,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "이천만",
+        "start": 6.162,
+        "end": 6.478
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.109,
+        "end": 3.489
+      },
+      {
+        "descriptor": "",
+        "start": 3.836,
+        "end": 4.413
+      },
+      {
+        "descriptor": "",
+        "start": 4.764,
+        "end": 5.152
+      },
+      {
+        "descriptor": "",
+        "start": 6.768,
+        "end": 7.18
+      },
+      {
+        "descriptor": "",
+        "start": 5.381,
+        "end": 5.793
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 7.647,
+        "end": 8.367
+      }
+    ],
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.647,
+        "end": 8.362
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.666,
+        "end": 3.494
+      },
+      {
+        "descriptor": "",
+        "start": 4.764,
+        "end": 5.822
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335180",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:35:01",
+    "sentence_ID": "VXPAKOKS240335180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    288,
+    126
+  ],
+  "file": "VXPAKOKS240335180.mp4",
+  "saved_as": "VXPAKOKS240335180-주식투자를포함해1년금융소득이2천만원이하면세금을면제받을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,254 @@
+{
+  "id": "VXPAKOKS240338920",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자의 유형에는 국채 투자와 회사채 투자가 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.826,
+        "end": 1.894,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.083,
+        "end": 2.268,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.506,
+        "end": 2.945,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.194,
+        "end": 3.585,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.011,
+        "end": 4.804,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.339,
+        "end": 5.736,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.029,
+        "end": 6.399,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.773,
+        "end": 6.917,
+        "gloss_id": "두가지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.202,
+        "end": 7.353,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.826,
+        "end": 2.932,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.194,
+        "end": 3.585,
+        "loc": "1",
+        "word": "투자의"
+      },
+      {
+        "start": 4.011,
+        "end": 4.804,
+        "loc": "2",
+        "word": "유형에는"
+      },
+      {
+        "start": 5.339,
+        "end": 6.911,
+        "loc": "3,4,5,6",
+        "word": "국채 투자와 회사채 투자가"
+      },
+      {
+        "start": 7.202,
+        "end": 7.353,
+        "loc": "7",
+        "word": "있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.506,
+        "end": 2.931,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.029,
+        "end": 6.399,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.773,
+        "end": 6.917,
+        "gloss_id": "두가지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.011,
+        "end": 4.804,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.339,
+        "end": 5.736,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.029,
+        "end": 6.399
+      },
+      {
+        "descriptor": "",
+        "start": 4.216,
+        "end": 4.804
+      },
+      {
+        "descriptor": "",
+        "start": 5.339,
+        "end": 5.736
+      },
+      {
+        "descriptor": "",
+        "start": 7.202,
+        "end": 7.353
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.011,
+        "end": 4.804
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.826,
+        "end": 2.934
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338920",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:48:35",
+    "sentence_ID": "VXPAKOKS240338920",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    246,
+    126
+  ],
+  "file": "VXPAKOKS240338920.mp4",
+  "saved_as": "VXPAKOKS240338920-채권투자의유형에는국채투자와회사채투자가있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

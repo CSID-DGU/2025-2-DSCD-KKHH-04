@@ -1,0 +1,290 @@
+{
+  "id": "VXPAKOKS240351050",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "예금이나 적금 해지 시에는 해지 확인서를 받을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.356,
+        "end": 1.549,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.704,
+        "end": 2.112,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.388,
+        "end": 2.525,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.655,
+        "end": 2.956,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.135,
+        "end": 3.487,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.744,
+        "end": 4.172,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.404,
+        "end": 4.561,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.696,
+        "end": 4.93,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.156,
+        "end": 5.559,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.76,
+        "end": 5.891,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.0,
+        "end": 6.168,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.744,
+        "end": 4.172,
+        "loc": "2,3",
+        "word": "해지 시에는"
+      },
+      {
+        "start": 4.404,
+        "end": 4.561,
+        "loc": "4",
+        "word": "해지"
+      },
+      {
+        "start": 4.696,
+        "end": 5.587,
+        "loc": "5",
+        "word": "확인서를"
+      },
+      {
+        "start": 5.76,
+        "end": 6.155,
+        "loc": "6,7,8",
+        "word": "받을 수 있어요."
+      },
+      {
+        "start": 1.356,
+        "end": 3.501,
+        "loc": "0,1",
+        "word": "예금이나 적금"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.356,
+        "end": 1.549,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.704,
+        "end": 2.112,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.655,
+        "end": 2.956,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.135,
+        "end": 3.487,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.744,
+        "end": 4.172,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.404,
+        "end": 4.923,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.156,
+        "end": 5.559,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.704,
+        "end": 2.112
+      },
+      {
+        "descriptor": "",
+        "start": 3.744,
+        "end": 4.172
+      },
+      {
+        "descriptor": "",
+        "start": 6.0,
+        "end": 6.168
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.0,
+        "end": 6.168
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.744,
+        "end": 4.172
+      },
+      {
+        "descriptor": "",
+        "start": 2.655,
+        "end": 2.956
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351050",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:42:41",
+    "sentence_ID": "VXPAKOKS240351050",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    221,
+    126
+  ],
+  "file": "VXPAKOKS240351050.mp4",
+  "saved_as": "VXPAKOKS240351050-예금이나적금해지시에는해지확인서를받을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,464 @@
+{
+  "id": "VXPAKOKS240337260",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "단기채는 1년 이하의 만기를 가지며, 중기채는 1년에서 10년 사이, 장기채는 10년 이상의 만기입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.169,
+        "end": 2.229,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.4,
+        "end": 2.653,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.939,
+        "end": 3.68,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.047,
+        "end": 4.338,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.565,
+        "end": 4.78,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.01,
+        "end": 5.252,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.491,
+        "end": 5.887,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.056,
+        "end": 6.583,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.869,
+        "end": 7.544,
+        "gloss_id": "후배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.971,
+        "end": 8.751,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.068,
+        "end": 9.518,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.677,
+        "end": 9.809,
+        "gloss_id": "일형3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.996,
+        "end": 10.474,
+        "gloss_id": "날짜(활용):10년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.631,
+        "end": 11.197,
+        "gloss_id": "정도1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.442,
+        "end": 11.969,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.233,
+        "end": 12.689,
+        "gloss_id": "날짜(활용):10년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.886,
+        "end": 13.293,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.163,
+        "end": 5.902,
+        "loc": "0",
+        "word": "단기채는"
+      },
+      {
+        "start": 6.056,
+        "end": 6.583,
+        "loc": "1",
+        "word": "1년"
+      },
+      {
+        "start": 6.869,
+        "end": 7.544,
+        "loc": "2,3,4",
+        "word": "이하의 만기를 가지며,"
+      },
+      {
+        "start": 7.971,
+        "end": 8.751,
+        "loc": "5",
+        "word": "중기채는"
+      },
+      {
+        "start": 9.068,
+        "end": 9.794,
+        "loc": "6",
+        "word": "1년에서"
+      },
+      {
+        "start": 9.996,
+        "end": 10.474,
+        "loc": "7",
+        "word": "10년"
+      },
+      {
+        "start": 10.631,
+        "end": 11.197,
+        "loc": "8",
+        "word": "사이,"
+      },
+      {
+        "start": 11.442,
+        "end": 11.969,
+        "loc": "9",
+        "word": "장기채는"
+      },
+      {
+        "start": 12.233,
+        "end": 12.689,
+        "loc": "10",
+        "word": "10년"
+      },
+      {
+        "start": 12.886,
+        "end": 13.293,
+        "loc": "11,12",
+        "word": "이상의 만기입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.939,
+        "end": 3.68,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.047,
+        "end": 4.338,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.565,
+        "end": 4.78,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.01,
+        "end": 5.252,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.491,
+        "end": 5.887,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.971,
+        "end": 8.751,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.442,
+        "end": 11.969,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 12.233,
+        "end": 12.689,
+        "gloss_id": "날짜(활용):10년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.996,
+        "end": 10.474,
+        "gloss_id": "날짜(활용):10년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.068,
+        "end": 9.808,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.056,
+        "end": 6.583,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "십",
+        "start": 12.233,
+        "end": 12.689
+      },
+      {
+        "descriptor": "일년",
+        "start": 9.068,
+        "end": 9.518
+      },
+      {
+        "descriptor": "십년",
+        "start": 9.996,
+        "end": 10.474
+      },
+      {
+        "descriptor": "일년",
+        "start": 6.056,
+        "end": 6.583
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 12.886,
+        "end": 13.293
+      },
+      {
+        "descriptor": "",
+        "start": 2.939,
+        "end": 3.68
+      },
+      {
+        "descriptor": "",
+        "start": 5.01,
+        "end": 5.252
+      },
+      {
+        "descriptor": "",
+        "start": 5.491,
+        "end": 5.887
+      },
+      {
+        "descriptor": "",
+        "start": 6.869,
+        "end": 7.544
+      },
+      {
+        "descriptor": "",
+        "start": 8.208,
+        "end": 8.751
+      },
+      {
+        "descriptor": "",
+        "start": 10.631,
+        "end": 11.197
+      },
+      {
+        "descriptor": "",
+        "start": 11.442,
+        "end": 11.969
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.047,
+        "end": 4.338
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 11.442,
+        "end": 11.969
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.971,
+        "end": 8.751
+      },
+      {
+        "descriptor": "",
+        "start": 2.939,
+        "end": 3.68
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337260",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:35:58",
+    "sentence_ID": "VXPAKOKS240337260",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    474,
+    126
+  ],
+  "file": "VXPAKOKS240337260.mp4",
+  "saved_as": "VXPAKOKS240337260-단기채는1년이하의만기를가지며,중기채는1년에서10년사이,장기채는10년이상의만기입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

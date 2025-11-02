@@ -1,0 +1,304 @@
+{
+  "id": "VXPAKOKS240338390",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자자는 채권 만기 전까지는 자본 소득세를 납부하지 않아도 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.097,
+        "end": 2.199,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.372,
+        "end": 2.505,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.688,
+        "end": 2.965,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.28,
+        "end": 3.748,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.279,
+        "end": 4.412,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.644,
+        "end": 4.833,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.08,
+        "end": 5.564,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.813,
+        "end": 5.994,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.173,
+        "end": 6.402,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.623,
+        "end": 6.964,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.197,
+        "end": 7.474,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.097,
+        "end": 2.956,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.28,
+        "end": 3.748,
+        "loc": "1",
+        "word": "투자자는"
+      },
+      {
+        "start": 4.279,
+        "end": 4.834,
+        "loc": "2,3",
+        "word": "채권 만기"
+      },
+      {
+        "start": 5.08,
+        "end": 5.564,
+        "loc": "4",
+        "word": "전까지는"
+      },
+      {
+        "start": 5.813,
+        "end": 5.994,
+        "loc": "5,6",
+        "word": "자본 소득세를"
+      },
+      {
+        "start": 6.173,
+        "end": 6.402,
+        "loc": "7",
+        "word": "납부하지"
+      },
+      {
+        "start": 6.623,
+        "end": 6.964,
+        "loc": "8",
+        "word": "않아도"
+      },
+      {
+        "start": 7.197,
+        "end": 7.474,
+        "loc": "9",
+        "word": "됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.688,
+        "end": 2.965,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.279,
+        "end": 4.412,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.644,
+        "end": 4.833,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.813,
+        "end": 5.994,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.623,
+        "end": 6.964,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.197,
+        "end": 7.474
+      },
+      {
+        "descriptor": "",
+        "start": 3.376,
+        "end": 3.748
+      },
+      {
+        "descriptor": "",
+        "start": 5.184,
+        "end": 5.564
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.644,
+        "end": 4.833
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.08,
+        "end": 5.564
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.197,
+        "end": 7.474
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.688,
+        "end": 3.778
+      },
+      {
+        "descriptor": "",
+        "start": 5.813,
+        "end": 6.4
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338390",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:43:06",
+    "sentence_ID": "VXPAKOKS240338390",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    287,
+    126
+  ],
+  "file": "VXPAKOKS240338390.mp4",
+  "saved_as": "VXPAKOKS240338390-채권투자자는채권만기전까지는자본소득세를납부하지않아도됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,272 @@
+{
+  "id": "VXPAKOKS240336650",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 신용 등급은 채권 발행 주체가 부도날 가능성을 평가하는 것입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.899,
+        "end": 1.999,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.128,
+        "end": 2.3,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.507,
+        "end": 3.063,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.28,
+        "end": 3.412,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.736,
+        "end": 3.876,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.144,
+        "end": 4.596,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.904,
+        "end": 5.156,
+        "gloss_id": "미래1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.299,
+        "end": 5.407,
+        "gloss_id": "빨강1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.68,
+        "end": 5.988,
+        "gloss_id": "빚1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.28,
+        "end": 6.596,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.824,
+        "end": 7.212,
+        "gloss_id": "참고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.88,
+        "end": 3.063,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 3.28,
+        "end": 3.865,
+        "loc": "1",
+        "word": "신용"
+      },
+      {
+        "start": 4.144,
+        "end": 4.596,
+        "loc": "2",
+        "word": "등급은"
+      },
+      {
+        "start": 4.904,
+        "end": 5.156,
+        "loc": "3,4,5",
+        "word": "채권 발행 주체가"
+      },
+      {
+        "start": 5.299,
+        "end": 6.594,
+        "loc": "6,7",
+        "word": "부도날 가능성을"
+      },
+      {
+        "start": 6.824,
+        "end": 7.212,
+        "loc": "8,9",
+        "word": "평가하는 것입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.507,
+        "end": 3.063,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.28,
+        "end": 3.412,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.824,
+        "end": 7.212,
+        "gloss_id": "참고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.68,
+        "end": 6.583,
+        "gloss_id": "빚1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.144,
+        "end": 4.596
+      },
+      {
+        "descriptor": "",
+        "start": 6.28,
+        "end": 6.596
+      },
+      {
+        "descriptor": "",
+        "start": 6.966,
+        "end": 7.208
+      },
+      {
+        "descriptor": "",
+        "start": 2.523,
+        "end": 3.064
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.144,
+        "end": 4.596
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.366,
+        "end": 3.986
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336650",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:31:16",
+    "sentence_ID": "VXPAKOKS240336650",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    288,
+    126
+  ],
+  "file": "VXPAKOKS240336650.mp4",
+  "saved_as": "VXPAKOKS240336650-채권의신용등급은채권발행주체가부도날가능성을평가하는것입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

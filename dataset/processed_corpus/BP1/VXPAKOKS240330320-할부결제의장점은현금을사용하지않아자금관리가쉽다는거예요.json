@@ -1,0 +1,238 @@
+{
+  "id": "VXPAKOKS240330320",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "할부 결제의 장점은 현금을 사용하지 않아 자금 관리가 쉽다는 거예요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.983,
+        "end": 3.29,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.371,
+        "end": 3.45,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.595,
+        "end": 3.992,
+        "gloss_id": "현금주다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.319,
+        "end": 5.012,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.412,
+        "end": 5.836,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.013,
+        "end": 6.313,
+        "gloss_id": "할부2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.477,
+        "end": 6.667,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.82,
+        "end": 7.017,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.15,
+        "end": 7.326,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.371,
+        "end": 3.45,
+        "loc": "3",
+        "word": "현금을"
+      },
+      {
+        "start": 3.595,
+        "end": 3.992,
+        "loc": "4",
+        "word": "사용하지"
+      },
+      {
+        "start": 4.319,
+        "end": 5.012,
+        "loc": "5",
+        "word": "않아"
+      },
+      {
+        "start": 6.013,
+        "end": 6.657,
+        "loc": "0,1",
+        "word": "할부 결제의"
+      },
+      {
+        "start": 6.82,
+        "end": 7.306,
+        "loc": "2",
+        "word": "장점은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.983,
+        "end": 3.29,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.412,
+        "end": 5.836,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.013,
+        "end": 6.313,
+        "gloss_id": "할부2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.319,
+        "end": 5.012
+      },
+      {
+        "descriptor": "",
+        "start": 6.477,
+        "end": 6.667
+      },
+      {
+        "descriptor": "",
+        "start": 7.15,
+        "end": 7.326
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.477,
+        "end": 6.667
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.983,
+        "end": 5.012
+      },
+      {
+        "descriptor": "",
+        "start": 6.013,
+        "end": 6.664
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330320",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:00:47",
+    "sentence_ID": "VXPAKOKS240330320",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    248,
+    126
+  ],
+  "file": "VXPAKOKS240330320.mp4",
+  "saved_as": "VXPAKOKS240330320-할부결제의장점은현금을사용하지않아자금관리가쉽다는거예요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

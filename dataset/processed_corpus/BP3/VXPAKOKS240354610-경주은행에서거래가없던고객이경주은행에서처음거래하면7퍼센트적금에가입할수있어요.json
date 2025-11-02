@@ -1,0 +1,453 @@
+{
+  "id": "VXPAKOKS240354610",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "경주 은행에서 거래가 없던 고객이 경주 은행에서 처음 거래하면 7퍼센트 적금에 가입할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.526,
+        "end": 1.616,
+        "gloss_id": "경주1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.807,
+        "end": 2.16,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.236,
+        "end": 2.329,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.505,
+        "end": 2.712,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.745,
+        "end": 3.025,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.423,
+        "end": 3.809,
+        "gloss_id": "없다4#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.063,
+        "end": 4.53,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.659,
+        "end": 4.808,
+        "gloss_id": "경주1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.003,
+        "end": 5.226,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.453,
+        "end": 5.717,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.071,
+        "end": 6.269,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.306,
+        "end": 6.585,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.827,
+        "end": 6.969,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.182,
+        "end": 7.397,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.751,
+        "end": 8.072,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.183,
+        "end": 8.3,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.501,
+        "end": 8.618,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.526,
+        "end": 1.616,
+        "loc": "0",
+        "word": "경주"
+      },
+      {
+        "start": 1.807,
+        "end": 2.16,
+        "loc": "1",
+        "word": "은행에서"
+      },
+      {
+        "start": 2.236,
+        "end": 3.021,
+        "loc": "2",
+        "word": "거래가"
+      },
+      {
+        "start": 3.423,
+        "end": 3.809,
+        "loc": "3",
+        "word": "없던"
+      },
+      {
+        "start": 4.063,
+        "end": 4.53,
+        "loc": "4",
+        "word": "고객이"
+      },
+      {
+        "start": 4.659,
+        "end": 4.808,
+        "loc": "5",
+        "word": "경주"
+      },
+      {
+        "start": 5.003,
+        "end": 5.226,
+        "loc": "6",
+        "word": "은행에서"
+      },
+      {
+        "start": 5.453,
+        "end": 5.717,
+        "loc": "7",
+        "word": "처음"
+      },
+      {
+        "start": 6.071,
+        "end": 6.57,
+        "loc": "8",
+        "word": "거래하면"
+      },
+      {
+        "start": 6.827,
+        "end": 7.393,
+        "loc": "10",
+        "word": "적금에"
+      },
+      {
+        "start": 7.6,
+        "end": 8.059,
+        "loc": "9",
+        "word": "7퍼센트"
+      },
+      {
+        "start": 8.183,
+        "end": 8.618,
+        "loc": "11,12,13",
+        "word": "가입할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.505,
+        "end": 3.82,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.063,
+        "end": 4.53,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.659,
+        "end": 4.808,
+        "gloss_id": "경주1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.003,
+        "end": 5.226,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.071,
+        "end": 6.571,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.182,
+        "end": 7.397,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.6,
+        "end": 8.067,
+        "gloss_id": "7",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.183,
+        "end": 8.3,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.807,
+        "end": 2.16,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.526,
+        "end": 1.616,
+        "gloss_id": "경주1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.501,
+        "end": 8.618
+      },
+      {
+        "descriptor": "",
+        "start": 1.807,
+        "end": 2.16
+      },
+      {
+        "descriptor": "",
+        "start": 4.223,
+        "end": 4.511
+      },
+      {
+        "descriptor": "",
+        "start": 7.751,
+        "end": 8.072
+      },
+      {
+        "descriptor": "",
+        "start": 2.745,
+        "end": 3.025
+      },
+      {
+        "descriptor": "",
+        "start": 6.306,
+        "end": 6.585
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.501,
+        "end": 8.618
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.423,
+        "end": 3.809
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.6,
+        "end": 8.287
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.526,
+        "end": 1.983
+      },
+      {
+        "descriptor": "",
+        "start": 3.423,
+        "end": 3.809
+      },
+      {
+        "descriptor": "",
+        "start": 4.063,
+        "end": 4.53
+      },
+      {
+        "descriptor": "",
+        "start": 6.827,
+        "end": 7.89
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354610",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:15:14",
+    "sentence_ID": "VXPAKOKS240354610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    293,
+    126
+  ],
+  "file": "VXPAKOKS240354610.mp4",
+  "saved_as": "VXPAKOKS240354610-경주은행에서거래가없던고객이경주은행에서처음거래하면7퍼센트적금에가입할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

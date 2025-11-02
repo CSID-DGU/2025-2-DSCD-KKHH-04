@@ -1,0 +1,202 @@
+{
+  "id": "VXPAKOKS240332180",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "대출 상품에 따라 중도에 상환할 경우 수수료가 발생할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.749,
+        "end": 2.124,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.38,
+        "end": 2.815,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.089,
+        "end": 3.399,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.646,
+        "end": 3.776,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.003,
+        "end": 4.733,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.879,
+        "end": 5.114,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.003,
+        "end": 5.105,
+        "loc": "6,7,8,9",
+        "word": "수수료가 발생할 수 있습니다."
+      },
+      {
+        "start": 3.089,
+        "end": 3.771,
+        "loc": "4,5",
+        "word": "상환할 경우"
+      },
+      {
+        "start": 1.749,
+        "end": 2.124,
+        "loc": "0,1,2",
+        "word": "대출 상품에 따라"
+      },
+      {
+        "start": 2.38,
+        "end": 2.815,
+        "loc": "3",
+        "word": "중도에"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.38,
+        "end": 2.815,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.003,
+        "end": 4.733,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.089,
+        "end": 3.769,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.879,
+        "end": 5.114
+      },
+      {
+        "descriptor": "",
+        "start": 1.915,
+        "end": 2.124
+      },
+      {
+        "descriptor": "",
+        "start": 4.344,
+        "end": 4.733
+      },
+      {
+        "descriptor": "",
+        "start": 3.646,
+        "end": 3.776
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.349,
+        "end": 3.776
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.749,
+        "end": 2.124
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332180",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:43:15",
+    "sentence_ID": "VXPAKOKS240332180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    180,
+    126
+  ],
+  "file": "VXPAKOKS240332180.mp4",
+  "saved_as": "VXPAKOKS240332180-대출상품에따라중도에상환할경우수수료가발생할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

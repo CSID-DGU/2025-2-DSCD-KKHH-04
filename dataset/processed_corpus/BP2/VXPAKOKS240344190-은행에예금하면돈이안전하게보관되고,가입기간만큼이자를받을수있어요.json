@@ -1,0 +1,340 @@
+{
+  "id": "VXPAKOKS240344190",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "은행에 예금하면 돈이 안전하게 보관되고, 가입 기간만큼 이자를 받을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.791,
+        "end": 2.083,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.487,
+        "end": 3.028,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.324,
+        "end": 3.457,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.709,
+        "end": 3.984,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.182,
+        "end": 4.365,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.612,
+        "end": 5.037,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.259,
+        "end": 5.551,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.815,
+        "end": 5.998,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.108,
+        "end": 6.508,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.991,
+        "end": 7.299,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.466,
+        "end": 7.724,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.799,
+        "end": 7.999,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.791,
+        "end": 2.083,
+        "loc": "0",
+        "word": "은행에"
+      },
+      {
+        "start": 2.487,
+        "end": 3.028,
+        "loc": "1",
+        "word": "예금하면"
+      },
+      {
+        "start": 3.324,
+        "end": 3.457,
+        "loc": "2",
+        "word": "돈이"
+      },
+      {
+        "start": 3.709,
+        "end": 4.368,
+        "loc": "4",
+        "word": "보관되고,"
+      },
+      {
+        "start": 4.612,
+        "end": 5.037,
+        "loc": "3",
+        "word": "안전하게"
+      },
+      {
+        "start": 5.259,
+        "end": 5.551,
+        "loc": "5",
+        "word": "가입"
+      },
+      {
+        "start": 5.815,
+        "end": 6.515,
+        "loc": "6",
+        "word": "기간만큼"
+      },
+      {
+        "start": 6.991,
+        "end": 7.299,
+        "loc": "7",
+        "word": "이자를"
+      },
+      {
+        "start": 7.466,
+        "end": 7.991,
+        "loc": "8,9,10",
+        "word": "받을 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.791,
+        "end": 2.083,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.487,
+        "end": 3.453,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.182,
+        "end": 4.365,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.612,
+        "end": 5.037,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.259,
+        "end": 5.551,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.815,
+        "end": 5.998,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.108,
+        "end": 8.001,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.487,
+        "end": 3.028
+      },
+      {
+        "descriptor": "",
+        "start": 4.612,
+        "end": 5.037
+      },
+      {
+        "descriptor": "",
+        "start": 6.108,
+        "end": 6.508
+      },
+      {
+        "descriptor": "",
+        "start": 7.799,
+        "end": 7.999
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.799,
+        "end": 7.999
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.791,
+        "end": 3.025
+      },
+      {
+        "descriptor": "",
+        "start": 5.041,
+        "end": 5.551
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.791,
+        "end": 3.017
+      },
+      {
+        "descriptor": "",
+        "start": 5.259,
+        "end": 6.518
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344190",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:58:29",
+    "sentence_ID": "VXPAKOKS240344190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    300,
+    126
+  ],
+  "file": "VXPAKOKS240344190.mp4",
+  "saved_as": "VXPAKOKS240344190-은행에예금하면돈이안전하게보관되고,가입기간만큼이자를받을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

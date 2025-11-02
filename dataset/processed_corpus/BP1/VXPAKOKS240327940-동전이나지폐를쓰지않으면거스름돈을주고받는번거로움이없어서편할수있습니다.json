@@ -1,0 +1,341 @@
+{
+  "id": "VXPAKOKS240327940",
+  "opertor": "label22",
+  "krlgg_sntenc": {
+    "koreanText": "동전이나 지폐를 쓰지 않으면 거스름돈을 주고받는 번거로움이 없어서 편할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.899,
+        "end": 2.054,
+        "gloss_id": "종이2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.212,
+        "end": 2.515,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.861,
+        "end": 3.353,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.568,
+        "end": 3.928,
+        "gloss_id": "철1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.201,
+        "end": 4.709,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.999,
+        "end": 5.211,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.287,
+        "end": 5.425,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.747,
+        "end": 6.099,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.355,
+        "end": 6.855,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.178,
+        "end": 7.694,
+        "gloss_id": "힘들다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.082,
+        "end": 8.459,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.797,
+        "end": 8.935,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.899,
+        "end": 3.353,
+        "loc": "1",
+        "word": "지폐를"
+      },
+      {
+        "start": 3.568,
+        "end": 4.709,
+        "loc": "0",
+        "word": "동전이나"
+      },
+      {
+        "start": 4.999,
+        "end": 5.433,
+        "loc": "4",
+        "word": "거스름돈을"
+      },
+      {
+        "start": 5.747,
+        "end": 6.099,
+        "loc": "5",
+        "word": "주고받는"
+      },
+      {
+        "start": 6.355,
+        "end": 7.702,
+        "loc": "6",
+        "word": "번거로움이"
+      },
+      {
+        "start": 8.082,
+        "end": 8.459,
+        "loc": "2,3,7",
+        "word": "쓰지 않으면 없어서"
+      },
+      {
+        "start": 8.797,
+        "end": 8.935,
+        "loc": "8,9,10",
+        "word": "편할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.899,
+        "end": 2.054,
+        "gloss_id": "종이2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.212,
+        "end": 2.515,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.999,
+        "end": 5.211,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.287,
+        "end": 5.425,
+        "gloss_id": "구형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.747,
+        "end": 6.099,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.355,
+        "end": 6.855,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.082,
+        "end": 8.459,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.797,
+        "end": 8.935,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.201,
+        "end": 4.709
+      },
+      {
+        "descriptor": "",
+        "start": 8.797,
+        "end": 8.935
+      },
+      {
+        "descriptor": "",
+        "start": 2.861,
+        "end": 3.353
+      },
+      {
+        "descriptor": "",
+        "start": 5.747,
+        "end": 6.099
+      },
+      {
+        "descriptor": "",
+        "start": 8.082,
+        "end": 8.459
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.797,
+        "end": 8.935
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 7.178,
+        "end": 7.694
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.355,
+        "end": 6.855
+      },
+      {
+        "descriptor": "",
+        "start": 7.178,
+        "end": 7.694
+      },
+      {
+        "descriptor": "",
+        "start": 3.568,
+        "end": 3.928
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240327940",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:03:08",
+    "sentence_ID": "VXPAKOKS240327940",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    296,
+    126
+  ],
+  "file": "VXPAKOKS240327940.mp4",
+  "saved_as": "VXPAKOKS240327940-동전이나지폐를쓰지않으면거스름돈을주고받는번거로움이없어서편할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

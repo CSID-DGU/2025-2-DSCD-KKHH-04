@@ -1,0 +1,241 @@
+{
+  "id": "VXPAKOKS240333790",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "수입을 증명하기 어렵거나, 신뢰하지 못하는 서류를 제출할 경우 대출이 거절됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.49,
+        "end": 2.646,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.899,
+        "end": 3.189,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.459,
+        "end": 3.711,
+        "gloss_id": "없다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.022,
+        "end": 4.184,
+        "gloss_id": "거짓1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.474,
+        "end": 4.821,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.051,
+        "end": 5.424,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.692,
+        "end": 5.912,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.152,
+        "end": 6.41,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.49,
+        "end": 2.646,
+        "loc": "0",
+        "word": "수입을"
+      },
+      {
+        "start": 3.459,
+        "end": 3.711,
+        "loc": "2",
+        "word": "어렵거나,"
+      },
+      {
+        "start": 4.022,
+        "end": 4.184,
+        "loc": "3,4",
+        "word": "신뢰하지 못하는"
+      },
+      {
+        "start": 4.474,
+        "end": 4.821,
+        "loc": "5",
+        "word": "서류를"
+      },
+      {
+        "start": 5.051,
+        "end": 5.424,
+        "loc": "6,7",
+        "word": "제출할 경우"
+      },
+      {
+        "start": 5.692,
+        "end": 5.912,
+        "loc": "8",
+        "word": "대출이"
+      },
+      {
+        "start": 6.152,
+        "end": 6.41,
+        "loc": "9",
+        "word": "거절됩니다."
+      },
+      {
+        "start": 2.899,
+        "end": 3.189,
+        "loc": "1",
+        "word": "증명하기"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.49,
+        "end": 3.174,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.459,
+        "end": 3.71,
+        "gloss_id": "없다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.474,
+        "end": 4.821,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.459,
+        "end": 3.711
+      },
+      {
+        "descriptor": "",
+        "start": 5.051,
+        "end": 5.424
+      },
+      {
+        "descriptor": "",
+        "start": 6.152,
+        "end": 6.41
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.459,
+        "end": 3.711
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.459,
+        "end": 5.436
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333790",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:24:28",
+    "sentence_ID": "VXPAKOKS240333790",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    229,
+    126
+  ],
+  "file": "VXPAKOKS240333790.mp4",
+  "saved_as": "VXPAKOKS240333790-수입을증명하기어렵거나,신뢰하지못하는서류를제출할경우대출이거절됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

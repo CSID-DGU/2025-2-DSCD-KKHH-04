@@ -1,0 +1,268 @@
+{
+  "id": "VXPAKOKS240335830",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "경제 지식과 분석 능력이 있는 주식 투자자들은 원금 손실의 위험을 줄일 수 있다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.78,
+        "end": 2.159,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.392,
+        "end": 2.694,
+        "gloss_id": "지식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.932,
+        "end": 3.368,
+        "gloss_id": "분석1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.617,
+        "end": 3.99,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.124,
+        "end": 4.235,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.434,
+        "end": 4.701,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.906,
+        "end": 5.18,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.394,
+        "end": 5.661,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.903,
+        "end": 6.099,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.78,
+        "end": 2.159,
+        "loc": "0",
+        "word": "경제"
+      },
+      {
+        "start": 2.392,
+        "end": 2.694,
+        "loc": "1",
+        "word": "지식과"
+      },
+      {
+        "start": 2.932,
+        "end": 3.975,
+        "loc": "2,3,4",
+        "word": "분석 능력이 있는"
+      },
+      {
+        "start": 4.124,
+        "end": 4.235,
+        "loc": "5",
+        "word": "주식"
+      },
+      {
+        "start": 4.434,
+        "end": 4.701,
+        "loc": "6",
+        "word": "투자자들은"
+      },
+      {
+        "start": 4.906,
+        "end": 5.18,
+        "loc": "7,8,9",
+        "word": "원금 손실의 위험을"
+      },
+      {
+        "start": 5.394,
+        "end": 6.092,
+        "loc": "10,11,12",
+        "word": "줄일 수 있다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.78,
+        "end": 2.682,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.932,
+        "end": 3.368,
+        "gloss_id": "분석1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.124,
+        "end": 4.235,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.906,
+        "end": 5.18,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.903,
+        "end": 6.099
+      },
+      {
+        "descriptor": "",
+        "start": 3.617,
+        "end": 3.99
+      },
+      {
+        "descriptor": "",
+        "start": 5.394,
+        "end": 5.661
+      },
+      {
+        "descriptor": "",
+        "start": 4.906,
+        "end": 5.18
+      },
+      {
+        "descriptor": "",
+        "start": 2.392,
+        "end": 2.694
+      },
+      {
+        "descriptor": "",
+        "start": 2.932,
+        "end": 3.368
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.903,
+        "end": 6.099
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.78,
+        "end": 3.967
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335830",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:45:28",
+    "sentence_ID": "VXPAKOKS240335830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    254,
+    126
+  ],
+  "file": "VXPAKOKS240335830.mp4",
+  "saved_as": "VXPAKOKS240335830-경제지식과분석능력이있는주식투자자들은원금손실의위험을줄일수있다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

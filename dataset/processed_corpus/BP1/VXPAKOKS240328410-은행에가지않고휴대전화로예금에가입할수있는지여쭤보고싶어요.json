@@ -1,0 +1,277 @@
+{
+  "id": "VXPAKOKS240328410",
+  "opertor": "label10",
+  "krlgg_sntenc": {
+    "koreanText": "은행에 가지 않고 휴대전화로 예금에 가입할 수 있는지 여쭤보고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.087,
+        "end": 2.401,
+        "gloss_id": "궁금하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.667,
+        "end": 2.888,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.995,
+        "end": 3.369,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.56,
+        "end": 3.927,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.206,
+        "end": 4.739,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.978,
+        "end": 5.186,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.51,
+        "end": 5.791,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.04,
+        "end": 6.394,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.559,
+        "end": 6.806,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.087,
+        "end": 2.401,
+        "loc": "8,9",
+        "word": "여쭤보고 싶어요."
+      },
+      {
+        "start": 2.667,
+        "end": 2.888,
+        "loc": "0",
+        "word": "은행에"
+      },
+      {
+        "start": 2.995,
+        "end": 3.927,
+        "loc": "1,2",
+        "word": "가지 않고"
+      },
+      {
+        "start": 4.206,
+        "end": 4.739,
+        "loc": "3",
+        "word": "휴대전화로"
+      },
+      {
+        "start": 4.978,
+        "end": 5.791,
+        "loc": "4",
+        "word": "예금에"
+      },
+      {
+        "start": 6.559,
+        "end": 6.806,
+        "loc": "6,7",
+        "word": "수 있는지"
+      },
+      {
+        "start": 6.04,
+        "end": 6.394,
+        "loc": "5",
+        "word": "가입할"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.667,
+        "end": 2.888,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.995,
+        "end": 3.369,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.56,
+        "end": 3.927,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.51,
+        "end": 5.791,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.04,
+        "end": 6.394,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.087,
+        "end": 2.401
+      },
+      {
+        "descriptor": "",
+        "start": 4.206,
+        "end": 4.739
+      },
+      {
+        "descriptor": "",
+        "start": 5.51,
+        "end": 5.791
+      },
+      {
+        "descriptor": "",
+        "start": 6.559,
+        "end": 6.806
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.559,
+        "end": 6.806
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.087,
+        "end": 2.401
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.206,
+        "end": 4.739
+      },
+      {
+        "descriptor": "",
+        "start": 6.559,
+        "end": 6.806
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328410",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:31:00",
+    "sentence_ID": "VXPAKOKS240328410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    239,
+    126
+  ],
+  "file": "VXPAKOKS240328410.mp4",
+  "saved_as": "VXPAKOKS240328410-은행에가지않고휴대전화로예금에가입할수있는지여쭤보고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

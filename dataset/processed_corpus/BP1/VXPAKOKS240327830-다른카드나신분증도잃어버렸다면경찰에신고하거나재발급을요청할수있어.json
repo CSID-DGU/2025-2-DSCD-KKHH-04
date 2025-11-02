@@ -1,0 +1,288 @@
+{
+  "id": "VXPAKOKS240327830",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "다른 카드나 신분증도 잃어버렸다면 경찰에 신고하거나 재발급을 요청할 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.739,
+        "end": 1.89,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.204,
+        "end": 2.634,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.842,
+        "end": 3.426,
+        "gloss_id": "신분증2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.68,
+        "end": 4.048,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.334,
+        "end": 4.45,
+        "gloss_id": "경찰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.674,
+        "end": 5.23,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.545,
+        "end": 5.724,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.899,
+        "end": 6.329,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.559,
+        "end": 6.899,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.098,
+        "end": 7.263,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.739,
+        "end": 1.89,
+        "loc": "1",
+        "word": "카드나"
+      },
+      {
+        "start": 2.204,
+        "end": 2.634,
+        "loc": "0",
+        "word": "다른"
+      },
+      {
+        "start": 2.842,
+        "end": 3.426,
+        "loc": "2",
+        "word": "신분증도"
+      },
+      {
+        "start": 3.68,
+        "end": 4.048,
+        "loc": "3",
+        "word": "잃어버렸다면"
+      },
+      {
+        "start": 4.334,
+        "end": 4.45,
+        "loc": "4",
+        "word": "경찰에"
+      },
+      {
+        "start": 4.674,
+        "end": 5.23,
+        "loc": "5",
+        "word": "신고하거나"
+      },
+      {
+        "start": 5.545,
+        "end": 6.337,
+        "loc": "6",
+        "word": "재발급을"
+      },
+      {
+        "start": 6.559,
+        "end": 6.899,
+        "loc": "7",
+        "word": "요청할"
+      },
+      {
+        "start": 7.098,
+        "end": 7.263,
+        "loc": "8,9",
+        "word": "수 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.842,
+        "end": 3.426,
+        "gloss_id": "신분증2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.899,
+        "end": 6.329,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.559,
+        "end": 6.899,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.204,
+        "end": 2.634
+      },
+      {
+        "descriptor": "",
+        "start": 3.68,
+        "end": 4.048
+      },
+      {
+        "descriptor": "",
+        "start": 4.674,
+        "end": 5.23
+      },
+      {
+        "descriptor": "",
+        "start": 5.899,
+        "end": 6.329
+      },
+      {
+        "descriptor": "",
+        "start": 7.098,
+        "end": 7.263
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.75,
+        "end": 4.048
+      },
+      {
+        "descriptor": "",
+        "start": 7.098,
+        "end": 7.263
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.68,
+        "end": 4.048
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.739,
+        "end": 2.615
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327830",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:22:50",
+    "sentence_ID": "VXPAKOKS240327830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240327830.mp4",
+  "saved_as": "VXPAKOKS240327830-다른카드나신분증도잃어버렸다면경찰에신고하거나재발급을요청할수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

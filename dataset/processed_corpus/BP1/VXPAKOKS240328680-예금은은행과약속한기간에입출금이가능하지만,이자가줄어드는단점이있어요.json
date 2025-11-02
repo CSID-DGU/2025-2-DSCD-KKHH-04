@@ -1,0 +1,342 @@
+{
+  "id": "VXPAKOKS240328680",
+  "opertor": "label12",
+  "krlgg_sntenc": {
+    "koreanText": "예금은 은행과 약속한 기간에 입출금이 가능하지만, 이자가 줄어드는 단점이 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.178,
+        "end": 2.383,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.613,
+        "end": 3.238,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.442,
+        "end": 3.942,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.289,
+        "end": 4.512,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.601,
+        "end": 4.691,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.985,
+        "end": 5.645,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.027,
+        "end": 6.117,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.349,
+        "end": 6.751,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.848,
+        "end": 7.186,
+        "gloss_id": "넣다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.588,
+        "end": 8.096,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.284,
+        "end": 8.632,
+        "gloss_id": "나쁘다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.72,
+        "end": 8.881,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.05,
+        "end": 9.256,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.442,
+        "end": 9.755,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.289,
+        "end": 4.69,
+        "loc": "3",
+        "word": "기간에"
+      },
+      {
+        "start": 6.018,
+        "end": 7.177,
+        "loc": "4",
+        "word": "입출금이"
+      },
+      {
+        "start": 7.605,
+        "end": 8.088,
+        "loc": "5",
+        "word": "가능하지만,"
+      },
+      {
+        "start": 8.284,
+        "end": 8.89,
+        "loc": "8,9",
+        "word": "단점이 있어요."
+      },
+      {
+        "start": 9.05,
+        "end": 9.256,
+        "loc": "6",
+        "word": "이자가"
+      },
+      {
+        "start": 2.178,
+        "end": 2.383,
+        "loc": "1",
+        "word": "은행과"
+      },
+      {
+        "start": 2.613,
+        "end": 3.951,
+        "loc": "0",
+        "word": "예금은"
+      },
+      {
+        "start": 4.985,
+        "end": 5.645,
+        "loc": "2",
+        "word": "약속한"
+      },
+      {
+        "start": 9.442,
+        "end": 9.755,
+        "loc": "7",
+        "word": "줄어드는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 6.349,
+        "end": 7.179,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.289,
+        "end": 4.512,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.601,
+        "end": 4.691,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.178,
+        "end": 2.383,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.613,
+        "end": 3.942,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.985,
+        "end": 5.645,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.442,
+        "end": 3.942
+      },
+      {
+        "descriptor": "",
+        "start": 4.985,
+        "end": 5.645
+      },
+      {
+        "descriptor": "",
+        "start": 7.588,
+        "end": 8.096
+      },
+      {
+        "descriptor": "",
+        "start": 9.442,
+        "end": 9.755
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.588,
+        "end": 8.096
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 8.284,
+        "end": 9.755
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.824,
+        "end": 3.226
+      }
+    ],
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240328680",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:35:46",
+    "sentence_ID": "VXPAKOKS240328680",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    321,
+    126
+  ],
+  "file": "VXPAKOKS240328680.mp4",
+  "saved_as": "VXPAKOKS240328680-예금은은행과약속한기간에입출금이가능하지만,이자가줄어드는단점이있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

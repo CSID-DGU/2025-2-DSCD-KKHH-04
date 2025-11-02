@@ -1,0 +1,260 @@
+{
+  "id": "VXPAKOKS240336640",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 주체의 신용 등급별로 투자를 분산하는 것이 채권 투자의 기초 전략입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.15,
+        "end": 2.23,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.336,
+        "end": 2.588,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.768,
+        "end": 3.452,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.984,
+        "end": 4.324,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.672,
+        "end": 5.076,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.399,
+        "end": 5.851,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.128,
+        "end": 6.476,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.848,
+        "end": 7.028,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.28,
+        "end": 7.588,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.146,
+        "end": 3.452,
+        "loc": "0,1",
+        "word": "채권 주체의"
+      },
+      {
+        "start": 3.984,
+        "end": 5.075,
+        "loc": "2,3",
+        "word": "신용 등급별로"
+      },
+      {
+        "start": 5.399,
+        "end": 5.851,
+        "loc": "4,5,6",
+        "word": "투자를 분산하는 것이"
+      },
+      {
+        "start": 6.128,
+        "end": 6.476,
+        "loc": "7,8",
+        "word": "채권 투자의"
+      },
+      {
+        "start": 6.848,
+        "end": 7.028,
+        "loc": "9",
+        "word": "기초"
+      },
+      {
+        "start": 7.28,
+        "end": 7.588,
+        "loc": "10",
+        "word": "전략입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.768,
+        "end": 4.327,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.672,
+        "end": 5.076,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.399,
+        "end": 6.481,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.848,
+        "end": 7.028,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.28,
+        "end": 7.588,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.3,
+        "end": 3.45
+      },
+      {
+        "descriptor": "",
+        "start": 4.65,
+        "end": 5.079
+      },
+      {
+        "descriptor": "",
+        "start": 6.128,
+        "end": 6.476
+      },
+      {
+        "descriptor": "",
+        "start": 7.301,
+        "end": 7.589
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.133,
+        "end": 7.583
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.599,
+        "end": 4.902
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336640",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:31:09",
+    "sentence_ID": "VXPAKOKS240336640",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    288,
+    126
+  ],
+  "file": "VXPAKOKS240336640.mp4",
+  "saved_as": "VXPAKOKS240336640-채권주체의신용등급별로투자를분산하는것이채권투자의기초전략입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

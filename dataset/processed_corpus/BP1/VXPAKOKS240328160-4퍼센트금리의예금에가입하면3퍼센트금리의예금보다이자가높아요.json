@@ -1,0 +1,315 @@
+{
+  "id": "VXPAKOKS240328160",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "4퍼센트 금리의 예금에 가입하면 3퍼센트 금리의 예금보다 이자가 높아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.721,
+        "end": 2.897,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.089,
+        "end": 3.676,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.885,
+        "end": 4.236,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.375,
+        "end": 4.77,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.093,
+        "end": 6.048,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.423,
+        "end": 6.73,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.989,
+        "end": 7.235,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.333,
+        "end": 7.422,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.525,
+        "end": 7.771,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.989,
+        "end": 8.629,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.908,
+        "end": 9.049,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.214,
+        "end": 9.425,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.721,
+        "end": 3.667,
+        "loc": "2",
+        "word": "예금에"
+      },
+      {
+        "start": 3.885,
+        "end": 4.236,
+        "loc": "1",
+        "word": "금리의"
+      },
+      {
+        "start": 4.375,
+        "end": 4.77,
+        "loc": "0",
+        "word": "4퍼센트"
+      },
+      {
+        "start": 5.093,
+        "end": 6.048,
+        "loc": "3",
+        "word": "가입하면"
+      },
+      {
+        "start": 6.423,
+        "end": 6.73,
+        "loc": "4",
+        "word": "3퍼센트"
+      },
+      {
+        "start": 6.989,
+        "end": 7.235,
+        "loc": "5",
+        "word": "금리의"
+      },
+      {
+        "start": 7.333,
+        "end": 8.621,
+        "loc": "6",
+        "word": "예금보다"
+      },
+      {
+        "start": 8.908,
+        "end": 9.049,
+        "loc": "7",
+        "word": "이자가"
+      },
+      {
+        "start": 9.214,
+        "end": 9.425,
+        "loc": "8",
+        "word": "높아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.089,
+        "end": 3.676,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.375,
+        "end": 4.77,
+        "gloss_id": "4",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.093,
+        "end": 6.048,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.423,
+        "end": 7.168,
+        "gloss_id": "3",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.525,
+        "end": 7.771,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.989,
+        "end": 8.629,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.089,
+        "end": 3.676
+      },
+      {
+        "descriptor": "",
+        "start": 5.093,
+        "end": 6.048
+      },
+      {
+        "descriptor": "",
+        "start": 7.989,
+        "end": 8.629
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.721,
+        "end": 2.897
+      },
+      {
+        "descriptor": "",
+        "start": 5.093,
+        "end": 6.048
+      },
+      {
+        "descriptor": "",
+        "start": 6.989,
+        "end": 7.41
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328160",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:24:51",
+    "sentence_ID": "VXPAKOKS240328160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    315,
+    126
+  ],
+  "file": "VXPAKOKS240328160.mp4",
+  "saved_as": "VXPAKOKS240328160-4퍼센트금리의예금에가입하면3퍼센트금리의예금보다이자가높아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

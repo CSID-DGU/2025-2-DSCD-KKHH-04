@@ -1,0 +1,331 @@
+{
+  "id": "VXPAKOKS240351770",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금은 이자율이 높지 않아도 원금이 보장되기 때문에 사람들에게 인기가 많아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.23,
+        "end": 1.378,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.519,
+        "end": 1.787,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.744,
+        "end": 3.251,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.482,
+        "end": 3.778,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.058,
+        "end": 4.445,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.686,
+        "end": 4.827,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.996,
+        "end": 5.186,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.413,
+        "end": 5.646,
+        "gloss_id": "백점1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.859,
+        "end": 6.359,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "3"
+        }
+      },
+      {
+        "start": 6.637,
+        "end": 6.82,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.911,
+        "end": 7.08,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.26,
+        "end": 7.521,
+        "gloss_id": "인기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.23,
+        "end": 1.786,
+        "loc": "0",
+        "word": "적금은"
+      },
+      {
+        "start": 2.049,
+        "end": 3.252,
+        "loc": "1",
+        "word": "이자율이"
+      },
+      {
+        "start": 3.482,
+        "end": 3.778,
+        "loc": "2",
+        "word": "높지"
+      },
+      {
+        "start": 4.058,
+        "end": 4.445,
+        "loc": "3",
+        "word": "않아도"
+      },
+      {
+        "start": 4.686,
+        "end": 5.178,
+        "loc": "4",
+        "word": "원금이"
+      },
+      {
+        "start": 5.413,
+        "end": 6.356,
+        "loc": "5,6",
+        "word": "보장되기 때문에"
+      },
+      {
+        "start": 6.637,
+        "end": 7.059,
+        "loc": "7",
+        "word": "사람들에게"
+      },
+      {
+        "start": 7.26,
+        "end": 7.521,
+        "loc": "8,9",
+        "word": "인기가 많아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.049,
+        "end": 2.211,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.411,
+        "end": 3.241,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.859,
+        "end": 6.359,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.637,
+        "end": 6.82,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.519,
+        "end": 1.787,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.686,
+        "end": 4.827,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.744,
+        "end": 3.251
+      },
+      {
+        "descriptor": "",
+        "start": 4.058,
+        "end": 4.445
+      },
+      {
+        "descriptor": "",
+        "start": 1.519,
+        "end": 1.787
+      },
+      {
+        "descriptor": "",
+        "start": 4.996,
+        "end": 5.186
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.058,
+        "end": 4.445
+      },
+      {
+        "descriptor": "",
+        "start": 5.859,
+        "end": 6.359
+      },
+      {
+        "descriptor": "",
+        "start": 6.911,
+        "end": 7.509
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.413,
+        "end": 5.646
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.23,
+        "end": 1.779
+      },
+      {
+        "descriptor": "",
+        "start": 2.744,
+        "end": 3.645
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351770",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:47:45",
+    "sentence_ID": "VXPAKOKS240351770",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    253,
+    126
+  ],
+  "file": "VXPAKOKS240351770.mp4",
+  "saved_as": "VXPAKOKS240351770-적금은이자율이높지않아도원금이보장되기때문에사람들에게인기가많아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

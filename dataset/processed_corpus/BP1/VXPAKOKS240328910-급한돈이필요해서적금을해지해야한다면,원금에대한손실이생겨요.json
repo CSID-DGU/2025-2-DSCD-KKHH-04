@@ -1,0 +1,328 @@
+{
+  "id": "VXPAKOKS240328910",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "급한 돈이 필요해서 적금을 해지해야 한다면, 원금에 대한 손실이 생겨요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.472,
+        "end": 1.707,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.887,
+        "end": 1.953,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.166,
+        "end": 2.487,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.823,
+        "end": 3.753,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.086,
+        "end": 4.381,
+        "gloss_id": "만약2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.611,
+        "end": 4.741,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.891,
+        "end": 5.027,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.287,
+        "end": 6.025,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.302,
+        "end": 6.452,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.566,
+        "end": 6.676,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.877,
+        "end": 7.284,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.472,
+        "end": 1.707,
+        "loc": "0",
+        "word": "급한"
+      },
+      {
+        "start": 1.887,
+        "end": 1.953,
+        "loc": "1",
+        "word": "돈이"
+      },
+      {
+        "start": 2.166,
+        "end": 3.77,
+        "loc": "2",
+        "word": "필요해서"
+      },
+      {
+        "start": 6.302,
+        "end": 6.676,
+        "loc": "6,7",
+        "word": "원금에 대한"
+      },
+      {
+        "start": 6.877,
+        "end": 7.284,
+        "loc": "8,9",
+        "word": "손실이 생겨요."
+      },
+      {
+        "start": 4.086,
+        "end": 6.02,
+        "loc": "3,4,5",
+        "word": "적금을 해지해야 한다면,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.465,
+        "end": 1.707,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.166,
+        "end": 2.487,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.823,
+        "end": 3.753,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.086,
+        "end": 4.381,
+        "gloss_id": "만약2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.611,
+        "end": 4.741,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.891,
+        "end": 5.027,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.287,
+        "end": 6.025,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.302,
+        "end": 6.676,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.877,
+        "end": 7.284,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.166,
+        "end": 2.487
+      },
+      {
+        "descriptor": "",
+        "start": 3.045,
+        "end": 3.763
+      },
+      {
+        "descriptor": "",
+        "start": 4.086,
+        "end": 4.381
+      },
+      {
+        "descriptor": "",
+        "start": 5.516,
+        "end": 6.016
+      },
+      {
+        "descriptor": "",
+        "start": 6.877,
+        "end": 7.284
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.045,
+        "end": 3.776
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.887,
+        "end": 2.493
+      },
+      {
+        "descriptor": "",
+        "start": 6.877,
+        "end": 7.284
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.472,
+        "end": 1.707
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328910",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:39:14",
+    "sentence_ID": "VXPAKOKS240328910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    238,
+    126
+  ],
+  "file": "VXPAKOKS240328910.mp4",
+  "saved_as": "VXPAKOKS240328910-급한돈이필요해서적금을해지해야한다면,원금에대한손실이생겨요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

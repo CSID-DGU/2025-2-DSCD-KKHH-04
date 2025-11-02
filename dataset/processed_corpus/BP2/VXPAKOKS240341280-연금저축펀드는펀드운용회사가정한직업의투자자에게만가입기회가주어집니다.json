@@ -1,0 +1,311 @@
+{
+  "id": "VXPAKOKS240341280",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "연금 저축 펀드는 펀드 운용 회사가 정한 직업의 투자자에게만 가입 기회가 주어집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.972,
+        "end": 2.243,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.502,
+        "end": 2.795,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.026,
+        "end": 3.819,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.21,
+        "end": 4.546,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.834,
+        "end": 5.141,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.461,
+        "end": 5.961,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.22,
+        "end": 6.456,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.654,
+        "end": 6.861,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.114,
+        "end": 7.414,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.641,
+        "end": 7.855,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.972,
+        "end": 2.243,
+        "loc": "3",
+        "word": "펀드"
+      },
+      {
+        "start": 2.502,
+        "end": 2.795,
+        "loc": "4",
+        "word": "운용"
+      },
+      {
+        "start": 3.026,
+        "end": 3.819,
+        "loc": "5",
+        "word": "회사가"
+      },
+      {
+        "start": 4.834,
+        "end": 5.141,
+        "loc": "1",
+        "word": "저축"
+      },
+      {
+        "start": 7.114,
+        "end": 7.414,
+        "loc": "9",
+        "word": "가입"
+      },
+      {
+        "start": 7.641,
+        "end": 7.855,
+        "loc": "10,11",
+        "word": "기회가 주어집니다."
+      },
+      {
+        "start": 6.22,
+        "end": 6.856,
+        "loc": "7,8",
+        "word": "직업의 투자자에게만"
+      },
+      {
+        "start": 5.461,
+        "end": 5.961,
+        "loc": "6",
+        "word": "정한"
+      },
+      {
+        "start": 4.21,
+        "end": 4.546,
+        "loc": "0",
+        "word": "연금"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.502,
+        "end": 2.795,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.026,
+        "end": 3.819,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.834,
+        "end": 5.141,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.461,
+        "end": 5.961,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.22,
+        "end": 6.456,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.114,
+        "end": 7.414,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.026,
+        "end": 3.819
+      },
+      {
+        "descriptor": "",
+        "start": 4.834,
+        "end": 5.141
+      },
+      {
+        "descriptor": "",
+        "start": 5.461,
+        "end": 5.961
+      },
+      {
+        "descriptor": "",
+        "start": 6.654,
+        "end": 6.861
+      },
+      {
+        "descriptor": "",
+        "start": 7.641,
+        "end": 7.855
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.641,
+        "end": 7.855
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.972,
+        "end": 3.815
+      },
+      {
+        "descriptor": "",
+        "start": 4.834,
+        "end": 5.949
+      },
+      {
+        "descriptor": "",
+        "start": 6.654,
+        "end": 6.861
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341280",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:12:30",
+    "sentence_ID": "VXPAKOKS240341280",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240341280.mp4",
+  "saved_as": "VXPAKOKS240341280-연금저축펀드는펀드운용회사가정한직업의투자자에게만가입기회가주어집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,353 @@
+{
+  "id": "VXPAKOKS240342110",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "여러 펀드에 투자하면 그중 하나의 펀드 수익률이 낮더라도 전체 펀드 수익률에 미치는 영향이 적어집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.375,
+        "end": 1.966,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.436,
+        "end": 2.762,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.972,
+        "end": 3.582,
+        "gloss_id": "투자1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.896,
+        "end": 4.459,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.656,
+        "end": 5.0,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.423,
+        "end": 5.621,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.989,
+        "end": 6.242,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.493,
+        "end": 6.993,
+        "gloss_id": "일3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.471,
+        "end": 7.898,
+        "gloss_id": "그러나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.19,
+        "end": 8.351,
+        "gloss_id": "종합4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.587,
+        "end": 8.867,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.074,
+        "end": 9.327,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.513,
+        "end": 9.711,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.375,
+        "end": 1.975,
+        "loc": "1",
+        "word": "펀드에"
+      },
+      {
+        "start": 2.436,
+        "end": 2.762,
+        "loc": "0",
+        "word": "여러"
+      },
+      {
+        "start": 2.972,
+        "end": 3.582,
+        "loc": "2",
+        "word": "투자하면"
+      },
+      {
+        "start": 3.896,
+        "end": 5.008,
+        "loc": "3",
+        "word": "그중"
+      },
+      {
+        "start": 5.423,
+        "end": 5.621,
+        "loc": "5,6",
+        "word": "펀드 수익률이"
+      },
+      {
+        "start": 5.989,
+        "end": 6.242,
+        "loc": "7",
+        "word": "낮더라도"
+      },
+      {
+        "start": 6.493,
+        "end": 6.993,
+        "loc": "4",
+        "word": "하나의"
+      },
+      {
+        "start": 8.199,
+        "end": 8.351,
+        "loc": "8",
+        "word": "전체"
+      },
+      {
+        "start": 8.587,
+        "end": 8.867,
+        "loc": "9,10",
+        "word": "펀드 수익률에"
+      },
+      {
+        "start": 9.074,
+        "end": 9.327,
+        "loc": "11,12",
+        "word": "미치는 영향이"
+      },
+      {
+        "start": 9.513,
+        "end": 9.711,
+        "loc": "13",
+        "word": "적어집니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.656,
+        "end": 5.622,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.989,
+        "end": 6.242,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.074,
+        "end": 9.327,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.19,
+        "end": 8.351,
+        "gloss_id": "종합4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.375,
+        "end": 1.975
+      },
+      {
+        "descriptor": "",
+        "start": 2.972,
+        "end": 3.582
+      },
+      {
+        "descriptor": "",
+        "start": 4.656,
+        "end": 5.0
+      },
+      {
+        "descriptor": "",
+        "start": 9.513,
+        "end": 9.711
+      },
+      {
+        "descriptor": "",
+        "start": 2.436,
+        "end": 2.762
+      },
+      {
+        "descriptor": "",
+        "start": 7.471,
+        "end": 7.898
+      },
+      {
+        "descriptor": "",
+        "start": 8.19,
+        "end": 8.351
+      },
+      {
+        "descriptor": "",
+        "start": 8.587,
+        "end": 8.867
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 8.855,
+        "end": 9.035
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.423,
+        "end": 6.993
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.375,
+        "end": 3.549
+      },
+      {
+        "descriptor": "",
+        "start": 8.199,
+        "end": 8.845
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342110",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:19:06",
+    "sentence_ID": "VXPAKOKS240342110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    329,
+    126
+  ],
+  "file": "VXPAKOKS240342110.mp4",
+  "saved_as": "VXPAKOKS240342110-여러펀드에투자하면그중하나의펀드수익률이낮더라도전체펀드수익률에미치는영향이적어집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

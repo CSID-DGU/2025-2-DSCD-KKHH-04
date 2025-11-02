@@ -1,0 +1,263 @@
+{
+  "id": "VXPAKOKS240333220",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "통장을 잃어버렸을 때는 은행에 빠르게 문의해서 금전적 피해를 줄여야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.618,
+        "end": 2.867,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.181,
+        "end": 3.546,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.835,
+        "end": 4.02,
+        "gloss_id": "빨리1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.192,
+        "end": 4.358,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.619,
+        "end": 5.132,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.368,
+        "end": 5.495,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.637,
+        "end": 5.886,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.149,
+        "end": 6.476,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.618,
+        "end": 2.867,
+        "loc": "0",
+        "word": "통장을"
+      },
+      {
+        "start": 3.181,
+        "end": 3.546,
+        "loc": "1,2",
+        "word": "잃어버렸을 때는"
+      },
+      {
+        "start": 3.835,
+        "end": 4.02,
+        "loc": "4",
+        "word": "빠르게"
+      },
+      {
+        "start": 4.192,
+        "end": 4.358,
+        "loc": "3",
+        "word": "은행에"
+      },
+      {
+        "start": 4.619,
+        "end": 5.132,
+        "loc": "5",
+        "word": "문의해서"
+      },
+      {
+        "start": 5.368,
+        "end": 5.495,
+        "loc": "6",
+        "word": "금전적"
+      },
+      {
+        "start": 5.637,
+        "end": 5.886,
+        "loc": "7",
+        "word": "피해를"
+      },
+      {
+        "start": 6.149,
+        "end": 6.476,
+        "loc": "8,9",
+        "word": "줄여야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.618,
+        "end": 4.017,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.192,
+        "end": 4.358,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.619,
+        "end": 5.132,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.637,
+        "end": 5.886,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.149,
+        "end": 6.476,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.181,
+        "end": 3.546
+      },
+      {
+        "descriptor": "",
+        "start": 4.619,
+        "end": 5.132
+      },
+      {
+        "descriptor": "",
+        "start": 6.149,
+        "end": 6.476
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.374,
+        "end": 3.546
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.181,
+        "end": 3.546
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.618,
+        "end": 3.555
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333220",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:27:58",
+    "sentence_ID": "VXPAKOKS240333220",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240333220.mp4",
+  "saved_as": "VXPAKOKS240333220-통장을잃어버렸을때는은행에빠르게문의해서금전적피해를줄여야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

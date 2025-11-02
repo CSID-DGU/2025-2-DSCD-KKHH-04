@@ -1,0 +1,315 @@
+{
+  "id": "VXPAKOKS240331920",
+  "opertor": "label10",
+  "krlgg_sntenc": {
+    "koreanText": "직장인을 대상으로 하는 대출 상품으로, 소득이나 신용 등급으로 대출 조건이 결정됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.6,
+        "end": 1.947,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.095,
+        "end": 2.595,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.944,
+        "end": 3.342,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.682,
+        "end": 3.802,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.945,
+        "end": 4.445,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.799,
+        "end": 5.241,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.45,
+        "end": 5.68,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.881,
+        "end": 6.081,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.364,
+        "end": 6.769,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.042,
+        "end": 7.308,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.431,
+        "end": 7.741,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.364,
+        "end": 6.769,
+        "loc": "9,10",
+        "word": "조건이 결정됩니다."
+      },
+      {
+        "start": 7.042,
+        "end": 7.746,
+        "loc": "8",
+        "word": "대출"
+      },
+      {
+        "start": 5.881,
+        "end": 6.081,
+        "loc": "7",
+        "word": "등급으로"
+      },
+      {
+        "start": 5.45,
+        "end": 5.68,
+        "loc": "6",
+        "word": "신용"
+      },
+      {
+        "start": 4.799,
+        "end": 5.241,
+        "loc": "5",
+        "word": "소득이나"
+      },
+      {
+        "start": 1.6,
+        "end": 1.947,
+        "loc": "3",
+        "word": "대출"
+      },
+      {
+        "start": 2.095,
+        "end": 3.347,
+        "loc": "4",
+        "word": "상품으로,"
+      },
+      {
+        "start": 3.682,
+        "end": 4.445,
+        "loc": "0,1,2",
+        "word": "직장인을 대상으로 하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.095,
+        "end": 3.347,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.682,
+        "end": 3.802,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.945,
+        "end": 4.445,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.799,
+        "end": 5.241,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.45,
+        "end": 5.68,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.364,
+        "end": 6.769,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.095,
+        "end": 2.595
+      },
+      {
+        "descriptor": "",
+        "start": 4.799,
+        "end": 5.241
+      },
+      {
+        "descriptor": "",
+        "start": 2.944,
+        "end": 3.342
+      },
+      {
+        "descriptor": "",
+        "start": 3.945,
+        "end": 4.445
+      },
+      {
+        "descriptor": "",
+        "start": 6.364,
+        "end": 6.769
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.431,
+        "end": 7.741
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.095,
+        "end": 2.595
+      },
+      {
+        "descriptor": "",
+        "start": 4.799,
+        "end": 5.241
+      },
+      {
+        "descriptor": "",
+        "start": 6.364,
+        "end": 6.769
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331920",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:40:07",
+    "sentence_ID": "VXPAKOKS240331920",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    263,
+    126
+  ],
+  "file": "VXPAKOKS240331920.mp4",
+  "saved_as": "VXPAKOKS240331920-직장인을대상으로하는대출상품으로,소득이나신용등급으로대출조건이결정됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

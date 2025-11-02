@@ -1,0 +1,295 @@
+{
+  "id": "VXPAKOKS240333530",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "대출은 개인 대출, 주택 대출, 자동차 대출 등 다양한 목적으로 이용될 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.582,
+        "end": 3.105,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.541,
+        "end": 4.025,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.361,
+        "end": 4.736,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.112,
+        "end": 5.518,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.764,
+        "end": 5.867,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.107,
+        "end": 6.498,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.762,
+        "end": 6.951,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.165,
+        "end": 7.579,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.872,
+        "end": 8.123,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.582,
+        "end": 3.105,
+        "loc": "1,2",
+        "word": "개인 대출,"
+      },
+      {
+        "start": 3.541,
+        "end": 4.025,
+        "loc": "3,4",
+        "word": "주택 대출,"
+      },
+      {
+        "start": 4.361,
+        "end": 4.736,
+        "loc": "5,6",
+        "word": "자동차 대출"
+      },
+      {
+        "start": 5.112,
+        "end": 5.518,
+        "loc": "7",
+        "word": "등"
+      },
+      {
+        "start": 5.764,
+        "end": 6.505,
+        "loc": "8,9",
+        "word": "다양한 목적으로"
+      },
+      {
+        "start": 6.762,
+        "end": 6.951,
+        "loc": "0",
+        "word": "대출은"
+      },
+      {
+        "start": 7.165,
+        "end": 8.116,
+        "loc": "10,11,12",
+        "word": "이용될 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.582,
+        "end": 3.105,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.541,
+        "end": 4.025,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.361,
+        "end": 4.736,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.112,
+        "end": 5.518,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.107,
+        "end": 6.498,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.165,
+        "end": 7.579,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.582,
+        "end": 3.105
+      },
+      {
+        "descriptor": "",
+        "start": 3.541,
+        "end": 4.025
+      },
+      {
+        "descriptor": "",
+        "start": 4.361,
+        "end": 4.736
+      },
+      {
+        "descriptor": "",
+        "start": 5.112,
+        "end": 5.518
+      },
+      {
+        "descriptor": "",
+        "start": 6.107,
+        "end": 6.498
+      },
+      {
+        "descriptor": "",
+        "start": 7.165,
+        "end": 7.579
+      },
+      {
+        "descriptor": "",
+        "start": 7.872,
+        "end": 8.123
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.872,
+        "end": 8.123
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.112,
+        "end": 5.518
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.764,
+        "end": 6.497
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333530",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:23:10",
+    "sentence_ID": "VXPAKOKS240333530",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    280,
+    126
+  ],
+  "file": "VXPAKOKS240333530.mp4",
+  "saved_as": "VXPAKOKS240333530-대출은개인대출,주택대출,자동차대출등다양한목적으로이용될수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

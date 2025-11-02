@@ -1,0 +1,307 @@
+{
+  "id": "VXPAKOKS240339150",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "인플레이션 상승은 투자자들의 실제 수익률 감소라는 문제를 발생시킵니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.322,
+        "end": 1.578,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.836,
+        "end": 2.071,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.333,
+        "end": 2.693,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.898,
+        "end": 3.113,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.354,
+        "end": 3.491,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.753,
+        "end": 3.88,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.173,
+        "end": 4.321,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.521,
+        "end": 4.814,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.112,
+        "end": 5.482,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.667,
+        "end": 5.97,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.18,
+        "end": 6.416,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.322,
+        "end": 1.578,
+        "loc": "0",
+        "word": "인플레이션"
+      },
+      {
+        "start": 1.836,
+        "end": 2.674,
+        "loc": "1",
+        "word": "상승은"
+      },
+      {
+        "start": 2.898,
+        "end": 3.48,
+        "loc": "2",
+        "word": "투자자들의"
+      },
+      {
+        "start": 3.753,
+        "end": 4.813,
+        "loc": "3,4",
+        "word": "실제 수익률"
+      },
+      {
+        "start": 5.112,
+        "end": 5.482,
+        "loc": "5",
+        "word": "감소라는"
+      },
+      {
+        "start": 5.667,
+        "end": 6.405,
+        "loc": "6,7",
+        "word": "문제를 발생시킵니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.322,
+        "end": 1.578,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.354,
+        "end": 3.491,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.521,
+        "end": 4.814,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.112,
+        "end": 5.482,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.667,
+        "end": 5.97,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.886,
+        "end": 2.071
+      },
+      {
+        "descriptor": "",
+        "start": 2.488,
+        "end": 2.693
+      },
+      {
+        "descriptor": "",
+        "start": 4.521,
+        "end": 4.814
+      },
+      {
+        "descriptor": "",
+        "start": 5.112,
+        "end": 5.482
+      },
+      {
+        "descriptor": "",
+        "start": 6.18,
+        "end": 6.416
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 1.873,
+        "end": 2.071
+      },
+      {
+        "descriptor": "",
+        "start": 2.495,
+        "end": 2.693
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.836,
+        "end": 2.693
+      },
+      {
+        "descriptor": "",
+        "start": 5.112,
+        "end": 6.453
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.205,
+        "end": 5.482
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.898,
+        "end": 4.854
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339150",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:56:08",
+    "sentence_ID": "VXPAKOKS240339150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240339150.mp4",
+  "saved_as": "VXPAKOKS240339150-인플레이션상승은투자자들의실제수익률감소라는문제를발생시킵니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

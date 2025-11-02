@@ -1,0 +1,291 @@
+{
+  "id": "VXPAKOKS240351150",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "인터넷이나 은행에서 적금을 해지한 후에는 해지 확인서를 챙겨두세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.165,
+        "end": 2.714,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.02,
+        "end": 3.282,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.503,
+        "end": 3.849,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.012,
+        "end": 4.128,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.249,
+        "end": 4.449,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.642,
+        "end": 5.198,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.492,
+        "end": 5.685,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.802,
+        "end": 6.023,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.231,
+        "end": 6.591,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.802,
+        "end": 7.176,
+        "gloss_id": "가져오다7",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.165,
+        "end": 3.837,
+        "loc": "0,1",
+        "word": "인터넷이나 은행에서"
+      },
+      {
+        "start": 4.012,
+        "end": 4.435,
+        "loc": "2",
+        "word": "적금을"
+      },
+      {
+        "start": 4.642,
+        "end": 5.198,
+        "loc": "3,4",
+        "word": "해지한 후에는"
+      },
+      {
+        "start": 5.492,
+        "end": 5.685,
+        "loc": "5",
+        "word": "해지"
+      },
+      {
+        "start": 5.802,
+        "end": 6.588,
+        "loc": "6",
+        "word": "확인서를"
+      },
+      {
+        "start": 6.802,
+        "end": 7.176,
+        "loc": "7",
+        "word": "챙겨두세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.165,
+        "end": 2.714,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.02,
+        "end": 3.282,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.503,
+        "end": 3.849,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.249,
+        "end": 4.449,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.642,
+        "end": 5.198,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.492,
+        "end": 5.685,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.231,
+        "end": 7.178,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.802,
+        "end": 7.176
+      },
+      {
+        "descriptor": "",
+        "start": 2.165,
+        "end": 2.714
+      },
+      {
+        "descriptor": "",
+        "start": 3.02,
+        "end": 3.282
+      },
+      {
+        "descriptor": "",
+        "start": 5.041,
+        "end": 5.213
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.041,
+        "end": 5.199
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.165,
+        "end": 3.307
+      },
+      {
+        "descriptor": "",
+        "start": 5.492,
+        "end": 6.557
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351150",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:43:24",
+    "sentence_ID": "VXPAKOKS240351150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240351150.mp4",
+  "saved_as": "VXPAKOKS240351150-인터넷이나은행에서적금을해지한후에는해지확인서를챙겨두세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

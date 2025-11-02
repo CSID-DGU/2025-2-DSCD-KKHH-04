@@ -1,0 +1,269 @@
+{
+  "id": "VXPAKOKS240352100",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금을 중도 해지하면 은행 시스템에 기록이 남나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.419,
+        "end": 2.531,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.695,
+        "end": 2.957,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.204,
+        "end": 3.466,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.787,
+        "end": 4.118,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.36,
+        "end": 4.678,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.935,
+        "end": 5.178,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.435,
+        "end": 5.647,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.844,
+        "end": 6.044,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.223,
+        "end": 6.391,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.419,
+        "end": 2.95,
+        "loc": "0",
+        "word": "적금을"
+      },
+      {
+        "start": 3.204,
+        "end": 4.104,
+        "loc": "1",
+        "word": "중도"
+      },
+      {
+        "start": 4.36,
+        "end": 4.678,
+        "loc": "2",
+        "word": "해지하면"
+      },
+      {
+        "start": 4.935,
+        "end": 5.178,
+        "loc": "3",
+        "word": "은행"
+      },
+      {
+        "start": 5.435,
+        "end": 5.647,
+        "loc": "4",
+        "word": "시스템에"
+      },
+      {
+        "start": 5.844,
+        "end": 6.044,
+        "loc": "5",
+        "word": "기록이"
+      },
+      {
+        "start": 6.223,
+        "end": 6.391,
+        "loc": "6",
+        "word": "남나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.695,
+        "end": 2.957,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.787,
+        "end": 4.118,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.36,
+        "end": 4.685,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.935,
+        "end": 5.178,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.435,
+        "end": 5.647,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.844,
+        "end": 6.382,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.223,
+        "end": 6.391
+      },
+      {
+        "descriptor": "",
+        "start": 3.787,
+        "end": 4.118
+      },
+      {
+        "descriptor": "",
+        "start": 4.36,
+        "end": 4.678
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.36,
+        "end": 4.678
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.36,
+        "end": 6.379
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352100",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:50:21",
+    "sentence_ID": "VXPAKOKS240352100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    225,
+    126
+  ],
+  "file": "VXPAKOKS240352100.mp4",
+  "saved_as": "VXPAKOKS240352100-적금을중도해지하면은행시스템에기록이남나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

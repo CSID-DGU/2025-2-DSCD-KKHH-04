@@ -1,0 +1,325 @@
+{
+  "id": "VXPAKOKS240333410",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드와는 달리 신용 한도가 없으며, 사용자의 계좌 잔액에 따라 결제가 이루어집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.388,
+        "end": 2.506,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.693,
+        "end": 3.024,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.312,
+        "end": 3.528,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.811,
+        "end": 4.098,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.402,
+        "end": 5.018,
+        "gloss_id": "다르다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.445,
+        "end": 5.83,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.128,
+        "end": 6.361,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.867,
+        "end": 7.038,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.215,
+        "end": 7.75,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.083,
+        "end": 8.308,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.531,
+        "end": 8.925,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.312,
+        "end": 4.079,
+        "loc": "0",
+        "word": "신용카드와는"
+      },
+      {
+        "start": 4.402,
+        "end": 5.018,
+        "loc": "1",
+        "word": "달리"
+      },
+      {
+        "start": 6.128,
+        "end": 6.361,
+        "loc": "4",
+        "word": "없으며,"
+      },
+      {
+        "start": 5.445,
+        "end": 5.83,
+        "loc": "2,3",
+        "word": "신용 한도가"
+      },
+      {
+        "start": 6.867,
+        "end": 7.038,
+        "loc": "5,6",
+        "word": "사용자의 계좌"
+      },
+      {
+        "start": 8.083,
+        "end": 8.912,
+        "loc": "9,10",
+        "word": "결제가 이루어집니다."
+      },
+      {
+        "start": 7.215,
+        "end": 7.75,
+        "loc": "7,8",
+        "word": "잔액에 따라"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.312,
+        "end": 4.088,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.402,
+        "end": 5.018,
+        "gloss_id": "다르다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.445,
+        "end": 6.381,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.867,
+        "end": 7.038,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.215,
+        "end": 8.301,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.531,
+        "end": 8.925,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.693,
+        "end": 3.024
+      },
+      {
+        "descriptor": "",
+        "start": 3.811,
+        "end": 4.098
+      },
+      {
+        "descriptor": "",
+        "start": 4.402,
+        "end": 5.018
+      },
+      {
+        "descriptor": "",
+        "start": 6.128,
+        "end": 6.361
+      },
+      {
+        "descriptor": "",
+        "start": 7.215,
+        "end": 7.75
+      },
+      {
+        "descriptor": "",
+        "start": 8.083,
+        "end": 8.308
+      },
+      {
+        "descriptor": "",
+        "start": 8.531,
+        "end": 8.925
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 5.605,
+        "end": 5.83
+      },
+      {
+        "descriptor": "",
+        "start": 4.402,
+        "end": 5.018
+      }
+    ],
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.128,
+        "end": 6.361
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.388,
+        "end": 3.004
+      },
+      {
+        "descriptor": "",
+        "start": 6.867,
+        "end": 7.758
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333410",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:20",
+    "sentence_ID": "VXPAKOKS240333410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    320,
+    126
+  ],
+  "file": "VXPAKOKS240333410.mp4",
+  "saved_as": "VXPAKOKS240333410-신용카드와는달리신용한도가없으며,사용자의계좌잔액에따라결제가이루어집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

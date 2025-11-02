@@ -1,0 +1,235 @@
+{
+  "id": "VXPAKOKS240331060",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "인터넷이나 휴대전화 애플리케이션을 통해 사용등록을 할 수 있고, 은행에서도 할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.854,
+        "end": 2.119,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.531,
+        "end": 2.677,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.902,
+        "end": 3.453,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.919,
+        "end": 4.219,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.635,
+        "end": 4.775,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.043,
+        "end": 5.286,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.507,
+        "end": 5.749,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.854,
+        "end": 2.119,
+        "loc": "0",
+        "word": "인터넷이나"
+      },
+      {
+        "start": 2.531,
+        "end": 2.677,
+        "loc": "1",
+        "word": "휴대전화"
+      },
+      {
+        "start": 2.902,
+        "end": 3.453,
+        "loc": "2,3",
+        "word": "애플리케이션을 통해"
+      },
+      {
+        "start": 3.919,
+        "end": 4.219,
+        "loc": "8",
+        "word": "은행에서도"
+      },
+      {
+        "start": 4.635,
+        "end": 5.284,
+        "loc": "4",
+        "word": "사용등록을"
+      },
+      {
+        "start": 5.507,
+        "end": 5.749,
+        "loc": "9,10,11",
+        "word": "할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.854,
+        "end": 2.119,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.919,
+        "end": 4.219,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.043,
+        "end": 5.286,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 2.902,
+        "end": 3.453
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.854,
+        "end": 2.119
+      },
+      {
+        "descriptor": "",
+        "start": 2.902,
+        "end": 3.453
+      },
+      {
+        "descriptor": "",
+        "start": 5.507,
+        "end": 5.749
+      },
+      {
+        "descriptor": "",
+        "start": 5.043,
+        "end": 5.286
+      },
+      {
+        "descriptor": "",
+        "start": 3.919,
+        "end": 4.219
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.507,
+        "end": 5.749
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.902,
+        "end": 3.453
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331060",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:06:40",
+    "sentence_ID": "VXPAKOKS240331060",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    206,
+    126
+  ],
+  "file": "VXPAKOKS240331060.mp4",
+  "saved_as": "VXPAKOKS240331060-인터넷이나휴대전화애플리케이션을통해사용등록을할수있고,은행에서도할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,385 @@
+{
+  "id": "VXPAKOKS240351550",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "재테크 초보자들은 원금을 잃지 않기 위해 적금에 가입하는 것을 좋아해.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.226,
+        "end": 1.362,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.571,
+        "end": 2.331,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.57,
+        "end": 2.699,
+        "gloss_id": "서투르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.836,
+        "end": 2.952,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.063,
+        "end": 3.446,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.622,
+        "end": 3.784,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.901,
+        "end": 4.037,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.22,
+        "end": 4.713,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.953,
+        "end": 5.154,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.349,
+        "end": 5.53,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.694,
+        "end": 5.79,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.918,
+        "end": 6.06,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.196,
+        "end": 6.371,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.527,
+        "end": 6.864,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.226,
+        "end": 2.331,
+        "loc": "0",
+        "word": "재테크"
+      },
+      {
+        "start": 2.57,
+        "end": 3.44,
+        "loc": "1",
+        "word": "초보자들은"
+      },
+      {
+        "start": 3.622,
+        "end": 4.025,
+        "loc": "2",
+        "word": "원금을"
+      },
+      {
+        "start": 4.22,
+        "end": 4.713,
+        "loc": "3",
+        "word": "잃지"
+      },
+      {
+        "start": 4.953,
+        "end": 5.154,
+        "loc": "4",
+        "word": "않기"
+      },
+      {
+        "start": 5.349,
+        "end": 5.53,
+        "loc": "5",
+        "word": "위해"
+      },
+      {
+        "start": 5.694,
+        "end": 6.044,
+        "loc": "6",
+        "word": "적금에"
+      },
+      {
+        "start": 6.196,
+        "end": 6.371,
+        "loc": "7,8",
+        "word": "가입하는 것을"
+      },
+      {
+        "start": 6.527,
+        "end": 6.864,
+        "loc": "9",
+        "word": "좋아해."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.571,
+        "end": 2.331,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.57,
+        "end": 2.699,
+        "gloss_id": "서투르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.836,
+        "end": 3.446,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.622,
+        "end": 3.784,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.22,
+        "end": 4.713,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.953,
+        "end": 5.154,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.349,
+        "end": 5.53,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.918,
+        "end": 6.06,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.196,
+        "end": 6.371,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.527,
+        "end": 6.864,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.527,
+        "end": 6.864
+      },
+      {
+        "descriptor": "",
+        "start": 1.571,
+        "end": 2.331
+      },
+      {
+        "descriptor": "",
+        "start": 3.063,
+        "end": 3.427
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.953,
+        "end": 5.154
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.527,
+        "end": 6.864
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.196,
+        "end": 6.872
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.571,
+        "end": 2.331
+      },
+      {
+        "descriptor": "",
+        "start": 2.836,
+        "end": 3.426
+      },
+      {
+        "descriptor": "",
+        "start": 5.694,
+        "end": 5.79
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351550",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:46:17",
+    "sentence_ID": "VXPAKOKS240351550",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    234,
+    126
+  ],
+  "file": "VXPAKOKS240351550.mp4",
+  "saved_as": "VXPAKOKS240351550-재테크초보자들은원금을잃지않기위해적금에가입하는것을좋아해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

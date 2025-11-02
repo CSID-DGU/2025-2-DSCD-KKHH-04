@@ -1,0 +1,286 @@
+{
+  "id": "VXPAKOKS240336290",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 발행 조건에 따라 개인과 기업 투자자들이 계약 참여합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.821,
+        "end": 1.914,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.056,
+        "end": 2.28,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.533,
+        "end": 3.164,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.477,
+        "end": 3.88,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.077,
+        "end": 4.198,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.394,
+        "end": 5.128,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.449,
+        "end": 5.625,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.78,
+        "end": 6.19,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.45,
+        "end": 6.639,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.857,
+        "end": 7.164,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.408,
+        "end": 7.604,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.477,
+        "end": 3.88,
+        "loc": "4",
+        "word": "개인과"
+      },
+      {
+        "start": 4.077,
+        "end": 4.198,
+        "loc": "5,6",
+        "word": "기업 투자자들이"
+      },
+      {
+        "start": 1.825,
+        "end": 3.164,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 4.394,
+        "end": 5.128,
+        "loc": "7,8",
+        "word": "계약 참여합니다."
+      },
+      {
+        "start": 5.449,
+        "end": 7.595,
+        "loc": "1,2,3",
+        "word": "발행 조건에 따라"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.533,
+        "end": 3.164,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.477,
+        "end": 3.88,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.077,
+        "end": 4.198,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.45,
+        "end": 7.165,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.449,
+        "end": 5.625
+      },
+      {
+        "descriptor": "",
+        "start": 5.78,
+        "end": 6.19
+      },
+      {
+        "descriptor": "",
+        "start": 7.408,
+        "end": 7.604
+      },
+      {
+        "descriptor": "",
+        "start": 2.533,
+        "end": 3.164
+      },
+      {
+        "descriptor": "",
+        "start": 3.477,
+        "end": 3.88
+      },
+      {
+        "descriptor": "",
+        "start": 4.688,
+        "end": 5.125
+      },
+      {
+        "descriptor": "",
+        "start": 6.857,
+        "end": 7.164
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.449,
+        "end": 5.625
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.821,
+        "end": 2.885
+      },
+      {
+        "descriptor": "",
+        "start": 4.277,
+        "end": 4.89
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336290",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:28:57",
+    "sentence_ID": "VXPAKOKS240336290",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    298,
+    126
+  ],
+  "file": "VXPAKOKS240336290.mp4",
+  "saved_as": "VXPAKOKS240336290-채권발행조건에따라개인과기업투자자들이계약참여합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,238 @@
+{
+  "id": "VXPAKOKS240332200",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "대출을 신청할 때 꼭 확인해야 할 사항이 있는지 알고 싶습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.992,
+        "end": 2.136,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.28,
+        "end": 2.659,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.768,
+        "end": 3.286,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.425,
+        "end": 3.756,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.035,
+        "end": 4.248,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.449,
+        "end": 4.659,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.849,
+        "end": 5.118,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.992,
+        "end": 2.136,
+        "loc": "0",
+        "word": "대출을"
+      },
+      {
+        "start": 2.28,
+        "end": 2.659,
+        "loc": "1",
+        "word": "신청할"
+      },
+      {
+        "start": 2.768,
+        "end": 3.286,
+        "loc": "2",
+        "word": "때"
+      },
+      {
+        "start": 3.425,
+        "end": 3.756,
+        "loc": "3",
+        "word": "꼭"
+      },
+      {
+        "start": 4.035,
+        "end": 4.248,
+        "loc": "4,5",
+        "word": "확인해야 할"
+      },
+      {
+        "start": 4.449,
+        "end": 4.659,
+        "loc": "6,7",
+        "word": "사항이 있는지"
+      },
+      {
+        "start": 4.849,
+        "end": 5.118,
+        "loc": "8,9",
+        "word": "알고 싶습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.28,
+        "end": 2.659,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.768,
+        "end": 3.286,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.425,
+        "end": 4.245,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.449,
+        "end": 4.659,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.28,
+        "end": 2.659
+      },
+      {
+        "descriptor": "",
+        "start": 2.768,
+        "end": 3.286
+      },
+      {
+        "descriptor": "",
+        "start": 4.849,
+        "end": 5.118
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.425,
+        "end": 4.722
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.992,
+        "end": 3.256
+      },
+      {
+        "descriptor": "",
+        "start": 4.873,
+        "end": 5.118
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332200",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:43:22",
+    "sentence_ID": "VXPAKOKS240332200",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    185,
+    126
+  ],
+  "file": "VXPAKOKS240332200.mp4",
+  "saved_as": "VXPAKOKS240332200-대출을신청할때꼭확인해야할사항이있는지알고싶습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

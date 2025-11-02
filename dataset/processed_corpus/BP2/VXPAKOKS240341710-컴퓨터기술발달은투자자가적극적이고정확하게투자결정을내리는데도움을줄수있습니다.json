@@ -1,0 +1,340 @@
+{
+  "id": "VXPAKOKS240341710",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "컴퓨터 기술 발달은 투자자가 적극적이고 정확하게 투자 결정을 내리는 데 도움을 줄 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.324,
+        "end": 1.606,
+        "gloss_id": "컴퓨터1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.782,
+        "end": 1.908,
+        "gloss_id": "기술1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.157,
+        "end": 2.591,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.918,
+        "end": 3.133,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.282,
+        "end": 3.431,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.64,
+        "end": 4.08,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.334,
+        "end": 4.893,
+        "gloss_id": "적극1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.115,
+        "end": 5.595,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.987,
+        "end": 6.235,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.489,
+        "end": 6.711,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.921,
+        "end": 7.097,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.324,
+        "end": 1.606,
+        "loc": "0",
+        "word": "컴퓨터"
+      },
+      {
+        "start": 1.782,
+        "end": 1.912,
+        "loc": "1",
+        "word": "기술"
+      },
+      {
+        "start": 2.157,
+        "end": 2.591,
+        "loc": "2",
+        "word": "발달은"
+      },
+      {
+        "start": 3.282,
+        "end": 4.086,
+        "loc": "3",
+        "word": "투자자가"
+      },
+      {
+        "start": 4.334,
+        "end": 4.893,
+        "loc": "4",
+        "word": "적극적이고"
+      },
+      {
+        "start": 5.115,
+        "end": 5.595,
+        "loc": "6",
+        "word": "투자"
+      },
+      {
+        "start": 5.987,
+        "end": 6.235,
+        "loc": "5",
+        "word": "정확하게"
+      },
+      {
+        "start": 6.489,
+        "end": 6.711,
+        "loc": "7,8,9",
+        "word": "결정을 내리는 데"
+      },
+      {
+        "start": 6.921,
+        "end": 7.097,
+        "loc": "10,11,12,13",
+        "word": "도움을 줄 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.324,
+        "end": 1.606,
+        "gloss_id": "컴퓨터1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.157,
+        "end": 2.591,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.918,
+        "end": 3.133,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.64,
+        "end": 4.08,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.334,
+        "end": 4.893,
+        "gloss_id": "적극1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.987,
+        "end": 6.235,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.489,
+        "end": 6.711,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.115,
+        "end": 5.595
+      },
+      {
+        "descriptor": "",
+        "start": 6.921,
+        "end": 7.097
+      },
+      {
+        "descriptor": "",
+        "start": 2.157,
+        "end": 2.591
+      },
+      {
+        "descriptor": "",
+        "start": 3.64,
+        "end": 4.08
+      },
+      {
+        "descriptor": "",
+        "start": 2.918,
+        "end": 3.133
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.921,
+        "end": 7.097
+      },
+      {
+        "descriptor": "",
+        "start": 2.918,
+        "end": 3.133
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.533,
+        "end": 5.556
+      },
+      {
+        "descriptor": "",
+        "start": 2.157,
+        "end": 2.591
+      },
+      {
+        "descriptor": "",
+        "start": 6.592,
+        "end": 6.901
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.324,
+        "end": 2.572
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341710",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:15:38",
+    "sentence_ID": "VXPAKOKS240341710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    238,
+    126
+  ],
+  "file": "VXPAKOKS240341710.mp4",
+  "saved_as": "VXPAKOKS240341710-컴퓨터기술발달은투자자가적극적이고정확하게투자결정을내리는데도움을줄수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

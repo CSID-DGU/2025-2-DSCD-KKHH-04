@@ -1,0 +1,317 @@
+{
+  "id": "VXPAKOKS240333920",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "차량의 시장 가치를 평가할 때 자동차의 햇수와 운행 거리를 중요한 기준으로 삼습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.4,
+        "end": 2.616,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.828,
+        "end": 3.367,
+        "gloss_id": "중고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.573,
+        "end": 3.955,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.299,
+        "end": 4.697,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.844,
+        "end": 5.486,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.725,
+        "end": 5.901,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.034,
+        "end": 6.794,
+        "gloss_id": "몇년2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.038,
+        "end": 7.285,
+        "gloss_id": "평수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.473,
+        "end": 7.791,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.022,
+        "end": 8.459,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.4,
+        "end": 2.616,
+        "loc": "0",
+        "word": "차량의"
+      },
+      {
+        "start": 2.828,
+        "end": 3.367,
+        "loc": "1",
+        "word": "시장"
+      },
+      {
+        "start": 3.573,
+        "end": 3.955,
+        "loc": "2",
+        "word": "가치를"
+      },
+      {
+        "start": 4.299,
+        "end": 4.697,
+        "loc": "3",
+        "word": "평가할"
+      },
+      {
+        "start": 4.844,
+        "end": 5.486,
+        "loc": "4",
+        "word": "때"
+      },
+      {
+        "start": 5.725,
+        "end": 5.901,
+        "loc": "5",
+        "word": "자동차의"
+      },
+      {
+        "start": 6.034,
+        "end": 6.794,
+        "loc": "6",
+        "word": "햇수와"
+      },
+      {
+        "start": 7.038,
+        "end": 7.79,
+        "loc": "7,8",
+        "word": "운행 거리를"
+      },
+      {
+        "start": 8.022,
+        "end": 8.459,
+        "loc": "9,10,11",
+        "word": "중요한 기준으로 삼습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.4,
+        "end": 2.616,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.828,
+        "end": 3.951,
+        "gloss_id": "중고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.299,
+        "end": 4.697,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.844,
+        "end": 5.486,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.725,
+        "end": 5.901,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.038,
+        "end": 7.285,
+        "gloss_id": "평수1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.022,
+        "end": 8.459,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.034,
+        "end": 6.794,
+        "gloss_id": "몇년2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.828,
+        "end": 3.367
+      },
+      {
+        "descriptor": "",
+        "start": 6.034,
+        "end": 6.794
+      },
+      {
+        "descriptor": "",
+        "start": 7.473,
+        "end": 7.791
+      },
+      {
+        "descriptor": "",
+        "start": 8.022,
+        "end": 8.459
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.844,
+        "end": 5.486
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.4,
+        "end": 5.472
+      },
+      {
+        "descriptor": "",
+        "start": 7.473,
+        "end": 7.791
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333920",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:06",
+    "sentence_ID": "VXPAKOKS240333920",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    284,
+    126
+  ],
+  "file": "VXPAKOKS240333920.mp4",
+  "saved_as": "VXPAKOKS240333920-차량의시장가치를평가할때자동차의햇수와운행거리를중요한기준으로삼습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,222 @@
+{
+  "id": "VXPAKOKS240330310",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "자신의 상황에 맞춰 꼼꼼하게 사용하면 월급과 저축을 관리하는데 도움이 돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.519,
+        "end": 1.637,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.756,
+        "end": 1.996,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.14,
+        "end": 2.534,
+        "gloss_id": "조절2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.697,
+        "end": 3.287,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.462,
+        "end": 3.686,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.935,
+        "end": 4.281,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.505,
+        "end": 5.021,
+        "gloss_id": "충분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.519,
+        "end": 1.637,
+        "loc": "0",
+        "word": "자신의"
+      },
+      {
+        "start": 2.14,
+        "end": 2.534,
+        "loc": "1,2",
+        "word": "상황에 맞춰"
+      },
+      {
+        "start": 2.697,
+        "end": 3.287,
+        "loc": "3",
+        "word": "꼼꼼하게"
+      },
+      {
+        "start": 1.756,
+        "end": 1.996,
+        "loc": "4",
+        "word": "사용하면"
+      },
+      {
+        "start": 3.462,
+        "end": 3.686,
+        "loc": "5",
+        "word": "월급과"
+      },
+      {
+        "start": 3.935,
+        "end": 4.281,
+        "loc": "6",
+        "word": "저축을"
+      },
+      {
+        "start": 4.505,
+        "end": 5.021,
+        "loc": "7,8,9",
+        "word": "관리하는데 도움이 돼요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.14,
+        "end": 2.534,
+        "gloss_id": "조절2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.697,
+        "end": 3.287,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.462,
+        "end": 3.686,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.935,
+        "end": 4.281,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.697,
+        "end": 3.287
+      },
+      {
+        "descriptor": "",
+        "start": 4.505,
+        "end": 5.021
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.519,
+        "end": 3.276
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330310",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:00:43",
+    "sentence_ID": "VXPAKOKS240330310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    191,
+    126
+  ],
+  "file": "VXPAKOKS240330310.mp4",
+  "saved_as": "VXPAKOKS240330310-자신의상황에맞춰꼼꼼하게사용하면월급과저축을관리하는데도움이돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

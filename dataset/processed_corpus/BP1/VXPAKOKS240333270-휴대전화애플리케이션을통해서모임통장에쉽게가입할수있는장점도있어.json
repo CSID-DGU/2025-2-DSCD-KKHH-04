@@ -1,0 +1,243 @@
+{
+  "id": "VXPAKOKS240333270",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "휴대전화 애플리케이션을 통해서 모임 통장에 쉽게 가입할 수 있는 장점도 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.752,
+        "end": 2.996,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.172,
+        "end": 3.721,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.992,
+        "end": 4.164,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.598,
+        "end": 4.97,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.237,
+        "end": 5.516,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.726,
+        "end": 5.891,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.11,
+        "end": 6.24,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.422,
+        "end": 6.644,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.752,
+        "end": 2.996,
+        "loc": "0",
+        "word": "휴대전화"
+      },
+      {
+        "start": 3.172,
+        "end": 3.721,
+        "loc": "1,2",
+        "word": "애플리케이션을 통해서"
+      },
+      {
+        "start": 3.992,
+        "end": 4.164,
+        "loc": "3",
+        "word": "모임"
+      },
+      {
+        "start": 4.598,
+        "end": 4.97,
+        "loc": "4",
+        "word": "통장에"
+      },
+      {
+        "start": 5.237,
+        "end": 5.516,
+        "loc": "5,6",
+        "word": "쉽게 가입할"
+      },
+      {
+        "start": 5.726,
+        "end": 5.891,
+        "loc": "7,8",
+        "word": "수 있는"
+      },
+      {
+        "start": 6.11,
+        "end": 6.638,
+        "loc": "9,10",
+        "word": "장점도 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.598,
+        "end": 4.97,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.237,
+        "end": 5.516,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 3.172,
+        "end": 3.721
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.418,
+        "end": 3.726
+      },
+      {
+        "descriptor": "",
+        "start": 4.598,
+        "end": 4.97
+      },
+      {
+        "descriptor": "",
+        "start": 5.726,
+        "end": 5.891
+      },
+      {
+        "descriptor": "",
+        "start": 6.422,
+        "end": 6.644
+      },
+      {
+        "descriptor": "",
+        "start": 5.237,
+        "end": 5.516
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.726,
+        "end": 5.891
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.752,
+        "end": 3.707
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333270",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:10",
+    "sentence_ID": "VXPAKOKS240333270",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    256,
+    126
+  ],
+  "file": "VXPAKOKS240333270.mp4",
+  "saved_as": "VXPAKOKS240333270-휴대전화애플리케이션을통해서모임통장에쉽게가입할수있는장점도있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,338 @@
+{
+  "id": "VXPAKOKS240351250",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "인천 은행의 적금은 언제든지 적금 계좌에 돈을 추가로 납입할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.469,
+        "end": 2.045,
+        "gloss_id": "인천1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.269,
+        "end": 2.475,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.687,
+        "end": 2.795,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.938,
+        "end": 3.318,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.639,
+        "end": 4.221,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.338,
+        "end": 4.422,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.569,
+        "end": 4.895,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.118,
+        "end": 5.455,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.553,
+        "end": 5.661,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.809,
+        "end": 6.124,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.234,
+        "end": 6.81,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.469,
+        "end": 2.045,
+        "loc": "0",
+        "word": "인천"
+      },
+      {
+        "start": 2.269,
+        "end": 2.475,
+        "loc": "1",
+        "word": "은행의"
+      },
+      {
+        "start": 2.687,
+        "end": 3.304,
+        "loc": "2",
+        "word": "적금은"
+      },
+      {
+        "start": 3.639,
+        "end": 4.221,
+        "loc": "3",
+        "word": "언제든지"
+      },
+      {
+        "start": 4.338,
+        "end": 4.892,
+        "loc": "4",
+        "word": "적금"
+      },
+      {
+        "start": 5.118,
+        "end": 5.455,
+        "loc": "5",
+        "word": "계좌에"
+      },
+      {
+        "start": 5.553,
+        "end": 5.661,
+        "loc": "6",
+        "word": "돈을"
+      },
+      {
+        "start": 5.809,
+        "end": 6.124,
+        "loc": "7",
+        "word": "추가로"
+      },
+      {
+        "start": 6.234,
+        "end": 6.81,
+        "loc": "8,9,10",
+        "word": "납입할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 6.647,
+        "end": 6.809,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.469,
+        "end": 2.045,
+        "gloss_id": "인천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.269,
+        "end": 2.475,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.938,
+        "end": 3.318,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.639,
+        "end": 4.221,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.569,
+        "end": 4.895,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.118,
+        "end": 5.455,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.809,
+        "end": 6.124,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.647,
+        "end": 6.788
+      },
+      {
+        "descriptor": "",
+        "start": 2.938,
+        "end": 3.318
+      },
+      {
+        "descriptor": "",
+        "start": 3.639,
+        "end": 4.221
+      },
+      {
+        "descriptor": "",
+        "start": 5.118,
+        "end": 5.455
+      },
+      {
+        "descriptor": "",
+        "start": 1.723,
+        "end": 2.04
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.667,
+        "end": 6.794
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.639,
+        "end": 4.221
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.469,
+        "end": 3.311
+      },
+      {
+        "descriptor": "",
+        "start": 4.338,
+        "end": 4.838
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351250",
+  "potogrf": {
+    "createdTime": "2024-10-11 01:53:02",
+    "sentence_ID": "VXPAKOKS240351250",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    235,
+    126
+  ],
+  "file": "VXPAKOKS240351250.mp4",
+  "saved_as": "VXPAKOKS240351250-인천은행의적금은언제든지적금계좌에돈을추가로납입할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,277 @@
+{
+  "id": "VXPAKOKS240329110",
+  "opertor": "label16",
+  "krlgg_sntenc": {
+    "koreanText": "3천만 원 이상 돈을 모아야 결혼할 수 있으니까 적금에 가입하는 게 좋아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.533,
+        "end": 2.007,
+        "gloss_id": "결혼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.299,
+        "end": 2.396,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.533,
+        "end": 2.924,
+        "gloss_id": "30000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.099,
+        "end": 3.582,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.899,
+        "end": 4.095,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.399,
+        "end": 4.737,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.033,
+        "end": 5.22,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.433,
+        "end": 5.848,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.011,
+        "end": 6.262,
+        "gloss_id": "낫다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.533,
+        "end": 2.007,
+        "loc": "5",
+        "word": "결혼할"
+      },
+      {
+        "start": 2.533,
+        "end": 2.924,
+        "loc": "0,1",
+        "word": "3천만 원"
+      },
+      {
+        "start": 3.099,
+        "end": 3.582,
+        "loc": "2",
+        "word": "이상"
+      },
+      {
+        "start": 3.899,
+        "end": 4.095,
+        "loc": "3,4",
+        "word": "돈을 모아야"
+      },
+      {
+        "start": 2.299,
+        "end": 2.396,
+        "loc": "6",
+        "word": "수"
+      },
+      {
+        "start": 4.399,
+        "end": 4.737,
+        "loc": "7",
+        "word": "있으니까"
+      },
+      {
+        "start": 5.033,
+        "end": 5.847,
+        "loc": "8",
+        "word": "적금에"
+      },
+      {
+        "start": 5.999,
+        "end": 6.262,
+        "loc": "9,10,11",
+        "word": "가입하는 게 좋아."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.533,
+        "end": 2.007,
+        "gloss_id": "결혼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.899,
+        "end": 4.095,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.399,
+        "end": 4.737,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.033,
+        "end": 5.22,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.433,
+        "end": 5.848,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.299,
+        "end": 2.396
+      },
+      {
+        "descriptor": "",
+        "start": 3.099,
+        "end": 3.582
+      },
+      {
+        "descriptor": "",
+        "start": 4.399,
+        "end": 4.737
+      },
+      {
+        "descriptor": "",
+        "start": 5.433,
+        "end": 5.848
+      },
+      {
+        "descriptor": "",
+        "start": 6.011,
+        "end": 6.262
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.299,
+        "end": 2.396
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.433,
+        "end": 5.848
+      }
+    ],
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240329110",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:41:52",
+    "sentence_ID": "VXPAKOKS240329110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    212,
+    126
+  ],
+  "file": "VXPAKOKS240329110.mp4",
+  "saved_as": "VXPAKOKS240329110-3천만원이상돈을모아야결혼할수있으니까적금에가입하는게좋아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

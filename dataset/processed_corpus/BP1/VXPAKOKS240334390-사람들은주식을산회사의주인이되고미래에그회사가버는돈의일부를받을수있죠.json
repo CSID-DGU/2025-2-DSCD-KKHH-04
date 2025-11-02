@@ -1,0 +1,338 @@
+{
+  "id": "VXPAKOKS240334390",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "사람들은 주식을 산 회사의 주인이 되고 미래에 그 회사가 버는 돈의 일부를 받을 수 있죠.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.441,
+        "end": 2.708,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.94,
+        "end": 3.207,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.398,
+        "end": 3.665,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.989,
+        "end": 4.426,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.687,
+        "end": 4.813,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.056,
+        "end": 5.404,
+        "gloss_id": "장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.693,
+        "end": 6.121,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.437,
+        "end": 6.803,
+        "gloss_id": "미래1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.072,
+        "end": 7.17,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.431,
+        "end": 8.056,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.27,
+        "end": 8.546,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.771,
+        "end": 9.119,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.441,
+        "end": 3.218,
+        "loc": "1,2",
+        "word": "주식을 산"
+      },
+      {
+        "start": 3.398,
+        "end": 4.434,
+        "loc": "0",
+        "word": "사람들은"
+      },
+      {
+        "start": 4.687,
+        "end": 4.813,
+        "loc": "3",
+        "word": "회사의"
+      },
+      {
+        "start": 5.056,
+        "end": 6.128,
+        "loc": "4,5",
+        "word": "주인이 되고"
+      },
+      {
+        "start": 6.437,
+        "end": 6.803,
+        "loc": "6",
+        "word": "미래에"
+      },
+      {
+        "start": 7.072,
+        "end": 8.066,
+        "loc": "7,8",
+        "word": "그 회사가"
+      },
+      {
+        "start": 8.771,
+        "end": 9.119,
+        "loc": "9,10",
+        "word": "버는 돈의"
+      },
+      {
+        "start": 8.27,
+        "end": 8.546,
+        "loc": "11,12,13,14",
+        "word": "일부를 받을 수 있죠."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.441,
+        "end": 2.708,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.687,
+        "end": 4.813,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.693,
+        "end": 6.121,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.072,
+        "end": 7.17,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.431,
+        "end": 8.056,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.27,
+        "end": 9.119,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.398,
+        "end": 3.665,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.771,
+        "end": 9.119
+      },
+      {
+        "descriptor": "",
+        "start": 2.94,
+        "end": 3.207
+      },
+      {
+        "descriptor": "",
+        "start": 3.989,
+        "end": 4.426
+      },
+      {
+        "descriptor": "",
+        "start": 5.693,
+        "end": 6.121
+      },
+      {
+        "descriptor": "",
+        "start": 7.431,
+        "end": 8.512
+      },
+      {
+        "descriptor": "",
+        "start": 6.437,
+        "end": 6.803
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 7.555,
+        "end": 8.056
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.437,
+        "end": 6.803
+      },
+      {
+        "descriptor": "",
+        "start": 8.27,
+        "end": 8.546
+      },
+      {
+        "descriptor": "",
+        "start": 2.441,
+        "end": 4.416
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334390",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:30:10",
+    "sentence_ID": "VXPAKOKS240334390",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    322,
+    126
+  ],
+  "file": "VXPAKOKS240334390.mp4",
+  "saved_as": "VXPAKOKS240334390-사람들은주식을산회사의주인이되고미래에그회사가버는돈의일부를받을수있죠.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

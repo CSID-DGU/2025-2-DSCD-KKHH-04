@@ -1,0 +1,307 @@
+{
+  "id": "VXPAKOKS240336750",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 등급은 그 채권이 가지고 있는 신용 위험 정도를 나타내는 지표입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.072,
+        "end": 2.171,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.377,
+        "end": 2.608,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.916,
+        "end": 3.506,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.921,
+        "end": 4.277,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.602,
+        "end": 5.12,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.356,
+        "end": 5.883,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.199,
+        "end": 6.528,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.845,
+        "end": 6.95,
+        "gloss_id": "정도1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.249,
+        "end": 7.776,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.074,
+        "end": 8.215,
+        "gloss_id": "발표1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.433,
+        "end": 8.816,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.356,
+        "end": 5.883,
+        "loc": "6",
+        "word": "신용"
+      },
+      {
+        "start": 6.199,
+        "end": 6.528,
+        "loc": "7",
+        "word": "위험"
+      },
+      {
+        "start": 6.845,
+        "end": 6.95,
+        "loc": "8",
+        "word": "정도를"
+      },
+      {
+        "start": 7.249,
+        "end": 8.812,
+        "loc": "9,10",
+        "word": "나타내는 지표입니다."
+      },
+      {
+        "start": 2.073,
+        "end": 3.506,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 3.921,
+        "end": 4.277,
+        "loc": "1",
+        "word": "등급은"
+      },
+      {
+        "start": 4.602,
+        "end": 5.12,
+        "loc": "2,3,4,5",
+        "word": "그 채권이 가지고 있는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.916,
+        "end": 4.28,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.602,
+        "end": 5.12,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.356,
+        "end": 5.883,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.074,
+        "end": 8.215,
+        "gloss_id": "발표1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.433,
+        "end": 8.816,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.433,
+        "end": 8.816
+      },
+      {
+        "descriptor": "",
+        "start": 3.05,
+        "end": 3.501
+      },
+      {
+        "descriptor": "",
+        "start": 6.199,
+        "end": 6.528
+      },
+      {
+        "descriptor": "",
+        "start": 7.249,
+        "end": 7.776
+      },
+      {
+        "descriptor": "",
+        "start": 4.602,
+        "end": 5.12
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.074,
+        "end": 8.215
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.602,
+        "end": 5.246
+      },
+      {
+        "descriptor": "",
+        "start": 7.617,
+        "end": 7.776
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.377,
+        "end": 3.505
+      },
+      {
+        "descriptor": "",
+        "start": 6.409,
+        "end": 6.938
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336750",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:31:50",
+    "sentence_ID": "VXPAKOKS240336750",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    323,
+    126
+  ],
+  "file": "VXPAKOKS240336750.mp4",
+  "saved_as": "VXPAKOKS240336750-채권의등급은그채권이가지고있는신용위험정도를나타내는지표입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

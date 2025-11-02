@@ -1,0 +1,273 @@
+{
+  "id": "VXPAKOKS240330900",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "항공권이나 호텔 숙박권같이 이미 사용한 상품은 환불할 수 없습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.774,
+        "end": 2.057,
+        "gloss_id": "비행기3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.436,
+        "end": 3.027,
+        "gloss_id": "표1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.374,
+        "end": 3.573,
+        "gloss_id": "호텔1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.815,
+        "end": 4.189,
+        "gloss_id": "잠1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.402,
+        "end": 4.643,
+        "gloss_id": "표1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.004,
+        "end": 5.35,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.543,
+        "end": 6.183,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.369,
+        "end": 6.575,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.74,
+        "end": 7.023,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.223,
+        "end": 7.492,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.774,
+        "end": 3.03,
+        "loc": "0",
+        "word": "항공권이나"
+      },
+      {
+        "start": 3.374,
+        "end": 3.573,
+        "loc": "1",
+        "word": "호텔"
+      },
+      {
+        "start": 3.815,
+        "end": 4.651,
+        "loc": "2",
+        "word": "숙박권같이"
+      },
+      {
+        "start": 5.004,
+        "end": 6.169,
+        "loc": "3,4,5",
+        "word": "이미 사용한 상품은"
+      },
+      {
+        "start": 6.369,
+        "end": 7.009,
+        "loc": "6",
+        "word": "환불할"
+      },
+      {
+        "start": 7.223,
+        "end": 7.492,
+        "loc": "7,8",
+        "word": "수 없습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.436,
+        "end": 3.027,
+        "gloss_id": "표1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.402,
+        "end": 4.643,
+        "gloss_id": "표1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.004,
+        "end": 6.582,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.74,
+        "end": 7.023,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.436,
+        "end": 3.027
+      },
+      {
+        "descriptor": "",
+        "start": 4.402,
+        "end": 4.643
+      },
+      {
+        "descriptor": "",
+        "start": 5.543,
+        "end": 6.183
+      },
+      {
+        "descriptor": "",
+        "start": 7.223,
+        "end": 7.492
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.837,
+        "end": 6.176
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 7.043,
+        "end": 7.298
+      }
+    ],
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.543,
+        "end": 6.183
+      },
+      {
+        "descriptor": "",
+        "start": 4.402,
+        "end": 4.643
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330900",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:39:29",
+    "sentence_ID": "VXPAKOKS240330900",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    252,
+    126
+  ],
+  "file": "VXPAKOKS240330900.mp4",
+  "saved_as": "VXPAKOKS240330900-항공권이나호텔숙박권같이이미사용한상품은환불할수없습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

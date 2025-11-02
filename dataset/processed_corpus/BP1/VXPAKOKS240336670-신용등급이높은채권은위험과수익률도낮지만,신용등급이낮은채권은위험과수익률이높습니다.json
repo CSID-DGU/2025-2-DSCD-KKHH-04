@@ -1,0 +1,446 @@
+{
+  "id": "VXPAKOKS240336670",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "신용 등급이 높은 채권은 위험과 수익률도 낮지만, 신용 등급이 낮은 채권은 위험과 수익률이 높습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.92,
+        "end": 2.143,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.481,
+        "end": 2.589,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.919,
+        "end": 3.265,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.433,
+        "end": 3.51,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.633,
+        "end": 3.833,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.07,
+        "end": 4.746,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.931,
+        "end": 5.331,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.577,
+        "end": 6.184,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.491,
+        "end": 6.722,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.898,
+        "end": 7.428,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.942,
+        "end": 8.142,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.426,
+        "end": 8.503,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.699,
+        "end": 9.145,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.299,
+        "end": 9.399,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.517,
+        "end": 9.871,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 10.201,
+        "end": 10.462,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.738,
+        "end": 11.1,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 11.422,
+        "end": 11.822,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.044,
+        "end": 12.221,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.467,
+        "end": 12.71,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.92,
+        "end": 2.143,
+        "loc": "0",
+        "word": "신용"
+      },
+      {
+        "start": 2.481,
+        "end": 2.589,
+        "loc": "1",
+        "word": "등급이"
+      },
+      {
+        "start": 2.919,
+        "end": 3.265,
+        "loc": "2",
+        "word": "높은"
+      },
+      {
+        "start": 3.425,
+        "end": 4.746,
+        "loc": "3",
+        "word": "채권은"
+      },
+      {
+        "start": 4.931,
+        "end": 7.395,
+        "loc": "4,5,6",
+        "word": "위험과 수익률도 낮지만,"
+      },
+      {
+        "start": 7.942,
+        "end": 8.142,
+        "loc": "7",
+        "word": "신용"
+      },
+      {
+        "start": 8.38,
+        "end": 8.503,
+        "loc": "8",
+        "word": "등급이"
+      },
+      {
+        "start": 8.699,
+        "end": 9.145,
+        "loc": "9",
+        "word": "낮은"
+      },
+      {
+        "start": 9.31,
+        "end": 10.462,
+        "loc": "10",
+        "word": "채권은"
+      },
+      {
+        "start": 12.044,
+        "end": 12.221,
+        "loc": "12",
+        "word": "수익률이"
+      },
+      {
+        "start": 12.467,
+        "end": 12.698,
+        "loc": "13",
+        "word": "높습니다."
+      },
+      {
+        "start": 10.738,
+        "end": 11.843,
+        "loc": "11",
+        "word": "위험과"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.92,
+        "end": 2.143,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.577,
+        "end": 6.184,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.942,
+        "end": 8.142,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.201,
+        "end": 10.462,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.07,
+        "end": 4.746,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 12.467,
+        "end": 12.698
+      },
+      {
+        "descriptor": "",
+        "start": 2.919,
+        "end": 3.805
+      },
+      {
+        "descriptor": "",
+        "start": 4.07,
+        "end": 4.746
+      },
+      {
+        "descriptor": "",
+        "start": 5.813,
+        "end": 6.19
+      },
+      {
+        "descriptor": "",
+        "start": 7.104,
+        "end": 7.429
+      },
+      {
+        "descriptor": "",
+        "start": 8.803,
+        "end": 9.882
+      },
+      {
+        "descriptor": "",
+        "start": 10.201,
+        "end": 10.462
+      },
+      {
+        "descriptor": "",
+        "start": 11.422,
+        "end": 11.822
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.491,
+        "end": 7.157
+      },
+      {
+        "descriptor": "",
+        "start": 8.699,
+        "end": 9.145
+      },
+      {
+        "descriptor": "",
+        "start": 11.033,
+        "end": 11.773
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.92,
+        "end": 4.472
+      },
+      {
+        "descriptor": "",
+        "start": 7.699,
+        "end": 8.133
+      },
+      {
+        "descriptor": "",
+        "start": 9.517,
+        "end": 10.779
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336670",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:31:24",
+    "sentence_ID": "VXPAKOKS240336670",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    442,
+    126
+  ],
+  "file": "VXPAKOKS240336670.mp4",
+  "saved_as": "VXPAKOKS240336670-신용등급이높은채권은위험과수익률도낮지만,신용등급이낮은채권은위험과수익률이높습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

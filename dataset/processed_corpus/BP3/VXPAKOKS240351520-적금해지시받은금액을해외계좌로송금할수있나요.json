@@ -1,0 +1,287 @@
+{
+  "id": "VXPAKOKS240351520",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 해지 시 받은 금액을 해외 계좌로 송금할 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.226,
+        "end": 1.339,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.498,
+        "end": 1.744,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.003,
+        "end": 2.301,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.579,
+        "end": 2.842,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.486,
+        "end": 3.928,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.167,
+        "end": 4.47,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.653,
+        "end": 4.829,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.939,
+        "end": 5.029,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.114,
+        "end": 5.261,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.49,
+        "end": 5.765,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.912,
+        "end": 3.256,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.226,
+        "end": 1.755,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.003,
+        "end": 2.301,
+        "loc": "1,2",
+        "word": "해지 시"
+      },
+      {
+        "start": 2.579,
+        "end": 3.258,
+        "loc": "4",
+        "word": "금액을"
+      },
+      {
+        "start": 3.486,
+        "end": 3.928,
+        "loc": "3",
+        "word": "받은"
+      },
+      {
+        "start": 4.167,
+        "end": 4.47,
+        "loc": "5",
+        "word": "해외"
+      },
+      {
+        "start": 4.653,
+        "end": 4.829,
+        "loc": "6",
+        "word": "계좌로"
+      },
+      {
+        "start": 4.939,
+        "end": 5.254,
+        "loc": "7",
+        "word": "송금할"
+      },
+      {
+        "start": 5.49,
+        "end": 5.765,
+        "loc": "8,9",
+        "word": "수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.498,
+        "end": 1.744,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.003,
+        "end": 2.301,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.167,
+        "end": 4.47,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.653,
+        "end": 4.829,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.114,
+        "end": 5.261,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.49,
+        "end": 5.765
+      },
+      {
+        "descriptor": "",
+        "start": 2.003,
+        "end": 2.301
+      },
+      {
+        "descriptor": "",
+        "start": 3.486,
+        "end": 3.928
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.502,
+        "end": 5.765
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.226,
+        "end": 5.764
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351520",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:51",
+    "sentence_ID": "VXPAKOKS240351520",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    208,
+    126
+  ],
+  "file": "VXPAKOKS240351520.mp4",
+  "saved_as": "VXPAKOKS240351520-적금해지시받은금액을해외계좌로송금할수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

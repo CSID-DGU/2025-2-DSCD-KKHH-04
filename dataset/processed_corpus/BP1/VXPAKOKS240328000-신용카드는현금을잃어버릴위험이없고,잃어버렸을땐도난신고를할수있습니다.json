@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240328000",
+  "opertor": "label22",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드는 현금을 잃어버릴 위험이 없고, 잃어버렸을 땐 도난 신고를 할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.785,
+        "end": 1.922,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.105,
+        "end": 2.34,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.517,
+        "end": 3.038,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.197,
+        "end": 4.314,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.657,
+        "end": 5.359,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.696,
+        "end": 5.973,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.219,
+        "end": 6.454,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.846,
+        "end": 7.248,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.451,
+        "end": 3.819,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.785,
+        "end": 2.34,
+        "loc": "0",
+        "word": "신용카드는"
+      },
+      {
+        "start": 2.517,
+        "end": 3.038,
+        "loc": "2",
+        "word": "잃어버릴"
+      },
+      {
+        "start": 4.197,
+        "end": 4.314,
+        "loc": "3",
+        "word": "위험이"
+      },
+      {
+        "start": 4.657,
+        "end": 5.359,
+        "loc": "4",
+        "word": "없고,"
+      },
+      {
+        "start": 5.696,
+        "end": 5.973,
+        "loc": "7",
+        "word": "도난"
+      },
+      {
+        "start": 6.219,
+        "end": 7.256,
+        "loc": "8,9,10,11",
+        "word": "신고를 할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.785,
+        "end": 2.34,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.197,
+        "end": 4.314,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.696,
+        "end": 5.973,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.846,
+        "end": 7.248,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.451,
+        "end": 3.819,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.657,
+        "end": 5.359
+      },
+      {
+        "descriptor": "",
+        "start": 6.846,
+        "end": 7.248
+      },
+      {
+        "descriptor": "",
+        "start": 6.219,
+        "end": 6.454
+      },
+      {
+        "descriptor": "",
+        "start": 2.517,
+        "end": 3.038
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.837,
+        "end": 3.038
+      },
+      {
+        "descriptor": "",
+        "start": 6.226,
+        "end": 6.454
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 4.197,
+        "end": 4.314
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.329,
+        "end": 3.038
+      },
+      {
+        "descriptor": "",
+        "start": 4.19,
+        "end": 5.359
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.197,
+        "end": 5.346
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.451,
+        "end": 3.819
+      },
+      {
+        "descriptor": "",
+        "start": 5.696,
+        "end": 6.44
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328000",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:04:13",
+    "sentence_ID": "VXPAKOKS240328000",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240328000.mp4",
+  "saved_as": "VXPAKOKS240328000-신용카드는현금을잃어버릴위험이없고,잃어버렸을땐도난신고를할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

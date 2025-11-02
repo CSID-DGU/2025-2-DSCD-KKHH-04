@@ -1,0 +1,229 @@
+{
+  "id": "VXPAKOKS240340910",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자 시 발생하는 수수료와 세금은 수익률을 낮추는 원인이 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.57,
+        "end": 2.133,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.314,
+        "end": 2.636,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.806,
+        "end": 3.111,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.5,
+        "end": 3.754,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.941,
+        "end": 4.659,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.88,
+        "end": 5.288,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.63,
+        "end": 5.849,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.57,
+        "end": 2.133,
+        "loc": "0,1,2",
+        "word": "펀드 투자 시"
+      },
+      {
+        "start": 2.314,
+        "end": 3.106,
+        "loc": "4",
+        "word": "수수료와"
+      },
+      {
+        "start": 3.5,
+        "end": 3.754,
+        "loc": "5",
+        "word": "세금은"
+      },
+      {
+        "start": 3.941,
+        "end": 4.659,
+        "loc": "3",
+        "word": "발생하는"
+      },
+      {
+        "start": 4.88,
+        "end": 5.288,
+        "loc": "6",
+        "word": "수익률을"
+      },
+      {
+        "start": 5.63,
+        "end": 5.849,
+        "loc": "7,8,9",
+        "word": "낮추는 원인이 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.314,
+        "end": 3.1,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.5,
+        "end": 3.754,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.63,
+        "end": 5.849,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.57,
+        "end": 2.133
+      },
+      {
+        "descriptor": "",
+        "start": 2.806,
+        "end": 3.111
+      },
+      {
+        "descriptor": "",
+        "start": 3.941,
+        "end": 4.659
+      },
+      {
+        "descriptor": "",
+        "start": 5.63,
+        "end": 5.849
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.227,
+        "end": 4.659
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.314,
+        "end": 3.083
+      },
+      {
+        "descriptor": "",
+        "start": 5.63,
+        "end": 5.849
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240340910",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:09:33",
+    "sentence_ID": "VXPAKOKS240340910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    206,
+    126
+  ],
+  "file": "VXPAKOKS240340910.mp4",
+  "saved_as": "VXPAKOKS240340910-펀드투자시발생하는수수료와세금은수익률을낮추는원인이됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

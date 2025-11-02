@@ -1,0 +1,249 @@
+{
+  "id": "VXPAKOKS240328570",
+  "opertor": "label9",
+  "krlgg_sntenc": {
+    "koreanText": "급하게 돈을 인출해야 하는 상황이 발생한다면 불편한 점이 생겨요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.827,
+        "end": 2.224,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.333,
+        "end": 2.413,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.727,
+        "end": 3.111,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.444,
+        "end": 3.603,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.866,
+        "end": 4.317,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.587,
+        "end": 4.813,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.026,
+        "end": 5.526,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.816,
+        "end": 6.194,
+        "gloss_id": "귀찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.827,
+        "end": 2.224,
+        "loc": "0",
+        "word": "급하게"
+      },
+      {
+        "start": 2.333,
+        "end": 2.413,
+        "loc": "1",
+        "word": "돈을"
+      },
+      {
+        "start": 4.587,
+        "end": 6.194,
+        "loc": "6,7,8",
+        "word": "불편한 점이 생겨요."
+      },
+      {
+        "start": 2.727,
+        "end": 4.315,
+        "loc": "2,3,4,5",
+        "word": "인출해야 하는 상황이 발생한다면"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.827,
+        "end": 2.413,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.727,
+        "end": 3.111,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.816,
+        "end": 6.194,
+        "gloss_id": "귀찮다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.444,
+        "end": 3.603,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.587,
+        "end": 4.813,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.727,
+        "end": 3.111
+      },
+      {
+        "descriptor": "",
+        "start": 3.866,
+        "end": 4.317
+      },
+      {
+        "descriptor": "",
+        "start": 5.026,
+        "end": 5.526
+      },
+      {
+        "descriptor": "",
+        "start": 5.816,
+        "end": 6.194
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.006,
+        "end": 4.317
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.827,
+        "end": 3.106
+      },
+      {
+        "descriptor": "",
+        "start": 5.816,
+        "end": 6.194
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.866,
+        "end": 4.317
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328570",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:34:09",
+    "sentence_ID": "VXPAKOKS240328570",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    219,
+    126
+  ],
+  "file": "VXPAKOKS240328570.mp4",
+  "saved_as": "VXPAKOKS240328570-급하게돈을인출해야하는상황이발생한다면불편한점이생겨요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,312 @@
+{
+  "id": "VXPAKOKS240351410",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "최근 3년 동안 국내 은행의 적금 이자율은 감소했어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.369,
+        "end": 2.067,
+        "gloss_id": "종합5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.267,
+        "end": 2.767,
+        "gloss_id": "날짜(활용):3년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.996,
+        "end": 3.349,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.7,
+        "end": 4.162,
+        "gloss_id": "전국1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.437,
+        "end": 4.707,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.868,
+        "end": 5.003,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.124,
+        "end": 5.291,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.912,
+        "end": 6.156,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.329,
+        "end": 6.663,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.369,
+        "end": 2.067,
+        "loc": "0",
+        "word": "최근"
+      },
+      {
+        "start": 2.267,
+        "end": 2.767,
+        "loc": "1",
+        "word": "3년"
+      },
+      {
+        "start": 2.996,
+        "end": 3.349,
+        "loc": "2",
+        "word": "동안"
+      },
+      {
+        "start": 3.7,
+        "end": 4.162,
+        "loc": "3",
+        "word": "국내"
+      },
+      {
+        "start": 4.437,
+        "end": 4.707,
+        "loc": "4",
+        "word": "은행의"
+      },
+      {
+        "start": 4.868,
+        "end": 5.278,
+        "loc": "5",
+        "word": "적금"
+      },
+      {
+        "start": 5.46,
+        "end": 6.158,
+        "loc": "6",
+        "word": "이자율은"
+      },
+      {
+        "start": 6.329,
+        "end": 6.663,
+        "loc": "7",
+        "word": "감소했어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.267,
+        "end": 2.767,
+        "gloss_id": "날짜(활용):3년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.996,
+        "end": 3.349,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.437,
+        "end": 4.707,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.124,
+        "end": 5.291,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.46,
+        "end": 5.589,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.738,
+        "end": 6.161,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.329,
+        "end": 6.663,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.369,
+        "end": 2.067,
+        "gloss_id": "종합5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.329,
+        "end": 6.663
+      },
+      {
+        "descriptor": "",
+        "start": 1.817,
+        "end": 2.061
+      },
+      {
+        "descriptor": "",
+        "start": 2.996,
+        "end": 3.349
+      },
+      {
+        "descriptor": "",
+        "start": 4.437,
+        "end": 4.707
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.329,
+        "end": 6.663
+      },
+      {
+        "descriptor": "",
+        "start": 1.817,
+        "end": 2.061
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.267,
+        "end": 3.348
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.817,
+        "end": 3.371
+      },
+      {
+        "descriptor": "",
+        "start": 4.868,
+        "end": 5.993
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351410",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:14",
+    "sentence_ID": "VXPAKOKS240351410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240351410.mp4",
+  "saved_as": "VXPAKOKS240351410-최근3년동안국내은행의적금이자율은감소했어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

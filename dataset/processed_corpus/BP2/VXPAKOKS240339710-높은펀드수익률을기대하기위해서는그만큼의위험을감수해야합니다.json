@@ -1,0 +1,240 @@
+{
+  "id": "VXPAKOKS240339710",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "높은 펀드 수익률을 기대하기 위해서는 그만큼의 위험을 감수해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.249,
+        "end": 1.415,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 1.584,
+        "end": 1.949,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.188,
+        "end": 2.305,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.495,
+        "end": 2.629,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.838,
+        "end": 3.397,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.619,
+        "end": 4.081,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.588,
+        "end": 4.711,
+        "gloss_id": "희생2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.957,
+        "end": 5.296,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.249,
+        "end": 1.922,
+        "loc": "1",
+        "word": "펀드"
+      },
+      {
+        "start": 2.188,
+        "end": 2.305,
+        "loc": "2",
+        "word": "수익률을"
+      },
+      {
+        "start": 2.495,
+        "end": 2.629,
+        "loc": "0",
+        "word": "높은"
+      },
+      {
+        "start": 2.838,
+        "end": 3.397,
+        "loc": "3,4",
+        "word": "기대하기 위해서는"
+      },
+      {
+        "start": 3.619,
+        "end": 4.097,
+        "loc": "5,6",
+        "word": "그만큼의 위험을"
+      },
+      {
+        "start": 4.588,
+        "end": 4.711,
+        "loc": "7",
+        "word": "감수해야"
+      },
+      {
+        "start": 4.958,
+        "end": 5.296,
+        "loc": "8",
+        "word": "합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.584,
+        "end": 2.299,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.958,
+        "end": 5.296,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.588,
+        "end": 4.711,
+        "gloss_id": "희생2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.838,
+        "end": 3.397
+      },
+      {
+        "descriptor": "",
+        "start": 3.619,
+        "end": 4.081
+      },
+      {
+        "descriptor": "",
+        "start": 4.995,
+        "end": 5.296
+      },
+      {
+        "descriptor": "",
+        "start": 4.588,
+        "end": 4.711
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.619,
+        "end": 4.76
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.249,
+        "end": 3.468
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339710",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:00:05",
+    "sentence_ID": "VXPAKOKS240339710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    194,
+    126
+  ],
+  "file": "VXPAKOKS240339710.mp4",
+  "saved_as": "VXPAKOKS240339710-높은펀드수익률을기대하기위해서는그만큼의위험을감수해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

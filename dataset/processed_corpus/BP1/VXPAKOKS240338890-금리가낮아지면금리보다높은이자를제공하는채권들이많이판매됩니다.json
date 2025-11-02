@@ -1,0 +1,304 @@
+{
+  "id": "VXPAKOKS240338890",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "금리가 낮아지면 금리보다 높은 이자를 제공하는 채권들이 많이 판매됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.697,
+        "end": 2.012,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.384,
+        "end": 2.63,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.752,
+        "end": 2.821,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.101,
+        "end": 3.518,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.741,
+        "end": 3.831,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.02,
+        "end": 4.279,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.62,
+        "end": 5.038,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.249,
+        "end": 5.317,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.436,
+        "end": 5.6,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.83,
+        "end": 6.117,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.398,
+        "end": 6.829,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.183,
+        "end": 7.319,
+        "gloss_id": "인기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.697,
+        "end": 2.012,
+        "loc": "0",
+        "word": "금리가"
+      },
+      {
+        "start": 2.384,
+        "end": 2.63,
+        "loc": "1",
+        "word": "낮아지면"
+      },
+      {
+        "start": 2.752,
+        "end": 3.521,
+        "loc": "2",
+        "word": "금리보다"
+      },
+      {
+        "start": 3.741,
+        "end": 4.283,
+        "loc": "4,5",
+        "word": "이자를 제공하는"
+      },
+      {
+        "start": 5.249,
+        "end": 6.119,
+        "loc": "6",
+        "word": "채권들이"
+      },
+      {
+        "start": 6.398,
+        "end": 7.323,
+        "loc": "7,8",
+        "word": "많이 판매됩니다."
+      },
+      {
+        "start": 4.62,
+        "end": 5.038,
+        "loc": "3",
+        "word": "높은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.384,
+        "end": 2.822,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.101,
+        "end": 3.518,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.83,
+        "end": 6.117,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.398,
+        "end": 6.829,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.384,
+        "end": 2.63
+      },
+      {
+        "descriptor": "",
+        "start": 4.62,
+        "end": 5.038
+      },
+      {
+        "descriptor": "",
+        "start": 5.83,
+        "end": 6.117
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.473,
+        "end": 6.555
+      },
+      {
+        "descriptor": "",
+        "start": 6.71,
+        "end": 6.827
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.741,
+        "end": 5.016
+      },
+      {
+        "descriptor": "",
+        "start": 6.398,
+        "end": 7.323
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.697,
+        "end": 2.623
+      },
+      {
+        "descriptor": "",
+        "start": 4.62,
+        "end": 5.038
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338890",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:48:28",
+    "sentence_ID": "VXPAKOKS240338890",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    247,
+    126
+  ],
+  "file": "VXPAKOKS240338890.mp4",
+  "saved_as": "VXPAKOKS240338890-금리가낮아지면금리보다높은이자를제공하는채권들이많이판매됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,258 @@
+{
+  "id": "VXPAKOKS240330130",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "해외 결제할 수 있는 신용카드는 카드사나 인터넷에서 신청해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.954,
+        "end": 2.373,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.587,
+        "end": 2.776,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.907,
+        "end": 3.251,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.521,
+        "end": 4.27,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.518,
+        "end": 4.645,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.842,
+        "end": 5.342,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.608,
+        "end": 5.909,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.114,
+        "end": 6.626,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.954,
+        "end": 2.373,
+        "loc": "0",
+        "word": "해외"
+      },
+      {
+        "start": 4.518,
+        "end": 5.348,
+        "loc": "5",
+        "word": "카드사나"
+      },
+      {
+        "start": 5.608,
+        "end": 5.909,
+        "loc": "6",
+        "word": "인터넷에서"
+      },
+      {
+        "start": 6.114,
+        "end": 6.626,
+        "loc": "7,8",
+        "word": "신청해야 해요."
+      },
+      {
+        "start": 2.587,
+        "end": 3.243,
+        "loc": "4",
+        "word": "신용카드는"
+      },
+      {
+        "start": 3.521,
+        "end": 4.27,
+        "loc": "1,2,3",
+        "word": "결제할 수 있는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.954,
+        "end": 2.373,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.587,
+        "end": 3.249,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.521,
+        "end": 4.27,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.842,
+        "end": 5.342,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.608,
+        "end": 5.909,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.114,
+        "end": 6.626,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.521,
+        "end": 4.27
+      },
+      {
+        "descriptor": "",
+        "start": 4.842,
+        "end": 5.342
+      },
+      {
+        "descriptor": "",
+        "start": 6.114,
+        "end": 6.626
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.521,
+        "end": 4.27
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.954,
+        "end": 3.225
+      },
+      {
+        "descriptor": "",
+        "start": 4.842,
+        "end": 5.342
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330130",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:50:56",
+    "sentence_ID": "VXPAKOKS240330130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240330130.mp4",
+  "saved_as": "VXPAKOKS240330130-해외결제할수있는신용카드는카드사나인터넷에서신청해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

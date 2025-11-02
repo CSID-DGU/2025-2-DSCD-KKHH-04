@@ -1,0 +1,335 @@
+{
+  "id": "VXPAKOKS240332360",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "매월 원금을 똑같이 나누어 상환하고, 일부 남은 원금에 대해 이자를 계산하여 상환하는 방식이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.673,
+        "end": 1.89,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.046,
+        "end": 2.174,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.41,
+        "end": 2.703,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.962,
+        "end": 3.572,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.963,
+        "end": 4.174,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.286,
+        "end": 4.406,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.649,
+        "end": 4.997,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.263,
+        "end": 5.797,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.01,
+        "end": 6.165,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.42,
+        "end": 6.672,
+        "gloss_id": "종합4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.948,
+        "end": 7.159,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.339,
+        "end": 7.57,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.673,
+        "end": 2.166,
+        "loc": "1",
+        "word": "원금을"
+      },
+      {
+        "start": 2.41,
+        "end": 2.703,
+        "loc": "0",
+        "word": "매월"
+      },
+      {
+        "start": 2.962,
+        "end": 3.572,
+        "loc": "2,3,4",
+        "word": "똑같이 나누어 상환하고,"
+      },
+      {
+        "start": 3.963,
+        "end": 4.415,
+        "loc": "7",
+        "word": "원금에"
+      },
+      {
+        "start": 4.649,
+        "end": 4.997,
+        "loc": "6",
+        "word": "남은"
+      },
+      {
+        "start": 5.263,
+        "end": 5.81,
+        "loc": "5,8",
+        "word": "일부 대해"
+      },
+      {
+        "start": 7.339,
+        "end": 7.57,
+        "loc": "12,13",
+        "word": "방식이 있습니다."
+      },
+      {
+        "start": 6.948,
+        "end": 7.159,
+        "loc": "11",
+        "word": "상환하는"
+      },
+      {
+        "start": 6.42,
+        "end": 6.672,
+        "loc": "10",
+        "word": "계산하여"
+      },
+      {
+        "start": 6.01,
+        "end": 6.165,
+        "loc": "9",
+        "word": "이자를"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.673,
+        "end": 2.172,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.962,
+        "end": 3.572,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.963,
+        "end": 4.401,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.649,
+        "end": 4.997,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.263,
+        "end": 6.155,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.42,
+        "end": 6.672,
+        "gloss_id": "종합4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.948,
+        "end": 7.159,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.339,
+        "end": 7.57
+      },
+      {
+        "descriptor": "",
+        "start": 2.962,
+        "end": 3.572
+      },
+      {
+        "descriptor": "",
+        "start": 6.42,
+        "end": 6.672
+      },
+      {
+        "descriptor": "",
+        "start": 4.649,
+        "end": 4.997
+      },
+      {
+        "descriptor": "",
+        "start": 5.263,
+        "end": 5.797
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.433,
+        "end": 7.575
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.996,
+        "end": 5.797
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332360",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:45:49",
+    "sentence_ID": "VXPAKOKS240332360",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    248,
+    126
+  ],
+  "file": "VXPAKOKS240332360.mp4",
+  "saved_as": "VXPAKOKS240332360-매월원금을똑같이나누어상환하고,일부남은원금에대해이자를계산하여상환하는방식이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

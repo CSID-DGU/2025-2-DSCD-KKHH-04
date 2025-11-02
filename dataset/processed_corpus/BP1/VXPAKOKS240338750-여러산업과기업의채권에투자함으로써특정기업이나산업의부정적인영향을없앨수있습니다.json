@@ -1,0 +1,388 @@
+{
+  "id": "VXPAKOKS240338750",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "여러 산업과 기업의 채권에 투자함으로써 특정 기업이나 산업의 부정적인 영향을 없앨 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.609,
+        "end": 1.676,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.843,
+        "end": 1.978,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.179,
+        "end": 2.538,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.827,
+        "end": 3.562,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.229,
+        "end": 4.944,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.085,
+        "end": 5.41,
+        "gloss_id": "공장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.608,
+        "end": 5.745,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.087,
+        "end": 6.198,
+        "gloss_id": "오직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.53,
+        "end": 6.735,
+        "gloss_id": "집중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.906,
+        "end": 7.238,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.623,
+        "end": 7.868,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.033,
+        "end": 8.546,
+        "gloss_id": "투자1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.923,
+        "end": 9.215,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.409,
+        "end": 9.674,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.863,
+        "end": 10.081,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.733,
+        "end": 3.845,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.609,
+        "end": 2.541,
+        "loc": "3",
+        "word": "채권에"
+      },
+      {
+        "start": 4.229,
+        "end": 4.944,
+        "loc": "6",
+        "word": "기업이나"
+      },
+      {
+        "start": 5.085,
+        "end": 5.41,
+        "loc": "7",
+        "word": "산업의"
+      },
+      {
+        "start": 5.608,
+        "end": 6.732,
+        "loc": "5",
+        "word": "특정"
+      },
+      {
+        "start": 7.623,
+        "end": 7.868,
+        "loc": "0,1,2",
+        "word": "여러 산업과 기업의"
+      },
+      {
+        "start": 8.033,
+        "end": 8.546,
+        "loc": "4",
+        "word": "투자함으로써"
+      },
+      {
+        "start": 8.923,
+        "end": 9.215,
+        "loc": "8,9",
+        "word": "부정적인 영향을"
+      },
+      {
+        "start": 9.409,
+        "end": 10.069,
+        "loc": "10,11,12",
+        "word": "없앨 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.229,
+        "end": 4.944,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.085,
+        "end": 5.41,
+        "gloss_id": "공장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.53,
+        "end": 6.735,
+        "gloss_id": "집중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.906,
+        "end": 7.238,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.923,
+        "end": 9.215,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.179,
+        "end": 2.538,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "한",
+        "start": 5.608,
+        "end": 5.745
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.827,
+        "end": 3.562
+      },
+      {
+        "descriptor": "",
+        "start": 4.229,
+        "end": 4.944
+      },
+      {
+        "descriptor": "",
+        "start": 5.608,
+        "end": 5.745
+      },
+      {
+        "descriptor": "",
+        "start": 8.033,
+        "end": 8.546
+      },
+      {
+        "descriptor": "",
+        "start": 9.863,
+        "end": 10.081
+      },
+      {
+        "descriptor": "",
+        "start": 9.409,
+        "end": 9.674
+      },
+      {
+        "descriptor": "",
+        "start": 6.53,
+        "end": 6.735
+      },
+      {
+        "descriptor": "",
+        "start": 7.623,
+        "end": 7.868
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.863,
+        "end": 10.081
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 6.597,
+        "end": 6.815
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.608,
+        "end": 6.732
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.609,
+        "end": 3.838
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338750",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:46:00",
+    "sentence_ID": "VXPAKOKS240338750",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    338,
+    126
+  ],
+  "file": "VXPAKOKS240338750.mp4",
+  "saved_as": "VXPAKOKS240338750-여러산업과기업의채권에투자함으로써특정기업이나산업의부정적인영향을없앨수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

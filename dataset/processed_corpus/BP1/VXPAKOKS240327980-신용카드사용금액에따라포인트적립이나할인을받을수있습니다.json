@@ -1,0 +1,230 @@
+{
+  "id": "VXPAKOKS240327980",
+  "opertor": "label22",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 사용금액에 따라 포인트 적립이나 할인을 받을 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.315,
+        "end": 1.434,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.197,
+        "end": 2.988,
+        "gloss_id": "카드2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.587,
+        "end": 1.979,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.211,
+        "end": 3.326,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.53,
+        "end": 3.842,
+        "gloss_id": "저축2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.046,
+        "end": 4.307,
+        "gloss_id": "할인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.474,
+        "end": 4.767,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.31,
+        "end": 1.983,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.197,
+        "end": 2.988,
+        "loc": "1,2",
+        "word": "사용금액에 따라"
+      },
+      {
+        "start": 3.211,
+        "end": 3.326,
+        "loc": "3",
+        "word": "포인트"
+      },
+      {
+        "start": 3.53,
+        "end": 3.842,
+        "loc": "4",
+        "word": "적립이나"
+      },
+      {
+        "start": 4.046,
+        "end": 4.307,
+        "loc": "5",
+        "word": "할인을"
+      },
+      {
+        "start": 4.474,
+        "end": 4.767,
+        "loc": "6,7,8",
+        "word": "받을 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.31,
+        "end": 1.434,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.53,
+        "end": 3.842,
+        "gloss_id": "저축2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.046,
+        "end": 4.307,
+        "gloss_id": "할인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.587,
+        "end": 1.979
+      },
+      {
+        "descriptor": "",
+        "start": 2.197,
+        "end": 2.988
+      },
+      {
+        "descriptor": "",
+        "start": 4.046,
+        "end": 4.307
+      },
+      {
+        "descriptor": "",
+        "start": 4.474,
+        "end": 4.767
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.568,
+        "end": 4.767
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.197,
+        "end": 2.988
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 2.197,
+        "end": 3.828
+      }
+    ],
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240327980",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:03:52",
+    "sentence_ID": "VXPAKOKS240327980",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    169,
+    126
+  ],
+  "file": "VXPAKOKS240327980.mp4",
+  "saved_as": "VXPAKOKS240327980-신용카드사용금액에따라포인트적립이나할인을받을수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

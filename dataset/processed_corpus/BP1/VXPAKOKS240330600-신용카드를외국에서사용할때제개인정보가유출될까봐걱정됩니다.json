@@ -1,0 +1,276 @@
+{
+  "id": "VXPAKOKS240330600",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드를 외국에서 사용할 때 제 개인정보가 유출될까 봐 걱정됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.672,
+        "end": 1.889,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.184,
+        "end": 2.684,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.067,
+        "end": 3.215,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.424,
+        "end": 3.999,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.166,
+        "end": 4.289,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.441,
+        "end": 4.771,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.995,
+        "end": 5.388,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.677,
+        "end": 5.901,
+        "gloss_id": "운1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.117,
+        "end": 6.686,
+        "gloss_id": "걱정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.672,
+        "end": 2.686,
+        "loc": "1",
+        "word": "외국에서"
+      },
+      {
+        "start": 3.067,
+        "end": 3.215,
+        "loc": "0",
+        "word": "신용카드를"
+      },
+      {
+        "start": 3.424,
+        "end": 3.98,
+        "loc": "2,3",
+        "word": "사용할 때"
+      },
+      {
+        "start": 4.166,
+        "end": 4.289,
+        "loc": "4",
+        "word": "제"
+      },
+      {
+        "start": 4.441,
+        "end": 4.771,
+        "loc": "5",
+        "word": "개인정보가"
+      },
+      {
+        "start": 4.995,
+        "end": 5.903,
+        "loc": "6,7",
+        "word": "유출될까 봐"
+      },
+      {
+        "start": 6.117,
+        "end": 6.686,
+        "loc": "8",
+        "word": "걱정됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.672,
+        "end": 1.889,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.184,
+        "end": 2.684,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.067,
+        "end": 3.215,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.441,
+        "end": 4.771,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.995,
+        "end": 5.388,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.677,
+        "end": 5.901,
+        "gloss_id": "운1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.341,
+        "end": 2.716
+      },
+      {
+        "descriptor": "",
+        "start": 6.26,
+        "end": 6.672
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.129,
+        "end": 5.372
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.424,
+        "end": 6.686
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 3.616,
+        "end": 3.99
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.672,
+        "end": 2.674
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330600",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:33:07",
+    "sentence_ID": "VXPAKOKS240330600",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    226,
+    126
+  ],
+  "file": "VXPAKOKS240330600.mp4",
+  "saved_as": "VXPAKOKS240330600-신용카드를외국에서사용할때제개인정보가유출될까봐걱정됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

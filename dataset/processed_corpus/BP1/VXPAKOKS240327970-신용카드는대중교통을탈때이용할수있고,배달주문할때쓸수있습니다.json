@@ -1,0 +1,253 @@
+{
+  "id": "VXPAKOKS240327970",
+  "opertor": "label22",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드는 대중교통을 탈 때 이용할 수 있고, 배달 주문할 때 쓸 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.763,
+        "end": 2.325,
+        "gloss_id": "버스1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.694,
+        "end": 2.882,
+        "gloss_id": "지하철1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.006,
+        "end": 3.725,
+        "gloss_id": "카드1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.269,
+        "end": 4.544,
+        "gloss_id": "보내다6",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.694,
+        "end": 5.207,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.356,
+        "end": 5.506,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.694,
+        "end": 6.063,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.238,
+        "end": 6.463,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.763,
+        "end": 2.875,
+        "loc": "1,2,3",
+        "word": "대중교통을 탈 때"
+      },
+      {
+        "start": 4.269,
+        "end": 4.544,
+        "loc": "7",
+        "word": "배달"
+      },
+      {
+        "start": 4.694,
+        "end": 5.207,
+        "loc": "8",
+        "word": "주문할"
+      },
+      {
+        "start": 5.356,
+        "end": 6.069,
+        "loc": "0",
+        "word": "신용카드는"
+      },
+      {
+        "start": 6.238,
+        "end": 6.463,
+        "loc": "10,11,12",
+        "word": "쓸 수 있습니다."
+      },
+      {
+        "start": 3.006,
+        "end": 3.725,
+        "loc": "4,5,6",
+        "word": "이용할 수 있고,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.269,
+        "end": 4.544,
+        "gloss_id": "보내다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.356,
+        "end": 6.056,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.694,
+        "end": 2.882,
+        "gloss_id": "지하철1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.763,
+        "end": 2.325,
+        "gloss_id": "버스1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.006,
+        "end": 3.75
+      },
+      {
+        "descriptor": "",
+        "start": 1.763,
+        "end": 2.35
+      },
+      {
+        "descriptor": "",
+        "start": 5.694,
+        "end": 6.082
+      },
+      {
+        "descriptor": "",
+        "start": 4.694,
+        "end": 5.232
+      },
+      {
+        "descriptor": "",
+        "start": 6.238,
+        "end": 6.463
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.401,
+        "end": 6.488
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.694,
+        "end": 6.088
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 4.694,
+        "end": 5.232
+      }
+    ],
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240327970",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:03:44",
+    "sentence_ID": "VXPAKOKS240327970",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    225,
+    126
+  ],
+  "file": "VXPAKOKS240327970.mp4",
+  "saved_as": "VXPAKOKS240327970-신용카드는대중교통을탈때이용할수있고,배달주문할때쓸수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

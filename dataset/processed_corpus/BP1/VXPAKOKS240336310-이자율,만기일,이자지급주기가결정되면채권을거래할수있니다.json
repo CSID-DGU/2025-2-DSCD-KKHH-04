@@ -1,0 +1,352 @@
+{
+  "id": "VXPAKOKS240336310",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "이자율, 만기일, 이자 지급 주기가 결정되면 채권을 거래할 수 있니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.268,
+        "end": 2.581,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.8,
+        "end": 3.365,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.612,
+        "end": 3.804,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.107,
+        "end": 4.56,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.816,
+        "end": 4.924,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.143,
+        "end": 5.391,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.712,
+        "end": 6.268,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.617,
+        "end": 7.154,
+        "gloss_id": "합의1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.361,
+        "end": 7.454,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.599,
+        "end": 7.763,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.952,
+        "end": 8.442,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.666,
+        "end": 8.877,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.091,
+        "end": 9.292,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.617,
+        "end": 7.154,
+        "loc": "5",
+        "word": "결정되면"
+      },
+      {
+        "start": 2.268,
+        "end": 3.386,
+        "loc": "0",
+        "word": "이자율,"
+      },
+      {
+        "start": 3.612,
+        "end": 4.551,
+        "loc": "1",
+        "word": "만기일,"
+      },
+      {
+        "start": 4.816,
+        "end": 6.271,
+        "loc": "2,3,4",
+        "word": "이자 지급 주기가"
+      },
+      {
+        "start": 7.351,
+        "end": 8.442,
+        "loc": "6",
+        "word": "채권을"
+      },
+      {
+        "start": 8.666,
+        "end": 8.877,
+        "loc": "7",
+        "word": "거래할"
+      },
+      {
+        "start": 9.091,
+        "end": 9.292,
+        "loc": "8,9",
+        "word": "수 있니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.8,
+        "end": 3.365,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.612,
+        "end": 3.804,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.107,
+        "end": 4.56,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.712,
+        "end": 6.268,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.617,
+        "end": 7.154,
+        "gloss_id": "합의1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.952,
+        "end": 8.442,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.666,
+        "end": 8.877,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.134,
+        "end": 9.292
+      },
+      {
+        "descriptor": "",
+        "start": 3.002,
+        "end": 3.365
+      },
+      {
+        "descriptor": "",
+        "start": 4.107,
+        "end": 4.56
+      },
+      {
+        "descriptor": "",
+        "start": 5.805,
+        "end": 6.268
+      },
+      {
+        "descriptor": "",
+        "start": 6.869,
+        "end": 7.156
+      },
+      {
+        "descriptor": "",
+        "start": 8.158,
+        "end": 8.451
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.138,
+        "end": 9.292
+      },
+      {
+        "descriptor": "",
+        "start": 3.615,
+        "end": 3.804
+      },
+      {
+        "descriptor": "",
+        "start": 6.869,
+        "end": 7.152
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.268,
+        "end": 3.174
+      },
+      {
+        "descriptor": "",
+        "start": 3.612,
+        "end": 4.534
+      },
+      {
+        "descriptor": "",
+        "start": 4.816,
+        "end": 7.151
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336310",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:29:03",
+    "sentence_ID": "VXPAKOKS240336310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    336,
+    126
+  ],
+  "file": "VXPAKOKS240336310.mp4",
+  "saved_as": "VXPAKOKS240336310-이자율,만기일,이자지급주기가결정되면채권을거래할수있니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

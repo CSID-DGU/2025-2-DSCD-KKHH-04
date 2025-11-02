@@ -1,0 +1,209 @@
+{
+  "id": "VXPAKOKS240334800",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주식에 처음 투자하는 사람이 알아야 하는 유의 사항이 무엇인가요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.366,
+        "end": 2.564,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.782,
+        "end": 2.945,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.107,
+        "end": 3.707,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.991,
+        "end": 4.224,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.394,
+        "end": 4.738,
+        "gloss_id": "순서1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.911,
+        "end": 5.256,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.366,
+        "end": 2.564,
+        "loc": "0",
+        "word": "주식에"
+      },
+      {
+        "start": 2.782,
+        "end": 2.945,
+        "loc": "1",
+        "word": "처음"
+      },
+      {
+        "start": 3.107,
+        "end": 3.707,
+        "loc": "2,3",
+        "word": "투자하는 사람이"
+      },
+      {
+        "start": 3.991,
+        "end": 4.224,
+        "loc": "4,5,6",
+        "word": "알아야 하는 유의"
+      },
+      {
+        "start": 4.394,
+        "end": 4.738,
+        "loc": "7",
+        "word": "사항이"
+      },
+      {
+        "start": 4.911,
+        "end": 5.256,
+        "loc": "8",
+        "word": "무엇인가요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.366,
+        "end": 2.564,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.991,
+        "end": 4.224,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.394,
+        "end": 4.738,
+        "gloss_id": "순서1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.911,
+        "end": 5.256
+      },
+      {
+        "descriptor": "",
+        "start": 3.107,
+        "end": 3.707
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.991,
+        "end": 4.722
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.911,
+        "end": 5.256
+      },
+      {
+        "descriptor": "",
+        "start": 2.366,
+        "end": 3.695
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334800",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:32:45",
+    "sentence_ID": "VXPAKOKS240334800",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    181,
+    126
+  ],
+  "file": "VXPAKOKS240334800.mp4",
+  "saved_as": "VXPAKOKS240334800-주식에처음투자하는사람이알아야하는유의사항이무엇인가요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

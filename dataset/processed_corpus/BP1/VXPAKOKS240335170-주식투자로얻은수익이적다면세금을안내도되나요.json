@@ -1,0 +1,220 @@
+{
+  "id": "VXPAKOKS240335170",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자로 얻은 수익이 적다면 세금을 안 내도 되나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.283,
+        "end": 2.478,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.728,
+        "end": 3.12,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.466,
+        "end": 3.679,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.99,
+        "end": 4.382,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.707,
+        "end": 4.926,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.082,
+        "end": 5.181,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.39,
+        "end": 5.722,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.283,
+        "end": 2.478,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.728,
+        "end": 3.12,
+        "loc": "1",
+        "word": "투자로"
+      },
+      {
+        "start": 3.466,
+        "end": 3.679,
+        "loc": "2,3",
+        "word": "얻은 수익이"
+      },
+      {
+        "start": 3.99,
+        "end": 4.382,
+        "loc": "4",
+        "word": "적다면"
+      },
+      {
+        "start": 4.707,
+        "end": 4.926,
+        "loc": "5",
+        "word": "세금을"
+      },
+      {
+        "start": 5.082,
+        "end": 5.181,
+        "loc": "7,8",
+        "word": "내도 되나요?"
+      },
+      {
+        "start": 5.39,
+        "end": 5.722,
+        "loc": "6",
+        "word": "안"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.283,
+        "end": 2.478,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.707,
+        "end": 4.926,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.39,
+        "end": 5.722,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.728,
+        "end": 3.12
+      },
+      {
+        "descriptor": "",
+        "start": 5.076,
+        "end": 5.722
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.466,
+        "end": 4.39
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.686,
+        "end": 5.725
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335170",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:58",
+    "sentence_ID": "VXPAKOKS240335170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    215,
+    126
+  ],
+  "file": "VXPAKOKS240335170.mp4",
+  "saved_as": "VXPAKOKS240335170-주식투자로얻은수익이적다면세금을안내도되나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

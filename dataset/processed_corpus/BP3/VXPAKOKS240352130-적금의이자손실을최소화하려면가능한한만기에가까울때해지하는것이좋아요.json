@@ -1,0 +1,329 @@
+{
+  "id": "VXPAKOKS240352130",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금의 이자 손실을 최소화하려면 가능한 한 만기에 가까울 때 해지하는 것이 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.313,
+        "end": 1.48,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.675,
+        "end": 1.961,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.117,
+        "end": 2.277,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.487,
+        "end": 2.747,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.03,
+        "end": 3.296,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.516,
+        "end": 4.036,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.39,
+        "end": 4.516,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.719,
+        "end": 5.132,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.354,
+        "end": 5.767,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.002,
+        "end": 6.135,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.274,
+        "end": 6.567,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.313,
+        "end": 1.974,
+        "loc": "0",
+        "word": "적금의"
+      },
+      {
+        "start": 2.117,
+        "end": 2.277,
+        "loc": "1",
+        "word": "이자"
+      },
+      {
+        "start": 2.487,
+        "end": 2.747,
+        "loc": "2",
+        "word": "손실을"
+      },
+      {
+        "start": 3.03,
+        "end": 4.01,
+        "loc": "3",
+        "word": "최소화하려면"
+      },
+      {
+        "start": 4.39,
+        "end": 5.13,
+        "loc": "4,5,6",
+        "word": "가능한 한 만기에"
+      },
+      {
+        "start": 5.354,
+        "end": 5.767,
+        "loc": "7,8",
+        "word": "가까울 때"
+      },
+      {
+        "start": 6.002,
+        "end": 6.135,
+        "loc": "9,10",
+        "word": "해지하는 것이"
+      },
+      {
+        "start": 6.274,
+        "end": 6.567,
+        "loc": "11",
+        "word": "좋아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.675,
+        "end": 2.281,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.487,
+        "end": 2.747,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.39,
+        "end": 4.516,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.719,
+        "end": 5.132,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.354,
+        "end": 5.767,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.002,
+        "end": 6.135,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.274,
+        "end": 6.567,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.516,
+        "end": 4.036
+      },
+      {
+        "descriptor": "",
+        "start": 4.719,
+        "end": 5.132
+      },
+      {
+        "descriptor": "",
+        "start": 5.354,
+        "end": 5.767
+      },
+      {
+        "descriptor": "",
+        "start": 6.274,
+        "end": 6.567
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.03,
+        "end": 3.296
+      },
+      {
+        "descriptor": "",
+        "start": 6.002,
+        "end": 6.555
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.719,
+        "end": 5.132
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.675,
+        "end": 2.588
+      },
+      {
+        "descriptor": "",
+        "start": 3.03,
+        "end": 4.01
+      },
+      {
+        "descriptor": "",
+        "start": 4.719,
+        "end": 5.552
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352130",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:50:34",
+    "sentence_ID": "VXPAKOKS240352130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    240,
+    126
+  ],
+  "file": "VXPAKOKS240352130.mp4",
+  "saved_as": "VXPAKOKS240352130-적금의이자손실을최소화하려면가능한한만기에가까울때해지하는것이좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,305 @@
+{
+  "id": "VXPAKOKS240331200",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "카드값 내는 방법을 자동이체에서 지로로 바꾸고 싶은데 가능한지 알고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.856,
+        "end": 2.051,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.247,
+        "end": 2.66,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.936,
+        "end": 3.465,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.667,
+        "end": 3.826,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.043,
+        "end": 4.246,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.465,
+        "end": 4.805,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.161,
+        "end": 5.378,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.642,
+        "end": 6.164,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.492,
+        "end": 6.702,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.972,
+        "end": 7.167,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.464,
+        "end": 7.717,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.856,
+        "end": 2.638,
+        "loc": "0,1",
+        "word": "카드값 내는"
+      },
+      {
+        "start": 2.936,
+        "end": 3.465,
+        "loc": "2",
+        "word": "방법을"
+      },
+      {
+        "start": 3.667,
+        "end": 6.168,
+        "loc": "3,4",
+        "word": "자동이체에서 지로로"
+      },
+      {
+        "start": 6.492,
+        "end": 6.702,
+        "loc": "5",
+        "word": "바꾸고"
+      },
+      {
+        "start": 6.972,
+        "end": 7.167,
+        "loc": "6",
+        "word": "싶은데"
+      },
+      {
+        "start": 7.464,
+        "end": 7.717,
+        "loc": "7,8,9",
+        "word": "가능한지 알고 싶어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.936,
+        "end": 3.465,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.667,
+        "end": 3.826,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.043,
+        "end": 4.797,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.161,
+        "end": 5.378,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.642,
+        "end": 6.164,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.492,
+        "end": 6.702,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.936,
+        "end": 3.465
+      },
+      {
+        "descriptor": "",
+        "start": 6.972,
+        "end": 7.167
+      },
+      {
+        "descriptor": "",
+        "start": 7.464,
+        "end": 7.717
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.465,
+        "end": 4.769
+      },
+      {
+        "descriptor": "",
+        "start": 7.464,
+        "end": 7.717
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 4.212,
+        "end": 4.784
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.043,
+        "end": 4.782
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.642,
+        "end": 6.164
+      },
+      {
+        "descriptor": "",
+        "start": 7.464,
+        "end": 7.717
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331200",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:08:19",
+    "sentence_ID": "VXPAKOKS240331200",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    261,
+    126
+  ],
+  "file": "VXPAKOKS240331200.mp4",
+  "saved_as": "VXPAKOKS240331200-카드값내는방법을자동이체에서지로로바꾸고싶은데가능한지알고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

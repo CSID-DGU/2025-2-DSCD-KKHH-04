@@ -1,0 +1,320 @@
+{
+  "id": "VXPAKOKS240336950",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "정부가 대규모 재정 지출을 결정하면 채권 발행이 증가하여 시장에 채권 공급이 늘어나고, 이자율이 상승합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.193,
+        "end": 2.719,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.899,
+        "end": 3.031,
+        "gloss_id": "예산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.343,
+        "end": 3.593,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.835,
+        "end": 4.217,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.393,
+        "end": 4.486,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.65,
+        "end": 4.776,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.011,
+        "end": 5.307,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.562,
+        "end": 6.114,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.429,
+        "end": 7.159,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.5,
+        "end": 7.724,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.986,
+        "end": 8.322,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.498,
+        "end": 8.798,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.193,
+        "end": 2.719,
+        "loc": "0",
+        "word": "정부가"
+      },
+      {
+        "start": 2.899,
+        "end": 3.588,
+        "loc": "1,2,3",
+        "word": "대규모 재정 지출을"
+      },
+      {
+        "start": 3.835,
+        "end": 4.217,
+        "loc": "4",
+        "word": "결정하면"
+      },
+      {
+        "start": 7.986,
+        "end": 8.322,
+        "loc": "12",
+        "word": "이자율이"
+      },
+      {
+        "start": 8.498,
+        "end": 8.798,
+        "loc": "13",
+        "word": "상승합니다."
+      },
+      {
+        "start": 4.393,
+        "end": 5.304,
+        "loc": "5",
+        "word": "채권"
+      },
+      {
+        "start": 5.562,
+        "end": 7.714,
+        "loc": "6,7,8,9,10,11",
+        "word": "발행이 증가하여 시장에 채권 공급이 늘어나고,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.193,
+        "end": 2.719,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.835,
+        "end": 4.774,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.011,
+        "end": 5.307,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.562,
+        "end": 6.114,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.429,
+        "end": 7.159,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.5,
+        "end": 7.724,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.498,
+        "end": 8.788
+      },
+      {
+        "descriptor": "",
+        "start": 2.531,
+        "end": 2.718
+      },
+      {
+        "descriptor": "",
+        "start": 3.835,
+        "end": 4.217
+      },
+      {
+        "descriptor": "",
+        "start": 6.567,
+        "end": 7.159
+      },
+      {
+        "descriptor": "",
+        "start": 7.57,
+        "end": 7.724
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.574,
+        "end": 7.724
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.343,
+        "end": 3.952
+      },
+      {
+        "descriptor": "",
+        "start": 5.562,
+        "end": 7.021
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.665,
+        "end": 7.026
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336950",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:33:24",
+    "sentence_ID": "VXPAKOKS240336950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    331,
+    126
+  ],
+  "file": "VXPAKOKS240336950.mp4",
+  "saved_as": "VXPAKOKS240336950-정부가대규모재정지출을결정하면채권발행이증가하여시장에채권공급이늘어나고,이자율이상승합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

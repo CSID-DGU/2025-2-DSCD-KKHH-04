@@ -1,0 +1,220 @@
+{
+  "id": "VXPAKOKS240328720",
+  "opertor": "label12",
+  "krlgg_sntenc": {
+    "koreanText": "적금을 해지할 수 있지만, 적금을 해지하기 전에 확인할 것이 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.113,
+        "end": 2.398,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.601,
+        "end": 2.948,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.134,
+        "end": 3.504,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.797,
+        "end": 4.342,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.591,
+        "end": 4.966,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.106,
+        "end": 5.47,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.827,
+        "end": 6.1,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.113,
+        "end": 2.953,
+        "loc": "0",
+        "word": "적금을"
+      },
+      {
+        "start": 3.134,
+        "end": 3.504,
+        "loc": "1",
+        "word": "해지할"
+      },
+      {
+        "start": 4.591,
+        "end": 4.966,
+        "loc": "4,5,6",
+        "word": "적금을 해지하기 전에"
+      },
+      {
+        "start": 5.106,
+        "end": 6.105,
+        "loc": "7,8,9",
+        "word": "확인할 것이 있어요."
+      },
+      {
+        "start": 3.797,
+        "end": 4.342,
+        "loc": "2,3",
+        "word": "수 있지만,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.134,
+        "end": 3.504,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.113,
+        "end": 2.398,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.601,
+        "end": 2.948,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.827,
+        "end": 6.1,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.591,
+        "end": 4.966
+      },
+      {
+        "descriptor": "",
+        "start": 2.601,
+        "end": 2.948
+      },
+      {
+        "descriptor": "",
+        "start": 3.797,
+        "end": 4.342
+      },
+      {
+        "descriptor": "",
+        "start": 5.827,
+        "end": 6.1
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.797,
+        "end": 4.342
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240328720",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:36:25",
+    "sentence_ID": "VXPAKOKS240328720",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    204,
+    126
+  ],
+  "file": "VXPAKOKS240328720.mp4",
+  "saved_as": "VXPAKOKS240328720-적금을해지할수있지만,적금을해지하기전에확인할것이있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

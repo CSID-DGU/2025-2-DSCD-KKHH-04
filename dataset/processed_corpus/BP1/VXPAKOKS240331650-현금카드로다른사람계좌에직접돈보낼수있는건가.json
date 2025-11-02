@@ -1,0 +1,243 @@
+{
+  "id": "VXPAKOKS240331650",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드로 다른 사람 계좌에 직접 돈 보낼 수 있는 건가?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.897,
+        "end": 2.07,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.308,
+        "end": 2.564,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.818,
+        "end": 3.36,
+        "gloss_id": "숫자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.727,
+        "end": 4.066,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.243,
+        "end": 4.339,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.494,
+        "end": 4.75,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.057,
+        "end": 5.379,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.592,
+        "end": 5.955,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.897,
+        "end": 2.07,
+        "loc": "1",
+        "word": "다른"
+      },
+      {
+        "start": 2.308,
+        "end": 2.564,
+        "loc": "2",
+        "word": "사람"
+      },
+      {
+        "start": 2.818,
+        "end": 3.36,
+        "loc": "3",
+        "word": "계좌에"
+      },
+      {
+        "start": 3.727,
+        "end": 4.066,
+        "loc": "4",
+        "word": "직접"
+      },
+      {
+        "start": 4.243,
+        "end": 4.743,
+        "loc": "0",
+        "word": "현금카드로"
+      },
+      {
+        "start": 5.057,
+        "end": 5.379,
+        "loc": "5,6",
+        "word": "돈 보낼"
+      },
+      {
+        "start": 5.592,
+        "end": 5.955,
+        "loc": "7,8,9",
+        "word": "수 있는 건가?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.897,
+        "end": 2.07,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.308,
+        "end": 3.361,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.727,
+        "end": 4.066,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.057,
+        "end": 5.379,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.004,
+        "end": 3.361
+      },
+      {
+        "descriptor": "",
+        "start": 5.592,
+        "end": 5.955
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.592,
+        "end": 5.955
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.057,
+        "end": 5.967
+      },
+      {
+        "descriptor": "",
+        "start": 1.897,
+        "end": 3.36
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331650",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:13:55",
+    "sentence_ID": "VXPAKOKS240331650",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    214,
+    126
+  ],
+  "file": "VXPAKOKS240331650.mp4",
+  "saved_as": "VXPAKOKS240331650-현금카드로다른사람계좌에직접돈보낼수있는건가.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

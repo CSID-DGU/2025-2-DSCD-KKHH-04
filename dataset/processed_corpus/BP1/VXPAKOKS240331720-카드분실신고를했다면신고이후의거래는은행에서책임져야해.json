@@ -1,0 +1,233 @@
+{
+  "id": "VXPAKOKS240331720",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "카드 분실 신고를 했다면 신고 이후의 거래는 은행에서 책임져야 해.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.619,
+        "end": 1.886,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.004,
+        "end": 2.363,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.667,
+        "end": 3.592,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.677,
+        "end": 3.782,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.894,
+        "end": 4.719,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.885,
+        "end": 5.022,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.286,
+        "end": 5.651,
+        "gloss_id": "맡다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.619,
+        "end": 1.886,
+        "loc": "0",
+        "word": "카드"
+      },
+      {
+        "start": 2.004,
+        "end": 2.363,
+        "loc": "1",
+        "word": "분실"
+      },
+      {
+        "start": 2.656,
+        "end": 3.592,
+        "loc": "2,3",
+        "word": "신고를 했다면"
+      },
+      {
+        "start": 4.885,
+        "end": 5.022,
+        "loc": "7",
+        "word": "은행에서"
+      },
+      {
+        "start": 5.286,
+        "end": 5.651,
+        "loc": "8,9",
+        "word": "책임져야 해."
+      },
+      {
+        "start": 3.677,
+        "end": 4.724,
+        "loc": "4,5,6",
+        "word": "신고 이후의 거래는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.894,
+        "end": 4.719,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.885,
+        "end": 5.022,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.894,
+        "end": 4.713
+      },
+      {
+        "descriptor": "",
+        "start": 5.281,
+        "end": 5.651
+      },
+      {
+        "descriptor": "",
+        "start": 2.004,
+        "end": 2.363
+      },
+      {
+        "descriptor": "",
+        "start": 3.133,
+        "end": 3.592
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.135,
+        "end": 3.586
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.009,
+        "end": 2.368
+      },
+      {
+        "descriptor": "",
+        "start": 3.894,
+        "end": 4.719
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.378,
+        "end": 5.651
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.545,
+        "end": 3.592
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331720",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:14:28",
+    "sentence_ID": "VXPAKOKS240331720",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    195,
+    126
+  ],
+  "file": "VXPAKOKS240331720.mp4",
+  "saved_as": "VXPAKOKS240331720-카드분실신고를했다면신고이후의거래는은행에서책임져야해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

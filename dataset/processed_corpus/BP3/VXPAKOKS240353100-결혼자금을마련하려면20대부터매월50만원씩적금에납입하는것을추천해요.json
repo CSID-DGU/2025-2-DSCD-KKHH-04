@@ -1,0 +1,340 @@
+{
+  "id": "VXPAKOKS240353100",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "결혼 자금을 마련하려면 20대부터 매월 50만 원씩 적금에 납입하는 것을 추천해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.287,
+        "end": 1.528,
+        "gloss_id": "결혼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.736,
+        "end": 2.099,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.311,
+        "end": 2.444,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.684,
+        "end": 3.22,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.358,
+        "end": 4.635,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.907,
+        "end": 5.184,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.345,
+        "end": 5.492,
+        "gloss_id": "50",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.53,
+        "end": 5.915,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.116,
+        "end": 6.22,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.402,
+        "end": 6.621,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.745,
+        "end": 6.986,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.168,
+        "end": 7.617,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.287,
+        "end": 1.528,
+        "loc": "0",
+        "word": "결혼"
+      },
+      {
+        "start": 1.736,
+        "end": 2.099,
+        "loc": "1",
+        "word": "자금을"
+      },
+      {
+        "start": 2.311,
+        "end": 3.222,
+        "loc": "2",
+        "word": "마련하려면"
+      },
+      {
+        "start": 3.477,
+        "end": 4.632,
+        "loc": "3",
+        "word": "20대부터"
+      },
+      {
+        "start": 4.907,
+        "end": 5.184,
+        "loc": "4",
+        "word": "매월"
+      },
+      {
+        "start": 5.345,
+        "end": 5.492,
+        "loc": "5",
+        "word": "50만"
+      },
+      {
+        "start": 5.53,
+        "end": 5.915,
+        "loc": "6",
+        "word": "원씩"
+      },
+      {
+        "start": 6.116,
+        "end": 6.616,
+        "loc": "7",
+        "word": "적금에"
+      },
+      {
+        "start": 6.745,
+        "end": 6.986,
+        "loc": "8,9",
+        "word": "납입하는 것을"
+      },
+      {
+        "start": 7.168,
+        "end": 7.617,
+        "loc": "10",
+        "word": "추천해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.287,
+        "end": 2.096,
+        "gloss_id": "결혼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.311,
+        "end": 2.444,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.477,
+        "end": 3.602,
+        "gloss_id": "나이1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.808,
+        "end": 4.091,
+        "gloss_id": "20",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.358,
+        "end": 4.635,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.402,
+        "end": 6.998,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.168,
+        "end": 7.617,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.168,
+        "end": 7.617
+      },
+      {
+        "descriptor": "",
+        "start": 1.736,
+        "end": 2.099
+      },
+      {
+        "descriptor": "",
+        "start": 2.684,
+        "end": 2.96
+      },
+      {
+        "descriptor": "",
+        "start": 4.358,
+        "end": 4.635
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.168,
+        "end": 7.617
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.736,
+        "end": 2.099
+      },
+      {
+        "descriptor": "",
+        "start": 2.684,
+        "end": 2.96
+      },
+      {
+        "descriptor": "",
+        "start": 6.745,
+        "end": 6.928
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353100",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:04:14",
+    "sentence_ID": "VXPAKOKS240353100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    259,
+    126
+  ],
+  "file": "VXPAKOKS240353100.mp4",
+  "saved_as": "VXPAKOKS240353100-결혼자금을마련하려면20대부터매월50만원씩적금에납입하는것을추천해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

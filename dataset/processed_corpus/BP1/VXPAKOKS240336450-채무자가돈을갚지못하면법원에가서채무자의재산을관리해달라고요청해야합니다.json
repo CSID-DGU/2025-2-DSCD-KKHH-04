@@ -1,0 +1,286 @@
+{
+  "id": "VXPAKOKS240336450",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채무자가 돈을 갚지 못하면 법원에 가서 채무자의 재산을 관리해달라고 요청해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.67,
+        "end": 3.031,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.278,
+        "end": 3.601,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.87,
+        "end": 4.308,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.647,
+        "end": 4.939,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.17,
+        "end": 5.347,
+        "gloss_id": "심판1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.571,
+        "end": 5.986,
+        "gloss_id": "가다7",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.14,
+        "end": 6.232,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.363,
+        "end": 6.763,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.948,
+        "end": 7.301,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.667,
+        "end": 3.601,
+        "loc": "0",
+        "word": "채무자가"
+      },
+      {
+        "start": 3.87,
+        "end": 4.308,
+        "loc": "1,2",
+        "word": "돈을 갚지"
+      },
+      {
+        "start": 4.647,
+        "end": 4.939,
+        "loc": "3",
+        "word": "못하면"
+      },
+      {
+        "start": 5.17,
+        "end": 5.347,
+        "loc": "4",
+        "word": "법원에"
+      },
+      {
+        "start": 5.571,
+        "end": 5.986,
+        "loc": "5",
+        "word": "가서"
+      },
+      {
+        "start": 6.14,
+        "end": 6.232,
+        "loc": "6,7",
+        "word": "채무자의 재산을"
+      },
+      {
+        "start": 6.363,
+        "end": 7.31,
+        "loc": "8,9,10",
+        "word": "관리해달라고 요청해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.278,
+        "end": 3.601,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.87,
+        "end": 4.308,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.647,
+        "end": 4.939,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.17,
+        "end": 6.236,
+        "gloss_id": "심판1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.363,
+        "end": 6.763,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.948,
+        "end": 7.301,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.647,
+        "end": 4.939
+      },
+      {
+        "descriptor": "",
+        "start": 5.73,
+        "end": 5.986
+      },
+      {
+        "descriptor": "",
+        "start": 7.08,
+        "end": 7.301
+      },
+      {
+        "descriptor": "",
+        "start": 3.278,
+        "end": 3.601
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.647,
+        "end": 4.939
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.499,
+        "end": 4.932
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.948,
+        "end": 7.301
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.67,
+        "end": 4.938
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336450",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:02",
+    "sentence_ID": "VXPAKOKS240336450",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    277,
+    126
+  ],
+  "file": "VXPAKOKS240336450.mp4",
+  "saved_as": "VXPAKOKS240336450-채무자가돈을갚지못하면법원에가서채무자의재산을관리해달라고요청해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,271 @@
+{
+  "id": "VXPAKOKS240351480",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 해지 후 금리가 더 높은 상품으로 갈아타고 싶은데, 어떻게 해야 하나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.721,
+        "end": 1.857,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.005,
+        "end": 2.226,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.454,
+        "end": 3.051,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.315,
+        "end": 3.457,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.633,
+        "end": 3.878,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.077,
+        "end": 4.492,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.757,
+        "end": 4.942,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.115,
+        "end": 5.245,
+        "gloss_id": "바꾸다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.474,
+        "end": 5.647,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.844,
+        "end": 6.186,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.721,
+        "end": 2.232,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.454,
+        "end": 3.051,
+        "loc": "1,2",
+        "word": "해지 후"
+      },
+      {
+        "start": 3.315,
+        "end": 3.875,
+        "loc": "3",
+        "word": "금리가"
+      },
+      {
+        "start": 4.077,
+        "end": 4.492,
+        "loc": "4,5",
+        "word": "더 높은"
+      },
+      {
+        "start": 4.757,
+        "end": 4.942,
+        "loc": "6",
+        "word": "상품으로"
+      },
+      {
+        "start": 5.115,
+        "end": 5.245,
+        "loc": "7",
+        "word": "갈아타고"
+      },
+      {
+        "start": 5.474,
+        "end": 5.647,
+        "loc": "8",
+        "word": "싶은데,"
+      },
+      {
+        "start": 5.844,
+        "end": 6.186,
+        "loc": "9,10,11",
+        "word": "어떻게 해야 하나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.454,
+        "end": 3.051,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.757,
+        "end": 5.657,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.844,
+        "end": 6.186,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.005,
+        "end": 2.226,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.767,
+        "end": 3.055
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.767,
+        "end": 3.049
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.122,
+        "end": 6.156
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.116,
+        "end": 5.604
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.315,
+        "end": 4.493
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351480",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:39",
+    "sentence_ID": "VXPAKOKS240351480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    218,
+    126
+  ],
+  "file": "VXPAKOKS240351480.mp4",
+  "saved_as": "VXPAKOKS240351480-적금해지후금리가더높은상품으로갈아타고싶은데,어떻게해야하나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

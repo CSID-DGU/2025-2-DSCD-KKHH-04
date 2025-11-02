@@ -1,0 +1,335 @@
+{
+  "id": "VXPAKOKS240331360",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "월 소득이 50만 원 이상이고 신용등급이 1등급에서 6등급 사이일 때 신용카드 발급이 가능해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.777,
+        "end": 2.033,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.193,
+        "end": 2.521,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.687,
+        "end": 3.094,
+        "gloss_id": "500000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.225,
+        "end": 3.911,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.099,
+        "end": 4.398,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.572,
+        "end": 5.093,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.195,
+        "end": 5.559,
+        "gloss_id": "일형3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.69,
+        "end": 6.19,
+        "gloss_id": "6",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.378,
+        "end": 6.72,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.815,
+        "end": 6.942,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.066,
+        "end": 7.401,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.531,
+        "end": 8.031,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.777,
+        "end": 2.033,
+        "loc": "0",
+        "word": "월"
+      },
+      {
+        "start": 2.193,
+        "end": 2.521,
+        "loc": "1",
+        "word": "소득이"
+      },
+      {
+        "start": 2.687,
+        "end": 3.094,
+        "loc": "2,3",
+        "word": "50만 원"
+      },
+      {
+        "start": 3.225,
+        "end": 3.911,
+        "loc": "4",
+        "word": "이상이고"
+      },
+      {
+        "start": 4.099,
+        "end": 4.95,
+        "loc": "5",
+        "word": "신용등급이"
+      },
+      {
+        "start": 5.188,
+        "end": 6.233,
+        "loc": "6,7,8,9",
+        "word": "1등급에서 6등급 사이일 때"
+      },
+      {
+        "start": 6.378,
+        "end": 6.956,
+        "loc": "10",
+        "word": "신용카드"
+      },
+      {
+        "start": 7.066,
+        "end": 7.401,
+        "loc": "11",
+        "word": "발급이"
+      },
+      {
+        "start": 7.531,
+        "end": 8.031,
+        "loc": "12",
+        "word": "가능해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.193,
+        "end": 2.521,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.099,
+        "end": 4.398,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.959,
+        "end": 6.219,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.378,
+        "end": 6.72,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.066,
+        "end": 7.401,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "오십만",
+        "start": 2.687,
+        "end": 3.094
+      },
+      {
+        "descriptor": "일",
+        "start": 4.959,
+        "end": 5.459
+      },
+      {
+        "descriptor": "육",
+        "start": 5.69,
+        "end": 6.19
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.225,
+        "end": 3.911
+      },
+      {
+        "descriptor": "",
+        "start": 4.572,
+        "end": 5.093
+      },
+      {
+        "descriptor": "",
+        "start": 5.69,
+        "end": 6.19
+      },
+      {
+        "descriptor": "",
+        "start": 7.531,
+        "end": 8.031
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.531,
+        "end": 8.031
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.066,
+        "end": 7.401
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.777,
+        "end": 2.549
+      },
+      {
+        "descriptor": "",
+        "start": 5.69,
+        "end": 6.19
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331360",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:09:51",
+    "sentence_ID": "VXPAKOKS240331360",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240331360.mp4",
+  "saved_as": "VXPAKOKS240331360-월소득이50만원이상이고신용등급이1등급에서6등급사이일때신용카드발급이가능해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

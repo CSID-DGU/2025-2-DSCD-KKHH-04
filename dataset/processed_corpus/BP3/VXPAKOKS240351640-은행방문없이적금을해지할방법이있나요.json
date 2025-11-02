@@ -1,0 +1,265 @@
+{
+  "id": "VXPAKOKS240351640",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "은행 방문 없이 적금을 해지할 방법이 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.478,
+        "end": 1.636,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.85,
+        "end": 2.04,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.28,
+        "end": 2.438,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.642,
+        "end": 2.768,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.919,
+        "end": 3.132,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.359,
+        "end": 3.608,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.801,
+        "end": 3.954,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.094,
+        "end": 4.43,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.478,
+        "end": 1.636,
+        "loc": "0",
+        "word": "은행"
+      },
+      {
+        "start": 1.85,
+        "end": 2.04,
+        "loc": "1",
+        "word": "방문"
+      },
+      {
+        "start": 2.28,
+        "end": 2.438,
+        "loc": "2",
+        "word": "없이"
+      },
+      {
+        "start": 2.642,
+        "end": 3.151,
+        "loc": "3",
+        "word": "적금을"
+      },
+      {
+        "start": 3.359,
+        "end": 3.95,
+        "loc": "4",
+        "word": "해지할"
+      },
+      {
+        "start": 4.094,
+        "end": 4.43,
+        "loc": "5,6",
+        "word": "방법이 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.478,
+        "end": 1.636,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.85,
+        "end": 2.04,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.28,
+        "end": 2.438,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.919,
+        "end": 3.132,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.359,
+        "end": 3.954,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.094,
+        "end": 4.43,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.801,
+        "end": 3.954
+      },
+      {
+        "descriptor": "",
+        "start": 1.478,
+        "end": 1.636
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.801,
+        "end": 3.954
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 1.96,
+        "end": 2.268
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.094,
+        "end": 4.43
+      },
+      {
+        "descriptor": "",
+        "start": 1.96,
+        "end": 2.46
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.801,
+        "end": 4.424
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351640",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:46:45",
+    "sentence_ID": "VXPAKOKS240351640",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    164,
+    126
+  ],
+  "file": "VXPAKOKS240351640.mp4",
+  "saved_as": "VXPAKOKS240351640-은행방문없이적금을해지할방법이있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

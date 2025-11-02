@@ -1,0 +1,354 @@
+{
+  "id": "VXPAKOKS240354410",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "부산은행 적금은 최소 1천 원부터 최대 30만 원까지 가입할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.328,
+        "end": 1.465,
+        "gloss_id": "부산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.636,
+        "end": 1.81,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.947,
+        "end": 2.072,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.28,
+        "end": 2.559,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.695,
+        "end": 2.832,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.106,
+        "end": 3.323,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.566,
+        "end": 4.066,
+        "gloss_id": "1000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.383,
+        "end": 4.502,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.724,
+        "end": 5.021,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.33,
+        "end": 5.486,
+        "gloss_id": "300000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.61,
+        "end": 5.686,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.862,
+        "end": 5.968,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.118,
+        "end": 6.262,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.328,
+        "end": 1.815,
+        "loc": "0",
+        "word": "부산은행"
+      },
+      {
+        "start": 1.947,
+        "end": 2.557,
+        "loc": "1",
+        "word": "적금은"
+      },
+      {
+        "start": 2.695,
+        "end": 3.323,
+        "loc": "2",
+        "word": "최소"
+      },
+      {
+        "start": 3.566,
+        "end": 4.066,
+        "loc": "3,4",
+        "word": "1천 원부터"
+      },
+      {
+        "start": 4.383,
+        "end": 5.012,
+        "loc": "5",
+        "word": "최대"
+      },
+      {
+        "start": 5.33,
+        "end": 5.689,
+        "loc": "6,7",
+        "word": "30만 원까지"
+      },
+      {
+        "start": 5.862,
+        "end": 6.263,
+        "loc": "8,9,10",
+        "word": "가입할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.328,
+        "end": 1.465,
+        "gloss_id": "부산1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.636,
+        "end": 1.81,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.28,
+        "end": 2.559,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.106,
+        "end": 3.323,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.724,
+        "end": 5.021,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.61,
+        "end": 5.686,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.862,
+        "end": 5.968,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "삼십",
+        "start": 5.33,
+        "end": 5.486
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.118,
+        "end": 6.262
+      },
+      {
+        "descriptor": "",
+        "start": 3.106,
+        "end": 3.323
+      },
+      {
+        "descriptor": "",
+        "start": 3.707,
+        "end": 4.066
+      },
+      {
+        "descriptor": "",
+        "start": 4.724,
+        "end": 5.021
+      },
+      {
+        "descriptor": "",
+        "start": 5.61,
+        "end": 5.686
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.118,
+        "end": 6.262
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.566,
+        "end": 3.759
+      },
+      {
+        "descriptor": "",
+        "start": 4.383,
+        "end": 5.049
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.636,
+        "end": 2.388
+      },
+      {
+        "descriptor": "",
+        "start": 4.383,
+        "end": 4.852
+      },
+      {
+        "descriptor": "",
+        "start": 2.695,
+        "end": 3.145
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354410",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:13:43",
+    "sentence_ID": "VXPAKOKS240354410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    221,
+    126
+  ],
+  "file": "VXPAKOKS240354410.mp4",
+  "saved_as": "VXPAKOKS240354410-부산은행적금은최소1천원부터최대30만원까지가입할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

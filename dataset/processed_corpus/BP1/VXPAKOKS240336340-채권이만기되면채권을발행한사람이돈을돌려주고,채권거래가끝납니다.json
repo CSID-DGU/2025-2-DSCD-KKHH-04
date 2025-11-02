@@ -1,0 +1,287 @@
+{
+  "id": "VXPAKOKS240336340",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권이 만기 되면 채권을 발행한 사람이 돈을 돌려주고, 채권 거래가 끝납니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.948,
+        "end": 2.034,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.199,
+        "end": 2.415,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.61,
+        "end": 3.259,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.499,
+        "end": 3.736,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.975,
+        "end": 4.29,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.537,
+        "end": 4.795,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.027,
+        "end": 5.513,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.71,
+        "end": 5.975,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.186,
+        "end": 6.53,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.954,
+        "end": 3.259,
+        "loc": "0",
+        "word": "채권이"
+      },
+      {
+        "start": 3.499,
+        "end": 4.293,
+        "loc": "1",
+        "word": "만기"
+      },
+      {
+        "start": 4.537,
+        "end": 4.795,
+        "loc": "2",
+        "word": "되면"
+      },
+      {
+        "start": 5.027,
+        "end": 5.513,
+        "loc": "3,4,5,6,7",
+        "word": "채권을 발행한 사람이 돈을 돌려주고,"
+      },
+      {
+        "start": 5.71,
+        "end": 5.975,
+        "loc": "8,9",
+        "word": "채권 거래가"
+      },
+      {
+        "start": 6.186,
+        "end": 6.53,
+        "loc": "10",
+        "word": "끝납니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.199,
+        "end": 2.415,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.499,
+        "end": 3.736,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.975,
+        "end": 4.29,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.537,
+        "end": 4.795,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.71,
+        "end": 5.975,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.186,
+        "end": 6.53,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.61,
+        "end": 3.259,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.186,
+        "end": 6.53
+      },
+      {
+        "descriptor": "",
+        "start": 2.82,
+        "end": 3.252
+      },
+      {
+        "descriptor": "",
+        "start": 3.975,
+        "end": 4.285
+      },
+      {
+        "descriptor": "",
+        "start": 5.143,
+        "end": 5.516
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.117,
+        "end": 4.285
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.186,
+        "end": 6.53
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.948,
+        "end": 4.241
+      },
+      {
+        "descriptor": "",
+        "start": 5.166,
+        "end": 5.521
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336340",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:29:09",
+    "sentence_ID": "VXPAKOKS240336340",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    256,
+    126
+  ],
+  "file": "VXPAKOKS240336340.mp4",
+  "saved_as": "VXPAKOKS240336340-채권이만기되면채권을발행한사람이돈을돌려주고,채권거래가끝납니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

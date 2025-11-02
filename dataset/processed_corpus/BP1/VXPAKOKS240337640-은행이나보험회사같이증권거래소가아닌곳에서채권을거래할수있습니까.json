@@ -1,0 +1,331 @@
+{
+  "id": "VXPAKOKS240337640",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "은행이나 보험 회사같이 증권 거래소가 아닌 곳에서 채권을 거래할 수 있습니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.471,
+        "end": 3.148,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.302,
+        "end": 3.466,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.686,
+        "end": 3.992,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.257,
+        "end": 4.792,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.019,
+        "end": 5.528,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.772,
+        "end": 5.861,
+        "gloss_id": "생명1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.026,
+        "end": 6.332,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.585,
+        "end": 6.926,
+        "gloss_id": "곳1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.011,
+        "end": 7.1,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.311,
+        "end": 7.519,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.669,
+        "end": 8.116,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.361,
+        "end": 8.516,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.73,
+        "end": 9.089,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.019,
+        "end": 5.528,
+        "loc": "0",
+        "word": "은행이나"
+      },
+      {
+        "start": 5.772,
+        "end": 6.93,
+        "loc": "1,2",
+        "word": "보험 회사같이"
+      },
+      {
+        "start": 7.011,
+        "end": 8.107,
+        "loc": "7",
+        "word": "채권을"
+      },
+      {
+        "start": 8.361,
+        "end": 9.072,
+        "loc": "8,9,10",
+        "word": "거래할 수 있습니까?"
+      },
+      {
+        "start": 2.471,
+        "end": 3.978,
+        "loc": "3,4",
+        "word": "증권 거래소가"
+      },
+      {
+        "start": 4.257,
+        "end": 4.792,
+        "loc": "5,6",
+        "word": "아닌 곳에서"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.471,
+        "end": 3.148,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.302,
+        "end": 3.466,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.257,
+        "end": 4.792,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.019,
+        "end": 5.528,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.026,
+        "end": 6.332,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.669,
+        "end": 8.116,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.361,
+        "end": 8.516,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.366,
+        "end": 9.089
+      },
+      {
+        "descriptor": "",
+        "start": 2.488,
+        "end": 3.148
+      },
+      {
+        "descriptor": "",
+        "start": 3.686,
+        "end": 3.992
+      },
+      {
+        "descriptor": "",
+        "start": 4.257,
+        "end": 4.792
+      },
+      {
+        "descriptor": "",
+        "start": 5.015,
+        "end": 5.528
+      },
+      {
+        "descriptor": "",
+        "start": 6.585,
+        "end": 6.926
+      },
+      {
+        "descriptor": "",
+        "start": 7.784,
+        "end": 8.116
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.73,
+        "end": 9.089
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.669,
+        "end": 9.079
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337640",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:37",
+    "sentence_ID": "VXPAKOKS240337640",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    318,
+    126
+  ],
+  "file": "VXPAKOKS240337640.mp4",
+  "saved_as": "VXPAKOKS240337640-은행이나보험회사같이증권거래소가아닌곳에서채권을거래할수있습니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

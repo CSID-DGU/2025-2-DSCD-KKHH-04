@@ -1,0 +1,242 @@
+{
+  "id": "VXPAKOKS240335910",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "경제 지식이 부족하면 고수익의 주식에 투자하더라도 손해를 봅니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.447,
+        "end": 2.794,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.047,
+        "end": 3.241,
+        "gloss_id": "지식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.479,
+        "end": 3.913,
+        "gloss_id": "부족1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.109,
+        "end": 4.26,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.444,
+        "end": 4.704,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.899,
+        "end": 4.999,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.227,
+        "end": 5.559,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.826,
+        "end": 6.144,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.447,
+        "end": 2.794,
+        "loc": "0",
+        "word": "경제"
+      },
+      {
+        "start": 3.479,
+        "end": 3.913,
+        "loc": "2",
+        "word": "부족하면"
+      },
+      {
+        "start": 4.899,
+        "end": 4.999,
+        "loc": "4",
+        "word": "주식에"
+      },
+      {
+        "start": 4.109,
+        "end": 4.697,
+        "loc": "3",
+        "word": "고수익의"
+      },
+      {
+        "start": 5.227,
+        "end": 5.559,
+        "loc": "5",
+        "word": "투자하더라도"
+      },
+      {
+        "start": 5.826,
+        "end": 6.144,
+        "loc": "6,7",
+        "word": "손해를 봅니다."
+      },
+      {
+        "start": 3.047,
+        "end": 3.241,
+        "loc": "1",
+        "word": "지식이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.447,
+        "end": 2.794,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.899,
+        "end": 4.999,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.479,
+        "end": 3.913
+      },
+      {
+        "descriptor": "",
+        "start": 5.227,
+        "end": 5.559
+      },
+      {
+        "descriptor": "",
+        "start": 5.826,
+        "end": 6.144
+      },
+      {
+        "descriptor": "",
+        "start": 4.444,
+        "end": 4.704
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.447,
+        "end": 3.907
+      },
+      {
+        "descriptor": "",
+        "start": 5.826,
+        "end": 6.144
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.447,
+        "end": 3.907
+      },
+      {
+        "descriptor": "",
+        "start": 4.899,
+        "end": 4.999
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335910",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:45:58",
+    "sentence_ID": "VXPAKOKS240335910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    262,
+    126
+  ],
+  "file": "VXPAKOKS240335910.mp4",
+  "saved_as": "VXPAKOKS240335910-경제지식이부족하면고수익의주식에투자하더라도손해를봅니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

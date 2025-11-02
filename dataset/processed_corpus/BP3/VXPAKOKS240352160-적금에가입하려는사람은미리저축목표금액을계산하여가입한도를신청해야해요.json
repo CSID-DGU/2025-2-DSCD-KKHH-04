@@ -1,0 +1,418 @@
+{
+  "id": "VXPAKOKS240352160",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금에 가입하려는 사람은 미리 저축 목표 금액을 계산하여 가입 한도를 신청해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.46,
+        "end": 1.636,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.795,
+        "end": 2.095,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.256,
+        "end": 2.487,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.702,
+        "end": 2.894,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.157,
+        "end": 3.364,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.608,
+        "end": 3.815,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.099,
+        "end": 4.414,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.64,
+        "end": 4.816,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.043,
+        "end": 5.35,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.601,
+        "end": 6.255,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.562,
+        "end": 6.846,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.944,
+        "end": 7.021,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.139,
+        "end": 7.308,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.479,
+        "end": 7.624,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.783,
+        "end": 8.044,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.46,
+        "end": 2.083,
+        "loc": "0",
+        "word": "적금에"
+      },
+      {
+        "start": 2.256,
+        "end": 2.887,
+        "loc": "1",
+        "word": "가입하려는"
+      },
+      {
+        "start": 3.157,
+        "end": 3.364,
+        "loc": "2",
+        "word": "사람은"
+      },
+      {
+        "start": 3.608,
+        "end": 3.815,
+        "loc": "3",
+        "word": "미리"
+      },
+      {
+        "start": 5.043,
+        "end": 5.358,
+        "loc": "5",
+        "word": "목표"
+      },
+      {
+        "start": 4.099,
+        "end": 4.414,
+        "loc": "4",
+        "word": "저축"
+      },
+      {
+        "start": 4.64,
+        "end": 4.816,
+        "loc": "6",
+        "word": "금액을"
+      },
+      {
+        "start": 5.601,
+        "end": 6.255,
+        "loc": "7",
+        "word": "계산하여"
+      },
+      {
+        "start": 6.562,
+        "end": 6.846,
+        "loc": "8",
+        "word": "가입"
+      },
+      {
+        "start": 6.944,
+        "end": 7.314,
+        "loc": "9",
+        "word": "한도를"
+      },
+      {
+        "start": 7.479,
+        "end": 8.055,
+        "loc": "10,11",
+        "word": "신청해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.795,
+        "end": 2.094,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.256,
+        "end": 2.894,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.157,
+        "end": 3.364,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.608,
+        "end": 3.815,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.099,
+        "end": 4.414,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.043,
+        "end": 5.358,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.601,
+        "end": 6.255,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.562,
+        "end": 6.846,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.139,
+        "end": 7.307,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.479,
+        "end": 7.624,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.783,
+        "end": 8.044,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.702,
+        "end": 2.894
+      },
+      {
+        "descriptor": "",
+        "start": 3.157,
+        "end": 3.364
+      },
+      {
+        "descriptor": "",
+        "start": 7.783,
+        "end": 8.044
+      },
+      {
+        "descriptor": "",
+        "start": 1.46,
+        "end": 1.636
+      },
+      {
+        "descriptor": "",
+        "start": 7.139,
+        "end": 7.308
+      },
+      {
+        "descriptor": "",
+        "start": 6.562,
+        "end": 6.846
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.608,
+        "end": 3.815
+      },
+      {
+        "descriptor": "",
+        "start": 7.479,
+        "end": 8.063
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.702,
+        "end": 3.364
+      },
+      {
+        "descriptor": "",
+        "start": 6.562,
+        "end": 7.223
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352160",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:50:47",
+    "sentence_ID": "VXPAKOKS240352160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    277,
+    126
+  ],
+  "file": "VXPAKOKS240352160.mp4",
+  "saved_as": "VXPAKOKS240352160-적금에가입하려는사람은미리저축목표금액을계산하여가입한도를신청해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,309 @@
+{
+  "id": "VXPAKOKS240329370",
+  "opertor": "label24",
+  "krlgg_sntenc": {
+    "koreanText": "자산 관리 초보자가 좋아하는 저축 상품은 이자율이 높은 예금입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.401,
+        "end": 1.521,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.707,
+        "end": 2.207,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.27,
+        "end": 2.692,
+        "gloss_id": "서투르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.812,
+        "end": 3.183,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.46,
+        "end": 3.837,
+        "gloss_id": "인기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.981,
+        "end": 4.481,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.749,
+        "end": 4.907,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.055,
+        "end": 5.413,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.52,
+        "end": 6.162,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.265,
+        "end": 6.475,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.587,
+        "end": 6.881,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.401,
+        "end": 1.521,
+        "loc": "0",
+        "word": "자산"
+      },
+      {
+        "start": 1.707,
+        "end": 2.207,
+        "loc": "1",
+        "word": "관리"
+      },
+      {
+        "start": 2.27,
+        "end": 3.181,
+        "loc": "2",
+        "word": "초보자가"
+      },
+      {
+        "start": 3.46,
+        "end": 4.481,
+        "loc": "3,4,5",
+        "word": "좋아하는 저축 상품은"
+      },
+      {
+        "start": 5.522,
+        "end": 6.466,
+        "loc": "6",
+        "word": "이자율이"
+      },
+      {
+        "start": 4.749,
+        "end": 5.403,
+        "loc": "8",
+        "word": "예금입니다."
+      },
+      {
+        "start": 6.587,
+        "end": 6.881,
+        "loc": "7",
+        "word": "높은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 6.265,
+        "end": 6.468,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.27,
+        "end": 2.692,
+        "gloss_id": "서투르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.812,
+        "end": 3.183,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.055,
+        "end": 6.154,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.812,
+        "end": 3.183
+      },
+      {
+        "descriptor": "",
+        "start": 3.46,
+        "end": 3.837
+      },
+      {
+        "descriptor": "",
+        "start": 3.981,
+        "end": 4.481
+      },
+      {
+        "descriptor": "",
+        "start": 6.265,
+        "end": 6.475
+      },
+      {
+        "descriptor": "",
+        "start": 6.587,
+        "end": 6.881
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.707,
+        "end": 2.69
+      },
+      {
+        "descriptor": "",
+        "start": 3.46,
+        "end": 3.837
+      },
+      {
+        "descriptor": "",
+        "start": 6.587,
+        "end": 6.881
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.055,
+        "end": 6.16
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.812,
+        "end": 3.183
+      },
+      {
+        "descriptor": "",
+        "start": 3.46,
+        "end": 4.475
+      },
+      {
+        "descriptor": "",
+        "start": 6.265,
+        "end": 6.475
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329370",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:07:17",
+    "sentence_ID": "VXPAKOKS240329370",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240329370.mp4",
+  "saved_as": "VXPAKOKS240329370-자산관리초보자가좋아하는저축상품은이자율이높은예금입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

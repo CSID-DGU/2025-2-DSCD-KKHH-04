@@ -1,0 +1,248 @@
+{
+  "id": "VXPAKOKS240327540",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드의 총한도를 천만 원에서 2천만 원으로 높이고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.158,
+        "end": 3.325,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.529,
+        "end": 3.732,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.92,
+        "end": 4.056,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.177,
+        "end": 4.308,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.454,
+        "end": 4.897,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.748,
+        "end": 6.12,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.326,
+        "end": 6.478,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.582,
+        "end": 6.918,
+        "gloss_id": "20000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.158,
+        "end": 3.74,
+        "loc": "0",
+        "word": "신용카드의"
+      },
+      {
+        "start": 3.92,
+        "end": 4.911,
+        "loc": "1",
+        "word": "총한도를"
+      },
+      {
+        "start": 5.135,
+        "end": 5.471,
+        "loc": "2,3",
+        "word": "천만 원에서"
+      },
+      {
+        "start": 5.748,
+        "end": 6.458,
+        "loc": "6,7",
+        "word": "높이고 싶어요."
+      },
+      {
+        "start": 6.582,
+        "end": 6.918,
+        "loc": "4,5",
+        "word": "2천만 원으로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.158,
+        "end": 3.735,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.177,
+        "end": 4.308,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.454,
+        "end": 4.897,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.135,
+        "end": 6.916,
+        "gloss_id": "10000000",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "이천만",
+        "start": 6.582,
+        "end": 6.91
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.582,
+        "end": 6.918
+      },
+      {
+        "descriptor": "",
+        "start": 3.529,
+        "end": 3.732
+      },
+      {
+        "descriptor": "",
+        "start": 4.454,
+        "end": 4.897
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 5.495,
+        "end": 5.739
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.135,
+        "end": 5.742
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.158,
+        "end": 3.729
+      },
+      {
+        "descriptor": "",
+        "start": 3.92,
+        "end": 4.88
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327540",
+  "potogrf": {
+    "createdTime": "2024-07-19 02:54:44",
+    "sentence_ID": "VXPAKOKS240327540",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240327540.mp4",
+  "saved_as": "VXPAKOKS240327540-신용카드의총한도를천만원에서2천만원으로높이고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

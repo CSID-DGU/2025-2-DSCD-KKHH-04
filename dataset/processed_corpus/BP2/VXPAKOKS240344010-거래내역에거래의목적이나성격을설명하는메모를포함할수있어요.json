@@ -1,0 +1,279 @@
+{
+  "id": "VXPAKOKS240344010",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "거래 내역에 거래의 목적이나 성격을 설명하는 메모를 포함할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.769,
+        "end": 1.924,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.958,
+        "end": 2.023,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.214,
+        "end": 2.707,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.078,
+        "end": 3.37,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.409,
+        "end": 3.519,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.881,
+        "end": 4.212,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.739,
+        "end": 5.141,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.496,
+        "end": 5.736,
+        "gloss_id": "기록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.869,
+        "end": 6.05,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.769,
+        "end": 2.028,
+        "loc": "0",
+        "word": "거래"
+      },
+      {
+        "start": 2.214,
+        "end": 2.707,
+        "loc": "1",
+        "word": "내역에"
+      },
+      {
+        "start": 3.078,
+        "end": 3.539,
+        "loc": "2",
+        "word": "거래의"
+      },
+      {
+        "start": 3.881,
+        "end": 4.212,
+        "loc": "3",
+        "word": "목적이나"
+      },
+      {
+        "start": 4.739,
+        "end": 5.141,
+        "loc": "4,5",
+        "word": "성격을 설명하는"
+      },
+      {
+        "start": 5.496,
+        "end": 6.048,
+        "loc": "6,7,8,9",
+        "word": "메모를 포함할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.769,
+        "end": 2.028,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.214,
+        "end": 2.707,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.078,
+        "end": 3.526,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.881,
+        "end": 4.212,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.739,
+        "end": 5.141,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.496,
+        "end": 6.055,
+        "gloss_id": "기록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.214,
+        "end": 2.707
+      },
+      {
+        "descriptor": "",
+        "start": 3.881,
+        "end": 4.212
+      },
+      {
+        "descriptor": "",
+        "start": 4.739,
+        "end": 5.141
+      },
+      {
+        "descriptor": "",
+        "start": 5.869,
+        "end": 6.05
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.869,
+        "end": 6.05
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.769,
+        "end": 2.692
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.214,
+        "end": 2.707
+      },
+      {
+        "descriptor": "",
+        "start": 3.881,
+        "end": 5.149
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344010",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:56:04",
+    "sentence_ID": "VXPAKOKS240344010",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    234,
+    126
+  ],
+  "file": "VXPAKOKS240344010.mp4",
+  "saved_as": "VXPAKOKS240344010-거래내역에거래의목적이나성격을설명하는메모를포함할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,320 @@
+{
+  "id": "VXPAKOKS240337410",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "투자자 사이에서는 6개월보다 짧은 기간 동안 이자를 받길 원하는 수요도 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.12,
+        "end": 3.414,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.701,
+        "end": 4.289,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.638,
+        "end": 4.922,
+        "gloss_id": "날짜(활용):6개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.202,
+        "end": 5.456,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.682,
+        "end": 6.084,
+        "gloss_id": "더1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.251,
+        "end": 6.398,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.623,
+        "end": 6.995,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.212,
+        "end": 7.535,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.77,
+        "end": 8.025,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.252,
+        "end": 8.566,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.799,
+        "end": 9.319,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.566,
+        "end": 9.713,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.12,
+        "end": 4.296,
+        "loc": "0,1",
+        "word": "투자자 사이에서는"
+      },
+      {
+        "start": 5.682,
+        "end": 6.996,
+        "loc": "3,4,5",
+        "word": "짧은 기간 동안"
+      },
+      {
+        "start": 7.212,
+        "end": 7.535,
+        "loc": "6",
+        "word": "이자를"
+      },
+      {
+        "start": 7.77,
+        "end": 8.025,
+        "loc": "7",
+        "word": "받길"
+      },
+      {
+        "start": 8.252,
+        "end": 8.566,
+        "loc": "8",
+        "word": "원하는"
+      },
+      {
+        "start": 8.799,
+        "end": 9.319,
+        "loc": "9",
+        "word": "수요도"
+      },
+      {
+        "start": 9.566,
+        "end": 9.713,
+        "loc": "10",
+        "word": "있습니다."
+      },
+      {
+        "start": 4.638,
+        "end": 5.451,
+        "loc": "2",
+        "word": "6개월보다"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.701,
+        "end": 4.289,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.202,
+        "end": 5.456,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.682,
+        "end": 6.084,
+        "gloss_id": "더1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.251,
+        "end": 6.398,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.623,
+        "end": 6.995,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "육 개월",
+        "start": 4.638,
+        "end": 4.922
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.566,
+        "end": 9.713
+      },
+      {
+        "descriptor": "",
+        "start": 3.701,
+        "end": 4.289
+      },
+      {
+        "descriptor": "",
+        "start": 8.252,
+        "end": 8.566
+      },
+      {
+        "descriptor": "",
+        "start": 8.831,
+        "end": 9.319
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.623,
+        "end": 6.995
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.638,
+        "end": 5.454
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.405,
+        "end": 8.552
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.987,
+        "end": 8.566
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337410",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:36:49",
+    "sentence_ID": "VXPAKOKS240337410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    353,
+    126
+  ],
+  "file": "VXPAKOKS240337410.mp4",
+  "saved_as": "VXPAKOKS240337410-투자자사이에서는6개월보다짧은기간동안이자를받길원하는수요도있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

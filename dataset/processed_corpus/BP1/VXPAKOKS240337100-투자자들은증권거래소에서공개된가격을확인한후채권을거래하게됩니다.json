@@ -1,0 +1,331 @@
+{
+  "id": "VXPAKOKS240337100",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "투자자들은 증권 거래소에서 공개된 가격을 확인한 후 채권을 거래하게 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.076,
+        "end": 2.241,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.479,
+        "end": 2.777,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.883,
+        "end": 3.641,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.837,
+        "end": 3.967,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.165,
+        "end": 4.324,
+        "gloss_id": "바꾸다5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.608,
+        "end": 4.942,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.286,
+        "end": 5.563,
+        "gloss_id": "공공1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.725,
+        "end": 5.953,
+        "gloss_id": "발표1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.115,
+        "end": 6.469,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.727,
+        "end": 7.429,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.585,
+        "end": 7.674,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.814,
+        "end": 8.049,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.273,
+        "end": 8.501,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.726,
+        "end": 9.093,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.286,
+        "end": 5.958,
+        "loc": "3",
+        "word": "공개된"
+      },
+      {
+        "start": 6.115,
+        "end": 6.469,
+        "loc": "4",
+        "word": "가격을"
+      },
+      {
+        "start": 6.727,
+        "end": 7.429,
+        "loc": "5,6",
+        "word": "확인한 후"
+      },
+      {
+        "start": 7.59,
+        "end": 8.501,
+        "loc": "7",
+        "word": "채권을"
+      },
+      {
+        "start": 8.726,
+        "end": 9.093,
+        "loc": "8,9",
+        "word": "거래하게 됩니다."
+      },
+      {
+        "start": 3.837,
+        "end": 4.947,
+        "loc": "1,2",
+        "word": "증권 거래소에서"
+      },
+      {
+        "start": 2.076,
+        "end": 3.641,
+        "loc": "0",
+        "word": "투자자들은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.479,
+        "end": 2.777,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.837,
+        "end": 3.968,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.165,
+        "end": 4.943,
+        "gloss_id": "바꾸다5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.286,
+        "end": 5.563,
+        "gloss_id": "공공1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.725,
+        "end": 6.469,
+        "gloss_id": "발표1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.273,
+        "end": 8.501,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.726,
+        "end": 9.093,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.883,
+        "end": 3.641
+      },
+      {
+        "descriptor": "",
+        "start": 4.527,
+        "end": 4.942
+      },
+      {
+        "descriptor": "",
+        "start": 6.727,
+        "end": 7.429
+      },
+      {
+        "descriptor": "",
+        "start": 8.828,
+        "end": 9.093
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.076,
+        "end": 4.908
+      },
+      {
+        "descriptor": "",
+        "start": 6.115,
+        "end": 7.415
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337100",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:33:58",
+    "sentence_ID": "VXPAKOKS240337100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    351,
+    126
+  ],
+  "file": "VXPAKOKS240337100.mp4",
+  "saved_as": "VXPAKOKS240337100-투자자들은증권거래소에서공개된가격을확인한후채권을거래하게됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

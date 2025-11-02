@@ -1,0 +1,336 @@
+{
+  "id": "VXPAKOKS240338900",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 수요가 가격이 상승하면, 투자자들이 더 높은 수익률을 위해 비싼 채권이라도 구매합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.566,
+        "end": 1.628,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.831,
+        "end": 1.978,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.214,
+        "end": 2.674,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.887,
+        "end": 3.386,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.653,
+        "end": 3.901,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.028,
+        "end": 4.473,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.756,
+        "end": 4.926,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.507,
+        "end": 5.73,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.109,
+        "end": 6.616,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.059,
+        "end": 7.456,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.803,
+        "end": 7.996,
+        "gloss_id": "비싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.226,
+        "end": 8.466,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.076,
+        "end": 5.364,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.028,
+        "end": 4.473,
+        "loc": "3",
+        "word": "상승하면,"
+      },
+      {
+        "start": 7.059,
+        "end": 7.991,
+        "loc": "9,10",
+        "word": "비싼 채권이라도"
+      },
+      {
+        "start": 8.226,
+        "end": 8.466,
+        "loc": "11",
+        "word": "구매합니다."
+      },
+      {
+        "start": 3.653,
+        "end": 3.901,
+        "loc": "2",
+        "word": "가격이"
+      },
+      {
+        "start": 1.566,
+        "end": 2.673,
+        "loc": "0,1",
+        "word": "채권의 수요가"
+      },
+      {
+        "start": 2.887,
+        "end": 3.386,
+        "loc": "4",
+        "word": "투자자들이"
+      },
+      {
+        "start": 4.756,
+        "end": 5.35,
+        "loc": "7",
+        "word": "수익률을"
+      },
+      {
+        "start": 6.109,
+        "end": 6.616,
+        "loc": "8",
+        "word": "위해"
+      },
+      {
+        "start": 5.507,
+        "end": 5.73,
+        "loc": "5,6",
+        "word": "더 높은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 6.109,
+        "end": 6.616,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.803,
+        "end": 7.996,
+        "gloss_id": "비싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.226,
+        "end": 8.465,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.214,
+        "end": 2.674,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.109,
+        "end": 6.616
+      },
+      {
+        "descriptor": "",
+        "start": 2.214,
+        "end": 2.674
+      },
+      {
+        "descriptor": "",
+        "start": 3.653,
+        "end": 3.901
+      },
+      {
+        "descriptor": "",
+        "start": 7.803,
+        "end": 7.996
+      },
+      {
+        "descriptor": "",
+        "start": 7.059,
+        "end": 7.456
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.028,
+        "end": 5.597
+      },
+      {
+        "descriptor": "",
+        "start": 7.059,
+        "end": 8.462
+      },
+      {
+        "descriptor": "",
+        "start": 2.887,
+        "end": 3.386
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.059,
+        "end": 7.456
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.56,
+        "end": 2.643
+      },
+      {
+        "descriptor": "",
+        "start": 5.162,
+        "end": 6.597
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338900",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:48:30",
+    "sentence_ID": "VXPAKOKS240338900",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    283,
+    126
+  ],
+  "file": "VXPAKOKS240338900.mp4",
+  "saved_as": "VXPAKOKS240338900-채권의수요가가격이상승하면,투자자들이더높은수익률을위해비싼채권이라도구매합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

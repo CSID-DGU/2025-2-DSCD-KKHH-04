@@ -1,0 +1,314 @@
+{
+  "id": "VXPAKOKS240351780",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "해지한 적금 금액을 다른 금융 상품에 자동으로 투자해 주는 서비스가 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.49,
+        "end": 3.022,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.258,
+        "end": 3.395,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.514,
+        "end": 3.651,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.849,
+        "end": 4.515,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.709,
+        "end": 5.004,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.251,
+        "end": 5.427,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.636,
+        "end": 6.041,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.296,
+        "end": 6.52,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.7,
+        "end": 7.058,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.254,
+        "end": 7.462,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.651,
+        "end": 7.89,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.49,
+        "end": 3.022,
+        "loc": "0",
+        "word": "해지한"
+      },
+      {
+        "start": 3.258,
+        "end": 3.656,
+        "loc": "1",
+        "word": "적금"
+      },
+      {
+        "start": 3.849,
+        "end": 4.515,
+        "loc": "2",
+        "word": "금액을"
+      },
+      {
+        "start": 4.709,
+        "end": 5.004,
+        "loc": "3",
+        "word": "다른"
+      },
+      {
+        "start": 5.251,
+        "end": 5.427,
+        "loc": "4",
+        "word": "금융"
+      },
+      {
+        "start": 5.636,
+        "end": 6.041,
+        "loc": "5",
+        "word": "상품에"
+      },
+      {
+        "start": 6.296,
+        "end": 6.52,
+        "loc": "6",
+        "word": "자동으로"
+      },
+      {
+        "start": 6.7,
+        "end": 7.058,
+        "loc": "7,8",
+        "word": "투자해 주는"
+      },
+      {
+        "start": 7.254,
+        "end": 7.462,
+        "loc": "9",
+        "word": "서비스가"
+      },
+      {
+        "start": 7.651,
+        "end": 7.89,
+        "loc": "10",
+        "word": "있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.49,
+        "end": 3.022,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.514,
+        "end": 4.527,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.709,
+        "end": 5.004,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.251,
+        "end": 5.427,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.636,
+        "end": 6.041,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.296,
+        "end": 6.52,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.254,
+        "end": 7.872,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.651,
+        "end": 7.89
+      },
+      {
+        "descriptor": "",
+        "start": 2.49,
+        "end": 3.022
+      },
+      {
+        "descriptor": "",
+        "start": 4.134,
+        "end": 4.634
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.651,
+        "end": 7.89
+      },
+      {
+        "descriptor": "",
+        "start": 2.49,
+        "end": 4.127
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351780",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:47:48",
+    "sentence_ID": "VXPAKOKS240351780",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    284,
+    126
+  ],
+  "file": "VXPAKOKS240351780.mp4",
+  "saved_as": "VXPAKOKS240351780-해지한적금금액을다른금융상품에자동으로투자해주는서비스가있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

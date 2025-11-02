@@ -1,0 +1,279 @@
+{
+  "id": "VXPAKOKS240328930",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "적금의 만기날짜가 지나면 은행에서 정한 이자를 받지 못해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.826,
+        "end": 1.969,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.29,
+        "end": 2.762,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.012,
+        "end": 3.204,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.355,
+        "end": 3.47,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.75,
+        "end": 4.992,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.339,
+        "end": 5.993,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.35,
+        "end": 6.605,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.8,
+        "end": 7.132,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.368,
+        "end": 7.623,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.826,
+        "end": 2.732,
+        "loc": "0",
+        "word": "적금의"
+      },
+      {
+        "start": 3.012,
+        "end": 4.989,
+        "loc": "1",
+        "word": "만기날짜가"
+      },
+      {
+        "start": 5.339,
+        "end": 5.993,
+        "loc": "2",
+        "word": "지나면"
+      },
+      {
+        "start": 6.35,
+        "end": 6.605,
+        "loc": "3,4,5",
+        "word": "은행에서 정한 이자를"
+      },
+      {
+        "start": 6.8,
+        "end": 7.132,
+        "loc": "6",
+        "word": "받지"
+      },
+      {
+        "start": 7.368,
+        "end": 7.623,
+        "loc": "7",
+        "word": "못해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.826,
+        "end": 1.969,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.29,
+        "end": 2.762,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.012,
+        "end": 3.204,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.355,
+        "end": 3.47,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.75,
+        "end": 4.992,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.339,
+        "end": 5.993,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.29,
+        "end": 2.762
+      },
+      {
+        "descriptor": "",
+        "start": 3.75,
+        "end": 4.418
+      },
+      {
+        "descriptor": "",
+        "start": 5.339,
+        "end": 5.993
+      },
+      {
+        "descriptor": "",
+        "start": 7.368,
+        "end": 7.623
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.003,
+        "end": 4.965
+      },
+      {
+        "descriptor": "",
+        "start": 5.385,
+        "end": 6.011
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.339,
+        "end": 5.993
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.012,
+        "end": 4.401
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328930",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:39:27",
+    "sentence_ID": "VXPAKOKS240328930",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    252,
+    126
+  ],
+  "file": "VXPAKOKS240328930.mp4",
+  "saved_as": "VXPAKOKS240328930-적금의만기날짜가지나면은행에서정한이자를받지못해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

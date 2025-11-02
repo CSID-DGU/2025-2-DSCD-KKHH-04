@@ -1,0 +1,252 @@
+{
+  "id": "VXPAKOKS240327610",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "이자로 인해 더빚을 지게 되면 신용점수가 떨어지는 문제가 발생해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.435,
+        "end": 1.832,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.199,
+        "end": 2.663,
+        "gloss_id": "방해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.003,
+        "end": 3.485,
+        "gloss_id": "빨강2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.821,
+        "end": 3.976,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.253,
+        "end": 4.42,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.644,
+        "end": 4.98,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.225,
+        "end": 5.532,
+        "gloss_id": "마이너스1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.845,
+        "end": 6.158,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.435,
+        "end": 1.832,
+        "loc": "0",
+        "word": "이자로"
+      },
+      {
+        "start": 2.199,
+        "end": 2.663,
+        "loc": "1",
+        "word": "인해"
+      },
+      {
+        "start": 3.003,
+        "end": 3.485,
+        "loc": "2,3",
+        "word": "더빚을 지게"
+      },
+      {
+        "start": 3.821,
+        "end": 3.976,
+        "loc": "4",
+        "word": "되면"
+      },
+      {
+        "start": 4.253,
+        "end": 4.971,
+        "loc": "5",
+        "word": "신용점수가"
+      },
+      {
+        "start": 5.225,
+        "end": 5.532,
+        "loc": "6",
+        "word": "떨어지는"
+      },
+      {
+        "start": 5.845,
+        "end": 6.158,
+        "loc": "7,8",
+        "word": "문제가 발생해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.821,
+        "end": 3.976,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.253,
+        "end": 4.42,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.845,
+        "end": 6.158,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.845,
+        "end": 6.158
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.821,
+        "end": 3.976
+      },
+      {
+        "descriptor": "",
+        "start": 2.349,
+        "end": 2.661
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.199,
+        "end": 3.492
+      },
+      {
+        "descriptor": "",
+        "start": 4.644,
+        "end": 6.155
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.225,
+        "end": 5.532
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.435,
+        "end": 1.832
+      },
+      {
+        "descriptor": "",
+        "start": 4.253,
+        "end": 4.42
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327610",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:19:03",
+    "sentence_ID": "VXPAKOKS240327610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    218,
+    126
+  ],
+  "file": "VXPAKOKS240327610.mp4",
+  "saved_as": "VXPAKOKS240327610-이자로인해더빚을지게되면신용점수가떨어지는문제가발생해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

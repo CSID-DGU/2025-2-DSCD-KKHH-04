@@ -1,0 +1,388 @@
+{
+  "id": "VXPAKOKS240337240",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "만기일은 채권이 발행될 때 정해지며, 투자자는 만기일을 참고하여 투자를 결정합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.147,
+        "end": 2.251,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.414,
+        "end": 2.551,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.587,
+        "end": 4.263,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.608,
+        "end": 5.274,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.507,
+        "end": 5.789,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.057,
+        "end": 6.225,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.49,
+        "end": 7.052,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.251,
+        "end": 7.43,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.661,
+        "end": 8.057,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.372,
+        "end": 8.54,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.723,
+        "end": 9.099,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.312,
+        "end": 9.729,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.004,
+        "end": 10.317,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 10.524,
+        "end": 10.744,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.833,
+        "end": 3.312,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.178,
+        "end": 3.308,
+        "loc": "1",
+        "word": "채권이"
+      },
+      {
+        "start": 7.251,
+        "end": 8.062,
+        "loc": "5",
+        "word": "투자자는"
+      },
+      {
+        "start": 8.372,
+        "end": 9.11,
+        "loc": "6",
+        "word": "만기일을"
+      },
+      {
+        "start": 9.312,
+        "end": 9.729,
+        "loc": "7",
+        "word": "참고하여"
+      },
+      {
+        "start": 10.524,
+        "end": 10.744,
+        "loc": "9",
+        "word": "결정합니다."
+      },
+      {
+        "start": 10.004,
+        "end": 10.317,
+        "loc": "8",
+        "word": "투자를"
+      },
+      {
+        "start": 4.608,
+        "end": 6.227,
+        "loc": "0",
+        "word": "만기일은"
+      },
+      {
+        "start": 6.49,
+        "end": 7.052,
+        "loc": "4",
+        "word": "정해지며,"
+      },
+      {
+        "start": 3.587,
+        "end": 4.263,
+        "loc": "2,3",
+        "word": "발행될 때"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.833,
+        "end": 3.302,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.608,
+        "end": 5.274,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.507,
+        "end": 5.789,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.057,
+        "end": 6.225,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.49,
+        "end": 7.052,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.661,
+        "end": 8.057,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.372,
+        "end": 8.54,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.723,
+        "end": 9.099,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.833,
+        "end": 3.302
+      },
+      {
+        "descriptor": "",
+        "start": 3.587,
+        "end": 4.263
+      },
+      {
+        "descriptor": "",
+        "start": 6.48,
+        "end": 7.052
+      },
+      {
+        "descriptor": "",
+        "start": 7.661,
+        "end": 8.057
+      },
+      {
+        "descriptor": "",
+        "start": 8.723,
+        "end": 9.099
+      },
+      {
+        "descriptor": "",
+        "start": 9.405,
+        "end": 9.729
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 10.524,
+        "end": 10.744
+      },
+      {
+        "descriptor": "",
+        "start": 3.763,
+        "end": 4.263
+      },
+      {
+        "descriptor": "",
+        "start": 8.372,
+        "end": 8.54
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.556,
+        "end": 3.305
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.833,
+        "end": 7.062
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337240",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:35:54",
+    "sentence_ID": "VXPAKOKS240337240",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    373,
+    126
+  ],
+  "file": "VXPAKOKS240337240.mp4",
+  "saved_as": "VXPAKOKS240337240-만기일은채권이발행될때정해지며,투자자는만기일을참고하여투자를결정합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

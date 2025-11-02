@@ -1,0 +1,288 @@
+{
+  "id": "VXPAKOKS240341400",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "자본금 규모가 큰 회사의 주식형 펀드는 투자자에게 안정적인 투자 수익을 제공합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.41,
+        "end": 1.977,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.163,
+        "end": 2.389,
+        "gloss_id": "크다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.59,
+        "end": 3.035,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.324,
+        "end": 3.446,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.629,
+        "end": 3.757,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.957,
+        "end": 4.621,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.956,
+        "end": 5.072,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.325,
+        "end": 5.533,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.7,
+        "end": 5.987,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.193,
+        "end": 6.401,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.41,
+        "end": 1.977,
+        "loc": "0",
+        "word": "자본금"
+      },
+      {
+        "start": 2.163,
+        "end": 2.389,
+        "loc": "1,2",
+        "word": "규모가 큰"
+      },
+      {
+        "start": 2.59,
+        "end": 3.035,
+        "loc": "3",
+        "word": "회사의"
+      },
+      {
+        "start": 3.324,
+        "end": 3.75,
+        "loc": "4",
+        "word": "주식형"
+      },
+      {
+        "start": 3.957,
+        "end": 4.621,
+        "loc": "5",
+        "word": "펀드는"
+      },
+      {
+        "start": 4.956,
+        "end": 5.547,
+        "loc": "6",
+        "word": "투자자에게"
+      },
+      {
+        "start": 5.7,
+        "end": 5.987,
+        "loc": "7,8,9",
+        "word": "안정적인 투자 수익을"
+      },
+      {
+        "start": 6.193,
+        "end": 6.401,
+        "loc": "10",
+        "word": "제공합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.41,
+        "end": 1.977,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.59,
+        "end": 3.035,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.324,
+        "end": 3.446,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.629,
+        "end": 3.757,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.325,
+        "end": 5.533,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.41,
+        "end": 1.977
+      },
+      {
+        "descriptor": "",
+        "start": 2.59,
+        "end": 3.035
+      },
+      {
+        "descriptor": "",
+        "start": 3.957,
+        "end": 4.621
+      },
+      {
+        "descriptor": "",
+        "start": 6.193,
+        "end": 6.401
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.193,
+        "end": 6.401
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.41,
+        "end": 1.977
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.163,
+        "end": 4.581
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341400",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:13:26",
+    "sentence_ID": "VXPAKOKS240341400",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    219,
+    126
+  ],
+  "file": "VXPAKOKS240341400.mp4",
+  "saved_as": "VXPAKOKS240341400-자본금규모가큰회사의주식형펀드는투자자에게안정적인투자수익을제공합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

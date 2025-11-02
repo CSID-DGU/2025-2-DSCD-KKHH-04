@@ -1,0 +1,288 @@
+{
+  "id": "VXPAKOKS240336250",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "개인 투자자들은 이자를 받고 돈을 현명하게 관리하기 위해 채권에 투자합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.041,
+        "end": 2.414,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.63,
+        "end": 2.844,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.106,
+        "end": 3.487,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.694,
+        "end": 3.932,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.258,
+        "end": 4.512,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.774,
+        "end": 4.932,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.195,
+        "end": 5.711,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.942,
+        "end": 6.061,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.284,
+        "end": 6.458,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.657,
+        "end": 7.213,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.428,
+        "end": 7.745,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.946,
+        "end": 7.213,
+        "loc": "8",
+        "word": "채권에"
+      },
+      {
+        "start": 7.428,
+        "end": 7.745,
+        "loc": "9",
+        "word": "투자합니다."
+      },
+      {
+        "start": 2.041,
+        "end": 2.414,
+        "loc": "0",
+        "word": "개인"
+      },
+      {
+        "start": 2.63,
+        "end": 3.484,
+        "loc": "1",
+        "word": "투자자들은"
+      },
+      {
+        "start": 3.694,
+        "end": 3.932,
+        "loc": "2",
+        "word": "이자를"
+      },
+      {
+        "start": 4.258,
+        "end": 4.512,
+        "loc": "3",
+        "word": "받고"
+      },
+      {
+        "start": 4.774,
+        "end": 5.71,
+        "loc": "4,5,6,7",
+        "word": "돈을 현명하게 관리하기 위해"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.041,
+        "end": 2.414,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.106,
+        "end": 3.487,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.195,
+        "end": 5.711,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.657,
+        "end": 7.212,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.428,
+        "end": 7.745
+      },
+      {
+        "descriptor": "",
+        "start": 3.106,
+        "end": 3.487
+      },
+      {
+        "descriptor": "",
+        "start": 5.195,
+        "end": 5.711
+      },
+      {
+        "descriptor": "",
+        "start": 6.657,
+        "end": 7.213
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.314,
+        "end": 4.512
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.041,
+        "end": 3.482
+      },
+      {
+        "descriptor": "",
+        "start": 6.657,
+        "end": 7.213
+      },
+      {
+        "descriptor": "",
+        "start": 4.774,
+        "end": 5.726
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336250",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:28:45",
+    "sentence_ID": "VXPAKOKS240336250",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240336250.mp4",
+  "saved_as": "VXPAKOKS240336250-개인투자자들은이자를받고돈을현명하게관리하기위해채권에투자합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

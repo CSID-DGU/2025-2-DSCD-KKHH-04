@@ -1,0 +1,285 @@
+{
+  "id": "VXPAKOKS240338510",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "시장에 새롭게 발행되는 채권이 기존 채권보다 높은 이자를 제공할 때, 투자자들은 기존 채권을 팔아버립니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.756,
+        "end": 1.869,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.986,
+        "end": 2.052,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.189,
+        "end": 2.349,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.549,
+        "end": 2.936,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.228,
+        "end": 3.428,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.722,
+        "end": 3.975,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.228,
+        "end": 4.628,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.89,
+        "end": 5.063,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.318,
+        "end": 5.691,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.008,
+        "end": 6.228,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.511,
+        "end": 6.724,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.756,
+        "end": 1.869,
+        "loc": "1,2",
+        "word": "새롭게 발행되는"
+      },
+      {
+        "start": 1.986,
+        "end": 2.932,
+        "loc": "3",
+        "word": "채권이"
+      },
+      {
+        "start": 3.228,
+        "end": 3.428,
+        "loc": "7,8,9",
+        "word": "이자를 제공할 때,"
+      },
+      {
+        "start": 3.722,
+        "end": 3.975,
+        "loc": "6",
+        "word": "높은"
+      },
+      {
+        "start": 4.228,
+        "end": 6.235,
+        "loc": "10,11,12",
+        "word": "투자자들은 기존 채권을"
+      },
+      {
+        "start": 6.511,
+        "end": 6.724,
+        "loc": "13",
+        "word": "팔아버립니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.756,
+        "end": 1.869,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.89,
+        "end": 5.063,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.511,
+        "end": 6.724,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.549,
+        "end": 2.936,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.008,
+        "end": 6.228,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.451,
+        "end": 5.691
+      },
+      {
+        "descriptor": "",
+        "start": 1.756,
+        "end": 1.869
+      },
+      {
+        "descriptor": "",
+        "start": 3.722,
+        "end": 3.975
+      },
+      {
+        "descriptor": "",
+        "start": 6.511,
+        "end": 6.724
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.458,
+        "end": 5.691
+      },
+      {
+        "descriptor": "",
+        "start": 6.511,
+        "end": 6.724
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.756,
+        "end": 3.963
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338510",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:39:32",
+    "sentence_ID": "VXPAKOKS240338510",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    240,
+    126
+  ],
+  "file": "VXPAKOKS240338510.mp4",
+  "saved_as": "VXPAKOKS240338510-시장에새롭게발행되는채권이기존채권보다높은이자를제공할때,투자자들은기존채권을팔아버립니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

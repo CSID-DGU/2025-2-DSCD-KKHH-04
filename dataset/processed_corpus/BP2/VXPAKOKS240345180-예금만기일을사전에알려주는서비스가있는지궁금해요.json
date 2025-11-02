@@ -1,0 +1,262 @@
+{
+  "id": "VXPAKOKS240345180",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "예금 만기일을 사전에 알려주는 서비스가 있는지 궁금해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.872,
+        "end": 2.09,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.295,
+        "end": 2.87,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.33,
+        "end": 3.747,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.048,
+        "end": 4.184,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.415,
+        "end": 4.764,
+        "gloss_id": "알려주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.999,
+        "end": 5.19,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.374,
+        "end": 5.544,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.71,
+        "end": 5.908,
+        "gloss_id": "궁금하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.872,
+        "end": 2.09,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.295,
+        "end": 3.736,
+        "loc": "1",
+        "word": "만기일을"
+      },
+      {
+        "start": 4.048,
+        "end": 4.184,
+        "loc": "2",
+        "word": "사전에"
+      },
+      {
+        "start": 4.415,
+        "end": 4.764,
+        "loc": "3",
+        "word": "알려주는"
+      },
+      {
+        "start": 4.999,
+        "end": 5.19,
+        "loc": "4",
+        "word": "서비스가"
+      },
+      {
+        "start": 5.374,
+        "end": 5.544,
+        "loc": "5",
+        "word": "있는지"
+      },
+      {
+        "start": 5.71,
+        "end": 5.908,
+        "loc": "6",
+        "word": "궁금해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.295,
+        "end": 2.87,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.048,
+        "end": 4.184,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.999,
+        "end": 5.519,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.872,
+        "end": 2.09,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.33,
+        "end": 3.747,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.323,
+        "end": 3.747
+      },
+      {
+        "descriptor": "",
+        "start": 4.048,
+        "end": 4.184
+      },
+      {
+        "descriptor": "",
+        "start": 5.374,
+        "end": 5.544
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.71,
+        "end": 5.908
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.872,
+        "end": 2.859
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.323,
+        "end": 4.619
+      },
+      {
+        "descriptor": "",
+        "start": 5.374,
+        "end": 5.544
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345180",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:03:57",
+    "sentence_ID": "VXPAKOKS240345180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    247,
+    126
+  ],
+  "file": "VXPAKOKS240345180.mp4",
+  "saved_as": "VXPAKOKS240345180-예금만기일을사전에알려주는서비스가있는지궁금해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,235 @@
+{
+  "id": "VXPAKOKS240337360",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "제가 채권에 투자했다면 이자는 언제 받을 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.993,
+        "end": 2.099,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.267,
+        "end": 2.495,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.729,
+        "end": 3.193,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.448,
+        "end": 3.804,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.112,
+        "end": 4.519,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.795,
+        "end": 4.965,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.141,
+        "end": 5.412,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.614,
+        "end": 6.021,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.993,
+        "end": 3.188,
+        "loc": "0,1",
+        "word": "제가 채권에"
+      },
+      {
+        "start": 3.448,
+        "end": 4.525,
+        "loc": "2",
+        "word": "투자했다면"
+      },
+      {
+        "start": 4.795,
+        "end": 4.965,
+        "loc": "3",
+        "word": "이자는"
+      },
+      {
+        "start": 5.614,
+        "end": 6.021,
+        "loc": "4",
+        "word": "언제"
+      },
+      {
+        "start": 5.141,
+        "end": 5.412,
+        "loc": "5,6,7",
+        "word": "받을 수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.729,
+        "end": 3.193,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.112,
+        "end": 4.519,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.614,
+        "end": 6.021,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.614,
+        "end": 6.021
+      },
+      {
+        "descriptor": "",
+        "start": 2.729,
+        "end": 3.193
+      },
+      {
+        "descriptor": "",
+        "start": 4.289,
+        "end": 4.519
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.289,
+        "end": 4.519
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.795,
+        "end": 6.018
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.112,
+        "end": 4.275
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.112,
+        "end": 4.512
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337360",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:36:32",
+    "sentence_ID": "VXPAKOKS240337360",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240337360.mp4",
+  "saved_as": "VXPAKOKS240337360-제가채권에투자했다면이자는언제받을수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

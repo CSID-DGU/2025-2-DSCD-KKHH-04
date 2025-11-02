@@ -1,0 +1,295 @@
+{
+  "id": "VXPAKOKS240332520",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "필요한 경우 상환 기간을 조정하여 경제적 부담이 줄어듭니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.439,
+        "end": 2.845,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.161,
+        "end": 3.481,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.639,
+        "end": 3.747,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.966,
+        "end": 4.137,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.207,
+        "end": 4.48,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.802,
+        "end": 5.271,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.589,
+        "end": 5.783,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.973,
+        "end": 6.051,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.283,
+        "end": 6.485,
+        "gloss_id": "부담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.66,
+        "end": 7.113,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.439,
+        "end": 3.511,
+        "loc": "2",
+        "word": "상환"
+      },
+      {
+        "start": 3.639,
+        "end": 4.138,
+        "loc": "3",
+        "word": "기간을"
+      },
+      {
+        "start": 4.207,
+        "end": 4.48,
+        "loc": "4",
+        "word": "조정하여"
+      },
+      {
+        "start": 4.802,
+        "end": 5.788,
+        "loc": "0,1",
+        "word": "필요한 경우"
+      },
+      {
+        "start": 5.973,
+        "end": 6.051,
+        "loc": "5",
+        "word": "경제적"
+      },
+      {
+        "start": 6.283,
+        "end": 6.485,
+        "loc": "6",
+        "word": "부담이"
+      },
+      {
+        "start": 6.66,
+        "end": 7.113,
+        "loc": "7",
+        "word": "줄어듭니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.439,
+        "end": 2.845,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.161,
+        "end": 3.481,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.639,
+        "end": 3.747,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.966,
+        "end": 4.137,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.207,
+        "end": 4.48,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.802,
+        "end": 5.271,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.589,
+        "end": 5.783,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.66,
+        "end": 7.113,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.161,
+        "end": 3.481
+      },
+      {
+        "descriptor": "",
+        "start": 4.802,
+        "end": 5.271
+      },
+      {
+        "descriptor": "",
+        "start": 6.66,
+        "end": 7.113
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.589,
+        "end": 5.783
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.439,
+        "end": 5.281
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332520",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:27",
+    "sentence_ID": "VXPAKOKS240332520",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    282,
+    126
+  ],
+  "file": "VXPAKOKS240332520.mp4",
+  "saved_as": "VXPAKOKS240332520-필요한경우상환기간을조정하여경제적부담이줄어듭니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

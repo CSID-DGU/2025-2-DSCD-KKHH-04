@@ -1,0 +1,301 @@
+{
+  "id": "VXPAKOKS240327660",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 정보가 유출되면 개인 정보 도용이나 불법 거래에 악용될 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.633,
+        "end": 1.815,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.077,
+        "end": 2.316,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.673,
+        "end": 3.131,
+        "gloss_id": "숫자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.52,
+        "end": 3.846,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.181,
+        "end": 4.394,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.65,
+        "end": 4.98,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.346,
+        "end": 5.623,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.899,
+        "end": 6.217,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.427,
+        "end": 6.742,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.999,
+        "end": 7.272,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.633,
+        "end": 2.318,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 5.346,
+        "end": 5.623,
+        "loc": "5",
+        "word": "도용이나"
+      },
+      {
+        "start": 6.999,
+        "end": 7.272,
+        "loc": "8,10",
+        "word": "악용될 있어요."
+      },
+      {
+        "start": 5.899,
+        "end": 6.742,
+        "loc": "6,7",
+        "word": "불법 거래에"
+      },
+      {
+        "start": 4.181,
+        "end": 4.991,
+        "loc": "3,4",
+        "word": "개인 정보"
+      },
+      {
+        "start": 2.673,
+        "end": 3.131,
+        "loc": "1",
+        "word": "정보가"
+      },
+      {
+        "start": 3.52,
+        "end": 3.846,
+        "loc": "2",
+        "word": "유출되면"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.633,
+        "end": 2.318,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.52,
+        "end": 3.846,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.181,
+        "end": 4.394,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.65,
+        "end": 4.98,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.346,
+        "end": 5.623,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.899,
+        "end": 6.217,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.999,
+        "end": 7.272
+      },
+      {
+        "descriptor": "",
+        "start": 2.866,
+        "end": 3.116
+      },
+      {
+        "descriptor": "",
+        "start": 3.52,
+        "end": 3.846
+      },
+      {
+        "descriptor": "",
+        "start": 5.346,
+        "end": 5.623
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.52,
+        "end": 3.846
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.427,
+        "end": 6.742
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 6.427,
+        "end": 6.742
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.633,
+        "end": 3.838
+      },
+      {
+        "descriptor": "",
+        "start": 6.999,
+        "end": 7.272
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327660",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:19:54",
+    "sentence_ID": "VXPAKOKS240327660",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240327660.mp4",
+  "saved_as": "VXPAKOKS240327660-신용카드정보가유출되면개인정보도용이나불법거래에악용될수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

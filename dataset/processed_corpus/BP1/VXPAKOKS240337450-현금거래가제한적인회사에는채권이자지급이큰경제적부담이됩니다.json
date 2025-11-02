@@ -1,0 +1,313 @@
+{
+  "id": "VXPAKOKS240337450",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "현금 거래가 제한적인 회사에는 채권 이자 지급이 큰 경제적 부담이 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.624,
+        "end": 2.823,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.925,
+        "end": 2.995,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.279,
+        "end": 3.736,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.975,
+        "end": 4.191,
+        "gloss_id": "환기6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.626,
+        "end": 5.135,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.291,
+        "end": 5.379,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.566,
+        "end": 5.731,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.938,
+        "end": 6.223,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.416,
+        "end": 6.856,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.997,
+        "end": 7.109,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.31,
+        "end": 7.664,
+        "gloss_id": "부담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.893,
+        "end": 8.127,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.624,
+        "end": 2.823,
+        "loc": "3",
+        "word": "회사에는"
+      },
+      {
+        "start": 2.925,
+        "end": 3.725,
+        "loc": "0",
+        "word": "현금"
+      },
+      {
+        "start": 4.626,
+        "end": 5.135,
+        "loc": "2",
+        "word": "제한적인"
+      },
+      {
+        "start": 5.291,
+        "end": 6.221,
+        "loc": "4",
+        "word": "채권"
+      },
+      {
+        "start": 6.416,
+        "end": 6.856,
+        "loc": "5",
+        "word": "이자"
+      },
+      {
+        "start": 7.31,
+        "end": 7.664,
+        "loc": "8,9,10",
+        "word": "경제적 부담이 됩니다."
+      },
+      {
+        "start": 7.893,
+        "end": 8.127,
+        "loc": "7",
+        "word": "큰"
+      },
+      {
+        "start": 6.997,
+        "end": 7.109,
+        "loc": "6",
+        "word": "지급이"
+      },
+      {
+        "start": 3.975,
+        "end": 4.191,
+        "loc": "1",
+        "word": "거래가"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.624,
+        "end": 2.995,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.626,
+        "end": 5.135,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.938,
+        "end": 6.223,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.279,
+        "end": 3.736,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.975,
+        "end": 4.191,
+        "gloss_id": "환기6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.624,
+        "end": 2.823
+      },
+      {
+        "descriptor": "",
+        "start": 4.755,
+        "end": 5.135
+      },
+      {
+        "descriptor": "",
+        "start": 7.31,
+        "end": 7.664
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.975,
+        "end": 5.136
+      },
+      {
+        "descriptor": "",
+        "start": 6.416,
+        "end": 8.127
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.279,
+        "end": 3.736
+      },
+      {
+        "descriptor": "",
+        "start": 5.926,
+        "end": 6.856
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337450",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:38:48",
+    "sentence_ID": "VXPAKOKS240337450",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    309,
+    126
+  ],
+  "file": "VXPAKOKS240337450.mp4",
+  "saved_as": "VXPAKOKS240337450-현금거래가제한적인회사에는채권이자지급이큰경제적부담이됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

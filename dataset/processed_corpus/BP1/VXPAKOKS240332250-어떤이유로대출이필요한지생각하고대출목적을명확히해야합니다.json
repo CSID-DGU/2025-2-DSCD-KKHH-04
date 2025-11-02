@@ -1,0 +1,181 @@
+{
+  "id": "VXPAKOKS240332250",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "어떤 이유로 대출이 필요한지 생각하고 대출 목적을 명확히 해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.774,
+        "end": 2.025,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.225,
+        "end": 2.514,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.755,
+        "end": 3.081,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.3,
+        "end": 3.57,
+        "gloss_id": "무엇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.934,
+        "end": 4.265,
+        "gloss_id": "생각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.755,
+        "end": 3.081,
+        "loc": "3",
+        "word": "필요한지"
+      },
+      {
+        "start": 3.3,
+        "end": 3.57,
+        "loc": "0,1",
+        "word": "어떤 이유로"
+      },
+      {
+        "start": 1.774,
+        "end": 2.025,
+        "loc": "2",
+        "word": "대출이"
+      },
+      {
+        "start": 2.225,
+        "end": 2.514,
+        "loc": "5,6,7,8,9",
+        "word": "대출 목적을 명확히 해야 합니다."
+      },
+      {
+        "start": 3.934,
+        "end": 4.265,
+        "loc": "4",
+        "word": "생각하고"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.225,
+        "end": 2.514,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.755,
+        "end": 3.081,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.934,
+        "end": 4.265
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.3,
+        "end": 3.57
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 2.225,
+        "end": 2.514
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.3,
+        "end": 3.57
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240332250",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:43:44",
+    "sentence_ID": "VXPAKOKS240332250",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    169,
+    126
+  ],
+  "file": "VXPAKOKS240332250.mp4",
+  "saved_as": "VXPAKOKS240332250-어떤이유로대출이필요한지생각하고대출목적을명확히해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

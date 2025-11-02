@@ -1,0 +1,271 @@
+{
+  "id": "VXPAKOKS240341660",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드를 팔 때는 펀드마다 적용되는 수수료를 꼼꼼히 확인해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.488,
+        "end": 1.931,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.184,
+        "end": 2.513,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.751,
+        "end": 3.396,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.755,
+        "end": 4.103,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.404,
+        "end": 4.778,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.834,
+        "end": 4.974,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.213,
+        "end": 5.668,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.819,
+        "end": 6.06,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.331,
+        "end": 6.717,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.488,
+        "end": 1.931,
+        "loc": "0",
+        "word": "펀드를"
+      },
+      {
+        "start": 2.184,
+        "end": 2.513,
+        "loc": "1",
+        "word": "팔"
+      },
+      {
+        "start": 2.751,
+        "end": 3.396,
+        "loc": "2",
+        "word": "때는"
+      },
+      {
+        "start": 3.755,
+        "end": 4.103,
+        "loc": "3,4",
+        "word": "펀드마다 적용되는"
+      },
+      {
+        "start": 4.404,
+        "end": 4.967,
+        "loc": "5",
+        "word": "수수료를"
+      },
+      {
+        "start": 5.213,
+        "end": 6.066,
+        "loc": "6",
+        "word": "꼼꼼히"
+      },
+      {
+        "start": 6.331,
+        "end": 6.717,
+        "loc": "7,8",
+        "word": "확인해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.184,
+        "end": 2.513,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.751,
+        "end": 3.396,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.404,
+        "end": 4.967,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.213,
+        "end": 5.663,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.819,
+        "end": 6.06,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.331,
+        "end": 6.717
+      },
+      {
+        "descriptor": "",
+        "start": 5.213,
+        "end": 5.668
+      },
+      {
+        "descriptor": "",
+        "start": 5.819,
+        "end": 6.06
+      },
+      {
+        "descriptor": "",
+        "start": 1.488,
+        "end": 1.931
+      },
+      {
+        "descriptor": "",
+        "start": 2.751,
+        "end": 3.396
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.819,
+        "end": 6.06
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.488,
+        "end": 3.389
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341660",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:15:14",
+    "sentence_ID": "VXPAKOKS240341660",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    227,
+    126
+  ],
+  "file": "VXPAKOKS240341660.mp4",
+  "saved_as": "VXPAKOKS240341660-펀드를팔때는펀드마다적용되는수수료를꼼꼼히확인해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

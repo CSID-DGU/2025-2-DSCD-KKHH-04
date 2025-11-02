@@ -1,0 +1,229 @@
+{
+  "id": "VXPAKOKS240333400",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "얼마나 돈을 쓸 수 있는지 확인하기 위해 현금카드를 활용할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.464,
+        "end": 2.532,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.697,
+        "end": 3.008,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.281,
+        "end": 4.011,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.37,
+        "end": 4.702,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.034,
+        "end": 5.23,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.334,
+        "end": 5.537,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.753,
+        "end": 6.138,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.31,
+        "end": 6.546,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.464,
+        "end": 2.998,
+        "loc": "7,8",
+        "word": "현금카드를 활용할"
+      },
+      {
+        "start": 3.281,
+        "end": 5.538,
+        "loc": "0,1,2,3,4",
+        "word": "얼마나 돈을 쓸 수 있는지"
+      },
+      {
+        "start": 5.753,
+        "end": 6.138,
+        "loc": "5,6",
+        "word": "확인하기 위해"
+      },
+      {
+        "start": 6.31,
+        "end": 6.546,
+        "loc": "9,10",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 5.034,
+        "end": 5.541,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.37,
+        "end": 4.702,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.697,
+        "end": 3.008
+      },
+      {
+        "descriptor": "",
+        "start": 3.635,
+        "end": 4.034
+      },
+      {
+        "descriptor": "",
+        "start": 5.334,
+        "end": 5.557
+      },
+      {
+        "descriptor": "",
+        "start": 5.753,
+        "end": 6.138
+      },
+      {
+        "descriptor": "",
+        "start": 6.31,
+        "end": 6.546
+      },
+      {
+        "descriptor": "",
+        "start": 4.37,
+        "end": 4.702
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.642,
+        "end": 4.027
+      },
+      {
+        "descriptor": "",
+        "start": 6.31,
+        "end": 6.546
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.697,
+        "end": 5.548
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333400",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:18",
+    "sentence_ID": "VXPAKOKS240333400",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    243,
+    126
+  ],
+  "file": "VXPAKOKS240333400.mp4",
+  "saved_as": "VXPAKOKS240333400-얼마나돈을쓸수있는지확인하기위해현금카드를활용할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

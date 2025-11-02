@@ -1,0 +1,321 @@
+{
+  "id": "VXPAKOKS240376140",
+  "opertor": "label26",
+  "krlgg_sntenc": {
+    "koreanText": "은행 계좌 개설 시 고려해야 할 보안 기술의 최신 동향은 무엇인가요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.308,
+        "end": 1.365,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.526,
+        "end": 1.692,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.805,
+        "end": 1.951,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.227,
+        "end": 2.686,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.806,
+        "end": 2.911,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.106,
+        "end": 3.252,
+        "gloss_id": "보호2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.515,
+        "end": 3.735,
+        "gloss_id": "기술1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.951,
+        "end": 4.083,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.523,
+        "end": 5.016,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.388,
+        "end": 5.724,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.858,
+        "end": 6.133,
+        "gloss_id": "무엇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.297,
+        "end": 1.685,
+        "loc": "0,1",
+        "word": "은행 계좌"
+      },
+      {
+        "start": 1.805,
+        "end": 2.68,
+        "loc": "2,3",
+        "word": "개설 시"
+      },
+      {
+        "start": 2.806,
+        "end": 2.911,
+        "loc": "4,5",
+        "word": "고려해야 할"
+      },
+      {
+        "start": 3.106,
+        "end": 3.252,
+        "loc": "6",
+        "word": "보안"
+      },
+      {
+        "start": 3.951,
+        "end": 5.016,
+        "loc": "8",
+        "word": "최신"
+      },
+      {
+        "start": 5.388,
+        "end": 5.724,
+        "loc": "9",
+        "word": "동향은"
+      },
+      {
+        "start": 5.858,
+        "end": 6.133,
+        "loc": "10",
+        "word": "무엇인가요?"
+      },
+      {
+        "start": 3.515,
+        "end": 3.735,
+        "loc": "7",
+        "word": "기술의"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.308,
+        "end": 1.365,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.526,
+        "end": 1.692,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.805,
+        "end": 1.951,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.227,
+        "end": 2.686,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.106,
+        "end": 3.252,
+        "gloss_id": "보호2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.951,
+        "end": 4.083,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.388,
+        "end": 5.724,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.523,
+        "end": 5.016,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.227,
+        "end": 2.686
+      },
+      {
+        "descriptor": "",
+        "start": 3.515,
+        "end": 3.735
+      },
+      {
+        "descriptor": "",
+        "start": 5.858,
+        "end": 6.133
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.523,
+        "end": 4.621
+      },
+      {
+        "descriptor": "",
+        "start": 4.763,
+        "end": 5.004
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.227,
+        "end": 2.468
+      },
+      {
+        "descriptor": "",
+        "start": 5.388,
+        "end": 6.119
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240376140",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:44:35",
+    "sentence_ID": "VXPAKOKS240376140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240376140.mp4",
+  "saved_as": "VXPAKOKS240376140-은행계좌개설시고려해야할보안기술의최신동향은무엇인가요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,291 @@
+{
+  "id": "VXPAKOKS240327650",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드를 많이 사용하면 사기나 도난에 노출될 위험이 있으므로 올바르게 사용해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.839,
+        "end": 2.011,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.257,
+        "end": 2.862,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.317,
+        "end": 3.557,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.898,
+        "end": 4.094,
+        "gloss_id": "사기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.392,
+        "end": 4.632,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.844,
+        "end": 5.158,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.347,
+        "end": 5.581,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.81,
+        "end": 6.13,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.329,
+        "end": 6.631,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.257,
+        "end": 3.55,
+        "loc": "0,2",
+        "word": "신용카드를 사용하면"
+      },
+      {
+        "start": 1.839,
+        "end": 2.011,
+        "loc": "1",
+        "word": "많이"
+      },
+      {
+        "start": 3.898,
+        "end": 4.094,
+        "loc": "3",
+        "word": "사기나"
+      },
+      {
+        "start": 5.347,
+        "end": 5.581,
+        "loc": "7",
+        "word": "있으므로"
+      },
+      {
+        "start": 6.329,
+        "end": 6.631,
+        "loc": "8",
+        "word": "올바르게"
+      },
+      {
+        "start": 5.81,
+        "end": 6.13,
+        "loc": "9,10",
+        "word": "사용해야 해요."
+      },
+      {
+        "start": 4.844,
+        "end": 5.158,
+        "loc": "6",
+        "word": "위험이"
+      },
+      {
+        "start": 4.392,
+        "end": 4.632,
+        "loc": "4,5",
+        "word": "도난에 노출될"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.839,
+        "end": 2.011,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.317,
+        "end": 3.557,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.898,
+        "end": 4.094,
+        "gloss_id": "사기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.392,
+        "end": 4.632,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.81,
+        "end": 6.13,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.329,
+        "end": 6.631,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.329,
+        "end": 6.631
+      },
+      {
+        "descriptor": "",
+        "start": 5.347,
+        "end": 5.581
+      },
+      {
+        "descriptor": "",
+        "start": 3.898,
+        "end": 4.094
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.347,
+        "end": 5.581
+      },
+      {
+        "descriptor": "",
+        "start": 3.317,
+        "end": 3.557
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.839,
+        "end": 2.847
+      },
+      {
+        "descriptor": "",
+        "start": 4.392,
+        "end": 5.58
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.329,
+        "end": 6.631
+      }
+    ],
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240327650",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:19:47",
+    "sentence_ID": "VXPAKOKS240327650",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    223,
+    126
+  ],
+  "file": "VXPAKOKS240327650.mp4",
+  "saved_as": "VXPAKOKS240327650-신용카드를많이사용하면사기나도난에노출될위험이있으므로올바르게사용해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

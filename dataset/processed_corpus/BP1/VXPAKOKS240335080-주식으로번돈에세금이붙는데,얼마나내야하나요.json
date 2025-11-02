@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240335080",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식으로 번 돈에 세금이 붙는데, 얼마나 내야 하나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.503,
+        "end": 3.102,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.351,
+        "end": 3.484,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.858,
+        "end": 4.327,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.629,
+        "end": 4.955,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.256,
+        "end": 5.501,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.644,
+        "end": 5.72,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.8,
+        "end": 6.151,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.503,
+        "end": 3.102,
+        "loc": "0",
+        "word": "주식으로"
+      },
+      {
+        "start": 3.351,
+        "end": 4.332,
+        "loc": "1,2",
+        "word": "번 돈에"
+      },
+      {
+        "start": 4.629,
+        "end": 4.955,
+        "loc": "3",
+        "word": "세금이"
+      },
+      {
+        "start": 5.256,
+        "end": 5.501,
+        "loc": "4",
+        "word": "붙는데,"
+      },
+      {
+        "start": 5.644,
+        "end": 6.168,
+        "loc": "5,6,7",
+        "word": "얼마나 내야 하나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.503,
+        "end": 3.103,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.858,
+        "end": 4.327,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.629,
+        "end": 4.955,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.037,
+        "end": 4.332
+      },
+      {
+        "descriptor": "",
+        "start": 5.256,
+        "end": 5.501
+      },
+      {
+        "descriptor": "",
+        "start": 5.8,
+        "end": 6.151
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.037,
+        "end": 4.328
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.8,
+        "end": 6.151
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.503,
+        "end": 5.498
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335080",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:26",
+    "sentence_ID": "VXPAKOKS240335080",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240335080.mp4",
+  "saved_as": "VXPAKOKS240335080-주식으로번돈에세금이붙는데,얼마나내야하나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

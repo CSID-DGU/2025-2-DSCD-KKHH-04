@@ -1,0 +1,245 @@
+{
+  "id": "VXPAKOKS240331620",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드를 발급받은 은행의 현금 자동 입출금 기기를 쓴다면 무료로 돈을 인출할 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.654,
+        "end": 1.847,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.047,
+        "end": 2.287,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.434,
+        "end": 3.074,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.343,
+        "end": 3.55,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.753,
+        "end": 4.413,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.581,
+        "end": 4.754,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.958,
+        "end": 5.231,
+        "gloss_id": "이름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.406,
+        "end": 6.059,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.361,
+        "end": 6.588,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.774,
+        "end": 7.114,
+        "gloss_id": "공짜2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.361,
+        "end": 7.121,
+        "loc": "8,9,10,11,12",
+        "word": "무료로 돈을 인출할 수 있어."
+      },
+      {
+        "start": 1.654,
+        "end": 3.073,
+        "loc": "3,4,5,6,7",
+        "word": "현금 자동 입출금 기기를 쓴다면"
+      },
+      {
+        "start": 3.343,
+        "end": 4.396,
+        "loc": "0,1",
+        "word": "현금카드를 발급받은"
+      },
+      {
+        "start": 4.581,
+        "end": 6.054,
+        "loc": "2",
+        "word": "은행의"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.047,
+        "end": 2.287,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.581,
+        "end": 5.234,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.406,
+        "end": 6.059,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.361,
+        "end": 7.121,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.92,
+        "end": 4.42
+      },
+      {
+        "descriptor": "",
+        "start": 5.594,
+        "end": 6.047
+      },
+      {
+        "descriptor": "",
+        "start": 6.774,
+        "end": 7.114
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 6.353,
+        "end": 6.713
+      }
+    ],
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.654,
+        "end": 6.053
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331620",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:13:33",
+    "sentence_ID": "VXPAKOKS240331620",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    240,
+    126
+  ],
+  "file": "VXPAKOKS240331620.mp4",
+  "saved_as": "VXPAKOKS240331620-현금카드를발급받은은행의현금자동입출금기기를쓴다면무료로돈을인출할수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

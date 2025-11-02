@@ -1,0 +1,296 @@
+{
+  "id": "VXPAKOKS240331070",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "카드 비밀번호를 설정하는 것만으로도 사용등록을 할 수 있지만, 카드사마다 다릅니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.887,
+        "end": 3.038,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.363,
+        "end": 3.438,
+        "gloss_id": "비밀1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.754,
+        "end": 3.875,
+        "gloss_id": "숫자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.218,
+        "end": 5.006,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.187,
+        "end": 5.307,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.518,
+        "end": 5.867,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.063,
+        "end": 6.418,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.777,
+        "end": 7.05,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.315,
+        "end": 7.474,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.777,
+        "end": 8.224,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.887,
+        "end": 3.038,
+        "loc": "0",
+        "word": "카드"
+      },
+      {
+        "start": 3.363,
+        "end": 3.878,
+        "loc": "1",
+        "word": "비밀번호를"
+      },
+      {
+        "start": 4.218,
+        "end": 5.006,
+        "loc": "2,3",
+        "word": "설정하는 것만으로도"
+      },
+      {
+        "start": 5.187,
+        "end": 5.853,
+        "loc": "4",
+        "word": "사용등록을"
+      },
+      {
+        "start": 6.063,
+        "end": 6.418,
+        "loc": "5,6,7",
+        "word": "할 수 있지만,"
+      },
+      {
+        "start": 6.777,
+        "end": 7.482,
+        "loc": "8",
+        "word": "카드사마다"
+      },
+      {
+        "start": 7.777,
+        "end": 8.224,
+        "loc": "9",
+        "word": "다릅니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.363,
+        "end": 3.885,
+        "gloss_id": "비밀1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.218,
+        "end": 5.006,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.187,
+        "end": 5.307,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.315,
+        "end": 7.474,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.777,
+        "end": 8.224,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.518,
+        "end": 5.867,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.677,
+        "end": 4.995
+      },
+      {
+        "descriptor": "",
+        "start": 6.063,
+        "end": 6.418
+      },
+      {
+        "descriptor": "",
+        "start": 7.777,
+        "end": 8.224
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.677,
+        "end": 4.995
+      },
+      {
+        "descriptor": "",
+        "start": 6.063,
+        "end": 6.418
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.777,
+        "end": 8.224
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.777,
+        "end": 8.224
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.887,
+        "end": 4.987
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331070",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:06:44",
+    "sentence_ID": "VXPAKOKS240331070",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    273,
+    126
+  ],
+  "file": "VXPAKOKS240331070.mp4",
+  "saved_as": "VXPAKOKS240331070-카드비밀번호를설정하는것만으로도사용등록을할수있지만,카드사마다다릅니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

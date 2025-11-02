@@ -1,0 +1,374 @@
+{
+  "id": "VXPAKOKS240353190",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "급하게 허리 수술 비용이 필요했는데, 그동안 저축한 적금 덕분에 수술비를 낼 수 있었어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.899,
+        "end": 2.086,
+        "gloss_id": "허리1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.412,
+        "end": 2.626,
+        "gloss_id": "수술1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.83,
+        "end": 3.106,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.31,
+        "end": 3.605,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.913,
+        "end": 4.448,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.775,
+        "end": 5.293,
+        "gloss_id": "종합5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.433,
+        "end": 5.593,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.831,
+        "end": 6.545,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.756,
+        "end": 6.961,
+        "gloss_id": "한적있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.208,
+        "end": 7.574,
+        "gloss_id": "수술1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.729,
+        "end": 7.881,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.096,
+        "end": 8.319,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.482,
+        "end": 8.678,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.87,
+        "end": 9.379,
+        "gloss_id": "고맙다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.899,
+        "end": 2.086,
+        "loc": "1",
+        "word": "허리"
+      },
+      {
+        "start": 2.412,
+        "end": 2.626,
+        "loc": "2",
+        "word": "수술"
+      },
+      {
+        "start": 2.83,
+        "end": 3.106,
+        "loc": "3",
+        "word": "비용이"
+      },
+      {
+        "start": 3.31,
+        "end": 3.605,
+        "loc": "0",
+        "word": "급하게"
+      },
+      {
+        "start": 3.913,
+        "end": 4.448,
+        "loc": "4",
+        "word": "필요했는데,"
+      },
+      {
+        "start": 4.775,
+        "end": 5.293,
+        "loc": "5",
+        "word": "그동안"
+      },
+      {
+        "start": 5.433,
+        "end": 6.941,
+        "loc": "6,7,8",
+        "word": "저축한 적금 덕분에"
+      },
+      {
+        "start": 7.208,
+        "end": 7.877,
+        "loc": "9",
+        "word": "수술비를"
+      },
+      {
+        "start": 8.096,
+        "end": 9.372,
+        "loc": "10,11,12",
+        "word": "낼 수 있었어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.412,
+        "end": 3.108,
+        "gloss_id": "수술1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.31,
+        "end": 3.605,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.913,
+        "end": 4.448,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.775,
+        "end": 5.293,
+        "gloss_id": "종합5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.83,
+        "end": 6.964,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.208,
+        "end": 7.574,
+        "gloss_id": "수술1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.096,
+        "end": 8.658,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.87,
+        "end": 9.379,
+        "gloss_id": "고맙다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.482,
+        "end": 8.678
+      },
+      {
+        "descriptor": "",
+        "start": 3.927,
+        "end": 4.448
+      },
+      {
+        "descriptor": "",
+        "start": 4.775,
+        "end": 5.293
+      },
+      {
+        "descriptor": "",
+        "start": 6.756,
+        "end": 6.961
+      },
+      {
+        "descriptor": "",
+        "start": 8.87,
+        "end": 9.379
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.482,
+        "end": 8.678
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.412,
+        "end": 6.535
+      },
+      {
+        "descriptor": "",
+        "start": 8.482,
+        "end": 9.356
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.831,
+        "end": 6.964
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.831,
+        "end": 7.634
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353190",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:04:47",
+    "sentence_ID": "VXPAKOKS240353190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    321,
+    126
+  ],
+  "file": "VXPAKOKS240353190.mp4",
+  "saved_as": "VXPAKOKS240353190-급하게허리수술비용이필요했는데,그동안저축한적금덕분에수술비를낼수있었어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

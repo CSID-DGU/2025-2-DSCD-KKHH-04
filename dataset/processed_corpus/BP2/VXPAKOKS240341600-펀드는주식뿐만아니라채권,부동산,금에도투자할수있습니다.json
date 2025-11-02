@@ -1,0 +1,338 @@
+{
+  "id": "VXPAKOKS240341600",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드는 주식뿐만 아니라 채권, 부동산, 금에도 투자할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.428,
+        "end": 1.789,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.09,
+        "end": 2.297,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.462,
+        "end": 2.962,
+        "gloss_id": "일3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.302,
+        "end": 3.725,
+        "gloss_id": "아니다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.054,
+        "end": 4.385,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.509,
+        "end": 4.609,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.724,
+        "end": 4.893,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.176,
+        "end": 5.737,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.972,
+        "end": 6.472,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.786,
+        "end": 7.147,
+        "gloss_id": "노랑1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.426,
+        "end": 7.757,
+        "gloss_id": "보석1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.989,
+        "end": 8.135,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.347,
+        "end": 8.539,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.428,
+        "end": 1.789,
+        "loc": "0",
+        "word": "펀드는"
+      },
+      {
+        "start": 2.09,
+        "end": 2.951,
+        "loc": "1",
+        "word": "주식뿐만"
+      },
+      {
+        "start": 3.302,
+        "end": 4.394,
+        "loc": "2",
+        "word": "아니라"
+      },
+      {
+        "start": 4.509,
+        "end": 5.74,
+        "loc": "3",
+        "word": "채권,"
+      },
+      {
+        "start": 5.972,
+        "end": 6.472,
+        "loc": "4",
+        "word": "부동산,"
+      },
+      {
+        "start": 6.786,
+        "end": 7.755,
+        "loc": "5",
+        "word": "금에도"
+      },
+      {
+        "start": 7.989,
+        "end": 8.135,
+        "loc": "6",
+        "word": "투자할"
+      },
+      {
+        "start": 8.347,
+        "end": 8.539,
+        "loc": "7,8",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.09,
+        "end": 2.297,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.054,
+        "end": 4.385,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.176,
+        "end": 5.737,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.972,
+        "end": 6.472,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.426,
+        "end": 7.757,
+        "gloss_id": "보석1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.428,
+        "end": 1.789
+      },
+      {
+        "descriptor": "",
+        "start": 3.302,
+        "end": 3.725
+      },
+      {
+        "descriptor": "",
+        "start": 4.054,
+        "end": 4.385
+      },
+      {
+        "descriptor": "",
+        "start": 5.176,
+        "end": 5.737
+      },
+      {
+        "descriptor": "",
+        "start": 5.972,
+        "end": 6.472
+      },
+      {
+        "descriptor": "",
+        "start": 7.426,
+        "end": 7.757
+      },
+      {
+        "descriptor": "",
+        "start": 2.462,
+        "end": 2.754
+      },
+      {
+        "descriptor": "",
+        "start": 8.347,
+        "end": 8.539
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.347,
+        "end": 8.539
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 2.785,
+        "end": 3.101
+      }
+    ],
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.428,
+        "end": 2.866
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341600",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:14:49",
+    "sentence_ID": "VXPAKOKS240341600",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    277,
+    126
+  ],
+  "file": "VXPAKOKS240341600.mp4",
+  "saved_as": "VXPAKOKS240341600-펀드는주식뿐만아니라채권,부동산,금에도투자할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

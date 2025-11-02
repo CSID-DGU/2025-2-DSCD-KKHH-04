@@ -1,0 +1,333 @@
+{
+  "id": "VXPAKOKS240340810",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "언론 매체의 펀드 관련 기사를 확인하며 금융 시장을 파악하는 것은 펀드 투자에 도움이 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.616,
+        "end": 1.787,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.001,
+        "end": 2.308,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.899,
+        "end": 3.235,
+        "gloss_id": "방송하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.932,
+        "end": 4.21,
+        "gloss_id": "신문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.402,
+        "end": 4.502,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.816,
+        "end": 5.044,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.288,
+        "end": 5.581,
+        "gloss_id": "맥락1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.738,
+        "end": 6.024,
+        "gloss_id": "파악하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.509,
+        "end": 6.702,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.06,
+        "end": 7.31,
+        "gloss_id": "돕다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.51,
+        "end": 7.767,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.616,
+        "end": 1.787,
+        "loc": "2",
+        "word": "펀드"
+      },
+      {
+        "start": 2.001,
+        "end": 2.308,
+        "loc": "3",
+        "word": "관련"
+      },
+      {
+        "start": 2.899,
+        "end": 4.207,
+        "loc": "0,1,4",
+        "word": "언론 매체의 기사를"
+      },
+      {
+        "start": 4.402,
+        "end": 4.502,
+        "loc": "5",
+        "word": "확인하며"
+      },
+      {
+        "start": 4.816,
+        "end": 5.572,
+        "loc": "6,7",
+        "word": "금융 시장을"
+      },
+      {
+        "start": 5.738,
+        "end": 6.024,
+        "loc": "8,9",
+        "word": "파악하는 것은"
+      },
+      {
+        "start": 6.509,
+        "end": 6.702,
+        "loc": "10,11",
+        "word": "펀드 투자에"
+      },
+      {
+        "start": 7.06,
+        "end": 7.774,
+        "loc": "12,13",
+        "word": "도움이 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.001,
+        "end": 2.308,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.899,
+        "end": 3.235,
+        "gloss_id": "방송하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.932,
+        "end": 4.511,
+        "gloss_id": "신문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.816,
+        "end": 5.044,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.738,
+        "end": 6.024,
+        "gloss_id": "파악하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.06,
+        "end": 7.31,
+        "gloss_id": "돕다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.288,
+        "end": 5.581,
+        "gloss_id": "맥락1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.001,
+        "end": 2.308
+      },
+      {
+        "descriptor": "",
+        "start": 2.899,
+        "end": 3.235
+      },
+      {
+        "descriptor": "",
+        "start": 3.932,
+        "end": 4.21
+      },
+      {
+        "descriptor": "",
+        "start": 4.402,
+        "end": 4.502
+      },
+      {
+        "descriptor": "",
+        "start": 5.738,
+        "end": 6.024
+      },
+      {
+        "descriptor": "",
+        "start": 6.509,
+        "end": 6.702
+      },
+      {
+        "descriptor": "",
+        "start": 7.51,
+        "end": 7.767
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.859,
+        "end": 6.024
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.616,
+        "end": 2.316
+      },
+      {
+        "descriptor": "",
+        "start": 3.932,
+        "end": 4.532
+      },
+      {
+        "descriptor": "",
+        "start": 5.295,
+        "end": 6.037
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340810",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:08:42",
+    "sentence_ID": "VXPAKOKS240340810",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240340810.mp4",
+  "saved_as": "VXPAKOKS240340810-언론매체의펀드관련기사를확인하며금융시장을파악하는것은펀드투자에도움이됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

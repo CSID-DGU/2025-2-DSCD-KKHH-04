@@ -1,0 +1,323 @@
+{
+  "id": "VXPAKOKS240327950",
+  "opertor": "label22",
+  "krlgg_sntenc": {
+    "koreanText": "현금이 없는데 급하게 식당에서 결제를 해야할 때 신용카드가 편합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.637,
+        "end": 1.707,
+        "gloss_id": "먹다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.834,
+        "end": 2.214,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.258,
+        "end": 2.518,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.829,
+        "end": 3.639,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.873,
+        "end": 3.944,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.275,
+        "end": 4.408,
+        "gloss_id": "주머니1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.649,
+        "end": 4.944,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.157,
+        "end": 5.509,
+        "gloss_id": "없다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.686,
+        "end": 5.805,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.898,
+        "end": 6.137,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.385,
+        "end": 6.611,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.118,
+        "end": 7.449,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.637,
+        "end": 2.208,
+        "loc": "3",
+        "word": "식당에서"
+      },
+      {
+        "start": 2.829,
+        "end": 3.639,
+        "loc": "2",
+        "word": "급하게"
+      },
+      {
+        "start": 3.873,
+        "end": 5.503,
+        "loc": "0,1",
+        "word": "현금이 없는데"
+      },
+      {
+        "start": 5.686,
+        "end": 6.617,
+        "loc": "7",
+        "word": "신용카드가"
+      },
+      {
+        "start": 7.119,
+        "end": 7.443,
+        "loc": "8",
+        "word": "편합니다."
+      },
+      {
+        "start": 2.258,
+        "end": 2.518,
+        "loc": "4,5,6",
+        "word": "결제를 해야할 때"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.829,
+        "end": 3.639,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.873,
+        "end": 3.944,
+        "gloss_id": "구형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.649,
+        "end": 4.944,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.157,
+        "end": 5.509,
+        "gloss_id": "없다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.686,
+        "end": 5.805,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.118,
+        "end": 7.449,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.275,
+        "end": 4.408,
+        "gloss_id": "주머니1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.834,
+        "end": 2.214
+      },
+      {
+        "descriptor": "",
+        "start": 5.898,
+        "end": 6.137
+      },
+      {
+        "descriptor": "",
+        "start": 7.118,
+        "end": 7.449
+      },
+      {
+        "descriptor": "",
+        "start": 6.385,
+        "end": 6.611
+      },
+      {
+        "descriptor": "",
+        "start": 5.157,
+        "end": 5.509
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.157,
+        "end": 5.509
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 4.16,
+        "end": 4.399
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.829,
+        "end": 3.639
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.898,
+        "end": 6.137
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327950",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:03:28",
+    "sentence_ID": "VXPAKOKS240327950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    254,
+    126
+  ],
+  "file": "VXPAKOKS240327950.mp4",
+  "saved_as": "VXPAKOKS240327950-현금이없는데급하게식당에서결제를해야할때신용카드가편합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

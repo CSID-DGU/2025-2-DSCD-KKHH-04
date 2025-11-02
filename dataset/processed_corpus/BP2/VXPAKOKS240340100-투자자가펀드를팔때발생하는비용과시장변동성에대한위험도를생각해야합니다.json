@@ -1,0 +1,353 @@
+{
+  "id": "VXPAKOKS240340100",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "투자자가 펀드를 팔 때 발생하는 비용과 시장 변동성에 대한 위험도를 생각해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.489,
+        "end": 1.64,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.917,
+        "end": 2.386,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.784,
+        "end": 3.036,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.231,
+        "end": 3.607,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.88,
+        "end": 3.984,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.215,
+        "end": 4.552,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.64,
+        "end": 4.977,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.09,
+        "end": 5.466,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.713,
+        "end": 6.019,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.256,
+        "end": 6.755,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.921,
+        "end": 7.119,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.357,
+        "end": 7.57,
+        "gloss_id": "얼마2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.796,
+        "end": 7.939,
+        "gloss_id": "생각2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.248,
+        "end": 8.562,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.489,
+        "end": 2.377,
+        "loc": "0",
+        "word": "투자자가"
+      },
+      {
+        "start": 2.784,
+        "end": 3.61,
+        "loc": "1",
+        "word": "펀드를"
+      },
+      {
+        "start": 3.88,
+        "end": 4.543,
+        "loc": "2,3",
+        "word": "팔 때"
+      },
+      {
+        "start": 4.64,
+        "end": 5.458,
+        "loc": "4,5",
+        "word": "발생하는 비용과"
+      },
+      {
+        "start": 5.713,
+        "end": 6.748,
+        "loc": "6,7,8",
+        "word": "시장 변동성에 대한"
+      },
+      {
+        "start": 6.921,
+        "end": 7.568,
+        "loc": "9",
+        "word": "위험도를"
+      },
+      {
+        "start": 7.796,
+        "end": 7.939,
+        "loc": "10",
+        "word": "생각해야"
+      },
+      {
+        "start": 8.248,
+        "end": 8.562,
+        "loc": "11",
+        "word": "합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.917,
+        "end": 3.038,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.231,
+        "end": 3.607,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.88,
+        "end": 4.542,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.64,
+        "end": 5.466,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.256,
+        "end": 6.755,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.921,
+        "end": 7.119,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.248,
+        "end": 8.562,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.917,
+        "end": 2.386
+      },
+      {
+        "descriptor": "",
+        "start": 4.215,
+        "end": 4.552
+      },
+      {
+        "descriptor": "",
+        "start": 6.256,
+        "end": 6.755
+      },
+      {
+        "descriptor": "",
+        "start": 7.357,
+        "end": 7.57
+      },
+      {
+        "descriptor": "",
+        "start": 8.248,
+        "end": 8.562
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.215,
+        "end": 4.552
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.489,
+        "end": 1.64
+      },
+      {
+        "descriptor": "",
+        "start": 3.88,
+        "end": 4.551
+      },
+      {
+        "descriptor": "",
+        "start": 5.713,
+        "end": 7.555
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340100",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:02:36",
+    "sentence_ID": "VXPAKOKS240340100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    279,
+    126
+  ],
+  "file": "VXPAKOKS240340100.mp4",
+  "saved_as": "VXPAKOKS240340100-투자자가펀드를팔때발생하는비용과시장변동성에대한위험도를생각해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

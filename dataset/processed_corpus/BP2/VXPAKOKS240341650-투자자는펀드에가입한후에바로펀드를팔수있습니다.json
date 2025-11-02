@@ -1,0 +1,232 @@
+{
+  "id": "VXPAKOKS240341650",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "투자자는 펀드에 가입한 후에 바로 펀드를 팔 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.203,
+        "end": 1.323,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.605,
+        "end": 2.005,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.268,
+        "end": 2.449,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.639,
+        "end": 3.609,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.998,
+        "end": 4.156,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.307,
+        "end": 4.541,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.726,
+        "end": 4.988,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.203,
+        "end": 1.993,
+        "loc": "0",
+        "word": "투자자는"
+      },
+      {
+        "start": 2.268,
+        "end": 2.449,
+        "loc": "1",
+        "word": "펀드에"
+      },
+      {
+        "start": 2.639,
+        "end": 3.609,
+        "loc": "2,3",
+        "word": "가입한 후에"
+      },
+      {
+        "start": 3.998,
+        "end": 4.156,
+        "loc": "4",
+        "word": "바로"
+      },
+      {
+        "start": 4.307,
+        "end": 4.541,
+        "loc": "5,6",
+        "word": "펀드를 팔"
+      },
+      {
+        "start": 4.726,
+        "end": 4.988,
+        "loc": "7,8",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.605,
+        "end": 2.005,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.639,
+        "end": 3.609,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.998,
+        "end": 4.155,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.307,
+        "end": 4.541,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.726,
+        "end": 4.988
+      },
+      {
+        "descriptor": "",
+        "start": 1.605,
+        "end": 2.005
+      },
+      {
+        "descriptor": "",
+        "start": 2.899,
+        "end": 3.48
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.726,
+        "end": 4.988
+      },
+      {
+        "descriptor": "",
+        "start": 3.28,
+        "end": 3.476
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.203,
+        "end": 3.467
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341650",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:15:10",
+    "sentence_ID": "VXPAKOKS240341650",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    171,
+    126
+  ],
+  "file": "VXPAKOKS240341650.mp4",
+  "saved_as": "VXPAKOKS240341650-투자자는펀드에가입한후에바로펀드를팔수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

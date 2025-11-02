@@ -1,0 +1,248 @@
+{
+  "id": "VXPAKOKS240332760",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "전세자금 대출을 이용하면 남아있는 여윳돈을 다른 투자에 활용할 수 있는 장점이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.628,
+        "end": 2.842,
+        "gloss_id": "안보이다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.922,
+        "end": 3.15,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.478,
+        "end": 3.937,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.221,
+        "end": 4.394,
+        "gloss_id": "따로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.605,
+        "end": 4.683,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.86,
+        "end": 4.928,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.154,
+        "end": 5.368,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.586,
+        "end": 5.848,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.193,
+        "end": 6.421,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.628,
+        "end": 2.842,
+        "loc": "0",
+        "word": "전세자금"
+      },
+      {
+        "start": 2.922,
+        "end": 3.15,
+        "loc": "1",
+        "word": "대출을"
+      },
+      {
+        "start": 3.478,
+        "end": 3.937,
+        "loc": "2",
+        "word": "이용하면"
+      },
+      {
+        "start": 4.221,
+        "end": 4.394,
+        "loc": "5",
+        "word": "다른"
+      },
+      {
+        "start": 5.586,
+        "end": 5.848,
+        "loc": "6,7",
+        "word": "투자에 활용할"
+      },
+      {
+        "start": 6.193,
+        "end": 6.421,
+        "loc": "8,9,10,11",
+        "word": "수 있는 장점이 있습니다."
+      },
+      {
+        "start": 4.605,
+        "end": 5.391,
+        "loc": "3,4",
+        "word": "남아있는 여윳돈을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.478,
+        "end": 3.937,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.221,
+        "end": 4.394,
+        "gloss_id": "따로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.154,
+        "end": 5.368
+      },
+      {
+        "descriptor": "",
+        "start": 6.193,
+        "end": 6.421
+      },
+      {
+        "descriptor": "",
+        "start": 3.478,
+        "end": 3.937
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.254,
+        "end": 6.421
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.221,
+        "end": 4.394
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.616,
+        "end": 5.368
+      },
+      {
+        "descriptor": "",
+        "start": 3.478,
+        "end": 3.937
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332760",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:21:37",
+    "sentence_ID": "VXPAKOKS240332760",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240332760.mp4",
+  "saved_as": "VXPAKOKS240332760-전세자금대출을이용하면남아있는여윳돈을다른투자에활용할수있는장점이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

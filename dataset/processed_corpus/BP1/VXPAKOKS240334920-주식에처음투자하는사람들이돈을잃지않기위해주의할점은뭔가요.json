@@ -1,0 +1,263 @@
+{
+  "id": "VXPAKOKS240334920",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주식에 처음 투자하는 사람들이 돈을 잃지 않기 위해 주의할 점은 뭔가요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.5,
+        "end": 2.639,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.867,
+        "end": 2.999,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.17,
+        "end": 3.663,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.909,
+        "end": 4.143,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.468,
+        "end": 4.668,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.026,
+        "end": 5.22,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.474,
+        "end": 5.797,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.018,
+        "end": 6.382,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.5,
+        "end": 2.639,
+        "loc": "0",
+        "word": "주식에"
+      },
+      {
+        "start": 2.867,
+        "end": 2.999,
+        "loc": "1",
+        "word": "처음"
+      },
+      {
+        "start": 3.17,
+        "end": 3.663,
+        "loc": "2,3",
+        "word": "투자하는 사람들이"
+      },
+      {
+        "start": 3.909,
+        "end": 4.143,
+        "loc": "4,5",
+        "word": "돈을 잃지"
+      },
+      {
+        "start": 4.468,
+        "end": 4.668,
+        "loc": "6,7",
+        "word": "않기 위해"
+      },
+      {
+        "start": 5.026,
+        "end": 5.22,
+        "loc": "8",
+        "word": "주의할"
+      },
+      {
+        "start": 5.474,
+        "end": 5.797,
+        "loc": "9",
+        "word": "점은"
+      },
+      {
+        "start": 6.018,
+        "end": 6.382,
+        "loc": "10",
+        "word": "뭔가요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.5,
+        "end": 2.639,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.909,
+        "end": 4.143,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.468,
+        "end": 4.668,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.026,
+        "end": 5.22,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.474,
+        "end": 5.797,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.17,
+        "end": 3.663
+      },
+      {
+        "descriptor": "",
+        "start": 5.484,
+        "end": 6.253
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.468,
+        "end": 4.668
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.867,
+        "end": 2.999
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.503,
+        "end": 6.261
+      },
+      {
+        "descriptor": "",
+        "start": 3.17,
+        "end": 3.663
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334920",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:33:27",
+    "sentence_ID": "VXPAKOKS240334920",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240334920.mp4",
+  "saved_as": "VXPAKOKS240334920-주식에처음투자하는사람들이돈을잃지않기위해주의할점은뭔가요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

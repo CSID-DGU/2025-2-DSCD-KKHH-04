@@ -1,0 +1,296 @@
+{
+  "id": "VXPAKOKS240335700",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 시장은 경제가 좋아지도록 도와주지만, 국제 환율 변동에 민감하다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.171,
+        "end": 2.379,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.628,
+        "end": 2.942,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.231,
+        "end": 3.475,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.832,
+        "end": 4.261,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.481,
+        "end": 5.034,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.311,
+        "end": 5.74,
+        "gloss_id": "지다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.019,
+        "end": 6.359,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.584,
+        "end": 7.305,
+        "gloss_id": "달러1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.54,
+        "end": 7.863,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.096,
+        "end": 8.366,
+        "gloss_id": "심하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.162,
+        "end": 2.98,
+        "loc": "0,1",
+        "word": "주식 시장은"
+      },
+      {
+        "start": 3.231,
+        "end": 3.475,
+        "loc": "2",
+        "word": "경제가"
+      },
+      {
+        "start": 3.832,
+        "end": 5.745,
+        "loc": "3,4",
+        "word": "좋아지도록 도와주지만,"
+      },
+      {
+        "start": 6.019,
+        "end": 6.359,
+        "loc": "5",
+        "word": "국제"
+      },
+      {
+        "start": 6.584,
+        "end": 7.305,
+        "loc": "6",
+        "word": "환율"
+      },
+      {
+        "start": 7.54,
+        "end": 7.863,
+        "loc": "7",
+        "word": "변동에"
+      },
+      {
+        "start": 8.096,
+        "end": 8.366,
+        "loc": "8",
+        "word": "민감하다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.171,
+        "end": 2.379,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.231,
+        "end": 3.475,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.832,
+        "end": 4.261,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.019,
+        "end": 6.359,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.54,
+        "end": 7.863,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.096,
+        "end": 8.366
+      },
+      {
+        "descriptor": "",
+        "start": 2.628,
+        "end": 2.942
+      },
+      {
+        "descriptor": "",
+        "start": 4.587,
+        "end": 5.034
+      },
+      {
+        "descriptor": "",
+        "start": 5.311,
+        "end": 5.74
+      },
+      {
+        "descriptor": "",
+        "start": 6.019,
+        "end": 6.359
+      },
+      {
+        "descriptor": "",
+        "start": 7.129,
+        "end": 7.293
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.311,
+        "end": 6.358
+      },
+      {
+        "descriptor": "",
+        "start": 7.54,
+        "end": 8.375
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.171,
+        "end": 2.927
+      },
+      {
+        "descriptor": "",
+        "start": 7.07,
+        "end": 7.305
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335700",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:44",
+    "sentence_ID": "VXPAKOKS240335700",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    318,
+    126
+  ],
+  "file": "VXPAKOKS240335700.mp4",
+  "saved_as": "VXPAKOKS240335700-주식시장은경제가좋아지도록도와주지만,국제환율변동에민감하다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

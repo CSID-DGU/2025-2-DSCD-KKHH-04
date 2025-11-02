@@ -1,0 +1,303 @@
+{
+  "id": "VXPAKOKS240354370",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "1년 동안 매월 10만 원을 적금하면 120만 원과 이자를 받을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.387,
+        "end": 1.952,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.183,
+        "end": 2.33,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.613,
+        "end": 2.926,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.189,
+        "end": 3.293,
+        "gloss_id": "10",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.849,
+        "end": 3.989,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.193,
+        "end": 4.556,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.821,
+        "end": 5.71,
+        "gloss_id": "1200000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.978,
+        "end": 6.19,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.381,
+        "end": 6.514,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.653,
+        "end": 6.807,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.352,
+        "end": 3.711,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.387,
+        "end": 1.952,
+        "loc": "0",
+        "word": "1년"
+      },
+      {
+        "start": 2.183,
+        "end": 2.33,
+        "loc": "1",
+        "word": "동안"
+      },
+      {
+        "start": 2.613,
+        "end": 2.926,
+        "loc": "2",
+        "word": "매월"
+      },
+      {
+        "start": 3.849,
+        "end": 4.558,
+        "loc": "5",
+        "word": "적금하면"
+      },
+      {
+        "start": 4.821,
+        "end": 5.71,
+        "loc": "6,7",
+        "word": "120만 원과"
+      },
+      {
+        "start": 5.978,
+        "end": 6.19,
+        "loc": "8",
+        "word": "이자를"
+      },
+      {
+        "start": 6.381,
+        "end": 6.816,
+        "loc": "9,10,11",
+        "word": "받을 수 있어요."
+      },
+      {
+        "start": 3.189,
+        "end": 3.703,
+        "loc": "3,4",
+        "word": "10만 원을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.183,
+        "end": 2.33,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.193,
+        "end": 4.556,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.387,
+        "end": 1.952,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "백이십",
+        "start": 4.821,
+        "end": 5.71
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.392,
+        "end": 6.807
+      },
+      {
+        "descriptor": "",
+        "start": 2.183,
+        "end": 2.33
+      },
+      {
+        "descriptor": "",
+        "start": 2.613,
+        "end": 2.926
+      },
+      {
+        "descriptor": "",
+        "start": 4.193,
+        "end": 4.556
+      },
+      {
+        "descriptor": "",
+        "start": 5.426,
+        "end": 5.71
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.653,
+        "end": 6.807
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.613,
+        "end": 3.711
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.387,
+        "end": 2.78
+      },
+      {
+        "descriptor": "",
+        "start": 3.849,
+        "end": 4.378
+      },
+      {
+        "descriptor": "",
+        "start": 5.978,
+        "end": 6.19
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354370",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:13:26",
+    "sentence_ID": "VXPAKOKS240354370",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    259,
+    126
+  ],
+  "file": "VXPAKOKS240354370.mp4",
+  "saved_as": "VXPAKOKS240354370-1년동안매월10만원을적금하면120만원과이자를받을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

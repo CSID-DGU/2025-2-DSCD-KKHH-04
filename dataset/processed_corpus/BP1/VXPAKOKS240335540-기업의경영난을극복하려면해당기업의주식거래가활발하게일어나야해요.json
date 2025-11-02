@@ -1,0 +1,308 @@
+{
+  "id": "VXPAKOKS240335540",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "기업의 경영난을 극복하려면 해당 기업의 주식 거래가 활발하게 일어나야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.156,
+        "end": 2.396,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.627,
+        "end": 2.993,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.273,
+        "end": 3.63,
+        "gloss_id": "어렵다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.907,
+        "end": 4.256,
+        "gloss_id": "회복1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.466,
+        "end": 4.63,
+        "gloss_id": "노력1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.911,
+        "end": 5.26,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.56,
+        "end": 5.783,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.918,
+        "end": 6.107,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.311,
+        "end": 6.551,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.768,
+        "end": 7.184,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.156,
+        "end": 2.396,
+        "loc": "0",
+        "word": "기업의"
+      },
+      {
+        "start": 2.627,
+        "end": 3.63,
+        "loc": "1",
+        "word": "경영난을"
+      },
+      {
+        "start": 3.907,
+        "end": 5.254,
+        "loc": "2",
+        "word": "극복하려면"
+      },
+      {
+        "start": 5.56,
+        "end": 5.783,
+        "loc": "3,4",
+        "word": "해당 기업의"
+      },
+      {
+        "start": 5.918,
+        "end": 6.107,
+        "loc": "5",
+        "word": "주식"
+      },
+      {
+        "start": 6.311,
+        "end": 6.551,
+        "loc": "6",
+        "word": "거래가"
+      },
+      {
+        "start": 6.768,
+        "end": 7.184,
+        "loc": "7,8,9",
+        "word": "활발하게 일어나야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.156,
+        "end": 2.396,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.627,
+        "end": 2.993,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.907,
+        "end": 4.256,
+        "gloss_id": "회복1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.466,
+        "end": 4.63,
+        "gloss_id": "노력1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.56,
+        "end": 5.783,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.918,
+        "end": 6.107,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.768,
+        "end": 7.184,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.768,
+        "end": 7.184
+      },
+      {
+        "descriptor": "",
+        "start": 4.911,
+        "end": 5.26
+      },
+      {
+        "descriptor": "",
+        "start": 3.273,
+        "end": 3.63
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.627,
+        "end": 3.614
+      },
+      {
+        "descriptor": "",
+        "start": 4.466,
+        "end": 4.63
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.466,
+        "end": 4.63
+      },
+      {
+        "descriptor": "",
+        "start": 6.768,
+        "end": 7.184
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.911,
+        "end": 5.26
+      },
+      {
+        "descriptor": "",
+        "start": 2.156,
+        "end": 2.396
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335540",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:43:52",
+    "sentence_ID": "VXPAKOKS240335540",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    302,
+    126
+  ],
+  "file": "VXPAKOKS240335540.mp4",
+  "saved_as": "VXPAKOKS240335540-기업의경영난을극복하려면해당기업의주식거래가활발하게일어나야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

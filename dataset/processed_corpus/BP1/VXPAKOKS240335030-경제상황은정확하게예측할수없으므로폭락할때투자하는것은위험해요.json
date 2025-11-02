@@ -1,0 +1,242 @@
+{
+  "id": "VXPAKOKS240335030",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "경제 상황은 정확하게 예측할 수 없으므로 폭락할 때 투자하는 것은 위험해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.44,
+        "end": 2.994,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.209,
+        "end": 3.515,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.786,
+        "end": 4.216,
+        "gloss_id": "미래1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.567,
+        "end": 5.098,
+        "gloss_id": "모르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.453,
+        "end": 5.713,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.961,
+        "end": 6.469,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.611,
+        "end": 6.91,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.086,
+        "end": 7.408,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.44,
+        "end": 2.994,
+        "loc": "0",
+        "word": "경제"
+      },
+      {
+        "start": 3.209,
+        "end": 3.515,
+        "loc": "1",
+        "word": "상황은"
+      },
+      {
+        "start": 3.786,
+        "end": 5.115,
+        "loc": "2,3,4,5",
+        "word": "정확하게 예측할 수 없으므로"
+      },
+      {
+        "start": 5.457,
+        "end": 6.469,
+        "loc": "6,7",
+        "word": "폭락할 때"
+      },
+      {
+        "start": 6.611,
+        "end": 6.91,
+        "loc": "8,9",
+        "word": "투자하는 것은"
+      },
+      {
+        "start": 7.086,
+        "end": 7.408,
+        "loc": "10",
+        "word": "위험해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.44,
+        "end": 2.994,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.209,
+        "end": 3.515,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.453,
+        "end": 5.713,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.961,
+        "end": 6.469,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.086,
+        "end": 7.408
+      },
+      {
+        "descriptor": "",
+        "start": 2.44,
+        "end": 2.994
+      },
+      {
+        "descriptor": "",
+        "start": 5.961,
+        "end": 6.469
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.786,
+        "end": 5.061
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.44,
+        "end": 3.513
+      },
+      {
+        "descriptor": "",
+        "start": 5.961,
+        "end": 6.469
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335030",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:08",
+    "sentence_ID": "VXPAKOKS240335030",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    279,
+    126
+  ],
+  "file": "VXPAKOKS240335030.mp4",
+  "saved_as": "VXPAKOKS240335030-경제상황은정확하게예측할수없으므로폭락할때투자하는것은위험해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,263 @@
+{
+  "id": "VXPAKOKS240334620",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식을 사고팔 때 내는 수수료를 줄이려면 어떻게 하나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.247,
+        "end": 3.433,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.645,
+        "end": 3.838,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.083,
+        "end": 4.81,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.089,
+        "end": 5.435,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.629,
+        "end": 5.975,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.268,
+        "end": 6.505,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.72,
+        "end": 6.979,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.234,
+        "end": 7.675,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.247,
+        "end": 3.433,
+        "loc": "0",
+        "word": "주식을"
+      },
+      {
+        "start": 3.645,
+        "end": 4.796,
+        "loc": "1,2",
+        "word": "사고팔 때"
+      },
+      {
+        "start": 5.089,
+        "end": 5.976,
+        "loc": "3,4",
+        "word": "내는 수수료를"
+      },
+      {
+        "start": 6.268,
+        "end": 6.958,
+        "loc": "5",
+        "word": "줄이려면"
+      },
+      {
+        "start": 7.234,
+        "end": 7.675,
+        "loc": "6,7",
+        "word": "어떻게 하나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.247,
+        "end": 3.433,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.645,
+        "end": 3.838,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.083,
+        "end": 4.81,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.089,
+        "end": 5.977,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.268,
+        "end": 6.958,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.234,
+        "end": 7.675,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.234,
+        "end": 7.675
+      },
+      {
+        "descriptor": "",
+        "start": 4.215,
+        "end": 4.81
+      },
+      {
+        "descriptor": "",
+        "start": 5.629,
+        "end": 5.975
+      },
+      {
+        "descriptor": "",
+        "start": 6.72,
+        "end": 6.979
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.215,
+        "end": 4.81
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.089,
+        "end": 6.949
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.247,
+        "end": 4.822
+      },
+      {
+        "descriptor": "",
+        "start": 7.234,
+        "end": 7.675
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334620",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:31:25",
+    "sentence_ID": "VXPAKOKS240334620",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    263,
+    126
+  ],
+  "file": "VXPAKOKS240334620.mp4",
+  "saved_as": "VXPAKOKS240334620-주식을사고팔때내는수수료를줄이려면어떻게하나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

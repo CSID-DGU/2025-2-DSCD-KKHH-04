@@ -1,0 +1,294 @@
+{
+  "id": "VXPAKOKS240341740",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "지금 갖고 있는 펀드 수익금을 정확하게 확인하기 위해 모바일 애플리케이션을 사용할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.229,
+        "end": 1.754,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.037,
+        "end": 2.284,
+        "gloss_id": "지금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.552,
+        "end": 2.723,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.949,
+        "end": 3.297,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.444,
+        "end": 3.773,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.965,
+        "end": 4.294,
+        "gloss_id": "궁금하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.473,
+        "end": 4.656,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.902,
+        "end": 5.212,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.375,
+        "end": 5.634,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.829,
+        "end": 6.285,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.491,
+        "end": 6.706,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.229,
+        "end": 1.754,
+        "loc": "3",
+        "word": "펀드"
+      },
+      {
+        "start": 2.037,
+        "end": 2.284,
+        "loc": "0,1,2",
+        "word": "지금 갖고 있는"
+      },
+      {
+        "start": 2.552,
+        "end": 3.287,
+        "loc": "4",
+        "word": "수익금을"
+      },
+      {
+        "start": 4.473,
+        "end": 4.656,
+        "loc": "8",
+        "word": "모바일"
+      },
+      {
+        "start": 4.902,
+        "end": 5.212,
+        "loc": "9",
+        "word": "애플리케이션을"
+      },
+      {
+        "start": 5.375,
+        "end": 5.634,
+        "loc": "10",
+        "word": "사용할"
+      },
+      {
+        "start": 5.829,
+        "end": 6.285,
+        "loc": "6",
+        "word": "확인하기"
+      },
+      {
+        "start": 6.491,
+        "end": 6.706,
+        "loc": "11,12",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.037,
+        "end": 2.721,
+        "gloss_id": "지금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.949,
+        "end": 3.297,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.902,
+        "end": 5.212,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.375,
+        "end": 5.634,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.965,
+        "end": 4.294
+      },
+      {
+        "descriptor": "",
+        "start": 4.902,
+        "end": 5.212
+      },
+      {
+        "descriptor": "",
+        "start": 5.375,
+        "end": 5.634
+      },
+      {
+        "descriptor": "",
+        "start": 6.491,
+        "end": 6.706
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.491,
+        "end": 6.706
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.965,
+        "end": 4.294
+      },
+      {
+        "descriptor": "",
+        "start": 1.229,
+        "end": 1.754
+      },
+      {
+        "descriptor": "",
+        "start": 5.375,
+        "end": 5.634
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341740",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:15:47",
+    "sentence_ID": "VXPAKOKS240341740",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    228,
+    126
+  ],
+  "file": "VXPAKOKS240341740.mp4",
+  "saved_as": "VXPAKOKS240341740-지금갖고있는펀드수익금을정확하게확인하기위해모바일애플리케이션을사용할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

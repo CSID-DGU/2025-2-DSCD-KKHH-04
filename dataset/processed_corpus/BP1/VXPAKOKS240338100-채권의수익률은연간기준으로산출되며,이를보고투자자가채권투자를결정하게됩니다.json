@@ -1,0 +1,402 @@
+{
+  "id": "VXPAKOKS240338100",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 수익률은 연간 기준으로 산출되며, 이를 보고 투자자가 채권 투자를 결정하게 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.826,
+        "end": 1.884,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.037,
+        "end": 2.265,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.452,
+        "end": 3.015,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.291,
+        "end": 3.833,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.018,
+        "end": 4.288,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.562,
+        "end": 5.051,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.414,
+        "end": 5.611,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.811,
+        "end": 6.092,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.322,
+        "end": 6.979,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.218,
+        "end": 7.593,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.876,
+        "end": 8.063,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.295,
+        "end": 8.67,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.925,
+        "end": 9.112,
+        "gloss_id": "생각2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.239,
+        "end": 9.426,
+        "gloss_id": "판단1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.594,
+        "end": 9.895,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.137,
+        "end": 10.376,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.818,
+        "end": 3.017,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 3.291,
+        "end": 4.292,
+        "loc": "2",
+        "word": "연간"
+      },
+      {
+        "start": 4.562,
+        "end": 5.051,
+        "loc": "4",
+        "word": "산출되며,"
+      },
+      {
+        "start": 5.414,
+        "end": 5.611,
+        "loc": "3",
+        "word": "기준으로"
+      },
+      {
+        "start": 5.811,
+        "end": 6.979,
+        "loc": "1",
+        "word": "수익률은"
+      },
+      {
+        "start": 7.218,
+        "end": 7.593,
+        "loc": "5,6,7",
+        "word": "이를 보고 투자자가"
+      },
+      {
+        "start": 7.876,
+        "end": 10.383,
+        "loc": "8,9,10,11",
+        "word": "채권 투자를 결정하게 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.452,
+        "end": 3.015,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.291,
+        "end": 3.833,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.018,
+        "end": 4.288,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.562,
+        "end": 5.051,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.414,
+        "end": 6.087,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.322,
+        "end": 6.978,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.876,
+        "end": 8.062,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.295,
+        "end": 8.67,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.239,
+        "end": 9.425,
+        "gloss_id": "판단1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.594,
+        "end": 9.895,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.137,
+        "end": 10.376,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일    년",
+        "start": 3.291,
+        "end": 3.833
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 10.137,
+        "end": 10.376
+      },
+      {
+        "descriptor": "",
+        "start": 2.536,
+        "end": 3.015
+      },
+      {
+        "descriptor": "",
+        "start": 6.468,
+        "end": 6.979
+      },
+      {
+        "descriptor": "",
+        "start": 8.295,
+        "end": 8.67
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.295,
+        "end": 8.67
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.218,
+        "end": 8.679
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 10.137,
+        "end": 10.376
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.322,
+        "end": 6.978
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338100",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:44",
+    "sentence_ID": "VXPAKOKS240338100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    376,
+    126
+  ],
+  "file": "VXPAKOKS240338100.mp4",
+  "saved_as": "VXPAKOKS240338100-채권의수익률은연간기준으로산출되며,이를보고투자자가채권투자를결정하게됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,325 @@
+{
+  "id": "VXPAKOKS240375190",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "주말에 은행 계좌를 만들고 싶다면 인터넷 뱅킹을 이용하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.518,
+        "end": 1.581,
+        "gloss_id": "토요일1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.743,
+        "end": 2.306,
+        "gloss_id": "일요일1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.473,
+        "end": 2.599,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.802,
+        "end": 3.029,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.227,
+        "end": 3.391,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.67,
+        "end": 3.752,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.911,
+        "end": 4.195,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.285,
+        "end": 4.443,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.602,
+        "end": 4.962,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.122,
+        "end": 5.33,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.518,
+        "end": 2.31,
+        "loc": "0",
+        "word": "주말에"
+      },
+      {
+        "start": 2.473,
+        "end": 2.599,
+        "loc": "1",
+        "word": "은행"
+      },
+      {
+        "start": 2.802,
+        "end": 3.029,
+        "loc": "2",
+        "word": "계좌를"
+      },
+      {
+        "start": 3.227,
+        "end": 3.391,
+        "loc": "3",
+        "word": "만들고"
+      },
+      {
+        "start": 3.67,
+        "end": 3.752,
+        "loc": "4",
+        "word": "싶다면"
+      },
+      {
+        "start": 3.911,
+        "end": 4.195,
+        "loc": "5",
+        "word": "인터넷"
+      },
+      {
+        "start": 4.285,
+        "end": 4.443,
+        "loc": "6",
+        "word": "뱅킹을"
+      },
+      {
+        "start": 4.602,
+        "end": 5.342,
+        "loc": "7",
+        "word": "이용하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.518,
+        "end": 1.581,
+        "gloss_id": "토요일1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.743,
+        "end": 2.306,
+        "gloss_id": "일요일1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.802,
+        "end": 3.029,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.227,
+        "end": 3.74,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.911,
+        "end": 4.195,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.285,
+        "end": 4.443,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.602,
+        "end": 4.962,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.122,
+        "end": 5.33,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.473,
+        "end": 2.599,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.743,
+        "end": 2.306
+      },
+      {
+        "descriptor": "",
+        "start": 3.67,
+        "end": 3.752
+      },
+      {
+        "descriptor": "",
+        "start": 4.602,
+        "end": 4.962
+      },
+      {
+        "descriptor": "",
+        "start": 5.122,
+        "end": 5.33
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.227,
+        "end": 3.746
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.122,
+        "end": 5.33
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.518,
+        "end": 2.278
+      },
+      {
+        "descriptor": "",
+        "start": 3.911,
+        "end": 4.461
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240375190",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:39:58",
+    "sentence_ID": "VXPAKOKS240375190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    228,
+    126
+  ],
+  "file": "VXPAKOKS240375190.mp4",
+  "saved_as": "VXPAKOKS240375190-주말에은행계좌를만들고싶다면인터넷뱅킹을이용하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,256 @@
+{
+  "id": "VXPAKOKS240328520",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "자신의 목표와 경제적인 상황에 맞는 적금을 선택하여 저축하는 습관을 만드세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.961,
+        "end": 2.129,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.313,
+        "end": 2.461,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.594,
+        "end": 3.349,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.597,
+        "end": 4.25,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.42,
+        "end": 4.594,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.74,
+        "end": 5.706,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.941,
+        "end": 6.511,
+        "gloss_id": "습관1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.766,
+        "end": 7.074,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.597,
+        "end": 4.25,
+        "loc": "1",
+        "word": "목표와"
+      },
+      {
+        "start": 5.941,
+        "end": 6.511,
+        "loc": "8",
+        "word": "습관을"
+      },
+      {
+        "start": 6.766,
+        "end": 7.074,
+        "loc": "9",
+        "word": "만드세요."
+      },
+      {
+        "start": 2.313,
+        "end": 3.337,
+        "loc": "2,3,4",
+        "word": "경제적인 상황에 맞는"
+      },
+      {
+        "start": 1.961,
+        "end": 2.129,
+        "loc": "0",
+        "word": "자신의"
+      },
+      {
+        "start": 4.42,
+        "end": 4.594,
+        "loc": "5,6",
+        "word": "적금을 선택하여"
+      },
+      {
+        "start": 4.74,
+        "end": 5.706,
+        "loc": "7",
+        "word": "저축하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.597,
+        "end": 4.25,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.42,
+        "end": 4.594,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.74,
+        "end": 5.706,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.941,
+        "end": 6.511,
+        "gloss_id": "습관1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.766,
+        "end": 7.074,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.856,
+        "end": 3.349
+      },
+      {
+        "descriptor": "",
+        "start": 3.859,
+        "end": 4.244
+      },
+      {
+        "descriptor": "",
+        "start": 5.283,
+        "end": 5.7
+      },
+      {
+        "descriptor": "",
+        "start": 6.766,
+        "end": 7.074
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.313,
+        "end": 2.461
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.74,
+        "end": 5.706
+      }
+    ],
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240328520",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:33:10",
+    "sentence_ID": "VXPAKOKS240328520",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240328520.mp4",
+  "saved_as": "VXPAKOKS240328520-자신의목표와경제적인상황에맞는적금을선택하여저축하는습관을만드세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

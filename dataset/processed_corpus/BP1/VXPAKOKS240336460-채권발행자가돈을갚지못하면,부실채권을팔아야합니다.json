@@ -1,0 +1,278 @@
+{
+  "id": "VXPAKOKS240336460",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 발행자가 돈을 갚지 못하면, 부실 채권을 팔아야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.91,
+        "end": 2.028,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.199,
+        "end": 2.442,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.753,
+        "end": 3.469,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.741,
+        "end": 4.249,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.624,
+        "end": 4.995,
+        "gloss_id": "못하다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.266,
+        "end": 5.645,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.013,
+        "end": 6.513,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.743,
+        "end": 6.986,
+        "gloss_id": "포기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.241,
+        "end": 7.588,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.741,
+        "end": 4.249,
+        "loc": "2,3",
+        "word": "돈을 갚지"
+      },
+      {
+        "start": 4.624,
+        "end": 5.642,
+        "loc": "4",
+        "word": "못하면,"
+      },
+      {
+        "start": 6.013,
+        "end": 6.505,
+        "loc": "5,6",
+        "word": "부실 채권을"
+      },
+      {
+        "start": 6.735,
+        "end": 7.588,
+        "loc": "7,8",
+        "word": "팔아야 합니다."
+      },
+      {
+        "start": 1.895,
+        "end": 3.469,
+        "loc": "0,1",
+        "word": "채권 발행자가"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.753,
+        "end": 3.469,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.741,
+        "end": 4.249,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.266,
+        "end": 5.645,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.013,
+        "end": 6.513,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.743,
+        "end": 6.986,
+        "gloss_id": "포기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.241,
+        "end": 7.588,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.241,
+        "end": 7.588
+      },
+      {
+        "descriptor": "",
+        "start": 2.753,
+        "end": 3.469
+      },
+      {
+        "descriptor": "",
+        "start": 5.266,
+        "end": 5.645
+      },
+      {
+        "descriptor": "",
+        "start": 6.013,
+        "end": 6.513
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 4.166,
+        "end": 4.298
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.904,
+        "end": 4.986
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.91,
+        "end": 3.265
+      },
+      {
+        "descriptor": "",
+        "start": 4.333,
+        "end": 4.977
+      },
+      {
+        "descriptor": "",
+        "start": 5.766,
+        "end": 6.513
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336460",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:05",
+    "sentence_ID": "VXPAKOKS240336460",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    289,
+    126
+  ],
+  "file": "VXPAKOKS240336460.mp4",
+  "saved_as": "VXPAKOKS240336460-채권발행자가돈을갚지못하면,부실채권을팔아야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,292 @@
+{
+  "id": "VXPAKOKS240341730",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 관리 애플리케이션은 투자자가 펀드 수익률을 즉시 확인할 수 있게 도와줍니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.43,
+        "end": 1.814,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.073,
+        "end": 2.75,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.942,
+        "end": 3.361,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.614,
+        "end": 3.916,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.09,
+        "end": 4.208,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.501,
+        "end": 4.932,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.109,
+        "end": 5.398,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.657,
+        "end": 6.027,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.205,
+        "end": 6.419,
+        "gloss_id": "지금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.675,
+        "end": 7.005,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.135,
+        "end": 7.383,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.43,
+        "end": 1.814,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 2.073,
+        "end": 2.75,
+        "loc": "1",
+        "word": "관리"
+      },
+      {
+        "start": 2.942,
+        "end": 3.913,
+        "loc": "2",
+        "word": "애플리케이션은"
+      },
+      {
+        "start": 4.09,
+        "end": 4.93,
+        "loc": "3",
+        "word": "투자자가"
+      },
+      {
+        "start": 5.109,
+        "end": 6.025,
+        "loc": "4,5",
+        "word": "펀드 수익률을"
+      },
+      {
+        "start": 6.205,
+        "end": 6.419,
+        "loc": "6",
+        "word": "즉시"
+      },
+      {
+        "start": 6.675,
+        "end": 7.005,
+        "loc": "7",
+        "word": "확인할"
+      },
+      {
+        "start": 7.135,
+        "end": 7.383,
+        "loc": "8,9,10",
+        "word": "수 있게 도와줍니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 5.41,
+        "end": 6.026,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.501,
+        "end": 4.932,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.205,
+        "end": 6.419,
+        "gloss_id": "지금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 2.942,
+        "end": 3.361
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.614,
+        "end": 3.916
+      },
+      {
+        "descriptor": "",
+        "start": 7.135,
+        "end": 7.383
+      },
+      {
+        "descriptor": "",
+        "start": 6.205,
+        "end": 6.419
+      },
+      {
+        "descriptor": "",
+        "start": 1.43,
+        "end": 1.814
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.135,
+        "end": 7.383
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.43,
+        "end": 2.74
+      },
+      {
+        "descriptor": "",
+        "start": 3.614,
+        "end": 3.916
+      },
+      {
+        "descriptor": "",
+        "start": 6.205,
+        "end": 6.419
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341730",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:15:45",
+    "sentence_ID": "VXPAKOKS240341730",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240341730.mp4",
+  "saved_as": "VXPAKOKS240341730-펀드관리애플리케이션은투자자가펀드수익률을즉시확인할수있게도와줍니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

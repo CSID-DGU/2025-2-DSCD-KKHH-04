@@ -1,0 +1,236 @@
+{
+  "id": "VXPAKOKS240331090",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "카드를 받고 사용등록을 하지 않으면 결제 시 사용이 거부될 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.187,
+        "end": 2.446,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.545,
+        "end": 3.17,
+        "gloss_id": "카드2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.429,
+        "end": 3.71,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.915,
+        "end": 4.156,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.494,
+        "end": 5.295,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.482,
+        "end": 5.781,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.938,
+        "end": 6.429,
+        "gloss_id": "막히다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.938,
+        "end": 6.429,
+        "loc": "8,9,10",
+        "word": "거부될 수 있어요."
+      },
+      {
+        "start": 5.482,
+        "end": 5.781,
+        "loc": "5,6,7",
+        "word": "결제 시 사용이"
+      },
+      {
+        "start": 2.187,
+        "end": 2.446,
+        "loc": "0",
+        "word": "카드를"
+      },
+      {
+        "start": 2.545,
+        "end": 3.17,
+        "loc": "1",
+        "word": "받고"
+      },
+      {
+        "start": 3.429,
+        "end": 4.161,
+        "loc": "2",
+        "word": "사용등록을"
+      },
+      {
+        "start": 4.498,
+        "end": 5.306,
+        "loc": "3,4",
+        "word": "하지 않으면"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.429,
+        "end": 3.71,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.915,
+        "end": 5.312,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.938,
+        "end": 6.429,
+        "gloss_id": "막히다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.545,
+        "end": 3.17
+      },
+      {
+        "descriptor": "",
+        "start": 4.494,
+        "end": 5.295
+      },
+      {
+        "descriptor": "",
+        "start": 5.938,
+        "end": 6.429
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.899,
+        "end": 3.17
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.494,
+        "end": 5.295
+      },
+      {
+        "descriptor": "",
+        "start": 5.938,
+        "end": 6.429
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 6.157,
+        "end": 6.429
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.187,
+        "end": 4.133
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331090",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:06:57",
+    "sentence_ID": "VXPAKOKS240331090",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    225,
+    126
+  ],
+  "file": "VXPAKOKS240331090.mp4",
+  "saved_as": "VXPAKOKS240331090-카드를받고사용등록을하지않으면결제시사용이거부될수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

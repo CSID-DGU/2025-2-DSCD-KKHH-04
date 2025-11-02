@@ -1,0 +1,281 @@
+{
+  "id": "VXPAKOKS240338990",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "회사채를 통해 투자자는 기업의 성장과 함께 높은 이익을 얻을 기회를 가집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.749,
+        "end": 2.057,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.175,
+        "end": 2.246,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.468,
+        "end": 2.625,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.854,
+        "end": 2.997,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.213,
+        "end": 4.005,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.398,
+        "end": 4.583,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.908,
+        "end": 5.365,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.694,
+        "end": 5.901,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.186,
+        "end": 6.507,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.784,
+        "end": 6.927,
+        "gloss_id": "기회1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.127,
+        "end": 7.37,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.749,
+        "end": 2.998,
+        "loc": "0,1",
+        "word": "회사채를 통해"
+      },
+      {
+        "start": 4.908,
+        "end": 5.365,
+        "loc": "4,5",
+        "word": "성장과 함께"
+      },
+      {
+        "start": 6.186,
+        "end": 6.507,
+        "loc": "6",
+        "word": "높은"
+      },
+      {
+        "start": 6.784,
+        "end": 7.377,
+        "loc": "9,10",
+        "word": "기회를 가집니다."
+      },
+      {
+        "start": 3.213,
+        "end": 4.005,
+        "loc": "2",
+        "word": "투자자는"
+      },
+      {
+        "start": 4.398,
+        "end": 4.583,
+        "loc": "3",
+        "word": "기업의"
+      },
+      {
+        "start": 5.694,
+        "end": 5.901,
+        "loc": "7,8",
+        "word": "이익을 얻을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.749,
+        "end": 2.057,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.854,
+        "end": 2.997,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.908,
+        "end": 5.365,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.784,
+        "end": 6.927,
+        "gloss_id": "기회1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.398,
+        "end": 4.583,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.527,
+        "end": 4.005
+      },
+      {
+        "descriptor": "",
+        "start": 6.186,
+        "end": 6.507
+      },
+      {
+        "descriptor": "",
+        "start": 7.127,
+        "end": 7.37
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.127,
+        "end": 7.37
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.749,
+        "end": 3.997
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338990",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:49:04",
+    "sentence_ID": "VXPAKOKS240338990",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240338990.mp4",
+  "saved_as": "VXPAKOKS240338990-회사채를통해투자자는기업의성장과함께높은이익을얻을기회를가집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

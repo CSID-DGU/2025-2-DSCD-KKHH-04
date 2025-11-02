@@ -1,0 +1,372 @@
+{
+  "id": "VXPAKOKS240376210",
+  "opertor": "label26",
+  "krlgg_sntenc": {
+    "koreanText": "필요하지 않은 금융 상품에 대해 거절하고, 계좌 개설 목적에 충실하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.708,
+        "end": 1.906,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.295,
+        "end": 2.724,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.963,
+        "end": 3.336,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.495,
+        "end": 3.995,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.139,
+        "end": 4.417,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.655,
+        "end": 4.964,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.624,
+        "end": 5.728,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.903,
+        "end": 6.053,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.196,
+        "end": 6.433,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.578,
+        "end": 6.824,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.174,
+        "end": 7.324,
+        "gloss_id": "집중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.499,
+        "end": 7.729,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.88,
+        "end": 6.966,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.708,
+        "end": 1.906,
+        "loc": "2",
+        "word": "금융"
+      },
+      {
+        "start": 5.903,
+        "end": 6.426,
+        "loc": "7",
+        "word": "개설"
+      },
+      {
+        "start": 6.578,
+        "end": 6.975,
+        "loc": "8",
+        "word": "목적에"
+      },
+      {
+        "start": 7.174,
+        "end": 7.729,
+        "loc": "9",
+        "word": "충실하세요."
+      },
+      {
+        "start": 5.624,
+        "end": 5.728,
+        "loc": "6",
+        "word": "계좌"
+      },
+      {
+        "start": 2.295,
+        "end": 2.724,
+        "loc": "3",
+        "word": "상품에"
+      },
+      {
+        "start": 2.963,
+        "end": 3.336,
+        "loc": "4",
+        "word": "대해"
+      },
+      {
+        "start": 3.495,
+        "end": 4.4,
+        "loc": "0,1",
+        "word": "필요하지 않은"
+      },
+      {
+        "start": 4.655,
+        "end": 4.964,
+        "loc": "5",
+        "word": "거절하고,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.708,
+        "end": 1.906,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.903,
+        "end": 6.053,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.578,
+        "end": 6.975,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.174,
+        "end": 7.324,
+        "gloss_id": "집중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.499,
+        "end": 7.729,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.295,
+        "end": 4.408,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.655,
+        "end": 4.964,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.624,
+        "end": 5.728,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.196,
+        "end": 6.433,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.495,
+        "end": 3.995
+      },
+      {
+        "descriptor": "",
+        "start": 4.655,
+        "end": 4.964
+      },
+      {
+        "descriptor": "",
+        "start": 6.578,
+        "end": 6.824
+      },
+      {
+        "descriptor": "",
+        "start": 7.174,
+        "end": 7.324
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 3.09,
+        "end": 3.487
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.174,
+        "end": 7.73
+      },
+      {
+        "descriptor": "",
+        "start": 2.963,
+        "end": 4.964
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.655,
+        "end": 4.964
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.708,
+        "end": 2.716
+      },
+      {
+        "descriptor": "",
+        "start": 5.903,
+        "end": 6.967
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240376210",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:44:52",
+    "sentence_ID": "VXPAKOKS240376210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240376210.mp4",
+  "saved_as": "VXPAKOKS240376210-필요하지않은금융상품에대해거절하고,계좌개설목적에충실하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

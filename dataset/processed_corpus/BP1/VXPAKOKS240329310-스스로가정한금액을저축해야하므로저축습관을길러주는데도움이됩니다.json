@@ -1,0 +1,279 @@
+{
+  "id": "VXPAKOKS240329310",
+  "opertor": "label24",
+  "krlgg_sntenc": {
+    "koreanText": "스스로가 정한 금액을 저축해야 하므로 저축 습관을 길러주는 데 도움이 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.144,
+        "end": 2.644,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.809,
+        "end": 3.117,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.348,
+        "end": 3.848,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.383,
+        "end": 4.961,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.381,
+        "end": 5.881,
+        "gloss_id": "자연1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.595,
+        "end": 6.921,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.047,
+        "end": 7.589,
+        "gloss_id": "습관1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.799,
+        "end": 8.101,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.809,
+        "end": 3.117,
+        "loc": "2",
+        "word": "금액을"
+      },
+      {
+        "start": 3.348,
+        "end": 3.848,
+        "loc": "1",
+        "word": "정한"
+      },
+      {
+        "start": 4.383,
+        "end": 4.961,
+        "loc": "3",
+        "word": "저축해야"
+      },
+      {
+        "start": 5.381,
+        "end": 5.881,
+        "loc": "4",
+        "word": "하므로"
+      },
+      {
+        "start": 6.595,
+        "end": 6.921,
+        "loc": "5",
+        "word": "저축"
+      },
+      {
+        "start": 7.047,
+        "end": 7.589,
+        "loc": "6,7,8",
+        "word": "습관을 길러주는 데"
+      },
+      {
+        "start": 7.799,
+        "end": 8.101,
+        "loc": "9,10",
+        "word": "도움이 됩니다."
+      },
+      {
+        "start": 2.144,
+        "end": 2.644,
+        "loc": "0",
+        "word": "스스로가"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.348,
+        "end": 3.848,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.383,
+        "end": 4.961,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.381,
+        "end": 5.881,
+        "gloss_id": "자연1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.595,
+        "end": 6.921,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.047,
+        "end": 7.589,
+        "gloss_id": "습관1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.144,
+        "end": 2.644
+      },
+      {
+        "descriptor": "",
+        "start": 3.348,
+        "end": 3.848
+      },
+      {
+        "descriptor": "",
+        "start": 4.383,
+        "end": 4.961
+      },
+      {
+        "descriptor": "",
+        "start": 5.381,
+        "end": 5.881
+      },
+      {
+        "descriptor": "",
+        "start": 7.799,
+        "end": 8.101
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.381,
+        "end": 5.881
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.383,
+        "end": 4.961
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.144,
+        "end": 2.644
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 4.383,
+        "end": 4.961
+      }
+    ],
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240329310",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:06:23",
+    "sentence_ID": "VXPAKOKS240329310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    259,
+    126
+  ],
+  "file": "VXPAKOKS240329310.mp4",
+  "saved_as": "VXPAKOKS240329310-스스로가정한금액을저축해야하므로저축습관을길러주는데도움이됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

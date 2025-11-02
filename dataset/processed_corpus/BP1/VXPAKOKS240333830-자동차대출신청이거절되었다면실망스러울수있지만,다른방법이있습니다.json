@@ -1,0 +1,259 @@
+{
+  "id": "VXPAKOKS240333830",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "자동차 대출 신청이 거절되었다면 실망스러울 수 있지만, 다른 방법이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.661,
+        "end": 2.922,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.205,
+        "end": 4.021,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.485,
+        "end": 4.781,
+        "gloss_id": "막히다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.066,
+        "end": 5.334,
+        "gloss_id": "우울1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.586,
+        "end": 5.819,
+        "gloss_id": "맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.053,
+        "end": 6.208,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.338,
+        "end": 6.578,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.862,
+        "end": 7.074,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.205,
+        "end": 4.021,
+        "loc": "1",
+        "word": "대출"
+      },
+      {
+        "start": 4.485,
+        "end": 4.781,
+        "loc": "2,3",
+        "word": "신청이 거절되었다면"
+      },
+      {
+        "start": 5.066,
+        "end": 5.791,
+        "loc": "4,5,6",
+        "word": "실망스러울 수 있지만,"
+      },
+      {
+        "start": 6.053,
+        "end": 6.208,
+        "loc": "7",
+        "word": "다른"
+      },
+      {
+        "start": 6.338,
+        "end": 6.578,
+        "loc": "8",
+        "word": "방법이"
+      },
+      {
+        "start": 6.862,
+        "end": 7.074,
+        "loc": "9",
+        "word": "있습니다."
+      },
+      {
+        "start": 2.661,
+        "end": 2.922,
+        "loc": "0",
+        "word": "자동차"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.485,
+        "end": 4.781,
+        "gloss_id": "막히다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.053,
+        "end": 6.208,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.338,
+        "end": 6.578,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.661,
+        "end": 4.025,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.478,
+        "end": 4.006
+      },
+      {
+        "descriptor": "",
+        "start": 4.485,
+        "end": 4.781
+      },
+      {
+        "descriptor": "",
+        "start": 5.586,
+        "end": 5.819
+      },
+      {
+        "descriptor": "",
+        "start": 6.862,
+        "end": 7.074
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.485,
+        "end": 4.781
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.381,
+        "end": 4.021
+      },
+      {
+        "descriptor": "",
+        "start": 4.485,
+        "end": 5.814
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.661,
+        "end": 3.266
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333830",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:24:37",
+    "sentence_ID": "VXPAKOKS240333830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    253,
+    126
+  ],
+  "file": "VXPAKOKS240333830.mp4",
+  "saved_as": "VXPAKOKS240333830-자동차대출신청이거절되었다면실망스러울수있지만,다른방법이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

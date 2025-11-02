@@ -1,0 +1,309 @@
+{
+  "id": "VXPAKOKS240342510",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자 계획을 꼼꼼히 세우면 투자 수익을 늘리고 세금 부담을 줄일 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.195,
+        "end": 1.458,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.679,
+        "end": 2.148,
+        "gloss_id": "계획2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.434,
+        "end": 3.059,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.299,
+        "end": 3.505,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.794,
+        "end": 3.913,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.261,
+        "end": 4.58,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.989,
+        "end": 5.308,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.491,
+        "end": 5.609,
+        "gloss_id": "부담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.805,
+        "end": 6.043,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.253,
+        "end": 6.466,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.195,
+        "end": 1.458,
+        "loc": "0,1",
+        "word": "펀드 투자"
+      },
+      {
+        "start": 1.679,
+        "end": 2.148,
+        "loc": "2",
+        "word": "계획을"
+      },
+      {
+        "start": 2.434,
+        "end": 3.059,
+        "loc": "3,4",
+        "word": "꼼꼼히 세우면"
+      },
+      {
+        "start": 3.299,
+        "end": 3.505,
+        "loc": "5",
+        "word": "투자"
+      },
+      {
+        "start": 3.794,
+        "end": 3.913,
+        "loc": "6",
+        "word": "수익을"
+      },
+      {
+        "start": 4.261,
+        "end": 4.58,
+        "loc": "7",
+        "word": "늘리고"
+      },
+      {
+        "start": 4.989,
+        "end": 5.308,
+        "loc": "8",
+        "word": "세금"
+      },
+      {
+        "start": 5.491,
+        "end": 5.609,
+        "loc": "9",
+        "word": "부담을"
+      },
+      {
+        "start": 5.805,
+        "end": 6.043,
+        "loc": "10",
+        "word": "줄일"
+      },
+      {
+        "start": 6.253,
+        "end": 6.466,
+        "loc": "11,12",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.679,
+        "end": 2.148,
+        "gloss_id": "계획2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.434,
+        "end": 3.059,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.261,
+        "end": 4.58,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.989,
+        "end": 5.608,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.805,
+        "end": 6.043,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.434,
+        "end": 3.059
+      },
+      {
+        "descriptor": "",
+        "start": 4.261,
+        "end": 4.58
+      },
+      {
+        "descriptor": "",
+        "start": 5.805,
+        "end": 6.043
+      },
+      {
+        "descriptor": "",
+        "start": 6.253,
+        "end": 6.466
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.253,
+        "end": 6.466
+      },
+      {
+        "descriptor": "",
+        "start": 4.261,
+        "end": 4.449
+      },
+      {
+        "descriptor": "",
+        "start": 4.475,
+        "end": 4.588
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.195,
+        "end": 3.07
+      },
+      {
+        "descriptor": "",
+        "start": 4.261,
+        "end": 4.58
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342510",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:22:23",
+    "sentence_ID": "VXPAKOKS240342510",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    225,
+    126
+  ],
+  "file": "VXPAKOKS240342510.mp4",
+  "saved_as": "VXPAKOKS240342510-펀드투자계획을꼼꼼히세우면투자수익을늘리고세금부담을줄일수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,389 @@
+{
+  "id": "VXPAKOKS240338470",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장의 금리 정책에 대한 기대가 채권 시장에 미치는 영향은 있습니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.59,
+        "end": 1.883,
+        "gloss_id": "감정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.178,
+        "end": 2.954,
+        "gloss_id": "마음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.369,
+        "end": 3.507,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.1,
+        "end": 4.195,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.429,
+        "end": 4.602,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.991,
+        "end": 5.293,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.444,
+        "end": 5.53,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.675,
+        "end": 5.822,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.073,
+        "end": 6.504,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.861,
+        "end": 6.947,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.152,
+        "end": 7.489,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.701,
+        "end": 7.83,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.122,
+        "end": 8.208,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.506,
+        "end": 8.636,
+        "gloss_id": "영향1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.929,
+        "end": 9.222,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.637,
+        "end": 3.84,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.369,
+        "end": 3.834,
+        "loc": "2",
+        "word": "금리"
+      },
+      {
+        "start": 4.099,
+        "end": 5.288,
+        "loc": "3,4",
+        "word": "정책에 대한"
+      },
+      {
+        "start": 5.444,
+        "end": 6.478,
+        "loc": "6",
+        "word": "채권"
+      },
+      {
+        "start": 7.696,
+        "end": 8.636,
+        "loc": "8,9",
+        "word": "미치는 영향은"
+      },
+      {
+        "start": 8.929,
+        "end": 9.222,
+        "loc": "10",
+        "word": "있습니까?"
+      },
+      {
+        "start": 1.59,
+        "end": 2.952,
+        "loc": "5",
+        "word": "기대가"
+      },
+      {
+        "start": 6.861,
+        "end": 7.481,
+        "loc": "7",
+        "word": "시장에"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.178,
+        "end": 2.954,
+        "gloss_id": "마음1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.1,
+        "end": 4.195,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.429,
+        "end": 4.602,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.701,
+        "end": 7.83,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.122,
+        "end": 8.208,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.515,
+        "end": 8.636,
+        "gloss_id": "영향1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.073,
+        "end": 6.504,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.152,
+        "end": 7.489,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.637,
+        "end": 3.84,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.178,
+        "end": 2.954
+      },
+      {
+        "descriptor": "",
+        "start": 4.991,
+        "end": 5.293
+      },
+      {
+        "descriptor": "",
+        "start": 6.073,
+        "end": 6.504
+      },
+      {
+        "descriptor": "",
+        "start": 8.929,
+        "end": 9.222
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.122,
+        "end": 8.208
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.59,
+        "end": 2.943
+      },
+      {
+        "descriptor": "",
+        "start": 6.861,
+        "end": 8.206
+      },
+      {
+        "descriptor": "",
+        "start": 4.991,
+        "end": 5.293
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.444,
+        "end": 6.487
+      },
+      {
+        "descriptor": "",
+        "start": 8.515,
+        "end": 9.205
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338470",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:39:22",
+    "sentence_ID": "VXPAKOKS240338470",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    310,
+    126
+  ],
+  "file": "VXPAKOKS240338470.mp4",
+  "saved_as": "VXPAKOKS240338470-채권시장의금리정책에대한기대가채권시장에미치는영향은있습니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

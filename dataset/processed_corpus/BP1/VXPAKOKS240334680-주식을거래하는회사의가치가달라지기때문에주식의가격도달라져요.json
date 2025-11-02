@@ -1,0 +1,254 @@
+{
+  "id": "VXPAKOKS240334680",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식을 거래하는 회사의 가치가 달라지기 때문에 주식의 가격도 달라져요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.979,
+        "end": 2.111,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.329,
+        "end": 3.044,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.318,
+        "end": 3.793,
+        "gloss_id": "오르내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.071,
+        "end": 4.362,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.549,
+        "end": 4.783,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.356,
+        "end": 5.976,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.984,
+        "end": 5.237,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.549,
+        "end": 4.783,
+        "loc": "6",
+        "word": "주식의"
+      },
+      {
+        "start": 1.979,
+        "end": 3.036,
+        "loc": "0,1,2",
+        "word": "주식을 거래하는 회사의"
+      },
+      {
+        "start": 3.318,
+        "end": 3.793,
+        "loc": "3,4",
+        "word": "가치가 달라지기"
+      },
+      {
+        "start": 4.071,
+        "end": 4.362,
+        "loc": "5",
+        "word": "때문에"
+      },
+      {
+        "start": 4.984,
+        "end": 5.237,
+        "loc": "7",
+        "word": "가격도"
+      },
+      {
+        "start": 5.356,
+        "end": 5.976,
+        "loc": "8",
+        "word": "달라져요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.979,
+        "end": 2.111,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.329,
+        "end": 3.044,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.071,
+        "end": 4.362,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.549,
+        "end": 4.783,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.356,
+        "end": 5.976,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.984,
+        "end": 5.237,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.329,
+        "end": 3.044
+      },
+      {
+        "descriptor": "",
+        "start": 4.071,
+        "end": 4.362
+      },
+      {
+        "descriptor": "",
+        "start": 5.356,
+        "end": 5.976
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.071,
+        "end": 4.362
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.318,
+        "end": 4.357
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.979,
+        "end": 2.111
+      },
+      {
+        "descriptor": "",
+        "start": 4.549,
+        "end": 4.992
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334680",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:31:45",
+    "sentence_ID": "VXPAKOKS240334680",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    228,
+    126
+  ],
+  "file": "VXPAKOKS240334680.mp4",
+  "saved_as": "VXPAKOKS240334680-주식을거래하는회사의가치가달라지기때문에주식의가격도달라져요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,193 @@
+{
+  "id": "VXPAKOKS240343130",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "통장을 스캔하여 디지털 파일로 만들 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.031,
+        "end": 2.486,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.866,
+        "end": 3.934,
+        "gloss_id": "스캐너1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.261,
+        "end": 4.863,
+        "gloss_id": "파일",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.06,
+        "end": 5.33,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.526,
+        "end": 5.713,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.031,
+        "end": 2.486,
+        "loc": "0",
+        "word": "통장을"
+      },
+      {
+        "start": 2.866,
+        "end": 3.934,
+        "loc": "1",
+        "word": "스캔하여"
+      },
+      {
+        "start": 5.526,
+        "end": 5.713,
+        "loc": "5,6",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 4.261,
+        "end": 5.342,
+        "loc": "2,3,4",
+        "word": "디지털 파일로 만들"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.031,
+        "end": 2.486,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.866,
+        "end": 4.867,
+        "gloss_id": "스캐너1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.06,
+        "end": 5.713,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "파일",
+        "start": 4.261,
+        "end": 4.863
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.526,
+        "end": 5.713
+      },
+      {
+        "descriptor": "",
+        "start": 2.031,
+        "end": 2.293
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.526,
+        "end": 5.713
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.031,
+        "end": 2.155
+      },
+      {
+        "descriptor": "",
+        "start": 4.261,
+        "end": 4.863
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343130",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:30:17",
+    "sentence_ID": "VXPAKOKS240343130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240343130.mp4",
+  "saved_as": "VXPAKOKS240343130-통장을스캔하여디지털파일로만들수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

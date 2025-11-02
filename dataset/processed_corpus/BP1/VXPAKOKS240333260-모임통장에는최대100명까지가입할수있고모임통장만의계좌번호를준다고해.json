@@ -1,0 +1,407 @@
+{
+  "id": "VXPAKOKS240333260",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "모임 통장에는 최대 100명까지 가입할 수 있고 모임 통장만의 계좌 번호를 준다고 해.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.604,
+        "end": 2.79,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.064,
+        "end": 3.192,
+        "gloss_id": "도장3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.36,
+        "end": 3.909,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.493,
+        "end": 4.709,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.977,
+        "end": 5.232,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.458,
+        "end": 5.635,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.984,
+        "end": 6.308,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.625,
+        "end": 7.007,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.291,
+        "end": 7.399,
+        "gloss_id": "도장3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.606,
+        "end": 7.812,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.986,
+        "end": 8.418,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.695,
+        "end": 8.833,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.006,
+        "end": 9.192,
+        "gloss_id": "숫자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.372,
+        "end": 9.608,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.787,
+        "end": 9.915,
+        "gloss_id": "말하다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.604,
+        "end": 2.79,
+        "loc": "0",
+        "word": "모임"
+      },
+      {
+        "start": 3.064,
+        "end": 3.906,
+        "loc": "1",
+        "word": "통장에는"
+      },
+      {
+        "start": 4.174,
+        "end": 5.241,
+        "loc": "2,3",
+        "word": "최대 100명까지"
+      },
+      {
+        "start": 5.458,
+        "end": 5.635,
+        "loc": "4",
+        "word": "가입할"
+      },
+      {
+        "start": 5.984,
+        "end": 6.308,
+        "loc": "5,6",
+        "word": "수 있고"
+      },
+      {
+        "start": 6.625,
+        "end": 7.007,
+        "loc": "7",
+        "word": "모임"
+      },
+      {
+        "start": 7.291,
+        "end": 8.838,
+        "loc": "8,9",
+        "word": "통장만의 계좌"
+      },
+      {
+        "start": 9.006,
+        "end": 9.192,
+        "loc": "10",
+        "word": "번호를"
+      },
+      {
+        "start": 9.372,
+        "end": 9.892,
+        "loc": "11,12",
+        "word": "준다고 해."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.36,
+        "end": 3.909,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.174,
+        "end": 4.713,
+        "gloss_id": "100",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.977,
+        "end": 5.232,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.458,
+        "end": 5.635,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.291,
+        "end": 7.399,
+        "gloss_id": "도장3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.064,
+        "end": 3.192,
+        "gloss_id": "도장3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.606,
+        "end": 7.812,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.986,
+        "end": 8.418,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.695,
+        "end": 8.833,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "백",
+        "start": 4.174,
+        "end": 4.674
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.36,
+        "end": 3.909
+      },
+      {
+        "descriptor": "",
+        "start": 4.977,
+        "end": 5.232
+      },
+      {
+        "descriptor": "",
+        "start": 5.984,
+        "end": 6.308
+      },
+      {
+        "descriptor": "",
+        "start": 6.625,
+        "end": 7.007
+      },
+      {
+        "descriptor": "",
+        "start": 7.606,
+        "end": 7.812
+      },
+      {
+        "descriptor": "",
+        "start": 7.986,
+        "end": 8.418
+      },
+      {
+        "descriptor": "",
+        "start": 9.372,
+        "end": 9.608
+      },
+      {
+        "descriptor": "",
+        "start": 9.787,
+        "end": 9.915
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.984,
+        "end": 6.308
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.986,
+        "end": 8.418
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.604,
+        "end": 3.945
+      },
+      {
+        "descriptor": "",
+        "start": 6.625,
+        "end": 8.436
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333260",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:08",
+    "sentence_ID": "VXPAKOKS240333260",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    352,
+    126
+  ],
+  "file": "VXPAKOKS240333260.mp4",
+  "saved_as": "VXPAKOKS240333260-모임통장에는최대100명까지가입할수있고모임통장만의계좌번호를준다고해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,379 @@
+{
+  "id": "VXPAKOKS240341830",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "주식형 펀드나 채권형 펀드는 투자자가 원할 때, 간편하게 투자금을 추가로 납부할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.086,
+        "end": 1.289,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.492,
+        "end": 2.024,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.258,
+        "end": 2.336,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.491,
+        "end": 2.616,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.803,
+        "end": 3.123,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.334,
+        "end": 3.6,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.769,
+        "end": 4.355,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.657,
+        "end": 4.79,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.003,
+        "end": 5.253,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.391,
+        "end": 5.524,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.688,
+        "end": 6.086,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.219,
+        "end": 6.399,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.602,
+        "end": 7.125,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.418,
+        "end": 7.629,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.899,
+        "end": 8.086,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.216,
+        "end": 8.576,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.086,
+        "end": 2.015,
+        "loc": "0",
+        "word": "주식형"
+      },
+      {
+        "start": 2.258,
+        "end": 3.602,
+        "loc": "2",
+        "word": "채권형"
+      },
+      {
+        "start": 3.769,
+        "end": 4.355,
+        "loc": "3",
+        "word": "펀드는"
+      },
+      {
+        "start": 4.657,
+        "end": 5.251,
+        "loc": "4",
+        "word": "투자자가"
+      },
+      {
+        "start": 6.602,
+        "end": 7.125,
+        "loc": "5,6",
+        "word": "원할 때,"
+      },
+      {
+        "start": 7.899,
+        "end": 8.094,
+        "loc": "11,12",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 8.216,
+        "end": 8.576,
+        "loc": "7",
+        "word": "간편하게"
+      },
+      {
+        "start": 7.418,
+        "end": 7.629,
+        "loc": "10",
+        "word": "납부할"
+      },
+      {
+        "start": 5.391,
+        "end": 6.391,
+        "loc": "8,9",
+        "word": "투자금을 추가로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.492,
+        "end": 2.024,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.334,
+        "end": 3.6,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.688,
+        "end": 6.086,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.216,
+        "end": 8.576,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.086,
+        "end": 1.289,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.803,
+        "end": 3.123,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.003,
+        "end": 5.253,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.602,
+        "end": 7.125
+      },
+      {
+        "descriptor": "",
+        "start": 1.492,
+        "end": 2.024
+      },
+      {
+        "descriptor": "",
+        "start": 3.769,
+        "end": 4.355
+      },
+      {
+        "descriptor": "",
+        "start": 8.216,
+        "end": 8.576
+      },
+      {
+        "descriptor": "",
+        "start": 3.334,
+        "end": 3.6
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.899,
+        "end": 8.086
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.227,
+        "end": 7.125
+      },
+      {
+        "descriptor": "",
+        "start": 3.334,
+        "end": 4.342
+      },
+      {
+        "descriptor": "",
+        "start": 1.086,
+        "end": 1.289
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341830",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:16:30",
+    "sentence_ID": "VXPAKOKS240341830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    281,
+    126
+  ],
+  "file": "VXPAKOKS240341830.mp4",
+  "saved_as": "VXPAKOKS240341830-주식형펀드나채권형펀드는투자자가원할때,간편하게투자금을추가로납부할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

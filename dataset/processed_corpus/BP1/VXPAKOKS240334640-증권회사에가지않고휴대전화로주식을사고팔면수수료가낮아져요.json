@@ -1,0 +1,358 @@
+{
+  "id": "VXPAKOKS240334640",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "증권회사에 가지 않고 휴대전화로 주식을 사고팔면 수수료가 낮아져요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.775,
+        "end": 2.889,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.064,
+        "end": 3.353,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.565,
+        "end": 3.678,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.991,
+        "end": 4.324,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.646,
+        "end": 5.102,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.387,
+        "end": 5.711,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.142,
+        "end": 6.536,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.732,
+        "end": 7.003,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.256,
+        "end": 7.44,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.728,
+        "end": 8.061,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.336,
+        "end": 8.555,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.705,
+        "end": 9.064,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.775,
+        "end": 3.68,
+        "loc": "0",
+        "word": "증권회사에"
+      },
+      {
+        "start": 3.991,
+        "end": 4.324,
+        "loc": "1",
+        "word": "가지"
+      },
+      {
+        "start": 4.646,
+        "end": 5.102,
+        "loc": "2",
+        "word": "않고"
+      },
+      {
+        "start": 5.387,
+        "end": 6.519,
+        "loc": "3",
+        "word": "휴대전화로"
+      },
+      {
+        "start": 6.732,
+        "end": 7.003,
+        "loc": "4",
+        "word": "주식을"
+      },
+      {
+        "start": 7.256,
+        "end": 8.055,
+        "loc": "5",
+        "word": "사고팔면"
+      },
+      {
+        "start": 8.336,
+        "end": 8.555,
+        "loc": "6",
+        "word": "수수료가"
+      },
+      {
+        "start": 8.705,
+        "end": 9.064,
+        "loc": "7",
+        "word": "낮아져요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.064,
+        "end": 3.678,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.991,
+        "end": 4.324,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.646,
+        "end": 5.102,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.142,
+        "end": 6.536,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.732,
+        "end": 7.003,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.256,
+        "end": 7.44,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.728,
+        "end": 8.061,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.336,
+        "end": 8.555,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.705,
+        "end": 9.064,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.775,
+        "end": 2.889,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.705,
+        "end": 9.064
+      },
+      {
+        "descriptor": "",
+        "start": 4.646,
+        "end": 5.102
+      },
+      {
+        "descriptor": "",
+        "start": 5.387,
+        "end": 5.711
+      },
+      {
+        "descriptor": "",
+        "start": 6.142,
+        "end": 6.536
+      },
+      {
+        "descriptor": "",
+        "start": 7.728,
+        "end": 8.061
+      },
+      {
+        "descriptor": "",
+        "start": 3.565,
+        "end": 3.678
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.728,
+        "end": 8.061
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.991,
+        "end": 4.324
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.387,
+        "end": 8.03
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334640",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:31:31",
+    "sentence_ID": "VXPAKOKS240334640",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    316,
+    126
+  ],
+  "file": "VXPAKOKS240334640.mp4",
+  "saved_as": "VXPAKOKS240334640-증권회사에가지않고휴대전화로주식을사고팔면수수료가낮아져요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

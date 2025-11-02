@@ -1,0 +1,280 @@
+{
+  "id": "VXPAKOKS240333730",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "차량을 구매하기 전에, 차종과 모델에 대한 정확한 정보를 확인해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.822,
+        "end": 2.958,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.212,
+        "end": 3.391,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.653,
+        "end": 4.11,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.389,
+        "end": 4.481,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.742,
+        "end": 4.963,
+        "gloss_id": "이름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.248,
+        "end": 5.605,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.916,
+        "end": 6.366,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.551,
+        "end": 6.708,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.927,
+        "end": 7.291,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.822,
+        "end": 2.958,
+        "loc": "0",
+        "word": "차량을"
+      },
+      {
+        "start": 3.212,
+        "end": 3.391,
+        "loc": "1",
+        "word": "구매하기"
+      },
+      {
+        "start": 3.653,
+        "end": 4.11,
+        "loc": "2",
+        "word": "전에,"
+      },
+      {
+        "start": 6.551,
+        "end": 7.286,
+        "loc": "8,9",
+        "word": "확인해야 합니다."
+      },
+      {
+        "start": 4.389,
+        "end": 5.594,
+        "loc": "3,4,5",
+        "word": "차종과 모델에 대한"
+      },
+      {
+        "start": 5.916,
+        "end": 6.366,
+        "loc": "6,7",
+        "word": "정확한 정보를"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.822,
+        "end": 2.958,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.212,
+        "end": 3.39,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.653,
+        "end": 4.11,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.248,
+        "end": 5.605,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.916,
+        "end": 6.366,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.927,
+        "end": 7.291,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.389,
+        "end": 4.481,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.927,
+        "end": 7.291
+      },
+      {
+        "descriptor": "",
+        "start": 3.212,
+        "end": 3.391
+      },
+      {
+        "descriptor": "",
+        "start": 3.653,
+        "end": 4.11
+      },
+      {
+        "descriptor": "",
+        "start": 5.248,
+        "end": 5.605
+      },
+      {
+        "descriptor": "",
+        "start": 6.016,
+        "end": 6.366
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.822,
+        "end": 4.122
+      },
+      {
+        "descriptor": "",
+        "start": 5.248,
+        "end": 5.605
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333730",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:24:12",
+    "sentence_ID": "VXPAKOKS240333730",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240333730.mp4",
+  "saved_as": "VXPAKOKS240333730-차량을구매하기전에,차종과모델에대한정확한정보를확인해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

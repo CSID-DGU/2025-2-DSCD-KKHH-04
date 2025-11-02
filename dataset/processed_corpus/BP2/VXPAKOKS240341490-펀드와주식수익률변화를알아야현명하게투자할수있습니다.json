@@ -1,0 +1,264 @@
+{
+  "id": "VXPAKOKS240341490",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "펀드와 주식 수익률 변화를 알아야 현명하게 투자할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.33,
+        "end": 1.836,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.287,
+        "end": 2.665,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.924,
+        "end": 3.063,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.369,
+        "end": 3.826,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.163,
+        "end": 4.486,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.725,
+        "end": 5.121,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.371,
+        "end": 5.547,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.76,
+        "end": 6.064,
+        "gloss_id": "지혜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.296,
+        "end": 6.478,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.33,
+        "end": 1.836,
+        "loc": "0",
+        "word": "펀드와"
+      },
+      {
+        "start": 2.287,
+        "end": 2.665,
+        "loc": "1",
+        "word": "주식"
+      },
+      {
+        "start": 2.924,
+        "end": 3.816,
+        "loc": "2",
+        "word": "수익률"
+      },
+      {
+        "start": 4.163,
+        "end": 4.486,
+        "loc": "3",
+        "word": "변화를"
+      },
+      {
+        "start": 4.725,
+        "end": 5.121,
+        "loc": "4",
+        "word": "알아야"
+      },
+      {
+        "start": 5.371,
+        "end": 5.547,
+        "loc": "6",
+        "word": "투자할"
+      },
+      {
+        "start": 5.76,
+        "end": 6.064,
+        "loc": "5",
+        "word": "현명하게"
+      },
+      {
+        "start": 6.296,
+        "end": 6.478,
+        "loc": "7,8",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.287,
+        "end": 2.665,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.369,
+        "end": 3.826,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.163,
+        "end": 4.486,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.76,
+        "end": 6.064,
+        "gloss_id": "지혜1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.33,
+        "end": 1.836
+      },
+      {
+        "descriptor": "",
+        "start": 2.287,
+        "end": 2.665
+      },
+      {
+        "descriptor": "",
+        "start": 3.369,
+        "end": 3.826
+      },
+      {
+        "descriptor": "",
+        "start": 4.725,
+        "end": 5.121
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.296,
+        "end": 6.478
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.33,
+        "end": 5.163
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341490",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:13:59",
+    "sentence_ID": "VXPAKOKS240341490",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    220,
+    126
+  ],
+  "file": "VXPAKOKS240341490.mp4",
+  "saved_as": "VXPAKOKS240341490-펀드와주식수익률변화를알아야현명하게투자할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

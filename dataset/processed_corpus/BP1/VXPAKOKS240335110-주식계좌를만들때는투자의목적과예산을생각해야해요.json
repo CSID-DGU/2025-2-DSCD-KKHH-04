@@ -1,0 +1,256 @@
+{
+  "id": "VXPAKOKS240335110",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 계좌를 만들 때는 투자의 목적과 예산을 생각해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.695,
+        "end": 2.924,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.244,
+        "end": 3.424,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.769,
+        "end": 4.169,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.5,
+        "end": 4.758,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.045,
+        "end": 5.31,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.621,
+        "end": 6.107,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.477,
+        "end": 6.635,
+        "gloss_id": "생각2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.972,
+        "end": 7.258,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.695,
+        "end": 2.924,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 3.244,
+        "end": 3.424,
+        "loc": "1",
+        "word": "계좌를"
+      },
+      {
+        "start": 3.769,
+        "end": 4.169,
+        "loc": "2,3",
+        "word": "만들 때는"
+      },
+      {
+        "start": 4.5,
+        "end": 4.758,
+        "loc": "4",
+        "word": "투자의"
+      },
+      {
+        "start": 5.045,
+        "end": 5.31,
+        "loc": "5",
+        "word": "목적과"
+      },
+      {
+        "start": 5.621,
+        "end": 6.107,
+        "loc": "6",
+        "word": "예산을"
+      },
+      {
+        "start": 6.477,
+        "end": 6.635,
+        "loc": "7",
+        "word": "생각해야"
+      },
+      {
+        "start": 6.972,
+        "end": 7.258,
+        "loc": "8",
+        "word": "해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.695,
+        "end": 2.924,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.769,
+        "end": 4.169,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.045,
+        "end": 5.31,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.972,
+        "end": 7.258,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.244,
+        "end": 3.424,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.769,
+        "end": 4.169
+      },
+      {
+        "descriptor": "",
+        "start": 5.045,
+        "end": 5.31
+      },
+      {
+        "descriptor": "",
+        "start": 6.477,
+        "end": 6.635
+      },
+      {
+        "descriptor": "",
+        "start": 6.972,
+        "end": 7.258
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.244,
+        "end": 4.157
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335110",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:35",
+    "sentence_ID": "VXPAKOKS240335110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    256,
+    126
+  ],
+  "file": "VXPAKOKS240335110.mp4",
+  "saved_as": "VXPAKOKS240335110-주식계좌를만들때는투자의목적과예산을생각해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

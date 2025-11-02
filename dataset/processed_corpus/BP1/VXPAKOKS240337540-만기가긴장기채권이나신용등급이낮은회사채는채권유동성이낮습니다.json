@@ -1,0 +1,366 @@
+{
+  "id": "VXPAKOKS240337540",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "만기가 긴 장기 채권이나 신용 등급이 낮은 회사채는 채권 유동성이 낮습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.21,
+        "end": 2.293,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.505,
+        "end": 2.624,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.849,
+        "end": 3.624,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.878,
+        "end": 4.325,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.538,
+        "end": 4.667,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.848,
+        "end": 4.988,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.183,
+        "end": 5.905,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.507,
+        "end": 6.943,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.222,
+        "end": 7.404,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.598,
+        "end": 7.748,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.955,
+        "end": 8.667,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.966,
+        "end": 9.032,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.201,
+        "end": 9.326,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.529,
+        "end": 10.103,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.424,
+        "end": 10.744,
+        "gloss_id": "어렵다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.235,
+        "end": 3.624,
+        "loc": "3",
+        "word": "채권이나"
+      },
+      {
+        "start": 3.878,
+        "end": 4.971,
+        "loc": "0",
+        "word": "만기가"
+      },
+      {
+        "start": 5.183,
+        "end": 5.905,
+        "loc": "1,2",
+        "word": "긴 장기"
+      },
+      {
+        "start": 6.507,
+        "end": 6.943,
+        "loc": "7",
+        "word": "회사채는"
+      },
+      {
+        "start": 7.222,
+        "end": 7.404,
+        "loc": "4",
+        "word": "신용"
+      },
+      {
+        "start": 7.598,
+        "end": 7.748,
+        "loc": "5",
+        "word": "등급이"
+      },
+      {
+        "start": 7.955,
+        "end": 8.667,
+        "loc": "6",
+        "word": "낮은"
+      },
+      {
+        "start": 8.958,
+        "end": 10.091,
+        "loc": "8,9",
+        "word": "채권 유동성이"
+      },
+      {
+        "start": 10.424,
+        "end": 10.744,
+        "loc": "10",
+        "word": "낮습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.849,
+        "end": 3.624,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.538,
+        "end": 4.667,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.848,
+        "end": 4.987,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.183,
+        "end": 5.905,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.507,
+        "end": 6.943,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.222,
+        "end": 7.404,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.201,
+        "end": 9.325,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.529,
+        "end": 10.103,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.866,
+        "end": 3.624
+      },
+      {
+        "descriptor": "",
+        "start": 5.321,
+        "end": 5.905
+      },
+      {
+        "descriptor": "",
+        "start": 7.978,
+        "end": 8.667
+      },
+      {
+        "descriptor": "",
+        "start": 10.424,
+        "end": 10.744
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.848,
+        "end": 5.878
+      },
+      {
+        "descriptor": "",
+        "start": 6.507,
+        "end": 8.627
+      },
+      {
+        "descriptor": "",
+        "start": 10.424,
+        "end": 10.744
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240337540",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:07",
+    "sentence_ID": "VXPAKOKS240337540",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    381,
+    126
+  ],
+  "file": "VXPAKOKS240337540.mp4",
+  "saved_as": "VXPAKOKS240337540-만기가긴장기채권이나신용등급이낮은회사채는채권유동성이낮습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

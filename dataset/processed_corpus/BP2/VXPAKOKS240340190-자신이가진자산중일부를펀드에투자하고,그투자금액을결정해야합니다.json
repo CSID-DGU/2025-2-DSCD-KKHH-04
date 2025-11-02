@@ -1,0 +1,250 @@
+{
+  "id": "VXPAKOKS240340190",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "자신이 가진 자산 중 일부를 펀드에 투자하고, 그 투자 금액을 결정해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.449,
+        "end": 1.605,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.781,
+        "end": 2.063,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.285,
+        "end": 2.854,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.076,
+        "end": 3.427,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.688,
+        "end": 4.079,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.296,
+        "end": 4.538,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.668,
+        "end": 5.025,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.344,
+        "end": 5.661,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.781,
+        "end": 2.063,
+        "loc": "1,2,3",
+        "word": "가진 자산 중"
+      },
+      {
+        "start": 2.285,
+        "end": 2.854,
+        "loc": "4",
+        "word": "일부를"
+      },
+      {
+        "start": 3.076,
+        "end": 3.427,
+        "loc": "5",
+        "word": "펀드에"
+      },
+      {
+        "start": 3.688,
+        "end": 4.079,
+        "loc": "6",
+        "word": "투자하고,"
+      },
+      {
+        "start": 4.296,
+        "end": 4.538,
+        "loc": "7,8,9",
+        "word": "그 투자 금액을"
+      },
+      {
+        "start": 4.668,
+        "end": 5.661,
+        "loc": "10,11",
+        "word": "결정해야 합니다."
+      },
+      {
+        "start": 1.449,
+        "end": 1.605,
+        "loc": "0",
+        "word": "자신이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.781,
+        "end": 2.063,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.285,
+        "end": 2.854,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.688,
+        "end": 4.537,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.668,
+        "end": 5.025,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.344,
+        "end": 5.661,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.285,
+        "end": 2.854
+      },
+      {
+        "descriptor": "",
+        "start": 3.688,
+        "end": 4.079
+      },
+      {
+        "descriptor": "",
+        "start": 4.668,
+        "end": 5.025
+      },
+      {
+        "descriptor": "",
+        "start": 5.344,
+        "end": 5.661
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.449,
+        "end": 2.831
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340190",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:03:28",
+    "sentence_ID": "VXPAKOKS240340190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    206,
+    126
+  ],
+  "file": "VXPAKOKS240340190.mp4",
+  "saved_as": "VXPAKOKS240340190-자신이가진자산중일부를펀드에투자하고,그투자금액을결정해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

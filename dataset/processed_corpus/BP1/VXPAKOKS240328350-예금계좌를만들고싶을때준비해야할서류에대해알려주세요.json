@@ -1,0 +1,264 @@
+{
+  "id": "VXPAKOKS240328350",
+  "opertor": "label10",
+  "krlgg_sntenc": {
+    "koreanText": "예금 계좌를 만들고 싶을 때 준비해야 할 서류에 대해 알려주세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.136,
+        "end": 2.279,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.47,
+        "end": 2.613,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.774,
+        "end": 3.039,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.35,
+        "end": 3.94,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.182,
+        "end": 4.414,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.642,
+        "end": 4.907,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.012,
+        "end": 5.255,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.399,
+        "end": 5.687,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.136,
+        "end": 2.614,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.774,
+        "end": 3.039,
+        "loc": "2",
+        "word": "만들고"
+      },
+      {
+        "start": 3.35,
+        "end": 3.94,
+        "loc": "3,4",
+        "word": "싶을 때"
+      },
+      {
+        "start": 4.182,
+        "end": 4.414,
+        "loc": "7,8",
+        "word": "서류에 대해"
+      },
+      {
+        "start": 4.642,
+        "end": 5.242,
+        "loc": "5,6",
+        "word": "준비해야 할"
+      },
+      {
+        "start": 5.399,
+        "end": 5.687,
+        "loc": "9",
+        "word": "알려주세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.136,
+        "end": 2.279,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.47,
+        "end": 2.613,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.774,
+        "end": 3.94,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.182,
+        "end": 4.414,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.642,
+        "end": 4.907,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.012,
+        "end": 5.687,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.35,
+        "end": 3.94
+      },
+      {
+        "descriptor": "",
+        "start": 5.399,
+        "end": 5.687
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.182,
+        "end": 4.907
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.35,
+        "end": 3.94
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.399,
+        "end": 5.687
+      },
+      {
+        "descriptor": "",
+        "start": 2.136,
+        "end": 2.279
+      },
+      {
+        "descriptor": "",
+        "start": 3.35,
+        "end": 3.94
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328350",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:28:57",
+    "sentence_ID": "VXPAKOKS240328350",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    201,
+    126
+  ],
+  "file": "VXPAKOKS240328350.mp4",
+  "saved_as": "VXPAKOKS240328350-예금계좌를만들고싶을때준비해야할서류에대해알려주세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

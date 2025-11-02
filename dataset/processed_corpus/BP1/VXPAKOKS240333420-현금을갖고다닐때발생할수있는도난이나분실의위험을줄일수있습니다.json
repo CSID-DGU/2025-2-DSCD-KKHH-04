@@ -1,0 +1,232 @@
+{
+  "id": "VXPAKOKS240333420",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "현금을 갖고 다닐 때 발생할 수 있는 도난이나 분실의 위험을 줄일 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.483,
+        "end": 2.597,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.798,
+        "end": 3.141,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.391,
+        "end": 4.298,
+        "gloss_id": "가지고다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.624,
+        "end": 5.024,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.309,
+        "end": 5.666,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.916,
+        "end": 6.258,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.418,
+        "end": 6.739,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.483,
+        "end": 3.14,
+        "loc": "0",
+        "word": "현금을"
+      },
+      {
+        "start": 3.391,
+        "end": 4.298,
+        "loc": "1,2,3",
+        "word": "갖고 다닐 때"
+      },
+      {
+        "start": 4.624,
+        "end": 5.024,
+        "loc": "4,5,6,7",
+        "word": "발생할 수 있는 도난이나"
+      },
+      {
+        "start": 5.309,
+        "end": 5.666,
+        "loc": "8",
+        "word": "분실의"
+      },
+      {
+        "start": 5.916,
+        "end": 6.258,
+        "loc": "9",
+        "word": "위험을"
+      },
+      {
+        "start": 6.418,
+        "end": 6.739,
+        "loc": "10,11,12",
+        "word": "줄일 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.798,
+        "end": 3.141,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.624,
+        "end": 5.024,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.798,
+        "end": 3.141
+      },
+      {
+        "descriptor": "",
+        "start": 5.309,
+        "end": 5.666
+      },
+      {
+        "descriptor": "",
+        "start": 6.418,
+        "end": 6.739
+      },
+      {
+        "descriptor": "",
+        "start": 3.663,
+        "end": 4.299
+      },
+      {
+        "descriptor": "",
+        "start": 4.624,
+        "end": 5.024
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 5.916,
+        "end": 6.258
+      }
+    ],
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.663,
+        "end": 4.298
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.483,
+        "end": 3.154
+      },
+      {
+        "descriptor": "",
+        "start": 4.624,
+        "end": 5.61
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333420",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:23",
+    "sentence_ID": "VXPAKOKS240333420",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240333420.mp4",
+  "saved_as": "VXPAKOKS240333420-현금을갖고다닐때발생할수있는도난이나분실의위험을줄일수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

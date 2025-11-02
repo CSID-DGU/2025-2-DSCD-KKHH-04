@@ -1,0 +1,256 @@
+{
+  "id": "VXPAKOKS240342130",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자 후에는 운용 실적과 경제 상황 변화를 자주 확인해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.342,
+        "end": 2.053,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.485,
+        "end": 2.948,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.189,
+        "end": 3.571,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.917,
+        "end": 4.181,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.404,
+        "end": 4.997,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.242,
+        "end": 5.474,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.686,
+        "end": 6.056,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.267,
+        "end": 6.5,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.342,
+        "end": 2.053,
+        "loc": "0,1,2",
+        "word": "펀드 투자 후에는"
+      },
+      {
+        "start": 2.485,
+        "end": 2.948,
+        "loc": "3",
+        "word": "운용"
+      },
+      {
+        "start": 3.189,
+        "end": 3.571,
+        "loc": "4",
+        "word": "실적과"
+      },
+      {
+        "start": 3.917,
+        "end": 5.002,
+        "loc": "5,6,7",
+        "word": "경제 상황 변화를"
+      },
+      {
+        "start": 5.242,
+        "end": 5.474,
+        "loc": "8",
+        "word": "자주"
+      },
+      {
+        "start": 5.686,
+        "end": 6.056,
+        "loc": "9",
+        "word": "확인해야"
+      },
+      {
+        "start": 6.267,
+        "end": 6.5,
+        "loc": "10",
+        "word": "합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.485,
+        "end": 2.948,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.404,
+        "end": 4.997,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.267,
+        "end": 6.5,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.342,
+        "end": 2.053
+      },
+      {
+        "descriptor": "",
+        "start": 3.189,
+        "end": 3.571
+      },
+      {
+        "descriptor": "",
+        "start": 4.404,
+        "end": 4.997
+      },
+      {
+        "descriptor": "",
+        "start": 6.267,
+        "end": 6.5
+      },
+      {
+        "descriptor": "",
+        "start": 5.242,
+        "end": 5.474
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 1.964,
+        "end": 2.053
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.917,
+        "end": 4.181
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.342,
+        "end": 3.559
+      },
+      {
+        "descriptor": "",
+        "start": 4.404,
+        "end": 4.997
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342130",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:19:13",
+    "sentence_ID": "VXPAKOKS240342130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240342130.mp4",
+  "saved_as": "VXPAKOKS240342130-펀드투자후에는운용실적과경제상황변화를자주확인해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

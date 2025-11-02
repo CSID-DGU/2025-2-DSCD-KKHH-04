@@ -1,0 +1,318 @@
+{
+  "id": "VXPAKOKS240330810",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "결제 취소 요청이 받아들여지면, 결제 금액과 결제일, 결제 장소 등의 취소 정보는 카드 결제를 처리하는 카드사로 전달됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.345,
+        "end": 2.591,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.728,
+        "end": 3.126,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.375,
+        "end": 3.807,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.004,
+        "end": 5.029,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.186,
+        "end": 5.491,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.647,
+        "end": 6.231,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.46,
+        "end": 6.85,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.01,
+        "end": 7.578,
+        "gloss_id": "곳1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.783,
+        "end": 7.995,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.216,
+        "end": 8.513,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.688,
+        "end": 9.383,
+        "gloss_id": "반응1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.345,
+        "end": 3.116,
+        "loc": "0",
+        "word": "결제"
+      },
+      {
+        "start": 3.375,
+        "end": 3.807,
+        "loc": "1",
+        "word": "취소"
+      },
+      {
+        "start": 4.004,
+        "end": 5.029,
+        "loc": "2,3",
+        "word": "요청이 받아들여지면,"
+      },
+      {
+        "start": 5.186,
+        "end": 5.491,
+        "loc": "4",
+        "word": "결제"
+      },
+      {
+        "start": 5.647,
+        "end": 6.231,
+        "loc": "5",
+        "word": "금액과"
+      },
+      {
+        "start": 6.46,
+        "end": 6.85,
+        "loc": "6",
+        "word": "결제일,"
+      },
+      {
+        "start": 7.01,
+        "end": 7.578,
+        "loc": "7,8,9,10,11",
+        "word": "결제 장소 등의 취소 정보는"
+      },
+      {
+        "start": 7.783,
+        "end": 8.52,
+        "loc": "12,13,14,15",
+        "word": "카드 결제를 처리하는 카드사로"
+      },
+      {
+        "start": 8.688,
+        "end": 9.383,
+        "loc": "16",
+        "word": "전달됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.375,
+        "end": 3.807,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.004,
+        "end": 5.478,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.46,
+        "end": 6.85,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.216,
+        "end": 8.513,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.688,
+        "end": 9.383,
+        "gloss_id": "반응1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.914,
+        "end": 3.126
+      },
+      {
+        "descriptor": "",
+        "start": 3.494,
+        "end": 3.807
+      },
+      {
+        "descriptor": "",
+        "start": 4.368,
+        "end": 5.029
+      },
+      {
+        "descriptor": "",
+        "start": 5.944,
+        "end": 6.231
+      },
+      {
+        "descriptor": "",
+        "start": 7.256,
+        "end": 7.578
+      },
+      {
+        "descriptor": "",
+        "start": 8.216,
+        "end": 8.513
+      },
+      {
+        "descriptor": "",
+        "start": 8.976,
+        "end": 9.383
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.906,
+        "end": 3.126
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.345,
+        "end": 3.125
+      },
+      {
+        "descriptor": "",
+        "start": 6.46,
+        "end": 6.85
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330810",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:36:06",
+    "sentence_ID": "VXPAKOKS240330810",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    305,
+    126
+  ],
+  "file": "VXPAKOKS240330810.mp4",
+  "saved_as": "VXPAKOKS240330810-결제취소요청이받아들여지면,결제금액과결제일,결제장소등의취소정보는카드결제를처리하는카드사로전달됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

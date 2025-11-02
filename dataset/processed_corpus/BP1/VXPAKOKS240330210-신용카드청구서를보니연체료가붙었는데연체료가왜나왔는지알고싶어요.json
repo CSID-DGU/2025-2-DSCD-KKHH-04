@@ -1,0 +1,249 @@
+{
+  "id": "VXPAKOKS240330210",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 청구서를 보니 연체료가 붙었는데 연체료가 왜 나왔는지 알고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.881,
+        "end": 1.976,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.216,
+        "end": 2.609,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.875,
+        "end": 3.274,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.489,
+        "end": 3.571,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.787,
+        "end": 4.711,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.091,
+        "end": 5.313,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.535,
+        "end": 5.908,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.054,
+        "end": 6.301,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.478,
+        "end": 6.908,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.881,
+        "end": 2.597,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.875,
+        "end": 4.711,
+        "loc": "1,2",
+        "word": "청구서를 보니"
+      },
+      {
+        "start": 5.091,
+        "end": 5.902,
+        "loc": "3",
+        "word": "연체료가"
+      },
+      {
+        "start": 6.054,
+        "end": 6.301,
+        "loc": "4",
+        "word": "붙었는데"
+      },
+      {
+        "start": 6.478,
+        "end": 6.908,
+        "loc": "5,6,7,8,9",
+        "word": "연체료가 왜 나왔는지 알고 싶어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.881,
+        "end": 2.609,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.875,
+        "end": 3.274,
+        "gloss_id": "종합3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.091,
+        "end": 5.313,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.216,
+        "end": 2.609
+      },
+      {
+        "descriptor": "",
+        "start": 3.787,
+        "end": 4.711
+      },
+      {
+        "descriptor": "",
+        "start": 6.478,
+        "end": 6.908
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.173,
+        "end": 5.313
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.216,
+        "end": 3.571
+      },
+      {
+        "descriptor": "",
+        "start": 5.091,
+        "end": 6.301
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.787,
+        "end": 4.711
+      },
+      {
+        "descriptor": "",
+        "start": 6.478,
+        "end": 6.908
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330210",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:58:25",
+    "sentence_ID": "VXPAKOKS240330210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    228,
+    126
+  ],
+  "file": "VXPAKOKS240330210.mp4",
+  "saved_as": "VXPAKOKS240330210-신용카드청구서를보니연체료가붙었는데연체료가왜나왔는지알고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,438 @@
+{
+  "id": "VXPAKOKS240345130",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "예금 이자는 가입 시 확정되나, 변동 금리 예금은 금리에 따라 변동될 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.466,
+        "end": 2.748,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.958,
+        "end": 3.248,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.471,
+        "end": 3.705,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.859,
+        "end": 4.449,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.76,
+        "end": 4.918,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.112,
+        "end": 5.83,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.329,
+        "end": 6.739,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.974,
+        "end": 7.263,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.492,
+        "end": 7.797,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.085,
+        "end": 9.065,
+        "gloss_id": "가격2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.385,
+        "end": 9.575,
+        "gloss_id": "금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.707,
+        "end": 10.327,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.446,
+        "end": 10.521,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.634,
+        "end": 10.72,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.861,
+        "end": 11.219,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.359,
+        "end": 11.701,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.877,
+        "end": 12.054,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.466,
+        "end": 2.748,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.958,
+        "end": 3.248,
+        "loc": "1",
+        "word": "이자는"
+      },
+      {
+        "start": 3.483,
+        "end": 4.462,
+        "loc": "2,3",
+        "word": "가입 시"
+      },
+      {
+        "start": 4.76,
+        "end": 5.807,
+        "loc": "4",
+        "word": "확정되나,"
+      },
+      {
+        "start": 7.492,
+        "end": 7.797,
+        "loc": "7",
+        "word": "예금은"
+      },
+      {
+        "start": 6.329,
+        "end": 7.267,
+        "loc": "5,6",
+        "word": "변동 금리"
+      },
+      {
+        "start": 11.359,
+        "end": 11.701,
+        "loc": "10",
+        "word": "변동될"
+      },
+      {
+        "start": 11.877,
+        "end": 12.054,
+        "loc": "11,12",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 8.085,
+        "end": 11.219,
+        "loc": "8,9",
+        "word": "금리에 따라"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.466,
+        "end": 2.748,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.487,
+        "end": 4.448,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.76,
+        "end": 4.929,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.112,
+        "end": 7.268,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.492,
+        "end": 7.797,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.085,
+        "end": 9.065,
+        "gloss_id": "가격2#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.385,
+        "end": 9.569,
+        "gloss_id": "금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.707,
+        "end": 10.713,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.862,
+        "end": 11.219,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.359,
+        "end": 11.701,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 11.877,
+        "end": 12.054
+      },
+      {
+        "descriptor": "",
+        "start": 2.958,
+        "end": 3.247
+      },
+      {
+        "descriptor": "",
+        "start": 5.112,
+        "end": 5.501
+      },
+      {
+        "descriptor": "",
+        "start": 8.23,
+        "end": 8.967
+      },
+      {
+        "descriptor": "",
+        "start": 6.974,
+        "end": 7.263
+      },
+      {
+        "descriptor": "",
+        "start": 9.707,
+        "end": 10.327
+      },
+      {
+        "descriptor": "",
+        "start": 10.446,
+        "end": 10.521
+      },
+      {
+        "descriptor": "",
+        "start": 10.634,
+        "end": 10.72
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 11.877,
+        "end": 12.054
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.766,
+        "end": 3.178
+      },
+      {
+        "descriptor": "",
+        "start": 5.112,
+        "end": 5.484
+      },
+      {
+        "descriptor": "",
+        "start": 7.066,
+        "end": 7.863
+      },
+      {
+        "descriptor": "",
+        "start": 8.233,
+        "end": 8.831
+      },
+      {
+        "descriptor": "",
+        "start": 9.384,
+        "end": 10.219
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345130",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:35:02",
+    "sentence_ID": "VXPAKOKS240345130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    432,
+    126
+  ],
+  "file": "VXPAKOKS240345130.mp4",
+  "saved_as": "VXPAKOKS240345130-예금이자는가입시확정되나,변동금리예금은금리에따라변동될수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

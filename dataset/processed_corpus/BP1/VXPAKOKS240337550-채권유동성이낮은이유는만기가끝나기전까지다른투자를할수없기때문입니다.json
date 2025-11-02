@@ -1,0 +1,399 @@
+{
+  "id": "VXPAKOKS240337550",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 유동성이 낮은 이유는 만기가 끝나기 전까지 다른 투자를 할 수 없기 때문입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.609,
+        "end": 2.698,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.887,
+        "end": 3.128,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.341,
+        "end": 3.717,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.831,
+        "end": 3.914,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.152,
+        "end": 4.434,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.659,
+        "end": 5.107,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.476,
+        "end": 5.707,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.077,
+        "end": 6.401,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.725,
+        "end": 6.863,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.239,
+        "end": 7.541,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.794,
+        "end": 8.304,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.536,
+        "end": 8.766,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.038,
+        "end": 9.186,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 9.483,
+        "end": 9.796,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.013,
+        "end": 10.285,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.979,
+        "end": 7.061,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.609,
+        "end": 3.703,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.831,
+        "end": 5.095,
+        "loc": "1",
+        "word": "유동성이"
+      },
+      {
+        "start": 5.476,
+        "end": 5.707,
+        "loc": "2",
+        "word": "낮은"
+      },
+      {
+        "start": 6.077,
+        "end": 6.401,
+        "loc": "3",
+        "word": "이유는"
+      },
+      {
+        "start": 6.725,
+        "end": 7.06,
+        "loc": "4",
+        "word": "만기가"
+      },
+      {
+        "start": 7.239,
+        "end": 7.541,
+        "loc": "5",
+        "word": "끝나기"
+      },
+      {
+        "start": 7.794,
+        "end": 8.304,
+        "loc": "6",
+        "word": "전까지"
+      },
+      {
+        "start": 8.536,
+        "end": 8.766,
+        "loc": "7",
+        "word": "다른"
+      },
+      {
+        "start": 9.038,
+        "end": 9.186,
+        "loc": "8",
+        "word": "투자를"
+      },
+      {
+        "start": 9.483,
+        "end": 10.272,
+        "loc": "9,10,11,12",
+        "word": "할 수 없기 때문입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.341,
+        "end": 3.717,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.152,
+        "end": 4.434,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.659,
+        "end": 5.106,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.725,
+        "end": 6.862,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.794,
+        "end": 8.304,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.536,
+        "end": 8.766,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.979,
+        "end": 7.061,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.239,
+        "end": 7.541,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.341,
+        "end": 3.717
+      },
+      {
+        "descriptor": "",
+        "start": 6.077,
+        "end": 6.401
+      },
+      {
+        "descriptor": "",
+        "start": 7.794,
+        "end": 8.304
+      },
+      {
+        "descriptor": "",
+        "start": 10.013,
+        "end": 10.285
+      },
+      {
+        "descriptor": "",
+        "start": 9.483,
+        "end": 9.796
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.239,
+        "end": 7.541
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.831,
+        "end": 6.403
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.341,
+        "end": 3.717
+      },
+      {
+        "descriptor": "",
+        "start": 6.077,
+        "end": 6.401
+      },
+      {
+        "descriptor": "",
+        "start": 7.239,
+        "end": 8.287
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337550",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:12",
+    "sentence_ID": "VXPAKOKS240337550",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    373,
+    126
+  ],
+  "file": "VXPAKOKS240337550.mp4",
+  "saved_as": "VXPAKOKS240337550-채권유동성이낮은이유는만기가끝나기전까지다른투자를할수없기때문입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

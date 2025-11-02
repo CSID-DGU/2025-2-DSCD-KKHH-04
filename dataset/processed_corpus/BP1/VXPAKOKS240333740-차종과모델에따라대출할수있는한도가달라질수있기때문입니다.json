@@ -1,0 +1,254 @@
+{
+  "id": "VXPAKOKS240333740",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "차종과 모델에 따라 대출할 수 있는 한도가 달라질 수 있기 때문입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.257,
+        "end": 3.372,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.576,
+        "end": 3.747,
+        "gloss_id": "이름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.062,
+        "end": 4.436,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.64,
+        "end": 4.937,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.211,
+        "end": 5.501,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.856,
+        "end": 6.076,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.378,
+        "end": 6.738,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.051,
+        "end": 7.313,
+        "gloss_id": "때문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.647,
+        "end": 5.729,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.378,
+        "end": 6.738,
+        "loc": "7,8,9",
+        "word": "달라질 수 있기"
+      },
+      {
+        "start": 3.257,
+        "end": 4.43,
+        "loc": "0,1,2",
+        "word": "차종과 모델에 따라"
+      },
+      {
+        "start": 4.64,
+        "end": 4.937,
+        "loc": "3,4,5",
+        "word": "대출할 수 있는"
+      },
+      {
+        "start": 5.211,
+        "end": 6.082,
+        "loc": "6",
+        "word": "한도가"
+      },
+      {
+        "start": 7.051,
+        "end": 7.313,
+        "loc": "10",
+        "word": "때문입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.257,
+        "end": 3.372,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.211,
+        "end": 6.082,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.378,
+        "end": 6.738,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.062,
+        "end": 4.436,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.051,
+        "end": 7.313,
+        "gloss_id": "때문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.462,
+        "end": 6.738
+      },
+      {
+        "descriptor": "",
+        "start": 5.856,
+        "end": 6.076
+      },
+      {
+        "descriptor": "",
+        "start": 7.051,
+        "end": 7.313
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.062,
+        "end": 4.436
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.257,
+        "end": 4.43
+      },
+      {
+        "descriptor": "",
+        "start": 5.211,
+        "end": 6.075
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333740",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:24:15",
+    "sentence_ID": "VXPAKOKS240333740",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    252,
+    126
+  ],
+  "file": "VXPAKOKS240333740.mp4",
+  "saved_as": "VXPAKOKS240333740-차종과모델에따라대출할수있는한도가달라질수있기때문입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

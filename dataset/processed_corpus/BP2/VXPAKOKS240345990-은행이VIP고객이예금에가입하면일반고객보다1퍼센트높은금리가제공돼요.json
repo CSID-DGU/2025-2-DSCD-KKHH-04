@@ -1,0 +1,359 @@
+{
+  "id": "VXPAKOKS240345990",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "은행이 VIP 고객이 예금에 가입하면 일반 고객보다 1퍼센트 높은 금리가 제공돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.912,
+        "end": 2.354,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.89,
+        "end": 3.226,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.5,
+        "end": 4.097,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.669,
+        "end": 4.966,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.232,
+        "end": 5.858,
+        "gloss_id": "VIP ",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.314,
+        "end": 6.592,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.848,
+        "end": 7.096,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.332,
+        "end": 7.687,
+        "gloss_id": "비교4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.009,
+        "end": 8.344,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.532,
+        "end": 8.648,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.822,
+        "end": 9.109,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.912,
+        "end": 2.354,
+        "loc": "0",
+        "word": "은행이"
+      },
+      {
+        "start": 2.89,
+        "end": 3.226,
+        "loc": "3",
+        "word": "예금에"
+      },
+      {
+        "start": 4.669,
+        "end": 4.966,
+        "loc": "2",
+        "word": "고객이"
+      },
+      {
+        "start": 5.232,
+        "end": 5.858,
+        "loc": "1",
+        "word": "VIP"
+      },
+      {
+        "start": 6.314,
+        "end": 7.694,
+        "loc": "5,6",
+        "word": "일반 고객보다"
+      },
+      {
+        "start": 3.5,
+        "end": 4.097,
+        "loc": "4",
+        "word": "가입하면"
+      },
+      {
+        "start": 8.009,
+        "end": 8.344,
+        "loc": "7",
+        "word": "1퍼센트"
+      },
+      {
+        "start": 8.532,
+        "end": 8.648,
+        "loc": "9,10",
+        "word": "금리가 제공돼요."
+      },
+      {
+        "start": 8.822,
+        "end": 9.109,
+        "loc": "8",
+        "word": "높은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.912,
+        "end": 2.354,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.89,
+        "end": 3.226,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.5,
+        "end": 4.097,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.669,
+        "end": 5.856,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.314,
+        "end": 6.592,
+        "gloss_id": "손님1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.848,
+        "end": 7.096,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.332,
+        "end": 7.687,
+        "gloss_id": "비교4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.009,
+        "end": 9.109,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일프로",
+        "start": 8.009,
+        "end": 8.335
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.822,
+        "end": 9.109
+      },
+      {
+        "descriptor": "",
+        "start": 1.912,
+        "end": 2.354
+      },
+      {
+        "descriptor": "",
+        "start": 3.5,
+        "end": 4.097
+      },
+      {
+        "descriptor": "",
+        "start": 4.669,
+        "end": 4.966
+      },
+      {
+        "descriptor": "",
+        "start": 5.426,
+        "end": 5.858
+      },
+      {
+        "descriptor": "",
+        "start": 6.314,
+        "end": 6.592
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 7.332,
+        "end": 7.687
+      }
+    ],
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.669,
+        "end": 4.966
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.912,
+        "end": 2.354
+      },
+      {
+        "descriptor": "",
+        "start": 3.5,
+        "end": 3.787
+      },
+      {
+        "descriptor": "",
+        "start": 5.232,
+        "end": 5.713
+      },
+      {
+        "descriptor": "",
+        "start": 6.848,
+        "end": 7.464
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345990",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:41:56",
+    "sentence_ID": "VXPAKOKS240345990",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    348,
+    126
+  ],
+  "file": "VXPAKOKS240345990.mp4",
+  "saved_as": "VXPAKOKS240345990-은행이VIP고객이예금에가입하면일반고객보다1퍼센트높은금리가제공돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

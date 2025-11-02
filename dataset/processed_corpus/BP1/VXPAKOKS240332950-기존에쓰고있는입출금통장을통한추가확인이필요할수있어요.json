@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240332950",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "기존에 쓰고 있는 입출금 통장을 통한 추가 확인이 필요할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.659,
+        "end": 2.92,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.045,
+        "end": 3.463,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.64,
+        "end": 3.819,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.949,
+        "end": 4.49,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.69,
+        "end": 4.963,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.145,
+        "end": 5.482,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.618,
+        "end": 5.931,
+        "gloss_id": "둘중하나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.659,
+        "end": 2.92,
+        "loc": "0",
+        "word": "기존에"
+      },
+      {
+        "start": 3.045,
+        "end": 3.81,
+        "loc": "1,2",
+        "word": "쓰고 있는"
+      },
+      {
+        "start": 3.949,
+        "end": 4.49,
+        "loc": "3,4,5",
+        "word": "입출금 통장을 통한"
+      },
+      {
+        "start": 4.69,
+        "end": 4.963,
+        "loc": "7",
+        "word": "확인이"
+      },
+      {
+        "start": 5.145,
+        "end": 5.494,
+        "loc": "6",
+        "word": "추가"
+      },
+      {
+        "start": 5.618,
+        "end": 5.931,
+        "loc": "8,9,10",
+        "word": "필요할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.045,
+        "end": 3.819,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.949,
+        "end": 4.484,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.145,
+        "end": 5.482,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.949,
+        "end": 4.49
+      },
+      {
+        "descriptor": "",
+        "start": 4.69,
+        "end": 4.963
+      },
+      {
+        "descriptor": "",
+        "start": 5.618,
+        "end": 5.931
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.698,
+        "end": 3.819
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.659,
+        "end": 4.501
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332950",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:26:22",
+    "sentence_ID": "VXPAKOKS240332950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    210,
+    126
+  ],
+  "file": "VXPAKOKS240332950.mp4",
+  "saved_as": "VXPAKOKS240332950-기존에쓰고있는입출금통장을통한추가확인이필요할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

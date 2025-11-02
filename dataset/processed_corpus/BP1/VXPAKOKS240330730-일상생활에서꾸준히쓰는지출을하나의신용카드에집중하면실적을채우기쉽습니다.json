@@ -1,0 +1,295 @@
+{
+  "id": "VXPAKOKS240330730",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "일상생활에서 꾸준히 쓰는 지출을 하나의 신용카드에 집중하면 실적을 채우기 쉽습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.801,
+        "end": 1.986,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.095,
+        "end": 2.307,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.411,
+        "end": 2.576,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.735,
+        "end": 3.483,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.796,
+        "end": 4.242,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.477,
+        "end": 4.776,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.07,
+        "end": 5.416,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.694,
+        "end": 6.06,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.258,
+        "end": 6.644,
+        "gloss_id": "가득하다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.754,
+        "end": 7.127,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.801,
+        "end": 2.307,
+        "loc": "5",
+        "word": "신용카드에"
+      },
+      {
+        "start": 2.411,
+        "end": 2.576,
+        "loc": "4",
+        "word": "하나의"
+      },
+      {
+        "start": 2.735,
+        "end": 3.483,
+        "loc": "6",
+        "word": "집중하면"
+      },
+      {
+        "start": 3.796,
+        "end": 4.242,
+        "loc": "0",
+        "word": "일상생활에서"
+      },
+      {
+        "start": 4.477,
+        "end": 4.776,
+        "loc": "1,2",
+        "word": "꾸준히 쓰는"
+      },
+      {
+        "start": 5.07,
+        "end": 5.416,
+        "loc": "3",
+        "word": "지출을"
+      },
+      {
+        "start": 5.694,
+        "end": 6.06,
+        "loc": "7",
+        "word": "실적을"
+      },
+      {
+        "start": 6.258,
+        "end": 6.644,
+        "loc": "8",
+        "word": "채우기"
+      },
+      {
+        "start": 6.754,
+        "end": 7.127,
+        "loc": "9",
+        "word": "쉽습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.801,
+        "end": 1.986,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.796,
+        "end": 4.242,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.477,
+        "end": 4.776,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.258,
+        "end": 6.644,
+        "gloss_id": "가득하다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.754,
+        "end": 7.127,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "하나",
+        "start": 2.411,
+        "end": 2.57
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.735,
+        "end": 3.483
+      },
+      {
+        "descriptor": "",
+        "start": 6.754,
+        "end": 7.127
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.833,
+        "end": 7.112
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.735,
+        "end": 3.483
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.801,
+        "end": 2.274
+      },
+      {
+        "descriptor": "",
+        "start": 5.694,
+        "end": 6.06
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330730",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:35:22",
+    "sentence_ID": "VXPAKOKS240330730",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    241,
+    126
+  ],
+  "file": "VXPAKOKS240330730.mp4",
+  "saved_as": "VXPAKOKS240330730-일상생활에서꾸준히쓰는지출을하나의신용카드에집중하면실적을채우기쉽습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,348 @@
+{
+  "id": "VXPAKOKS240343170",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "통장 사본을 위조하거나 정보를 수정하는 것은 불법이며, 법적 처벌을 받을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.979,
+        "end": 2.082,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.448,
+        "end": 2.65,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.906,
+        "end": 3.016,
+        "gloss_id": "거짓1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.247,
+        "end": 3.678,
+        "gloss_id": "조작하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.971,
+        "end": 4.196,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.494,
+        "end": 4.749,
+        "gloss_id": "바꾸다2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.025,
+        "end": 5.517,
+        "gloss_id": "불법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.825,
+        "end": 6.279,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.463,
+        "end": 6.57,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.738,
+        "end": 6.856,
+        "gloss_id": "선언1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.039,
+        "end": 7.187,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.448,
+        "end": 2.65,
+        "loc": "1",
+        "word": "사본을"
+      },
+      {
+        "start": 2.906,
+        "end": 3.673,
+        "loc": "2",
+        "word": "위조하거나"
+      },
+      {
+        "start": 4.494,
+        "end": 4.749,
+        "loc": "4,5",
+        "word": "수정하는 것은"
+      },
+      {
+        "start": 5.025,
+        "end": 5.517,
+        "loc": "6",
+        "word": "불법이며,"
+      },
+      {
+        "start": 5.825,
+        "end": 6.279,
+        "loc": "7",
+        "word": "법적"
+      },
+      {
+        "start": 6.738,
+        "end": 7.169,
+        "loc": "9,10,11",
+        "word": "받을 수 있어요."
+      },
+      {
+        "start": 1.979,
+        "end": 2.082,
+        "loc": "0",
+        "word": "통장"
+      },
+      {
+        "start": 3.971,
+        "end": 4.196,
+        "loc": "3",
+        "word": "정보를"
+      },
+      {
+        "start": 6.463,
+        "end": 6.57,
+        "loc": "8",
+        "word": "처벌을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.448,
+        "end": 2.65,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.247,
+        "end": 3.678,
+        "gloss_id": "조작하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.971,
+        "end": 4.746,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.025,
+        "end": 5.517,
+        "gloss_id": "불법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.825,
+        "end": 6.279,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.979,
+        "end": 2.082,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.463,
+        "end": 6.57,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.738,
+        "end": 6.856,
+        "gloss_id": "선언1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.448,
+        "end": 2.65
+      },
+      {
+        "descriptor": "",
+        "start": 3.247,
+        "end": 3.678
+      },
+      {
+        "descriptor": "",
+        "start": 5.025,
+        "end": 5.517
+      },
+      {
+        "descriptor": "",
+        "start": 6.738,
+        "end": 6.833
+      },
+      {
+        "descriptor": "",
+        "start": 7.039,
+        "end": 7.187
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.039,
+        "end": 7.187
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.906,
+        "end": 3.681
+      },
+      {
+        "descriptor": "",
+        "start": 6.463,
+        "end": 6.841
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.979,
+        "end": 2.655
+      },
+      {
+        "descriptor": "",
+        "start": 5.825,
+        "end": 6.279
+      },
+      {
+        "descriptor": "",
+        "start": 3.971,
+        "end": 4.196
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343170",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:52:51",
+    "sentence_ID": "VXPAKOKS240343170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    275,
+    126
+  ],
+  "file": "VXPAKOKS240343170.mp4",
+  "saved_as": "VXPAKOKS240343170-통장사본을위조하거나정보를수정하는것은불법이며,법적처벌을받을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

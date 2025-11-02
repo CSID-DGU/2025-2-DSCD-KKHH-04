@@ -1,0 +1,351 @@
+{
+  "id": "VXPAKOKS240334830",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자 시 원금에 손실이 나더라도 당황하거나 울지 말고 차분하게 대처해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.28,
+        "end": 2.483,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.715,
+        "end": 3.096,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.417,
+        "end": 3.679,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.025,
+        "end": 4.406,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.682,
+        "end": 5.267,
+        "gloss_id": "당황하다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.482,
+        "end": 5.633,
+        "gloss_id": "울다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.966,
+        "end": 6.389,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.622,
+        "end": 7.062,
+        "gloss_id": "마음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.377,
+        "end": 7.749,
+        "gloss_id": "조용히1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.942,
+        "end": 8.289,
+        "gloss_id": "지혜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.627,
+        "end": 8.872,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.28,
+        "end": 2.483,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.715,
+        "end": 3.096,
+        "loc": "1,2",
+        "word": "투자 시"
+      },
+      {
+        "start": 3.417,
+        "end": 3.679,
+        "loc": "3,4",
+        "word": "원금에 손실이"
+      },
+      {
+        "start": 4.025,
+        "end": 4.406,
+        "loc": "5",
+        "word": "나더라도"
+      },
+      {
+        "start": 4.682,
+        "end": 5.267,
+        "loc": "6",
+        "word": "당황하거나"
+      },
+      {
+        "start": 5.482,
+        "end": 5.633,
+        "loc": "7",
+        "word": "울지"
+      },
+      {
+        "start": 5.966,
+        "end": 6.389,
+        "loc": "8",
+        "word": "말고"
+      },
+      {
+        "start": 6.622,
+        "end": 7.784,
+        "loc": "9",
+        "word": "차분하게"
+      },
+      {
+        "start": 7.942,
+        "end": 8.841,
+        "loc": "10",
+        "word": "대처해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.28,
+        "end": 2.483,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.417,
+        "end": 3.679,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.682,
+        "end": 5.267,
+        "gloss_id": "당황하다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.482,
+        "end": 5.633,
+        "gloss_id": "울다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.966,
+        "end": 6.389,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.622,
+        "end": 7.062,
+        "gloss_id": "마음1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.377,
+        "end": 7.749,
+        "gloss_id": "조용히1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.942,
+        "end": 8.289,
+        "gloss_id": "지혜1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.627,
+        "end": 8.872,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.715,
+        "end": 3.096
+      },
+      {
+        "descriptor": "",
+        "start": 4.025,
+        "end": 4.406
+      },
+      {
+        "descriptor": "",
+        "start": 5.966,
+        "end": 6.389
+      },
+      {
+        "descriptor": "",
+        "start": 6.622,
+        "end": 7.062
+      },
+      {
+        "descriptor": "",
+        "start": 7.377,
+        "end": 7.749
+      },
+      {
+        "descriptor": "",
+        "start": 7.942,
+        "end": 8.289
+      },
+      {
+        "descriptor": "",
+        "start": 8.627,
+        "end": 8.872
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.715,
+        "end": 5.68
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.377,
+        "end": 7.749
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.682,
+        "end": 5.267
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334830",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:32:53",
+    "sentence_ID": "VXPAKOKS240334830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    306,
+    126
+  ],
+  "file": "VXPAKOKS240334830.mp4",
+  "saved_as": "VXPAKOKS240334830-주식투자시원금에손실이나더라도당황하거나울지말고차분하게대처해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

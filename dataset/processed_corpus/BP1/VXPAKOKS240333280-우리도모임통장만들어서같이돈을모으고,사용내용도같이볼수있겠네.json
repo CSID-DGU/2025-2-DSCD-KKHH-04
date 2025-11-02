@@ -1,0 +1,320 @@
+{
+  "id": "VXPAKOKS240333280",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "우리도 모임 통장 만들어서 같이 돈을 모으고, 사용 내용도 같이 볼 수 있겠네.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.682,
+        "end": 3.05,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.406,
+        "end": 3.54,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.78,
+        "end": 4.045,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.359,
+        "end": 4.934,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.334,
+        "end": 6.125,
+        "gloss_id": "더치페이1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.44,
+        "end": 6.79,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.121,
+        "end": 7.377,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.679,
+        "end": 7.972,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.186,
+        "end": 8.376,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.597,
+        "end": 8.843,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "2"
+        }
+      },
+      {
+        "start": 9.109,
+        "end": 9.299,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.682,
+        "end": 3.05,
+        "loc": "0,1",
+        "word": "우리도 모임"
+      },
+      {
+        "start": 5.334,
+        "end": 6.125,
+        "loc": "4,5,6",
+        "word": "같이 돈을 모으고,"
+      },
+      {
+        "start": 6.44,
+        "end": 6.79,
+        "loc": "7",
+        "word": "사용"
+      },
+      {
+        "start": 7.121,
+        "end": 8.372,
+        "loc": "8",
+        "word": "내용도"
+      },
+      {
+        "start": 8.597,
+        "end": 8.843,
+        "loc": "9,10",
+        "word": "같이 볼"
+      },
+      {
+        "start": 9.109,
+        "end": 9.299,
+        "loc": "11,12",
+        "word": "수 있겠네."
+      },
+      {
+        "start": 3.406,
+        "end": 4.047,
+        "loc": "2",
+        "word": "통장"
+      },
+      {
+        "start": 4.359,
+        "end": 4.934,
+        "loc": "3",
+        "word": "만들어서"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.406,
+        "end": 3.54,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.78,
+        "end": 4.045,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.359,
+        "end": 4.934,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.334,
+        "end": 6.125,
+        "gloss_id": "더치페이1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.44,
+        "end": 6.79,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.679,
+        "end": 8.845,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.682,
+        "end": 3.05
+      },
+      {
+        "descriptor": "",
+        "start": 4.359,
+        "end": 4.934
+      },
+      {
+        "descriptor": "",
+        "start": 5.617,
+        "end": 6.117
+      },
+      {
+        "descriptor": "",
+        "start": 7.679,
+        "end": 7.972
+      },
+      {
+        "descriptor": "",
+        "start": 8.597,
+        "end": 8.843
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.429,
+        "end": 4.929
+      },
+      {
+        "descriptor": "",
+        "start": 9.109,
+        "end": 9.299
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.682,
+        "end": 3.05
+      },
+      {
+        "descriptor": "",
+        "start": 4.359,
+        "end": 4.934
+      },
+      {
+        "descriptor": "",
+        "start": 6.44,
+        "end": 8.855
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333280",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:12",
+    "sentence_ID": "VXPAKOKS240333280",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    338,
+    126
+  ],
+  "file": "VXPAKOKS240333280.mp4",
+  "saved_as": "VXPAKOKS240333280-우리도모임통장만들어서같이돈을모으고,사용내용도같이볼수있겠네.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

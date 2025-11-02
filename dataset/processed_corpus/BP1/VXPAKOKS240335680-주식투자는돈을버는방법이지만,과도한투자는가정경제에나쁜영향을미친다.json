@@ -1,0 +1,298 @@
+{
+  "id": "VXPAKOKS240335680",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자는 돈을 버는 방법이지만, 과도한 투자는 가정 경제에 나쁜 영향을 미친다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.439,
+        "end": 2.518,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.711,
+        "end": 3.14,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.418,
+        "end": 3.696,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.83,
+        "end": 3.981,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.2,
+        "end": 4.447,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.701,
+        "end": 5.066,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.351,
+        "end": 5.598,
+        "gloss_id": "욕심1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.835,
+        "end": 6.224,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.52,
+        "end": 6.901,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.116,
+        "end": 7.64,
+        "gloss_id": "망하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.439,
+        "end": 2.518,
+        "loc": "2",
+        "word": "돈을"
+      },
+      {
+        "start": 2.711,
+        "end": 3.14,
+        "loc": "3",
+        "word": "버는"
+      },
+      {
+        "start": 3.418,
+        "end": 3.696,
+        "loc": "4",
+        "word": "방법이지만,"
+      },
+      {
+        "start": 3.83,
+        "end": 5.073,
+        "loc": "0,1",
+        "word": "주식 투자는"
+      },
+      {
+        "start": 5.351,
+        "end": 5.598,
+        "loc": "5",
+        "word": "과도한"
+      },
+      {
+        "start": 5.843,
+        "end": 6.224,
+        "loc": "6",
+        "word": "투자는"
+      },
+      {
+        "start": 6.52,
+        "end": 6.901,
+        "loc": "7,8",
+        "word": "가정 경제에"
+      },
+      {
+        "start": 7.116,
+        "end": 7.64,
+        "loc": "9,10,11",
+        "word": "나쁜 영향을 미친다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.711,
+        "end": 3.139,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.418,
+        "end": 3.696,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.83,
+        "end": 3.981,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.116,
+        "end": 7.639,
+        "gloss_id": "망하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.52,
+        "end": 6.901,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.418,
+        "end": 3.696
+      },
+      {
+        "descriptor": "",
+        "start": 4.701,
+        "end": 5.066
+      },
+      {
+        "descriptor": "",
+        "start": 5.835,
+        "end": 6.224
+      },
+      {
+        "descriptor": "",
+        "start": 7.235,
+        "end": 7.64
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.409,
+        "end": 7.64
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.83,
+        "end": 5.05
+      },
+      {
+        "descriptor": "",
+        "start": 6.52,
+        "end": 7.613
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.439,
+        "end": 3.691
+      },
+      {
+        "descriptor": "",
+        "start": 5.351,
+        "end": 6.025
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335680",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:39",
+    "sentence_ID": "VXPAKOKS240335680",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    285,
+    126
+  ],
+  "file": "VXPAKOKS240335680.mp4",
+  "saved_as": "VXPAKOKS240335680-주식투자는돈을버는방법이지만,과도한투자는가정경제에나쁜영향을미친다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

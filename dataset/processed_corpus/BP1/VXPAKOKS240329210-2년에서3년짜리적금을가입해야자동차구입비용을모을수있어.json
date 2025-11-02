@@ -1,0 +1,346 @@
+{
+  "id": "VXPAKOKS240329210",
+  "opertor": "label17",
+  "krlgg_sntenc": {
+    "koreanText": "2년에서 3년짜리 적금을 가입해야 자동차 구입 비용을 모을 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.466,
+        "end": 1.735,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.933,
+        "end": 2.51,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.633,
+        "end": 3.28,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.399,
+        "end": 4.046,
+        "gloss_id": "날짜(활용):2년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.233,
+        "end": 5.104,
+        "gloss_id": "날짜(활용):3년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.233,
+        "end": 5.432,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.566,
+        "end": 5.947,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 6.099,
+        "end": 6.515,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.733,
+        "end": 7.212,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.333,
+        "end": 7.581,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.466,
+        "end": 2.498,
+        "loc": "2",
+        "word": "적금을"
+      },
+      {
+        "start": 2.633,
+        "end": 3.28,
+        "loc": "3",
+        "word": "가입해야"
+      },
+      {
+        "start": 3.399,
+        "end": 4.046,
+        "loc": "0",
+        "word": "2년에서"
+      },
+      {
+        "start": 4.233,
+        "end": 5.104,
+        "loc": "1",
+        "word": "3년짜리"
+      },
+      {
+        "start": 5.233,
+        "end": 5.432,
+        "loc": "4",
+        "word": "자동차"
+      },
+      {
+        "start": 5.566,
+        "end": 6.507,
+        "loc": "5,6",
+        "word": "구입 비용을"
+      },
+      {
+        "start": 6.733,
+        "end": 7.212,
+        "loc": "7",
+        "word": "모을"
+      },
+      {
+        "start": 7.333,
+        "end": 7.581,
+        "loc": "8,9",
+        "word": "수 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.933,
+        "end": 2.51,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.466,
+        "end": 1.735,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.633,
+        "end": 3.28,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.399,
+        "end": 4.046,
+        "gloss_id": "날짜(활용):2년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.233,
+        "end": 5.104,
+        "gloss_id": "날짜(활용):3년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.233,
+        "end": 5.432,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.566,
+        "end": 5.947,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.099,
+        "end": 6.515,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.733,
+        "end": 7.212,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "이년",
+        "start": 3.399,
+        "end": 4.046
+      },
+      {
+        "descriptor": "삼년",
+        "start": 4.233,
+        "end": 5.104
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.933,
+        "end": 2.51
+      },
+      {
+        "descriptor": "",
+        "start": 2.633,
+        "end": 3.28
+      },
+      {
+        "descriptor": "",
+        "start": 3.399,
+        "end": 4.046
+      },
+      {
+        "descriptor": "",
+        "start": 4.233,
+        "end": 5.104
+      },
+      {
+        "descriptor": "",
+        "start": 6.099,
+        "end": 6.515
+      },
+      {
+        "descriptor": "",
+        "start": 7.333,
+        "end": 7.581
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.372,
+        "end": 7.581
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.733,
+        "end": 7.212
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.633,
+        "end": 3.28
+      },
+      {
+        "descriptor": "",
+        "start": 5.566,
+        "end": 6.498
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329210",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:43:26",
+    "sentence_ID": "VXPAKOKS240329210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    252,
+    126
+  ],
+  "file": "VXPAKOKS240329210.mp4",
+  "saved_as": "VXPAKOKS240329210-2년에서3년짜리적금을가입해야자동차구입비용을모을수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,283 @@
+{
+  "id": "VXPAKOKS240329380",
+  "opertor": "label24",
+  "krlgg_sntenc": {
+    "koreanText": "초보자가 좋아하는 이유는 예금에 대해 자세히 공부하지 않아도 시작할 수 있기 때문입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.583,
+        "end": 2.859,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.016,
+        "end": 3.229,
+        "gloss_id": "서투르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.276,
+        "end": 3.573,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.696,
+        "end": 4.196,
+        "gloss_id": "인기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.662,
+        "end": 5.071,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.145,
+        "end": 5.365,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.411,
+        "end": 5.638,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.856,
+        "end": 6.454,
+        "gloss_id": "지식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.035,
+        "end": 7.346,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.471,
+        "end": 7.922,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.583,
+        "end": 3.566,
+        "loc": "0",
+        "word": "초보자가"
+      },
+      {
+        "start": 3.696,
+        "end": 4.196,
+        "loc": "1",
+        "word": "좋아하는"
+      },
+      {
+        "start": 4.662,
+        "end": 5.071,
+        "loc": "2",
+        "word": "이유는"
+      },
+      {
+        "start": 5.145,
+        "end": 5.617,
+        "loc": "3",
+        "word": "예금에"
+      },
+      {
+        "start": 5.856,
+        "end": 6.664,
+        "loc": "6,7",
+        "word": "공부하지 않아도"
+      },
+      {
+        "start": 7.471,
+        "end": 7.922,
+        "loc": "9,10,11",
+        "word": "수 있기 때문입니다."
+      },
+      {
+        "start": 7.035,
+        "end": 7.346,
+        "loc": "8",
+        "word": "시작할"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.016,
+        "end": 3.229,
+        "gloss_id": "서투르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.276,
+        "end": 3.573,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.411,
+        "end": 7.339,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.696,
+        "end": 4.196
+      },
+      {
+        "descriptor": "",
+        "start": 4.662,
+        "end": 5.071
+      },
+      {
+        "descriptor": "",
+        "start": 7.471,
+        "end": 7.922
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.471,
+        "end": 7.922
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 6.293,
+        "end": 6.674
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.016,
+        "end": 4.181
+      },
+      {
+        "descriptor": "",
+        "start": 5.856,
+        "end": 6.454
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.856,
+        "end": 6.286
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.016,
+        "end": 4.167
+      },
+      {
+        "descriptor": "",
+        "start": 4.662,
+        "end": 5.071
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329380",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:07:26",
+    "sentence_ID": "VXPAKOKS240329380",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    252,
+    126
+  ],
+  "file": "VXPAKOKS240329380.mp4",
+  "saved_as": "VXPAKOKS240329380-초보자가좋아하는이유는예금에대해자세히공부하지않아도시작할수있기때문입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

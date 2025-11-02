@@ -1,0 +1,395 @@
+{
+  "id": "VXPAKOKS240337690",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "장외 시장은 원하는 채권에 대한 맞춤형 거래가 가능하며, 장내 시장에 비해 거래 조건이 유연합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.902,
+        "end": 2.103,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.306,
+        "end": 2.556,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.68,
+        "end": 2.863,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.084,
+        "end": 4.035,
+        "gloss_id": "비교1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.516,
+        "end": 4.795,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.341,
+        "end": 5.735,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.89,
+        "end": 5.996,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.13,
+        "end": 6.341,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.544,
+        "end": 7.322,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.573,
+        "end": 7.852,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.082,
+        "end": 8.361,
+        "gloss_id": "선택3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.724,
+        "end": 8.955,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.177,
+        "end": 9.533,
+        "gloss_id": "협상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.725,
+        "end": 9.985,
+        "gloss_id": "기름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.885,
+        "end": 5.061,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.516,
+        "end": 5.727,
+        "loc": "0,1",
+        "word": "장외 시장은"
+      },
+      {
+        "start": 7.573,
+        "end": 7.852,
+        "loc": "2",
+        "word": "원하는"
+      },
+      {
+        "start": 5.89,
+        "end": 7.312,
+        "loc": "3,4",
+        "word": "채권에 대한"
+      },
+      {
+        "start": 1.902,
+        "end": 2.862,
+        "loc": "8,9",
+        "word": "장내 시장에"
+      },
+      {
+        "start": 3.084,
+        "end": 4.035,
+        "loc": "10",
+        "word": "비해"
+      },
+      {
+        "start": 9.177,
+        "end": 9.533,
+        "loc": "11,12",
+        "word": "거래 조건이"
+      },
+      {
+        "start": 9.725,
+        "end": 9.985,
+        "loc": "13",
+        "word": "유연합니다."
+      },
+      {
+        "start": 8.082,
+        "end": 8.957,
+        "loc": "5,6,7",
+        "word": "맞춤형 거래가 가능하며,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.902,
+        "end": 2.103,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.306,
+        "end": 2.854,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.084,
+        "end": 4.035,
+        "gloss_id": "비교1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.516,
+        "end": 4.795,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.341,
+        "end": 5.735,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.544,
+        "end": 7.86,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.724,
+        "end": 8.955,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.177,
+        "end": 9.533,
+        "gloss_id": "협상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.082,
+        "end": 8.361,
+        "gloss_id": "선택3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.725,
+        "end": 9.985
+      },
+      {
+        "descriptor": "",
+        "start": 2.68,
+        "end": 2.863
+      },
+      {
+        "descriptor": "",
+        "start": 3.315,
+        "end": 4.035
+      },
+      {
+        "descriptor": "",
+        "start": 4.516,
+        "end": 4.795
+      },
+      {
+        "descriptor": "",
+        "start": 5.341,
+        "end": 5.735
+      },
+      {
+        "descriptor": "",
+        "start": 6.707,
+        "end": 7.322
+      },
+      {
+        "descriptor": "",
+        "start": 8.724,
+        "end": 8.955
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.724,
+        "end": 8.955
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.573,
+        "end": 7.852
+      },
+      {
+        "descriptor": "",
+        "start": 9.177,
+        "end": 9.533
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.902,
+        "end": 2.852
+      },
+      {
+        "descriptor": "",
+        "start": 8.724,
+        "end": 8.955
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337690",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:50",
+    "sentence_ID": "VXPAKOKS240337690",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    346,
+    126
+  ],
+  "file": "VXPAKOKS240337690.mp4",
+  "saved_as": "VXPAKOKS240337690-장외시장은원하는채권에대한맞춤형거래가가능하며,장내시장에비해거래조건이유연합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

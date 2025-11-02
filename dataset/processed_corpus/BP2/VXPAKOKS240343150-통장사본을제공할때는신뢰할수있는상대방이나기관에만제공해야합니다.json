@@ -1,0 +1,280 @@
+{
+  "id": "VXPAKOKS240343150",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "통장 사본을 제공할 때는 신뢰할 수 있는 상대방이나 기관에만 제공해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.966,
+        "end": 2.254,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.633,
+        "end": 3.235,
+        "gloss_id": "기관1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.83,
+        "end": 4.104,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.357,
+        "end": 4.686,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.034,
+        "end": 5.219,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.486,
+        "end": 5.637,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.752,
+        "end": 5.978,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.163,
+        "end": 6.458,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.966,
+        "end": 2.254,
+        "loc": "7",
+        "word": "상대방이나"
+      },
+      {
+        "start": 2.633,
+        "end": 3.235,
+        "loc": "8",
+        "word": "기관에만"
+      },
+      {
+        "start": 5.034,
+        "end": 5.219,
+        "loc": "0",
+        "word": "통장"
+      },
+      {
+        "start": 5.486,
+        "end": 5.637,
+        "loc": "1",
+        "word": "사본을"
+      },
+      {
+        "start": 3.83,
+        "end": 4.679,
+        "loc": "4,5,6",
+        "word": "신뢰할 수 있는"
+      },
+      {
+        "start": 5.752,
+        "end": 5.978,
+        "loc": "2,3",
+        "word": "제공할 때는"
+      },
+      {
+        "start": 6.163,
+        "end": 6.458,
+        "loc": "9,10",
+        "word": "제공해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.966,
+        "end": 2.254,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.633,
+        "end": 3.235,
+        "gloss_id": "기관1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.83,
+        "end": 4.669,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.034,
+        "end": 5.219,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.486,
+        "end": 5.976,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.163,
+        "end": 6.457,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.966,
+        "end": 2.254
+      },
+      {
+        "descriptor": "",
+        "start": 4.357,
+        "end": 4.686
+      },
+      {
+        "descriptor": "",
+        "start": 6.163,
+        "end": 6.458
+      },
+      {
+        "descriptor": "",
+        "start": 2.916,
+        "end": 3.218
+      },
+      {
+        "descriptor": "",
+        "start": 5.752,
+        "end": 5.978
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.357,
+        "end": 4.686
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.889,
+        "end": 6.391
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.566,
+        "end": 2.927
+      },
+      {
+        "descriptor": "",
+        "start": 3.83,
+        "end": 4.544
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343150",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:30:25",
+    "sentence_ID": "VXPAKOKS240343150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    246,
+    126
+  ],
+  "file": "VXPAKOKS240343150.mp4",
+  "saved_as": "VXPAKOKS240343150-통장사본을제공할때는신뢰할수있는상대방이나기관에만제공해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

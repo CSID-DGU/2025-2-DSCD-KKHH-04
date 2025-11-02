@@ -1,0 +1,307 @@
+{
+  "id": "VXPAKOKS240330820",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "카드사가 결제를 취소하기까지 평일 2일에서 5일의 시간이 필요합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.871,
+        "end": 2.097,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.26,
+        "end": 3.346,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.515,
+        "end": 3.779,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.92,
+        "end": 4.115,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.301,
+        "end": 4.938,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.166,
+        "end": 5.43,
+        "gloss_id": "때2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.567,
+        "end": 6.158,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.367,
+        "end": 6.76,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.953,
+        "end": 7.354,
+        "gloss_id": "날짜(활용):2일후",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.466,
+        "end": 7.631,
+        "gloss_id": "일형3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.763,
+        "end": 8.24,
+        "gloss_id": "날짜(활용):5일후",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.871,
+        "end": 3.338,
+        "loc": "0",
+        "word": "카드사가"
+      },
+      {
+        "start": 3.515,
+        "end": 4.114,
+        "loc": "1",
+        "word": "결제를"
+      },
+      {
+        "start": 4.301,
+        "end": 5.433,
+        "loc": "2",
+        "word": "취소하기까지"
+      },
+      {
+        "start": 5.567,
+        "end": 6.158,
+        "loc": "7",
+        "word": "필요합니다."
+      },
+      {
+        "start": 6.367,
+        "end": 6.76,
+        "loc": "3",
+        "word": "평일"
+      },
+      {
+        "start": 6.953,
+        "end": 7.62,
+        "loc": "4",
+        "word": "2일에서"
+      },
+      {
+        "start": 7.763,
+        "end": 8.24,
+        "loc": "5,6",
+        "word": "5일의 시간이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.26,
+        "end": 3.346,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.301,
+        "end": 4.938,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.166,
+        "end": 5.43,
+        "gloss_id": "때2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.567,
+        "end": 6.158,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.367,
+        "end": 6.76,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "이일",
+        "start": 6.953,
+        "end": 7.354
+      },
+      {
+        "descriptor": "오일",
+        "start": 7.763,
+        "end": 8.24
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.26,
+        "end": 2.905
+      },
+      {
+        "descriptor": "",
+        "start": 4.59,
+        "end": 4.938
+      },
+      {
+        "descriptor": "",
+        "start": 5.818,
+        "end": 6.158
+      },
+      {
+        "descriptor": "",
+        "start": 6.435,
+        "end": 6.76
+      },
+      {
+        "descriptor": "",
+        "start": 7.968,
+        "end": 8.24
+      },
+      {
+        "descriptor": "",
+        "start": 6.953,
+        "end": 7.354
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.92,
+        "end": 4.115
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.92,
+        "end": 4.922
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330820",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:36:11",
+    "sentence_ID": "VXPAKOKS240330820",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    274,
+    126
+  ],
+  "file": "VXPAKOKS240330820.mp4",
+  "saved_as": "VXPAKOKS240330820-카드사가결제를취소하기까지평일2일에서5일의시간이필요합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

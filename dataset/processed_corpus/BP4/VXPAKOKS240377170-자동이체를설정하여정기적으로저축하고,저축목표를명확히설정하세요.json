@@ -1,0 +1,368 @@
+{
+  "id": "VXPAKOKS240377170",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "자동 이체를 설정하여 정기적으로 저축하고, 저축 목표를 명확히 설정하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.53,
+        "end": 1.704,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.008,
+        "end": 2.291,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.447,
+        "end": 3.164,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.463,
+        "end": 3.668,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.903,
+        "end": 4.302,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.561,
+        "end": 5.2,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.007,
+        "end": 6.212,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.407,
+        "end": 6.604,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.771,
+        "end": 6.898,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.996,
+        "end": 7.232,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.378,
+        "end": 5.746,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.53,
+        "end": 1.704,
+        "loc": "0",
+        "word": "자동"
+      },
+      {
+        "start": 2.008,
+        "end": 2.291,
+        "loc": "1",
+        "word": "이체를"
+      },
+      {
+        "start": 2.447,
+        "end": 3.164,
+        "loc": "2",
+        "word": "설정하여"
+      },
+      {
+        "start": 3.463,
+        "end": 4.312,
+        "loc": "3",
+        "word": "정기적으로"
+      },
+      {
+        "start": 4.561,
+        "end": 5.2,
+        "loc": "4",
+        "word": "저축하고,"
+      },
+      {
+        "start": 5.378,
+        "end": 5.746,
+        "loc": "5",
+        "word": "저축"
+      },
+      {
+        "start": 6.007,
+        "end": 6.212,
+        "loc": "6",
+        "word": "목표를"
+      },
+      {
+        "start": 6.407,
+        "end": 6.604,
+        "loc": "7",
+        "word": "명확히"
+      },
+      {
+        "start": 6.771,
+        "end": 7.231,
+        "loc": "8",
+        "word": "설정하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.53,
+        "end": 1.704,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.008,
+        "end": 2.291,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.447,
+        "end": 3.164,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.463,
+        "end": 3.668,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.903,
+        "end": 4.302,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.007,
+        "end": 6.212,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.407,
+        "end": 6.604,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.771,
+        "end": 6.898,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.996,
+        "end": 7.232,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.561,
+        "end": 5.2,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.378,
+        "end": 5.746,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.996,
+        "end": 7.232
+      },
+      {
+        "descriptor": "",
+        "start": 2.838,
+        "end": 3.198
+      },
+      {
+        "descriptor": "",
+        "start": 6.407,
+        "end": 6.604
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.919,
+        "end": 4.054
+      },
+      {
+        "descriptor": "",
+        "start": 4.174,
+        "end": 4.294
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.771,
+        "end": 7.216
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.772,
+        "end": 7.232
+      },
+      {
+        "descriptor": "",
+        "start": 4.561,
+        "end": 5.2
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.447,
+        "end": 3.009
+      },
+      {
+        "descriptor": "",
+        "start": 6.007,
+        "end": 6.452
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240377170",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:49:34",
+    "sentence_ID": "VXPAKOKS240377170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    279,
+    126
+  ],
+  "file": "VXPAKOKS240377170.mp4",
+  "saved_as": "VXPAKOKS240377170-자동이체를설정하여정기적으로저축하고,저축목표를명확히설정하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

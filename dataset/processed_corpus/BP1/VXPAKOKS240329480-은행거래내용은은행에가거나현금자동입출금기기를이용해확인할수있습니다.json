@@ -1,0 +1,289 @@
+{
+  "id": "VXPAKOKS240329480",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "은행 거래 내용은 은행에 가거나 현금 자동 입출금 기기를 이용해 확인할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.681,
+        "end": 1.898,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.064,
+        "end": 2.63,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.801,
+        "end": 3.084,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.273,
+        "end": 3.664,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.83,
+        "end": 4.426,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.653,
+        "end": 4.851,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.961,
+        "end": 5.153,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.279,
+        "end": 5.682,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.832,
+        "end": 6.121,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.239,
+        "end": 6.485,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.801,
+        "end": 3.084,
+        "loc": "5",
+        "word": "현금"
+      },
+      {
+        "start": 3.273,
+        "end": 3.664,
+        "loc": "8",
+        "word": "기기를"
+      },
+      {
+        "start": 3.83,
+        "end": 4.426,
+        "loc": "9",
+        "word": "이용해"
+      },
+      {
+        "start": 1.681,
+        "end": 1.898,
+        "loc": "3",
+        "word": "은행에"
+      },
+      {
+        "start": 2.064,
+        "end": 2.63,
+        "loc": "4",
+        "word": "가거나"
+      },
+      {
+        "start": 5.279,
+        "end": 5.682,
+        "loc": "2",
+        "word": "내용은"
+      },
+      {
+        "start": 5.832,
+        "end": 6.121,
+        "loc": "10",
+        "word": "확인할"
+      },
+      {
+        "start": 6.239,
+        "end": 6.485,
+        "loc": "11,12",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 4.653,
+        "end": 5.146,
+        "loc": "6,7",
+        "word": "자동 입출금"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.681,
+        "end": 1.898,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.064,
+        "end": 2.63,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.273,
+        "end": 3.664,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.653,
+        "end": 5.153,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.279,
+        "end": 6.122,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.064,
+        "end": 2.63
+      },
+      {
+        "descriptor": "",
+        "start": 3.83,
+        "end": 4.426
+      },
+      {
+        "descriptor": "",
+        "start": 6.239,
+        "end": 6.485
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.239,
+        "end": 6.485
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.082,
+        "end": 4.419
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.681,
+        "end": 1.898
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329480",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:26:54",
+    "sentence_ID": "VXPAKOKS240329480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    217,
+    126
+  ],
+  "file": "VXPAKOKS240329480.mp4",
+  "saved_as": "VXPAKOKS240329480-은행거래내용은은행에가거나현금자동입출금기기를이용해확인할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

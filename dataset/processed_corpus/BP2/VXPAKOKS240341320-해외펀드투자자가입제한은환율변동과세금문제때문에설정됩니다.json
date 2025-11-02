@@ -1,0 +1,327 @@
+{
+  "id": "VXPAKOKS240341320",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "해외 펀드 투자자 가입 제한은 환율 변동과 세금 문제 때문에 설정됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.269,
+        "end": 1.857,
+        "gloss_id": "달러1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.203,
+        "end": 2.764,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.186,
+        "end": 3.413,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.702,
+        "end": 3.95,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.164,
+        "end": 4.351,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.573,
+        "end": 4.794,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.058,
+        "end": 5.333,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.655,
+        "end": 6.046,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.293,
+        "end": 6.575,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.824,
+        "end": 6.97,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.269,
+        "end": 1.857,
+        "loc": "5",
+        "word": "환율"
+      },
+      {
+        "start": 2.203,
+        "end": 2.764,
+        "loc": "6",
+        "word": "변동과"
+      },
+      {
+        "start": 3.186,
+        "end": 3.413,
+        "loc": "7",
+        "word": "세금"
+      },
+      {
+        "start": 3.702,
+        "end": 3.95,
+        "loc": "8,9",
+        "word": "문제 때문에"
+      },
+      {
+        "start": 4.164,
+        "end": 4.794,
+        "loc": "0",
+        "word": "해외"
+      },
+      {
+        "start": 5.058,
+        "end": 5.333,
+        "loc": "1,2",
+        "word": "펀드 투자자"
+      },
+      {
+        "start": 5.655,
+        "end": 6.046,
+        "loc": "3",
+        "word": "가입"
+      },
+      {
+        "start": 6.293,
+        "end": 6.575,
+        "loc": "4",
+        "word": "제한은"
+      },
+      {
+        "start": 6.824,
+        "end": 6.97,
+        "loc": "10",
+        "word": "설정됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.203,
+        "end": 2.764,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.186,
+        "end": 3.413,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.655,
+        "end": 6.046,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.293,
+        "end": 6.575,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.164,
+        "end": 4.351,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.573,
+        "end": 4.794,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.269,
+        "end": 1.857
+      },
+      {
+        "descriptor": "",
+        "start": 2.203,
+        "end": 2.764
+      },
+      {
+        "descriptor": "",
+        "start": 3.79,
+        "end": 3.95
+      },
+      {
+        "descriptor": "",
+        "start": 5.058,
+        "end": 5.333
+      },
+      {
+        "descriptor": "",
+        "start": 5.655,
+        "end": 6.046
+      },
+      {
+        "descriptor": "",
+        "start": 6.824,
+        "end": 6.97
+      },
+      {
+        "descriptor": "",
+        "start": 4.573,
+        "end": 4.794
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.797,
+        "end": 3.95
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.655,
+        "end": 6.918
+      },
+      {
+        "descriptor": "",
+        "start": 3.186,
+        "end": 3.413
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.269,
+        "end": 2.763
+      },
+      {
+        "descriptor": "",
+        "start": 4.163,
+        "end": 4.765
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341320",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:12:52",
+    "sentence_ID": "VXPAKOKS240341320",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240341320.mp4",
+  "saved_as": "VXPAKOKS240341320-해외펀드투자자가입제한은환율변동과세금문제때문에설정됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,281 @@
+{
+  "id": "VXPAKOKS240331830",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드로 다른 은행 현금 자동 입출금 기기에서 돈 인출하면 수수료 더 나와?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.785,
+        "end": 1.925,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.2,
+        "end": 2.489,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.918,
+        "end": 3.178,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.438,
+        "end": 3.557,
+        "gloss_id": "이름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.732,
+        "end": 4.281,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.643,
+        "end": 4.762,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.171,
+        "end": 5.671,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.117,
+        "end": 6.419,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.639,
+        "end": 6.807,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.034,
+        "end": 7.273,
+        "gloss_id": "크다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.785,
+        "end": 2.475,
+        "loc": "0",
+        "word": "현금카드로"
+      },
+      {
+        "start": 2.918,
+        "end": 3.178,
+        "loc": "2",
+        "word": "은행"
+      },
+      {
+        "start": 3.438,
+        "end": 4.305,
+        "loc": "1",
+        "word": "다른"
+      },
+      {
+        "start": 4.643,
+        "end": 5.665,
+        "loc": "3,4,5,6",
+        "word": "현금 자동 입출금 기기에서"
+      },
+      {
+        "start": 6.117,
+        "end": 6.419,
+        "loc": "7,8",
+        "word": "돈 인출하면"
+      },
+      {
+        "start": 6.639,
+        "end": 6.807,
+        "loc": "9",
+        "word": "수수료"
+      },
+      {
+        "start": 7.034,
+        "end": 7.273,
+        "loc": "10,11",
+        "word": "더 나와?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.918,
+        "end": 3.178,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.732,
+        "end": 4.281,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.643,
+        "end": 4.762,
+        "gloss_id": "기계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.117,
+        "end": 6.419,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.639,
+        "end": 6.807,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.2,
+        "end": 2.489
+      },
+      {
+        "descriptor": "",
+        "start": 3.732,
+        "end": 4.281
+      },
+      {
+        "descriptor": "",
+        "start": 6.117,
+        "end": 6.419
+      },
+      {
+        "descriptor": "",
+        "start": 7.034,
+        "end": 7.273
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.117,
+        "end": 6.257
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.732,
+        "end": 4.281
+      },
+      {
+        "descriptor": "",
+        "start": 6.117,
+        "end": 7.251
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331830",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:15:21",
+    "sentence_ID": "VXPAKOKS240331830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    254,
+    126
+  ],
+  "file": "VXPAKOKS240331830.mp4",
+  "saved_as": "VXPAKOKS240331830-현금카드로다른은행현금자동입출금기기에서돈인출하면수수료더나와.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

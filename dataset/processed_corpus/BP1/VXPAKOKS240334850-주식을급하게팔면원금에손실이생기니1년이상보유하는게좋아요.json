@@ -1,0 +1,316 @@
+{
+  "id": "VXPAKOKS240334850",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주식을 급하게 팔면 원금에 손실이 생기니 1년 이상 보유하는 게 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.337,
+        "end": 2.479,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.691,
+        "end": 3.001,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.22,
+        "end": 3.325,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.556,
+        "end": 3.888,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.286,
+        "end": 4.611,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.836,
+        "end": 5.131,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.438,
+        "end": 5.821,
+        "gloss_id": "기다리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.038,
+        "end": 6.465,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.656,
+        "end": 6.871,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.059,
+        "end": 7.275,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.337,
+        "end": 3.005,
+        "loc": "0",
+        "word": "주식을"
+      },
+      {
+        "start": 3.22,
+        "end": 3.325,
+        "loc": "1",
+        "word": "급하게"
+      },
+      {
+        "start": 3.556,
+        "end": 3.888,
+        "loc": "2",
+        "word": "팔면"
+      },
+      {
+        "start": 4.286,
+        "end": 4.611,
+        "loc": "3,4",
+        "word": "원금에 손실이"
+      },
+      {
+        "start": 4.836,
+        "end": 5.131,
+        "loc": "5",
+        "word": "생기니"
+      },
+      {
+        "start": 6.038,
+        "end": 6.465,
+        "loc": "6",
+        "word": "1년"
+      },
+      {
+        "start": 5.438,
+        "end": 5.821,
+        "loc": "8,9",
+        "word": "보유하는 게"
+      },
+      {
+        "start": 6.656,
+        "end": 6.871,
+        "loc": "7",
+        "word": "이상"
+      },
+      {
+        "start": 7.059,
+        "end": 7.275,
+        "loc": "10",
+        "word": "좋아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.337,
+        "end": 2.479,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.22,
+        "end": 3.325,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.556,
+        "end": 3.888,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.286,
+        "end": 4.611,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.038,
+        "end": 6.465,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일년",
+        "start": 6.038,
+        "end": 6.465
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.556,
+        "end": 3.876
+      },
+      {
+        "descriptor": "",
+        "start": 4.836,
+        "end": 5.131
+      },
+      {
+        "descriptor": "",
+        "start": 5.438,
+        "end": 5.821
+      },
+      {
+        "descriptor": "",
+        "start": 7.059,
+        "end": 7.275
+      },
+      {
+        "descriptor": "",
+        "start": 6.656,
+        "end": 6.871
+      },
+      {
+        "descriptor": "",
+        "start": 6.038,
+        "end": 6.465
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.704,
+        "end": 3.875
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.286,
+        "end": 5.13
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.621,
+        "end": 5.821
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.337,
+        "end": 3.867
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334850",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:33:00",
+    "sentence_ID": "VXPAKOKS240334850",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    263,
+    126
+  ],
+  "file": "VXPAKOKS240334850.mp4",
+  "saved_as": "VXPAKOKS240334850-주식을급하게팔면원금에손실이생기니1년이상보유하는게좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

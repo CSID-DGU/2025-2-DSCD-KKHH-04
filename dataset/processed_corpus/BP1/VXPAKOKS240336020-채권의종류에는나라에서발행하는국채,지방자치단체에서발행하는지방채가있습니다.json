@@ -1,0 +1,309 @@
+{
+  "id": "VXPAKOKS240336020",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 종류에는 나라에서 발행하는 국채, 지방 자치 단체에서 발행하는 지방채가 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.078,
+        "end": 2.176,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.424,
+        "end": 2.585,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.797,
+        "end": 3.276,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.628,
+        "end": 4.425,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.667,
+        "end": 5.284,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.56,
+        "end": 5.949,
+        "gloss_id": "지방1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.149,
+        "end": 6.677,
+        "gloss_id": "모임1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.833,
+        "end": 6.924,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.125,
+        "end": 7.445,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.755,
+        "end": 8.096,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.268,
+        "end": 8.588,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.773,
+        "end": 9.176,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.396,
+        "end": 9.661,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.084,
+        "end": 3.276,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 3.628,
+        "end": 4.425,
+        "loc": "1",
+        "word": "종류에는"
+      },
+      {
+        "start": 4.667,
+        "end": 9.181,
+        "loc": "2,3,4,5,6,7,8,9",
+        "word": "나라에서 발행하는 국채, 지방 자치 단체에서 발행하는 지방채가"
+      },
+      {
+        "start": 9.396,
+        "end": 9.661,
+        "loc": "10",
+        "word": "있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.797,
+        "end": 3.276,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.628,
+        "end": 4.426,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.667,
+        "end": 5.285,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.56,
+        "end": 5.949,
+        "gloss_id": "지방1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.149,
+        "end": 8.09,
+        "gloss_id": "모임1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.268,
+        "end": 8.588,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.773,
+        "end": 9.176,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.396,
+        "end": 9.661
+      },
+      {
+        "descriptor": "",
+        "start": 2.921,
+        "end": 3.28
+      },
+      {
+        "descriptor": "",
+        "start": 4.667,
+        "end": 5.284
+      },
+      {
+        "descriptor": "",
+        "start": 3.628,
+        "end": 4.425
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.628,
+        "end": 4.425
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.078,
+        "end": 3.11
+      },
+      {
+        "descriptor": "",
+        "start": 6.833,
+        "end": 7.424
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336020",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:12",
+    "sentence_ID": "VXPAKOKS240336020",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    349,
+    126
+  ],
+  "file": "VXPAKOKS240336020.mp4",
+  "saved_as": "VXPAKOKS240336020-채권의종류에는나라에서발행하는국채,지방자치단체에서발행하는지방채가있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

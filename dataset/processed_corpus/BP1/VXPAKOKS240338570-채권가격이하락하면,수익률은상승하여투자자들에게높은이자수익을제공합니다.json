@@ -1,0 +1,346 @@
+{
+  "id": "VXPAKOKS240338570",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "채권 가격이 하락하면, 수익률은 상승하여 투자자들에게 높은 이자 수익을 제공합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.468,
+        "end": 1.527,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.639,
+        "end": 1.778,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.054,
+        "end": 2.501,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.821,
+        "end": 2.896,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.165,
+        "end": 3.423,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.727,
+        "end": 3.878,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.12,
+        "end": 4.23,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.589,
+        "end": 5.1,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.495,
+        "end": 5.634,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.792,
+        "end": 5.885,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.172,
+        "end": 6.247,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.435,
+        "end": 6.575,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.842,
+        "end": 7.053,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.468,
+        "end": 2.498,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 2.821,
+        "end": 2.896,
+        "loc": "1",
+        "word": "가격이"
+      },
+      {
+        "start": 3.165,
+        "end": 3.87,
+        "loc": "2",
+        "word": "하락하면,"
+      },
+      {
+        "start": 4.12,
+        "end": 4.23,
+        "loc": "3",
+        "word": "수익률은"
+      },
+      {
+        "start": 4.589,
+        "end": 5.632,
+        "loc": "4",
+        "word": "상승하여"
+      },
+      {
+        "start": 5.792,
+        "end": 6.239,
+        "loc": "5",
+        "word": "투자자들에게"
+      },
+      {
+        "start": 6.435,
+        "end": 6.575,
+        "loc": "8,9",
+        "word": "수익을 제공합니다."
+      },
+      {
+        "start": 6.842,
+        "end": 7.053,
+        "loc": "6,7",
+        "word": "높은 이자"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.165,
+        "end": 3.423,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.727,
+        "end": 3.878,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.495,
+        "end": 5.889,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.172,
+        "end": 6.247,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.054,
+        "end": 2.501,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.821,
+        "end": 2.896,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.054,
+        "end": 2.501
+      },
+      {
+        "descriptor": "",
+        "start": 3.165,
+        "end": 3.423
+      },
+      {
+        "descriptor": "",
+        "start": 4.589,
+        "end": 5.1
+      },
+      {
+        "descriptor": "",
+        "start": 6.842,
+        "end": 7.053
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.727,
+        "end": 3.878
+      },
+      {
+        "descriptor": "",
+        "start": 4.589,
+        "end": 5.1
+      },
+      {
+        "descriptor": "",
+        "start": 5.495,
+        "end": 5.634
+      },
+      {
+        "descriptor": "",
+        "start": 3.165,
+        "end": 3.423
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.435,
+        "end": 7.048
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.468,
+        "end": 2.493
+      },
+      {
+        "descriptor": "",
+        "start": 3.165,
+        "end": 3.855
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338570",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:40:50",
+    "sentence_ID": "VXPAKOKS240338570",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    255,
+    126
+  ],
+  "file": "VXPAKOKS240338570.mp4",
+  "saved_as": "VXPAKOKS240338570-채권가격이하락하면,수익률은상승하여투자자들에게높은이자수익을제공합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

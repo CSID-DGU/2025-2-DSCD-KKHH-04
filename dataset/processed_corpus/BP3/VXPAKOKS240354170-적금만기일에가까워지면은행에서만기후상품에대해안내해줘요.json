@@ -1,0 +1,368 @@
+{
+  "id": "VXPAKOKS240354170",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "적금 만기일에 가까워지면 은행에서 만기 후 상품에 대해 안내해 줘요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.35,
+        "end": 1.545,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.687,
+        "end": 2.01,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.169,
+        "end": 2.613,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.836,
+        "end": 3.24,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.632,
+        "end": 4.228,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.451,
+        "end": 4.678,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.99,
+        "end": 6.02,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.299,
+        "end": 6.791,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.127,
+        "end": 7.434,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.585,
+        "end": 7.691,
+        "gloss_id": "무엇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.842,
+        "end": 8.262,
+        "gloss_id": "알려주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.35,
+        "end": 2.003,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.169,
+        "end": 3.24,
+        "loc": "1",
+        "word": "만기일에"
+      },
+      {
+        "start": 3.632,
+        "end": 4.228,
+        "loc": "2",
+        "word": "가까워지면"
+      },
+      {
+        "start": 4.451,
+        "end": 4.678,
+        "loc": "3",
+        "word": "은행에서"
+      },
+      {
+        "start": 4.99,
+        "end": 6.791,
+        "loc": "4,5",
+        "word": "만기 후"
+      },
+      {
+        "start": 7.127,
+        "end": 7.434,
+        "loc": "6",
+        "word": "상품에"
+      },
+      {
+        "start": 7.569,
+        "end": 7.691,
+        "loc": "7",
+        "word": "대해"
+      },
+      {
+        "start": 7.842,
+        "end": 8.262,
+        "loc": "8,9",
+        "word": "안내해 줘요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.687,
+        "end": 2.01,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.169,
+        "end": 2.613,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.836,
+        "end": 3.24,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.632,
+        "end": 4.228,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.451,
+        "end": 4.678,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.99,
+        "end": 6.02,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.299,
+        "end": 6.791,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.127,
+        "end": 8.261,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.35,
+        "end": 1.545
+      },
+      {
+        "descriptor": "",
+        "start": 2.169,
+        "end": 2.613
+      },
+      {
+        "descriptor": "",
+        "start": 2.836,
+        "end": 3.24
+      },
+      {
+        "descriptor": "",
+        "start": 4.99,
+        "end": 6.02
+      },
+      {
+        "descriptor": "",
+        "start": 6.299,
+        "end": 6.791
+      },
+      {
+        "descriptor": "",
+        "start": 7.842,
+        "end": 8.262
+      },
+      {
+        "descriptor": "",
+        "start": 7.585,
+        "end": 7.691
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.368,
+        "end": 5.586
+      },
+      {
+        "descriptor": "",
+        "start": 6.669,
+        "end": 6.791
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.632,
+        "end": 4.228
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.299,
+        "end": 6.686
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.169,
+        "end": 3.232
+      },
+      {
+        "descriptor": "",
+        "start": 3.632,
+        "end": 4.228
+      },
+      {
+        "descriptor": "",
+        "start": 4.451,
+        "end": 4.678
+      },
+      {
+        "descriptor": "",
+        "start": 4.99,
+        "end": 6.02
+      },
+      {
+        "descriptor": "",
+        "start": 7.127,
+        "end": 7.627
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354170",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:12:16",
+    "sentence_ID": "VXPAKOKS240354170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    289,
+    126
+  ],
+  "file": "VXPAKOKS240354170.mp4",
+  "saved_as": "VXPAKOKS240354170-적금만기일에가까워지면은행에서만기후상품에대해안내해줘요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

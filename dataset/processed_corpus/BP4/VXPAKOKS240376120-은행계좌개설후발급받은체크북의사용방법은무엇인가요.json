@@ -1,0 +1,289 @@
+{
+  "id": "VXPAKOKS240376120",
+  "opertor": "label26",
+  "krlgg_sntenc": {
+    "koreanText": "은행 계좌 개설 후 발급받은 체크북의 사용 방법은 무엇인가요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.039,
+        "end": 2.119,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.337,
+        "end": 2.516,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.651,
+        "end": 2.777,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.987,
+        "end": 3.716,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.842,
+        "end": 5.174,
+        "gloss_id": "체크북",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.5,
+        "end": 6.397,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.058,
+        "end": 7.329,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.402,
+        "end": 7.573,
+        "gloss_id": "무엇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.569,
+        "end": 6.919,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.039,
+        "end": 2.516,
+        "loc": "0,1",
+        "word": "은행 계좌"
+      },
+      {
+        "start": 2.651,
+        "end": 3.709,
+        "loc": "2,3",
+        "word": "개설 후"
+      },
+      {
+        "start": 3.842,
+        "end": 5.174,
+        "loc": "5",
+        "word": "체크북의"
+      },
+      {
+        "start": 7.058,
+        "end": 7.329,
+        "loc": "7",
+        "word": "방법은"
+      },
+      {
+        "start": 7.402,
+        "end": 7.573,
+        "loc": "8",
+        "word": "무엇인가요?"
+      },
+      {
+        "start": 5.5,
+        "end": 6.397,
+        "loc": "4",
+        "word": "발급받은"
+      },
+      {
+        "start": 6.569,
+        "end": 6.919,
+        "loc": "6",
+        "word": "사용"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.039,
+        "end": 2.119,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.337,
+        "end": 2.516,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.651,
+        "end": 2.777,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.987,
+        "end": 3.716,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.179,
+        "end": 6.389,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.058,
+        "end": 7.573,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.569,
+        "end": 6.919,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "체크북",
+        "start": 3.842,
+        "end": 5.174
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.56,
+        "end": 3.716
+      },
+      {
+        "descriptor": "",
+        "start": 7.402,
+        "end": 7.573
+      },
+      {
+        "descriptor": "",
+        "start": 5.5,
+        "end": 6.397
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.56,
+        "end": 3.716
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.569,
+        "end": 7.565
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.402,
+        "end": 7.573
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240376120",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:44:29",
+    "sentence_ID": "VXPAKOKS240376120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    275,
+    126
+  ],
+  "file": "VXPAKOKS240376120.mp4",
+  "saved_as": "VXPAKOKS240376120-은행계좌개설후발급받은체크북의사용방법은무엇인가요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,304 @@
+{
+  "id": "VXPAKOKS240353010",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "어린 시절부터 저축하는 재미를 알게 되면 경제적 독립에 큰 도움을 줘요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.503,
+        "end": 2.264,
+        "gloss_id": "아이1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.464,
+        "end": 2.598,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.878,
+        "end": 3.391,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.61,
+        "end": 3.816,
+        "gloss_id": "재미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.086,
+        "end": 4.266,
+        "gloss_id": "중독1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.502,
+        "end": 4.688,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.865,
+        "end": 5.195,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.389,
+        "end": 5.51,
+        "gloss_id": "혼자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.597,
+        "end": 5.79,
+        "gloss_id": "서다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.962,
+        "end": 6.174,
+        "gloss_id": "힘3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.318,
+        "end": 6.445,
+        "gloss_id": "돕다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.546,
+        "end": 6.765,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.503,
+        "end": 2.284,
+        "loc": "0,1",
+        "word": "어린 시절부터"
+      },
+      {
+        "start": 2.464,
+        "end": 3.382,
+        "loc": "2",
+        "word": "저축하는"
+      },
+      {
+        "start": 3.61,
+        "end": 4.685,
+        "loc": "3,4,5",
+        "word": "재미를 알게 되면"
+      },
+      {
+        "start": 4.865,
+        "end": 5.195,
+        "loc": "6",
+        "word": "경제적"
+      },
+      {
+        "start": 5.389,
+        "end": 6.163,
+        "loc": "7",
+        "word": "독립에"
+      },
+      {
+        "start": 6.318,
+        "end": 6.765,
+        "loc": "8,9,10",
+        "word": "큰 도움을 줘요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.503,
+        "end": 2.264,
+        "gloss_id": "아이1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.878,
+        "end": 3.391,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.61,
+        "end": 4.254,
+        "gloss_id": "재미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.502,
+        "end": 4.688,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.865,
+        "end": 5.195,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.597,
+        "end": 5.79,
+        "gloss_id": "서다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.962,
+        "end": 6.174,
+        "gloss_id": "힘3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.318,
+        "end": 6.445,
+        "gloss_id": "돕다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.503,
+        "end": 2.264
+      },
+      {
+        "descriptor": "",
+        "start": 4.502,
+        "end": 4.688
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.502,
+        "end": 4.688
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.502,
+        "end": 4.688
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353010",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:03:40",
+    "sentence_ID": "VXPAKOKS240353010",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    235,
+    126
+  ],
+  "file": "VXPAKOKS240353010.mp4",
+  "saved_as": "VXPAKOKS240353010-어린시절부터저축하는재미를알게되면경제적독립에큰도움을줘요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

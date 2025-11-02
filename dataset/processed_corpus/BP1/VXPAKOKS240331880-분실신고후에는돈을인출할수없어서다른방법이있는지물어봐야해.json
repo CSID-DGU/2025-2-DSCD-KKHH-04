@@ -1,0 +1,229 @@
+{
+  "id": "VXPAKOKS240331880",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "분실 신고 후에는 돈을 인출할 수 없어서 다른 방법이 있는지 물어봐야 해.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.582,
+        "end": 1.845,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.178,
+        "end": 2.745,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.874,
+        "end": 2.963,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.073,
+        "end": 3.398,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.609,
+        "end": 4.007,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.324,
+        "end": 4.452,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.575,
+        "end": 5.295,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.609,
+        "end": 5.979,
+        "gloss_id": "질문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.582,
+        "end": 1.845,
+        "loc": "0",
+        "word": "분실"
+      },
+      {
+        "start": 2.178,
+        "end": 2.745,
+        "loc": "1,2",
+        "word": "신고 후에는"
+      },
+      {
+        "start": 2.874,
+        "end": 2.963,
+        "loc": "3",
+        "word": "돈을"
+      },
+      {
+        "start": 3.073,
+        "end": 3.398,
+        "loc": "4",
+        "word": "인출할"
+      },
+      {
+        "start": 3.609,
+        "end": 4.007,
+        "loc": "5,6",
+        "word": "수 없어서"
+      },
+      {
+        "start": 4.324,
+        "end": 4.452,
+        "loc": "7",
+        "word": "다른"
+      },
+      {
+        "start": 4.575,
+        "end": 5.295,
+        "loc": "8,9",
+        "word": "방법이 있는지"
+      },
+      {
+        "start": 5.609,
+        "end": 5.979,
+        "loc": "10,11",
+        "word": "물어봐야 해."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.324,
+        "end": 4.452,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.575,
+        "end": 5.295,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.609,
+        "end": 5.979
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.6,
+        "end": 2.745
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.586,
+        "end": 2.745
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.575,
+        "end": 5.295
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331880",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:15:57",
+    "sentence_ID": "VXPAKOKS240331880",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    203,
+    126
+  ],
+  "file": "VXPAKOKS240331880.mp4",
+  "saved_as": "VXPAKOKS240331880-분실신고후에는돈을인출할수없어서다른방법이있는지물어봐야해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

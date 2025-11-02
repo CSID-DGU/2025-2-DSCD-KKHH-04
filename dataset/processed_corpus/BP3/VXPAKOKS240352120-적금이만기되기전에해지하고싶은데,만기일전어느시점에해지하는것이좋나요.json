@@ -1,0 +1,372 @@
+{
+  "id": "VXPAKOKS240352120",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금이 만기 되기 전에 해지하고 싶은데, 만기일 전 어느 시점에 해지하는 것이 좋나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.876,
+        "end": 2.012,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.25,
+        "end": 2.794,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.076,
+        "end": 3.656,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.911,
+        "end": 4.277,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.574,
+        "end": 4.736,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.979,
+        "end": 5.55,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.813,
+        "end": 6.153,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.561,
+        "end": 7.016,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.281,
+        "end": 7.977,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.21,
+        "end": 8.496,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.785,
+        "end": 9.009,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.199,
+        "end": 9.663,
+        "gloss_id": "언제1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.876,
+        "end": 2.777,
+        "loc": "0",
+        "word": "적금이"
+      },
+      {
+        "start": 3.076,
+        "end": 3.656,
+        "loc": "1,2",
+        "word": "만기 되기"
+      },
+      {
+        "start": 3.911,
+        "end": 4.277,
+        "loc": "3",
+        "word": "전에"
+      },
+      {
+        "start": 4.574,
+        "end": 4.736,
+        "loc": "4",
+        "word": "해지하고"
+      },
+      {
+        "start": 4.979,
+        "end": 5.55,
+        "loc": "5",
+        "word": "싶은데,"
+      },
+      {
+        "start": 5.813,
+        "end": 7.024,
+        "loc": "6",
+        "word": "만기일"
+      },
+      {
+        "start": 7.281,
+        "end": 7.977,
+        "loc": "7",
+        "word": "전"
+      },
+      {
+        "start": 9.199,
+        "end": 9.663,
+        "loc": "8,9",
+        "word": "어느 시점에"
+      },
+      {
+        "start": 8.21,
+        "end": 8.496,
+        "loc": "10,11",
+        "word": "해지하는 것이"
+      },
+      {
+        "start": 8.785,
+        "end": 9.009,
+        "loc": "12",
+        "word": "좋나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.25,
+        "end": 2.794,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.076,
+        "end": 3.656,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.911,
+        "end": 4.277,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.574,
+        "end": 4.736,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.813,
+        "end": 6.153,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.561,
+        "end": 7.016,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.281,
+        "end": 7.977,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.21,
+        "end": 8.496,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.199,
+        "end": 9.663,
+        "gloss_id": "언제1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.25,
+        "end": 2.794
+      },
+      {
+        "descriptor": "",
+        "start": 3.076,
+        "end": 3.656
+      },
+      {
+        "descriptor": "",
+        "start": 4.979,
+        "end": 5.55
+      },
+      {
+        "descriptor": "",
+        "start": 7.493,
+        "end": 7.966
+      },
+      {
+        "descriptor": "",
+        "start": 6.561,
+        "end": 7.016
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.574,
+        "end": 6.159
+      },
+      {
+        "descriptor": "",
+        "start": 8.785,
+        "end": 9.65
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.979,
+        "end": 5.55
+      },
+      {
+        "descriptor": "",
+        "start": 6.561,
+        "end": 7.016
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.911,
+        "end": 4.277
+      },
+      {
+        "descriptor": "",
+        "start": 7.281,
+        "end": 7.977
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352120",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:50:29",
+    "sentence_ID": "VXPAKOKS240352120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    320,
+    126
+  ],
+  "file": "VXPAKOKS240352120.mp4",
+  "saved_as": "VXPAKOKS240352120-적금이만기되기전에해지하고싶은데,만기일전어느시점에해지하는것이좋나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

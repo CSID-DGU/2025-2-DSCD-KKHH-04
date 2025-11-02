@@ -1,0 +1,196 @@
+{
+  "id": "VXPAKOKS240351760",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 해지 후 받은 돈은 기부할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.257,
+        "end": 1.368,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.483,
+        "end": 1.725,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.892,
+        "end": 2.479,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.746,
+        "end": 3.268,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.46,
+        "end": 3.746,
+        "gloss_id": "돈주다5",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.061,
+        "end": 4.251,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.257,
+        "end": 1.722,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 1.892,
+        "end": 2.479,
+        "loc": "1,2",
+        "word": "해지 후"
+      },
+      {
+        "start": 2.746,
+        "end": 3.268,
+        "loc": "3,4",
+        "word": "받은 돈은"
+      },
+      {
+        "start": 3.46,
+        "end": 4.257,
+        "loc": "5,6,7",
+        "word": "기부할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.892,
+        "end": 2.479,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.46,
+        "end": 3.746,
+        "gloss_id": "돈주다5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.483,
+        "end": 1.725,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.421,
+        "end": 2.48
+      },
+      {
+        "descriptor": "",
+        "start": 3.012,
+        "end": 3.268
+      },
+      {
+        "descriptor": "",
+        "start": 4.061,
+        "end": 4.251
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.421,
+        "end": 2.48
+      },
+      {
+        "descriptor": "",
+        "start": 4.061,
+        "end": 4.251
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240351760",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:47:40",
+    "sentence_ID": "VXPAKOKS240351760",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    157,
+    126
+  ],
+  "file": "VXPAKOKS240351760.mp4",
+  "saved_as": "VXPAKOKS240351760-적금해지후받은돈은기부할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

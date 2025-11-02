@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240346050",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "천만 원 이상을 예금한 사람들은 단 1퍼센트의 금리 변화만으로도 이익이 크게 달라져요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.38,
+        "end": 1.554,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.736,
+        "end": 2.21,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.451,
+        "end": 3.096,
+        "gloss_id": "10000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.395,
+        "end": 3.689,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.337,
+        "end": 4.871,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.181,
+        "end": 5.407,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.611,
+        "end": 6.334,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.634,
+        "end": 7.031,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.275,
+        "end": 7.578,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.795,
+        "end": 8.329,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.38,
+        "end": 2.162,
+        "loc": "4",
+        "word": "사람들은"
+      },
+      {
+        "start": 2.451,
+        "end": 3.096,
+        "loc": "0,1,2",
+        "word": "천만 원 이상을"
+      },
+      {
+        "start": 3.395,
+        "end": 3.689,
+        "loc": "3",
+        "word": "예금한"
+      },
+      {
+        "start": 4.184,
+        "end": 4.847,
+        "loc": "5,6",
+        "word": "단 1퍼센트의"
+      },
+      {
+        "start": 5.181,
+        "end": 5.407,
+        "loc": "7",
+        "word": "금리"
+      },
+      {
+        "start": 5.611,
+        "end": 7.045,
+        "loc": "8",
+        "word": "변화만으로도"
+      },
+      {
+        "start": 7.275,
+        "end": 7.578,
+        "loc": "9",
+        "word": "이익이"
+      },
+      {
+        "start": 7.795,
+        "end": 8.329,
+        "loc": "10,11",
+        "word": "크게 달라져요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.38,
+        "end": 1.554,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.851,
+        "end": 3.103,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.395,
+        "end": 3.689,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.184,
+        "end": 4.847,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.634,
+        "end": 7.031,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.795,
+        "end": 8.329
+      },
+      {
+        "descriptor": "",
+        "start": 1.736,
+        "end": 2.21
+      },
+      {
+        "descriptor": "",
+        "start": 3.395,
+        "end": 3.689
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.634,
+        "end": 7.031
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.795,
+        "end": 8.329
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.736,
+        "end": 2.21
+      },
+      {
+        "descriptor": "",
+        "start": 2.831,
+        "end": 3.639
+      },
+      {
+        "descriptor": "",
+        "start": 5.611,
+        "end": 6.334
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346050",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:42:14",
+    "sentence_ID": "VXPAKOKS240346050",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    308,
+    126
+  ],
+  "file": "VXPAKOKS240346050.mp4",
+  "saved_as": "VXPAKOKS240346050-천만원이상을예금한사람들은단1퍼센트의금리변화만으로도이익이크게달라져요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

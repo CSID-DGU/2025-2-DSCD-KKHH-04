@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240338500",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "금리가 인상되면 신규 채권 수익에 대한 투자자의 기대감이 커집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.145,
+        "end": 2.424,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.64,
+        "end": 3.012,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.274,
+        "end": 3.532,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.943,
+        "end": 4.18,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.294,
+        "end": 4.365,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.507,
+        "end": 4.623,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.875,
+        "end": 5.268,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.558,
+        "end": 5.851,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.161,
+        "end": 6.334,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.597,
+        "end": 6.755,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.045,
+        "end": 7.196,
+        "gloss_id": "기대1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.484,
+        "end": 7.707,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.145,
+        "end": 2.424,
+        "loc": "0",
+        "word": "금리가"
+      },
+      {
+        "start": 2.64,
+        "end": 3.531,
+        "loc": "1",
+        "word": "인상되면"
+      },
+      {
+        "start": 3.943,
+        "end": 4.18,
+        "loc": "2",
+        "word": "신규"
+      },
+      {
+        "start": 4.294,
+        "end": 5.268,
+        "loc": "3",
+        "word": "채권"
+      },
+      {
+        "start": 5.558,
+        "end": 6.335,
+        "loc": "6",
+        "word": "투자자의"
+      },
+      {
+        "start": 6.597,
+        "end": 6.755,
+        "loc": "4,5",
+        "word": "수익에 대한"
+      },
+      {
+        "start": 7.045,
+        "end": 7.196,
+        "loc": "7",
+        "word": "기대감이"
+      },
+      {
+        "start": 7.484,
+        "end": 7.707,
+        "loc": "8",
+        "word": "커집니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.274,
+        "end": 3.532,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.943,
+        "end": 4.18,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.161,
+        "end": 6.334,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.875,
+        "end": 5.268,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.875,
+        "end": 5.268
+      },
+      {
+        "descriptor": "",
+        "start": 7.045,
+        "end": 7.196
+      },
+      {
+        "descriptor": "",
+        "start": 7.484,
+        "end": 7.707
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.64,
+        "end": 3.012
+      },
+      {
+        "descriptor": "",
+        "start": 3.274,
+        "end": 3.532
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.045,
+        "end": 7.196
+      },
+      {
+        "descriptor": "",
+        "start": 5.558,
+        "end": 5.851
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.145,
+        "end": 3.001
+      },
+      {
+        "descriptor": "",
+        "start": 4.294,
+        "end": 5.27
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338500",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:39:30",
+    "sentence_ID": "VXPAKOKS240338500",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    256,
+    126
+  ],
+  "file": "VXPAKOKS240338500.mp4",
+  "saved_as": "VXPAKOKS240338500-금리가인상되면신규채권수익에대한투자자의기대감이커집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,348 @@
+{
+  "id": "VXPAKOKS240351220",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "서울은행에 여러 개 적금 계좌가 있는데, 한 번에 모든 적금을 해지할 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.372,
+        "end": 1.634,
+        "gloss_id": "서울1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.883,
+        "end": 2.32,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.565,
+        "end": 2.677,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.851,
+        "end": 3.113,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.316,
+        "end": 3.491,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.709,
+        "end": 4.13,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.296,
+        "end": 4.899,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.072,
+        "end": 5.152,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.296,
+        "end": 5.551,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.798,
+        "end": 6.1,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.202,
+        "end": 6.504,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.677,
+        "end": 7.066,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.232,
+        "end": 7.399,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.556,
+        "end": 7.771,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.372,
+        "end": 2.339,
+        "loc": "0",
+        "word": "서울은행에"
+      },
+      {
+        "start": 2.565,
+        "end": 3.113,
+        "loc": "3",
+        "word": "적금"
+      },
+      {
+        "start": 3.316,
+        "end": 3.491,
+        "loc": "4",
+        "word": "계좌가"
+      },
+      {
+        "start": 3.709,
+        "end": 4.13,
+        "loc": "1,2",
+        "word": "여러 개"
+      },
+      {
+        "start": 4.296,
+        "end": 4.899,
+        "loc": "5",
+        "word": "있는데,"
+      },
+      {
+        "start": 6.677,
+        "end": 7.066,
+        "loc": "6,7",
+        "word": "한 번에"
+      },
+      {
+        "start": 7.232,
+        "end": 7.399,
+        "loc": "10",
+        "word": "해지할"
+      },
+      {
+        "start": 7.556,
+        "end": 7.771,
+        "loc": "11,12",
+        "word": "수 있나요?"
+      },
+      {
+        "start": 6.202,
+        "end": 6.504,
+        "loc": "8",
+        "word": "모든"
+      },
+      {
+        "start": 5.072,
+        "end": 6.087,
+        "loc": "9",
+        "word": "적금을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.883,
+        "end": 2.32,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.851,
+        "end": 3.113,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.316,
+        "end": 5.559,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.798,
+        "end": 6.512,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.677,
+        "end": 7.066,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.232,
+        "end": 7.779,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.556,
+        "end": 7.771
+      },
+      {
+        "descriptor": "",
+        "start": 1.883,
+        "end": 2.32
+      },
+      {
+        "descriptor": "",
+        "start": 4.296,
+        "end": 4.899
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.556,
+        "end": 7.771
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.296,
+        "end": 5.549
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.316,
+        "end": 3.847
+      },
+      {
+        "descriptor": "",
+        "start": 6.202,
+        "end": 7.756
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351220",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:44:01",
+    "sentence_ID": "VXPAKOKS240351220",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    285,
+    126
+  ],
+  "file": "VXPAKOKS240351220.mp4",
+  "saved_as": "VXPAKOKS240351220-서울은행에여러개적금계좌가있는데,한번에모든적금을해지할수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

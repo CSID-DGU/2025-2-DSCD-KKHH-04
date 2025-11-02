@@ -1,0 +1,217 @@
+{
+  "id": "VXPAKOKS240335550",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자는 금융 자산을 위해 꼭 해야 하는 투자 방법이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.588,
+        "end": 2.846,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.101,
+        "end": 3.429,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.674,
+        "end": 3.856,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.058,
+        "end": 4.322,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.568,
+        "end": 4.979,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.221,
+        "end": 5.651,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.588,
+        "end": 2.846,
+        "loc": "2,3",
+        "word": "금융 자산을"
+      },
+      {
+        "start": 3.101,
+        "end": 3.429,
+        "loc": "4",
+        "word": "위해"
+      },
+      {
+        "start": 3.674,
+        "end": 3.856,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 4.058,
+        "end": 4.322,
+        "loc": "1",
+        "word": "투자는"
+      },
+      {
+        "start": 4.568,
+        "end": 4.979,
+        "loc": "6,7,8,9",
+        "word": "해야 하는 투자 방법이에요."
+      },
+      {
+        "start": 5.221,
+        "end": 5.651,
+        "loc": "5",
+        "word": "꼭"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.588,
+        "end": 2.846,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.674,
+        "end": 3.855,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.568,
+        "end": 4.979,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.221,
+        "end": 5.651,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.221,
+        "end": 5.651
+      },
+      {
+        "descriptor": "",
+        "start": 3.101,
+        "end": 3.429
+      },
+      {
+        "descriptor": "",
+        "start": 4.67,
+        "end": 4.979
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.588,
+        "end": 3.438
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.101,
+        "end": 3.429
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335550",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:06",
+    "sentence_ID": "VXPAKOKS240335550",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    229,
+    126
+  ],
+  "file": "VXPAKOKS240335550.mp4",
+  "saved_as": "VXPAKOKS240335550-주식투자는금융자산을위해꼭해야하는투자방법이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

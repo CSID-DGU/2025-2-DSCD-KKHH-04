@@ -1,0 +1,268 @@
+{
+  "id": "VXPAKOKS240331970",
+  "opertor": "label10",
+  "krlgg_sntenc": {
+    "koreanText": "대출 조건 중 하나로 근속 기간을 확인하는 은행이 많습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.608,
+        "end": 1.805,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.981,
+        "end": 2.225,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.425,
+        "end": 2.895,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.061,
+        "end": 3.383,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.645,
+        "end": 4.044,
+        "gloss_id": "오래2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.286,
+        "end": 4.899,
+        "gloss_id": "몇년1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.076,
+        "end": 5.493,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.73,
+        "end": 6.093,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.425,
+        "end": 2.895,
+        "loc": "1,2,3",
+        "word": "조건 중 하나로"
+      },
+      {
+        "start": 3.061,
+        "end": 4.044,
+        "loc": "4",
+        "word": "근속"
+      },
+      {
+        "start": 4.286,
+        "end": 4.899,
+        "loc": "5",
+        "word": "기간을"
+      },
+      {
+        "start": 5.076,
+        "end": 5.493,
+        "loc": "6",
+        "word": "확인하는"
+      },
+      {
+        "start": 5.73,
+        "end": 6.093,
+        "loc": "8",
+        "word": "많습니다."
+      },
+      {
+        "start": 1.608,
+        "end": 1.805,
+        "loc": "7",
+        "word": "은행이"
+      },
+      {
+        "start": 1.981,
+        "end": 2.225,
+        "loc": "0",
+        "word": "대출"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.425,
+        "end": 2.895,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.061,
+        "end": 3.383,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.645,
+        "end": 4.044,
+        "gloss_id": "오래2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.286,
+        "end": 5.499,
+        "gloss_id": "몇년1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.73,
+        "end": 6.093,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.608,
+        "end": 1.805,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.981,
+        "end": 2.225
+      },
+      {
+        "descriptor": "",
+        "start": 2.425,
+        "end": 2.895
+      },
+      {
+        "descriptor": "",
+        "start": 4.286,
+        "end": 4.899
+      },
+      {
+        "descriptor": "",
+        "start": 5.73,
+        "end": 6.093
+      },
+      {
+        "descriptor": "",
+        "start": 5.076,
+        "end": 5.493
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.645,
+        "end": 4.044
+      },
+      {
+        "descriptor": "",
+        "start": 5.076,
+        "end": 5.493
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240331970",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:40:28",
+    "sentence_ID": "VXPAKOKS240331970",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    214,
+    126
+  ],
+  "file": "VXPAKOKS240331970.mp4",
+  "saved_as": "VXPAKOKS240331970-대출조건중하나로근속기간을확인하는은행이많습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

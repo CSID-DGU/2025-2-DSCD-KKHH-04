@@ -1,0 +1,269 @@
+{
+  "id": "VXPAKOKS240336470",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "부실 채권은 원래 투자한 돈보다 적은 가격에 팔아야 하는 단점이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.249,
+        "end": 4.978,
+        "gloss_id": "부실채권",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.163,
+        "end": 5.261,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.436,
+        "end": 5.838,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.199,
+        "end": 6.376,
+        "gloss_id": "원래2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.551,
+        "end": 6.963,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.108,
+        "end": 7.764,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.125,
+        "end": 8.449,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.81,
+        "end": 9.124,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.377,
+        "end": 9.564,
+        "gloss_id": "나쁘다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.729,
+        "end": 9.887,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.249,
+        "end": 5.825,
+        "loc": "0,1",
+        "word": "부실 채권은"
+      },
+      {
+        "start": 6.199,
+        "end": 6.376,
+        "loc": "2",
+        "word": "원래"
+      },
+      {
+        "start": 6.551,
+        "end": 7.756,
+        "loc": "3,4",
+        "word": "투자한 돈보다"
+      },
+      {
+        "start": 8.125,
+        "end": 8.449,
+        "loc": "7,8",
+        "word": "팔아야 하는"
+      },
+      {
+        "start": 9.377,
+        "end": 9.863,
+        "loc": "9,10",
+        "word": "단점이 있습니다."
+      },
+      {
+        "start": 8.81,
+        "end": 9.124,
+        "loc": "5,6",
+        "word": "적은 가격에"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 8.125,
+        "end": 8.449,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.81,
+        "end": 9.124,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "부실채권",
+        "start": 2.249,
+        "end": 4.978
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.729,
+        "end": 9.887
+      },
+      {
+        "descriptor": "",
+        "start": 5.436,
+        "end": 5.838
+      },
+      {
+        "descriptor": "",
+        "start": 7.108,
+        "end": 7.764
+      },
+      {
+        "descriptor": "",
+        "start": 8.81,
+        "end": 9.124
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.163,
+        "end": 8.449
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 8.125,
+        "end": 9.084
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 9.788,
+        "end": 9.887
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.249,
+        "end": 4.778
+      },
+      {
+        "descriptor": "",
+        "start": 6.899,
+        "end": 7.521
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336470",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:07",
+    "sentence_ID": "VXPAKOKS240336470",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    352,
+    126
+  ],
+  "file": "VXPAKOKS240336470.mp4",
+  "saved_as": "VXPAKOKS240336470-부실채권은원래투자한돈보다적은가격에팔아야하는단점이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

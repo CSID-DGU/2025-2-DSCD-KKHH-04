@@ -1,0 +1,255 @@
+{
+  "id": "VXPAKOKS240331140",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "제가 이용하는 카드가 없는데 카드 청구서를 받았다면 카드사에 얘기해야 하나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.883,
+        "end": 2.028,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.214,
+        "end": 2.419,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.605,
+        "end": 3.156,
+        "gloss_id": "없다5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.332,
+        "end": 3.704,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.926,
+        "end": 4.596,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.796,
+        "end": 5.135,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.326,
+        "end": 5.577,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.726,
+        "end": 5.862,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.085,
+        "end": 6.484,
+        "gloss_id": "말하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.883,
+        "end": 2.028,
+        "loc": "0",
+        "word": "제가"
+      },
+      {
+        "start": 2.214,
+        "end": 2.419,
+        "loc": "1,2",
+        "word": "이용하는 카드가"
+      },
+      {
+        "start": 2.605,
+        "end": 3.156,
+        "loc": "3",
+        "word": "없는데"
+      },
+      {
+        "start": 3.332,
+        "end": 5.134,
+        "loc": "4,5,6",
+        "word": "카드 청구서를 받았다면"
+      },
+      {
+        "start": 5.326,
+        "end": 5.886,
+        "loc": "7",
+        "word": "카드사에"
+      },
+      {
+        "start": 6.085,
+        "end": 6.484,
+        "loc": "8,9",
+        "word": "얘기해야 하나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.332,
+        "end": 3.704,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.926,
+        "end": 5.131,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.726,
+        "end": 5.862,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.605,
+        "end": 3.156
+      },
+      {
+        "descriptor": "",
+        "start": 4.796,
+        "end": 5.135
+      },
+      {
+        "descriptor": "",
+        "start": 6.085,
+        "end": 6.484
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.292,
+        "end": 4.515
+      },
+      {
+        "descriptor": "",
+        "start": 2.785,
+        "end": 3.156
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.605,
+        "end": 3.156
+      },
+      {
+        "descriptor": "",
+        "start": 4.796,
+        "end": 5.135
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.883,
+        "end": 2.028
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331140",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:07:18",
+    "sentence_ID": "VXPAKOKS240331140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240331140.mp4",
+  "saved_as": "VXPAKOKS240331140-제가이용하는카드가없는데카드청구서를받았다면카드사에얘기해야하나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

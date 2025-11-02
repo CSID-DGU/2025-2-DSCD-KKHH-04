@@ -1,0 +1,248 @@
+{
+  "id": "VXPAKOKS240337010",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "기업의 실적이 나빠지거나 신용 등급이 하락하면, 투자자에게 더 높은 이자율을 제공해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.119,
+        "end": 2.274,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.416,
+        "end": 2.932,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.066,
+        "end": 3.317,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.572,
+        "end": 3.678,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.901,
+        "end": 4.537,
+        "gloss_id": "감소2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.817,
+        "end": 5.02,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.788,
+        "end": 6.159,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.454,
+        "end": 7.082,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.306,
+        "end": 5.49,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.817,
+        "end": 5.498,
+        "loc": "6",
+        "word": "투자자에게"
+      },
+      {
+        "start": 5.788,
+        "end": 7.094,
+        "loc": "7,8,9,10,11",
+        "word": "더 높은 이자율을 제공해야 합니다."
+      },
+      {
+        "start": 2.119,
+        "end": 2.274,
+        "loc": "0",
+        "word": "기업의"
+      },
+      {
+        "start": 2.416,
+        "end": 2.932,
+        "loc": "1",
+        "word": "실적이"
+      },
+      {
+        "start": 3.066,
+        "end": 3.317,
+        "loc": "3",
+        "word": "신용"
+      },
+      {
+        "start": 3.572,
+        "end": 3.678,
+        "loc": "4",
+        "word": "등급이"
+      },
+      {
+        "start": 3.901,
+        "end": 4.537,
+        "loc": "2,5",
+        "word": "나빠지거나 하락하면,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.119,
+        "end": 2.274,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.416,
+        "end": 2.932,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.066,
+        "end": 3.317,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.306,
+        "end": 5.49,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.147,
+        "end": 4.54
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.906,
+        "end": 4.541
+      },
+      {
+        "descriptor": "",
+        "start": 6.199,
+        "end": 7.074
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.119,
+        "end": 3.671
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337010",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:33:36",
+    "sentence_ID": "VXPAKOKS240337010",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    289,
+    126
+  ],
+  "file": "VXPAKOKS240337010.mp4",
+  "saved_as": "VXPAKOKS240337010-기업의실적이나빠지거나신용등급이하락하면,투자자에게더높은이자율을제공해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

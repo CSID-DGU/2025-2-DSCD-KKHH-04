@@ -1,0 +1,329 @@
+{
+  "id": "VXPAKOKS240331560",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "인출할 수 있는 금액은 은행마다 차이가 있지만, 현금을 하루에 백만 원까지 인출할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.723,
+        "end": 1.898,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.084,
+        "end": 2.297,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.514,
+        "end": 2.689,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.848,
+        "end": 3.386,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.738,
+        "end": 3.913,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.11,
+        "end": 4.466,
+        "gloss_id": "곳1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.827,
+        "end": 5.002,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.089,
+        "end": 5.294,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.541,
+        "end": 6.132,
+        "gloss_id": "하루1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.408,
+        "end": 6.583,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.767,
+        "end": 6.927,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.07,
+        "end": 7.562,
+        "gloss_id": "1000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.807,
+        "end": 8.156,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.723,
+        "end": 2.291,
+        "loc": "0",
+        "word": "인출할"
+      },
+      {
+        "start": 2.514,
+        "end": 2.689,
+        "loc": "1,2",
+        "word": "수 있는"
+      },
+      {
+        "start": 2.848,
+        "end": 3.386,
+        "loc": "3",
+        "word": "금액은"
+      },
+      {
+        "start": 3.738,
+        "end": 4.449,
+        "loc": "4",
+        "word": "은행마다"
+      },
+      {
+        "start": 5.541,
+        "end": 6.132,
+        "loc": "8",
+        "word": "하루에"
+      },
+      {
+        "start": 6.76,
+        "end": 8.159,
+        "loc": "9,10,12,13",
+        "word": "백만 원까지 수 있어요."
+      },
+      {
+        "start": 6.408,
+        "end": 6.583,
+        "loc": "7,11",
+        "word": "현금을 인출할"
+      },
+      {
+        "start": 4.827,
+        "end": 5.296,
+        "loc": "5,6",
+        "word": "차이가 있지만,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.738,
+        "end": 4.464,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.827,
+        "end": 5.002,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.089,
+        "end": 5.294,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.408,
+        "end": 6.583,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.807,
+        "end": 8.156,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "백만원",
+        "start": 7.07,
+        "end": 7.562
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.104,
+        "end": 3.483
+      },
+      {
+        "descriptor": "",
+        "start": 7.807,
+        "end": 8.156
+      },
+      {
+        "descriptor": "",
+        "start": 4.827,
+        "end": 5.327
+      },
+      {
+        "descriptor": "",
+        "start": 6.767,
+        "end": 6.927
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.767,
+        "end": 6.927
+      },
+      {
+        "descriptor": "",
+        "start": 2.514,
+        "end": 2.689
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.827,
+        "end": 5.314
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.723,
+        "end": 3.394
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331560",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:13:07",
+    "sentence_ID": "VXPAKOKS240331560",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    272,
+    126
+  ],
+  "file": "VXPAKOKS240331560.mp4",
+  "saved_as": "VXPAKOKS240331560-인출할수있는금액은은행마다차이가있지만,현금을하루에백만원까지인출할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

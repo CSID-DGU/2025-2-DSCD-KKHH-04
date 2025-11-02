@@ -1,0 +1,312 @@
+{
+  "id": "VXPAKOKS240333640",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "자동차 구입을 위해 돈을 빌리는 것으로, 신용도에 따라 대출 조건이 달라집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.265,
+        "end": 2.56,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.857,
+        "end": 3.373,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.698,
+        "end": 3.85,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.106,
+        "end": 4.677,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.871,
+        "end": 5.095,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.426,
+        "end": 5.539,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.769,
+        "end": 6.38,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.523,
+        "end": 6.873,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.114,
+        "end": 7.401,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.759,
+        "end": 8.148,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.265,
+        "end": 2.56,
+        "loc": "0",
+        "word": "자동차"
+      },
+      {
+        "start": 2.857,
+        "end": 3.373,
+        "loc": "1,2",
+        "word": "구입을 위해"
+      },
+      {
+        "start": 3.698,
+        "end": 3.85,
+        "loc": "3",
+        "word": "돈을"
+      },
+      {
+        "start": 4.106,
+        "end": 4.677,
+        "loc": "4,5",
+        "word": "빌리는 것으로,"
+      },
+      {
+        "start": 4.871,
+        "end": 5.521,
+        "loc": "6",
+        "word": "신용도에"
+      },
+      {
+        "start": 5.769,
+        "end": 6.38,
+        "loc": "7",
+        "word": "따라"
+      },
+      {
+        "start": 6.523,
+        "end": 6.873,
+        "loc": "8",
+        "word": "대출"
+      },
+      {
+        "start": 7.114,
+        "end": 7.401,
+        "loc": "9",
+        "word": "조건이"
+      },
+      {
+        "start": 7.759,
+        "end": 8.148,
+        "loc": "10",
+        "word": "달라집니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.265,
+        "end": 2.56,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.857,
+        "end": 3.373,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.106,
+        "end": 4.677,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.871,
+        "end": 5.095,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.114,
+        "end": 7.401,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.759,
+        "end": 8.148,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.857,
+        "end": 3.373
+      },
+      {
+        "descriptor": "",
+        "start": 4.319,
+        "end": 4.677
+      },
+      {
+        "descriptor": "",
+        "start": 5.769,
+        "end": 6.38
+      },
+      {
+        "descriptor": "",
+        "start": 7.114,
+        "end": 7.401
+      },
+      {
+        "descriptor": "",
+        "start": 7.759,
+        "end": 8.148
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.114,
+        "end": 7.401
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.759,
+        "end": 8.148
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.265,
+        "end": 3.35
+      },
+      {
+        "descriptor": "",
+        "start": 5.769,
+        "end": 6.727
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333640",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:23:44",
+    "sentence_ID": "VXPAKOKS240333640",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    284,
+    126
+  ],
+  "file": "VXPAKOKS240333640.mp4",
+  "saved_as": "VXPAKOKS240333640-자동차구입을위해돈을빌리는것으로,신용도에따라대출조건이달라집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

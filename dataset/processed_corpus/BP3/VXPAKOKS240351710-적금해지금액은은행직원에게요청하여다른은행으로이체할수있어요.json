@@ -1,0 +1,350 @@
+{
+  "id": "VXPAKOKS240351710",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 해지 금액은 은행 직원에게 요청하여 다른 은행으로 이체할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.27,
+        "end": 1.39,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.585,
+        "end": 1.808,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.025,
+        "end": 2.189,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.428,
+        "end": 3.089,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.414,
+        "end": 3.791,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.996,
+        "end": 4.199,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.413,
+        "end": 4.603,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.812,
+        "end": 5.163,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.39,
+        "end": 5.587,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.722,
+        "end": 5.816,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.92,
+        "end": 5.985,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.08,
+        "end": 6.206,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.342,
+        "end": 6.494,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.27,
+        "end": 1.822,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.025,
+        "end": 2.189,
+        "loc": "1",
+        "word": "해지"
+      },
+      {
+        "start": 2.428,
+        "end": 3.089,
+        "loc": "2",
+        "word": "금액은"
+      },
+      {
+        "start": 3.414,
+        "end": 3.791,
+        "loc": "3",
+        "word": "은행"
+      },
+      {
+        "start": 3.996,
+        "end": 4.618,
+        "loc": "4",
+        "word": "직원에게"
+      },
+      {
+        "start": 4.812,
+        "end": 5.163,
+        "loc": "5",
+        "word": "요청하여"
+      },
+      {
+        "start": 5.39,
+        "end": 5.587,
+        "loc": "6",
+        "word": "다른"
+      },
+      {
+        "start": 5.722,
+        "end": 5.816,
+        "loc": "7",
+        "word": "은행으로"
+      },
+      {
+        "start": 5.92,
+        "end": 6.488,
+        "loc": "8,9,10",
+        "word": "이체할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.585,
+        "end": 1.808,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.025,
+        "end": 2.189,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.414,
+        "end": 3.791,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.996,
+        "end": 4.199,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.413,
+        "end": 4.603,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.812,
+        "end": 5.163,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.39,
+        "end": 5.587,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.722,
+        "end": 5.816,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.08,
+        "end": 6.206,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.342,
+        "end": 6.494
+      },
+      {
+        "descriptor": "",
+        "start": 2.714,
+        "end": 3.059
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.342,
+        "end": 6.494
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.27,
+        "end": 2.777
+      },
+      {
+        "descriptor": "",
+        "start": 4.413,
+        "end": 4.603
+      },
+      {
+        "descriptor": "",
+        "start": 5.722,
+        "end": 5.816
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351710",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:47:18",
+    "sentence_ID": "VXPAKOKS240351710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240351710.mp4",
+  "saved_as": "VXPAKOKS240351710-적금해지금액은은행직원에게요청하여다른은행으로이체할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

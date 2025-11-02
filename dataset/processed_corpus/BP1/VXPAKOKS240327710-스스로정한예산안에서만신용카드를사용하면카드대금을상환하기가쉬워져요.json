@@ -1,0 +1,276 @@
+{
+  "id": "VXPAKOKS240327710",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "스스로 정한 예산 안에서만 신용카드를 사용하면 카드 대금을 상환하기가 쉬워져요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.212,
+        "end": 2.591,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.749,
+        "end": 3.063,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.366,
+        "end": 4.021,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.166,
+        "end": 4.288,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.533,
+        "end": 5.798,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.033,
+        "end": 6.273,
+        "gloss_id": "부담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.436,
+        "end": 6.762,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.499,
+        "end": 5.326,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.711,
+        "end": 1.994,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.166,
+        "end": 4.288,
+        "loc": "4",
+        "word": "신용카드를"
+      },
+      {
+        "start": 4.499,
+        "end": 5.326,
+        "loc": "5",
+        "word": "사용하면"
+      },
+      {
+        "start": 1.711,
+        "end": 1.994,
+        "loc": "0,1",
+        "word": "스스로 정한"
+      },
+      {
+        "start": 2.212,
+        "end": 3.059,
+        "loc": "2",
+        "word": "예산"
+      },
+      {
+        "start": 3.366,
+        "end": 4.021,
+        "loc": "3",
+        "word": "안에서만"
+      },
+      {
+        "start": 5.533,
+        "end": 5.798,
+        "loc": "6,7",
+        "word": "카드 대금을"
+      },
+      {
+        "start": 6.033,
+        "end": 6.768,
+        "loc": "8,9",
+        "word": "상환하기가 쉬워져요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.366,
+        "end": 4.021,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.166,
+        "end": 4.288,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.533,
+        "end": 5.798,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.033,
+        "end": 6.285
+      },
+      {
+        "descriptor": "",
+        "start": 2.749,
+        "end": 3.063
+      },
+      {
+        "descriptor": "",
+        "start": 3.366,
+        "end": 4.014
+      },
+      {
+        "descriptor": "",
+        "start": 6.436,
+        "end": 6.762
+      },
+      {
+        "descriptor": "",
+        "start": 4.919,
+        "end": 5.326
+      },
+      {
+        "descriptor": "",
+        "start": 1.711,
+        "end": 1.994
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.749,
+        "end": 3.063
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.436,
+        "end": 6.762
+      },
+      {
+        "descriptor": "",
+        "start": 4.499,
+        "end": 5.326
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.749,
+        "end": 3.063
+      },
+      {
+        "descriptor": "",
+        "start": 1.711,
+        "end": 1.994
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327710",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:20:41",
+    "sentence_ID": "VXPAKOKS240327710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    223,
+    126
+  ],
+  "file": "VXPAKOKS240327710.mp4",
+  "saved_as": "VXPAKOKS240327710-스스로정한예산안에서만신용카드를사용하면카드대금을상환하기가쉬워져요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

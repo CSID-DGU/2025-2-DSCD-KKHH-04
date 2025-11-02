@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240343100",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 발급받은 원본 통장을 복사하여 통장 사본으로 사용할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.935,
+        "end": 2.301,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.585,
+        "end": 2.732,
+        "gloss_id": "원래2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.143,
+        "end": 3.636,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.339,
+        "end": 5.747,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.003,
+        "end": 6.22,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.935,
+        "end": 2.301,
+        "loc": "0",
+        "word": "은행에서"
+      },
+      {
+        "start": 2.585,
+        "end": 2.732,
+        "loc": "2",
+        "word": "원본"
+      },
+      {
+        "start": 4.333,
+        "end": 4.882,
+        "loc": "1",
+        "word": "발급받은"
+      },
+      {
+        "start": 6.003,
+        "end": 6.22,
+        "loc": "7,8,9",
+        "word": "사용할 수 있습니다."
+      },
+      {
+        "start": 5.339,
+        "end": 5.747,
+        "loc": "5,6",
+        "word": "통장 사본으로"
+      },
+      {
+        "start": 3.143,
+        "end": 3.636,
+        "loc": "3,4",
+        "word": "통장을 복사하여"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.935,
+        "end": 2.301,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.585,
+        "end": 2.732,
+        "gloss_id": "원래2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.143,
+        "end": 3.636,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.333,
+        "end": 4.882,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.339,
+        "end": 5.747,
+        "gloss_id": "복사3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.003,
+        "end": 6.22
+      },
+      {
+        "descriptor": "",
+        "start": 1.935,
+        "end": 2.301
+      },
+      {
+        "descriptor": "",
+        "start": 3.143,
+        "end": 3.534
+      },
+      {
+        "descriptor": "",
+        "start": 4.333,
+        "end": 4.882
+      },
+      {
+        "descriptor": "",
+        "start": 5.339,
+        "end": 5.747
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.003,
+        "end": 6.22
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240343100",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:30:07",
+    "sentence_ID": "VXPAKOKS240343100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    254,
+    126
+  ],
+  "file": "VXPAKOKS240343100.mp4",
+  "saved_as": "VXPAKOKS240343100-은행에서발급받은원본통장을복사하여통장사본으로사용할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

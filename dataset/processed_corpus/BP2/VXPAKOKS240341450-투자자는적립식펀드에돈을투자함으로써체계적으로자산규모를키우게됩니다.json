@@ -1,0 +1,273 @@
+{
+  "id": "VXPAKOKS240341450",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "투자자는 적립식 펀드에 돈을 투자함으로써 체계적으로 자산 규모를 키우게 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.388,
+        "end": 1.568,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.828,
+        "end": 2.304,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.805,
+        "end": 3.178,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.397,
+        "end": 3.571,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.778,
+        "end": 4.272,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.551,
+        "end": 4.81,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.024,
+        "end": 5.264,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.588,
+        "end": 5.901,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.142,
+        "end": 6.347,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.388,
+        "end": 2.316,
+        "loc": "0",
+        "word": "투자자는"
+      },
+      {
+        "start": 2.805,
+        "end": 3.57,
+        "loc": "1",
+        "word": "적립식"
+      },
+      {
+        "start": 3.778,
+        "end": 4.815,
+        "loc": "2,3,4",
+        "word": "펀드에 돈을 투자함으로써"
+      },
+      {
+        "start": 5.024,
+        "end": 5.264,
+        "loc": "5,6",
+        "word": "체계적으로 자산"
+      },
+      {
+        "start": 5.588,
+        "end": 6.329,
+        "loc": "7,8,9",
+        "word": "규모를 키우게 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.828,
+        "end": 2.304,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.805,
+        "end": 3.178,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.397,
+        "end": 3.571,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.551,
+        "end": 4.81,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.024,
+        "end": 5.264,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.588,
+        "end": 5.901,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.828,
+        "end": 2.304
+      },
+      {
+        "descriptor": "",
+        "start": 3.778,
+        "end": 4.272
+      },
+      {
+        "descriptor": "",
+        "start": 2.805,
+        "end": 3.178
+      },
+      {
+        "descriptor": "",
+        "start": 6.142,
+        "end": 6.347
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.551,
+        "end": 4.81
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.588,
+        "end": 5.901
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.388,
+        "end": 2.304
+      },
+      {
+        "descriptor": "",
+        "start": 3.397,
+        "end": 4.271
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341450",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:13:44",
+    "sentence_ID": "VXPAKOKS240341450",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    217,
+    126
+  ],
+  "file": "VXPAKOKS240341450.mp4",
+  "saved_as": "VXPAKOKS240341450-투자자는적립식펀드에돈을투자함으로써체계적으로자산규모를키우게됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

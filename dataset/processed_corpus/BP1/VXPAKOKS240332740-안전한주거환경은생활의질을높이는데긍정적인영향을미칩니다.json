@@ -1,0 +1,211 @@
+{
+  "id": "VXPAKOKS240332740",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "안전한 주거 환경은 생활의 질을 높이는 데 긍정적인 영향을 미칩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.564,
+        "end": 2.655,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.776,
+        "end": 3.285,
+        "gloss_id": "분위기2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.579,
+        "end": 3.956,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.147,
+        "end": 4.558,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.772,
+        "end": 5.253,
+        "gloss_id": "충분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.474,
+        "end": 5.79,
+        "gloss_id": "행복1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.776,
+        "end": 3.285,
+        "loc": "2",
+        "word": "환경은"
+      },
+      {
+        "start": 3.579,
+        "end": 3.956,
+        "loc": "0",
+        "word": "안전한"
+      },
+      {
+        "start": 2.564,
+        "end": 2.655,
+        "loc": "1",
+        "word": "주거"
+      },
+      {
+        "start": 4.147,
+        "end": 4.558,
+        "loc": "3",
+        "word": "생활의"
+      },
+      {
+        "start": 4.772,
+        "end": 5.253,
+        "loc": "4,5,6",
+        "word": "질을 높이는 데"
+      },
+      {
+        "start": 5.474,
+        "end": 5.79,
+        "loc": "7,8,9",
+        "word": "긍정적인 영향을 미칩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.564,
+        "end": 2.655,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.776,
+        "end": 3.285,
+        "gloss_id": "분위기2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.579,
+        "end": 3.956,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.147,
+        "end": 4.558,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.579,
+        "end": 3.956
+      },
+      {
+        "descriptor": "",
+        "start": 5.474,
+        "end": 5.79
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.564,
+        "end": 3.283
+      },
+      {
+        "descriptor": "",
+        "start": 4.772,
+        "end": 5.253
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332740",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:21:13",
+    "sentence_ID": "VXPAKOKS240332740",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    213,
+    126
+  ],
+  "file": "VXPAKOKS240332740.mp4",
+  "saved_as": "VXPAKOKS240332740-안전한주거환경은생활의질을높이는데긍정적인영향을미칩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

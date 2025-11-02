@@ -1,0 +1,343 @@
+{
+  "id": "VXPAKOKS240351560",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "재테크할 때 원금 손실을 피하고 싶다면 은행 적금에 가입하는 게 좋습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.047,
+        "end": 1.158,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.338,
+        "end": 1.698,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.043,
+        "end": 2.17,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.307,
+        "end": 2.407,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.688,
+        "end": 3.129,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.453,
+        "end": 3.653,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.941,
+        "end": 4.254,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.469,
+        "end": 4.622,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.786,
+        "end": 4.865,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.962,
+        "end": 5.12,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.325,
+        "end": 5.581,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.781,
+        "end": 6.146,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.047,
+        "end": 1.699,
+        "loc": "0,1",
+        "word": "재테크할 때"
+      },
+      {
+        "start": 2.043,
+        "end": 2.406,
+        "loc": "2",
+        "word": "원금"
+      },
+      {
+        "start": 2.688,
+        "end": 3.129,
+        "loc": "3",
+        "word": "손실을"
+      },
+      {
+        "start": 4.469,
+        "end": 4.622,
+        "loc": "6",
+        "word": "은행"
+      },
+      {
+        "start": 4.786,
+        "end": 5.108,
+        "loc": "7",
+        "word": "적금에"
+      },
+      {
+        "start": 5.325,
+        "end": 5.581,
+        "loc": "8,9",
+        "word": "가입하는 게"
+      },
+      {
+        "start": 5.781,
+        "end": 6.146,
+        "loc": "10",
+        "word": "좋습니다."
+      },
+      {
+        "start": 3.453,
+        "end": 3.653,
+        "loc": "4",
+        "word": "피하고"
+      },
+      {
+        "start": 3.941,
+        "end": 4.254,
+        "loc": "5",
+        "word": "싶다면"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.338,
+        "end": 1.698,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.043,
+        "end": 2.406,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.688,
+        "end": 3.129,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.469,
+        "end": 4.622,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.962,
+        "end": 5.12,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.325,
+        "end": 5.581,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.781,
+        "end": 6.146,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.453,
+        "end": 3.653,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.338,
+        "end": 1.698
+      },
+      {
+        "descriptor": "",
+        "start": 3.941,
+        "end": 4.254
+      },
+      {
+        "descriptor": "",
+        "start": 5.781,
+        "end": 6.146
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.453,
+        "end": 3.66
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.453,
+        "end": 4.276
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.338,
+        "end": 1.698
+      },
+      {
+        "descriptor": "",
+        "start": 3.941,
+        "end": 4.254
+      },
+      {
+        "descriptor": "",
+        "start": 5.325,
+        "end": 5.581
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351560",
+  "potogrf": {
+    "createdTime": "2024-10-11 01:53:07",
+    "sentence_ID": "VXPAKOKS240351560",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240351560.mp4",
+  "saved_as": "VXPAKOKS240351560-재테크할때원금손실을피하고싶다면은행적금에가입하는게좋습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

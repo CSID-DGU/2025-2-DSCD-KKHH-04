@@ -1,0 +1,258 @@
+{
+  "id": "VXPAKOKS240333090",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "제가 원한다면 통장을 받고 나서 통장의 종류를 바꿀 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.286,
+        "end": 3.73,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.091,
+        "end": 4.451,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.715,
+        "end": 4.837,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.031,
+        "end": 5.23,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.423,
+        "end": 5.657,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.005,
+        "end": 6.162,
+        "gloss_id": "바꾸다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.341,
+        "end": 6.659,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.782,
+        "end": 7.149,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.286,
+        "end": 3.73,
+        "loc": "2",
+        "word": "통장을"
+      },
+      {
+        "start": 4.091,
+        "end": 4.451,
+        "loc": "3,4",
+        "word": "받고 나서"
+      },
+      {
+        "start": 4.715,
+        "end": 5.229,
+        "loc": "5",
+        "word": "통장의"
+      },
+      {
+        "start": 5.423,
+        "end": 5.657,
+        "loc": "6",
+        "word": "종류를"
+      },
+      {
+        "start": 6.005,
+        "end": 7.122,
+        "loc": "0,1,7,8,9",
+        "word": "제가 원한다면 바꿀 수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.286,
+        "end": 3.73,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.715,
+        "end": 4.837,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.031,
+        "end": 5.23,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.423,
+        "end": 5.657,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.142,
+        "end": 4.451
+      },
+      {
+        "descriptor": "",
+        "start": 5.423,
+        "end": 5.657
+      },
+      {
+        "descriptor": "",
+        "start": 6.341,
+        "end": 6.659
+      },
+      {
+        "descriptor": "",
+        "start": 6.813,
+        "end": 7.149
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.147,
+        "end": 4.451
+      },
+      {
+        "descriptor": "",
+        "start": 6.81,
+        "end": 7.149
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.423,
+        "end": 6.421
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.341,
+        "end": 6.803
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.091,
+        "end": 4.451
+      },
+      {
+        "descriptor": "",
+        "start": 6.649,
+        "end": 7.149
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333090",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:27:18",
+    "sentence_ID": "VXPAKOKS240333090",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    252,
+    126
+  ],
+  "file": "VXPAKOKS240333090.mp4",
+  "saved_as": "VXPAKOKS240333090-제가원한다면통장을받고나서통장의종류를바꿀수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

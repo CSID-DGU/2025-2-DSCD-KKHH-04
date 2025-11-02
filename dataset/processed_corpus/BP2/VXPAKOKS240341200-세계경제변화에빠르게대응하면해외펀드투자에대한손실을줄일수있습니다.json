@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240341200",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "세계 경제 변화에 빠르게 대응하면 해외 펀드 투자에 대한 손실을 줄일 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.192,
+        "end": 1.43,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.608,
+        "end": 1.991,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.212,
+        "end": 2.489,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.775,
+        "end": 3.236,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.415,
+        "end": 3.576,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.809,
+        "end": 4.47,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.737,
+        "end": 4.964,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.203,
+        "end": 5.458,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.691,
+        "end": 5.846,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.192,
+        "end": 1.43,
+        "loc": "0",
+        "word": "세계"
+      },
+      {
+        "start": 1.608,
+        "end": 1.991,
+        "loc": "1",
+        "word": "경제"
+      },
+      {
+        "start": 2.212,
+        "end": 2.489,
+        "loc": "2",
+        "word": "변화에"
+      },
+      {
+        "start": 2.775,
+        "end": 3.236,
+        "loc": "3,4",
+        "word": "빠르게 대응하면"
+      },
+      {
+        "start": 3.415,
+        "end": 3.576,
+        "loc": "5",
+        "word": "해외"
+      },
+      {
+        "start": 3.809,
+        "end": 4.47,
+        "loc": "6,7,8",
+        "word": "펀드 투자에 대한"
+      },
+      {
+        "start": 4.737,
+        "end": 4.964,
+        "loc": "9",
+        "word": "손실을"
+      },
+      {
+        "start": 5.203,
+        "end": 5.825,
+        "loc": "10,11,12",
+        "word": "줄일 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.192,
+        "end": 1.43,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.608,
+        "end": 1.991,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.775,
+        "end": 3.236,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.415,
+        "end": 3.576,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.737,
+        "end": 4.964,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.203,
+        "end": 5.458,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.212,
+        "end": 2.489,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.775,
+        "end": 3.236
+      },
+      {
+        "descriptor": "",
+        "start": 3.809,
+        "end": 4.47
+      },
+      {
+        "descriptor": "",
+        "start": 5.203,
+        "end": 5.458
+      },
+      {
+        "descriptor": "",
+        "start": 5.691,
+        "end": 5.846
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.01,
+        "end": 3.237
+      },
+      {
+        "descriptor": "",
+        "start": 5.691,
+        "end": 5.846
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.192,
+        "end": 4.461
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341200",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:11:42",
+    "sentence_ID": "VXPAKOKS240341200",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    200,
+    126
+  ],
+  "file": "VXPAKOKS240341200.mp4",
+  "saved_as": "VXPAKOKS240341200-세계경제변화에빠르게대응하면해외펀드투자에대한손실을줄일수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

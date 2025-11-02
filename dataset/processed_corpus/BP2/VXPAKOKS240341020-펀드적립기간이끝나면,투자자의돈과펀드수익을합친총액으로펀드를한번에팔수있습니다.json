@@ -1,0 +1,317 @@
+{
+  "id": "VXPAKOKS240341020",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 적립 기간이 끝나면, 투자자의 돈과 펀드 수익을 합친 총액으로 펀드를 한 번에 팔 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.263,
+        "end": 1.763,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.09,
+        "end": 2.415,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.562,
+        "end": 2.746,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.942,
+        "end": 3.045,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.353,
+        "end": 3.564,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.888,
+        "end": 4.126,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.342,
+        "end": 4.674,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.025,
+        "end": 5.403,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.639,
+        "end": 5.823,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.081,
+        "end": 6.359,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.559,
+        "end": 7.046,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.263,
+        "end": 1.763,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 2.09,
+        "end": 2.415,
+        "loc": "1",
+        "word": "적립"
+      },
+      {
+        "start": 2.562,
+        "end": 3.049,
+        "loc": "2",
+        "word": "기간이"
+      },
+      {
+        "start": 3.353,
+        "end": 3.564,
+        "loc": "3",
+        "word": "끝나면,"
+      },
+      {
+        "start": 6.081,
+        "end": 7.052,
+        "loc": "8,9",
+        "word": "합친 총액으로"
+      },
+      {
+        "start": 3.888,
+        "end": 4.678,
+        "loc": "10,11,12,13,14,15",
+        "word": "펀드를 한 번에 팔 수 있습니다."
+      },
+      {
+        "start": 5.025,
+        "end": 5.82,
+        "loc": "4,5,6,7",
+        "word": "투자자의 돈과 펀드 수익을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.09,
+        "end": 2.415,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.562,
+        "end": 2.746,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.942,
+        "end": 3.045,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.353,
+        "end": 3.564,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.888,
+        "end": 4.678,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.025,
+        "end": 5.403,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.081,
+        "end": 6.359,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.263,
+        "end": 1.763
+      },
+      {
+        "descriptor": "",
+        "start": 3.353,
+        "end": 3.564
+      },
+      {
+        "descriptor": "",
+        "start": 4.342,
+        "end": 4.674
+      },
+      {
+        "descriptor": "",
+        "start": 6.081,
+        "end": 6.359
+      },
+      {
+        "descriptor": "",
+        "start": 6.687,
+        "end": 7.046
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.342,
+        "end": 4.674
+      },
+      {
+        "descriptor": "",
+        "start": 3.353,
+        "end": 3.564
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.025,
+        "end": 5.813
+      },
+      {
+        "descriptor": "",
+        "start": 1.263,
+        "end": 3.465
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341020",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:10:18",
+    "sentence_ID": "VXPAKOKS240341020",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    242,
+    126
+  ],
+  "file": "VXPAKOKS240341020.mp4",
+  "saved_as": "VXPAKOKS240341020-펀드적립기간이끝나면,투자자의돈과펀드수익을합친총액으로펀드를한번에팔수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

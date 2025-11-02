@@ -1,0 +1,253 @@
+{
+  "id": "VXPAKOKS240331670",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "내 친구는 현금카드에 사진을 넣었다고 하던데, 나도 할 수 있을까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.554,
+        "end": 1.647,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.783,
+        "end": 2.479,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.832,
+        "end": 3.41,
+        "gloss_id": "찍다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.612,
+        "end": 4.262,
+        "gloss_id": "도장2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.431,
+        "end": 4.57,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.661,
+        "end": 4.944,
+        "gloss_id": "친구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.067,
+        "end": 5.567,
+        "gloss_id": "말하다1",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.696,
+        "end": 5.979,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.142,
+        "end": 6.642,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.554,
+        "end": 2.466,
+        "loc": "2",
+        "word": "현금카드에"
+      },
+      {
+        "start": 4.668,
+        "end": 4.944,
+        "loc": "1",
+        "word": "친구는"
+      },
+      {
+        "start": 2.832,
+        "end": 3.41,
+        "loc": "3",
+        "word": "사진을"
+      },
+      {
+        "start": 5.067,
+        "end": 5.567,
+        "loc": "5",
+        "word": "하던데,"
+      },
+      {
+        "start": 5.696,
+        "end": 5.979,
+        "loc": "6",
+        "word": "나도"
+      },
+      {
+        "start": 6.142,
+        "end": 6.642,
+        "loc": "7,8,9",
+        "word": "할 수 있을까?"
+      },
+      {
+        "start": 3.612,
+        "end": 4.262,
+        "loc": "4",
+        "word": "넣었다고"
+      },
+      {
+        "start": 4.431,
+        "end": 4.57,
+        "loc": "0",
+        "word": "내"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.661,
+        "end": 4.944,
+        "gloss_id": "친구1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.612,
+        "end": 4.571,
+        "gloss_id": "도장2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.612,
+        "end": 4.262
+      },
+      {
+        "descriptor": "",
+        "start": 1.783,
+        "end": 2.479
+      },
+      {
+        "descriptor": "",
+        "start": 2.832,
+        "end": 3.41
+      },
+      {
+        "descriptor": "",
+        "start": 6.142,
+        "end": 6.642
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.22,
+        "end": 6.628
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.696,
+        "end": 6.622
+      },
+      {
+        "descriptor": "",
+        "start": 1.554,
+        "end": 1.647
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331670",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:14:08",
+    "sentence_ID": "VXPAKOKS240331670",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    236,
+    126
+  ],
+  "file": "VXPAKOKS240331670.mp4",
+  "saved_as": "VXPAKOKS240331670-내친구는현금카드에사진을넣었다고하던데,나도할수있을까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

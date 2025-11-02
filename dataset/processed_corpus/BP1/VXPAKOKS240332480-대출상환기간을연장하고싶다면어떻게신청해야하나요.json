@@ -1,0 +1,257 @@
+{
+  "id": "VXPAKOKS240332480",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "대출 상환 기간을 연장하고 싶다면 어떻게 신청해야 하나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.699,
+        "end": 2.846,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.981,
+        "end": 3.488,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.633,
+        "end": 3.794,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.97,
+        "end": 4.373,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.516,
+        "end": 4.795,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.077,
+        "end": 5.252,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.478,
+        "end": 5.826,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.011,
+        "end": 6.49,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.699,
+        "end": 2.846,
+        "loc": "0",
+        "word": "대출"
+      },
+      {
+        "start": 2.981,
+        "end": 3.495,
+        "loc": "1",
+        "word": "상환"
+      },
+      {
+        "start": 3.633,
+        "end": 4.368,
+        "loc": "2",
+        "word": "기간을"
+      },
+      {
+        "start": 4.516,
+        "end": 4.795,
+        "loc": "3",
+        "word": "연장하고"
+      },
+      {
+        "start": 5.077,
+        "end": 5.252,
+        "loc": "4",
+        "word": "싶다면"
+      },
+      {
+        "start": 6.011,
+        "end": 6.49,
+        "loc": "5",
+        "word": "어떻게"
+      },
+      {
+        "start": 5.478,
+        "end": 5.826,
+        "loc": "6,7",
+        "word": "신청해야 하나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.981,
+        "end": 3.495,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.633,
+        "end": 3.794,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.97,
+        "end": 5.251,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.478,
+        "end": 5.826,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.011,
+        "end": 6.49,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.011,
+        "end": 6.49
+      },
+      {
+        "descriptor": "",
+        "start": 2.981,
+        "end": 3.495
+      },
+      {
+        "descriptor": "",
+        "start": 5.077,
+        "end": 5.252
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.077,
+        "end": 5.252
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.833,
+        "end": 5.243
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.699,
+        "end": 4.368
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332480",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:20:00",
+    "sentence_ID": "VXPAKOKS240332480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    249,
+    126
+  ],
+  "file": "VXPAKOKS240332480.mp4",
+  "saved_as": "VXPAKOKS240332480-대출상환기간을연장하고싶다면어떻게신청해야하나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

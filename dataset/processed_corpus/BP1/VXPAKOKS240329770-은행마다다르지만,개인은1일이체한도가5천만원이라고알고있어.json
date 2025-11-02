@@ -1,0 +1,235 @@
+{
+  "id": "VXPAKOKS240329770",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "은행마다 다르지만, 개인은 1일 이체 한도가 5천만 원이라고 알고 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.72,
+        "end": 1.981,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.329,
+        "end": 2.471,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.551,
+        "end": 2.802,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.053,
+        "end": 3.707,
+        "gloss_id": "하루1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.916,
+        "end": 4.197,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.412,
+        "end": 4.624,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.8,
+        "end": 5.355,
+        "gloss_id": "50000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.72,
+        "end": 1.981,
+        "loc": "0",
+        "word": "은행마다"
+      },
+      {
+        "start": 2.329,
+        "end": 2.794,
+        "loc": "1",
+        "word": "다르지만,"
+      },
+      {
+        "start": 3.916,
+        "end": 4.197,
+        "loc": "4",
+        "word": "이체"
+      },
+      {
+        "start": 4.412,
+        "end": 4.624,
+        "loc": "5",
+        "word": "한도가"
+      },
+      {
+        "start": 4.8,
+        "end": 5.355,
+        "loc": "6,7,8,9",
+        "word": "5천만 원이라고 알고 있어."
+      },
+      {
+        "start": 3.053,
+        "end": 3.707,
+        "loc": "2,3",
+        "word": "개인은 1일"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.72,
+        "end": 1.981,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.329,
+        "end": 2.471,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.551,
+        "end": 2.802,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.412,
+        "end": 4.624,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.916,
+        "end": 4.197,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "오천만원",
+        "start": 4.8,
+        "end": 5.355
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.72,
+        "end": 1.981
+      },
+      {
+        "descriptor": "",
+        "start": 3.053,
+        "end": 3.707
+      },
+      {
+        "descriptor": "",
+        "start": 4.8,
+        "end": 5.355
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.329,
+        "end": 2.779
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240329770",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:48:02",
+    "sentence_ID": "VXPAKOKS240329770",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    179,
+    126
+  ],
+  "file": "VXPAKOKS240329770.mp4",
+  "saved_as": "VXPAKOKS240329770-은행마다다르지만,개인은1일이체한도가5천만원이라고알고있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

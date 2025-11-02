@@ -1,0 +1,355 @@
+{
+  "id": "VXPAKOKS240338300",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "새로운 채권이 발행될 때 지급되는 이자율이 기존 채권의 이자율보다 낮을 때, 기존 채권 이윤이 커집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.019,
+        "end": 2.385,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.456,
+        "end": 2.564,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.752,
+        "end": 2.889,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.163,
+        "end": 3.462,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.794,
+        "end": 4.275,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.539,
+        "end": 4.733,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.931,
+        "end": 5.383,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.666,
+        "end": 6.089,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.421,
+        "end": 6.768,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.946,
+        "end": 7.188,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.482,
+        "end": 7.81,
+        "gloss_id": "비싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.112,
+        "end": 8.316,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.553,
+        "end": 8.757,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.001,
+        "end": 9.272,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.019,
+        "end": 2.385,
+        "loc": "0",
+        "word": "새로운"
+      },
+      {
+        "start": 2.456,
+        "end": 3.472,
+        "loc": "1",
+        "word": "채권이"
+      },
+      {
+        "start": 3.794,
+        "end": 4.275,
+        "loc": "2,3",
+        "word": "발행될 때"
+      },
+      {
+        "start": 4.539,
+        "end": 5.373,
+        "loc": "4,5",
+        "word": "지급되는 이자율이"
+      },
+      {
+        "start": 5.666,
+        "end": 6.089,
+        "loc": "9,10",
+        "word": "낮을 때,"
+      },
+      {
+        "start": 6.421,
+        "end": 6.768,
+        "loc": "6",
+        "word": "기존"
+      },
+      {
+        "start": 6.946,
+        "end": 7.799,
+        "loc": "7,8",
+        "word": "채권의 이자율보다"
+      },
+      {
+        "start": 8.112,
+        "end": 8.316,
+        "loc": "11,12",
+        "word": "기존 채권"
+      },
+      {
+        "start": 8.553,
+        "end": 8.757,
+        "loc": "13",
+        "word": "이윤이"
+      },
+      {
+        "start": 9.001,
+        "end": 9.272,
+        "loc": "14",
+        "word": "커집니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.019,
+        "end": 2.385,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.163,
+        "end": 3.462,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.794,
+        "end": 4.275,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.931,
+        "end": 5.383,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.666,
+        "end": 7.8,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.794,
+        "end": 4.275
+      },
+      {
+        "descriptor": "",
+        "start": 5.666,
+        "end": 6.089
+      },
+      {
+        "descriptor": "",
+        "start": 7.482,
+        "end": 7.81
+      },
+      {
+        "descriptor": "",
+        "start": 8.112,
+        "end": 8.316
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.482,
+        "end": 7.81
+      },
+      {
+        "descriptor": "",
+        "start": 3.794,
+        "end": 4.275
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 9.144,
+        "end": 9.262
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.456,
+        "end": 5.163
+      },
+      {
+        "descriptor": "",
+        "start": 6.421,
+        "end": 6.768
+      },
+      {
+        "descriptor": "",
+        "start": 8.112,
+        "end": 8.316
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338300",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:36",
+    "sentence_ID": "VXPAKOKS240338300",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    344,
+    126
+  ],
+  "file": "VXPAKOKS240338300.mp4",
+  "saved_as": "VXPAKOKS240338300-새로운채권이발행될때지급되는이자율이기존채권의이자율보다낮을때,기존채권이윤이커집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

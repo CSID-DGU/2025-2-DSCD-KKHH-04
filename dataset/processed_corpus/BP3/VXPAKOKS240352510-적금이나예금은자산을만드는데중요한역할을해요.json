@@ -1,0 +1,246 @@
+{
+  "id": "VXPAKOKS240352510",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금이나 예금은 자산을 만드는 데 중요한 역할을 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.876,
+        "end": 1.998,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.201,
+        "end": 2.794,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.075,
+        "end": 3.34,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.497,
+        "end": 3.718,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.945,
+        "end": 4.271,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.481,
+        "end": 4.857,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.931,
+        "end": 5.27,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.742,
+        "end": 6.192,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.876,
+        "end": 4.271,
+        "loc": "0,1",
+        "word": "적금이나 예금은"
+      },
+      {
+        "start": 4.481,
+        "end": 4.857,
+        "loc": "2",
+        "word": "자산을"
+      },
+      {
+        "start": 4.931,
+        "end": 5.27,
+        "loc": "3,4",
+        "word": "만드는 데"
+      },
+      {
+        "start": 5.742,
+        "end": 6.192,
+        "loc": "5,6,7",
+        "word": "중요한 역할을 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.201,
+        "end": 2.794,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.075,
+        "end": 3.34,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.497,
+        "end": 3.718,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.945,
+        "end": 4.271,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.481,
+        "end": 5.266,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.742,
+        "end": 6.192,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.742,
+        "end": 6.192
+      },
+      {
+        "descriptor": "",
+        "start": 2.201,
+        "end": 2.794
+      },
+      {
+        "descriptor": "",
+        "start": 3.945,
+        "end": 4.271
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.111,
+        "end": 6.168
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.201,
+        "end": 2.794
+      },
+      {
+        "descriptor": "",
+        "start": 3.939,
+        "end": 4.104
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352510",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:58:30",
+    "sentence_ID": "VXPAKOKS240352510",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    223,
+    126
+  ],
+  "file": "VXPAKOKS240352510.mp4",
+  "saved_as": "VXPAKOKS240352510-적금이나예금은자산을만드는데중요한역할을해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

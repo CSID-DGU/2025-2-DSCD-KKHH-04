@@ -1,0 +1,294 @@
+{
+  "id": "VXPAKOKS240331750",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "찾은 카드를 그냥 써도 좋지만, 보안을 위해 새 카드를 발급받는 게 좋아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.827,
+        "end": 2.071,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.217,
+        "end": 2.877,
+        "gloss_id": "발견1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.092,
+        "end": 3.362,
+        "gloss_id": "그냥1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.462,
+        "end": 3.885,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.094,
+        "end": 4.651,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.833,
+        "end": 5.007,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.194,
+        "end": 5.694,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.781,
+        "end": 6.223,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.331,
+        "end": 6.831,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.827,
+        "end": 2.071,
+        "loc": "1",
+        "word": "카드를"
+      },
+      {
+        "start": 2.217,
+        "end": 2.877,
+        "loc": "0",
+        "word": "찾은"
+      },
+      {
+        "start": 3.092,
+        "end": 3.362,
+        "loc": "2",
+        "word": "그냥"
+      },
+      {
+        "start": 3.462,
+        "end": 3.885,
+        "loc": "3",
+        "word": "써도"
+      },
+      {
+        "start": 4.094,
+        "end": 4.651,
+        "loc": "4",
+        "word": "좋지만,"
+      },
+      {
+        "start": 4.833,
+        "end": 5.007,
+        "loc": "7,8",
+        "word": "새 카드를"
+      },
+      {
+        "start": 5.194,
+        "end": 5.694,
+        "loc": "9,10",
+        "word": "발급받는 게"
+      },
+      {
+        "start": 5.781,
+        "end": 6.21,
+        "loc": "11",
+        "word": "좋아."
+      },
+      {
+        "start": 6.331,
+        "end": 6.831,
+        "loc": "5,6",
+        "word": "보안을 위해"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.217,
+        "end": 2.877,
+        "gloss_id": "발견1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.462,
+        "end": 3.885,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.833,
+        "end": 5.007,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.194,
+        "end": 6.218,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.331,
+        "end": 6.831,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.094,
+        "end": 4.651
+      },
+      {
+        "descriptor": "",
+        "start": 5.194,
+        "end": 5.694
+      },
+      {
+        "descriptor": "",
+        "start": 6.331,
+        "end": 6.831
+      },
+      {
+        "descriptor": "",
+        "start": 2.217,
+        "end": 2.877
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.485,
+        "end": 2.877
+      },
+      {
+        "descriptor": "",
+        "start": 4.298,
+        "end": 4.395
+      },
+      {
+        "descriptor": "",
+        "start": 4.478,
+        "end": 4.639
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.194,
+        "end": 5.694
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.827,
+        "end": 2.844
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331750",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:14:47",
+    "sentence_ID": "VXPAKOKS240331750",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240331750.mp4",
+  "saved_as": "VXPAKOKS240331750-찾은카드를그냥써도좋지만,보안을위해새카드를발급받는게좋아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

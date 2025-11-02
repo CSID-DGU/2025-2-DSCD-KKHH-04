@@ -1,0 +1,400 @@
+{
+  "id": "VXPAKOKS240337310",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "투자자는 자신의 투자 목적, 투자 기간을 생각한 후, 적합한 만기의 채권을 선택해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.399,
+        "end": 2.564,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.803,
+        "end": 3.407,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.693,
+        "end": 3.868,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.139,
+        "end": 4.796,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.994,
+        "end": 5.179,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.406,
+        "end": 5.581,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.824,
+        "end": 6.093,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.363,
+        "end": 6.569,
+        "gloss_id": "생각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.861,
+        "end": 7.528,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.973,
+        "end": 8.117,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.31,
+        "end": 8.507,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.685,
+        "end": 8.861,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.102,
+        "end": 9.675,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.992,
+        "end": 10.115,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.312,
+        "end": 10.728,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.399,
+        "end": 3.391,
+        "loc": "0",
+        "word": "투자자는"
+      },
+      {
+        "start": 3.693,
+        "end": 3.868,
+        "loc": "1,2",
+        "word": "자신의 투자"
+      },
+      {
+        "start": 4.139,
+        "end": 4.796,
+        "loc": "3",
+        "word": "목적,"
+      },
+      {
+        "start": 4.994,
+        "end": 5.179,
+        "loc": "4",
+        "word": "투자"
+      },
+      {
+        "start": 5.406,
+        "end": 6.104,
+        "loc": "5",
+        "word": "기간을"
+      },
+      {
+        "start": 6.363,
+        "end": 7.532,
+        "loc": "6,7",
+        "word": "생각한 후,"
+      },
+      {
+        "start": 7.973,
+        "end": 8.86,
+        "loc": "9",
+        "word": "만기의"
+      },
+      {
+        "start": 9.102,
+        "end": 9.675,
+        "loc": "8",
+        "word": "적합한"
+      },
+      {
+        "start": 9.992,
+        "end": 10.701,
+        "loc": "10,11,12",
+        "word": "채권을 선택해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.803,
+        "end": 3.407,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.139,
+        "end": 4.796,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.406,
+        "end": 5.581,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.824,
+        "end": 6.093,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.861,
+        "end": 7.528,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.973,
+        "end": 8.117,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.3,
+        "end": 8.507,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.685,
+        "end": 8.861,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.102,
+        "end": 9.675,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.803,
+        "end": 3.407
+      },
+      {
+        "descriptor": "",
+        "start": 4.275,
+        "end": 4.796
+      },
+      {
+        "descriptor": "",
+        "start": 5.824,
+        "end": 6.093
+      },
+      {
+        "descriptor": "",
+        "start": 6.861,
+        "end": 7.528
+      },
+      {
+        "descriptor": "",
+        "start": 8.685,
+        "end": 8.861
+      },
+      {
+        "descriptor": "",
+        "start": 9.259,
+        "end": 9.685
+      },
+      {
+        "descriptor": "",
+        "start": 10.312,
+        "end": 10.728
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.06,
+        "end": 7.528
+      },
+      {
+        "descriptor": "",
+        "start": 9.259,
+        "end": 9.675
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.399,
+        "end": 3.391
+      },
+      {
+        "descriptor": "",
+        "start": 6.861,
+        "end": 7.528
+      },
+      {
+        "descriptor": "",
+        "start": 7.973,
+        "end": 8.881
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337310",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:36:10",
+    "sentence_ID": "VXPAKOKS240337310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    377,
+    126
+  ],
+  "file": "VXPAKOKS240337310.mp4",
+  "saved_as": "VXPAKOKS240337310-투자자는자신의투자목적,투자기간을생각한후,적합한만기의채권을선택해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

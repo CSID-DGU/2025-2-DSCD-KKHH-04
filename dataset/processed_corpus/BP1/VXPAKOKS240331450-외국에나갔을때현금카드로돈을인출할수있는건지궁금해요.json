@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240331450",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "외국에 나갔을 때 현금카드로 돈을 인출할 수 있는 건지 궁금해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.159,
+        "end": 2.356,
+        "gloss_id": "궁금하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.547,
+        "end": 2.946,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.232,
+        "end": 3.681,
+        "gloss_id": "가다7",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.86,
+        "end": 3.956,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.203,
+        "end": 4.647,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.876,
+        "end": 5.258,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.437,
+        "end": 5.853,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.159,
+        "end": 2.356,
+        "loc": "9",
+        "word": "궁금해요."
+      },
+      {
+        "start": 2.547,
+        "end": 2.946,
+        "loc": "0",
+        "word": "외국에"
+      },
+      {
+        "start": 3.232,
+        "end": 3.681,
+        "loc": "1,2",
+        "word": "나갔을 때"
+      },
+      {
+        "start": 3.86,
+        "end": 4.635,
+        "loc": "3",
+        "word": "현금카드로"
+      },
+      {
+        "start": 4.876,
+        "end": 5.258,
+        "loc": "4,5",
+        "word": "돈을 인출할"
+      },
+      {
+        "start": 5.437,
+        "end": 5.853,
+        "loc": "6,7,8",
+        "word": "수 있는 건지"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.547,
+        "end": 2.946,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.159,
+        "end": 2.356
+      },
+      {
+        "descriptor": "",
+        "start": 3.232,
+        "end": 3.681
+      },
+      {
+        "descriptor": "",
+        "start": 4.203,
+        "end": 4.647
+      },
+      {
+        "descriptor": "",
+        "start": 5.437,
+        "end": 5.853
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.538,
+        "end": 5.853
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.159,
+        "end": 2.356
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.232,
+        "end": 3.681
+      },
+      {
+        "descriptor": "",
+        "start": 4.203,
+        "end": 5.825
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331450",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:11:59",
+    "sentence_ID": "VXPAKOKS240331450",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    202,
+    126
+  ],
+  "file": "VXPAKOKS240331450.mp4",
+  "saved_as": "VXPAKOKS240331450-외국에나갔을때현금카드로돈을인출할수있는건지궁금해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

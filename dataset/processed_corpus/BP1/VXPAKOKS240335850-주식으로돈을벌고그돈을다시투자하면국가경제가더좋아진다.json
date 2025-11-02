@@ -1,0 +1,271 @@
+{
+  "id": "VXPAKOKS240335850",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식으로 돈을 벌고 그 돈을 다시 투자하면 국가 경제가 더 좋아진다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.05,
+        "end": 2.176,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.466,
+        "end": 2.83,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.26,
+        "end": 3.601,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.927,
+        "end": 4.14,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.374,
+        "end": 4.842,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.116,
+        "end": 5.624,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.832,
+        "end": 5.974,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.311,
+        "end": 6.747,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.927,
+        "end": 7.1,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.05,
+        "end": 2.83,
+        "loc": "0",
+        "word": "주식으로"
+      },
+      {
+        "start": 3.26,
+        "end": 3.601,
+        "loc": "1,2",
+        "word": "돈을 벌고"
+      },
+      {
+        "start": 3.927,
+        "end": 4.132,
+        "loc": "5",
+        "word": "다시"
+      },
+      {
+        "start": 4.374,
+        "end": 4.842,
+        "loc": "3,4,6",
+        "word": "그 돈을 투자하면"
+      },
+      {
+        "start": 5.116,
+        "end": 5.624,
+        "loc": "8",
+        "word": "경제가"
+      },
+      {
+        "start": 5.832,
+        "end": 5.974,
+        "loc": "7",
+        "word": "국가"
+      },
+      {
+        "start": 6.311,
+        "end": 7.098,
+        "loc": "9,10",
+        "word": "더 좋아진다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.05,
+        "end": 2.176,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.26,
+        "end": 3.601,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.116,
+        "end": 5.624,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.84,
+        "end": 5.974,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.311,
+        "end": 6.747,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.466,
+        "end": 2.83
+      },
+      {
+        "descriptor": "",
+        "start": 4.374,
+        "end": 4.842
+      },
+      {
+        "descriptor": "",
+        "start": 6.927,
+        "end": 7.1
+      },
+      {
+        "descriptor": "",
+        "start": 3.26,
+        "end": 3.601
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.927,
+        "end": 7.1
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.05,
+        "end": 2.814
+      },
+      {
+        "descriptor": "",
+        "start": 4.374,
+        "end": 4.842
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335850",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:45:43",
+    "sentence_ID": "VXPAKOKS240335850",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    287,
+    126
+  ],
+  "file": "VXPAKOKS240335850.mp4",
+  "saved_as": "VXPAKOKS240335850-주식으로돈을벌고그돈을다시투자하면국가경제가더좋아진다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

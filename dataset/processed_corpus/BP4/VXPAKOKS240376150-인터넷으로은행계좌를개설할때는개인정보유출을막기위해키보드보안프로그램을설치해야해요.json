@@ -1,0 +1,499 @@
+{
+  "id": "VXPAKOKS240376150",
+  "opertor": "label26",
+  "krlgg_sntenc": {
+    "koreanText": "인터넷으로 은행 계좌를 개설할 때는 개인정보 유출을 막기 위해 키보드 보안프로그램을 설치해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.531,
+        "end": 1.776,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.012,
+        "end": 2.512,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.709,
+        "end": 2.807,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.964,
+        "end": 3.209,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.455,
+        "end": 3.592,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.779,
+        "end": 3.994,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.122,
+        "end": 4.278,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.535,
+        "end": 4.731,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.869,
+        "end": 5.084,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.339,
+        "end": 5.603,
+        "gloss_id": "파악하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.742,
+        "end": 6.104,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.262,
+        "end": 7.076,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.361,
+        "end": 7.822,
+        "gloss_id": "타자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.98,
+        "end": 8.078,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.186,
+        "end": 8.352,
+        "gloss_id": "보호2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.47,
+        "end": 8.872,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.951,
+        "end": 9.147,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.314,
+        "end": 9.569,
+        "gloss_id": "세우다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.746,
+        "end": 10.021,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.531,
+        "end": 2.512,
+        "loc": "0",
+        "word": "인터넷으로"
+      },
+      {
+        "start": 2.709,
+        "end": 2.807,
+        "loc": "1",
+        "word": "은행"
+      },
+      {
+        "start": 2.964,
+        "end": 3.209,
+        "loc": "2",
+        "word": "계좌를"
+      },
+      {
+        "start": 3.455,
+        "end": 4.279,
+        "loc": "3,4",
+        "word": "개설할 때는"
+      },
+      {
+        "start": 4.535,
+        "end": 5.075,
+        "loc": "5",
+        "word": "개인정보"
+      },
+      {
+        "start": 5.339,
+        "end": 5.603,
+        "loc": "6",
+        "word": "유출을"
+      },
+      {
+        "start": 5.742,
+        "end": 6.104,
+        "loc": "7",
+        "word": "막기"
+      },
+      {
+        "start": 6.262,
+        "end": 7.076,
+        "loc": "8",
+        "word": "위해"
+      },
+      {
+        "start": 7.361,
+        "end": 7.822,
+        "loc": "9",
+        "word": "키보드"
+      },
+      {
+        "start": 7.98,
+        "end": 9.148,
+        "loc": "10",
+        "word": "보안프로그램을"
+      },
+      {
+        "start": 9.314,
+        "end": 10.021,
+        "loc": "11,12",
+        "word": "설치해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.531,
+        "end": 1.776,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.012,
+        "end": 2.512,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.709,
+        "end": 2.807,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.964,
+        "end": 3.209,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.455,
+        "end": 3.592,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.779,
+        "end": 4.259,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.535,
+        "end": 4.731,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.869,
+        "end": 5.084,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.339,
+        "end": 5.603,
+        "gloss_id": "파악하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.742,
+        "end": 6.104,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.262,
+        "end": 7.076,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.361,
+        "end": 7.822,
+        "gloss_id": "타자1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.186,
+        "end": 8.352,
+        "gloss_id": "보호2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.47,
+        "end": 9.147,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.314,
+        "end": 9.569,
+        "gloss_id": "세우다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.746,
+        "end": 10.021,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.262,
+        "end": 7.076
+      },
+      {
+        "descriptor": "",
+        "start": 8.951,
+        "end": 9.147
+      },
+      {
+        "descriptor": "",
+        "start": 2.012,
+        "end": 2.512
+      },
+      {
+        "descriptor": "",
+        "start": 4.122,
+        "end": 4.278
+      },
+      {
+        "descriptor": "",
+        "start": 9.746,
+        "end": 10.021
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.742,
+        "end": 6.104
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 9.314,
+        "end": 9.569
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.531,
+        "end": 2.512
+      },
+      {
+        "descriptor": "",
+        "start": 3.455,
+        "end": 4.279
+      },
+      {
+        "descriptor": "",
+        "start": 7.361,
+        "end": 8.833
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240376150",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:44:37",
+    "sentence_ID": "VXPAKOKS240376150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    353,
+    126
+  ],
+  "file": "VXPAKOKS240376150.mp4",
+  "saved_as": "VXPAKOKS240376150-인터넷으로은행계좌를개설할때는개인정보유출을막기위해키보드보안프로그램을설치해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

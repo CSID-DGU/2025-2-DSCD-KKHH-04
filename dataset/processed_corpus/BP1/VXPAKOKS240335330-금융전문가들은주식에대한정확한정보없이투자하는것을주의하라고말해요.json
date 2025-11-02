@@ -1,0 +1,325 @@
+{
+  "id": "VXPAKOKS240335330",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "금융 전문가들은 주식에 대한 정확한 정보 없이 투자하는 것을 주의하라고 말해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.39,
+        "end": 2.61,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.929,
+        "end": 3.118,
+        "gloss_id": "지식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.408,
+        "end": 3.737,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.07,
+        "end": 4.22,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.529,
+        "end": 4.881,
+        "gloss_id": "모르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.129,
+        "end": 5.31,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.594,
+        "end": 6.063,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.323,
+        "end": 6.527,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.676,
+        "end": 6.826,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.042,
+        "end": 7.339,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.627,
+        "end": 7.901,
+        "gloss_id": "말하다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.323,
+        "end": 6.527,
+        "loc": "0",
+        "word": "금융"
+      },
+      {
+        "start": 6.676,
+        "end": 7.34,
+        "loc": "1",
+        "word": "전문가들은"
+      },
+      {
+        "start": 7.627,
+        "end": 7.901,
+        "loc": "10",
+        "word": "말해요."
+      },
+      {
+        "start": 2.39,
+        "end": 2.61,
+        "loc": "2,3",
+        "word": "주식에 대한"
+      },
+      {
+        "start": 2.929,
+        "end": 3.756,
+        "loc": "5",
+        "word": "정보"
+      },
+      {
+        "start": 4.07,
+        "end": 4.22,
+        "loc": "4",
+        "word": "정확한"
+      },
+      {
+        "start": 4.529,
+        "end": 4.881,
+        "loc": "6",
+        "word": "없이"
+      },
+      {
+        "start": 5.129,
+        "end": 5.31,
+        "loc": "7,8",
+        "word": "투자하는 것을"
+      },
+      {
+        "start": 5.594,
+        "end": 6.063,
+        "loc": "9",
+        "word": "주의하라고"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.39,
+        "end": 3.116,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.408,
+        "end": 3.737,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.07,
+        "end": 4.22,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.594,
+        "end": 6.063,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.323,
+        "end": 6.527,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.676,
+        "end": 6.826,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.042,
+        "end": 7.339,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.529,
+        "end": 4.881
+      },
+      {
+        "descriptor": "",
+        "start": 5.768,
+        "end": 6.073
+      },
+      {
+        "descriptor": "",
+        "start": 6.676,
+        "end": 6.826
+      },
+      {
+        "descriptor": "",
+        "start": 7.042,
+        "end": 7.339
+      },
+      {
+        "descriptor": "",
+        "start": 7.627,
+        "end": 7.901
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.768,
+        "end": 6.058
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.07,
+        "end": 4.835
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.929,
+        "end": 4.916
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335330",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:35:41",
+    "sentence_ID": "VXPAKOKS240335330",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    280,
+    126
+  ],
+  "file": "VXPAKOKS240335330.mp4",
+  "saved_as": "VXPAKOKS240335330-금융전문가들은주식에대한정확한정보없이투자하는것을주의하라고말해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

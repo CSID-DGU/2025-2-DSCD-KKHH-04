@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240351460",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금에 가입하면 자기가 모으고 싶은 금액을 계획적으로 모을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.23,
+        "end": 1.378,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.482,
+        "end": 1.675,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.925,
+        "end": 2.514,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.745,
+        "end": 2.989,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.199,
+        "end": 3.616,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.85,
+        "end": 4.133,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.373,
+        "end": 4.911,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.138,
+        "end": 5.6,
+        "gloss_id": "계획1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.738,
+        "end": 5.822,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.933,
+        "end": 6.037,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.143,
+        "end": 6.323,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.23,
+        "end": 1.672,
+        "loc": "0",
+        "word": "적금에"
+      },
+      {
+        "start": 1.925,
+        "end": 2.514,
+        "loc": "1",
+        "word": "가입하면"
+      },
+      {
+        "start": 2.745,
+        "end": 2.989,
+        "loc": "2",
+        "word": "자기가"
+      },
+      {
+        "start": 4.373,
+        "end": 4.911,
+        "loc": "3",
+        "word": "모으고"
+      },
+      {
+        "start": 3.85,
+        "end": 4.133,
+        "loc": "4",
+        "word": "싶은"
+      },
+      {
+        "start": 3.199,
+        "end": 3.616,
+        "loc": "5",
+        "word": "금액을"
+      },
+      {
+        "start": 5.138,
+        "end": 5.6,
+        "loc": "6",
+        "word": "계획적으로"
+      },
+      {
+        "start": 5.738,
+        "end": 6.307,
+        "loc": "7,8,9",
+        "word": "모을 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.482,
+        "end": 1.675,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.925,
+        "end": 2.514,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.373,
+        "end": 4.911,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.138,
+        "end": 5.6,
+        "gloss_id": "계획1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.933,
+        "end": 6.037,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.143,
+        "end": 6.323
+      },
+      {
+        "descriptor": "",
+        "start": 1.925,
+        "end": 2.514
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.143,
+        "end": 6.323
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.373,
+        "end": 5.997
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.23,
+        "end": 2.221
+      },
+      {
+        "descriptor": "",
+        "start": 4.373,
+        "end": 4.777
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351460",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:34",
+    "sentence_ID": "VXPAKOKS240351460",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240351460.mp4",
+  "saved_as": "VXPAKOKS240351460-적금에가입하면자기가모으고싶은금액을계획적으로모을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

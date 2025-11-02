@@ -1,0 +1,321 @@
+{
+  "id": "VXPAKOKS240341860",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "시장 상황의 변화나 개인의 재무 상태 변화에 따라 펀드 투자 상황을 자주 점검해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.291,
+        "end": 1.913,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.126,
+        "end": 2.429,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.695,
+        "end": 3.345,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.504,
+        "end": 3.637,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.79,
+        "end": 4.018,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.28,
+        "end": 4.433,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.573,
+        "end": 4.882,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.151,
+        "end": 5.528,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.696,
+        "end": 5.937,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.043,
+        "end": 6.312,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.519,
+        "end": 6.842,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.064,
+        "end": 7.455,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.043,
+        "end": 6.312,
+        "loc": "11",
+        "word": "자주"
+      },
+      {
+        "start": 6.519,
+        "end": 7.455,
+        "loc": "12,13",
+        "word": "점검해야 합니다."
+      },
+      {
+        "start": 2.695,
+        "end": 3.345,
+        "loc": "2",
+        "word": "변화나"
+      },
+      {
+        "start": 1.291,
+        "end": 2.424,
+        "loc": "0,1",
+        "word": "시장 상황의"
+      },
+      {
+        "start": 3.504,
+        "end": 3.637,
+        "loc": "3",
+        "word": "개인의"
+      },
+      {
+        "start": 3.79,
+        "end": 4.889,
+        "loc": "4,5,6,7",
+        "word": "재무 상태 변화에 따라"
+      },
+      {
+        "start": 5.151,
+        "end": 5.936,
+        "loc": "8,9,10",
+        "word": "펀드 투자 상황을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.79,
+        "end": 4.018,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.151,
+        "end": 5.528,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.043,
+        "end": 6.312,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.064,
+        "end": 7.455,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.695,
+        "end": 3.345,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.573,
+        "end": 4.882
+      },
+      {
+        "descriptor": "",
+        "start": 5.696,
+        "end": 5.937
+      },
+      {
+        "descriptor": "",
+        "start": 1.291,
+        "end": 1.913
+      },
+      {
+        "descriptor": "",
+        "start": 2.695,
+        "end": 3.345
+      },
+      {
+        "descriptor": "",
+        "start": 6.043,
+        "end": 6.312
+      },
+      {
+        "descriptor": "",
+        "start": 6.519,
+        "end": 6.842
+      },
+      {
+        "descriptor": "",
+        "start": 7.064,
+        "end": 7.455
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.504,
+        "end": 4.004
+      },
+      {
+        "descriptor": "",
+        "start": 5.151,
+        "end": 5.936
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.126,
+        "end": 3.341
+      },
+      {
+        "descriptor": "",
+        "start": 4.28,
+        "end": 4.855
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341860",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:16:51",
+    "sentence_ID": "VXPAKOKS240341860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240341860.mp4",
+  "saved_as": "VXPAKOKS240341860-시장상황의변화나개인의재무상태변화에따라펀드투자상황을자주점검해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

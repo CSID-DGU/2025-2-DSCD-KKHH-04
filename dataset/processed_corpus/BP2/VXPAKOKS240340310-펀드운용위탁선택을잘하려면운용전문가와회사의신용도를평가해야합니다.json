@@ -1,0 +1,392 @@
+{
+  "id": "VXPAKOKS240340310",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 운용 위탁 선택을 잘 하려면 운용 전문가와 회사의 신용도를 평가해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 0.907,
+        "end": 1.228,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.477,
+        "end": 2.077,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.241,
+        "end": 2.456,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.777,
+        "end": 2.941,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.084,
+        "end": 3.255,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.434,
+        "end": 3.934,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.19,
+        "end": 4.362,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.583,
+        "end": 4.776,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.011,
+        "end": 5.332,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.661,
+        "end": 5.875,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.118,
+        "end": 6.325,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.503,
+        "end": 6.696,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.938,
+        "end": 7.345,
+        "gloss_id": "평가1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.595,
+        "end": 7.809,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.938,
+        "end": 7.816,
+        "loc": "10,11",
+        "word": "평가해야 합니다."
+      },
+      {
+        "start": 5.661,
+        "end": 5.875,
+        "loc": "8",
+        "word": "회사의"
+      },
+      {
+        "start": 6.118,
+        "end": 6.696,
+        "loc": "9",
+        "word": "신용도를"
+      },
+      {
+        "start": 4.19,
+        "end": 4.362,
+        "loc": "6",
+        "word": "운용"
+      },
+      {
+        "start": 4.583,
+        "end": 5.326,
+        "loc": "7",
+        "word": "전문가와"
+      },
+      {
+        "start": 2.241,
+        "end": 2.456,
+        "loc": "4,5",
+        "word": "잘 하려면"
+      },
+      {
+        "start": 2.777,
+        "end": 3.919,
+        "loc": "3",
+        "word": "선택을"
+      },
+      {
+        "start": 0.907,
+        "end": 2.07,
+        "loc": "0,1,2",
+        "word": "펀드 운용 위탁"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.477,
+        "end": 2.077,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.241,
+        "end": 2.456,
+        "gloss_id": "잘하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.777,
+        "end": 3.255,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.434,
+        "end": 3.934,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.19,
+        "end": 4.362,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.583,
+        "end": 4.776,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.661,
+        "end": 5.875,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.118,
+        "end": 6.325,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.938,
+        "end": 7.345,
+        "gloss_id": "평가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.595,
+        "end": 7.809,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.011,
+        "end": 5.332,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.477,
+        "end": 2.077
+      },
+      {
+        "descriptor": "",
+        "start": 3.434,
+        "end": 3.934
+      },
+      {
+        "descriptor": "",
+        "start": 6.938,
+        "end": 7.345
+      },
+      {
+        "descriptor": "",
+        "start": 5.011,
+        "end": 5.332
+      },
+      {
+        "descriptor": "",
+        "start": 7.595,
+        "end": 7.809
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 1.648,
+        "end": 2.077
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.777,
+        "end": 3.248
+      },
+      {
+        "descriptor": "",
+        "start": 7.009,
+        "end": 7.345
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.009,
+        "end": 7.345
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.583,
+        "end": 5.347
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340310",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:04:34",
+    "sentence_ID": "VXPAKOKS240340310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240340310.mp4",
+  "saved_as": "VXPAKOKS240340310-펀드운용위탁선택을잘하려면운용전문가와회사의신용도를평가해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

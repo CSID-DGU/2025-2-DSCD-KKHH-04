@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240333810",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "낮은 이자율을 제공하는 자동차 대출 상품을 선택하는 것이 좋습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.503,
+        "end": 2.67,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.955,
+        "end": 3.238,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.43,
+        "end": 3.597,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.881,
+        "end": 4.22,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.469,
+        "end": 4.68,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.927,
+        "end": 5.293,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.547,
+        "end": 5.736,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.955,
+        "end": 3.238,
+        "loc": "4",
+        "word": "대출"
+      },
+      {
+        "start": 3.43,
+        "end": 3.597,
+        "loc": "1",
+        "word": "이자율을"
+      },
+      {
+        "start": 3.881,
+        "end": 4.22,
+        "loc": "0",
+        "word": "낮은"
+      },
+      {
+        "start": 4.469,
+        "end": 4.68,
+        "loc": "2",
+        "word": "제공하는"
+      },
+      {
+        "start": 4.927,
+        "end": 5.293,
+        "loc": "5,6,7",
+        "word": "상품을 선택하는 것이"
+      },
+      {
+        "start": 5.547,
+        "end": 5.736,
+        "loc": "8",
+        "word": "좋습니다."
+      },
+      {
+        "start": 2.503,
+        "end": 2.67,
+        "loc": "3",
+        "word": "자동차"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.881,
+        "end": 4.681,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.927,
+        "end": 5.293,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.503,
+        "end": 3.236,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.469,
+        "end": 4.68
+      },
+      {
+        "descriptor": "",
+        "start": 5.021,
+        "end": 5.293
+      },
+      {
+        "descriptor": "",
+        "start": 5.547,
+        "end": 5.736
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.492,
+        "end": 4.669
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333810",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:24:33",
+    "sentence_ID": "VXPAKOKS240333810",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    200,
+    126
+  ],
+  "file": "VXPAKOKS240333810.mp4",
+  "saved_as": "VXPAKOKS240333810-낮은이자율을제공하는자동차대출상품을선택하는것이좋습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

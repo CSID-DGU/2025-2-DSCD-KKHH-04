@@ -1,0 +1,353 @@
+{
+  "id": "VXPAKOKS240351210",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금으로 모은 돈은 대학 등록금이나 자동차 구매 비용으로 사용할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.272,
+        "end": 1.397,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.56,
+        "end": 1.866,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.968,
+        "end": 2.051,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.248,
+        "end": 2.859,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.123,
+        "end": 3.366,
+        "gloss_id": "대학1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.542,
+        "end": 3.736,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.965,
+        "end": 4.625,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.086,
+        "end": 5.364,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.578,
+        "end": 5.918,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.038,
+        "end": 6.149,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.331,
+        "end": 6.63,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.749,
+        "end": 6.971,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.142,
+        "end": 7.309,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.272,
+        "end": 1.862,
+        "loc": "0",
+        "word": "적금으로"
+      },
+      {
+        "start": 3.123,
+        "end": 3.366,
+        "loc": "3",
+        "word": "대학"
+      },
+      {
+        "start": 3.542,
+        "end": 4.618,
+        "loc": "4",
+        "word": "등록금이나"
+      },
+      {
+        "start": 5.086,
+        "end": 5.364,
+        "loc": "5",
+        "word": "자동차"
+      },
+      {
+        "start": 5.578,
+        "end": 5.918,
+        "loc": "6",
+        "word": "구매"
+      },
+      {
+        "start": 6.038,
+        "end": 6.628,
+        "loc": "7",
+        "word": "비용으로"
+      },
+      {
+        "start": 6.749,
+        "end": 6.971,
+        "loc": "8",
+        "word": "사용할"
+      },
+      {
+        "start": 7.142,
+        "end": 7.309,
+        "loc": "9,10",
+        "word": "수 있어요."
+      },
+      {
+        "start": 1.968,
+        "end": 2.863,
+        "loc": "1,2",
+        "word": "모은 돈은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.56,
+        "end": 1.866,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.248,
+        "end": 2.859,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.123,
+        "end": 3.366,
+        "gloss_id": "대학1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.086,
+        "end": 5.364,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.578,
+        "end": 5.918,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.331,
+        "end": 6.63,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.749,
+        "end": 6.971,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.542,
+        "end": 3.736,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.142,
+        "end": 7.309
+      },
+      {
+        "descriptor": "",
+        "start": 3.965,
+        "end": 4.625
+      },
+      {
+        "descriptor": "",
+        "start": 5.578,
+        "end": 5.918
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.142,
+        "end": 7.309
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.248,
+        "end": 2.859
+      },
+      {
+        "descriptor": "",
+        "start": 6.331,
+        "end": 6.929
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.248,
+        "end": 2.859
+      },
+      {
+        "descriptor": "",
+        "start": 3.965,
+        "end": 4.625
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351210",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:43:48",
+    "sentence_ID": "VXPAKOKS240351210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    250,
+    126
+  ],
+  "file": "VXPAKOKS240351210.mp4",
+  "saved_as": "VXPAKOKS240351210-적금으로모은돈은대학등록금이나자동차구매비용으로사용할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

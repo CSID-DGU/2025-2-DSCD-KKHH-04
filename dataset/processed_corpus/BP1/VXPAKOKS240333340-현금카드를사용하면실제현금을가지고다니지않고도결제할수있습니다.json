@@ -1,0 +1,242 @@
+{
+  "id": "VXPAKOKS240333340",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드를 사용하면 실제 현금을 가지고 다니지 않고도 결제할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.671,
+        "end": 2.835,
+        "gloss_id": "맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.015,
+        "end": 3.101,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.322,
+        "end": 3.886,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.213,
+        "end": 4.985,
+        "gloss_id": "빈손으로다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.187,
+        "end": 5.258,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.462,
+        "end": 5.626,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.842,
+        "end": 6.35,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.701,
+        "end": 6.936,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.176,
+        "end": 7.34,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.671,
+        "end": 2.835,
+        "loc": "2",
+        "word": "실제"
+      },
+      {
+        "start": 3.015,
+        "end": 3.908,
+        "loc": "3",
+        "word": "현금을"
+      },
+      {
+        "start": 4.213,
+        "end": 4.985,
+        "loc": "4,5,6",
+        "word": "가지고 다니지 않고도"
+      },
+      {
+        "start": 5.187,
+        "end": 5.601,
+        "loc": "0",
+        "word": "현금카드를"
+      },
+      {
+        "start": 5.842,
+        "end": 6.35,
+        "loc": "1",
+        "word": "사용하면"
+      },
+      {
+        "start": 6.701,
+        "end": 7.329,
+        "loc": "7,8,9",
+        "word": "결제할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.213,
+        "end": 4.985,
+        "gloss_id": "빈손으로다니다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.322,
+        "end": 3.886,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.472,
+        "end": 3.886
+      },
+      {
+        "descriptor": "",
+        "start": 5.842,
+        "end": 6.35
+      },
+      {
+        "descriptor": "",
+        "start": 7.176,
+        "end": 7.34
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.176,
+        "end": 7.34
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.213,
+        "end": 4.985
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.671,
+        "end": 3.885
+      },
+      {
+        "descriptor": "",
+        "start": 5.187,
+        "end": 6.351
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333340",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:00",
+    "sentence_ID": "VXPAKOKS240333340",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240333340.mp4",
+  "saved_as": "VXPAKOKS240333340-현금카드를사용하면실제현금을가지고다니지않고도결제할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

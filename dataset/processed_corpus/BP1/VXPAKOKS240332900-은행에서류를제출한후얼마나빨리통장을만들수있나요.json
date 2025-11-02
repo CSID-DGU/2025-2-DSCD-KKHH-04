@@ -1,0 +1,258 @@
+{
+  "id": "VXPAKOKS240332900",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "은행에 서류를 제출한 후 얼마나 빨리 통장을 만들 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.513,
+        "end": 2.732,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.986,
+        "end": 3.306,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.592,
+        "end": 4.149,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.386,
+        "end": 4.534,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.671,
+        "end": 4.82,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.038,
+        "end": 5.282,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.466,
+        "end": 5.685,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.944,
+        "end": 6.239,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.592,
+        "end": 4.149,
+        "loc": "2,3",
+        "word": "제출한 후"
+      },
+      {
+        "start": 5.944,
+        "end": 6.239,
+        "loc": "8,9",
+        "word": "수 있나요?"
+      },
+      {
+        "start": 4.386,
+        "end": 5.276,
+        "loc": "6,7",
+        "word": "통장을 만들"
+      },
+      {
+        "start": 2.513,
+        "end": 2.732,
+        "loc": "0",
+        "word": "은행에"
+      },
+      {
+        "start": 2.986,
+        "end": 3.306,
+        "loc": "1",
+        "word": "서류를"
+      },
+      {
+        "start": 5.466,
+        "end": 5.685,
+        "loc": "4,5",
+        "word": "얼마나 빨리"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.386,
+        "end": 4.534,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.665,
+        "end": 4.82,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.513,
+        "end": 2.732,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.986,
+        "end": 3.306,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.038,
+        "end": 5.282,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.466,
+        "end": 5.685,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.827,
+        "end": 4.148
+      },
+      {
+        "descriptor": "",
+        "start": 5.944,
+        "end": 6.239
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.827,
+        "end": 4.141
+      },
+      {
+        "descriptor": "",
+        "start": 5.944,
+        "end": 6.239
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.513,
+        "end": 2.732
+      },
+      {
+        "descriptor": "",
+        "start": 4.671,
+        "end": 6.233
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332900",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:26:09",
+    "sentence_ID": "VXPAKOKS240332900",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240332900.mp4",
+  "saved_as": "VXPAKOKS240332900-은행에서류를제출한후얼마나빨리통장을만들수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

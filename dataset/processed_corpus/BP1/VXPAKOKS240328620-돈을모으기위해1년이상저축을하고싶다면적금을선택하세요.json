@@ -1,0 +1,259 @@
+{
+  "id": "VXPAKOKS240328620",
+  "opertor": "label9",
+  "krlgg_sntenc": {
+    "koreanText": "돈을 모으기 위해 1년 이상 저축을 하고 싶다면 적금을 선택하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.644,
+        "end": 2.061,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.221,
+        "end": 2.591,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.164,
+        "end": 3.611,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.837,
+        "end": 4.32,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.633,
+        "end": 4.784,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.928,
+        "end": 5.398,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.651,
+        "end": 6.015,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.644,
+        "end": 2.061,
+        "loc": "3",
+        "word": "1년"
+      },
+      {
+        "start": 2.221,
+        "end": 2.591,
+        "loc": "4",
+        "word": "이상"
+      },
+      {
+        "start": 3.837,
+        "end": 4.32,
+        "loc": "7",
+        "word": "싶다면"
+      },
+      {
+        "start": 3.164,
+        "end": 3.611,
+        "loc": "0,1,2,5",
+        "word": "돈을 모으기 위해 저축을"
+      },
+      {
+        "start": 4.633,
+        "end": 5.393,
+        "loc": "8",
+        "word": "적금을"
+      },
+      {
+        "start": 5.651,
+        "end": 6.015,
+        "loc": "9",
+        "word": "선택하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.644,
+        "end": 2.061,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.221,
+        "end": 2.591,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.164,
+        "end": 3.611,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.633,
+        "end": 4.784,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.928,
+        "end": 5.398,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.651,
+        "end": 6.015,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.837,
+        "end": 4.32
+      },
+      {
+        "descriptor": "",
+        "start": 4.928,
+        "end": 5.398
+      },
+      {
+        "descriptor": "",
+        "start": 5.651,
+        "end": 6.015
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.837,
+        "end": 4.32
+      },
+      {
+        "descriptor": "",
+        "start": 4.928,
+        "end": 5.398
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 3.164,
+        "end": 3.611
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.221,
+        "end": 2.591
+      },
+      {
+        "descriptor": "",
+        "start": 3.837,
+        "end": 4.32
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328620",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:34:57",
+    "sentence_ID": "VXPAKOKS240328620",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    213,
+    126
+  ],
+  "file": "VXPAKOKS240328620.mp4",
+  "saved_as": "VXPAKOKS240328620-돈을모으기위해1년이상저축을하고싶다면적금을선택하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

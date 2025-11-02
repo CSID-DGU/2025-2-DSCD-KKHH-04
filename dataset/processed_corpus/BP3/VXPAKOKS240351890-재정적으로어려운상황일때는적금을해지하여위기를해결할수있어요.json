@@ -1,0 +1,299 @@
+{
+  "id": "VXPAKOKS240351890",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "재정적으로 어려운 상황일 때는 적금을 해지하여 위기를 해결할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.113,
+        "end": 2.245,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.483,
+        "end": 3.231,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.505,
+        "end": 3.781,
+        "gloss_id": "힘들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.018,
+        "end": 4.806,
+        "gloss_id": "걱정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.036,
+        "end": 5.183,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.317,
+        "end": 5.577,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.819,
+        "end": 6.263,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.47,
+        "end": 6.922,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.26,
+        "end": 7.632,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.781,
+        "end": 7.937,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.074,
+        "end": 8.222,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.113,
+        "end": 3.246,
+        "loc": "0",
+        "word": "재정적으로"
+      },
+      {
+        "start": 3.505,
+        "end": 4.79,
+        "loc": "1,2,3",
+        "word": "어려운 상황일 때는"
+      },
+      {
+        "start": 5.036,
+        "end": 5.575,
+        "loc": "4",
+        "word": "적금을"
+      },
+      {
+        "start": 5.819,
+        "end": 6.263,
+        "loc": "5",
+        "word": "해지하여"
+      },
+      {
+        "start": 6.47,
+        "end": 6.922,
+        "loc": "6",
+        "word": "위기를"
+      },
+      {
+        "start": 7.244,
+        "end": 8.209,
+        "loc": "7,8,9",
+        "word": "해결할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.113,
+        "end": 2.245,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.483,
+        "end": 3.231,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.317,
+        "end": 5.577,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.819,
+        "end": 6.263,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.26,
+        "end": 7.632,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.781,
+        "end": 7.937,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.074,
+        "end": 8.222
+      },
+      {
+        "descriptor": "",
+        "start": 4.402,
+        "end": 4.806
+      },
+      {
+        "descriptor": "",
+        "start": 5.819,
+        "end": 6.263
+      },
+      {
+        "descriptor": "",
+        "start": 6.47,
+        "end": 6.922
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.074,
+        "end": 8.222
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.774,
+        "end": 4.395
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.564,
+        "end": 4.671
+      },
+      {
+        "descriptor": "",
+        "start": 6.47,
+        "end": 6.922
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351890",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:48:30",
+    "sentence_ID": "VXPAKOKS240351890",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    288,
+    126
+  ],
+  "file": "VXPAKOKS240351890.mp4",
+  "saved_as": "VXPAKOKS240351890-재정적으로어려운상황일때는적금을해지하여위기를해결할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

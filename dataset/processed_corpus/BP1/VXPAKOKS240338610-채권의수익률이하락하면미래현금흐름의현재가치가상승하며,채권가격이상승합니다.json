@@ -1,0 +1,342 @@
+{
+  "id": "VXPAKOKS240338610",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 수익률이 하락하면 미래 현금흐름의 현재 가치가 상승하며, 채권 가격이 상승합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.533,
+        "end": 1.603,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.74,
+        "end": 1.866,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.154,
+        "end": 2.64,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.961,
+        "end": 3.291,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.482,
+        "end": 3.686,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.964,
+        "end": 4.161,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.494,
+        "end": 4.902,
+        "gloss_id": "미래1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.215,
+        "end": 5.574,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.631,
+        "end": 5.983,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.209,
+        "end": 6.568,
+        "gloss_id": "닮다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.7,
+        "end": 6.797,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.022,
+        "end": 7.465,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.533,
+        "end": 2.647,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 2.961,
+        "end": 3.291,
+        "loc": "1",
+        "word": "수익률이"
+      },
+      {
+        "start": 3.482,
+        "end": 4.151,
+        "loc": "2",
+        "word": "하락하면"
+      },
+      {
+        "start": 4.494,
+        "end": 4.902,
+        "loc": "3",
+        "word": "미래"
+      },
+      {
+        "start": 5.215,
+        "end": 5.574,
+        "loc": "4",
+        "word": "현금흐름의"
+      },
+      {
+        "start": 5.631,
+        "end": 5.983,
+        "loc": "6,7",
+        "word": "가치가 상승하며,"
+      },
+      {
+        "start": 6.7,
+        "end": 6.797,
+        "loc": "5",
+        "word": "현재"
+      },
+      {
+        "start": 7.022,
+        "end": 7.465,
+        "loc": "8,9,10",
+        "word": "채권 가격이 상승합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.482,
+        "end": 3.686,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.964,
+        "end": 4.161,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.631,
+        "end": 5.983,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.7,
+        "end": 6.797,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.022,
+        "end": 7.465,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.154,
+        "end": 2.64,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.215,
+        "end": 5.574,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.209,
+        "end": 6.568,
+        "gloss_id": "닮다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.154,
+        "end": 2.64
+      },
+      {
+        "descriptor": "",
+        "start": 4.494,
+        "end": 4.902
+      },
+      {
+        "descriptor": "",
+        "start": 5.631,
+        "end": 5.983
+      },
+      {
+        "descriptor": "",
+        "start": 6.7,
+        "end": 6.797
+      },
+      {
+        "descriptor": "",
+        "start": 7.241,
+        "end": 7.465
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.964,
+        "end": 4.161
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.7,
+        "end": 7.432
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.533,
+        "end": 4.883
+      },
+      {
+        "descriptor": "",
+        "start": 6.7,
+        "end": 6.797
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338610",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:45:23",
+    "sentence_ID": "VXPAKOKS240338610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    254,
+    126
+  ],
+  "file": "VXPAKOKS240338610.mp4",
+  "saved_as": "VXPAKOKS240338610-채권의수익률이하락하면미래현금흐름의현재가치가상승하며,채권가격이상승합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

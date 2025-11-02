@@ -1,0 +1,214 @@
+{
+  "id": "VXPAKOKS240332310",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "대출 신청 후 승인까지 걸리는 시간은 얼마나 되는지 알고 싶습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.589,
+        "end": 1.775,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.931,
+        "end": 2.78,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.124,
+        "end": 3.442,
+        "gloss_id": "허락1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.705,
+        "end": 4.028,
+        "gloss_id": "기다리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.302,
+        "end": 4.599,
+        "gloss_id": "며칠후1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.843,
+        "end": 5.323,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.589,
+        "end": 1.775,
+        "loc": "0",
+        "word": "대출"
+      },
+      {
+        "start": 1.931,
+        "end": 2.78,
+        "loc": "1,2",
+        "word": "신청 후"
+      },
+      {
+        "start": 3.124,
+        "end": 3.442,
+        "loc": "3",
+        "word": "승인까지"
+      },
+      {
+        "start": 3.705,
+        "end": 4.028,
+        "loc": "4",
+        "word": "걸리는"
+      },
+      {
+        "start": 4.302,
+        "end": 5.326,
+        "loc": "5,6,7,8,9",
+        "word": "시간은 얼마나 되는지 알고 싶습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.124,
+        "end": 3.442,
+        "gloss_id": "허락1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.843,
+        "end": 5.323,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.931,
+        "end": 2.78,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.446,
+        "end": 2.784
+      },
+      {
+        "descriptor": "",
+        "start": 3.705,
+        "end": 4.028
+      },
+      {
+        "descriptor": "",
+        "start": 4.843,
+        "end": 5.323
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.446,
+        "end": 2.789
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.124,
+        "end": 3.951
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.302,
+        "end": 4.599
+      },
+      {
+        "descriptor": "",
+        "start": 1.589,
+        "end": 2.435
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332310",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:44:19",
+    "sentence_ID": "VXPAKOKS240332310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    182,
+    126
+  ],
+  "file": "VXPAKOKS240332310.mp4",
+  "saved_as": "VXPAKOKS240332310-대출신청후승인까지걸리는시간은얼마나되는지알고싶습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

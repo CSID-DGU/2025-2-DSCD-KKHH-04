@@ -1,0 +1,256 @@
+{
+  "id": "VXPAKOKS240328270",
+  "opertor": "label11",
+  "krlgg_sntenc": {
+    "koreanText": "예금을 만들어 은행과 자주 거래하면 신용점수를 높일 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.799,
+        "end": 1.961,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.099,
+        "end": 2.484,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.766,
+        "end": 3.725,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.933,
+        "end": 4.305,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.566,
+        "end": 5.12,
+        "gloss_id": "여러번1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.333,
+        "end": 5.657,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.866,
+        "end": 6.501,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.666,
+        "end": 7.132,
+        "gloss_id": "오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.799,
+        "end": 2.488,
+        "loc": "0",
+        "word": "예금을"
+      },
+      {
+        "start": 2.766,
+        "end": 3.725,
+        "loc": "1",
+        "word": "만들어"
+      },
+      {
+        "start": 5.333,
+        "end": 6.501,
+        "loc": "5",
+        "word": "신용점수를"
+      },
+      {
+        "start": 6.666,
+        "end": 7.132,
+        "loc": "6,7,8",
+        "word": "높일 수 있어요."
+      },
+      {
+        "start": 3.933,
+        "end": 4.305,
+        "loc": "2,4",
+        "word": "은행과 거래하면"
+      },
+      {
+        "start": 4.566,
+        "end": 5.12,
+        "loc": "3",
+        "word": "자주"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.799,
+        "end": 1.961,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.099,
+        "end": 2.484,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.766,
+        "end": 3.725,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.933,
+        "end": 5.115,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.333,
+        "end": 5.657,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.566,
+        "end": 5.12
+      },
+      {
+        "descriptor": "",
+        "start": 6.666,
+        "end": 7.132
+      },
+      {
+        "descriptor": "",
+        "start": 2.766,
+        "end": 3.725
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.099,
+        "end": 2.484
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.333,
+        "end": 6.495
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 2.099,
+        "end": 2.484
+      },
+      {
+        "descriptor": "",
+        "start": 3.938,
+        "end": 5.12
+      }
+    ],
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240328270",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:27:34",
+    "sentence_ID": "VXPAKOKS240328270",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    243,
+    126
+  ],
+  "file": "VXPAKOKS240328270.mp4",
+  "saved_as": "VXPAKOKS240328270-예금을만들어은행과자주거래하면신용점수를높일수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

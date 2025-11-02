@@ -1,0 +1,255 @@
+{
+  "id": "VXPAKOKS240338910",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "따라서 금리 하락은 채권 가격을 상승시키는 중요한 요인으로 작용합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.918,
+        "end": 2.214,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.524,
+        "end": 2.911,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.337,
+        "end": 3.515,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.683,
+        "end": 3.738,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.926,
+        "end": 4.099,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.35,
+        "end": 4.694,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.946,
+        "end": 5.109,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.363,
+        "end": 5.681,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.524,
+        "end": 3.517,
+        "loc": "2",
+        "word": "하락은"
+      },
+      {
+        "start": 3.683,
+        "end": 4.698,
+        "loc": "3",
+        "word": "채권"
+      },
+      {
+        "start": 1.918,
+        "end": 2.214,
+        "loc": "0,1",
+        "word": "따라서 금리"
+      },
+      {
+        "start": 5.363,
+        "end": 5.681,
+        "loc": "5,6,7,8",
+        "word": "상승시키는 중요한 요인으로 작용합니다."
+      },
+      {
+        "start": 4.946,
+        "end": 5.109,
+        "loc": "4",
+        "word": "가격을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.35,
+        "end": 4.694,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.524,
+        "end": 2.911,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.337,
+        "end": 3.515,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.363,
+        "end": 5.681,
+        "gloss_id": "값오르다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.946,
+        "end": 5.109,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.524,
+        "end": 2.911
+      },
+      {
+        "descriptor": "",
+        "start": 3.337,
+        "end": 3.515
+      },
+      {
+        "descriptor": "",
+        "start": 4.35,
+        "end": 4.694
+      },
+      {
+        "descriptor": "",
+        "start": 5.363,
+        "end": 5.681
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.337,
+        "end": 3.515
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.946,
+        "end": 5.687
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.918,
+        "end": 2.911
+      },
+      {
+        "descriptor": "",
+        "start": 4.35,
+        "end": 4.694
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338910",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:48:32",
+    "sentence_ID": "VXPAKOKS240338910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    193,
+    126
+  ],
+  "file": "VXPAKOKS240338910.mp4",
+  "saved_as": "VXPAKOKS240338910-따라서금리하락은채권가격을상승시키는중요한요인으로작용합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

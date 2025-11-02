@@ -1,0 +1,247 @@
+{
+  "id": "VXPAKOKS240332910",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "은행 통장은 빠르게 만들 수 있으므로 당일 안에 통장을 발급해 드립니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.459,
+        "end": 2.781,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.05,
+        "end": 3.456,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.622,
+        "end": 3.889,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.144,
+        "end": 4.538,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.694,
+        "end": 4.938,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.077,
+        "end": 5.355,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.459,
+        "end": 2.781,
+        "loc": "0",
+        "word": "은행"
+      },
+      {
+        "start": 3.05,
+        "end": 3.456,
+        "loc": "1",
+        "word": "통장은"
+      },
+      {
+        "start": 4.144,
+        "end": 4.538,
+        "loc": "2",
+        "word": "빠르게"
+      },
+      {
+        "start": 3.622,
+        "end": 3.889,
+        "loc": "3,4,5",
+        "word": "만들 수 있으므로"
+      },
+      {
+        "start": 4.694,
+        "end": 4.938,
+        "loc": "6,7",
+        "word": "당일 안에"
+      },
+      {
+        "start": 5.077,
+        "end": 5.366,
+        "loc": "8,9,10",
+        "word": "통장을 발급해 드립니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.459,
+        "end": 2.781,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.05,
+        "end": 3.456,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.622,
+        "end": 3.889,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.144,
+        "end": 4.538,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.694,
+        "end": 4.938,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.05,
+        "end": 3.456
+      },
+      {
+        "descriptor": "",
+        "start": 4.144,
+        "end": 4.538
+      },
+      {
+        "descriptor": "",
+        "start": 4.694,
+        "end": 4.938
+      },
+      {
+        "descriptor": "",
+        "start": 5.077,
+        "end": 5.366
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.266,
+        "end": 4.538
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.622,
+        "end": 4.522
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.622,
+        "end": 4.278
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.05,
+        "end": 3.456
+      },
+      {
+        "descriptor": "",
+        "start": 4.694,
+        "end": 4.938
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332910",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:26:13",
+    "sentence_ID": "VXPAKOKS240332910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    200,
+    126
+  ],
+  "file": "VXPAKOKS240332910.mp4",
+  "saved_as": "VXPAKOKS240332910-은행통장은빠르게만들수있으므로당일안에통장을발급해드립니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

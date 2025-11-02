@@ -1,0 +1,350 @@
+{
+  "id": "VXPAKOKS240346180",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "특별 예금은 은행이 단기간 내에 자금이 필요할 때 출시하는 상품이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.769,
+        "end": 2.079,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.315,
+        "end": 2.48,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.623,
+        "end": 2.779,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.002,
+        "end": 3.231,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.483,
+        "end": 3.73,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.883,
+        "end": 4.356,
+        "gloss_id": "일형3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.632,
+        "end": 4.852,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.174,
+        "end": 5.864,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.234,
+        "end": 6.544,
+        "gloss_id": "특별1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.833,
+        "end": 7.414,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.866,
+        "end": 8.104,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.242,
+        "end": 8.642,
+        "gloss_id": "광고1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.315,
+        "end": 4.341,
+        "loc": "3,4",
+        "word": "단기간 내에"
+      },
+      {
+        "start": 4.632,
+        "end": 4.852,
+        "loc": "5",
+        "word": "자금이"
+      },
+      {
+        "start": 5.174,
+        "end": 5.864,
+        "loc": "6,7",
+        "word": "필요할 때"
+      },
+      {
+        "start": 1.769,
+        "end": 2.079,
+        "loc": "2",
+        "word": "은행이"
+      },
+      {
+        "start": 6.234,
+        "end": 6.544,
+        "loc": "0",
+        "word": "특별"
+      },
+      {
+        "start": 6.833,
+        "end": 7.414,
+        "loc": "1",
+        "word": "예금은"
+      },
+      {
+        "start": 7.866,
+        "end": 8.104,
+        "loc": "9",
+        "word": "상품이에요."
+      },
+      {
+        "start": 8.242,
+        "end": 8.642,
+        "loc": "8",
+        "word": "출시하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.769,
+        "end": 2.079,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.315,
+        "end": 2.48,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.623,
+        "end": 2.779,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.002,
+        "end": 3.231,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.483,
+        "end": 4.344,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.632,
+        "end": 4.852,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.174,
+        "end": 5.864,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.234,
+        "end": 6.544,
+        "gloss_id": "특별1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.833,
+        "end": 7.414,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.866,
+        "end": 8.104,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.242,
+        "end": 8.642,
+        "gloss_id": "광고1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.769,
+        "end": 2.079
+      },
+      {
+        "descriptor": "",
+        "start": 3.883,
+        "end": 4.356
+      },
+      {
+        "descriptor": "",
+        "start": 5.174,
+        "end": 5.539
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.881,
+        "end": 8.642
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.002,
+        "end": 4.306
+      },
+      {
+        "descriptor": "",
+        "start": 5.174,
+        "end": 5.385
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346180",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:42:49",
+    "sentence_ID": "VXPAKOKS240346180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    325,
+    126
+  ],
+  "file": "VXPAKOKS240346180.mp4",
+  "saved_as": "VXPAKOKS240346180-특별예금은은행이단기간내에자금이필요할때출시하는상품이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,432 @@
+{
+  "id": "VXPAKOKS240338550",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "채권 가격과 수익률 관계는 채권이라는 금융 상품의 특성과 가격 결정 구조에 따릅니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.551,
+        "end": 1.645,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.79,
+        "end": 1.951,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.178,
+        "end": 2.508,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.755,
+        "end": 2.963,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.14,
+        "end": 3.649,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.979,
+        "end": 4.149,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.354,
+        "end": 4.506,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.794,
+        "end": 5.275,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.722,
+        "end": 5.845,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.179,
+        "end": 6.406,
+        "gloss_id": "종류2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.116,
+        "end": 7.324,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.658,
+        "end": 8.025,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.433,
+        "end": 8.754,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.008,
+        "end": 9.31,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.631,
+        "end": 9.821,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.097,
+        "end": 10.314,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.645,
+        "end": 6.816,
+        "gloss_id": "특별1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.551,
+        "end": 2.502,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 2.754,
+        "end": 3.649,
+        "loc": "1",
+        "word": "가격과"
+      },
+      {
+        "start": 3.974,
+        "end": 5.274,
+        "loc": "2",
+        "word": "수익률"
+      },
+      {
+        "start": 5.722,
+        "end": 5.845,
+        "loc": "5",
+        "word": "금융"
+      },
+      {
+        "start": 6.179,
+        "end": 6.406,
+        "loc": "6",
+        "word": "상품의"
+      },
+      {
+        "start": 6.645,
+        "end": 7.333,
+        "loc": "7",
+        "word": "특성과"
+      },
+      {
+        "start": 7.658,
+        "end": 8.025,
+        "loc": "8",
+        "word": "가격"
+      },
+      {
+        "start": 8.433,
+        "end": 8.754,
+        "loc": "9",
+        "word": "결정"
+      },
+      {
+        "start": 9.008,
+        "end": 9.31,
+        "loc": "10",
+        "word": "구조에"
+      },
+      {
+        "start": 9.631,
+        "end": 10.31,
+        "loc": "11",
+        "word": "따릅니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.643,
+        "end": 5.265,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.116,
+        "end": 7.324,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.722,
+        "end": 5.845,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.179,
+        "end": 6.406,
+        "gloss_id": "종류2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.645,
+        "end": 6.816,
+        "gloss_id": "특별1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.008,
+        "end": 9.31,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.631,
+        "end": 9.821,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.178,
+        "end": 2.508,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.433,
+        "end": 8.754,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.479,
+        "end": 3.649
+      },
+      {
+        "descriptor": "",
+        "start": 4.794,
+        "end": 5.275
+      },
+      {
+        "descriptor": "",
+        "start": 7.116,
+        "end": 7.324
+      },
+      {
+        "descriptor": "",
+        "start": 9.008,
+        "end": 9.31
+      },
+      {
+        "descriptor": "",
+        "start": 10.097,
+        "end": 10.314
+      },
+      {
+        "descriptor": "",
+        "start": 8.433,
+        "end": 8.754
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 9.008,
+        "end": 10.299
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.433,
+        "end": 8.603
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.551,
+        "end": 2.493
+      },
+      {
+        "descriptor": "",
+        "start": 3.451,
+        "end": 3.649
+      },
+      {
+        "descriptor": "",
+        "start": 4.643,
+        "end": 5.265
+      },
+      {
+        "descriptor": "",
+        "start": 7.658,
+        "end": 9.297
+      },
+      {
+        "descriptor": "",
+        "start": 6.645,
+        "end": 6.816
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338550",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:40:45",
+    "sentence_ID": "VXPAKOKS240338550",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    339,
+    126
+  ],
+  "file": "VXPAKOKS240338550.mp4",
+  "saved_as": "VXPAKOKS240338550-채권가격과수익률관계는채권이라는금융상품의특성과가격결정구조에따릅니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

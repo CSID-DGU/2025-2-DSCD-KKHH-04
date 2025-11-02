@@ -1,0 +1,374 @@
+{
+  "id": "VXPAKOKS240350910",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "은행 홈페이지에 접속하면 외국에서도 적금에 가입하거나 해지할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.18,
+        "end": 1.465,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.693,
+        "end": 1.961,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.106,
+        "end": 2.231,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.344,
+        "end": 2.75,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.044,
+        "end": 3.302,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.452,
+        "end": 3.566,
+        "gloss_id": "머무르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.744,
+        "end": 3.99,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.252,
+        "end": 4.355,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.522,
+        "end": 4.74,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.991,
+        "end": 5.59,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.901,
+        "end": 6.053,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.259,
+        "end": 6.461,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.573,
+        "end": 6.759,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.18,
+        "end": 1.465,
+        "loc": "0",
+        "word": "은행"
+      },
+      {
+        "start": 1.693,
+        "end": 2.24,
+        "loc": "1",
+        "word": "홈페이지에"
+      },
+      {
+        "start": 2.344,
+        "end": 2.75,
+        "loc": "2",
+        "word": "접속하면"
+      },
+      {
+        "start": 3.044,
+        "end": 3.993,
+        "loc": "3",
+        "word": "외국에서도"
+      },
+      {
+        "start": 4.252,
+        "end": 4.745,
+        "loc": "4",
+        "word": "적금에"
+      },
+      {
+        "start": 4.991,
+        "end": 5.59,
+        "loc": "5",
+        "word": "가입하거나"
+      },
+      {
+        "start": 5.901,
+        "end": 6.457,
+        "loc": "6",
+        "word": "해지할"
+      },
+      {
+        "start": 6.573,
+        "end": 6.759,
+        "loc": "7,8",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.18,
+        "end": 1.465,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.106,
+        "end": 2.231,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.344,
+        "end": 2.75,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.044,
+        "end": 3.302,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.452,
+        "end": 3.566,
+        "gloss_id": "머무르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.744,
+        "end": 3.99,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.522,
+        "end": 4.74,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.991,
+        "end": 5.59,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.901,
+        "end": 6.053,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.259,
+        "end": 6.461,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.628,
+        "end": 6.759
+      },
+      {
+        "descriptor": "",
+        "start": 1.18,
+        "end": 1.465
+      },
+      {
+        "descriptor": "",
+        "start": 2.344,
+        "end": 2.75
+      },
+      {
+        "descriptor": "",
+        "start": 4.991,
+        "end": 5.59
+      },
+      {
+        "descriptor": "",
+        "start": 5.901,
+        "end": 6.053
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.633,
+        "end": 6.759
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 3.744,
+        "end": 3.99
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.744,
+        "end": 3.99
+      },
+      {
+        "descriptor": "",
+        "start": 5.901,
+        "end": 6.053
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.252,
+        "end": 5.725
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240350910",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:41:38",
+    "sentence_ID": "VXPAKOKS240350910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    238,
+    126
+  ],
+  "file": "VXPAKOKS240350910.mp4",
+  "saved_as": "VXPAKOKS240350910-은행홈페이지에접속하면외국에서도적금에가입하거나해지할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

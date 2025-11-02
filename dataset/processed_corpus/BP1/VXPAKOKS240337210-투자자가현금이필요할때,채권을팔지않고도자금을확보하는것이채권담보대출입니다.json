@@ -1,0 +1,351 @@
+{
+  "id": "VXPAKOKS240337210",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "투자자가 현금이 필요할 때, 채권을 팔지 않고도 자금을 확보하는 것이 채권 담보 대출입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.034,
+        "end": 2.22,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.47,
+        "end": 2.647,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.783,
+        "end": 2.923,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.173,
+        "end": 3.553,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.798,
+        "end": 3.9,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.085,
+        "end": 4.252,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.426,
+        "end": 4.787,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.019,
+        "end": 5.62,
+        "gloss_id": "보증1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.964,
+        "end": 6.436,
+        "gloss_id": "가지고다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.834,
+        "end": 6.946,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.131,
+        "end": 7.28,
+        "gloss_id": "아니다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.502,
+        "end": 8.048,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.37,
+        "end": 8.565,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.767,
+        "end": 9.027,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.034,
+        "end": 2.644,
+        "loc": "0",
+        "word": "투자자가"
+      },
+      {
+        "start": 2.783,
+        "end": 2.923,
+        "loc": "1",
+        "word": "현금이"
+      },
+      {
+        "start": 3.173,
+        "end": 3.553,
+        "loc": "2,3",
+        "word": "필요할 때,"
+      },
+      {
+        "start": 3.807,
+        "end": 6.411,
+        "loc": "4",
+        "word": "채권을"
+      },
+      {
+        "start": 6.834,
+        "end": 6.946,
+        "loc": "5",
+        "word": "팔지"
+      },
+      {
+        "start": 7.131,
+        "end": 8.046,
+        "loc": "6",
+        "word": "않고도"
+      },
+      {
+        "start": 8.37,
+        "end": 9.026,
+        "loc": "7,8,9",
+        "word": "자금을 확보하는 것이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.47,
+        "end": 2.904,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.173,
+        "end": 4.264,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.426,
+        "end": 4.787,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.019,
+        "end": 5.62,
+        "gloss_id": "보증1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.834,
+        "end": 7.287,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.502,
+        "end": 8.048,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.767,
+        "end": 9.027
+      },
+      {
+        "descriptor": "",
+        "start": 2.47,
+        "end": 2.647
+      },
+      {
+        "descriptor": "",
+        "start": 3.173,
+        "end": 3.553
+      },
+      {
+        "descriptor": "",
+        "start": 5.964,
+        "end": 6.436
+      },
+      {
+        "descriptor": "",
+        "start": 7.64,
+        "end": 8.048
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.767,
+        "end": 9.027
+      },
+      {
+        "descriptor": "",
+        "start": 6.834,
+        "end": 6.946
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 6.96,
+        "end": 7.294
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.561,
+        "end": 3.532
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.034,
+        "end": 2.644
+      },
+      {
+        "descriptor": "",
+        "start": 3.808,
+        "end": 6.438
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337210",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:35:48",
+    "sentence_ID": "VXPAKOKS240337210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    332,
+    126
+  ],
+  "file": "VXPAKOKS240337210.mp4",
+  "saved_as": "VXPAKOKS240337210-투자자가현금이필요할때,채권을팔지않고도자금을확보하는것이채권담보대출입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

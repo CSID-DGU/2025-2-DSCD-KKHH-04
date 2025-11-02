@@ -1,0 +1,359 @@
+{
+  "id": "VXPAKOKS240338780",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "금융 시장이 어려워지면 채권을 팔기 어려우므로 돈을 빨리 돌려받을 수 있는 유동성이 높은 채권을 선택하십시오.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.726,
+        "end": 2.094,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.333,
+        "end": 2.779,
+        "gloss_id": "감소2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.938,
+        "end": 3.044,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.249,
+        "end": 3.355,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.657,
+        "end": 3.864,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.134,
+        "end": 4.511,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.025,
+        "end": 5.254,
+        "gloss_id": "어렵다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.657,
+        "end": 5.864,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.121,
+        "end": 6.305,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.604,
+        "end": 6.873,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.175,
+        "end": 7.444,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.728,
+        "end": 7.857,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.133,
+        "end": 8.301,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.726,
+        "end": 2.094,
+        "loc": "0,1",
+        "word": "금융 시장이"
+      },
+      {
+        "start": 2.333,
+        "end": 2.779,
+        "loc": "2",
+        "word": "어려워지면"
+      },
+      {
+        "start": 2.938,
+        "end": 3.862,
+        "loc": "3",
+        "word": "채권을"
+      },
+      {
+        "start": 4.134,
+        "end": 4.511,
+        "loc": "4",
+        "word": "팔기"
+      },
+      {
+        "start": 5.025,
+        "end": 5.856,
+        "loc": "5",
+        "word": "어려우므로"
+      },
+      {
+        "start": 6.121,
+        "end": 6.861,
+        "loc": "6,7,8,9,10,11,12",
+        "word": "돈을 빨리 돌려받을 수 있는 유동성이 높은"
+      },
+      {
+        "start": 7.175,
+        "end": 7.444,
+        "loc": "13",
+        "word": "채권을"
+      },
+      {
+        "start": 7.728,
+        "end": 8.297,
+        "loc": "14",
+        "word": "선택하십시오."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.726,
+        "end": 2.094,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.134,
+        "end": 4.511,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.657,
+        "end": 5.864,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.121,
+        "end": 6.869,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.728,
+        "end": 7.857,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.657,
+        "end": 3.864,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.175,
+        "end": 7.444,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.333,
+        "end": 2.779
+      },
+      {
+        "descriptor": "",
+        "start": 5.025,
+        "end": 5.254
+      },
+      {
+        "descriptor": "",
+        "start": 6.604,
+        "end": 6.873
+      },
+      {
+        "descriptor": "",
+        "start": 7.175,
+        "end": 7.444
+      },
+      {
+        "descriptor": "",
+        "start": 8.133,
+        "end": 8.301
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.765,
+        "end": 5.864
+      },
+      {
+        "descriptor": "",
+        "start": 6.604,
+        "end": 6.873
+      },
+      {
+        "descriptor": "",
+        "start": 4.327,
+        "end": 4.511
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.134,
+        "end": 5.252
+      },
+      {
+        "descriptor": "",
+        "start": 2.333,
+        "end": 2.779
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.121,
+        "end": 7.432
+      },
+      {
+        "descriptor": "",
+        "start": 1.726,
+        "end": 2.766
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338780",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:46:07",
+    "sentence_ID": "VXPAKOKS240338780",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    278,
+    126
+  ],
+  "file": "VXPAKOKS240338780.mp4",
+  "saved_as": "VXPAKOKS240338780-금융시장이어려워지면채권을팔기어려우므로돈을빨리돌려받을수있는유동성이높은채권을선택하십시오.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

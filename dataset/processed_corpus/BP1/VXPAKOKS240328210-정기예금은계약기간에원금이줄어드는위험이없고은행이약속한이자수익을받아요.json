@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240328210",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "정기예금은 계약기간에 원금이 줄어드는 위험이 없고 은행이 약속한 이자 수익을 받아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.768,
+        "end": 2.052,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.234,
+        "end": 2.734,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.849,
+        "end": 2.937,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.098,
+        "end": 3.962,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.232,
+        "end": 4.34,
+        "gloss_id": "원래2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.516,
+        "end": 4.807,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.056,
+        "end": 5.799,
+        "gloss_id": "~대로1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.014,
+        "end": 6.217,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.439,
+        "end": 6.723,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.905,
+        "end": 7.405,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.768,
+        "end": 3.962,
+        "loc": "0",
+        "word": "정기예금은"
+      },
+      {
+        "start": 4.232,
+        "end": 4.799,
+        "loc": "2",
+        "word": "원금이"
+      },
+      {
+        "start": 5.056,
+        "end": 5.799,
+        "loc": "3,4,5",
+        "word": "줄어드는 위험이 없고"
+      },
+      {
+        "start": 6.014,
+        "end": 6.217,
+        "loc": "6,7",
+        "word": "은행이 약속한"
+      },
+      {
+        "start": 6.439,
+        "end": 6.723,
+        "loc": "8",
+        "word": "이자"
+      },
+      {
+        "start": 6.905,
+        "end": 7.405,
+        "loc": "9,10",
+        "word": "수익을 받아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.768,
+        "end": 2.052,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.234,
+        "end": 2.734,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.098,
+        "end": 3.962,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.232,
+        "end": 4.793,
+        "gloss_id": "원래2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.056,
+        "end": 5.799,
+        "gloss_id": "~대로1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.014,
+        "end": 6.217,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.234,
+        "end": 2.734
+      },
+      {
+        "descriptor": "",
+        "start": 3.098,
+        "end": 3.962
+      },
+      {
+        "descriptor": "",
+        "start": 4.516,
+        "end": 4.807
+      },
+      {
+        "descriptor": "",
+        "start": 5.056,
+        "end": 5.799
+      },
+      {
+        "descriptor": "",
+        "start": 6.439,
+        "end": 6.723
+      },
+      {
+        "descriptor": "",
+        "start": 6.905,
+        "end": 7.405
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 3.098,
+        "end": 3.962
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.768,
+        "end": 4.799
+      },
+      {
+        "descriptor": "",
+        "start": 6.439,
+        "end": 6.723
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328210",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:26:19",
+    "sentence_ID": "VXPAKOKS240328210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    243,
+    126
+  ],
+  "file": "VXPAKOKS240328210.mp4",
+  "saved_as": "VXPAKOKS240328210-정기예금은계약기간에원금이줄어드는위험이없고은행이약속한이자수익을받아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

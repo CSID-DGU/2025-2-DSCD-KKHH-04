@@ -1,0 +1,311 @@
+{
+  "id": "VXPAKOKS240335480",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자 전에 위험 요소가 무엇인지 확인해야 원금 손실을 예방할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.959,
+        "end": 2.152,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.38,
+        "end": 2.614,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.833,
+        "end": 3.233,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.415,
+        "end": 3.558,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.803,
+        "end": 3.929,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.104,
+        "end": 4.297,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.57,
+        "end": 4.987,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.246,
+        "end": 5.613,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.781,
+        "end": 5.907,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.115,
+        "end": 6.432,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.619,
+        "end": 6.812,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.104,
+        "end": 7.297,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.959,
+        "end": 2.152,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.38,
+        "end": 2.614,
+        "loc": "1",
+        "word": "투자"
+      },
+      {
+        "start": 2.833,
+        "end": 3.233,
+        "loc": "2",
+        "word": "전에"
+      },
+      {
+        "start": 3.415,
+        "end": 3.915,
+        "loc": "3,4",
+        "word": "위험 요소가"
+      },
+      {
+        "start": 4.104,
+        "end": 4.297,
+        "loc": "5",
+        "word": "무엇인지"
+      },
+      {
+        "start": 4.57,
+        "end": 5.618,
+        "loc": "6",
+        "word": "확인해야"
+      },
+      {
+        "start": 5.781,
+        "end": 5.907,
+        "loc": "7",
+        "word": "원금"
+      },
+      {
+        "start": 6.115,
+        "end": 6.432,
+        "loc": "8",
+        "word": "손실을"
+      },
+      {
+        "start": 6.619,
+        "end": 7.302,
+        "loc": "9,10,11",
+        "word": "예방할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.959,
+        "end": 2.152,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.833,
+        "end": 3.233,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.115,
+        "end": 6.432,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.619,
+        "end": 6.812,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.246,
+        "end": 5.613
+      },
+      {
+        "descriptor": "",
+        "start": 7.104,
+        "end": 7.297
+      },
+      {
+        "descriptor": "",
+        "start": 4.57,
+        "end": 4.987
+      },
+      {
+        "descriptor": "",
+        "start": 6.115,
+        "end": 6.432
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.104,
+        "end": 7.297
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.169,
+        "end": 4.275
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.959,
+        "end": 3.099
+      },
+      {
+        "descriptor": "",
+        "start": 4.104,
+        "end": 5.617
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335480",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:43:30",
+    "sentence_ID": "VXPAKOKS240335480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    299,
+    126
+  ],
+  "file": "VXPAKOKS240335480.mp4",
+  "saved_as": "VXPAKOKS240335480-주식투자전에위험요소가무엇인지확인해야원금손실을예방할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

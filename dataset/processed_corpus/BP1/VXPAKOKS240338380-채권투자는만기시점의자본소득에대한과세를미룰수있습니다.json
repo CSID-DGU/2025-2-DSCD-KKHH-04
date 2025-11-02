@@ -1,0 +1,313 @@
+{
+  "id": "VXPAKOKS240338380",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자는 만기 시점의 자본 소득에 대한 과세를 미룰 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.96,
+        "end": 2.049,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.227,
+        "end": 2.348,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.552,
+        "end": 2.911,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.17,
+        "end": 3.82,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.155,
+        "end": 4.329,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.554,
+        "end": 5.133,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.488,
+        "end": 5.715,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.899,
+        "end": 6.091,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.385,
+        "end": 6.673,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.894,
+        "end": 7.112,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.429,
+        "end": 7.656,
+        "gloss_id": "결국1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.874,
+        "end": 8.092,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.96,
+        "end": 2.894,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.17,
+        "end": 3.82,
+        "loc": "1",
+        "word": "투자는"
+      },
+      {
+        "start": 4.155,
+        "end": 5.702,
+        "loc": "2,3",
+        "word": "만기 시점의"
+      },
+      {
+        "start": 5.899,
+        "end": 6.681,
+        "loc": "4,5,6",
+        "word": "자본 소득에 대한"
+      },
+      {
+        "start": 6.894,
+        "end": 7.112,
+        "loc": "7",
+        "word": "과세를"
+      },
+      {
+        "start": 7.429,
+        "end": 8.07,
+        "loc": "8,9,10",
+        "word": "미룰 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.552,
+        "end": 2.911,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.155,
+        "end": 4.329,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.554,
+        "end": 5.133,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.488,
+        "end": 5.715,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.894,
+        "end": 7.112,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.429,
+        "end": 7.656,
+        "gloss_id": "결국1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.874,
+        "end": 8.092
+      },
+      {
+        "descriptor": "",
+        "start": 2.552,
+        "end": 2.911
+      },
+      {
+        "descriptor": "",
+        "start": 3.302,
+        "end": 3.82
+      },
+      {
+        "descriptor": "",
+        "start": 4.624,
+        "end": 5.133
+      },
+      {
+        "descriptor": "",
+        "start": 6.385,
+        "end": 6.673
+      },
+      {
+        "descriptor": "",
+        "start": 7.429,
+        "end": 7.656
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.874,
+        "end": 8.092
+      },
+      {
+        "descriptor": "",
+        "start": 5.488,
+        "end": 5.715
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.227,
+        "end": 6.68
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338380",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:43:04",
+    "sentence_ID": "VXPAKOKS240338380",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    317,
+    126
+  ],
+  "file": "VXPAKOKS240338380.mp4",
+  "saved_as": "VXPAKOKS240338380-채권투자는만기시점의자본소득에대한과세를미룰수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

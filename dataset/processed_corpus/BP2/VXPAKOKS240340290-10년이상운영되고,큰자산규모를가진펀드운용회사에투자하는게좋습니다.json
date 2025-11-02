@@ -1,0 +1,314 @@
+{
+  "id": "VXPAKOKS240340290",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "10년 이상 운영되고, 큰 자산 규모를 가진 펀드 운용 회사에 투자하는 게 좋습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.339,
+        "end": 1.509,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.825,
+        "end": 2.076,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.298,
+        "end": 2.505,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.722,
+        "end": 3.147,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.345,
+        "end": 3.826,
+        "gloss_id": "날짜(활용):10년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.97,
+        "end": 4.507,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.777,
+        "end": 4.99,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.344,
+        "end": 5.632,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.923,
+        "end": 6.156,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.372,
+        "end": 6.704,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.298,
+        "end": 2.505,
+        "loc": "8",
+        "word": "운용"
+      },
+      {
+        "start": 2.722,
+        "end": 3.147,
+        "loc": "9",
+        "word": "회사에"
+      },
+      {
+        "start": 3.345,
+        "end": 3.826,
+        "loc": "0",
+        "word": "10년"
+      },
+      {
+        "start": 3.97,
+        "end": 4.507,
+        "loc": "1,2",
+        "word": "이상 운영되고,"
+      },
+      {
+        "start": 4.777,
+        "end": 4.99,
+        "loc": "4,5,6",
+        "word": "자산 규모를 가진"
+      },
+      {
+        "start": 5.344,
+        "end": 5.632,
+        "loc": "3",
+        "word": "큰"
+      },
+      {
+        "start": 6.372,
+        "end": 6.704,
+        "loc": "12",
+        "word": "좋습니다."
+      },
+      {
+        "start": 1.339,
+        "end": 2.069,
+        "loc": "7",
+        "word": "펀드"
+      },
+      {
+        "start": 5.923,
+        "end": 6.156,
+        "loc": "10,11",
+        "word": "투자하는 게"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.825,
+        "end": 2.076,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.298,
+        "end": 2.505,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.722,
+        "end": 3.147,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.345,
+        "end": 3.826,
+        "gloss_id": "날짜(활용):10년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.97,
+        "end": 4.507,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.777,
+        "end": 5.625,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.372,
+        "end": 6.704,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "십년",
+        "start": 3.345,
+        "end": 3.826
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.722,
+        "end": 3.147
+      },
+      {
+        "descriptor": "",
+        "start": 3.97,
+        "end": 4.507
+      },
+      {
+        "descriptor": "",
+        "start": 5.344,
+        "end": 5.632
+      },
+      {
+        "descriptor": "",
+        "start": 6.372,
+        "end": 6.704
+      },
+      {
+        "descriptor": "",
+        "start": 1.825,
+        "end": 2.076
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.339,
+        "end": 3.134
+      },
+      {
+        "descriptor": "",
+        "start": 5.344,
+        "end": 5.632
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340290",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:04:28",
+    "sentence_ID": "VXPAKOKS240340290",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240340290.mp4",
+  "saved_as": "VXPAKOKS240340290-10년이상운영되고,큰자산규모를가진펀드운용회사에투자하는게좋습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

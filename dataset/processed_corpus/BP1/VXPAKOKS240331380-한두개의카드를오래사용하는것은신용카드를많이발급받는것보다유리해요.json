@@ -1,0 +1,304 @@
+{
+  "id": "VXPAKOKS240331380",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "한 두 개의 카드를 오래 사용하는 것은 신용카드를 많이 발급받는 것보다 유리해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.473,
+        "end": 1.629,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.817,
+        "end": 2.035,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.265,
+        "end": 2.685,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.896,
+        "end": 3.335,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.806,
+        "end": 4.103,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.364,
+        "end": 4.637,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.886,
+        "end": 5.085,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.23,
+        "end": 5.405,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.555,
+        "end": 5.84,
+        "gloss_id": "2",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.028,
+        "end": 6.338,
+        "gloss_id": "낫다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.473,
+        "end": 2.034,
+        "loc": "7",
+        "word": "신용카드를"
+      },
+      {
+        "start": 2.265,
+        "end": 2.685,
+        "loc": "8,9",
+        "word": "많이 발급받는"
+      },
+      {
+        "start": 2.896,
+        "end": 3.335,
+        "loc": "10",
+        "word": "것보다"
+      },
+      {
+        "start": 3.806,
+        "end": 4.103,
+        "loc": "4",
+        "word": "오래"
+      },
+      {
+        "start": 4.364,
+        "end": 4.637,
+        "loc": "5,6",
+        "word": "사용하는 것은"
+      },
+      {
+        "start": 4.886,
+        "end": 5.085,
+        "loc": "3",
+        "word": "카드를"
+      },
+      {
+        "start": 5.23,
+        "end": 5.405,
+        "loc": "0",
+        "word": "한"
+      },
+      {
+        "start": 5.555,
+        "end": 5.84,
+        "loc": "1,2",
+        "word": "두 개의"
+      },
+      {
+        "start": 6.028,
+        "end": 6.338,
+        "loc": "11",
+        "word": "유리해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.473,
+        "end": 2.028,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.265,
+        "end": 2.685,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.896,
+        "end": 3.335,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.806,
+        "end": 4.103,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.364,
+        "end": 4.637,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "하나",
+        "start": 5.23,
+        "end": 5.405
+      },
+      {
+        "descriptor": "둘",
+        "start": 5.555,
+        "end": 5.84
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.896,
+        "end": 3.335
+      },
+      {
+        "descriptor": "",
+        "start": 3.806,
+        "end": 4.103
+      },
+      {
+        "descriptor": "",
+        "start": 6.028,
+        "end": 6.338
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.265,
+        "end": 2.685
+      },
+      {
+        "descriptor": "",
+        "start": 5.23,
+        "end": 5.841
+      },
+      {
+        "descriptor": "",
+        "start": 3.806,
+        "end": 4.103
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.886,
+        "end": 5.085
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331380",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:09:59",
+    "sentence_ID": "VXPAKOKS240331380",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    221,
+    126
+  ],
+  "file": "VXPAKOKS240331380.mp4",
+  "saved_as": "VXPAKOKS240331380-한두개의카드를오래사용하는것은신용카드를많이발급받는것보다유리해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

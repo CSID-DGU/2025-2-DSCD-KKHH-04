@@ -1,0 +1,266 @@
+{
+  "id": "VXPAKOKS240331630",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드를 잃어버려서 분실 신고를 하면 바로 새 카드 받을 수 있어?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.685,
+        "end": 1.84,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.033,
+        "end": 2.211,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.416,
+        "end": 2.881,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.215,
+        "end": 3.474,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.696,
+        "end": 4.104,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.358,
+        "end": 4.571,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.82,
+        "end": 4.981,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.1,
+        "end": 5.359,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.55,
+        "end": 5.935,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.685,
+        "end": 2.191,
+        "loc": "0",
+        "word": "현금카드를"
+      },
+      {
+        "start": 2.416,
+        "end": 3.496,
+        "loc": "1",
+        "word": "잃어버려서"
+      },
+      {
+        "start": 3.696,
+        "end": 4.104,
+        "loc": "2,3,4",
+        "word": "분실 신고를 하면"
+      },
+      {
+        "start": 4.358,
+        "end": 4.571,
+        "loc": "5",
+        "word": "바로"
+      },
+      {
+        "start": 5.55,
+        "end": 5.935,
+        "loc": "9,10",
+        "word": "수 있어?"
+      },
+      {
+        "start": 4.82,
+        "end": 5.366,
+        "loc": "6,7,8",
+        "word": "새 카드 받을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.215,
+        "end": 3.474,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.696,
+        "end": 4.104,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.358,
+        "end": 4.571,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.82,
+        "end": 4.981,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.1,
+        "end": 5.359,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.584,
+        "end": 2.848
+      },
+      {
+        "descriptor": "",
+        "start": 5.55,
+        "end": 5.935
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.584,
+        "end": 2.854
+      },
+      {
+        "descriptor": "",
+        "start": 5.55,
+        "end": 5.935
+      },
+      {
+        "descriptor": "",
+        "start": 3.215,
+        "end": 3.474
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.033,
+        "end": 2.855
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.696,
+        "end": 5.932
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331630",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:13:37",
+    "sentence_ID": "VXPAKOKS240331630",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    207,
+    126
+  ],
+  "file": "VXPAKOKS240331630.mp4",
+  "saved_as": "VXPAKOKS240331630-현금카드를잃어버려서분실신고를하면바로새카드받을수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

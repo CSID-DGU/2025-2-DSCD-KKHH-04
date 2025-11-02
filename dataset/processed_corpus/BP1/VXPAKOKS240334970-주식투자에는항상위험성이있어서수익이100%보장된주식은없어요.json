@@ -1,0 +1,246 @@
+{
+  "id": "VXPAKOKS240334970",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자에는 항상 위험성이 있어서 수익이 100% 보장된 주식은 없어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.511,
+        "end": 2.651,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.842,
+        "end": 3.245,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.47,
+        "end": 3.624,
+        "gloss_id": "원래2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.966,
+        "end": 4.688,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.007,
+        "end": 5.417,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.815,
+        "end": 6.329,
+        "gloss_id": "무조건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.53,
+        "end": 6.74,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.511,
+        "end": 2.651,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.842,
+        "end": 3.245,
+        "loc": "1",
+        "word": "투자에는"
+      },
+      {
+        "start": 3.47,
+        "end": 3.624,
+        "loc": "2",
+        "word": "항상"
+      },
+      {
+        "start": 3.966,
+        "end": 4.688,
+        "loc": "3,4",
+        "word": "위험성이 있어서"
+      },
+      {
+        "start": 5.007,
+        "end": 5.417,
+        "loc": "5",
+        "word": "수익이"
+      },
+      {
+        "start": 5.815,
+        "end": 6.329,
+        "loc": "6,7,8",
+        "word": "100% 보장된 주식은"
+      },
+      {
+        "start": 6.53,
+        "end": 6.74,
+        "loc": "9",
+        "word": "없어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.511,
+        "end": 2.651,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.47,
+        "end": 3.624,
+        "gloss_id": "원래2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.815,
+        "end": 6.329,
+        "gloss_id": "무조건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.842,
+        "end": 3.245
+      },
+      {
+        "descriptor": "",
+        "start": 3.966,
+        "end": 4.388
+      },
+      {
+        "descriptor": "",
+        "start": 5.007,
+        "end": 5.417
+      },
+      {
+        "descriptor": "",
+        "start": 5.815,
+        "end": 6.16
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 6.476,
+        "end": 6.74
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.842,
+        "end": 4.388
+      },
+      {
+        "descriptor": "",
+        "start": 5.815,
+        "end": 6.748
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.511,
+        "end": 3.246
+      },
+      {
+        "descriptor": "",
+        "start": 5.007,
+        "end": 5.417
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334970",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:33:48",
+    "sentence_ID": "VXPAKOKS240334970",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    249,
+    126
+  ],
+  "file": "VXPAKOKS240334970.mp4",
+  "saved_as": "VXPAKOKS240334970-주식투자에는항상위험성이있어서수익이100%보장된주식은없어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

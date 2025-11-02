@@ -1,0 +1,194 @@
+{
+  "id": "VXPAKOKS240341580",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "자본금 규모가 큰 펀드는 펀드 수익을 크게 낼 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.652,
+        "end": 1.903,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.122,
+        "end": 2.492,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.683,
+        "end": 3.54,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.869,
+        "end": 4.477,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.713,
+        "end": 5.023,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.187,
+        "end": 5.378,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.652,
+        "end": 1.903,
+        "loc": "3",
+        "word": "펀드는"
+      },
+      {
+        "start": 2.122,
+        "end": 2.492,
+        "loc": "0,1",
+        "word": "자본금 규모가"
+      },
+      {
+        "start": 2.683,
+        "end": 3.54,
+        "loc": "2",
+        "word": "큰"
+      },
+      {
+        "start": 3.869,
+        "end": 4.477,
+        "loc": "4,5",
+        "word": "펀드 수익을"
+      },
+      {
+        "start": 4.713,
+        "end": 5.023,
+        "loc": "6,7",
+        "word": "크게 낼"
+      },
+      {
+        "start": 5.187,
+        "end": 5.378,
+        "loc": "8,9",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.122,
+        "end": 3.537,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.187,
+        "end": 5.378
+      },
+      {
+        "descriptor": "",
+        "start": 2.766,
+        "end": 3.266
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.187,
+        "end": 5.378
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.713,
+        "end": 5.023
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.652,
+        "end": 3.539
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341580",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:14:42",
+    "sentence_ID": "VXPAKOKS240341580",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    195,
+    126
+  ],
+  "file": "VXPAKOKS240341580.mp4",
+  "saved_as": "VXPAKOKS240341580-자본금규모가큰펀드는펀드수익을크게낼수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,251 @@
+{
+  "id": "VXPAKOKS240332590",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "정해진 계획에 따라 월 상환액을 내고, 다른 지출을 잘 관리하는 게 좋아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.449,
+        "end": 3.789,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.105,
+        "end": 4.27,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.541,
+        "end": 4.66,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.897,
+        "end": 5.488,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.027,
+        "end": 6.192,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.499,
+        "end": 6.687,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.91,
+        "end": 7.425,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.105,
+        "end": 4.27,
+        "loc": "3",
+        "word": "월"
+      },
+      {
+        "start": 4.541,
+        "end": 4.66,
+        "loc": "4,5",
+        "word": "상환액을 내고,"
+      },
+      {
+        "start": 4.897,
+        "end": 5.488,
+        "loc": "0,1,2",
+        "word": "정해진 계획에 따라"
+      },
+      {
+        "start": 3.449,
+        "end": 3.789,
+        "loc": "6,7",
+        "word": "다른 지출을"
+      },
+      {
+        "start": 6.027,
+        "end": 7.388,
+        "loc": "8,9,10,11",
+        "word": "잘 관리하는 게 좋아."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.541,
+        "end": 4.66,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.897,
+        "end": 5.488,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.027,
+        "end": 6.192,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.499,
+        "end": 6.687,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.91,
+        "end": 7.425,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "한달",
+        "start": 4.105,
+        "end": 4.27
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.91,
+        "end": 7.425
+      },
+      {
+        "descriptor": "",
+        "start": 3.449,
+        "end": 3.789
+      },
+      {
+        "descriptor": "",
+        "start": 4.897,
+        "end": 5.488
+      },
+      {
+        "descriptor": "",
+        "start": 6.499,
+        "end": 6.687
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.533,
+        "end": 5.482
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.897,
+        "end": 5.488
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.449,
+        "end": 4.208
+      },
+      {
+        "descriptor": "",
+        "start": 6.027,
+        "end": 6.816
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332590",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:20:18",
+    "sentence_ID": "VXPAKOKS240332590",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    274,
+    126
+  ],
+  "file": "VXPAKOKS240332590.mp4",
+  "saved_as": "VXPAKOKS240332590-정해진계획에따라월상환액을내고,다른지출을잘관리하는게좋아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

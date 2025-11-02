@@ -1,0 +1,345 @@
+{
+  "id": "VXPAKOKS240337930",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "신용 위험성은 채권을 발행한 회사가 채무를 갚지 못할 위험을 의미합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.273,
+        "end": 2.585,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.776,
+        "end": 2.981,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.32,
+        "end": 3.587,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.712,
+        "end": 3.81,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.988,
+        "end": 4.398,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.553,
+        "end": 4.668,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.849,
+        "end": 5.179,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.402,
+        "end": 6.027,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.236,
+        "end": 6.691,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.002,
+        "end": 7.367,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.676,
+        "end": 8.059,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.323,
+        "end": 8.581,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.773,
+        "end": 9.094,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.273,
+        "end": 2.585,
+        "loc": "0",
+        "word": "신용"
+      },
+      {
+        "start": 2.776,
+        "end": 4.412,
+        "loc": "1",
+        "word": "위험성은"
+      },
+      {
+        "start": 4.553,
+        "end": 6.018,
+        "loc": "2",
+        "word": "채권을"
+      },
+      {
+        "start": 6.236,
+        "end": 6.691,
+        "loc": "3,4",
+        "word": "발행한 회사가"
+      },
+      {
+        "start": 7.002,
+        "end": 7.367,
+        "loc": "5,6",
+        "word": "채무를 갚지"
+      },
+      {
+        "start": 7.676,
+        "end": 8.059,
+        "loc": "7",
+        "word": "못할"
+      },
+      {
+        "start": 8.323,
+        "end": 8.581,
+        "loc": "8",
+        "word": "위험을"
+      },
+      {
+        "start": 8.773,
+        "end": 9.094,
+        "loc": "9",
+        "word": "의미합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.273,
+        "end": 2.585,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.32,
+        "end": 3.587,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.402,
+        "end": 6.027,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.236,
+        "end": 6.691,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.002,
+        "end": 7.368,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.676,
+        "end": 8.059,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.773,
+        "end": 9.094,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.773,
+        "end": 9.094
+      },
+      {
+        "descriptor": "",
+        "start": 3.988,
+        "end": 4.398
+      },
+      {
+        "descriptor": "",
+        "start": 5.393,
+        "end": 6.027
+      },
+      {
+        "descriptor": "",
+        "start": 7.79,
+        "end": 8.059
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.795,
+        "end": 8.059
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.776,
+        "end": 4.385
+      },
+      {
+        "descriptor": "",
+        "start": 6.236,
+        "end": 8.059
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.773,
+        "end": 9.094
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.273,
+        "end": 2.585
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337930",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:40:51",
+    "sentence_ID": "VXPAKOKS240337930",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    322,
+    126
+  ],
+  "file": "VXPAKOKS240337930.mp4",
+  "saved_as": "VXPAKOKS240337930-신용위험성은채권을발행한회사가채무를갚지못할위험을의미합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

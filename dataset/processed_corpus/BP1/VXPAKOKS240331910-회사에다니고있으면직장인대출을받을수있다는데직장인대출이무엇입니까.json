@@ -1,0 +1,332 @@
+{
+  "id": "VXPAKOKS240331910",
+  "opertor": "label10",
+  "krlgg_sntenc": {
+    "koreanText": "회사에 다니고 있으면 직장인 대출을 받을 수 있다는데 직장인 대출이 무엇입니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.282,
+        "end": 2.458,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.62,
+        "end": 3.12,
+        "gloss_id": "다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.261,
+        "end": 3.798,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.041,
+        "end": 4.173,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.281,
+        "end": 4.501,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.642,
+        "end": 4.951,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.064,
+        "end": 5.417,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.719,
+        "end": 6.182,
+        "gloss_id": "말하다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.279,
+        "end": 6.426,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.567,
+        "end": 6.773,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.897,
+        "end": 7.161,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.273,
+        "end": 7.456,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.567,
+        "end": 7.934,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.282,
+        "end": 2.458,
+        "loc": "0",
+        "word": "회사에"
+      },
+      {
+        "start": 2.62,
+        "end": 3.12,
+        "loc": "1",
+        "word": "다니고"
+      },
+      {
+        "start": 3.261,
+        "end": 3.798,
+        "loc": "2",
+        "word": "있으면"
+      },
+      {
+        "start": 4.041,
+        "end": 4.501,
+        "loc": "3",
+        "word": "직장인"
+      },
+      {
+        "start": 5.064,
+        "end": 6.182,
+        "loc": "6,7",
+        "word": "수 있다는데"
+      },
+      {
+        "start": 4.642,
+        "end": 4.951,
+        "loc": "4,5",
+        "word": "대출을 받을"
+      },
+      {
+        "start": 6.279,
+        "end": 6.773,
+        "loc": "8",
+        "word": "직장인"
+      },
+      {
+        "start": 6.897,
+        "end": 7.161,
+        "loc": "9",
+        "word": "대출이"
+      },
+      {
+        "start": 7.273,
+        "end": 7.934,
+        "loc": "10",
+        "word": "무엇입니까?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.62,
+        "end": 3.12,
+        "gloss_id": "다니다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.281,
+        "end": 4.501,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.279,
+        "end": 6.426,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.567,
+        "end": 6.773,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.041,
+        "end": 4.173,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.282,
+        "end": 2.458,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.261,
+        "end": 3.798
+      },
+      {
+        "descriptor": "",
+        "start": 5.064,
+        "end": 5.417
+      },
+      {
+        "descriptor": "",
+        "start": 7.567,
+        "end": 7.934
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.064,
+        "end": 5.417
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.897,
+        "end": 7.455
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.567,
+        "end": 7.934
+      },
+      {
+        "descriptor": "",
+        "start": 2.282,
+        "end": 3.798
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331910",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:40:02",
+    "sentence_ID": "VXPAKOKS240331910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    265,
+    126
+  ],
+  "file": "VXPAKOKS240331910.mp4",
+  "saved_as": "VXPAKOKS240331910-회사에다니고있으면직장인대출을받을수있다는데직장인대출이무엇입니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

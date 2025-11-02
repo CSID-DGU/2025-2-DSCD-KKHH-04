@@ -1,0 +1,323 @@
+{
+  "id": "VXPAKOKS240336180",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권을 발행하는 기업의 신용에 따라 채권의 신용도가 달라집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.76,
+        "end": 3.151,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.382,
+        "end": 3.605,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.935,
+        "end": 4.237,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.499,
+        "end": 5.266,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.366,
+        "end": 5.569,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.763,
+        "end": 5.862,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.022,
+        "end": 6.215,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.427,
+        "end": 7.391,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.643,
+        "end": 7.975,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.305,
+        "end": 8.884,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.147,
+        "end": 9.38,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.582,
+        "end": 9.825,
+        "gloss_id": "둘중하나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.76,
+        "end": 3.151,
+        "loc": "2",
+        "word": "기업의"
+      },
+      {
+        "start": 3.382,
+        "end": 5.572,
+        "loc": "3,4",
+        "word": "신용에 따라"
+      },
+      {
+        "start": 7.643,
+        "end": 7.975,
+        "loc": "5",
+        "word": "채권의"
+      },
+      {
+        "start": 8.305,
+        "end": 9.378,
+        "loc": "6",
+        "word": "신용도가"
+      },
+      {
+        "start": 9.582,
+        "end": 9.835,
+        "loc": "7",
+        "word": "달라집니다."
+      },
+      {
+        "start": 5.757,
+        "end": 7.391,
+        "loc": "0,1",
+        "word": "채권을 발행하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.76,
+        "end": 3.151,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.499,
+        "end": 5.266,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.427,
+        "end": 7.391,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.366,
+        "end": 5.569,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.382,
+        "end": 3.605,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.147,
+        "end": 9.38,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.582,
+        "end": 9.825
+      },
+      {
+        "descriptor": "",
+        "start": 2.76,
+        "end": 3.151
+      },
+      {
+        "descriptor": "",
+        "start": 3.935,
+        "end": 4.237
+      },
+      {
+        "descriptor": "",
+        "start": 5.423,
+        "end": 5.569
+      },
+      {
+        "descriptor": "",
+        "start": 6.766,
+        "end": 7.393
+      },
+      {
+        "descriptor": "",
+        "start": 8.305,
+        "end": 8.884
+      },
+      {
+        "descriptor": "",
+        "start": 9.147,
+        "end": 9.38
+      },
+      {
+        "descriptor": "",
+        "start": 4.499,
+        "end": 5.266
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.423,
+        "end": 5.569
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.76,
+        "end": 3.137
+      },
+      {
+        "descriptor": "",
+        "start": 5.38,
+        "end": 6.844
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336180",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:28:27",
+    "sentence_ID": "VXPAKOKS240336180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    356,
+    126
+  ],
+  "file": "VXPAKOKS240336180.mp4",
+  "saved_as": "VXPAKOKS240336180-채권을발행하는기업의신용에따라채권의신용도가달라집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

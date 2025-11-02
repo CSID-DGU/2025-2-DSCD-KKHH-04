@@ -1,0 +1,280 @@
+{
+  "id": "VXPAKOKS240342190",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "높은 수익률이 목표인 펀드는 시장 변화에 빠르게 반응하므로 손실이 생기기도 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.958,
+        "end": 2.138,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.381,
+        "end": 2.593,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.796,
+        "end": 3.117,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.337,
+        "end": 3.786,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.134,
+        "end": 4.41,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.525,
+        "end": 4.942,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.203,
+        "end": 5.46,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.659,
+        "end": 5.974,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.198,
+        "end": 6.333,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.958,
+        "end": 2.138,
+        "loc": "1",
+        "word": "수익률이"
+      },
+      {
+        "start": 2.381,
+        "end": 2.593,
+        "loc": "0",
+        "word": "높은"
+      },
+      {
+        "start": 2.796,
+        "end": 3.117,
+        "loc": "2",
+        "word": "목표인"
+      },
+      {
+        "start": 3.337,
+        "end": 3.786,
+        "loc": "3",
+        "word": "펀드는"
+      },
+      {
+        "start": 4.134,
+        "end": 4.41,
+        "loc": "4",
+        "word": "시장"
+      },
+      {
+        "start": 4.525,
+        "end": 5.454,
+        "loc": "5,6,7",
+        "word": "변화에 빠르게 반응하므로"
+      },
+      {
+        "start": 5.659,
+        "end": 5.974,
+        "loc": "8",
+        "word": "손실이"
+      },
+      {
+        "start": 6.198,
+        "end": 6.333,
+        "loc": "9,10",
+        "word": "생기기도 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.134,
+        "end": 4.41,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.525,
+        "end": 4.942,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.203,
+        "end": 5.46,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.659,
+        "end": 5.974,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.796,
+        "end": 3.117
+      },
+      {
+        "descriptor": "",
+        "start": 3.337,
+        "end": 3.786
+      },
+      {
+        "descriptor": "",
+        "start": 5.203,
+        "end": 5.46
+      },
+      {
+        "descriptor": "",
+        "start": 6.198,
+        "end": 6.333
+      },
+      {
+        "descriptor": "",
+        "start": 5.659,
+        "end": 5.974
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.606,
+        "end": 3.786
+      },
+      {
+        "descriptor": "",
+        "start": 5.203,
+        "end": 5.46
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.659,
+        "end": 6.325
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.958,
+        "end": 3.104
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342190",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:19:43",
+    "sentence_ID": "VXPAKOKS240342190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240342190.mp4",
+  "saved_as": "VXPAKOKS240342190-높은수익률이목표인펀드는시장변화에빠르게반응하므로손실이생기기도합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

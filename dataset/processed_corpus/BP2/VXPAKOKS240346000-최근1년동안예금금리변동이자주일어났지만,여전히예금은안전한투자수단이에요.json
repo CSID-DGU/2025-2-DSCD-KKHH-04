@@ -1,0 +1,394 @@
+{
+  "id": "VXPAKOKS240346000",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "최근 1년 동안 예금 금리 변동이 자주 일어났지만, 여전히 예금은 안전한 투자 수단이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.366,
+        "end": 1.599,
+        "gloss_id": "며칠전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.784,
+        "end": 2.376,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.587,
+        "end": 2.83,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.416,
+        "end": 4.029,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.263,
+        "end": 4.423,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.624,
+        "end": 4.805,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.053,
+        "end": 5.429,
+        "gloss_id": "가격2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.658,
+        "end": 6.117,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.531,
+        "end": 7.113,
+        "gloss_id": "맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.471,
+        "end": 7.724,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.069,
+        "end": 8.445,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.898,
+        "end": 9.418,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.634,
+        "end": 9.866,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.03,
+        "end": 10.448,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.366,
+        "end": 1.599,
+        "loc": "0",
+        "word": "최근"
+      },
+      {
+        "start": 1.784,
+        "end": 2.386,
+        "loc": "1",
+        "word": "1년"
+      },
+      {
+        "start": 2.587,
+        "end": 2.83,
+        "loc": "2",
+        "word": "동안"
+      },
+      {
+        "start": 3.416,
+        "end": 4.029,
+        "loc": "3",
+        "word": "예금"
+      },
+      {
+        "start": 4.263,
+        "end": 4.423,
+        "loc": "4",
+        "word": "금리"
+      },
+      {
+        "start": 4.624,
+        "end": 7.097,
+        "loc": "5,6,7",
+        "word": "변동이 자주 일어났지만,"
+      },
+      {
+        "start": 7.471,
+        "end": 7.724,
+        "loc": "11",
+        "word": "투자"
+      },
+      {
+        "start": 8.069,
+        "end": 8.445,
+        "loc": "12",
+        "word": "수단이에요."
+      },
+      {
+        "start": 8.898,
+        "end": 9.418,
+        "loc": "9",
+        "word": "예금은"
+      },
+      {
+        "start": 9.634,
+        "end": 9.866,
+        "loc": "10",
+        "word": "안전한"
+      },
+      {
+        "start": 10.03,
+        "end": 10.448,
+        "loc": "8",
+        "word": "여전히"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.587,
+        "end": 2.83,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.416,
+        "end": 4.8,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.053,
+        "end": 5.429,
+        "gloss_id": "가격2#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.069,
+        "end": 8.445,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.898,
+        "end": 9.418,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.634,
+        "end": 9.866,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.03,
+        "end": 10.448,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.784,
+        "end": 2.376,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 10.03,
+        "end": 10.448
+      },
+      {
+        "descriptor": "",
+        "start": 1.366,
+        "end": 1.599
+      },
+      {
+        "descriptor": "",
+        "start": 2.587,
+        "end": 2.83
+      },
+      {
+        "descriptor": "",
+        "start": 5.658,
+        "end": 6.117
+      },
+      {
+        "descriptor": "",
+        "start": 6.531,
+        "end": 7.113
+      },
+      {
+        "descriptor": "",
+        "start": 8.069,
+        "end": 8.445
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.784,
+        "end": 2.89
+      },
+      {
+        "descriptor": "",
+        "start": 5.053,
+        "end": 7.649
+      },
+      {
+        "descriptor": "",
+        "start": 9.634,
+        "end": 10.441
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.366,
+        "end": 1.599
+      },
+      {
+        "descriptor": "",
+        "start": 4.263,
+        "end": 4.69
+      },
+      {
+        "descriptor": "",
+        "start": 8.069,
+        "end": 8.301
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346000",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:42:02",
+    "sentence_ID": "VXPAKOKS240346000",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    370,
+    126
+  ],
+  "file": "VXPAKOKS240346000.mp4",
+  "saved_as": "VXPAKOKS240346000-최근1년동안예금금리변동이자주일어났지만,여전히예금은안전한투자수단이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

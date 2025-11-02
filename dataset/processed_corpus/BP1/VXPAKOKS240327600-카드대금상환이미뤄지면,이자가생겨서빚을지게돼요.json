@@ -1,0 +1,218 @@
+{
+  "id": "VXPAKOKS240327600",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "카드 대금 상환이 미뤄지면, 이자가 생겨서 빚을 지게 돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.969,
+        "end": 2.261,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.489,
+        "end": 2.729,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.172,
+        "end": 3.585,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.95,
+        "end": 4.23,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.514,
+        "end": 4.817,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.081,
+        "end": 5.298,
+        "gloss_id": "빨강2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.544,
+        "end": 6.05,
+        "gloss_id": "부담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.969,
+        "end": 2.261,
+        "loc": "0",
+        "word": "카드"
+      },
+      {
+        "start": 3.95,
+        "end": 4.23,
+        "loc": "4",
+        "word": "이자가"
+      },
+      {
+        "start": 4.514,
+        "end": 4.817,
+        "loc": "5",
+        "word": "생겨서"
+      },
+      {
+        "start": 5.081,
+        "end": 5.298,
+        "loc": "6",
+        "word": "빚을"
+      },
+      {
+        "start": 5.544,
+        "end": 6.05,
+        "loc": "7,8",
+        "word": "지게 돼요."
+      },
+      {
+        "start": 2.489,
+        "end": 2.729,
+        "loc": "1,2",
+        "word": "대금 상환이"
+      },
+      {
+        "start": 3.172,
+        "end": 3.585,
+        "loc": "3",
+        "word": "미뤄지면,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.172,
+        "end": 3.585,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.514,
+        "end": 4.817,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.544,
+        "end": 6.05
+      },
+      {
+        "descriptor": "",
+        "start": 3.172,
+        "end": 3.585
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.172,
+        "end": 3.585
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.969,
+        "end": 6.043
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.758,
+        "end": 6.05
+      }
+    ],
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240327600",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:18:56",
+    "sentence_ID": "VXPAKOKS240327600",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    208,
+    126
+  ],
+  "file": "VXPAKOKS240327600.mp4",
+  "saved_as": "VXPAKOKS240327600-카드대금상환이미뤄지면,이자가생겨서빚을지게돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

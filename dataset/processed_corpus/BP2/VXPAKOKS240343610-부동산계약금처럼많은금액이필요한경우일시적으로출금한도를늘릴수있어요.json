@@ -1,0 +1,396 @@
+{
+  "id": "VXPAKOKS240343610",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "부동산 계약금처럼 많은 금액이 필요한 경우 일시적으로 출금 한도를 늘릴 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.767,
+        "end": 1.91,
+        "gloss_id": "행복1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.147,
+        "end": 2.351,
+        "gloss_id": "소개1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.677,
+        "end": 2.925,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.25,
+        "end": 3.515,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.789,
+        "end": 4.167,
+        "gloss_id": "같다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.301,
+        "end": 4.601,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.885,
+        "end": 5.089,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.332,
+        "end": 5.632,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.259,
+        "end": 6.376,
+        "gloss_id": "간격3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.57,
+        "end": 6.632,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.82,
+        "end": 6.965,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.054,
+        "end": 7.14,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.407,
+        "end": 7.537,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.789,
+        "end": 8.101,
+        "gloss_id": "높다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.284,
+        "end": 8.458,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.892,
+        "end": 6.11,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.767,
+        "end": 2.328,
+        "loc": "0",
+        "word": "부동산"
+      },
+      {
+        "start": 2.677,
+        "end": 4.169,
+        "loc": "1",
+        "word": "계약금처럼"
+      },
+      {
+        "start": 4.301,
+        "end": 4.601,
+        "loc": "3",
+        "word": "금액이"
+      },
+      {
+        "start": 4.885,
+        "end": 5.089,
+        "loc": "2",
+        "word": "많은"
+      },
+      {
+        "start": 5.332,
+        "end": 5.632,
+        "loc": "4,5",
+        "word": "필요한 경우"
+      },
+      {
+        "start": 5.894,
+        "end": 6.394,
+        "loc": "6",
+        "word": "일시적으로"
+      },
+      {
+        "start": 6.57,
+        "end": 6.954,
+        "loc": "7",
+        "word": "출금"
+      },
+      {
+        "start": 7.054,
+        "end": 7.531,
+        "loc": "8",
+        "word": "한도를"
+      },
+      {
+        "start": 7.789,
+        "end": 8.44,
+        "loc": "9,10,11",
+        "word": "늘릴 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.677,
+        "end": 3.499,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.789,
+        "end": 4.167,
+        "gloss_id": "같다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.332,
+        "end": 5.632,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.82,
+        "end": 7.139,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.407,
+        "end": 8.094,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.892,
+        "end": 6.11,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.259,
+        "end": 6.376,
+        "gloss_id": "간격3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.147,
+        "end": 2.351
+      },
+      {
+        "descriptor": "",
+        "start": 3.25,
+        "end": 3.515
+      },
+      {
+        "descriptor": "",
+        "start": 5.332,
+        "end": 5.632
+      },
+      {
+        "descriptor": "",
+        "start": 8.284,
+        "end": 8.458
+      },
+      {
+        "descriptor": "",
+        "start": 7.407,
+        "end": 7.537
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.284,
+        "end": 8.458
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.885,
+        "end": 5.089
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.054,
+        "end": 8.094
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.767,
+        "end": 2.354
+      },
+      {
+        "descriptor": "",
+        "start": 3.25,
+        "end": 3.515
+      },
+      {
+        "descriptor": "",
+        "start": 5.332,
+        "end": 5.632
+      },
+      {
+        "descriptor": "",
+        "start": 4.301,
+        "end": 4.601
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240343610",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:54:32",
+    "sentence_ID": "VXPAKOKS240343610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    313,
+    126
+  ],
+  "file": "VXPAKOKS240343610.mp4",
+  "saved_as": "VXPAKOKS240343610-부동산계약금처럼많은금액이필요한경우일시적으로출금한도를늘릴수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

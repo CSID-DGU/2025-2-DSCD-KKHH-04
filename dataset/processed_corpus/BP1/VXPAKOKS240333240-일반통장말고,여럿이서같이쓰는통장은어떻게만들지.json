@@ -1,0 +1,308 @@
+{
+  "id": "VXPAKOKS240333240",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "일반 통장 말고, 여럿이서 같이 쓰는 통장은 어떻게 만들지?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.704,
+        "end": 2.83,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.036,
+        "end": 3.169,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.37,
+        "end": 3.696,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.987,
+        "end": 4.345,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.662,
+        "end": 4.82,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.978,
+        "end": 5.143,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.321,
+        "end": 5.569,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.847,
+        "end": 6.141,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.408,
+        "end": 6.843,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.704,
+        "end": 2.83,
+        "loc": "0",
+        "word": "일반"
+      },
+      {
+        "start": 3.036,
+        "end": 3.691,
+        "loc": "1",
+        "word": "통장"
+      },
+      {
+        "start": 3.987,
+        "end": 4.345,
+        "loc": "2",
+        "word": "말고,"
+      },
+      {
+        "start": 4.662,
+        "end": 4.82,
+        "loc": "3,4,5",
+        "word": "여럿이서 같이 쓰는"
+      },
+      {
+        "start": 4.978,
+        "end": 5.607,
+        "loc": "6",
+        "word": "통장은"
+      },
+      {
+        "start": 5.847,
+        "end": 6.141,
+        "loc": "8",
+        "word": "만들지?"
+      },
+      {
+        "start": 6.408,
+        "end": 6.843,
+        "loc": "7",
+        "word": "어떻게"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.704,
+        "end": 2.83,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.036,
+        "end": 3.175,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.37,
+        "end": 3.696,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.987,
+        "end": 4.345,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.662,
+        "end": 4.82,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.978,
+        "end": 5.143,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.321,
+        "end": 5.569,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.847,
+        "end": 6.141,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.408,
+        "end": 6.843,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.37,
+        "end": 3.696
+      },
+      {
+        "descriptor": "",
+        "start": 3.987,
+        "end": 4.345
+      },
+      {
+        "descriptor": "",
+        "start": 5.321,
+        "end": 5.569
+      },
+      {
+        "descriptor": "",
+        "start": 6.408,
+        "end": 6.843
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.704,
+        "end": 3.745
+      },
+      {
+        "descriptor": "",
+        "start": 6.408,
+        "end": 6.843
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.662,
+        "end": 5.568
+      },
+      {
+        "descriptor": "",
+        "start": 6.408,
+        "end": 6.843
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333240",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:03",
+    "sentence_ID": "VXPAKOKS240333240",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240333240.mp4",
+  "saved_as": "VXPAKOKS240333240-일반통장말고,여럿이서같이쓰는통장은어떻게만들지.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

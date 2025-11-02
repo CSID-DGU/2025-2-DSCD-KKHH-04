@@ -1,0 +1,239 @@
+{
+  "id": "VXPAKOKS240335230",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 가격이 갑자기 많이 내려지면 주식 투자자는 한 번에 재산을 잃어버려요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.446,
+        "end": 2.781,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.983,
+        "end": 3.218,
+        "gloss_id": "갑자기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.524,
+        "end": 4.16,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.431,
+        "end": 4.629,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.795,
+        "end": 5.079,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.23,
+        "end": 5.45,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.738,
+        "end": 6.116,
+        "gloss_id": "날아가다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.446,
+        "end": 2.781,
+        "loc": "0,1",
+        "word": "주식 가격이"
+      },
+      {
+        "start": 2.983,
+        "end": 3.218,
+        "loc": "2",
+        "word": "갑자기"
+      },
+      {
+        "start": 4.431,
+        "end": 4.629,
+        "loc": "5",
+        "word": "주식"
+      },
+      {
+        "start": 4.795,
+        "end": 5.079,
+        "loc": "6",
+        "word": "투자자는"
+      },
+      {
+        "start": 5.23,
+        "end": 6.124,
+        "loc": "7,8,9,10",
+        "word": "한 번에 재산을 잃어버려요."
+      },
+      {
+        "start": 3.524,
+        "end": 4.16,
+        "loc": "3,4",
+        "word": "많이 내려지면"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.446,
+        "end": 3.225,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.795,
+        "end": 5.438,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.738,
+        "end": 6.116,
+        "gloss_id": "날아가다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.524,
+        "end": 4.16,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": null,
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.804,
+        "end": 4.153
+      },
+      {
+        "descriptor": "",
+        "start": 5.738,
+        "end": 6.116
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 5.738,
+        "end": 6.116
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.983,
+        "end": 4.164
+      },
+      {
+        "descriptor": "",
+        "start": 5.23,
+        "end": 5.45
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 3.581,
+        "end": 3.809
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.446,
+        "end": 2.781
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335230",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:35:15",
+    "sentence_ID": "VXPAKOKS240335230",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240335230.mp4",
+  "saved_as": "VXPAKOKS240335230-주식가격이갑자기많이내려지면주식투자자는한번에재산을잃어버려요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

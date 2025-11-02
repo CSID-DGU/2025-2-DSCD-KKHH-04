@@ -1,0 +1,347 @@
+{
+  "id": "VXPAKOKS240340210",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 가입 시 생각해야 할 사항에는 개인의 투자 성향, 위험 감수 능력을 고려해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.521,
+        "end": 1.749,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.906,
+        "end": 2.456,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.709,
+        "end": 2.872,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.053,
+        "end": 3.517,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.77,
+        "end": 3.962,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.135,
+        "end": 4.413,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.622,
+        "end": 5.201,
+        "gloss_id": "방식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.433,
+        "end": 5.754,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.077,
+        "end": 6.319,
+        "gloss_id": "희생2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.522,
+        "end": 6.864,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.052,
+        "end": 7.229,
+        "gloss_id": "생각2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.403,
+        "end": 7.767,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.521,
+        "end": 2.444,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 2.709,
+        "end": 2.872,
+        "loc": "1",
+        "word": "가입"
+      },
+      {
+        "start": 3.053,
+        "end": 3.517,
+        "loc": "2,3,4,5",
+        "word": "시 생각해야 할 사항에는"
+      },
+      {
+        "start": 5.433,
+        "end": 6.327,
+        "loc": "9,10",
+        "word": "위험 감수"
+      },
+      {
+        "start": 7.052,
+        "end": 7.766,
+        "loc": "12,13",
+        "word": "고려해야 합니다."
+      },
+      {
+        "start": 6.522,
+        "end": 6.864,
+        "loc": "11",
+        "word": "능력을"
+      },
+      {
+        "start": 4.135,
+        "end": 4.413,
+        "loc": "6",
+        "word": "개인의"
+      },
+      {
+        "start": 4.622,
+        "end": 5.201,
+        "loc": "8",
+        "word": "성향,"
+      },
+      {
+        "start": 3.77,
+        "end": 3.962,
+        "loc": "7",
+        "word": "투자"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.906,
+        "end": 2.456,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.709,
+        "end": 2.872,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.053,
+        "end": 3.517,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.135,
+        "end": 4.413,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.622,
+        "end": 5.201,
+        "gloss_id": "방식1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.433,
+        "end": 5.754,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.077,
+        "end": 6.319,
+        "gloss_id": "희생2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.403,
+        "end": 7.767,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.906,
+        "end": 2.456
+      },
+      {
+        "descriptor": "",
+        "start": 3.053,
+        "end": 3.517
+      },
+      {
+        "descriptor": "",
+        "start": 4.622,
+        "end": 5.201
+      },
+      {
+        "descriptor": "",
+        "start": 6.077,
+        "end": 7.222
+      },
+      {
+        "descriptor": "",
+        "start": 7.403,
+        "end": 7.767
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.107,
+        "end": 2.456
+      },
+      {
+        "descriptor": "",
+        "start": 6.615,
+        "end": 6.864
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.521,
+        "end": 2.874
+      },
+      {
+        "descriptor": "",
+        "start": 6.192,
+        "end": 6.871
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340210",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:04:01",
+    "sentence_ID": "VXPAKOKS240340210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240340210.mp4",
+  "saved_as": "VXPAKOKS240340210-펀드가입시생각해야할사항에는개인의투자성향,위험감수능력을고려해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,282 @@
+{
+  "id": "VXPAKOKS240338620",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 가격과 수익률 사이의 관계는 기업의 경영 상황에 의해서 만들어집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.592,
+        "end": 1.649,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.751,
+        "end": 1.943,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.171,
+        "end": 2.603,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.854,
+        "end": 3.243,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.572,
+        "end": 4.841,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.183,
+        "end": 5.592,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.837,
+        "end": 6.023,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.435,
+        "end": 6.901,
+        "gloss_id": "오르내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.36,
+        "end": 7.496,
+        "gloss_id": "서로1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.82,
+        "end": 7.977,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.277,
+        "end": 8.447,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.592,
+        "end": 2.598,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 2.854,
+        "end": 3.243,
+        "loc": "1",
+        "word": "가격과"
+      },
+      {
+        "start": 3.572,
+        "end": 4.841,
+        "loc": "2",
+        "word": "수익률"
+      },
+      {
+        "start": 5.183,
+        "end": 5.592,
+        "loc": "5",
+        "word": "기업의"
+      },
+      {
+        "start": 5.837,
+        "end": 6.023,
+        "loc": "6",
+        "word": "경영"
+      },
+      {
+        "start": 6.435,
+        "end": 6.901,
+        "loc": "7,8",
+        "word": "상황에 의해서"
+      },
+      {
+        "start": 7.36,
+        "end": 7.496,
+        "loc": "3",
+        "word": "사이의"
+      },
+      {
+        "start": 7.82,
+        "end": 7.977,
+        "loc": "4",
+        "word": "관계는"
+      },
+      {
+        "start": 8.277,
+        "end": 8.447,
+        "loc": "9",
+        "word": "만들어집니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 5.183,
+        "end": 5.592,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.837,
+        "end": 6.023,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.36,
+        "end": 7.496,
+        "gloss_id": "서로1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.82,
+        "end": 7.977,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.171,
+        "end": 2.603,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.572,
+        "end": 4.626
+      },
+      {
+        "descriptor": "",
+        "start": 8.277,
+        "end": 8.447
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.592,
+        "end": 4.603
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338620",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:45:25",
+    "sentence_ID": "VXPAKOKS240338620",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    287,
+    126
+  ],
+  "file": "VXPAKOKS240338620.mp4",
+  "saved_as": "VXPAKOKS240338620-채권의가격과수익률사이의관계는기업의경영상황에의해서만들어집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,258 @@
+{
+  "id": "VXPAKOKS240338950",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "국가의 경제에 문제가 없다면, 투자자는 약속된 이자와 원금을 회수합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.548,
+        "end": 1.673,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.834,
+        "end": 2.157,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.429,
+        "end": 2.582,
+        "gloss_id": "어렵다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.818,
+        "end": 3.154,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.481,
+        "end": 3.87,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.172,
+        "end": 4.296,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.426,
+        "end": 4.651,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.021,
+        "end": 5.321,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.571,
+        "end": 5.983,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.818,
+        "end": 3.154,
+        "loc": "3",
+        "word": "없다면,"
+      },
+      {
+        "start": 3.481,
+        "end": 3.87,
+        "loc": "4,5,6",
+        "word": "투자자는 약속된 이자와"
+      },
+      {
+        "start": 4.171,
+        "end": 4.648,
+        "loc": "7",
+        "word": "원금을"
+      },
+      {
+        "start": 5.021,
+        "end": 5.996,
+        "loc": "8",
+        "word": "회수합니다."
+      },
+      {
+        "start": 1.548,
+        "end": 1.673,
+        "loc": "0",
+        "word": "국가의"
+      },
+      {
+        "start": 1.834,
+        "end": 2.157,
+        "loc": "1",
+        "word": "경제에"
+      },
+      {
+        "start": 2.429,
+        "end": 2.582,
+        "loc": "2",
+        "word": "문제가"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.172,
+        "end": 4.636,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.548,
+        "end": 1.673,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.834,
+        "end": 2.157,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.021,
+        "end": 5.321,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.818,
+        "end": 3.154
+      },
+      {
+        "descriptor": "",
+        "start": 3.592,
+        "end": 3.87
+      },
+      {
+        "descriptor": "",
+        "start": 4.426,
+        "end": 4.651
+      },
+      {
+        "descriptor": "",
+        "start": 5.571,
+        "end": 5.983
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.429,
+        "end": 3.158
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.548,
+        "end": 3.156
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338950",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:48:42",
+    "sentence_ID": "VXPAKOKS240338950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    211,
+    126
+  ],
+  "file": "VXPAKOKS240338950.mp4",
+  "saved_as": "VXPAKOKS240338950-국가의경제에문제가없다면,투자자는약속된이자와원금을회수합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

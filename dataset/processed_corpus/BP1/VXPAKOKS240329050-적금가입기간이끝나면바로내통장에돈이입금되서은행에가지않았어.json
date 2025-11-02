@@ -1,0 +1,370 @@
+{
+  "id": "VXPAKOKS240329050",
+  "opertor": "label16",
+  "krlgg_sntenc": {
+    "koreanText": "적금 가입기간이 끝나면 바로 내 통장에 돈이 입금되서 은행에 가지 않았어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.633,
+        "end": 1.736,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.999,
+        "end": 2.317,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.399,
+        "end": 2.609,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.034,
+        "end": 3.595,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.799,
+        "end": 3.92,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.099,
+        "end": 4.422,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.76,
+        "end": 5.204,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.333,
+        "end": 5.397,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.533,
+        "end": 5.938,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.166,
+        "end": 6.322,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.533,
+        "end": 6.66,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.866,
+        "end": 7.116,
+        "gloss_id": "한적없다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.705,
+        "end": 2.779,
+        "gloss_id": "간격3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.633,
+        "end": 2.318,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.399,
+        "end": 2.778,
+        "loc": "1",
+        "word": "가입기간이"
+      },
+      {
+        "start": 3.034,
+        "end": 3.595,
+        "loc": "2",
+        "word": "끝나면"
+      },
+      {
+        "start": 3.799,
+        "end": 3.92,
+        "loc": "4",
+        "word": "내"
+      },
+      {
+        "start": 4.099,
+        "end": 4.422,
+        "loc": "5",
+        "word": "통장에"
+      },
+      {
+        "start": 4.76,
+        "end": 5.204,
+        "loc": "3",
+        "word": "바로"
+      },
+      {
+        "start": 5.333,
+        "end": 5.397,
+        "loc": "6",
+        "word": "돈이"
+      },
+      {
+        "start": 5.533,
+        "end": 5.938,
+        "loc": "7",
+        "word": "입금되서"
+      },
+      {
+        "start": 6.166,
+        "end": 6.322,
+        "loc": "8",
+        "word": "은행에"
+      },
+      {
+        "start": 6.533,
+        "end": 6.66,
+        "loc": "9",
+        "word": "가지"
+      },
+      {
+        "start": 6.866,
+        "end": 7.116,
+        "loc": "10",
+        "word": "않았어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.633,
+        "end": 1.736,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.999,
+        "end": 2.317,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.399,
+        "end": 2.609,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.034,
+        "end": 3.595,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.099,
+        "end": 4.422,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.76,
+        "end": 5.204,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.333,
+        "end": 5.938,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.166,
+        "end": 6.322,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.533,
+        "end": 6.66,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.705,
+        "end": 2.779,
+        "gloss_id": "간격3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.034,
+        "end": 3.595
+      },
+      {
+        "descriptor": "",
+        "start": 4.76,
+        "end": 5.204
+      },
+      {
+        "descriptor": "",
+        "start": 5.533,
+        "end": 5.938
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.326,
+        "end": 3.592
+      },
+      {
+        "descriptor": "",
+        "start": 5.826,
+        "end": 5.938
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.034,
+        "end": 3.595
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329050",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:41:03",
+    "sentence_ID": "VXPAKOKS240329050",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    234,
+    126
+  ],
+  "file": "VXPAKOKS240329050.mp4",
+  "saved_as": "VXPAKOKS240329050-적금가입기간이끝나면바로내통장에돈이입금되서은행에가지않았어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

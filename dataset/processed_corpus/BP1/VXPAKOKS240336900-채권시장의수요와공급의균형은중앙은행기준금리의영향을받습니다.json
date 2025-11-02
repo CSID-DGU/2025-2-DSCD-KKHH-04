@@ -1,0 +1,351 @@
+{
+  "id": "VXPAKOKS240336900",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장의 수요와 공급의 균형은 중앙은행 기준 금리의 영향을 받습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.066,
+        "end": 3.158,
+        "gloss_id": "중앙1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.383,
+        "end": 3.698,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.844,
+        "end": 4.003,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.304,
+        "end": 5.271,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.662,
+        "end": 6.176,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.669,
+        "end": 6.773,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.931,
+        "end": 7.03,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.19,
+        "end": 7.571,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.88,
+        "end": 8.053,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.326,
+        "end": 8.633,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.867,
+        "end": 9.411,
+        "gloss_id": "비율1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.594,
+        "end": 9.916,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.114,
+        "end": 10.332,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.383,
+        "end": 3.698,
+        "loc": "5",
+        "word": "중앙은행"
+      },
+      {
+        "start": 9.594,
+        "end": 10.337,
+        "loc": "8,9",
+        "word": "영향을 받습니다."
+      },
+      {
+        "start": 3.844,
+        "end": 6.195,
+        "loc": "6,7",
+        "word": "기준 금리의"
+      },
+      {
+        "start": 6.66,
+        "end": 7.571,
+        "loc": "0,1",
+        "word": "채권 시장의"
+      },
+      {
+        "start": 7.88,
+        "end": 8.053,
+        "loc": "2",
+        "word": "수요와"
+      },
+      {
+        "start": 8.326,
+        "end": 8.633,
+        "loc": "3",
+        "word": "공급의"
+      },
+      {
+        "start": 8.867,
+        "end": 9.411,
+        "loc": "4",
+        "word": "균형은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.304,
+        "end": 5.271,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.383,
+        "end": 4.002,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.662,
+        "end": 7.03,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.19,
+        "end": 7.571,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.88,
+        "end": 8.052,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.326,
+        "end": 8.633,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.867,
+        "end": 9.411,
+        "gloss_id": "비율1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.594,
+        "end": 9.916,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 10.114,
+        "end": 10.332
+      },
+      {
+        "descriptor": "",
+        "start": 3.383,
+        "end": 3.698
+      },
+      {
+        "descriptor": "",
+        "start": 4.304,
+        "end": 5.271
+      },
+      {
+        "descriptor": "",
+        "start": 5.662,
+        "end": 6.176
+      },
+      {
+        "descriptor": "",
+        "start": 8.326,
+        "end": 8.633
+      },
+      {
+        "descriptor": "",
+        "start": 9.055,
+        "end": 9.407
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.662,
+        "end": 6.176
+      },
+      {
+        "descriptor": "",
+        "start": 8.326,
+        "end": 8.633
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 9.117,
+        "end": 9.365
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.066,
+        "end": 5.265
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336900",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:32:31",
+    "sentence_ID": "VXPAKOKS240336900",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    374,
+    126
+  ],
+  "file": "VXPAKOKS240336900.mp4",
+  "saved_as": "VXPAKOKS240336900-채권시장의수요와공급의균형은중앙은행기준금리의영향을받습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240337470",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 이자 지급 주기는 채권 발행 회사의 재정 안정성에 큰 영향을 미칩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.655,
+        "end": 2.715,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.896,
+        "end": 3.105,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.367,
+        "end": 3.707,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.959,
+        "end": 4.121,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.278,
+        "end": 4.599,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.813,
+        "end": 5.416,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.765,
+        "end": 6.246,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.506,
+        "end": 6.79,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.059,
+        "end": 7.7,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.925,
+        "end": 8.227,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.394,
+        "end": 8.621,
+        "gloss_id": "영향2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.901,
+        "end": 9.119,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.64,
+        "end": 3.702,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 3.959,
+        "end": 4.121,
+        "loc": "1",
+        "word": "이자"
+      },
+      {
+        "start": 4.278,
+        "end": 4.599,
+        "loc": "2",
+        "word": "지급"
+      },
+      {
+        "start": 4.813,
+        "end": 5.416,
+        "loc": "3",
+        "word": "주기는"
+      },
+      {
+        "start": 5.765,
+        "end": 6.246,
+        "loc": "4,5,6",
+        "word": "채권 발행 회사의"
+      },
+      {
+        "start": 6.506,
+        "end": 6.79,
+        "loc": "7",
+        "word": "재정"
+      },
+      {
+        "start": 7.059,
+        "end": 7.7,
+        "loc": "8",
+        "word": "안정성에"
+      },
+      {
+        "start": 7.925,
+        "end": 8.227,
+        "loc": "9",
+        "word": "큰"
+      },
+      {
+        "start": 8.394,
+        "end": 9.119,
+        "loc": "10,11",
+        "word": "영향을 미칩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.367,
+        "end": 3.707,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.813,
+        "end": 5.416,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.765,
+        "end": 6.246,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.506,
+        "end": 6.79,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.059,
+        "end": 8.217,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.394,
+        "end": 8.621,
+        "gloss_id": "영향2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.901,
+        "end": 9.119
+      },
+      {
+        "descriptor": "",
+        "start": 4.926,
+        "end": 5.416
+      },
+      {
+        "descriptor": "",
+        "start": 5.897,
+        "end": 6.246
+      },
+      {
+        "descriptor": "",
+        "start": 7.219,
+        "end": 7.7
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.959,
+        "end": 5.408
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337470",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:38:53",
+    "sentence_ID": "VXPAKOKS240337470",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    338,
+    126
+  ],
+  "file": "VXPAKOKS240337470.mp4",
+  "saved_as": "VXPAKOKS240337470-채권의이자지급주기는채권발행회사의재정안정성에큰영향을미칩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

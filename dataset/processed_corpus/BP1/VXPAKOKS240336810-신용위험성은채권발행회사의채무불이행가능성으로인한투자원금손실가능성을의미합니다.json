@@ -1,0 +1,371 @@
+{
+  "id": "VXPAKOKS240336810",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "신용 위험성은 채권 발행 회사의 채무 불이행 가능성으로 인한 투자 원금 손실 가능성을 의미합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.511,
+        "end": 2.891,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.186,
+        "end": 3.327,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.605,
+        "end": 4.071,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.296,
+        "end": 4.762,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.843,
+        "end": 4.937,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.108,
+        "end": 5.394,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.62,
+        "end": 6.316,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.697,
+        "end": 7.06,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.337,
+        "end": 7.64,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.918,
+        "end": 8.315,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.593,
+        "end": 8.896,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.003,
+        "end": 9.11,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.37,
+        "end": 9.673,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.934,
+        "end": 10.263,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.511,
+        "end": 2.891,
+        "loc": "0",
+        "word": "신용"
+      },
+      {
+        "start": 3.186,
+        "end": 4.768,
+        "loc": "1",
+        "word": "위험성은"
+      },
+      {
+        "start": 4.831,
+        "end": 6.316,
+        "loc": "2,3,4",
+        "word": "채권 발행 회사의"
+      },
+      {
+        "start": 6.697,
+        "end": 7.06,
+        "loc": "5",
+        "word": "채무"
+      },
+      {
+        "start": 7.337,
+        "end": 7.64,
+        "loc": "6,7",
+        "word": "불이행 가능성으로"
+      },
+      {
+        "start": 7.918,
+        "end": 8.315,
+        "loc": "8",
+        "word": "인한"
+      },
+      {
+        "start": 8.593,
+        "end": 8.896,
+        "loc": "9",
+        "word": "투자"
+      },
+      {
+        "start": 9.003,
+        "end": 9.11,
+        "loc": "10",
+        "word": "원금"
+      },
+      {
+        "start": 9.37,
+        "end": 9.673,
+        "loc": "11,12",
+        "word": "손실 가능성을"
+      },
+      {
+        "start": 9.934,
+        "end": 10.263,
+        "loc": "13",
+        "word": "의미합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.511,
+        "end": 3.327,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.605,
+        "end": 4.071,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.62,
+        "end": 6.315,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.697,
+        "end": 7.06,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.337,
+        "end": 7.64,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.37,
+        "end": 9.673,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.934,
+        "end": 10.263,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.934,
+        "end": 10.263
+      },
+      {
+        "descriptor": "",
+        "start": 4.296,
+        "end": 4.762
+      },
+      {
+        "descriptor": "",
+        "start": 5.859,
+        "end": 6.32
+      },
+      {
+        "descriptor": "",
+        "start": 7.918,
+        "end": 8.315
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.058,
+        "end": 8.314
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.099,
+        "end": 7.571
+      },
+      {
+        "descriptor": "",
+        "start": 2.833,
+        "end": 4.449
+      },
+      {
+        "descriptor": "",
+        "start": 9.102,
+        "end": 9.673
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.62,
+        "end": 6.315
+      },
+      {
+        "descriptor": "",
+        "start": 8.399,
+        "end": 8.974
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336810",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:32:08",
+    "sentence_ID": "VXPAKOKS240336810",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    369,
+    126
+  ],
+  "file": "VXPAKOKS240336810.mp4",
+  "saved_as": "VXPAKOKS240336810-신용위험성은채권발행회사의채무불이행가능성으로인한투자원금손실가능성을의미합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,326 @@
+{
+  "id": "VXPAKOKS240330610",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "안전한 가방이나 지갑에 카드를 보관하고, 카드 사용에 문제가 있다면 카드사에 알려야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.938,
+        "end": 2.189,
+        "gloss_id": "가방1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.45,
+        "end": 3.198,
+        "gloss_id": "지갑1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.447,
+        "end": 3.605,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.902,
+        "end": 4.248,
+        "gloss_id": "넣다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.574,
+        "end": 5.065,
+        "gloss_id": "가지고다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.385,
+        "end": 5.834,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.027,
+        "end": 6.287,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.49,
+        "end": 7.187,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.43,
+        "end": 7.87,
+        "gloss_id": "이상하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.055,
+        "end": 8.238,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.375,
+        "end": 8.635,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.803,
+        "end": 9.26,
+        "gloss_id": "알려주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.45,
+        "end": 3.198,
+        "loc": "2",
+        "word": "지갑에"
+      },
+      {
+        "start": 3.447,
+        "end": 3.605,
+        "loc": "3",
+        "word": "카드를"
+      },
+      {
+        "start": 3.902,
+        "end": 5.061,
+        "loc": "4",
+        "word": "보관하고,"
+      },
+      {
+        "start": 1.938,
+        "end": 2.189,
+        "loc": "1",
+        "word": "가방이나"
+      },
+      {
+        "start": 5.385,
+        "end": 5.834,
+        "loc": "0",
+        "word": "안전한"
+      },
+      {
+        "start": 6.027,
+        "end": 6.287,
+        "loc": "5",
+        "word": "카드"
+      },
+      {
+        "start": 6.49,
+        "end": 7.187,
+        "loc": "6",
+        "word": "사용에"
+      },
+      {
+        "start": 7.43,
+        "end": 7.87,
+        "loc": "7,8",
+        "word": "문제가 있다면"
+      },
+      {
+        "start": 8.055,
+        "end": 8.623,
+        "loc": "9",
+        "word": "카드사에"
+      },
+      {
+        "start": 8.803,
+        "end": 9.26,
+        "loc": "10,11",
+        "word": "알려야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 5.385,
+        "end": 5.834,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.49,
+        "end": 7.871,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.375,
+        "end": 8.635,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.45,
+        "end": 3.198,
+        "gloss_id": "지갑1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.902,
+        "end": 4.248,
+        "gloss_id": "넣다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.117,
+        "end": 9.351
+      },
+      {
+        "descriptor": "",
+        "start": 1.938,
+        "end": 2.198
+      },
+      {
+        "descriptor": "",
+        "start": 2.74,
+        "end": 3.223
+      },
+      {
+        "descriptor": "",
+        "start": 4.718,
+        "end": 5.072
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.861,
+        "end": 7.866
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.718,
+        "end": 5.013
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 4.779,
+        "end": 5.065
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.027,
+        "end": 6.68
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330610",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:33:11",
+    "sentence_ID": "VXPAKOKS240330610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    308,
+    126
+  ],
+  "file": "VXPAKOKS240330610.mp4",
+  "saved_as": "VXPAKOKS240330610-안전한가방이나지갑에카드를보관하고,카드사용에문제가있다면카드사에알려야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

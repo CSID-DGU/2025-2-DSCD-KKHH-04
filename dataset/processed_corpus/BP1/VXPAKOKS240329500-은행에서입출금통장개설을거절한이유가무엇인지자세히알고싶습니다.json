@@ -1,0 +1,200 @@
+{
+  "id": "VXPAKOKS240329500",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 입출금 통장 개설을 거절한 이유가 무엇인지 자세히 알고 싶습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.959,
+        "end": 2.162,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.534,
+        "end": 2.623,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.891,
+        "end": 3.119,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.324,
+        "end": 3.69,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.047,
+        "end": 4.25,
+        "gloss_id": "불가1",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.588,
+        "end": 4.875,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.959,
+        "end": 2.162,
+        "loc": "0",
+        "word": "은행에서"
+      },
+      {
+        "start": 2.534,
+        "end": 3.696,
+        "loc": "1,2,3",
+        "word": "입출금 통장 개설을"
+      },
+      {
+        "start": 4.047,
+        "end": 4.858,
+        "loc": "4,5,6,7,8,9",
+        "word": "거절한 이유가 무엇인지 자세히 알고 싶습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.959,
+        "end": 2.162,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.534,
+        "end": 2.623,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.891,
+        "end": 3.119,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.324,
+        "end": 3.69,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.588,
+        "end": 4.875
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.047,
+        "end": 4.25
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.047,
+        "end": 4.25
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.959,
+        "end": 2.162
+      },
+      {
+        "descriptor": "",
+        "start": 4.588,
+        "end": 4.875
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329500",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:27:02",
+    "sentence_ID": "VXPAKOKS240329500",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    178,
+    126
+  ],
+  "file": "VXPAKOKS240329500.mp4",
+  "saved_as": "VXPAKOKS240329500-은행에서입출금통장개설을거절한이유가무엇인지자세히알고싶습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

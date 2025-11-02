@@ -1,0 +1,245 @@
+{
+  "id": "VXPAKOKS240329740",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 점검 전에 공지하고 있으니, 인터넷 뱅킹 이용 전에 은행에 확인하십시오.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.506,
+        "end": 1.673,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.79,
+        "end": 2.157,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.351,
+        "end": 2.599,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.859,
+        "end": 3.321,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.566,
+        "end": 3.696,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.894,
+        "end": 4.209,
+        "gloss_id": "발표1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.537,
+        "end": 4.966,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.506,
+        "end": 2.153,
+        "loc": "5,6,7,8",
+        "word": "인터넷 뱅킹 이용 전에"
+      },
+      {
+        "start": 4.537,
+        "end": 4.966,
+        "loc": "9,10",
+        "word": "은행에 확인하십시오."
+      },
+      {
+        "start": 3.894,
+        "end": 4.209,
+        "loc": "3,4",
+        "word": "공지하고 있으니,"
+      },
+      {
+        "start": 3.566,
+        "end": 3.696,
+        "loc": "0",
+        "word": "은행에서"
+      },
+      {
+        "start": 2.859,
+        "end": 3.321,
+        "loc": "2",
+        "word": "전에"
+      },
+      {
+        "start": 2.351,
+        "end": 2.599,
+        "loc": "1",
+        "word": "점검"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.506,
+        "end": 1.673,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.79,
+        "end": 2.157,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.859,
+        "end": 3.321,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.566,
+        "end": 3.696,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.894,
+        "end": 4.209,
+        "gloss_id": "발표1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.79,
+        "end": 2.157
+      },
+      {
+        "descriptor": "",
+        "start": 2.859,
+        "end": 3.321
+      },
+      {
+        "descriptor": "",
+        "start": 3.894,
+        "end": 4.209
+      },
+      {
+        "descriptor": "",
+        "start": 4.537,
+        "end": 4.966
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.351,
+        "end": 2.599
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.506,
+        "end": 2.157
+      },
+      {
+        "descriptor": "",
+        "start": 2.859,
+        "end": 3.321
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329740",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:29:03",
+    "sentence_ID": "VXPAKOKS240329740",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    171,
+    126
+  ],
+  "file": "VXPAKOKS240329740.mp4",
+  "saved_as": "VXPAKOKS240329740-은행에서점검전에공지하고있으니,인터넷뱅킹이용전에은행에확인하십시오.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

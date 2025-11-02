@@ -1,0 +1,266 @@
+{
+  "id": "VXPAKOKS240352200",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "서울 은행의 적금 가입 한도는 최소 10만 원이야.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.234,
+        "end": 1.412,
+        "gloss_id": "서울1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.639,
+        "end": 1.936,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.133,
+        "end": 2.243,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.406,
+        "end": 2.703,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.896,
+        "end": 3.094,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.211,
+        "end": 3.301,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.453,
+        "end": 3.706,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.932,
+        "end": 4.214,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.424,
+        "end": 4.702,
+        "gloss_id": "100000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.234,
+        "end": 1.412,
+        "loc": "0",
+        "word": "서울"
+      },
+      {
+        "start": 1.639,
+        "end": 1.936,
+        "loc": "1",
+        "word": "은행의"
+      },
+      {
+        "start": 2.133,
+        "end": 2.693,
+        "loc": "2",
+        "word": "적금"
+      },
+      {
+        "start": 2.896,
+        "end": 3.094,
+        "loc": "3",
+        "word": "가입"
+      },
+      {
+        "start": 3.211,
+        "end": 3.706,
+        "loc": "4",
+        "word": "한도는"
+      },
+      {
+        "start": 3.932,
+        "end": 4.214,
+        "loc": "5",
+        "word": "최소"
+      },
+      {
+        "start": 4.424,
+        "end": 4.702,
+        "loc": "6,7",
+        "word": "10만 원이야."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.639,
+        "end": 1.936,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.406,
+        "end": 2.703,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.896,
+        "end": 3.094,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.453,
+        "end": 3.706,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.932,
+        "end": 4.214,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.639,
+        "end": 1.936
+      },
+      {
+        "descriptor": "",
+        "start": 3.932,
+        "end": 4.214
+      },
+      {
+        "descriptor": "",
+        "start": 3.453,
+        "end": 3.706
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.932,
+        "end": 4.214
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.234,
+        "end": 1.921
+      },
+      {
+        "descriptor": "",
+        "start": 3.453,
+        "end": 3.706
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352200",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:51:20",
+    "sentence_ID": "VXPAKOKS240352200",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    178,
+    126
+  ],
+  "file": "VXPAKOKS240352200.mp4",
+  "saved_as": "VXPAKOKS240352200-서울은행의적금가입한도는최소10만원이야.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

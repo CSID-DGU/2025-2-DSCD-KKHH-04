@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240341380",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "장기적인 자산 증식을 원하는 투자자에게는 주식형 펀드가 적합합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.383,
+        "end": 1.535,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.765,
+        "end": 2.02,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.27,
+        "end": 2.756,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.102,
+        "end": 3.288,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.516,
+        "end": 3.989,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.258,
+        "end": 4.424,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.716,
+        "end": 5.025,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.351,
+        "end": 5.483,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.705,
+        "end": 6.007,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.246,
+        "end": 6.541,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.862,
+        "end": 7.266,
+        "gloss_id": "정상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.383,
+        "end": 2.019,
+        "loc": "0",
+        "word": "장기적인"
+      },
+      {
+        "start": 3.516,
+        "end": 3.989,
+        "loc": "3",
+        "word": "원하는"
+      },
+      {
+        "start": 4.258,
+        "end": 5.017,
+        "loc": "4",
+        "word": "투자자에게는"
+      },
+      {
+        "start": 5.351,
+        "end": 6.001,
+        "loc": "5",
+        "word": "주식형"
+      },
+      {
+        "start": 6.246,
+        "end": 6.541,
+        "loc": "6",
+        "word": "펀드가"
+      },
+      {
+        "start": 6.862,
+        "end": 7.266,
+        "loc": "7",
+        "word": "적합합니다."
+      },
+      {
+        "start": 2.27,
+        "end": 3.28,
+        "loc": "1,2",
+        "word": "자산 증식을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.383,
+        "end": 1.535,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.765,
+        "end": 2.02,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.716,
+        "end": 5.025,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.351,
+        "end": 5.483,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.705,
+        "end": 6.007,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.862,
+        "end": 7.266,
+        "gloss_id": "정상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.765,
+        "end": 2.02
+      },
+      {
+        "descriptor": "",
+        "start": 2.27,
+        "end": 2.756
+      },
+      {
+        "descriptor": "",
+        "start": 3.516,
+        "end": 3.989
+      },
+      {
+        "descriptor": "",
+        "start": 4.716,
+        "end": 5.025
+      },
+      {
+        "descriptor": "",
+        "start": 6.246,
+        "end": 6.541
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.383,
+        "end": 3.988
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341380",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:13:20",
+    "sentence_ID": "VXPAKOKS240341380",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240341380.mp4",
+  "saved_as": "VXPAKOKS240341380-장기적인자산증식을원하는투자자에게는주식형펀드가적합합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

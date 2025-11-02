@@ -1,0 +1,373 @@
+{
+  "id": "VXPAKOKS240335990",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "은행 직원에게 수익성이 높은 투자 방법으로 채권을 안내받았는데, 채권이 무엇입니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.099,
+        "end": 2.402,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.694,
+        "end": 2.931,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.211,
+        "end": 4.237,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.459,
+        "end": 4.553,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.666,
+        "end": 4.866,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.051,
+        "end": 5.373,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.567,
+        "end": 5.727,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.877,
+        "end": 6.461,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.633,
+        "end": 6.733,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.835,
+        "end": 6.959,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.079,
+        "end": 7.25,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.464,
+        "end": 8.058,
+        "gloss_id": "말하다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.346,
+        "end": 9.522,
+        "gloss_id": "채권",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.633,
+        "end": 9.748,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.839,
+        "end": 10.264,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.694,
+        "end": 2.931,
+        "loc": "2,3",
+        "word": "수익성이 높은"
+      },
+      {
+        "start": 2.099,
+        "end": 2.402,
+        "loc": "4",
+        "word": "투자"
+      },
+      {
+        "start": 3.211,
+        "end": 4.237,
+        "loc": "5",
+        "word": "방법으로"
+      },
+      {
+        "start": 5.877,
+        "end": 6.461,
+        "loc": "7",
+        "word": "안내받았는데,"
+      },
+      {
+        "start": 6.633,
+        "end": 6.733,
+        "loc": "0",
+        "word": "은행"
+      },
+      {
+        "start": 6.835,
+        "end": 8.057,
+        "loc": "1",
+        "word": "직원에게"
+      },
+      {
+        "start": 8.346,
+        "end": 9.747,
+        "loc": "8",
+        "word": "채권이"
+      },
+      {
+        "start": 9.839,
+        "end": 10.264,
+        "loc": "9",
+        "word": "무엇입니까?"
+      },
+      {
+        "start": 4.459,
+        "end": 5.717,
+        "loc": "6",
+        "word": "채권을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.211,
+        "end": 4.868,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.051,
+        "end": 5.725,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.877,
+        "end": 6.461,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.633,
+        "end": 6.729,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.835,
+        "end": 6.959,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.079,
+        "end": 7.249,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "채권",
+        "start": 8.346,
+        "end": 9.522
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.839,
+        "end": 10.264
+      },
+      {
+        "descriptor": "",
+        "start": 2.099,
+        "end": 2.402
+      },
+      {
+        "descriptor": "",
+        "start": 3.366,
+        "end": 3.93
+      },
+      {
+        "descriptor": "",
+        "start": 7.675,
+        "end": 8.059
+      },
+      {
+        "descriptor": "",
+        "start": 5.877,
+        "end": 6.461
+      },
+      {
+        "descriptor": "",
+        "start": 7.079,
+        "end": 7.25
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.675,
+        "end": 8.055
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 9.633,
+        "end": 10.255
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.099,
+        "end": 3.72
+      },
+      {
+        "descriptor": "",
+        "start": 4.966,
+        "end": 5.58
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335990",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:25:42",
+    "sentence_ID": "VXPAKOKS240335990",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    338,
+    126
+  ],
+  "file": "VXPAKOKS240335990.mp4",
+  "saved_as": "VXPAKOKS240335990-은행직원에게수익성이높은투자방법으로채권을안내받았는데,채권이무엇입니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,276 @@
+{
+  "id": "VXPAKOKS240338360",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "장기적인 투자 전략은 은행 금리 변화가 전체 채권 투자의 성과에 결정적인 역할을 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.094,
+        "end": 3.463,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.664,
+        "end": 3.814,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.002,
+        "end": 4.476,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.721,
+        "end": 5.028,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.253,
+        "end": 5.788,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.078,
+        "end": 6.464,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.701,
+        "end": 7.35,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.664,
+        "end": 7.945,
+        "gloss_id": "영향2",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.186,
+        "end": 8.405,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.664,
+        "end": 4.488,
+        "loc": "0",
+        "word": "장기적인"
+      },
+      {
+        "start": 3.094,
+        "end": 3.463,
+        "loc": "1,2",
+        "word": "투자 전략은"
+      },
+      {
+        "start": 6.078,
+        "end": 6.464,
+        "loc": "3",
+        "word": "은행"
+      },
+      {
+        "start": 4.721,
+        "end": 5.798,
+        "loc": "4",
+        "word": "금리"
+      },
+      {
+        "start": 6.701,
+        "end": 7.35,
+        "loc": "5",
+        "word": "변화가"
+      },
+      {
+        "start": 7.664,
+        "end": 8.382,
+        "loc": "6,7,8,9,10,11,12",
+        "word": "전체 채권 투자의 성과에 결정적인 역할을 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.664,
+        "end": 3.814,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.002,
+        "end": 4.476,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.078,
+        "end": 6.464,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.701,
+        "end": 7.35,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.664,
+        "end": 7.945,
+        "gloss_id": "영향2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.186,
+        "end": 8.405
+      },
+      {
+        "descriptor": "",
+        "start": 3.094,
+        "end": 3.463
+      },
+      {
+        "descriptor": "",
+        "start": 4.072,
+        "end": 4.476
+      },
+      {
+        "descriptor": "",
+        "start": 5.341,
+        "end": 5.788
+      },
+      {
+        "descriptor": "",
+        "start": 6.841,
+        "end": 7.35
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.664,
+        "end": 7.945
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.664,
+        "end": 7.945
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.002,
+        "end": 5.806
+      },
+      {
+        "descriptor": "",
+        "start": 6.701,
+        "end": 7.35
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338360",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:59",
+    "sentence_ID": "VXPAKOKS240338360",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    315,
+    126
+  ],
+  "file": "VXPAKOKS240338360.mp4",
+  "saved_as": "VXPAKOKS240338360-장기적인투자전략은은행금리변화가전체채권투자의성과에결정적인역할을합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

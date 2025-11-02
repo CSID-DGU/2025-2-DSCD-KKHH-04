@@ -1,0 +1,350 @@
+{
+  "id": "VXPAKOKS240335940",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "국제 환율이 자주 오르내리면 주식 시장이 흔들리게 되고, 사람들이 주식을 빨리 팔고 싶어 한다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.176,
+        "end": 2.364,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.542,
+        "end": 3.176,
+        "gloss_id": "달러1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.387,
+        "end": 3.693,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.908,
+        "end": 4.13,
+        "gloss_id": "심하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.491,
+        "end": 4.696,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.892,
+        "end": 5.038,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.352,
+        "end": 5.809,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.127,
+        "end": 6.239,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.459,
+        "end": 6.917,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.327,
+        "end": 7.473,
+        "gloss_id": "빨리1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.697,
+        "end": 7.835,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.061,
+        "end": 8.266,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.176,
+        "end": 2.364,
+        "loc": "0",
+        "word": "국제"
+      },
+      {
+        "start": 2.542,
+        "end": 3.176,
+        "loc": "1",
+        "word": "환율이"
+      },
+      {
+        "start": 3.387,
+        "end": 4.694,
+        "loc": "2,3",
+        "word": "자주 오르내리면"
+      },
+      {
+        "start": 4.892,
+        "end": 5.038,
+        "loc": "4,5",
+        "word": "주식 시장이"
+      },
+      {
+        "start": 5.352,
+        "end": 5.809,
+        "loc": "6,7",
+        "word": "흔들리게 되고,"
+      },
+      {
+        "start": 6.127,
+        "end": 6.929,
+        "loc": "8",
+        "word": "사람들이"
+      },
+      {
+        "start": 7.327,
+        "end": 7.852,
+        "loc": "9,10,11",
+        "word": "주식을 빨리 팔고"
+      },
+      {
+        "start": 8.061,
+        "end": 8.266,
+        "loc": "12,13",
+        "word": "싶어 한다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.176,
+        "end": 2.364,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.387,
+        "end": 3.693,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.491,
+        "end": 4.696,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.892,
+        "end": 5.038,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.459,
+        "end": 6.917,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.697,
+        "end": 7.835,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.127,
+        "end": 6.239,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.061,
+        "end": 8.266
+      },
+      {
+        "descriptor": "",
+        "start": 4.55,
+        "end": 4.696
+      },
+      {
+        "descriptor": "",
+        "start": 5.352,
+        "end": 5.809
+      },
+      {
+        "descriptor": "",
+        "start": 6.711,
+        "end": 6.917
+      },
+      {
+        "descriptor": "",
+        "start": 3.908,
+        "end": 4.13
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.55,
+        "end": 4.696
+      },
+      {
+        "descriptor": "",
+        "start": 6.72,
+        "end": 6.917
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.387,
+        "end": 4.114
+      },
+      {
+        "descriptor": "",
+        "start": 6.459,
+        "end": 8.255
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.061,
+        "end": 8.266
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.176,
+        "end": 3.18
+      },
+      {
+        "descriptor": "",
+        "start": 4.892,
+        "end": 5.787
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335940",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:46:06",
+    "sentence_ID": "VXPAKOKS240335940",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    303,
+    126
+  ],
+  "file": "VXPAKOKS240335940.mp4",
+  "saved_as": "VXPAKOKS240335940-국제환율이자주오르내리면주식시장이흔들리게되고,사람들이주식을빨리팔고싶어한다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

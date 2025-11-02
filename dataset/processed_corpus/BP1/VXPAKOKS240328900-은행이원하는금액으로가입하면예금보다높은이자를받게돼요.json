@@ -1,0 +1,257 @@
+{
+  "id": "VXPAKOKS240328900",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "은행이 원하는 금액으로 가입하면 예금보다 높은 이자를 받게 돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.081,
+        "end": 2.47,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.748,
+        "end": 2.953,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.208,
+        "end": 3.659,
+        "gloss_id": "광고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.947,
+        "end": 4.515,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.736,
+        "end": 4.816,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.002,
+        "end": 5.348,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.526,
+        "end": 5.706,
+        "gloss_id": "낫다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.967,
+        "end": 6.086,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.275,
+        "end": 6.535,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.081,
+        "end": 2.47,
+        "loc": "0",
+        "word": "은행이"
+      },
+      {
+        "start": 3.947,
+        "end": 4.515,
+        "loc": "3",
+        "word": "가입하면"
+      },
+      {
+        "start": 4.736,
+        "end": 5.688,
+        "loc": "4",
+        "word": "예금보다"
+      },
+      {
+        "start": 5.967,
+        "end": 6.086,
+        "loc": "6,7,8",
+        "word": "이자를 받게 돼요."
+      },
+      {
+        "start": 6.275,
+        "end": 6.535,
+        "loc": "5",
+        "word": "높은"
+      },
+      {
+        "start": 2.748,
+        "end": 3.666,
+        "loc": "1,2",
+        "word": "원하는 금액으로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.081,
+        "end": 2.962,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.208,
+        "end": 3.659,
+        "gloss_id": "광고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.947,
+        "end": 4.515,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.002,
+        "end": 5.704,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.081,
+        "end": 2.47
+      },
+      {
+        "descriptor": "",
+        "start": 5.002,
+        "end": 5.348
+      },
+      {
+        "descriptor": "",
+        "start": 6.275,
+        "end": 6.535
+      },
+      {
+        "descriptor": "",
+        "start": 4.299,
+        "end": 4.516
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.526,
+        "end": 6.518
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.081,
+        "end": 2.47
+      },
+      {
+        "descriptor": "",
+        "start": 3.947,
+        "end": 5.345
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328900",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:39:07",
+    "sentence_ID": "VXPAKOKS240328900",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    221,
+    126
+  ],
+  "file": "VXPAKOKS240328900.mp4",
+  "saved_as": "VXPAKOKS240328900-은행이원하는금액으로가입하면예금보다높은이자를받게돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

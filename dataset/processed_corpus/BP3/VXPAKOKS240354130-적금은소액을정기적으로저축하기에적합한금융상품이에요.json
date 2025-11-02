@@ -1,0 +1,317 @@
+{
+  "id": "VXPAKOKS240354130",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "적금은 소액을 정기적으로 저축하기에 적합한 금융 상품이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.66,
+        "end": 1.816,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.99,
+        "end": 2.6,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.836,
+        "end": 2.952,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.18,
+        "end": 3.923,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.41,
+        "end": 4.714,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.919,
+        "end": 5.239,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.428,
+        "end": 6.39,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.596,
+        "end": 6.783,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.972,
+        "end": 7.378,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.622,
+        "end": 7.7,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.865,
+        "end": 8.13,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.66,
+        "end": 2.599,
+        "loc": "0",
+        "word": "적금은"
+      },
+      {
+        "start": 2.836,
+        "end": 3.931,
+        "loc": "1",
+        "word": "소액을"
+      },
+      {
+        "start": 4.41,
+        "end": 5.239,
+        "loc": "2",
+        "word": "정기적으로"
+      },
+      {
+        "start": 5.428,
+        "end": 6.782,
+        "loc": "3",
+        "word": "저축하기에"
+      },
+      {
+        "start": 6.972,
+        "end": 7.378,
+        "loc": "4",
+        "word": "적합한"
+      },
+      {
+        "start": 7.622,
+        "end": 7.7,
+        "loc": "5",
+        "word": "금융"
+      },
+      {
+        "start": 7.865,
+        "end": 8.114,
+        "loc": "6",
+        "word": "상품이에요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.99,
+        "end": 2.6,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.41,
+        "end": 4.714,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.919,
+        "end": 5.239,
+        "gloss_id": "정기적2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.428,
+        "end": 6.789,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.972,
+        "end": 7.378,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.622,
+        "end": 7.7,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.865,
+        "end": 8.114,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.99,
+        "end": 2.6
+      },
+      {
+        "descriptor": "",
+        "start": 3.18,
+        "end": 3.923
+      },
+      {
+        "descriptor": "",
+        "start": 6.078,
+        "end": 6.39
+      },
+      {
+        "descriptor": "",
+        "start": 6.972,
+        "end": 7.378
+      },
+      {
+        "descriptor": "",
+        "start": 4.919,
+        "end": 5.239
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.18,
+        "end": 3.923
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.99,
+        "end": 2.6
+      },
+      {
+        "descriptor": "",
+        "start": 3.18,
+        "end": 3.923
+      },
+      {
+        "descriptor": "",
+        "start": 4.919,
+        "end": 6.375
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354130",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:12:02",
+    "sentence_ID": "VXPAKOKS240354130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    282,
+    126
+  ],
+  "file": "VXPAKOKS240354130.mp4",
+  "saved_as": "VXPAKOKS240354130-적금은소액을정기적으로저축하기에적합한금융상품이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

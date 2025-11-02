@@ -1,0 +1,268 @@
+{
+  "id": "VXPAKOKS240334040",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "연체 기록이 있으면 신용도에 영향을 미치기 때문에 대출 금리가 올라갈 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.053,
+        "end": 3.247,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.525,
+        "end": 3.786,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.036,
+        "end": 4.404,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.799,
+        "end": 5.019,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.384,
+        "end": 5.884,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.193,
+        "end": 6.544,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.778,
+        "end": 7.023,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.221,
+        "end": 7.49,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.685,
+        "end": 8.177,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.391,
+        "end": 8.652,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.778,
+        "end": 7.023,
+        "loc": "7",
+        "word": "대출"
+      },
+      {
+        "start": 7.221,
+        "end": 7.49,
+        "loc": "8",
+        "word": "금리가"
+      },
+      {
+        "start": 7.685,
+        "end": 8.177,
+        "loc": "9",
+        "word": "올라갈"
+      },
+      {
+        "start": 8.391,
+        "end": 8.652,
+        "loc": "10,11",
+        "word": "수 있어."
+      },
+      {
+        "start": 3.053,
+        "end": 4.402,
+        "loc": "0,1,2",
+        "word": "연체 기록이 있으면"
+      },
+      {
+        "start": 4.799,
+        "end": 5.877,
+        "loc": "3",
+        "word": "신용도에"
+      },
+      {
+        "start": 6.193,
+        "end": 6.544,
+        "loc": "4,5,6",
+        "word": "영향을 미치기 때문에"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.525,
+        "end": 4.412,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.799,
+        "end": 5.019,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.193,
+        "end": 6.544
+      },
+      {
+        "descriptor": "",
+        "start": 8.391,
+        "end": 8.652
+      },
+      {
+        "descriptor": "",
+        "start": 4.036,
+        "end": 4.404
+      },
+      {
+        "descriptor": "",
+        "start": 5.384,
+        "end": 5.884
+      },
+      {
+        "descriptor": "",
+        "start": 7.866,
+        "end": 8.177
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.036,
+        "end": 4.404
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.799,
+        "end": 6.553
+      },
+      {
+        "descriptor": "",
+        "start": 7.685,
+        "end": 8.177
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.028,
+        "end": 4.377
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334040",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:29",
+    "sentence_ID": "VXPAKOKS240334040",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    297,
+    126
+  ],
+  "file": "VXPAKOKS240334040.mp4",
+  "saved_as": "VXPAKOKS240334040-연체기록이있으면신용도에영향을미치기때문에대출금리가올라갈수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

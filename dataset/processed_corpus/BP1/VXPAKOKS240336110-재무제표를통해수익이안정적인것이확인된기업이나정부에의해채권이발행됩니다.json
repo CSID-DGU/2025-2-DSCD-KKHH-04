@@ -1,0 +1,311 @@
+{
+  "id": "VXPAKOKS240336110",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "재무제표를 통해 수익이 안정적인 것이 확인된 기업이나 정부에 의해 채권이 발행됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.989,
+        "end": 2.33,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.534,
+        "end": 3.082,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.377,
+        "end": 3.734,
+        "gloss_id": "회계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.972,
+        "end": 4.258,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.599,
+        "end": 4.845,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.068,
+        "end": 5.301,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.513,
+        "end": 6.164,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.333,
+        "end": 6.428,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.625,
+        "end": 6.744,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.975,
+        "end": 7.332,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.499,
+        "end": 7.896,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.326,
+        "end": 7.332,
+        "loc": "9",
+        "word": "채권이"
+      },
+      {
+        "start": 7.499,
+        "end": 7.896,
+        "loc": "10",
+        "word": "발행됩니다."
+      },
+      {
+        "start": 1.989,
+        "end": 2.33,
+        "loc": "6",
+        "word": "기업이나"
+      },
+      {
+        "start": 2.534,
+        "end": 3.082,
+        "loc": "7,8",
+        "word": "정부에 의해"
+      },
+      {
+        "start": 3.377,
+        "end": 3.734,
+        "loc": "0",
+        "word": "재무제표를"
+      },
+      {
+        "start": 3.972,
+        "end": 4.258,
+        "loc": "1",
+        "word": "통해"
+      },
+      {
+        "start": 5.513,
+        "end": 6.164,
+        "loc": "5",
+        "word": "확인된"
+      },
+      {
+        "start": 4.599,
+        "end": 4.845,
+        "loc": "2",
+        "word": "수익이"
+      },
+      {
+        "start": 5.068,
+        "end": 5.301,
+        "loc": "3,4",
+        "word": "안정적인 것이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.989,
+        "end": 2.33,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.534,
+        "end": 3.082,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.377,
+        "end": 4.258,
+        "gloss_id": "회계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.599,
+        "end": 4.845,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.068,
+        "end": 5.298,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.975,
+        "end": 7.332,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.618,
+        "end": 7.896
+      },
+      {
+        "descriptor": "",
+        "start": 1.989,
+        "end": 2.33
+      },
+      {
+        "descriptor": "",
+        "start": 3.972,
+        "end": 4.258
+      },
+      {
+        "descriptor": "",
+        "start": 5.666,
+        "end": 6.162
+      },
+      {
+        "descriptor": "",
+        "start": 6.975,
+        "end": 7.332
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.515,
+        "end": 7.896
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.379,
+        "end": 6.151
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336110",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:35",
+    "sentence_ID": "VXPAKOKS240336110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240336110.mp4",
+  "saved_as": "VXPAKOKS240336110-재무제표를통해수익이안정적인것이확인된기업이나정부에의해채권이발행됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

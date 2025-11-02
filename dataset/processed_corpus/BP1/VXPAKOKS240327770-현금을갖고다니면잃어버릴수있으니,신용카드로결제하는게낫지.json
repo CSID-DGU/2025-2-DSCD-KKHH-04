@@ -1,0 +1,239 @@
+{
+  "id": "VXPAKOKS240327770",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "현금을 갖고 다니면 잃어버릴 수 있으니, 신용카드로 결제하는 게 낫지.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.39,
+        "end": 1.541,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.719,
+        "end": 1.875,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.092,
+        "end": 2.577,
+        "gloss_id": "낫다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.754,
+        "end": 2.844,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.137,
+        "end": 3.47,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.701,
+        "end": 4.206,
+        "gloss_id": "가지고다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.423,
+        "end": 4.6,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.827,
+        "end": 5.216,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.754,
+        "end": 3.476,
+        "loc": "0",
+        "word": "현금을"
+      },
+      {
+        "start": 3.701,
+        "end": 4.206,
+        "loc": "1,2",
+        "word": "갖고 다니면"
+      },
+      {
+        "start": 4.423,
+        "end": 5.217,
+        "loc": "3,4,5",
+        "word": "잃어버릴 수 있으니,"
+      },
+      {
+        "start": 1.39,
+        "end": 1.875,
+        "loc": "6,7,8",
+        "word": "신용카드로 결제하는 게"
+      },
+      {
+        "start": 2.092,
+        "end": 2.577,
+        "loc": "9",
+        "word": "낫지."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.39,
+        "end": 1.541,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.137,
+        "end": 3.47,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.827,
+        "end": 5.216,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.719,
+        "end": 1.875
+      },
+      {
+        "descriptor": "",
+        "start": 2.092,
+        "end": 2.577
+      },
+      {
+        "descriptor": "",
+        "start": 3.137,
+        "end": 3.47
+      },
+      {
+        "descriptor": "",
+        "start": 4.827,
+        "end": 5.216
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.423,
+        "end": 4.6
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.092,
+        "end": 2.577
+      },
+      {
+        "descriptor": "",
+        "start": 3.701,
+        "end": 5.227
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.137,
+        "end": 3.47
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327770",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:22:05",
+    "sentence_ID": "VXPAKOKS240327770",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    182,
+    126
+  ],
+  "file": "VXPAKOKS240327770.mp4",
+  "saved_as": "VXPAKOKS240327770-현금을갖고다니면잃어버릴수있으니,신용카드로결제하는게낫지.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

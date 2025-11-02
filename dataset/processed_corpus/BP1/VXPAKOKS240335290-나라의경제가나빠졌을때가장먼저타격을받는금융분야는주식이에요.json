@@ -1,0 +1,252 @@
+{
+  "id": "VXPAKOKS240335290",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "나라의 경제가 나빠졌을 때 가장 먼저 타격을 받는 금융 분야는 주식이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.403,
+        "end": 2.537,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.703,
+        "end": 2.942,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.228,
+        "end": 3.629,
+        "gloss_id": "감소2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.034,
+        "end": 4.311,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.549,
+        "end": 4.733,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.956,
+        "end": 5.252,
+        "gloss_id": "번째:1번째",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.542,
+        "end": 5.893,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.403,
+        "end": 2.537,
+        "loc": "0",
+        "word": "나라의"
+      },
+      {
+        "start": 2.703,
+        "end": 2.942,
+        "loc": "1",
+        "word": "경제가"
+      },
+      {
+        "start": 3.228,
+        "end": 3.629,
+        "loc": "2,3",
+        "word": "나빠졌을 때"
+      },
+      {
+        "start": 4.034,
+        "end": 4.311,
+        "loc": "6,7",
+        "word": "타격을 받는"
+      },
+      {
+        "start": 4.549,
+        "end": 4.733,
+        "loc": "4",
+        "word": "가장"
+      },
+      {
+        "start": 4.956,
+        "end": 5.252,
+        "loc": "5",
+        "word": "먼저"
+      },
+      {
+        "start": 5.542,
+        "end": 5.893,
+        "loc": "8,9,10",
+        "word": "금융 분야는 주식이에요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.403,
+        "end": 2.538,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.703,
+        "end": 2.942,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.034,
+        "end": 4.311,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.956,
+        "end": 5.252,
+        "gloss_id": "번째:1번째",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.542,
+        "end": 5.893,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.228,
+        "end": 3.629
+      },
+      {
+        "descriptor": "",
+        "start": 4.956,
+        "end": 5.252
+      },
+      {
+        "descriptor": "",
+        "start": 5.542,
+        "end": 5.893
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.391,
+        "end": 3.631
+      },
+      {
+        "descriptor": "",
+        "start": 4.549,
+        "end": 4.733
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.703,
+        "end": 3.617
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.403,
+        "end": 5.275
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335290",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:35:32",
+    "sentence_ID": "VXPAKOKS240335290",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    223,
+    126
+  ],
+  "file": "VXPAKOKS240335290.mp4",
+  "saved_as": "VXPAKOKS240335290-나라의경제가나빠졌을때가장먼저타격을받는금융분야는주식이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

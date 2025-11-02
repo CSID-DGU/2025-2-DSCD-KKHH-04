@@ -1,0 +1,304 @@
+{
+  "id": "VXPAKOKS240341610",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "주식뿐만 아니라 채권, 부동산에 펀드를 투자함으로써 투자금 손실 위험을 낮출 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.35,
+        "end": 1.513,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.852,
+        "end": 2.226,
+        "gloss_id": "오직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.382,
+        "end": 2.63,
+        "gloss_id": "아니다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.757,
+        "end": 2.854,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.938,
+        "end": 3.134,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.308,
+        "end": 3.94,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.341,
+        "end": 4.841,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.214,
+        "end": 5.661,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.929,
+        "end": 6.211,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.392,
+        "end": 6.614,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.766,
+        "end": 7.014,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.35,
+        "end": 2.228,
+        "loc": "0",
+        "word": "주식뿐만"
+      },
+      {
+        "start": 2.382,
+        "end": 2.63,
+        "loc": "1",
+        "word": "아니라"
+      },
+      {
+        "start": 2.757,
+        "end": 3.933,
+        "loc": "2",
+        "word": "채권,"
+      },
+      {
+        "start": 4.341,
+        "end": 4.841,
+        "loc": "3",
+        "word": "부동산에"
+      },
+      {
+        "start": 5.214,
+        "end": 5.661,
+        "loc": "4,5",
+        "word": "펀드를 투자함으로써"
+      },
+      {
+        "start": 5.929,
+        "end": 6.211,
+        "loc": "6,7",
+        "word": "투자금 손실"
+      },
+      {
+        "start": 6.392,
+        "end": 6.614,
+        "loc": "8,9",
+        "word": "위험을 낮출"
+      },
+      {
+        "start": 6.766,
+        "end": 7.014,
+        "loc": "10,11",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.35,
+        "end": 1.513,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.308,
+        "end": 3.94,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.341,
+        "end": 4.841,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.929,
+        "end": 6.211,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.214,
+        "end": 5.661
+      },
+      {
+        "descriptor": "",
+        "start": 1.852,
+        "end": 2.226
+      },
+      {
+        "descriptor": "",
+        "start": 3.308,
+        "end": 3.94
+      },
+      {
+        "descriptor": "",
+        "start": 4.341,
+        "end": 4.841
+      },
+      {
+        "descriptor": "",
+        "start": 2.382,
+        "end": 2.63
+      },
+      {
+        "descriptor": "",
+        "start": 6.392,
+        "end": 6.614
+      },
+      {
+        "descriptor": "",
+        "start": 6.766,
+        "end": 7.014
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.766,
+        "end": 7.014
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.214,
+        "end": 5.661
+      },
+      {
+        "descriptor": "",
+        "start": 1.35,
+        "end": 2.201
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341610",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:14:53",
+    "sentence_ID": "VXPAKOKS240341610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    238,
+    126
+  ],
+  "file": "VXPAKOKS240341610.mp4",
+  "saved_as": "VXPAKOKS240341610-주식뿐만아니라채권,부동산에펀드를투자함으로써투자금손실위험을낮출수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

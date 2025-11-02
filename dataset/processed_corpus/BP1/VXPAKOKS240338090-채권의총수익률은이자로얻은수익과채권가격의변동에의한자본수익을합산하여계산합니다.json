@@ -1,0 +1,309 @@
+{
+  "id": "VXPAKOKS240338090",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 총수익률은 이자로 얻은 수익과 채권 가격의 변동에 의한 자본 수익을 합산하여 계산합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.985,
+        "end": 2.076,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.241,
+        "end": 2.459,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.616,
+        "end": 3.134,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.354,
+        "end": 3.563,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.752,
+        "end": 4.597,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.862,
+        "end": 5.271,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.617,
+        "end": 6.071,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.432,
+        "end": 6.614,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.857,
+        "end": 7.402,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.616,
+        "end": 7.97,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.176,
+        "end": 8.603,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.354,
+        "end": 3.563,
+        "loc": "2",
+        "word": "이자로"
+      },
+      {
+        "start": 3.752,
+        "end": 4.597,
+        "loc": "3",
+        "word": "얻은"
+      },
+      {
+        "start": 4.862,
+        "end": 5.271,
+        "loc": "4",
+        "word": "수익과"
+      },
+      {
+        "start": 5.617,
+        "end": 6.071,
+        "loc": "5,6,7",
+        "word": "채권 가격의 변동에"
+      },
+      {
+        "start": 6.432,
+        "end": 6.614,
+        "loc": "8",
+        "word": "의한"
+      },
+      {
+        "start": 1.985,
+        "end": 3.121,
+        "loc": "0,1",
+        "word": "채권의 총수익률은"
+      },
+      {
+        "start": 7.616,
+        "end": 7.97,
+        "loc": "12",
+        "word": "계산합니다."
+      },
+      {
+        "start": 6.857,
+        "end": 7.402,
+        "loc": "11",
+        "word": "합산하여"
+      },
+      {
+        "start": 8.176,
+        "end": 8.603,
+        "loc": "9,10",
+        "word": "자본 수익을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.616,
+        "end": 3.134,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.617,
+        "end": 6.071,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.432,
+        "end": 6.614,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.857,
+        "end": 7.402,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.616,
+        "end": 7.97,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.001,
+        "end": 4.583
+      },
+      {
+        "descriptor": "",
+        "start": 4.862,
+        "end": 5.271
+      },
+      {
+        "descriptor": "",
+        "start": 8.176,
+        "end": 8.603
+      },
+      {
+        "descriptor": "",
+        "start": 2.725,
+        "end": 3.134
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.001,
+        "end": 4.583
+      },
+      {
+        "descriptor": "",
+        "start": 6.432,
+        "end": 6.614
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.617,
+        "end": 6.635
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.961,
+        "end": 4.597
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338090",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:42",
+    "sentence_ID": "VXPAKOKS240338090",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    327,
+    126
+  ],
+  "file": "VXPAKOKS240338090.mp4",
+  "saved_as": "VXPAKOKS240338090-채권의총수익률은이자로얻은수익과채권가격의변동에의한자본수익을합산하여계산합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

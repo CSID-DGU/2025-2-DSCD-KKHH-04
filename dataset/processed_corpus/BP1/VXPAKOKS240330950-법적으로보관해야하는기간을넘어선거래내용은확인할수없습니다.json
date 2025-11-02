@@ -1,0 +1,337 @@
+{
+  "id": "VXPAKOKS240330950",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "법적으로 보관해야 하는 기간을 넘어선 거래 내용은 확인할 수 없습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.959,
+        "end": 2.327,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.567,
+        "end": 2.88,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.158,
+        "end": 3.394,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.671,
+        "end": 4.225,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.597,
+        "end": 4.778,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.939,
+        "end": 5.175,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.39,
+        "end": 5.525,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.817,
+        "end": 6.535,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.883,
+        "end": 7.227,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.49,
+        "end": 7.858,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.073,
+        "end": 8.324,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.959,
+        "end": 2.887,
+        "loc": "5,6",
+        "word": "거래 내용은"
+      },
+      {
+        "start": 4.939,
+        "end": 6.552,
+        "loc": "3",
+        "word": "기간을"
+      },
+      {
+        "start": 6.882,
+        "end": 7.234,
+        "loc": "4",
+        "word": "넘어선"
+      },
+      {
+        "start": 7.49,
+        "end": 7.858,
+        "loc": "7",
+        "word": "확인할"
+      },
+      {
+        "start": 8.073,
+        "end": 8.324,
+        "loc": "8,9",
+        "word": "수 없습니다."
+      },
+      {
+        "start": 4.597,
+        "end": 4.778,
+        "loc": "0",
+        "word": "법적으로"
+      },
+      {
+        "start": 3.158,
+        "end": 4.211,
+        "loc": "1,2",
+        "word": "보관해야 하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.671,
+        "end": 4.225,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.597,
+        "end": 4.778,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.939,
+        "end": 5.175,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.39,
+        "end": 5.525,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.817,
+        "end": 6.535,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.883,
+        "end": 7.227,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.567,
+        "end": 2.88
+      },
+      {
+        "descriptor": "",
+        "start": 3.671,
+        "end": 4.225
+      },
+      {
+        "descriptor": "",
+        "start": 4.597,
+        "end": 4.778
+      },
+      {
+        "descriptor": "",
+        "start": 5.39,
+        "end": 5.525
+      },
+      {
+        "descriptor": "",
+        "start": 5.817,
+        "end": 6.535
+      },
+      {
+        "descriptor": "",
+        "start": 6.883,
+        "end": 7.227
+      },
+      {
+        "descriptor": "",
+        "start": 8.073,
+        "end": 8.324
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.723,
+        "end": 2.88
+      },
+      {
+        "descriptor": "",
+        "start": 6.883,
+        "end": 7.227
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 7.49,
+        "end": 7.858
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.817,
+        "end": 6.535
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 3.671,
+        "end": 4.225
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.567,
+        "end": 2.88
+      },
+      {
+        "descriptor": "",
+        "start": 6.883,
+        "end": 7.227
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330950",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:01:55",
+    "sentence_ID": "VXPAKOKS240330950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    280,
+    126
+  ],
+  "file": "VXPAKOKS240330950.mp4",
+  "saved_as": "VXPAKOKS240330950-법적으로보관해야하는기간을넘어선거래내용은확인할수없습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

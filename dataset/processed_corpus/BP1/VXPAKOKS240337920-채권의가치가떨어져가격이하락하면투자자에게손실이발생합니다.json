@@ -1,0 +1,257 @@
+{
+  "id": "VXPAKOKS240337920",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 가치가 떨어져 가격이 하락하면 투자자에게 손실이 발생합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.929,
+        "end": 2.033,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.202,
+        "end": 2.535,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.764,
+        "end": 3.415,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.895,
+        "end": 4.204,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.492,
+        "end": 5.032,
+        "gloss_id": "감소2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.301,
+        "end": 5.546,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.719,
+        "end": 6.107,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.349,
+        "end": 6.586,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.838,
+        "end": 6.987,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.929,
+        "end": 3.412,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 3.895,
+        "end": 4.204,
+        "loc": "1",
+        "word": "가치가"
+      },
+      {
+        "start": 5.301,
+        "end": 6.112,
+        "loc": "5",
+        "word": "투자자에게"
+      },
+      {
+        "start": 4.492,
+        "end": 5.032,
+        "loc": "2,3,4",
+        "word": "떨어져 가격이 하락하면"
+      },
+      {
+        "start": 6.349,
+        "end": 6.586,
+        "loc": "6",
+        "word": "손실이"
+      },
+      {
+        "start": 6.838,
+        "end": 6.987,
+        "loc": "7",
+        "word": "발생합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.764,
+        "end": 3.415,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.895,
+        "end": 4.204,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.719,
+        "end": 6.107,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.349,
+        "end": 6.586,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.868,
+        "end": 3.415
+      },
+      {
+        "descriptor": "",
+        "start": 4.513,
+        "end": 5.032
+      },
+      {
+        "descriptor": "",
+        "start": 6.838,
+        "end": 6.987
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.895,
+        "end": 5.033
+      },
+      {
+        "descriptor": "",
+        "start": 6.349,
+        "end": 6.961
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.929,
+        "end": 3.42
+      },
+      {
+        "descriptor": "",
+        "start": 5.301,
+        "end": 5.546
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337920",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:40:49",
+    "sentence_ID": "VXPAKOKS240337920",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    287,
+    126
+  ],
+  "file": "VXPAKOKS240337920.mp4",
+  "saved_as": "VXPAKOKS240337920-채권의가치가떨어져가격이하락하면투자자에게손실이발생합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

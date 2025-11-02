@@ -1,0 +1,238 @@
+{
+  "id": "VXPAKOKS240333980",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "신용도가 낮은 개인은 더 높은 금리로 자동차 대출을 받을 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.385,
+        "end": 2.548,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.801,
+        "end": 2.936,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.206,
+        "end": 3.527,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.839,
+        "end": 4.132,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.526,
+        "end": 4.826,
+        "gloss_id": "비싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.169,
+        "end": 5.311,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.564,
+        "end": 5.781,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.021,
+        "end": 6.252,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.385,
+        "end": 2.927,
+        "loc": "0",
+        "word": "신용도가"
+      },
+      {
+        "start": 3.206,
+        "end": 3.527,
+        "loc": "1",
+        "word": "낮은"
+      },
+      {
+        "start": 5.169,
+        "end": 5.311,
+        "loc": "6",
+        "word": "자동차"
+      },
+      {
+        "start": 5.564,
+        "end": 5.781,
+        "loc": "7,8",
+        "word": "대출을 받을"
+      },
+      {
+        "start": 6.021,
+        "end": 6.252,
+        "loc": "9,10",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 4.526,
+        "end": 4.826,
+        "loc": "2,3,4",
+        "word": "개인은 더 높은"
+      },
+      {
+        "start": 3.839,
+        "end": 4.132,
+        "loc": "5",
+        "word": "금리로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.385,
+        "end": 2.548,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.169,
+        "end": 5.311,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.206,
+        "end": 3.527
+      },
+      {
+        "descriptor": "",
+        "start": 4.526,
+        "end": 4.826
+      },
+      {
+        "descriptor": "",
+        "start": 5.564,
+        "end": 5.781
+      },
+      {
+        "descriptor": "",
+        "start": 6.021,
+        "end": 6.252
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.021,
+        "end": 6.252
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.801,
+        "end": 4.864
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.801,
+        "end": 4.086
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333980",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:21",
+    "sentence_ID": "VXPAKOKS240333980",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    248,
+    126
+  ],
+  "file": "VXPAKOKS240333980.mp4",
+  "saved_as": "VXPAKOKS240333980-신용도가낮은개인은더높은금리로자동차대출을받을수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

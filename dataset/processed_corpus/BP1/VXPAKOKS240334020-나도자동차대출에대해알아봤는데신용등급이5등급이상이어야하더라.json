@@ -1,0 +1,253 @@
+{
+  "id": "VXPAKOKS240334020",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "나도 자동차 대출에 대해 알아봤는데 신용등급이 5등급 이상이어야 하더라.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.56,
+        "end": 2.756,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.035,
+        "end": 3.33,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.595,
+        "end": 3.751,
+        "gloss_id": "지식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.947,
+        "end": 4.765,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.974,
+        "end": 5.177,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.472,
+        "end": 5.609,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.787,
+        "end": 5.899,
+        "gloss_id": "5",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.16,
+        "end": 6.383,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.672,
+        "end": 7.0,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.974,
+        "end": 5.607,
+        "loc": "5",
+        "word": "신용등급이"
+      },
+      {
+        "start": 2.56,
+        "end": 2.756,
+        "loc": "1",
+        "word": "자동차"
+      },
+      {
+        "start": 3.035,
+        "end": 3.746,
+        "loc": "2,3",
+        "word": "대출에 대해"
+      },
+      {
+        "start": 3.947,
+        "end": 4.765,
+        "loc": "0,4",
+        "word": "나도 알아봤는데"
+      },
+      {
+        "start": 5.787,
+        "end": 5.899,
+        "loc": "6",
+        "word": "5등급"
+      },
+      {
+        "start": 6.16,
+        "end": 6.998,
+        "loc": "7,8",
+        "word": "이상이어야 하더라."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.56,
+        "end": 2.756,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.947,
+        "end": 4.765,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.974,
+        "end": 5.177,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.672,
+        "end": 7.0,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "오",
+        "start": 5.787,
+        "end": 5.899
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.092,
+        "end": 4.758
+      },
+      {
+        "descriptor": "",
+        "start": 6.16,
+        "end": 6.383
+      },
+      {
+        "descriptor": "",
+        "start": 6.672,
+        "end": 7.0
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.954,
+        "end": 7.003
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.56,
+        "end": 4.752
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334020",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:25",
+    "sentence_ID": "VXPAKOKS240334020",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    238,
+    126
+  ],
+  "file": "VXPAKOKS240334020.mp4",
+  "saved_as": "VXPAKOKS240334020-나도자동차대출에대해알아봤는데신용등급이5등급이상이어야하더라.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,318 @@
+{
+  "id": "VXPAKOKS240351020",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "적금 만기가 다가오면 그동안 모은 돈을 어떻게 사용할지 생각해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.374,
+        "end": 1.488,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.614,
+        "end": 1.903,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.163,
+        "end": 2.554,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.837,
+        "end": 3.457,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.723,
+        "end": 3.825,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.989,
+        "end": 4.38,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.591,
+        "end": 5.103,
+        "gloss_id": "증가9",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.446,
+        "end": 5.585,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.844,
+        "end": 6.133,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.262,
+        "end": 6.352,
+        "gloss_id": "무엇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.64,
+        "end": 6.771,
+        "gloss_id": "생각2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.958,
+        "end": 7.169,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.374,
+        "end": 1.9,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.163,
+        "end": 2.554,
+        "loc": "1",
+        "word": "만기가"
+      },
+      {
+        "start": 2.837,
+        "end": 3.457,
+        "loc": "2",
+        "word": "다가오면"
+      },
+      {
+        "start": 3.723,
+        "end": 5.162,
+        "loc": "3,4,5",
+        "word": "그동안 모은 돈을"
+      },
+      {
+        "start": 5.446,
+        "end": 6.149,
+        "loc": "7",
+        "word": "사용할지"
+      },
+      {
+        "start": 6.64,
+        "end": 6.771,
+        "loc": "8",
+        "word": "생각해야"
+      },
+      {
+        "start": 6.958,
+        "end": 7.169,
+        "loc": "9",
+        "word": "해요."
+      },
+      {
+        "start": 6.262,
+        "end": 6.352,
+        "loc": "6",
+        "word": "어떻게"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.614,
+        "end": 1.903,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.163,
+        "end": 2.554,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.837,
+        "end": 3.457,
+        "gloss_id": "가깝다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.989,
+        "end": 4.38,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.844,
+        "end": 6.776,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.958,
+        "end": 7.169,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.591,
+        "end": 5.58,
+        "gloss_id": "증가9",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.163,
+        "end": 2.554
+      },
+      {
+        "descriptor": "",
+        "start": 6.64,
+        "end": 6.771
+      },
+      {
+        "descriptor": "",
+        "start": 6.958,
+        "end": 7.169
+      },
+      {
+        "descriptor": "",
+        "start": 2.837,
+        "end": 3.457
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.989,
+        "end": 7.228
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.163,
+        "end": 3.595
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351020",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:42:26",
+    "sentence_ID": "VXPAKOKS240351020",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    260,
+    126
+  ],
+  "file": "VXPAKOKS240351020.mp4",
+  "saved_as": "VXPAKOKS240351020-적금만기가다가오면그동안모은돈을어떻게사용할지생각해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

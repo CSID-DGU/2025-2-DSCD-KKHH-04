@@ -1,0 +1,240 @@
+{
+  "id": "VXPAKOKS240341160",
+  "opertor": "label26",
+  "krlgg_sntenc": {
+    "koreanText": "신흥 국가의 경제가 좋으면 높은 펀드 수익을 받을 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.262,
+        "end": 1.468,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.569,
+        "end": 1.913,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.294,
+        "end": 2.684,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.904,
+        "end": 3.308,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.528,
+        "end": 3.702,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.84,
+        "end": 4.166,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.358,
+        "end": 4.551,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.262,
+        "end": 1.468,
+        "loc": "0,1",
+        "word": "신흥 국가의"
+      },
+      {
+        "start": 1.569,
+        "end": 1.913,
+        "loc": "2",
+        "word": "경제가"
+      },
+      {
+        "start": 2.294,
+        "end": 2.684,
+        "loc": "3",
+        "word": "좋으면"
+      },
+      {
+        "start": 3.528,
+        "end": 3.702,
+        "loc": "6",
+        "word": "수익을"
+      },
+      {
+        "start": 2.904,
+        "end": 3.308,
+        "loc": "5",
+        "word": "펀드"
+      },
+      {
+        "start": 3.84,
+        "end": 4.166,
+        "loc": "4",
+        "word": "높은"
+      },
+      {
+        "start": 4.358,
+        "end": 4.551,
+        "loc": "7,8,9",
+        "word": "받을 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.262,
+        "end": 1.468,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.569,
+        "end": 1.913,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.294,
+        "end": 2.684,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.569,
+        "end": 1.913
+      },
+      {
+        "descriptor": "",
+        "start": 2.294,
+        "end": 2.684
+      },
+      {
+        "descriptor": "",
+        "start": 2.904,
+        "end": 3.308
+      },
+      {
+        "descriptor": "",
+        "start": 4.358,
+        "end": 4.551
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.294,
+        "end": 2.372
+      },
+      {
+        "descriptor": "",
+        "start": 2.422,
+        "end": 2.683
+      },
+      {
+        "descriptor": "",
+        "start": 4.358,
+        "end": 4.551
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.262,
+        "end": 2.674
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341160",
+  "potogrf": {
+    "createdTime": "2024-10-28 04:53:21",
+    "sentence_ID": "VXPAKOKS240341160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    165,
+    126
+  ],
+  "file": "VXPAKOKS240341160.mp4",
+  "saved_as": "VXPAKOKS240341160-신흥국가의경제가좋으면높은펀드수익을받을수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

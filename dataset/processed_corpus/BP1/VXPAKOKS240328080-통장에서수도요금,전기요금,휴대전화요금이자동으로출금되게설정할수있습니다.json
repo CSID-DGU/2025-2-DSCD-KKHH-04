@@ -1,0 +1,304 @@
+{
+  "id": "VXPAKOKS240328080",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "통장에서 수도 요금, 전기요금, 휴대전화 요금이 자동으로 출금되게 설정할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.499,
+        "end": 1.788,
+        "gloss_id": "물2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.999,
+        "end": 2.51,
+        "gloss_id": "전기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.773,
+        "end": 3.074,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.166,
+        "end": 3.557,
+        "gloss_id": "요금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.766,
+        "end": 3.934,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.933,
+        "end": 5.089,
+        "gloss_id": "자연1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.199,
+        "end": 5.44,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.633,
+        "end": 5.946,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.099,
+        "end": 6.472,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.233,
+        "end": 4.691,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.499,
+        "end": 1.782,
+        "loc": "1,2",
+        "word": "수도 요금,"
+      },
+      {
+        "start": 1.999,
+        "end": 2.51,
+        "loc": "3",
+        "word": "전기요금,"
+      },
+      {
+        "start": 2.773,
+        "end": 3.074,
+        "loc": "4",
+        "word": "휴대전화"
+      },
+      {
+        "start": 3.166,
+        "end": 3.557,
+        "loc": "5",
+        "word": "요금이"
+      },
+      {
+        "start": 4.933,
+        "end": 5.089,
+        "loc": "6",
+        "word": "자동으로"
+      },
+      {
+        "start": 5.199,
+        "end": 5.44,
+        "loc": "7",
+        "word": "출금되게"
+      },
+      {
+        "start": 5.633,
+        "end": 5.946,
+        "loc": "8",
+        "word": "설정할"
+      },
+      {
+        "start": 6.099,
+        "end": 6.472,
+        "loc": "9,10",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 3.766,
+        "end": 4.687,
+        "loc": "0",
+        "word": "통장에서"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.999,
+        "end": 2.504,
+        "gloss_id": "전기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.233,
+        "end": 4.691,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.766,
+        "end": 3.934,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.933,
+        "end": 5.089,
+        "gloss_id": "자연1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.199,
+        "end": 5.44,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.633,
+        "end": 5.946,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.773,
+        "end": 3.074,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.999,
+        "end": 2.498
+      },
+      {
+        "descriptor": "",
+        "start": 1.499,
+        "end": 1.788
+      },
+      {
+        "descriptor": "",
+        "start": 4.233,
+        "end": 4.691
+      },
+      {
+        "descriptor": "",
+        "start": 6.099,
+        "end": 6.472
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.099,
+        "end": 6.472
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.233,
+        "end": 4.691
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328080",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:05:45",
+    "sentence_ID": "VXPAKOKS240328080",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    217,
+    126
+  ],
+  "file": "VXPAKOKS240328080.mp4",
+  "saved_as": "VXPAKOKS240328080-통장에서수도요금,전기요금,휴대전화요금이자동으로출금되게설정할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

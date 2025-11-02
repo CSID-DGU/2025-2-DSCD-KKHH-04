@@ -1,0 +1,352 @@
+{
+  "id": "VXPAKOKS240337490",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권의 유동성은 투자자가 자금이 필요할 때 빠르게 자산을 현금화할 수 있는 능력과 같습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.864,
+        "end": 1.931,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.14,
+        "end": 2.274,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.485,
+        "end": 3.016,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.226,
+        "end": 5.346,
+        "gloss_id": "유동성",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.547,
+        "end": 5.754,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.98,
+        "end": 6.145,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.481,
+        "end": 6.97,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.228,
+        "end": 7.592,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.879,
+        "end": 8.212,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.36,
+        "end": 8.473,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.714,
+        "end": 9.151,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.321,
+        "end": 9.643,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.896,
+        "end": 10.124,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.296,
+        "end": 10.639,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.847,
+        "end": 3.008,
+        "loc": "0",
+        "word": "채권의"
+      },
+      {
+        "start": 3.226,
+        "end": 5.764,
+        "loc": "1",
+        "word": "유동성은"
+      },
+      {
+        "start": 5.98,
+        "end": 6.145,
+        "loc": "2,3",
+        "word": "투자자가 자금이"
+      },
+      {
+        "start": 6.481,
+        "end": 6.97,
+        "loc": "4,5",
+        "word": "필요할 때"
+      },
+      {
+        "start": 7.879,
+        "end": 10.637,
+        "loc": "8,9,10,11,12",
+        "word": "현금화할 수 있는 능력과 같습니다."
+      },
+      {
+        "start": 7.228,
+        "end": 7.592,
+        "loc": "7",
+        "word": "자산을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.485,
+        "end": 3.016,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.481,
+        "end": 6.97,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.228,
+        "end": 7.592,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.879,
+        "end": 8.212,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.714,
+        "end": 9.151,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.321,
+        "end": 9.643,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.296,
+        "end": 10.639,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 10.296,
+        "end": 10.639
+      },
+      {
+        "descriptor": "",
+        "start": 2.485,
+        "end": 3.016
+      },
+      {
+        "descriptor": "",
+        "start": 4.725,
+        "end": 5.329
+      },
+      {
+        "descriptor": "",
+        "start": 5.547,
+        "end": 5.754
+      },
+      {
+        "descriptor": "",
+        "start": 6.481,
+        "end": 6.97
+      },
+      {
+        "descriptor": "",
+        "start": 7.879,
+        "end": 8.212
+      },
+      {
+        "descriptor": "",
+        "start": 8.714,
+        "end": 9.151
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.896,
+        "end": 10.124
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.98,
+        "end": 6.939
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.485,
+        "end": 3.016
+      },
+      {
+        "descriptor": "",
+        "start": 7.228,
+        "end": 8.188
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337490",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:38:57",
+    "sentence_ID": "VXPAKOKS240337490",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    376,
+    126
+  ],
+  "file": "VXPAKOKS240337490.mp4",
+  "saved_as": "VXPAKOKS240337490-채권의유동성은투자자가자금이필요할때빠르게자산을현금화할수있는능력과같습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

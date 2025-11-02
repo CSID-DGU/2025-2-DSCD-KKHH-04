@@ -1,0 +1,218 @@
+{
+  "id": "VXPAKOKS240341390",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "주식형 펀드는 시장의 발전에 따라 투자자에게 높은 수익률을 제공합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.437,
+        "end": 1.599,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.795,
+        "end": 1.976,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.181,
+        "end": 2.637,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.985,
+        "end": 3.301,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.679,
+        "end": 4.092,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.269,
+        "end": 4.445,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.649,
+        "end": 4.922,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.437,
+        "end": 1.961,
+        "loc": "0",
+        "word": "주식형"
+      },
+      {
+        "start": 2.181,
+        "end": 2.637,
+        "loc": "1",
+        "word": "펀드는"
+      },
+      {
+        "start": 4.269,
+        "end": 4.445,
+        "loc": "7,8",
+        "word": "수익률을 제공합니다."
+      },
+      {
+        "start": 4.649,
+        "end": 4.922,
+        "loc": "6",
+        "word": "높은"
+      },
+      {
+        "start": 2.985,
+        "end": 4.108,
+        "loc": "2,3,4,5",
+        "word": "시장의 발전에 따라 투자자에게"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.437,
+        "end": 1.599,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.795,
+        "end": 1.976,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.679,
+        "end": 4.092,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.181,
+        "end": 2.637
+      },
+      {
+        "descriptor": "",
+        "start": 3.679,
+        "end": 4.092
+      },
+      {
+        "descriptor": "",
+        "start": 4.649,
+        "end": 4.922
+      },
+      {
+        "descriptor": "",
+        "start": 1.795,
+        "end": 1.976
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.845,
+        "end": 4.092
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.447,
+        "end": 4.088
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341390",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:13:24",
+    "sentence_ID": "VXPAKOKS240341390",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    174,
+    126
+  ],
+  "file": "VXPAKOKS240341390.mp4",
+  "saved_as": "VXPAKOKS240341390-주식형펀드는시장의발전에따라투자자에게높은수익률을제공합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

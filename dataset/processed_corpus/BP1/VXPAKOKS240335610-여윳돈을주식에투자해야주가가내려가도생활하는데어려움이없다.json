@@ -1,0 +1,311 @@
+{
+  "id": "VXPAKOKS240335610",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "여윳돈을 주식에 투자해야 주가가 내려가도 생활하는 데 어려움이 없다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.08,
+        "end": 2.425,
+        "gloss_id": "충분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.641,
+        "end": 2.932,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.175,
+        "end": 3.388,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.611,
+        "end": 4.157,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.441,
+        "end": 4.592,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.849,
+        "end": 5.349,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.61,
+        "end": 5.847,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.034,
+        "end": 6.294,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.481,
+        "end": 6.679,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.874,
+        "end": 7.141,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.08,
+        "end": 2.913,
+        "loc": "0",
+        "word": "여윳돈을"
+      },
+      {
+        "start": 3.175,
+        "end": 3.388,
+        "loc": "1",
+        "word": "주식에"
+      },
+      {
+        "start": 3.611,
+        "end": 4.157,
+        "loc": "2",
+        "word": "투자해야"
+      },
+      {
+        "start": 4.441,
+        "end": 4.592,
+        "loc": "3",
+        "word": "주가가"
+      },
+      {
+        "start": 4.849,
+        "end": 5.829,
+        "loc": "4",
+        "word": "내려가도"
+      },
+      {
+        "start": 6.034,
+        "end": 6.294,
+        "loc": "5,6",
+        "word": "생활하는 데"
+      },
+      {
+        "start": 6.481,
+        "end": 6.679,
+        "loc": "7",
+        "word": "어려움이"
+      },
+      {
+        "start": 6.874,
+        "end": 7.141,
+        "loc": "8",
+        "word": "없다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.175,
+        "end": 3.388,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.441,
+        "end": 4.592,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.849,
+        "end": 5.837,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.034,
+        "end": 6.294,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.481,
+        "end": 6.679,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.874,
+        "end": 7.141
+      },
+      {
+        "descriptor": "",
+        "start": 2.641,
+        "end": 2.932
+      },
+      {
+        "descriptor": "",
+        "start": 3.831,
+        "end": 4.153
+      },
+      {
+        "descriptor": "",
+        "start": 4.849,
+        "end": 5.349
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.831,
+        "end": 4.16
+      },
+      {
+        "descriptor": "",
+        "start": 4.996,
+        "end": 5.349
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 6.034,
+        "end": 6.681
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.508,
+        "end": 5.349
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.448,
+        "end": 7.141
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 2.08,
+        "end": 2.905
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.08,
+        "end": 2.913
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335610",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:23",
+    "sentence_ID": "VXPAKOKS240335610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    279,
+    126
+  ],
+  "file": "VXPAKOKS240335610.mp4",
+  "saved_as": "VXPAKOKS240335610-여윳돈을주식에투자해야주가가내려가도생활하는데어려움이없다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,311 @@
+{
+  "id": "VXPAKOKS240331730",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드 분실 신고 후에 카드를 찾았다면, 신고한 걸 취소할 수 있나?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.921,
+        "end": 2.048,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.155,
+        "end": 2.428,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.622,
+        "end": 3.122,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.28,
+        "end": 3.889,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.054,
+        "end": 5.087,
+        "gloss_id": "발견1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.245,
+        "end": 5.745,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.939,
+        "end": 6.161,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 6.341,
+        "end": 6.841,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.991,
+        "end": 7.264,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.466,
+        "end": 7.893,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.921,
+        "end": 2.42,
+        "loc": "0",
+        "word": "현금카드"
+      },
+      {
+        "start": 2.622,
+        "end": 3.122,
+        "loc": "1",
+        "word": "분실"
+      },
+      {
+        "start": 3.28,
+        "end": 3.889,
+        "loc": "2,3",
+        "word": "신고 후에"
+      },
+      {
+        "start": 4.054,
+        "end": 5.087,
+        "loc": "4,5",
+        "word": "카드를 찾았다면,"
+      },
+      {
+        "start": 5.245,
+        "end": 6.833,
+        "loc": "6,7",
+        "word": "신고한 걸"
+      },
+      {
+        "start": 6.991,
+        "end": 7.264,
+        "loc": "8",
+        "word": "취소할"
+      },
+      {
+        "start": 7.466,
+        "end": 7.893,
+        "loc": "9,10",
+        "word": "수 있나?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.054,
+        "end": 5.086,
+        "gloss_id": "발견1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.939,
+        "end": 6.833,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.991,
+        "end": 7.264,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.147,
+        "end": 2.412
+      },
+      {
+        "descriptor": "",
+        "start": 4.054,
+        "end": 5.086
+      },
+      {
+        "descriptor": "",
+        "start": 6.341,
+        "end": 6.841
+      },
+      {
+        "descriptor": "",
+        "start": 7.466,
+        "end": 7.893
+      },
+      {
+        "descriptor": "",
+        "start": 2.852,
+        "end": 3.085
+      },
+      {
+        "descriptor": "",
+        "start": 3.623,
+        "end": 3.888
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.852,
+        "end": 3.085
+      },
+      {
+        "descriptor": "",
+        "start": 6.582,
+        "end": 6.84
+      },
+      {
+        "descriptor": "",
+        "start": 7.466,
+        "end": 7.893
+      },
+      {
+        "descriptor": "",
+        "start": 3.623,
+        "end": 3.888
+      },
+      {
+        "descriptor": "",
+        "start": 4.42,
+        "end": 5.087
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.622,
+        "end": 3.122
+      },
+      {
+        "descriptor": "",
+        "start": 5.245,
+        "end": 6.833
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.921,
+        "end": 2.405
+      },
+      {
+        "descriptor": "",
+        "start": 3.28,
+        "end": 3.888
+      },
+      {
+        "descriptor": "",
+        "start": 7.087,
+        "end": 7.87
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331730",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:14:32",
+    "sentence_ID": "VXPAKOKS240331730",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    263,
+    126
+  ],
+  "file": "VXPAKOKS240331730.mp4",
+  "saved_as": "VXPAKOKS240331730-현금카드분실신고후에카드를찾았다면,신고한걸취소할수있나.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

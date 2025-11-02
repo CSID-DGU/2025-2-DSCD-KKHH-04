@@ -1,0 +1,284 @@
+{
+  "id": "VXPAKOKS240331430",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드는 은행 계좌와 연결되어 현금 인출이나 결제에 사용할 수 있는 카드에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.96,
+        "end": 2.177,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.304,
+        "end": 2.817,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.021,
+        "end": 3.389,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.732,
+        "end": 3.817,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.193,
+        "end": 4.437,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.662,
+        "end": 5.149,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.305,
+        "end": 5.502,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.674,
+        "end": 6.148,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.378,
+        "end": 6.733,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.944,
+        "end": 7.135,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.96,
+        "end": 3.401,
+        "loc": "0",
+        "word": "현금카드는"
+      },
+      {
+        "start": 3.732,
+        "end": 3.817,
+        "loc": "1",
+        "word": "은행"
+      },
+      {
+        "start": 4.193,
+        "end": 4.437,
+        "loc": "2",
+        "word": "계좌와"
+      },
+      {
+        "start": 4.662,
+        "end": 5.149,
+        "loc": "3",
+        "word": "연결되어"
+      },
+      {
+        "start": 5.305,
+        "end": 5.502,
+        "loc": "4",
+        "word": "현금"
+      },
+      {
+        "start": 5.674,
+        "end": 6.148,
+        "loc": "5,6",
+        "word": "인출이나 결제에"
+      },
+      {
+        "start": 6.378,
+        "end": 6.733,
+        "loc": "10",
+        "word": "카드에요."
+      },
+      {
+        "start": 6.944,
+        "end": 7.135,
+        "loc": "7,8,9",
+        "word": "사용할 수 있는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.732,
+        "end": 3.817,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.193,
+        "end": 4.437,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.662,
+        "end": 5.149,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.674,
+        "end": 6.148,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.304,
+        "end": 2.817
+      },
+      {
+        "descriptor": "",
+        "start": 3.021,
+        "end": 3.389
+      },
+      {
+        "descriptor": "",
+        "start": 4.662,
+        "end": 5.149
+      },
+      {
+        "descriptor": "",
+        "start": 5.674,
+        "end": 6.148
+      },
+      {
+        "descriptor": "",
+        "start": 6.944,
+        "end": 7.135
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.944,
+        "end": 7.135
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.304,
+        "end": 3.409
+      },
+      {
+        "descriptor": "",
+        "start": 4.662,
+        "end": 5.149
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331430",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:10:18",
+    "sentence_ID": "VXPAKOKS240331430",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    237,
+    126
+  ],
+  "file": "VXPAKOKS240331430.mp4",
+  "saved_as": "VXPAKOKS240331430-현금카드는은행계좌와연결되어현금인출이나결제에사용할수있는카드에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

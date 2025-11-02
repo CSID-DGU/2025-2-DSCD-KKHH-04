@@ -1,0 +1,265 @@
+{
+  "id": "VXPAKOKS240331290",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "다른 사람에게 양도할 수 없기 때문에, 가족이 이용하려면 가족카드를 추가로 발급받아야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.051,
+        "end": 2.551,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.6,
+        "end": 2.864,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.945,
+        "end": 3.209,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.335,
+        "end": 4.218,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.465,
+        "end": 4.684,
+        "gloss_id": "가족1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.817,
+        "end": 4.985,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.111,
+        "end": 5.7,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.018,
+        "end": 6.365,
+        "gloss_id": "더1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.471,
+        "end": 6.971,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.051,
+        "end": 3.203,
+        "loc": "0,1,2,3",
+        "word": "다른 사람에게 양도할 수"
+      },
+      {
+        "start": 3.335,
+        "end": 4.218,
+        "loc": "4,5",
+        "word": "없기 때문에,"
+      },
+      {
+        "start": 4.465,
+        "end": 4.684,
+        "loc": "6",
+        "word": "가족이"
+      },
+      {
+        "start": 4.817,
+        "end": 5.713,
+        "loc": "7",
+        "word": "이용하려면"
+      },
+      {
+        "start": 6.018,
+        "end": 6.365,
+        "loc": "8,9",
+        "word": "가족카드를 추가로"
+      },
+      {
+        "start": 6.471,
+        "end": 6.971,
+        "loc": "10,11",
+        "word": "발급받아야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.051,
+        "end": 2.551,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.465,
+        "end": 4.684,
+        "gloss_id": "가족1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.111,
+        "end": 5.7,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.018,
+        "end": 6.365,
+        "gloss_id": "더1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.471,
+        "end": 6.971,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.051,
+        "end": 2.551
+      },
+      {
+        "descriptor": "",
+        "start": 3.335,
+        "end": 4.218
+      },
+      {
+        "descriptor": "",
+        "start": 5.111,
+        "end": 5.7
+      },
+      {
+        "descriptor": "",
+        "start": 6.471,
+        "end": 6.971
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.945,
+        "end": 4.059
+      },
+      {
+        "descriptor": "",
+        "start": 6.596,
+        "end": 6.971
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.111,
+        "end": 5.7
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331290",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:09:07",
+    "sentence_ID": "VXPAKOKS240331290",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240331290.mp4",
+  "saved_as": "VXPAKOKS240331290-다른사람에게양도할수없기때문에,가족이이용하려면가족카드를추가로발급받아야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

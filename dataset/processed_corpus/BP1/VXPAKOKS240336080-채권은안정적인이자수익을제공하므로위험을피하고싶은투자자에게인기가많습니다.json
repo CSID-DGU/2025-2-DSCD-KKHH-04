@@ -1,0 +1,293 @@
+{
+  "id": "VXPAKOKS240336080",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권은 안정적인 이자수익을 제공하므로 위험을 피하고 싶은 투자자에게 인기가 많습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.933,
+        "end": 2.033,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.216,
+        "end": 2.408,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.624,
+        "end": 3.116,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.316,
+        "end": 3.662,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.893,
+        "end": 4.147,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.332,
+        "end": 4.624,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.878,
+        "end": 5.193,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.44,
+        "end": 5.755,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.955,
+        "end": 6.255,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.532,
+        "end": 6.716,
+        "gloss_id": "인기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.971,
+        "end": 7.232,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.949,
+        "end": 3.116,
+        "loc": "0",
+        "word": "채권은"
+      },
+      {
+        "start": 5.955,
+        "end": 6.255,
+        "loc": "4,5,6,7",
+        "word": "위험을 피하고 싶은 투자자에게"
+      },
+      {
+        "start": 6.532,
+        "end": 6.716,
+        "loc": "8",
+        "word": "인기가"
+      },
+      {
+        "start": 6.971,
+        "end": 7.232,
+        "loc": "9",
+        "word": "많습니다."
+      },
+      {
+        "start": 4.332,
+        "end": 4.624,
+        "loc": "1",
+        "word": "안정적인"
+      },
+      {
+        "start": 4.878,
+        "end": 5.762,
+        "loc": "3",
+        "word": "제공하므로"
+      },
+      {
+        "start": 3.316,
+        "end": 4.154,
+        "loc": "2",
+        "word": "이자수익을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.624,
+        "end": 4.147,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.332,
+        "end": 4.624,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.44,
+        "end": 5.755,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.971,
+        "end": 7.232,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.993,
+        "end": 5.193
+      },
+      {
+        "descriptor": "",
+        "start": 6.971,
+        "end": 7.232
+      },
+      {
+        "descriptor": "",
+        "start": 5.555,
+        "end": 5.755
+      },
+      {
+        "descriptor": "",
+        "start": 2.624,
+        "end": 3.116
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.996,
+        "end": 5.193
+      },
+      {
+        "descriptor": "",
+        "start": 6.971,
+        "end": 7.232
+      },
+      {
+        "descriptor": "",
+        "start": 5.557,
+        "end": 5.755
+      },
+      {
+        "descriptor": "",
+        "start": 3.978,
+        "end": 4.147
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.933,
+        "end": 5.146
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336080",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:26",
+    "sentence_ID": "VXPAKOKS240336080",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    277,
+    126
+  ],
+  "file": "VXPAKOKS240336080.mp4",
+  "saved_as": "VXPAKOKS240336080-채권은안정적인이자수익을제공하므로위험을피하고싶은투자자에게인기가많습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

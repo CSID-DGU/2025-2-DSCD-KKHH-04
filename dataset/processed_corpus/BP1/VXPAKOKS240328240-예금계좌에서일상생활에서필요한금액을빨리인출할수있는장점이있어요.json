@@ -1,0 +1,328 @@
+{
+  "id": "VXPAKOKS240328240",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "예금 계좌에서 일상생활에서 필요한 금액을 빨리 인출할 수 있는 장점이 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.958,
+        "end": 2.086,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.278,
+        "end": 2.83,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.082,
+        "end": 3.798,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.094,
+        "end": 4.168,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.34,
+        "end": 4.721,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.973,
+        "end": 5.458,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.829,
+        "end": 6.277,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.352,
+        "end": 6.426,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.507,
+        "end": 6.769,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.988,
+        "end": 7.488,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.612,
+        "end": 7.695,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.839,
+        "end": 8.086,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.958,
+        "end": 2.823,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 3.082,
+        "end": 3.798,
+        "loc": "1",
+        "word": "계좌에서"
+      },
+      {
+        "start": 4.094,
+        "end": 4.719,
+        "loc": "2",
+        "word": "일상생활에서"
+      },
+      {
+        "start": 4.973,
+        "end": 5.458,
+        "loc": "3",
+        "word": "필요한"
+      },
+      {
+        "start": 5.829,
+        "end": 6.277,
+        "loc": "5",
+        "word": "빨리"
+      },
+      {
+        "start": 6.988,
+        "end": 7.488,
+        "loc": "7,8",
+        "word": "수 있는"
+      },
+      {
+        "start": 7.612,
+        "end": 8.082,
+        "loc": "9,10",
+        "word": "장점이 있어요."
+      },
+      {
+        "start": 6.352,
+        "end": 6.776,
+        "loc": "4,6",
+        "word": "금액을 인출할"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.278,
+        "end": 2.83,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.082,
+        "end": 3.798,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.094,
+        "end": 4.168,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.34,
+        "end": 4.721,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.973,
+        "end": 5.458,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.829,
+        "end": 6.277,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.507,
+        "end": 6.769,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.278,
+        "end": 2.83
+      },
+      {
+        "descriptor": "",
+        "start": 3.082,
+        "end": 3.798
+      },
+      {
+        "descriptor": "",
+        "start": 4.973,
+        "end": 5.458
+      },
+      {
+        "descriptor": "",
+        "start": 6.988,
+        "end": 7.488
+      },
+      {
+        "descriptor": "",
+        "start": 7.839,
+        "end": 8.086
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.219,
+        "end": 7.488
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.278,
+        "end": 2.83
+      },
+      {
+        "descriptor": "",
+        "start": 4.973,
+        "end": 5.458
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328240",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:27:06",
+    "sentence_ID": "VXPAKOKS240328240",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    268,
+    126
+  ],
+  "file": "VXPAKOKS240328240.mp4",
+  "saved_as": "VXPAKOKS240328240-예금계좌에서일상생활에서필요한금액을빨리인출할수있는장점이있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

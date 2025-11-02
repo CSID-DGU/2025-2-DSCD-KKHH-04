@@ -1,0 +1,331 @@
+{
+  "id": "VXPAKOKS240336070",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자 시에는 만기까지 보유할 것인지, 중도에 팔 것인지 결정해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.9,
+        "end": 2.039,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.199,
+        "end": 2.392,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.626,
+        "end": 2.994,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.233,
+        "end": 3.791,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.191,
+        "end": 4.311,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.513,
+        "end": 4.698,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.842,
+        "end": 5.232,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.435,
+        "end": 6.418,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.729,
+        "end": 6.966,
+        "gloss_id": "포기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.264,
+        "end": 7.559,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.899,
+        "end": 8.355,
+        "gloss_id": "둘중하나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.604,
+        "end": 8.892,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.895,
+        "end": 2.994,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.233,
+        "end": 3.791,
+        "loc": "1,2",
+        "word": "투자 시에는"
+      },
+      {
+        "start": 4.179,
+        "end": 5.232,
+        "loc": "3",
+        "word": "만기까지"
+      },
+      {
+        "start": 5.435,
+        "end": 6.418,
+        "loc": "4,5",
+        "word": "보유할 것인지,"
+      },
+      {
+        "start": 6.729,
+        "end": 6.966,
+        "loc": "6",
+        "word": "중도에"
+      },
+      {
+        "start": 7.264,
+        "end": 8.349,
+        "loc": "7,8",
+        "word": "팔 것인지"
+      },
+      {
+        "start": 8.604,
+        "end": 8.892,
+        "loc": "9,10",
+        "word": "결정해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.626,
+        "end": 2.994,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.191,
+        "end": 4.311,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.513,
+        "end": 4.698,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.842,
+        "end": 5.232,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.435,
+        "end": 6.418,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.729,
+        "end": 6.965,
+        "gloss_id": "포기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.264,
+        "end": 7.559,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.604,
+        "end": 8.891,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.604,
+        "end": 8.892
+      },
+      {
+        "descriptor": "",
+        "start": 2.782,
+        "end": 2.994
+      },
+      {
+        "descriptor": "",
+        "start": 3.466,
+        "end": 3.794
+      },
+      {
+        "descriptor": "",
+        "start": 7.264,
+        "end": 7.559
+      },
+      {
+        "descriptor": "",
+        "start": 7.899,
+        "end": 8.355
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.264,
+        "end": 7.559
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.707,
+        "end": 6.255
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.9,
+        "end": 5.877
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336070",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:24",
+    "sentence_ID": "VXPAKOKS240336070",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    316,
+    126
+  ],
+  "file": "VXPAKOKS240336070.mp4",
+  "saved_as": "VXPAKOKS240336070-채권투자시에는만기까지보유할것인지,중도에팔것인지결정해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

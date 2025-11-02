@@ -1,0 +1,258 @@
+{
+  "id": "VXPAKOKS240351620",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 만기 시 문자메시지 알림 서비스를 받을 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.919,
+        "end": 2.06,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.256,
+        "end": 2.536,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.739,
+        "end": 2.949,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.285,
+        "end": 3.463,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.734,
+        "end": 3.896,
+        "gloss_id": "문장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.114,
+        "end": 4.324,
+        "gloss_id": "문자보내다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.542,
+        "end": 4.683,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.839,
+        "end": 5.108,
+        "gloss_id": "알려주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.324,
+        "end": 5.502,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.919,
+        "end": 2.548,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.739,
+        "end": 3.474,
+        "loc": "1,2",
+        "word": "만기 시"
+      },
+      {
+        "start": 3.734,
+        "end": 4.362,
+        "loc": "3",
+        "word": "문자메시지"
+      },
+      {
+        "start": 4.542,
+        "end": 4.683,
+        "loc": "5",
+        "word": "서비스를"
+      },
+      {
+        "start": 4.839,
+        "end": 5.108,
+        "loc": "4,6",
+        "word": "알림 받을"
+      },
+      {
+        "start": 5.324,
+        "end": 5.502,
+        "loc": "7,8",
+        "word": "수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.256,
+        "end": 2.536,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.739,
+        "end": 2.949,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.285,
+        "end": 3.463,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.734,
+        "end": 3.896,
+        "gloss_id": "문장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.114,
+        "end": 4.324,
+        "gloss_id": "문자보내다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.542,
+        "end": 4.683,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.324,
+        "end": 5.502
+      },
+      {
+        "descriptor": "",
+        "start": 3.285,
+        "end": 3.463
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.324,
+        "end": 5.502
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.739,
+        "end": 5.49
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351620",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:46:35",
+    "sentence_ID": "VXPAKOKS240351620",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    193,
+    126
+  ],
+  "file": "VXPAKOKS240351620.mp4",
+  "saved_as": "VXPAKOKS240351620-적금만기시문자메시지알림서비스를받을수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

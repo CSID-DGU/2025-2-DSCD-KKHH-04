@@ -1,0 +1,325 @@
+{
+  "id": "VXPAKOKS240337630",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "이자율이 하락할 때 장기 채권에 투자하면 단기 채권보다 높은 수익률을 기대할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.707,
+        "end": 2.962,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.184,
+        "end": 4.183,
+        "gloss_id": "감소2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.356,
+        "end": 4.465,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.564,
+        "end": 4.751,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.963,
+        "end": 5.658,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.921,
+        "end": 6.02,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.214,
+        "end": 6.411,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.566,
+        "end": 6.822,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.026,
+        "end": 7.448,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.671,
+        "end": 8.092,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.317,
+        "end": 8.641,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.825,
+        "end": 9.061,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.217,
+        "end": 9.404,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.707,
+        "end": 2.962,
+        "loc": "0",
+        "word": "이자율이"
+      },
+      {
+        "start": 3.184,
+        "end": 4.162,
+        "loc": "1,2",
+        "word": "하락할 때"
+      },
+      {
+        "start": 4.356,
+        "end": 5.658,
+        "loc": "4",
+        "word": "채권에"
+      },
+      {
+        "start": 5.921,
+        "end": 6.407,
+        "loc": "6",
+        "word": "단기"
+      },
+      {
+        "start": 6.566,
+        "end": 6.822,
+        "loc": "7",
+        "word": "채권보다"
+      },
+      {
+        "start": 7.026,
+        "end": 7.448,
+        "loc": "3",
+        "word": "장기"
+      },
+      {
+        "start": 7.671,
+        "end": 8.092,
+        "loc": "5",
+        "word": "투자하면"
+      },
+      {
+        "start": 8.825,
+        "end": 9.061,
+        "loc": "8",
+        "word": "높은"
+      },
+      {
+        "start": 8.317,
+        "end": 8.641,
+        "loc": "9",
+        "word": "수익률을"
+      },
+      {
+        "start": 9.217,
+        "end": 9.404,
+        "loc": "10,11,12",
+        "word": "기대할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.963,
+        "end": 5.658,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.921,
+        "end": 6.02,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.214,
+        "end": 6.411,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.566,
+        "end": 6.822,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.026,
+        "end": 7.448,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.217,
+        "end": 9.404
+      },
+      {
+        "descriptor": "",
+        "start": 3.184,
+        "end": 3.903
+      },
+      {
+        "descriptor": "",
+        "start": 7.671,
+        "end": 8.092
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.217,
+        "end": 9.404
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.014,
+        "end": 8.063
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.184,
+        "end": 3.886
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337630",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:34",
+    "sentence_ID": "VXPAKOKS240337630",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    352,
+    126
+  ],
+  "file": "VXPAKOKS240337630.mp4",
+  "saved_as": "VXPAKOKS240337630-이자율이하락할때장기채권에투자하면단기채권보다높은수익률을기대할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

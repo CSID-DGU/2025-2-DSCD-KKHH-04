@@ -1,0 +1,259 @@
+{
+  "id": "VXPAKOKS240335190",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "초등학교 3학년도 국내 기업의 주식을 사고팔 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.388,
+        "end": 2.527,
+        "gloss_id": "학교1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.775,
+        "end": 3.333,
+        "gloss_id": "초등삼학년2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.68,
+        "end": 3.954,
+        "gloss_id": "한국1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.102,
+        "end": 4.247,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.431,
+        "end": 4.615,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.86,
+        "end": 5.231,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.516,
+        "end": 5.758,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.017,
+        "end": 6.272,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.388,
+        "end": 2.527,
+        "loc": "0",
+        "word": "초등학교"
+      },
+      {
+        "start": 2.775,
+        "end": 3.333,
+        "loc": "1",
+        "word": "3학년도"
+      },
+      {
+        "start": 3.68,
+        "end": 3.954,
+        "loc": "2",
+        "word": "국내"
+      },
+      {
+        "start": 4.102,
+        "end": 4.247,
+        "loc": "3",
+        "word": "기업의"
+      },
+      {
+        "start": 4.431,
+        "end": 4.615,
+        "loc": "4",
+        "word": "주식을"
+      },
+      {
+        "start": 4.86,
+        "end": 6.275,
+        "loc": "5,6,7",
+        "word": "사고팔 수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.388,
+        "end": 2.527,
+        "gloss_id": "학교1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.775,
+        "end": 3.333,
+        "gloss_id": "초등삼학년2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.102,
+        "end": 4.247,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.431,
+        "end": 4.615,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.86,
+        "end": 5.231,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.516,
+        "end": 5.758,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.017,
+        "end": 6.272
+      },
+      {
+        "descriptor": "",
+        "start": 2.775,
+        "end": 3.333
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.017,
+        "end": 6.272
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.86,
+        "end": 5.231
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.775,
+        "end": 3.333
+      },
+      {
+        "descriptor": "",
+        "start": 5.516,
+        "end": 6.273
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335190",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:35:04",
+    "sentence_ID": "VXPAKOKS240335190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240335190.mp4",
+  "saved_as": "VXPAKOKS240335190-초등학교3학년도국내기업의주식을사고팔수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

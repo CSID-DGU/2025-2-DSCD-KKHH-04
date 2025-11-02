@@ -1,0 +1,227 @@
+{
+  "id": "VXPAKOKS240344780",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "예금은 100만 원 이하의 소액부터 시작해서 점차 금액을 늘려갈 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.959,
+        "end": 2.233,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.334,
+        "end": 3.883,
+        "gloss_id": "후배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.235,
+        "end": 4.417,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.681,
+        "end": 5.223,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.455,
+        "end": 6.659,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.512,
+        "end": 6.28,
+        "gloss_id": "값늘다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.959,
+        "end": 2.233,
+        "loc": "0",
+        "word": "예금은"
+      },
+      {
+        "start": 2.553,
+        "end": 3.053,
+        "loc": "1,2",
+        "word": "100만 원"
+      },
+      {
+        "start": 3.334,
+        "end": 3.883,
+        "loc": "3",
+        "word": "이하의"
+      },
+      {
+        "start": 4.235,
+        "end": 5.222,
+        "loc": "4,5",
+        "word": "소액부터 시작해서"
+      },
+      {
+        "start": 5.512,
+        "end": 6.654,
+        "loc": "6,7,8,9,10",
+        "word": "점차 금액을 늘려갈 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.553,
+        "end": 3.886,
+        "gloss_id": "1000000",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.959,
+        "end": 2.233,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.235,
+        "end": 5.222,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.512,
+        "end": 6.647,
+        "gloss_id": "값늘다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.959,
+        "end": 2.233
+      },
+      {
+        "descriptor": "",
+        "start": 3.334,
+        "end": 3.883
+      },
+      {
+        "descriptor": "",
+        "start": 4.235,
+        "end": 4.417
+      },
+      {
+        "descriptor": "",
+        "start": 6.455,
+        "end": 6.659
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.455,
+        "end": 6.659
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.959,
+        "end": 3.857
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.959,
+        "end": 3.843
+      },
+      {
+        "descriptor": "",
+        "start": 4.681,
+        "end": 5.223
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344780",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:01:57",
+    "sentence_ID": "VXPAKOKS240344780",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    254,
+    126
+  ],
+  "file": "VXPAKOKS240344780.mp4",
+  "saved_as": "VXPAKOKS240344780-예금은100만원이하의소액부터시작해서점차금액을늘려갈수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

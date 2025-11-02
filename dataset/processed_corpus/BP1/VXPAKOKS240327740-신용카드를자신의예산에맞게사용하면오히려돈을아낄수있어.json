@@ -1,0 +1,262 @@
+{
+  "id": "VXPAKOKS240327740",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드를 자신의 예산에 맞게 사용하면 오히려 돈을 아낄 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.566,
+        "end": 2.696,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.852,
+        "end": 3.031,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.133,
+        "end": 3.469,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.691,
+        "end": 4.148,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.266,
+        "end": 4.42,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.605,
+        "end": 5.346,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.466,
+        "end": 5.559,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.753,
+        "end": 5.969,
+        "gloss_id": "아끼다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.111,
+        "end": 6.469,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.566,
+        "end": 2.696,
+        "loc": "1",
+        "word": "자신의"
+      },
+      {
+        "start": 5.466,
+        "end": 5.559,
+        "loc": "6",
+        "word": "돈을"
+      },
+      {
+        "start": 5.753,
+        "end": 5.969,
+        "loc": "7",
+        "word": "아낄"
+      },
+      {
+        "start": 6.111,
+        "end": 6.469,
+        "loc": "8,9",
+        "word": "수 있어."
+      },
+      {
+        "start": 4.266,
+        "end": 4.42,
+        "loc": "0",
+        "word": "신용카드를"
+      },
+      {
+        "start": 3.691,
+        "end": 4.148,
+        "loc": "3",
+        "word": "맞게"
+      },
+      {
+        "start": 2.852,
+        "end": 3.477,
+        "loc": "2",
+        "word": "예산에"
+      },
+      {
+        "start": 4.605,
+        "end": 5.346,
+        "loc": "4,5",
+        "word": "사용하면 오히려"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.691,
+        "end": 4.148,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.266,
+        "end": 4.42,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.753,
+        "end": 5.969,
+        "gloss_id": "아끼다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.92,
+        "end": 5.34
+      },
+      {
+        "descriptor": "",
+        "start": 3.691,
+        "end": 4.148
+      },
+      {
+        "descriptor": "",
+        "start": 6.111,
+        "end": 6.469
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.111,
+        "end": 6.469
+      },
+      {
+        "descriptor": "",
+        "start": 2.852,
+        "end": 3.031
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.744,
+        "end": 5.33
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.566,
+        "end": 3.474
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327740",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:21:02",
+    "sentence_ID": "VXPAKOKS240327740",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    222,
+    126
+  ],
+  "file": "VXPAKOKS240327740.mp4",
+  "saved_as": "VXPAKOKS240327740-신용카드를자신의예산에맞게사용하면오히려돈을아낄수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

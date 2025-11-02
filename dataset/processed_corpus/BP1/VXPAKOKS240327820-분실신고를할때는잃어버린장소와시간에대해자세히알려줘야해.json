@@ -1,0 +1,245 @@
+{
+  "id": "VXPAKOKS240327820",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "분실신고를 할 때는 잃어버린 장소와 시간에 대해 자세히 알려줘야 해.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.842,
+        "end": 1.988,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.282,
+        "end": 2.806,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.15,
+        "end": 3.584,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.874,
+        "end": 4.02,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.189,
+        "end": 4.599,
+        "gloss_id": "곳1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.873,
+        "end": 5.271,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.498,
+        "end": 5.626,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.8,
+        "end": 6.336,
+        "gloss_id": "알려주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.842,
+        "end": 2.817,
+        "loc": "0,1",
+        "word": "분실신고를 할"
+      },
+      {
+        "start": 3.15,
+        "end": 3.584,
+        "loc": "2",
+        "word": "때는"
+      },
+      {
+        "start": 3.874,
+        "end": 4.02,
+        "loc": "3",
+        "word": "잃어버린"
+      },
+      {
+        "start": 4.189,
+        "end": 4.599,
+        "loc": "4",
+        "word": "장소와"
+      },
+      {
+        "start": 4.873,
+        "end": 5.271,
+        "loc": "5,6",
+        "word": "시간에 대해"
+      },
+      {
+        "start": 5.498,
+        "end": 5.626,
+        "loc": "7",
+        "word": "자세히"
+      },
+      {
+        "start": 5.8,
+        "end": 6.336,
+        "loc": "8,9",
+        "word": "알려줘야 해."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.15,
+        "end": 3.584,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.873,
+        "end": 5.271,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.498,
+        "end": 5.626,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.282,
+        "end": 2.806
+      },
+      {
+        "descriptor": "",
+        "start": 3.15,
+        "end": 3.584
+      },
+      {
+        "descriptor": "",
+        "start": 4.189,
+        "end": 4.599
+      },
+      {
+        "descriptor": "",
+        "start": 4.873,
+        "end": 5.271
+      },
+      {
+        "descriptor": "",
+        "start": 5.8,
+        "end": 6.336
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.8,
+        "end": 6.336
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.842,
+        "end": 2.822
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327820",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:22:43",
+    "sentence_ID": "VXPAKOKS240327820",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    216,
+    126
+  ],
+  "file": "VXPAKOKS240327820.mp4",
+  "saved_as": "VXPAKOKS240327820-분실신고를할때는잃어버린장소와시간에대해자세히알려줘야해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

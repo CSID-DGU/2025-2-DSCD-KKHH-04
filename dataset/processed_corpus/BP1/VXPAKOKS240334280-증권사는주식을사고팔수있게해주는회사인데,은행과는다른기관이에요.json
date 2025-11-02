@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240334280",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "증권사는 주식을 사고팔 수 있게 해주는 회사인데, 은행과는 다른 기관이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.403,
+        "end": 2.673,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.861,
+        "end": 3.202,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.423,
+        "end": 3.828,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.227,
+        "end": 4.37,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.739,
+        "end": 4.906,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.277,
+        "end": 5.524,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.793,
+        "end": 6.411,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.64,
+        "end": 6.934,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.203,
+        "end": 7.314,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.559,
+        "end": 7.67,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.825,
+        "end": 8.198,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.403,
+        "end": 3.822,
+        "loc": "0",
+        "word": "증권사는"
+      },
+      {
+        "start": 4.227,
+        "end": 4.37,
+        "loc": "1",
+        "word": "주식을"
+      },
+      {
+        "start": 4.739,
+        "end": 5.516,
+        "loc": "2,3,4,5",
+        "word": "사고팔 수 있게 해주는"
+      },
+      {
+        "start": 5.793,
+        "end": 6.411,
+        "loc": "6",
+        "word": "회사인데,"
+      },
+      {
+        "start": 6.64,
+        "end": 6.934,
+        "loc": "7",
+        "word": "은행과는"
+      },
+      {
+        "start": 7.203,
+        "end": 8.178,
+        "loc": "8,9",
+        "word": "다른 기관이에요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.403,
+        "end": 2.673,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.861,
+        "end": 3.821,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.227,
+        "end": 4.37,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.739,
+        "end": 4.906,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.277,
+        "end": 5.524,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.793,
+        "end": 6.411,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.64,
+        "end": 6.934,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.825,
+        "end": 8.198,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.423,
+        "end": 3.828
+      },
+      {
+        "descriptor": "",
+        "start": 7.825,
+        "end": 8.198
+      },
+      {
+        "descriptor": "",
+        "start": 6.007,
+        "end": 6.388
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.364,
+        "end": 5.508
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.203,
+        "end": 7.703
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.403,
+        "end": 3.941
+      },
+      {
+        "descriptor": "",
+        "start": 6.64,
+        "end": 6.934
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334280",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:29:40",
+    "sentence_ID": "VXPAKOKS240334280",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    285,
+    126
+  ],
+  "file": "VXPAKOKS240334280.mp4",
+  "saved_as": "VXPAKOKS240334280-증권사는주식을사고팔수있게해주는회사인데,은행과는다른기관이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

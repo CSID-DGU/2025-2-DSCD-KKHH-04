@@ -1,0 +1,364 @@
+{
+  "id": "VXPAKOKS240344150",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "예금 계좌는 인터넷 뱅킹이나 모바일 뱅킹으로 해외에서도 사용할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.681,
+        "end": 2.1,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.273,
+        "end": 2.789,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.037,
+        "end": 3.423,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.621,
+        "end": 4.048,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.27,
+        "end": 4.397,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.555,
+        "end": 4.779,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.92,
+        "end": 5.087,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.277,
+        "end": 5.874,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.122,
+        "end": 6.451,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.674,
+        "end": 6.833,
+        "gloss_id": "머무르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.064,
+        "end": 7.264,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.433,
+        "end": 7.665,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.681,
+        "end": 2.1,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.273,
+        "end": 2.789,
+        "loc": "1",
+        "word": "계좌는"
+      },
+      {
+        "start": 3.037,
+        "end": 3.423,
+        "loc": "2",
+        "word": "인터넷"
+      },
+      {
+        "start": 3.621,
+        "end": 4.048,
+        "loc": "3",
+        "word": "뱅킹이나"
+      },
+      {
+        "start": 4.27,
+        "end": 4.77,
+        "loc": "4",
+        "word": "모바일"
+      },
+      {
+        "start": 4.92,
+        "end": 5.875,
+        "loc": "5",
+        "word": "뱅킹으로"
+      },
+      {
+        "start": 6.122,
+        "end": 6.824,
+        "loc": "6",
+        "word": "해외에서도"
+      },
+      {
+        "start": 7.064,
+        "end": 7.264,
+        "loc": "7",
+        "word": "사용할"
+      },
+      {
+        "start": 7.433,
+        "end": 7.665,
+        "loc": "8,9",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.681,
+        "end": 2.1,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.273,
+        "end": 2.789,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.037,
+        "end": 3.423,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.621,
+        "end": 4.048,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.92,
+        "end": 5.087,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.277,
+        "end": 5.874,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.122,
+        "end": 6.451,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.674,
+        "end": 6.833,
+        "gloss_id": "머무르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.064,
+        "end": 7.264,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.555,
+        "end": 4.779,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.433,
+        "end": 7.665
+      },
+      {
+        "descriptor": "",
+        "start": 2.273,
+        "end": 2.789
+      },
+      {
+        "descriptor": "",
+        "start": 3.621,
+        "end": 4.048
+      },
+      {
+        "descriptor": "",
+        "start": 4.92,
+        "end": 5.087
+      },
+      {
+        "descriptor": "",
+        "start": 6.674,
+        "end": 6.833
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.433,
+        "end": 7.665
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.621,
+        "end": 5.079
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.133,
+        "end": 2.7
+      },
+      {
+        "descriptor": "",
+        "start": 6.033,
+        "end": 6.765
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344150",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:34:08",
+    "sentence_ID": "VXPAKOKS240344150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    292,
+    126
+  ],
+  "file": "VXPAKOKS240344150.mp4",
+  "saved_as": "VXPAKOKS240344150-예금계좌는인터넷뱅킹이나모바일뱅킹으로해외에서도사용할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

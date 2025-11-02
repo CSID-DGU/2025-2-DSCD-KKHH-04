@@ -1,0 +1,205 @@
+{
+  "id": "VXPAKOKS240335630",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "재산을 만들기 위해 원금 손실 위험이 낮은 주식에 투자해야 한다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.176,
+        "end": 2.442,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.693,
+        "end": 3.785,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.143,
+        "end": 4.408,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.537,
+        "end": 4.718,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.935,
+        "end": 5.311,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.581,
+        "end": 5.802,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.176,
+        "end": 3.782,
+        "loc": "0,1,2",
+        "word": "재산을 만들기 위해"
+      },
+      {
+        "start": 4.143,
+        "end": 4.408,
+        "loc": "3,4,5,6",
+        "word": "원금 손실 위험이 낮은"
+      },
+      {
+        "start": 4.537,
+        "end": 4.718,
+        "loc": "7",
+        "word": "주식에"
+      },
+      {
+        "start": 4.935,
+        "end": 5.818,
+        "loc": "8,9",
+        "word": "투자해야 한다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.176,
+        "end": 2.442,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.693,
+        "end": 3.785,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.143,
+        "end": 4.408,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.537,
+        "end": 4.718,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.933,
+        "end": 3.765
+      },
+      {
+        "descriptor": "",
+        "start": 4.935,
+        "end": 5.311
+      },
+      {
+        "descriptor": "",
+        "start": 5.581,
+        "end": 5.802
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.176,
+        "end": 2.442
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.693,
+        "end": 3.785
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335630",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:28",
+    "sentence_ID": "VXPAKOKS240335630",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    234,
+    126
+  ],
+  "file": "VXPAKOKS240335630.mp4",
+  "saved_as": "VXPAKOKS240335630-재산을만들기위해원금손실위험이낮은주식에투자해야한다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

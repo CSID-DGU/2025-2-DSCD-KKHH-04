@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240335980",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 시장의 상황이 좋지 않더라도 경영 실적이 좋은 기업의 주식은 미리 사야 한다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.128,
+        "end": 2.405,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.661,
+        "end": 2.994,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.106,
+        "end": 3.455,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.714,
+        "end": 3.895,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.084,
+        "end": 4.44,
+        "gloss_id": "그러나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.656,
+        "end": 4.797,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.981,
+        "end": 5.354,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.674,
+        "end": 6.102,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.451,
+        "end": 6.624,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.772,
+        "end": 7.009,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.2,
+        "end": 7.501,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.128,
+        "end": 2.405,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.661,
+        "end": 4.453,
+        "loc": "1,2,3,4",
+        "word": "시장의 상황이 좋지 않더라도"
+      },
+      {
+        "start": 6.451,
+        "end": 6.624,
+        "loc": "9",
+        "word": "주식은"
+      },
+      {
+        "start": 6.772,
+        "end": 7.009,
+        "loc": "10",
+        "word": "미리"
+      },
+      {
+        "start": 7.2,
+        "end": 7.501,
+        "loc": "11,12",
+        "word": "사야 한다."
+      },
+      {
+        "start": 4.656,
+        "end": 6.081,
+        "loc": "5,6,7,8",
+        "word": "경영 실적이 좋은 기업의"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.128,
+        "end": 2.405,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.661,
+        "end": 2.994,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.106,
+        "end": 3.909,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.656,
+        "end": 4.797,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.981,
+        "end": 5.354,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.451,
+        "end": 6.624,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.772,
+        "end": 7.009,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.2,
+        "end": 7.501,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.714,
+        "end": 3.895
+      },
+      {
+        "descriptor": "",
+        "start": 4.084,
+        "end": 4.44
+      },
+      {
+        "descriptor": "",
+        "start": 5.674,
+        "end": 6.102
+      },
+      {
+        "descriptor": "",
+        "start": 7.2,
+        "end": 7.501
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.106,
+        "end": 4.435
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.674,
+        "end": 6.102
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.981,
+        "end": 6.095
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335980",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:46:16",
+    "sentence_ID": "VXPAKOKS240335980",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    287,
+    126
+  ],
+  "file": "VXPAKOKS240335980.mp4",
+  "saved_as": "VXPAKOKS240335980-주식시장의상황이좋지않더라도경영실적이좋은기업의주식은미리사야한다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240332190",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "직장인 대출을 신청할 때는 자신의 상환 능력을 생각하여 신중하게 결정하는 것이 중요합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.999,
+        "end": 2.116,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.255,
+        "end": 2.4,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.61,
+        "end": 2.837,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.0,
+        "end": 3.541,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.785,
+        "end": 4.312,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.428,
+        "end": 4.702,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.96,
+        "end": 5.173,
+        "gloss_id": "맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.37,
+        "end": 5.644,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.835,
+        "end": 6.472,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.737,
+        "end": 6.854,
+        "gloss_id": "생각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.186,
+        "end": 7.529,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.999,
+        "end": 2.397,
+        "loc": "0",
+        "word": "직장인"
+      },
+      {
+        "start": 2.61,
+        "end": 2.837,
+        "loc": "1",
+        "word": "대출을"
+      },
+      {
+        "start": 3.0,
+        "end": 4.312,
+        "loc": "2,3",
+        "word": "신청할 때는"
+      },
+      {
+        "start": 4.428,
+        "end": 4.702,
+        "loc": "4",
+        "word": "자신의"
+      },
+      {
+        "start": 4.96,
+        "end": 6.464,
+        "loc": "5,6",
+        "word": "상환 능력을"
+      },
+      {
+        "start": 6.737,
+        "end": 6.854,
+        "loc": "7",
+        "word": "생각하여"
+      },
+      {
+        "start": 7.186,
+        "end": 7.529,
+        "loc": "8,9,10,11",
+        "word": "신중하게 결정하는 것이 중요합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.999,
+        "end": 2.116,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.255,
+        "end": 2.836,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.0,
+        "end": 3.541,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.785,
+        "end": 4.312,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.37,
+        "end": 5.644,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.186,
+        "end": 7.529,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.0,
+        "end": 3.541
+      },
+      {
+        "descriptor": "",
+        "start": 3.785,
+        "end": 4.312
+      },
+      {
+        "descriptor": "",
+        "start": 5.835,
+        "end": 6.472
+      },
+      {
+        "descriptor": "",
+        "start": 7.186,
+        "end": 7.529
+      },
+      {
+        "descriptor": "",
+        "start": 6.737,
+        "end": 6.854
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.115,
+        "end": 6.472
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.96,
+        "end": 6.84
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.785,
+        "end": 4.206
+      },
+      {
+        "descriptor": "",
+        "start": 2.255,
+        "end": 3.541
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332190",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:43:18",
+    "sentence_ID": "VXPAKOKS240332190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    246,
+    126
+  ],
+  "file": "VXPAKOKS240332190.mp4",
+  "saved_as": "VXPAKOKS240332190-직장인대출을신청할때는자신의상환능력을생각하여신중하게결정하는것이중요합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

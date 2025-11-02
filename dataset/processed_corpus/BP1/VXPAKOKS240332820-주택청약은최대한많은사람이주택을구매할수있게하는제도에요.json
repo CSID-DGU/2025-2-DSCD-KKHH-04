@@ -1,0 +1,294 @@
+{
+  "id": "VXPAKOKS240332820",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주택 청약은 최대한 많은 사람이 주택을 구매할 수 있게 하는 제도에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.563,
+        "end": 2.721,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.957,
+        "end": 3.422,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.753,
+        "end": 3.939,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.183,
+        "end": 4.418,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.787,
+        "end": 5.057,
+        "gloss_id": "많다7",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.221,
+        "end": 5.344,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.549,
+        "end": 5.791,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.078,
+        "end": 6.25,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.511,
+        "end": 6.914,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.563,
+        "end": 2.721,
+        "loc": "0",
+        "word": "주택"
+      },
+      {
+        "start": 2.957,
+        "end": 3.422,
+        "loc": "1",
+        "word": "청약은"
+      },
+      {
+        "start": 5.549,
+        "end": 5.791,
+        "loc": "6",
+        "word": "구매할"
+      },
+      {
+        "start": 4.183,
+        "end": 5.045,
+        "loc": "2,3",
+        "word": "최대한 많은"
+      },
+      {
+        "start": 3.753,
+        "end": 3.939,
+        "loc": "4",
+        "word": "사람이"
+      },
+      {
+        "start": 5.221,
+        "end": 5.344,
+        "loc": "5",
+        "word": "주택을"
+      },
+      {
+        "start": 6.078,
+        "end": 6.25,
+        "loc": "7,8,9",
+        "word": "수 있게 하는"
+      },
+      {
+        "start": 6.511,
+        "end": 6.914,
+        "loc": "10",
+        "word": "제도에요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.563,
+        "end": 2.721,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.957,
+        "end": 3.422,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.183,
+        "end": 4.418,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.549,
+        "end": 5.791,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.753,
+        "end": 3.939,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.221,
+        "end": 5.344,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.511,
+        "end": 6.914,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.957,
+        "end": 3.422
+      },
+      {
+        "descriptor": "",
+        "start": 4.787,
+        "end": 5.057
+      },
+      {
+        "descriptor": "",
+        "start": 6.511,
+        "end": 6.914
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.787,
+        "end": 5.057
+      },
+      {
+        "descriptor": "",
+        "start": 6.078,
+        "end": 6.25
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.753,
+        "end": 5.048
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.563,
+        "end": 3.433
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332820",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:46",
+    "sentence_ID": "VXPAKOKS240332820",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240332820.mp4",
+  "saved_as": "VXPAKOKS240332820-주택청약은최대한많은사람이주택을구매할수있게하는제도에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

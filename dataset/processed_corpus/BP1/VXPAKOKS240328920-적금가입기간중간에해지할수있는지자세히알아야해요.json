@@ -1,0 +1,270 @@
+{
+  "id": "VXPAKOKS240328920",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "적금 가입 기간 중간에 해지할 수 있는지 자세히 알아야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.959,
+        "end": 2.171,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.446,
+        "end": 2.776,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.014,
+        "end": 3.108,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.346,
+        "end": 3.508,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.756,
+        "end": 4.081,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.303,
+        "end": 4.515,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.767,
+        "end": 5.098,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.368,
+        "end": 5.592,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.88,
+        "end": 6.205,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.959,
+        "end": 2.78,
+        "loc": "0,1",
+        "word": "적금 가입"
+      },
+      {
+        "start": 3.014,
+        "end": 3.491,
+        "loc": "2",
+        "word": "기간"
+      },
+      {
+        "start": 3.756,
+        "end": 4.081,
+        "loc": "3",
+        "word": "중간에"
+      },
+      {
+        "start": 4.303,
+        "end": 5.102,
+        "loc": "4,5,6",
+        "word": "해지할 수 있는지"
+      },
+      {
+        "start": 5.368,
+        "end": 6.195,
+        "loc": "7,8,9",
+        "word": "자세히 알아야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.959,
+        "end": 2.171,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.446,
+        "end": 2.776,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.014,
+        "end": 3.108,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.346,
+        "end": 3.508,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.756,
+        "end": 4.081,
+        "gloss_id": "중1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.303,
+        "end": 4.515,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.88,
+        "end": 6.205,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.446,
+        "end": 2.776
+      },
+      {
+        "descriptor": "",
+        "start": 3.756,
+        "end": 4.081
+      },
+      {
+        "descriptor": "",
+        "start": 4.767,
+        "end": 5.098
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.767,
+        "end": 5.098
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.959,
+        "end": 2.747
+      },
+      {
+        "descriptor": "",
+        "start": 4.303,
+        "end": 5.102
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328920",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:39:21",
+    "sentence_ID": "VXPAKOKS240328920",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    203,
+    126
+  ],
+  "file": "VXPAKOKS240328920.mp4",
+  "saved_as": "VXPAKOKS240328920-적금가입기간중간에해지할수있는지자세히알아야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

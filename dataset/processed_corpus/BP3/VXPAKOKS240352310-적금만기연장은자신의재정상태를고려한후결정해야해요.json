@@ -1,0 +1,394 @@
+{
+  "id": "VXPAKOKS240352310",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 만기 연장은 자신의 재정 상태를 고려한 후 결정해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.199,
+        "end": 1.368,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.538,
+        "end": 1.935,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.19,
+        "end": 2.525,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.765,
+        "end": 2.926,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.145,
+        "end": 3.967,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.171,
+        "end": 4.301,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.47,
+        "end": 4.836,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.148,
+        "end": 5.372,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.594,
+        "end": 6.18,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.439,
+        "end": 6.742,
+        "gloss_id": "평가1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.97,
+        "end": 7.415,
+        "gloss_id": "생각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.66,
+        "end": 7.853,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.016,
+        "end": 8.248,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.199,
+        "end": 1.934,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.19,
+        "end": 2.934,
+        "loc": "1",
+        "word": "만기"
+      },
+      {
+        "start": 3.145,
+        "end": 3.967,
+        "loc": "2",
+        "word": "연장은"
+      },
+      {
+        "start": 4.171,
+        "end": 4.836,
+        "loc": "3",
+        "word": "자신의"
+      },
+      {
+        "start": 5.148,
+        "end": 5.372,
+        "loc": "4",
+        "word": "재정"
+      },
+      {
+        "start": 5.594,
+        "end": 6.18,
+        "loc": "5",
+        "word": "상태를"
+      },
+      {
+        "start": 6.439,
+        "end": 7.419,
+        "loc": "6,7",
+        "word": "고려한 후"
+      },
+      {
+        "start": 7.66,
+        "end": 8.238,
+        "loc": "8,9",
+        "word": "결정해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.538,
+        "end": 1.935,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.19,
+        "end": 2.524,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.765,
+        "end": 2.934,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.145,
+        "end": 3.967,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.47,
+        "end": 4.836,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.148,
+        "end": 5.372,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.594,
+        "end": 6.18,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.439,
+        "end": 6.742,
+        "gloss_id": "평가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.66,
+        "end": 7.853,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.016,
+        "end": 8.248,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.538,
+        "end": 1.935
+      },
+      {
+        "descriptor": "",
+        "start": 3.145,
+        "end": 3.967
+      },
+      {
+        "descriptor": "",
+        "start": 5.148,
+        "end": 5.372
+      },
+      {
+        "descriptor": "",
+        "start": 7.31,
+        "end": 7.503
+      },
+      {
+        "descriptor": "",
+        "start": 2.19,
+        "end": 2.903
+      },
+      {
+        "descriptor": "",
+        "start": 5.594,
+        "end": 6.18
+      },
+      {
+        "descriptor": "",
+        "start": 6.439,
+        "end": 6.742
+      },
+      {
+        "descriptor": "",
+        "start": 8.016,
+        "end": 8.248
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.31,
+        "end": 7.503
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.66,
+        "end": 7.853
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.97,
+        "end": 7.415
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.199,
+        "end": 1.942
+      },
+      {
+        "descriptor": "",
+        "start": 2.19,
+        "end": 3.957
+      },
+      {
+        "descriptor": "",
+        "start": 5.594,
+        "end": 6.18
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352310",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:56:13",
+    "sentence_ID": "VXPAKOKS240352310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    283,
+    126
+  ],
+  "file": "VXPAKOKS240352310.mp4",
+  "saved_as": "VXPAKOKS240352310-적금만기연장은자신의재정상태를고려한후결정해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

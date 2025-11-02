@@ -1,0 +1,348 @@
+{
+  "id": "VXPAKOKS240339170",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장에서의 외환 위험을 관리하는 방법은 무엇인지 자세히 알려주십시오.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.319,
+        "end": 1.393,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.589,
+        "end": 1.703,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 1.99,
+        "end": 2.591,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.875,
+        "end": 3.693,
+        "gloss_id": "달러1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.012,
+        "end": 4.377,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.621,
+        "end": 5.154,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.379,
+        "end": 5.656,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.852,
+        "end": 6.027,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.238,
+        "end": 6.575,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.746,
+        "end": 7.104,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.436,
+        "end": 7.577,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.794,
+        "end": 8.03,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.2,
+        "end": 8.531,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.319,
+        "end": 2.55,
+        "loc": "0,1",
+        "word": "채권 시장에서의"
+      },
+      {
+        "start": 2.875,
+        "end": 4.367,
+        "loc": "2",
+        "word": "외환"
+      },
+      {
+        "start": 6.238,
+        "end": 6.575,
+        "loc": "5",
+        "word": "방법은"
+      },
+      {
+        "start": 7.436,
+        "end": 7.577,
+        "loc": "7",
+        "word": "자세히"
+      },
+      {
+        "start": 7.794,
+        "end": 8.541,
+        "loc": "8",
+        "word": "알려주십시오."
+      },
+      {
+        "start": 6.746,
+        "end": 7.104,
+        "loc": "6",
+        "word": "무엇인지"
+      },
+      {
+        "start": 4.621,
+        "end": 6.031,
+        "loc": "3,4",
+        "word": "위험을 관리하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.99,
+        "end": 2.591,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.012,
+        "end": 4.377,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.621,
+        "end": 5.154,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.379,
+        "end": 5.656,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.852,
+        "end": 6.027,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.238,
+        "end": 6.575,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.436,
+        "end": 7.577,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.794,
+        "end": 8.03,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.2,
+        "end": 8.531,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.99,
+        "end": 2.591
+      },
+      {
+        "descriptor": "",
+        "start": 6.746,
+        "end": 7.104
+      },
+      {
+        "descriptor": "",
+        "start": 8.2,
+        "end": 8.531
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.621,
+        "end": 5.714
+      },
+      {
+        "descriptor": "",
+        "start": 6.746,
+        "end": 7.152
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.319,
+        "end": 2.59
+      },
+      {
+        "descriptor": "",
+        "start": 4.012,
+        "end": 4.377
+      },
+      {
+        "descriptor": "",
+        "start": 5.852,
+        "end": 6.595
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339170",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:56:15",
+    "sentence_ID": "VXPAKOKS240339170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    292,
+    126
+  ],
+  "file": "VXPAKOKS240339170.mp4",
+  "saved_as": "VXPAKOKS240339170-채권시장에서의외환위험을관리하는방법은무엇인지자세히알려주십시오.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

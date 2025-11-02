@@ -1,0 +1,281 @@
+{
+  "id": "VXPAKOKS240331690",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "급하게 현금이 필요하면 현금카드로 통장에 있는 돈 전부 인출할 수 있어?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.069,
+        "end": 2.397,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.548,
+        "end": 3.047,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.37,
+        "end": 3.569,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.695,
+        "end": 3.808,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.929,
+        "end": 4.085,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.248,
+        "end": 4.558,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.745,
+        "end": 5.196,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.366,
+        "end": 5.866,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.095,
+        "end": 6.595,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.069,
+        "end": 2.397,
+        "loc": "0",
+        "word": "급하게"
+      },
+      {
+        "start": 4.745,
+        "end": 5.196,
+        "loc": "7",
+        "word": "전부"
+      },
+      {
+        "start": 5.366,
+        "end": 5.866,
+        "loc": "8",
+        "word": "인출할"
+      },
+      {
+        "start": 6.095,
+        "end": 6.595,
+        "loc": "9,10",
+        "word": "수 있어?"
+      },
+      {
+        "start": 4.248,
+        "end": 4.558,
+        "loc": "5",
+        "word": "있는"
+      },
+      {
+        "start": 2.548,
+        "end": 3.047,
+        "loc": "1,2",
+        "word": "현금이 필요하면"
+      },
+      {
+        "start": 3.37,
+        "end": 3.569,
+        "loc": "4",
+        "word": "통장에"
+      },
+      {
+        "start": 3.929,
+        "end": 4.085,
+        "loc": "6",
+        "word": "돈"
+      },
+      {
+        "start": 3.695,
+        "end": 3.808,
+        "loc": "3",
+        "word": "현금카드로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.069,
+        "end": 2.397,
+        "gloss_id": "급하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.548,
+        "end": 3.047,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.366,
+        "end": 5.866,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.37,
+        "end": 5.214,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.953,
+        "end": 5.178
+      },
+      {
+        "descriptor": "",
+        "start": 2.069,
+        "end": 3.041
+      },
+      {
+        "descriptor": "",
+        "start": 6.095,
+        "end": 6.595
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.095,
+        "end": 6.595
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.069,
+        "end": 3.041
+      },
+      {
+        "descriptor": "",
+        "start": 4.745,
+        "end": 5.202
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.708,
+        "end": 4.558
+      },
+      {
+        "descriptor": "",
+        "start": 6.095,
+        "end": 6.595
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331690",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:14:16",
+    "sentence_ID": "VXPAKOKS240331690",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    221,
+    126
+  ],
+  "file": "VXPAKOKS240331690.mp4",
+  "saved_as": "VXPAKOKS240331690-급하게현금이필요하면현금카드로통장에있는돈전부인출할수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

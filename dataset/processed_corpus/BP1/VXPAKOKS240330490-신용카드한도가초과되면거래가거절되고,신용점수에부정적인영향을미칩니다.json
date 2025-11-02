@@ -1,0 +1,269 @@
+{
+  "id": "VXPAKOKS240330490",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 한도가 초과되면 거래가 거절되고, 신용 점수에 부정적인 영향을 미칩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.809,
+        "end": 2.047,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.131,
+        "end": 2.335,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.512,
+        "end": 2.789,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.125,
+        "end": 3.67,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.025,
+        "end": 4.525,
+        "gloss_id": "가두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.767,
+        "end": 4.977,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.259,
+        "end": 5.396,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.499,
+        "end": 5.865,
+        "gloss_id": "나쁘다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.809,
+        "end": 2.315,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.512,
+        "end": 2.789,
+        "loc": "1",
+        "word": "한도가"
+      },
+      {
+        "start": 3.125,
+        "end": 3.67,
+        "loc": "2",
+        "word": "초과되면"
+      },
+      {
+        "start": 4.025,
+        "end": 4.525,
+        "loc": "3,4",
+        "word": "거래가 거절되고,"
+      },
+      {
+        "start": 4.767,
+        "end": 4.977,
+        "loc": "5",
+        "word": "신용"
+      },
+      {
+        "start": 5.259,
+        "end": 5.396,
+        "loc": "6",
+        "word": "점수에"
+      },
+      {
+        "start": 5.499,
+        "end": 5.865,
+        "loc": "7,8,9",
+        "word": "부정적인 영향을 미칩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.809,
+        "end": 2.047,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.512,
+        "end": 2.789,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.125,
+        "end": 3.67,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.025,
+        "end": 4.525,
+        "gloss_id": "가두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.767,
+        "end": 4.977,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.125,
+        "end": 3.67
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.298,
+        "end": 3.62
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.025,
+        "end": 4.525
+      },
+      {
+        "descriptor": "",
+        "start": 5.259,
+        "end": 5.865
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.259,
+        "end": 5.859
+      },
+      {
+        "descriptor": "",
+        "start": 4.025,
+        "end": 4.525
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 4.025,
+        "end": 4.525
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.125,
+        "end": 3.67
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330490",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:31:21",
+    "sentence_ID": "VXPAKOKS240330490",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    201,
+    126
+  ],
+  "file": "VXPAKOKS240330490.mp4",
+  "saved_as": "VXPAKOKS240330490-신용카드한도가초과되면거래가거절되고,신용점수에부정적인영향을미칩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

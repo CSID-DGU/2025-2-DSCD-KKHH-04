@@ -1,0 +1,308 @@
+{
+  "id": "VXPAKOKS240331860",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "영수증을 받는 건 선택이지만, 거래 내용을 확인하고 싶다면 받는 게 좋아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.941,
+        "end": 2.092,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.385,
+        "end": 2.707,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.087,
+        "end": 3.625,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.751,
+        "end": 4.313,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.617,
+        "end": 5.21,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.477,
+        "end": 5.775,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.835,
+        "end": 5.94,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.162,
+        "end": 6.553,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.708,
+        "end": 7.03,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.307,
+        "end": 7.815,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.074,
+        "end": 8.442,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.377,
+        "end": 5.21,
+        "loc": "3",
+        "word": "선택이지만,"
+      },
+      {
+        "start": 5.477,
+        "end": 5.945,
+        "loc": "4,5",
+        "word": "거래 내용을"
+      },
+      {
+        "start": 6.162,
+        "end": 6.553,
+        "loc": "6",
+        "word": "확인하고"
+      },
+      {
+        "start": 6.708,
+        "end": 7.03,
+        "loc": "7",
+        "word": "싶다면"
+      },
+      {
+        "start": 7.307,
+        "end": 7.815,
+        "loc": "8,9",
+        "word": "받는 게"
+      },
+      {
+        "start": 8.074,
+        "end": 8.442,
+        "loc": "10",
+        "word": "좋아."
+      },
+      {
+        "start": 1.941,
+        "end": 2.092,
+        "loc": "0,1,2",
+        "word": "영수증을 받는 건"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.385,
+        "end": 2.707,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.087,
+        "end": 3.625,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.751,
+        "end": 4.313,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.617,
+        "end": 5.21,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.477,
+        "end": 5.938,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.307,
+        "end": 7.815,
+        "gloss_id": "영수증1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.074,
+        "end": 8.442,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.212,
+        "end": 3.619
+      },
+      {
+        "descriptor": "",
+        "start": 3.751,
+        "end": 4.313
+      },
+      {
+        "descriptor": "",
+        "start": 8.074,
+        "end": 8.442
+      },
+      {
+        "descriptor": "",
+        "start": 6.708,
+        "end": 7.03
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.087,
+        "end": 4.307
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.708,
+        "end": 7.03
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.162,
+        "end": 7.018
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331860",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:15:48",
+    "sentence_ID": "VXPAKOKS240331860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    279,
+    126
+  ],
+  "file": "VXPAKOKS240331860.mp4",
+  "saved_as": "VXPAKOKS240331860-영수증을받는건선택이지만,거래내용을확인하고싶다면받는게좋아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

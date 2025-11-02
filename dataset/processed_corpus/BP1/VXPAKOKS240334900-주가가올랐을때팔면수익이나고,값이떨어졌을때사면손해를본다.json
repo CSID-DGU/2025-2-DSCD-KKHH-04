@@ -1,0 +1,284 @@
+{
+  "id": "VXPAKOKS240334900",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주가가 올랐을 때 팔면 수익이 나고, 값이 떨어졌을 때 사면 손해를 본다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.238,
+        "end": 2.545,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.784,
+        "end": 3.171,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.449,
+        "end": 3.704,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.029,
+        "end": 4.622,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.868,
+        "end": 5.003,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.216,
+        "end": 5.749,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.992,
+        "end": 6.32,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.556,
+        "end": 6.85,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.238,
+        "end": 2.545,
+        "loc": "0",
+        "word": "주가가"
+      },
+      {
+        "start": 2.784,
+        "end": 3.171,
+        "loc": "1,2",
+        "word": "올랐을 때"
+      },
+      {
+        "start": 3.449,
+        "end": 3.704,
+        "loc": "3",
+        "word": "팔면"
+      },
+      {
+        "start": 4.029,
+        "end": 4.622,
+        "loc": "4,5",
+        "word": "수익이 나고,"
+      },
+      {
+        "start": 4.868,
+        "end": 5.003,
+        "loc": "6",
+        "word": "값이"
+      },
+      {
+        "start": 5.216,
+        "end": 5.749,
+        "loc": "7,8",
+        "word": "떨어졌을 때"
+      },
+      {
+        "start": 5.992,
+        "end": 6.32,
+        "loc": "9",
+        "word": "사면"
+      },
+      {
+        "start": 6.556,
+        "end": 6.85,
+        "loc": "10,11",
+        "word": "손해를 본다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.238,
+        "end": 2.545,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.449,
+        "end": 3.704,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.784,
+        "end": 3.171,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.868,
+        "end": 5.003,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.216,
+        "end": 5.749,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.992,
+        "end": 6.32,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.556,
+        "end": 6.85,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.784,
+        "end": 3.171
+      },
+      {
+        "descriptor": "",
+        "start": 4.029,
+        "end": 4.622
+      },
+      {
+        "descriptor": "",
+        "start": 5.216,
+        "end": 5.749
+      },
+      {
+        "descriptor": "",
+        "start": 6.556,
+        "end": 6.85
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.449,
+        "end": 3.704
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.992,
+        "end": 6.831
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.238,
+        "end": 3.162
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334900",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:33:21",
+    "sentence_ID": "VXPAKOKS240334900",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    239,
+    126
+  ],
+  "file": "VXPAKOKS240334900.mp4",
+  "saved_as": "VXPAKOKS240334900-주가가올랐을때팔면수익이나고,값이떨어졌을때사면손해를본다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,352 @@
+{
+  "id": "VXPAKOKS240346140",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "예금 상품 설명서는 은행의 홈페이지와 애플리케이션에서 확인할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.568,
+        "end": 1.982,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.242,
+        "end": 2.561,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.695,
+        "end": 2.92,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.208,
+        "end": 4.001,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.343,
+        "end": 4.731,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.009,
+        "end": 5.233,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.416,
+        "end": 5.52,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.716,
+        "end": 6.13,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.368,
+        "end": 6.48,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.651,
+        "end": 6.807,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.952,
+        "end": 7.176,
+        "gloss_id": "다운1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.309,
+        "end": 7.499,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.659,
+        "end": 7.866,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.024,
+        "end": 8.145,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.568,
+        "end": 1.982,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.242,
+        "end": 2.561,
+        "loc": "1",
+        "word": "상품"
+      },
+      {
+        "start": 2.695,
+        "end": 4.004,
+        "loc": "2",
+        "word": "설명서는"
+      },
+      {
+        "start": 4.343,
+        "end": 4.731,
+        "loc": "3",
+        "word": "은행의"
+      },
+      {
+        "start": 5.009,
+        "end": 6.137,
+        "loc": "4",
+        "word": "홈페이지와"
+      },
+      {
+        "start": 6.368,
+        "end": 7.496,
+        "loc": "5",
+        "word": "애플리케이션에서"
+      },
+      {
+        "start": 7.659,
+        "end": 8.15,
+        "loc": "6,7,8",
+        "word": "확인할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.568,
+        "end": 1.982,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.242,
+        "end": 2.561,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.695,
+        "end": 2.92,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.208,
+        "end": 4.001,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.343,
+        "end": 4.731,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.416,
+        "end": 5.52,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.716,
+        "end": 6.13,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.651,
+        "end": 6.807,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.952,
+        "end": 7.176,
+        "gloss_id": "다운1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.309,
+        "end": 7.499,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.208,
+        "end": 4.001
+      },
+      {
+        "descriptor": "",
+        "start": 5.716,
+        "end": 6.13
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.024,
+        "end": 8.145
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.568,
+        "end": 1.982
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.568,
+        "end": 4.014
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346140",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:42:36",
+    "sentence_ID": "VXPAKOKS240346140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    310,
+    126
+  ],
+  "file": "VXPAKOKS240346140.mp4",
+  "saved_as": "VXPAKOKS240346140-예금상품설명서는은행의홈페이지와애플리케이션에서확인할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

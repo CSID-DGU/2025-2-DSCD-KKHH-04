@@ -1,0 +1,243 @@
+{
+  "id": "VXPAKOKS240335350",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "세계 경제의 영향을 받는 주식 시장은 투자 위험이 높은 곳입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.524,
+        "end": 2.792,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.002,
+        "end": 3.359,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.741,
+        "end": 4.268,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.582,
+        "end": 5.15,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.513,
+        "end": 5.74,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.073,
+        "end": 6.321,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.56,
+        "end": 6.821,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.524,
+        "end": 2.792,
+        "loc": "0",
+        "word": "세계"
+      },
+      {
+        "start": 3.002,
+        "end": 3.359,
+        "loc": "1",
+        "word": "경제의"
+      },
+      {
+        "start": 3.741,
+        "end": 4.268,
+        "loc": "4,5",
+        "word": "주식 시장은"
+      },
+      {
+        "start": 4.582,
+        "end": 5.15,
+        "loc": "2,3",
+        "word": "영향을 받는"
+      },
+      {
+        "start": 5.513,
+        "end": 5.74,
+        "loc": "6",
+        "word": "투자"
+      },
+      {
+        "start": 6.073,
+        "end": 6.321,
+        "loc": "7",
+        "word": "위험이"
+      },
+      {
+        "start": 6.56,
+        "end": 6.821,
+        "loc": "8,9",
+        "word": "높은 곳입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.524,
+        "end": 2.792,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.002,
+        "end": 3.359,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.741,
+        "end": 4.268,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.582,
+        "end": 5.15,
+        "gloss_id": "연결1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.002,
+        "end": 3.359
+      },
+      {
+        "descriptor": "",
+        "start": 3.937,
+        "end": 4.253
+      },
+      {
+        "descriptor": "",
+        "start": 4.582,
+        "end": 5.15
+      },
+      {
+        "descriptor": "",
+        "start": 6.56,
+        "end": 6.821
+      },
+      {
+        "descriptor": "",
+        "start": 6.073,
+        "end": 6.321
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.513,
+        "end": 6.837
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.524,
+        "end": 5.135
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335350",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:35:49",
+    "sentence_ID": "VXPAKOKS240335350",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240335350.mp4",
+  "saved_as": "VXPAKOKS240335350-세계경제의영향을받는주식시장은투자위험이높은곳입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

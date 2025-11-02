@@ -1,0 +1,287 @@
+{
+  "id": "VXPAKOKS240336770",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 투자 시 등급이 높은 채권을 선택하면 위험은 낮출 수 있지만 기대수익률도 낮아집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.683,
+        "end": 1.766,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.992,
+        "end": 2.159,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.45,
+        "end": 2.917,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.208,
+        "end": 3.383,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.633,
+        "end": 4.05,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.3,
+        "end": 4.583,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.775,
+        "end": 4.95,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.3,
+        "end": 5.683,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.983,
+        "end": 6.375,
+        "gloss_id": "오히려1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.6,
+        "end": 6.792,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.917,
+        "end": 7.209,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.6,
+        "end": 6.792,
+        "loc": "11",
+        "word": "기대수익률도"
+      },
+      {
+        "start": 6.917,
+        "end": 7.209,
+        "loc": "12",
+        "word": "낮아집니다."
+      },
+      {
+        "start": 4.3,
+        "end": 4.583,
+        "loc": "6",
+        "word": "선택하면"
+      },
+      {
+        "start": 1.686,
+        "end": 2.917,
+        "loc": "0,1,2",
+        "word": "채권 투자 시"
+      },
+      {
+        "start": 3.208,
+        "end": 3.383,
+        "loc": "3",
+        "word": "등급이"
+      },
+      {
+        "start": 3.633,
+        "end": 4.05,
+        "loc": "4,5",
+        "word": "높은 채권을"
+      },
+      {
+        "start": 4.775,
+        "end": 5.7,
+        "loc": "7,8,9",
+        "word": "위험은 낮출 수"
+      },
+      {
+        "start": 5.983,
+        "end": 6.375,
+        "loc": "10",
+        "word": "있지만"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.45,
+        "end": 2.917,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.775,
+        "end": 4.95,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.983,
+        "end": 6.375,
+        "gloss_id": "오히려1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.917,
+        "end": 7.209
+      },
+      {
+        "descriptor": "",
+        "start": 2.604,
+        "end": 2.917
+      },
+      {
+        "descriptor": "",
+        "start": 3.633,
+        "end": 4.05
+      },
+      {
+        "descriptor": "",
+        "start": 5.3,
+        "end": 5.683
+      },
+      {
+        "descriptor": "",
+        "start": 5.983,
+        "end": 6.375
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.983,
+        "end": 7.191
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.992,
+        "end": 2.159
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.992,
+        "end": 4.044
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336770",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:31:54",
+    "sentence_ID": "VXPAKOKS240336770",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    300,
+    126
+  ],
+  "file": "VXPAKOKS240336770.mp4",
+  "saved_as": "VXPAKOKS240336770-채권투자시등급이높은채권을선택하면위험은낮출수있지만기대수익률도낮아집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

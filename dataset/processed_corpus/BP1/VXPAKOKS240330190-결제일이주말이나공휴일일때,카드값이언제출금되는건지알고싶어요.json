@@ -1,0 +1,312 @@
+{
+  "id": "VXPAKOKS240330190",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "결제일이 주말이나 공휴일일 때, 카드값이 언제 출금되는 건지 알고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.935,
+        "end": 2.293,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.475,
+        "end": 3.44,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.658,
+        "end": 4.053,
+        "gloss_id": "들어맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.225,
+        "end": 4.523,
+        "gloss_id": "매주1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.657,
+        "end": 4.887,
+        "gloss_id": "결국1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.985,
+        "end": 5.29,
+        "gloss_id": "희생1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.517,
+        "end": 6.204,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.411,
+        "end": 6.866,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.454,
+        "end": 7.991,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.104,
+        "end": 7.333,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.935,
+        "end": 4.048,
+        "loc": "0",
+        "word": "결제일이"
+      },
+      {
+        "start": 4.225,
+        "end": 4.898,
+        "loc": "1",
+        "word": "주말이나"
+      },
+      {
+        "start": 4.985,
+        "end": 6.197,
+        "loc": "2",
+        "word": "공휴일일"
+      },
+      {
+        "start": 7.104,
+        "end": 7.333,
+        "loc": "4,6,7",
+        "word": "카드값이 출금되는 건지"
+      },
+      {
+        "start": 6.411,
+        "end": 6.866,
+        "loc": "3",
+        "word": "때,"
+      },
+      {
+        "start": 7.454,
+        "end": 7.991,
+        "loc": "5,8,9",
+        "word": "언제 알고 싶어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.475,
+        "end": 3.44,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.225,
+        "end": 4.523,
+        "gloss_id": "매주1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.658,
+        "end": 4.053,
+        "gloss_id": "들어맞다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.657,
+        "end": 4.887,
+        "gloss_id": "결국1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.517,
+        "end": 6.872,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.985,
+        "end": 5.29,
+        "gloss_id": "희생1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.104,
+        "end": 7.333,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.454,
+        "end": 7.991,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.935,
+        "end": 2.293,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.454,
+        "end": 7.991
+      },
+      {
+        "descriptor": "",
+        "start": 2.475,
+        "end": 3.44
+      },
+      {
+        "descriptor": "",
+        "start": 3.658,
+        "end": 4.053
+      },
+      {
+        "descriptor": "",
+        "start": 4.657,
+        "end": 4.887
+      },
+      {
+        "descriptor": "",
+        "start": 6.411,
+        "end": 6.866
+      },
+      {
+        "descriptor": "",
+        "start": 5.517,
+        "end": 6.204
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.833,
+        "end": 4.041
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.454,
+        "end": 7.991
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330190",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:58:17",
+    "sentence_ID": "VXPAKOKS240330190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    270,
+    126
+  ],
+  "file": "VXPAKOKS240330190.mp4",
+  "saved_as": "VXPAKOKS240330190-결제일이주말이나공휴일일때,카드값이언제출금되는건지알고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

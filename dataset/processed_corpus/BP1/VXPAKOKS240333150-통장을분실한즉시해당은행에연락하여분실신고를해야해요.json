@@ -1,0 +1,238 @@
+{
+  "id": "VXPAKOKS240333150",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "통장을 분실한 즉시 해당 은행에 연락하여 분실 신고를 해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.395,
+        "end": 2.581,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.859,
+        "end": 3.206,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.569,
+        "end": 3.846,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.035,
+        "end": 4.207,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.561,
+        "end": 5.04,
+        "gloss_id": "전화하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.341,
+        "end": 5.5,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.737,
+        "end": 6.509,
+        "gloss_id": "주문1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.395,
+        "end": 2.581,
+        "loc": "0",
+        "word": "통장을"
+      },
+      {
+        "start": 5.737,
+        "end": 6.509,
+        "loc": "7,8,9",
+        "word": "신고를 해야 해요."
+      },
+      {
+        "start": 2.859,
+        "end": 3.206,
+        "loc": "1",
+        "word": "분실한"
+      },
+      {
+        "start": 3.569,
+        "end": 3.846,
+        "loc": "2",
+        "word": "즉시"
+      },
+      {
+        "start": 4.035,
+        "end": 4.207,
+        "loc": "3,4",
+        "word": "해당 은행에"
+      },
+      {
+        "start": 4.561,
+        "end": 5.04,
+        "loc": "5",
+        "word": "연락하여"
+      },
+      {
+        "start": 5.341,
+        "end": 5.5,
+        "loc": "6",
+        "word": "분실"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.395,
+        "end": 3.202,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.737,
+        "end": 6.509,
+        "gloss_id": "주문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.569,
+        "end": 3.846,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.035,
+        "end": 4.207,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.7,
+        "end": 5.033
+      },
+      {
+        "descriptor": "",
+        "start": 6.128,
+        "end": 6.503
+      },
+      {
+        "descriptor": "",
+        "start": 2.859,
+        "end": 3.206
+      },
+      {
+        "descriptor": "",
+        "start": 3.569,
+        "end": 3.846
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.859,
+        "end": 3.206
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.859,
+        "end": 3.206
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333150",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:27:33",
+    "sentence_ID": "VXPAKOKS240333150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    251,
+    126
+  ],
+  "file": "VXPAKOKS240333150.mp4",
+  "saved_as": "VXPAKOKS240333150-통장을분실한즉시해당은행에연락하여분실신고를해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

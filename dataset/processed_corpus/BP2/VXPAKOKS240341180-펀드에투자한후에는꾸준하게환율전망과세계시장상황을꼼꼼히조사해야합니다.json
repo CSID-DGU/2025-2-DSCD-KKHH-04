@@ -1,0 +1,262 @@
+{
+  "id": "VXPAKOKS240341180",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "펀드에 투자한 후에는 꾸준하게 환율 전망과 세계 시장 상황을 꼼꼼히 조사해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.693,
+        "end": 2.093,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.376,
+        "end": 2.883,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.098,
+        "end": 3.798,
+        "gloss_id": "달러1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.016,
+        "end": 4.436,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.687,
+        "end": 4.934,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.082,
+        "end": 5.415,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.61,
+        "end": 5.977,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.214,
+        "end": 6.541,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.777,
+        "end": 6.997,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.693,
+        "end": 2.886,
+        "loc": "0,1,2",
+        "word": "펀드에 투자한 후에는"
+      },
+      {
+        "start": 3.098,
+        "end": 4.451,
+        "loc": "4,5",
+        "word": "환율 전망과"
+      },
+      {
+        "start": 4.687,
+        "end": 5.967,
+        "loc": "6,7,8",
+        "word": "세계 시장 상황을"
+      },
+      {
+        "start": 6.214,
+        "end": 6.541,
+        "loc": "3",
+        "word": "꾸준하게"
+      },
+      {
+        "start": 6.777,
+        "end": 6.997,
+        "loc": "9,10,11",
+        "word": "꼼꼼히 조사해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.016,
+        "end": 4.436,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.376,
+        "end": 2.883,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.687,
+        "end": 4.934,
+        "gloss_id": "세계1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.082,
+        "end": 5.415,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.61,
+        "end": 5.977,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.214,
+        "end": 6.541,
+        "gloss_id": "항상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.693,
+        "end": 2.093
+      },
+      {
+        "descriptor": "",
+        "start": 4.016,
+        "end": 4.436
+      },
+      {
+        "descriptor": "",
+        "start": 6.214,
+        "end": 6.541
+      },
+      {
+        "descriptor": "",
+        "start": 6.777,
+        "end": 6.997
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.687,
+        "end": 6.52
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.098,
+        "end": 4.431
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341180",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:11:35",
+    "sentence_ID": "VXPAKOKS240341180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    240,
+    126
+  ],
+  "file": "VXPAKOKS240341180.mp4",
+  "saved_as": "VXPAKOKS240341180-펀드에투자한후에는꾸준하게환율전망과세계시장상황을꼼꼼히조사해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

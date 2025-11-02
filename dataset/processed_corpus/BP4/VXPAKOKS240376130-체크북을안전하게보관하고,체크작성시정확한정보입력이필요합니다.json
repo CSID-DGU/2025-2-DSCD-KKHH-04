@@ -1,0 +1,322 @@
+{
+  "id": "VXPAKOKS240376130",
+  "opertor": "label26",
+  "krlgg_sntenc": {
+    "koreanText": "체크북을 안전하게 보관하고, 체크 작성 시 정확한 정보 입력이 필요합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.237,
+        "end": 2.617,
+        "gloss_id": "체크북",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.821,
+        "end": 2.965,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.092,
+        "end": 3.27,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.448,
+        "end": 4.083,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.219,
+        "end": 4.998,
+        "gloss_id": "체크",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.176,
+        "end": 5.523,
+        "gloss_id": "서류2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.803,
+        "end": 6.057,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.261,
+        "end": 6.574,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.829,
+        "end": 7.015,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.201,
+        "end": 7.548,
+        "gloss_id": "쓰다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.684,
+        "end": 8.023,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.821,
+        "end": 3.261,
+        "loc": "2",
+        "word": "보관하고,"
+      },
+      {
+        "start": 3.448,
+        "end": 4.083,
+        "loc": "1",
+        "word": "안전하게"
+      },
+      {
+        "start": 4.219,
+        "end": 4.989,
+        "loc": "3",
+        "word": "체크"
+      },
+      {
+        "start": 7.684,
+        "end": 8.023,
+        "loc": "9",
+        "word": "필요합니다."
+      },
+      {
+        "start": 5.176,
+        "end": 6.049,
+        "loc": "4,5",
+        "word": "작성 시"
+      },
+      {
+        "start": 7.201,
+        "end": 7.548,
+        "loc": "8",
+        "word": "입력이"
+      },
+      {
+        "start": 1.237,
+        "end": 2.617,
+        "loc": "0",
+        "word": "체크북을"
+      },
+      {
+        "start": 6.261,
+        "end": 6.574,
+        "loc": "7",
+        "word": "정보"
+      },
+      {
+        "start": 6.829,
+        "end": 7.015,
+        "loc": "6",
+        "word": "정확한"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.092,
+        "end": 3.27,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.201,
+        "end": 7.548,
+        "gloss_id": "쓰다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.684,
+        "end": 8.023,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.176,
+        "end": 6.057,
+        "gloss_id": "서류2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.261,
+        "end": 6.574,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.829,
+        "end": 7.015,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "체크",
+        "start": 4.219,
+        "end": 4.998
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.448,
+        "end": 4.083
+      },
+      {
+        "descriptor": "",
+        "start": 7.684,
+        "end": 8.023
+      },
+      {
+        "descriptor": "",
+        "start": 2.33,
+        "end": 2.626
+      },
+      {
+        "descriptor": "",
+        "start": 5.803,
+        "end": 6.057
+      },
+      {
+        "descriptor": "",
+        "start": 6.829,
+        "end": 7.015
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.448,
+        "end": 4.083
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.219,
+        "end": 6.048
+      },
+      {
+        "descriptor": "",
+        "start": 6.829,
+        "end": 7.015
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240376130",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:44:33",
+    "sentence_ID": "VXPAKOKS240376130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    305,
+    126
+  ],
+  "file": "VXPAKOKS240376130.mp4",
+  "saved_as": "VXPAKOKS240376130-체크북을안전하게보관하고,체크작성시정확한정보입력이필요합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

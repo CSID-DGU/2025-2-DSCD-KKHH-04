@@ -1,0 +1,301 @@
+{
+  "id": "VXPAKOKS240333480",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드는 잔액이 부족할 경우 결제가 되지 않으므로 잔액을 잘 관리해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.592,
+        "end": 2.827,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.008,
+        "end": 3.2,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.506,
+        "end": 4.134,
+        "gloss_id": "부족1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.562,
+        "end": 5.011,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.432,
+        "end": 5.812,
+        "gloss_id": "못하다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.268,
+        "end": 6.528,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.982,
+        "end": 7.277,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.55,
+        "end": 7.656,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.74,
+        "end": 7.957,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.127,
+        "end": 8.558,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.301,
+        "end": 4.386,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.601,
+        "end": 3.212,
+        "loc": "1",
+        "word": "잔액이"
+      },
+      {
+        "start": 3.506,
+        "end": 4.134,
+        "loc": "2,3",
+        "word": "부족할 경우"
+      },
+      {
+        "start": 4.297,
+        "end": 5.011,
+        "loc": "0,4,5",
+        "word": "현금카드는 결제가 되지"
+      },
+      {
+        "start": 5.432,
+        "end": 6.523,
+        "loc": "6",
+        "word": "않으므로"
+      },
+      {
+        "start": 6.982,
+        "end": 7.945,
+        "loc": "7",
+        "word": "잔액을"
+      },
+      {
+        "start": 8.127,
+        "end": 8.558,
+        "loc": "8,9,10",
+        "word": "잘 관리해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.008,
+        "end": 4.142,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.268,
+        "end": 6.528,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.982,
+        "end": 7.277,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.55,
+        "end": 7.964,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.592,
+        "end": 2.827,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.268,
+        "end": 6.528
+      },
+      {
+        "descriptor": "",
+        "start": 8.127,
+        "end": 8.558
+      },
+      {
+        "descriptor": "",
+        "start": 7.74,
+        "end": 7.957
+      },
+      {
+        "descriptor": "",
+        "start": 3.75,
+        "end": 4.147
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.319,
+        "end": 6.519
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.506,
+        "end": 4.134
+      },
+      {
+        "descriptor": "",
+        "start": 5.432,
+        "end": 5.812
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.558,
+        "end": 3.212
+      },
+      {
+        "descriptor": "",
+        "start": 4.562,
+        "end": 5.011
+      },
+      {
+        "descriptor": "",
+        "start": 6.982,
+        "end": 7.987
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333480",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:44",
+    "sentence_ID": "VXPAKOKS240333480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    308,
+    126
+  ],
+  "file": "VXPAKOKS240333480.mp4",
+  "saved_as": "VXPAKOKS240333480-현금카드는잔액이부족할경우결제가되지않으므로잔액을잘관리해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,307 @@
+{
+  "id": "VXPAKOKS240341080",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적립식 펀드에 투자할 경우 적립 기간에는 환매하지 않는 것이 좋습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.206,
+        "end": 1.529,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.742,
+        "end": 1.999,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.251,
+        "end": 2.727,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.055,
+        "end": 3.427,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.722,
+        "end": 4.027,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.156,
+        "end": 4.364,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.613,
+        "end": 4.857,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.109,
+        "end": 5.439,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.718,
+        "end": 5.902,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.138,
+        "end": 6.358,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.251,
+        "end": 2.727,
+        "loc": "1,2",
+        "word": "펀드에 투자할"
+      },
+      {
+        "start": 3.055,
+        "end": 3.427,
+        "loc": "3",
+        "word": "경우"
+      },
+      {
+        "start": 1.206,
+        "end": 2.003,
+        "loc": "0",
+        "word": "적립식"
+      },
+      {
+        "start": 3.722,
+        "end": 4.027,
+        "loc": "4",
+        "word": "적립"
+      },
+      {
+        "start": 4.156,
+        "end": 4.851,
+        "loc": "5",
+        "word": "기간에는"
+      },
+      {
+        "start": 6.138,
+        "end": 6.358,
+        "loc": "9",
+        "word": "좋습니다."
+      },
+      {
+        "start": 5.109,
+        "end": 5.439,
+        "loc": "6",
+        "word": "환매하지"
+      },
+      {
+        "start": 5.718,
+        "end": 5.902,
+        "loc": "7,8",
+        "word": "않는 것이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.206,
+        "end": 1.529,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.742,
+        "end": 1.999,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.055,
+        "end": 3.427,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.722,
+        "end": 4.027,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.156,
+        "end": 4.364,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.613,
+        "end": 4.857,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.109,
+        "end": 5.439,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.718,
+        "end": 5.902,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.138,
+        "end": 6.358
+      },
+      {
+        "descriptor": "",
+        "start": 1.742,
+        "end": 1.999
+      },
+      {
+        "descriptor": "",
+        "start": 5.109,
+        "end": 5.439
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.055,
+        "end": 3.427
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.109,
+        "end": 6.364
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.206,
+        "end": 2.727
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341080",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:10:39",
+    "sentence_ID": "VXPAKOKS240341080",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    219,
+    126
+  ],
+  "file": "VXPAKOKS240341080.mp4",
+  "saved_as": "VXPAKOKS240341080-적립식펀드에투자할경우적립기간에는환매하지않는것이좋습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,327 @@
+{
+  "id": "VXPAKOKS240331150",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "카드를 사용하지 않는데 청구서를 받았다면, 신분 도용이나 오류로 인한 것입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.755,
+        "end": 1.986,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.188,
+        "end": 2.706,
+        "gloss_id": "한적없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.927,
+        "end": 3.271,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.593,
+        "end": 3.955,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.257,
+        "end": 4.907,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.028,
+        "end": 5.565,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.818,
+        "end": 5.935,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.225,
+        "end": 6.33,
+        "gloss_id": "이름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.52,
+        "end": 7.553,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.881,
+        "end": 8.174,
+        "gloss_id": "아니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.419,
+        "end": 8.906,
+        "gloss_id": "오해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.26,
+        "end": 9.541,
+        "gloss_id": "둘중하나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.755,
+        "end": 1.986,
+        "loc": "0",
+        "word": "카드를"
+      },
+      {
+        "start": 2.927,
+        "end": 3.964,
+        "loc": "3",
+        "word": "청구서를"
+      },
+      {
+        "start": 2.188,
+        "end": 2.706,
+        "loc": "1,2",
+        "word": "사용하지 않는데"
+      },
+      {
+        "start": 4.257,
+        "end": 5.574,
+        "loc": "4",
+        "word": "받았다면,"
+      },
+      {
+        "start": 5.818,
+        "end": 8.208,
+        "loc": "5,6",
+        "word": "신분 도용이나"
+      },
+      {
+        "start": 8.419,
+        "end": 9.573,
+        "loc": "7,8,9",
+        "word": "오류로 인한 것입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.927,
+        "end": 3.938,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.257,
+        "end": 4.907,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.52,
+        "end": 7.553,
+        "gloss_id": "훔치다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.419,
+        "end": 8.906,
+        "gloss_id": "오해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.028,
+        "end": 5.565,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.028,
+        "end": 5.565
+      },
+      {
+        "descriptor": "",
+        "start": 6.52,
+        "end": 7.553
+      },
+      {
+        "descriptor": "",
+        "start": 7.881,
+        "end": 8.174
+      },
+      {
+        "descriptor": "",
+        "start": 8.419,
+        "end": 8.906
+      },
+      {
+        "descriptor": "",
+        "start": 9.26,
+        "end": 9.541
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.283,
+        "end": 4.767
+      },
+      {
+        "descriptor": "",
+        "start": 6.854,
+        "end": 7.369
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.755,
+        "end": 2.793
+      },
+      {
+        "descriptor": "",
+        "start": 5.028,
+        "end": 5.565
+      },
+      {
+        "descriptor": "",
+        "start": 9.26,
+        "end": 9.541
+      },
+      {
+        "descriptor": "",
+        "start": 7.892,
+        "end": 8.906
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 9.26,
+        "end": 9.541
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.257,
+        "end": 4.907
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331150",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:08:00",
+    "sentence_ID": "VXPAKOKS240331150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    316,
+    126
+  ],
+  "file": "VXPAKOKS240331150.mp4",
+  "saved_as": "VXPAKOKS240331150-카드를사용하지않는데청구서를받았다면,신분도용이나오류로인한것입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

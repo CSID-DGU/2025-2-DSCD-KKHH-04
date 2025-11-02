@@ -1,0 +1,464 @@
+{
+  "id": "VXPAKOKS240338150",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "여러 투자자가 돈을 모으는 채권 펀드와 개인 채권 직접 투자의 차이점은 무엇입니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.83,
+        "end": 2.044,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.303,
+        "end": 2.471,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.672,
+        "end": 3.298,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.734,
+        "end": 4.245,
+        "gloss_id": "더치페이1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.39,
+        "end": 4.452,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.596,
+        "end": 4.92,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.107,
+        "end": 5.693,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.941,
+        "end": 6.055,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.276,
+        "end": 6.99,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.311,
+        "end": 7.378,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.568,
+        "end": 8.002,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.182,
+        "end": 8.811,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.018,
+        "end": 9.489,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.742,
+        "end": 10.051,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.267,
+        "end": 10.719,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 10.905,
+        "end": 11.1,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.244,
+        "end": 11.315,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.496,
+        "end": 11.771,
+        "gloss_id": "차이1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.891,
+        "end": 12.296,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.397,
+        "end": 3.511,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.83,
+        "end": 2.467,
+        "loc": "1",
+        "word": "투자자가"
+      },
+      {
+        "start": 2.672,
+        "end": 3.298,
+        "loc": "0",
+        "word": "여러"
+      },
+      {
+        "start": 3.397,
+        "end": 3.511,
+        "loc": "2",
+        "word": "돈을"
+      },
+      {
+        "start": 3.734,
+        "end": 4.245,
+        "loc": "3",
+        "word": "모으는"
+      },
+      {
+        "start": 4.379,
+        "end": 5.675,
+        "loc": "4",
+        "word": "채권"
+      },
+      {
+        "start": 5.941,
+        "end": 7.005,
+        "loc": "5",
+        "word": "펀드와"
+      },
+      {
+        "start": 7.316,
+        "end": 8.815,
+        "loc": "7",
+        "word": "채권"
+      },
+      {
+        "start": 9.018,
+        "end": 9.489,
+        "loc": "6",
+        "word": "개인"
+      },
+      {
+        "start": 9.742,
+        "end": 10.051,
+        "loc": "8",
+        "word": "직접"
+      },
+      {
+        "start": 10.267,
+        "end": 11.291,
+        "loc": "9",
+        "word": "투자의"
+      },
+      {
+        "start": 11.496,
+        "end": 11.771,
+        "loc": "10",
+        "word": "차이점은"
+      },
+      {
+        "start": 11.891,
+        "end": 12.296,
+        "loc": "11",
+        "word": "무엇입니까?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.303,
+        "end": 2.471,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.107,
+        "end": 5.693,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.941,
+        "end": 6.055,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.276,
+        "end": 6.99,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.182,
+        "end": 8.811,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.018,
+        "end": 9.489,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.742,
+        "end": 10.051,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.496,
+        "end": 11.771,
+        "gloss_id": "차이1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.734,
+        "end": 4.245,
+        "gloss_id": "더치페이1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 11.891,
+        "end": 12.296
+      },
+      {
+        "descriptor": "",
+        "start": 2.672,
+        "end": 3.298
+      },
+      {
+        "descriptor": "",
+        "start": 3.734,
+        "end": 4.245
+      },
+      {
+        "descriptor": "",
+        "start": 5.107,
+        "end": 5.693
+      },
+      {
+        "descriptor": "",
+        "start": 6.493,
+        "end": 6.99
+      },
+      {
+        "descriptor": "",
+        "start": 8.308,
+        "end": 8.811
+      },
+      {
+        "descriptor": "",
+        "start": 10.267,
+        "end": 10.719
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.499,
+        "end": 6.977
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 10.267,
+        "end": 11.76
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 8.182,
+        "end": 8.811
+      },
+      {
+        "descriptor": "",
+        "start": 11.891,
+        "end": 12.296
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338150",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:05",
+    "sentence_ID": "VXPAKOKS240338150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    412,
+    126
+  ],
+  "file": "VXPAKOKS240338150.mp4",
+  "saved_as": "VXPAKOKS240338150-여러투자자가돈을모으는채권펀드와개인채권직접투자의차이점은무엇입니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

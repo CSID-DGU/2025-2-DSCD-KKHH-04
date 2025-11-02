@@ -1,0 +1,232 @@
+{
+  "id": "VXPAKOKS240331760",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드로 24시간 아무 때나 돈을 인출할 수 있는 건지 알고 싶어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.675,
+        "end": 2.231,
+        "gloss_id": "시간:24시간",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.451,
+        "end": 2.658,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.965,
+        "end": 3.424,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.618,
+        "end": 3.717,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.008,
+        "end": 4.205,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.398,
+        "end": 4.543,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.81,
+        "end": 5.104,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.675,
+        "end": 2.652,
+        "loc": "1",
+        "word": "24시간"
+      },
+      {
+        "start": 2.965,
+        "end": 3.424,
+        "loc": "2,3",
+        "word": "아무 때나"
+      },
+      {
+        "start": 3.618,
+        "end": 4.2,
+        "loc": "0",
+        "word": "현금카드로"
+      },
+      {
+        "start": 4.398,
+        "end": 4.543,
+        "loc": "4,5",
+        "word": "돈을 인출할"
+      },
+      {
+        "start": 4.81,
+        "end": 5.104,
+        "loc": "6,7,8,9,10",
+        "word": "수 있는 건지 알고 싶어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.675,
+        "end": 2.231,
+        "gloss_id": "시간:24시간",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.451,
+        "end": 2.658,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.965,
+        "end": 3.424,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.398,
+        "end": 4.543,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.989,
+        "end": 2.206
+      },
+      {
+        "descriptor": "",
+        "start": 2.965,
+        "end": 3.424
+      },
+      {
+        "descriptor": "",
+        "start": 4.008,
+        "end": 4.205
+      },
+      {
+        "descriptor": "",
+        "start": 4.81,
+        "end": 5.104
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.867,
+        "end": 5.104
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.451,
+        "end": 3.413
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.008,
+        "end": 5.109
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331760",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:14:51",
+    "sentence_ID": "VXPAKOKS240331760",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    185,
+    126
+  ],
+  "file": "VXPAKOKS240331760.mp4",
+  "saved_as": "VXPAKOKS240331760-현금카드로24시간아무때나돈을인출할수있는건지알고싶어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

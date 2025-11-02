@@ -1,0 +1,309 @@
+{
+  "id": "VXPAKOKS240332120",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "대출을 신청하기 전에 먼저 대출 가능한 한도가 얼마인지 조회할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.825,
+        "end": 2.075,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.238,
+        "end": 2.576,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.841,
+        "end": 3.172,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.452,
+        "end": 3.922,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.196,
+        "end": 4.6,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.961,
+        "end": 5.336,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.492,
+        "end": 5.786,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.874,
+        "end": 6.499,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.801,
+        "end": 7.279,
+        "gloss_id": "뜨다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.515,
+        "end": 7.868,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.045,
+        "end": 8.346,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.825,
+        "end": 2.075,
+        "loc": "0",
+        "word": "대출을"
+      },
+      {
+        "start": 2.238,
+        "end": 2.576,
+        "loc": "1",
+        "word": "신청하기"
+      },
+      {
+        "start": 2.841,
+        "end": 3.172,
+        "loc": "2",
+        "word": "전에"
+      },
+      {
+        "start": 3.452,
+        "end": 3.922,
+        "loc": "3",
+        "word": "먼저"
+      },
+      {
+        "start": 4.196,
+        "end": 4.6,
+        "loc": "4",
+        "word": "대출"
+      },
+      {
+        "start": 5.492,
+        "end": 5.786,
+        "loc": "5",
+        "word": "가능한"
+      },
+      {
+        "start": 4.961,
+        "end": 5.336,
+        "loc": "6",
+        "word": "한도가"
+      },
+      {
+        "start": 5.874,
+        "end": 6.499,
+        "loc": "7",
+        "word": "얼마인지"
+      },
+      {
+        "start": 6.801,
+        "end": 7.864,
+        "loc": "8",
+        "word": "조회할"
+      },
+      {
+        "start": 8.045,
+        "end": 8.346,
+        "loc": "9,10",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.238,
+        "end": 2.576,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.961,
+        "end": 5.336,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.801,
+        "end": 7.279,
+        "gloss_id": "뜨다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.238,
+        "end": 2.576
+      },
+      {
+        "descriptor": "",
+        "start": 2.841,
+        "end": 3.172
+      },
+      {
+        "descriptor": "",
+        "start": 3.452,
+        "end": 3.922
+      },
+      {
+        "descriptor": "",
+        "start": 6.163,
+        "end": 6.508
+      },
+      {
+        "descriptor": "",
+        "start": 6.801,
+        "end": 7.279
+      },
+      {
+        "descriptor": "",
+        "start": 8.045,
+        "end": 8.346
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.045,
+        "end": 8.346
+      },
+      {
+        "descriptor": "",
+        "start": 5.492,
+        "end": 5.786
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.801,
+        "end": 7.279
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.825,
+        "end": 3.154
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332120",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:41:50",
+    "sentence_ID": "VXPAKOKS240332120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    265,
+    126
+  ],
+  "file": "VXPAKOKS240332120.mp4",
+  "saved_as": "VXPAKOKS240332120-대출을신청하기전에먼저대출가능한한도가얼마인지조회할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

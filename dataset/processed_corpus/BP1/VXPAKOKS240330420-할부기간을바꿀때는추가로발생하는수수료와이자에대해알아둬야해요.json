@@ -1,0 +1,237 @@
+{
+  "id": "VXPAKOKS240330420",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "할부 기간을 바꿀 때는 추가로 발생하는 수수료와 이자에 대해 알아둬야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.183,
+        "end": 2.406,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.702,
+        "end": 3.221,
+        "gloss_id": "몇개월1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.477,
+        "end": 4.046,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.425,
+        "end": 4.818,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.082,
+        "end": 5.387,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.625,
+        "end": 6.119,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.43,
+        "end": 6.779,
+        "gloss_id": "기억1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.43,
+        "end": 6.779,
+        "loc": "9,10",
+        "word": "알아둬야 해요."
+      },
+      {
+        "start": 2.183,
+        "end": 2.406,
+        "loc": "0",
+        "word": "할부"
+      },
+      {
+        "start": 2.702,
+        "end": 3.221,
+        "loc": "1",
+        "word": "기간을"
+      },
+      {
+        "start": 3.477,
+        "end": 4.046,
+        "loc": "2,3",
+        "word": "바꿀 때는"
+      },
+      {
+        "start": 4.425,
+        "end": 4.818,
+        "loc": "6",
+        "word": "수수료와"
+      },
+      {
+        "start": 5.082,
+        "end": 5.387,
+        "loc": "7,8",
+        "word": "이자에 대해"
+      },
+      {
+        "start": 5.625,
+        "end": 6.119,
+        "loc": "4,5",
+        "word": "추가로 발생하는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.183,
+        "end": 2.406,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.477,
+        "end": 4.046,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.625,
+        "end": 6.119,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.477,
+        "end": 4.046
+      },
+      {
+        "descriptor": "",
+        "start": 6.43,
+        "end": 6.779
+      },
+      {
+        "descriptor": "",
+        "start": 5.625,
+        "end": 6.119
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.697,
+        "end": 4.046
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.082,
+        "end": 6.097
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.43,
+        "end": 6.779
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.702,
+        "end": 3.221
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330420",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:30:36",
+    "sentence_ID": "VXPAKOKS240330420",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    226,
+    126
+  ],
+  "file": "VXPAKOKS240330420.mp4",
+  "saved_as": "VXPAKOKS240330420-할부기간을바꿀때는추가로발생하는수수료와이자에대해알아둬야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

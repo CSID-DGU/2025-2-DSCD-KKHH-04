@@ -1,0 +1,299 @@
+{
+  "id": "VXPAKOKS240331940",
+  "opertor": "label10",
+  "krlgg_sntenc": {
+    "koreanText": "제가 직장인 대출을 신청하게 된다면 대출할 수 있는 최대한도는 얼마입니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.737,
+        "end": 1.905,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.047,
+        "end": 2.16,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.206,
+        "end": 2.367,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.569,
+        "end": 2.855,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.015,
+        "end": 3.439,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.723,
+        "end": 4.278,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.562,
+        "end": 4.937,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.125,
+        "end": 5.3,
+        "gloss_id": "제일1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.46,
+        "end": 5.912,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.086,
+        "end": 6.385,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.542,
+        "end": 7.132,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.737,
+        "end": 1.905,
+        "loc": "0",
+        "word": "제가"
+      },
+      {
+        "start": 2.047,
+        "end": 2.367,
+        "loc": "1",
+        "word": "직장인"
+      },
+      {
+        "start": 2.569,
+        "end": 2.855,
+        "loc": "2",
+        "word": "대출을"
+      },
+      {
+        "start": 3.015,
+        "end": 3.439,
+        "loc": "3",
+        "word": "신청하게"
+      },
+      {
+        "start": 3.723,
+        "end": 4.278,
+        "loc": "4",
+        "word": "된다면"
+      },
+      {
+        "start": 4.562,
+        "end": 4.937,
+        "loc": "5",
+        "word": "대출할"
+      },
+      {
+        "start": 6.086,
+        "end": 6.385,
+        "loc": "6,7",
+        "word": "수 있는"
+      },
+      {
+        "start": 5.121,
+        "end": 5.912,
+        "loc": "8",
+        "word": "최대한도는"
+      },
+      {
+        "start": 6.542,
+        "end": 7.132,
+        "loc": "9",
+        "word": "얼마입니까?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.015,
+        "end": 3.439,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.047,
+        "end": 2.16,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.206,
+        "end": 2.367,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.723,
+        "end": 4.278,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.46,
+        "end": 5.912,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.723,
+        "end": 4.278
+      },
+      {
+        "descriptor": "",
+        "start": 6.542,
+        "end": 7.132
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.086,
+        "end": 6.385
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.46,
+        "end": 5.912
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.542,
+        "end": 7.132
+      },
+      {
+        "descriptor": "",
+        "start": 1.737,
+        "end": 1.905
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331940",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:40:16",
+    "sentence_ID": "VXPAKOKS240331940",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    249,
+    126
+  ],
+  "file": "VXPAKOKS240331940.mp4",
+  "saved_as": "VXPAKOKS240331940-제가직장인대출을신청하게된다면대출할수있는최대한도는얼마입니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

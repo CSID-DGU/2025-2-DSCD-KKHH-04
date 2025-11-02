@@ -1,0 +1,306 @@
+{
+  "id": "VXPAKOKS240338520",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "금리 인상으로 인해 기존 채권의 수요가 감소하고 가격이 하락합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.543,
+        "end": 1.698,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.986,
+        "end": 2.197,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.499,
+        "end": 2.754,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.07,
+        "end": 3.369,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.55,
+        "end": 3.613,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.7,
+        "end": 3.842,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.06,
+        "end": 4.346,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.715,
+        "end": 4.983,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.449,
+        "end": 5.748,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.005,
+        "end": 6.084,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.33,
+        "end": 6.56,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.543,
+        "end": 1.698,
+        "loc": "0",
+        "word": "금리"
+      },
+      {
+        "start": 1.986,
+        "end": 2.749,
+        "loc": "1,2",
+        "word": "인상으로 인해"
+      },
+      {
+        "start": 3.07,
+        "end": 3.369,
+        "loc": "3",
+        "word": "기존"
+      },
+      {
+        "start": 3.55,
+        "end": 4.341,
+        "loc": "4",
+        "word": "채권의"
+      },
+      {
+        "start": 4.715,
+        "end": 4.983,
+        "loc": "5",
+        "word": "수요가"
+      },
+      {
+        "start": 5.449,
+        "end": 5.748,
+        "loc": "6",
+        "word": "감소하고"
+      },
+      {
+        "start": 6.005,
+        "end": 6.084,
+        "loc": "7",
+        "word": "가격이"
+      },
+      {
+        "start": 6.33,
+        "end": 6.56,
+        "loc": "8",
+        "word": "하락합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.499,
+        "end": 2.754,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.715,
+        "end": 4.983,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.449,
+        "end": 5.748,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.005,
+        "end": 6.084,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.33,
+        "end": 6.56,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.06,
+        "end": 4.346,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.06,
+        "end": 4.346
+      },
+      {
+        "descriptor": "",
+        "start": 5.449,
+        "end": 5.748
+      },
+      {
+        "descriptor": "",
+        "start": 6.33,
+        "end": 6.56
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.631,
+        "end": 2.754
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.33,
+        "end": 6.56
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.543,
+        "end": 2.175
+      },
+      {
+        "descriptor": "",
+        "start": 3.07,
+        "end": 4.348
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338520",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:40:38",
+    "sentence_ID": "VXPAKOKS240338520",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    226,
+    126
+  ],
+  "file": "VXPAKOKS240338520.mp4",
+  "saved_as": "VXPAKOKS240338520-금리인상으로인해기존채권의수요가감소하고가격이하락합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

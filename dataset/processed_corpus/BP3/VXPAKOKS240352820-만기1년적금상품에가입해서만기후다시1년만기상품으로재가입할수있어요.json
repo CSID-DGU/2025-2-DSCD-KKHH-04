@@ -1,0 +1,463 @@
+{
+  "id": "VXPAKOKS240352820",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "만기 1년 적금 상품에 가입해서 만기 후 다시 1년 만기 상품으로 재가입할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.515,
+        "end": 3.123,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.489,
+        "end": 3.722,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.908,
+        "end": 4.556,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.698,
+        "end": 4.823,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.96,
+        "end": 5.193,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.379,
+        "end": 5.573,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.797,
+        "end": 6.543,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.88,
+        "end": 7.439,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.648,
+        "end": 7.911,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.096,
+        "end": 8.556,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.738,
+        "end": 8.961,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.165,
+        "end": 9.398,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.586,
+        "end": 10.017,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.163,
+        "end": 10.261,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 10.385,
+        "end": 10.589,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.515,
+        "end": 3.735,
+        "loc": "0",
+        "word": "만기"
+      },
+      {
+        "start": 3.908,
+        "end": 4.556,
+        "loc": "1",
+        "word": "1년"
+      },
+      {
+        "start": 4.698,
+        "end": 5.178,
+        "loc": "2",
+        "word": "적금"
+      },
+      {
+        "start": 5.379,
+        "end": 5.573,
+        "loc": "3",
+        "word": "상품에"
+      },
+      {
+        "start": 5.797,
+        "end": 6.543,
+        "loc": "4",
+        "word": "가입해서"
+      },
+      {
+        "start": 6.88,
+        "end": 7.439,
+        "loc": "5,6",
+        "word": "만기 후"
+      },
+      {
+        "start": 7.648,
+        "end": 7.911,
+        "loc": "7",
+        "word": "다시"
+      },
+      {
+        "start": 8.096,
+        "end": 8.556,
+        "loc": "8",
+        "word": "1년"
+      },
+      {
+        "start": 8.738,
+        "end": 8.961,
+        "loc": "9",
+        "word": "만기"
+      },
+      {
+        "start": 9.165,
+        "end": 9.398,
+        "loc": "10",
+        "word": "상품으로"
+      },
+      {
+        "start": 9.586,
+        "end": 10.589,
+        "loc": "11,12,13",
+        "word": "재가입할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.515,
+        "end": 3.123,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.489,
+        "end": 3.722,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.908,
+        "end": 4.556,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.96,
+        "end": 5.193,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.379,
+        "end": 5.573,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.797,
+        "end": 6.543,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.88,
+        "end": 7.439,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.096,
+        "end": 8.556,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.738,
+        "end": 8.961,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.165,
+        "end": 9.398,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.586,
+        "end": 10.017,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.163,
+        "end": 10.261,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 10.385,
+        "end": 10.589
+      },
+      {
+        "descriptor": "",
+        "start": 3.908,
+        "end": 4.556
+      },
+      {
+        "descriptor": "",
+        "start": 5.975,
+        "end": 6.543
+      },
+      {
+        "descriptor": "",
+        "start": 6.88,
+        "end": 7.439
+      },
+      {
+        "descriptor": "",
+        "start": 7.648,
+        "end": 7.911
+      },
+      {
+        "descriptor": "",
+        "start": 8.738,
+        "end": 8.961
+      },
+      {
+        "descriptor": "",
+        "start": 9.586,
+        "end": 10.017
+      },
+      {
+        "descriptor": "",
+        "start": 5.379,
+        "end": 5.573
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 10.385,
+        "end": 10.589
+      },
+      {
+        "descriptor": "",
+        "start": 6.88,
+        "end": 7.439
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.648,
+        "end": 7.911
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.515,
+        "end": 3.735
+      },
+      {
+        "descriptor": "",
+        "start": 8.738,
+        "end": 9.385
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.908,
+        "end": 4.348
+      },
+      {
+        "descriptor": "",
+        "start": 5.122,
+        "end": 5.464
+      },
+      {
+        "descriptor": "",
+        "start": 6.88,
+        "end": 7.133
+      },
+      {
+        "descriptor": "",
+        "start": 8.738,
+        "end": 8.961
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352820",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:02:12",
+    "sentence_ID": "VXPAKOKS240352820",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    355,
+    126
+  ],
+  "file": "VXPAKOKS240352820.mp4",
+  "saved_as": "VXPAKOKS240352820-만기1년적금상품에가입해서만기후다시1년만기상품으로재가입할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

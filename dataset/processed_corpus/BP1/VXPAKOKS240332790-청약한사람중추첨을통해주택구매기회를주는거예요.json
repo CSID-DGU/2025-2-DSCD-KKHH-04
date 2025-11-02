@@ -1,0 +1,241 @@
+{
+  "id": "VXPAKOKS240332790",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "청약한 사람 중 추첨을 통해 주택 구매 기회를 주는 거예요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.411,
+        "end": 2.546,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.668,
+        "end": 3.13,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.34,
+        "end": 3.946,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.192,
+        "end": 4.409,
+        "gloss_id": "추첨1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.451,
+        "end": 5.095,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.242,
+        "end": 5.44,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.681,
+        "end": 5.854,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.192,
+        "end": 5.081,
+        "loc": "3,4",
+        "word": "추첨을 통해"
+      },
+      {
+        "start": 2.411,
+        "end": 3.934,
+        "loc": "0,1,2",
+        "word": "청약한 사람 중"
+      },
+      {
+        "start": 5.242,
+        "end": 5.44,
+        "loc": "5,6",
+        "word": "주택 구매"
+      },
+      {
+        "start": 5.681,
+        "end": 5.854,
+        "loc": "7,8,9",
+        "word": "기회를 주는 거예요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.417,
+        "end": 2.54,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.668,
+        "end": 3.13,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.34,
+        "end": 3.946,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.451,
+        "end": 5.095,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.192,
+        "end": 4.409,
+        "gloss_id": "추첨1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.242,
+        "end": 5.44,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.681,
+        "end": 5.854
+      },
+      {
+        "descriptor": "",
+        "start": 2.668,
+        "end": 3.13
+      },
+      {
+        "descriptor": "",
+        "start": 3.645,
+        "end": 3.925
+      },
+      {
+        "descriptor": "",
+        "start": 4.451,
+        "end": 5.095
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.52,
+        "end": 5.101
+      },
+      {
+        "descriptor": "",
+        "start": 5.681,
+        "end": 5.854
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.417,
+        "end": 3.934
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332790",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:21:44",
+    "sentence_ID": "VXPAKOKS240332790",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    226,
+    126
+  ],
+  "file": "VXPAKOKS240332790.mp4",
+  "saved_as": "VXPAKOKS240332790-청약한사람중추첨을통해주택구매기회를주는거예요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,241 @@
+{
+  "id": "VXPAKOKS240329390",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "은행 애플리케이션에 입출금 거래가 있던데, 입출금 거래가 무엇인지 설명해 주십시오.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.658,
+        "end": 1.857,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.026,
+        "end": 2.601,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.762,
+        "end": 2.903,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.121,
+        "end": 3.69,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.772,
+        "end": 4.306,
+        "gloss_id": "넣다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.667,
+        "end": 4.861,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.025,
+        "end": 5.253,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.402,
+        "end": 5.89,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.658,
+        "end": 1.857,
+        "loc": "0",
+        "word": "은행"
+      },
+      {
+        "start": 2.026,
+        "end": 2.601,
+        "loc": "1",
+        "word": "애플리케이션에"
+      },
+      {
+        "start": 2.762,
+        "end": 4.307,
+        "loc": "2,3",
+        "word": "입출금 거래가"
+      },
+      {
+        "start": 4.667,
+        "end": 4.861,
+        "loc": "4",
+        "word": "있던데,"
+      },
+      {
+        "start": 5.025,
+        "end": 5.253,
+        "loc": "5,6",
+        "word": "입출금 거래가"
+      },
+      {
+        "start": 5.402,
+        "end": 5.89,
+        "loc": "7,8,9",
+        "word": "무엇인지 설명해 주십시오."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.658,
+        "end": 1.857,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.121,
+        "end": 3.69,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.772,
+        "end": 4.306,
+        "gloss_id": "넣다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 2.026,
+        "end": 2.601
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.121,
+        "end": 3.69
+      },
+      {
+        "descriptor": "",
+        "start": 3.772,
+        "end": 4.306
+      },
+      {
+        "descriptor": "",
+        "start": 5.402,
+        "end": 5.89
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.402,
+        "end": 5.89
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.121,
+        "end": 4.297
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.658,
+        "end": 2.596
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329390",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:07:32",
+    "sentence_ID": "VXPAKOKS240329390",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    208,
+    126
+  ],
+  "file": "VXPAKOKS240329390.mp4",
+  "saved_as": "VXPAKOKS240329390-은행애플리케이션에입출금거래가있던데,입출금거래가무엇인지설명해주십시오.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

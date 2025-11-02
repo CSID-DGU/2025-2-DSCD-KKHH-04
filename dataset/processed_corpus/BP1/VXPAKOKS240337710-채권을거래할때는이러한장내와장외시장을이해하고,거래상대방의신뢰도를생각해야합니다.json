@@ -1,0 +1,413 @@
+{
+  "id": "VXPAKOKS240337710",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권을 거래할 때는 이러한 장내와 장외 시장을 이해하고, 거래 상대방의 신뢰도를 생각해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.57,
+        "end": 2.648,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.876,
+        "end": 3.0,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.214,
+        "end": 3.912,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.234,
+        "end": 4.597,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.91,
+        "end": 5.385,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.724,
+        "end": 5.864,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.093,
+        "end": 6.705,
+        "gloss_id": "곳1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.121,
+        "end": 7.423,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.715,
+        "end": 8.066,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.501,
+        "end": 8.802,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.999,
+        "end": 9.325,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.654,
+        "end": 10.042,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.293,
+        "end": 10.594,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.854,
+        "end": 11.155,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.591,
+        "end": 12.054,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.3,
+        "end": 12.639,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.869,
+        "end": 13.22,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.549,
+        "end": 3.888,
+        "loc": "0",
+        "word": "채권을"
+      },
+      {
+        "start": 4.234,
+        "end": 4.597,
+        "loc": "1",
+        "word": "거래할"
+      },
+      {
+        "start": 4.91,
+        "end": 5.385,
+        "loc": "2",
+        "word": "때는"
+      },
+      {
+        "start": 5.724,
+        "end": 6.682,
+        "loc": "3,4",
+        "word": "이러한 장내와"
+      },
+      {
+        "start": 9.009,
+        "end": 10.042,
+        "loc": "7",
+        "word": "이해하고,"
+      },
+      {
+        "start": 7.121,
+        "end": 8.787,
+        "loc": "5,6",
+        "word": "장외 시장을"
+      },
+      {
+        "start": 10.293,
+        "end": 10.594,
+        "loc": "8,9",
+        "word": "거래 상대방의"
+      },
+      {
+        "start": 10.854,
+        "end": 12.06,
+        "loc": "10",
+        "word": "신뢰도를"
+      },
+      {
+        "start": 12.3,
+        "end": 13.222,
+        "loc": "11,12",
+        "word": "생각해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.214,
+        "end": 3.912,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.234,
+        "end": 4.597,
+        "gloss_id": "주고받다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.91,
+        "end": 5.385,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.724,
+        "end": 5.864,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.121,
+        "end": 7.423,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.715,
+        "end": 8.066,
+        "gloss_id": "보통1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.501,
+        "end": 8.802,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.999,
+        "end": 9.325,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.591,
+        "end": 12.054,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 12.869,
+        "end": 13.22,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.338,
+        "end": 3.912
+      },
+      {
+        "descriptor": "",
+        "start": 4.91,
+        "end": 5.385
+      },
+      {
+        "descriptor": "",
+        "start": 6.093,
+        "end": 6.705
+      },
+      {
+        "descriptor": "",
+        "start": 9.654,
+        "end": 10.042
+      },
+      {
+        "descriptor": "",
+        "start": 11.591,
+        "end": 12.054
+      },
+      {
+        "descriptor": "",
+        "start": 12.869,
+        "end": 13.22
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.214,
+        "end": 3.912
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.214,
+        "end": 5.387
+      },
+      {
+        "descriptor": "",
+        "start": 9.654,
+        "end": 10.042
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337710",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:55",
+    "sentence_ID": "VXPAKOKS240337710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    446,
+    126
+  ],
+  "file": "VXPAKOKS240337710.mp4",
+  "saved_as": "VXPAKOKS240337710-채권을거래할때는이러한장내와장외시장을이해하고,거래상대방의신뢰도를생각해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

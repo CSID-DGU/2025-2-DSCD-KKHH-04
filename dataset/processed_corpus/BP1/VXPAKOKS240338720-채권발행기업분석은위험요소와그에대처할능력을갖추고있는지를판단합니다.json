@@ -1,0 +1,372 @@
+{
+  "id": "VXPAKOKS240338720",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "채권 발행 기업 분석은 위험 요소와 그에 대처할 능력을 갖추고 있는지를 판단합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.67,
+        "end": 1.737,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.836,
+        "end": 2.08,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.316,
+        "end": 2.628,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.98,
+        "end": 3.312,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.398,
+        "end": 3.508,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.036,
+        "end": 4.422,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.94,
+        "end": 5.474,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.82,
+        "end": 5.984,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.213,
+        "end": 6.491,
+        "gloss_id": "생기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.931,
+        "end": 7.377,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.62,
+        "end": 7.884,
+        "gloss_id": "능력1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.205,
+        "end": 8.463,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.656,
+        "end": 8.853,
+        "gloss_id": "눈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.016,
+        "end": 9.368,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.649,
+        "end": 9.934,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.67,
+        "end": 2.622,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 2.98,
+        "end": 3.312,
+        "loc": "1",
+        "word": "발행"
+      },
+      {
+        "start": 4.036,
+        "end": 4.422,
+        "loc": "2",
+        "word": "기업"
+      },
+      {
+        "start": 4.94,
+        "end": 5.474,
+        "loc": "4,5",
+        "word": "위험 요소와"
+      },
+      {
+        "start": 5.82,
+        "end": 7.384,
+        "loc": "6,7",
+        "word": "그에 대처할"
+      },
+      {
+        "start": 7.62,
+        "end": 7.884,
+        "loc": "8",
+        "word": "능력을"
+      },
+      {
+        "start": 8.205,
+        "end": 8.463,
+        "loc": "9,10",
+        "word": "갖추고 있는지를"
+      },
+      {
+        "start": 8.656,
+        "end": 9.936,
+        "loc": "11",
+        "word": "판단합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.036,
+        "end": 4.422,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.82,
+        "end": 5.984,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.213,
+        "end": 6.491,
+        "gloss_id": "생기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.931,
+        "end": 7.377,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.62,
+        "end": 7.884,
+        "gloss_id": "능력1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.016,
+        "end": 9.368,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.649,
+        "end": 9.934,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.316,
+        "end": 2.628,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.036,
+        "end": 4.422
+      },
+      {
+        "descriptor": "",
+        "start": 4.94,
+        "end": 5.474
+      },
+      {
+        "descriptor": "",
+        "start": 8.205,
+        "end": 9.367
+      },
+      {
+        "descriptor": "",
+        "start": 9.649,
+        "end": 9.934
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.213,
+        "end": 6.491
+      },
+      {
+        "descriptor": "",
+        "start": 8.205,
+        "end": 8.463
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.94,
+        "end": 6.491
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.67,
+        "end": 3.3
+      },
+      {
+        "descriptor": "",
+        "start": 6.213,
+        "end": 8.455
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338720",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:45:54",
+    "sentence_ID": "VXPAKOKS240338720",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    339,
+    126
+  ],
+  "file": "VXPAKOKS240338720.mp4",
+  "saved_as": "VXPAKOKS240338720-채권발행기업분석은위험요소와그에대처할능력을갖추고있는지를판단합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

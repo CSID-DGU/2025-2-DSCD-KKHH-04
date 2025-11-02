@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240336930",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "기준 금리가 하락하면 대출이 쉬워져 자금이 시장에 많이 유통되며, 시장금리가 하락합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.999,
+        "end": 2.321,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.635,
+        "end": 3.135,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.411,
+        "end": 3.636,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.848,
+        "end": 4.17,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.365,
+        "end": 4.639,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.858,
+        "end": 5.067,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.399,
+        "end": 5.689,
+        "gloss_id": "기름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.03,
+        "end": 6.239,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.45,
+        "end": 6.869,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.194,
+        "end": 7.492,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.999,
+        "end": 2.321,
+        "loc": "0,1",
+        "word": "기준 금리가"
+      },
+      {
+        "start": 2.635,
+        "end": 3.135,
+        "loc": "2",
+        "word": "하락하면"
+      },
+      {
+        "start": 3.411,
+        "end": 3.628,
+        "loc": "3",
+        "word": "대출이"
+      },
+      {
+        "start": 3.848,
+        "end": 4.17,
+        "loc": "4",
+        "word": "쉬워져"
+      },
+      {
+        "start": 5.399,
+        "end": 6.231,
+        "loc": "7,8",
+        "word": "많이 유통되며,"
+      },
+      {
+        "start": 4.365,
+        "end": 5.063,
+        "loc": "5,6",
+        "word": "자금이 시장에"
+      },
+      {
+        "start": 6.45,
+        "end": 6.869,
+        "loc": "9",
+        "word": "시장금리가"
+      },
+      {
+        "start": 7.194,
+        "end": 7.492,
+        "loc": "10",
+        "word": "하락합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.635,
+        "end": 3.135,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.194,
+        "end": 7.492,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.365,
+        "end": 4.638,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.858,
+        "end": 5.067,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.03,
+        "end": 6.239,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.45,
+        "end": 6.869,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.635,
+        "end": 3.135
+      },
+      {
+        "descriptor": "",
+        "start": 3.944,
+        "end": 4.17
+      },
+      {
+        "descriptor": "",
+        "start": 5.399,
+        "end": 5.689
+      },
+      {
+        "descriptor": "",
+        "start": 6.085,
+        "end": 6.239
+      },
+      {
+        "descriptor": "",
+        "start": 7.194,
+        "end": 7.492
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.944,
+        "end": 4.17
+      },
+      {
+        "descriptor": "",
+        "start": 6.089,
+        "end": 6.239
+      },
+      {
+        "descriptor": "",
+        "start": 4.898,
+        "end": 5.067
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.999,
+        "end": 3.137
+      },
+      {
+        "descriptor": "",
+        "start": 6.45,
+        "end": 6.869
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336930",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:33:19",
+    "sentence_ID": "VXPAKOKS240336930",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    291,
+    126
+  ],
+  "file": "VXPAKOKS240336930.mp4",
+  "saved_as": "VXPAKOKS240336930-기준금리가하락하면대출이쉬워져자금이시장에많이유통되며,시장금리가하락합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

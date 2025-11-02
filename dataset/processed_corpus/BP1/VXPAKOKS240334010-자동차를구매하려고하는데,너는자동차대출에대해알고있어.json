@@ -1,0 +1,218 @@
+{
+  "id": "VXPAKOKS240334010",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "자동차를 구매하려고 하는데, 너는 자동차 대출에 대해 알고 있어?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.583,
+        "end": 2.723,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.947,
+        "end": 3.168,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.456,
+        "end": 4.136,
+        "gloss_id": "계획1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.245,
+        "end": 4.366,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.608,
+        "end": 4.736,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.987,
+        "end": 5.208,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.414,
+        "end": 5.845,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.583,
+        "end": 2.723,
+        "loc": "0",
+        "word": "자동차를"
+      },
+      {
+        "start": 2.947,
+        "end": 4.141,
+        "loc": "1,2",
+        "word": "구매하려고 하는데,"
+      },
+      {
+        "start": 5.414,
+        "end": 5.845,
+        "loc": "3,7,8",
+        "word": "너는 알고 있어?"
+      },
+      {
+        "start": 4.245,
+        "end": 4.366,
+        "loc": "4",
+        "word": "자동차"
+      },
+      {
+        "start": 4.608,
+        "end": 5.207,
+        "loc": "5,6",
+        "word": "대출에 대해"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.583,
+        "end": 2.723,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.947,
+        "end": 3.168,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.456,
+        "end": 4.136,
+        "gloss_id": "계획1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.245,
+        "end": 4.366,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.987,
+        "end": 5.208,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.642,
+        "end": 4.136
+      },
+      {
+        "descriptor": "",
+        "start": 5.414,
+        "end": 5.845
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.245,
+        "end": 5.829
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334010",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:23",
+    "sentence_ID": "VXPAKOKS240334010",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    223,
+    126
+  ],
+  "file": "VXPAKOKS240334010.mp4",
+  "saved_as": "VXPAKOKS240334010-자동차를구매하려고하는데,너는자동차대출에대해알고있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

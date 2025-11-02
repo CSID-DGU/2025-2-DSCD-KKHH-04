@@ -1,0 +1,244 @@
+{
+  "id": "VXPAKOKS240328190",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "예금에 가입하는 것은 돈을 계획적으로 모을 수 있다는 것을 말해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.709,
+        "end": 1.825,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.021,
+        "end": 2.258,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.401,
+        "end": 2.593,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.8,
+        "end": 3.148,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.326,
+        "end": 3.715,
+        "gloss_id": "미래1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.872,
+        "end": 3.998,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.188,
+        "end": 4.688,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.893,
+        "end": 5.13,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.709,
+        "end": 2.255,
+        "loc": "0",
+        "word": "예금에"
+      },
+      {
+        "start": 2.401,
+        "end": 2.593,
+        "loc": "1",
+        "word": "가입하는"
+      },
+      {
+        "start": 2.8,
+        "end": 3.148,
+        "loc": "2",
+        "word": "것은"
+      },
+      {
+        "start": 3.872,
+        "end": 3.998,
+        "loc": "3",
+        "word": "돈을"
+      },
+      {
+        "start": 4.188,
+        "end": 4.688,
+        "loc": "5",
+        "word": "모을"
+      },
+      {
+        "start": 4.893,
+        "end": 5.13,
+        "loc": "6,7,8,9",
+        "word": "수 있다는 것을 말해요."
+      },
+      {
+        "start": 3.326,
+        "end": 3.715,
+        "loc": "4",
+        "word": "계획적으로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.021,
+        "end": 2.258,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.401,
+        "end": 2.593,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.8,
+        "end": 3.148,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.188,
+        "end": 4.688,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.8,
+        "end": 3.148
+      },
+      {
+        "descriptor": "",
+        "start": 4.893,
+        "end": 5.13
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.893,
+        "end": 5.13
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 4.188,
+        "end": 4.688
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.021,
+        "end": 2.597
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328190",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:25:55",
+    "sentence_ID": "VXPAKOKS240328190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    182,
+    126
+  ],
+  "file": "VXPAKOKS240328190.mp4",
+  "saved_as": "VXPAKOKS240328190-예금에가입하는것은돈을계획적으로모을수있다는것을말해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

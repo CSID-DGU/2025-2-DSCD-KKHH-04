@@ -1,0 +1,292 @@
+{
+  "id": "VXPAKOKS240338880",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "새로 발행되는 채권들이 더 낮은 이자를 제공하게 하려면 금리가 낮아져야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.354,
+        "end": 2.524,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.622,
+        "end": 2.693,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.8,
+        "end": 2.948,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.199,
+        "end": 3.615,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.934,
+        "end": 4.195,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.528,
+        "end": 4.614,
+        "gloss_id": "부담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.968,
+        "end": 5.173,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.408,
+        "end": 5.788,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.157,
+        "end": 6.453,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.81,
+        "end": 7.19,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.475,
+        "end": 7.841,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.354,
+        "end": 2.524,
+        "loc": "0,1",
+        "word": "새로 발행되는"
+      },
+      {
+        "start": 2.622,
+        "end": 3.607,
+        "loc": "2",
+        "word": "채권들이"
+      },
+      {
+        "start": 3.934,
+        "end": 4.188,
+        "loc": "5",
+        "word": "이자를"
+      },
+      {
+        "start": 4.528,
+        "end": 5.176,
+        "loc": "3,4",
+        "word": "더 낮은"
+      },
+      {
+        "start": 6.157,
+        "end": 6.453,
+        "loc": "8",
+        "word": "금리가"
+      },
+      {
+        "start": 5.408,
+        "end": 5.788,
+        "loc": "6,7",
+        "word": "제공하게 하려면"
+      },
+      {
+        "start": 6.81,
+        "end": 7.85,
+        "loc": "9,10",
+        "word": "낮아져야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.354,
+        "end": 2.524,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.968,
+        "end": 5.173,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.199,
+        "end": 3.615,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.81,
+        "end": 7.19,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.475,
+        "end": 7.841,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.199,
+        "end": 3.615
+      },
+      {
+        "descriptor": "",
+        "start": 7.475,
+        "end": 7.841
+      },
+      {
+        "descriptor": "",
+        "start": 5.408,
+        "end": 5.788
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.938,
+        "end": 5.055
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.62,
+        "end": 5.796
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.354,
+        "end": 3.613
+      },
+      {
+        "descriptor": "",
+        "start": 5.408,
+        "end": 5.788
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338880",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:48:26",
+    "sentence_ID": "VXPAKOKS240338880",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    253,
+    126
+  ],
+  "file": "VXPAKOKS240338880.mp4",
+  "saved_as": "VXPAKOKS240338880-새로발행되는채권들이더낮은이자를제공하게하려면금리가낮아져야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

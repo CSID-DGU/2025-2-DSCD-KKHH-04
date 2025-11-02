@@ -1,0 +1,310 @@
+{
+  "id": "VXPAKOKS240335130",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 소득은 배우자와 가족에게는 공유할 수 있지만, 그 외에는 금지돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.398,
+        "end": 2.915,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.23,
+        "end": 3.41,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.755,
+        "end": 4.306,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.728,
+        "end": 5.236,
+        "gloss_id": "부부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.59,
+        "end": 5.913,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.22,
+        "end": 6.425,
+        "gloss_id": "말하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.728,
+        "end": 7.034,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.369,
+        "end": 7.641,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.868,
+        "end": 8.039,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.23,
+        "end": 8.41,
+        "gloss_id": "말하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.64,
+        "end": 9.013,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.398,
+        "end": 2.915,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 3.23,
+        "end": 4.31,
+        "loc": "1",
+        "word": "소득은"
+      },
+      {
+        "start": 4.728,
+        "end": 5.236,
+        "loc": "2",
+        "word": "배우자와"
+      },
+      {
+        "start": 5.59,
+        "end": 5.913,
+        "loc": "3",
+        "word": "가족에게는"
+      },
+      {
+        "start": 6.22,
+        "end": 6.425,
+        "loc": "4,5",
+        "word": "공유할 수"
+      },
+      {
+        "start": 6.728,
+        "end": 7.034,
+        "loc": "6",
+        "word": "있지만,"
+      },
+      {
+        "start": 7.369,
+        "end": 8.398,
+        "loc": "7,8",
+        "word": "그 외에는"
+      },
+      {
+        "start": 8.64,
+        "end": 9.013,
+        "loc": "9",
+        "word": "금지돼요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.398,
+        "end": 2.915,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.755,
+        "end": 4.306,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.728,
+        "end": 5.236,
+        "gloss_id": "부부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.369,
+        "end": 7.641,
+        "gloss_id": "외3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.64,
+        "end": 9.013,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.59,
+        "end": 5.913,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.969,
+        "end": 4.304
+      },
+      {
+        "descriptor": "",
+        "start": 4.728,
+        "end": 5.236
+      },
+      {
+        "descriptor": "",
+        "start": 5.59,
+        "end": 5.913
+      },
+      {
+        "descriptor": "",
+        "start": 8.64,
+        "end": 9.013
+      },
+      {
+        "descriptor": "",
+        "start": 6.728,
+        "end": 7.034
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.969,
+        "end": 4.304
+      },
+      {
+        "descriptor": "",
+        "start": 8.857,
+        "end": 9.011
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.398,
+        "end": 4.295
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335130",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:46",
+    "sentence_ID": "VXPAKOKS240335130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    303,
+    126
+  ],
+  "file": "VXPAKOKS240335130.mp4",
+  "saved_as": "VXPAKOKS240335130-주식소득은배우자와가족에게는공유할수있지만,그외에는금지돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

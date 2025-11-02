@@ -1,0 +1,262 @@
+{
+  "id": "VXPAKOKS240336490",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "민간 기업이 발행한 채권은 부실 채권이 될 수 있으므로 주의해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.466,
+        "end": 2.581,
+        "gloss_id": "보통2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.77,
+        "end": 3.204,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.292,
+        "end": 3.399,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.622,
+        "end": 3.802,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.014,
+        "end": 4.858,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.22,
+        "end": 5.425,
+        "gloss_id": "포기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.646,
+        "end": 6.293,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.703,
+        "end": 6.941,
+        "gloss_id": "혹시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.244,
+        "end": 7.416,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 7.244,
+        "end": 7.416,
+        "loc": "9,10",
+        "word": "주의해야 합니다."
+      },
+      {
+        "start": 2.466,
+        "end": 2.581,
+        "loc": "0",
+        "word": "민간"
+      },
+      {
+        "start": 2.77,
+        "end": 3.204,
+        "loc": "1",
+        "word": "기업이"
+      },
+      {
+        "start": 3.293,
+        "end": 4.858,
+        "loc": "2,3",
+        "word": "발행한 채권은"
+      },
+      {
+        "start": 5.22,
+        "end": 6.941,
+        "loc": "4,5,6,7,8",
+        "word": "부실 채권이 될 수 있으므로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.466,
+        "end": 2.581,
+        "gloss_id": "보통2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.77,
+        "end": 3.204,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.014,
+        "end": 4.858,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.22,
+        "end": 5.425,
+        "gloss_id": "포기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.646,
+        "end": 6.293,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.244,
+        "end": 7.416,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.244,
+        "end": 7.416
+      },
+      {
+        "descriptor": "",
+        "start": 2.77,
+        "end": 3.204
+      },
+      {
+        "descriptor": "",
+        "start": 4.205,
+        "end": 4.852
+      },
+      {
+        "descriptor": "",
+        "start": 5.866,
+        "end": 6.287
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.866,
+        "end": 6.287
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.622,
+        "end": 4.546
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336490",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:12",
+    "sentence_ID": "VXPAKOKS240336490",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    295,
+    126
+  ],
+  "file": "VXPAKOKS240336490.mp4",
+  "saved_as": "VXPAKOKS240336490-민간기업이발행한채권은부실채권이될수있으므로주의해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

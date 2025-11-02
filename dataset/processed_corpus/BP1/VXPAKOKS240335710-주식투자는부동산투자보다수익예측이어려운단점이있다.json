@@ -1,0 +1,289 @@
+{
+  "id": "VXPAKOKS240335710",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자는 부동산 투자보다 수익 예측이 어려운 단점이 있다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.006,
+        "end": 2.396,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.549,
+        "end": 2.764,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.96,
+        "end": 3.343,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.576,
+        "end": 3.908,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.105,
+        "end": 4.357,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.529,
+        "end": 4.744,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.982,
+        "end": 5.285,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.48,
+        "end": 5.717,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.911,
+        "end": 6.148,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.325,
+        "end": 6.496,
+        "gloss_id": "나쁘다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.72,
+        "end": 6.884,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.006,
+        "end": 2.396,
+        "loc": "2",
+        "word": "부동산"
+      },
+      {
+        "start": 2.549,
+        "end": 3.356,
+        "loc": "3",
+        "word": "투자보다"
+      },
+      {
+        "start": 3.576,
+        "end": 3.908,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 4.105,
+        "end": 4.357,
+        "loc": "1",
+        "word": "투자는"
+      },
+      {
+        "start": 4.529,
+        "end": 5.292,
+        "loc": "4",
+        "word": "수익"
+      },
+      {
+        "start": 6.325,
+        "end": 6.876,
+        "loc": "7,8",
+        "word": "단점이 있다."
+      },
+      {
+        "start": 5.48,
+        "end": 5.717,
+        "loc": "5",
+        "word": "예측이"
+      },
+      {
+        "start": 5.911,
+        "end": 6.148,
+        "loc": "6",
+        "word": "어려운"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.006,
+        "end": 2.761,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.96,
+        "end": 3.343,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.576,
+        "end": 3.908,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.982,
+        "end": 5.285,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.006,
+        "end": 2.396
+      },
+      {
+        "descriptor": "",
+        "start": 2.96,
+        "end": 3.343
+      },
+      {
+        "descriptor": "",
+        "start": 5.911,
+        "end": 6.148
+      },
+      {
+        "descriptor": "",
+        "start": 6.72,
+        "end": 6.884
+      },
+      {
+        "descriptor": "",
+        "start": 4.982,
+        "end": 5.285
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.982,
+        "end": 6.162
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.006,
+        "end": 2.739
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335710",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:45",
+    "sentence_ID": "VXPAKOKS240335710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    263,
+    126
+  ],
+  "file": "VXPAKOKS240335710.mp4",
+  "saved_as": "VXPAKOKS240335710-주식투자는부동산투자보다수익예측이어려운단점이있다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

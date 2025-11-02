@@ -1,0 +1,384 @@
+{
+  "id": "VXPAKOKS240338680",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "신용 등급이 높다는 것은 해당 채권이 발행된 기업이나 정부가 채무 이행 능력이 우수하다는 것을 의미합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.512,
+        "end": 1.622,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.995,
+        "end": 2.086,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.44,
+        "end": 2.849,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.165,
+        "end": 3.33,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.417,
+        "end": 3.536,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.742,
+        "end": 3.88,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.09,
+        "end": 4.499,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.05,
+        "end": 5.351,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.6,
+        "end": 6.308,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.666,
+        "end": 6.757,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.855,
+        "end": 7.255,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.472,
+        "end": 7.7,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.064,
+        "end": 8.491,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.941,
+        "end": 9.106,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.411,
+        "end": 9.503,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.749,
+        "end": 9.904,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.512,
+        "end": 1.622,
+        "loc": "0",
+        "word": "신용"
+      },
+      {
+        "start": 1.995,
+        "end": 2.086,
+        "loc": "1",
+        "word": "등급이"
+      },
+      {
+        "start": 2.44,
+        "end": 2.849,
+        "loc": "2,3",
+        "word": "높다는 것은"
+      },
+      {
+        "start": 3.165,
+        "end": 3.33,
+        "loc": "4",
+        "word": "해당"
+      },
+      {
+        "start": 3.417,
+        "end": 4.488,
+        "loc": "5,6",
+        "word": "채권이 발행된"
+      },
+      {
+        "start": 5.05,
+        "end": 5.351,
+        "loc": "7",
+        "word": "기업이나"
+      },
+      {
+        "start": 5.6,
+        "end": 6.308,
+        "loc": "8",
+        "word": "정부가"
+      },
+      {
+        "start": 6.666,
+        "end": 8.497,
+        "loc": "9,10,11",
+        "word": "채무 이행 능력이"
+      },
+      {
+        "start": 8.941,
+        "end": 9.106,
+        "loc": "13,14",
+        "word": "것을 의미합니다."
+      },
+      {
+        "start": 9.411,
+        "end": 9.902,
+        "loc": "12",
+        "word": "우수하다는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.512,
+        "end": 1.621,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.05,
+        "end": 5.351,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.6,
+        "end": 6.308,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.855,
+        "end": 7.255,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.064,
+        "end": 8.491,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.941,
+        "end": 9.106,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.09,
+        "end": 4.499,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.44,
+        "end": 2.849
+      },
+      {
+        "descriptor": "",
+        "start": 5.05,
+        "end": 5.351
+      },
+      {
+        "descriptor": "",
+        "start": 8.064,
+        "end": 8.491
+      },
+      {
+        "descriptor": "",
+        "start": 9.749,
+        "end": 9.895
+      },
+      {
+        "descriptor": "",
+        "start": 8.941,
+        "end": 9.106
+      },
+      {
+        "descriptor": "",
+        "start": 4.09,
+        "end": 4.499
+      },
+      {
+        "descriptor": "",
+        "start": 5.6,
+        "end": 6.308
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.512,
+        "end": 2.846
+      },
+      {
+        "descriptor": "",
+        "start": 6.856,
+        "end": 8.498
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338680",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:45:44",
+    "sentence_ID": "VXPAKOKS240338680",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    326,
+    126
+  ],
+  "file": "VXPAKOKS240338680.mp4",
+  "saved_as": "VXPAKOKS240338680-신용등급이높다는것은해당채권이발행된기업이나정부가채무이행능력이우수하다는것을의미합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

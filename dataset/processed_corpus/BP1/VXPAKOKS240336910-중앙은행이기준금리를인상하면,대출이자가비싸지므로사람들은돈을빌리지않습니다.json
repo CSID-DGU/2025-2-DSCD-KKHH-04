@@ -1,0 +1,337 @@
+{
+  "id": "VXPAKOKS240336910",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "중앙은행이 기준금리를 인상하면, 대출 이자가 비싸지므로 사람들은 돈을 빌리지 않습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.112,
+        "end": 2.233,
+        "gloss_id": "중앙1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.465,
+        "end": 3.028,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.266,
+        "end": 3.585,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.918,
+        "end": 4.869,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.254,
+        "end": 5.573,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.751,
+        "end": 5.863,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.084,
+        "end": 6.602,
+        "gloss_id": "부담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.96,
+        "end": 7.207,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.349,
+        "end": 7.533,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.7,
+        "end": 8.064,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.305,
+        "end": 8.507,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.612,
+        "end": 8.904,
+        "gloss_id": "아니다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.266,
+        "end": 3.585,
+        "loc": "1",
+        "word": "기준금리를"
+      },
+      {
+        "start": 3.918,
+        "end": 4.869,
+        "loc": "2",
+        "word": "인상하면,"
+      },
+      {
+        "start": 6.084,
+        "end": 7.211,
+        "loc": "5",
+        "word": "비싸지므로"
+      },
+      {
+        "start": 5.254,
+        "end": 5.573,
+        "loc": "3",
+        "word": "대출"
+      },
+      {
+        "start": 5.769,
+        "end": 5.863,
+        "loc": "4",
+        "word": "이자가"
+      },
+      {
+        "start": 2.117,
+        "end": 3.028,
+        "loc": "0",
+        "word": "중앙은행이"
+      },
+      {
+        "start": 7.349,
+        "end": 8.066,
+        "loc": "6",
+        "word": "사람들은"
+      },
+      {
+        "start": 8.305,
+        "end": 8.507,
+        "loc": "7,8",
+        "word": "돈을 빌리지"
+      },
+      {
+        "start": 8.612,
+        "end": 8.904,
+        "loc": "9",
+        "word": "않습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.918,
+        "end": 4.869,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.465,
+        "end": 3.588,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.96,
+        "end": 7.207,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.349,
+        "end": 7.524,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.465,
+        "end": 3.028
+      },
+      {
+        "descriptor": "",
+        "start": 3.918,
+        "end": 4.869
+      },
+      {
+        "descriptor": "",
+        "start": 6.084,
+        "end": 6.602
+      },
+      {
+        "descriptor": "",
+        "start": 6.96,
+        "end": 7.207
+      },
+      {
+        "descriptor": "",
+        "start": 7.7,
+        "end": 8.064
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.96,
+        "end": 7.207
+      },
+      {
+        "descriptor": "",
+        "start": 4.08,
+        "end": 4.869
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 8.264,
+        "end": 8.896
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.266,
+        "end": 4.397
+      },
+      {
+        "descriptor": "",
+        "start": 5.75,
+        "end": 6.319
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.112,
+        "end": 2.836
+      },
+      {
+        "descriptor": "",
+        "start": 3.699,
+        "end": 4.855
+      },
+      {
+        "descriptor": "",
+        "start": 7.349,
+        "end": 8.016
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336910",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:32:34",
+    "sentence_ID": "VXPAKOKS240336910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    325,
+    126
+  ],
+  "file": "VXPAKOKS240336910.mp4",
+  "saved_as": "VXPAKOKS240336910-중앙은행이기준금리를인상하면,대출이자가비싸지므로사람들은돈을빌리지않습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

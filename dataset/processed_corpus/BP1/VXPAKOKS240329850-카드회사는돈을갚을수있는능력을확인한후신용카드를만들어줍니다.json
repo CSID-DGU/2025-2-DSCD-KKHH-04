@@ -1,0 +1,318 @@
+{
+  "id": "VXPAKOKS240329850",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "카드회사는 돈을 갚을 수 있는 능력을 확인한 후 신용카드를 만들어 줍니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.807,
+        "end": 1.99,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.214,
+        "end": 2.687,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.909,
+        "end": 3.031,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.192,
+        "end": 3.543,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.719,
+        "end": 4.097,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.279,
+        "end": 4.61,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.765,
+        "end": 5.292,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.575,
+        "end": 5.899,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.189,
+        "end": 6.318,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.459,
+        "end": 6.682,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.911,
+        "end": 7.06,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.242,
+        "end": 7.526,
+        "gloss_id": "주다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.807,
+        "end": 2.692,
+        "loc": "0",
+        "word": "카드회사는"
+      },
+      {
+        "start": 2.909,
+        "end": 3.031,
+        "loc": "1",
+        "word": "돈을"
+      },
+      {
+        "start": 3.192,
+        "end": 4.616,
+        "loc": "2,3,4,5",
+        "word": "갚을 수 있는 능력을"
+      },
+      {
+        "start": 4.765,
+        "end": 5.906,
+        "loc": "6,7",
+        "word": "확인한 후"
+      },
+      {
+        "start": 6.189,
+        "end": 6.689,
+        "loc": "8",
+        "word": "신용카드를"
+      },
+      {
+        "start": 6.911,
+        "end": 7.06,
+        "loc": "9",
+        "word": "만들어"
+      },
+      {
+        "start": 7.242,
+        "end": 7.526,
+        "loc": "10",
+        "word": "줍니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.214,
+        "end": 2.687,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.192,
+        "end": 3.543,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.719,
+        "end": 4.097,
+        "gloss_id": "갚다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.189,
+        "end": 6.682,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.911,
+        "end": 7.06,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.242,
+        "end": 7.526
+      },
+      {
+        "descriptor": "",
+        "start": 2.214,
+        "end": 2.687
+      },
+      {
+        "descriptor": "",
+        "start": 4.279,
+        "end": 4.61
+      },
+      {
+        "descriptor": "",
+        "start": 4.765,
+        "end": 5.292
+      },
+      {
+        "descriptor": "",
+        "start": 5.575,
+        "end": 5.899
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.279,
+        "end": 4.61
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.909,
+        "end": 4.111
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.911,
+        "end": 7.553
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.807,
+        "end": 2.712
+      },
+      {
+        "descriptor": "",
+        "start": 4.765,
+        "end": 5.292
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329850",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:29:25",
+    "sentence_ID": "VXPAKOKS240329850",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    243,
+    126
+  ],
+  "file": "VXPAKOKS240329850.mp4",
+  "saved_as": "VXPAKOKS240329850-카드회사는돈을갚을수있는능력을확인한후신용카드를만들어줍니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,343 @@
+{
+  "id": "VXPAKOKS240337570",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "유동성이 높은 채권은 투자자가 자금을 필요로 하는 시점에 쉽게 처분할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.167,
+        "end": 2.23,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.438,
+        "end": 2.552,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.737,
+        "end": 3.175,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.252,
+        "end": 3.349,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.523,
+        "end": 3.769,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.974,
+        "end": 4.202,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.446,
+        "end": 4.806,
+        "gloss_id": "기름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.012,
+        "end": 5.232,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.495,
+        "end": 5.724,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.853,
+        "end": 5.959,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.354,
+        "end": 6.95,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.293,
+        "end": 7.583,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.811,
+        "end": 8.066,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.24,
+        "end": 8.45,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.159,
+        "end": 3.175,
+        "loc": "2",
+        "word": "채권은"
+      },
+      {
+        "start": 3.252,
+        "end": 4.794,
+        "loc": "0,1",
+        "word": "유동성이 높은"
+      },
+      {
+        "start": 5.012,
+        "end": 5.722,
+        "loc": "3",
+        "word": "투자자가"
+      },
+      {
+        "start": 5.853,
+        "end": 5.959,
+        "loc": "4",
+        "word": "자금을"
+      },
+      {
+        "start": 6.354,
+        "end": 6.95,
+        "loc": "5,6,7",
+        "word": "필요로 하는 시점에"
+      },
+      {
+        "start": 7.293,
+        "end": 7.583,
+        "loc": "8",
+        "word": "쉽게"
+      },
+      {
+        "start": 7.811,
+        "end": 8.434,
+        "loc": "9,10,11",
+        "word": "처분할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.737,
+        "end": 3.175,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.523,
+        "end": 3.769,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.974,
+        "end": 4.202,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.495,
+        "end": 5.724,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.354,
+        "end": 6.95,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.293,
+        "end": 7.583,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.811,
+        "end": 8.066,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.24,
+        "end": 8.45
+      },
+      {
+        "descriptor": "",
+        "start": 2.737,
+        "end": 3.175
+      },
+      {
+        "descriptor": "",
+        "start": 4.446,
+        "end": 4.806
+      },
+      {
+        "descriptor": "",
+        "start": 6.359,
+        "end": 6.95
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.24,
+        "end": 8.45
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.811,
+        "end": 8.236
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.438,
+        "end": 4.803
+      },
+      {
+        "descriptor": "",
+        "start": 6.354,
+        "end": 6.95
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337570",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:18",
+    "sentence_ID": "VXPAKOKS240337570",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    315,
+    126
+  ],
+  "file": "VXPAKOKS240337570.mp4",
+  "saved_as": "VXPAKOKS240337570-유동성이높은채권은투자자가자금을필요로하는시점에쉽게처분할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

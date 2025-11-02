@@ -1,0 +1,272 @@
+{
+  "id": "VXPAKOKS240341960",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "주식이나 부동산보다 펀드 투자의 비율을 조절해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.358,
+        "end": 1.858,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.353,
+        "end": 2.719,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.912,
+        "end": 3.092,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.299,
+        "end": 3.863,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.189,
+        "end": 4.631,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.736,
+        "end": 5.268,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.389,
+        "end": 5.94,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.157,
+        "end": 6.471,
+        "gloss_id": "조절2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.64,
+        "end": 7.025,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.358,
+        "end": 1.858,
+        "loc": "0",
+        "word": "주식이나"
+      },
+      {
+        "start": 2.353,
+        "end": 2.719,
+        "loc": "1",
+        "word": "부동산보다"
+      },
+      {
+        "start": 2.912,
+        "end": 3.092,
+        "loc": "2",
+        "word": "펀드"
+      },
+      {
+        "start": 4.189,
+        "end": 4.631,
+        "loc": "3",
+        "word": "투자의"
+      },
+      {
+        "start": 4.736,
+        "end": 5.933,
+        "loc": "4",
+        "word": "비율을"
+      },
+      {
+        "start": 6.157,
+        "end": 7.027,
+        "loc": "5,6",
+        "word": "조절해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.358,
+        "end": 1.858,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.353,
+        "end": 3.089,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.299,
+        "end": 3.863,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.385,
+        "end": 5.936,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.157,
+        "end": 6.471,
+        "gloss_id": "조절2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.64,
+        "end": 7.025,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.64,
+        "end": 7.025
+      },
+      {
+        "descriptor": "",
+        "start": 1.358,
+        "end": 1.858
+      },
+      {
+        "descriptor": "",
+        "start": 2.353,
+        "end": 2.719
+      },
+      {
+        "descriptor": "",
+        "start": 3.299,
+        "end": 3.863
+      },
+      {
+        "descriptor": "",
+        "start": 5.389,
+        "end": 5.94
+      },
+      {
+        "descriptor": "",
+        "start": 6.157,
+        "end": 6.471
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.189,
+        "end": 5.955
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341960",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:18:09",
+    "sentence_ID": "VXPAKOKS240341960",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240341960.mp4",
+  "saved_as": "VXPAKOKS240341960-주식이나부동산보다펀드투자의비율을조절해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

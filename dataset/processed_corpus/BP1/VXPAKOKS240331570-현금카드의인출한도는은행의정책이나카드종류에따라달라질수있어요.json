@@ -1,0 +1,291 @@
+{
+  "id": "VXPAKOKS240331570",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드의 인출 한도는 은행의 정책이나 카드 종류에 따라 달라질 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.582,
+        "end": 1.721,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.966,
+        "end": 2.377,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.477,
+        "end": 2.691,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.784,
+        "end": 3.209,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.565,
+        "end": 4.038,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.198,
+        "end": 4.446,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.753,
+        "end": 5.253,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.677,
+        "end": 5.986,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.207,
+        "end": 6.598,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.909,
+        "end": 7.3,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.582,
+        "end": 2.374,
+        "loc": "0",
+        "word": "현금카드의"
+      },
+      {
+        "start": 2.477,
+        "end": 3.215,
+        "loc": "1",
+        "word": "인출"
+      },
+      {
+        "start": 3.565,
+        "end": 4.038,
+        "loc": "2",
+        "word": "한도는"
+      },
+      {
+        "start": 4.198,
+        "end": 4.446,
+        "loc": "3",
+        "word": "은행의"
+      },
+      {
+        "start": 4.753,
+        "end": 5.253,
+        "loc": "4",
+        "word": "정책이나"
+      },
+      {
+        "start": 5.677,
+        "end": 5.986,
+        "loc": "5",
+        "word": "카드"
+      },
+      {
+        "start": 6.207,
+        "end": 6.598,
+        "loc": "6,7",
+        "word": "종류에 따라"
+      },
+      {
+        "start": 6.909,
+        "end": 7.3,
+        "loc": "8,9,10",
+        "word": "달라질 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.565,
+        "end": 4.038,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.198,
+        "end": 4.446,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.753,
+        "end": 5.253,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.207,
+        "end": 6.598,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.909,
+        "end": 7.3,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.966,
+        "end": 2.377
+      },
+      {
+        "descriptor": "",
+        "start": 2.784,
+        "end": 3.209
+      },
+      {
+        "descriptor": "",
+        "start": 4.753,
+        "end": 5.253
+      },
+      {
+        "descriptor": "",
+        "start": 5.677,
+        "end": 5.986
+      },
+      {
+        "descriptor": "",
+        "start": 6.909,
+        "end": 7.3
+      },
+      {
+        "descriptor": "",
+        "start": 6.207,
+        "end": 6.598
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.207,
+        "end": 6.598
+      },
+      {
+        "descriptor": "",
+        "start": 3.565,
+        "end": 4.038
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240331570",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:13:10",
+    "sentence_ID": "VXPAKOKS240331570",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240331570.mp4",
+  "saved_as": "VXPAKOKS240331570-현금카드의인출한도는은행의정책이나카드종류에따라달라질수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

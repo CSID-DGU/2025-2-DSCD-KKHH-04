@@ -1,0 +1,318 @@
+{
+  "id": "VXPAKOKS240332570",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "개인에 따라 다르지만, 생활비, 회사 운영 자금 등 다양한 목적으로 사용할 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.545,
+        "end": 2.751,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.994,
+        "end": 3.368,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.656,
+        "end": 3.845,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.034,
+        "end": 4.316,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.554,
+        "end": 4.802,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.061,
+        "end": 5.309,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.564,
+        "end": 5.812,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.132,
+        "end": 6.481,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.784,
+        "end": 7.04,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.271,
+        "end": 7.485,
+        "gloss_id": "각각1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.748,
+        "end": 8.273,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.545,
+        "end": 3.372,
+        "loc": "3",
+        "word": "생활비,"
+      },
+      {
+        "start": 4.034,
+        "end": 4.316,
+        "loc": "5",
+        "word": "운영"
+      },
+      {
+        "start": 5.564,
+        "end": 6.491,
+        "loc": "9,10,11,12",
+        "word": "목적으로 사용할 수 있어."
+      },
+      {
+        "start": 3.656,
+        "end": 3.845,
+        "loc": "4",
+        "word": "회사"
+      },
+      {
+        "start": 4.554,
+        "end": 4.802,
+        "loc": "6",
+        "word": "자금"
+      },
+      {
+        "start": 5.061,
+        "end": 5.309,
+        "loc": "7,8",
+        "word": "등 다양한"
+      },
+      {
+        "start": 6.784,
+        "end": 7.484,
+        "loc": "0,1",
+        "word": "개인에 따라"
+      },
+      {
+        "start": 7.748,
+        "end": 8.273,
+        "loc": "2",
+        "word": "다르지만,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.545,
+        "end": 2.751,
+        "gloss_id": "살다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.034,
+        "end": 4.316,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.132,
+        "end": 6.481,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.784,
+        "end": 7.04,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.656,
+        "end": 3.845,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.271,
+        "end": 7.485,
+        "gloss_id": "각각1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.748,
+        "end": 8.273,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.994,
+        "end": 3.368
+      },
+      {
+        "descriptor": "",
+        "start": 6.132,
+        "end": 6.481
+      },
+      {
+        "descriptor": "",
+        "start": 6.784,
+        "end": 7.04
+      },
+      {
+        "descriptor": "",
+        "start": 4.554,
+        "end": 4.802
+      },
+      {
+        "descriptor": "",
+        "start": 5.061,
+        "end": 5.309
+      },
+      {
+        "descriptor": "",
+        "start": 7.748,
+        "end": 8.273
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.132,
+        "end": 6.481
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.061,
+        "end": 5.309
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332570",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:41",
+    "sentence_ID": "VXPAKOKS240332570",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    302,
+    126
+  ],
+  "file": "VXPAKOKS240332570.mp4",
+  "saved_as": "VXPAKOKS240332570-개인에따라다르지만,생활비,회사운영자금등다양한목적으로사용할수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

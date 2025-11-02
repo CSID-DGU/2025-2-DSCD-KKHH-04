@@ -1,0 +1,232 @@
+{
+  "id": "VXPAKOKS240330700",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "실적을 채우면 카드사에서 제공하는 혜택을 받을 수 있는 장점이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.494,
+        "end": 2.846,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.633,
+        "end": 4.081,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.202,
+        "end": 4.547,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.653,
+        "end": 4.908,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.039,
+        "end": 5.539,
+        "gloss_id": "덕분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.734,
+        "end": 5.983,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.141,
+        "end": 6.402,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.509,
+        "end": 6.68,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.106,
+        "end": 3.419,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.202,
+        "end": 4.914,
+        "loc": "2",
+        "word": "카드사에서"
+      },
+      {
+        "start": 5.039,
+        "end": 5.539,
+        "loc": "4",
+        "word": "혜택을"
+      },
+      {
+        "start": 5.734,
+        "end": 5.983,
+        "loc": "5,6,7",
+        "word": "받을 수 있는"
+      },
+      {
+        "start": 6.141,
+        "end": 6.673,
+        "loc": "8",
+        "word": "장점이"
+      },
+      {
+        "start": 3.106,
+        "end": 4.07,
+        "loc": "1",
+        "word": "채우면"
+      },
+      {
+        "start": 2.494,
+        "end": 2.846,
+        "loc": "0",
+        "word": "실적을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.653,
+        "end": 4.908,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.039,
+        "end": 5.539,
+        "gloss_id": "덕분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.633,
+        "end": 4.081
+      },
+      {
+        "descriptor": "",
+        "start": 6.509,
+        "end": 6.68
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.773,
+        "end": 5.983
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.666,
+        "end": 3.166
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.633,
+        "end": 4.081
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330700",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:35:09",
+    "sentence_ID": "VXPAKOKS240330700",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240330700.mp4",
+  "saved_as": "VXPAKOKS240330700-실적을채우면카드사에서제공하는혜택을받을수있는장점이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

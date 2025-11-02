@@ -1,0 +1,258 @@
+{
+  "id": "VXPAKOKS240336160",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "금리의 변동을 꼼꼼하게 확인한 후 채권을 구매해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.145,
+        "end": 2.353,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.566,
+        "end": 3.024,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.35,
+        "end": 3.53,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.906,
+        "end": 4.712,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.893,
+        "end": 4.99,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.137,
+        "end": 5.359,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.526,
+        "end": 5.775,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.047,
+        "end": 6.359,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.145,
+        "end": 2.353,
+        "loc": "0",
+        "word": "금리의"
+      },
+      {
+        "start": 2.566,
+        "end": 3.024,
+        "loc": "1",
+        "word": "변동을"
+      },
+      {
+        "start": 3.35,
+        "end": 3.53,
+        "loc": "2",
+        "word": "꼼꼼하게"
+      },
+      {
+        "start": 3.906,
+        "end": 4.712,
+        "loc": "3,4",
+        "word": "확인한 후"
+      },
+      {
+        "start": 4.897,
+        "end": 5.775,
+        "loc": "5",
+        "word": "채권을"
+      },
+      {
+        "start": 6.047,
+        "end": 6.359,
+        "loc": "6,7",
+        "word": "구매해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.35,
+        "end": 3.53,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.526,
+        "end": 5.775,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.047,
+        "end": 6.359,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.566,
+        "end": 3.024,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.047,
+        "end": 6.359
+      },
+      {
+        "descriptor": "",
+        "start": 3.35,
+        "end": 3.53
+      },
+      {
+        "descriptor": "",
+        "start": 3.906,
+        "end": 4.712
+      },
+      {
+        "descriptor": "",
+        "start": 5.526,
+        "end": 5.775
+      },
+      {
+        "descriptor": "",
+        "start": 5.137,
+        "end": 5.359
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.516,
+        "end": 4.708
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.35,
+        "end": 3.53
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.145,
+        "end": 2.959
+      },
+      {
+        "descriptor": "",
+        "start": 4.199,
+        "end": 5.732
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336160",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:53",
+    "sentence_ID": "VXPAKOKS240336160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    250,
+    126
+  ],
+  "file": "VXPAKOKS240336160.mp4",
+  "saved_as": "VXPAKOKS240336160-금리의변동을꼼꼼하게확인한후채권을구매해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

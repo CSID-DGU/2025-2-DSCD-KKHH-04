@@ -1,0 +1,299 @@
+{
+  "id": "VXPAKOKS240330800",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 결제를 취소했는데 정확한 취소 날짜를 확인해 주십시오.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.545,
+        "end": 1.81,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.975,
+        "end": 2.364,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.532,
+        "end": 3.019,
+        "gloss_id": "한적있다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.239,
+        "end": 3.439,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.58,
+        "end": 3.832,
+        "gloss_id": "말하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.972,
+        "end": 4.864,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.023,
+        "end": 5.261,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.393,
+        "end": 5.697,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.887,
+        "end": 6.289,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.442,
+        "end": 6.838,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.545,
+        "end": 2.358,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.532,
+        "end": 3.019,
+        "loc": "1",
+        "word": "결제를"
+      },
+      {
+        "start": 3.239,
+        "end": 4.875,
+        "loc": "2",
+        "word": "취소했는데"
+      },
+      {
+        "start": 5.023,
+        "end": 5.261,
+        "loc": "4",
+        "word": "취소"
+      },
+      {
+        "start": 5.887,
+        "end": 6.831,
+        "loc": "6,7",
+        "word": "확인해 주십시오."
+      },
+      {
+        "start": 5.393,
+        "end": 5.697,
+        "loc": "3,5",
+        "word": "정확한 날짜를"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.545,
+        "end": 1.81,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.239,
+        "end": 3.439,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.972,
+        "end": 4.864,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.023,
+        "end": 5.261,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.393,
+        "end": 5.697,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.442,
+        "end": 6.838,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.741,
+        "end": 3.019
+      },
+      {
+        "descriptor": "",
+        "start": 4.246,
+        "end": 4.772
+      },
+      {
+        "descriptor": "",
+        "start": 5.478,
+        "end": 5.697
+      },
+      {
+        "descriptor": "",
+        "start": 6.553,
+        "end": 6.838
+      },
+      {
+        "descriptor": "",
+        "start": 6.044,
+        "end": 6.289
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.741,
+        "end": 3.019
+      },
+      {
+        "descriptor": "",
+        "start": 4.262,
+        "end": 4.762
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.442,
+        "end": 6.838
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.532,
+        "end": 3.019
+      },
+      {
+        "descriptor": "",
+        "start": 5.023,
+        "end": 5.685
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330800",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:36:02",
+    "sentence_ID": "VXPAKOKS240330800",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    235,
+    126
+  ],
+  "file": "VXPAKOKS240330800.mp4",
+  "saved_as": "VXPAKOKS240330800-신용카드결제를취소했는데정확한취소날짜를확인해주십시오.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

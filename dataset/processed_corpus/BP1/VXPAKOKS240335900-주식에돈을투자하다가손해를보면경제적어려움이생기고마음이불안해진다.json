@@ -1,0 +1,254 @@
+{
+  "id": "VXPAKOKS240335900",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식에 돈을 투자하다가 손해를 보면 경제적 어려움이 생기고 마음이 불안해진다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.171,
+        "end": 2.378,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.507,
+        "end": 2.587,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.75,
+        "end": 3.183,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.496,
+        "end": 3.856,
+        "gloss_id": "당하다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.184,
+        "end": 4.344,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.658,
+        "end": 5.038,
+        "gloss_id": "빨강2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.338,
+        "end": 5.618,
+        "gloss_id": "마음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.84,
+        "end": 6.267,
+        "gloss_id": "불안1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.171,
+        "end": 2.378,
+        "loc": "0",
+        "word": "주식에"
+      },
+      {
+        "start": 2.507,
+        "end": 2.587,
+        "loc": "1",
+        "word": "돈을"
+      },
+      {
+        "start": 2.75,
+        "end": 3.183,
+        "loc": "2",
+        "word": "투자하다가"
+      },
+      {
+        "start": 3.496,
+        "end": 4.356,
+        "loc": "3,4",
+        "word": "손해를 보면"
+      },
+      {
+        "start": 4.658,
+        "end": 5.038,
+        "loc": "5,6,7",
+        "word": "경제적 어려움이 생기고"
+      },
+      {
+        "start": 5.338,
+        "end": 5.618,
+        "loc": "8",
+        "word": "마음이"
+      },
+      {
+        "start": 5.84,
+        "end": 6.267,
+        "loc": "9",
+        "word": "불안해진다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.171,
+        "end": 2.378,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.184,
+        "end": 4.344,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.338,
+        "end": 5.618,
+        "gloss_id": "마음1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.84,
+        "end": 6.267,
+        "gloss_id": "불안1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.84,
+        "end": 6.267
+      },
+      {
+        "descriptor": "",
+        "start": 2.75,
+        "end": 3.183
+      },
+      {
+        "descriptor": "",
+        "start": 3.636,
+        "end": 3.809
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.636,
+        "end": 3.81
+      },
+      {
+        "descriptor": "",
+        "start": 4.191,
+        "end": 4.344
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.184,
+        "end": 6.277
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.507,
+        "end": 3.84
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335900",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:45:55",
+    "sentence_ID": "VXPAKOKS240335900",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    240,
+    126
+  ],
+  "file": "VXPAKOKS240335900.mp4",
+  "saved_as": "VXPAKOKS240335900-주식에돈을투자하다가손해를보면경제적어려움이생기고마음이불안해진다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

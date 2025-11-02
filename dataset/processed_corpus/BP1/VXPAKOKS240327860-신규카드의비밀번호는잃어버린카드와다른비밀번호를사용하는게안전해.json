@@ -1,0 +1,276 @@
+{
+  "id": "VXPAKOKS240327860",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "신규 카드의 비밀번호는 잃어버린 카드와 다른 비밀번호를 사용하는 게 안전해.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.579,
+        "end": 1.757,
+        "gloss_id": "과거1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.989,
+        "end": 2.309,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.699,
+        "end": 3.167,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.647,
+        "end": 3.78,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.059,
+        "end": 4.147,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.292,
+        "end": 4.412,
+        "gloss_id": "비밀1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.59,
+        "end": 4.806,
+        "gloss_id": "숫자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.064,
+        "end": 5.538,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.735,
+        "end": 6.08,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.321,
+        "end": 6.653,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.583,
+        "end": 3.16,
+        "loc": "3,4",
+        "word": "잃어버린 카드와"
+      },
+      {
+        "start": 3.647,
+        "end": 4.147,
+        "loc": "0,1",
+        "word": "신규 카드의"
+      },
+      {
+        "start": 4.292,
+        "end": 4.799,
+        "loc": "2",
+        "word": "비밀번호는"
+      },
+      {
+        "start": 5.735,
+        "end": 6.08,
+        "loc": "7,8",
+        "word": "사용하는 게"
+      },
+      {
+        "start": 6.321,
+        "end": 6.653,
+        "loc": "9",
+        "word": "안전해."
+      },
+      {
+        "start": 5.064,
+        "end": 5.538,
+        "loc": "5,6",
+        "word": "다른 비밀번호를"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.647,
+        "end": 4.141,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.292,
+        "end": 4.792,
+        "gloss_id": "비밀1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.064,
+        "end": 5.538,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.735,
+        "end": 6.08,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.321,
+        "end": 6.653,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.699,
+        "end": 3.167
+      },
+      {
+        "descriptor": "",
+        "start": 5.064,
+        "end": 5.538
+      },
+      {
+        "descriptor": "",
+        "start": 6.321,
+        "end": 6.653
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.699,
+        "end": 3.167
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.699,
+        "end": 3.167
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.579,
+        "end": 2.292
+      },
+      {
+        "descriptor": "",
+        "start": 5.064,
+        "end": 5.538
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327860",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:23:12",
+    "sentence_ID": "VXPAKOKS240327860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240327860.mp4",
+  "saved_as": "VXPAKOKS240327860-신규카드의비밀번호는잃어버린카드와다른비밀번호를사용하는게안전해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

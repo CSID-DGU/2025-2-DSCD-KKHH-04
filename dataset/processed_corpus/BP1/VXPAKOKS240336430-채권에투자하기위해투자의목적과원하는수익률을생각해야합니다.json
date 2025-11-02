@@ -1,0 +1,268 @@
+{
+  "id": "VXPAKOKS240336430",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권에 투자하기 위해 투자의 목적과 원하는 수익률을 생각해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.899,
+        "end": 1.979,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.212,
+        "end": 2.397,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.633,
+        "end": 2.983,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.232,
+        "end": 3.507,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.72,
+        "end": 4.152,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.47,
+        "end": 4.647,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.905,
+        "end": 5.18,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.422,
+        "end": 5.922,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.163,
+        "end": 6.325,
+        "gloss_id": "생각2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.577,
+        "end": 6.912,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.894,
+        "end": 2.983,
+        "loc": "0",
+        "word": "채권에"
+      },
+      {
+        "start": 4.47,
+        "end": 4.647,
+        "loc": "5",
+        "word": "원하는"
+      },
+      {
+        "start": 4.905,
+        "end": 5.945,
+        "loc": "6",
+        "word": "수익률을"
+      },
+      {
+        "start": 6.163,
+        "end": 6.325,
+        "loc": "7",
+        "word": "생각해야"
+      },
+      {
+        "start": 6.577,
+        "end": 6.912,
+        "loc": "8",
+        "word": "합니다."
+      },
+      {
+        "start": 3.232,
+        "end": 3.507,
+        "loc": "1,2",
+        "word": "투자하기 위해"
+      },
+      {
+        "start": 3.72,
+        "end": 4.152,
+        "loc": "3,4",
+        "word": "투자의 목적과"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 5.422,
+        "end": 5.929,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.577,
+        "end": 6.912,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.633,
+        "end": 2.983,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.72,
+        "end": 4.152,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.47,
+        "end": 4.647
+      },
+      {
+        "descriptor": "",
+        "start": 5.422,
+        "end": 6.323
+      },
+      {
+        "descriptor": "",
+        "start": 6.577,
+        "end": 6.912
+      },
+      {
+        "descriptor": "",
+        "start": 2.633,
+        "end": 2.983
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.232,
+        "end": 4.148
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.899,
+        "end": 2.984
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336430",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:29:58",
+    "sentence_ID": "VXPAKOKS240336430",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    270,
+    126
+  ],
+  "file": "VXPAKOKS240336430.mp4",
+  "saved_as": "VXPAKOKS240336430-채권에투자하기위해투자의목적과원하는수익률을생각해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

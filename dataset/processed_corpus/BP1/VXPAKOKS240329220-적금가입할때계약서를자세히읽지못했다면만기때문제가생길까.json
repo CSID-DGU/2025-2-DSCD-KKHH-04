@@ -1,0 +1,379 @@
+{
+  "id": "VXPAKOKS240329220",
+  "opertor": "label17",
+  "krlgg_sntenc": {
+    "koreanText": "적금 가입할 때 계약서를 자세히 읽지 못했다면 만기 때 문제가 생길까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.233,
+        "end": 1.468,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.697,
+        "end": 2.508,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.699,
+        "end": 2.896,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.12,
+        "end": 3.484,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.699,
+        "end": 3.918,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.033,
+        "end": 4.662,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.833,
+        "end": 5.105,
+        "gloss_id": "읽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.48,
+        "end": 5.828,
+        "gloss_id": "보지못하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.12,
+        "end": 6.355,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.609,
+        "end": 7.086,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.716,
+        "end": 8.019,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.199,
+        "end": 8.464,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.233,
+        "end": 2.499,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.699,
+        "end": 2.896,
+        "loc": "1",
+        "word": "가입할"
+      },
+      {
+        "start": 3.699,
+        "end": 4.669,
+        "loc": "3",
+        "word": "계약서를"
+      },
+      {
+        "start": 4.833,
+        "end": 5.128,
+        "loc": "4,5",
+        "word": "자세히 읽지"
+      },
+      {
+        "start": 5.366,
+        "end": 5.836,
+        "loc": "6",
+        "word": "못했다면"
+      },
+      {
+        "start": 6.113,
+        "end": 7.083,
+        "loc": "7,8",
+        "word": "만기 때"
+      },
+      {
+        "start": 8.199,
+        "end": 8.464,
+        "loc": "10",
+        "word": "생길까?"
+      },
+      {
+        "start": 3.12,
+        "end": 3.484,
+        "loc": "2",
+        "word": "때"
+      },
+      {
+        "start": 7.716,
+        "end": 8.019,
+        "loc": "9",
+        "word": "문제가"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.233,
+        "end": 1.468,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.699,
+        "end": 2.896,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.699,
+        "end": 3.918,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.033,
+        "end": 4.662,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.833,
+        "end": 5.826,
+        "gloss_id": "읽다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.697,
+        "end": 2.508,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.12,
+        "end": 3.484,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.12,
+        "end": 6.355,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.609,
+        "end": 7.086,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.716,
+        "end": 8.019,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.533,
+        "end": 7.094
+      },
+      {
+        "descriptor": "",
+        "start": 7.633,
+        "end": 8.019
+      },
+      {
+        "descriptor": "",
+        "start": 8.199,
+        "end": 8.464
+      },
+      {
+        "descriptor": "",
+        "start": 1.599,
+        "end": 2.508
+      },
+      {
+        "descriptor": "",
+        "start": 3.12,
+        "end": 3.484
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.791,
+        "end": 7.094
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.699,
+        "end": 2.896
+      },
+      {
+        "descriptor": "",
+        "start": 4.833,
+        "end": 5.128
+      },
+      {
+        "descriptor": "",
+        "start": 7.633,
+        "end": 8.019
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.533,
+        "end": 7.094
+      },
+      {
+        "descriptor": "",
+        "start": 1.599,
+        "end": 2.508
+      },
+      {
+        "descriptor": "",
+        "start": 8.199,
+        "end": 8.464
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329220",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:43:35",
+    "sentence_ID": "VXPAKOKS240329220",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    273,
+    126
+  ],
+  "file": "VXPAKOKS240329220.mp4",
+  "saved_as": "VXPAKOKS240329220-적금가입할때계약서를자세히읽지못했다면만기때문제가생길까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

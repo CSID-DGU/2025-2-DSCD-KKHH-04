@@ -1,0 +1,241 @@
+{
+  "id": "VXPAKOKS240333900",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "자동차기 운행된 거리에 따라 대출 상품이나 조건이 달라질 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.22,
+        "end": 2.502,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.657,
+        "end": 3.349,
+        "gloss_id": "평수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.763,
+        "end": 4.058,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.28,
+        "end": 4.581,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.78,
+        "end": 5.094,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.417,
+        "end": 5.725,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.877,
+        "end": 6.499,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.657,
+        "end": 3.349,
+        "loc": "1,2",
+        "word": "운행된 거리에"
+      },
+      {
+        "start": 4.28,
+        "end": 4.581,
+        "loc": "4",
+        "word": "대출"
+      },
+      {
+        "start": 5.417,
+        "end": 5.725,
+        "loc": "6",
+        "word": "조건이"
+      },
+      {
+        "start": 2.22,
+        "end": 2.502,
+        "loc": "0",
+        "word": "자동차기"
+      },
+      {
+        "start": 3.763,
+        "end": 4.058,
+        "loc": "3",
+        "word": "따라"
+      },
+      {
+        "start": 4.78,
+        "end": 5.094,
+        "loc": "5",
+        "word": "상품이나"
+      },
+      {
+        "start": 5.877,
+        "end": 6.499,
+        "loc": "7,8,9",
+        "word": "달라질 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.657,
+        "end": 3.349,
+        "gloss_id": "평수1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.417,
+        "end": 5.725,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.22,
+        "end": 2.502,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.78,
+        "end": 5.094,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.877,
+        "end": 6.499,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.657,
+        "end": 4.061
+      },
+      {
+        "descriptor": "",
+        "start": 5.417,
+        "end": 5.725
+      },
+      {
+        "descriptor": "",
+        "start": 6.102,
+        "end": 6.493
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.417,
+        "end": 6.489
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.22,
+        "end": 4.049
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333900",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:01",
+    "sentence_ID": "VXPAKOKS240333900",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240333900.mp4",
+  "saved_as": "VXPAKOKS240333900-자동차기운행된거리에따라대출상품이나조건이달라질수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

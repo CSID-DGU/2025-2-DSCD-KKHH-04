@@ -1,0 +1,333 @@
+{
+  "id": "VXPAKOKS240338190",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 직접 투자는 투자자가 자신의 판단과 분석에 따라 직접 채권을 선정하여 투자하는 방식입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.216,
+        "end": 2.299,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.406,
+        "end": 2.668,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.961,
+        "end": 3.479,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.728,
+        "end": 4.061,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.32,
+        "end": 4.76,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.008,
+        "end": 5.165,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.397,
+        "end": 5.535,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.807,
+        "end": 6.164,
+        "gloss_id": "생각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.473,
+        "end": 6.792,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.155,
+        "end": 7.522,
+        "gloss_id": "분석1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.824,
+        "end": 8.019,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.212,
+        "end": 8.512,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.765,
+        "end": 9.189,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.216,
+        "end": 3.461,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.728,
+        "end": 4.061,
+        "loc": "1",
+        "word": "직접"
+      },
+      {
+        "start": 4.32,
+        "end": 4.76,
+        "loc": "2",
+        "word": "투자는"
+      },
+      {
+        "start": 5.008,
+        "end": 5.165,
+        "loc": "3",
+        "word": "투자자가"
+      },
+      {
+        "start": 5.397,
+        "end": 5.535,
+        "loc": "4",
+        "word": "자신의"
+      },
+      {
+        "start": 5.807,
+        "end": 6.802,
+        "loc": "5",
+        "word": "판단과"
+      },
+      {
+        "start": 7.155,
+        "end": 7.522,
+        "loc": "6",
+        "word": "분석에"
+      },
+      {
+        "start": 7.824,
+        "end": 8.019,
+        "loc": "7",
+        "word": "따라"
+      },
+      {
+        "start": 8.212,
+        "end": 8.512,
+        "loc": "8,9,10,11",
+        "word": "직접 채권을 선정하여 투자하는"
+      },
+      {
+        "start": 8.765,
+        "end": 9.189,
+        "loc": "12",
+        "word": "방식입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.961,
+        "end": 3.478,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.728,
+        "end": 4.061,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.473,
+        "end": 6.792,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.155,
+        "end": 7.522,
+        "gloss_id": "분석1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.765,
+        "end": 9.189,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.961,
+        "end": 3.479
+      },
+      {
+        "descriptor": "",
+        "start": 4.32,
+        "end": 4.76
+      },
+      {
+        "descriptor": "",
+        "start": 6.473,
+        "end": 6.792
+      },
+      {
+        "descriptor": "",
+        "start": 7.824,
+        "end": 8.019
+      },
+      {
+        "descriptor": "",
+        "start": 8.765,
+        "end": 9.189
+      },
+      {
+        "descriptor": "",
+        "start": 5.807,
+        "end": 6.164
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.939,
+        "end": 6.782
+      },
+      {
+        "descriptor": "",
+        "start": 8.765,
+        "end": 9.189
+      }
+    ],
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240338190",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:13",
+    "sentence_ID": "VXPAKOKS240338190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    343,
+    126
+  ],
+  "file": "VXPAKOKS240338190.mp4",
+  "saved_as": "VXPAKOKS240338190-채권직접투자는투자자가자신의판단과분석에따라직접채권을선정하여투자하는방식입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

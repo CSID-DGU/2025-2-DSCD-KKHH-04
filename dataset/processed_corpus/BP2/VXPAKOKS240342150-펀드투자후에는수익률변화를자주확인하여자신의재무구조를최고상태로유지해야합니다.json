@@ -1,0 +1,300 @@
+{
+  "id": "VXPAKOKS240342150",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 투자 후에는 수익률 변화를 자주 확인하여 자신의 재무 구조를 최고 상태로 유지해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.254,
+        "end": 2.072,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.368,
+        "end": 2.543,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.727,
+        "end": 3.132,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.338,
+        "end": 3.94,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.218,
+        "end": 4.623,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.005,
+        "end": 5.138,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.428,
+        "end": 5.555,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.836,
+        "end": 6.085,
+        "gloss_id": "오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.383,
+        "end": 6.639,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.905,
+        "end": 7.167,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.254,
+        "end": 2.072,
+        "loc": "0,1,2",
+        "word": "펀드 투자 후에는"
+      },
+      {
+        "start": 2.368,
+        "end": 2.543,
+        "loc": "3",
+        "word": "수익률"
+      },
+      {
+        "start": 2.727,
+        "end": 3.132,
+        "loc": "4",
+        "word": "변화를"
+      },
+      {
+        "start": 3.338,
+        "end": 3.94,
+        "loc": "5",
+        "word": "자주"
+      },
+      {
+        "start": 4.218,
+        "end": 4.623,
+        "loc": "6",
+        "word": "확인하여"
+      },
+      {
+        "start": 5.005,
+        "end": 5.558,
+        "loc": "7,8,9",
+        "word": "자신의 재무 구조를"
+      },
+      {
+        "start": 5.836,
+        "end": 6.085,
+        "loc": "10,11",
+        "word": "최고 상태로"
+      },
+      {
+        "start": 6.383,
+        "end": 6.639,
+        "loc": "12",
+        "word": "유지해야"
+      },
+      {
+        "start": 6.905,
+        "end": 7.167,
+        "loc": "13",
+        "word": "합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.727,
+        "end": 3.132,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.836,
+        "end": 6.085,
+        "gloss_id": "오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.383,
+        "end": 6.639,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.905,
+        "end": 7.167,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.254,
+        "end": 2.072
+      },
+      {
+        "descriptor": "",
+        "start": 4.218,
+        "end": 4.623
+      },
+      {
+        "descriptor": "",
+        "start": 5.836,
+        "end": 6.085
+      },
+      {
+        "descriptor": "",
+        "start": 6.905,
+        "end": 7.167
+      },
+      {
+        "descriptor": "",
+        "start": 3.338,
+        "end": 3.94
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 1.952,
+        "end": 2.072
+      },
+      {
+        "descriptor": "",
+        "start": 6.383,
+        "end": 6.639
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.254,
+        "end": 3.129
+      },
+      {
+        "descriptor": "",
+        "start": 4.218,
+        "end": 4.623
+      },
+      {
+        "descriptor": "",
+        "start": 5.443,
+        "end": 6.01
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342150",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:19:24",
+    "sentence_ID": "VXPAKOKS240342150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    244,
+    126
+  ],
+  "file": "VXPAKOKS240342150.mp4",
+  "saved_as": "VXPAKOKS240342150-펀드투자후에는수익률변화를자주확인하여자신의재무구조를최고상태로유지해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

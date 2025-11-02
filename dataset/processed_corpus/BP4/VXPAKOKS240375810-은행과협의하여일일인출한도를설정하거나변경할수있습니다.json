@@ -1,0 +1,315 @@
+{
+  "id": "VXPAKOKS240375810",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "은행과 협의하여 일일 인출 한도를 설정하거나 변경할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.914,
+        "end": 2.296,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.825,
+        "end": 3.192,
+        "gloss_id": "협상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.397,
+        "end": 4.226,
+        "gloss_id": "합의1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.598,
+        "end": 5.098,
+        "gloss_id": "하루1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.192,
+        "end": 5.284,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.427,
+        "end": 5.801,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.913,
+        "end": 6.029,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.149,
+        "end": 6.288,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.486,
+        "end": 6.766,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.892,
+        "end": 7.125,
+        "gloss_id": "바꾸다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.254,
+        "end": 7.433,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.422,
+        "end": 2.558,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.914,
+        "end": 2.557,
+        "loc": "0",
+        "word": "은행과"
+      },
+      {
+        "start": 2.825,
+        "end": 4.219,
+        "loc": "1",
+        "word": "협의하여"
+      },
+      {
+        "start": 4.598,
+        "end": 5.098,
+        "loc": "2",
+        "word": "일일"
+      },
+      {
+        "start": 5.192,
+        "end": 5.801,
+        "loc": "3",
+        "word": "인출"
+      },
+      {
+        "start": 5.913,
+        "end": 6.288,
+        "loc": "4",
+        "word": "한도를"
+      },
+      {
+        "start": 6.486,
+        "end": 6.766,
+        "loc": "5",
+        "word": "설정하거나"
+      },
+      {
+        "start": 6.892,
+        "end": 7.431,
+        "loc": "6,7,8",
+        "word": "변경할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.914,
+        "end": 2.548,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.825,
+        "end": 3.192,
+        "gloss_id": "협상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.397,
+        "end": 4.226,
+        "gloss_id": "합의1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.427,
+        "end": 5.801,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.149,
+        "end": 6.288,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.486,
+        "end": 7.127,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.254,
+        "end": 7.433
+      },
+      {
+        "descriptor": "",
+        "start": 1.914,
+        "end": 2.296
+      },
+      {
+        "descriptor": "",
+        "start": 3.923,
+        "end": 4.205
+      },
+      {
+        "descriptor": "",
+        "start": 6.486,
+        "end": 6.766
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.254,
+        "end": 7.433
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.825,
+        "end": 4.297
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.914,
+        "end": 2.296
+      },
+      {
+        "descriptor": "",
+        "start": 4.598,
+        "end": 6.776
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240375810",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:42:20",
+    "sentence_ID": "VXPAKOKS240375810",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    282,
+    126
+  ],
+  "file": "VXPAKOKS240375810.mp4",
+  "saved_as": "VXPAKOKS240375810-은행과협의하여일일인출한도를설정하거나변경할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

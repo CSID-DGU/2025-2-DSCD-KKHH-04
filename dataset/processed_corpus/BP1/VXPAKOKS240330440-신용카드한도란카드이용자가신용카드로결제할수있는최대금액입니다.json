@@ -1,0 +1,248 @@
+{
+  "id": "VXPAKOKS240330440",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 한도란 카드 이용자가 신용카드로 결제할 수 있는 최대 금액입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.046,
+        "end": 2.179,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.477,
+        "end": 2.687,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.924,
+        "end": 3.218,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.427,
+        "end": 4.217,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.606,
+        "end": 5.292,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.588,
+        "end": 5.83,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.075,
+        "end": 6.446,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.682,
+        "end": 6.898,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.046,
+        "end": 2.682,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.924,
+        "end": 4.223,
+        "loc": "1",
+        "word": "한도란"
+      },
+      {
+        "start": 4.606,
+        "end": 5.814,
+        "loc": "2,3,4,5,6,7",
+        "word": "카드 이용자가 신용카드로 결제할 수 있는"
+      },
+      {
+        "start": 6.075,
+        "end": 6.446,
+        "loc": "8",
+        "word": "최대"
+      },
+      {
+        "start": 6.682,
+        "end": 6.898,
+        "loc": "9",
+        "word": "금액입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.046,
+        "end": 2.688,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.924,
+        "end": 3.218,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.427,
+        "end": 4.217,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.075,
+        "end": 6.446,
+        "gloss_id": "최고2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.427,
+        "end": 4.217
+      },
+      {
+        "descriptor": "",
+        "start": 6.075,
+        "end": 6.446
+      },
+      {
+        "descriptor": "",
+        "start": 6.682,
+        "end": 6.898
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.588,
+        "end": 5.83
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.606,
+        "end": 5.292
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 4.606,
+        "end": 5.292
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.427,
+        "end": 4.217
+      },
+      {
+        "descriptor": "",
+        "start": 5.588,
+        "end": 5.83
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330440",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:30:47",
+    "sentence_ID": "VXPAKOKS240330440",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    232,
+    126
+  ],
+  "file": "VXPAKOKS240330440.mp4",
+  "saved_as": "VXPAKOKS240330440-신용카드한도란카드이용자가신용카드로결제할수있는최대금액입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,361 @@
+{
+  "id": "VXPAKOKS240354140",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "적금 만기 전에 은행에서 만기 알림 문자를 발송해 주는 서비스도 제공돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.492,
+        "end": 1.576,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.707,
+        "end": 2.336,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.539,
+        "end": 2.939,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.171,
+        "end": 3.47,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.888,
+        "end": 4.402,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.835,
+        "end": 5.177,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.473,
+        "end": 5.758,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.975,
+        "end": 6.145,
+        "gloss_id": "문장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.399,
+        "end": 6.734,
+        "gloss_id": "문자보내다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.965,
+        "end": 7.293,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.396,
+        "end": 7.501,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.492,
+        "end": 2.336,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.539,
+        "end": 2.939,
+        "loc": "1",
+        "word": "만기"
+      },
+      {
+        "start": 3.171,
+        "end": 3.47,
+        "loc": "2",
+        "word": "전에"
+      },
+      {
+        "start": 3.888,
+        "end": 4.402,
+        "loc": "3",
+        "word": "은행에서"
+      },
+      {
+        "start": 4.835,
+        "end": 5.765,
+        "loc": "4",
+        "word": "만기"
+      },
+      {
+        "start": 5.975,
+        "end": 6.145,
+        "loc": "5,6",
+        "word": "알림 문자를"
+      },
+      {
+        "start": 6.399,
+        "end": 6.734,
+        "loc": "7,8",
+        "word": "발송해 주는"
+      },
+      {
+        "start": 6.965,
+        "end": 7.293,
+        "loc": "9",
+        "word": "서비스도"
+      },
+      {
+        "start": 7.396,
+        "end": 7.501,
+        "loc": "10",
+        "word": "제공돼요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.707,
+        "end": 2.336,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.539,
+        "end": 2.939,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.171,
+        "end": 3.47,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.888,
+        "end": 4.402,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.835,
+        "end": 5.177,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.473,
+        "end": 5.758,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.975,
+        "end": 6.145,
+        "gloss_id": "문장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.399,
+        "end": 6.734,
+        "gloss_id": "문자보내다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.965,
+        "end": 7.293,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.707,
+        "end": 2.336
+      },
+      {
+        "descriptor": "",
+        "start": 3.888,
+        "end": 4.402
+      },
+      {
+        "descriptor": "",
+        "start": 5.473,
+        "end": 5.758
+      },
+      {
+        "descriptor": "",
+        "start": 7.396,
+        "end": 7.501
+      },
+      {
+        "descriptor": "",
+        "start": 2.539,
+        "end": 2.939
+      },
+      {
+        "descriptor": "",
+        "start": 3.171,
+        "end": 3.47
+      },
+      {
+        "descriptor": "",
+        "start": 6.399,
+        "end": 6.734
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.841,
+        "end": 2.975
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.539,
+        "end": 2.788
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.539,
+        "end": 3.455
+      },
+      {
+        "descriptor": "",
+        "start": 4.835,
+        "end": 5.55
+      },
+      {
+        "descriptor": "",
+        "start": 1.721,
+        "end": 2.336
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354140",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:12:07",
+    "sentence_ID": "VXPAKOKS240354140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240354140.mp4",
+  "saved_as": "VXPAKOKS240354140-적금만기전에은행에서만기알림문자를발송해주는서비스도제공돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

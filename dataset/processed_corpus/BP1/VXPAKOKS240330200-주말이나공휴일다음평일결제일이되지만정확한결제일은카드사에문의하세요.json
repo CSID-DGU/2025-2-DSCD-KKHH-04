@@ -1,0 +1,369 @@
+{
+  "id": "VXPAKOKS240330200",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "주말이나 공휴일 다음 평일 결제일이 되지만 정확한 결제일은 카드사에 문의하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.061,
+        "end": 2.371,
+        "gloss_id": "매주1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.532,
+        "end": 3.032,
+        "gloss_id": "결국1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.167,
+        "end": 3.312,
+        "gloss_id": "빨강1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.407,
+        "end": 3.476,
+        "gloss_id": "쉬다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.705,
+        "end": 4.191,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.364,
+        "end": 4.79,
+        "gloss_id": "다음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.222,
+        "end": 5.474,
+        "gloss_id": "요일2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.814,
+        "end": 6.429,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.797,
+        "end": 6.934,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.127,
+        "end": 7.242,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.416,
+        "end": 7.833,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.034,
+        "end": 8.245,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.406,
+        "end": 8.593,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.876,
+        "end": 9.186,
+        "gloss_id": "질문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.061,
+        "end": 3.031,
+        "loc": "0",
+        "word": "주말이나"
+      },
+      {
+        "start": 3.167,
+        "end": 4.195,
+        "loc": "1",
+        "word": "공휴일"
+      },
+      {
+        "start": 5.814,
+        "end": 6.429,
+        "loc": "4,5",
+        "word": "결제일이 되지만"
+      },
+      {
+        "start": 6.797,
+        "end": 6.934,
+        "loc": "6",
+        "word": "정확한"
+      },
+      {
+        "start": 7.127,
+        "end": 7.836,
+        "loc": "7",
+        "word": "결제일은"
+      },
+      {
+        "start": 8.034,
+        "end": 8.6,
+        "loc": "8",
+        "word": "카드사에"
+      },
+      {
+        "start": 4.364,
+        "end": 4.79,
+        "loc": "2",
+        "word": "다음"
+      },
+      {
+        "start": 5.222,
+        "end": 5.474,
+        "loc": "3",
+        "word": "평일"
+      },
+      {
+        "start": 8.876,
+        "end": 9.186,
+        "loc": "9",
+        "word": "문의하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.532,
+        "end": 3.032,
+        "gloss_id": "결국1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.705,
+        "end": 4.801,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.814,
+        "end": 6.429,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.797,
+        "end": 6.934,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.416,
+        "end": 7.833,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.407,
+        "end": 3.476,
+        "gloss_id": "쉬다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.061,
+        "end": 2.371,
+        "gloss_id": "매주1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.127,
+        "end": 7.242,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.406,
+        "end": 8.593,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.532,
+        "end": 3.032
+      },
+      {
+        "descriptor": "",
+        "start": 5.814,
+        "end": 6.429
+      },
+      {
+        "descriptor": "",
+        "start": 7.416,
+        "end": 7.833
+      },
+      {
+        "descriptor": "",
+        "start": 3.705,
+        "end": 4.191
+      },
+      {
+        "descriptor": "",
+        "start": 5.222,
+        "end": 5.474
+      },
+      {
+        "descriptor": "",
+        "start": 8.876,
+        "end": 9.186
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.061,
+        "end": 3.031
+      },
+      {
+        "descriptor": "",
+        "start": 6.797,
+        "end": 7.858
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330200",
+  "potogrf": {
+    "createdTime": "2024-10-19 10:49:23",
+    "sentence_ID": "VXPAKOKS240330200",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    297,
+    126
+  ],
+  "file": "VXPAKOKS240330200.mp4",
+  "saved_as": "VXPAKOKS240330200-주말이나공휴일다음평일결제일이되지만정확한결제일은카드사에문의하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

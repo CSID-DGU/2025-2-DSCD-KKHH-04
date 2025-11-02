@@ -1,0 +1,220 @@
+{
+  "id": "VXPAKOKS240330280",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 할부가 뭐고, 자주 써도 상관 없는건지 알려 주실 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.497,
+        "end": 2.723,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.85,
+        "end": 3.094,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.346,
+        "end": 3.753,
+        "gloss_id": "할부2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.16,
+        "end": 4.411,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.61,
+        "end": 5.166,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.376,
+        "end": 5.727,
+        "gloss_id": "카드2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.936,
+        "end": 6.429,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.497,
+        "end": 3.09,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 3.346,
+        "end": 3.753,
+        "loc": "1",
+        "word": "할부가"
+      },
+      {
+        "start": 4.16,
+        "end": 4.411,
+        "loc": "2",
+        "word": "뭐고,"
+      },
+      {
+        "start": 4.61,
+        "end": 5.707,
+        "loc": "3,4",
+        "word": "자주 써도"
+      },
+      {
+        "start": 5.936,
+        "end": 6.429,
+        "loc": "5,6,7,8,9,10",
+        "word": "상관 없는건지 알려 주실 수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.61,
+        "end": 5.166,
+        "gloss_id": "자유1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.346,
+        "end": 3.753,
+        "gloss_id": "할부2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.497,
+        "end": 2.723,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.936,
+        "end": 6.429
+      },
+      {
+        "descriptor": "",
+        "start": 4.16,
+        "end": 4.411
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.497,
+        "end": 4.397
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.936,
+        "end": 6.429
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.936,
+        "end": 6.429
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.61,
+        "end": 6.423
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330280",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:00:32",
+    "sentence_ID": "VXPAKOKS240330280",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240330280.mp4",
+  "saved_as": "VXPAKOKS240330280-신용카드할부가뭐고,자주써도상관없는건지알려주실수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

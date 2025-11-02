@@ -1,0 +1,277 @@
+{
+  "id": "VXPAKOKS240338020",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "이자수익은 채권이 가지고 있는 쿠폰 이자율을 기준으로 계산됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.112,
+        "end": 2.179,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.362,
+        "end": 2.567,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.834,
+        "end": 3.522,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.936,
+        "end": 4.767,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.986,
+        "end": 5.378,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.592,
+        "end": 5.85,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.207,
+        "end": 6.671,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.853,
+        "end": 7.03,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.237,
+        "end": 7.504,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.712,
+        "end": 8.158,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.535,
+        "end": 8.793,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.853,
+        "end": 8.157,
+        "loc": "0",
+        "word": "이자수익은"
+      },
+      {
+        "start": 2.112,
+        "end": 3.512,
+        "loc": "1",
+        "word": "채권이"
+      },
+      {
+        "start": 3.936,
+        "end": 6.672,
+        "loc": "2,3,4,5,6",
+        "word": "가지고 있는 쿠폰 이자율을 기준으로"
+      },
+      {
+        "start": 8.535,
+        "end": 8.793,
+        "loc": "7",
+        "word": "계산됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.834,
+        "end": 4.765,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.986,
+        "end": 5.378,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.592,
+        "end": 5.85,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.207,
+        "end": 6.671,
+        "gloss_id": "계산1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.535,
+        "end": 8.793,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.535,
+        "end": 8.793
+      },
+      {
+        "descriptor": "",
+        "start": 2.986,
+        "end": 3.522
+      },
+      {
+        "descriptor": "",
+        "start": 5.592,
+        "end": 5.85
+      },
+      {
+        "descriptor": "",
+        "start": 6.323,
+        "end": 6.671
+      },
+      {
+        "descriptor": "",
+        "start": 7.801,
+        "end": 8.158
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.834,
+        "end": 4.765
+      },
+      {
+        "descriptor": "",
+        "start": 5.592,
+        "end": 6.664
+      },
+      {
+        "descriptor": "",
+        "start": 7.712,
+        "end": 8.158
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338020",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:41:16",
+    "sentence_ID": "VXPAKOKS240338020",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    322,
+    126
+  ],
+  "file": "VXPAKOKS240338020.mp4",
+  "saved_as": "VXPAKOKS240338020-이자수익은채권이가지고있는쿠폰이자율을기준으로계산됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

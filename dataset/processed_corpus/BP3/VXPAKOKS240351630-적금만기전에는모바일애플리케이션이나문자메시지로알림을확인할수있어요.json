@@ -1,0 +1,391 @@
+{
+  "id": "VXPAKOKS240351630",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 만기 전에는 모바일 애플리케이션이나 문자메시지로 알림을 확인할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.386,
+        "end": 1.533,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.712,
+        "end": 2.314,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.593,
+        "end": 2.787,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.014,
+        "end": 3.255,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.47,
+        "end": 3.672,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.824,
+        "end": 3.94,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.078,
+        "end": 4.233,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.421,
+        "end": 4.608,
+        "gloss_id": "다운1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.842,
+        "end": 5.138,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.363,
+        "end": 5.565,
+        "gloss_id": "문장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.789,
+        "end": 6.195,
+        "gloss_id": "문자보내다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.442,
+        "end": 6.793,
+        "gloss_id": "알려주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.069,
+        "end": 7.342,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.536,
+        "end": 7.707,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.889,
+        "end": 8.068,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.386,
+        "end": 2.308,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.593,
+        "end": 3.249,
+        "loc": "1",
+        "word": "만기"
+      },
+      {
+        "start": 3.47,
+        "end": 3.672,
+        "loc": "2",
+        "word": "전에는"
+      },
+      {
+        "start": 3.824,
+        "end": 4.23,
+        "loc": "3",
+        "word": "모바일"
+      },
+      {
+        "start": 4.421,
+        "end": 5.141,
+        "loc": "4",
+        "word": "애플리케이션이나"
+      },
+      {
+        "start": 6.442,
+        "end": 6.793,
+        "loc": "6",
+        "word": "알림을"
+      },
+      {
+        "start": 7.536,
+        "end": 7.707,
+        "loc": "7",
+        "word": "확인할"
+      },
+      {
+        "start": 7.889,
+        "end": 8.068,
+        "loc": "8,9",
+        "word": "수 있어요."
+      },
+      {
+        "start": 5.363,
+        "end": 6.176,
+        "loc": "5",
+        "word": "문자메시지로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.712,
+        "end": 2.314,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.593,
+        "end": 2.787,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.014,
+        "end": 3.255,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.47,
+        "end": 3.672,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.078,
+        "end": 4.233,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.421,
+        "end": 4.608,
+        "gloss_id": "다운1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.842,
+        "end": 5.138,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.363,
+        "end": 5.565,
+        "gloss_id": "문장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.789,
+        "end": 7.699,
+        "gloss_id": "문자보내다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.889,
+        "end": 8.068
+      },
+      {
+        "descriptor": "",
+        "start": 1.9,
+        "end": 2.314
+      },
+      {
+        "descriptor": "",
+        "start": 4.842,
+        "end": 5.138
+      },
+      {
+        "descriptor": "",
+        "start": 7.069,
+        "end": 7.342
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.889,
+        "end": 8.068
+      },
+      {
+        "descriptor": "",
+        "start": 3.014,
+        "end": 3.255
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.386,
+        "end": 2.771
+      },
+      {
+        "descriptor": "",
+        "start": 7.069,
+        "end": 7.342
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.014,
+        "end": 3.623
+      },
+      {
+        "descriptor": "",
+        "start": 4.842,
+        "end": 5.138
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351630",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:46:38",
+    "sentence_ID": "VXPAKOKS240351630",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    282,
+    126
+  ],
+  "file": "VXPAKOKS240351630.mp4",
+  "saved_as": "VXPAKOKS240351630-적금만기전에는모바일애플리케이션이나문자메시지로알림을확인할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

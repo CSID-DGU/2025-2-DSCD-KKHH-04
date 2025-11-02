@@ -1,0 +1,269 @@
+{
+  "id": "VXPAKOKS240331100",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 사용등록을 통해 신용 점수 관리에 도움을 받을 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.087,
+        "end": 2.244,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.48,
+        "end": 3.039,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.337,
+        "end": 3.655,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.896,
+        "end": 4.499,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.724,
+        "end": 4.906,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.155,
+        "end": 5.581,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.832,
+        "end": 6.023,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.331,
+        "end": 6.581,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.694,
+        "end": 7.175,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.087,
+        "end": 3.012,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 3.337,
+        "end": 5.569,
+        "loc": "1,2",
+        "word": "사용등록을 통해"
+      },
+      {
+        "start": 5.832,
+        "end": 6.023,
+        "loc": "3",
+        "word": "신용"
+      },
+      {
+        "start": 6.331,
+        "end": 6.581,
+        "loc": "4",
+        "word": "점수"
+      },
+      {
+        "start": 6.694,
+        "end": 7.175,
+        "loc": "5,6,7,8,9",
+        "word": "관리에 도움을 받을 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.087,
+        "end": 2.244,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.337,
+        "end": 3.655,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.896,
+        "end": 4.91,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.155,
+        "end": 5.581,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.832,
+        "end": 6.023,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.48,
+        "end": 3.039
+      },
+      {
+        "descriptor": "",
+        "start": 4.724,
+        "end": 4.906
+      },
+      {
+        "descriptor": "",
+        "start": 6.331,
+        "end": 6.581
+      },
+      {
+        "descriptor": "",
+        "start": 6.694,
+        "end": 7.175
+      },
+      {
+        "descriptor": "",
+        "start": 5.155,
+        "end": 5.581
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.303,
+        "end": 5.577
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.724,
+        "end": 5.564
+      },
+      {
+        "descriptor": "",
+        "start": 6.694,
+        "end": 7.175
+      },
+      {
+        "descriptor": "",
+        "start": 2.48,
+        "end": 3.039
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331100",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:07:00",
+    "sentence_ID": "VXPAKOKS240331100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    247,
+    126
+  ],
+  "file": "VXPAKOKS240331100.mp4",
+  "saved_as": "VXPAKOKS240331100-신용카드사용등록을통해신용점수관리에도움을받을수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

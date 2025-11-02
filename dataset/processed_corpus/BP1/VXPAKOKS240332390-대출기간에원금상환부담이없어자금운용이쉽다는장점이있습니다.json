@@ -1,0 +1,246 @@
+{
+  "id": "VXPAKOKS240332390",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "대출 기간에 원금 상환 부담이 없어 자금 운용이 쉽다는 장점이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.823,
+        "end": 2.228,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.412,
+        "end": 2.525,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.74,
+        "end": 3.145,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.478,
+        "end": 3.613,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.808,
+        "end": 4.218,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.41,
+        "end": 4.831,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.072,
+        "end": 5.499,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.77,
+        "end": 5.894,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.041,
+        "end": 6.244,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.823,
+        "end": 2.228,
+        "loc": "0",
+        "word": "대출"
+      },
+      {
+        "start": 2.412,
+        "end": 3.142,
+        "loc": "1",
+        "word": "기간에"
+      },
+      {
+        "start": 3.478,
+        "end": 4.208,
+        "loc": "2",
+        "word": "원금"
+      },
+      {
+        "start": 4.41,
+        "end": 4.831,
+        "loc": "3",
+        "word": "상환"
+      },
+      {
+        "start": 5.77,
+        "end": 6.247,
+        "loc": "9,10",
+        "word": "장점이 있습니다."
+      },
+      {
+        "start": 5.072,
+        "end": 5.499,
+        "loc": "4,5,6,7,8",
+        "word": "부담이 없어 자금 운용이 쉽다는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.412,
+        "end": 2.525,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.74,
+        "end": 3.145,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.478,
+        "end": 4.219,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.072,
+        "end": 5.499,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.74,
+        "end": 3.145
+      },
+      {
+        "descriptor": "",
+        "start": 3.808,
+        "end": 4.218
+      },
+      {
+        "descriptor": "",
+        "start": 6.041,
+        "end": 6.244
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.808,
+        "end": 4.218
+      },
+      {
+        "descriptor": "",
+        "start": 1.823,
+        "end": 3.114
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332390",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:45:59",
+    "sentence_ID": "VXPAKOKS240332390",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    202,
+    126
+  ],
+  "file": "VXPAKOKS240332390.mp4",
+  "saved_as": "VXPAKOKS240332390-대출기간에원금상환부담이없어자금운용이쉽다는장점이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

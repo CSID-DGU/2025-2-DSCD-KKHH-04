@@ -1,0 +1,286 @@
+{
+  "id": "VXPAKOKS240339410",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 매니저 덕분에 투자자는 복잡한 투자 과정에 대한 부담을 덜 수 있습니다",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.441,
+        "end": 1.53,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.781,
+        "end": 2.149,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.327,
+        "end": 2.438,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.572,
+        "end": 3.052,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.339,
+        "end": 3.626,
+        "gloss_id": "어렵다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.07,
+        "end": 4.295,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.577,
+        "end": 4.782,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.074,
+        "end": 5.25,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.501,
+        "end": 5.635,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.958,
+        "end": 6.163,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.441,
+        "end": 2.133,
+        "loc": "3",
+        "word": "투자자는"
+      },
+      {
+        "start": 5.958,
+        "end": 6.163,
+        "loc": "8,9,10,11",
+        "word": "부담을 덜 수 있습니다"
+      },
+      {
+        "start": 4.07,
+        "end": 5.616,
+        "loc": "0,1,2",
+        "word": "펀드 매니저 덕분에"
+      },
+      {
+        "start": 2.327,
+        "end": 2.438,
+        "loc": "5",
+        "word": "투자"
+      },
+      {
+        "start": 2.572,
+        "end": 3.052,
+        "loc": "6,7",
+        "word": "과정에 대한"
+      },
+      {
+        "start": 3.339,
+        "end": 3.626,
+        "loc": "4",
+        "word": "복잡한"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.781,
+        "end": 2.149,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.572,
+        "end": 3.052,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.577,
+        "end": 4.782,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.074,
+        "end": 5.64,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.958,
+        "end": 6.163,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.781,
+        "end": 2.149
+      },
+      {
+        "descriptor": "",
+        "start": 3.339,
+        "end": 3.626
+      },
+      {
+        "descriptor": "",
+        "start": 5.501,
+        "end": 5.635
+      },
+      {
+        "descriptor": "",
+        "start": 5.958,
+        "end": 6.163
+      },
+      {
+        "descriptor": "",
+        "start": 2.572,
+        "end": 3.052
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.178,
+        "end": 5.25
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.344,
+        "end": 3.636
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.441,
+        "end": 1.661
+      },
+      {
+        "descriptor": "",
+        "start": 4.07,
+        "end": 5.569
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339410",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:58:09",
+    "sentence_ID": "VXPAKOKS240339410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    219,
+    126
+  ],
+  "file": "VXPAKOKS240339410.mp4",
+  "saved_as": "VXPAKOKS240339410-펀드매니저덕분에투자자는복잡한투자과정에대한부담을덜수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

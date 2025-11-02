@@ -1,0 +1,279 @@
+{
+  "id": "VXPAKOKS240335210",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "개인투자자들은 기업과 주식에 대한 전문지식과 정보가 부족해서 돈을 잃어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.588,
+        "end": 3.017,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.368,
+        "end": 3.979,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.24,
+        "end": 4.471,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.666,
+        "end": 4.794,
+        "gloss_id": "지식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.024,
+        "end": 5.959,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.274,
+        "end": 6.616,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.854,
+        "end": 7.085,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.329,
+        "end": 7.694,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.588,
+        "end": 3.017,
+        "loc": "1",
+        "word": "기업과"
+      },
+      {
+        "start": 3.368,
+        "end": 3.979,
+        "loc": "2,3",
+        "word": "주식에 대한"
+      },
+      {
+        "start": 4.24,
+        "end": 4.788,
+        "loc": "4",
+        "word": "전문지식과"
+      },
+      {
+        "start": 5.024,
+        "end": 5.959,
+        "loc": "5,6",
+        "word": "정보가 부족해서"
+      },
+      {
+        "start": 7.329,
+        "end": 7.694,
+        "loc": "7,8",
+        "word": "돈을 잃어요."
+      },
+      {
+        "start": 6.274,
+        "end": 7.067,
+        "loc": "0",
+        "word": "개인투자자들은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.588,
+        "end": 3.016,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.368,
+        "end": 3.979,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.24,
+        "end": 4.471,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.024,
+        "end": 5.959,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.274,
+        "end": 6.615,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.329,
+        "end": 7.694,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.329,
+        "end": 7.694
+      },
+      {
+        "descriptor": "",
+        "start": 2.588,
+        "end": 3.017
+      },
+      {
+        "descriptor": "",
+        "start": 3.471,
+        "end": 3.979
+      },
+      {
+        "descriptor": "",
+        "start": 5.526,
+        "end": 5.937
+      },
+      {
+        "descriptor": "",
+        "start": 6.854,
+        "end": 7.085
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 5.526,
+        "end": 5.939
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.024,
+        "end": 5.946
+      },
+      {
+        "descriptor": "",
+        "start": 6.854,
+        "end": 7.693
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.368,
+        "end": 3.979
+      },
+      {
+        "descriptor": "",
+        "start": 4.42,
+        "end": 4.811
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335210",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:35:10",
+    "sentence_ID": "VXPAKOKS240335210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    285,
+    126
+  ],
+  "file": "VXPAKOKS240335210.mp4",
+  "saved_as": "VXPAKOKS240335210-개인투자자들은기업과주식에대한전문지식과정보가부족해서돈을잃어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

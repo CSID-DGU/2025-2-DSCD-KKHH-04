@@ -1,0 +1,223 @@
+{
+  "id": "VXPAKOKS240330000",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "해외에서 카드를 쓸 때 나오는 수수료가 비싸서 걱정이예요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.696,
+        "end": 1.865,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.952,
+        "end": 2.343,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.463,
+        "end": 3.053,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.178,
+        "end": 3.538,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.767,
+        "end": 4.312,
+        "gloss_id": "독하다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.464,
+        "end": 4.955,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.696,
+        "end": 1.865,
+        "loc": "0",
+        "word": "해외에서"
+      },
+      {
+        "start": 1.952,
+        "end": 2.343,
+        "loc": "1",
+        "word": "카드를"
+      },
+      {
+        "start": 2.463,
+        "end": 3.053,
+        "loc": "2,3",
+        "word": "쓸 때"
+      },
+      {
+        "start": 3.178,
+        "end": 3.538,
+        "loc": "4,5",
+        "word": "나오는 수수료가"
+      },
+      {
+        "start": 3.767,
+        "end": 4.312,
+        "loc": "6",
+        "word": "비싸서"
+      },
+      {
+        "start": 4.464,
+        "end": 4.955,
+        "loc": "7",
+        "word": "걱정이예요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.696,
+        "end": 1.865,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.463,
+        "end": 3.053,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.178,
+        "end": 3.538,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.464,
+        "end": 4.955,
+        "gloss_id": "문제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.463,
+        "end": 3.053
+      },
+      {
+        "descriptor": "",
+        "start": 3.767,
+        "end": 4.267
+      },
+      {
+        "descriptor": "",
+        "start": 4.464,
+        "end": 4.955
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.989,
+        "end": 4.267
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.464,
+        "end": 4.955
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.696,
+        "end": 2.988
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330000",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:49:36",
+    "sentence_ID": "VXPAKOKS240330000",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    163,
+    126
+  ],
+  "file": "VXPAKOKS240330000.mp4",
+  "saved_as": "VXPAKOKS240330000-해외에서카드를쓸때나오는수수료가비싸서걱정이예요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

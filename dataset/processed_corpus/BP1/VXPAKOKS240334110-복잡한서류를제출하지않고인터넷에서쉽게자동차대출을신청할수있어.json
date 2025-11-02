@@ -1,0 +1,331 @@
+{
+  "id": "VXPAKOKS240334110",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "복잡한 서류를 제출하지 않고 인터넷에서 쉽게 자동차 대출을 신청할 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.517,
+        "end": 2.75,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.069,
+        "end": 3.435,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.797,
+        "end": 4.469,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.687,
+        "end": 4.842,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.107,
+        "end": 5.277,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.551,
+        "end": 6.02,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.41,
+        "end": 6.564,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.834,
+        "end": 7.028,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.2,
+        "end": 7.527,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.709,
+        "end": 7.895,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.517,
+        "end": 2.75,
+        "loc": "6",
+        "word": "자동차"
+      },
+      {
+        "start": 3.069,
+        "end": 3.435,
+        "loc": "7",
+        "word": "대출을"
+      },
+      {
+        "start": 3.797,
+        "end": 4.469,
+        "loc": "0",
+        "word": "복잡한"
+      },
+      {
+        "start": 4.687,
+        "end": 4.842,
+        "loc": "1",
+        "word": "서류를"
+      },
+      {
+        "start": 5.107,
+        "end": 5.277,
+        "loc": "2",
+        "word": "제출하지"
+      },
+      {
+        "start": 5.551,
+        "end": 6.02,
+        "loc": "3",
+        "word": "않고"
+      },
+      {
+        "start": 6.41,
+        "end": 6.564,
+        "loc": "5",
+        "word": "쉽게"
+      },
+      {
+        "start": 6.834,
+        "end": 7.028,
+        "loc": "4",
+        "word": "인터넷에서"
+      },
+      {
+        "start": 7.2,
+        "end": 7.527,
+        "loc": "8",
+        "word": "신청할"
+      },
+      {
+        "start": 7.709,
+        "end": 7.895,
+        "loc": "9,10",
+        "word": "수 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.517,
+        "end": 3.417,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.797,
+        "end": 4.469,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.687,
+        "end": 4.842,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.107,
+        "end": 5.277,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.551,
+        "end": 6.02,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.41,
+        "end": 6.564,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.834,
+        "end": 7.028,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.069,
+        "end": 3.435
+      },
+      {
+        "descriptor": "",
+        "start": 3.797,
+        "end": 4.469
+      },
+      {
+        "descriptor": "",
+        "start": 5.825,
+        "end": 6.02
+      },
+      {
+        "descriptor": "",
+        "start": 7.2,
+        "end": 7.527
+      },
+      {
+        "descriptor": "",
+        "start": 7.709,
+        "end": 7.895
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.832,
+        "end": 6.01
+      },
+      {
+        "descriptor": "",
+        "start": 7.709,
+        "end": 7.895
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.797,
+        "end": 5.998
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.517,
+        "end": 3.408
+      },
+      {
+        "descriptor": "",
+        "start": 6.834,
+        "end": 7.028
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334110",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:47",
+    "sentence_ID": "VXPAKOKS240334110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    282,
+    126
+  ],
+  "file": "VXPAKOKS240334110.mp4",
+  "saved_as": "VXPAKOKS240334110-복잡한서류를제출하지않고인터넷에서쉽게자동차대출을신청할수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

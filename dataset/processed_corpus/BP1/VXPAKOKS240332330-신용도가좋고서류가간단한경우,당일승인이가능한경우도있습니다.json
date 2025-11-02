@@ -1,0 +1,288 @@
+{
+  "id": "VXPAKOKS240332330",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "신용도가 좋고 서류가 간단한 경우, 당일 승인이 가능한 경우도 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.691,
+        "end": 1.96,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.263,
+        "end": 2.452,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.675,
+        "end": 3.197,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.513,
+        "end": 3.84,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.042,
+        "end": 4.318,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.617,
+        "end": 5.211,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.584,
+        "end": 6.106,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.437,
+        "end": 6.756,
+        "gloss_id": "허락1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.984,
+        "end": 7.195,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.415,
+        "end": 7.857,
+        "gloss_id": "가끔1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.691,
+        "end": 2.444,
+        "loc": "0",
+        "word": "신용도가"
+      },
+      {
+        "start": 2.675,
+        "end": 3.197,
+        "loc": "1",
+        "word": "좋고"
+      },
+      {
+        "start": 3.513,
+        "end": 4.302,
+        "loc": "2",
+        "word": "서류가"
+      },
+      {
+        "start": 4.617,
+        "end": 5.211,
+        "loc": "3,4",
+        "word": "간단한 경우,"
+      },
+      {
+        "start": 5.584,
+        "end": 6.106,
+        "loc": "5",
+        "word": "당일"
+      },
+      {
+        "start": 6.437,
+        "end": 6.756,
+        "loc": "6",
+        "word": "승인이"
+      },
+      {
+        "start": 6.984,
+        "end": 7.195,
+        "loc": "7",
+        "word": "가능한"
+      },
+      {
+        "start": 7.415,
+        "end": 7.857,
+        "loc": "8,9",
+        "word": "경우도 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.691,
+        "end": 1.96,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.513,
+        "end": 3.84,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.617,
+        "end": 5.211,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.584,
+        "end": 6.106,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.437,
+        "end": 6.756,
+        "gloss_id": "허락1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.675,
+        "end": 3.197
+      },
+      {
+        "descriptor": "",
+        "start": 4.617,
+        "end": 5.211
+      },
+      {
+        "descriptor": "",
+        "start": 6.984,
+        "end": 7.195
+      },
+      {
+        "descriptor": "",
+        "start": 7.415,
+        "end": 7.857
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.984,
+        "end": 7.195
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.617,
+        "end": 5.211
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.437,
+        "end": 7.189
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332330",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:44:28",
+    "sentence_ID": "VXPAKOKS240332330",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    260,
+    126
+  ],
+  "file": "VXPAKOKS240332330.mp4",
+  "saved_as": "VXPAKOKS240332330-신용도가좋고서류가간단한경우,당일승인이가능한경우도있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

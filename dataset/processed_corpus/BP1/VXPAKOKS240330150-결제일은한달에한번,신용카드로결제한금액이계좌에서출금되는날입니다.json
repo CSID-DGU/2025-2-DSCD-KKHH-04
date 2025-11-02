@@ -1,0 +1,297 @@
+{
+  "id": "VXPAKOKS240330150",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "결제일은 한 달에 한 번, 신용카드로 결제한 금액이 계좌에서 출금되는 날입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.275,
+        "end": 2.541,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.64,
+        "end": 3.446,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.665,
+        "end": 4.012,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.188,
+        "end": 4.688,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.93,
+        "end": 5.164,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.301,
+        "end": 6.284,
+        "gloss_id": "카드2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.564,
+        "end": 6.774,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.902,
+        "end": 7.305,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.563,
+        "end": 7.983,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.063,
+        "end": 8.192,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.305,
+        "end": 8.773,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.275,
+        "end": 3.451,
+        "loc": "0",
+        "word": "결제일은"
+      },
+      {
+        "start": 3.665,
+        "end": 4.012,
+        "loc": "1,2",
+        "word": "한 달에"
+      },
+      {
+        "start": 4.188,
+        "end": 4.688,
+        "loc": "3,4",
+        "word": "한 번,"
+      },
+      {
+        "start": 4.93,
+        "end": 6.259,
+        "loc": "5,6",
+        "word": "신용카드로 결제한"
+      },
+      {
+        "start": 7.563,
+        "end": 7.983,
+        "loc": "8",
+        "word": "계좌에서"
+      },
+      {
+        "start": 8.063,
+        "end": 8.192,
+        "loc": "7",
+        "word": "금액이"
+      },
+      {
+        "start": 8.305,
+        "end": 8.773,
+        "loc": "9",
+        "word": "출금되는"
+      },
+      {
+        "start": 6.564,
+        "end": 7.289,
+        "loc": "10",
+        "word": "날입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.275,
+        "end": 2.541,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.64,
+        "end": 3.446,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.563,
+        "end": 8.2,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.305,
+        "end": 8.773,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.93,
+        "end": 6.284,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "한번",
+        "start": 4.187,
+        "end": 4.687
+      },
+      {
+        "descriptor": "한 달",
+        "start": 3.665,
+        "end": 4.012
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.64,
+        "end": 3.446
+      },
+      {
+        "descriptor": "",
+        "start": 4.188,
+        "end": 4.688
+      },
+      {
+        "descriptor": "",
+        "start": 8.305,
+        "end": 8.773
+      },
+      {
+        "descriptor": "",
+        "start": 5.301,
+        "end": 6.284
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.93,
+        "end": 6.259
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330150",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:57:59",
+    "sentence_ID": "VXPAKOKS240330150",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    290,
+    126
+  ],
+  "file": "VXPAKOKS240330150.mp4",
+  "saved_as": "VXPAKOKS240330150-결제일은한달에한번,신용카드로결제한금액이계좌에서출금되는날입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

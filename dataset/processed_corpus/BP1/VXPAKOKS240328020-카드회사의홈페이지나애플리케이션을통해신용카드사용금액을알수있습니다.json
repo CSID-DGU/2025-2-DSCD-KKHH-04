@@ -1,0 +1,296 @@
+{
+  "id": "VXPAKOKS240328020",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "카드회사의 홈페이지나 애플리케이션을 통해 신용카드 사용금액을 알 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.517,
+        "end": 1.705,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.799,
+        "end": 2.079,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.299,
+        "end": 3.323,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.433,
+        "end": 3.933,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.284,
+        "end": 4.593,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.866,
+        "end": 5.323,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.033,
+        "end": 6.122,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.176,
+        "end": 6.372,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.533,
+        "end": 6.962,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.066,
+        "end": 7.375,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.533,
+        "end": 5.919,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.433,
+        "end": 3.933,
+        "loc": "1",
+        "word": "홈페이지나"
+      },
+      {
+        "start": 4.284,
+        "end": 4.593,
+        "loc": "2",
+        "word": "애플리케이션을"
+      },
+      {
+        "start": 4.866,
+        "end": 5.323,
+        "loc": "3",
+        "word": "통해"
+      },
+      {
+        "start": 6.533,
+        "end": 6.962,
+        "loc": "6",
+        "word": "알"
+      },
+      {
+        "start": 7.066,
+        "end": 7.375,
+        "loc": "7,8",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 1.517,
+        "end": 3.313,
+        "loc": "0",
+        "word": "카드회사의"
+      },
+      {
+        "start": 5.533,
+        "end": 6.372,
+        "loc": "4,5",
+        "word": "신용카드 사용금액을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.517,
+        "end": 2.073,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.299,
+        "end": 3.323,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.866,
+        "end": 5.323,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.533,
+        "end": 5.919,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 4.284,
+        "end": 4.593
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.799,
+        "end": 2.079
+      },
+      {
+        "descriptor": "",
+        "start": 2.299,
+        "end": 3.323
+      },
+      {
+        "descriptor": "",
+        "start": 6.176,
+        "end": 6.372
+      },
+      {
+        "descriptor": "",
+        "start": 6.533,
+        "end": 6.962
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.066,
+        "end": 7.375
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.533,
+        "end": 5.919
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.866,
+        "end": 5.323
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.866,
+        "end": 5.323
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328020",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:04:44",
+    "sentence_ID": "VXPAKOKS240328020",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    255,
+    126
+  ],
+  "file": "VXPAKOKS240328020.mp4",
+  "saved_as": "VXPAKOKS240328020-카드회사의홈페이지나애플리케이션을통해신용카드사용금액을알수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

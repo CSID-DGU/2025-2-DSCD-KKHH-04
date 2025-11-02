@@ -1,0 +1,401 @@
+{
+  "id": "VXPAKOKS240344100",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 발급받은 통장이나 계좌 명세서를 통해 거래내역을 확인할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.757,
+        "end": 2.14,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.485,
+        "end": 2.652,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.824,
+        "end": 2.991,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.126,
+        "end": 4.274,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.568,
+        "end": 4.699,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.979,
+        "end": 5.146,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.321,
+        "end": 5.56,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.8,
+        "end": 6.255,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.472,
+        "end": 6.837,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.168,
+        "end": 7.416,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.446,
+        "end": 7.748,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.596,
+        "end": 8.79,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.983,
+        "end": 9.186,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.374,
+        "end": 9.532,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.757,
+        "end": 2.14,
+        "loc": "0",
+        "word": "은행에서"
+      },
+      {
+        "start": 2.485,
+        "end": 2.652,
+        "loc": "2",
+        "word": "통장이나"
+      },
+      {
+        "start": 2.824,
+        "end": 4.26,
+        "loc": "1",
+        "word": "발급받은"
+      },
+      {
+        "start": 4.568,
+        "end": 4.699,
+        "loc": "3",
+        "word": "계좌"
+      },
+      {
+        "start": 4.979,
+        "end": 6.262,
+        "loc": "4,5",
+        "word": "명세서를 통해"
+      },
+      {
+        "start": 7.168,
+        "end": 8.775,
+        "loc": "6",
+        "word": "거래내역을"
+      },
+      {
+        "start": 8.983,
+        "end": 9.537,
+        "loc": "7,8,9",
+        "word": "확인할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.78,
+        "end": 4.271,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.757,
+        "end": 2.14,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.485,
+        "end": 2.652,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.824,
+        "end": 2.991,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.126,
+        "end": 3.464,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.568,
+        "end": 5.149,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.321,
+        "end": 5.56,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.8,
+        "end": 6.255,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.472,
+        "end": 6.837,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.168,
+        "end": 7.749,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.596,
+        "end": 9.195,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.757,
+        "end": 2.14
+      },
+      {
+        "descriptor": "",
+        "start": 3.78,
+        "end": 4.271
+      },
+      {
+        "descriptor": "",
+        "start": 5.8,
+        "end": 6.255
+      },
+      {
+        "descriptor": "",
+        "start": 7.17,
+        "end": 7.748
+      },
+      {
+        "descriptor": "",
+        "start": 9.374,
+        "end": 9.532
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.374,
+        "end": 9.532
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.472,
+        "end": 6.837
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.126,
+        "end": 4.256
+      },
+      {
+        "descriptor": "",
+        "start": 4.979,
+        "end": 6.253
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.757,
+        "end": 2.14
+      },
+      {
+        "descriptor": "",
+        "start": 3.126,
+        "end": 4.274
+      },
+      {
+        "descriptor": "",
+        "start": 5.321,
+        "end": 6.235
+      },
+      {
+        "descriptor": "",
+        "start": 7.168,
+        "end": 7.731
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344100",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:58:07",
+    "sentence_ID": "VXPAKOKS240344100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    324,
+    126
+  ],
+  "file": "VXPAKOKS240344100.mp4",
+  "saved_as": "VXPAKOKS240344100-은행에서발급받은통장이나계좌명세서를통해거래내역을확인할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

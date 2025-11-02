@@ -1,0 +1,362 @@
+{
+  "id": "VXPAKOKS240344310",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "예금은 본인 명의로만 가입할 수 있지만, 법정 대리인의 경우 예외적으로 가입할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.943,
+        "end": 2.333,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.536,
+        "end": 2.667,
+        "gloss_id": "책1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.811,
+        "end": 2.911,
+        "gloss_id": "이름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.088,
+        "end": 3.415,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.647,
+        "end": 3.888,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.099,
+        "end": 4.216,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.44,
+        "end": 4.783,
+        "gloss_id": "맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.129,
+        "end": 5.315,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.579,
+        "end": 5.836,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.103,
+        "end": 6.634,
+        "gloss_id": "맡기다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.073,
+        "end": 7.244,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.397,
+        "end": 7.521,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.943,
+        "end": 2.333,
+        "loc": "0",
+        "word": "예금은"
+      },
+      {
+        "start": 2.536,
+        "end": 2.667,
+        "loc": "1",
+        "word": "본인"
+      },
+      {
+        "start": 2.811,
+        "end": 3.413,
+        "loc": "2",
+        "word": "명의로만"
+      },
+      {
+        "start": 3.647,
+        "end": 4.782,
+        "loc": "3,4,5",
+        "word": "가입할 수 있지만,"
+      },
+      {
+        "start": 5.129,
+        "end": 5.315,
+        "loc": "6",
+        "word": "법정"
+      },
+      {
+        "start": 5.579,
+        "end": 6.659,
+        "loc": "7,8",
+        "word": "대리인의 경우"
+      },
+      {
+        "start": 7.073,
+        "end": 7.511,
+        "loc": "9,10,11,12",
+        "word": "예외적으로 가입할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.943,
+        "end": 2.333,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.536,
+        "end": 2.91,
+        "gloss_id": "책1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.088,
+        "end": 3.415,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.647,
+        "end": 4.782,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.129,
+        "end": 5.315,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.579,
+        "end": 5.836,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.103,
+        "end": 6.634,
+        "gloss_id": "맡기다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.073,
+        "end": 7.244,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.943,
+        "end": 2.333
+      },
+      {
+        "descriptor": "",
+        "start": 3.088,
+        "end": 3.415
+      },
+      {
+        "descriptor": "",
+        "start": 4.099,
+        "end": 4.216
+      },
+      {
+        "descriptor": "",
+        "start": 4.44,
+        "end": 4.783
+      },
+      {
+        "descriptor": "",
+        "start": 6.103,
+        "end": 6.634
+      },
+      {
+        "descriptor": "",
+        "start": 7.397,
+        "end": 7.521
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.099,
+        "end": 4.216
+      },
+      {
+        "descriptor": "",
+        "start": 7.397,
+        "end": 7.521
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.099,
+        "end": 4.771
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.103,
+        "end": 6.634
+      },
+      {
+        "descriptor": "",
+        "start": 1.943,
+        "end": 2.333
+      },
+      {
+        "descriptor": "",
+        "start": 3.088,
+        "end": 3.415
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.943,
+        "end": 3.415
+      },
+      {
+        "descriptor": "",
+        "start": 5.129,
+        "end": 6.633
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344310",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:59:08",
+    "sentence_ID": "VXPAKOKS240344310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    282,
+    126
+  ],
+  "file": "VXPAKOKS240344310.mp4",
+  "saved_as": "VXPAKOKS240344310-예금은본인명의로만가입할수있지만,법정대리인의경우예외적으로가입할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

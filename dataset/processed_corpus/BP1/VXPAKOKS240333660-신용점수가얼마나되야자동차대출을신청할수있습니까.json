@@ -1,0 +1,221 @@
+{
+  "id": "VXPAKOKS240333660",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "신용 점수가 얼마나 되야 자동차 대출을 신청할 수 있습니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.59,
+        "end": 2.761,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.986,
+        "end": 3.2,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.4,
+        "end": 3.918,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.178,
+        "end": 4.368,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.612,
+        "end": 4.777,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.925,
+        "end": 5.157,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.445,
+        "end": 5.908,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.59,
+        "end": 2.761,
+        "loc": "4",
+        "word": "자동차"
+      },
+      {
+        "start": 2.986,
+        "end": 3.2,
+        "loc": "5",
+        "word": "대출을"
+      },
+      {
+        "start": 3.4,
+        "end": 3.918,
+        "loc": "6,7,8",
+        "word": "신청할 수 있습니까?"
+      },
+      {
+        "start": 4.178,
+        "end": 4.368,
+        "loc": "0",
+        "word": "신용"
+      },
+      {
+        "start": 4.612,
+        "end": 4.777,
+        "loc": "1",
+        "word": "점수가"
+      },
+      {
+        "start": 4.925,
+        "end": 5.912,
+        "loc": "2,3",
+        "word": "얼마나 되야"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.59,
+        "end": 3.199,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.178,
+        "end": 4.368,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.445,
+        "end": 5.908,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.4,
+        "end": 3.918,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.445,
+        "end": 5.908
+      },
+      {
+        "descriptor": "",
+        "start": 3.506,
+        "end": 3.909
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.59,
+        "end": 3.881
+      },
+      {
+        "descriptor": "",
+        "start": 4.612,
+        "end": 5.928
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333660",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:23:51",
+    "sentence_ID": "VXPAKOKS240333660",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    219,
+    126
+  ],
+  "file": "VXPAKOKS240333660.mp4",
+  "saved_as": "VXPAKOKS240333660-신용점수가얼마나되야자동차대출을신청할수있습니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

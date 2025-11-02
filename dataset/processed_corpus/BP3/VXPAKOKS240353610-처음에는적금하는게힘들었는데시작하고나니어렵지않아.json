@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240353610",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "처음에는 적금하는 게 힘들었는데 시작하고 나니 어렵지 않아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.463,
+        "end": 1.772,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.053,
+        "end": 2.16,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.343,
+        "end": 2.636,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.922,
+        "end": 3.484,
+        "gloss_id": "힘들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.776,
+        "end": 4.105,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.339,
+        "end": 4.647,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.846,
+        "end": 5.124,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.463,
+        "end": 1.772,
+        "loc": "0",
+        "word": "처음에는"
+      },
+      {
+        "start": 2.053,
+        "end": 2.636,
+        "loc": "1,2",
+        "word": "적금하는 게"
+      },
+      {
+        "start": 2.922,
+        "end": 3.484,
+        "loc": "3",
+        "word": "힘들었는데"
+      },
+      {
+        "start": 4.846,
+        "end": 5.124,
+        "loc": "6,7",
+        "word": "어렵지 않아."
+      },
+      {
+        "start": 3.776,
+        "end": 4.105,
+        "loc": "4",
+        "word": "시작하고"
+      },
+      {
+        "start": 4.339,
+        "end": 4.647,
+        "loc": "5",
+        "word": "나니"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.343,
+        "end": 2.636,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.776,
+        "end": 4.105,
+        "gloss_id": "시작1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.339,
+        "end": 4.647,
+        "gloss_id": "이후1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.463,
+        "end": 1.772
+      },
+      {
+        "descriptor": "",
+        "start": 2.922,
+        "end": 3.106
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.492,
+        "end": 3.133
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.463,
+        "end": 1.772
+      },
+      {
+        "descriptor": "",
+        "start": 4.334,
+        "end": 5.124
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353610",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:08:26",
+    "sentence_ID": "VXPAKOKS240353610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    186,
+    126
+  ],
+  "file": "VXPAKOKS240353610.mp4",
+  "saved_as": "VXPAKOKS240353610-처음에는적금하는게힘들었는데시작하고나니어렵지않아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

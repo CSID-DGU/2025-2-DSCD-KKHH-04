@@ -1,0 +1,257 @@
+{
+  "id": "VXPAKOKS240333100",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "통장 종류를 바꿀 수 있는지는 은행의 내부 기준에 따라 달라질 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.585,
+        "end": 2.868,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.028,
+        "end": 3.755,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.083,
+        "end": 4.447,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.525,
+        "end": 4.808,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.98,
+        "end": 5.141,
+        "gloss_id": "바꾸다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.4,
+        "end": 5.635,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.746,
+        "end": 5.988,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.119,
+        "end": 6.449,
+        "gloss_id": "둘중하나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.585,
+        "end": 2.868,
+        "loc": "5",
+        "word": "은행의"
+      },
+      {
+        "start": 3.025,
+        "end": 3.755,
+        "loc": "6,7,8",
+        "word": "내부 기준에 따라"
+      },
+      {
+        "start": 4.083,
+        "end": 4.447,
+        "loc": "0",
+        "word": "통장"
+      },
+      {
+        "start": 4.525,
+        "end": 4.808,
+        "loc": "1",
+        "word": "종류를"
+      },
+      {
+        "start": 4.98,
+        "end": 6.003,
+        "loc": "2,3,4",
+        "word": "바꿀 수 있는지는"
+      },
+      {
+        "start": 6.119,
+        "end": 6.449,
+        "loc": "9,10,11",
+        "word": "달라질 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.585,
+        "end": 2.868,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.083,
+        "end": 4.447,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.525,
+        "end": 4.808,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.028,
+        "end": 3.755,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.957,
+        "end": 3.321
+      },
+      {
+        "descriptor": "",
+        "start": 4.083,
+        "end": 4.447
+      },
+      {
+        "descriptor": "",
+        "start": 4.525,
+        "end": 4.808
+      },
+      {
+        "descriptor": "",
+        "start": 5.454,
+        "end": 5.635
+      },
+      {
+        "descriptor": "",
+        "start": 5.746,
+        "end": 5.988
+      },
+      {
+        "descriptor": "",
+        "start": 6.119,
+        "end": 6.449
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.454,
+        "end": 5.635
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.585,
+        "end": 3.207
+      },
+      {
+        "descriptor": "",
+        "start": 4.525,
+        "end": 4.808
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333100",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:27:21",
+    "sentence_ID": "VXPAKOKS240333100",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    244,
+    126
+  ],
+  "file": "VXPAKOKS240333100.mp4",
+  "saved_as": "VXPAKOKS240333100-통장종류를바꿀수있는지는은행의내부기준에따라달라질수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

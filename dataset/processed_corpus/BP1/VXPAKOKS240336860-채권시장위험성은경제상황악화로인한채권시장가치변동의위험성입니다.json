@@ -1,0 +1,418 @@
+{
+  "id": "VXPAKOKS240336860",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장 위험성은 경제 상황 악화로 인한 채권 시장 가치 변동의 위험성입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.439,
+        "end": 2.544,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.717,
+        "end": 2.969,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.146,
+        "end": 3.759,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.034,
+        "end": 4.248,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.493,
+        "end": 4.767,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.922,
+        "end": 5.038,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.231,
+        "end": 5.468,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.788,
+        "end": 6.122,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.435,
+        "end": 6.814,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.015,
+        "end": 7.154,
+        "gloss_id": "어렵다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.377,
+        "end": 7.944,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.099,
+        "end": 8.174,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.257,
+        "end": 8.494,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.656,
+        "end": 9.005,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.22,
+        "end": 9.765,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.943,
+        "end": 10.187,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.342,
+        "end": 10.579,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.443,
+        "end": 3.759,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 4.034,
+        "end": 4.757,
+        "loc": "1",
+        "word": "시장"
+      },
+      {
+        "start": 4.922,
+        "end": 6.092,
+        "loc": "2",
+        "word": "위험성은"
+      },
+      {
+        "start": 6.435,
+        "end": 6.814,
+        "loc": "3",
+        "word": "경제"
+      },
+      {
+        "start": 7.377,
+        "end": 7.944,
+        "loc": "6",
+        "word": "인한"
+      },
+      {
+        "start": 7.015,
+        "end": 7.154,
+        "loc": "4,5",
+        "word": "상황 악화로"
+      },
+      {
+        "start": 8.071,
+        "end": 9.005,
+        "loc": "7",
+        "word": "채권"
+      },
+      {
+        "start": 9.22,
+        "end": 9.765,
+        "loc": "8,9,10",
+        "word": "시장 가치 변동의"
+      },
+      {
+        "start": 9.943,
+        "end": 10.585,
+        "loc": "11",
+        "word": "위험성입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 9.22,
+        "end": 10.188,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.146,
+        "end": 3.759,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.034,
+        "end": 4.248,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.493,
+        "end": 5.037,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.231,
+        "end": 5.467,
+        "gloss_id": "성격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.435,
+        "end": 6.814,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.656,
+        "end": 9.005,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.342,
+        "end": 10.579,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.146,
+        "end": 3.759
+      },
+      {
+        "descriptor": "",
+        "start": 5.788,
+        "end": 6.122
+      },
+      {
+        "descriptor": "",
+        "start": 7.377,
+        "end": 7.944
+      },
+      {
+        "descriptor": "",
+        "start": 10.342,
+        "end": 10.579
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.692,
+        "end": 7.944
+      },
+      {
+        "descriptor": "",
+        "start": 4.493,
+        "end": 4.767
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.922,
+        "end": 5.884
+      },
+      {
+        "descriptor": "",
+        "start": 6.435,
+        "end": 7.155
+      },
+      {
+        "descriptor": "",
+        "start": 9.22,
+        "end": 9.662
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.717,
+        "end": 3.75
+      },
+      {
+        "descriptor": "",
+        "start": 4.399,
+        "end": 4.636
+      },
+      {
+        "descriptor": "",
+        "start": 6.199,
+        "end": 7.914
+      },
+      {
+        "descriptor": "",
+        "start": 8.656,
+        "end": 8.931
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336860",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:32:22",
+    "sentence_ID": "VXPAKOKS240336860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    379,
+    126
+  ],
+  "file": "VXPAKOKS240336860.mp4",
+  "saved_as": "VXPAKOKS240336860-채권시장위험성은경제상황악화로인한채권시장가치변동의위험성입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

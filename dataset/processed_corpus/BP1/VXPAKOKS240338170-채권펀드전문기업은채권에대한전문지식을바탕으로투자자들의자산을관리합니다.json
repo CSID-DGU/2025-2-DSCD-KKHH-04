@@ -1,0 +1,300 @@
+{
+  "id": "VXPAKOKS240338170",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 펀드 전문 기업은 채권에 대한 전문 지식을 바탕으로 투자자들의 자산을 관리합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.517,
+        "end": 2.594,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.729,
+        "end": 2.919,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.178,
+        "end": 3.74,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.058,
+        "end": 4.434,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.778,
+        "end": 5.225,
+        "gloss_id": "지식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.521,
+        "end": 6.092,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.342,
+        "end": 6.505,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.75,
+        "end": 7.117,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.31,
+        "end": 7.597,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.801,
+        "end": 8.292,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.51,
+        "end": 8.824,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.517,
+        "end": 4.437,
+        "loc": "4,5",
+        "word": "채권에 대한"
+      },
+      {
+        "start": 4.778,
+        "end": 6.093,
+        "loc": "6,7,8",
+        "word": "전문 지식을 바탕으로"
+      },
+      {
+        "start": 6.342,
+        "end": 7.604,
+        "loc": "0,1,2,3",
+        "word": "채권 펀드 전문 기업은"
+      },
+      {
+        "start": 7.801,
+        "end": 8.832,
+        "loc": "9,10,11",
+        "word": "투자자들의 자산을 관리합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 5.521,
+        "end": 6.092,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.342,
+        "end": 6.505,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.75,
+        "end": 7.117,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.31,
+        "end": 7.597,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.801,
+        "end": 8.292,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.51,
+        "end": 8.824,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.178,
+        "end": 3.74,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.178,
+        "end": 3.74
+      },
+      {
+        "descriptor": "",
+        "start": 4.058,
+        "end": 4.434
+      },
+      {
+        "descriptor": "",
+        "start": 5.618,
+        "end": 6.092
+      },
+      {
+        "descriptor": "",
+        "start": 7.31,
+        "end": 7.597
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.51,
+        "end": 8.824
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.801,
+        "end": 8.292
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.178,
+        "end": 3.696
+      },
+      {
+        "descriptor": "",
+        "start": 5.521,
+        "end": 6.092
+      },
+      {
+        "descriptor": "",
+        "start": 7.31,
+        "end": 7.597
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338170",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:09",
+    "sentence_ID": "VXPAKOKS240338170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    319,
+    126
+  ],
+  "file": "VXPAKOKS240338170.mp4",
+  "saved_as": "VXPAKOKS240338170-채권펀드전문기업은채권에대한전문지식을바탕으로투자자들의자산을관리합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,458 @@
+{
+  "id": "VXPAKOKS240354160",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "적금 이자는 가입 시점에 결정된 조건에 따라 계산되며, 중도 해지 시 이자가 감소할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.513,
+        "end": 1.829,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.99,
+        "end": 2.565,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.943,
+        "end": 3.234,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.478,
+        "end": 4.388,
+        "gloss_id": "언제1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.724,
+        "end": 4.94,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.234,
+        "end": 5.609,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.718,
+        "end": 5.901,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.087,
+        "end": 6.171,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.296,
+        "end": 6.788,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.915,
+        "end": 7.172,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.332,
+        "end": 7.489,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.837,
+        "end": 8.053,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.21,
+        "end": 8.384,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.545,
+        "end": 8.652,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.804,
+        "end": 8.936,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.204,
+        "end": 1.319,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.204,
+        "end": 1.821,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 1.99,
+        "end": 2.565,
+        "loc": "1",
+        "word": "이자는"
+      },
+      {
+        "start": 2.943,
+        "end": 3.234,
+        "loc": "2",
+        "word": "가입"
+      },
+      {
+        "start": 3.478,
+        "end": 4.388,
+        "loc": "3",
+        "word": "시점에"
+      },
+      {
+        "start": 4.724,
+        "end": 4.94,
+        "loc": "4",
+        "word": "결정된"
+      },
+      {
+        "start": 5.234,
+        "end": 5.609,
+        "loc": "5",
+        "word": "조건에"
+      },
+      {
+        "start": 5.718,
+        "end": 5.901,
+        "loc": "6",
+        "word": "따라"
+      },
+      {
+        "start": 6.087,
+        "end": 6.789,
+        "loc": "7",
+        "word": "계산되며,"
+      },
+      {
+        "start": 6.915,
+        "end": 7.481,
+        "loc": "8",
+        "word": "중도"
+      },
+      {
+        "start": 7.837,
+        "end": 8.053,
+        "loc": "9,10",
+        "word": "해지 시"
+      },
+      {
+        "start": 8.21,
+        "end": 8.384,
+        "loc": "11",
+        "word": "이자가"
+      },
+      {
+        "start": 8.545,
+        "end": 8.652,
+        "loc": "12",
+        "word": "감소할"
+      },
+      {
+        "start": 8.804,
+        "end": 8.936,
+        "loc": "13,14",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.513,
+        "end": 1.829,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.943,
+        "end": 3.234,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.478,
+        "end": 4.388,
+        "gloss_id": "언제1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.724,
+        "end": 4.94,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.234,
+        "end": 5.609,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.718,
+        "end": 5.901,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.079,
+        "end": 6.788,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.332,
+        "end": 7.489,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.837,
+        "end": 8.053,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.545,
+        "end": 8.652,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.99,
+        "end": 2.565
+      },
+      {
+        "descriptor": "",
+        "start": 5.718,
+        "end": 5.901
+      },
+      {
+        "descriptor": "",
+        "start": 7.837,
+        "end": 8.053
+      },
+      {
+        "descriptor": "",
+        "start": 8.804,
+        "end": 8.936
+      },
+      {
+        "descriptor": "",
+        "start": 3.478,
+        "end": 4.388
+      },
+      {
+        "descriptor": "",
+        "start": 5.234,
+        "end": 5.609
+      },
+      {
+        "descriptor": "",
+        "start": 4.724,
+        "end": 4.94
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.718,
+        "end": 5.901
+      },
+      {
+        "descriptor": "",
+        "start": 8.804,
+        "end": 8.936
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.724,
+        "end": 4.94
+      },
+      {
+        "descriptor": "",
+        "start": 6.296,
+        "end": 6.788
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.99,
+        "end": 2.565
+      },
+      {
+        "descriptor": "",
+        "start": 5.234,
+        "end": 5.609
+      },
+      {
+        "descriptor": "",
+        "start": 5.718,
+        "end": 5.901
+      },
+      {
+        "descriptor": "",
+        "start": 7.837,
+        "end": 8.053
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354160",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:12:13",
+    "sentence_ID": "VXPAKOKS240354160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    301,
+    126
+  ],
+  "file": "VXPAKOKS240354160.mp4",
+  "saved_as": "VXPAKOKS240354160-적금이자는가입시점에결정된조건에따라계산되며,중도해지시이자가감소할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,315 @@
+{
+  "id": "VXPAKOKS240332060",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "대출 상품과 심사 기준이 다르기 때문에, 다양한 은행 상품을 비교해 보는 것이 좋습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.75,
+        "end": 2.06,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.177,
+        "end": 2.92,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.067,
+        "end": 3.438,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.623,
+        "end": 4.123,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.338,
+        "end": 5.043,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.251,
+        "end": 5.751,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.825,
+        "end": 6.074,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.287,
+        "end": 7.175,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.268,
+        "end": 7.829,
+        "gloss_id": "비교1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.999,
+        "end": 8.499,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.75,
+        "end": 2.06,
+        "loc": "0",
+        "word": "대출"
+      },
+      {
+        "start": 2.177,
+        "end": 2.92,
+        "loc": "1",
+        "word": "상품과"
+      },
+      {
+        "start": 3.067,
+        "end": 3.438,
+        "loc": "2",
+        "word": "심사"
+      },
+      {
+        "start": 3.623,
+        "end": 4.123,
+        "loc": "3",
+        "word": "기준이"
+      },
+      {
+        "start": 4.338,
+        "end": 5.043,
+        "loc": "4",
+        "word": "다르기"
+      },
+      {
+        "start": 5.251,
+        "end": 5.751,
+        "loc": "5",
+        "word": "때문에,"
+      },
+      {
+        "start": 5.825,
+        "end": 6.074,
+        "loc": "7,8",
+        "word": "은행 상품을"
+      },
+      {
+        "start": 6.287,
+        "end": 7.198,
+        "loc": "6",
+        "word": "다양한"
+      },
+      {
+        "start": 7.268,
+        "end": 7.829,
+        "loc": "9,10,11",
+        "word": "비교해 보는 것이"
+      },
+      {
+        "start": 7.999,
+        "end": 8.499,
+        "loc": "12",
+        "word": "좋습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.177,
+        "end": 3.43,
+        "gloss_id": "종류3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.623,
+        "end": 4.123,
+        "gloss_id": "기준1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.338,
+        "end": 5.043,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.251,
+        "end": 5.751,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.825,
+        "end": 6.074,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.268,
+        "end": 7.829,
+        "gloss_id": "비교1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.999,
+        "end": 8.499,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.177,
+        "end": 2.92
+      },
+      {
+        "descriptor": "",
+        "start": 3.623,
+        "end": 4.123
+      },
+      {
+        "descriptor": "",
+        "start": 4.338,
+        "end": 5.043
+      },
+      {
+        "descriptor": "",
+        "start": 7.268,
+        "end": 7.829
+      },
+      {
+        "descriptor": "",
+        "start": 6.287,
+        "end": 7.198
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.251,
+        "end": 5.751
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.738,
+        "end": 6.238
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332060",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:41:26",
+    "sentence_ID": "VXPAKOKS240332060",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    274,
+    126
+  ],
+  "file": "VXPAKOKS240332060.mp4",
+  "saved_as": "VXPAKOKS240332060-대출상품과심사기준이다르기때문에,다양한은행상품을비교해보는것이좋습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

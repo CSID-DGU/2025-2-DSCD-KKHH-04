@@ -1,0 +1,287 @@
+{
+  "id": "VXPAKOKS240351920",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 해지 후 돈을 돌려받는 데 시간이 오래 걸리는데, 이유가 무엇인가요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.178,
+        "end": 1.33,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.456,
+        "end": 1.692,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.951,
+        "end": 2.604,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.817,
+        "end": 2.935,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.072,
+        "end": 3.329,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.554,
+        "end": 4.422,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.642,
+        "end": 4.864,
+        "gloss_id": "때2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.093,
+        "end": 5.489,
+        "gloss_id": "몇시간2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.802,
+        "end": 6.163,
+        "gloss_id": "기다리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.415,
+        "end": 6.79,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.178,
+        "end": 1.698,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 1.951,
+        "end": 2.604,
+        "loc": "1,2",
+        "word": "해지 후"
+      },
+      {
+        "start": 2.817,
+        "end": 2.935,
+        "loc": "3",
+        "word": "돈을"
+      },
+      {
+        "start": 3.072,
+        "end": 4.413,
+        "loc": "4,5",
+        "word": "돌려받는 데"
+      },
+      {
+        "start": 4.642,
+        "end": 4.864,
+        "loc": "6",
+        "word": "시간이"
+      },
+      {
+        "start": 5.093,
+        "end": 6.184,
+        "loc": "7,8",
+        "word": "오래 걸리는데,"
+      },
+      {
+        "start": 6.415,
+        "end": 6.79,
+        "loc": "9,10",
+        "word": "이유가 무엇인가요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.456,
+        "end": 1.692,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.951,
+        "end": 2.604,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.072,
+        "end": 3.329,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.642,
+        "end": 4.864,
+        "gloss_id": "때2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.093,
+        "end": 5.489,
+        "gloss_id": "몇시간2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.951,
+        "end": 2.604
+      },
+      {
+        "descriptor": "",
+        "start": 3.811,
+        "end": 4.394
+      },
+      {
+        "descriptor": "",
+        "start": 6.415,
+        "end": 6.79
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.286,
+        "end": 2.605
+      },
+      {
+        "descriptor": "",
+        "start": 5.802,
+        "end": 6.163
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.554,
+        "end": 6.813
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.951,
+        "end": 2.604
+      },
+      {
+        "descriptor": "",
+        "start": 4.642,
+        "end": 5.392
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351920",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:49:09",
+    "sentence_ID": "VXPAKOKS240351920",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    250,
+    126
+  ],
+  "file": "VXPAKOKS240351920.mp4",
+  "saved_as": "VXPAKOKS240351920-적금해지후돈을돌려받는데시간이오래걸리는데,이유가무엇인가요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

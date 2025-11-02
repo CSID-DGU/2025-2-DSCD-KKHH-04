@@ -1,0 +1,393 @@
+{
+  "id": "VXPAKOKS240337580",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "투자자가 유동성이 높은 채권을 갖고 있으면, 금융 시장의 변화에 효과적으로 대응할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.993,
+        "end": 2.248,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.492,
+        "end": 2.98,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.181,
+        "end": 3.326,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.494,
+        "end": 3.663,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.866,
+        "end": 4.574,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.724,
+        "end": 4.846,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.009,
+        "end": 5.166,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.357,
+        "end": 5.661,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.866,
+        "end": 6.427,
+        "gloss_id": "기름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.865,
+        "end": 7.108,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.422,
+        "end": 8.167,
+        "gloss_id": "가지고다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.674,
+        "end": 9.039,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.31,
+        "end": 10.373,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.823,
+        "end": 11.029,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.263,
+        "end": 11.628,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.893,
+        "end": 12.087,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 12.298,
+        "end": 12.626,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.993,
+        "end": 2.958,
+        "loc": "0",
+        "word": "투자자가"
+      },
+      {
+        "start": 3.181,
+        "end": 4.587,
+        "loc": "3",
+        "word": "채권을"
+      },
+      {
+        "start": 4.724,
+        "end": 7.087,
+        "loc": "1,2",
+        "word": "유동성이 높은"
+      },
+      {
+        "start": 7.422,
+        "end": 8.167,
+        "loc": "4,5",
+        "word": "갖고 있으면,"
+      },
+      {
+        "start": 8.674,
+        "end": 11.642,
+        "loc": "6,7,8,9",
+        "word": "금융 시장의 변화에 효과적으로"
+      },
+      {
+        "start": 11.893,
+        "end": 12.653,
+        "loc": "10,11,12",
+        "word": "대응할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.492,
+        "end": 2.98,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.866,
+        "end": 4.574,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.009,
+        "end": 5.166,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.357,
+        "end": 5.661,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.865,
+        "end": 7.108,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.31,
+        "end": 10.373,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.823,
+        "end": 11.029,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.263,
+        "end": 11.628,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.893,
+        "end": 12.087,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.492,
+        "end": 2.98
+      },
+      {
+        "descriptor": "",
+        "start": 5.866,
+        "end": 6.426
+      },
+      {
+        "descriptor": "",
+        "start": 7.422,
+        "end": 8.167
+      },
+      {
+        "descriptor": "",
+        "start": 9.29,
+        "end": 10.383
+      },
+      {
+        "descriptor": "",
+        "start": 11.263,
+        "end": 11.628
+      },
+      {
+        "descriptor": "",
+        "start": 12.298,
+        "end": 12.626
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 12.298,
+        "end": 12.626
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 11.893,
+        "end": 12.271
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.993,
+        "end": 2.958
+      },
+      {
+        "descriptor": "",
+        "start": 5.009,
+        "end": 8.179
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337580",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:20",
+    "sentence_ID": "VXPAKOKS240337580",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    441,
+    126
+  ],
+  "file": "VXPAKOKS240337580.mp4",
+  "saved_as": "VXPAKOKS240337580-투자자가유동성이높은채권을갖고있으면,금융시장의변화에효과적으로대응할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

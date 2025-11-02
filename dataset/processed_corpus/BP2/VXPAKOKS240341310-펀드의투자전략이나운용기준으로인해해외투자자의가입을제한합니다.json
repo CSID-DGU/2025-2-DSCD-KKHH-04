@@ -1,0 +1,366 @@
+{
+  "id": "VXPAKOKS240341310",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "펀드의 투자 전략이나 운용 기준으로 인해 해외 투자자의 가입을 제한합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.344,
+        "end": 1.659,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.092,
+        "end": 2.521,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.817,
+        "end": 3.025,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.295,
+        "end": 3.511,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.767,
+        "end": 4.217,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.502,
+        "end": 4.831,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.008,
+        "end": 5.188,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.241,
+        "end": 5.371,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.616,
+        "end": 6.031,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.299,
+        "end": 6.65,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.936,
+        "end": 7.251,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.491,
+        "end": 7.678,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.008,
+        "end": 5.359,
+        "loc": "6",
+        "word": "해외"
+      },
+      {
+        "start": 5.616,
+        "end": 6.031,
+        "loc": "7",
+        "word": "투자자의"
+      },
+      {
+        "start": 6.299,
+        "end": 6.65,
+        "loc": "8",
+        "word": "가입을"
+      },
+      {
+        "start": 6.936,
+        "end": 7.671,
+        "loc": "9",
+        "word": "제한합니다."
+      },
+      {
+        "start": 1.344,
+        "end": 1.659,
+        "loc": "0,1",
+        "word": "펀드의 투자"
+      },
+      {
+        "start": 2.092,
+        "end": 2.521,
+        "loc": "2",
+        "word": "전략이나"
+      },
+      {
+        "start": 2.817,
+        "end": 3.522,
+        "loc": "3",
+        "word": "운용"
+      },
+      {
+        "start": 4.502,
+        "end": 4.831,
+        "loc": "5",
+        "word": "인해"
+      },
+      {
+        "start": 3.767,
+        "end": 4.217,
+        "loc": "4",
+        "word": "기준으로"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.092,
+        "end": 2.521,
+        "gloss_id": "종류4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.817,
+        "end": 3.025,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.295,
+        "end": 3.511,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.767,
+        "end": 4.217,
+        "gloss_id": "법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.502,
+        "end": 4.831,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.008,
+        "end": 5.188,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.299,
+        "end": 6.65,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.936,
+        "end": 7.251,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.241,
+        "end": 5.371,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.092,
+        "end": 2.521
+      },
+      {
+        "descriptor": "",
+        "start": 1.344,
+        "end": 1.659
+      },
+      {
+        "descriptor": "",
+        "start": 3.767,
+        "end": 4.217
+      },
+      {
+        "descriptor": "",
+        "start": 5.616,
+        "end": 6.031
+      },
+      {
+        "descriptor": "",
+        "start": 6.936,
+        "end": 7.251
+      },
+      {
+        "descriptor": "",
+        "start": 7.491,
+        "end": 7.678
+      },
+      {
+        "descriptor": "",
+        "start": 4.694,
+        "end": 4.831
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.701,
+        "end": 4.831
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.299,
+        "end": 7.254
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.344,
+        "end": 2.527
+      },
+      {
+        "descriptor": "",
+        "start": 5.008,
+        "end": 5.992
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341310",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:12:42",
+    "sentence_ID": "VXPAKOKS240341310",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    256,
+    126
+  ],
+  "file": "VXPAKOKS240341310.mp4",
+  "saved_as": "VXPAKOKS240341310-펀드의투자전략이나운용기준으로인해해외투자자의가입을제한합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,344 @@
+{
+  "id": "VXPAKOKS240351450",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "나라의 경제 상황이 어려울 때는 원금이 보장되는 적금에 가입하는 게 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.539,
+        "end": 1.696,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.941,
+        "end": 2.558,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.941,
+        "end": 3.231,
+        "gloss_id": "힘들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.493,
+        "end": 4.032,
+        "gloss_id": "걱정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.277,
+        "end": 4.496,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.658,
+        "end": 4.824,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.022,
+        "end": 5.343,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.593,
+        "end": 5.867,
+        "gloss_id": "백점1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.106,
+        "end": 6.52,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.686,
+        "end": 6.813,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.966,
+        "end": 7.1,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.311,
+        "end": 7.624,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.801,
+        "end": 8.161,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.539,
+        "end": 1.696,
+        "loc": "0",
+        "word": "나라의"
+      },
+      {
+        "start": 1.941,
+        "end": 2.558,
+        "loc": "1",
+        "word": "경제"
+      },
+      {
+        "start": 2.941,
+        "end": 4.492,
+        "loc": "2,3,4",
+        "word": "상황이 어려울 때는"
+      },
+      {
+        "start": 4.658,
+        "end": 5.33,
+        "loc": "5",
+        "word": "원금이"
+      },
+      {
+        "start": 5.593,
+        "end": 6.521,
+        "loc": "6",
+        "word": "보장되는"
+      },
+      {
+        "start": 6.686,
+        "end": 7.093,
+        "loc": "7",
+        "word": "적금에"
+      },
+      {
+        "start": 7.311,
+        "end": 7.624,
+        "loc": "8,9",
+        "word": "가입하는 게"
+      },
+      {
+        "start": 7.801,
+        "end": 8.161,
+        "loc": "10",
+        "word": "좋아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.539,
+        "end": 1.696,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.941,
+        "end": 2.558,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.658,
+        "end": 5.338,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.106,
+        "end": 6.52,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.966,
+        "end": 7.1,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.311,
+        "end": 7.624,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.801,
+        "end": 8.161,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.801,
+        "end": 8.161
+      },
+      {
+        "descriptor": "",
+        "start": 4.277,
+        "end": 4.496
+      },
+      {
+        "descriptor": "",
+        "start": 5.022,
+        "end": 5.343
+      },
+      {
+        "descriptor": "",
+        "start": 5.593,
+        "end": 5.867
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.941,
+        "end": 4.029
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.593,
+        "end": 5.867
+      },
+      {
+        "descriptor": "",
+        "start": 6.686,
+        "end": 7.615
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.493,
+        "end": 4.242
+      },
+      {
+        "descriptor": "",
+        "start": 6.686,
+        "end": 6.945
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351450",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:31",
+    "sentence_ID": "VXPAKOKS240351450",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    280,
+    126
+  ],
+  "file": "VXPAKOKS240351450.mp4",
+  "saved_as": "VXPAKOKS240351450-나라의경제상황이어려울때는원금이보장되는적금에가입하는게좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

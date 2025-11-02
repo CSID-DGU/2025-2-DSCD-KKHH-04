@@ -1,0 +1,294 @@
+{
+  "id": "VXPAKOKS240342170",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "투자자는 높은 수익률 펀드는 위험도도 높다는 것을 꼭 알아야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.368,
+        "end": 1.662,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.975,
+        "end": 2.078,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.413,
+        "end": 3.047,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.43,
+        "end": 3.753,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.02,
+        "end": 4.258,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.525,
+        "end": 5.181,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.376,
+        "end": 5.521,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.754,
+        "end": 5.871,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.02,
+        "end": 6.237,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.606,
+        "end": 6.787,
+        "gloss_id": "기억1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.153,
+        "end": 7.405,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.372,
+        "end": 2.078,
+        "loc": "2",
+        "word": "수익률"
+      },
+      {
+        "start": 2.413,
+        "end": 3.047,
+        "loc": "1",
+        "word": "높은"
+      },
+      {
+        "start": 3.43,
+        "end": 3.753,
+        "loc": "3",
+        "word": "펀드는"
+      },
+      {
+        "start": 4.019,
+        "end": 5.164,
+        "loc": "4,5,6",
+        "word": "위험도도 높다는 것을"
+      },
+      {
+        "start": 5.376,
+        "end": 5.861,
+        "loc": "0",
+        "word": "투자자는"
+      },
+      {
+        "start": 6.02,
+        "end": 6.237,
+        "loc": "7",
+        "word": "꼭"
+      },
+      {
+        "start": 6.606,
+        "end": 6.787,
+        "loc": "8",
+        "word": "알아야"
+      },
+      {
+        "start": 7.153,
+        "end": 7.405,
+        "loc": "9",
+        "word": "합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.02,
+        "end": 4.258,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.754,
+        "end": 5.871,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.02,
+        "end": 6.237,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.153,
+        "end": 7.405,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.368,
+        "end": 1.662
+      },
+      {
+        "descriptor": "",
+        "start": 2.413,
+        "end": 3.047
+      },
+      {
+        "descriptor": "",
+        "start": 4.525,
+        "end": 5.181
+      },
+      {
+        "descriptor": "",
+        "start": 6.02,
+        "end": 6.237
+      },
+      {
+        "descriptor": "",
+        "start": 6.606,
+        "end": 6.787
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.43,
+        "end": 5.192
+      },
+      {
+        "descriptor": "",
+        "start": 6.606,
+        "end": 6.787
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.368,
+        "end": 3.052
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342170",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:19:30",
+    "sentence_ID": "VXPAKOKS240342170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    255,
+    126
+  ],
+  "file": "VXPAKOKS240342170.mp4",
+  "saved_as": "VXPAKOKS240342170-투자자는높은수익률펀드는위험도도높다는것을꼭알아야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

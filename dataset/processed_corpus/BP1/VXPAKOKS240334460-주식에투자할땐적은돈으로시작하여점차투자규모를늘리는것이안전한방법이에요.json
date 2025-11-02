@@ -1,0 +1,267 @@
+{
+  "id": "VXPAKOKS240334460",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식에 투자할 땐 적은 돈으로 시작하여 점차 투자 규모를 늘리는 것이 안전한 방법이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.648,
+        "end": 2.876,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.053,
+        "end": 3.146,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.364,
+        "end": 3.628,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.846,
+        "end": 4.01,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.228,
+        "end": 4.592,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.908,
+        "end": 5.637,
+        "gloss_id": "증가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.005,
+        "end": 6.148,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.387,
+        "end": 6.53,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.738,
+        "end": 7.059,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.648,
+        "end": 3.162,
+        "loc": "3",
+        "word": "적은"
+      },
+      {
+        "start": 3.364,
+        "end": 3.628,
+        "loc": "4,5",
+        "word": "돈으로 시작하여"
+      },
+      {
+        "start": 3.846,
+        "end": 4.01,
+        "loc": "0",
+        "word": "주식에"
+      },
+      {
+        "start": 4.228,
+        "end": 4.592,
+        "loc": "1,2",
+        "word": "투자할 땐"
+      },
+      {
+        "start": 4.908,
+        "end": 5.637,
+        "loc": "8,9,10",
+        "word": "규모를 늘리는 것이"
+      },
+      {
+        "start": 6.005,
+        "end": 6.148,
+        "loc": "6,7",
+        "word": "점차 투자"
+      },
+      {
+        "start": 6.387,
+        "end": 6.53,
+        "loc": "11",
+        "word": "안전한"
+      },
+      {
+        "start": 6.738,
+        "end": 7.059,
+        "loc": "12",
+        "word": "방법이에요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.846,
+        "end": 4.01,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.908,
+        "end": 5.637,
+        "gloss_id": "증가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.738,
+        "end": 7.059,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.364,
+        "end": 3.628
+      },
+      {
+        "descriptor": "",
+        "start": 2.648,
+        "end": 2.876
+      },
+      {
+        "descriptor": "",
+        "start": 4.908,
+        "end": 5.637
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.972,
+        "end": 5.058
+      },
+      {
+        "descriptor": "",
+        "start": 5.145,
+        "end": 5.259
+      },
+      {
+        "descriptor": "",
+        "start": 5.432,
+        "end": 5.646
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.648,
+        "end": 3.62
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.648,
+        "end": 3.62
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334460",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:30:28",
+    "sentence_ID": "VXPAKOKS240334460",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240334460.mp4",
+  "saved_as": "VXPAKOKS240334460-주식에투자할땐적은돈으로시작하여점차투자규모를늘리는것이안전한방법이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

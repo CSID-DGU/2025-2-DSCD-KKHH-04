@@ -1,0 +1,271 @@
+{
+  "id": "VXPAKOKS240335440",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "안정적인 수익을 위해 여러 회사의 주식을 사고파는 게 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.624,
+        "end": 3.147,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.461,
+        "end": 3.655,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.87,
+        "end": 4.276,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.606,
+        "end": 4.84,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.123,
+        "end": 5.427,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.836,
+        "end": 6.398,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.682,
+        "end": 6.908,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.167,
+        "end": 7.322,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.665,
+        "end": 7.851,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.461,
+        "end": 3.655,
+        "loc": "1",
+        "word": "수익을"
+      },
+      {
+        "start": 5.836,
+        "end": 6.398,
+        "loc": "3",
+        "word": "여러"
+      },
+      {
+        "start": 2.624,
+        "end": 3.147,
+        "loc": "0",
+        "word": "안정적인"
+      },
+      {
+        "start": 3.87,
+        "end": 4.276,
+        "loc": "2",
+        "word": "위해"
+      },
+      {
+        "start": 4.606,
+        "end": 4.84,
+        "loc": "4",
+        "word": "회사의"
+      },
+      {
+        "start": 5.123,
+        "end": 5.427,
+        "loc": "5",
+        "word": "주식을"
+      },
+      {
+        "start": 7.665,
+        "end": 7.851,
+        "loc": "8",
+        "word": "좋아요."
+      },
+      {
+        "start": 6.682,
+        "end": 7.323,
+        "loc": "6,7",
+        "word": "사고파는 게"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 6.682,
+        "end": 6.908,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.624,
+        "end": 3.147,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.606,
+        "end": 4.84,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.123,
+        "end": 5.427,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.167,
+        "end": 7.322,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.836,
+        "end": 6.399
+      },
+      {
+        "descriptor": "",
+        "start": 7.657,
+        "end": 7.851
+      },
+      {
+        "descriptor": "",
+        "start": 2.624,
+        "end": 3.147
+      },
+      {
+        "descriptor": "",
+        "start": 3.87,
+        "end": 4.276
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.461,
+        "end": 4.273
+      },
+      {
+        "descriptor": "",
+        "start": 5.836,
+        "end": 6.398
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335440",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:36:15",
+    "sentence_ID": "VXPAKOKS240335440",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    282,
+    126
+  ],
+  "file": "VXPAKOKS240335440.mp4",
+  "saved_as": "VXPAKOKS240335440-안정적인수익을위해여러회사의주식을사고파는게좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,273 @@
+{
+  "id": "VXPAKOKS240330930",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "1년 안의 신용카드 사용 내용을 확인할 수 있고, 3개월 단위로 조회할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.912,
+        "end": 2.136,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.367,
+        "end": 2.559,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.72,
+        "end": 3.368,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.574,
+        "end": 4.145,
+        "gloss_id": "안1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.408,
+        "end": 4.587,
+        "gloss_id": "날짜(활용):3개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.876,
+        "end": 5.517,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.854,
+        "end": 6.405,
+        "gloss_id": "뜨다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.563,
+        "end": 6.704,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.912,
+        "end": 2.566,
+        "loc": "2",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.72,
+        "end": 3.368,
+        "loc": "0",
+        "word": "1년"
+      },
+      {
+        "start": 3.574,
+        "end": 4.145,
+        "loc": "1",
+        "word": "안의"
+      },
+      {
+        "start": 4.408,
+        "end": 4.587,
+        "loc": "8",
+        "word": "3개월"
+      },
+      {
+        "start": 4.876,
+        "end": 5.517,
+        "loc": "9",
+        "word": "단위로"
+      },
+      {
+        "start": 5.854,
+        "end": 6.405,
+        "loc": "3,4,5,6,7,10",
+        "word": "사용 내용을 확인할 수 있고, 조회할"
+      },
+      {
+        "start": 6.563,
+        "end": 6.704,
+        "loc": "11,12",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.912,
+        "end": 2.136,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.72,
+        "end": 3.368,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.574,
+        "end": 4.588,
+        "gloss_id": "안1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.854,
+        "end": 6.405,
+        "gloss_id": "뜨다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.876,
+        "end": 5.517,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일년",
+        "start": 2.72,
+        "end": 3.368
+      },
+      {
+        "descriptor": "삼 개월",
+        "start": 4.408,
+        "end": 4.58
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.367,
+        "end": 2.559
+      },
+      {
+        "descriptor": "",
+        "start": 3.574,
+        "end": 4.145
+      },
+      {
+        "descriptor": "",
+        "start": 5.854,
+        "end": 6.405
+      },
+      {
+        "descriptor": "",
+        "start": 6.563,
+        "end": 6.71
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.627,
+        "end": 6.697
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.854,
+        "end": 6.405
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.72,
+        "end": 4.151
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330930",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:39:42",
+    "sentence_ID": "VXPAKOKS240330930",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240330930.mp4",
+  "saved_as": "VXPAKOKS240330930-1년안의신용카드사용내용을확인할수있고,3개월단위로조회할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,282 @@
+{
+  "id": "VXPAKOKS240333080",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "통장을 만든 후에는 즉시 사용이 가능하지만, 시간이 필요해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.201,
+        "end": 2.393,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.573,
+        "end": 2.784,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.029,
+        "end": 3.503,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.741,
+        "end": 3.901,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.043,
+        "end": 4.408,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.684,
+        "end": 4.902,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.14,
+        "end": 5.326,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.48,
+        "end": 5.967,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.201,
+        "end": 2.778,
+        "loc": "0",
+        "word": "통장을"
+      },
+      {
+        "start": 3.029,
+        "end": 3.503,
+        "loc": "1,2",
+        "word": "만든 후에는"
+      },
+      {
+        "start": 3.741,
+        "end": 3.901,
+        "loc": "3",
+        "word": "즉시"
+      },
+      {
+        "start": 4.043,
+        "end": 4.408,
+        "loc": "4",
+        "word": "사용이"
+      },
+      {
+        "start": 4.684,
+        "end": 4.902,
+        "loc": "5",
+        "word": "가능하지만,"
+      },
+      {
+        "start": 5.14,
+        "end": 5.326,
+        "loc": "6",
+        "word": "시간이"
+      },
+      {
+        "start": 5.48,
+        "end": 5.967,
+        "loc": "7",
+        "word": "필요해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.201,
+        "end": 2.393,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.573,
+        "end": 2.784,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.029,
+        "end": 3.503,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.741,
+        "end": 3.901,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.043,
+        "end": 4.408,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.14,
+        "end": 5.326,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.48,
+        "end": 5.967,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.029,
+        "end": 3.503
+      },
+      {
+        "descriptor": "",
+        "start": 3.741,
+        "end": 3.901
+      },
+      {
+        "descriptor": "",
+        "start": 4.745,
+        "end": 4.902
+      },
+      {
+        "descriptor": "",
+        "start": 5.14,
+        "end": 5.326
+      },
+      {
+        "descriptor": "",
+        "start": 5.48,
+        "end": 5.967
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.298,
+        "end": 3.503
+      },
+      {
+        "descriptor": "",
+        "start": 4.748,
+        "end": 4.902
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.201,
+        "end": 2.804
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333080",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:27:16",
+    "sentence_ID": "VXPAKOKS240333080",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240333080.mp4",
+  "saved_as": "VXPAKOKS240333080-통장을만든후에는즉시사용이가능하지만,시간이필요해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,288 @@
+{
+  "id": "VXPAKOKS240341480",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "펀드의 수익률이 주식시장의 수익률보다 높은 데는 여러 가지 이유가 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.455,
+        "end": 1.672,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.951,
+        "end": 2.202,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.534,
+        "end": 3.209,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.528,
+        "end": 3.692,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.924,
+        "end": 4.148,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.37,
+        "end": 4.655,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.99,
+        "end": 5.309,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.7,
+        "end": 6.005,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.321,
+        "end": 6.659,
+        "gloss_id": "여러번1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.922,
+        "end": 7.112,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.02,
+        "end": 6.005,
+        "loc": "8",
+        "word": "이유가"
+      },
+      {
+        "start": 6.321,
+        "end": 6.659,
+        "loc": "6,7",
+        "word": "여러 가지"
+      },
+      {
+        "start": 6.922,
+        "end": 7.112,
+        "loc": "9",
+        "word": "있습니다."
+      },
+      {
+        "start": 4.37,
+        "end": 4.655,
+        "loc": "4,5",
+        "word": "높은 데는"
+      },
+      {
+        "start": 3.924,
+        "end": 4.148,
+        "loc": "1",
+        "word": "수익률이"
+      },
+      {
+        "start": 3.528,
+        "end": 3.692,
+        "loc": "3",
+        "word": "수익률보다"
+      },
+      {
+        "start": 2.534,
+        "end": 3.209,
+        "loc": "0",
+        "word": "펀드의"
+      },
+      {
+        "start": 1.455,
+        "end": 2.203,
+        "loc": "2",
+        "word": "주식시장의"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.455,
+        "end": 1.672,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.951,
+        "end": 2.202,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.924,
+        "end": 4.148,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.7,
+        "end": 6.005,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.455,
+        "end": 1.672
+      },
+      {
+        "descriptor": "",
+        "start": 1.951,
+        "end": 2.202
+      },
+      {
+        "descriptor": "",
+        "start": 2.534,
+        "end": 3.209
+      },
+      {
+        "descriptor": "",
+        "start": 4.99,
+        "end": 5.309
+      },
+      {
+        "descriptor": "",
+        "start": 5.7,
+        "end": 6.005
+      },
+      {
+        "descriptor": "",
+        "start": 6.922,
+        "end": 7.112
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.455,
+        "end": 2.19
+      },
+      {
+        "descriptor": "",
+        "start": 4.99,
+        "end": 5.995
+      },
+      {
+        "descriptor": "",
+        "start": 2.534,
+        "end": 3.209
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341480",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:13:55",
+    "sentence_ID": "VXPAKOKS240341480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    242,
+    126
+  ],
+  "file": "VXPAKOKS240341480.mp4",
+  "saved_as": "VXPAKOKS240341480-펀드의수익률이주식시장의수익률보다높은데는여러가지이유가있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

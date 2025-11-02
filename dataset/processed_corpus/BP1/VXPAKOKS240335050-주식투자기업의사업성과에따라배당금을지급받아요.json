@@ -1,0 +1,253 @@
+{
+  "id": "VXPAKOKS240335050",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자 기업의 사업 성과에 따라 배당금을 지급받아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.597,
+        "end": 2.795,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.043,
+        "end": 3.321,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.628,
+        "end": 3.97,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.244,
+        "end": 4.543,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.856,
+        "end": 5.535,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.863,
+        "end": 6.191,
+        "gloss_id": "상여금2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.468,
+        "end": 6.645,
+        "gloss_id": "돈주다5",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.856,
+        "end": 7.141,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.597,
+        "end": 2.795,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 3.043,
+        "end": 3.321,
+        "loc": "1",
+        "word": "투자"
+      },
+      {
+        "start": 3.628,
+        "end": 3.97,
+        "loc": "2",
+        "word": "기업의"
+      },
+      {
+        "start": 4.244,
+        "end": 5.541,
+        "loc": "3,4,5",
+        "word": "사업 성과에 따라"
+      },
+      {
+        "start": 5.863,
+        "end": 6.191,
+        "loc": "6",
+        "word": "배당금을"
+      },
+      {
+        "start": 6.468,
+        "end": 7.147,
+        "loc": "7",
+        "word": "지급받아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.597,
+        "end": 2.795,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.628,
+        "end": 3.97,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.244,
+        "end": 4.543,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.856,
+        "end": 5.535,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.863,
+        "end": 6.191,
+        "gloss_id": "상여금2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.468,
+        "end": 6.645,
+        "gloss_id": "돈주다5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.856,
+        "end": 7.141
+      },
+      {
+        "descriptor": "",
+        "start": 3.628,
+        "end": 3.97
+      },
+      {
+        "descriptor": "",
+        "start": 4.982,
+        "end": 5.439
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.983,
+        "end": 5.436
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.043,
+        "end": 5.466
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335050",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:17",
+    "sentence_ID": "VXPAKOKS240335050",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    258,
+    126
+  ],
+  "file": "VXPAKOKS240335050.mp4",
+  "saved_as": "VXPAKOKS240335050-주식투자기업의사업성과에따라배당금을지급받아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

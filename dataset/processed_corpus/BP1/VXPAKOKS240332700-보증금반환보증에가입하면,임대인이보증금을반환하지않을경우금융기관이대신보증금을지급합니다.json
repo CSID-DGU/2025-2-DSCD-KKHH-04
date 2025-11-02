@@ -1,0 +1,399 @@
+{
+  "id": "VXPAKOKS240332700",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "보증금 반환 보증에 가입하면, 임대인이 보증금을 반환하지 않을 경우 금융기관이 대신 보증금을 지급합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.696,
+        "end": 2.902,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.063,
+        "end": 3.209,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.376,
+        "end": 3.768,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.97,
+        "end": 4.274,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.504,
+        "end": 4.847,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.159,
+        "end": 5.325,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.555,
+        "end": 5.839,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.174,
+        "end": 6.458,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.649,
+        "end": 6.756,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.901,
+        "end": 7.224,
+        "gloss_id": "장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.539,
+        "end": 7.725,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.856,
+        "end": 8.042,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 8.313,
+        "end": 8.676,
+        "gloss_id": "아직1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.892,
+        "end": 9.245,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.448,
+        "end": 9.634,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.891,
+        "end": 10.352,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.696,
+        "end": 3.226,
+        "loc": "0",
+        "word": "보증금"
+      },
+      {
+        "start": 3.376,
+        "end": 4.838,
+        "loc": "1",
+        "word": "반환"
+      },
+      {
+        "start": 5.159,
+        "end": 5.335,
+        "loc": "2",
+        "word": "보증에"
+      },
+      {
+        "start": 5.555,
+        "end": 6.487,
+        "loc": "3",
+        "word": "가입하면,"
+      },
+      {
+        "start": 6.649,
+        "end": 7.207,
+        "loc": "4",
+        "word": "임대인이"
+      },
+      {
+        "start": 7.539,
+        "end": 7.725,
+        "loc": "5",
+        "word": "보증금을"
+      },
+      {
+        "start": 7.856,
+        "end": 8.042,
+        "loc": "6",
+        "word": "반환하지"
+      },
+      {
+        "start": 8.313,
+        "end": 8.676,
+        "loc": "7,8",
+        "word": "않을 경우"
+      },
+      {
+        "start": 9.448,
+        "end": 9.634,
+        "loc": "9",
+        "word": "금융기관이"
+      },
+      {
+        "start": 8.892,
+        "end": 9.245,
+        "loc": "10",
+        "word": "대신"
+      },
+      {
+        "start": 9.891,
+        "end": 10.352,
+        "loc": "11,12",
+        "word": "보증금을 지급합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.504,
+        "end": 4.847,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.555,
+        "end": 6.457,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.649,
+        "end": 6.756,
+        "gloss_id": "집1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.892,
+        "end": 9.245,
+        "gloss_id": "대신1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.448,
+        "end": 9.634,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.891,
+        "end": 10.352,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.376,
+        "end": 3.768,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.856,
+        "end": 8.042,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.891,
+        "end": 10.352
+      },
+      {
+        "descriptor": "",
+        "start": 6.174,
+        "end": 6.458
+      },
+      {
+        "descriptor": "",
+        "start": 6.901,
+        "end": 7.224
+      },
+      {
+        "descriptor": "",
+        "start": 8.313,
+        "end": 8.676
+      },
+      {
+        "descriptor": "",
+        "start": 4.504,
+        "end": 4.847
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.539,
+        "end": 8.765
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.696,
+        "end": 3.196
+      },
+      {
+        "descriptor": "",
+        "start": 5.185,
+        "end": 6.581
+      },
+      {
+        "descriptor": "",
+        "start": 8.892,
+        "end": 9.245
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332700",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:21:00",
+    "sentence_ID": "VXPAKOKS240332700",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    353,
+    126
+  ],
+  "file": "VXPAKOKS240332700.mp4",
+  "saved_as": "VXPAKOKS240332700-보증금반환보증에가입하면,임대인이보증금을반환하지않을경우금융기관이대신보증금을지급합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,320 @@
+{
+  "id": "VXPAKOKS240333370",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "은행의 영업시간에 상관없이 언제든 현금을 인출할 수 있는 장점이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.417,
+        "end": 2.861,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.102,
+        "end": 3.283,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.497,
+        "end": 3.837,
+        "gloss_id": "때2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.207,
+        "end": 4.54,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.957,
+        "end": 5.29,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.56,
+        "end": 5.653,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.937,
+        "end": 6.189,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.466,
+        "end": 6.63,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.993,
+        "end": 7.126,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.335,
+        "end": 7.524,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.685,
+        "end": 7.874,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.417,
+        "end": 2.861,
+        "loc": "0",
+        "word": "은행의"
+      },
+      {
+        "start": 3.102,
+        "end": 3.834,
+        "loc": "1",
+        "word": "영업시간에"
+      },
+      {
+        "start": 4.207,
+        "end": 4.54,
+        "loc": "2",
+        "word": "상관없이"
+      },
+      {
+        "start": 4.957,
+        "end": 5.29,
+        "loc": "3",
+        "word": "언제든"
+      },
+      {
+        "start": 5.56,
+        "end": 6.195,
+        "loc": "4",
+        "word": "현금을"
+      },
+      {
+        "start": 7.335,
+        "end": 7.859,
+        "loc": "8,9",
+        "word": "장점이 있습니다."
+      },
+      {
+        "start": 6.466,
+        "end": 7.117,
+        "loc": "5,6,7",
+        "word": "인출할 수 있는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.417,
+        "end": 2.861,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.102,
+        "end": 3.283,
+        "gloss_id": "일하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.497,
+        "end": 3.837,
+        "gloss_id": "때2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.207,
+        "end": 4.54,
+        "gloss_id": "상관없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.957,
+        "end": 5.29,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.466,
+        "end": 6.63,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.417,
+        "end": 2.861
+      },
+      {
+        "descriptor": "",
+        "start": 3.497,
+        "end": 3.837
+      },
+      {
+        "descriptor": "",
+        "start": 4.957,
+        "end": 5.29
+      },
+      {
+        "descriptor": "",
+        "start": 5.937,
+        "end": 6.189
+      },
+      {
+        "descriptor": "",
+        "start": 6.993,
+        "end": 7.126
+      },
+      {
+        "descriptor": "",
+        "start": 7.685,
+        "end": 7.874
+      },
+      {
+        "descriptor": "",
+        "start": 4.207,
+        "end": 4.54
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.993,
+        "end": 7.126
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.207,
+        "end": 4.54
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.417,
+        "end": 3.826
+      },
+      {
+        "descriptor": "",
+        "start": 4.957,
+        "end": 5.29
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333370",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:10",
+    "sentence_ID": "VXPAKOKS240333370",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    287,
+    126
+  ],
+  "file": "VXPAKOKS240333370.mp4",
+  "saved_as": "VXPAKOKS240333370-은행의영업시간에상관없이언제든현금을인출할수있는장점이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

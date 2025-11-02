@@ -1,0 +1,403 @@
+{
+  "id": "VXPAKOKS240341530",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 매니저의 전문 지식과 투자 경험은 주식보다 높은 수익을 내기 위한 중요한 조건입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.538,
+        "end": 1.84,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.024,
+        "end": 2.209,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.56,
+        "end": 2.961,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.312,
+        "end": 3.515,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.73,
+        "end": 3.946,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.169,
+        "end": 4.759,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.995,
+        "end": 5.342,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.666,
+        "end": 6.031,
+        "gloss_id": "지식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.174,
+        "end": 6.314,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 6.57,
+        "end": 7.277,
+        "gloss_id": "경험2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.601,
+        "end": 7.831,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.029,
+        "end": 8.322,
+        "gloss_id": "오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.511,
+        "end": 8.858,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.144,
+        "end": 9.338,
+        "gloss_id": "맡다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.552,
+        "end": 9.908,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.538,
+        "end": 2.965,
+        "loc": "6",
+        "word": "주식보다"
+      },
+      {
+        "start": 3.312,
+        "end": 3.515,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 3.73,
+        "end": 5.341,
+        "loc": "1",
+        "word": "매니저의"
+      },
+      {
+        "start": 5.666,
+        "end": 6.031,
+        "loc": "2,3",
+        "word": "전문 지식과"
+      },
+      {
+        "start": 6.174,
+        "end": 6.314,
+        "loc": "4",
+        "word": "투자"
+      },
+      {
+        "start": 6.57,
+        "end": 7.277,
+        "loc": "5",
+        "word": "경험은"
+      },
+      {
+        "start": 7.601,
+        "end": 7.831,
+        "loc": "8",
+        "word": "수익을"
+      },
+      {
+        "start": 8.029,
+        "end": 8.322,
+        "loc": "7",
+        "word": "높은"
+      },
+      {
+        "start": 8.511,
+        "end": 9.308,
+        "loc": "9,10",
+        "word": "내기 위한"
+      },
+      {
+        "start": 9.552,
+        "end": 9.908,
+        "loc": "11,12",
+        "word": "중요한 조건입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.995,
+        "end": 5.342,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.57,
+        "end": 7.277,
+        "gloss_id": "경험2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.029,
+        "end": 8.322,
+        "gloss_id": "오르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.552,
+        "end": 9.908,
+        "gloss_id": "중요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.511,
+        "end": 8.858,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.538,
+        "end": 1.84,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.033,
+        "end": 2.209,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.56,
+        "end": 2.961,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.73,
+        "end": 3.946,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.169,
+        "end": 4.759,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.169,
+        "end": 4.759
+      },
+      {
+        "descriptor": "",
+        "start": 5.666,
+        "end": 6.031
+      },
+      {
+        "descriptor": "",
+        "start": 6.57,
+        "end": 7.277
+      },
+      {
+        "descriptor": "",
+        "start": 8.511,
+        "end": 8.858
+      },
+      {
+        "descriptor": "",
+        "start": 9.552,
+        "end": 9.908
+      },
+      {
+        "descriptor": "",
+        "start": 1.538,
+        "end": 1.84
+      },
+      {
+        "descriptor": "",
+        "start": 2.56,
+        "end": 2.961
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.57,
+        "end": 7.277
+      },
+      {
+        "descriptor": "",
+        "start": 1.538,
+        "end": 2.236
+      },
+      {
+        "descriptor": "",
+        "start": 3.73,
+        "end": 4.72
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341530",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:14:12",
+    "sentence_ID": "VXPAKOKS240341530",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    324,
+    126
+  ],
+  "file": "VXPAKOKS240341530.mp4",
+  "saved_as": "VXPAKOKS240341530-펀드매니저의전문지식과투자경험은주식보다높은수익을내기위한중요한조건입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,278 @@
+{
+  "id": "VXPAKOKS240335620",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자로 성공한 사람보다 주식 투자로 손해본 사람이 더 많다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.039,
+        "end": 2.157,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.383,
+        "end": 2.767,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.04,
+        "end": 3.444,
+        "gloss_id": "성공1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.68,
+        "end": 3.853,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.041,
+        "end": 4.193,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.571,
+        "end": 4.839,
+        "gloss_id": "실패1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.027,
+        "end": 5.179,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.342,
+        "end": 5.767,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.039,
+        "end": 2.157,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.383,
+        "end": 2.767,
+        "loc": "1",
+        "word": "투자로"
+      },
+      {
+        "start": 3.04,
+        "end": 3.444,
+        "loc": "2",
+        "word": "성공한"
+      },
+      {
+        "start": 3.68,
+        "end": 4.18,
+        "loc": "3",
+        "word": "사람보다"
+      },
+      {
+        "start": 4.571,
+        "end": 4.839,
+        "loc": "4,5,6",
+        "word": "주식 투자로 손해본"
+      },
+      {
+        "start": 5.027,
+        "end": 5.179,
+        "loc": "7",
+        "word": "사람이"
+      },
+      {
+        "start": 5.342,
+        "end": 5.767,
+        "loc": "8,9",
+        "word": "더 많다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.039,
+        "end": 2.157,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.04,
+        "end": 3.444,
+        "gloss_id": "성공1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.68,
+        "end": 3.853,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.041,
+        "end": 4.193,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.571,
+        "end": 4.839,
+        "gloss_id": "실패1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.027,
+        "end": 5.179,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.342,
+        "end": 5.767,
+        "gloss_id": "대부분2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.383,
+        "end": 2.767
+      },
+      {
+        "descriptor": "",
+        "start": 5.505,
+        "end": 5.767
+      },
+      {
+        "descriptor": "",
+        "start": 3.04,
+        "end": 3.444
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.571,
+        "end": 4.839
+      },
+      {
+        "descriptor": "",
+        "start": 5.505,
+        "end": 5.766
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.04,
+        "end": 5.767
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.039,
+        "end": 2.743
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335620",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:25",
+    "sentence_ID": "VXPAKOKS240335620",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240335620.mp4",
+  "saved_as": "VXPAKOKS240335620-주식투자로성공한사람보다주식투자로손해본사람이더많다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,301 @@
+{
+  "id": "VXPAKOKS240353160",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "자산을 늘리고 싶다면 월급의 50퍼센트는 적금에 납입하는 게 좋아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.733,
+        "end": 2.115,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.441,
+        "end": 2.913,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.211,
+        "end": 3.475,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.735,
+        "end": 3.949,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.152,
+        "end": 4.325,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.535,
+        "end": 5.23,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.476,
+        "end": 5.627,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.757,
+        "end": 6.0,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.117,
+        "end": 6.346,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.616,
+        "end": 6.991,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.733,
+        "end": 2.115,
+        "loc": "0",
+        "word": "자산을"
+      },
+      {
+        "start": 2.441,
+        "end": 2.913,
+        "loc": "1",
+        "word": "늘리고"
+      },
+      {
+        "start": 3.211,
+        "end": 3.475,
+        "loc": "2",
+        "word": "싶다면"
+      },
+      {
+        "start": 3.735,
+        "end": 4.331,
+        "loc": "3",
+        "word": "월급의"
+      },
+      {
+        "start": 4.535,
+        "end": 5.23,
+        "loc": "4",
+        "word": "50퍼센트는"
+      },
+      {
+        "start": 5.476,
+        "end": 5.995,
+        "loc": "5",
+        "word": "적금에"
+      },
+      {
+        "start": 6.117,
+        "end": 6.346,
+        "loc": "6,7",
+        "word": "납입하는 게"
+      },
+      {
+        "start": 6.616,
+        "end": 6.991,
+        "loc": "8",
+        "word": "좋아."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.733,
+        "end": 2.115,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.441,
+        "end": 2.913,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.152,
+        "end": 4.325,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.535,
+        "end": 5.23,
+        "gloss_id": "50",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.757,
+        "end": 6.0,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.616,
+        "end": 6.991,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.616,
+        "end": 6.991
+      },
+      {
+        "descriptor": "",
+        "start": 3.211,
+        "end": 3.475
+      },
+      {
+        "descriptor": "",
+        "start": 4.695,
+        "end": 5.23
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.441,
+        "end": 2.913
+      },
+      {
+        "descriptor": "",
+        "start": 6.616,
+        "end": 6.991
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.535,
+        "end": 5.23
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.441,
+        "end": 2.913
+      },
+      {
+        "descriptor": "",
+        "start": 3.211,
+        "end": 3.475
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353160",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:04:28",
+    "sentence_ID": "VXPAKOKS240353160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    250,
+    126
+  ],
+  "file": "VXPAKOKS240353160.mp4",
+  "saved_as": "VXPAKOKS240353160-자산을늘리고싶다면월급의50퍼센트는적금에납입하는게좋아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,328 @@
+{
+  "id": "VXPAKOKS240351790",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "경기 은행에서는 해지 금액을 다른 금융 상품에 자동으로 투자하는 서비스를 제공해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.265,
+        "end": 1.666,
+        "gloss_id": "경기도2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.867,
+        "end": 2.201,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.519,
+        "end": 2.642,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.897,
+        "end": 3.378,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.65,
+        "end": 3.835,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.081,
+        "end": 4.371,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.632,
+        "end": 4.897,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.099,
+        "end": 5.29,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.458,
+        "end": 5.723,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.857,
+        "end": 6.073,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.186,
+        "end": 6.316,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.265,
+        "end": 1.666,
+        "loc": "0",
+        "word": "경기"
+      },
+      {
+        "start": 1.867,
+        "end": 2.201,
+        "loc": "1",
+        "word": "은행에서는"
+      },
+      {
+        "start": 2.519,
+        "end": 2.642,
+        "loc": "2",
+        "word": "해지"
+      },
+      {
+        "start": 2.897,
+        "end": 3.378,
+        "loc": "3",
+        "word": "금액을"
+      },
+      {
+        "start": 3.65,
+        "end": 3.835,
+        "loc": "4",
+        "word": "다른"
+      },
+      {
+        "start": 4.081,
+        "end": 4.371,
+        "loc": "5",
+        "word": "금융"
+      },
+      {
+        "start": 4.632,
+        "end": 4.897,
+        "loc": "6",
+        "word": "상품에"
+      },
+      {
+        "start": 5.099,
+        "end": 5.29,
+        "loc": "7",
+        "word": "자동으로"
+      },
+      {
+        "start": 5.458,
+        "end": 5.723,
+        "loc": "8",
+        "word": "투자하는"
+      },
+      {
+        "start": 5.857,
+        "end": 6.073,
+        "loc": "9",
+        "word": "서비스를"
+      },
+      {
+        "start": 6.186,
+        "end": 6.316,
+        "loc": "10",
+        "word": "제공해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.867,
+        "end": 2.201,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.519,
+        "end": 2.642,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.65,
+        "end": 3.835,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.081,
+        "end": 4.371,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.632,
+        "end": 4.897,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.099,
+        "end": 5.29,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.857,
+        "end": 6.073,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.265,
+        "end": 1.666,
+        "gloss_id": "경기도2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.18,
+        "end": 6.316
+      },
+      {
+        "descriptor": "",
+        "start": 1.867,
+        "end": 2.201
+      },
+      {
+        "descriptor": "",
+        "start": 2.897,
+        "end": 3.378
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.867,
+        "end": 2.201
+      },
+      {
+        "descriptor": "",
+        "start": 2.897,
+        "end": 3.168
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351790",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:47:51",
+    "sentence_ID": "VXPAKOKS240351790",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    222,
+    126
+  ],
+  "file": "VXPAKOKS240351790.mp4",
+  "saved_as": "VXPAKOKS240351790-경기은행에서는해지금액을다른금융상품에자동으로투자하는서비스를제공해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

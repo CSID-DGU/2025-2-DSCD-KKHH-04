@@ -1,0 +1,423 @@
+{
+  "id": "VXPAKOKS240346230",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "예금 일부해지 서비스는 1회에서 3회까지 가능하며, 자세한 정보는 상품 설명서에 기재되어 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.568,
+        "end": 1.79,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.039,
+        "end": 2.518,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.78,
+        "end": 3.001,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.278,
+        "end": 3.685,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.963,
+        "end": 4.184,
+        "gloss_id": "회",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.431,
+        "end": 4.694,
+        "gloss_id": "일형3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.895,
+        "end": 4.998,
+        "gloss_id": "3",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.095,
+        "end": 5.358,
+        "gloss_id": "회",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.556,
+        "end": 5.798,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.02,
+        "end": 6.365,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.935,
+        "end": 7.301,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.546,
+        "end": 8.149,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.508,
+        "end": 8.791,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.942,
+        "end": 9.055,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.23,
+        "end": 9.73,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.881,
+        "end": 10.185,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.568,
+        "end": 1.79,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.039,
+        "end": 3.003,
+        "loc": "1",
+        "word": "일부해지"
+      },
+      {
+        "start": 3.278,
+        "end": 3.685,
+        "loc": "2",
+        "word": "서비스는"
+      },
+      {
+        "start": 3.963,
+        "end": 5.814,
+        "loc": "3,4",
+        "word": "1회에서 3회까지"
+      },
+      {
+        "start": 6.02,
+        "end": 6.365,
+        "loc": "5",
+        "word": "가능하며,"
+      },
+      {
+        "start": 6.935,
+        "end": 7.301,
+        "loc": "7",
+        "word": "정보는"
+      },
+      {
+        "start": 7.546,
+        "end": 8.149,
+        "loc": "6",
+        "word": "자세한"
+      },
+      {
+        "start": 8.508,
+        "end": 8.791,
+        "loc": "8",
+        "word": "상품"
+      },
+      {
+        "start": 8.942,
+        "end": 9.721,
+        "loc": "9",
+        "word": "설명서에"
+      },
+      {
+        "start": 9.881,
+        "end": 10.185,
+        "loc": "10,11",
+        "word": "기재되어 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.568,
+        "end": 1.79,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.039,
+        "end": 2.518,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.78,
+        "end": 3.001,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.278,
+        "end": 3.685,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.556,
+        "end": 5.798,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.935,
+        "end": 7.301,
+        "gloss_id": "정보1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.546,
+        "end": 8.149,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.508,
+        "end": 8.791,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.942,
+        "end": 9.055,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.23,
+        "end": 10.184,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.963,
+        "end": 5.36,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.095,
+        "end": 5.358
+      },
+      {
+        "descriptor": "",
+        "start": 6.02,
+        "end": 6.365
+      },
+      {
+        "descriptor": "",
+        "start": 2.039,
+        "end": 2.518
+      },
+      {
+        "descriptor": "",
+        "start": 3.278,
+        "end": 3.685
+      },
+      {
+        "descriptor": "",
+        "start": 7.546,
+        "end": 8.149
+      },
+      {
+        "descriptor": "",
+        "start": 9.881,
+        "end": 10.185
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.02,
+        "end": 6.365
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.942,
+        "end": 9.715
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.039,
+        "end": 3.477
+      },
+      {
+        "descriptor": "",
+        "start": 6.935,
+        "end": 8.136
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240346230",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:43:06",
+    "sentence_ID": "VXPAKOKS240346230",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    371,
+    126
+  ],
+  "file": "VXPAKOKS240346230.mp4",
+  "saved_as": "VXPAKOKS240346230-예금일부해지서비스는1회에서3회까지가능하며,자세한정보는상품설명서에기재되어있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

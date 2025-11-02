@@ -1,0 +1,257 @@
+{
+  "id": "VXPAKOKS240335950",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "사람들은 주식 투자를 통해 자신의 월급보다 2배 많은 돈을 벌고 싶어 한다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.9,
+        "end": 2.085,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.266,
+        "end": 2.89,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.076,
+        "end": 3.225,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.415,
+        "end": 4.156,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.495,
+        "end": 4.885,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.137,
+        "end": 5.564,
+        "gloss_id": "배",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.804,
+        "end": 5.99,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.232,
+        "end": 6.432,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.9,
+        "end": 2.881,
+        "loc": "0",
+        "word": "사람들은"
+      },
+      {
+        "start": 3.076,
+        "end": 3.225,
+        "loc": "1",
+        "word": "주식"
+      },
+      {
+        "start": 3.415,
+        "end": 4.156,
+        "loc": "2,3",
+        "word": "투자를 통해"
+      },
+      {
+        "start": 4.495,
+        "end": 4.885,
+        "loc": "4,5",
+        "word": "자신의 월급보다"
+      },
+      {
+        "start": 5.137,
+        "end": 5.564,
+        "loc": "6",
+        "word": "2배"
+      },
+      {
+        "start": 5.804,
+        "end": 5.99,
+        "loc": "7,8,9",
+        "word": "많은 돈을 벌고"
+      },
+      {
+        "start": 6.232,
+        "end": 6.432,
+        "loc": "10,11",
+        "word": "싶어 한다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.9,
+        "end": 2.085,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.076,
+        "end": 3.225,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.495,
+        "end": 4.885,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.804,
+        "end": 5.99,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.137,
+        "end": 5.564,
+        "gloss_id": "2",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "배",
+        "start": 5.137,
+        "end": 5.564
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.232,
+        "end": 6.432
+      },
+      {
+        "descriptor": "",
+        "start": 2.266,
+        "end": 2.89
+      },
+      {
+        "descriptor": "",
+        "start": 3.62,
+        "end": 4.156
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.232,
+        "end": 6.432
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.901,
+        "end": 4.884
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335950",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:46:08",
+    "sentence_ID": "VXPAKOKS240335950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    263,
+    126
+  ],
+  "file": "VXPAKOKS240335950.mp4",
+  "saved_as": "VXPAKOKS240335950-사람들은주식투자를통해자신의월급보다2배많은돈을벌고싶어한다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

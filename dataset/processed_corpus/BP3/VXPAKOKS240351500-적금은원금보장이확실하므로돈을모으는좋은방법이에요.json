@@ -1,0 +1,307 @@
+{
+  "id": "VXPAKOKS240351500",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금은 원금 보장이 확실하므로 돈을 모으는 좋은 방법이에요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.438,
+        "end": 1.595,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.811,
+        "end": 2.098,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.368,
+        "end": 2.538,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.712,
+        "end": 2.843,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.044,
+        "end": 3.382,
+        "gloss_id": "백점1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.659,
+        "end": 3.971,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.228,
+        "end": 4.598,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.853,
+        "end": 5.074,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.249,
+        "end": 5.399,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.681,
+        "end": 5.941,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.07,
+        "end": 6.188,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.31,
+        "end": 6.603,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.438,
+        "end": 2.126,
+        "loc": "0",
+        "word": "적금은"
+      },
+      {
+        "start": 2.368,
+        "end": 2.881,
+        "loc": "1",
+        "word": "원금"
+      },
+      {
+        "start": 3.044,
+        "end": 5.086,
+        "loc": "2,3",
+        "word": "보장이 확실하므로"
+      },
+      {
+        "start": 5.249,
+        "end": 5.399,
+        "loc": "4",
+        "word": "돈을"
+      },
+      {
+        "start": 5.681,
+        "end": 5.941,
+        "loc": "5",
+        "word": "모으는"
+      },
+      {
+        "start": 6.07,
+        "end": 6.188,
+        "loc": "6",
+        "word": "좋은"
+      },
+      {
+        "start": 6.31,
+        "end": 6.603,
+        "loc": "7",
+        "word": "방법이에요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.811,
+        "end": 2.098,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.368,
+        "end": 2.538,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.659,
+        "end": 3.971,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.228,
+        "end": 4.598,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.853,
+        "end": 5.392,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.681,
+        "end": 5.941,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.31,
+        "end": 6.603,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.31,
+        "end": 6.603
+      },
+      {
+        "descriptor": "",
+        "start": 1.811,
+        "end": 2.098
+      },
+      {
+        "descriptor": "",
+        "start": 4.228,
+        "end": 4.598
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.911,
+        "end": 5.074
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.651,
+        "end": 4.598
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351500",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:45:45",
+    "sentence_ID": "VXPAKOKS240351500",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    233,
+    126
+  ],
+  "file": "VXPAKOKS240351500.mp4",
+  "saved_as": "VXPAKOKS240351500-적금은원금보장이확실하므로돈을모으는좋은방법이에요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

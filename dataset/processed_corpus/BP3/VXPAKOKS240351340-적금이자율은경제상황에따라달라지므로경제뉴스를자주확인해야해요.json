@@ -1,0 +1,363 @@
+{
+  "id": "VXPAKOKS240351340",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 이자율은 경제 상황에 따라 달라지므로 경제 뉴스를 자주 확인해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.399,
+        "end": 1.523,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.672,
+        "end": 1.967,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.679,
+        "end": 3.032,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.22,
+        "end": 3.777,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.986,
+        "end": 4.208,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.362,
+        "end": 4.87,
+        "gloss_id": "여부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.072,
+        "end": 5.384,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.575,
+        "end": 6.157,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.418,
+        "end": 6.615,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.755,
+        "end": 7.001,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.201,
+        "end": 7.545,
+        "gloss_id": "이야기하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.692,
+        "end": 7.873,
+        "gloss_id": "또1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.093,
+        "end": 8.249,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.441,
+        "end": 8.704,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.399,
+        "end": 1.956,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 2.17,
+        "end": 3.046,
+        "loc": "1",
+        "word": "이자율은"
+      },
+      {
+        "start": 3.22,
+        "end": 3.777,
+        "loc": "2",
+        "word": "경제"
+      },
+      {
+        "start": 3.986,
+        "end": 4.208,
+        "loc": "3,4",
+        "word": "상황에 따라"
+      },
+      {
+        "start": 4.362,
+        "end": 6.611,
+        "loc": "5",
+        "word": "달라지므로"
+      },
+      {
+        "start": 6.755,
+        "end": 7.001,
+        "loc": "6",
+        "word": "경제"
+      },
+      {
+        "start": 7.201,
+        "end": 7.545,
+        "loc": "7",
+        "word": "뉴스를"
+      },
+      {
+        "start": 7.692,
+        "end": 7.873,
+        "loc": "8",
+        "word": "자주"
+      },
+      {
+        "start": 8.093,
+        "end": 8.707,
+        "loc": "9,10",
+        "word": "확인해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.672,
+        "end": 1.967,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.17,
+        "end": 2.286,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.418,
+        "end": 3.032,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.22,
+        "end": 3.777,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.072,
+        "end": 5.384,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.575,
+        "end": 6.156,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.418,
+        "end": 6.615,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.755,
+        "end": 7.001,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.201,
+        "end": 7.545,
+        "gloss_id": "이야기하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.441,
+        "end": 8.704,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.679,
+        "end": 3.032
+      },
+      {
+        "descriptor": "",
+        "start": 4.362,
+        "end": 4.87
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.441,
+        "end": 8.704
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.397,
+        "end": 3.066
+      },
+      {
+        "descriptor": "",
+        "start": 6.755,
+        "end": 7.361
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351340",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:44:34",
+    "sentence_ID": "VXPAKOKS240351340",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    294,
+    126
+  ],
+  "file": "VXPAKOKS240351340.mp4",
+  "saved_as": "VXPAKOKS240351340-적금이자율은경제상황에따라달라지므로경제뉴스를자주확인해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

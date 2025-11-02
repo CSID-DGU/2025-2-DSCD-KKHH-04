@@ -1,0 +1,340 @@
+{
+  "id": "VXPAKOKS240333850",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "신용 점수가 자동차 대출 거절의 주된 이유였다면, 앞으로 신용 점수를 개선해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.558,
+        "end": 2.793,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.035,
+        "end": 3.244,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.496,
+        "end": 3.868,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.214,
+        "end": 4.389,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.658,
+        "end": 4.927,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.237,
+        "end": 5.557,
+        "gloss_id": "막히다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.745,
+        "end": 5.928,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.137,
+        "end": 6.568,
+        "gloss_id": "원인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.85,
+        "end": 7.17,
+        "gloss_id": "미래1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.457,
+        "end": 7.632,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.855,
+        "end": 8.021,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.224,
+        "end": 8.484,
+        "gloss_id": "오르다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.767,
+        "end": 9.105,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.035,
+        "end": 3.859,
+        "loc": "1",
+        "word": "점수가"
+      },
+      {
+        "start": 6.85,
+        "end": 7.17,
+        "loc": "7",
+        "word": "앞으로"
+      },
+      {
+        "start": 7.457,
+        "end": 7.632,
+        "loc": "8",
+        "word": "신용"
+      },
+      {
+        "start": 7.855,
+        "end": 8.021,
+        "loc": "9",
+        "word": "점수를"
+      },
+      {
+        "start": 2.558,
+        "end": 2.793,
+        "loc": "0",
+        "word": "신용"
+      },
+      {
+        "start": 4.658,
+        "end": 4.927,
+        "loc": "3",
+        "word": "대출"
+      },
+      {
+        "start": 4.214,
+        "end": 4.389,
+        "loc": "2",
+        "word": "자동차"
+      },
+      {
+        "start": 5.237,
+        "end": 5.925,
+        "loc": "4",
+        "word": "거절의"
+      },
+      {
+        "start": 6.137,
+        "end": 6.568,
+        "loc": "5,6",
+        "word": "주된 이유였다면,"
+      },
+      {
+        "start": 8.224,
+        "end": 9.091,
+        "loc": "10,11",
+        "word": "개선해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 7.457,
+        "end": 7.632,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.558,
+        "end": 2.793,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.214,
+        "end": 4.389,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.237,
+        "end": 5.557,
+        "gloss_id": "막히다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.767,
+        "end": 9.105,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.496,
+        "end": 3.868
+      },
+      {
+        "descriptor": "",
+        "start": 6.85,
+        "end": 7.17
+      },
+      {
+        "descriptor": "",
+        "start": 8.224,
+        "end": 8.484
+      },
+      {
+        "descriptor": "",
+        "start": 5.237,
+        "end": 5.557
+      },
+      {
+        "descriptor": "",
+        "start": 6.137,
+        "end": 6.568
+      },
+      {
+        "descriptor": "",
+        "start": 8.767,
+        "end": 9.105
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.237,
+        "end": 5.557
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.558,
+        "end": 6.428
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.85,
+        "end": 7.17
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333850",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:24:44",
+    "sentence_ID": "VXPAKOKS240333850",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    308,
+    126
+  ],
+  "file": "VXPAKOKS240333850.mp4",
+  "saved_as": "VXPAKOKS240333850-신용점수가자동차대출거절의주된이유였다면,앞으로신용점수를개선해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

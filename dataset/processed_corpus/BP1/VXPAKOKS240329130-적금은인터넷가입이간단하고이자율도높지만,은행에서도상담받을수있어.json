@@ -1,0 +1,356 @@
+{
+  "id": "VXPAKOKS240329130",
+  "opertor": "label16",
+  "krlgg_sntenc": {
+    "koreanText": "적금은 인터넷 가입이 간단하고 이자율도 높지만, 은행에서도 상담받을 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.266,
+        "end": 2.507,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.666,
+        "end": 2.785,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.033,
+        "end": 3.289,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.466,
+        "end": 3.722,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.966,
+        "end": 4.388,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.599,
+        "end": 5.034,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.233,
+        "end": 5.42,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.733,
+        "end": 6.324,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.633,
+        "end": 6.82,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.066,
+        "end": 7.266,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.466,
+        "end": 7.631,
+        "gloss_id": "상담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.799,
+        "end": 8.047,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.666,
+        "end": 3.29,
+        "loc": "0",
+        "word": "적금은"
+      },
+      {
+        "start": 2.266,
+        "end": 2.507,
+        "loc": "1",
+        "word": "인터넷"
+      },
+      {
+        "start": 3.466,
+        "end": 3.722,
+        "loc": "2",
+        "word": "가입이"
+      },
+      {
+        "start": 3.966,
+        "end": 4.388,
+        "loc": "3",
+        "word": "간단하고"
+      },
+      {
+        "start": 4.599,
+        "end": 5.423,
+        "loc": "4",
+        "word": "이자율도"
+      },
+      {
+        "start": 5.733,
+        "end": 6.324,
+        "loc": "5",
+        "word": "높지만,"
+      },
+      {
+        "start": 6.633,
+        "end": 7.268,
+        "loc": "6",
+        "word": "은행에서도"
+      },
+      {
+        "start": 7.466,
+        "end": 7.631,
+        "loc": "7",
+        "word": "상담받을"
+      },
+      {
+        "start": 7.799,
+        "end": 8.047,
+        "loc": "8,9",
+        "word": "수 있어."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.266,
+        "end": 2.507,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.666,
+        "end": 2.785,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.033,
+        "end": 3.289,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.466,
+        "end": 3.722,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.966,
+        "end": 4.388,
+        "gloss_id": "잠깐1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.233,
+        "end": 5.42,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.633,
+        "end": 6.82,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.066,
+        "end": 7.266,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.466,
+        "end": 7.631,
+        "gloss_id": "상담1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.174,
+        "end": 4.383
+      },
+      {
+        "descriptor": "",
+        "start": 5.761,
+        "end": 6.158
+      },
+      {
+        "descriptor": "",
+        "start": 7.066,
+        "end": 7.52
+      },
+      {
+        "descriptor": "",
+        "start": 7.799,
+        "end": 8.047
+      },
+      {
+        "descriptor": "",
+        "start": 2.266,
+        "end": 2.507
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.799,
+        "end": 8.047
+      },
+      {
+        "descriptor": "",
+        "start": 4.174,
+        "end": 4.388
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.195,
+        "end": 3.72
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.397,
+        "end": 6.82
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329130",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:42:13",
+    "sentence_ID": "VXPAKOKS240329130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    266,
+    126
+  ],
+  "file": "VXPAKOKS240329130.mp4",
+  "saved_as": "VXPAKOKS240329130-적금은인터넷가입이간단하고이자율도높지만,은행에서도상담받을수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

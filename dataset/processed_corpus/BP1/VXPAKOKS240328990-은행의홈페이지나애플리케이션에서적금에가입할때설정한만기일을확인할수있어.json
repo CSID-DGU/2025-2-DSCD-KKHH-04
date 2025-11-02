@@ -1,0 +1,333 @@
+{
+  "id": "VXPAKOKS240328990",
+  "opertor": "label15",
+  "krlgg_sntenc": {
+    "koreanText": "은행의 홈페이지나 애플리케이션에서 적금에 가입할 때 설정한 만기일을 확인할 수 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.18,
+        "end": 2.491,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.922,
+        "end": 3.298,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.758,
+        "end": 4.043,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.283,
+        "end": 4.725,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.949,
+        "end": 5.234,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.399,
+        "end": 5.635,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.906,
+        "end": 6.513,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.799,
+        "end": 7.621,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.866,
+        "end": 8.11,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.391,
+        "end": 8.668,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.846,
+        "end": 9.049,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.949,
+        "end": 5.234,
+        "loc": "0",
+        "word": "은행의"
+      },
+      {
+        "start": 5.399,
+        "end": 6.509,
+        "loc": "1",
+        "word": "홈페이지나"
+      },
+      {
+        "start": 6.799,
+        "end": 8.108,
+        "loc": "2",
+        "word": "애플리케이션에서"
+      },
+      {
+        "start": 8.391,
+        "end": 8.668,
+        "loc": "8",
+        "word": "확인할"
+      },
+      {
+        "start": 8.846,
+        "end": 9.049,
+        "loc": "9,10",
+        "word": "수 있어."
+      },
+      {
+        "start": 3.758,
+        "end": 4.769,
+        "loc": "6,7",
+        "word": "설정한 만기일을"
+      },
+      {
+        "start": 2.18,
+        "end": 3.299,
+        "loc": "3,4,5",
+        "word": "적금에 가입할 때"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.758,
+        "end": 4.043,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.866,
+        "end": 8.11,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.18,
+        "end": 2.491,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.922,
+        "end": 3.298,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.283,
+        "end": 4.725,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.949,
+        "end": 5.234,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.399,
+        "end": 5.635,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 6.799,
+        "end": 7.621
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.699,
+        "end": 3.298
+      },
+      {
+        "descriptor": "",
+        "start": 4.949,
+        "end": 5.234
+      },
+      {
+        "descriptor": "",
+        "start": 6.055,
+        "end": 6.481
+      },
+      {
+        "descriptor": "",
+        "start": 7.103,
+        "end": 7.603
+      },
+      {
+        "descriptor": "",
+        "start": 7.866,
+        "end": 8.11
+      },
+      {
+        "descriptor": "",
+        "start": 8.846,
+        "end": 9.049
+      },
+      {
+        "descriptor": "",
+        "start": 4.283,
+        "end": 4.725
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.857,
+        "end": 4.035
+      },
+      {
+        "descriptor": "",
+        "start": 8.846,
+        "end": 9.049
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.998,
+        "end": 3.298
+      },
+      {
+        "descriptor": "",
+        "start": 4.126,
+        "end": 4.725
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328990",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:40:18",
+    "sentence_ID": "VXPAKOKS240328990",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    297,
+    126
+  ],
+  "file": "VXPAKOKS240328990.mp4",
+  "saved_as": "VXPAKOKS240328990-은행의홈페이지나애플리케이션에서적금에가입할때설정한만기일을확인할수있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

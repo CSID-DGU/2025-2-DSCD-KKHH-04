@@ -1,0 +1,296 @@
+{
+  "id": "VXPAKOKS240328940",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "만기날짜가 지나기 전에 적금을 쓸 방법을 찾는 게 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.931,
+        "end": 2.099,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.354,
+        "end": 2.637,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.791,
+        "end": 2.946,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.068,
+        "end": 3.242,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.412,
+        "end": 3.963,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.256,
+        "end": 4.635,
+        "gloss_id": "다음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.948,
+        "end": 5.205,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.424,
+        "end": 5.898,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.173,
+        "end": 6.315,
+        "gloss_id": "생각2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.566,
+        "end": 6.906,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.948,
+        "end": 5.205,
+        "loc": "3,4",
+        "word": "적금을 쓸"
+      },
+      {
+        "start": 5.424,
+        "end": 5.898,
+        "loc": "5",
+        "word": "방법을"
+      },
+      {
+        "start": 6.173,
+        "end": 6.315,
+        "loc": "6,7",
+        "word": "찾는 게"
+      },
+      {
+        "start": 6.566,
+        "end": 6.906,
+        "loc": "8",
+        "word": "좋아요."
+      },
+      {
+        "start": 2.791,
+        "end": 4.645,
+        "loc": "0,1,2",
+        "word": "만기날짜가 지나기 전에"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.931,
+        "end": 2.099,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.354,
+        "end": 2.637,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.791,
+        "end": 2.946,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.068,
+        "end": 3.242,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.412,
+        "end": 3.963,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.256,
+        "end": 4.635,
+        "gloss_id": "구형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.948,
+        "end": 5.205,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.424,
+        "end": 5.898,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.566,
+        "end": 6.906,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.412,
+        "end": 3.963
+      },
+      {
+        "descriptor": "",
+        "start": 5.424,
+        "end": 5.898
+      },
+      {
+        "descriptor": "",
+        "start": 6.566,
+        "end": 6.906
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.671,
+        "end": 3.954
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.931,
+        "end": 2.955
+      },
+      {
+        "descriptor": "",
+        "start": 4.256,
+        "end": 5.919
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328940",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:39:34",
+    "sentence_ID": "VXPAKOKS240328940",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240328940.mp4",
+  "saved_as": "VXPAKOKS240328940-만기날짜가지나기전에적금을쓸방법을찾는게좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

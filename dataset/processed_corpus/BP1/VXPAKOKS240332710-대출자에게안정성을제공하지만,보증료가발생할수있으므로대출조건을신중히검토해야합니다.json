@@ -1,0 +1,340 @@
+{
+  "id": "VXPAKOKS240332710",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "대출자에게 안정성을 제공하지만, 보증료가 발생할 수 있으므로 대출 조건을 신중히 검토해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.862,
+        "end": 3.178,
+        "gloss_id": "확실하다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.3,
+        "end": 3.38,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.515,
+        "end": 3.919,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.208,
+        "end": 4.477,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.703,
+        "end": 5.027,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.317,
+        "end": 5.474,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.272,
+        "end": 6.565,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.911,
+        "end": 7.283,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.604,
+        "end": 7.779,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.723,
+        "end": 6.032,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.019,
+        "end": 8.335,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.696,
+        "end": 8.829,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.103,
+        "end": 9.555,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.862,
+        "end": 3.378,
+        "loc": "3",
+        "word": "보증료가"
+      },
+      {
+        "start": 3.515,
+        "end": 5.038,
+        "loc": "4,5,6",
+        "word": "발생할 수 있으므로"
+      },
+      {
+        "start": 7.604,
+        "end": 7.779,
+        "loc": "7",
+        "word": "대출"
+      },
+      {
+        "start": 8.019,
+        "end": 8.335,
+        "loc": "8",
+        "word": "조건을"
+      },
+      {
+        "start": 8.696,
+        "end": 9.623,
+        "loc": "9,10,11",
+        "word": "신중히 검토해야 합니다."
+      },
+      {
+        "start": 6.272,
+        "end": 7.33,
+        "loc": "2",
+        "word": "제공하지만,"
+      },
+      {
+        "start": 5.317,
+        "end": 6.038,
+        "loc": "0,1",
+        "word": "대출자에게 안정성을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.515,
+        "end": 3.919,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.208,
+        "end": 4.477,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.703,
+        "end": 5.027,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.723,
+        "end": 6.032,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.019,
+        "end": 8.335,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.696,
+        "end": 8.829,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.103,
+        "end": 9.555
+      },
+      {
+        "descriptor": "",
+        "start": 4.789,
+        "end": 5.027
+      },
+      {
+        "descriptor": "",
+        "start": 6.911,
+        "end": 7.283
+      },
+      {
+        "descriptor": "",
+        "start": 5.723,
+        "end": 6.032
+      },
+      {
+        "descriptor": "",
+        "start": 8.019,
+        "end": 8.335
+      },
+      {
+        "descriptor": "",
+        "start": 8.696,
+        "end": 8.829
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.799,
+        "end": 5.027
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 8.696,
+        "end": 8.829
+      },
+      {
+        "descriptor": "",
+        "start": 6.299,
+        "end": 7.283
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.862,
+        "end": 6.069
+      },
+      {
+        "descriptor": "",
+        "start": 7.604,
+        "end": 8.496
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332710",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:21:03",
+    "sentence_ID": "VXPAKOKS240332710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    344,
+    126
+  ],
+  "file": "VXPAKOKS240332710.mp4",
+  "saved_as": "VXPAKOKS240332710-대출자에게안정성을제공하지만,보증료가발생할수있으므로대출조건을신중히검토해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

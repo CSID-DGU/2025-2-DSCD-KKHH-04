@@ -1,0 +1,387 @@
+{
+  "id": "VXPAKOKS240352410",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금을 해지할 때는 필요한 모든 서류를 준비하고, 신청서를 정확하게 작성했는지 확인하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.779,
+        "end": 1.879,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.075,
+        "end": 2.436,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.713,
+        "end": 3.378,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.641,
+        "end": 4.08,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.357,
+        "end": 4.588,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.763,
+        "end": 5.107,
+        "gloss_id": "더3#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.35,
+        "end": 5.798,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.014,
+        "end": 6.184,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.397,
+        "end": 6.975,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.231,
+        "end": 7.471,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.663,
+        "end": 7.894,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.102,
+        "end": 8.42,
+        "gloss_id": "타자1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.652,
+        "end": 8.9,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.779,
+        "end": 2.417,
+        "loc": "0",
+        "word": "적금을"
+      },
+      {
+        "start": 2.713,
+        "end": 3.378,
+        "loc": "1,2",
+        "word": "해지할 때는"
+      },
+      {
+        "start": 3.641,
+        "end": 4.08,
+        "loc": "3",
+        "word": "필요한"
+      },
+      {
+        "start": 4.357,
+        "end": 5.082,
+        "loc": "4,5",
+        "word": "모든 서류를"
+      },
+      {
+        "start": 5.35,
+        "end": 5.798,
+        "loc": "6",
+        "word": "준비하고,"
+      },
+      {
+        "start": 6.014,
+        "end": 6.956,
+        "loc": "7",
+        "word": "신청서를"
+      },
+      {
+        "start": 7.231,
+        "end": 7.471,
+        "loc": "8",
+        "word": "정확하게"
+      },
+      {
+        "start": 7.663,
+        "end": 8.414,
+        "loc": "9",
+        "word": "작성했는지"
+      },
+      {
+        "start": 8.652,
+        "end": 8.9,
+        "loc": "10",
+        "word": "확인하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.075,
+        "end": 2.436,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.713,
+        "end": 3.378,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.641,
+        "end": 4.08,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.357,
+        "end": 4.588,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.763,
+        "end": 5.107,
+        "gloss_id": "더3#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.35,
+        "end": 5.798,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.014,
+        "end": 6.184,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.397,
+        "end": 6.975,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.231,
+        "end": 7.471,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.663,
+        "end": 7.894,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.102,
+        "end": 8.888,
+        "gloss_id": "타자1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.641,
+        "end": 4.08
+      },
+      {
+        "descriptor": "",
+        "start": 5.35,
+        "end": 5.798
+      },
+      {
+        "descriptor": "",
+        "start": 2.957,
+        "end": 3.353
+      },
+      {
+        "descriptor": "",
+        "start": 7.231,
+        "end": 7.471
+      },
+      {
+        "descriptor": "",
+        "start": 8.102,
+        "end": 8.42
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.357,
+        "end": 5.1
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.652,
+        "end": 8.9
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.779,
+        "end": 2.998
+      },
+      {
+        "descriptor": "",
+        "start": 3.641,
+        "end": 4.08
+      },
+      {
+        "descriptor": "",
+        "start": 6.014,
+        "end": 7.433
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240352410",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:56:57",
+    "sentence_ID": "VXPAKOKS240352410",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    312,
+    126
+  ],
+  "file": "VXPAKOKS240352410.mp4",
+  "saved_as": "VXPAKOKS240352410-적금을해지할때는필요한모든서류를준비하고,신청서를정확하게작성했는지확인하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

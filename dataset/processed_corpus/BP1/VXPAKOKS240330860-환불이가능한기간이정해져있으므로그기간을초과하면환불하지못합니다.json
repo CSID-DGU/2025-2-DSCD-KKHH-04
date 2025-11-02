@@ -1,0 +1,238 @@
+{
+  "id": "VXPAKOKS240330860",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "환불이 가능한 기간이 정해져 있으므로 그 기간을 초과하면 환불하지 못합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.201,
+        "end": 2.537,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.839,
+        "end": 3.078,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.366,
+        "end": 3.77,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.079,
+        "end": 4.228,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.476,
+        "end": 4.704,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.929,
+        "end": 5.31,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.603,
+        "end": 5.956,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.201,
+        "end": 3.075,
+        "loc": "0",
+        "word": "환불이"
+      },
+      {
+        "start": 3.366,
+        "end": 3.77,
+        "loc": "1",
+        "word": "가능한"
+      },
+      {
+        "start": 4.079,
+        "end": 4.228,
+        "loc": "2",
+        "word": "기간이"
+      },
+      {
+        "start": 4.476,
+        "end": 4.704,
+        "loc": "3,4",
+        "word": "정해져 있으므로"
+      },
+      {
+        "start": 4.929,
+        "end": 5.31,
+        "loc": "5,6,7",
+        "word": "그 기간을 초과하면"
+      },
+      {
+        "start": 5.603,
+        "end": 5.956,
+        "loc": "8,9",
+        "word": "환불하지 못합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.201,
+        "end": 2.537,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.079,
+        "end": 4.228,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.476,
+        "end": 4.704,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.929,
+        "end": 5.31,
+        "gloss_id": "초과1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.366,
+        "end": 3.77
+      },
+      {
+        "descriptor": "",
+        "start": 4.929,
+        "end": 5.31
+      },
+      {
+        "descriptor": "",
+        "start": 5.603,
+        "end": 5.956
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.366,
+        "end": 3.77
+      },
+      {
+        "descriptor": "",
+        "start": 4.929,
+        "end": 5.31
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 5.668,
+        "end": 5.833
+      }
+    ],
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.079,
+        "end": 5.293
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330860",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:39:12",
+    "sentence_ID": "VXPAKOKS240330860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    204,
+    126
+  ],
+  "file": "VXPAKOKS240330860.mp4",
+  "saved_as": "VXPAKOKS240330860-환불이가능한기간이정해져있으므로그기간을초과하면환불하지못합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,237 @@
+{
+  "id": "VXPAKOKS240328660",
+  "opertor": "label12",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 예금에 처음 가입할 때 백만원 이상 맡길 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.426,
+        "end": 2.688,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.151,
+        "end": 3.397,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.67,
+        "end": 3.866,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.024,
+        "end": 4.292,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.466,
+        "end": 4.783,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.991,
+        "end": 5.27,
+        "gloss_id": "1000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.422,
+        "end": 5.861,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.83,
+        "end": 2.934,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.024,
+        "end": 4.773,
+        "loc": "3,4",
+        "word": "가입할 때"
+      },
+      {
+        "start": 4.991,
+        "end": 5.27,
+        "loc": "5",
+        "word": "백만원"
+      },
+      {
+        "start": 2.426,
+        "end": 2.688,
+        "loc": "0",
+        "word": "은행에서"
+      },
+      {
+        "start": 3.67,
+        "end": 3.866,
+        "loc": "2",
+        "word": "처음"
+      },
+      {
+        "start": 2.83,
+        "end": 3.393,
+        "loc": "1",
+        "word": "예금에"
+      },
+      {
+        "start": 5.422,
+        "end": 5.861,
+        "loc": "6,7,8,9",
+        "word": "이상 맡길 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.151,
+        "end": 3.397,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.024,
+        "end": 4.292,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.426,
+        "end": 2.688,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.67,
+        "end": 3.866,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.466,
+        "end": 4.783
+      },
+      {
+        "descriptor": "",
+        "start": 5.422,
+        "end": 5.861
+      },
+      {
+        "descriptor": "",
+        "start": 2.426,
+        "end": 2.688
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.466,
+        "end": 4.783
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.024,
+        "end": 4.784
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328660",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:35:31",
+    "sentence_ID": "VXPAKOKS240328660",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    199,
+    126
+  ],
+  "file": "VXPAKOKS240328660.mp4",
+  "saved_as": "VXPAKOKS240328660-은행에서예금에처음가입할때백만원이상맡길수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

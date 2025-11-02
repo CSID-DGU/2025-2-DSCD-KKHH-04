@@ -1,0 +1,271 @@
+{
+  "id": "VXPAKOKS240329030",
+  "opertor": "label15",
+  "krlgg_sntenc": {
+    "koreanText": "은행 홈페이지나, 애플리케이션에 이자 계산기가 있으니 사용해 보는 게 좋을 것 같아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.941,
+        "end": 2.412,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.733,
+        "end": 3.364,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.72,
+        "end": 4.205,
+        "gloss_id": "앱",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.505,
+        "end": 5.005,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.266,
+        "end": 5.576,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.666,
+        "end": 6.129,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.333,
+        "end": 6.782,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.166,
+        "end": 7.418,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.632,
+        "end": 7.949,
+        "gloss_id": "보다10",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.941,
+        "end": 2.412,
+        "loc": "0",
+        "word": "은행"
+      },
+      {
+        "start": 2.733,
+        "end": 3.364,
+        "loc": "1",
+        "word": "홈페이지나,"
+      },
+      {
+        "start": 3.72,
+        "end": 5.001,
+        "loc": "2",
+        "word": "애플리케이션에"
+      },
+      {
+        "start": 5.266,
+        "end": 5.576,
+        "loc": "3",
+        "word": "이자"
+      },
+      {
+        "start": 7.632,
+        "end": 7.949,
+        "loc": "7,8,9,10,11",
+        "word": "보는 게 좋을 것 같아."
+      },
+      {
+        "start": 5.666,
+        "end": 6.794,
+        "loc": "4,5",
+        "word": "계산기가 있으니"
+      },
+      {
+        "start": 7.166,
+        "end": 7.418,
+        "loc": "6",
+        "word": "사용해"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.941,
+        "end": 2.412,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.505,
+        "end": 5.005,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.166,
+        "end": 7.418,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "앱",
+        "start": 3.72,
+        "end": 4.205
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.941,
+        "end": 2.412
+      },
+      {
+        "descriptor": "",
+        "start": 2.916,
+        "end": 3.364
+      },
+      {
+        "descriptor": "",
+        "start": 3.72,
+        "end": 4.205
+      },
+      {
+        "descriptor": "",
+        "start": 4.629,
+        "end": 5.005
+      },
+      {
+        "descriptor": "",
+        "start": 6.34,
+        "end": 6.782
+      },
+      {
+        "descriptor": "",
+        "start": 7.566,
+        "end": 7.949
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.166,
+        "end": 7.944
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.72,
+        "end": 4.205
+      },
+      {
+        "descriptor": "",
+        "start": 5.666,
+        "end": 6.129
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329030",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:40:48",
+    "sentence_ID": "VXPAKOKS240329030",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    263,
+    126
+  ],
+  "file": "VXPAKOKS240329030.mp4",
+  "saved_as": "VXPAKOKS240329030-은행홈페이지나,애플리케이션에이자계산기가있으니사용해보는게좋을것같아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

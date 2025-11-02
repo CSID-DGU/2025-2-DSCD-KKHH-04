@@ -1,0 +1,313 @@
+{
+  "id": "VXPAKOKS240341140",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "여러 나라의 펀드에 투자하면, 특정 국가의 환율에 대한 위험을 낮출 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.267,
+        "end": 1.659,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.892,
+        "end": 2.638,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.954,
+        "end": 3.483,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.677,
+        "end": 4.011,
+        "gloss_id": "투자1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.18,
+        "end": 4.326,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.562,
+        "end": 4.881,
+        "gloss_id": "각각1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.072,
+        "end": 5.875,
+        "gloss_id": "달러1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.062,
+        "end": 6.497,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.692,
+        "end": 6.932,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.136,
+        "end": 7.398,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.576,
+        "end": 7.744,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 4.18,
+        "end": 4.326,
+        "loc": "5",
+        "word": "국가의"
+      },
+      {
+        "start": 4.562,
+        "end": 4.881,
+        "loc": "4",
+        "word": "특정"
+      },
+      {
+        "start": 5.072,
+        "end": 6.496,
+        "loc": "6,7",
+        "word": "환율에 대한"
+      },
+      {
+        "start": 6.692,
+        "end": 6.932,
+        "loc": "8",
+        "word": "위험을"
+      },
+      {
+        "start": 1.267,
+        "end": 3.45,
+        "loc": "0,1,2",
+        "word": "여러 나라의 펀드에"
+      },
+      {
+        "start": 3.677,
+        "end": 4.011,
+        "loc": "3",
+        "word": "투자하면,"
+      },
+      {
+        "start": 7.136,
+        "end": 7.398,
+        "loc": "9",
+        "word": "낮출"
+      },
+      {
+        "start": 7.576,
+        "end": 7.744,
+        "loc": "10,11",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.267,
+        "end": 1.659,
+        "gloss_id": "외국3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.18,
+        "end": 4.326,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.562,
+        "end": 4.881,
+        "gloss_id": "각각1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.062,
+        "end": 6.497,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.692,
+        "end": 6.932,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.123,
+        "end": 2.638
+      },
+      {
+        "descriptor": "",
+        "start": 3.677,
+        "end": 4.011
+      },
+      {
+        "descriptor": "",
+        "start": 4.562,
+        "end": 4.881
+      },
+      {
+        "descriptor": "",
+        "start": 7.136,
+        "end": 7.398
+      },
+      {
+        "descriptor": "",
+        "start": 7.576,
+        "end": 7.744
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.576,
+        "end": 7.744
+      },
+      {
+        "descriptor": "",
+        "start": 2.116,
+        "end": 2.638
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.692,
+        "end": 7.307
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.264,
+        "end": 2.638
+      },
+      {
+        "descriptor": "",
+        "start": 5.072,
+        "end": 6.25
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341140",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:11:13",
+    "sentence_ID": "VXPAKOKS240341140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    260,
+    126
+  ],
+  "file": "VXPAKOKS240341140.mp4",
+  "saved_as": "VXPAKOKS240341140-여러나라의펀드에투자하면,특정국가의환율에대한위험을낮출수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

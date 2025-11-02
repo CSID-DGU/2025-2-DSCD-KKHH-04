@@ -1,0 +1,275 @@
+{
+  "id": "VXPAKOKS240328630",
+  "opertor": "label9",
+  "krlgg_sntenc": {
+    "koreanText": "적금은 은행에서 만들 수 있는데, 1개월부터 5년까지 적금 기간을 신청할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.434,
+        "end": 2.673,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.9,
+        "end": 3.031,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.21,
+        "end": 3.64,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.807,
+        "end": 4.122,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.313,
+        "end": 4.66,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.016,
+        "end": 5.306,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.588,
+        "end": 5.732,
+        "gloss_id": "일형3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.966,
+        "end": 6.51,
+        "gloss_id": "날짜(활용):5년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.696,
+        "end": 7.037,
+        "gloss_id": "까지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.434,
+        "end": 2.673,
+        "loc": "1",
+        "word": "은행에서"
+      },
+      {
+        "start": 2.9,
+        "end": 3.642,
+        "loc": "0",
+        "word": "적금은"
+      },
+      {
+        "start": 3.807,
+        "end": 4.663,
+        "loc": "2,3,4",
+        "word": "만들 수 있는데,"
+      },
+      {
+        "start": 5.016,
+        "end": 5.726,
+        "loc": "5",
+        "word": "1개월부터"
+      },
+      {
+        "start": 5.966,
+        "end": 7.031,
+        "loc": "6",
+        "word": "5년까지"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.434,
+        "end": 2.673,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.9,
+        "end": 3.025,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.21,
+        "end": 3.64,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.807,
+        "end": 4.122,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.966,
+        "end": 6.51,
+        "gloss_id": "날짜(활용):5년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일",
+        "start": 5.016,
+        "end": 5.306
+      },
+      {
+        "descriptor": "오년",
+        "start": 5.966,
+        "end": 6.51
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.434,
+        "end": 2.673
+      },
+      {
+        "descriptor": "",
+        "start": 3.21,
+        "end": 3.64
+      },
+      {
+        "descriptor": "",
+        "start": 4.313,
+        "end": 4.66
+      },
+      {
+        "descriptor": "",
+        "start": 5.016,
+        "end": 5.306
+      },
+      {
+        "descriptor": "",
+        "start": 5.966,
+        "end": 6.51
+      },
+      {
+        "descriptor": "",
+        "start": 6.696,
+        "end": 7.037
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.498,
+        "end": 4.66
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.434,
+        "end": 4.13
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328630",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:35:05",
+    "sentence_ID": "VXPAKOKS240328630",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    229,
+    126
+  ],
+  "file": "VXPAKOKS240328630.mp4",
+  "saved_as": "VXPAKOKS240328630-적금은은행에서만들수있는데,1개월부터5년까지적금기간을신청할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

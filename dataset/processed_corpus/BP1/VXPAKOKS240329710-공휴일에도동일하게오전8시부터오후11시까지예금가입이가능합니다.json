@@ -1,0 +1,416 @@
+{
+  "id": "VXPAKOKS240329710",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "공휴일에도 동일하게 오전 8시부터 오후 11시까지 예금 가입이 가능합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.694,
+        "end": 1.863,
+        "gloss_id": "빨강1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.063,
+        "end": 2.284,
+        "gloss_id": "쉬다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.507,
+        "end": 2.999,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.357,
+        "end": 3.432,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.734,
+        "end": 4.181,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.441,
+        "end": 4.565,
+        "gloss_id": "아침1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.75,
+        "end": 5.317,
+        "gloss_id": "시:8시",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.691,
+        "end": 5.935,
+        "gloss_id": "어둡다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.06,
+        "end": 6.409,
+        "gloss_id": "시:11시",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.662,
+        "end": 6.959,
+        "gloss_id": "까지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.106,
+        "end": 7.237,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.422,
+        "end": 7.658,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.896,
+        "end": 8.042,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.257,
+        "end": 8.531,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.694,
+        "end": 3.0,
+        "loc": "0",
+        "word": "공휴일에도"
+      },
+      {
+        "start": 3.357,
+        "end": 4.177,
+        "loc": "1",
+        "word": "동일하게"
+      },
+      {
+        "start": 4.441,
+        "end": 4.565,
+        "loc": "2",
+        "word": "오전"
+      },
+      {
+        "start": 4.75,
+        "end": 5.317,
+        "loc": "3",
+        "word": "8시부터"
+      },
+      {
+        "start": 5.691,
+        "end": 5.935,
+        "loc": "4",
+        "word": "오후"
+      },
+      {
+        "start": 6.06,
+        "end": 6.974,
+        "loc": "5",
+        "word": "11시까지"
+      },
+      {
+        "start": 7.106,
+        "end": 7.666,
+        "loc": "6",
+        "word": "예금"
+      },
+      {
+        "start": 7.896,
+        "end": 8.042,
+        "loc": "7",
+        "word": "가입이"
+      },
+      {
+        "start": 8.257,
+        "end": 8.531,
+        "loc": "8",
+        "word": "가능합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.063,
+        "end": 2.284,
+        "gloss_id": "쉬다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.507,
+        "end": 2.999,
+        "gloss_id": "날1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.357,
+        "end": 3.432,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.734,
+        "end": 4.181,
+        "gloss_id": "같다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.441,
+        "end": 4.565,
+        "gloss_id": "아침1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.75,
+        "end": 5.317,
+        "gloss_id": "시:8시",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.691,
+        "end": 5.935,
+        "gloss_id": "어둡다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.06,
+        "end": 6.409,
+        "gloss_id": "시:11시",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.422,
+        "end": 7.658,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.896,
+        "end": 8.042,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "여덟시",
+        "start": 4.75,
+        "end": 5.317
+      },
+      {
+        "descriptor": "열한시",
+        "start": 6.06,
+        "end": 6.409
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.507,
+        "end": 2.999
+      },
+      {
+        "descriptor": "",
+        "start": 3.734,
+        "end": 4.181
+      },
+      {
+        "descriptor": "",
+        "start": 4.75,
+        "end": 5.317
+      },
+      {
+        "descriptor": "",
+        "start": 6.662,
+        "end": 6.959
+      },
+      {
+        "descriptor": "",
+        "start": 7.422,
+        "end": 7.658
+      },
+      {
+        "descriptor": "",
+        "start": 7.896,
+        "end": 8.042
+      },
+      {
+        "descriptor": "",
+        "start": 8.257,
+        "end": 8.531
+      },
+      {
+        "descriptor": "",
+        "start": 6.06,
+        "end": 6.409
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.257,
+        "end": 8.531
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.691,
+        "end": 5.935
+      },
+      {
+        "descriptor": "",
+        "start": 3.734,
+        "end": 4.181
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.934,
+        "end": 8.042
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.694,
+        "end": 2.97
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329710",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:28:49",
+    "sentence_ID": "VXPAKOKS240329710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    271,
+    126
+  ],
+  "file": "VXPAKOKS240329710.mp4",
+  "saved_as": "VXPAKOKS240329710-공휴일에도동일하게오전8시부터오후11시까지예금가입이가능합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

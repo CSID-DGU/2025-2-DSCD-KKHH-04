@@ -1,0 +1,387 @@
+{
+  "id": "VXPAKOKS240341890",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "금융 시장 변화로 인해 펀드 수익이 낮다면, 투자자는 부동산이나 금에 투자해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.182,
+        "end": 1.735,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.882,
+        "end": 2.434,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.755,
+        "end": 3.035,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.297,
+        "end": 3.709,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.024,
+        "end": 4.242,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.456,
+        "end": 5.439,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.658,
+        "end": 6.061,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.194,
+        "end": 6.369,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.676,
+        "end": 7.071,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.415,
+        "end": 7.695,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.938,
+        "end": 8.104,
+        "gloss_id": "노랑1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.251,
+        "end": 8.575,
+        "gloss_id": "보석1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.737,
+        "end": 9.167,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.445,
+        "end": 9.698,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.182,
+        "end": 1.735,
+        "loc": "0",
+        "word": "금융"
+      },
+      {
+        "start": 2.755,
+        "end": 3.035,
+        "loc": "3",
+        "word": "인해"
+      },
+      {
+        "start": 4.456,
+        "end": 6.054,
+        "loc": "6",
+        "word": "낮다면,"
+      },
+      {
+        "start": 6.194,
+        "end": 7.063,
+        "loc": "7",
+        "word": "투자자는"
+      },
+      {
+        "start": 7.415,
+        "end": 7.695,
+        "loc": "8",
+        "word": "부동산이나"
+      },
+      {
+        "start": 7.938,
+        "end": 8.587,
+        "loc": "9",
+        "word": "금에"
+      },
+      {
+        "start": 8.737,
+        "end": 9.703,
+        "loc": "10,11",
+        "word": "투자해야 합니다."
+      },
+      {
+        "start": 1.882,
+        "end": 2.434,
+        "loc": "1,2",
+        "word": "시장 변화로"
+      },
+      {
+        "start": 3.297,
+        "end": 3.709,
+        "loc": "4",
+        "word": "펀드"
+      },
+      {
+        "start": 4.024,
+        "end": 4.242,
+        "loc": "5",
+        "word": "수익이"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.182,
+        "end": 1.734,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.658,
+        "end": 6.061,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.415,
+        "end": 7.695,
+        "gloss_id": "흙1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.251,
+        "end": 8.575,
+        "gloss_id": "보석1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.445,
+        "end": 9.698,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.882,
+        "end": 2.434,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.755,
+        "end": 3.035,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.456,
+        "end": 5.439,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.676,
+        "end": 7.071,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.86,
+        "end": 3.035
+      },
+      {
+        "descriptor": "",
+        "start": 9.445,
+        "end": 9.698
+      },
+      {
+        "descriptor": "",
+        "start": 7.415,
+        "end": 7.695
+      },
+      {
+        "descriptor": "",
+        "start": 8.251,
+        "end": 8.575
+      },
+      {
+        "descriptor": "",
+        "start": 1.882,
+        "end": 2.434
+      },
+      {
+        "descriptor": "",
+        "start": 6.676,
+        "end": 7.071
+      },
+      {
+        "descriptor": "",
+        "start": 8.737,
+        "end": 9.167
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.86,
+        "end": 3.035
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.676,
+        "end": 7.071
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.182,
+        "end": 1.735
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341890",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:17:32",
+    "sentence_ID": "VXPAKOKS240341890",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    316,
+    126
+  ],
+  "file": "VXPAKOKS240341890.mp4",
+  "saved_as": "VXPAKOKS240341890-금융시장변화로인해펀드수익이낮다면,투자자는부동산이나금에투자해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

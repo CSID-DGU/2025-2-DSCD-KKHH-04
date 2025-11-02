@@ -1,0 +1,380 @@
+{
+  "id": "VXPAKOKS240377470",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "연동 가능 여부는 은행에 직접 문의하거나, 온라인 서비스 설명을 확인하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.767,
+        "end": 2.306,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.609,
+        "end": 2.801,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.923,
+        "end": 3.352,
+        "gloss_id": "여부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.548,
+        "end": 3.803,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.034,
+        "end": 4.25,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.457,
+        "end": 4.672,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.865,
+        "end": 5.199,
+        "gloss_id": "질문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.422,
+        "end": 5.582,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.739,
+        "end": 5.994,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.189,
+        "end": 6.405,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.593,
+        "end": 6.864,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.006,
+        "end": 7.198,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.353,
+        "end": 7.569,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.686,
+        "end": 7.933,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.767,
+        "end": 2.306,
+        "loc": "0",
+        "word": "연동"
+      },
+      {
+        "start": 2.609,
+        "end": 2.801,
+        "loc": "1",
+        "word": "가능"
+      },
+      {
+        "start": 2.923,
+        "end": 3.802,
+        "loc": "2",
+        "word": "여부는"
+      },
+      {
+        "start": 4.034,
+        "end": 4.25,
+        "loc": "3",
+        "word": "은행에"
+      },
+      {
+        "start": 4.457,
+        "end": 4.672,
+        "loc": "4",
+        "word": "직접"
+      },
+      {
+        "start": 4.865,
+        "end": 5.199,
+        "loc": "5",
+        "word": "문의하거나,"
+      },
+      {
+        "start": 5.422,
+        "end": 5.969,
+        "loc": "6",
+        "word": "온라인"
+      },
+      {
+        "start": 6.189,
+        "end": 6.405,
+        "loc": "7",
+        "word": "서비스"
+      },
+      {
+        "start": 6.593,
+        "end": 6.864,
+        "loc": "8",
+        "word": "설명을"
+      },
+      {
+        "start": 7.006,
+        "end": 7.924,
+        "loc": "9",
+        "word": "확인하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.767,
+        "end": 2.306,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.034,
+        "end": 4.25,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.457,
+        "end": 4.672,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.422,
+        "end": 5.582,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.739,
+        "end": 5.994,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.189,
+        "end": 6.405,
+        "gloss_id": "위로하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.593,
+        "end": 6.864,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.686,
+        "end": 7.933,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.609,
+        "end": 2.801
+      },
+      {
+        "descriptor": "",
+        "start": 3.548,
+        "end": 3.803
+      },
+      {
+        "descriptor": "",
+        "start": 4.865,
+        "end": 5.199
+      },
+      {
+        "descriptor": "",
+        "start": 7.006,
+        "end": 7.198
+      },
+      {
+        "descriptor": "",
+        "start": 7.686,
+        "end": 7.933
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.609,
+        "end": 2.801
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.865,
+        "end": 5.199
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.353,
+        "end": 7.94
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.767,
+        "end": 3.815
+      },
+      {
+        "descriptor": "",
+        "start": 5.777,
+        "end": 6.814
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240377470",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:50:54",
+    "sentence_ID": "VXPAKOKS240377470",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    284,
+    126
+  ],
+  "file": "VXPAKOKS240377470.mp4",
+  "saved_as": "VXPAKOKS240377470-연동가능여부는은행에직접문의하거나,온라인서비스설명을확인하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

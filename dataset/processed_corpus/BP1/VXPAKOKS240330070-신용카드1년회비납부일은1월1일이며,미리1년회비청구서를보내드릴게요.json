@@ -1,0 +1,374 @@
+{
+  "id": "VXPAKOKS240330070",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 1년 회비 납부일은 1월 1일이며, 미리 1년 회비 청구서를 보내 드릴게요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.009,
+        "end": 2.218,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.3,
+        "end": 2.459,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.591,
+        "end": 3.083,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.239,
+        "end": 3.88,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.102,
+        "end": 4.444,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.576,
+        "end": 4.885,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.984,
+        "end": 5.816,
+        "gloss_id": "날짜:1월1일",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.93,
+        "end": 6.762,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.901,
+        "end": 7.094,
+        "gloss_id": "회원1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.176,
+        "end": 7.917,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.031,
+        "end": 8.531,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.687,
+        "end": 8.996,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.009,
+        "end": 2.442,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.591,
+        "end": 3.083,
+        "loc": "1",
+        "word": "1년"
+      },
+      {
+        "start": 3.239,
+        "end": 4.445,
+        "loc": "2",
+        "word": "회비"
+      },
+      {
+        "start": 4.576,
+        "end": 4.885,
+        "loc": "3",
+        "word": "납부일은"
+      },
+      {
+        "start": 4.984,
+        "end": 5.816,
+        "loc": "4,5",
+        "word": "1월 1일이며,"
+      },
+      {
+        "start": 5.93,
+        "end": 6.762,
+        "loc": "7",
+        "word": "1년"
+      },
+      {
+        "start": 6.901,
+        "end": 7.094,
+        "loc": "8",
+        "word": "회비"
+      },
+      {
+        "start": 7.176,
+        "end": 7.917,
+        "loc": "6",
+        "word": "미리"
+      },
+      {
+        "start": 8.031,
+        "end": 8.531,
+        "loc": "9",
+        "word": "청구서를"
+      },
+      {
+        "start": 8.687,
+        "end": 8.996,
+        "loc": "10,11",
+        "word": "보내 드릴게요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.009,
+        "end": 2.218,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.591,
+        "end": 3.091,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.102,
+        "end": 4.444,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.576,
+        "end": 4.877,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.984,
+        "end": 5.816,
+        "gloss_id": "날짜:1월1일",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.93,
+        "end": 6.762,
+        "gloss_id": "날짜(활용):1년",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.176,
+        "end": 7.917,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.687,
+        "end": 8.996,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "일년",
+        "start": 2.591,
+        "end": 3.083
+      },
+      {
+        "descriptor": "일월일일",
+        "start": 4.984,
+        "end": 5.816
+      },
+      {
+        "descriptor": "일년",
+        "start": 5.93,
+        "end": 6.762
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.239,
+        "end": 3.88
+      },
+      {
+        "descriptor": "",
+        "start": 4.576,
+        "end": 4.885
+      },
+      {
+        "descriptor": "",
+        "start": 5.257,
+        "end": 5.757
+      },
+      {
+        "descriptor": "",
+        "start": 7.176,
+        "end": 7.917
+      },
+      {
+        "descriptor": "",
+        "start": 8.031,
+        "end": 8.531
+      },
+      {
+        "descriptor": "",
+        "start": 8.687,
+        "end": 8.996
+      },
+      {
+        "descriptor": "",
+        "start": 5.93,
+        "end": 6.762
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.687,
+        "end": 8.996
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.009,
+        "end": 4.759
+      },
+      {
+        "descriptor": "",
+        "start": 5.93,
+        "end": 6.762
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330070",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:50:19",
+    "sentence_ID": "VXPAKOKS240330070",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    299,
+    126
+  ],
+  "file": "VXPAKOKS240330070.mp4",
+  "saved_as": "VXPAKOKS240330070-신용카드1년회비납부일은1월1일이며,미리1년회비청구서를보내드릴게요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

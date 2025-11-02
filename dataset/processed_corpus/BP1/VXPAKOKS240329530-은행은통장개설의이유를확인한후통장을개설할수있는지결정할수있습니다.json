@@ -1,0 +1,280 @@
+{
+  "id": "VXPAKOKS240329530",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "은행은 통장개설의 이유를 확인한 후 통장을 개설할 수 있는지 결정할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.984,
+        "end": 2.316,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.592,
+        "end": 2.729,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.959,
+        "end": 3.257,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.53,
+        "end": 3.828,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.899,
+        "end": 4.049,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.394,
+        "end": 4.846,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.155,
+        "end": 5.628,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.056,
+        "end": 6.193,
+        "gloss_id": "허락1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.39,
+        "end": 6.655,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.853,
+        "end": 7.084,
+        "gloss_id": "주다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.056,
+        "end": 7.06,
+        "loc": "5,6,7,8,9,10,11",
+        "word": "통장을 개설할 수 있는지 결정할 수 있습니다."
+      },
+      {
+        "start": 5.155,
+        "end": 5.628,
+        "loc": "0",
+        "word": "은행은"
+      },
+      {
+        "start": 1.984,
+        "end": 4.038,
+        "loc": "1,2",
+        "word": "통장개설의 이유를"
+      },
+      {
+        "start": 4.394,
+        "end": 4.846,
+        "loc": "3,4",
+        "word": "확인한 후"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.984,
+        "end": 2.316,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.592,
+        "end": 2.729,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.959,
+        "end": 3.257,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.53,
+        "end": 3.828,
+        "gloss_id": "의미1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.155,
+        "end": 5.628,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.056,
+        "end": 6.193,
+        "gloss_id": "허락1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.39,
+        "end": 6.655,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.394,
+        "end": 4.846
+      },
+      {
+        "descriptor": "",
+        "start": 5.492,
+        "end": 5.777
+      },
+      {
+        "descriptor": "",
+        "start": 6.853,
+        "end": 7.084
+      },
+      {
+        "descriptor": "",
+        "start": 2.959,
+        "end": 3.257
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.959,
+        "end": 3.257
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.492,
+        "end": 5.77
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.592,
+        "end": 3.253
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329530",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:27:17",
+    "sentence_ID": "VXPAKOKS240329530",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    242,
+    126
+  ],
+  "file": "VXPAKOKS240329530.mp4",
+  "saved_as": "VXPAKOKS240329530-은행은통장개설의이유를확인한후통장을개설할수있는지결정할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

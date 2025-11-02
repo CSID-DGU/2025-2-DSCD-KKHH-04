@@ -1,0 +1,291 @@
+{
+  "id": "VXPAKOKS240331640",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "바로 발급받기 어려울 수 있으니까 임시 카드를 받을 수 있는지 확인해야 해.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.593,
+        "end": 1.873,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.087,
+        "end": 2.347,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.61,
+        "end": 3.043,
+        "gloss_id": "어렵다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.332,
+        "end": 3.612,
+        "gloss_id": "혹시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.985,
+        "end": 4.318,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.472,
+        "end": 5.152,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.18,
+        "end": 5.567,
+        "gloss_id": "카드2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.85,
+        "end": 6.097,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.374,
+        "end": 6.647,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.858,
+        "end": 7.205,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.593,
+        "end": 1.873,
+        "loc": "0",
+        "word": "바로"
+      },
+      {
+        "start": 2.087,
+        "end": 2.347,
+        "loc": "1",
+        "word": "발급받기"
+      },
+      {
+        "start": 2.61,
+        "end": 3.609,
+        "loc": "2,3,4",
+        "word": "어려울 수 있으니까"
+      },
+      {
+        "start": 3.985,
+        "end": 4.318,
+        "loc": "5",
+        "word": "임시"
+      },
+      {
+        "start": 4.472,
+        "end": 5.152,
+        "loc": "6",
+        "word": "카드를"
+      },
+      {
+        "start": 5.18,
+        "end": 5.567,
+        "loc": "7",
+        "word": "받을"
+      },
+      {
+        "start": 5.85,
+        "end": 6.097,
+        "loc": "8,9",
+        "word": "수 있는지"
+      },
+      {
+        "start": 6.374,
+        "end": 6.647,
+        "loc": "10",
+        "word": "확인해야"
+      },
+      {
+        "start": 6.858,
+        "end": 7.205,
+        "loc": "11",
+        "word": "해."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.593,
+        "end": 1.873,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.087,
+        "end": 2.347,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.985,
+        "end": 4.318,
+        "gloss_id": "그러면1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.858,
+        "end": 7.205,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.697,
+        "end": 3.05
+      },
+      {
+        "descriptor": "",
+        "start": 3.332,
+        "end": 3.612
+      },
+      {
+        "descriptor": "",
+        "start": 4.685,
+        "end": 5.138
+      },
+      {
+        "descriptor": "",
+        "start": 5.85,
+        "end": 6.097
+      },
+      {
+        "descriptor": "",
+        "start": 6.858,
+        "end": 7.205
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.85,
+        "end": 6.097
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.087,
+        "end": 3.607
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.85,
+        "end": 6.097
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331640",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:13:42",
+    "sentence_ID": "VXPAKOKS240331640",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    240,
+    126
+  ],
+  "file": "VXPAKOKS240331640.mp4",
+  "saved_as": "VXPAKOKS240331640-바로발급받기어려울수있으니까임시카드를받을수있는지확인해야해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

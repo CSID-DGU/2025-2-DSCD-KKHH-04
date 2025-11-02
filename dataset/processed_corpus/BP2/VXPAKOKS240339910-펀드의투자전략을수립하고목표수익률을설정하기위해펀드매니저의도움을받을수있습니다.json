@@ -1,0 +1,330 @@
+{
+  "id": "VXPAKOKS240339910",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "펀드의 투자 전략을 수립하고 목표 수익률을 설정하기 위해 펀드 매니저의 도움을 받을 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.172,
+        "end": 1.275,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.508,
+        "end": 2.042,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.391,
+        "end": 2.535,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.785,
+        "end": 2.896,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.087,
+        "end": 3.477,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.76,
+        "end": 3.993,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.23,
+        "end": 4.654,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.925,
+        "end": 5.042,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.32,
+        "end": 5.43,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.67,
+        "end": 6.003,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.294,
+        "end": 6.514,
+        "gloss_id": "돕다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.781,
+        "end": 6.946,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.172,
+        "end": 1.275,
+        "loc": "0,1",
+        "word": "펀드의 투자"
+      },
+      {
+        "start": 1.508,
+        "end": 2.042,
+        "loc": "2,3",
+        "word": "전략을 수립하고"
+      },
+      {
+        "start": 2.391,
+        "end": 2.535,
+        "loc": "4",
+        "word": "목표"
+      },
+      {
+        "start": 2.785,
+        "end": 3.477,
+        "loc": "5",
+        "word": "수익률을"
+      },
+      {
+        "start": 3.76,
+        "end": 4.663,
+        "loc": "6,7",
+        "word": "설정하기 위해"
+      },
+      {
+        "start": 4.925,
+        "end": 6.004,
+        "loc": "8,9",
+        "word": "펀드 매니저의"
+      },
+      {
+        "start": 6.294,
+        "end": 6.965,
+        "loc": "10,11,12,13",
+        "word": "도움을 받을 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.001,
+        "end": 3.477,
+        "gloss_id": "얼마2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.508,
+        "end": 2.042,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.391,
+        "end": 2.897,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.76,
+        "end": 3.993,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.23,
+        "end": 5.03,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.32,
+        "end": 5.43,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.294,
+        "end": 6.514,
+        "gloss_id": "돕다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.67,
+        "end": 6.003,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.508,
+        "end": 2.042
+      },
+      {
+        "descriptor": "",
+        "start": 3.786,
+        "end": 4.654
+      },
+      {
+        "descriptor": "",
+        "start": 5.67,
+        "end": 6.003
+      },
+      {
+        "descriptor": "",
+        "start": 6.781,
+        "end": 6.946
+      },
+      {
+        "descriptor": "",
+        "start": 3.087,
+        "end": 3.477
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.781,
+        "end": 6.946
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.172,
+        "end": 1.672
+      },
+      {
+        "descriptor": "",
+        "start": 3.76,
+        "end": 4.636
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339910",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:01:22",
+    "sentence_ID": "VXPAKOKS240339910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    246,
+    126
+  ],
+  "file": "VXPAKOKS240339910.mp4",
+  "saved_as": "VXPAKOKS240339910-펀드의투자전략을수립하고목표수익률을설정하기위해펀드매니저의도움을받을수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

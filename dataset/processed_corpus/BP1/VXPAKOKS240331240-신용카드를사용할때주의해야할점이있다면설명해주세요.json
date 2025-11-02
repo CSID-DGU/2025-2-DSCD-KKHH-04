@@ -1,0 +1,200 @@
+{
+  "id": "VXPAKOKS240331240",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드를 사용할 때 주의해야 할 점이 있다면 설명해 주세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.634,
+        "end": 1.842,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.115,
+        "end": 2.223,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.504,
+        "end": 2.876,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.114,
+        "end": 3.514,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.816,
+        "end": 3.938,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.134,
+        "end": 4.593,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.634,
+        "end": 2.211,
+        "loc": "0",
+        "word": "신용카드를"
+      },
+      {
+        "start": 2.504,
+        "end": 3.5,
+        "loc": "1,2",
+        "word": "사용할 때"
+      },
+      {
+        "start": 3.816,
+        "end": 3.938,
+        "loc": "3,4,5,6",
+        "word": "주의해야 할 점이 있다면"
+      },
+      {
+        "start": 4.134,
+        "end": 4.593,
+        "loc": "7,8",
+        "word": "설명해 주세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.634,
+        "end": 2.22,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.504,
+        "end": 2.876,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.114,
+        "end": 3.514,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.816,
+        "end": 3.938,
+        "gloss_id": "조심1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.134,
+        "end": 4.593
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.816,
+        "end": 3.938
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.634,
+        "end": 2.202
+      },
+      {
+        "descriptor": "",
+        "start": 4.134,
+        "end": 4.593
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331240",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:08:42",
+    "sentence_ID": "VXPAKOKS240331240",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    164,
+    126
+  ],
+  "file": "VXPAKOKS240331240.mp4",
+  "saved_as": "VXPAKOKS240331240-신용카드를사용할때주의해야할점이있다면설명해주세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

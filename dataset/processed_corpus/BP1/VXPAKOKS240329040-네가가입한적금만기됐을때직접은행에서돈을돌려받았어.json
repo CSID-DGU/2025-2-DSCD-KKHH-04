@@ -1,0 +1,305 @@
+{
+  "id": "VXPAKOKS240329040",
+  "opertor": "label15",
+  "krlgg_sntenc": {
+    "koreanText": "네가 가입한 적금 만기 됐을 때 직접 은행에서 돈을 돌려 받았어?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.122,
+        "end": 2.297,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.466,
+        "end": 2.872,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.033,
+        "end": 3.252,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.466,
+        "end": 4.172,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.299,
+        "end": 4.424,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.665,
+        "end": 5.046,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.333,
+        "end": 5.62,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.716,
+        "end": 5.816,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.966,
+        "end": 6.578,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 1.799,
+        "end": 1.952,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.799,
+        "end": 1.949,
+        "loc": "0",
+        "word": "네가"
+      },
+      {
+        "start": 2.122,
+        "end": 2.878,
+        "loc": "1,2",
+        "word": "가입한 적금"
+      },
+      {
+        "start": 4.299,
+        "end": 4.424,
+        "loc": "7",
+        "word": "은행에서"
+      },
+      {
+        "start": 3.033,
+        "end": 4.177,
+        "loc": "3,4,5",
+        "word": "만기 됐을 때"
+      },
+      {
+        "start": 5.333,
+        "end": 6.582,
+        "loc": "8,9,10",
+        "word": "돈을 돌려 받았어?"
+      },
+      {
+        "start": 4.665,
+        "end": 5.046,
+        "loc": "6",
+        "word": "직접"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.122,
+        "end": 2.297,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.466,
+        "end": 2.872,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.033,
+        "end": 3.252,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.466,
+        "end": 4.172,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.299,
+        "end": 4.424,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.333,
+        "end": 5.62,
+        "gloss_id": "되돌리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.966,
+        "end": 6.578,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.665,
+        "end": 5.046,
+        "gloss_id": "직접1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.466,
+        "end": 2.872
+      },
+      {
+        "descriptor": "",
+        "start": 6.222,
+        "end": 6.578
+      },
+      {
+        "descriptor": "",
+        "start": 3.666,
+        "end": 4.166
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.835,
+        "end": 4.172
+      },
+      {
+        "descriptor": "",
+        "start": 6.222,
+        "end": 6.578
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.466,
+        "end": 3.822
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.799,
+        "end": 2.296
+      },
+      {
+        "descriptor": "",
+        "start": 4.291,
+        "end": 6.572
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329040",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:40:57",
+    "sentence_ID": "VXPAKOKS240329040",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    225,
+    126
+  ],
+  "file": "VXPAKOKS240329040.mp4",
+  "saved_as": "VXPAKOKS240329040-네가가입한적금만기됐을때직접은행에서돈을돌려받았어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,283 @@
+{
+  "id": "VXPAKOKS240342610",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "거래 후 잔액을 확인하여, 해당 거래가 올바르게 처리되었는지를 확인할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.633,
+        "end": 1.826,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.867,
+        "end": 2.296,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.507,
+        "end": 2.649,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.927,
+        "end": 3.152,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.58,
+        "end": 3.856,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.372,
+        "end": 4.654,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.032,
+        "end": 5.334,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.495,
+        "end": 5.707,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.869,
+        "end": 6.055,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.633,
+        "end": 2.299,
+        "loc": "0,1",
+        "word": "거래 후"
+      },
+      {
+        "start": 2.507,
+        "end": 3.161,
+        "loc": "2",
+        "word": "잔액을"
+      },
+      {
+        "start": 3.58,
+        "end": 3.856,
+        "loc": "3",
+        "word": "확인하여,"
+      },
+      {
+        "start": 4.372,
+        "end": 4.654,
+        "loc": "4,5",
+        "word": "해당 거래가"
+      },
+      {
+        "start": 5.032,
+        "end": 5.334,
+        "loc": "6,7",
+        "word": "올바르게 처리되었는지를"
+      },
+      {
+        "start": 5.495,
+        "end": 6.052,
+        "loc": "8,9,10",
+        "word": "확인할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.633,
+        "end": 2.299,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.927,
+        "end": 3.152,
+        "gloss_id": "빼다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.372,
+        "end": 4.654,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.032,
+        "end": 5.334,
+        "gloss_id": "딱맞다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.927,
+        "end": 3.152
+      },
+      {
+        "descriptor": "",
+        "start": 3.58,
+        "end": 3.856
+      },
+      {
+        "descriptor": "",
+        "start": 5.121,
+        "end": 5.334
+      },
+      {
+        "descriptor": "",
+        "start": 5.869,
+        "end": 6.055
+      },
+      {
+        "descriptor": "",
+        "start": 2.161,
+        "end": 2.296
+      },
+      {
+        "descriptor": "",
+        "start": 1.633,
+        "end": 1.826
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.122,
+        "end": 5.334
+      },
+      {
+        "descriptor": "",
+        "start": 5.869,
+        "end": 6.055
+      },
+      {
+        "descriptor": "",
+        "start": 2.161,
+        "end": 2.296
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.58,
+        "end": 4.649
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.507,
+        "end": 3.748
+      },
+      {
+        "descriptor": "",
+        "start": 4.372,
+        "end": 5.185
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240342610",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:49:56",
+    "sentence_ID": "VXPAKOKS240342610",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    230,
+    126
+  ],
+  "file": "VXPAKOKS240342610.mp4",
+  "saved_as": "VXPAKOKS240342610-거래후잔액을확인하여,해당거래가올바르게처리되었는지를확인할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

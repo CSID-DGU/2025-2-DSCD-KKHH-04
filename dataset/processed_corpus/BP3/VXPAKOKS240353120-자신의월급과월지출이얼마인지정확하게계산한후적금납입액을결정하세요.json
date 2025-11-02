@@ -1,0 +1,374 @@
+{
+  "id": "VXPAKOKS240353120",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "자신의 월급과 월 지출이 얼마인지 정확하게 계산한 후 적금 납입액을 결정하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.913,
+        "end": 2.181,
+        "gloss_id": "책1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.328,
+        "end": 2.485,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.687,
+        "end": 3.17,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.39,
+        "end": 3.675,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.96,
+        "end": 4.219,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.475,
+        "end": 5.069,
+        "gloss_id": "얼마1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.399,
+        "end": 5.624,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.81,
+        "end": 6.576,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.753,
+        "end": 6.883,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.057,
+        "end": 7.308,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.501,
+        "end": 7.906,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.116,
+        "end": 8.427,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.654,
+        "end": 8.939,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.913,
+        "end": 2.181,
+        "loc": "0",
+        "word": "자신의"
+      },
+      {
+        "start": 2.328,
+        "end": 3.172,
+        "loc": "1",
+        "word": "월급과"
+      },
+      {
+        "start": 3.39,
+        "end": 3.675,
+        "loc": "2",
+        "word": "월"
+      },
+      {
+        "start": 3.96,
+        "end": 4.219,
+        "loc": "3",
+        "word": "지출이"
+      },
+      {
+        "start": 4.475,
+        "end": 5.069,
+        "loc": "4",
+        "word": "얼마인지"
+      },
+      {
+        "start": 5.399,
+        "end": 5.624,
+        "loc": "6,7",
+        "word": "계산한 후"
+      },
+      {
+        "start": 5.81,
+        "end": 6.576,
+        "loc": "5",
+        "word": "정확하게"
+      },
+      {
+        "start": 6.753,
+        "end": 7.321,
+        "loc": "8",
+        "word": "적금"
+      },
+      {
+        "start": 7.501,
+        "end": 8.439,
+        "loc": "9",
+        "word": "납입액을"
+      },
+      {
+        "start": 8.654,
+        "end": 8.939,
+        "loc": "10",
+        "word": "결정하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.913,
+        "end": 2.181,
+        "gloss_id": "책1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.687,
+        "end": 3.17,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.39,
+        "end": 3.675,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.399,
+        "end": 5.624,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.81,
+        "end": 6.576,
+        "gloss_id": "확실하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.654,
+        "end": 8.939,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.96,
+        "end": 4.219,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.057,
+        "end": 7.308,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.913,
+        "end": 2.181
+      },
+      {
+        "descriptor": "",
+        "start": 2.687,
+        "end": 3.17
+      },
+      {
+        "descriptor": "",
+        "start": 4.798,
+        "end": 5.057
+      },
+      {
+        "descriptor": "",
+        "start": 6.201,
+        "end": 6.563
+      },
+      {
+        "descriptor": "",
+        "start": 7.501,
+        "end": 7.906
+      },
+      {
+        "descriptor": "",
+        "start": 8.654,
+        "end": 8.939
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.201,
+        "end": 6.555
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.913,
+        "end": 2.181
+      },
+      {
+        "descriptor": "",
+        "start": 8.654,
+        "end": 8.939
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.687,
+        "end": 3.17
+      },
+      {
+        "descriptor": "",
+        "start": 3.96,
+        "end": 5.052
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353120",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:04:22",
+    "sentence_ID": "VXPAKOKS240353120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    309,
+    126
+  ],
+  "file": "VXPAKOKS240353120.mp4",
+  "saved_as": "VXPAKOKS240353120-자신의월급과월지출이얼마인지정확하게계산한후적금납입액을결정하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

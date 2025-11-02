@@ -1,0 +1,348 @@
+{
+  "id": "VXPAKOKS240351130",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 만든 적금 계좌에 부정거래가 발견되면 즉시 은행에 신고하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.367,
+        "end": 2.265,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.605,
+        "end": 2.806,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.982,
+        "end": 3.296,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.594,
+        "end": 4.001,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.216,
+        "end": 4.39,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.406,
+        "end": 4.533,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.709,
+        "end": 4.91,
+        "gloss_id": "비리1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.095,
+        "end": 5.502,
+        "gloss_id": "발견1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.676,
+        "end": 5.93,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.098,
+        "end": 6.226,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.423,
+        "end": 6.617,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.732,
+        "end": 7.006,
+        "gloss_id": "보다10",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.605,
+        "end": 3.324,
+        "loc": "2",
+        "word": "적금"
+      },
+      {
+        "start": 3.594,
+        "end": 4.001,
+        "loc": "3",
+        "word": "계좌에"
+      },
+      {
+        "start": 4.216,
+        "end": 4.922,
+        "loc": "4",
+        "word": "부정거래가"
+      },
+      {
+        "start": 5.095,
+        "end": 5.502,
+        "loc": "5",
+        "word": "발견되면"
+      },
+      {
+        "start": 5.676,
+        "end": 5.93,
+        "loc": "6",
+        "word": "즉시"
+      },
+      {
+        "start": 6.098,
+        "end": 6.226,
+        "loc": "7",
+        "word": "은행에"
+      },
+      {
+        "start": 6.423,
+        "end": 6.982,
+        "loc": "8",
+        "word": "신고하세요."
+      },
+      {
+        "start": 1.367,
+        "end": 2.265,
+        "loc": "0,1",
+        "word": "은행에서 만든"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.367,
+        "end": 2.265,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.982,
+        "end": 3.296,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.594,
+        "end": 4.001,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.216,
+        "end": 4.536,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.709,
+        "end": 4.91,
+        "gloss_id": "비리1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.095,
+        "end": 5.502,
+        "gloss_id": "발견1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.676,
+        "end": 5.93,
+        "gloss_id": "바로2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.098,
+        "end": 6.226,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.594,
+        "end": 4.001
+      },
+      {
+        "descriptor": "",
+        "start": 5.095,
+        "end": 5.502
+      },
+      {
+        "descriptor": "",
+        "start": 6.423,
+        "end": 6.617
+      },
+      {
+        "descriptor": "",
+        "start": 1.579,
+        "end": 2.252
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.234,
+        "end": 5.502
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.423,
+        "end": 6.617
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 1.367,
+        "end": 2.265
+      },
+      {
+        "descriptor": "",
+        "start": 6.732,
+        "end": 7.006
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.709,
+        "end": 5.535
+      },
+      {
+        "descriptor": "",
+        "start": 1.367,
+        "end": 2.265
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351130",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:43:13",
+    "sentence_ID": "VXPAKOKS240351130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    239,
+    126
+  ],
+  "file": "VXPAKOKS240351130.mp4",
+  "saved_as": "VXPAKOKS240351130-은행에서만든적금계좌에부정거래가발견되면즉시은행에신고하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

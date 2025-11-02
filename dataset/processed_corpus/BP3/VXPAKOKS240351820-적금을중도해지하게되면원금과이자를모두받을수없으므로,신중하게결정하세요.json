@@ -1,0 +1,367 @@
+{
+  "id": "VXPAKOKS240351820",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금을 중도 해지하게 되면 원금과 이자를 모두 받을 수 없으므로, 신중하게 결정하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.226,
+        "end": 1.33,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.474,
+        "end": 2.092,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.3,
+        "end": 2.531,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.695,
+        "end": 2.926,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.162,
+        "end": 3.4,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.627,
+        "end": 3.818,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.017,
+        "end": 4.374,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.637,
+        "end": 4.86,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.011,
+        "end": 5.511,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.773,
+        "end": 5.98,
+        "gloss_id": "백점1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.156,
+        "end": 6.513,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.711,
+        "end": 7.108,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.442,
+        "end": 7.578,
+        "gloss_id": "생각1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.805,
+        "end": 8.059,
+        "gloss_id": "조용히1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.179,
+        "end": 8.513,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.226,
+        "end": 2.09,
+        "loc": "0",
+        "word": "적금을"
+      },
+      {
+        "start": 2.3,
+        "end": 2.935,
+        "loc": "1",
+        "word": "중도"
+      },
+      {
+        "start": 3.162,
+        "end": 3.4,
+        "loc": "2,3",
+        "word": "해지하게 되면"
+      },
+      {
+        "start": 3.627,
+        "end": 4.372,
+        "loc": "4",
+        "word": "원금과"
+      },
+      {
+        "start": 4.637,
+        "end": 5.533,
+        "loc": "5",
+        "word": "이자를"
+      },
+      {
+        "start": 5.773,
+        "end": 6.51,
+        "loc": "6,7",
+        "word": "모두 받을"
+      },
+      {
+        "start": 6.711,
+        "end": 7.108,
+        "loc": "8,9",
+        "word": "수 없으므로,"
+      },
+      {
+        "start": 7.442,
+        "end": 8.069,
+        "loc": "10",
+        "word": "신중하게"
+      },
+      {
+        "start": 8.179,
+        "end": 8.513,
+        "loc": "11",
+        "word": "결정하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.474,
+        "end": 2.092,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.695,
+        "end": 2.926,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.162,
+        "end": 3.4,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.627,
+        "end": 3.818,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.805,
+        "end": 8.059,
+        "gloss_id": "조용히1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.179,
+        "end": 8.513,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.179,
+        "end": 8.513
+      },
+      {
+        "descriptor": "",
+        "start": 3.162,
+        "end": 3.4
+      },
+      {
+        "descriptor": "",
+        "start": 4.017,
+        "end": 4.374
+      },
+      {
+        "descriptor": "",
+        "start": 5.011,
+        "end": 5.511
+      },
+      {
+        "descriptor": "",
+        "start": 6.711,
+        "end": 7.108
+      },
+      {
+        "descriptor": "",
+        "start": 1.727,
+        "end": 2.092
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.156,
+        "end": 8.025
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.179,
+        "end": 8.513
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.017,
+        "end": 4.968
+      },
+      {
+        "descriptor": "",
+        "start": 3.162,
+        "end": 3.4
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351820",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:48:03",
+    "sentence_ID": "VXPAKOKS240351820",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    285,
+    126
+  ],
+  "file": "VXPAKOKS240351820.mp4",
+  "saved_as": "VXPAKOKS240351820-적금을중도해지하게되면원금과이자를모두받을수없으므로,신중하게결정하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

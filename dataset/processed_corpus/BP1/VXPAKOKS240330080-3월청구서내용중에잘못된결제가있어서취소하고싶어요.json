@@ -1,0 +1,317 @@
+{
+  "id": "VXPAKOKS240330080",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "3월 청구서 내용 중에 잘못된 결제가 있어서 취소하고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.749,
+        "end": 2.063,
+        "gloss_id": "날짜:3월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.22,
+        "end": 2.613,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.72,
+        "end": 3.17,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.326,
+        "end": 3.954,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.097,
+        "end": 4.276,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.383,
+        "end": 4.997,
+        "gloss_id": "한적없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.125,
+        "end": 5.496,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.611,
+        "end": 5.797,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.932,
+        "end": 6.575,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.66,
+        "end": 6.874,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.988,
+        "end": 7.238,
+        "gloss_id": "해결1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.388,
+        "end": 7.738,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.749,
+        "end": 2.063,
+        "loc": "0",
+        "word": "3월"
+      },
+      {
+        "start": 2.22,
+        "end": 3.191,
+        "loc": "1",
+        "word": "청구서"
+      },
+      {
+        "start": 3.326,
+        "end": 3.954,
+        "loc": "2,3",
+        "word": "내용 중에"
+      },
+      {
+        "start": 4.097,
+        "end": 6.582,
+        "loc": "4,5,6",
+        "word": "잘못된 결제가 있어서"
+      },
+      {
+        "start": 6.66,
+        "end": 7.231,
+        "loc": "7",
+        "word": "취소하고"
+      },
+      {
+        "start": 7.388,
+        "end": 7.738,
+        "loc": "8",
+        "word": "싶어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.749,
+        "end": 2.063,
+        "gloss_id": "날짜:3월",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.22,
+        "end": 2.613,
+        "gloss_id": "우편2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.72,
+        "end": 3.156,
+        "gloss_id": "보내다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.125,
+        "end": 6.867,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.988,
+        "end": 7.238,
+        "gloss_id": "해결1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "삼월",
+        "start": 1.749,
+        "end": 2.063
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.326,
+        "end": 3.954
+      },
+      {
+        "descriptor": "",
+        "start": 5.125,
+        "end": 5.496
+      },
+      {
+        "descriptor": "",
+        "start": 5.932,
+        "end": 6.575
+      },
+      {
+        "descriptor": "",
+        "start": 7.388,
+        "end": 7.738
+      },
+      {
+        "descriptor": "",
+        "start": 2.72,
+        "end": 3.17
+      },
+      {
+        "descriptor": "",
+        "start": 6.66,
+        "end": 6.874
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.383,
+        "end": 4.997
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.388,
+        "end": 7.738
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.749,
+        "end": 3.555
+      },
+      {
+        "descriptor": "",
+        "start": 5.932,
+        "end": 6.575
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330080",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:50:22",
+    "sentence_ID": "VXPAKOKS240330080",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240330080.mp4",
+  "saved_as": "VXPAKOKS240330080-3월청구서내용중에잘못된결제가있어서취소하고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

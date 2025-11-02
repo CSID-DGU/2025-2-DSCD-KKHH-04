@@ -1,0 +1,422 @@
+{
+  "id": "VXPAKOKS240337530",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "국채나 단기 채권은 투자자들에게 안정적인 투자처로 생각되므로 필요할 때 쉽게 매도할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.209,
+        "end": 2.371,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.425,
+        "end": 2.531,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.662,
+        "end": 2.888,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.098,
+        "end": 3.693,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.993,
+        "end": 4.176,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.371,
+        "end": 4.523,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.821,
+        "end": 5.31,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.514,
+        "end": 5.697,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.926,
+        "end": 6.389,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.687,
+        "end": 7.155,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.52,
+        "end": 8.11,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.628,
+        "end": 9.192,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.576,
+        "end": 9.786,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.998,
+        "end": 10.155,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.334,
+        "end": 10.676,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.993,
+        "end": 5.316,
+        "loc": "1",
+        "word": "단기"
+      },
+      {
+        "start": 5.514,
+        "end": 6.406,
+        "loc": "3",
+        "word": "투자자들에게"
+      },
+      {
+        "start": 6.687,
+        "end": 7.155,
+        "loc": "4",
+        "word": "안정적인"
+      },
+      {
+        "start": 7.52,
+        "end": 8.11,
+        "loc": "5,6",
+        "word": "투자처로 생각되므로"
+      },
+      {
+        "start": 8.628,
+        "end": 9.192,
+        "loc": "7,8",
+        "word": "필요할 때"
+      },
+      {
+        "start": 9.576,
+        "end": 10.155,
+        "loc": "10,11,12",
+        "word": "매도할 수 있습니다."
+      },
+      {
+        "start": 10.334,
+        "end": 10.676,
+        "loc": "9",
+        "word": "쉽게"
+      },
+      {
+        "start": 2.209,
+        "end": 2.371,
+        "loc": "0",
+        "word": "국채나"
+      },
+      {
+        "start": 2.425,
+        "end": 3.681,
+        "loc": "2",
+        "word": "채권은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.209,
+        "end": 2.371,
+        "gloss_id": "나라1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.098,
+        "end": 3.693,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.993,
+        "end": 4.176,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.371,
+        "end": 4.523,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.821,
+        "end": 5.31,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.926,
+        "end": 6.389,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.687,
+        "end": 7.155,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.52,
+        "end": 8.11,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.628,
+        "end": 9.192,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.576,
+        "end": 9.786,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.334,
+        "end": 10.676,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 10.334,
+        "end": 10.676
+      },
+      {
+        "descriptor": "",
+        "start": 2.662,
+        "end": 2.888
+      },
+      {
+        "descriptor": "",
+        "start": 3.096,
+        "end": 3.693
+      },
+      {
+        "descriptor": "",
+        "start": 4.821,
+        "end": 5.31
+      },
+      {
+        "descriptor": "",
+        "start": 5.926,
+        "end": 6.389
+      },
+      {
+        "descriptor": "",
+        "start": 7.548,
+        "end": 8.11
+      },
+      {
+        "descriptor": "",
+        "start": 8.628,
+        "end": 9.022
+      },
+      {
+        "descriptor": "",
+        "start": 9.998,
+        "end": 10.155
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.998,
+        "end": 10.155
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.371,
+        "end": 4.523
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.098,
+        "end": 3.693
+      },
+      {
+        "descriptor": "",
+        "start": 4.821,
+        "end": 6.386
+      },
+      {
+        "descriptor": "",
+        "start": 8.628,
+        "end": 9.022
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337530",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:06",
+    "sentence_ID": "VXPAKOKS240337530",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    380,
+    126
+  ],
+  "file": "VXPAKOKS240337530.mp4",
+  "saved_as": "VXPAKOKS240337530-국채나단기채권은투자자들에게안정적인투자처로생각되므로필요할때쉽게매도할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

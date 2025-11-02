@@ -1,0 +1,230 @@
+{
+  "id": "VXPAKOKS240332160",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 서류를 확인한 후 심사를 거쳐 대출이 승인되면 대출금이 지급됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.064,
+        "end": 2.282,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.478,
+        "end": 2.88,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.107,
+        "end": 3.954,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.154,
+        "end": 4.883,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.211,
+        "end": 5.449,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.703,
+        "end": 6.282,
+        "gloss_id": "허락1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.568,
+        "end": 7.088,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.064,
+        "end": 2.282,
+        "loc": "0",
+        "word": "은행에서"
+      },
+      {
+        "start": 2.478,
+        "end": 2.88,
+        "loc": "1",
+        "word": "서류를"
+      },
+      {
+        "start": 3.107,
+        "end": 3.954,
+        "loc": "2,3",
+        "word": "확인한 후"
+      },
+      {
+        "start": 4.154,
+        "end": 4.883,
+        "loc": "4,5",
+        "word": "심사를 거쳐"
+      },
+      {
+        "start": 5.211,
+        "end": 5.449,
+        "loc": "6",
+        "word": "대출이"
+      },
+      {
+        "start": 5.703,
+        "end": 6.282,
+        "loc": "7",
+        "word": "승인되면"
+      },
+      {
+        "start": 6.568,
+        "end": 7.088,
+        "loc": "8,9",
+        "word": "대출금이 지급됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.064,
+        "end": 2.282,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.478,
+        "end": 2.88,
+        "gloss_id": "서류1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.703,
+        "end": 6.282,
+        "gloss_id": "허락1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.644,
+        "end": 3.947
+      },
+      {
+        "descriptor": "",
+        "start": 4.536,
+        "end": 4.883
+      },
+      {
+        "descriptor": "",
+        "start": 5.703,
+        "end": 6.282
+      },
+      {
+        "descriptor": "",
+        "start": 6.797,
+        "end": 7.088
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.644,
+        "end": 3.947
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.064,
+        "end": 3.76
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332160",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:43:08",
+    "sentence_ID": "VXPAKOKS240332160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    236,
+    126
+  ],
+  "file": "VXPAKOKS240332160.mp4",
+  "saved_as": "VXPAKOKS240332160-은행에서서류를확인한후심사를거쳐대출이승인되면대출금이지급됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

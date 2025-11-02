@@ -1,0 +1,455 @@
+{
+  "id": "VXPAKOKS240354710",
+  "opertor": "label7",
+  "krlgg_sntenc": {
+    "koreanText": "서울은행의 적금 계약 기간은 12개월 이상 36개월 이내이며, 최소 1천 원부터 가입할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.161,
+        "end": 1.375,
+        "gloss_id": "서울1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.548,
+        "end": 1.931,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.093,
+        "end": 2.244,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.361,
+        "end": 2.539,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.719,
+        "end": 3.022,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.175,
+        "end": 3.299,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.479,
+        "end": 3.8,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.186,
+        "end": 5.088,
+        "gloss_id": "날짜(활용):12개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.384,
+        "end": 6.09,
+        "gloss_id": "날짜(활용):36개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.413,
+        "end": 6.671,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.851,
+        "end": 7.234,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.37,
+        "end": 7.548,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.701,
+        "end": 8.129,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.318,
+        "end": 8.54,
+        "gloss_id": "1000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.051,
+        "end": 9.443,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 9.606,
+        "end": 9.793,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.161,
+        "end": 1.929,
+        "loc": "0",
+        "word": "서울은행의"
+      },
+      {
+        "start": 2.093,
+        "end": 2.548,
+        "loc": "1",
+        "word": "적금"
+      },
+      {
+        "start": 2.719,
+        "end": 3.022,
+        "loc": "2",
+        "word": "계약"
+      },
+      {
+        "start": 3.175,
+        "end": 3.791,
+        "loc": "3",
+        "word": "기간은"
+      },
+      {
+        "start": 4.186,
+        "end": 4.462,
+        "loc": "4",
+        "word": "12개월"
+      },
+      {
+        "start": 4.606,
+        "end": 5.079,
+        "loc": "5",
+        "word": "이상"
+      },
+      {
+        "start": 5.384,
+        "end": 6.09,
+        "loc": "6",
+        "word": "36개월"
+      },
+      {
+        "start": 6.413,
+        "end": 7.208,
+        "loc": "7",
+        "word": "이내이며,"
+      },
+      {
+        "start": 7.37,
+        "end": 8.111,
+        "loc": "8",
+        "word": "최소"
+      },
+      {
+        "start": 8.318,
+        "end": 8.54,
+        "loc": "9,10",
+        "word": "1천 원부터"
+      },
+      {
+        "start": 9.051,
+        "end": 9.443,
+        "loc": "11",
+        "word": "가입할"
+      },
+      {
+        "start": 9.606,
+        "end": 9.793,
+        "loc": "12,13",
+        "word": "수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.548,
+        "end": 1.931,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.361,
+        "end": 2.539,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.719,
+        "end": 3.022,
+        "gloss_id": "계약1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.175,
+        "end": 3.299,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.479,
+        "end": 3.8,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.606,
+        "end": 6.081,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.413,
+        "end": 6.671,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.701,
+        "end": 8.129,
+        "gloss_id": "꼴찌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.051,
+        "end": 9.443,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "삼십 육",
+        "start": 5.384,
+        "end": 6.09
+      },
+      {
+        "descriptor": "십이",
+        "start": 4.186,
+        "end": 4.462
+      },
+      {
+        "descriptor": "천",
+        "start": 8.318,
+        "end": 8.54
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.548,
+        "end": 1.931
+      },
+      {
+        "descriptor": "",
+        "start": 3.479,
+        "end": 3.8
+      },
+      {
+        "descriptor": "",
+        "start": 4.606,
+        "end": 5.079
+      },
+      {
+        "descriptor": "",
+        "start": 5.93,
+        "end": 6.09
+      },
+      {
+        "descriptor": "",
+        "start": 7.701,
+        "end": 8.129
+      },
+      {
+        "descriptor": "",
+        "start": 8.559,
+        "end": 8.8
+      },
+      {
+        "descriptor": "",
+        "start": 9.606,
+        "end": 9.793
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.606,
+        "end": 9.793
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.701,
+        "end": 8.129
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.161,
+        "end": 1.921
+      },
+      {
+        "descriptor": "",
+        "start": 3.479,
+        "end": 3.8
+      },
+      {
+        "descriptor": "",
+        "start": 4.606,
+        "end": 5.079
+      },
+      {
+        "descriptor": "",
+        "start": 6.413,
+        "end": 7.243
+      },
+      {
+        "descriptor": "",
+        "start": 7.701,
+        "end": 8.129
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354710",
+  "potogrf": {
+    "createdTime": "2024-10-28 05:16:46",
+    "sentence_ID": "VXPAKOKS240354710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    322,
+    126
+  ],
+  "file": "VXPAKOKS240354710.mp4",
+  "saved_as": "VXPAKOKS240354710-서울은행의적금계약기간은12개월이상36개월이내이며,최소1천원부터가입할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

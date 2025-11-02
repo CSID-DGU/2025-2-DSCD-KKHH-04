@@ -1,0 +1,190 @@
+{
+  "id": "VXPAKOKS240353910",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "적금을 넣고 나니 돈이 모이는 속도가 조금씩 빨라지는 것 같아.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.018,
+        "end": 1.218,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.367,
+        "end": 2.055,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.246,
+        "end": 2.419,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.621,
+        "end": 2.869,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.082,
+        "end": 4.434,
+        "gloss_id": "빠르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.833,
+        "end": 5.054,
+        "gloss_id": "느끼다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.018,
+        "end": 2.044,
+        "loc": "0,1,2",
+        "word": "적금을 넣고 나니"
+      },
+      {
+        "start": 2.246,
+        "end": 2.419,
+        "loc": "3",
+        "word": "돈이"
+      },
+      {
+        "start": 2.621,
+        "end": 2.869,
+        "loc": "4",
+        "word": "모이는"
+      },
+      {
+        "start": 3.082,
+        "end": 4.434,
+        "loc": "5,6,7",
+        "word": "속도가 조금씩 빨라지는"
+      },
+      {
+        "start": 4.833,
+        "end": 5.054,
+        "loc": "8,9",
+        "word": "것 같아."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.367,
+        "end": 2.055,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.621,
+        "end": 2.869,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.967,
+        "end": 4.467
+      },
+      {
+        "descriptor": "",
+        "start": 1.852,
+        "end": 2.041
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.505,
+        "end": 3.731
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.367,
+        "end": 2.055
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353910",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:10:37",
+    "sentence_ID": "VXPAKOKS240353910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    193,
+    126
+  ],
+  "file": "VXPAKOKS240353910.mp4",
+  "saved_as": "VXPAKOKS240353910-적금을넣고나니돈이모이는속도가조금씩빨라지는것같아.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

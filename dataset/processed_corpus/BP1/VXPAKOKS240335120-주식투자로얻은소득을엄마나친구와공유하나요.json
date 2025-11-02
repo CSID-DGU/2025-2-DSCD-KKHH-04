@@ -1,0 +1,219 @@
+{
+  "id": "VXPAKOKS240335120",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 투자로 얻은 소득을 엄마나 친구와 공유하나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.49,
+        "end": 2.708,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.977,
+        "end": 3.252,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.455,
+        "end": 3.525,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.749,
+        "end": 4.191,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.571,
+        "end": 4.821,
+        "gloss_id": "엄마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.115,
+        "end": 5.442,
+        "gloss_id": "친구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.706,
+        "end": 6.302,
+        "gloss_id": "알려주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.49,
+        "end": 2.708,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 2.977,
+        "end": 3.252,
+        "loc": "1",
+        "word": "투자로"
+      },
+      {
+        "start": 3.455,
+        "end": 4.192,
+        "loc": "2,3",
+        "word": "얻은 소득을"
+      },
+      {
+        "start": 4.571,
+        "end": 4.821,
+        "loc": "4",
+        "word": "엄마나"
+      },
+      {
+        "start": 5.115,
+        "end": 5.442,
+        "loc": "5",
+        "word": "친구와"
+      },
+      {
+        "start": 5.706,
+        "end": 6.302,
+        "loc": "6",
+        "word": "공유하나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.49,
+        "end": 2.708,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.749,
+        "end": 4.191,
+        "gloss_id": "벌다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.115,
+        "end": 5.442,
+        "gloss_id": "친구1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.901,
+        "end": 4.189
+      },
+      {
+        "descriptor": "",
+        "start": 5.706,
+        "end": 6.302
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.901,
+        "end": 4.188
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.49,
+        "end": 4.203
+      },
+      {
+        "descriptor": "",
+        "start": 5.115,
+        "end": 6.282
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335120",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:42",
+    "sentence_ID": "VXPAKOKS240335120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    231,
+    126
+  ],
+  "file": "VXPAKOKS240335120.mp4",
+  "saved_as": "VXPAKOKS240335120-주식투자로얻은소득을엄마나친구와공유하나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

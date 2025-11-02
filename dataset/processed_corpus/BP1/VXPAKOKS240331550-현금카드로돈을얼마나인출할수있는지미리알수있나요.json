@@ -1,0 +1,249 @@
+{
+  "id": "VXPAKOKS240331550",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드로 돈을 얼마나 인출할 수 있는지 미리 알 수 있나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.823,
+        "end": 1.938,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.158,
+        "end": 2.658,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.989,
+        "end": 3.092,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.26,
+        "end": 3.528,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.737,
+        "end": 3.938,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.141,
+        "end": 4.708,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.983,
+        "end": 5.19,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.42,
+        "end": 5.804,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.969,
+        "end": 6.402,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.823,
+        "end": 2.659,
+        "loc": "0",
+        "word": "현금카드로"
+      },
+      {
+        "start": 2.989,
+        "end": 3.092,
+        "loc": "1",
+        "word": "돈을"
+      },
+      {
+        "start": 3.26,
+        "end": 3.528,
+        "loc": "3",
+        "word": "인출할"
+      },
+      {
+        "start": 3.737,
+        "end": 3.938,
+        "loc": "4,5",
+        "word": "수 있는지"
+      },
+      {
+        "start": 4.141,
+        "end": 4.708,
+        "loc": "2",
+        "word": "얼마나"
+      },
+      {
+        "start": 4.983,
+        "end": 5.19,
+        "loc": "6",
+        "word": "미리"
+      },
+      {
+        "start": 5.42,
+        "end": 5.804,
+        "loc": "7",
+        "word": "알"
+      },
+      {
+        "start": 5.969,
+        "end": 6.402,
+        "loc": "8,9",
+        "word": "수 있나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.983,
+        "end": 5.19,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.969,
+        "end": 6.402,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.158,
+        "end": 2.658
+      },
+      {
+        "descriptor": "",
+        "start": 4.141,
+        "end": 4.708
+      },
+      {
+        "descriptor": "",
+        "start": 5.969,
+        "end": 6.402
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.737,
+        "end": 3.944
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.42,
+        "end": 5.804
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 5.969,
+        "end": 6.402
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331550",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:13:03",
+    "sentence_ID": "VXPAKOKS240331550",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    220,
+    126
+  ],
+  "file": "VXPAKOKS240331550.mp4",
+  "saved_as": "VXPAKOKS240331550-현금카드로돈을얼마나인출할수있는지미리알수있나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

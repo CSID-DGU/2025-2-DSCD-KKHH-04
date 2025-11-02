@@ -1,0 +1,314 @@
+{
+  "id": "VXPAKOKS240329830",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "은행에 방문하지 않아도 적금이 만기되면 해지 절차 없이 자동으로 계좌에 입금됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.808,
+        "end": 1.966,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.202,
+        "end": 2.409,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.75,
+        "end": 3.082,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.497,
+        "end": 3.804,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.043,
+        "end": 4.151,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.424,
+        "end": 4.856,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.102,
+        "end": 5.552,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.736,
+        "end": 5.881,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.085,
+        "end": 6.168,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.278,
+        "end": 6.666,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.808,
+        "end": 1.966,
+        "loc": "0",
+        "word": "은행에"
+      },
+      {
+        "start": 2.202,
+        "end": 2.409,
+        "loc": "1",
+        "word": "방문하지"
+      },
+      {
+        "start": 2.75,
+        "end": 3.082,
+        "loc": "2",
+        "word": "않아도"
+      },
+      {
+        "start": 3.497,
+        "end": 3.804,
+        "loc": "3",
+        "word": "적금이"
+      },
+      {
+        "start": 4.043,
+        "end": 4.86,
+        "loc": "4",
+        "word": "만기되면"
+      },
+      {
+        "start": 5.102,
+        "end": 5.882,
+        "loc": "5,6,7,8",
+        "word": "해지 절차 없이 자동으로"
+      },
+      {
+        "start": 6.085,
+        "end": 6.672,
+        "loc": "9,10",
+        "word": "계좌에 입금됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.808,
+        "end": 1.966,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.202,
+        "end": 2.409,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.75,
+        "end": 3.082,
+        "gloss_id": "필요없다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.497,
+        "end": 3.804,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.043,
+        "end": 4.151,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.424,
+        "end": 4.856,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.102,
+        "end": 5.552,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.736,
+        "end": 5.881,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.278,
+        "end": 6.666,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.424,
+        "end": 4.856
+      },
+      {
+        "descriptor": "",
+        "start": 2.75,
+        "end": 3.082
+      },
+      {
+        "descriptor": "",
+        "start": 2.202,
+        "end": 2.409
+      },
+      {
+        "descriptor": "",
+        "start": 6.278,
+        "end": 6.666
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.604,
+        "end": 4.856
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.202,
+        "end": 2.409
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.043,
+        "end": 5.545
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329830",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:29:15",
+    "sentence_ID": "VXPAKOKS240329830",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240329830.mp4",
+  "saved_as": "VXPAKOKS240329830-은행에방문하지않아도적금이만기되면해지절차없이자동으로계좌에입금됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

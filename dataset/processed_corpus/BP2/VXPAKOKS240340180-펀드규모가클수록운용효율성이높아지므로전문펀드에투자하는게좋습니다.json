@@ -1,0 +1,376 @@
+{
+  "id": "VXPAKOKS240340180",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 규모가 클수록 운용 효율성이 높아지므로 전문 펀드에 투자하는 게 좋습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.668,
+        "end": 1.876,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.006,
+        "end": 2.831,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.194,
+        "end": 3.634,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.999,
+        "end": 4.388,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.581,
+        "end": 5.269,
+        "gloss_id": "오히려1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.532,
+        "end": 5.689,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.897,
+        "end": 6.097,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.354,
+        "end": 6.597,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.902,
+        "end": 7.154,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.33,
+        "end": 7.556,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.733,
+        "end": 7.959,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.272,
+        "end": 8.541,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 8.811,
+        "end": 8.986,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.668,
+        "end": 2.835,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 3.194,
+        "end": 3.634,
+        "loc": "1",
+        "word": "규모가"
+      },
+      {
+        "start": 3.999,
+        "end": 5.262,
+        "loc": "2",
+        "word": "클수록"
+      },
+      {
+        "start": 5.532,
+        "end": 5.689,
+        "loc": "3",
+        "word": "운용"
+      },
+      {
+        "start": 5.897,
+        "end": 6.097,
+        "loc": "4",
+        "word": "효율성이"
+      },
+      {
+        "start": 6.354,
+        "end": 7.136,
+        "loc": "5",
+        "word": "높아지므로"
+      },
+      {
+        "start": 7.33,
+        "end": 7.573,
+        "loc": "7",
+        "word": "펀드에"
+      },
+      {
+        "start": 7.733,
+        "end": 7.959,
+        "loc": "6",
+        "word": "전문"
+      },
+      {
+        "start": 8.272,
+        "end": 8.541,
+        "loc": "8,9",
+        "word": "투자하는 게"
+      },
+      {
+        "start": 8.811,
+        "end": 8.986,
+        "loc": "10",
+        "word": "좋습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.006,
+        "end": 2.831,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.194,
+        "end": 3.634,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.581,
+        "end": 5.269,
+        "gloss_id": "오히려1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.532,
+        "end": 5.689,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.902,
+        "end": 7.154,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.733,
+        "end": 7.959,
+        "gloss_id": "전문1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.272,
+        "end": 8.541,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.006,
+        "end": 2.831
+      },
+      {
+        "descriptor": "",
+        "start": 3.999,
+        "end": 4.388
+      },
+      {
+        "descriptor": "",
+        "start": 4.581,
+        "end": 5.269
+      },
+      {
+        "descriptor": "",
+        "start": 6.354,
+        "end": 6.597
+      },
+      {
+        "descriptor": "",
+        "start": 6.902,
+        "end": 7.154
+      },
+      {
+        "descriptor": "",
+        "start": 8.272,
+        "end": 8.541
+      },
+      {
+        "descriptor": "",
+        "start": 7.733,
+        "end": 7.959
+      },
+      {
+        "descriptor": "",
+        "start": 8.811,
+        "end": 8.986
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.979,
+        "end": 7.154
+      },
+      {
+        "descriptor": "",
+        "start": 8.358,
+        "end": 8.541
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.999,
+        "end": 4.388
+      },
+      {
+        "descriptor": "",
+        "start": 6.354,
+        "end": 6.597
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.902,
+        "end": 7.95
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340180",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:03:23",
+    "sentence_ID": "VXPAKOKS240340180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    308,
+    126
+  ],
+  "file": "VXPAKOKS240340180.mp4",
+  "saved_as": "VXPAKOKS240340180-펀드규모가클수록운용효율성이높아지므로전문펀드에투자하는게좋습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

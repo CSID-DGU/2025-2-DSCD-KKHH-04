@@ -1,0 +1,239 @@
+{
+  "id": "VXPAKOKS240340170",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "최소 한 번 펀드 매입 시 10만 원 이상 투자하는 게 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.57,
+        "end": 1.822,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.182,
+        "end": 2.439,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.622,
+        "end": 2.838,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.02,
+        "end": 3.38,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.61,
+        "end": 3.748,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.91,
+        "end": 4.203,
+        "gloss_id": "100000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.448,
+        "end": 4.705,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.898,
+        "end": 5.082,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.57,
+        "end": 2.448,
+        "loc": "3",
+        "word": "펀드"
+      },
+      {
+        "start": 2.617,
+        "end": 3.742,
+        "loc": "4,5",
+        "word": "매입 시"
+      },
+      {
+        "start": 3.91,
+        "end": 4.203,
+        "loc": "6,7",
+        "word": "10만 원"
+      },
+      {
+        "start": 4.448,
+        "end": 4.705,
+        "loc": "8",
+        "word": "이상"
+      },
+      {
+        "start": 4.898,
+        "end": 5.082,
+        "loc": "9,10,11",
+        "word": "투자하는 게 좋아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.182,
+        "end": 2.838,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.02,
+        "end": 3.752,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.448,
+        "end": 4.705,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "십만",
+        "start": 3.91,
+        "end": 4.203
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.02,
+        "end": 3.38
+      },
+      {
+        "descriptor": "",
+        "start": 3.61,
+        "end": 3.748
+      },
+      {
+        "descriptor": "",
+        "start": 4.448,
+        "end": 4.705
+      },
+      {
+        "descriptor": "",
+        "start": 4.898,
+        "end": 5.082
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.285,
+        "end": 2.439
+      },
+      {
+        "descriptor": "",
+        "start": 3.667,
+        "end": 3.748
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.182,
+        "end": 3.188
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340170",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:03:20",
+    "sentence_ID": "VXPAKOKS240340170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    186,
+    126
+  ],
+  "file": "VXPAKOKS240340170.mp4",
+  "saved_as": "VXPAKOKS240340170-최소한번펀드매입시10만원이상투자하는게좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

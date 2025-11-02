@@ -1,0 +1,305 @@
+{
+  "id": "VXPAKOKS240334820",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "주식에 투자하는 돈을 가족과 함께 모았다면, 주식 투자에 대한 동의를 얻어야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.347,
+        "end": 2.97,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.241,
+        "end": 3.567,
+        "gloss_id": "함께1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.774,
+        "end": 3.846,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.075,
+        "end": 4.502,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.792,
+        "end": 4.907,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.069,
+        "end": 5.359,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.655,
+        "end": 5.93,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.083,
+        "end": 6.634,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.867,
+        "end": 7.127,
+        "gloss_id": "공감1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.353,
+        "end": 7.73,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.867,
+        "end": 7.736,
+        "loc": "9,10,11",
+        "word": "동의를 얻어야 해요."
+      },
+      {
+        "start": 4.792,
+        "end": 4.907,
+        "loc": "6",
+        "word": "주식"
+      },
+      {
+        "start": 5.069,
+        "end": 5.939,
+        "loc": "7",
+        "word": "투자에"
+      },
+      {
+        "start": 6.083,
+        "end": 6.634,
+        "loc": "8",
+        "word": "대한"
+      },
+      {
+        "start": 4.075,
+        "end": 4.502,
+        "loc": "5",
+        "word": "모았다면,"
+      },
+      {
+        "start": 2.347,
+        "end": 2.97,
+        "loc": "3",
+        "word": "가족과"
+      },
+      {
+        "start": 3.241,
+        "end": 3.567,
+        "loc": "4",
+        "word": "함께"
+      },
+      {
+        "start": 3.774,
+        "end": 3.846,
+        "loc": "0,1,2",
+        "word": "주식에 투자하는 돈을"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.241,
+        "end": 3.857,
+        "gloss_id": "함께1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.075,
+        "end": 4.502,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.792,
+        "end": 4.907,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.867,
+        "end": 7.127,
+        "gloss_id": "공감1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.353,
+        "end": 7.73,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.347,
+        "end": 2.97,
+        "gloss_id": "가족2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.347,
+        "end": 2.97
+      },
+      {
+        "descriptor": "",
+        "start": 3.241,
+        "end": 3.567
+      },
+      {
+        "descriptor": "",
+        "start": 4.075,
+        "end": 4.502
+      },
+      {
+        "descriptor": "",
+        "start": 5.655,
+        "end": 5.93
+      },
+      {
+        "descriptor": "",
+        "start": 6.867,
+        "end": 7.127
+      },
+      {
+        "descriptor": "",
+        "start": 7.353,
+        "end": 7.73
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.655,
+        "end": 5.93
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.347,
+        "end": 2.97
+      },
+      {
+        "descriptor": "",
+        "start": 5.655,
+        "end": 5.93
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334820",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:32:50",
+    "sentence_ID": "VXPAKOKS240334820",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    261,
+    126
+  ],
+  "file": "VXPAKOKS240334820.mp4",
+  "saved_as": "VXPAKOKS240334820-주식에투자하는돈을가족과함께모았다면,주식투자에대한동의를얻어야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

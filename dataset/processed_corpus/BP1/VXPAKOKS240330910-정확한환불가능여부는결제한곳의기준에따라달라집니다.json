@@ -1,0 +1,201 @@
+{
+  "id": "VXPAKOKS240330910",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "정확한 환불 가능 여부는 결제한 곳의 기준에 따라 달라집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.037,
+        "end": 2.468,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.746,
+        "end": 3.065,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.194,
+        "end": 3.742,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.978,
+        "end": 4.158,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.351,
+        "end": 4.803,
+        "gloss_id": "곳1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.997,
+        "end": 5.556,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.037,
+        "end": 2.468,
+        "loc": "0,1",
+        "word": "정확한 환불"
+      },
+      {
+        "start": 2.746,
+        "end": 3.726,
+        "loc": "2,3",
+        "word": "가능 여부는"
+      },
+      {
+        "start": 3.978,
+        "end": 4.158,
+        "loc": "4",
+        "word": "결제한"
+      },
+      {
+        "start": 4.351,
+        "end": 4.803,
+        "loc": "5",
+        "word": "곳의"
+      },
+      {
+        "start": 4.997,
+        "end": 5.556,
+        "loc": "6,7,8",
+        "word": "기준에 따라 달라집니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.037,
+        "end": 2.468,
+        "gloss_id": "바꾸다4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.997,
+        "end": 5.556,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.194,
+        "end": 3.742
+      },
+      {
+        "descriptor": "",
+        "start": 4.351,
+        "end": 4.803
+      },
+      {
+        "descriptor": "",
+        "start": 4.997,
+        "end": 5.556
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.959,
+        "end": 3.054
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.997,
+        "end": 5.556
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.746,
+        "end": 4.798
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330910",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:39:34",
+    "sentence_ID": "VXPAKOKS240330910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    192,
+    126
+  ],
+  "file": "VXPAKOKS240330910.mp4",
+  "saved_as": "VXPAKOKS240330910-정확한환불가능여부는결제한곳의기준에따라달라집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

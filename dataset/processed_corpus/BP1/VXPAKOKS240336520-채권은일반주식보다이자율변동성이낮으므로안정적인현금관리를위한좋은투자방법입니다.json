@@ -1,0 +1,352 @@
+{
+  "id": "VXPAKOKS240336520",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권은 일반 주식보다 이자율 변동성이 낮으므로 안정적인 현금 관리를 위한 좋은 투자 방법입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.199,
+        "end": 2.363,
+        "gloss_id": "보통2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.521,
+        "end": 2.685,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.889,
+        "end": 3.528,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.693,
+        "end": 3.781,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.966,
+        "end": 4.143,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.34,
+        "end": 4.675,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.954,
+        "end": 5.169,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.562,
+        "end": 5.771,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.936,
+        "end": 6.214,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.566,
+        "end": 6.933,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.095,
+        "end": 7.316,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.577,
+        "end": 7.887,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.058,
+        "end": 8.425,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.199,
+        "end": 2.363,
+        "loc": "1",
+        "word": "일반"
+      },
+      {
+        "start": 2.521,
+        "end": 3.513,
+        "loc": "2",
+        "word": "주식보다"
+      },
+      {
+        "start": 5.936,
+        "end": 6.928,
+        "loc": "5",
+        "word": "낮으므로"
+      },
+      {
+        "start": 4.954,
+        "end": 5.76,
+        "loc": "3,4",
+        "word": "이자율 변동성이"
+      },
+      {
+        "start": 3.69,
+        "end": 4.675,
+        "loc": "0",
+        "word": "채권은"
+      },
+      {
+        "start": 7.577,
+        "end": 7.887,
+        "loc": "6,7,8,9",
+        "word": "안정적인 현금 관리를 위한"
+      },
+      {
+        "start": 7.095,
+        "end": 7.316,
+        "loc": "11",
+        "word": "투자"
+      },
+      {
+        "start": 8.058,
+        "end": 8.425,
+        "loc": "10,12",
+        "word": "좋은 방법입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.199,
+        "end": 2.363,
+        "gloss_id": "보통2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.521,
+        "end": 2.685,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.889,
+        "end": 4.136,
+        "gloss_id": "~보다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.34,
+        "end": 5.172,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.566,
+        "end": 7.313,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.577,
+        "end": 7.887,
+        "gloss_id": "편안하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.058,
+        "end": 8.425,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.562,
+        "end": 5.771,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.05,
+        "end": 3.521
+      },
+      {
+        "descriptor": "",
+        "start": 6.632,
+        "end": 6.932
+      },
+      {
+        "descriptor": "",
+        "start": 8.058,
+        "end": 8.425
+      },
+      {
+        "descriptor": "",
+        "start": 4.34,
+        "end": 4.675
+      },
+      {
+        "descriptor": "",
+        "start": 7.577,
+        "end": 7.887
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.632,
+        "end": 6.942
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.058,
+        "end": 8.425
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.199,
+        "end": 2.971
+      },
+      {
+        "descriptor": "",
+        "start": 3.967,
+        "end": 5.291
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336520",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:19",
+    "sentence_ID": "VXPAKOKS240336520",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    319,
+    126
+  ],
+  "file": "VXPAKOKS240336520.mp4",
+  "saved_as": "VXPAKOKS240336520-채권은일반주식보다이자율변동성이낮으므로안정적인현금관리를위한좋은투자방법입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

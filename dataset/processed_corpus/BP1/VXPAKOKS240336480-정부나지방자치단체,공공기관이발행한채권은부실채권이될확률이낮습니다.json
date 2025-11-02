@@ -1,0 +1,364 @@
+{
+  "id": "VXPAKOKS240336480",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "정부나 지방 자치 단체, 공공 기관이 발행한 채권은 부실 채권이 될 확률이 낮습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.207,
+        "end": 3.029,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.347,
+        "end": 3.451,
+        "gloss_id": "지방1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.678,
+        "end": 4.178,
+        "gloss_id": "지역1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.422,
+        "end": 4.72,
+        "gloss_id": "공공1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.983,
+        "end": 5.538,
+        "gloss_id": "기관1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.664,
+        "end": 5.777,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.967,
+        "end": 6.09,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.298,
+        "end": 6.954,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.236,
+        "end": 7.534,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.769,
+        "end": 8.057,
+        "gloss_id": "포기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.33,
+        "end": 8.536,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.643,
+        "end": 8.94,
+        "gloss_id": "없다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.207,
+        "end": 3.029,
+        "loc": "0",
+        "word": "정부나"
+      },
+      {
+        "start": 3.338,
+        "end": 4.178,
+        "loc": "1,2,3",
+        "word": "지방 자치 단체,"
+      },
+      {
+        "start": 4.422,
+        "end": 4.72,
+        "loc": "4",
+        "word": "공공"
+      },
+      {
+        "start": 4.983,
+        "end": 5.538,
+        "loc": "5",
+        "word": "기관이"
+      },
+      {
+        "start": 5.65,
+        "end": 6.954,
+        "loc": "6,7",
+        "word": "발행한 채권은"
+      },
+      {
+        "start": 7.236,
+        "end": 8.053,
+        "loc": "8,9,10,11",
+        "word": "부실 채권이 될 확률이"
+      },
+      {
+        "start": 8.33,
+        "end": 8.95,
+        "loc": "12",
+        "word": "낮습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.207,
+        "end": 3.029,
+        "gloss_id": "정부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.347,
+        "end": 3.451,
+        "gloss_id": "지방1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.678,
+        "end": 4.178,
+        "gloss_id": "지역1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.422,
+        "end": 4.72,
+        "gloss_id": "공공1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.983,
+        "end": 6.09,
+        "gloss_id": "기관1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.298,
+        "end": 6.954,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.236,
+        "end": 7.534,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.769,
+        "end": 8.057,
+        "gloss_id": "포기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.33,
+        "end": 8.536,
+        "gloss_id": "많다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 8.643,
+        "end": 8.94
+      },
+      {
+        "descriptor": "",
+        "start": 2.38,
+        "end": 3.025
+      },
+      {
+        "descriptor": "",
+        "start": 3.678,
+        "end": 4.178
+      },
+      {
+        "descriptor": "",
+        "start": 4.983,
+        "end": 5.538
+      },
+      {
+        "descriptor": "",
+        "start": 6.495,
+        "end": 6.956
+      },
+      {
+        "descriptor": "",
+        "start": 7.769,
+        "end": 8.057
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.769,
+        "end": 8.057
+      },
+      {
+        "descriptor": "",
+        "start": 7.236,
+        "end": 7.534
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 8.643,
+        "end": 8.94
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.207,
+        "end": 3.029
+      },
+      {
+        "descriptor": "",
+        "start": 3.499,
+        "end": 4.048
+      },
+      {
+        "descriptor": "",
+        "start": 4.983,
+        "end": 5.531
+      },
+      {
+        "descriptor": "",
+        "start": 5.999,
+        "end": 6.941
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336480",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:30:10",
+    "sentence_ID": "VXPAKOKS240336480",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    331,
+    126
+  ],
+  "file": "VXPAKOKS240336480.mp4",
+  "saved_as": "VXPAKOKS240336480-정부나지방자치단체,공공기관이발행한채권은부실채권이될확률이낮습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

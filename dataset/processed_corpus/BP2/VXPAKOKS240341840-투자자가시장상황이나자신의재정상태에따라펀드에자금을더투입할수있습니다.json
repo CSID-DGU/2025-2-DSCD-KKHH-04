@@ -1,0 +1,345 @@
+{
+  "id": "VXPAKOKS240341840",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "투자자가 시장 상황이나 자신의 재정 상태에 따라 펀드에 자금을 더 투입할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.514,
+        "end": 1.696,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.086,
+        "end": 2.431,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.663,
+        "end": 3.098,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.383,
+        "end": 3.997,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.146,
+        "end": 4.255,
+        "gloss_id": "지시2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.404,
+        "end": 4.871,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.069,
+        "end": 5.487,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.752,
+        "end": 6.35,
+        "gloss_id": "충분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.607,
+        "end": 7.188,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.376,
+        "end": 7.474,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.601,
+        "end": 8.036,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.186,
+        "end": 8.409,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.626,
+        "end": 8.816,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.514,
+        "end": 2.437,
+        "loc": "0",
+        "word": "투자자가"
+      },
+      {
+        "start": 2.663,
+        "end": 3.098,
+        "loc": "1",
+        "word": "시장"
+      },
+      {
+        "start": 3.383,
+        "end": 3.997,
+        "loc": "2",
+        "word": "상황이나"
+      },
+      {
+        "start": 4.146,
+        "end": 4.255,
+        "loc": "3",
+        "word": "자신의"
+      },
+      {
+        "start": 4.404,
+        "end": 4.871,
+        "loc": "4",
+        "word": "재정"
+      },
+      {
+        "start": 5.069,
+        "end": 6.334,
+        "loc": "5,6",
+        "word": "상태에 따라"
+      },
+      {
+        "start": 6.607,
+        "end": 7.188,
+        "loc": "7",
+        "word": "펀드에"
+      },
+      {
+        "start": 7.376,
+        "end": 7.474,
+        "loc": "8",
+        "word": "자금을"
+      },
+      {
+        "start": 7.601,
+        "end": 8.036,
+        "loc": "9",
+        "word": "더"
+      },
+      {
+        "start": 8.186,
+        "end": 8.409,
+        "loc": "10",
+        "word": "투입할"
+      },
+      {
+        "start": 8.626,
+        "end": 8.816,
+        "loc": "11,12",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.663,
+        "end": 3.098,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.383,
+        "end": 3.997,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.404,
+        "end": 6.337,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.601,
+        "end": 8.036,
+        "gloss_id": "더2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.086,
+        "end": 2.431,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.383,
+        "end": 3.997
+      },
+      {
+        "descriptor": "",
+        "start": 5.069,
+        "end": 5.487
+      },
+      {
+        "descriptor": "",
+        "start": 5.752,
+        "end": 6.35
+      },
+      {
+        "descriptor": "",
+        "start": 7.601,
+        "end": 8.036
+      },
+      {
+        "descriptor": "",
+        "start": 2.086,
+        "end": 2.431
+      },
+      {
+        "descriptor": "",
+        "start": 8.626,
+        "end": 8.816
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.626,
+        "end": 8.816
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.514,
+        "end": 1.696
+      },
+      {
+        "descriptor": "",
+        "start": 5.069,
+        "end": 5.487
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341840",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:16:35",
+    "sentence_ID": "VXPAKOKS240341840",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    293,
+    126
+  ],
+  "file": "VXPAKOKS240341840.mp4",
+  "saved_as": "VXPAKOKS240341840-투자자가시장상황이나자신의재정상태에따라펀드에자금을더투입할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

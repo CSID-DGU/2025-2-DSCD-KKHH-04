@@ -1,0 +1,343 @@
+{
+  "id": "VXPAKOKS240341950",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "투자자는 자산 손실 위험을 줄이기 위해 펀드 운용 계획을 꼼꼼하게 세워야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.332,
+        "end": 1.516,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.751,
+        "end": 2.223,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.514,
+        "end": 2.711,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.946,
+        "end": 3.329,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.476,
+        "end": 3.681,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.956,
+        "end": 4.305,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.605,
+        "end": 4.775,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.107,
+        "end": 5.607,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.954,
+        "end": 6.269,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.497,
+        "end": 6.908,
+        "gloss_id": "계획1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.094,
+        "end": 7.477,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.332,
+        "end": 2.23,
+        "loc": "0",
+        "word": "투자자는"
+      },
+      {
+        "start": 2.514,
+        "end": 2.711,
+        "loc": "1",
+        "word": "자산"
+      },
+      {
+        "start": 2.946,
+        "end": 3.329,
+        "loc": "2",
+        "word": "손실"
+      },
+      {
+        "start": 3.476,
+        "end": 3.681,
+        "loc": "4",
+        "word": "줄이기"
+      },
+      {
+        "start": 3.956,
+        "end": 4.305,
+        "loc": "5",
+        "word": "위해"
+      },
+      {
+        "start": 4.605,
+        "end": 4.775,
+        "loc": "6",
+        "word": "펀드"
+      },
+      {
+        "start": 5.107,
+        "end": 5.607,
+        "loc": "7",
+        "word": "운용"
+      },
+      {
+        "start": 5.954,
+        "end": 6.269,
+        "loc": "9",
+        "word": "꼼꼼하게"
+      },
+      {
+        "start": 6.497,
+        "end": 6.908,
+        "loc": "8",
+        "word": "계획을"
+      },
+      {
+        "start": 7.094,
+        "end": 7.477,
+        "loc": "10,11",
+        "word": "세워야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.751,
+        "end": 2.223,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.946,
+        "end": 3.329,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.476,
+        "end": 3.681,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.956,
+        "end": 4.305,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.107,
+        "end": 5.607,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.954,
+        "end": 6.269,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.497,
+        "end": 6.908,
+        "gloss_id": "계획1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.094,
+        "end": 7.477,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.751,
+        "end": 2.223
+      },
+      {
+        "descriptor": "",
+        "start": 3.956,
+        "end": 4.305
+      },
+      {
+        "descriptor": "",
+        "start": 5.107,
+        "end": 5.607
+      },
+      {
+        "descriptor": "",
+        "start": 7.094,
+        "end": 7.477
+      },
+      {
+        "descriptor": "",
+        "start": 6.497,
+        "end": 6.908
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.946,
+        "end": 3.329
+      },
+      {
+        "descriptor": "",
+        "start": 5.954,
+        "end": 6.269
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.332,
+        "end": 2.223
+      },
+      {
+        "descriptor": "",
+        "start": 3.476,
+        "end": 4.306
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341950",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:18:05",
+    "sentence_ID": "VXPAKOKS240341950",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    247,
+    126
+  ],
+  "file": "VXPAKOKS240341950.mp4",
+  "saved_as": "VXPAKOKS240341950-투자자는자산손실위험을줄이기위해펀드운용계획을꼼꼼하게세워야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

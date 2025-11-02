@@ -1,0 +1,274 @@
+{
+  "id": "VXPAKOKS240331420",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 신용카드가 아닌 현금카드를 발급받았는데, 현금카드란 게 뭔지 알고 싶어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.567,
+        "end": 2.022,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.185,
+        "end": 2.525,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.779,
+        "end": 2.979,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.258,
+        "end": 3.732,
+        "gloss_id": "아니다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.827,
+        "end": 3.95,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.082,
+        "end": 4.358,
+        "gloss_id": "현금주다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.644,
+        "end": 5.393,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.635,
+        "end": 5.994,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.165,
+        "end": 6.333,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.465,
+        "end": 6.856,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.567,
+        "end": 2.022,
+        "loc": "0",
+        "word": "은행에서"
+      },
+      {
+        "start": 2.185,
+        "end": 2.972,
+        "loc": "1",
+        "word": "신용카드가"
+      },
+      {
+        "start": 3.258,
+        "end": 3.732,
+        "loc": "2",
+        "word": "아닌"
+      },
+      {
+        "start": 3.827,
+        "end": 4.359,
+        "loc": "3",
+        "word": "현금카드를"
+      },
+      {
+        "start": 4.644,
+        "end": 5.393,
+        "loc": "4",
+        "word": "발급받았는데,"
+      },
+      {
+        "start": 5.635,
+        "end": 6.339,
+        "loc": "5,6",
+        "word": "현금카드란 게"
+      },
+      {
+        "start": 6.465,
+        "end": 6.856,
+        "loc": "7,8,9",
+        "word": "뭔지 알고 싶어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.567,
+        "end": 2.022,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.185,
+        "end": 2.985,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.644,
+        "end": 5.393,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.635,
+        "end": 5.994,
+        "gloss_id": "주다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.567,
+        "end": 2.022
+      },
+      {
+        "descriptor": "",
+        "start": 3.258,
+        "end": 3.732
+      },
+      {
+        "descriptor": "",
+        "start": 5.635,
+        "end": 5.994
+      },
+      {
+        "descriptor": "",
+        "start": 6.465,
+        "end": 6.856
+      }
+    ],
+    "Mo1": null,
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 3.392,
+        "end": 3.732
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.165,
+        "end": 6.857
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 6.465,
+        "end": 6.856
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331420",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:10:15",
+    "sentence_ID": "VXPAKOKS240331420",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    299,
+    126
+  ],
+  "file": "VXPAKOKS240331420.mp4",
+  "saved_as": "VXPAKOKS240331420-은행에서신용카드가아닌현금카드를발급받았는데,현금카드란게뭔지알고싶어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

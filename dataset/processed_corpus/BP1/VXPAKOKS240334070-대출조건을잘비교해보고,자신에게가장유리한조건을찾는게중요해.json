@@ -1,0 +1,244 @@
+{
+  "id": "VXPAKOKS240334070",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "대출 조건을 잘 비교해 보고, 자신에게 가장 유리한 조건을 찾는 게 중요해.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.569,
+        "end": 2.804,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.096,
+        "end": 3.397,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.637,
+        "end": 4.064,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.235,
+        "end": 4.655,
+        "gloss_id": "비교1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.955,
+        "end": 5.031,
+        "gloss_id": "등수:1등",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.442,
+        "end": 5.869,
+        "gloss_id": "괜찮다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.194,
+        "end": 6.383,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.579,
+        "end": 6.834,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.569,
+        "end": 2.804,
+        "loc": "0",
+        "word": "대출"
+      },
+      {
+        "start": 3.096,
+        "end": 3.397,
+        "loc": "1",
+        "word": "조건을"
+      },
+      {
+        "start": 3.637,
+        "end": 4.639,
+        "loc": "2,3,4",
+        "word": "잘 비교해 보고,"
+      },
+      {
+        "start": 4.955,
+        "end": 5.031,
+        "loc": "5,6",
+        "word": "자신에게 가장"
+      },
+      {
+        "start": 5.442,
+        "end": 5.869,
+        "loc": "7,8",
+        "word": "유리한 조건을"
+      },
+      {
+        "start": 6.194,
+        "end": 6.383,
+        "loc": "9,10",
+        "word": "찾는 게"
+      },
+      {
+        "start": 6.579,
+        "end": 6.834,
+        "loc": "11",
+        "word": "중요해."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.096,
+        "end": 3.397,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.235,
+        "end": 5.033,
+        "gloss_id": "비교1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.194,
+        "end": 6.383,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.096,
+        "end": 3.397
+      },
+      {
+        "descriptor": "",
+        "start": 4.235,
+        "end": 4.655
+      },
+      {
+        "descriptor": "",
+        "start": 5.442,
+        "end": 5.869
+      },
+      {
+        "descriptor": "",
+        "start": 6.579,
+        "end": 6.834
+      },
+      {
+        "descriptor": "",
+        "start": 6.194,
+        "end": 6.383
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.569,
+        "end": 2.804
+      },
+      {
+        "descriptor": "",
+        "start": 4.955,
+        "end": 5.865
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334070",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:28:38",
+    "sentence_ID": "VXPAKOKS240334070",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    238,
+    126
+  ],
+  "file": "VXPAKOKS240334070.mp4",
+  "saved_as": "VXPAKOKS240334070-대출조건을잘비교해보고,자신에게가장유리한조건을찾는게중요해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

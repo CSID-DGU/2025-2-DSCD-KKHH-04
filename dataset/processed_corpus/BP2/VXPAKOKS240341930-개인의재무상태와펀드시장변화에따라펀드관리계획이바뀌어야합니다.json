@@ -1,0 +1,334 @@
+{
+  "id": "VXPAKOKS240341930",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "개인의 재무 상태와 펀드 시장 변화에 따라 펀드 관리 계획이 바뀌어야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.362,
+        "end": 1.664,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.889,
+        "end": 2.232,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.476,
+        "end": 2.812,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.033,
+        "end": 3.403,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.589,
+        "end": 4.0,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.279,
+        "end": 5.526,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.79,
+        "end": 6.085,
+        "gloss_id": "계획1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.279,
+        "end": 6.561,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.723,
+        "end": 6.971,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.83,
+        "end": 5.037,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.159,
+        "end": 7.448,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.176,
+        "end": 4.608,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.362,
+        "end": 1.664,
+        "loc": "0",
+        "word": "개인의"
+      },
+      {
+        "start": 1.889,
+        "end": 2.811,
+        "loc": "1,2",
+        "word": "재무 상태와"
+      },
+      {
+        "start": 3.033,
+        "end": 3.403,
+        "loc": "3",
+        "word": "펀드"
+      },
+      {
+        "start": 3.589,
+        "end": 5.035,
+        "loc": "4,5,6",
+        "word": "시장 변화에 따라"
+      },
+      {
+        "start": 5.79,
+        "end": 6.562,
+        "loc": "8,9",
+        "word": "관리 계획이"
+      },
+      {
+        "start": 6.723,
+        "end": 7.441,
+        "loc": "10,11",
+        "word": "바뀌어야 합니다."
+      },
+      {
+        "start": 5.279,
+        "end": 5.526,
+        "loc": "7",
+        "word": "펀드"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.362,
+        "end": 1.664,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.889,
+        "end": 2.232,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.589,
+        "end": 4.0,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.83,
+        "end": 5.037,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.79,
+        "end": 6.085,
+        "gloss_id": "계획1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.279,
+        "end": 6.561,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.723,
+        "end": 6.971,
+        "gloss_id": "바꾸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.159,
+        "end": 7.448,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.176,
+        "end": 4.608,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.159,
+        "end": 7.448
+      },
+      {
+        "descriptor": "",
+        "start": 2.476,
+        "end": 2.812
+      },
+      {
+        "descriptor": "",
+        "start": 6.279,
+        "end": 6.561
+      },
+      {
+        "descriptor": "",
+        "start": 4.176,
+        "end": 4.608
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.969,
+        "end": 5.037
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.589,
+        "end": 4.0
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.362,
+        "end": 2.815
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341930",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:17:53",
+    "sentence_ID": "VXPAKOKS240341930",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    245,
+    126
+  ],
+  "file": "VXPAKOKS240341930.mp4",
+  "saved_as": "VXPAKOKS240341930-개인의재무상태와펀드시장변화에따라펀드관리계획이바뀌어야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

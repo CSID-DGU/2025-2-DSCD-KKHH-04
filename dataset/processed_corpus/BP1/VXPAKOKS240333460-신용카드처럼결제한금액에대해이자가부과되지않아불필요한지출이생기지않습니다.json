@@ -1,0 +1,276 @@
+{
+  "id": "VXPAKOKS240333460",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드처럼 결제한 금액에 대해 이자가 부과되지 않아 불필요한 지출이 생기지 않습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.334,
+        "end": 2.441,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.728,
+        "end": 3.495,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.837,
+        "end": 3.936,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.158,
+        "end": 4.705,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.95,
+        "end": 5.253,
+        "gloss_id": "실천1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.456,
+        "end": 5.634,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.879,
+        "end": 6.371,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.723,
+        "end": 7.003,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.144,
+        "end": 7.298,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.488,
+        "end": 7.894,
+        "gloss_id": "아끼다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.074,
+        "end": 8.244,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.334,
+        "end": 3.518,
+        "loc": "0",
+        "word": "신용카드처럼"
+      },
+      {
+        "start": 3.837,
+        "end": 4.714,
+        "loc": "1,2,3",
+        "word": "결제한 금액에 대해"
+      },
+      {
+        "start": 4.95,
+        "end": 8.24,
+        "loc": "4,5,6,7,8,9,10",
+        "word": "이자가 부과되지 않아 불필요한 지출이 생기지 않습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.95,
+        "end": 5.253,
+        "gloss_id": "실천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.456,
+        "end": 5.634,
+        "gloss_id": "시간2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.879,
+        "end": 6.371,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.723,
+        "end": 7.003,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.488,
+        "end": 7.894,
+        "gloss_id": "아끼다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.158,
+        "end": 4.705,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.728,
+        "end": 3.495
+      },
+      {
+        "descriptor": "",
+        "start": 4.158,
+        "end": 4.705
+      },
+      {
+        "descriptor": "",
+        "start": 5.879,
+        "end": 6.371
+      },
+      {
+        "descriptor": "",
+        "start": 7.488,
+        "end": 7.894
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 8.074,
+        "end": 8.244
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.158,
+        "end": 4.705
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.728,
+        "end": 3.495
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333460",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:22:38",
+    "sentence_ID": "VXPAKOKS240333460",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    283,
+    126
+  ],
+  "file": "VXPAKOKS240333460.mp4",
+  "saved_as": "VXPAKOKS240333460-신용카드처럼결제한금액에대해이자가부과되지않아불필요한지출이생기지않습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,270 @@
+{
+  "id": "VXPAKOKS240341000",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "투자자는 적립식 펀드를 통해 시장 변화에 빠르게 대응하여 이익을 얻습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.252,
+        "end": 1.44,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.693,
+        "end": 2.311,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.705,
+        "end": 3.019,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.211,
+        "end": 3.368,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.593,
+        "end": 4.168,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.483,
+        "end": 4.659,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.918,
+        "end": 5.294,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.555,
+        "end": 5.912,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.161,
+        "end": 6.512,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.252,
+        "end": 2.305,
+        "loc": "0",
+        "word": "투자자는"
+      },
+      {
+        "start": 2.705,
+        "end": 3.367,
+        "loc": "1",
+        "word": "적립식"
+      },
+      {
+        "start": 3.593,
+        "end": 4.659,
+        "loc": "2,3",
+        "word": "펀드를 통해"
+      },
+      {
+        "start": 6.161,
+        "end": 6.512,
+        "loc": "8,9",
+        "word": "이익을 얻습니다."
+      },
+      {
+        "start": 4.918,
+        "end": 5.294,
+        "loc": "4,5",
+        "word": "시장 변화에"
+      },
+      {
+        "start": 5.555,
+        "end": 5.912,
+        "loc": "6,7",
+        "word": "빠르게 대응하여"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.693,
+        "end": 2.311,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.705,
+        "end": 3.019,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.211,
+        "end": 3.368,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.918,
+        "end": 5.294,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.555,
+        "end": 5.912,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.693,
+        "end": 2.311
+      },
+      {
+        "descriptor": "",
+        "start": 3.593,
+        "end": 4.168
+      },
+      {
+        "descriptor": "",
+        "start": 5.555,
+        "end": 5.912
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.555,
+        "end": 5.912
+      },
+      {
+        "descriptor": "",
+        "start": 3.991,
+        "end": 4.168
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.252,
+        "end": 1.44
+      },
+      {
+        "descriptor": "",
+        "start": 2.705,
+        "end": 4.158
+      },
+      {
+        "descriptor": "",
+        "start": 5.555,
+        "end": 5.912
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341000",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:10:09",
+    "sentence_ID": "VXPAKOKS240341000",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    224,
+    126
+  ],
+  "file": "VXPAKOKS240341000.mp4",
+  "saved_as": "VXPAKOKS240341000-투자자는적립식펀드를통해시장변화에빠르게대응하여이익을얻습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

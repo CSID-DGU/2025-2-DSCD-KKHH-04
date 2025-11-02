@@ -1,0 +1,371 @@
+{
+  "id": "VXPAKOKS240353340",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "1월에는 새 적금 통장을 만들고 매달 30만 원을 자동이체로 넣기로 했어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.453,
+        "end": 1.811,
+        "gloss_id": "날짜:1월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.03,
+        "end": 2.168,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.349,
+        "end": 2.46,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.626,
+        "end": 2.874,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.003,
+        "end": 3.115,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.265,
+        "end": 4.063,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.304,
+        "end": 4.584,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.766,
+        "end": 4.89,
+        "gloss_id": "30",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.932,
+        "end": 5.212,
+        "gloss_id": "주다1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.419,
+        "end": 5.596,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.752,
+        "end": 6.0,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.183,
+        "end": 6.449,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.626,
+        "end": 6.874,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.453,
+        "end": 1.811,
+        "loc": "0",
+        "word": "1월에는"
+      },
+      {
+        "start": 2.03,
+        "end": 2.168,
+        "loc": "1",
+        "word": "새"
+      },
+      {
+        "start": 2.349,
+        "end": 2.887,
+        "loc": "2",
+        "word": "적금"
+      },
+      {
+        "start": 3.003,
+        "end": 3.115,
+        "loc": "3",
+        "word": "통장을"
+      },
+      {
+        "start": 3.265,
+        "end": 4.063,
+        "loc": "4",
+        "word": "만들고"
+      },
+      {
+        "start": 4.304,
+        "end": 4.584,
+        "loc": "5",
+        "word": "매달"
+      },
+      {
+        "start": 4.766,
+        "end": 5.195,
+        "loc": "6,7",
+        "word": "30만 원을"
+      },
+      {
+        "start": 5.419,
+        "end": 6.003,
+        "loc": "8",
+        "word": "자동이체로"
+      },
+      {
+        "start": 6.189,
+        "end": 6.876,
+        "loc": "9,10",
+        "word": "넣기로 했어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.453,
+        "end": 1.811,
+        "gloss_id": "날짜:1월",
+        "express": "d",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.03,
+        "end": 2.168,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.626,
+        "end": 2.874,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.003,
+        "end": 3.115,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.265,
+        "end": 4.063,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.419,
+        "end": 5.596,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.752,
+        "end": 6.0,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.189,
+        "end": 6.449,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.626,
+        "end": 6.874,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.453,
+        "end": 1.811
+      },
+      {
+        "descriptor": "",
+        "start": 3.645,
+        "end": 4.067
+      },
+      {
+        "descriptor": "",
+        "start": 6.626,
+        "end": 6.874
+      },
+      {
+        "descriptor": "",
+        "start": 4.304,
+        "end": 4.584
+      },
+      {
+        "descriptor": "",
+        "start": 4.932,
+        "end": 5.212
+      },
+      {
+        "descriptor": "",
+        "start": 5.752,
+        "end": 6.0
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.645,
+        "end": 4.061
+      },
+      {
+        "descriptor": "",
+        "start": 6.626,
+        "end": 6.874
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 3.003,
+        "end": 3.613
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.453,
+        "end": 1.811
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240353340",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:06:01",
+    "sentence_ID": "VXPAKOKS240353340",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    233,
+    126
+  ],
+  "file": "VXPAKOKS240353340.mp4",
+  "saved_as": "VXPAKOKS240353340-1월에는새적금통장을만들고매달30만원을자동이체로넣기로했어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,318 @@
+{
+  "id": "VXPAKOKS240328860",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "이자율 비교는 적금 상품을 선택할 때 꼭 확인해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.368,
+        "end": 2.602,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.894,
+        "end": 3.175,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.414,
+        "end": 3.712,
+        "gloss_id": "선택3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.944,
+        "end": 4.096,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.33,
+        "end": 4.523,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.722,
+        "end": 4.955,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.19,
+        "end": 5.391,
+        "gloss_id": "기준2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.519,
+        "end": 5.687,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.511,
+        "end": 6.882,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.096,
+        "end": 7.459,
+        "gloss_id": "비교1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.368,
+        "end": 2.602,
+        "loc": "2",
+        "word": "적금"
+      },
+      {
+        "start": 2.894,
+        "end": 3.175,
+        "loc": "3",
+        "word": "상품을"
+      },
+      {
+        "start": 3.414,
+        "end": 3.712,
+        "loc": "4,5",
+        "word": "선택할 때"
+      },
+      {
+        "start": 3.944,
+        "end": 4.096,
+        "loc": "6",
+        "word": "꼭"
+      },
+      {
+        "start": 4.33,
+        "end": 4.959,
+        "loc": "7,8",
+        "word": "확인해야 해요."
+      },
+      {
+        "start": 5.878,
+        "end": 6.887,
+        "loc": "0",
+        "word": "이자율"
+      },
+      {
+        "start": 7.096,
+        "end": 7.459,
+        "loc": "1",
+        "word": "비교는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.368,
+        "end": 2.602,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.894,
+        "end": 3.175,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.414,
+        "end": 3.712,
+        "gloss_id": "선택3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.944,
+        "end": 4.096,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.722,
+        "end": 4.955,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.19,
+        "end": 5.69,
+        "gloss_id": "기준2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.878,
+        "end": 6.063,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.198,
+        "end": 6.876,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.096,
+        "end": 7.459,
+        "gloss_id": "비교1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.414,
+        "end": 3.712
+      },
+      {
+        "descriptor": "",
+        "start": 5.519,
+        "end": 5.687
+      },
+      {
+        "descriptor": "",
+        "start": 6.511,
+        "end": 6.882
+      },
+      {
+        "descriptor": "",
+        "start": 7.096,
+        "end": 7.459
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.944,
+        "end": 4.492
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.368,
+        "end": 3.692
+      },
+      {
+        "descriptor": "",
+        "start": 5.19,
+        "end": 5.69
+      },
+      {
+        "descriptor": "",
+        "start": 6.511,
+        "end": 6.882
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328860",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:38:32",
+    "sentence_ID": "VXPAKOKS240328860",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    291,
+    126
+  ],
+  "file": "VXPAKOKS240328860.mp4",
+  "saved_as": "VXPAKOKS240328860-이자율비교는적금상품을선택할때꼭확인해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,339 @@
+{
+  "id": "VXPAKOKS240340160",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 매입 시 펀드 회사가 정한 금액 이상이어야 매입 수수료 할인이나 면제를 받습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.407,
+        "end": 1.678,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.908,
+        "end": 2.105,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.352,
+        "end": 2.8,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.921,
+        "end": 3.236,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.476,
+        "end": 3.798,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.075,
+        "end": 4.523,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.778,
+        "end": 5.174,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.362,
+        "end": 5.654,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.776,
+        "end": 5.85,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.198,
+        "end": 6.58,
+        "gloss_id": "할인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.841,
+        "end": 7.282,
+        "gloss_id": "공짜2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.507,
+        "end": 7.733,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.407,
+        "end": 2.092,
+        "loc": "3",
+        "word": "펀드"
+      },
+      {
+        "start": 2.352,
+        "end": 2.8,
+        "loc": "4",
+        "word": "회사가"
+      },
+      {
+        "start": 2.921,
+        "end": 3.236,
+        "loc": "5",
+        "word": "정한"
+      },
+      {
+        "start": 3.476,
+        "end": 3.798,
+        "loc": "6",
+        "word": "금액"
+      },
+      {
+        "start": 4.075,
+        "end": 4.523,
+        "loc": "7",
+        "word": "이상이어야"
+      },
+      {
+        "start": 4.778,
+        "end": 5.174,
+        "loc": "8",
+        "word": "매입"
+      },
+      {
+        "start": 5.362,
+        "end": 5.854,
+        "loc": "9",
+        "word": "수수료"
+      },
+      {
+        "start": 6.198,
+        "end": 6.58,
+        "loc": "10",
+        "word": "할인이나"
+      },
+      {
+        "start": 6.841,
+        "end": 7.733,
+        "loc": "11,12",
+        "word": "면제를 받습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.908,
+        "end": 2.105,
+        "gloss_id": "맡기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.352,
+        "end": 2.8,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.921,
+        "end": 3.236,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.075,
+        "end": 4.523,
+        "gloss_id": "선배1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.778,
+        "end": 5.174,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.362,
+        "end": 5.854,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.198,
+        "end": 6.58,
+        "gloss_id": "할인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.352,
+        "end": 2.8
+      },
+      {
+        "descriptor": "",
+        "start": 4.778,
+        "end": 5.174
+      },
+      {
+        "descriptor": "",
+        "start": 7.507,
+        "end": 7.733
+      },
+      {
+        "descriptor": "",
+        "start": 6.841,
+        "end": 7.282
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 1.967,
+        "end": 2.105
+      },
+      {
+        "descriptor": "",
+        "start": 4.075,
+        "end": 4.523
+      },
+      {
+        "descriptor": "",
+        "start": 6.198,
+        "end": 6.58
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.435,
+        "end": 2.8
+      },
+      {
+        "descriptor": "",
+        "start": 4.075,
+        "end": 4.523
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340160",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:03:16",
+    "sentence_ID": "VXPAKOKS240340160",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    266,
+    126
+  ],
+  "file": "VXPAKOKS240340160.mp4",
+  "saved_as": "VXPAKOKS240340160-펀드매입시펀드회사가정한금액이상이어야매입수수료할인이나면제를받습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,275 @@
+{
+  "id": "VXPAKOKS240338320",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "금리가 인상되면 시장에는 높은 이자율을 제공하는 새로운 채권이 생겨납니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.211,
+        "end": 2.517,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.844,
+        "end": 3.425,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.867,
+        "end": 4.092,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.338,
+        "end": 4.66,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.826,
+        "end": 5.221,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.413,
+        "end": 5.735,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.822,
+        "end": 5.903,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.075,
+        "end": 6.235,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.391,
+        "end": 6.875,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.107,
+        "end": 7.308,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.211,
+        "end": 2.517,
+        "loc": "0",
+        "word": "금리가"
+      },
+      {
+        "start": 4.338,
+        "end": 4.66,
+        "loc": "4,5",
+        "word": "이자율을 제공하는"
+      },
+      {
+        "start": 5.413,
+        "end": 5.735,
+        "loc": "6",
+        "word": "새로운"
+      },
+      {
+        "start": 5.822,
+        "end": 6.88,
+        "loc": "7",
+        "word": "채권이"
+      },
+      {
+        "start": 7.107,
+        "end": 7.308,
+        "loc": "8",
+        "word": "생겨납니다."
+      },
+      {
+        "start": 2.844,
+        "end": 4.08,
+        "loc": "1,2",
+        "word": "인상되면 시장에는"
+      },
+      {
+        "start": 4.826,
+        "end": 5.221,
+        "loc": "3",
+        "word": "높은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.867,
+        "end": 4.092,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.413,
+        "end": 5.735,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.391,
+        "end": 6.875,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.844,
+        "end": 3.425
+      },
+      {
+        "descriptor": "",
+        "start": 3.867,
+        "end": 4.092
+      },
+      {
+        "descriptor": "",
+        "start": 7.107,
+        "end": 7.308
+      },
+      {
+        "descriptor": "",
+        "start": 6.391,
+        "end": 6.875
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.038,
+        "end": 3.425
+      },
+      {
+        "descriptor": "",
+        "start": 3.867,
+        "end": 4.092
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.211,
+        "end": 3.43
+      },
+      {
+        "descriptor": "",
+        "start": 4.338,
+        "end": 5.218
+      },
+      {
+        "descriptor": "",
+        "start": 6.391,
+        "end": 6.875
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338320",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:42:41",
+    "sentence_ID": "VXPAKOKS240338320",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    291,
+    126
+  ],
+  "file": "VXPAKOKS240338320.mp4",
+  "saved_as": "VXPAKOKS240338320-금리가인상되면시장에는높은이자율을제공하는새로운채권이생겨납니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

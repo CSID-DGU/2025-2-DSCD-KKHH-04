@@ -1,0 +1,242 @@
+{
+  "id": "VXPAKOKS240333320",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "은행에서 발급하는 현금카드가 무엇인지에 대해 자세히 설명해 주실 수 있습니까?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.453,
+        "end": 2.89,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.261,
+        "end": 3.368,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.64,
+        "end": 3.976,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.192,
+        "end": 4.288,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.448,
+        "end": 5.005,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.387,
+        "end": 5.521,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.668,
+        "end": 5.891,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.127,
+        "end": 6.539,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.453,
+        "end": 2.89,
+        "loc": "0",
+        "word": "은행에서"
+      },
+      {
+        "start": 3.261,
+        "end": 3.961,
+        "loc": "1,2",
+        "word": "발급하는 현금카드가"
+      },
+      {
+        "start": 4.192,
+        "end": 5.007,
+        "loc": "3,4",
+        "word": "무엇인지에 대해"
+      },
+      {
+        "start": 5.387,
+        "end": 5.521,
+        "loc": "5",
+        "word": "자세히"
+      },
+      {
+        "start": 5.668,
+        "end": 5.891,
+        "loc": "6",
+        "word": "설명해"
+      },
+      {
+        "start": 6.127,
+        "end": 6.539,
+        "loc": "7,8,9",
+        "word": "주실 수 있습니까?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.453,
+        "end": 2.89,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.387,
+        "end": 5.521,
+        "gloss_id": "꼼꼼1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.668,
+        "end": 5.891,
+        "gloss_id": "설명1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.127,
+        "end": 6.539,
+        "gloss_id": "부탁1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.453,
+        "end": 2.89
+      },
+      {
+        "descriptor": "",
+        "start": 3.64,
+        "end": 3.976
+      },
+      {
+        "descriptor": "",
+        "start": 6.127,
+        "end": 6.539
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.192,
+        "end": 4.982
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.453,
+        "end": 3.962
+      },
+      {
+        "descriptor": "",
+        "start": 5.668,
+        "end": 6.534
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333320",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:21:55",
+    "sentence_ID": "VXPAKOKS240333320",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    227,
+    126
+  ],
+  "file": "VXPAKOKS240333320.mp4",
+  "saved_as": "VXPAKOKS240333320-은행에서발급하는현금카드가무엇인지에대해자세히설명해주실수있습니까.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

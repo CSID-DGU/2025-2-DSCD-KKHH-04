@@ -1,0 +1,253 @@
+{
+  "id": "VXPAKOKS240331710",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "현금카드를 잃어버리고 나서 다른 사람이 돈 인출한 걸 발견하면 어떡해?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.47,
+        "end": 1.615,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.728,
+        "end": 2.005,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.163,
+        "end": 2.663,
+        "gloss_id": "버리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.164,
+        "end": 3.469,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.616,
+        "end": 3.75,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.856,
+        "end": 4.356,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.509,
+        "end": 5.146,
+        "gloss_id": "발견1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.27,
+        "end": 5.936,
+        "gloss_id": "어떻게2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.47,
+        "end": 1.998,
+        "loc": "0",
+        "word": "현금카드를"
+      },
+      {
+        "start": 3.164,
+        "end": 3.469,
+        "loc": "3,4",
+        "word": "다른 사람이"
+      },
+      {
+        "start": 2.163,
+        "end": 2.663,
+        "loc": "1,2",
+        "word": "잃어버리고 나서"
+      },
+      {
+        "start": 3.616,
+        "end": 3.75,
+        "loc": "5",
+        "word": "돈"
+      },
+      {
+        "start": 3.856,
+        "end": 4.356,
+        "loc": "6,7",
+        "word": "인출한 걸"
+      },
+      {
+        "start": 4.509,
+        "end": 5.14,
+        "loc": "8",
+        "word": "발견하면"
+      },
+      {
+        "start": 5.27,
+        "end": 5.936,
+        "loc": "9",
+        "word": "어떡해?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 4.509,
+        "end": 5.14,
+        "gloss_id": "발견1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.27,
+        "end": 5.936,
+        "gloss_id": "어떻게2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.509,
+        "end": 5.146
+      },
+      {
+        "descriptor": "",
+        "start": 5.27,
+        "end": 5.936
+      },
+      {
+        "descriptor": "",
+        "start": 2.163,
+        "end": 2.663
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.42,
+        "end": 2.663
+      },
+      {
+        "descriptor": "",
+        "start": 4.858,
+        "end": 5.141
+      },
+      {
+        "descriptor": "",
+        "start": 4.142,
+        "end": 4.356
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.728,
+        "end": 3.458
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.47,
+        "end": 1.615
+      },
+      {
+        "descriptor": "",
+        "start": 4.509,
+        "end": 5.146
+      },
+      {
+        "descriptor": "",
+        "start": 5.27,
+        "end": 5.936
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331710",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:14:24",
+    "sentence_ID": "VXPAKOKS240331710",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    206,
+    126
+  ],
+  "file": "VXPAKOKS240331710.mp4",
+  "saved_as": "VXPAKOKS240331710-현금카드를잃어버리고나서다른사람이돈인출한걸발견하면어떡해.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

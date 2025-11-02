@@ -1,0 +1,248 @@
+{
+  "id": "VXPAKOKS240345110",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "돈을 모을 수 있는 가장 기본적인 저축 방법은 예금이야.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.508,
+        "end": 2.667,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.921,
+        "end": 3.671,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.046,
+        "end": 4.212,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.514,
+        "end": 4.868,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.06,
+        "end": 5.24,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.421,
+        "end": 5.615,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.856,
+        "end": 6.252,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.508,
+        "end": 2.667,
+        "loc": "0",
+        "word": "돈을"
+      },
+      {
+        "start": 2.921,
+        "end": 3.671,
+        "loc": "1,2,3",
+        "word": "모을 수 있는"
+      },
+      {
+        "start": 4.046,
+        "end": 4.212,
+        "loc": "4,5",
+        "word": "가장 기본적인"
+      },
+      {
+        "start": 4.514,
+        "end": 4.868,
+        "loc": "6",
+        "word": "저축"
+      },
+      {
+        "start": 5.067,
+        "end": 5.24,
+        "loc": "7",
+        "word": "방법은"
+      },
+      {
+        "start": 5.856,
+        "end": 6.252,
+        "loc": "8",
+        "word": "예금이야."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.921,
+        "end": 3.671,
+        "gloss_id": "모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.046,
+        "end": 4.212,
+        "gloss_id": "기본1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.514,
+        "end": 4.868,
+        "gloss_id": "저축1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.06,
+        "end": 5.24,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.421,
+        "end": 5.615,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.856,
+        "end": 6.252,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.046,
+        "end": 4.212
+      },
+      {
+        "descriptor": "",
+        "start": 5.421,
+        "end": 5.615
+      },
+      {
+        "descriptor": "",
+        "start": 5.856,
+        "end": 6.252
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.856,
+        "end": 6.252
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.751,
+        "end": 4.202
+      },
+      {
+        "descriptor": "",
+        "start": 5.06,
+        "end": 5.518
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240345110",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:03:34",
+    "sentence_ID": "VXPAKOKS240345110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    250,
+    126
+  ],
+  "file": "VXPAKOKS240345110.mp4",
+  "saved_as": "VXPAKOKS240345110-돈을모을수있는가장기본적인저축방법은예금이야.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

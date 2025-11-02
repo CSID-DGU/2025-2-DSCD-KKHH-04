@@ -1,0 +1,238 @@
+{
+  "id": "VXPAKOKS240335300",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "주식 시장에서 손해 본 투자자들은 경제적 손실에 대한 슬픔으로 우울증에 걸리기 쉬워요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 3.155,
+        "end": 3.34,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.542,
+        "end": 4.429,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.887,
+        "end": 5.355,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.702,
+        "end": 6.154,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.424,
+        "end": 6.996,
+        "gloss_id": "걱정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.278,
+        "end": 7.576,
+        "gloss_id": "우울1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.872,
+        "end": 8.235,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.155,
+        "end": 3.34,
+        "loc": "0,1",
+        "word": "주식 시장에서"
+      },
+      {
+        "start": 3.542,
+        "end": 4.429,
+        "loc": "4",
+        "word": "투자자들은"
+      },
+      {
+        "start": 4.887,
+        "end": 5.355,
+        "loc": "2,3",
+        "word": "손해 본"
+      },
+      {
+        "start": 5.702,
+        "end": 6.154,
+        "loc": "5,6,7",
+        "word": "경제적 손실에 대한"
+      },
+      {
+        "start": 6.424,
+        "end": 6.996,
+        "loc": "8",
+        "word": "슬픔으로"
+      },
+      {
+        "start": 7.872,
+        "end": 8.235,
+        "loc": "11",
+        "word": "쉬워요."
+      },
+      {
+        "start": 7.278,
+        "end": 7.576,
+        "loc": "9,10",
+        "word": "우울증에 걸리기"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.155,
+        "end": 3.34,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.887,
+        "end": 5.355,
+        "gloss_id": "값내리다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.702,
+        "end": 6.154,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.872,
+        "end": 8.235,
+        "gloss_id": "쉽다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.522,
+        "end": 4.28
+      },
+      {
+        "descriptor": "",
+        "start": 6.424,
+        "end": 6.996
+      },
+      {
+        "descriptor": "",
+        "start": 7.278,
+        "end": 7.576
+      },
+      {
+        "descriptor": "",
+        "start": 5.053,
+        "end": 5.345
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.048,
+        "end": 5.346
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.702,
+        "end": 8.266
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240335300",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:35:34",
+    "sentence_ID": "VXPAKOKS240335300",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    290,
+    126
+  ],
+  "file": "VXPAKOKS240335300.mp4",
+  "saved_as": "VXPAKOKS240335300-주식시장에서손해본투자자들은경제적손실에대한슬픔으로우울증에걸리기쉬워요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

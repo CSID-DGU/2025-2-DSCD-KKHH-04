@@ -1,0 +1,346 @@
+{
+  "id": "VXPAKOKS240339000",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "회사채 투자는 기업의 신용도와 경영 상태에 따라 위험도가 달라집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.824,
+        "end": 2.027,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.223,
+        "end": 2.402,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.902,
+        "end": 3.522,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.766,
+        "end": 4.282,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.678,
+        "end": 4.969,
+        "gloss_id": "각각1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.285,
+        "end": 5.889,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.107,
+        "end": 6.222,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.329,
+        "end": 6.392,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.529,
+        "end": 6.656,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.841,
+        "end": 7.043,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.186,
+        "end": 7.542,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.798,
+        "end": 8.071,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.317,
+        "end": 8.725,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.824,
+        "end": 2.027,
+        "loc": "2",
+        "word": "기업의"
+      },
+      {
+        "start": 2.223,
+        "end": 3.518,
+        "loc": "3",
+        "word": "신용도와"
+      },
+      {
+        "start": 6.107,
+        "end": 7.04,
+        "loc": "0",
+        "word": "회사채"
+      },
+      {
+        "start": 7.186,
+        "end": 7.542,
+        "loc": "1",
+        "word": "투자는"
+      },
+      {
+        "start": 8.317,
+        "end": 8.725,
+        "loc": "8",
+        "word": "달라집니다."
+      },
+      {
+        "start": 3.766,
+        "end": 4.282,
+        "loc": "4,5",
+        "word": "경영 상태에"
+      },
+      {
+        "start": 4.678,
+        "end": 5.9,
+        "loc": "6",
+        "word": "따라"
+      },
+      {
+        "start": 7.798,
+        "end": 8.071,
+        "loc": "7",
+        "word": "위험도가"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.824,
+        "end": 2.027,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.223,
+        "end": 2.402,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.766,
+        "end": 4.282,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.107,
+        "end": 6.222,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.317,
+        "end": 8.725,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.678,
+        "end": 4.969,
+        "gloss_id": "각각1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.285,
+        "end": 5.889,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.841,
+        "end": 7.043,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.902,
+        "end": 3.522
+      },
+      {
+        "descriptor": "",
+        "start": 5.51,
+        "end": 5.889
+      },
+      {
+        "descriptor": "",
+        "start": 8.317,
+        "end": 8.725
+      },
+      {
+        "descriptor": "",
+        "start": 4.678,
+        "end": 4.969
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.678,
+        "end": 4.969
+      },
+      {
+        "descriptor": "",
+        "start": 7.798,
+        "end": 8.071
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.824,
+        "end": 3.512
+      },
+      {
+        "descriptor": "",
+        "start": 6.107,
+        "end": 7.53
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339000",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:49:06",
+    "sentence_ID": "VXPAKOKS240339000",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    289,
+    126
+  ],
+  "file": "VXPAKOKS240339000.mp4",
+  "saved_as": "VXPAKOKS240339000-회사채투자는기업의신용도와경영상태에따라위험도가달라집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

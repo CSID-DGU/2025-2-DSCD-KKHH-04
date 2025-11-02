@@ -1,0 +1,415 @@
+{
+  "id": "VXPAKOKS240377190",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "공동 계좌는 여러 사람이 사용할 수 있지만, 개인 계좌는 한 사람만이 소유할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.319,
+        "end": 1.49,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.606,
+        "end": 1.686,
+        "gloss_id": "이름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.863,
+        "end": 2.294,
+        "gloss_id": "기록1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.478,
+        "end": 3.012,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.176,
+        "end": 3.282,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.516,
+        "end": 4.067,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.304,
+        "end": 5.16,
+        "gloss_id": "사형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.507,
+        "end": 5.796,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.013,
+        "end": 6.188,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.338,
+        "end": 6.461,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.627,
+        "end": 7.076,
+        "gloss_id": "맞다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.304,
+        "end": 7.513,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.656,
+        "end": 7.916,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.04,
+        "end": 8.164,
+        "gloss_id": "혼자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.342,
+        "end": 8.642,
+        "gloss_id": "기록1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.825,
+        "end": 9.017,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.228,
+        "end": 9.41,
+        "gloss_id": "가지다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.467,
+        "end": 9.933,
+        "gloss_id": "가지고다니다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.319,
+        "end": 1.49,
+        "loc": "1",
+        "word": "계좌는"
+      },
+      {
+        "start": 1.606,
+        "end": 3.001,
+        "loc": "0",
+        "word": "공동"
+      },
+      {
+        "start": 3.176,
+        "end": 5.79,
+        "loc": "2,3",
+        "word": "여러 사람이"
+      },
+      {
+        "start": 6.013,
+        "end": 7.082,
+        "loc": "4,5,6",
+        "word": "사용할 수 있지만,"
+      },
+      {
+        "start": 7.656,
+        "end": 7.916,
+        "loc": "7",
+        "word": "개인"
+      },
+      {
+        "start": 7.304,
+        "end": 7.513,
+        "loc": "8",
+        "word": "계좌는"
+      },
+      {
+        "start": 8.04,
+        "end": 9.007,
+        "loc": "9,10",
+        "word": "한 사람만이"
+      },
+      {
+        "start": 9.218,
+        "end": 10.068,
+        "loc": "11,12,13",
+        "word": "소유할 수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 5.043,
+        "end": 5.172,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.906,
+        "end": 10.086,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.319,
+        "end": 1.675,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.863,
+        "end": 4.061,
+        "gloss_id": "기록1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.315,
+        "end": 4.774,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.507,
+        "end": 5.796,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.013,
+        "end": 6.188,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.304,
+        "end": 7.513,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.656,
+        "end": 7.916,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.906,
+        "end": 10.077
+      },
+      {
+        "descriptor": "",
+        "start": 6.627,
+        "end": 7.076
+      },
+      {
+        "descriptor": "",
+        "start": 1.861,
+        "end": 3.012
+      },
+      {
+        "descriptor": "",
+        "start": 8.039,
+        "end": 8.621
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 9.908,
+        "end": 10.089
+      },
+      {
+        "descriptor": "",
+        "start": 6.338,
+        "end": 6.461
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.781,
+        "end": 7.878
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.863,
+        "end": 3.024
+      },
+      {
+        "descriptor": "",
+        "start": 3.176,
+        "end": 4.053
+      },
+      {
+        "descriptor": "",
+        "start": 7.304,
+        "end": 8.427
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240377190",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:49:38",
+    "sentence_ID": "VXPAKOKS240377190",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    370,
+    126
+  ],
+  "file": "VXPAKOKS240377190.mp4",
+  "saved_as": "VXPAKOKS240377190-공동계좌는여러사람이사용할수있지만,개인계좌는한사람만이소유할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,294 @@
+{
+  "id": "VXPAKOKS240336740",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "경제 상황, 금리 변동 같은 외부 요인들이 채권 시장에 영향을 미칠 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.848,
+        "end": 2.308,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.456,
+        "end": 3.035,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.233,
+        "end": 3.63,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.854,
+        "end": 4.48,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.564,
+        "end": 4.669,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.825,
+        "end": 4.977,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.196,
+        "end": 5.759,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.073,
+        "end": 6.431,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.886,
+        "end": 7.094,
+        "gloss_id": "영향1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.368,
+        "end": 7.536,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 6.886,
+        "end": 7.094,
+        "loc": "9",
+        "word": "영향을"
+      },
+      {
+        "start": 7.368,
+        "end": 7.536,
+        "loc": "10,11,12",
+        "word": "미칠 수 있습니다."
+      },
+      {
+        "start": 6.073,
+        "end": 6.431,
+        "loc": "4,5,6",
+        "word": "같은 외부 요인들이"
+      },
+      {
+        "start": 1.848,
+        "end": 2.308,
+        "loc": "0",
+        "word": "경제"
+      },
+      {
+        "start": 2.456,
+        "end": 3.035,
+        "loc": "1",
+        "word": "상황,"
+      },
+      {
+        "start": 3.233,
+        "end": 3.63,
+        "loc": "2",
+        "word": "금리"
+      },
+      {
+        "start": 3.854,
+        "end": 4.48,
+        "loc": "3",
+        "word": "변동"
+      },
+      {
+        "start": 4.56,
+        "end": 5.759,
+        "loc": "7,8",
+        "word": "채권 시장에"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.854,
+        "end": 4.669,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.848,
+        "end": 2.308,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.456,
+        "end": 3.627,
+        "gloss_id": "분위기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.196,
+        "end": 5.759,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.073,
+        "end": 6.431,
+        "gloss_id": "연결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.886,
+        "end": 7.094,
+        "gloss_id": "영향1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.368,
+        "end": 7.536
+      },
+      {
+        "descriptor": "",
+        "start": 2.602,
+        "end": 3.031
+      },
+      {
+        "descriptor": "",
+        "start": 4.063,
+        "end": 4.48
+      },
+      {
+        "descriptor": "",
+        "start": 5.345,
+        "end": 5.758
+      },
+      {
+        "descriptor": "",
+        "start": 6.886,
+        "end": 7.094
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.848,
+        "end": 4.468
+      },
+      {
+        "descriptor": "",
+        "start": 4.966,
+        "end": 5.746
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336740",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:31:46",
+    "sentence_ID": "VXPAKOKS240336740",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    284,
+    126
+  ],
+  "file": "VXPAKOKS240336740.mp4",
+  "saved_as": "VXPAKOKS240336740-경제상황,금리변동같은외부요인들이채권시장에영향을미칠수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

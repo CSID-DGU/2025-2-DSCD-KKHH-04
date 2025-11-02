@@ -1,0 +1,440 @@
+{
+  "id": "VXPAKOKS240337510",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 발행 주체의 신용도, 만기 기간에 따라 채권의 유동성이 달라집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.882,
+        "end": 1.957,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.203,
+        "end": 2.546,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.768,
+        "end": 3.537,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.009,
+        "end": 4.33,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.56,
+        "end": 4.948,
+        "gloss_id": "누구1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.228,
+        "end": 5.37,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.674,
+        "end": 6.095,
+        "gloss_id": "점수1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.461,
+        "end": 6.658,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.814,
+        "end": 7.034,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.281,
+        "end": 7.445,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.863,
+        "end": 8.352,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.468,
+        "end": 8.587,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.705,
+        "end": 8.869,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.129,
+        "end": 9.55,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.791,
+        "end": 10.011,
+        "gloss_id": "기름1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.266,
+        "end": 10.643,
+        "gloss_id": "안되다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.072,
+        "end": 11.471,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.867,
+        "end": 3.546,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 4.009,
+        "end": 4.33,
+        "loc": "1",
+        "word": "발행"
+      },
+      {
+        "start": 4.56,
+        "end": 4.948,
+        "loc": "2",
+        "word": "주체의"
+      },
+      {
+        "start": 5.228,
+        "end": 6.086,
+        "loc": "3",
+        "word": "신용도,"
+      },
+      {
+        "start": 6.8,
+        "end": 7.445,
+        "loc": "5",
+        "word": "기간에"
+      },
+      {
+        "start": 6.461,
+        "end": 6.658,
+        "loc": "4",
+        "word": "만기"
+      },
+      {
+        "start": 7.863,
+        "end": 8.352,
+        "loc": "6",
+        "word": "따라"
+      },
+      {
+        "start": 8.468,
+        "end": 10.635,
+        "loc": "7,8",
+        "word": "채권의 유동성이"
+      },
+      {
+        "start": 11.072,
+        "end": 11.471,
+        "loc": "9",
+        "word": "달라집니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.768,
+        "end": 3.536,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.009,
+        "end": 4.329,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.228,
+        "end": 5.369,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.461,
+        "end": 6.658,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.814,
+        "end": 7.034,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.281,
+        "end": 7.445,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.863,
+        "end": 8.352,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.705,
+        "end": 8.869,
+        "gloss_id": "현금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.129,
+        "end": 9.55,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.072,
+        "end": 11.471,
+        "gloss_id": "여러가지2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 11.072,
+        "end": 11.471
+      },
+      {
+        "descriptor": "",
+        "start": 2.773,
+        "end": 3.537
+      },
+      {
+        "descriptor": "",
+        "start": 4.56,
+        "end": 4.948
+      },
+      {
+        "descriptor": "",
+        "start": 5.674,
+        "end": 6.095
+      },
+      {
+        "descriptor": "",
+        "start": 7.281,
+        "end": 7.445
+      },
+      {
+        "descriptor": "",
+        "start": 7.919,
+        "end": 8.352
+      },
+      {
+        "descriptor": "",
+        "start": 9.793,
+        "end": 10.643
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.461,
+        "end": 6.658
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 7.863,
+        "end": 8.352
+      },
+      {
+        "descriptor": "",
+        "start": 9.791,
+        "end": 10.671
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 9.129,
+        "end": 9.55
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.56,
+        "end": 4.948
+      },
+      {
+        "descriptor": "",
+        "start": 6.461,
+        "end": 7.33
+      },
+      {
+        "descriptor": "",
+        "start": 8.705,
+        "end": 9.574
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337510",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:02",
+    "sentence_ID": "VXPAKOKS240337510",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    403,
+    126
+  ],
+  "file": "VXPAKOKS240337510.mp4",
+  "saved_as": "VXPAKOKS240337510-채권발행주체의신용도,만기기간에따라채권의유동성이달라집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

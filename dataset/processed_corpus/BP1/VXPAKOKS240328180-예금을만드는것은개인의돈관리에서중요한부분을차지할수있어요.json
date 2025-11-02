@@ -1,0 +1,245 @@
+{
+  "id": "VXPAKOKS240328180",
+  "opertor": "label8",
+  "krlgg_sntenc": {
+    "koreanText": "예금을 만드는 것은 개인의 돈 관리에서 중요한 부분을 차지할 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.417,
+        "end": 1.514,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.705,
+        "end": 2.051,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.188,
+        "end": 2.484,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.724,
+        "end": 3.105,
+        "gloss_id": "왜1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.381,
+        "end": 3.781,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.728,
+        "end": 5.228,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.027,
+        "end": 4.527,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.417,
+        "end": 2.051,
+        "loc": "0",
+        "word": "예금을"
+      },
+      {
+        "start": 2.188,
+        "end": 2.484,
+        "loc": "1,2",
+        "word": "만드는 것은"
+      },
+      {
+        "start": 3.381,
+        "end": 3.781,
+        "loc": "3",
+        "word": "개인의"
+      },
+      {
+        "start": 4.027,
+        "end": 4.527,
+        "loc": "4,5",
+        "word": "돈 관리에서"
+      },
+      {
+        "start": 4.728,
+        "end": 5.228,
+        "loc": "6,7,8,9,10",
+        "word": "중요한 부분을 차지할 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.705,
+        "end": 2.051,
+        "gloss_id": "두다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.188,
+        "end": 2.484,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.381,
+        "end": 3.781,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.728,
+        "end": 5.228,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.027,
+        "end": 4.527,
+        "gloss_id": "돈모으다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.705,
+        "end": 2.051
+      },
+      {
+        "descriptor": "",
+        "start": 2.724,
+        "end": 3.105
+      },
+      {
+        "descriptor": "",
+        "start": 4.027,
+        "end": 4.527
+      },
+      {
+        "descriptor": "",
+        "start": 4.728,
+        "end": 5.228
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.724,
+        "end": 3.095
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 4.027,
+        "end": 4.527
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 1.705,
+        "end": 2.051
+      },
+      {
+        "descriptor": "",
+        "start": 4.027,
+        "end": 4.527
+      }
+    ],
+    "Ebu": null
+  },
+  "vido_file_nm": "VXPAKOKS240328180",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:25:48",
+    "sentence_ID": "VXPAKOKS240328180",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    179,
+    126
+  ],
+  "file": "VXPAKOKS240328180.mp4",
+  "saved_as": "VXPAKOKS240328180-예금을만드는것은개인의돈관리에서중요한부분을차지할수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

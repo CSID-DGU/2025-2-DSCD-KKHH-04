@@ -1,0 +1,323 @@
+{
+  "id": "VXPAKOKS240335660",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식에 오랫동안 투자하면 돈을 더 벌 수 있지만, 돈을 잃을 위험도 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.854,
+        "end": 2.125,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.357,
+        "end": 2.839,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.027,
+        "end": 3.174,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.29,
+        "end": 3.396,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.677,
+        "end": 4.177,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.632,
+        "end": 4.823,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.104,
+        "end": 5.216,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.415,
+        "end": 5.747,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.017,
+        "end": 6.614,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.992,
+        "end": 7.307,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.552,
+        "end": 7.884,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.141,
+        "end": 8.341,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.524,
+        "end": 8.812,
+        "gloss_id": "둘중하나1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.854,
+        "end": 2.134,
+        "loc": "0",
+        "word": "주식에"
+      },
+      {
+        "start": 2.357,
+        "end": 2.839,
+        "loc": "2",
+        "word": "투자하면"
+      },
+      {
+        "start": 3.027,
+        "end": 4.161,
+        "loc": "1",
+        "word": "오랫동안"
+      },
+      {
+        "start": 4.632,
+        "end": 6.621,
+        "loc": "3,4,5,6,7",
+        "word": "돈을 더 벌 수 있지만,"
+      },
+      {
+        "start": 6.992,
+        "end": 8.797,
+        "loc": "8,9,10,11",
+        "word": "돈을 잃을 위험도 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.854,
+        "end": 2.839,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.027,
+        "end": 3.174,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.29,
+        "end": 3.396,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.677,
+        "end": 4.177,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.632,
+        "end": 4.823,
+        "gloss_id": "벌다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.552,
+        "end": 7.884,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.357,
+        "end": 2.839
+      },
+      {
+        "descriptor": "",
+        "start": 3.818,
+        "end": 4.177
+      },
+      {
+        "descriptor": "",
+        "start": 5.415,
+        "end": 5.747
+      },
+      {
+        "descriptor": "",
+        "start": 6.114,
+        "end": 6.596
+      },
+      {
+        "descriptor": "",
+        "start": 6.992,
+        "end": 7.307
+      },
+      {
+        "descriptor": "",
+        "start": 8.141,
+        "end": 8.341
+      },
+      {
+        "descriptor": "",
+        "start": 8.524,
+        "end": 8.812
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.123,
+        "end": 6.605
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 6.992,
+        "end": 8.321
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.357,
+        "end": 4.17
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335660",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:44:34",
+    "sentence_ID": "VXPAKOKS240335660",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    317,
+    126
+  ],
+  "file": "VXPAKOKS240335660.mp4",
+  "saved_as": "VXPAKOKS240335660-주식에오랫동안투자하면돈을더벌수있지만,돈을잃을위험도있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

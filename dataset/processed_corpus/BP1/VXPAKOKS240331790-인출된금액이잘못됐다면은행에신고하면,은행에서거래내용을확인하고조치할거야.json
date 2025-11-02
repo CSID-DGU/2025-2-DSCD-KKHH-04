@@ -1,0 +1,248 @@
+{
+  "id": "VXPAKOKS240331790",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "인출된 금액이 잘못됐다면 은행에 신고하면, 은행에서 거래 내용을 확인하고 조치할 거야.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.63,
+        "end": 1.742,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.929,
+        "end": 2.244,
+        "gloss_id": "뽑다4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.663,
+        "end": 2.853,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.063,
+        "end": 3.551,
+        "gloss_id": "틀리다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.929,
+        "end": 4.089,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.392,
+        "end": 4.814,
+        "gloss_id": "전화하다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 5.046,
+        "end": 5.403,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.721,
+        "end": 6.119,
+        "gloss_id": "해결1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.63,
+        "end": 1.742,
+        "loc": "1",
+        "word": "금액이"
+      },
+      {
+        "start": 1.929,
+        "end": 2.244,
+        "loc": "0",
+        "word": "인출된"
+      },
+      {
+        "start": 2.663,
+        "end": 3.558,
+        "loc": "2",
+        "word": "잘못됐다면"
+      },
+      {
+        "start": 3.929,
+        "end": 4.089,
+        "loc": "3",
+        "word": "은행에"
+      },
+      {
+        "start": 4.392,
+        "end": 4.814,
+        "loc": "5",
+        "word": "은행에서"
+      },
+      {
+        "start": 5.046,
+        "end": 5.403,
+        "loc": "6,7,8",
+        "word": "거래 내용을 확인하고"
+      },
+      {
+        "start": 5.721,
+        "end": 6.119,
+        "loc": "9,10",
+        "word": "조치할 거야."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.663,
+        "end": 3.552,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.929,
+        "end": 4.089,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.046,
+        "end": 5.403,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.721,
+        "end": 6.119,
+        "gloss_id": "해결1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.929,
+        "end": 4.089
+      },
+      {
+        "descriptor": "",
+        "start": 4.392,
+        "end": 4.814
+      },
+      {
+        "descriptor": "",
+        "start": 5.046,
+        "end": 5.403
+      },
+      {
+        "descriptor": "",
+        "start": 5.721,
+        "end": 6.119
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.663,
+        "end": 3.546
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.392,
+        "end": 4.814
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331790",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:15:04",
+    "sentence_ID": "VXPAKOKS240331790",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    215,
+    126
+  ],
+  "file": "VXPAKOKS240331790.mp4",
+  "saved_as": "VXPAKOKS240331790-인출된금액이잘못됐다면은행에신고하면,은행에서거래내용을확인하고조치할거야.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

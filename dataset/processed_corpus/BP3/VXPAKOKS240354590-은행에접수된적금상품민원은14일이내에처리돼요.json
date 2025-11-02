@@ -1,0 +1,313 @@
+{
+  "id": "VXPAKOKS240354590",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "은행에 접수된 적금 상품 민원은 14일 이내에 처리돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.365,
+        "end": 1.556,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.775,
+        "end": 2.24,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.371,
+        "end": 2.468,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.589,
+        "end": 2.861,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.079,
+        "end": 3.468,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.896,
+        "end": 4.53,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.844,
+        "end": 5.029,
+        "gloss_id": "날짜(활용):14일",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.199,
+        "end": 5.285,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.394,
+        "end": 5.66,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.811,
+        "end": 6.148,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.365,
+        "end": 1.556,
+        "loc": "0",
+        "word": "은행에"
+      },
+      {
+        "start": 1.775,
+        "end": 2.24,
+        "loc": "1",
+        "word": "접수된"
+      },
+      {
+        "start": 2.371,
+        "end": 2.853,
+        "loc": "2",
+        "word": "적금"
+      },
+      {
+        "start": 3.079,
+        "end": 3.468,
+        "loc": "3",
+        "word": "상품"
+      },
+      {
+        "start": 3.896,
+        "end": 4.53,
+        "loc": "4",
+        "word": "민원은"
+      },
+      {
+        "start": 4.844,
+        "end": 5.029,
+        "loc": "5",
+        "word": "14일"
+      },
+      {
+        "start": 5.199,
+        "end": 5.658,
+        "loc": "6",
+        "word": "이내에"
+      },
+      {
+        "start": 5.811,
+        "end": 6.148,
+        "loc": "7",
+        "word": "처리돼요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.365,
+        "end": 1.556,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.775,
+        "end": 2.24,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.589,
+        "end": 2.861,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.079,
+        "end": 3.468,
+        "gloss_id": "순서2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.896,
+        "end": 4.53,
+        "gloss_id": "신고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.199,
+        "end": 5.664,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.811,
+        "end": 6.148,
+        "gloss_id": "해결2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "십사",
+        "start": 4.844,
+        "end": 5.029
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.001,
+        "end": 2.238
+      },
+      {
+        "descriptor": "",
+        "start": 3.079,
+        "end": 3.468
+      },
+      {
+        "descriptor": "",
+        "start": 4.198,
+        "end": 4.517
+      },
+      {
+        "descriptor": "",
+        "start": 5.394,
+        "end": 5.66
+      },
+      {
+        "descriptor": "",
+        "start": 5.811,
+        "end": 6.148
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.775,
+        "end": 2.24
+      },
+      {
+        "descriptor": "",
+        "start": 3.896,
+        "end": 4.203
+      },
+      {
+        "descriptor": "",
+        "start": 5.199,
+        "end": 5.402
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240354590",
+  "potogrf": {
+    "createdTime": "2024-10-11 03:15:05",
+    "sentence_ID": "VXPAKOKS240354590",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    210,
+    126
+  ],
+  "file": "VXPAKOKS240354590.mp4",
+  "saved_as": "VXPAKOKS240354590-은행에접수된적금상품민원은14일이내에처리돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

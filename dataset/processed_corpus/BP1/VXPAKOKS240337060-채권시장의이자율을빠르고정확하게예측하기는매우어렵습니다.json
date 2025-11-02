@@ -1,0 +1,262 @@
+{
+  "id": "VXPAKOKS240337060",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장의 이자율을 빠르고 정확하게 예측하기는 매우 어렵습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.399,
+        "end": 2.496,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.643,
+        "end": 2.81,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.036,
+        "end": 3.755,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.016,
+        "end": 4.367,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.629,
+        "end": 5.33,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.635,
+        "end": 6.03,
+        "gloss_id": "심하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.283,
+        "end": 6.608,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.86,
+        "end": 6.967,
+        "gloss_id": "눈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.088,
+        "end": 7.527,
+        "gloss_id": "평가1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.831,
+        "end": 8.025,
+        "gloss_id": "어렵다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 7.831,
+        "end": 8.025,
+        "loc": "6,7",
+        "word": "매우 어렵습니다."
+      },
+      {
+        "start": 2.406,
+        "end": 3.755,
+        "loc": "0,1",
+        "word": "채권 시장의"
+      },
+      {
+        "start": 4.016,
+        "end": 5.347,
+        "loc": "2",
+        "word": "이자율을"
+      },
+      {
+        "start": 6.283,
+        "end": 7.535,
+        "loc": "3,4,5",
+        "word": "빠르고 정확하게 예측하기는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.036,
+        "end": 4.367,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.629,
+        "end": 6.03,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.283,
+        "end": 6.608,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.86,
+        "end": 7.527,
+        "gloss_id": "평가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.831,
+        "end": 8.025
+      },
+      {
+        "descriptor": "",
+        "start": 3.036,
+        "end": 3.755
+      },
+      {
+        "descriptor": "",
+        "start": 5.799,
+        "end": 6.03
+      },
+      {
+        "descriptor": "",
+        "start": 6.283,
+        "end": 6.608
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.799,
+        "end": 6.03
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 7.419,
+        "end": 7.616
+      }
+    ],
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.016,
+        "end": 6.023
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.399,
+        "end": 3.418
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337060",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:33:48",
+    "sentence_ID": "VXPAKOKS240337060",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    315,
+    126
+  ],
+  "file": "VXPAKOKS240337060.mp4",
+  "saved_as": "VXPAKOKS240337060-채권시장의이자율을빠르고정확하게예측하기는매우어렵습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,365 @@
+{
+  "id": "VXPAKOKS240344210",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "예금 가입 후에는 모바일 앱 또는 은행 창구에서 이자 내역을 볼 수 있어요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.81,
+        "end": 2.199,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.416,
+        "end": 3.216,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.472,
+        "end": 3.63,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.828,
+        "end": 3.986,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.206,
+        "end": 4.432,
+        "gloss_id": "다운1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.628,
+        "end": 4.94,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.361,
+        "end": 5.596,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.915,
+        "end": 6.065,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.309,
+        "end": 6.749,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.92,
+        "end": 7.189,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.447,
+        "end": 7.759,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.875,
+        "end": 7.99,
+        "gloss_id": "보다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.144,
+        "end": 8.234,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.81,
+        "end": 2.199,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.416,
+        "end": 3.216,
+        "loc": "1,2",
+        "word": "가입 후에는"
+      },
+      {
+        "start": 3.472,
+        "end": 3.972,
+        "loc": "3",
+        "word": "모바일"
+      },
+      {
+        "start": 4.206,
+        "end": 4.928,
+        "loc": "4",
+        "word": "앱"
+      },
+      {
+        "start": 5.361,
+        "end": 5.596,
+        "loc": "5,6",
+        "word": "또는 은행"
+      },
+      {
+        "start": 5.915,
+        "end": 6.065,
+        "loc": "7",
+        "word": "창구에서"
+      },
+      {
+        "start": 6.92,
+        "end": 7.189,
+        "loc": "8",
+        "word": "이자"
+      },
+      {
+        "start": 7.447,
+        "end": 7.759,
+        "loc": "9",
+        "word": "내역을"
+      },
+      {
+        "start": 7.875,
+        "end": 8.221,
+        "loc": "10,11,12",
+        "word": "볼 수 있어요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.81,
+        "end": 2.199,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.416,
+        "end": 3.635,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.828,
+        "end": 3.986,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.206,
+        "end": 4.432,
+        "gloss_id": "다운1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.628,
+        "end": 4.94,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.361,
+        "end": 5.596,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.915,
+        "end": 6.065,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.309,
+        "end": 7.185,
+        "gloss_id": "둘중하나3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.447,
+        "end": 8.229,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.988,
+        "end": 3.216
+      },
+      {
+        "descriptor": "",
+        "start": 4.628,
+        "end": 4.94
+      },
+      {
+        "descriptor": "",
+        "start": 5.915,
+        "end": 6.065
+      },
+      {
+        "descriptor": "",
+        "start": 8.144,
+        "end": 8.234
+      },
+      {
+        "descriptor": "",
+        "start": 7.875,
+        "end": 7.99
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.989,
+        "end": 3.216
+      },
+      {
+        "descriptor": "",
+        "start": 8.144,
+        "end": 8.234
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.472,
+        "end": 4.939
+      },
+      {
+        "descriptor": "",
+        "start": 6.92,
+        "end": 7.754
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344210",
+  "potogrf": {
+    "createdTime": "2024-10-07 02:58:35",
+    "sentence_ID": "VXPAKOKS240344210",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    308,
+    126
+  ],
+  "file": "VXPAKOKS240344210.mp4",
+  "saved_as": "VXPAKOKS240344210-예금가입후에는모바일앱또는은행창구에서이자내역을볼수있어요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

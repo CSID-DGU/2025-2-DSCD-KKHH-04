@@ -1,0 +1,460 @@
+{
+  "id": "VXPAKOKS240341070",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "펀드 환매 수수료는 투자 수익률에 영향을 주므로 펀드 선택 시 환매 수수료 조건을 미리 확인해야 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.263,
+        "end": 1.703,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 2.061,
+        "end": 2.279,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.525,
+        "end": 2.783,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.026,
+        "end": 3.445,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.913,
+        "end": 4.081,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.392,
+        "end": 4.59,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.757,
+        "end": 5.046,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.293,
+        "end": 5.622,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.832,
+        "end": 6.231,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 6.627,
+        "end": 6.936,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.222,
+        "end": 7.46,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 7.675,
+        "end": 7.923,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.214,
+        "end": 8.422,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.633,
+        "end": 8.982,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.61,
+        "end": 9.899,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.153,
+        "end": 10.401,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 10.629,
+        "end": 10.938,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 11.138,
+        "end": 11.437,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.263,
+        "end": 1.703,
+        "loc": "0",
+        "word": "펀드"
+      },
+      {
+        "start": 2.061,
+        "end": 2.279,
+        "loc": "1",
+        "word": "환매"
+      },
+      {
+        "start": 2.525,
+        "end": 3.417,
+        "loc": "2",
+        "word": "수수료는"
+      },
+      {
+        "start": 3.913,
+        "end": 4.081,
+        "loc": "3",
+        "word": "투자"
+      },
+      {
+        "start": 4.392,
+        "end": 5.033,
+        "loc": "4",
+        "word": "수익률에"
+      },
+      {
+        "start": 5.293,
+        "end": 6.93,
+        "loc": "5,6",
+        "word": "영향을 주므로"
+      },
+      {
+        "start": 7.222,
+        "end": 7.46,
+        "loc": "7,8",
+        "word": "펀드 선택"
+      },
+      {
+        "start": 7.675,
+        "end": 7.923,
+        "loc": "9",
+        "word": "시"
+      },
+      {
+        "start": 8.214,
+        "end": 8.422,
+        "loc": "13",
+        "word": "미리"
+      },
+      {
+        "start": 8.633,
+        "end": 8.982,
+        "loc": "10",
+        "word": "환매"
+      },
+      {
+        "start": 9.459,
+        "end": 10.422,
+        "loc": "11,12",
+        "word": "수수료 조건을"
+      },
+      {
+        "start": 10.629,
+        "end": 11.441,
+        "loc": "14,15",
+        "word": "확인해야 합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.061,
+        "end": 2.279,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.525,
+        "end": 3.437,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.757,
+        "end": 5.046,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.293,
+        "end": 5.622,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.627,
+        "end": 6.936,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.675,
+        "end": 7.923,
+        "gloss_id": "때1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.214,
+        "end": 8.422,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.633,
+        "end": 8.982,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.459,
+        "end": 9.899,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 10.153,
+        "end": 10.401,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 11.138,
+        "end": 11.437,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.263,
+        "end": 1.703
+      },
+      {
+        "descriptor": "",
+        "start": 3.026,
+        "end": 3.445
+      },
+      {
+        "descriptor": "",
+        "start": 6.627,
+        "end": 6.936
+      },
+      {
+        "descriptor": "",
+        "start": 7.675,
+        "end": 7.923
+      },
+      {
+        "descriptor": "",
+        "start": 10.629,
+        "end": 10.938
+      },
+      {
+        "descriptor": "",
+        "start": 5.293,
+        "end": 5.622
+      },
+      {
+        "descriptor": "",
+        "start": 5.832,
+        "end": 6.231
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.627,
+        "end": 6.936
+      },
+      {
+        "descriptor": "",
+        "start": 1.374,
+        "end": 1.703
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.061,
+        "end": 2.279
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.525,
+        "end": 3.427
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341070",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:10:35",
+    "sentence_ID": "VXPAKOKS240341070",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    362,
+    126
+  ],
+  "file": "VXPAKOKS240341070.mp4",
+  "saved_as": "VXPAKOKS240341070-펀드환매수수료는투자수익률에영향을주므로펀드선택시환매수수료조건을미리확인해야합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

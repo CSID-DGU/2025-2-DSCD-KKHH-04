@@ -1,0 +1,316 @@
+{
+  "id": "VXPAKOKS240334660",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "주식 가격은 회사의 가치에 따라 결정되고, 회사의 수익이 높으면 사람들이 주식을 사려고 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.239,
+        "end": 2.43,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.668,
+        "end": 2.962,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.269,
+        "end": 3.539,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 3.809,
+        "end": 3.984,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.184,
+        "end": 4.565,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.825,
+        "end": 5.317,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.595,
+        "end": 5.754,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.915,
+        "end": 6.115,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.36,
+        "end": 6.884,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.126,
+        "end": 7.27,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.456,
+        "end": 7.988,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.668,
+        "end": 2.962,
+        "loc": "3",
+        "word": "가치에"
+      },
+      {
+        "start": 3.269,
+        "end": 3.539,
+        "loc": "4",
+        "word": "따라"
+      },
+      {
+        "start": 3.809,
+        "end": 3.984,
+        "loc": "0",
+        "word": "주식"
+      },
+      {
+        "start": 4.184,
+        "end": 4.565,
+        "loc": "1",
+        "word": "가격은"
+      },
+      {
+        "start": 4.825,
+        "end": 5.317,
+        "loc": "5",
+        "word": "결정되고,"
+      },
+      {
+        "start": 5.595,
+        "end": 5.754,
+        "loc": "6",
+        "word": "회사의"
+      },
+      {
+        "start": 5.915,
+        "end": 6.115,
+        "loc": "7",
+        "word": "수익이"
+      },
+      {
+        "start": 6.36,
+        "end": 6.884,
+        "loc": "8",
+        "word": "높으면"
+      },
+      {
+        "start": 7.126,
+        "end": 7.982,
+        "loc": "9,10,11,12",
+        "word": "사람들이 주식을 사려고 해요."
+      },
+      {
+        "start": 2.239,
+        "end": 2.43,
+        "loc": "2",
+        "word": "회사의"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.668,
+        "end": 2.962,
+        "gloss_id": "운영1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.809,
+        "end": 3.984,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.825,
+        "end": 5.317,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.595,
+        "end": 5.754,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.126,
+        "end": 7.269,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.239,
+        "end": 2.43,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.589,
+        "end": 7.986
+      },
+      {
+        "descriptor": "",
+        "start": 4.825,
+        "end": 5.317
+      },
+      {
+        "descriptor": "",
+        "start": 6.36,
+        "end": 6.884
+      },
+      {
+        "descriptor": "",
+        "start": 3.269,
+        "end": 3.539
+      },
+      {
+        "descriptor": "",
+        "start": 4.184,
+        "end": 4.565
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.239,
+        "end": 4.457
+      },
+      {
+        "descriptor": "",
+        "start": 5.595,
+        "end": 6.894
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240334660",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:31:37",
+    "sentence_ID": "VXPAKOKS240334660",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    285,
+    126
+  ],
+  "file": "VXPAKOKS240334660.mp4",
+  "saved_as": "VXPAKOKS240334660-주식가격은회사의가치에따라결정되고,회사의수익이높으면사람들이주식을사려고해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

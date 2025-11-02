@@ -1,0 +1,424 @@
+{
+  "id": "VXPAKOKS240351230",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "여러 개의 적금을 한 번에 해지할 수 있지만 중도 해지 수수료가 얼마인지 미리 계산해 보는 게 좋아요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.83,
+        "end": 1.992,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.201,
+        "end": 2.754,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.989,
+        "end": 3.489,
+        "gloss_id": "몇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.722,
+        "end": 4.293,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.529,
+        "end": 4.664,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.875,
+        "end": 5.019,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.121,
+        "end": 5.381,
+        "gloss_id": "맞다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.539,
+        "end": 5.816,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.089,
+        "end": 6.277,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.549,
+        "end": 6.675,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.857,
+        "end": 6.992,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.139,
+        "end": 7.434,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.682,
+        "end": 7.995,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.154,
+        "end": 8.343,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.477,
+        "end": 8.577,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.664,
+        "end": 8.844,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.025,
+        "end": 9.409,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.83,
+        "end": 2.775,
+        "loc": "2",
+        "word": "적금을"
+      },
+      {
+        "start": 2.989,
+        "end": 3.489,
+        "loc": "0,1",
+        "word": "여러 개의"
+      },
+      {
+        "start": 3.722,
+        "end": 4.293,
+        "loc": "3,4",
+        "word": "한 번에"
+      },
+      {
+        "start": 4.529,
+        "end": 4.664,
+        "loc": "5",
+        "word": "해지할"
+      },
+      {
+        "start": 4.875,
+        "end": 5.357,
+        "loc": "6,7",
+        "word": "수 있지만"
+      },
+      {
+        "start": 5.539,
+        "end": 6.27,
+        "loc": "8",
+        "word": "중도"
+      },
+      {
+        "start": 6.549,
+        "end": 6.675,
+        "loc": "9",
+        "word": "해지"
+      },
+      {
+        "start": 6.857,
+        "end": 7.428,
+        "loc": "10",
+        "word": "수수료가"
+      },
+      {
+        "start": 7.682,
+        "end": 7.995,
+        "loc": "11",
+        "word": "얼마인지"
+      },
+      {
+        "start": 8.154,
+        "end": 8.343,
+        "loc": "12",
+        "word": "미리"
+      },
+      {
+        "start": 8.477,
+        "end": 8.853,
+        "loc": "13,14,15",
+        "word": "계산해 보는 게"
+      },
+      {
+        "start": 9.025,
+        "end": 9.409,
+        "loc": "16",
+        "word": "좋아요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.201,
+        "end": 3.484,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.722,
+        "end": 4.293,
+        "gloss_id": "공범2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.529,
+        "end": 4.664,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.089,
+        "end": 6.277,
+        "gloss_id": "하다가1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.549,
+        "end": 6.675,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.857,
+        "end": 6.992,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.139,
+        "end": 7.434,
+        "gloss_id": "세금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.664,
+        "end": 8.844,
+        "gloss_id": "계산2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.025,
+        "end": 9.409,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.201,
+        "end": 2.754
+      },
+      {
+        "descriptor": "",
+        "start": 3.096,
+        "end": 3.489
+      },
+      {
+        "descriptor": "",
+        "start": 3.722,
+        "end": 4.293
+      },
+      {
+        "descriptor": "",
+        "start": 8.477,
+        "end": 8.835
+      },
+      {
+        "descriptor": "",
+        "start": 9.025,
+        "end": 9.409
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.875,
+        "end": 5.037
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 8.154,
+        "end": 8.343
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.83,
+        "end": 4.27
+      },
+      {
+        "descriptor": "",
+        "start": 5.539,
+        "end": 7.916
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351230",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:44:04",
+    "sentence_ID": "VXPAKOKS240351230",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    320,
+    126
+  ],
+  "file": "VXPAKOKS240351230.mp4",
+  "saved_as": "VXPAKOKS240351230-여러개의적금을한번에해지할수있지만중도해지수수료가얼마인지미리계산해보는게좋아요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

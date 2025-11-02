@@ -1,0 +1,300 @@
+{
+  "id": "VXPAKOKS240330140",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "신용카드 발급받을 때 결제일을 정하라고 하는데, 결제일에 대해 설명해 주세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.98,
+        "end": 2.22,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.293,
+        "end": 2.546,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.786,
+        "end": 3.552,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.741,
+        "end": 4.014,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.18,
+        "end": 4.413,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.573,
+        "end": 4.766,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.875,
+        "end": 5.582,
+        "gloss_id": "질문2",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.857,
+        "end": 6.01,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "3",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.136,
+        "end": 6.376,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.473,
+        "end": 6.6,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.726,
+        "end": 7.159,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.98,
+        "end": 2.527,
+        "loc": "0",
+        "word": "신용카드"
+      },
+      {
+        "start": 2.786,
+        "end": 3.546,
+        "loc": "1,2",
+        "word": "발급받을 때"
+      },
+      {
+        "start": 3.741,
+        "end": 4.014,
+        "loc": "3",
+        "word": "결제일을"
+      },
+      {
+        "start": 4.18,
+        "end": 4.766,
+        "loc": "4",
+        "word": "정하라고"
+      },
+      {
+        "start": 4.875,
+        "end": 5.582,
+        "loc": "5",
+        "word": "하는데,"
+      },
+      {
+        "start": 5.857,
+        "end": 6.363,
+        "loc": "6",
+        "word": "결제일에"
+      },
+      {
+        "start": 6.473,
+        "end": 6.6,
+        "loc": "7",
+        "word": "대해"
+      },
+      {
+        "start": 6.726,
+        "end": 7.159,
+        "loc": "8,9",
+        "word": "설명해 주세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.98,
+        "end": 2.54,
+        "gloss_id": "믿다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.786,
+        "end": 3.552,
+        "gloss_id": "만들다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.741,
+        "end": 4.421,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.573,
+        "end": 4.766,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.857,
+        "end": 6.01,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.136,
+        "end": 6.376,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.875,
+        "end": 5.582
+      },
+      {
+        "descriptor": "",
+        "start": 6.726,
+        "end": 7.159
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.18,
+        "end": 4.753
+      },
+      {
+        "descriptor": "",
+        "start": 6.726,
+        "end": 7.159
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.98,
+        "end": 2.22
+      },
+      {
+        "descriptor": "",
+        "start": 6.726,
+        "end": 7.159
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330140",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:51:01",
+    "sentence_ID": "VXPAKOKS240330140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    240,
+    126
+  ],
+  "file": "VXPAKOKS240330140.mp4",
+  "saved_as": "VXPAKOKS240330140-신용카드발급받을때결제일을정하라고하는데,결제일에대해설명해주세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

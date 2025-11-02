@@ -1,0 +1,319 @@
+{
+  "id": "VXPAKOKS240336130",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "투자자가 자금이 필요할 때 채권을 쉽게 현금화할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.899,
+        "end": 2.036,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.312,
+        "end": 2.621,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.78,
+        "end": 2.86,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.17,
+        "end": 3.622,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.877,
+        "end": 4.289,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.417,
+        "end": 4.521,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.719,
+        "end": 4.877,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.096,
+        "end": 5.687,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.958,
+        "end": 6.069,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.268,
+        "end": 6.553,
+        "gloss_id": "현금주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.76,
+        "end": 7.038,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.261,
+        "end": 7.531,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.899,
+        "end": 2.608,
+        "loc": "0",
+        "word": "투자자가"
+      },
+      {
+        "start": 2.78,
+        "end": 2.86,
+        "loc": "1",
+        "word": "자금이"
+      },
+      {
+        "start": 3.17,
+        "end": 4.293,
+        "loc": "2,3",
+        "word": "필요할 때"
+      },
+      {
+        "start": 4.417,
+        "end": 5.687,
+        "loc": "4",
+        "word": "채권을"
+      },
+      {
+        "start": 5.958,
+        "end": 7.03,
+        "loc": "5,6",
+        "word": "쉽게 현금화할"
+      },
+      {
+        "start": 7.261,
+        "end": 7.531,
+        "loc": "7,8",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.312,
+        "end": 2.86,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.169,
+        "end": 3.622,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.877,
+        "end": 4.877,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.092,
+        "end": 6.069,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.268,
+        "end": 6.553,
+        "gloss_id": "현금주다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.76,
+        "end": 7.038,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.34,
+        "end": 7.531
+      },
+      {
+        "descriptor": "",
+        "start": 3.17,
+        "end": 3.622
+      },
+      {
+        "descriptor": "",
+        "start": 3.877,
+        "end": 4.289
+      },
+      {
+        "descriptor": "",
+        "start": 5.348,
+        "end": 5.689
+      },
+      {
+        "descriptor": "",
+        "start": 6.268,
+        "end": 6.553
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.34,
+        "end": 7.531
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.76,
+        "end": 7.038
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.899,
+        "end": 2.603
+      },
+      {
+        "descriptor": "",
+        "start": 3.17,
+        "end": 3.622
+      },
+      {
+        "descriptor": "",
+        "start": 5.303,
+        "end": 6.513
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336130",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:41",
+    "sentence_ID": "VXPAKOKS240336130",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    286,
+    126
+  ],
+  "file": "VXPAKOKS240336130.mp4",
+  "saved_as": "VXPAKOKS240336130-투자자가자금이필요할때채권을쉽게현금화할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

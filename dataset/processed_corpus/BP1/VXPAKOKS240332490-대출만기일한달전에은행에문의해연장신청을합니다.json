@@ -1,0 +1,350 @@
+{
+  "id": "VXPAKOKS240332490",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "대출 만기일 한 달 전에 은행에 문의해 연장 신청을 합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.568,
+        "end": 2.778,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.967,
+        "end": 3.379,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.555,
+        "end": 4.011,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.257,
+        "end": 4.52,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.678,
+        "end": 5.02,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.833,
+        "end": 6.113,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.293,
+        "end": 6.477,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.706,
+        "end": 6.942,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.32,
+        "end": 7.486,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.666,
+        "end": 7.99,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.225,
+        "end": 8.611,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.17,
+        "end": 5.608,
+        "gloss_id": "연장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.568,
+        "end": 2.813,
+        "loc": "0",
+        "word": "대출"
+      },
+      {
+        "start": 6.706,
+        "end": 6.942,
+        "loc": "2,3",
+        "word": "한 달"
+      },
+      {
+        "start": 7.32,
+        "end": 7.486,
+        "loc": "4",
+        "word": "전에"
+      },
+      {
+        "start": 7.666,
+        "end": 7.99,
+        "loc": "5",
+        "word": "은행에"
+      },
+      {
+        "start": 5.17,
+        "end": 5.625,
+        "loc": "7",
+        "word": "연장"
+      },
+      {
+        "start": 5.833,
+        "end": 6.484,
+        "loc": "8,9",
+        "word": "신청을 합니다."
+      },
+      {
+        "start": 8.225,
+        "end": 8.611,
+        "loc": "6",
+        "word": "문의해"
+      },
+      {
+        "start": 2.967,
+        "end": 5.023,
+        "loc": "1",
+        "word": "만기일"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.967,
+        "end": 3.379,
+        "gloss_id": "할부1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.555,
+        "end": 4.011,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.257,
+        "end": 4.52,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.678,
+        "end": 5.599,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.833,
+        "end": 6.113,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.32,
+        "end": 7.486,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.666,
+        "end": 7.99,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.107,
+        "end": 3.379
+      },
+      {
+        "descriptor": "",
+        "start": 4.678,
+        "end": 5.02
+      },
+      {
+        "descriptor": "",
+        "start": 5.833,
+        "end": 6.464
+      },
+      {
+        "descriptor": "",
+        "start": 8.225,
+        "end": 8.611
+      },
+      {
+        "descriptor": "",
+        "start": 5.17,
+        "end": 5.608
+      },
+      {
+        "descriptor": "",
+        "start": 7.32,
+        "end": 7.486
+      },
+      {
+        "descriptor": "",
+        "start": 7.666,
+        "end": 7.99
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.731,
+        "end": 4.011
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.17,
+        "end": 5.608
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.833,
+        "end": 6.464
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.568,
+        "end": 4.999
+      },
+      {
+        "descriptor": "",
+        "start": 5.833,
+        "end": 6.446
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240332490",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:20:03",
+    "sentence_ID": "VXPAKOKS240332490",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    316,
+    126
+  ],
+  "file": "VXPAKOKS240332490.mp4",
+  "saved_as": "VXPAKOKS240332490-대출만기일한달전에은행에문의해연장신청을합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

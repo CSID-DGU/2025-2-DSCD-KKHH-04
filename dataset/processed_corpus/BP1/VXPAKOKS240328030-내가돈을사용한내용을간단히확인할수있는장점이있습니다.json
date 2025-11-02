@@ -1,0 +1,224 @@
+{
+  "id": "VXPAKOKS240328030",
+  "opertor": "label23",
+  "krlgg_sntenc": {
+    "koreanText": "내가 돈을 사용한 내용을 간단히 확인할 수 있는 장점이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.299,
+        "end": 1.799,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.999,
+        "end": 2.718,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.933,
+        "end": 3.311,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.499,
+        "end": 3.811,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.966,
+        "end": 4.12,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 4.266,
+        "end": 4.624,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.766,
+        "end": 4.961,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.099,
+        "end": 5.309,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.299,
+        "end": 1.799,
+        "loc": "0",
+        "word": "내가"
+      },
+      {
+        "start": 1.999,
+        "end": 2.718,
+        "loc": "1,2",
+        "word": "돈을 사용한"
+      },
+      {
+        "start": 2.933,
+        "end": 3.311,
+        "loc": "3",
+        "word": "내용을"
+      },
+      {
+        "start": 4.266,
+        "end": 4.624,
+        "loc": "6,7",
+        "word": "수 있는"
+      },
+      {
+        "start": 3.499,
+        "end": 4.116,
+        "loc": "5",
+        "word": "확인할"
+      },
+      {
+        "start": 4.766,
+        "end": 5.307,
+        "loc": "8,9",
+        "word": "장점이 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.933,
+        "end": 4.622,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.499,
+        "end": 4.106
+      },
+      {
+        "descriptor": "",
+        "start": 1.299,
+        "end": 1.799
+      },
+      {
+        "descriptor": "",
+        "start": 4.266,
+        "end": 4.624
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.266,
+        "end": 4.624
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.999,
+        "end": 2.718
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.299,
+        "end": 1.799
+      },
+      {
+        "descriptor": "",
+        "start": 2.933,
+        "end": 3.311
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240328030",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:04:51",
+    "sentence_ID": "VXPAKOKS240328030",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    183,
+    126
+  ],
+  "file": "VXPAKOKS240328030.mp4",
+  "saved_as": "VXPAKOKS240328030-내가돈을사용한내용을간단히확인할수있는장점이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,312 @@
+{
+  "id": "VXPAKOKS240329790",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "1회 이체 한도는 1천만 원부터 5천만 원 사이인데, 은행마다 차이가 있어.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.701,
+        "end": 2.175,
+        "gloss_id": "회",
+        "express": "f",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.433,
+        "end": 2.751,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.97,
+        "end": 3.613,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.873,
+        "end": 4.399,
+        "gloss_id": "10000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.574,
+        "end": 4.82,
+        "gloss_id": "일형3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.976,
+        "end": 5.476,
+        "gloss_id": "50000000",
+        "express": "n",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.721,
+        "end": 6.182,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.363,
+        "end": 6.557,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.838,
+        "end": 7.312,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.701,
+        "end": 2.175,
+        "loc": "0",
+        "word": "1회"
+      },
+      {
+        "start": 2.433,
+        "end": 2.751,
+        "loc": "1",
+        "word": "이체"
+      },
+      {
+        "start": 2.97,
+        "end": 3.613,
+        "loc": "2",
+        "word": "한도는"
+      },
+      {
+        "start": 4.976,
+        "end": 5.476,
+        "loc": "5,6",
+        "word": "5천만 원"
+      },
+      {
+        "start": 5.721,
+        "end": 6.182,
+        "loc": "7",
+        "word": "사이인데,"
+      },
+      {
+        "start": 6.363,
+        "end": 6.557,
+        "loc": "8",
+        "word": "은행마다"
+      },
+      {
+        "start": 6.838,
+        "end": 7.312,
+        "loc": "9,10",
+        "word": "차이가 있어."
+      },
+      {
+        "start": 3.873,
+        "end": 4.821,
+        "loc": "3,4",
+        "word": "1천만 원부터"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.701,
+        "end": 2.175,
+        "gloss_id": "1",
+        "express": "n",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.433,
+        "end": 2.751,
+        "gloss_id": "보내다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.97,
+        "end": 3.613,
+        "gloss_id": "제한1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.721,
+        "end": 6.182,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.363,
+        "end": 6.557,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.838,
+        "end": 7.312,
+        "gloss_id": "다르다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": [
+      {
+        "descriptor": "천만원",
+        "start": 3.873,
+        "end": 4.399
+      },
+      {
+        "descriptor": "오천만원",
+        "start": 4.976,
+        "end": 5.476
+      },
+      {
+        "descriptor": "일회",
+        "start": 1.701,
+        "end": 2.175
+      }
+    ],
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.838,
+        "end": 7.312
+      },
+      {
+        "descriptor": "",
+        "start": 2.97,
+        "end": 3.613
+      },
+      {
+        "descriptor": "",
+        "start": 3.873,
+        "end": 4.399
+      },
+      {
+        "descriptor": "",
+        "start": 4.976,
+        "end": 5.476
+      },
+      {
+        "descriptor": "",
+        "start": 6.363,
+        "end": 6.557
+      },
+      {
+        "descriptor": "",
+        "start": 5.721,
+        "end": 6.182
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.97,
+        "end": 3.613
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.838,
+        "end": 7.312
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.701,
+        "end": 2.175
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329790",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:48:46",
+    "sentence_ID": "VXPAKOKS240329790",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    234,
+    126
+  ],
+  "file": "VXPAKOKS240329790.mp4",
+  "saved_as": "VXPAKOKS240329790-1회이체한도는1천만원부터5천만원사이인데,은행마다차이가있어.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

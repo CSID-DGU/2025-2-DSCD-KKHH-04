@@ -1,0 +1,323 @@
+{
+  "id": "VXPAKOKS240341540",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드의 투자 전략과 위험 수준이 투자자의 수익률에 영향을 미칩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.305,
+        "end": 1.651,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.994,
+        "end": 2.316,
+        "gloss_id": "종류2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.513,
+        "end": 3.183,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.477,
+        "end": 3.75,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.977,
+        "end": 4.267,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.503,
+        "end": 4.874,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.139,
+        "end": 5.301,
+        "gloss_id": "지시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.439,
+        "end": 6.174,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.642,
+        "end": 6.98,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.128,
+        "end": 7.393,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.599,
+        "end": 8.099,
+        "gloss_id": "퍼센트5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.373,
+        "end": 8.816,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.305,
+        "end": 1.651,
+        "loc": "0,1",
+        "word": "펀드의 투자"
+      },
+      {
+        "start": 1.994,
+        "end": 3.174,
+        "loc": "2",
+        "word": "전략과"
+      },
+      {
+        "start": 3.477,
+        "end": 3.75,
+        "loc": "3",
+        "word": "위험"
+      },
+      {
+        "start": 3.977,
+        "end": 4.267,
+        "loc": "4",
+        "word": "수준이"
+      },
+      {
+        "start": 4.503,
+        "end": 6.994,
+        "loc": "5",
+        "word": "투자자의"
+      },
+      {
+        "start": 7.128,
+        "end": 8.089,
+        "loc": "6",
+        "word": "수익률에"
+      },
+      {
+        "start": 8.373,
+        "end": 8.816,
+        "loc": "7,8",
+        "word": "영향을 미칩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 7.444,
+        "end": 8.098,
+        "gloss_id": "몇1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.513,
+        "end": 3.183,
+        "gloss_id": "선택1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.977,
+        "end": 4.267,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.439,
+        "end": 6.174,
+        "gloss_id": "맞추다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.642,
+        "end": 6.98,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.994,
+        "end": 2.316,
+        "gloss_id": "종류2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.373,
+        "end": 8.816,
+        "gloss_id": "다르다1#",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 7.599,
+        "end": 8.099
+      },
+      {
+        "descriptor": "",
+        "start": 2.513,
+        "end": 3.183
+      },
+      {
+        "descriptor": "",
+        "start": 5.733,
+        "end": 6.233
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.733,
+        "end": 6.233
+      }
+    ],
+    "Hs": [
+      {
+        "descriptor": "",
+        "start": 7.798,
+        "end": 8.281
+      }
+    ],
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 7.599,
+        "end": 8.099
+      },
+      {
+        "descriptor": "",
+        "start": 1.305,
+        "end": 2.298
+      },
+      {
+        "descriptor": "",
+        "start": 5.439,
+        "end": 6.174
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341540",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:14:25",
+    "sentence_ID": "VXPAKOKS240341540",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    291,
+    126
+  ],
+  "file": "VXPAKOKS240341540.mp4",
+  "saved_as": "VXPAKOKS240341540-펀드의투자전략과위험수준이투자자의수익률에영향을미칩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,304 @@
+{
+  "id": "VXPAKOKS240337440",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 이자 지급 주기가 짧으면, 채권 발생 회사의 이자 지급에 대한 부담이 커집니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.881,
+        "end": 1.943,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.14,
+        "end": 2.606,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.898,
+        "end": 3.252,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.492,
+        "end": 3.692,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.877,
+        "end": 4.128,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.355,
+        "end": 4.529,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.768,
+        "end": 5.242,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.439,
+        "end": 5.596,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.966,
+        "end": 6.226,
+        "gloss_id": "입장1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.445,
+        "end": 6.765,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.049,
+        "end": 7.231,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "3"
+        }
+      },
+      {
+        "start": 7.461,
+        "end": 7.806,
+        "gloss_id": "부담1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.874,
+        "end": 3.256,
+        "loc": "0",
+        "word": "채권"
+      },
+      {
+        "start": 3.492,
+        "end": 3.692,
+        "loc": "1",
+        "word": "이자"
+      },
+      {
+        "start": 3.877,
+        "end": 4.128,
+        "loc": "2",
+        "word": "지급"
+      },
+      {
+        "start": 4.355,
+        "end": 4.529,
+        "loc": "3",
+        "word": "주기가"
+      },
+      {
+        "start": 4.768,
+        "end": 5.242,
+        "loc": "4",
+        "word": "짧으면,"
+      },
+      {
+        "start": 5.439,
+        "end": 6.231,
+        "loc": "5,6,7",
+        "word": "채권 발생 회사의"
+      },
+      {
+        "start": 6.445,
+        "end": 6.765,
+        "loc": "8",
+        "word": "이자"
+      },
+      {
+        "start": 7.049,
+        "end": 7.231,
+        "loc": "9,10",
+        "word": "지급에 대한"
+      },
+      {
+        "start": 7.461,
+        "end": 7.806,
+        "loc": "11,12",
+        "word": "부담이 커집니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.898,
+        "end": 3.252,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.355,
+        "end": 4.529,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.768,
+        "end": 5.242,
+        "gloss_id": "짧다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.439,
+        "end": 5.596,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.966,
+        "end": 6.226,
+        "gloss_id": "입장1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.768,
+        "end": 5.242
+      },
+      {
+        "descriptor": "",
+        "start": 7.461,
+        "end": 7.806
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.877,
+        "end": 4.128
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.439,
+        "end": 7.802
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.492,
+        "end": 4.516
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337440",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:38:46",
+    "sentence_ID": "VXPAKOKS240337440",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    309,
+    126
+  ],
+  "file": "VXPAKOKS240337440.mp4",
+  "saved_as": "VXPAKOKS240337440-채권이자지급주기가짧으면,채권발생회사의이자지급에대한부담이커집니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

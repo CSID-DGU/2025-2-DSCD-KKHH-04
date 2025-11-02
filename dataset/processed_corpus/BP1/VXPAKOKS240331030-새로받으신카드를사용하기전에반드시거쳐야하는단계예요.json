@@ -1,0 +1,224 @@
+{
+  "id": "VXPAKOKS240331030",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "새로 받으신 카드를 사용하기 전에 반드시 거쳐야 하는 단계예요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.84,
+        "end": 2.123,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.42,
+        "end": 3.131,
+        "gloss_id": "카드2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.418,
+        "end": 3.751,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.104,
+        "end": 4.462,
+        "gloss_id": "처음1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.616,
+        "end": 4.874,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.16,
+        "end": 5.542,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.756,
+        "end": 6.045,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.418,
+        "end": 3.751,
+        "loc": "4",
+        "word": "전에"
+      },
+      {
+        "start": 5.756,
+        "end": 6.045,
+        "loc": "5",
+        "word": "반드시"
+      },
+      {
+        "start": 4.104,
+        "end": 5.536,
+        "loc": "6,7,8",
+        "word": "거쳐야 하는 단계예요."
+      },
+      {
+        "start": 1.84,
+        "end": 2.123,
+        "loc": "0",
+        "word": "새로"
+      },
+      {
+        "start": 2.42,
+        "end": 3.131,
+        "loc": "1,2,3",
+        "word": "받으신 카드를 사용하기"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.84,
+        "end": 2.123,
+        "gloss_id": "새롭다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.418,
+        "end": 3.751,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.616,
+        "end": 4.874,
+        "gloss_id": "사용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.16,
+        "end": 5.542,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.756,
+        "end": 6.045,
+        "gloss_id": "약속1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.418,
+        "end": 3.751
+      },
+      {
+        "descriptor": "",
+        "start": 5.756,
+        "end": 6.045
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.756,
+        "end": 6.045
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.84,
+        "end": 3.139
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240331030",
+  "potogrf": {
+    "createdTime": "2024-06-17 03:06:30",
+    "sentence_ID": "VXPAKOKS240331030",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    223,
+    126
+  ],
+  "file": "VXPAKOKS240331030.mp4",
+  "saved_as": "VXPAKOKS240331030-새로받으신카드를사용하기전에반드시거쳐야하는단계예요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

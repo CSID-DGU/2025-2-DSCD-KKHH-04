@@ -1,0 +1,367 @@
+{
+  "id": "VXPAKOKS240341120",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "환율의 변동성에 대비할 수 있는 여러 펀드에 투자해야 투자자의 자산을 보호할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.206,
+        "end": 2.098,
+        "gloss_id": "달러1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.369,
+        "end": 2.853,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.025,
+        "end": 3.314,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.47,
+        "end": 3.664,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.014,
+        "end": 4.491,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.72,
+        "end": 5.557,
+        "gloss_id": "투자1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.805,
+        "end": 6.117,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.301,
+        "end": 6.495,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.681,
+        "end": 6.922,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.136,
+        "end": 7.377,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.486,
+        "end": 7.665,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.776,
+        "end": 8.119,
+        "gloss_id": "보호2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.286,
+        "end": 8.527,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.206,
+        "end": 2.098,
+        "loc": "0",
+        "word": "환율의"
+      },
+      {
+        "start": 2.369,
+        "end": 2.853,
+        "loc": "1",
+        "word": "변동성에"
+      },
+      {
+        "start": 3.024,
+        "end": 4.502,
+        "loc": "2,3,4",
+        "word": "대비할 수 있는"
+      },
+      {
+        "start": 4.72,
+        "end": 6.113,
+        "loc": "5,6,7",
+        "word": "여러 펀드에 투자해야"
+      },
+      {
+        "start": 6.301,
+        "end": 6.926,
+        "loc": "8",
+        "word": "투자자의"
+      },
+      {
+        "start": 7.136,
+        "end": 7.377,
+        "loc": "9",
+        "word": "자산을"
+      },
+      {
+        "start": 7.486,
+        "end": 8.104,
+        "loc": "10",
+        "word": "보호할"
+      },
+      {
+        "start": 8.286,
+        "end": 8.527,
+        "loc": "11,12",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.369,
+        "end": 2.853,
+        "gloss_id": "가격2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.025,
+        "end": 3.314,
+        "gloss_id": "손해1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.47,
+        "end": 3.664,
+        "gloss_id": "막다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.014,
+        "end": 4.491,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.805,
+        "end": 6.485,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.681,
+        "end": 6.922,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.136,
+        "end": 7.377,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.776,
+        "end": 8.119,
+        "gloss_id": "보호2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.614,
+        "end": 2.09
+      },
+      {
+        "descriptor": "",
+        "start": 4.014,
+        "end": 4.491
+      },
+      {
+        "descriptor": "",
+        "start": 5.805,
+        "end": 6.117
+      },
+      {
+        "descriptor": "",
+        "start": 6.681,
+        "end": 6.922
+      },
+      {
+        "descriptor": "",
+        "start": 7.136,
+        "end": 7.377
+      },
+      {
+        "descriptor": "",
+        "start": 8.286,
+        "end": 8.527
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.805,
+        "end": 6.117
+      },
+      {
+        "descriptor": "",
+        "start": 8.286,
+        "end": 8.527
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.369,
+        "end": 2.853
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.206,
+        "end": 2.098
+      },
+      {
+        "descriptor": "",
+        "start": 3.025,
+        "end": 4.489
+      },
+      {
+        "descriptor": "",
+        "start": 6.301,
+        "end": 7.372
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341120",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:11:06",
+    "sentence_ID": "VXPAKOKS240341120",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    282,
+    126
+  ],
+  "file": "VXPAKOKS240341120.mp4",
+  "saved_as": "VXPAKOKS240341120-환율의변동성에대비할수있는여러펀드에투자해야투자자의자산을보호할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

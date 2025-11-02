@@ -1,0 +1,321 @@
+{
+  "id": "VXPAKOKS240376170",
+  "opertor": "label26",
+  "krlgg_sntenc": {
+    "koreanText": "비상금 계좌를 설정하고, 위기 상황에서 활용할 수 있도록 준비하세요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.115,
+        "end": 2.201,
+        "gloss_id": "혹시1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.473,
+        "end": 2.551,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.758,
+        "end": 3.036,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.123,
+        "end": 3.266,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.387,
+        "end": 4.116,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.295,
+        "end": 4.795,
+        "gloss_id": "분위기2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.109,
+        "end": 5.237,
+        "gloss_id": "갑자기2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.388,
+        "end": 5.767,
+        "gloss_id": "비정상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.867,
+        "end": 6.017,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.153,
+        "end": 6.303,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.481,
+        "end": 6.752,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.887,
+        "end": 4.987,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.101,
+        "end": 2.544,
+        "loc": "0",
+        "word": "비상금"
+      },
+      {
+        "start": 2.758,
+        "end": 3.264,
+        "loc": "1",
+        "word": "계좌를"
+      },
+      {
+        "start": 3.387,
+        "end": 4.116,
+        "loc": "2",
+        "word": "설정하고,"
+      },
+      {
+        "start": 4.295,
+        "end": 4.988,
+        "loc": "4",
+        "word": "상황에서"
+      },
+      {
+        "start": 5.116,
+        "end": 5.758,
+        "loc": "3",
+        "word": "위기"
+      },
+      {
+        "start": 5.874,
+        "end": 6.303,
+        "loc": "5,6,7",
+        "word": "활용할 수 있도록"
+      },
+      {
+        "start": 6.481,
+        "end": 6.752,
+        "loc": "8",
+        "word": "준비하세요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.758,
+        "end": 3.265,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.387,
+        "end": 4.116,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.295,
+        "end": 5.238,
+        "gloss_id": "분위기2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.388,
+        "end": 5.767,
+        "gloss_id": "비정상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.153,
+        "end": 6.303,
+        "gloss_id": "이용1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.481,
+        "end": 6.752,
+        "gloss_id": "준비1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.387,
+        "end": 4.116
+      },
+      {
+        "descriptor": "",
+        "start": 6.481,
+        "end": 6.752
+      },
+      {
+        "descriptor": "",
+        "start": 5.388,
+        "end": 5.767
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.502,
+        "end": 5.767
+      },
+      {
+        "descriptor": "",
+        "start": 6.153,
+        "end": 6.303
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.387,
+        "end": 4.116
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 4.846,
+        "end": 5.217
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.051,
+        "end": 2.208
+      },
+      {
+        "descriptor": "",
+        "start": 4.295,
+        "end": 5.753
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240376170",
+  "potogrf": {
+    "createdTime": "2024-07-18 02:44:42",
+    "sentence_ID": "VXPAKOKS240376170",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    257,
+    126
+  ],
+  "file": "VXPAKOKS240376170.mp4",
+  "saved_as": "VXPAKOKS240376170-비상금계좌를설정하고,위기상황에서활용할수있도록준비하세요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

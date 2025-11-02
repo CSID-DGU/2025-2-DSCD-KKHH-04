@@ -1,0 +1,305 @@
+{
+  "id": "VXPAKOKS240340510",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "펀드는 관리 수수료와 성과보수가 지불해야 하므로 실제 수익이 낮아지는 단점이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.113,
+        "end": 1.613,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 1.883,
+        "end": 2.144,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.406,
+        "end": 2.824,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.071,
+        "end": 3.728,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.997,
+        "end": 4.759,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.066,
+        "end": 5.2,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.432,
+        "end": 5.633,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.91,
+        "end": 6.193,
+        "gloss_id": "나쁘다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.358,
+        "end": 6.567,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.903,
+        "end": 7.164,
+        "gloss_id": "깨끗하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.337,
+        "end": 7.471,
+        "gloss_id": "삼키다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.658,
+        "end": 7.941,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.113,
+        "end": 1.613,
+        "loc": "0",
+        "word": "펀드는"
+      },
+      {
+        "start": 1.883,
+        "end": 2.144,
+        "loc": "1",
+        "word": "관리"
+      },
+      {
+        "start": 2.406,
+        "end": 3.721,
+        "loc": "2",
+        "word": "수수료와"
+      },
+      {
+        "start": 3.997,
+        "end": 4.759,
+        "loc": "3",
+        "word": "성과보수가"
+      },
+      {
+        "start": 5.066,
+        "end": 5.626,
+        "loc": "4,5",
+        "word": "지불해야 하므로"
+      },
+      {
+        "start": 5.91,
+        "end": 6.567,
+        "loc": "9,10",
+        "word": "단점이 있습니다."
+      },
+      {
+        "start": 6.903,
+        "end": 7.463,
+        "loc": "6,7",
+        "word": "실제 수익이"
+      },
+      {
+        "start": 7.658,
+        "end": 7.941,
+        "loc": "8",
+        "word": "낮아지는"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.406,
+        "end": 3.728,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.997,
+        "end": 4.759,
+        "gloss_id": "월급2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.113,
+        "end": 1.613
+      },
+      {
+        "descriptor": "",
+        "start": 3.071,
+        "end": 3.728
+      },
+      {
+        "descriptor": "",
+        "start": 3.997,
+        "end": 4.759
+      },
+      {
+        "descriptor": "",
+        "start": 5.432,
+        "end": 5.633
+      },
+      {
+        "descriptor": "",
+        "start": 7.658,
+        "end": 7.941
+      },
+      {
+        "descriptor": "",
+        "start": 6.358,
+        "end": 6.567
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.91,
+        "end": 6.582
+      },
+      {
+        "descriptor": "",
+        "start": 7.337,
+        "end": 7.934
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 7.658,
+        "end": 7.941
+      }
+    ],
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 4.109,
+        "end": 4.751
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.113,
+        "end": 3.735
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240340510",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:06:13",
+    "sentence_ID": "VXPAKOKS240340510",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    269,
+    126
+  ],
+  "file": "VXPAKOKS240340510.mp4",
+  "saved_as": "VXPAKOKS240340510-펀드는관리수수료와성과보수가지불해야하므로실제수익이낮아지는단점이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

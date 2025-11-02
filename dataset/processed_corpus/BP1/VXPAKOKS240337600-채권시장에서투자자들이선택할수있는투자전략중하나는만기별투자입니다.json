@@ -1,0 +1,324 @@
+{
+  "id": "VXPAKOKS240337600",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "채권 시장에서 투자자들이 선택할 수 있는 투자 전략 중 하나는 만기별 투자입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.002,
+        "end": 2.193,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.419,
+        "end": 2.581,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.837,
+        "end": 3.695,
+        "gloss_id": "지시2#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.982,
+        "end": 4.163,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.31,
+        "end": 4.551,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 4.757,
+        "end": 5.565,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.087,
+        "end": 6.388,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.626,
+        "end": 6.788,
+        "gloss_id": "원하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.024,
+        "end": 7.524,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.778,
+        "end": 7.91,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.168,
+        "end": 8.508,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.763,
+        "end": 9.233,
+        "gloss_id": "길이1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.459,
+        "end": 9.71,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 9.947,
+        "end": 10.228,
+        "gloss_id": "보다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.002,
+        "end": 3.674,
+        "loc": "2",
+        "word": "투자자들이"
+      },
+      {
+        "start": 3.982,
+        "end": 5.565,
+        "loc": "0,1",
+        "word": "채권 시장에서"
+      },
+      {
+        "start": 6.087,
+        "end": 7.511,
+        "loc": "3,4,5,6,7,8,9",
+        "word": "선택할 수 있는 투자 전략 중 하나는"
+      },
+      {
+        "start": 7.778,
+        "end": 10.227,
+        "loc": "10,11",
+        "word": "만기별 투자입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.419,
+        "end": 2.581,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.757,
+        "end": 5.565,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.087,
+        "end": 6.388,
+        "gloss_id": "추천1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.778,
+        "end": 7.91,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.168,
+        "end": 8.508,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 9.459,
+        "end": 9.71,
+        "gloss_id": "구분하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.763,
+        "end": 9.233,
+        "gloss_id": "길이1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 9.947,
+        "end": 10.228
+      },
+      {
+        "descriptor": "",
+        "start": 2.837,
+        "end": 3.695
+      },
+      {
+        "descriptor": "",
+        "start": 4.966,
+        "end": 5.565
+      },
+      {
+        "descriptor": "",
+        "start": 6.626,
+        "end": 6.788
+      },
+      {
+        "descriptor": "",
+        "start": 7.123,
+        "end": 7.524
+      },
+      {
+        "descriptor": "",
+        "start": 8.168,
+        "end": 8.508
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.626,
+        "end": 6.788
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.002,
+        "end": 2.869
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240337600",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:39:26",
+    "sentence_ID": "VXPAKOKS240337600",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    358,
+    126
+  ],
+  "file": "VXPAKOKS240337600.mp4",
+  "saved_as": "VXPAKOKS240337600-채권시장에서투자자들이선택할수있는투자전략중하나는만기별투자입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

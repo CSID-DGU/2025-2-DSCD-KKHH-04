@@ -1,0 +1,377 @@
+{
+  "id": "VXPAKOKS240330940",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "은행 홈페이지 또는 애플리케이션을 통해 거래 내용을 조회할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.367,
+        "end": 2.529,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.762,
+        "end": 3.237,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.498,
+        "end": 3.742,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.852,
+        "end": 4.022,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.232,
+        "end": 4.501,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.711,
+        "end": 4.823,
+        "gloss_id": "핸드폰1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.991,
+        "end": 5.219,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.329,
+        "end": 5.689,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.841,
+        "end": 5.936,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.03,
+        "end": 6.192,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.195,
+        "end": 6.285,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 6.36,
+        "end": 6.588,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.682,
+        "end": 6.91,
+        "gloss_id": "검사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.004,
+        "end": 7.182,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.367,
+        "end": 3.238,
+        "loc": "0",
+        "word": "은행"
+      },
+      {
+        "start": 3.498,
+        "end": 4.501,
+        "loc": "1,2",
+        "word": "홈페이지 또는"
+      },
+      {
+        "start": 4.711,
+        "end": 5.219,
+        "loc": "3",
+        "word": "애플리케이션을"
+      },
+      {
+        "start": 5.329,
+        "end": 5.689,
+        "loc": "4",
+        "word": "통해"
+      },
+      {
+        "start": 5.841,
+        "end": 6.274,
+        "loc": "5",
+        "word": "거래"
+      },
+      {
+        "start": 6.36,
+        "end": 6.588,
+        "loc": "6",
+        "word": "내용을"
+      },
+      {
+        "start": 6.682,
+        "end": 6.91,
+        "loc": "7",
+        "word": "조회할"
+      },
+      {
+        "start": 7.004,
+        "end": 7.182,
+        "loc": "8,9",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.367,
+        "end": 2.529,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.762,
+        "end": 3.237,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.852,
+        "end": 4.022,
+        "gloss_id": "인터넷1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.232,
+        "end": 4.501,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.991,
+        "end": 5.219,
+        "gloss_id": "핸드폰4",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.329,
+        "end": 5.689,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.03,
+        "end": 6.274,
+        "gloss_id": "송금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.36,
+        "end": 6.918,
+        "gloss_id": "목록2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.762,
+        "end": 3.237
+      },
+      {
+        "descriptor": "",
+        "start": 4.232,
+        "end": 4.501
+      },
+      {
+        "descriptor": "",
+        "start": 5.329,
+        "end": 5.689
+      },
+      {
+        "descriptor": "",
+        "start": 6.36,
+        "end": 6.588
+      },
+      {
+        "descriptor": "",
+        "start": 6.682,
+        "end": 6.91
+      },
+      {
+        "descriptor": "",
+        "start": 7.004,
+        "end": 7.182
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.004,
+        "end": 7.182
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 2.762,
+        "end": 3.237
+      },
+      {
+        "descriptor": "",
+        "start": 4.991,
+        "end": 5.697
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.762,
+        "end": 3.237
+      },
+      {
+        "descriptor": "",
+        "start": 4.232,
+        "end": 4.501
+      },
+      {
+        "descriptor": "",
+        "start": 5.329,
+        "end": 5.689
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330940",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:39:45",
+    "sentence_ID": "VXPAKOKS240330940",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    297,
+    126
+  ],
+  "file": "VXPAKOKS240330940.mp4",
+  "saved_as": "VXPAKOKS240330940-은행홈페이지또는애플리케이션을통해거래내용을조회할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

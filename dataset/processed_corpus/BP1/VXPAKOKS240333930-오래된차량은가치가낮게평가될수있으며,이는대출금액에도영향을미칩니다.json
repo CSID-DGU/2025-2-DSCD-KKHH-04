@@ -1,0 +1,215 @@
+{
+  "id": "VXPAKOKS240333930",
+  "opertor": "label20",
+  "krlgg_sntenc": {
+    "koreanText": "오래된 차량은 가치가 낮게 평가될 수 있으며, 이는 대출 금액에도 영향을 미칩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.709,
+        "end": 3.048,
+        "gloss_id": "옛날2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.286,
+        "end": 3.538,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.754,
+        "end": 4.069,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.299,
+        "end": 4.879,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.269,
+        "end": 5.571,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 5.78,
+        "end": 6.001,
+        "gloss_id": "작다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.709,
+        "end": 3.048,
+        "loc": "0",
+        "word": "오래된"
+      },
+      {
+        "start": 3.286,
+        "end": 3.538,
+        "loc": "1",
+        "word": "차량은"
+      },
+      {
+        "start": 3.754,
+        "end": 4.069,
+        "loc": "2",
+        "word": "가치가"
+      },
+      {
+        "start": 4.299,
+        "end": 4.879,
+        "loc": "3,4,5,6",
+        "word": "낮게 평가될 수 있으며,"
+      },
+      {
+        "start": 5.269,
+        "end": 5.571,
+        "loc": "7,8,9",
+        "word": "이는 대출 금액에도"
+      },
+      {
+        "start": 5.78,
+        "end": 6.001,
+        "loc": "10,11",
+        "word": "영향을 미칩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.286,
+        "end": 3.538,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.754,
+        "end": 4.069,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.299,
+        "end": 4.879,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.299,
+        "end": 4.879
+      },
+      {
+        "descriptor": "",
+        "start": 2.709,
+        "end": 4.058
+      },
+      {
+        "descriptor": "",
+        "start": 5.78,
+        "end": 6.001
+      }
+    ],
+    "Mo1": null,
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.269,
+        "end": 5.998
+      }
+    ],
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 5.78,
+        "end": 6.001
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.709,
+        "end": 4.869
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333930",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:25:08",
+    "sentence_ID": "VXPAKOKS240333930",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    223,
+    126
+  ],
+  "file": "VXPAKOKS240333930.mp4",
+  "saved_as": "VXPAKOKS240333930-오래된차량은가치가낮게평가될수있으며,이는대출금액에도영향을미칩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

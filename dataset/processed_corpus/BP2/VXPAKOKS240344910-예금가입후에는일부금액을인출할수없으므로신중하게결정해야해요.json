@@ -1,0 +1,320 @@
+{
+  "id": "VXPAKOKS240344910",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "예금 가입 후에는 일부 금액을 인출할 수 없으므로 신중하게 결정해야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.679,
+        "end": 2.083,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.315,
+        "end": 3.498,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.211,
+        "end": 4.404,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.625,
+        "end": 5.02,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.439,
+        "end": 5.816,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.093,
+        "end": 6.566,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.802,
+        "end": 7.039,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.252,
+        "end": 7.568,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.797,
+        "end": 7.937,
+        "gloss_id": "생각2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.048,
+        "end": 8.197,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 8.311,
+        "end": 8.609,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.679,
+        "end": 2.083,
+        "loc": "0",
+        "word": "예금"
+      },
+      {
+        "start": 2.315,
+        "end": 3.498,
+        "loc": "1,2",
+        "word": "가입 후에는"
+      },
+      {
+        "start": 3.908,
+        "end": 5.021,
+        "loc": "3,4,5",
+        "word": "일부 금액을 인출할"
+      },
+      {
+        "start": 5.439,
+        "end": 6.56,
+        "loc": "6,7",
+        "word": "수 없으므로"
+      },
+      {
+        "start": 7.797,
+        "end": 7.937,
+        "loc": "8",
+        "word": "신중하게"
+      },
+      {
+        "start": 8.048,
+        "end": 8.609,
+        "loc": "9,10",
+        "word": "결정해야 해요."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.679,
+        "end": 2.083,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.315,
+        "end": 3.498,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.908,
+        "end": 5.021,
+        "gloss_id": "일부분1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.093,
+        "end": 6.566,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.811,
+        "end": 7.039,
+        "gloss_id": "하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.252,
+        "end": 7.568,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.048,
+        "end": 8.197,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 8.311,
+        "end": 8.609,
+        "gloss_id": "필요1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 1.679,
+        "end": 2.083
+      },
+      {
+        "descriptor": "",
+        "start": 2.984,
+        "end": 3.484
+      },
+      {
+        "descriptor": "",
+        "start": 4.625,
+        "end": 5.02
+      },
+      {
+        "descriptor": "",
+        "start": 6.802,
+        "end": 8.16
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.984,
+        "end": 3.484
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 5.439,
+        "end": 8.163
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.679,
+        "end": 2.083
+      },
+      {
+        "descriptor": "",
+        "start": 2.984,
+        "end": 3.484
+      },
+      {
+        "descriptor": "",
+        "start": 4.625,
+        "end": 5.02
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240344910",
+  "potogrf": {
+    "createdTime": "2024-10-07 03:02:48",
+    "sentence_ID": "VXPAKOKS240344910",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    315,
+    126
+  ],
+  "file": "VXPAKOKS240344910.mp4",
+  "saved_as": "VXPAKOKS240344910-예금가입후에는일부금액을인출할수없으므로신중하게결정해야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

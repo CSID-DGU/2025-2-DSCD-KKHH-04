@@ -1,0 +1,306 @@
+{
+  "id": "VXPAKOKS240341680",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "적립식 펀드는 펀드 가입 후 판매할 수 없거나 수수료가 발생하는 조건이 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.157,
+        "end": 1.555,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.752,
+        "end": 2.1,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.352,
+        "end": 2.731,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.941,
+        "end": 3.593,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.949,
+        "end": 4.157,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.469,
+        "end": 4.81,
+        "gloss_id": "불가능3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.089,
+        "end": 5.437,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.585,
+        "end": 5.914,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.151,
+        "end": 6.454,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.681,
+        "end": 6.902,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.157,
+        "end": 2.094,
+        "loc": "0",
+        "word": "적립식"
+      },
+      {
+        "start": 2.352,
+        "end": 2.731,
+        "loc": "1",
+        "word": "펀드는"
+      },
+      {
+        "start": 2.941,
+        "end": 3.593,
+        "loc": "2,3,4",
+        "word": "펀드 가입 후"
+      },
+      {
+        "start": 3.949,
+        "end": 4.157,
+        "loc": "5",
+        "word": "판매할"
+      },
+      {
+        "start": 4.469,
+        "end": 4.81,
+        "loc": "6,7",
+        "word": "수 없거나"
+      },
+      {
+        "start": 5.089,
+        "end": 5.912,
+        "loc": "8,9",
+        "word": "수수료가 발생하는"
+      },
+      {
+        "start": 6.151,
+        "end": 6.454,
+        "loc": "10",
+        "word": "조건이"
+      },
+      {
+        "start": 6.681,
+        "end": 6.902,
+        "loc": "11",
+        "word": "있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.157,
+        "end": 1.555,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 1.752,
+        "end": 2.1,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.941,
+        "end": 3.593,
+        "gloss_id": "가입1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.949,
+        "end": 4.157,
+        "gloss_id": "팔다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.089,
+        "end": 5.906,
+        "gloss_id": "수고1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.151,
+        "end": 6.454,
+        "gloss_id": "조건1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.469,
+        "end": 4.81
+      },
+      {
+        "descriptor": "",
+        "start": 1.752,
+        "end": 2.1
+      },
+      {
+        "descriptor": "",
+        "start": 3.481,
+        "end": 3.595
+      },
+      {
+        "descriptor": "",
+        "start": 5.585,
+        "end": 5.914
+      },
+      {
+        "descriptor": "",
+        "start": 6.681,
+        "end": 6.902
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.481,
+        "end": 3.588
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.469,
+        "end": 4.81
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.157,
+        "end": 2.094
+      },
+      {
+        "descriptor": "",
+        "start": 5.585,
+        "end": 5.914
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341680",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:15:27",
+    "sentence_ID": "VXPAKOKS240341680",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    228,
+    126
+  ],
+  "file": "VXPAKOKS240341680.mp4",
+  "saved_as": "VXPAKOKS240341680-적립식펀드는펀드가입후판매할수없거나수수료가발생하는조건이있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

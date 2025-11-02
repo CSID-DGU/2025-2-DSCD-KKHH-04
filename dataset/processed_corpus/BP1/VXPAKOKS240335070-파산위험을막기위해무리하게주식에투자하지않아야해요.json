@@ -1,0 +1,242 @@
+{
+  "id": "VXPAKOKS240335070",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "파산 위험을 막기 위해 무리하게 주식에 투자하지 않아야 해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.249,
+        "end": 2.501,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.765,
+        "end": 2.928,
+        "gloss_id": "빨강2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.154,
+        "end": 3.361,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.682,
+        "end": 3.997,
+        "gloss_id": "위험1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.372,
+        "end": 4.617,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.896,
+        "end": 5.033,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.266,
+        "end": 5.467,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.733,
+        "end": 6.055,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 5.266,
+        "end": 6.059,
+        "loc": "6,7,8",
+        "word": "투자하지 않아야 해요."
+      },
+      {
+        "start": 4.896,
+        "end": 5.033,
+        "loc": "5",
+        "word": "주식에"
+      },
+      {
+        "start": 4.372,
+        "end": 4.617,
+        "loc": "4",
+        "word": "무리하게"
+      },
+      {
+        "start": 2.249,
+        "end": 2.902,
+        "loc": "0",
+        "word": "파산"
+      },
+      {
+        "start": 3.154,
+        "end": 3.984,
+        "loc": "1,2,3",
+        "word": "위험을 막기 위해"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.249,
+        "end": 2.501,
+        "gloss_id": "개인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.372,
+        "end": 4.617,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.896,
+        "end": 5.033,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.733,
+        "end": 6.055,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.765,
+        "end": 3.297
+      },
+      {
+        "descriptor": "",
+        "start": 3.682,
+        "end": 3.997
+      },
+      {
+        "descriptor": "",
+        "start": 4.372,
+        "end": 4.617
+      },
+      {
+        "descriptor": "",
+        "start": 5.733,
+        "end": 6.055
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.858,
+        "end": 6.053
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.765,
+        "end": 4.582
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.249,
+        "end": 2.501
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335070",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:34:24",
+    "sentence_ID": "VXPAKOKS240335070",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    229,
+    126
+  ],
+  "file": "VXPAKOKS240335070.mp4",
+  "saved_as": "VXPAKOKS240335070-파산위험을막기위해무리하게주식에투자하지않아야해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

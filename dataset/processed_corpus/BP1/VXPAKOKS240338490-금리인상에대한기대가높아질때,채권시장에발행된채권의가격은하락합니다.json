@@ -1,0 +1,224 @@
+{
+  "id": "VXPAKOKS240338490",
+  "opertor": "label6",
+  "krlgg_sntenc": {
+    "koreanText": "금리 인상에 대한 기대가 높아질 때, 채권 시장에 발행된 채권의 가격은 하락합니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.478,
+        "end": 1.775,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.219,
+        "end": 2.686,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.918,
+        "end": 2.973,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.15,
+        "end": 3.272,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.51,
+        "end": 3.9,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.212,
+        "end": 4.362,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.655,
+        "end": 5.057,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.478,
+        "end": 1.775,
+        "loc": "0",
+        "word": "금리"
+      },
+      {
+        "start": 2.219,
+        "end": 2.686,
+        "loc": "1,2,3,4,5",
+        "word": "인상에 대한 기대가 높아질 때,"
+      },
+      {
+        "start": 2.918,
+        "end": 3.899,
+        "loc": "6,7,8,9",
+        "word": "채권 시장에 발행된 채권의"
+      },
+      {
+        "start": 4.212,
+        "end": 4.362,
+        "loc": "10",
+        "word": "가격은"
+      },
+      {
+        "start": 4.655,
+        "end": 5.057,
+        "loc": "11",
+        "word": "하락합니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.51,
+        "end": 3.9,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.212,
+        "end": 4.362,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.655,
+        "end": 5.057,
+        "gloss_id": "값내리다2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.219,
+        "end": 2.686
+      },
+      {
+        "descriptor": "",
+        "start": 4.655,
+        "end": 5.057
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.219,
+        "end": 2.686
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 1.478,
+        "end": 2.685
+      },
+      {
+        "descriptor": "",
+        "start": 4.655,
+        "end": 5.057
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.219,
+        "end": 2.686
+      },
+      {
+        "descriptor": "",
+        "start": 4.163,
+        "end": 4.313
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240338490",
+  "potogrf": {
+    "createdTime": "2024-08-09 10:39:27",
+    "sentence_ID": "VXPAKOKS240338490",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    197,
+    126
+  ],
+  "file": "VXPAKOKS240338490.mp4",
+  "saved_as": "VXPAKOKS240338490-금리인상에대한기대가높아질때,채권시장에발행된채권의가격은하락합니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

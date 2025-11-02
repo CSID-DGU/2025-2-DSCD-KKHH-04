@@ -1,0 +1,308 @@
+{
+  "id": "VXPAKOKS240351060",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "적금의 만기일을 지나치지 않도록 달력에 미리 표시해 두는 것이 유용해요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.199,
+        "end": 1.312,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.458,
+        "end": 2.323,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.664,
+        "end": 3.057,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.314,
+        "end": 3.595,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.779,
+        "end": 3.909,
+        "gloss_id": "잊다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.026,
+        "end": 4.251,
+        "gloss_id": "하지마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.447,
+        "end": 4.767,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.99,
+        "end": 5.412,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.522,
+        "end": 5.675,
+        "gloss_id": "이전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.882,
+        "end": 6.343,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.487,
+        "end": 6.723,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.199,
+        "end": 2.314,
+        "loc": "0",
+        "word": "적금의"
+      },
+      {
+        "start": 2.664,
+        "end": 3.602,
+        "loc": "1",
+        "word": "만기일을"
+      },
+      {
+        "start": 4.447,
+        "end": 5.406,
+        "loc": "4",
+        "word": "달력에"
+      },
+      {
+        "start": 5.522,
+        "end": 5.675,
+        "loc": "5",
+        "word": "미리"
+      },
+      {
+        "start": 5.882,
+        "end": 6.343,
+        "loc": "6,7,8",
+        "word": "표시해 두는 것이"
+      },
+      {
+        "start": 6.487,
+        "end": 6.723,
+        "loc": "9",
+        "word": "유용해요."
+      },
+      {
+        "start": 3.779,
+        "end": 3.909,
+        "loc": "2",
+        "word": "지나치지"
+      },
+      {
+        "start": 4.026,
+        "end": 4.251,
+        "loc": "3",
+        "word": "않도록"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.458,
+        "end": 2.323,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.664,
+        "end": 3.057,
+        "gloss_id": "까지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.314,
+        "end": 3.595,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.447,
+        "end": 4.767,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.99,
+        "end": 6.354,
+        "gloss_id": "종이3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.314,
+        "end": 3.595
+      },
+      {
+        "descriptor": "",
+        "start": 4.026,
+        "end": 4.251
+      },
+      {
+        "descriptor": "",
+        "start": 6.487,
+        "end": 6.723
+      },
+      {
+        "descriptor": "",
+        "start": 1.713,
+        "end": 2.025
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.113,
+        "end": 4.251
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 3.779,
+        "end": 4.279
+      },
+      {
+        "descriptor": "",
+        "start": 6.487,
+        "end": 6.723
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.199,
+        "end": 1.699
+      },
+      {
+        "descriptor": "",
+        "start": 5.882,
+        "end": 6.343
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351060",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:42:44",
+    "sentence_ID": "VXPAKOKS240351060",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    242,
+    126
+  ],
+  "file": "VXPAKOKS240351060.mp4",
+  "saved_as": "VXPAKOKS240351060-적금의만기일을지나치지않도록달력에미리표시해두는것이유용해요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

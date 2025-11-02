@@ -1,0 +1,317 @@
+{
+  "id": "VXPAKOKS240336140",
+  "opertor": "label4",
+  "krlgg_sntenc": {
+    "koreanText": "채권을 간편하게 현금으로 바꿀 수 있는 것은 투자자에게 중요한 장점이 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.799,
+        "end": 2.02,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 2.266,
+        "end": 2.729,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.853,
+        "end": 2.95,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.139,
+        "end": 3.353,
+        "gloss_id": "빌리다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 3.557,
+        "end": 4.064,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.172,
+        "end": 4.282,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.473,
+        "end": 4.804,
+        "gloss_id": "현금주다1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.987,
+        "end": 5.238,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.442,
+        "end": 5.692,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.808,
+        "end": 6.183,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.366,
+        "end": 6.506,
+        "gloss_id": "좋다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.644,
+        "end": 6.792,
+        "gloss_id": "누르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.799,
+        "end": 2.717,
+        "loc": "7",
+        "word": "투자자에게"
+      },
+      {
+        "start": 2.853,
+        "end": 4.064,
+        "loc": "0",
+        "word": "채권을"
+      },
+      {
+        "start": 4.191,
+        "end": 4.804,
+        "loc": "2",
+        "word": "현금으로"
+      },
+      {
+        "start": 4.987,
+        "end": 5.238,
+        "loc": "3",
+        "word": "바꿀"
+      },
+      {
+        "start": 5.442,
+        "end": 5.692,
+        "loc": "4,5,6",
+        "word": "수 있는 것은"
+      },
+      {
+        "start": 5.808,
+        "end": 6.183,
+        "loc": "1",
+        "word": "간편하게"
+      },
+      {
+        "start": 6.366,
+        "end": 6.785,
+        "loc": "8,9,10",
+        "word": "중요한 장점이 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 3.557,
+        "end": 4.281,
+        "gloss_id": "육형1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.473,
+        "end": 4.804,
+        "gloss_id": "현금주다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.987,
+        "end": 5.696,
+        "gloss_id": "바꾸다6",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.808,
+        "end": 6.183,
+        "gloss_id": "간단하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.266,
+        "end": 2.729,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 6.644,
+        "end": 6.792
+      },
+      {
+        "descriptor": "",
+        "start": 2.455,
+        "end": 2.732
+      },
+      {
+        "descriptor": "",
+        "start": 3.666,
+        "end": 4.056
+      },
+      {
+        "descriptor": "",
+        "start": 4.473,
+        "end": 4.804
+      },
+      {
+        "descriptor": "",
+        "start": 5.515,
+        "end": 5.692
+      },
+      {
+        "descriptor": "",
+        "start": 5.999,
+        "end": 6.182
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 5.513,
+        "end": 5.692
+      },
+      {
+        "descriptor": "",
+        "start": 5.999,
+        "end": 6.182
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": [
+      {
+        "descriptor": "",
+        "start": 6.644,
+        "end": 6.792
+      }
+    ],
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.799,
+        "end": 5.702
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240336140",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:27:44",
+    "sentence_ID": "VXPAKOKS240336140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    264,
+    126
+  ],
+  "file": "VXPAKOKS240336140.mp4",
+  "saved_as": "VXPAKOKS240336140-채권을간편하게현금으로바꿀수있는것은투자자에게중요한장점이됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

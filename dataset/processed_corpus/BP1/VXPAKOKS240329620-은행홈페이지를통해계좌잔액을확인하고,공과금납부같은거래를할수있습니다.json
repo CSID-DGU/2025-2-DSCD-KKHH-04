@@ -1,0 +1,295 @@
+{
+  "id": "VXPAKOKS240329620",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "은행 홈페이지를 통해 계좌 잔액을 확인하고, 공과금 납부 같은 거래를 할 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.095,
+        "end": 2.233,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.531,
+        "end": 3.052,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.264,
+        "end": 3.459,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.637,
+        "end": 3.951,
+        "gloss_id": "홈페이지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.037,
+        "end": 4.396,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.569,
+        "end": 5.329,
+        "gloss_id": "확인2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.551,
+        "end": 5.904,
+        "gloss_id": "물1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.145,
+        "end": 6.317,
+        "gloss_id": "전기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.404,
+        "end": 6.763,
+        "gloss_id": "요금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.878,
+        "end": 7.073,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 7.229,
+        "end": 7.469,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.358,
+        "end": 2.442,
+        "gloss_id": "돈1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 3.264,
+        "end": 3.94,
+        "loc": "0,1",
+        "word": "은행 홈페이지를"
+      },
+      {
+        "start": 4.037,
+        "end": 4.396,
+        "loc": "2",
+        "word": "통해"
+      },
+      {
+        "start": 7.229,
+        "end": 7.469,
+        "loc": "11,12",
+        "word": "수 있습니다."
+      },
+      {
+        "start": 5.551,
+        "end": 7.076,
+        "loc": "6,7,8,9,10",
+        "word": "공과금 납부 같은 거래를 할"
+      },
+      {
+        "start": 2.095,
+        "end": 3.046,
+        "loc": "3,4",
+        "word": "계좌 잔액을"
+      },
+      {
+        "start": 4.569,
+        "end": 5.329,
+        "loc": "5",
+        "word": "확인하고,"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.095,
+        "end": 3.052,
+        "gloss_id": "오늘1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.264,
+        "end": 3.944,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.037,
+        "end": 4.396,
+        "gloss_id": "방문2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.145,
+        "end": 6.763,
+        "gloss_id": "전기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.878,
+        "end": 7.073,
+        "gloss_id": "야금야금쓰다3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.569,
+        "end": 5.329
+      },
+      {
+        "descriptor": "",
+        "start": 5.551,
+        "end": 5.904
+      },
+      {
+        "descriptor": "",
+        "start": 7.229,
+        "end": 7.469
+      },
+      {
+        "descriptor": "",
+        "start": 2.531,
+        "end": 3.052
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.229,
+        "end": 7.469
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.287,
+        "end": 3.052
+      },
+      {
+        "descriptor": "",
+        "start": 7.229,
+        "end": 7.469
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240329620",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:27:57",
+    "sentence_ID": "VXPAKOKS240329620",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    244,
+    126
+  ],
+  "file": "VXPAKOKS240329620.mp4",
+  "saved_as": "VXPAKOKS240329620-은행홈페이지를통해계좌잔액을확인하고,공과금납부같은거래를할수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,269 @@
+{
+  "id": "VXPAKOKS240339110",
+  "opertor": "label21",
+  "krlgg_sntenc": {
+    "koreanText": "인플레이션이 상승하면 동일한 수익률로 받고 있었더라도 실제 수익은 감소하게 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.337,
+        "end": 1.547,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.79,
+        "end": 2.016,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 2.246,
+        "end": 2.746,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.043,
+        "end": 3.17,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.412,
+        "end": 3.742,
+        "gloss_id": "값오르다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.028,
+        "end": 4.206,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.408,
+        "end": 4.662,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.857,
+        "end": 5.075,
+        "gloss_id": "돈1#",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.428,
+        "end": 5.714,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.246,
+        "end": 2.746,
+        "loc": "2",
+        "word": "동일한"
+      },
+      {
+        "start": 3.043,
+        "end": 3.17,
+        "loc": "0",
+        "word": "인플레이션이"
+      },
+      {
+        "start": 3.412,
+        "end": 4.22,
+        "loc": "1",
+        "word": "상승하면"
+      },
+      {
+        "start": 4.408,
+        "end": 4.662,
+        "loc": "3",
+        "word": "수익률로"
+      },
+      {
+        "start": 4.857,
+        "end": 5.075,
+        "loc": "4,5",
+        "word": "받고 있었더라도"
+      },
+      {
+        "start": 5.428,
+        "end": 5.714,
+        "loc": "8,9",
+        "word": "감소하게 됩니다."
+      },
+      {
+        "start": 1.337,
+        "end": 1.986,
+        "loc": "6,7",
+        "word": "실제 수익은"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.246,
+        "end": 2.746,
+        "gloss_id": "여전하다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.043,
+        "end": 3.17,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.028,
+        "end": 4.206,
+        "gloss_id": "자연3",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.428,
+        "end": 5.714,
+        "gloss_id": "줄다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.246,
+        "end": 2.746
+      },
+      {
+        "descriptor": "",
+        "start": 5.428,
+        "end": 5.714
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.106,
+        "end": 4.206
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.246,
+        "end": 2.746
+      },
+      {
+        "descriptor": "",
+        "start": 5.428,
+        "end": 5.714
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.337,
+        "end": 2.075
+      },
+      {
+        "descriptor": "",
+        "start": 3.043,
+        "end": 3.848
+      },
+      {
+        "descriptor": "",
+        "start": 4.408,
+        "end": 4.662
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240339110",
+  "potogrf": {
+    "createdTime": "2024-08-26 01:55:57",
+    "sentence_ID": "VXPAKOKS240339110",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    200,
+    126
+  ],
+  "file": "VXPAKOKS240339110.mp4",
+  "saved_as": "VXPAKOKS240339110-인플레이션이상승하면동일한수익률로받고있었더라도실제수익은감소하게됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

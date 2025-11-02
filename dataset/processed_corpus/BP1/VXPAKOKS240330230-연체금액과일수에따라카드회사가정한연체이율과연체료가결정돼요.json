@@ -1,0 +1,298 @@
+{
+  "id": "VXPAKOKS240330230",
+  "opertor": "label3",
+  "krlgg_sntenc": {
+    "koreanText": "연체 금액과 일수에 따라 카드회사가 정한 연체 이율과 연체료가 결정돼요.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.46,
+        "end": 1.731,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.053,
+        "end": 2.428,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.722,
+        "end": 3.465,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.785,
+        "end": 3.966,
+        "gloss_id": "이익1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.07,
+        "end": 4.848,
+        "gloss_id": "퍼센트1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.166,
+        "end": 5.444,
+        "gloss_id": "몇개월1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.647,
+        "end": 6.098,
+        "gloss_id": "누적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.465,
+        "end": 6.618,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.875,
+        "end": 7.174,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.389,
+        "end": 7.674,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.46,
+        "end": 2.432,
+        "loc": "4,5",
+        "word": "카드회사가 정한"
+      },
+      {
+        "start": 7.389,
+        "end": 7.674,
+        "loc": "9",
+        "word": "결정돼요."
+      },
+      {
+        "start": 2.722,
+        "end": 6.097,
+        "loc": "0,1,2,3",
+        "word": "연체 금액과 일수에 따라"
+      },
+      {
+        "start": 6.465,
+        "end": 7.18,
+        "loc": "6,7,8",
+        "word": "연체 이율과 연체료가"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.053,
+        "end": 2.428,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.722,
+        "end": 3.972,
+        "gloss_id": "약속어기다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.07,
+        "end": 4.848,
+        "gloss_id": "얼마1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.647,
+        "end": 6.098,
+        "gloss_id": "누적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.465,
+        "end": 7.18,
+        "gloss_id": "벌2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.389,
+        "end": 7.674,
+        "gloss_id": "결정1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.053,
+        "end": 2.428
+      },
+      {
+        "descriptor": "",
+        "start": 4.07,
+        "end": 4.848
+      },
+      {
+        "descriptor": "",
+        "start": 5.647,
+        "end": 6.098
+      },
+      {
+        "descriptor": "",
+        "start": 6.875,
+        "end": 7.174
+      },
+      {
+        "descriptor": "",
+        "start": 7.389,
+        "end": 7.674
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 2.909,
+        "end": 3.152
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 2.722,
+        "end": 3.465
+      },
+      {
+        "descriptor": "",
+        "start": 6.465,
+        "end": 6.618
+      }
+    ],
+    "Mctr": null,
+    "Ci": [
+      {
+        "descriptor": "",
+        "start": 5.166,
+        "end": 6.09
+      }
+    ],
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 4.07,
+        "end": 4.848
+      },
+      {
+        "descriptor": "",
+        "start": 6.875,
+        "end": 7.174
+      },
+      {
+        "descriptor": "",
+        "start": 2.053,
+        "end": 2.428
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240330230",
+  "potogrf": {
+    "createdTime": "2024-06-17 02:58:34",
+    "sentence_ID": "VXPAKOKS240330230",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    250,
+    126
+  ],
+  "file": "VXPAKOKS240330230.mp4",
+  "saved_as": "VXPAKOKS240330230-연체금액과일수에따라카드회사가정한연체이율과연체료가결정돼요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

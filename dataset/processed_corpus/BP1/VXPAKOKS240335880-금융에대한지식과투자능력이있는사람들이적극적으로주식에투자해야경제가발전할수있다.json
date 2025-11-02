@@ -1,0 +1,306 @@
+{
+  "id": "VXPAKOKS240335880",
+  "opertor": "label5",
+  "krlgg_sntenc": {
+    "koreanText": "금융에 대한 지식과 투자 능력이 있는 사람들이 적극적으로 주식에 투자해야 경제가 발전할 수 있다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.726,
+        "end": 1.916,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.17,
+        "end": 2.64,
+        "gloss_id": "지식1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.875,
+        "end": 3.065,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.311,
+        "end": 3.456,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.7,
+        "end": 3.966,
+        "gloss_id": "알다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.252,
+        "end": 4.654,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.828,
+        "end": 4.965,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.206,
+        "end": 5.509,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.709,
+        "end": 5.96,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.186,
+        "end": 6.58,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.832,
+        "end": 7.075,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.726,
+        "end": 1.916,
+        "loc": "0,1",
+        "word": "금융에 대한"
+      },
+      {
+        "start": 2.17,
+        "end": 2.64,
+        "loc": "2",
+        "word": "지식과"
+      },
+      {
+        "start": 2.875,
+        "end": 3.065,
+        "loc": "3",
+        "word": "투자"
+      },
+      {
+        "start": 3.311,
+        "end": 3.955,
+        "loc": "4,5",
+        "word": "능력이 있는"
+      },
+      {
+        "start": 4.252,
+        "end": 4.654,
+        "loc": "6",
+        "word": "사람들이"
+      },
+      {
+        "start": 4.828,
+        "end": 4.965,
+        "loc": "7,8",
+        "word": "적극적으로 주식에"
+      },
+      {
+        "start": 5.206,
+        "end": 5.509,
+        "loc": "9",
+        "word": "투자해야"
+      },
+      {
+        "start": 5.709,
+        "end": 5.96,
+        "loc": "10",
+        "word": "경제가"
+      },
+      {
+        "start": 6.186,
+        "end": 7.063,
+        "loc": "11,12,13",
+        "word": "발전할 수 있다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.726,
+        "end": 1.916,
+        "gloss_id": "은행1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.311,
+        "end": 3.456,
+        "gloss_id": "방법1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.252,
+        "end": 4.654,
+        "gloss_id": "사람8",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.828,
+        "end": 4.965,
+        "gloss_id": "달리기1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.709,
+        "end": 5.96,
+        "gloss_id": "경제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.186,
+        "end": 6.58,
+        "gloss_id": "발전1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.17,
+        "end": 2.64
+      },
+      {
+        "descriptor": "",
+        "start": 4.252,
+        "end": 4.654
+      },
+      {
+        "descriptor": "",
+        "start": 5.206,
+        "end": 5.509
+      },
+      {
+        "descriptor": "",
+        "start": 6.832,
+        "end": 7.075
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 6.832,
+        "end": 7.075
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.726,
+        "end": 4.658
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240335880",
+  "potogrf": {
+    "createdTime": "2024-08-08 03:45:51",
+    "sentence_ID": "VXPAKOKS240335880",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    272,
+    126
+  ],
+  "file": "VXPAKOKS240335880.mp4",
+  "saved_as": "VXPAKOKS240335880-금융에대한지식과투자능력이있는사람들이적극적으로주식에투자해야경제가발전할수있다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

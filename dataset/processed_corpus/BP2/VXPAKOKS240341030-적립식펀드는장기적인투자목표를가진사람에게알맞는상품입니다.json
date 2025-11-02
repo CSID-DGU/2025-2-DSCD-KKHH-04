@@ -1,0 +1,321 @@
+{
+  "id": "VXPAKOKS240341030",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적립식 펀드는 장기적인 투자 목표를 가진 사람에게 알맞는 상품입니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.679,
+        "end": 2.065,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.349,
+        "end": 2.678,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.917,
+        "end": 3.46,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.63,
+        "end": 3.795,
+        "gloss_id": "지시1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.144,
+        "end": 4.459,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.606,
+        "end": 4.677,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.969,
+        "end": 5.334,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.553,
+        "end": 5.932,
+        "gloss_id": "투자1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 6.251,
+        "end": 6.438,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.613,
+        "end": 6.97,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 7.24,
+        "end": 7.605,
+        "gloss_id": "정상1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.679,
+        "end": 2.67,
+        "loc": "0",
+        "word": "적립식"
+      },
+      {
+        "start": 2.917,
+        "end": 3.787,
+        "loc": "1",
+        "word": "펀드는"
+      },
+      {
+        "start": 4.144,
+        "end": 5.327,
+        "loc": "2",
+        "word": "장기적인"
+      },
+      {
+        "start": 5.553,
+        "end": 5.932,
+        "loc": "3",
+        "word": "투자"
+      },
+      {
+        "start": 6.251,
+        "end": 6.438,
+        "loc": "4,5",
+        "word": "목표를 가진"
+      },
+      {
+        "start": 6.613,
+        "end": 6.971,
+        "loc": "6",
+        "word": "사람에게"
+      },
+      {
+        "start": 7.24,
+        "end": 7.605,
+        "loc": "7,8",
+        "word": "알맞는 상품입니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.679,
+        "end": 2.065,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.349,
+        "end": 2.678,
+        "gloss_id": "방식2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.144,
+        "end": 4.459,
+        "gloss_id": "언제1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.606,
+        "end": 4.677,
+        "gloss_id": "간격1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.969,
+        "end": 5.334,
+        "gloss_id": "오래5",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.251,
+        "end": 6.438,
+        "gloss_id": "목적1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 7.24,
+        "end": 7.605,
+        "gloss_id": "정상1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 6.613,
+        "end": 6.97,
+        "gloss_id": "사람1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.349,
+        "end": 2.678
+      },
+      {
+        "descriptor": "",
+        "start": 3.63,
+        "end": 3.795
+      },
+      {
+        "descriptor": "",
+        "start": 4.969,
+        "end": 5.334
+      },
+      {
+        "descriptor": "",
+        "start": 6.613,
+        "end": 6.971
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 7.411,
+        "end": 7.605
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.606,
+        "end": 5.327
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.679,
+        "end": 3.794
+      },
+      {
+        "descriptor": "",
+        "start": 6.251,
+        "end": 6.965
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341030",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:10:22",
+    "sentence_ID": "VXPAKOKS240341030",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    256,
+    126
+  ],
+  "file": "VXPAKOKS240341030.mp4",
+  "saved_as": "VXPAKOKS240341030-적립식펀드는장기적인투자목표를가진사람에게알맞는상품입니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

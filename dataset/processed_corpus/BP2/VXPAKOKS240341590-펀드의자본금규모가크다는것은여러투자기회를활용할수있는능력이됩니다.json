@@ -1,0 +1,201 @@
+{
+  "id": "VXPAKOKS240341590",
+  "opertor": "label18",
+  "krlgg_sntenc": {
+    "koreanText": "펀드의 자본금 규모가 크다는 것은 여러 투자 기회를 활용할 수 있는 능력이 됩니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.505,
+        "end": 1.656,
+        "gloss_id": "투자2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 1.891,
+        "end": 2.029,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.274,
+        "end": 2.719,
+        "gloss_id": "크다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.993,
+        "end": 3.208,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.372,
+        "end": 3.825,
+        "gloss_id": "투자1#",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.122,
+        "end": 4.307,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.505,
+        "end": 1.656,
+        "loc": "0",
+        "word": "펀드의"
+      },
+      {
+        "start": 1.891,
+        "end": 2.029,
+        "loc": "1",
+        "word": "자본금"
+      },
+      {
+        "start": 2.274,
+        "end": 2.719,
+        "loc": "2,3,4",
+        "word": "규모가 크다는 것은"
+      },
+      {
+        "start": 2.993,
+        "end": 3.208,
+        "loc": "5",
+        "word": "여러"
+      },
+      {
+        "start": 3.372,
+        "end": 3.825,
+        "loc": "6",
+        "word": "투자"
+      },
+      {
+        "start": 4.122,
+        "end": 4.307,
+        "loc": "7,8,9,10,11,12",
+        "word": "기회를 활용할 수 있는 능력이 됩니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 1.891,
+        "end": 2.029,
+        "gloss_id": "가치1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.993,
+        "end": 3.208,
+        "gloss_id": "여러가지1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 2.274,
+        "end": 2.719
+      },
+      {
+        "descriptor": "",
+        "start": 2.993,
+        "end": 3.208
+      },
+      {
+        "descriptor": "",
+        "start": 4.122,
+        "end": 4.307
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.122,
+        "end": 4.307
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 1.505,
+        "end": 2.711
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240341590",
+  "potogrf": {
+    "createdTime": "2024-08-26 02:14:45",
+    "sentence_ID": "VXPAKOKS240341590",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    153,
+    126
+  ],
+  "file": "VXPAKOKS240341590.mp4",
+  "saved_as": "VXPAKOKS240341590-펀드의자본금규모가크다는것은여러투자기회를활용할수있는능력이됩니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

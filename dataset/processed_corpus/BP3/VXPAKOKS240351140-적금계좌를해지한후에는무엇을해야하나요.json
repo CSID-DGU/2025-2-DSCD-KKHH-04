@@ -1,0 +1,193 @@
+{
+  "id": "VXPAKOKS240351140",
+  "opertor": "label27",
+  "krlgg_sntenc": {
+    "koreanText": "적금 계좌를 해지한 후에는 무엇을 해야 하나요?",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.723,
+        "end": 2.855,
+        "gloss_id": "날짜(활용):1개월",
+        "express": "d",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.996,
+        "end": 3.21,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.374,
+        "end": 3.5,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.702,
+        "end": 5.054,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.254,
+        "end": 5.52,
+        "gloss_id": "무엇2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.723,
+        "end": 3.199,
+        "loc": "0",
+        "word": "적금"
+      },
+      {
+        "start": 3.374,
+        "end": 3.5,
+        "loc": "1",
+        "word": "계좌를"
+      },
+      {
+        "start": 3.702,
+        "end": 5.054,
+        "loc": "2,3",
+        "word": "해지한 후에는"
+      },
+      {
+        "start": 5.254,
+        "end": 5.52,
+        "loc": "4,5,6",
+        "word": "무엇을 해야 하나요?"
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.996,
+        "end": 3.21,
+        "gloss_id": "적금1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.374,
+        "end": 3.5,
+        "gloss_id": "펴다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.702,
+        "end": 5.054,
+        "gloss_id": "취소1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 4.198,
+        "end": 4.616
+      },
+      {
+        "descriptor": "",
+        "start": 5.254,
+        "end": 5.52
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.191,
+        "end": 4.615
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.34,
+        "end": 5.529
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.354,
+        "end": 4.157
+      },
+      {
+        "descriptor": "",
+        "start": 5.254,
+        "end": 5.52
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240351140",
+  "potogrf": {
+    "createdTime": "2024-10-11 02:43:18",
+    "sentence_ID": "VXPAKOKS240351140",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "mp4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JR",
+    "sl_speaker_age": 40,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Incheon",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 29.97002997002997,
+  "dims": [
+    210,
+    126
+  ],
+  "file": "VXPAKOKS240351140.mp4",
+  "saved_as": "VXPAKOKS240351140-적금계좌를해지한후에는무엇을해야하나요.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

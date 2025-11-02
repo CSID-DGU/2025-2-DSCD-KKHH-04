@@ -1,0 +1,211 @@
+{
+  "id": "VXPAKOKS240333750",
+  "opertor": "label2",
+  "krlgg_sntenc": {
+    "koreanText": "자동차 대출 신청이 거절될 수도 있는 건지 알고 싶습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 2.613,
+        "end": 2.783,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.975,
+        "end": 3.127,
+        "gloss_id": "빌리다2",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 3.335,
+        "end": 3.988,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": {
+          "source": "1",
+          "target": "2"
+        }
+      },
+      {
+        "start": 4.441,
+        "end": 4.861,
+        "gloss_id": "불가1",
+        "express": "s",
+        "direction": {
+          "source": "2",
+          "target": "1"
+        }
+      },
+      {
+        "start": 5.07,
+        "end": 5.246,
+        "gloss_id": "있다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.46,
+        "end": 5.74,
+        "gloss_id": "무엇1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 6.012,
+        "end": 6.274,
+        "gloss_id": "궁금하다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 2.613,
+        "end": 2.783,
+        "loc": "0",
+        "word": "자동차"
+      },
+      {
+        "start": 2.975,
+        "end": 3.127,
+        "loc": "1",
+        "word": "대출"
+      },
+      {
+        "start": 3.335,
+        "end": 3.988,
+        "loc": "2",
+        "word": "신청이"
+      },
+      {
+        "start": 4.441,
+        "end": 5.765,
+        "loc": "3,4,5,6",
+        "word": "거절될 수도 있는 건지"
+      },
+      {
+        "start": 6.012,
+        "end": 6.274,
+        "loc": "7,8",
+        "word": "알고 싶습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.613,
+        "end": 2.783,
+        "gloss_id": "승용차1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.335,
+        "end": 3.988,
+        "gloss_id": "신청1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 3.594,
+        "end": 3.972
+      },
+      {
+        "descriptor": "",
+        "start": 5.07,
+        "end": 5.246
+      },
+      {
+        "descriptor": "",
+        "start": 6.012,
+        "end": 6.274
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 4.556,
+        "end": 4.855
+      }
+    ],
+    "Hs": null,
+    "EBf": [
+      {
+        "descriptor": "",
+        "start": 4.441,
+        "end": 5.741
+      }
+    ],
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 2.613,
+        "end": 4.036
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240333750",
+  "potogrf": {
+    "createdTime": "2024-07-24 03:24:20",
+    "sentence_ID": "VXPAKOKS240333750",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    220,
+    126
+  ],
+  "file": "VXPAKOKS240333750.mp4",
+  "saved_as": "VXPAKOKS240333750-자동차대출신청이거절될수도있는건지알고싶습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}

@@ -1,0 +1,298 @@
+{
+  "id": "VXPAKOKS240327990",
+  "opertor": "label22",
+  "krlgg_sntenc": {
+    "koreanText": "카드회사에서 제공하는 할인 행사가 있다면 물건을 싸게 살 수 있습니다.",
+    "category": "수어 > 무작위 구성",
+    "realm": "금융",
+    "thema": "은행상품",
+    "detailThema": "은행상품"
+  },
+  "sign_script": {
+    "sign_gestures_strong": [
+      {
+        "start": 1.794,
+        "end": 1.966,
+        "gloss_id": "카드2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.255,
+        "end": 2.533,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 2.622,
+        "end": 2.95,
+        "gloss_id": "할인1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.15,
+        "end": 3.256,
+        "gloss_id": "행사1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 3.472,
+        "end": 4.005,
+        "gloss_id": "발표1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.238,
+        "end": 4.494,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 4.688,
+        "end": 4.938,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.299,
+        "end": 5.46,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      },
+      {
+        "start": 5.766,
+        "end": 5.899,
+        "gloss_id": "가능1",
+        "express": "s",
+        "direction": {
+          "source": "",
+          "target": ""
+        }
+      }
+    ],
+    "sentence_loc": [
+      {
+        "start": 1.794,
+        "end": 2.527,
+        "loc": "0,1",
+        "word": "카드회사에서 제공하는"
+      },
+      {
+        "start": 2.622,
+        "end": 2.95,
+        "loc": "2",
+        "word": "할인"
+      },
+      {
+        "start": 3.15,
+        "end": 3.256,
+        "loc": "3",
+        "word": "행사가"
+      },
+      {
+        "start": 3.472,
+        "end": 4.005,
+        "loc": "4",
+        "word": "있다면"
+      },
+      {
+        "start": 4.238,
+        "end": 4.494,
+        "loc": "5",
+        "word": "물건을"
+      },
+      {
+        "start": 4.688,
+        "end": 4.938,
+        "loc": "6",
+        "word": "싸게"
+      },
+      {
+        "start": 5.299,
+        "end": 5.46,
+        "loc": "7",
+        "word": "살"
+      },
+      {
+        "start": 5.766,
+        "end": 5.899,
+        "loc": "8,9",
+        "word": "수 있습니다."
+      }
+    ],
+    "sign_gestures_weak": [
+      {
+        "start": 2.255,
+        "end": 2.533,
+        "gloss_id": "회사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 2.622,
+        "end": 2.95,
+        "gloss_id": "할인1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.15,
+        "end": 3.256,
+        "gloss_id": "행사1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 3.472,
+        "end": 4.005,
+        "gloss_id": "발표1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.238,
+        "end": 4.494,
+        "gloss_id": "물건2",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 4.688,
+        "end": 4.938,
+        "gloss_id": "싸다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      },
+      {
+        "start": 5.299,
+        "end": 5.46,
+        "gloss_id": "사다1",
+        "express": "s",
+        "direction": null,
+        "sentence_loc": null
+      }
+    ]
+  },
+  "nms_script": {
+    "Mmo": null,
+    "Hno": [
+      {
+        "descriptor": "",
+        "start": 5.299,
+        "end": 5.46
+      },
+      {
+        "descriptor": "",
+        "start": 2.255,
+        "end": 2.533
+      },
+      {
+        "descriptor": "",
+        "start": 4.688,
+        "end": 4.938
+      },
+      {
+        "descriptor": "",
+        "start": 5.766,
+        "end": 5.899
+      }
+    ],
+    "Mo1": [
+      {
+        "descriptor": "",
+        "start": 3.472,
+        "end": 4.005
+      },
+      {
+        "descriptor": "",
+        "start": 5.766,
+        "end": 5.899
+      }
+    ],
+    "Hs": null,
+    "EBf": null,
+    "Mctr": null,
+    "Ci": null,
+    "Ebu": [
+      {
+        "descriptor": "",
+        "start": 3.472,
+        "end": 4.005
+      },
+      {
+        "descriptor": "",
+        "start": 4.688,
+        "end": 4.938
+      }
+    ]
+  },
+  "vido_file_nm": "VXPAKOKS240327990",
+  "potogrf": {
+    "createdTime": "2024-06-10 05:04:05",
+    "sentence_ID": "VXPAKOKS240327990",
+    "photographer": "D",
+    "location": "d",
+    "devide": "Sony A6400",
+    "iris": 4.0,
+    "gain": "ISO 400",
+    "whiteBalance": 6000,
+    "shutterSpeed": "1/125",
+    "fps": 30.0,
+    "width": 1920,
+    "height": 1080,
+    "format": "MP4",
+    "codec": "XAVC S HD",
+    "sl_speaker_id": "JH",
+    "sl_speaker_age": 39,
+    "sl_speaker_sex": "female",
+    "sl_speaker_legion": "Seoul",
+    "sl_speaker_hand": "right_handed"
+  },
+  "license": "국립국어원",
+  "fps": 30,
+  "orig_fps": 30.0,
+  "dims": [
+    200,
+    126
+  ],
+  "file": "VXPAKOKS240327990.mp4",
+  "saved_as": "VXPAKOKS240327990-카드회사에서제공하는할인행사가있다면물건을싸게살수있습니다.npz",
+  "source": "NIKL_Sign_Language_Parallel_Corpus_2024"
+}
