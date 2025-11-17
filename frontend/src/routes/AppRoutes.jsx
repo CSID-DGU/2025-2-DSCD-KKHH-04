@@ -15,34 +15,22 @@ import DeafSend from "../pages/Deaf/Send";
 import DeafReceive from "../pages/Deaf/Receive";
 
 export const router = createBrowserRouter([
-  // 메인 페이지
   {
     path: "/",
     element: <DesktopLayout />,
     children: [
+      // 메인
       { index: true, element: <MainIndex /> },
-    ],
-  },
 
-  // 💻 은행원(PC)
-  {
-    path: "/banker",
-    element: <DesktopLayout />,
-    children: [
-      { index: true, element: <BankerIndex /> },
-      { path: "send", element: <BankerSend /> },
-      { path: "receive", element: <BankerReceive /> },
-    ],
-  },
+      // 은행원
+      { path: "banker", element: <BankerIndex /> },
+      { path: "banker/send", element: <BankerSend /> },
+      { path: "banker/receive", element: <BankerReceive /> },
 
-  // 📱 청각장애인(태블릿)
-  {
-    path: "/deaf",
-    element: <DesktopLayout />, // ← 여기 TabletLayout 대신 DesktopLayout
-    children: [
-      { index: true, element: <DeafIndex /> },
-      { path: "send", element: <DeafSend /> },
-      { path: "receive", element: <DeafReceive /> },
+      // 농인
+      { path: "deaf", element: <DeafIndex /> },
+      { path: "deaf/send", element: <DeafSend /> },
+      { path: "deaf/receive", element: <DeafReceive /> },
     ],
   },
 ]);
