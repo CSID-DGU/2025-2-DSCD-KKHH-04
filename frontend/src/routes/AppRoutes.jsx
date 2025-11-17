@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 import DesktopLayout from "../layouts/DesktopLayout";
 import MainIndex from "../pages/main";
+import Login from "../pages/login";
 
 // PC (은행원)
 import BankerIndex from "../pages/Banker/index";
@@ -21,6 +22,8 @@ export const router = createBrowserRouter([
     children: [
       // 메인
       { index: true, element: <MainIndex /> },
+
+      { path: "login", element: <Login /> },
 
       // 은행원
       { path: "banker", element: <BankerIndex /> },
