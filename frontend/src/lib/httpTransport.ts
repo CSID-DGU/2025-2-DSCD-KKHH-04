@@ -1,29 +1,46 @@
-// 테스트용
+// src/lib/httpTransport.ts
+
 import type { ISeqTransport, Frame } from "@/lib/seqTransport";
+
+const API_BASE = "http://127.0.0.1:8000";
 
 export class HttpBatchTransport implements ISeqTransport {
   private buffer: Frame[] = [];
-  private timer?: number;
-  constructor(private url: string, private sessionId: string, private fps=30, private batchMs=500){
+  private url: string;
+
+  constructor(
+    url: string,
+    private sessionId: string,
+    private fps = 30
+  ) {
+    this.url = `${API_BASE}${url}`;
   }
 
   pushFrame(f: Frame) {
     this.buffer.push(f);
-    if (!this.timer) this.timer = window.setTimeout(() => this.flush(), this.batchMs);
-    if (this.buffer.length >= 60) this.flush(); // 0.5~1초마다
   }
 
-  async flush() {
+  async flush(): Promise<void> {
     if (!this.buffer.length) return;
-    const payload = { session_id: this.sessionId, fps: this.fps, frames: this.buffer };
+
+    const payload = {
+      session_id: this.sessionId,
+      fps: this.fps,
+      frames: this.buffer,
+    };
+
     this.buffer = [];
-    if (this.timer) { window.clearTimeout(this.timer); this.timer = undefined; }
+
     await fetch(this.url, {
       method: "POST",
-      headers: {"Content-Type":"application/json"},
-      body: JSON.stringify(payload)
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
     });
   }
 
-  close(){ this.flush(); }
+  // 🔹 인터페이스: close(): void 와 맞추기
+  //   내부적으로 flush는 async지만, 여기서는 그냥 fire-and-forget
+  close(): void {
+    void this.flush();   // Promise는 기다리지 않고 버림
+  }
 }

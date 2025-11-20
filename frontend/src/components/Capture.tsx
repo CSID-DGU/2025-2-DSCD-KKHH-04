@@ -1,11 +1,43 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import type { Frame as HandsFrame } from "@/hooks/useHands";
+import type {
+  Frame as TxFrame,
+  Hand as TxHand,
+} from "@/lib/seqTransport";
 import { useHands } from "@/hooks/useHands";
+import { useSequenceSender } from "@/hooks/useSequenceSender";
+
+// ✅ useHands.Frame → seqTransport.Frame 변환 헬퍼
+function toTxFrame(frame: HandsFrame): TxFrame {
+  return {
+    ts: frame.ts,
+    hands: frame.hands.map(
+      (h): TxHand => ({
+        // 나머지 필드는 그대로 복사
+        ...h,
+        // handedness를 "Left" | "Right" 유니온으로 강제
+        handedness: h.handedness === "Left" ? "Left" : "Right",
+      })
+    ),
+  };
+}
 
 export default function Capture() {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const { start, stop, status, respText } = useHands();
+
+  // ---- 시퀀스 전송용 세션 설정 ----
+  const sessionId = useMemo(() => `sess_${Date.now()}`, []);
+  const transport = useSequenceSender(sessionId);
+
+  // useHands 훅: onFrame 옵션으로 우리가 만든 콜백을 넘겨줌
+  const { start, stop, status, respText } = useHands({
+    onFrame: (frame) => {
+      // ✅ 타입 변환 후 전송 (버퍼에만 쌓임)
+      transport.pushFrame(toTxFrame(frame));
+    },
+  });
 
   const [started, setStarted] = useState(false);
   const [mirror, setMirror] = useState(true); // 화면만 미러(모델 입력은 원본)
@@ -42,7 +74,7 @@ export default function Capture() {
   const handleStart = async () => {
     if (!videoRef.current || !canvasRef.current) return;
 
-    // 비디오 메타가 준비되면(처음 1~2프레임 후) 컨테이너가 영상비율과 달라 생길 수 있는 좌표 어긋남을 줄이기 위해, 시작 시점에 한 번 더 캔버스 동기화
+    // 비디오 메타 로딩 후 한 번 더 캔버스 동기화
     const ensureSync = () => {
       const container = containerRef.current!;
       const canvas = canvasRef.current!;
@@ -56,13 +88,17 @@ export default function Capture() {
     };
 
     ensureSync();
-    await start(videoRef.current, canvasRef.current); 
+    await start(videoRef.current, canvasRef.current); // useHands 쪽에서 Mediapipe 시작
     setStarted(true);
   };
 
-  const handleStop = () => {
+  const handleStop = async () => {
+    // 1) Mediapipe 정지해서 더 이상 pushFrame 안 들어오게
     stop();
     setStarted(false);
+
+    // 2) 지금까지 버퍼에 쌓인 프레임을 한 번에 서버로 전송 → npz 1개
+    await transport.flush();
   };
 
   return (
@@ -90,7 +126,10 @@ export default function Capture() {
         <video
           ref={videoRef}
           className="absolute inset-0 w-full h-full object-cover"
-          style={{ transform: mirror ? "scaleX(-1)" : "none", transformOrigin: "center" }}
+          style={{
+            transform: mirror ? "scaleX(-1)" : "none",
+            transformOrigin: "center",
+          }}
           playsInline
           muted
           autoPlay
@@ -98,17 +137,26 @@ export default function Capture() {
         <canvas
           ref={canvasRef}
           className="absolute inset-0 w-full h-full pointer-events-none"
-          style={{ transform: mirror ? "scaleX(-1)" : "none", transformOrigin: "center" }}
+          style={{
+            transform: mirror ? "scaleX(-1)" : "none",
+            transformOrigin: "center",
+          }}
         />
       </div>
 
       <div className="flex gap-3 items-center">
         {!started ? (
-          <button onClick={handleStart} className="px-5 py-2.5 rounded-xl bg-blue-600 text-white">
+          <button
+            onClick={handleStart}
+            className="px-5 py-2.5 rounded-xl bg-blue-600 text-white"
+          >
             카메라 시작
           </button>
         ) : (
-          <button onClick={handleStop} className="px-5 py-2.5 rounded-xl bg-gray-700 text-white">
+          <button
+            onClick={handleStop}
+            className="px-5 py-2.5 rounded-xl bg-gray-700 text-white"
+          >
             멈추기
           </button>
         )}
@@ -116,7 +164,9 @@ export default function Capture() {
 
       <div className="w-[60vw] max-w-[800px] p-4 rounded-xl bg-amber-50 border">
         <div className="text-sm text-gray-500">서버 응답</div>
-        <div className="text-lg font-medium break-words">{respText || "—"}</div>
+        <div className="text-lg font-medium break-words">
+          {respText || "—"}
+        </div>
       </div>
     </div>
   );

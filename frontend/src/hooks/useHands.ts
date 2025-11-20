@@ -1,25 +1,32 @@
+// src/hooks/useHands.ts
 import { useEffect, useRef, useState, useCallback } from "react";
-import { FilesetResolver, HandLandmarker } from "@mediapipe/tasks-vision";
-import { postIngest } from "@/services/api";
+import {
+  FilesetResolver,
+  HandLandmarker,
+  type HandLandmarkerResult,
+} from "@mediapipe/tasks-vision";
 
-type Landmark = { x: number; y: number; z?: number };
-type Hand = { handedness: string; landmarks: Landmark[] };
-type Frame = { ts: number; hands: Hand[] };
+// ---- 공용 타입 ----
+export type Landmark = { x: number; y: number; z?: number };
+export type Hand = { handedness: string; landmarks: Landmark[] };
+export type Frame = { ts: number; hands: Hand[] };
 
 // MediaPipe 표준 연결
 const HAND_CONNECTIONS: Array<[number, number]> = [
-  [0,1],[1,2],[2,3],[3,4],
-  [0,5],[5,6],[6,7],[7,8],
-  [5,9],[9,10],[10,11],[11,12],
-  [9,13],[13,14],[14,15],[15,16],
-  [13,17],[17,18],[18,19],[19,20],
-  [0,17],
+  [0, 1], [1, 2], [2, 3], [3, 4],
+  [0, 5], [5, 6], [6, 7], [7, 8],
+  [5, 9], [9, 10], [10, 11], [11, 12],
+  [9, 13], [13, 14], [14, 15], [15, 16],
+  [13, 17], [17, 18], [18, 19], [19, 20],
+  [0, 17],
 ];
 
 // object-cover일 때 비디오가 실제로 그려지는 영역 계산
 function getCoverMapping(
-  containerW: number, containerH: number,
-  videoW: number, videoH: number
+  containerW: number,
+  containerH: number,
+  videoW: number,
+  videoH: number
 ) {
   const scale = Math.max(containerW / videoW, containerH / videoH);
   const drawnW = videoW * scale;
@@ -42,9 +49,7 @@ function drawHandsOnCanvas(
   const ctx = canvas.getContext("2d");
   if (!ctx) return;
 
-  // 그리기 비용 과도 방지: DPR 상한 (필요시 1.5로 낮춰도 됨)
   const dpr = Math.min(window.devicePixelRatio || 1, 2);
-
   const { drawnW, drawnH, offsetX, offsetY } =
     getCoverMapping(containerW, containerH, videoW, videoH);
 
@@ -93,27 +98,28 @@ function drawHandsOnCanvas(
       const x = (wrist.x * drawnW + offsetX) * dpr;
       const y = (wrist.y * drawnH + offsetY) * dpr;
       ctx.fillStyle = "#12B886";
-      ctx.font = `${12 * dpr}px sans-serif`; // ← 템플릿 리터럴 버그 수정
+      ctx.font = `${12 * dpr}px sans-serif`;
       ctx.fillText(hand.handedness || "Unknown", x + 6 * dpr, y - 6 * dpr);
     }
   }
   ctx.restore();
 }
 
-export function useHands() {
+// ---- 훅 본체 ----
+// onFrame: 프레임 한 개 나올 때마다 (랜드마크 포함) 호출
+export function useHands(opts?: { onFrame?: (frame: Frame) => void }) {
   const landmarkerRef = useRef<HandLandmarker | null>(null);
   const streamRef = useRef<MediaStream | null>(null);
 
-  const [status, setStatus] = useState<"idle"|"loading"|"running"|"stopped"|"error">("idle");
-  const [respText, setRespText] = useState<string>("");
+  const [status, setStatus] = useState<
+    "idle" | "loading" | "running" | "stopped" | "error"
+  >("idle");
+  // 나중에 LLM inference 다시 붙일 때 쓰라고 respText는 그냥 유지
+  const [respText, setRespText] = useState("");
 
-  // === 성능/지연 개선: FPS만 30으로 올림(품질 변화 없음)
   const fps = 30;
-  const windowMs = 1000;
-  const framesRef = useRef<Frame[]>([]);
-  const lastTickRef = useRef(0);
   const runningRef = useRef(false);
-  const timerRef = useRef<number | null>(null);
+  const lastTickRef = useRef(0);
 
   const initLandmarker = useCallback(async () => {
     setStatus("loading");
@@ -125,60 +131,30 @@ export function useHands() {
         modelAssetPath:
           "https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task",
       },
-      runningMode: "VIDEO", // 안정 경로
+      runningMode: "VIDEO",
       numHands: 2,
     });
   }, []);
 
-  // 비디오+캔버스 전달받아서 시작
-  const start = useCallback(async (videoEl: HTMLVideoElement, canvasEl: HTMLCanvasElement) => {
-    try {
-      if (!landmarkerRef.current) await initLandmarker();
+  const start = useCallback(
+    async (videoEl: HTMLVideoElement, canvasEl: HTMLCanvasElement) => {
+      try {
+        if (!landmarkerRef.current) await initLandmarker();
 
-      const stream = await navigator.mediaDevices.getUserMedia({
-        video: { facingMode: "user", width: { ideal: 640 }, height: { ideal: 480 } },
-        audio: false,
-      });
-      streamRef.current = stream;
-      videoEl.srcObject = stream;
-      await videoEl.play();
+        const stream = await navigator.mediaDevices.getUserMedia({
+          video: {
+            facingMode: "user",
+            width: { ideal: 640 },
+            height: { ideal: 480 },
+          },
+          audio: false,
+        });
+        streamRef.current = stream;
+        videoEl.srcObject = stream;
+        await videoEl.play();
 
-      // 시작 시 캔버스 픽셀 크기 동기화
-      const syncCanvas = () => {
-        const dpr = Math.min(window.devicePixelRatio || 1, 2);
-        const cw = canvasEl.clientWidth;
-        const ch = canvasEl.clientHeight;
-        const pxW = Math.max(1, Math.floor(cw * dpr));
-        const pxH = Math.max(1, Math.floor(ch * dpr));
-        if (canvasEl.width !== pxW) canvasEl.width = pxW;
-        if (canvasEl.height !== pxH) canvasEl.height = pxH;
-      };
-      syncCanvas();
-
-      // 리사이즈 대응
-      const ro = new ResizeObserver(syncCanvas);
-      ro.observe(canvasEl);
-      // 루프/타이머 시작
-      framesRef.current = [];
-      runningRef.current = true;
-      setStatus("running");
-
-      // 프레임 루프: detectForVideo(동기) + draw
-      const tick = (now: number) => {
-        if (!runningRef.current) return;
-        const lm = landmarkerRef.current!;
-        if (now - lastTickRef.current >= 1000 / fps) {
-          lastTickRef.current = now;
-
-          const res = lm.detectForVideo(videoEl, now);
-
-          const hands: Hand[] = (res?.landmarks ?? []).map((arr: any, i: number) => ({
-            // handedness 키 버전 호환
-            handedness: ((res?.handednesses ?? (res as any)?.handedness)?.[i]?.[0]?.categoryName) ?? "Unknown",
-            landmarks: arr.map((p: any) => ({ x: p.x, y: p.y, z: p.z ?? 0 })),
-          }));
-
-          // 캔버스 해상도(DPR) 재확인
+        // 시작 시 캔버스 픽셀 크기 동기화
+        const syncCanvas = () => {
           const dpr = Math.min(window.devicePixelRatio || 1, 2);
           const cw = canvasEl.clientWidth;
           const ch = canvasEl.clientHeight;
@@ -186,61 +162,102 @@ export function useHands() {
           const pxH = Math.max(1, Math.floor(ch * dpr));
           if (canvasEl.width !== pxW) canvasEl.width = pxW;
           if (canvasEl.height !== pxH) canvasEl.height = pxH;
+        };
+        syncCanvas();
 
-          // object-cover 보정하여 그리기 (미러는 CSS에서만)
-          drawHandsOnCanvas(
-            canvasEl, hands,
-            cw, ch,
-            videoEl.videoWidth || 640, videoEl.videoHeight || 480,
-            false
-          );
+        const ro = new ResizeObserver(syncCanvas);
+        ro.observe(canvasEl);
 
-          // 서버 전송 버퍼
-          if (hands.length) framesRef.current.push({ ts: Date.now(), hands });
-        }
-        videoEl.requestVideoFrameCallback(tick);
-      };
-      videoEl.requestVideoFrameCallback(tick);
+        runningRef.current = true;
+        setStatus("running");
 
-      // 1초마다 전송
-      if (timerRef.current) window.clearInterval(timerRef.current);
-      timerRef.current = window.setInterval(async () => {
-        const frames = framesRef.current.splice(0, framesRef.current.length);
-        if (frames.length === 0) return;
-        const payload = { session_id: crypto.randomUUID(), fps, window_ms: windowMs, frames };
-        try {
-          const r = await postIngest(payload);
-          setRespText(r.text);
-        } catch (e) {
-          console.error(e);
-          setRespText("서버 통신 오류");
-        }
-      }, windowMs);
+        const scheduleNext = (cb: (t: number) => void) => {
+          const anyVideo = videoEl as any;
+          if (typeof anyVideo.requestVideoFrameCallback === "function") {
+            anyVideo.requestVideoFrameCallback(cb);
+          } else {
+            // TS + 일부 브라우저 호환용 fallback
+            requestAnimationFrame(cb);
+          }
+        };
 
-      // 정리자 등록
-      const cleanup = () => {
-        ro.disconnect();
-      };
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      (videoEl as any)._cleanupObserver = cleanup;
+        const tick = (now: number) => {
+          if (!runningRef.current) return;
+          const lm = landmarkerRef.current;
+          if (!lm) return;
 
-    } catch (e) {
-      console.error(e);
-      setStatus("error");
-    }
-  }, [fps, windowMs, initLandmarker]);
+          if (now - lastTickRef.current >= 1000 / fps) {
+            lastTickRef.current = now;
+
+            const res: HandLandmarkerResult = lm.detectForVideo(videoEl, now);
+            const rawLandmarks = res?.landmarks ?? [];
+            const handednessArr = res?.handednesses ?? [];
+
+            const hands: Hand[] = rawLandmarks.map((arr, i) => ({
+              handedness:
+                handednessArr?.[i]?.[0]?.categoryName ?? "Unknown",
+              landmarks: arr.map((p) => ({
+                x: p.x,
+                y: p.y,
+                z: p.z ?? 0,
+              })),
+            }));
+
+            const dpr = Math.min(window.devicePixelRatio || 1, 2);
+            const cw = canvasEl.clientWidth;
+            const ch = canvasEl.clientHeight;
+            const pxW = Math.max(1, Math.floor(cw * dpr));
+            const pxH = Math.max(1, Math.floor(ch * dpr));
+            if (canvasEl.width !== pxW) canvasEl.width = pxW;
+            if (canvasEl.height !== pxH) canvasEl.height = pxH;
+
+            drawHandsOnCanvas(
+              canvasEl,
+              hands,
+              cw,
+              ch,
+              videoEl.videoWidth || 640,
+              videoEl.videoHeight || 480,
+              false
+            );
+
+            if (hands.length) {
+              const frame: Frame = { ts: Date.now(), hands };
+              opts?.onFrame?.(frame);
+            }
+          }
+
+          scheduleNext(tick);
+        };
+
+        scheduleNext(tick);
+
+        // cleanup 저장
+        (videoEl as any)._cleanupObserver = () => {
+          ro.disconnect();
+        };
+      } catch (e) {
+        console.error(e);
+        setStatus("error");
+      }
+    },
+    [fps, initLandmarker, opts]
+  );
 
   const stop = useCallback(() => {
     runningRef.current = false;
     setStatus("stopped");
-    if (timerRef.current) { window.clearInterval(timerRef.current); timerRef.current = null; }
     if (streamRef.current) {
-      streamRef.current.getTracks().forEach(t => t.stop());
+      streamRef.current.getTracks().forEach((t) => t.stop());
       streamRef.current = null;
     }
   }, []);
 
-  useEffect(() => () => stop(), [stop]);
+  useEffect(() => {
+    return () => {
+      stop();
+    };
+  }, [stop]);
 
-  return { start, stop, status, respText };
+  return { start, stop, status, respText, setRespText };
 }
