@@ -109,63 +109,105 @@ class ConvSubsample(nn.Module):
         return h.transpose(1, 2)  # [B,T',H]
 
 # ----------------------------
-# Hybrid Backbone (TCN + TFM)
+# Hybrid Backbone (TCN + TFM, NO subsample)
 # ----------------------------
 class HybridBackbone(nn.Module):
     """
-    공통 백본: TCN → ConvSubsample(×stages) → Transformer
-    출력: [B, T', H],  T' ≈ ceil(T / 2^stages)
+    공통 백본: TCN → Transformer
+    - ConvSubsample 완전히 제거
+    - 입력/출력 길이 동일: [B, T, F] -> [B, T, H]
     """
-    def __init__(self, in_dim, hid=256, depth=6, nhead=4, p=0.1, subsample_stages: int = 1):
+    def __init__(
+        self,
+        in_dim: int,
+        hid: int = 256,
+        depth: int = 6,
+        nhead: int = 4,
+        p: float = 0.1,
+        subsample_stages: int = 0,  # 남겨두지만, 내부에서 무시함 (호환용)
+    ):
         super().__init__()
+
+        # 전체 depth 중 절반은 TCN, 나머지는 Transformer
         tcn_depth = max(1, depth // 2)
         tfm_depth = max(1, depth - tcn_depth)
 
         self.hid = hid
-        self.subsample_stages = int(subsample_stages)
+        self.subsample_stages = 0  # 강제로 0, ConvSubsample 사용 안 함
 
-        self.tcn = TCNEncoder(in_dim=in_dim, hid=hid, depth=tcn_depth, p=p)
-        self.sub = ConvSubsample(hid, hid, stages=self.subsample_stages)
+        # 1) 입력 선형 투영 (in_dim -> hid)
+        self.in_proj = nn.Linear(in_dim, hid)
 
-        layer = nn.TransformerEncoderLayer(
-            d_model=hid, nhead=nhead, batch_first=True,
-            dim_feedforward=hid*4, dropout=p, activation="gelu"
+        # 2) TCN Encoder (길이 유지)
+        self.tcn = TCNEncoder(
+            in_dim=hid,
+            hid=hid,
+            depth=tcn_depth,
+            p=p,
         )
-        self.pe = PositionalEncoding(hid)
-        self.tfm = nn.TransformerEncoder(layer, num_layers=tfm_depth)
 
-    def forward(self, x, src_key_padding_mask=None):  # x:[B,T,F], mask:[B,T] (True=pad)
-        h = self.tcn(x)  # [B,T,H]
-        h = self.sub(h)  # [B,T',H]
-        m = None
-        if src_key_padding_mask is not None:
-            m = downsample_pad_mask(src_key_padding_mask, self.subsample_stages)  # [B,T']
-            m = m[:, :h.size(1)]
-            if m.device != h.device:
-                m = m.to(h.device)
-        h = self.tfm(self.pe(h), src_key_padding_mask=m)  # [B,T',H]
+        # 3) Transformer Encoder (길이 유지)
+        enc_layer = nn.TransformerEncoderLayer(
+            d_model=hid,
+            nhead=nhead,
+            dim_feedforward=hid * 4,
+            dropout=p,
+            batch_first=True,
+        )
+        self.tfm = nn.TransformerEncoder(enc_layer, num_layers=tfm_depth)
+
+    def forward(self, x, src_key_padding_mask=None):
+        """
+        x: [B, T, F]
+        src_key_padding_mask: [B, T] (True=pad), 그대로 T 유지
+        return: [B, T, H]
+        """
+        # 1) 투영
+        h = self.in_proj(x)  # [B, T, H]
+
+        # 2) TCN (Conv1d 기반, 길이 유지)
+        h = self.tcn(h)      # [B, T, H]
+
+        # 3) Transformer (길이 유지)
+        h = self.tfm(
+            h,
+            src_key_padding_mask=src_key_padding_mask,
+        )  # [B, T, H]
+
         return h
+
 
 # ----------------------------
 # Heads
 # ----------------------------
 class StatsPooling(nn.Module):
-    def forward(self, x, mask=None):  # x: [B,T',H], mask: [B,T'] True=pad
+    """
+    시퀀스 [B,T,H] → (mean ⊕ std) [B,2H]
+    mask: [B,T] (True=pad)
+    """
+    def forward(self, x, mask=None):  # x: [B,T,H]
         if mask is not None:
-            valid = ~mask
+            # pad가 아닌 부분만 평균/분산 계산
+            valid = ~mask                       # [B,T]
             lens = valid.sum(dim=1, keepdim=True).clamp(min=1)  # [B,1]
-            x_masked = x.masked_fill(mask.unsqueeze(-1), 0.0)
-            mean = x_masked.sum(dim=1) / lens                    # [B,H]
-            var = ((x_masked - mean.unsqueeze(1))**2).masked_fill(mask.unsqueeze(-1), 0.0).sum(dim=1) / lens
-            std = torch.sqrt(var + 1e-6)                         # [B,H]
+
+            x_masked = x.masked_fill(mask.unsqueeze(-1), 0.0)   # pad=0으로
+            mean = x_masked.sum(dim=1) / lens                   # [B,H]
+
+            var = ((x_masked - mean.unsqueeze(1)) ** 2) \
+                    .masked_fill(mask.unsqueeze(-1), 0.0) \
+                    .sum(dim=1) / lens                          # [B,H]
+            std = torch.sqrt(var + 1e-5)
         else:
-            mean = x.mean(dim=1)
-            std = x.std(dim=1)
-        return torch.cat([mean, std], dim=-1)                    # [B,2H]
+            mean = x.mean(dim=1)                                # [B,H]
+            std = x.std(dim=1)                                  # [B,H]
+
+        return torch.cat([mean, std], dim=-1)                   # [B,2H]
 
 class WordClassifier(nn.Module):
     """
-    백본 출력 [B,T',H] → StatsPooling(Mean⊕Std) → Linear(2H,V)
+    백본 출력 [B,T,H] → StatsPooling(Mean⊕Std) → Linear(2H,V)
+    (ConvSubsample 없음, 길이 보존)
     """
     def __init__(self, backbone: HybridBackbone, vocab_size: int):
         super().__init__()
@@ -174,12 +216,13 @@ class WordClassifier(nn.Module):
         self.fc = nn.Linear(backbone.hid * 2, vocab_size)
 
     def forward(self, x, src_key_padding_mask=None):  # x:[B,T,F]
-        h = self.backbone(x, src_key_padding_mask=src_key_padding_mask)  # [B,T',H]
-        m = None
-        if src_key_padding_mask is not None:
-            m = downsample_pad_mask(src_key_padding_mask, self.backbone.subsample_stages)
-            m = m[:, :h.size(1)].to(h.device)
-        z = self.pool(h, mask=m)                         # [B,2H]
+        # 1) 백본 통과 (길이 그대로 T 유지)
+        h = self.backbone(x, src_key_padding_mask=src_key_padding_mask)  # [B,T,H]
+
+        # 2) StatsPooling (mask는 downsample 없이 그대로)
+        z = self.pool(h, mask=src_key_padding_mask)      # [B,2H]
+
+        # 3) 분류기
         logits = self.fc(z)                              # [B,V]
         return logits
 

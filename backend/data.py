@@ -213,7 +213,6 @@ def norm_name(s: str) -> str:
     p = Path(str(s).strip())
     stem = Path(p.name).stem
     s = unicodedata.normalize("NFC", stem)
-    s = s.replace("—", "-").replace("–", "-").replace("_", "-")
     s = re.sub(r"\s+", "", s)
     return s
 

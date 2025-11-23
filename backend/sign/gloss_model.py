@@ -11,10 +11,10 @@ from data import normalize_hands_frame  # frame 정규화 (학습과 동일)
 # ========= 경로 설정 ============
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-CKPT_PATH = BASE_DIR / "runs" / "eco_word_1000_closed.pt"
+CKPT_PATH = BASE_DIR / "runs" / "recorded_word.pt"
 # 필요하면 나중에 쓸 수 있게만 둠 (필수 X)
-WORD_ROOT = BASE_DIR / "datasets" / "word"
-VOCAB_JSON = WORD_ROOT / "vocab.json"
+WORD_ROOT = BASE_DIR / "dataset" / "npz" / "recorded"
+VOCAB_JSON = WORD_ROOT / "vocab_recorded.json"
 
 
 # ========= 전역 객체 ============
