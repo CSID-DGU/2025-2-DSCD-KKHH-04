@@ -2,41 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 기본값/리셋 확장은 base 레이어에 */
+/* ============================
+   Base reset (필요한 최소만 유지)
+   ============================ */
 @layer base {
   :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
+
+    /* 다크모드 대비 설정 */
     color-scheme: light dark;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+
+    color: #213547;
+    background-color: #ffffff;
+
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* ❗❗ 문제였던 flex 제거 */
   body {
     margin: 0;
-    display: flex;
-    place-items: center;
     min-width: 320px;
     min-height: 100vh;
+    display: block; /* 기본값 */
+    background-color: #ffffff;
   }
 
-  @media (prefers-color-scheme: light) {
-    :root { color: #213547; background-color: #fff; }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color: rgba(255, 255, 255, 0.87);
+      background-color: #242424;
+    }
   }
 }
 
-/* 컴포넌트성 스타일은 components 레이어에 */
+/* ============================
+   Components layer
+   ============================ */
 @layer components {
-  a { font-weight: 500; color: #646cff; text-decoration: inherit; }
-  a:hover { color: #535bf2; }
+  /* default anchor */
+  a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #535bf2;
+  }
 
-  h1 { font-size: 3.2em; line-height: 1.1; }
-
+  /* default button (Tailwind와 충돌하지 않는 최소 설정) */
   button {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -44,19 +62,45 @@
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #ffffff;
     cursor: pointer;
-    transition: border-color .25s;
+    background-color: #ffffff;
+    transition: border-color 0.25s;
   }
-  button:hover { border-color: #646cff; }
-  button:focus, button:focus-visible { outline: 4px auto -webkit-focus-ring-color; }
 
-  .logo { height: 6rem; padding: 1.5rem; will-change: filter; transition: filter .2s; }
-  .logo:hover { filter: drop-shadow(0 0 2em #646cffaa); }
-  .logo.react:hover { filter: drop-shadow(0 0 2em #61dafbaa); }
+  button:hover {
+    border-color: #646cff;
+  }
+
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  /* Demo용 logo 클래스 → 현재 프로젝트엔 영향 없음, 유지 */
+  .logo {
+    height: 6rem;
+    padding: 1.5rem;
+    will-change: filter;
+    transition: filter 0.2s;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
 
   @media (prefers-reduced-motion: no-preference) {
-    @keyframes logo-spin { from { transform: rotate(0deg) } to { transform: rotate(360deg) } }
-    .logo.react { animation: logo-spin 20s linear infinite; }
+    @keyframes logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    .logo.react {
+      animation: logo-spin 20s linear infinite;
+    }
   }
 }

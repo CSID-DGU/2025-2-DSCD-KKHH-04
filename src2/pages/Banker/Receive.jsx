@@ -1,0 +1,382 @@
+// frontend_clean/src/pages/Banker/Receive.jsx
+import React, { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+import NavTabs from "../../components/NavTabs";
+
+export default function BankerReceive() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, []);
+
+  return (
+    <div className="w-full h-auto overflow-hidden">
+      <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
+        {/* 상단 탭 + 시스템 상태 탭 클릭 시 /performance 이동 */}
+        <NavTabs
+          rightSlot={<SendReceiveToggle active="receive" />}
+          onTabClick={(idx) => {
+            if (idx === 3) {
+              window.location.href = "http://localhost:5174/performance";
+              // 또는 navigate("/performance") 써도 됨
+            }
+          }}
+        />
+
+        <CustomerBar />
+        <ChatPanel />
+        <ASRPanel />
+      </main>
+    </div>
+  );
+}
+
+// ⬇⬇ 여기 밑에는 CustomerBar, ChatPanel, ASRPanel, SendReceiveToggle 등만 두고,
+// 아까 떨어져 있던 <NavTabs ... /> JSX 블록은 전부 삭제!
+
+
+/* ---------------- 고객 정보 바 ---------------- */
+function CustomerBar() {
+  return (
+    <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
+      <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
+        <UserIcon className="h-5 w-5 text-slate-700" />
+        <span>고객 정보</span>
+      </div>
+      <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
+        김희희
+        <span className="mx-2 text-slate-400">|</span>
+        XX은행 1002-123-4567
+      </div>
+    </section>
+  );
+}
+
+/* ---------------- 상담 대화창 ---------------- */
+function ChatPanel() {
+  const [messages, setMessages] = useState([
+    { from: "agent", text: "안녕하세요. 어떤 업무 도와드릴까요?" },
+    { from: "user", text: "안녕하세요. 새 통장을 만들고 싶어요." },
+  ]);
+  const [input, setInput] = useState("");
+  const bottomRef = useRef(null);
+
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+
+  const send = () => {
+    const txt = input.trim();
+    if (!txt) return;
+    setMessages((prev) => [...prev, { from: "agent", text: txt }]);
+    setInput("");
+  };
+
+  return (
+    <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col">
+      <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
+        <BubbleIcon />
+        <span>상담 대화창</span>
+      </div>
+
+      <div
+        className="
+          mt-3
+          rounded-xl
+          border border-slate-200
+          bg-slate-50
+          p-4
+          space-y-3
+          h-[318px]
+          overflow-y-auto
+        "
+      >
+        {messages.map((m, i) => (
+          <ChatBubble key={i} role={m.from} text={m.text} />
+        ))}
+        <div ref={bottomRef} />
+      </div>
+
+      <div className="mt-3 flex gap-2">
+        <input
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && send()}
+          placeholder="메시지를 입력하세요"
+          className="flex-1 h-11 rounded-xl border border-slate-300 px-3 text-base text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300"
+        />
+        <button
+          onClick={send}
+          className="h-11 px-4 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800"
+        >
+          보내기
+        </button>
+      </div>
+    </section>
+  );
+}
+
+/* ---------------- 말풍선 ---------------- */
+function ChatBubble({ role, text }) {
+  const isAgent = role === "agent";
+  return (
+    <div
+      className={
+        "flex items-start gap-2 " + (isAgent ? "" : "justify-end")
+      }
+    >
+      {isAgent && <AvatarCommon />}
+      <div className="max-w-[80%] rounded-2xl px-4 py-3 bg-white border border-slate-200">
+        <p className="text-base leading-relaxed text-slate-800">{text}</p>
+      </div>
+      {!isAgent && <AvatarCommon />}
+    </div>
+  );
+}
+
+function AvatarCommon() {
+  return (
+    <div className="w-9 h-9 rounded-full bg-slate-200 grid place-items-center overflow-hidden">
+      <svg
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        fill="currentColor"
+        className="text-slate-500"
+      >
+        <circle cx="12" cy="8" r="4" />
+        <path d="M3 21a9 9 0 0 1 18 0" />
+      </svg>
+    </div>
+  );
+}
+
+/* ---------------- 음성(수어) 인식 패널 ---------------- */
+function ASRPanel() {
+  const [stage, setStage] = useState(0);
+  const [isRec, setIsRec] = useState(false);
+  const [mode, setMode] = useState("응답");
+  const [text, setText] = useState("");
+
+  // 진행바 애니메이션
+  useEffect(() => {
+    const id = setInterval(() => setStage((s) => (s + 1) % 4), 1600);
+    return () => clearInterval(id);
+  }, []);
+
+  const toggleRec = () => {
+    setIsRec((prev) => !prev);
+  };
+
+  return (
+    <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
+      <div className="flex items-center gap-4">
+        {/* 왼쪽: 동그라미 버튼 (수어 아이콘) */}
+        <div className="shrink-0 w-20 h-20 rounded-full border-2 border-slate-300 grid place-items-center">
+          <button
+            type="button"
+            onClick={toggleRec}
+            aria-pressed={isRec}
+            title={isRec ? "녹음 중지" : "녹음 시작"}
+            className={
+              "flex items-center justify-center rounded-full bg-white transition-all " +
+              (isRec
+                ? "h-[72px] w-[72px] border-2 border-slate-900 ring-4 ring-slate-200 animate-pulse"
+                : "h-[64px] w-[64px] border border-slate-300")
+            }
+          >
+            <HandIcon
+              className={
+                isRec ? "h-9 w-9 text-slate-900" : "h-8 w-8 text-slate-800"
+              }
+            />
+          </button>
+        </div>
+
+        {/* 가운데: 제목 / 진행바 / 입력창 */}
+        <div className="flex-1">
+          <div className="font-semibold text-base text-slate-800">
+            {isRec ? "녹음 중..." : "수어 인식 중..."}
+          </div>
+
+          <div className="mt-3">
+            <StageDots active={stage} />
+          </div>
+
+          <div className="mt-4 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 flex items-center">
+            <div className="flex gap-2 flex-shrink-0">
+              <button
+                onClick={() => setMode("질문")}
+                className={
+                  "px-3 h-8 rounded-lg text-sm border " +
+                  (mode === "질문"
+                    ? "bg-slate-900 text-white border-slate-900"
+                    : "bg-white text-slate-700 border-slate-300")
+                }
+              >
+                질문
+              </button>
+              <button
+                onClick={() => setMode("응답")}
+                className={
+                  "px-3 h-8 rounded-lg text-sm border " +
+                  (mode === "응답"
+                    ? "bg-slate-900 text-white border-slate-900"
+                    : "bg-white text-slate-700 border-slate-300")
+                }
+              >
+                응답
+              </button>
+            </div>
+
+            <input
+              type="text"
+              value={text}
+              onChange={(e) => setText(e.target.value)}
+              placeholder="수어 인식 결과가 여기에 표시됩니다."
+              className="flex-1 ml-4 text-base text-slate-800 placeholder-slate-400 border-none bg-transparent focus:outline-none"
+            />
+          </div>
+        </div>
+
+        {/* 오른쪽: 버튼 두 개 세로 */}
+        <div className="flex flex-col gap-2">
+          <button className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap">
+            응답 전송
+          </button>
+          <button className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap">
+            번역 오류
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ---------------- 진행 바 ---------------- */
+function StageDots({ active = 0 }) {
+  return (
+    <div className="flex items-center gap-6">
+      {[0, 1, 2, 3].map((i) => (
+        <div
+          key={i}
+          className={
+            "h-2 w-12 rounded-full transition-all " +
+            (active >= i ? "bg-slate-800" : "bg-slate-200")
+          }
+        />
+      ))}
+    </div>
+  );
+}
+
+/* ---------------- 아이콘 ---------------- */
+function BubbleIcon() {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      className="text-slate-700"
+    >
+      <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8z" />
+    </svg>
+  );
+}
+
+function UserIcon({ className = "" }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className={className}
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M12 12a5 5 0 1 0-5-5 5.006 5.006 0 0 0 5 5Zm0 2c-4.418 0-8 2.239-8 5v1h16v-1c0-2.761-3.582-5-8-5Z" />
+    </svg>
+  );
+}
+
+function MicIconStroke({ className = "" }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      aria-hidden="true"
+    >
+      <rect x="9" y="4" width="6" height="10" rx="3" />
+      <path d="M5 11a7 7 0 0 0 14 0" />
+      <path d="M12 18v4" />
+      <path d="M9 22h6" />
+    </svg>
+  );
+}
+
+function HandIcon({ className = "" }) {
+  return (
+    <svg
+      width="36"
+      height="36"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      className={"text-slate-700 " + className}
+      aria-hidden="true"
+    >
+      <path d="M12 22s-6-4.5-6-9.5V7a2 2 0 1 1 4 0v4" />
+      <path d="M10 12V6a2 2 0 1 1 4 0v6" />
+      <path d="M14 12V5a2 2 0 1 1 4 0v6" />
+    </svg>
+  );
+}
+
+/* ---------------- 상단 송신/수신 토글 ---------------- */
+function SendReceiveToggle({ active }) {
+  const navigate = useNavigate();
+
+  const baseBtn =
+    "px-4 py-1.5 text-sm rounded-full transition-all duration-150 whitespace-nowrap";
+
+  return (
+    <div className="inline-flex items-center rounded-full bg-slate-200 p-1 shadow-sm">
+      {/* 송신 */}
+      <button
+        type="button"
+        onClick={() => {
+          if (active !== "send") navigate("/banker/send");
+        }}
+        className={`${baseBtn} ${
+          active === "send"
+            ? "bg-slate-900 text-white shadow-sm"
+            : "bg-white text-slate-700 hover:bg-slate-100"
+        }`}
+        aria-pressed={active === "send"}
+      >
+        송신
+      </button>
+
+      {/* 수신 */}
+      <button
+        type="button"
+        onClick={() => {
+          if (active !== "receive") navigate("/banker/receive");
+        }}
+        className={`${baseBtn} ${
+          active === "receive"
+            ? "bg-slate-900 text-white shadow-sm"
+            : "bg-white text-slate-700 hover:bg-slate-100"
+        }`}
+        aria-pressed={active === "receive"}
+      >
+        수신
+      </button>
+    </div>
+  );
+}
