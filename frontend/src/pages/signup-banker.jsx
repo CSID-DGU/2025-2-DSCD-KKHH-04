@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+// ================== API 베이스 URL ==================
+const API_BASE_URL = "http://127.0.0.1:8000";
+
 // ================== 스타일 공통 ==================
 const styles = {
   page: {
@@ -51,7 +54,6 @@ const styles = {
   },
 };
 
-// ================== StepIndicator 컴포넌트 ==================
 // ================== StepIndicator 컴포넌트 ==================
 function StepIndicator({ currentStep = 3 }) {
   const steps = [
@@ -117,7 +119,7 @@ function StepIndicator({ currentStep = 3 }) {
                 </div>
               </div>
 
-              {/* 라벨 - 전부 동일 컬러 */}
+              {/* 라벨 */}
               <div
                 style={{
                   gridColumn: col,
@@ -159,7 +161,6 @@ function StepIndicator({ currentStep = 3 }) {
     </div>
   );
 }
-
 
 // ================== InstitutionInfo (계정 정보) ==================
 function InstitutionInfo({
@@ -429,13 +430,13 @@ const phoneBoxStyle = {
   display: "flex",
   alignItems: "center",
   gap: 6,
-  padding: "0 10px",      // ← 위/아래 0
-  border: "1px solid #d4d9e6",
+  padding: "0 10px", // 위/아래 0
+  border: "1px solid #d4d9e6" ,
   borderLeft: "none",
   flex: 1,
   backgroundColor: "white",
   boxSizing: "border-box",
-  height: 46,             // ← 연락 수단 줄이랑 맞춤
+  height: 46,
 };
 
 const selectStyle = {
@@ -455,7 +456,7 @@ const phoneFieldStyle = {
 const hyphenStyle = { fontSize: 14, color: "#6c7a92" };
 
 // ================== 메인 페이지 컴포넌트 ==================
-export default function SignUpPage() {
+export default function SignUpBankerPage() {
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -463,47 +464,78 @@ export default function SignUpPage() {
   }, []);
 
   // 계정 정보
-  const [insName, setInsName] = useState("");
-  const [insType, setInsType] = useState("");
-  const [insAddress, setInsAddress] = useState("");
+  const [insName, setInsName] = useState(""); // 계정 이메일
+  const [insType, setInsType] = useState(""); // 계정 비밀번호
+  const [insAddress, setInsAddress] = useState(""); // 비밀번호 확인
   const [contact, setContact] = useState("kakao");
 
   // 은행원 정보
   const [managerName, setManagerName] = useState("");
-  const [department, setDepartment] = useState("");
-  const [email, setEmail] = useState("");
+  const [department, setDepartment] = useState(""); // 은행명
+  const [email, setEmail] = useState(""); // 소속 지점
   const [phone0, setPhone0] = useState("010");
   const [phone1, setPhone1] = useState("");
   const [phone2, setPhone2] = useState("");
-  const [userId, setUserId] = useState("");
-  const [password, setPassword] = useState("");
+  const [userId, setUserId] = useState(""); // 사내 이메일 (로그인 ID로 사용)
+  const [password, setPassword] = useState(""); // 사번
 
   const [loading, setLoading] = useState(false);
 
   const onSubmit = async () => {
+    // 간단한 필수값 체크
+    if (!insName || !insType || !managerName || !userId) {
+      alert("이메일, 비밀번호, 담당자 이름, 사내 이메일은 필수입니다.");
+      return;
+    }
+
+    if (insType !== insAddress) {
+      alert("비밀번호와 비밀번호 확인이 일치하지 않습니다.");
+      return;
+    }
+
+    const phone = `${phone0}-${phone1}-${phone2}`;
+
+    // 백엔드에서 기대하는 필드 이름 중심으로 구성
+    const payload = {
+      userType: "banker",        // 현재 화면은 은행원 가입이므로 고정
+      name: managerName,         // 담당자 이름
+      email: userId,             // 사내 이메일을 로그인용 이메일로 사용
+      password: insType,         // 계정 비밀번호
+      phone,                     // "010-1234-5678" 형태
+
+      employeeId: password,      // 사번
+      branchName: email,         // 소속 지점
+
+      // 나머지는 참고용으로 같이 보냄 (백엔드는 일단 무시해도 됨)
+      institutionName: insName,
+      institutionType: department,      // 여기선 은행명
+      institutionAddress: insAddress,
+      contactMethod: contact,
+    };
+
     try {
       setLoading(true);
-      const payload = {
-        institutionName: insName,
-        institutionType: insType,
-        institutionAddress: insAddress,
-        contactMethod: contact,
-        managerName,
-        department,
-        email,
-        phone0,
-        phone1,
-        phone2,
-        id: userId,
-        password,
-      };
 
-      await registerApi(payload);
+      const res = await fetch(`${API_BASE_URL}/api/accounts/signup/`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        alert(data.error || "회원가입에 실패했습니다.");
+        return;
+      }
+
       alert("회원가입이 완료되었습니다. 로그인 페이지로 이동합니다.");
-      navigate("/");
+      navigate("/login"); // 로그인 페이지 경로에 맞게 수정
     } catch (e) {
       console.error(e);
-      alert("회원가입에 실패했습니다. 입력값을 확인해주세요.");
+      alert("서버와 통신 중 오류가 발생했습니다.");
     } finally {
       setLoading(false);
     }
@@ -511,7 +543,6 @@ export default function SignUpPage() {
 
   return (
     <div style={styles.page}>
-      {/* 오른쪽: 메인 폼 */}
       <div style={styles.mainContent}>
         <StepIndicator currentStep={3} />
 

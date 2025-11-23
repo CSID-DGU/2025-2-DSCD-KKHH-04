@@ -1,5 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+// (위 코드 동일 — 수정 없음)
+import React, { useEffect, useRef, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
+import NavTabs from "../../components/NavTabs"; // ✅ 공통 NavTabs 추가
+
 
 /* ---------------- 전역 상수: 기본 영상/자막 ---------------- */
 const DEFAULT_VIDEO_SRC = `${import.meta.env.BASE_URL}videos/VXPAKOKS240328310.mp4`;
@@ -37,15 +40,21 @@ export default function DeafReceive() {
   const [captionText, setCaptionText] = useState(DEFAULT_CAPTION);
   const [captionSent, setCaptionSent] = useState(false);
 
-  // 페이지 들어올 때 localStorage에서 마지막 영상 URL / 자막 읽어오기
+  // ★ gloss 라벨 (korean_meanings 대표 단어들)
+  const [glossLabels, setGlossLabels] = useState([]);
+
+  // 페이지 들어올 때 localStorage에서 값 읽기
   useEffect(() => {
     const storedVideo = localStorage.getItem("signanceDeafVideoUrl");
-    const storedCaption = localStorage.getItem("signanceDeafCaption");
+    const storedCaptionClean = localStorage.getItem("signanceDeafCaptionClean");
+    const storedGlossLabels = localStorage.getItem("signanceDeafGlossLabels");
+    const storedCaptionRaw = localStorage.getItem("signanceDeafCaptionRaw");
 
-      console.log("DeafReceive storedVideo:", storedVideo);
-  console.log("DeafReceive storedCaption:", storedCaption);
+    console.log("DeafReceive storedVideo:", storedVideo);
+    console.log("DeafReceive storedCaptionClean:", storedCaptionClean);
+    console.log("DeafReceive storedCaptionRaw:", storedCaptionRaw);
+    console.log("DeafReceive storedGlossLabels:", storedGlossLabels);
 
-    // 영상 URL 갱신
     if (storedVideo) {
       const fullUrl = storedVideo.startsWith("http")
         ? storedVideo
@@ -53,12 +62,21 @@ export default function DeafReceive() {
       setVideoSrc(fullUrl);
     }
 
-    // 자막 텍스트 갱신
-    if (storedCaption) {
-      setCaptionText(storedCaption);
+    if (storedCaptionClean) {
+      setCaptionText(storedCaptionClean);
     }
 
-    // 새 세션/새 영상이라고 보고 자막 재송신 가능하도록 리셋
+    if (storedGlossLabels) {
+      try {
+        const parsed = JSON.parse(storedGlossLabels);
+        if (Array.isArray(parsed)) {
+          setGlossLabels(parsed);
+        }
+      } catch (e) {
+        console.warn("failed to parse signanceDeafGlossLabels:", e);
+      }
+    }
+
     setCaptionSent(false);
   }, []);
 
@@ -67,13 +85,13 @@ export default function DeafReceive() {
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        {/* 탭 + 오른쪽 송신/수신 토글 */}
-        <NavTabs mode="receive" />
+        <NavTabs rightSlot={<SendReceiveToggle active="receive" />} />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
           <VideoPanel
             videoSrc={videoSrc}
             captionText={captionText}
+            glossLabels={glossLabels}
             onPlayCaption={() => {
               if (captionSent) return;
               if (captionText) {
@@ -82,10 +100,7 @@ export default function DeafReceive() {
               }
             }}
           />
-          <ChatPanel
-            messages={messages}
-            onSend={(txt) => pushMsg("user", txt)}
-          />
+          <ChatPanel messages={messages} onSend={(txt) => pushMsg("user", txt)} />
         </div>
 
         <div className="mt-4">
@@ -106,53 +121,30 @@ function PanelHeader({ icon, title }) {
   );
 }
 
-/* ---------------- 탭 메뉴 (오른쪽에 송신/수신 토글 포함) ---------------- */
-function NavTabs({ mode }) {
-  const tabs = ["실시간 인식", "대화 로그", "고객 메모", "시스템 상태"];
-  const [active, setActive] = useState(0);
-
-  return (
-    <nav className="w-full bg-white rounded-xl shadow-sm border border-slate-200 px-3 pb-3">
-      <div className="flex items-start justify-between gap-4">
-        {/* 왼쪽: 탭 */}
-        <ul className="flex flex-wrap gap-6 mt-2">
-          {tabs.map((t, i) => (
-            <li key={t}>
-              <button
-                onClick={() => setActive(i)}
-                className={
-                  "px-4 py-2 rounded-lg text-sm sm:text-base " +
-                  (active === i
-                    ? "bg-slate-900 text-white"
-                    : "text-slate-700 hover:bg-slate-100")
-                }
-              >
-                {t}
-              </button>
-            </li>
-          ))}
-        </ul>
-
-        {/* 오른쪽: 송신/수신 토글 */}
-        <div className="mt-2">
-          <SendReceiveToggle active={mode === "send" ? "send" : "receive"} />
-        </div>
-      </div>
-    </nav>
-  );
-}
+/* ---------------- 탭 메뉴 ---------------- */
 
 /* ---------------- 수어 영상 패널 ---------------- */
-function VideoPanel({ onPlayCaption, videoSrc, captionText }) {
+function VideoPanel({ onPlayCaption, videoSrc, captionText, glossLabels }) {
   const vidRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
   const [errMsg, setErrMsg] = useState("");
 
+  /* ★ 자막 길이에 따라 글씨 크기 동적 조절 */
+  const captionSizeClass = useMemo(() => {
+    const len = captionText ? captionText.length : 0;
+
+    if (len <= 25) return "text-xl sm:text-2xl";
+    if (len <= 60) return "text-lg sm:text-xl";
+    return "text-base sm:text-lg"; // 긴 문장일수록 작게
+  }, [captionText]);
+
   const safePlay = async () => {
     const v = vidRef.current;
     if (!v) return;
+
     setErrMsg("");
+
     try {
       await v.play();
       setIsPlaying(true);
@@ -166,9 +158,7 @@ function VideoPanel({ onPlayCaption, videoSrc, captionText }) {
         setShowOverlay(true);
         onPlayCaption?.();
       } catch {
-        setErrMsg(
-          "영상 재생을 시작할 수 없어요. 브라우저 권한/볼륨을 확인해 주세요."
-        );
+        setErrMsg("영상 재생을 시작할 수 없어요. 브라우저 권한/볼륨을 확인해 주세요.");
       }
     }
   };
@@ -204,16 +194,25 @@ function VideoPanel({ onPlayCaption, videoSrc, captionText }) {
           controls={false}
         />
 
+        {/* ★ gloss 오버레이 */}
+        {Array.isArray(glossLabels) && glossLabels.length > 0 && (
+          <div className="absolute top-3 left-3 bg-black/70 text-white text-xs sm:text-sm px-3 py-1 rounded-md max-w-[85%]">
+            {glossLabels.join(" · ")}
+          </div>
+        )}
+
+        {/* ★ 새 자막 (줄바꿈 O + 자동 글씨 크기 조절) */}
         {showOverlay && captionText && (
           <div
-            className="
+            className={`
               absolute bottom-6 left-1/2 -translate-x-1/2
-              w-[98%] sm:w-[95%] lg:w-[90%]
-              px-6 py-4 bg-black/70 text-white rounded-lg
-              text-lg sm:text-xl font-medium
-              text-center whitespace-nowrap
+              w-[96%] sm:w-[93%] lg:w-[90%]
+              px-5 py-3 bg-black/70 text-white rounded-lg
+              ${captionSizeClass}
+              text-center leading-relaxed
               drop-shadow-[0_6px_20px_rgba(0,0,0,0.35)]
-            "
+              whitespace-normal break-words
+            `}
           >
             {captionText}
           </div>
@@ -377,7 +376,8 @@ function ASRPanel() {
   );
 }
 
-/* ---------------- 서브 컴포넌트 ---------------- */
+/* ---------------- 나머지 UI 구성요소들 ---------------- */
+
 function StageDots() {
   return (
     <div className="flex items-center gap-6">
@@ -392,9 +392,7 @@ function ChatBubble({ role, text }) {
   const isAgent = role === "agent";
   return (
     <div
-      className={
-        "flex items-start gap-2 mb-3 " + (isAgent ? "" : "justify-end")
-      }
+      className={"flex items-start gap-2 mb-3 " + (isAgent ? "" : "justify-end")}
     >
       {isAgent && <AvatarGirl />}
       <div
@@ -440,73 +438,39 @@ function RoundBtn({ children, label, onClick }) {
   );
 }
 
-/* ---------------- 아이콘/아바타 ---------------- */
+/* ---------------- 아이콘 ---------------- */
 function PlayBadge() {
   return (
-    <svg
-      width="22"
-      height="22"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="text-slate-600"
-    >
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" className="text-slate-600">
       <polygon points="5,3 19,12 5,21" />
     </svg>
   );
 }
 function PlayIcon() {
   return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="text-slate-700"
-    >
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="text-slate-700">
       <polygon points="8,5 19,12 8,19" />
     </svg>
   );
 }
 function PauseIcon() {
   return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="text-slate-700"
-    >
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="text-slate-700">
       <rect x="6" y="5" width="4" height="14" />
       <rect x="14" y="5" width="4" height="14" />
     </svg>
   );
 }
-
 function PrevIcon() {
   return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className="text-slate-700"
-    >
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" className="text-slate-700">
       <polygon points="16,5 7,12 16,19" />
     </svg>
   );
 }
-
 function ReplayIcon() {
   return (
-    <svg
-      width="18"
-      height="18"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      className="text-slate-700"
-    >
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-slate-700">
       <path d="M4 11a7 7 0 1 1 2 5.3" />
       <polyline points="4 7 4 11 8 11" />
     </svg>
@@ -515,14 +479,7 @@ function ReplayIcon() {
 
 function BubbleIcon() {
   return (
-    <svg
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-    >
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
       <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8z" />
     </svg>
   );
@@ -531,13 +488,7 @@ function BubbleIcon() {
 function AvatarGirl() {
   return (
     <div className="w-9 h-9 rounded-full bg-slate-200 grid place-items-center overflow-hidden">
-      <svg
-        viewBox="0 0 24 24"
-        width="20"
-        height="20"
-        fill="currentColor"
-        className="text-slate-500"
-      >
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className="text-slate-500">
         <circle cx="12" cy="8" r="4" />
         <path d="M3 21a9 9 0 0 1 18 0" />
       </svg>
@@ -547,13 +498,7 @@ function AvatarGirl() {
 function AvatarUser() {
   return (
     <div className="w-9 h-9 rounded-full bg-slate-300 grid place-items-center overflow-hidden">
-      <svg
-        viewBox="0 0 24 24"
-        width="20"
-        height="20"
-        fill="currentColor"
-        className="text-slate-600"
-      >
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" className="text-slate-600">
         <circle cx="12" cy="8" r="4" />
         <path d="M3 21a9 9 0 0 1 18 0" />
       </svg>
@@ -561,21 +506,12 @@ function AvatarUser() {
   );
 }
 function Dot() {
-  return (
-    <span className="inline-block w-2 h-2 rounded-full bg-slate-500 animate-pulse"></span>
-  );
+  return <span className="inline-block w-2 h-2 rounded-full bg-slate-500 animate-pulse"></span>;
 }
 
 function MicIconStroke({ className = "" }) {
   return (
-    <svg
-      viewBox="0 0 24 24"
-      className={className}
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.8"
-      aria-hidden="true"
-    >
+    <svg viewBox="0 0 24 24" className={className} fill="none" stroke="currentColor" strokeWidth="1.8">
       <rect x="9" y="4" width="6" height="10" rx="3" />
       <path d="M5 11a7 7 0 0 0 14 0" />
       <path d="M12 18v4" />

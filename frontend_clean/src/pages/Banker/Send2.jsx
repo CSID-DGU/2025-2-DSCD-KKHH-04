@@ -1,61 +1,60 @@
+// frontend_clean/src/pages/Banker/Send2.jsx
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+
+import NavTabs from "../../components/NavTabs";
 
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
-export default function BankerSend() {
+export default function BankerSend2() {
+  const navigate = useNavigate();
+  const [activeTab, setActiveTab] = useState(0); // 0: 실시간, 1: 로그, 2: 메모, 3: 시스템
+  const [logs, setLogs] = useState([]);
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, []);
 
+  const handleTabClick = (idx) => {
+    setActiveTab(idx);
+    if (idx === 0) {
+      // 실시간 인식으로 이동했을 때 강제 상단 이동
+      document.querySelector(".chat-scroll-box")?.scrollTo(0, 0);
+  }
+
+    if (idx === 3) {
+      navigate("/performance");
+    }
+  };
+
+  const handleReportError = (entry) => {
+    setLogs((prev) => [
+      ...prev,
+      { ...entry, id: Date.now() }, // 간단히 id 붙이기
+    ]);
+    setActiveTab(1); // 번역 오류 → 대화 로그 탭으로 전환
+  };
+
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs />
+        <NavTabs
+          rightSlot={<SendReceiveToggle active="send" />}
+          onTabClick={handleTabClick}
+        />
+
         <CustomerBar />
-        <ChatPanel />
-        <ASRPanel />
+
+        <ChatPanel2 activeTab={activeTab} logs={logs} />
+
+        <ASRPanel2 onReportError={handleReportError} />
       </main>
     </div>
   );
 }
 
-/* ---------------- NavTabs ---------------- */
-function NavTabs() {
-  const tabs = ["실시간 인식", "대화 로그", "고객 메모", "시스템 상태"];
-  const [active, setActive] = useState(0);
-
-  return (
-    <nav className="w-full bg-white rounded-xl shadow-sm border border-slate-200 px-3 pb-3">
-      <div className="flex items-start justify-between gap-4">
-        <ul className="flex flex-wrap gap-6 mt-2">
-          {tabs.map((t, i) => (
-            <li key={t}>
-              <button
-                onClick={() => setActive(i)}
-                className={
-                  "px-4 py-2 rounded-lg text-sm sm:text-base " +
-                  (active === i
-                    ? "bg-slate-900 text-white"
-                    : "text-slate-700 hover:bg-slate-100")
-                }
-              >
-                {t}
-              </button>
-            </li>
-          ))}
-        </ul>
-
-        <div className="mt-2">
-          <SendReceiveToggle active="send" />
-        </div>
-      </div>
-    </nav>
-  );
-}
-
-/* ---------------- CustomerBar ---------------- */
+/* ---------------- CustomerBar (같이 사용) ---------------- */
 function CustomerBar() {
   return (
     <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
@@ -73,8 +72,108 @@ function CustomerBar() {
   );
 }
 
-/* ---------------- ChatPanel ---------------- */
-function ChatPanel() {
+/* ---------------- ChatPanel2: 탭에 따라 내용 변경 ---------------- */
+function ChatPanel2({ activeTab, logs }) {
+  if (activeTab === 1) {
+    // 대화 로그 탭
+    return (
+      <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col">
+        <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
+          <BubbleIcon />
+          <span>대화 로그 (번역 오류)</span>
+        </div>
+
+        <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-3 h-[380px] overflow-y-auto">
+          {logs.length === 0 ? (
+            <p className="text-sm text-slate-500">
+              아직 저장된 번역 오류 로그가 없다.
+              우측 하단의 번역 오류 버튼을 눌러 로그를 쌓을 수 있다.
+            </p>
+          ) : (
+            <table className="w-full table-fixed text-xs text-slate-700">
+              <colgroup>
+                <col className="w-[60px]" />
+                <col className="w-[120px]" />
+                <col className="w-[40%]" />
+                <col className="w-[40%]" />
+              </colgroup>
+              <thead className="border-b border-slate-200 bg-slate-100">
+                <tr>
+                  <th className="px-2 py-1 text-left">번호</th>
+                  <th className="px-2 py-1 text-left">시각</th>
+                  <th className="px-2 py-1 text-left">STT 원문</th>
+                  <th className="px-2 py-1 text-left">NLP 텍스트</th>
+                </tr>
+              </thead>
+              <tbody>
+                {logs.map((log, idx) => (
+                  <tr
+                    key={log.id || idx}
+                    className="border-b border-slate-100 align-top"
+                  >
+                    <td className="px-2 py-1 text-[11px] text-slate-500">
+                      {idx + 1}
+                    </td>
+                    <td className="px-2 py-1 text-[11px] text-slate-500">
+                      {log.createdAt || "-"}
+                    </td>
+                    <td className="px-2 py-1">
+                      <div className="text-xs whitespace-pre-wrap line-clamp-3">
+                        {log.sttText || "-"}
+                      </div>
+                    </td>
+                    <td className="px-2 py-1">
+                      <div className="text-xs whitespace-pre-wrap line-clamp-3">
+                        {log.cleanText || "-"}
+                      </div>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          )}
+        </div>
+      </section>
+    );
+  }
+
+  if (activeTab === 2) {
+    // 고객 메모 탭
+    return (
+      <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col">
+        <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
+          <BubbleIcon />
+          <span>고객 메모</span>
+        </div>
+        <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-3 h-[374px]">
+          <textarea
+            className="w-full h-full resize-none bg-transparent text-sm text-slate-800 outline-none"
+            placeholder="추후 상담 노트 / 고객 메모를 정리하는 영역"
+          />
+        </div>
+      </section>
+    );
+  }
+
+  if (activeTab === 3) {
+    // 시스템 상태 탭(별도 페이지로 이동하지만, 일단 placeholder)
+    return (
+      <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col">
+        <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
+          <BubbleIcon />
+          <span>시스템 상태</span>
+        </div>
+        <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-3 h-[318px]">
+          <p className="text-sm text-slate-500">
+            성능 대시보드는 /performance 페이지에서 확인할 수 있다.
+          </p>
+        </div>
+      </section>
+    );
+  }
+
+  // 기본: 실시간 인식 탭 (원래 ChatPanel과 거의 동일)
+  // 기본: 실시간 인식 탭 (원래 ChatPanel과 거의 동일)
   const [messages, setMessages] = useState([
     { from: "agent", text: "안녕하세요. 어떤 업무 도와드릴까요?" },
     { from: "user", text: "안녕하세요. 새 통장을 만들고 싶어요." },
@@ -94,13 +193,15 @@ function ChatPanel() {
   };
 
   return (
-    <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col">
+    <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col h-[460px]">
       <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
         <BubbleIcon />
         <span>상담 대화창</span>
       </div>
 
-      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
+      <div
+  className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto chat-scroll-box"
+>
         {messages.map((m, i) => (
           <ChatBubble key={i} role={m.from} text={m.text} />
         ))}
@@ -124,9 +225,10 @@ function ChatPanel() {
       </div>
     </section>
   );
+
 }
 
-/* ---------------- ChatBubble ---------------- */
+/* ---------------- ChatBubble / Avatar ---------------- */
 function ChatBubble({ role, text }) {
   const isAgent = role === "agent";
 
@@ -162,8 +264,8 @@ function AvatarCommon() {
   );
 }
 
-/* ---------------- ASRPanel ---------------- */
-function ASRPanel() {
+/* ---------------- ASRPanel2: 번역 오류 → 상단 로그 탭에 push ---------------- */
+function ASRPanel2({ onReportError }) {
   const [stage, setStage] = useState(0);
   const [isRec, setIsRec] = useState(false);
   const [mode, setMode] = useState("응답");
@@ -175,25 +277,22 @@ function ASRPanel() {
   const [isSending, setIsSending] = useState(false);
   const [apiErr, setApiErr] = useState("");
 
-  // 음성 인식 상태: idle(대기), done(완료)
   const [recStatus, setRecStatus] = useState("idle");
+  const [latency, setLatency] = useState(null);
 
-  // ✅ 수어 영상 전달 완료 팝업 상태
   const [showDeafPopup, setShowDeafPopup] = useState(false);
-  const navigate = useNavigate(); // ✅ DeafReceive로 이동용
+  const navigate = useNavigate();
 
   const mediaRecRef = useRef(null);
   const chunksRef = useRef([]);
   const streamRef = useRef(null);
   const timerRef = useRef(null);
 
-  /* ---------------- 진행 바 애니메이션 ---------------- */
   useEffect(() => {
     const id = setInterval(() => setStage((s) => (s + 1) % 4), 1600);
     return () => clearInterval(id);
   }, []);
 
-  /* ---------------- 타이머 ---------------- */
   useEffect(() => {
     if (isRec) {
       timerRef.current = setInterval(() => setSec((s) => s + 1), 1000);
@@ -207,7 +306,6 @@ function ASRPanel() {
     };
   }, [isRec]);
 
-  /* ---------------- 클린업 ---------------- */
   useEffect(() => {
     return () => {
       try {
@@ -218,7 +316,6 @@ function ASRPanel() {
     };
   }, [lastAudio]);
 
-  /* ---------------- Blob 업로드 ---------------- */
   const uploadBlob = async (blob) => {
     if (!blob) {
       setApiErr("먼저 음성을 녹음해 주세요.");
@@ -248,45 +345,80 @@ function ASRPanel() {
       const data = await resp.json();
       console.log("speech_to_sign result:", data);
 
-      // ✅ 1) 화면에 보여줄 텍스트 선택: gemini.clean > raw.clean_text > data.text
-      const cleanedText =
-        (data.gemini && data.gemini.clean) ||
-        (data.raw && data.raw.clean_text) ||
-        data.text ||
-        "";
-
-      if (cleanedText) {
-        setText(cleanedText);
-        localStorage.setItem("signanceDeafCaption", cleanedText);
-        // 텍스트 들어온 시점에 완료 상태
-        setRecStatus("done");
-      }
-
-      // 2) 대표 영상 URL 저장
-      let hasVideo = false;
-
-      if (data.video_url) {
-        localStorage.setItem("signanceDeafVideoUrl", data.video_url);
-        console.log("대표 수어 영상 URL:", data.video_url);
-        hasVideo = true;
-      }
-
-      // 3) 여러 개 영상 리스트 저장
-      if (data.video_urls) {
-        localStorage.setItem(
-          "signanceDeafVideoUrls",
-          JSON.stringify(data.video_urls)
-        );
-        console.log("수어 영상 리스트:", data.video_urls);
-        if (Array.isArray(data.video_urls) && data.video_urls.length > 0) {
-          hasVideo = true;
+      if (Array.isArray(data.gloss_labels)) {
+        try {
+          localStorage.setItem(
+            "signanceDeafGlossLabels",
+            JSON.stringify(data.gloss_labels)
+          );
+        } catch (e) {
+          console.warn("failed to save gloss_labels:", e);
         }
       }
 
-      // ✅ 수어 영상이 하나라도 있으면 팝업 띄우기
-      if (hasVideo) {
-        setShowDeafPopup(true);
+      const rawText = data.text || "";
+      const cleanedText = data.clean_text || rawText || "";
+
+      setText(cleanedText);
+      setRecStatus("done");
+
+      try {
+        localStorage.setItem("signanceDeafCaptionClean", cleanedText);
+      } catch (e) {}
+      if (rawText) {
+        try {
+          localStorage.setItem("signanceDeafCaptionRaw", rawText);
+        } catch (e) {}
       }
+
+      if (data.latency_ms) {
+        setLatency(data.latency_ms);
+
+        try {
+          const prev =
+            JSON.parse(localStorage.getItem("signanceLatencyLogs") || "[]") ||
+            [];
+
+          const logEntry = {
+            ts: data.timestamp || new Date().toISOString(),
+            sentence: cleanedText,
+            stt: data.latency_ms.stt,
+            nlp: data.latency_ms.nlp,
+            mapping: data.latency_ms.mapping,
+            synth: data.latency_ms.synth,
+            total: data.latency_ms.total,
+            text: rawText,
+            clean_text: cleanedText,
+            gloss: data.gloss || [],
+            gloss_labels: data.gloss_labels || [],
+            gloss_ids: data.gloss_ids || [],
+          };
+
+          prev.push(logEntry);
+          localStorage.setItem(
+            "signanceLatencyLogs",
+            JSON.stringify(prev)
+          );
+        } catch (e) {}
+      }
+
+      let hasVideo = false;
+      const sentenceVideoUrl =
+        data.sentence_video_url || data.video_url || "";
+      if (sentenceVideoUrl) {
+        localStorage.setItem("signanceDeafVideoUrl", sentenceVideoUrl);
+        hasVideo = true;
+      }
+      const videoList = data.sign_video_list || data.video_urls || [];
+      if (Array.isArray(videoList) && videoList.length > 0) {
+        localStorage.setItem(
+          "signanceDeafVideoUrls",
+          JSON.stringify(videoList)
+        );
+        hasVideo = true;
+      }
+
+      if (hasVideo) setShowDeafPopup(true);
     } catch (e) {
       console.error(e);
       setApiErr("서버와 통신 중 오류가 발생했어요.");
@@ -296,12 +428,10 @@ function ASRPanel() {
     }
   };
 
-  /* ---------------- 등록된 blob 전송 ---------------- */
   const sendToServer = async () => {
     await uploadBlob(lastAudio?.blob);
   };
 
-  /* ---------------- 녹음 시작 ---------------- */
   const startRec = async () => {
     setRecErr("");
     setApiErr("");
@@ -328,7 +458,7 @@ function ASRPanel() {
           if (lastAudio?.url) URL.revokeObjectURL(lastAudio.url);
           setLastAudio({ url, blob });
 
-          uploadBlob(blob); // 자동 업로드
+          uploadBlob(blob);
         } catch {
           setRecErr("오디오 데이터를 생성하지 못했어요.");
         }
@@ -345,7 +475,6 @@ function ASRPanel() {
     }
   };
 
-  /* ---------------- 종료 ---------------- */
   const stopRec = () => {
     try {
       mediaRecRef.current?.stop();
@@ -358,7 +487,29 @@ function ASRPanel() {
     else startRec();
   };
 
-  /* ---------------- JSX ---------------- */
+  // 번역 오류 → 부모로 entry 전달
+  const handleReportErrorClick = () => {
+    const rawText = localStorage.getItem("signanceDeafCaptionRaw") || "";
+    const cleanText = text || "";
+
+    if (!rawText && !cleanText) {
+      setApiErr("먼저 음성을 인식한 뒤 오류를 신고해 주세요.");
+      return;
+    }
+
+    const entry = {
+      sttText: rawText,
+      cleanText,
+      createdAt: new Date().toLocaleTimeString("ko-KR", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+      }),
+    };
+
+    onReportError && onReportError(entry);
+  };
+
   return (
     <>
       <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
@@ -444,6 +595,18 @@ function ASRPanel() {
                 {recErr || apiErr}
               </div>
             )}
+
+            {latency && (
+              <div className="mt-3 text-xs text-slate-500 space-y-1">
+                <div>
+                  STT: {msToSec(latency.stt)} s / NLP:{" "}
+                  {msToSec(latency.nlp)} s / 매핑:{" "}
+                  {msToSec(latency.mapping)} s / 합성:{" "}
+                  {msToSec(latency.synth)} s
+                </div>
+                <div>🕐 총합: {msToSec(latency.total)} s</div>
+              </div>
+            )}
           </div>
 
           <div className="flex flex-col gap-2">
@@ -454,7 +617,10 @@ function ASRPanel() {
             >
               {isSending ? "전송 중..." : "응답 전송"}
             </button>
-            <button className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap">
+            <button
+              className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap"
+              onClick={handleReportErrorClick}
+            >
               번역 오류
             </button>
           </div>
@@ -467,7 +633,6 @@ function ASRPanel() {
         )}
       </section>
 
-      {/* ✅ 수어 영상 전달 완료 팝업 */}
       {showDeafPopup && (
         <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/30">
           <div className="w-full max-w-md rounded-2xl bg-white p-6 shadow-xl border border-slate-200">
@@ -495,7 +660,7 @@ function ASRPanel() {
                 type="button"
                 onClick={() => {
                   setShowDeafPopup(false);
-                  navigate("/deaf/receive"); // ✅ DeafReceive 페이지로 이동
+                  navigate("/deaf/receive");
                 }}
                 className="px-4 h-10 rounded-lg bg-slate-900 text-sm text-white hover:bg-slate-800"
               >
@@ -509,7 +674,7 @@ function ASRPanel() {
   );
 }
 
-/* ---------------- StageDots ---------------- */
+/* ---------------- StageDots / Util / Icons / Toggle ---------------- */
 function StageDots({ active = 0 }) {
   return (
     <div className="flex items-center gap-6">
@@ -526,14 +691,17 @@ function StageDots({ active = 0 }) {
   );
 }
 
-/* ---------------- Util ---------------- */
 function formatTime(s) {
   const m = Math.floor(s / 60);
   const ss = s % 60;
   return `${String(m).padStart(2, "0")}:${String(ss).padStart(2, "0")}`;
 }
 
-/* ---------------- Icons ---------------- */
+function msToSec(ms) {
+  if (ms == null || isNaN(ms)) return "-";
+  return (ms / 1000).toFixed(2);
+}
+
 function BubbleIcon() {
   return (
     <svg
@@ -573,14 +741,13 @@ function MicIconStroke({ className = "" }) {
       strokeWidth="1.8"
     >
       <rect x="9" y="4" width="6" height="10" rx="3" />
-      <path d="M5 11a7 7 0 0 0 14 0" />
+      <path d="M5 11a 7 7 0 0 0 14 0" />
       <path d="M12 18v4" />
       <path d="M9 22h6" />
     </svg>
   );
 }
 
-/* ---------------- Send/Receive Toggle ---------------- */
 function SendReceiveToggle({ active }) {
   const navigate = useNavigate();
   const baseBtn =
@@ -591,7 +758,7 @@ function SendReceiveToggle({ active }) {
       <button
         type="button"
         onClick={() => {
-          if (active !== "send") navigate("/banker/send");
+          if (active !== "send") navigate("/banker/send2");
         }}
         className={`${baseBtn} ${
           active === "send"
@@ -600,7 +767,7 @@ function SendReceiveToggle({ active }) {
         }`}
         aria-pressed={active === "send"}
       >
-        송신
+        송신2
       </button>
 
       <button

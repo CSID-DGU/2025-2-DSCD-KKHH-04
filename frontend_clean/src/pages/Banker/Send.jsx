@@ -1,10 +1,15 @@
+// frontend_clean/src/pages/Banker/Send.jsx
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+
+import NavTabs from "../../components/NavTabs";
 
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
 export default function BankerSend() {
+  const navigate = useNavigate();
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, []);
@@ -12,46 +17,24 @@ export default function BankerSend() {
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs />
+        <NavTabs
+          rightSlot={<SendReceiveToggle active="send" />}
+          onTabClick={(idx) => {
+            // 0: 실시간 인식, 1: 대화 로그, 2: 고객 메모, 3: 시스템 상태(=성능 대시보드)
+            if (idx === 1) {
+              navigate("/banker/logs");
+            }
+            if (idx === 3) {
+              navigate("/performance");
+            }
+          }}
+        />
+
         <CustomerBar />
         <ChatPanel />
         <ASRPanel />
       </main>
     </div>
-  );
-}
-
-/* ---------------- NavTabs ---------------- */
-function NavTabs() {
-  const tabs = ["실시간 인식", "대화 로그", "고객 메모", "시스템 상태"];
-  const [active, setActive] = useState(0);
-
-  return (
-    <nav className="w-full bg-white rounded-xl shadow-sm border border-slate-200 px-3 pb-3">
-      <div className="flex items-start justify-between gap-4">
-        <ul className="flex flex-wrap gap-6 mt-2">
-          {tabs.map((t, i) => (
-            <li key={t}>
-              <button
-                onClick={() => setActive(i)}
-                className={
-                  "px-4 py-2 rounded-lg text-sm sm:text-base " +
-                  (active === i
-                    ? "bg-slate-900 text-white"
-                    : "text-slate-700 hover:bg-slate-100")
-                }
-              >
-                {t}
-              </button>
-            </li>
-          ))}
-        </ul>
-
-        <div className="mt-2">
-          <SendReceiveToggle active="send" />
-        </div>
-      </div>
-    </nav>
   );
 }
 
@@ -175,25 +158,28 @@ function ASRPanel() {
   const [isSending, setIsSending] = useState(false);
   const [apiErr, setApiErr] = useState("");
 
-  // 음성 인식 상태: idle(대기), done(완료)
   const [recStatus, setRecStatus] = useState("idle");
+  const [latency, setLatency] = useState(null);
 
-  // ✅ 수어 영상 전달 완료 팝업 상태
   const [showDeafPopup, setShowDeafPopup] = useState(false);
-  const navigate = useNavigate(); // ✅ DeafReceive로 이동용
+  const navigate = useNavigate(); // DeafReceive / Logs로 이동용
+
+  // 번역 오류 입력 팝업 상태 (여러 개 항목)
+  const [showErrorPopup, setShowErrorPopup] = useState(false);
+  const [spans, setSpans] = useState([{ wrong: "", correct: "" }]);
 
   const mediaRecRef = useRef(null);
   const chunksRef = useRef([]);
   const streamRef = useRef(null);
   const timerRef = useRef(null);
 
-  /* ---------------- 진행 바 애니메이션 ---------------- */
+  /* 진행 바 애니메이션 */
   useEffect(() => {
     const id = setInterval(() => setStage((s) => (s + 1) % 4), 1600);
     return () => clearInterval(id);
   }, []);
 
-  /* ---------------- 타이머 ---------------- */
+  /* 타이머 */
   useEffect(() => {
     if (isRec) {
       timerRef.current = setInterval(() => setSec((s) => s + 1), 1000);
@@ -207,7 +193,7 @@ function ASRPanel() {
     };
   }, [isRec]);
 
-  /* ---------------- 클린업 ---------------- */
+  /* 클린업 */
   useEffect(() => {
     return () => {
       try {
@@ -218,7 +204,7 @@ function ASRPanel() {
     };
   }, [lastAudio]);
 
-  /* ---------------- Blob 업로드 ---------------- */
+  /* Blob 업로드 */
   const uploadBlob = async (blob) => {
     if (!blob) {
       setApiErr("먼저 음성을 녹음해 주세요.");
@@ -248,42 +234,92 @@ function ASRPanel() {
       const data = await resp.json();
       console.log("speech_to_sign result:", data);
 
-      // ✅ 1) 화면에 보여줄 텍스트 선택: gemini.clean > raw.clean_text > data.text
-      const cleanedText =
-        (data.gemini && data.gemini.clean) ||
-        (data.raw && data.raw.clean_text) ||
-        data.text ||
-        "";
-
-      if (cleanedText) {
-        setText(cleanedText);
-        localStorage.setItem("signanceDeafCaption", cleanedText);
-        // 텍스트 들어온 시점에 완료 상태
-        setRecStatus("done");
-      }
-
-      // 2) 대표 영상 URL 저장
-      let hasVideo = false;
-
-      if (data.video_url) {
-        localStorage.setItem("signanceDeafVideoUrl", data.video_url);
-        console.log("대표 수어 영상 URL:", data.video_url);
-        hasVideo = true;
-      }
-
-      // 3) 여러 개 영상 리스트 저장
-      if (data.video_urls) {
-        localStorage.setItem(
-          "signanceDeafVideoUrls",
-          JSON.stringify(data.video_urls)
-        );
-        console.log("수어 영상 리스트:", data.video_urls);
-        if (Array.isArray(data.video_urls) && data.video_urls.length > 0) {
-          hasVideo = true;
+      // gloss_labels 저장
+      if (Array.isArray(data.gloss_labels)) {
+        try {
+          localStorage.setItem(
+            "signanceDeafGlossLabels",
+            JSON.stringify(data.gloss_labels)
+          );
+        } catch (e) {
+          console.warn("failed to save gloss_labels:", e);
         }
       }
 
-      // ✅ 수어 영상이 하나라도 있으면 팝업 띄우기
+      // STT 원문 / NLP 결과
+      const rawText = data.text || "";
+      const cleanedText = data.clean_text || rawText || "";
+
+      setText(cleanedText);
+      setRecStatus("done");
+
+      try {
+        localStorage.setItem("signanceDeafCaptionClean", cleanedText);
+      } catch (e) {
+        console.warn("failed to save signanceDeafCaptionClean:", e);
+      }
+
+      if (rawText) {
+        try {
+          localStorage.setItem("signanceDeafCaptionRaw", rawText);
+        } catch (e) {
+          console.warn("failed to save signanceDeafCaptionRaw:", e);
+        }
+      }
+
+      // latency 로그 저장
+      if (data.latency_ms) {
+        setLatency(data.latency_ms);
+
+        try {
+          const prev =
+            JSON.parse(localStorage.getItem("signanceLatencyLogs") || "[]") ||
+            [];
+
+          const logEntry = {
+            ts: data.timestamp || new Date().toISOString(),
+            sentence: cleanedText,
+            stt: data.latency_ms.stt,
+            nlp: data.latency_ms.nlp,
+            mapping: data.latency_ms.mapping,
+            synth: data.latency_ms.synth,
+            total: data.latency_ms.total,
+            text: rawText,
+            clean_text: cleanedText,
+            gloss: data.gloss || [],
+            gloss_labels: data.gloss_labels || [],
+            gloss_ids: data.gloss_ids || [],
+          };
+
+          prev.push(logEntry);
+          localStorage.setItem(
+            "signanceLatencyLogs",
+            JSON.stringify(prev)
+          );
+        } catch (e) {
+          console.error("latency log save error:", e);
+        }
+      }
+
+      // 수어 영상 URL 처리
+      let hasVideo = false;
+
+      const sentenceVideoUrl =
+        data.sentence_video_url || data.video_url || "";
+      if (sentenceVideoUrl) {
+        localStorage.setItem("signanceDeafVideoUrl", sentenceVideoUrl);
+        hasVideo = true;
+      }
+
+      const videoList = data.sign_video_list || data.video_urls || [];
+      if (Array.isArray(videoList) && videoList.length > 0) {
+        localStorage.setItem(
+          "signanceDeafVideoUrls",
+          JSON.stringify(videoList)
+        );
+        hasVideo = true;
+      }
+
       if (hasVideo) {
         setShowDeafPopup(true);
       }
@@ -296,12 +332,12 @@ function ASRPanel() {
     }
   };
 
-  /* ---------------- 등록된 blob 전송 ---------------- */
+  /* 등록된 blob 전송 */
   const sendToServer = async () => {
     await uploadBlob(lastAudio?.blob);
   };
 
-  /* ---------------- 녹음 시작 ---------------- */
+  /* 녹음 시작 */
   const startRec = async () => {
     setRecErr("");
     setApiErr("");
@@ -345,7 +381,7 @@ function ASRPanel() {
     }
   };
 
-  /* ---------------- 종료 ---------------- */
+  /* 녹음 종료 */
   const stopRec = () => {
     try {
       mediaRecRef.current?.stop();
@@ -358,7 +394,88 @@ function ASRPanel() {
     else startRec();
   };
 
-  /* ---------------- JSX ---------------- */
+  // 번역 오류 버튼 클릭: 팝업 오픈
+  const handleReportError = () => {
+    const rawText = localStorage.getItem("signanceDeafCaptionRaw") || "";
+    const cleanText = text || "";
+
+    if (!rawText && !cleanText) {
+      setApiErr("먼저 음성을 인식한 뒤 오류를 신고해 주세요.");
+      return;
+    }
+
+    // 새로 입력 시작
+    setSpans([{ wrong: "", correct: "" }]);
+    setShowErrorPopup(true);
+  };
+
+  // span 추가/수정 헬퍼
+  const addSpanRow = () => {
+    setSpans((prev) => [...prev, { wrong: "", correct: "" }]);
+  };
+
+  const updateSpan = (idx, key, value) => {
+    setSpans((prev) =>
+      prev.map((s, i) => (i === idx ? { ...s, [key]: value } : s))
+    );
+  };
+
+  // 팝업에서 "저장 후 로그 보기" 눌렀을 때
+  const handleConfirmError = () => {
+    const rawText = localStorage.getItem("signanceDeafCaptionRaw") || "";
+    const cleanText = text || "";
+
+    // 공백 제거 후 유효한 항목만 필터링
+    const filtered = spans
+      .map((s) => ({
+        wrong: s.wrong?.trim() || "",
+        correct: s.correct?.trim() || "",
+      }))
+      .filter((s) => s.wrong || s.correct);
+
+    if (filtered.length === 0) {
+      alert("오류 구간을 최소 1개 이상 입력해 주세요.");
+      return;
+    }
+
+    const entry = {
+      sttText: rawText,
+      cleanText,
+      spans: filtered,
+      createdAt: new Date().toISOString(),
+    };
+
+    // terminology 딕셔너리(localStorage)에 누적 저장
+    try {
+      const prev =
+        JSON.parse(localStorage.getItem("signanceTerminologyDict") || "[]") ||
+        [];
+      const merged = prev.concat(
+        filtered.map((s) => ({ wrong: s.wrong, correct: s.correct }))
+      );
+      localStorage.setItem(
+        "signanceTerminologyDict",
+        JSON.stringify(merged)
+      );
+    } catch (e) {
+      console.warn("terminology dict save error:", e);
+    }
+
+    // logs 페이지로 이동
+    navigate("/banker/logs", {
+      state: { errorEntry: entry },
+    });
+
+    setShowErrorPopup(false);
+  };
+
+  // 버튼 disabled 조건용
+  const hasAnySpanFilled = spans.some(
+    (s) =>
+      (s.wrong && s.wrong.trim().length > 0) ||
+      (s.correct && s.correct.trim().length > 0)
+  );
+
   return (
     <>
       <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
@@ -444,6 +561,19 @@ function ASRPanel() {
                 {recErr || apiErr}
               </div>
             )}
+
+            {/* latency 표시 영역 */}
+            {latency && (
+              <div className="mt-3 text-xs text-slate-500 space-y-1">
+                <div>
+                  STT: {msToSec(latency.stt)} s / NLP:{" "}
+                  {msToSec(latency.nlp)} s / 매핑:{" "}
+                  {msToSec(latency.mapping)} s / 합성:{" "}
+                  {msToSec(latency.synth)} s
+                </div>
+                <div>🕐 총합: {msToSec(latency.total)} s</div>
+              </div>
+            )}
           </div>
 
           <div className="flex flex-col gap-2">
@@ -454,7 +584,10 @@ function ASRPanel() {
             >
               {isSending ? "전송 중..." : "응답 전송"}
             </button>
-            <button className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap">
+            <button
+              className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap"
+              onClick={handleReportError}
+            >
               번역 오류
             </button>
           </div>
@@ -467,7 +600,7 @@ function ASRPanel() {
         )}
       </section>
 
-      {/* ✅ 수어 영상 전달 완료 팝업 */}
+      {/* 수어 영상 전달 완료 팝업 */}
       {showDeafPopup && (
         <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/30">
           <div className="w-full max-w-md rounded-2xl bg-white p-6 shadow-xl border border-slate-200">
@@ -495,7 +628,7 @@ function ASRPanel() {
                 type="button"
                 onClick={() => {
                   setShowDeafPopup(false);
-                  navigate("/deaf/receive"); // ✅ DeafReceive 페이지로 이동
+                  navigate("/deaf/receive");
                 }}
                 className="px-4 h-10 rounded-lg bg-slate-900 text-sm text-white hover:bg-slate-800"
               >
@@ -505,9 +638,91 @@ function ASRPanel() {
           </div>
         </div>
       )}
+
+      {/* 번역 오류 입력 팝업 (여러 개 입력) */}
+      {showErrorPopup && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/30">
+          <div className="w-full max-w-md rounded-2xl bg-white p-6 shadow-xl border border-slate-200">
+            <div className="text-sm font-semibold text-slate-500 mb-1">
+              번역 오류 신고
+            </div>
+            <div className="text-lg font-semibold text-slate-900 mb-3">
+              어떤 부분을 어떻게 고치고 싶으신가요?
+            </div>
+
+            <div className="mb-3">
+              <div className="text-xs text-slate-500 mb-1">전체 문장</div>
+              <div className="rounded-xl bg-slate-50 px-3 py-2 text-sm text-slate-800 max-h-24 overflow-y-auto">
+                {text || "인식된 문장이 없습니다."}
+              </div>
+            </div>
+
+            {/* 여러 개 오류/수정 쌍 입력 */}
+            <div className="mb-2 max-h-56 overflow-y-auto space-y-3 pr-1">
+              {spans.map((s, idx) => (
+                <div key={idx} className="flex gap-2">
+                  <div className="flex-1">
+                    <div className="text-xs text-slate-500 mb-1">
+                      잘못된 부분 {idx + 1}
+                    </div>
+                    <input
+                      className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-slate-300"
+                      placeholder="예: 정립심 예금"
+                      value={s.wrong}
+                      onChange={(e) =>
+                        updateSpan(idx, "wrong", e.target.value)
+                      }
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-xs text-slate-500 mb-1">
+                      올바른 표현 {idx + 1}
+                    </div>
+                    <input
+                      className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-slate-300"
+                      placeholder="예: 적립식 예금"
+                      value={s.correct}
+                      onChange={(e) =>
+                        updateSpan(idx, "correct", e.target.value)
+                      }
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <button
+              type="button"
+              onClick={addSpanRow}
+              className="mb-4 text-[11px] text-slate-500 hover:text-slate-800"
+            >
+              + 오류 항목 추가
+            </button>
+
+            <div className="flex justify-end gap-2">
+              <button
+                type="button"
+                onClick={() => setShowErrorPopup(false)}
+                className="px-4 h-9 rounded-lg border border-slate-300 text-xs text-slate-700 hover:bg-slate-50"
+              >
+                취소
+              </button>
+              <button
+                type="button"
+                onClick={handleConfirmError}
+                className="px-4 h-9 rounded-lg bg-slate-900 text-xs text-white hover:bg-slate-800 disabled:bg-slate-400"
+                disabled={!hasAnySpanFilled}
+              >
+                저장 후 로그 보기
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }
+
 
 /* ---------------- StageDots ---------------- */
 function StageDots({ active = 0 }) {
@@ -531,6 +746,10 @@ function formatTime(s) {
   const m = Math.floor(s / 60);
   const ss = s % 60;
   return `${String(m).padStart(2, "0")}:${String(ss).padStart(2, "0")}`;
+}
+function msToSec(ms) {
+  if (ms == null || isNaN(ms)) return "-";
+  return (ms / 1000).toFixed(2);
 }
 
 /* ---------------- Icons ---------------- */
