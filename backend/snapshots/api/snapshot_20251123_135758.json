@@ -1,0 +1,50 @@
+{
+  "timestamp": "20251123_135758",
+  "text": "이 상품은 5년 만 기 확정 분리형으로 과일 기간 동안 분리가 공동되지 않습니다.",
+  "clean_text": "이 상품은 5년 만기 확정 분리형으로, 과세 기간 동안 공동 과세되지 않습니다.",
+  "latency_ms": {
+    "stt": 5649.0,
+    "nlp": 9449.0,
+    "mapping": 210.7,
+    "synth": 466.3,
+    "total": 15775.0
+  },
+  "gloss": [
+    "상품",
+    "5년",
+    "만기",
+    "확정",
+    "분리형",
+    "과세",
+    "기간",
+    "공동"
+  ],
+  "gloss_ids": [
+    "103392",
+    "101948",
+    "100357",
+    "101825",
+    "100902",
+    "103303",
+    "104347"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_135757.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/101948.mp4",
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/101825.mp4",
+    "/media/sign_videos/100902.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/104347.mp4"
+  ],
+  "gloss_labels": [
+    "물건",
+    "년",
+    "만기",
+    "따로",
+    "이중과세",
+    "기간",
+    "일출"
+  ]
+}

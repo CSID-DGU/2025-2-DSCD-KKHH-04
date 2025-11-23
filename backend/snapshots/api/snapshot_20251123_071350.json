@@ -1,0 +1,69 @@
+{
+  "text": "전기 예금의 경우 기간 동안 원금이 고정되어 있어 안정적인 이자를 받을 수 있습니다.",
+  "clean_text": "전기 예금의 경우 기간 동안 원금이 고정되어 있어 안정적인 이자를 받을 수 있습니다.",
+  "latency_ms": {
+    "stt": 3775.6,
+    "nlp": 3720.5,
+    "mapping": 138.1,
+    "synth": 479.9,
+    "total": 8114.1
+  },
+  "gloss": [
+    "전기",
+    "예금의",
+    "경우",
+    "기간",
+    "동안",
+    "원금이",
+    "고정되어",
+    "있어",
+    "안정적인",
+    "이자를",
+    "받을",
+    "수",
+    "있습니다"
+  ],
+  "gloss_ids": [
+    "103502",
+    "103481",
+    "103241",
+    "103303",
+    "103117",
+    "102713",
+    "104398",
+    "103074",
+    "100899",
+    "100428",
+    "104138",
+    "101508"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_071349.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103502.mp4",
+    "/media/sign_videos/103481.mp4",
+    "/media/sign_videos/103241.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/103117.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/104398.mp4",
+    "/media/sign_videos/103074.mp4",
+    "/media/sign_videos/100899.mp4",
+    "/media/sign_videos/100428.mp4",
+    "/media/sign_videos/104138.mp4",
+    "/media/sign_videos/101508.mp4"
+  ],
+  "gloss_labels": [
+    "무선",
+    "도의",
+    "때",
+    "기간",
+    "동안",
+    "원금",
+    "고정",
+    "안심",
+    "이자율",
+    "받을어음",
+    "수",
+    "-ㅂ니다"
+  ]
+}

@@ -35,12 +35,14 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # "corsheaders",  # 필요하면 활성화
+    "corsheaders", # 필요하면 활성화
+    "accounts", 
+    "rest_framework",
     # "channels",     # 실시간 통신 추가 시 활성화
 ]
 
 MIDDLEWARE = [
-    # "corsheaders.middleware.CorsMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -49,6 +51,14 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",  # Vite 기본 포트
+    "http://127.0.0.1:5173",
+    "http://localhost:5174",
+    "http://127.0.0.1:5174",
+]
+# CORS_ALLOW_ALL_ORIGINS = True
+
 
 ROOT_URLCONF = "config.urls"
 
@@ -75,16 +85,25 @@ WSGI_APPLICATION = "config.wsgi.application"
 # ======================================================
 # DATABASE (PostgreSQL)
 # ======================================================
+# This part of the Django settings file is configuring the database settings for the project. Here's a
+# breakdown of what each key-value pair does:
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql",
+#         "NAME": env("DB_NAME"),
+#         "USER": env("DB_USER"),
+#         "PASSWORD": env("DB_PASSWORD"),
+#         "HOST": env("DB_HOST"),
+#         "PORT": env("DB_PORT"),
+#     }
+# }
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": env("DB_NAME"),
-        "USER": env("DB_USER"),
-        "PASSWORD": env("DB_PASSWORD"),
-        "HOST": env("DB_HOST"),
-        "PORT": env("DB_PORT"),
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
+
 
 # ======================================================
 # REDIS (Channels/Cache용)
@@ -129,3 +148,5 @@ CHANNEL_LAYERS = {
         "CONFIG": {"hosts": [REDIS_URL]},
     }
 }
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"

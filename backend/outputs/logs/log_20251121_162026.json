@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-11-21 16:20:26",
+  "input_text": "4. 기간은 최소 1년이며 자동체의 예치는 가능하지만 중도 해지시에는 기본 금리가 적용됩니다.",
+  "corrected_text": "기간 최소 1년 자동차 예치 가능 중도 해지 기본 금리 적용",
+  "timings_sec": {
+    "Input": 0.0011924999998882413,
+    "STT": 3.233657799952198,
+    "NLP": 11.635019499983173,
+    "Query": 3.250001464039087e-05,
+    "Synth": 1.8685495000099763,
+    "Output": 20.877649100031704
+  },
+  "total_sec": 37.61690219998127,
+  "tokens": [
+    {
+      "text": "기간",
+      "type": "gloss",
+      "id": "103303",
+      "status": "exact"
+    },
+    {
+      "text": "최소",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "1년",
+      "type": "image"
+    },
+    {
+      "text": "[PAUSE]",
+      "type": "pause"
+    },
+    {
+      "text": "자동차",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "예치",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "가능",
+      "type": "gloss",
+      "id": "101849",
+      "status": "exact"
+    },
+    {
+      "text": "[PAUSE]",
+      "type": "pause"
+    },
+    {
+      "text": "중도",
+      "type": "gloss",
+      "id": "102958",
+      "status": "exact"
+    },
+    {
+      "text": "해지",
+      "type": "gloss",
+      "id": "101988",
+      "status": "exact"
+    },
+    {
+      "text": "기본",
+      "type": "gloss",
+      "id": "103996",
+      "status": "exact"
+    },
+    {
+      "text": "금리",
+      "type": "gloss",
+      "id": "101590",
+      "status": "exact"
+    },
+    {
+      "text": "적용",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    }
+  ]
+}

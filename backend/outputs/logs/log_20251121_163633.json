@@ -1,0 +1,110 @@
+{
+  "timestamp": "2025-11-21 16:36:33",
+  "input_text": "안녕하세요 고객님 사회생활을 시작하시거나 사업을 마치시고 이제 경제활동을 막 시작하신 청년분들께 가장 중요한 것 중 하나가 바로 올바른 금융숙단을 만드는 일입니다 바로 올바른 금융숙단을 만드는 일입니다",
+  "corrected_text": "고객 청년 사회생활 시작 사업 마치다 경제활동 시작 올바른 금융 관리 만들다 가장 중요 하나",
+  "timings_sec": {
+    "Input": 0.0019718999974429607,
+    "STT": 6.070831499993801,
+    "NLP": 20.374568499973975,
+    "Query": 3.290001768618822e-05,
+    "Synth": 3.5672535999910906,
+    "Output": 32.14138669997919
+  },
+  "total_sec": 62.15768599999137,
+  "tokens": [
+    {
+      "text": "고객",
+      "type": "gloss",
+      "id": "101853",
+      "status": "exact"
+    },
+    {
+      "text": "청년",
+      "type": "gloss",
+      "id": "104723",
+      "status": "exact"
+    },
+    {
+      "text": "사회생활",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "시작",
+      "type": "gloss",
+      "id": "101997",
+      "status": "exact"
+    },
+    {
+      "text": "사업",
+      "type": "gloss",
+      "id": "103919",
+      "status": "exact"
+    },
+    {
+      "text": "마치다",
+      "type": "gloss",
+      "id": "102280",
+      "status": "exact"
+    },
+    {
+      "text": "경제활동",
+      "type": "gloss",
+      "id": "100081",
+      "status": "exact"
+    },
+    {
+      "text": "시작",
+      "type": "gloss",
+      "id": "101997",
+      "status": "exact"
+    },
+    {
+      "text": "[PAUSE]",
+      "type": "pause"
+    },
+    {
+      "text": "올바른",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "금융",
+      "type": "gloss",
+      "id": "104519",
+      "status": "exact"
+    },
+    {
+      "text": "관리",
+      "type": "gloss",
+      "id": "103915",
+      "status": "exact"
+    },
+    {
+      "text": "만들다",
+      "type": "gloss",
+      "id": "101919",
+      "status": "exact"
+    },
+    {
+      "text": "가장",
+      "type": "gloss",
+      "id": "104229",
+      "status": "exact"
+    },
+    {
+      "text": "중요",
+      "type": "gloss",
+      "id": "102008",
+      "status": "exact"
+    },
+    {
+      "text": "하나",
+      "type": "gloss",
+      "id": "102098",
+      "status": "exact"
+    }
+  ]
+}

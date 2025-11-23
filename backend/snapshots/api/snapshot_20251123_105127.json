@@ -1,0 +1,44 @@
+{
+  "text": "전기 예금의 경우 기간동안 원금이 고정되어 있어 안정적인 이자를 받을 수 있습니다.",
+  "clean_text": "전기 예금은 기간 동안 원금이 고정되어 있어 안정적인 이자를 받을 수 있습니다.",
+  "latency_ms": {
+    "stt": 2420.5,
+    "nlp": 3285.4,
+    "mapping": 31.0,
+    "synth": 194.8,
+    "total": 5931.7
+  },
+  "gloss": [
+    "전기예금",
+    "기간",
+    "원금",
+    "고정",
+    "안정",
+    "이자"
+  ],
+  "gloss_ids": [
+    "101065",
+    "103303",
+    "102713",
+    "104398",
+    "103074",
+    "100899"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_105127.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101065.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/104398.mp4",
+    "/media/sign_videos/103074.mp4",
+    "/media/sign_videos/100899.mp4"
+  ],
+  "gloss_labels": [
+    "정기예금",
+    "기간",
+    "원금",
+    "고정",
+    "안심",
+    "이자율"
+  ]
+}

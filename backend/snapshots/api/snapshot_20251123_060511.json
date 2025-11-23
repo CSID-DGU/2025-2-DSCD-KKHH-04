@@ -1,0 +1,35 @@
+{
+  "text": "이 상품은 예금자 보호법에 의하여 원금과 이자를 합해 1인당 1억원까지 보호됩니다.",
+  "clean_text": "이 상품은 예금자 보호법에 의하여 원금과 이자를 합해 1인당 1억원까지 보호됩니다.",
+  "latency_ms": {
+    "stt": 7954.0,
+    "nlp": 8250.9,
+    "mapping": 55.3,
+    "synth": 199.7,
+    "total": 16459.899999999998
+  },
+  "gloss": [
+    "상품",
+    "예금자보호법",
+    "원금",
+    "이자",
+    "1인당",
+    "1억원",
+    "보호"
+  ],
+  "gloss_ids": [
+    "103392",
+    "100606",
+    "102713",
+    "100899",
+    "102274"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_060511.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/100606.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/100899.mp4",
+    "/media/sign_videos/102274.mp4"
+  ]
+}

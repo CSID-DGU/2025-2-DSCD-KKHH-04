@@ -1,0 +1,47 @@
+{
+  "text": "이 계좌는 예금자 보호법에 따라 1인당 최고 5천만원까지 보호됩니다.",
+  "clean_text": "이 계좌는 예금자 보호법에 따라 1인당 최고 5천만원까지 보호됩니다.",
+  "latency_ms": {
+    "stt": 5741.1,
+    "nlp": 4383.5,
+    "mapping": 189.2,
+    "synth": 326.8,
+    "total": 10640.6
+  },
+  "gloss": [
+    "이",
+    "계좌는",
+    "예금자",
+    "보호법에",
+    "따라",
+    "1인당",
+    "최고",
+    "5천만원까지",
+    "보호됩니다"
+  ],
+  "gloss_ids": [
+    "104223",
+    "100089",
+    "100782",
+    "102274",
+    "104447",
+    "104229"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_070329.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104223.mp4",
+    "/media/sign_videos/100089.mp4",
+    "/media/sign_videos/100782.mp4",
+    "/media/sign_videos/102274.mp4",
+    "/media/sign_videos/104447.mp4",
+    "/media/sign_videos/104229.mp4"
+  ],
+  "gloss_labels": [
+    "백",
+    "계좌",
+    "예금이자",
+    "보호",
+    "뒤따르다",
+    "일등"
+  ]
+}

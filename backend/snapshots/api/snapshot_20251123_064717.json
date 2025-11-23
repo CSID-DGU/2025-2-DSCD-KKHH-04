@@ -1,0 +1,24 @@
+{
+  "text": "안녕하세용",
+  "clean_text": "안녕하세용",
+  "latency_ms": {
+    "stt": 3033.2,
+    "nlp": 3548.3,
+    "mapping": 10.8,
+    "synth": 134.7,
+    "total": 6727.0
+  },
+  "gloss": [
+    "안녕하세용"
+  ],
+  "gloss_ids": [
+    "104185"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_064717.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104185.mp4"
+  ],
+  "gloss_labels": [
+    "안녕하세요"
+  ]
+}

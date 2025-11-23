@@ -1,0 +1,34 @@
+{
+  "text": "이 상품은 예금자 보호법에 따라 원금과 소정의 이자를 합파여 1인당 1원까지 보호됩니다.",
+  "clean_text": "이 상품은 예금자 보호법에 따라 원금과 소정의 이자를 합파여 1인당 1원까지 보호됩니다.",
+  "whisper_latency_ms": null,
+  "gloss": [
+    "상품",
+    "예금자보호법",
+    "원금",
+    "이자",
+    "합",
+    "1인당",
+    "1원",
+    "보호"
+  ],
+  "gloss_ids": [
+    "103392",
+    "100606",
+    "102713",
+    "100899",
+    "103844",
+    "104680",
+    "102274"
+  ],
+  "video_url": "/media/sign_sentences/sent_20251123_054901.mp4",
+  "video_urls": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/100606.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/100899.mp4",
+    "/media/sign_videos/103844.mp4",
+    "/media/sign_videos/104680.mp4",
+    "/media/sign_videos/102274.mp4"
+  ]
+}

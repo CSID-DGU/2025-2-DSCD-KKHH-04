@@ -1,0 +1,28 @@
+{
+  "text": "예금자 보호법에 따라 의거합니다.",
+  "clean_text": "예금자 보호법에 따라 의거합니다.",
+  "latency_ms": {
+    "stt": 3937.6,
+    "nlp": 7000.5,
+    "mapping": 20.1,
+    "synth": 160.6,
+    "total": 11118.800000000001
+  },
+  "gloss": [
+    "예금자보호법",
+    "의거"
+  ],
+  "gloss_ids": [
+    "100606",
+    "102186"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_064758.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100606.mp4",
+    "/media/sign_videos/102186.mp4"
+  ],
+  "gloss_labels": [
+    "소비자보호법",
+    "의"
+  ]
+}

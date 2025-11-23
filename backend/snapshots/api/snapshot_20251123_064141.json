@@ -1,0 +1,36 @@
+{
+  "text": "이 상품은 원금과 이자를 합하여",
+  "clean_text": "이 상품은 원금과 이자를 합하여",
+  "latency_ms": {
+    "stt": 5601.9,
+    "nlp": 6636.8,
+    "mapping": 9.7,
+    "synth": 513.6,
+    "total": 12762.000000000002
+  },
+  "gloss": [
+    "상품",
+    "원금",
+    "이자",
+    "합"
+  ],
+  "gloss_ids": [
+    "103392",
+    "102713",
+    "100899",
+    "103844"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_064141.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/100899.mp4",
+    "/media/sign_videos/103844.mp4"
+  ],
+  "gloss_labels": [
+    "물건",
+    "원금",
+    "이자율",
+    "합치다"
+  ]
+}
