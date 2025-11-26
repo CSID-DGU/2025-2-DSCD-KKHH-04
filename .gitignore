@@ -17,3 +17,5 @@ Thumbs.db
 !.vscode/extensions.json
 .idea
 node_modules
+
+venv
