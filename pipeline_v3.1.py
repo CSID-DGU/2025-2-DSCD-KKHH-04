@@ -1,0 +1,809 @@
+# -*- coding: utf-8 -*-
+
+# ==============================================================================
+# [SECTION 0] Imports & Configuration
+# 라이브러리 임포트, 경로 설정, API 키 로드, 전역 설정
+# ==============================================================================
+import os
+import csv
+import re
+import json
+import ast
+import unicodedata
+import difflib
+import wave
+import threading
+import time
+import sys
+from datetime import datetime
+from pathlib import Path
+import shutil
+import subprocess
+import tempfile
+
+import sounddevice as sd                # 마이크 입력
+import whisper                          # STT
+from dotenv import load_dotenv          # 환경변수 로드
+
+# [추가] 이미지 생성을 위한 라이브러리
+from PIL import Image, ImageDraw, ImageFont
+
+# Gemini 라이브러리
+try:
+    import google.generativeai as genai
+except Exception:
+    genai = None
+
+# 1. .env 파일 로드
+if not load_dotenv():
+    print("⚠️  .env 파일을 찾을 수 없습니다. 환경변수가 설정되지 않았을 수 있습니다.")
+
+# 2. 환경변수에서 API 키 가져오기
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+# 3. 키 확인
+if not GOOGLE_API_KEY:
+    print("❌  [Error] GOOGLE_API_KEY가 설정되지 않았습니다. .env 파일을 확인해주세요.")
+    sys.exit(1)
+else:
+    print(f"✅  API Key 로드 완료 (Len: {len(GOOGLE_API_KEY)})")
+
+# 4. 경로 설정
+try:
+    ROOT_DIR = Path(__file__).resolve().parent
+except NameError:
+    ROOT_DIR = Path(os.getcwd())
+
+DATA_DIR = ROOT_DIR / "data"
+OUT_DIR = ROOT_DIR / "snapshots14"
+GLOSS_DICT_PATH = DATA_DIR / "gloss_dictionary_MOCK.csv"
+RULES_JSON_PATH = DATA_DIR / "rules.json"
+GLOSS_MP4_DIR = DATA_DIR / "service"
+
+# 폴더 자동 생성
+OUT_DIR.mkdir(exist_ok=True)
+
+# 5. 모델 및 오디오 설정
+GEMINI_MODEL_NAME = "models/gemini-2.5-flash"
+WHISPER_MODEL_NAME = "small"
+WHISPER_LANG = "ko"
+
+CHUNK = 1024        # 콜백당 프레임 수
+DEBOUNCE_SEC = 0.5  # Enter 연타 방지
+ALWAYS_RETURN_ID = True    # 매핑 실패 시에도 유사도 기반으로 ID 하나는 선택
+
+
+# ==============================================================================
+# [SECTION 1] Common Utilities
+# 텍스트 정규화, 타임스탬프 등 공통 헬퍼 함수
+# ==============================================================================
+def _norm(s: str) -> str:
+    """전각/반각 통일 + 양 끝 공백 제거 + 내부 다중 공백을 1칸으로 축소."""
+    s = unicodedata.normalize("NFKC", s or "").strip()
+    s = re.sub(r"\s+", " ", s)
+    return s
+
+def _first_word(phrase: str) -> str:
+    """문장에서 첫 단어만 추출(글로스는 단어 1개라는 전제 유지용)."""
+    s = _norm(phrase)
+    return s.split()[0] if s else ""
+
+def _nospace(s: str) -> str:
+    """공백/기호 제거 후 비교용 키 생성."""
+    return re.sub(r"[^\w가-힣]", "", re.sub(r"\s+", "", _norm(s)))
+
+def now_ts() -> str:
+    """현재 시각을 YYYYmmdd_HHMMSS 문자열로 반환."""
+    return datetime.now().strftime("%Y%m%d_%H%M%S")
+
+
+# ==============================================================================
+# [SECTION 2] Input (Audio Capture)
+# 마이크 장치 설정, 스트림 콜백, 오디오 데이터 수집
+# ==============================================================================
+frames = []                       # 오디오 조각(바이트) 누적
+frames_lock = threading.Lock()
+_last_frame_idx = 0
+ACTUAL_RATE = None               # 실제 장치 샘플레이트
+sd_stream = None
+
+def list_devices():
+    """현재 사용 가능한 오디오 디바이스 목록 출력(디버깅용)."""
+    print("[Audio] Listing devices …")
+    for i, dev in enumerate(sd.query_devices()):
+        print(
+            f"  #{i}: {dev['name']} | inputs={dev['max_input_channels']} | "
+            f"defaultSR={int(dev['default_samplerate'])}"
+        )
+
+def _audio_cb(indata, frames_cnt, time_info, status):
+    """sounddevice RawInputStream 콜백: 들어온 바이트를 frames 리스트에 그대로 누적."""
+    if status:
+        print(f"[Audio] status: {status}")
+    with frames_lock:
+        frames.append(bytes(indata))
+
+def open_input_stream():
+    """기본 입력 장치로 RawInputStream 열기."""
+    global ACTUAL_RATE
+    info = sd.query_devices(kind="input")
+    sr = int(info["default_samplerate"]) if info and info["default_samplerate"] else 16000
+    ACTUAL_RATE = sr
+    print(f"[Audio] Using device='{info['name']}' @ {sr} Hz")
+    return sd.RawInputStream(
+        samplerate=sr,
+        channels=1,
+        dtype="int16",
+        blocksize=CHUNK,
+        callback=_audio_cb,
+    )
+
+def cut_delta_blob() -> bytes:
+    """
+    frames 리스트에서 '직전 스냅샷 이후 ~ 현재까지' 구간만 잘라서 반환.
+    (delta 모드)
+    """
+    global _last_frame_idx
+    with frames_lock:
+        cur = len(frames)
+        if cur <= _last_frame_idx:
+            return b""
+        blob = b"".join(frames[_last_frame_idx:cur])
+        _last_frame_idx = cur
+        return blob
+
+
+# ==============================================================================
+# [SECTION 3] NLP (Natural Language Processing)
+# Gemini 모델 설정, 텍스트 분석 및 토큰 추출
+# ==============================================================================
+def build_gemini():
+    """환경변수와 라이브러리가 준비되면 Gemini 모델을 생성, 아니면 None."""
+    if not GOOGLE_API_KEY or genai is None:
+        return None
+
+    genai.configure(api_key=GOOGLE_API_KEY)
+    
+    sys_prompt = f"""
+    당신은 '청각장애인을 위한 전문 수어(KSL) 통역사'입니다. 
+    입력된 한국어 문장의 '핵심 정보'를 추출하여, 농문화(Deaf Culture)와 한국수어 문법에 맞는 '수어 글로스(Gloss)' 시퀀스로 변환하세요.
+
+    [핵심 문법 규칙 (Korean Sign Language Grammar)]
+    1. **어순 재배치 (Reordering)**:
+       - 기본 어순: [시간] -> [주어/화제] -> [목적어] -> [서술어]
+       - 부정문: 서술어 뒤에 부정어 위치 (예: "안 먹다" -> [먹다] [안하다])
+       - 의문문: 문장 맨 끝에 의문사 위치 (예: "이름이 뭐예요?" -> [이름] [무엇])
+       - 수식어: 명사 뒤에 형용사 위치 (예: "예쁜 딸" -> [딸] [예쁘다])
+    
+    2. **필터링 및 치환 (Filtering & Substitution)**:
+       - 조사(은/는/이/가/을/를/의)와 어미(-입니다/습니다/요)는 모두 삭제.
+       - 메타 발화(진행 멘트) 삭제: "말씀드리겠습니다", "안내해 드리자면" 등 정보가 없는 말은 삭제.
+       - 복잡한 서술어는 기초 어휘로 치환 (예: "지시하는" -> [결정], [하다] / "운용하다" -> [관리])
+
+    3. **구조 분해 (Structure Break-down)**:
+       - 긴 관형절("~하는 상품")은 [대상]을 먼저 제시하고, [PAUSE] 후 [설명]을 덧붙이는 구조로 변경.
+       - 화제 전환이나 의미 단락 구분이 필요할 때 `type: "pause"`를 적극 삽입.
+
+    [숫자/단위 처리 규칙 (Strict Rules)]
+    1. 나이: 숫자 앞에 '만' 결합 -> 이미지 (`{{ "text": "만 18세", "type": "image" }}`)
+    2. 일반 단위: 숫자+단위 결합 -> 이미지 (`{{ "text": "1억원", "type": "image" }}`)
+    3. 퍼센트: 숫자는 이미지, 단위는 글로스 (`[{{ "text": "3.5", "type": "image" }}, {{ "text": "퍼센트", "type": "gloss" }}]`)
+
+    [Few-shot Examples (Based on KSL Grammar)]
+
+    # 예시 1: 부정문과 어순 (부정어는 서술어 뒤에)
+    입력: "저는 아직 식사를 하지 못했습니다."
+    출력:
+    {{
+        "cleaned": "나 밥 아직 못하다",
+        "tokens": [
+            {{ "text": "나", "type": "gloss" }},
+            {{ "text": "밥", "type": "gloss" }},
+            {{ "text": "아직", "type": "gloss" }},
+            {{ "text": "못하다", "type": "gloss" }}
+        ]
+    }}
+
+    # 예시 2: 수식어의 위치 (명사 + 형용사) & 메타 발화 삭제
+    입력: "가입 조건에 대해 설명해 드리겠습니다. 예쁜 딸을 낳으면 혜택이 있습니다."
+    출력:
+    {{
+        "cleaned": "가입 조건 설명 딸 예쁘다 낳다 혜택 있다",
+        "tokens": [
+            {{ "text": "가입", "type": "gloss" }},
+            {{ "text": "조건", "type": "gloss" }},
+            {{ "text": "PAUSE", "type": "pause" }},
+            {{ "text": "딸", "type": "gloss" }},
+            {{ "text": "예쁘다", "type": "gloss" }},
+            {{ "text": "낳다", "type": "gloss" }},
+            {{ "text": "혜택", "type": "gloss" }},
+            {{ "text": "있다", "type": "gloss" }}
+        ]
+    }}
+
+    # 예시 3: 복합 문장 분해 (대상 -> 정의 -> 설명)
+    입력: "이 상품은 고객이 직접 운용 대상을 선택하는 신탁형 계좌입니다."
+    출력:
+    {{
+        "cleaned": "신탁형 계좌 고객 운용 대상 스스로 선택",
+        "tokens": [
+            {{ "text": "신탁형", "type": "gloss" }},
+            {{ "text": "계좌", "type": "gloss" }},
+            {{ "text": "PAUSE", "type": "pause" }},
+            {{ "text": "고객", "type": "gloss" }},
+            {{ "text": "운용", "type": "gloss" }},
+            {{ "text": "대상", "type": "gloss" }},
+            {{ "text": "스스로", "type": "gloss" }},
+            {{ "text": "선택", "type": "gloss" }}
+        ]
+    }}
+
+    # 예시 4: 의문문 (의문사 맨 뒤)
+    입력: "가입하려면 필요한 서류가 무엇입니까?"
+    출력:
+    {{
+        "cleaned": "가입 필요 서류 무엇",
+        "tokens": [
+            {{ "text": "가입", "type": "gloss" }},
+            {{ "text": "필요", "type": "gloss" }},
+            {{ "text": "서류", "type": "gloss" }},
+            {{ "text": "무엇", "type": "gloss" }}
+        ]
+    }}
+
+    [출력 포맷 (JSON Only)]
+    반드시 JSON 형식만 출력하세요.
+    """
+
+    return genai.GenerativeModel(
+        GEMINI_MODEL_NAME,
+        system_instruction=sys_prompt,
+        generation_config={
+            "response_mime_type": "application/json",
+            "temperature": 0.2,
+        },
+    )
+
+def extract_glosses(text: str, model) -> list[dict]:
+    """
+    문장을 분석하여 토큰 리스트(dict) 반환.
+    반환 예시: [{'text': '나이', 'type': 'gloss'}, {'text': '18세', 'type': 'image'}]
+    """
+    clean = _norm(text)
+    if not clean:
+        return []
+
+    # 1) Gemini 사용
+    if model:
+        try:
+            parts = [{"role": "user", "parts": [clean]}]
+            resp = model.generate_content(parts)
+            # 응답 텍스트에서 JSON 부분만 파싱 시도
+            try:
+                obj = json.loads(resp.text)
+            except:
+                # 가끔 마크다운 ```json ... ``` 으로 감싸서 줄 때 처리
+                json_str = re.search(r"\{.*\}", resp.text, re.DOTALL)
+                if json_str:
+                    obj = json.loads(json_str.group())
+                else:
+                    obj = {}
+            
+            # tokens 리스트 반환
+            return obj.get("tokens", [])
+            
+        except Exception as e:
+            print(f"[Gemini Error] {e}")
+            pass
+
+    # 2) 로컬 폴백 (Gemini 실패 시 단순 텍스트 글로스로 처리)
+    # 기존 로직을 유지하되 포맷만 맞춤
+    tokens = re.findall(r"\d+(?:억원|억\s*원|개월|년)|[가-힣A-Za-z]+", clean)
+    return [{"text": _first_word(t), "type": "gloss"} for t in tokens if _first_word(t)]
+
+
+# ==============================================================================
+# [SECTION 4] Query & Resolution (Search Engine)
+# CSV 사전 로드, 룰 기반 ID 매핑, 파일 경로 변환
+# ==============================================================================
+# [추가] 전역 변수로 영상 위치 지도를 저장할 딕셔너리 선언
+VIDEO_PATH_INDEX = {} 
+
+def build_video_index(root_dir: Path):
+    """
+    [중요] 하위 폴더(fi, li 등)를 포함한 모든 mp4 파일을 검색하여
+    { "파일ID": "전체경로" } 형태의 지도를 만듭니다.
+    """
+    global VIDEO_PATH_INDEX
+    print(f"📂 영상 파일 인덱싱 중... ({root_dir})")
+    
+    count = 0
+    # rglob('*')은 하위 폴더까지 전부 뒤집니다.
+    for path in root_dir.rglob("*.mp4"):
+        # 파일명(확장자 제외)을 ID로 사용 (예: "101650")
+        file_id = path.stem 
+        VIDEO_PATH_INDEX[file_id] = str(path.resolve())
+        count += 1
+        
+    print(f"✅ 총 {count}개의 영상 파일을 찾았습니다.")
+
+def load_gloss_index(csv_path: Path) -> dict:
+    """
+    글로스 사전을 로드해 검색용 인덱스를 만든다.
+    """
+    rows, exact = [], {}
+
+    # utf-8-sig: BOM이 있어도 안전하게 처리
+    with open(csv_path, "r", encoding="utf-8-sig") as f:
+        rdr = csv.DictReader(f)
+        headers = [h.strip().lower() for h in (rdr.fieldnames or [])]
+
+        def pick(*cands):
+            for c in cands:
+                if c in headers:
+                    return c
+            return None
+
+        h_id = pick("gloss_id", "id", "gid")
+        h_ko = pick(
+            "korean_meanings", "korean", "ko",
+            "meaning_ko", "ko_meanings", "korean_meaning",
+        )
+        if not h_id or not h_ko:
+            raise RuntimeError(f"[Gloss] 헤더 감지 실패: {headers}")
+
+        for row in rdr:
+            gid = (row.get(h_id) or "").strip()
+            cell = (row.get(h_ko) or "").strip()
+            if not gid or not cell:
+                continue
+
+            # '["거치","거치식"]' 같은 리스트 문자열 안전 파싱
+            try:
+                obj = ast.literal_eval(cell)
+                if isinstance(obj, (list, tuple)):
+                    terms = [str(x) for x in obj]
+                else:
+                    terms = [str(obj)]
+            except Exception:
+                terms = [cell]
+
+            for term in terms:
+                term = _norm(term)
+                if not term:
+                    continue
+                term_ns   = _nospace(term)
+                token_cnt = len(term.split())
+                char_len  = len(term_ns)
+                rows.append({
+                    "gid": gid,
+                    "term": term,
+                    "term_ns": term_ns,
+                    "token_cnt": token_cnt,
+                    "char_len": char_len,
+                })
+                # 동일 term_ns가 여러 gid를 가리키더라도 최초 등장 우선
+                exact.setdefault(term_ns, gid)
+
+    if not rows:
+        raise RuntimeError("[Gloss] 사전에 유효한 항목이 없습니다.")
+    
+    # 전문용어 우선순위 정렬 (cat_1 기준)
+    rows.sort(key=lambda x: 0 if "전문용어" in x.get("cat_1", "") else 1)
+
+    print(f"[Gloss] indexed rows={len(rows)}, exact_keys={len(exact)}")
+    return {"rows": rows, "exact": exact}
+
+def map_one_word_to_id(word: str, index: dict) -> str | None:
+    """
+    단일 글로스(단어) → gloss_id 1개를 매핑.
+    우선순위: 완전일치 > 포함후보 > 유사도
+    """
+    if not word or not index:
+        return None
+
+    rows, exact = index["rows"], index["exact"]
+
+    w   = _first_word(word)   # 혹시 문구가 와도 첫 단어만 사용
+    wns = _nospace(w)
+    if not wns:
+        return None
+
+    # 1) 완전 일치
+    gid = exact.get(wns)
+    if gid:
+        return gid
+
+    # 2) 포함 후보 중 가장 “작고 단순한” 항목 선택
+    cands = [r for r in rows if wns in r["term_ns"]]
+    if cands:
+        cands.sort(key=lambda r: (r["token_cnt"], r["char_len"], r["term"], r["gid"]))
+        return cands[0]["gid"]
+
+    # 3) 후보가 전혀 없으면 유사도 최상위 1개 선택
+    best_gid, best_sc = None, 0.0
+    for r in rows:
+        sc = difflib.SequenceMatcher(None, wns, r["term_ns"]).ratio()
+        if sc > best_sc:
+            best_sc, best_gid = sc, r["gid"]
+
+    if ALWAYS_RETURN_ID and best_gid:
+        return best_gid
+    return None
+
+def to_gloss_ids(gloss_list: list[str], index: dict) -> list[str]:
+    """글로스 리스트 → 중복 제거된 gloss_id 리스트(입력 순서 보존)."""
+    out, seen = [], set()
+    for g in gloss_list or []:
+        gid = map_one_word_to_id(g, index)
+        if gid and gid not in seen:
+            out.append(gid)
+            seen.add(gid)
+    return out
+
+def resolve_gloss_token(token_text, original_sentence, rules, db_index):
+    """
+    단어 1개(token_text)를 rules.json과 DB를 통해 ID 리스트로 변환 (룰 엔진)
+    """
+    final_ids = []
+    
+    # 1. Word Substitution (외부 미등재 단어 치환)
+    sub_list = rules.get("word_substitution", {}).get(token_text, [token_text])
+    
+    for sub in sub_list:
+        target_id = None
+        
+        # 2. Fixed Mappings (강제 고정)
+        if sub in rules.get("fixed_mappings", {}):
+            target_id = rules["fixed_mappings"][sub]
+            
+        # 3. Disambiguation (동음이의어 문맥 검색)
+        elif sub in rules.get("disambiguation_rules", {}):
+            rule = rules["disambiguation_rules"][sub]
+            found = False
+            for case in rule["cases"]:
+                for kw in case["keywords"]:
+                    if kw in original_sentence: # 원본 문장에서 키워드 검색
+                        target_id = case["target_id"]
+                        found = True
+                        break
+                if found: break
+            if not found:
+                target_id = rule["default_id"]
+                
+        # 4. DB Search (일반 검색) - 기존 map_one_word_to_id 활용
+        else:
+            target_id = map_one_word_to_id(sub, db_index)
+            
+        if target_id:
+            final_ids.append(target_id)
+            
+    return final_ids
+
+def _paths_from_ids(gloss_ids):
+    """
+    gloss_id 리스트를 받아 미리 만들어둔 지도(VIDEO_PATH_INDEX)에서 경로를 찾습니다.
+    """
+    paths, missing = [], []
+    for gid in gloss_ids or []:
+        gid_str = str(gid) # ID가 숫자일 수 있으므로 문자로 변환
+        
+        if gid_str in VIDEO_PATH_INDEX:
+            paths.append(VIDEO_PATH_INDEX[gid_str])
+        else:
+            missing.append(gid)
+            
+    if missing:
+        print(f"⚠️  매핑 누락 (파일 없음) gloss_id: {missing}")
+    return paths
+
+
+# ==============================================================================
+# [SECTION 5] Synthesis (Video Generation)
+# 텍스트 -> 이미지 영상 변환, 공백 영상 생성
+# ==============================================================================
+def get_korean_font(size=80):
+    """OS에 맞는 한국어 폰트 로드 시도"""
+    font_paths = [
+        "C:/Windows/Fonts/malgun.ttf",       # Windows
+        "/System/Library/Fonts/AppleSDGothicNeo.ttc", # Mac
+        "/usr/share/fonts/truetype/nanum/NanumGothic.ttf", # Linux
+        "AppleGothic.ttf"
+    ]
+    for path in font_paths:
+        try:
+            return ImageFont.truetype(path, size)
+        except:
+            continue
+    return ImageFont.load_default()
+
+def generate_image_video(text: str, duration: float = 2.0) -> str:
+    """텍스트가 적힌 이미지를 생성하고 2초짜리 mp4로 변환하여 경로 반환"""
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tf:
+        img_path = tf.name
+
+    # 1. 검은 배경에 흰 글씨 이미지 생성 (HD 해상도)
+    width, height = 1280, 720
+    img = Image.new('RGB', (width, height), color='black')
+    d = ImageDraw.Draw(img)
+    
+    font = get_korean_font(80)
+    
+    # 텍스트 중앙 정렬 계산 (간이 방식)
+    bbox = d.textbbox((0, 0), text, font=font)
+    text_w = bbox[2] - bbox[0]
+    text_h = bbox[3] - bbox[1]
+    position = ((width - text_w) / 2, (height - text_h) / 2)
+    
+    d.text(position, text, font=font, fill="white")
+    img.save(img_path)
+
+    # 2. FFmpeg로 정지 영상을 mp4로 변환
+    out_mp4 = img_path.replace(".png", ".mp4")
+    
+    cmd = [
+        "ffmpeg", "-y", "-loop", "1", "-i", img_path,
+        "-t", str(duration),
+        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-vf", "scale=1280:720",
+        "-loglevel", "error",
+        out_mp4
+    ]
+    subprocess.run(cmd, check=True)
+    
+    # 임시 이미지 삭제
+    try: os.remove(img_path)
+    except: pass
+    
+    return out_mp4
+
+def generate_blank_video(duration: float = 1.0) -> str:
+    """검은 화면(Pause) 영상 생성"""
+    with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tf:
+        out_mp4 = tf.name
+        
+    cmd = [
+        "ffmpeg", "-y",
+        "-f", "lavfi", "-i", f"color=c=black:s=1280x720:d={duration}",
+        "-c:v", "libx264", "-pix_fmt", "yuv420p",
+        "-loglevel", "error",
+        out_mp4
+    ]
+    subprocess.run(cmd, check=True)
+    return out_mp4
+
+
+# ==============================================================================
+# [SECTION 6] Output (Playback)
+# FFmpeg/FFplay를 이용한 영상 시퀀스 재생
+# ==============================================================================
+def play_sequence(paths):
+    """
+    FFmpeg/ffplay를 사용하여 영상들을 순서대로 재생.
+    """
+    if not paths:
+        print("⚠️ 재생할 영상이 없습니다.")
+        return False
+
+    ffmpeg = shutil.which("ffmpeg") or "ffmpeg"
+    ffplay = shutil.which("ffplay")  # 있으면 1번 경로 사용
+
+    # 1) ffplay: concat 리스트로 바로 재생
+    if ffplay:
+        with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False) as f:
+            lst_path = f.name
+            for p in paths:
+                f.write(f"file '{p}'\n")
+        try:
+            cmd = [
+                ffplay,
+                "-autoexit",
+                "-hide_banner",
+                "-loglevel", "error",
+                "-f", "concat",
+                "-safe", "0",
+                "-i", lst_path,
+            ]
+            subprocess.run(cmd, check=True)
+            return True
+        finally:
+            try:
+                os.remove(lst_path)
+            except OSError:
+                pass
+
+    # 2) ffmpeg: 임시 mp4 생성 후 OS 기본 플레이어로 재생
+    with tempfile.TemporaryDirectory() as td:
+        lst = Path(td) / "list.txt"
+        out = Path(td) / f"concat_{now_ts()}.mp4"
+
+        # concat 리스트 파일 작성
+        with open(lst, "w", encoding="utf-8") as f:
+            for p in paths:
+                f.write(f"file '{p}'\n")
+
+        # (A) 코덱 동일 시 초고속 copy 시도
+        copy_cmd = [
+            ffmpeg, "-y",
+            "-f", "concat", "-safe", "0",
+            "-i", str(lst),
+            "-c", "copy",
+            str(out),
+        ]
+        r = subprocess.run(copy_cmd)
+
+        # (B) 실패하면 재인코딩으로 안전하게 합성
+        if r.returncode != 0:
+            re_cmd = [
+                ffmpeg, "-y",
+                "-f", "concat", "-safe", "0",
+                "-i", str(lst),
+                "-vf", "format=yuv420p",
+                "-c:v", "libx264", "-crf", "20", "-preset", "veryfast",
+                "-c:a", "aac", "-b:a", "128k",
+                str(out),
+            ]
+            subprocess.run(re_cmd, check=True)
+
+        # OS 별 기본 플레이어로 열기
+        if sys.platform == "darwin":          # macOS
+            subprocess.Popen(["open", str(out)])
+        elif os.name == "nt":                 # Windows
+            os.startfile(str(out))
+        else:                                 # Linux 등
+            subprocess.Popen(["xdg-open", str(out)])
+        return True
+
+
+# ==============================================================================
+# [SECTION 7] Main Execution
+# 파이프라인 조립 및 실행 루프
+# ==============================================================================
+def main():
+    # 0) rules.json 로드 (룰 엔진용)
+    rules_json = {}
+    if RULES_JSON_PATH.exists():
+        with open(RULES_JSON_PATH, 'r', encoding='utf-8') as f:
+            rules_json = json.load(f)
+        print(f"[Rules] Loaded rules.json from {RULES_JSON_PATH}")
+    else:
+        print(f"⚠️ [Warning] rules.json not found at {RULES_JSON_PATH}. Rule engine disabled.")
+    # [FIX] 영상 파일 인덱스 생성 함수 호출 추가
+    # 이 함수가 실행되어야 하위 폴더(fi, li)의 모든 mp4 위치를 파악합니다.
+    build_video_index(GLOSS_MP4_DIR)
+
+    # 1) 글로스 사전 로드
+    index = load_gloss_index(GLOSS_DICT_PATH)
+
+    # 2) Gemini 모델 초기화
+    model = build_gemini()
+
+    # 3) Whisper 모델 로드
+    print("[Whisper] loading:", WHISPER_MODEL_NAME)
+    wmodel = whisper.load_model(WHISPER_MODEL_NAME)
+
+    # 4) 오디오 장치 확인
+    global sd_stream
+    list_devices()
+    
+    print("\n" + "="*60)
+    print("🎙️  [Push-to-Talk 모드] Enter를 눌러 녹음을 시작/종료합니다.")
+    print("="*60)
+
+    snap_idx = 0
+
+    while True:
+        # --- [오디오 제어: Push-to-Talk] ---
+        try:
+            # 1. 대기 (녹음 시작 트리거)
+            input("\n[Ready] Enter를 누르면 녹음을 시작합니다 >>> ")
+            
+            # 2. 스트림 열기 및 녹음 시작
+            if sd_stream: 
+                sd_stream.stop(); sd_stream.close()
+            
+            sd_stream = open_input_stream()
+            sd_stream.start()
+            
+            # 버퍼 초기화 (이전 잔여 데이터 삭제)
+            with frames_lock:
+                frames.clear()
+                
+            print("   🔴 녹음 중... (말씀하신 뒤 Enter를 누르세요)")
+            
+            # 3. 녹음 중 (종료 트리거 대기)
+            input() 
+            
+            # 4. 녹음 중단 및 데이터 확보
+            sd_stream.stop()
+            with frames_lock:
+                blob = b"".join(frames)
+            sd_stream.close()
+            
+            if not blob:
+                print("[Info] 녹음된 소리가 없습니다.")
+                continue
+
+            # --- [처리 파이프라인 시작] ---
+            ts = now_ts()
+            base = OUT_DIR / f"snapshot_{ts}_{snap_idx + 1:02d}"
+
+            # 5-1) WAV 저장
+            wav_path = str(base) + ".wav"
+            with wave.open(wav_path, "wb") as wf:
+                wf.setnchannels(1); wf.setsampwidth(2); wf.setframerate(ACTUAL_RATE)
+                wf.writeframes(blob)
+            
+            # 5-2) Whisper STT
+            print("⏳ 전사 및 분석 중...")
+            res = wmodel.transcribe(wav_path, language=WHISPER_LANG)
+            stt_text = _norm(res.get("text") or "")
+            print(f"[STT] \"{stt_text}\"")
+            
+            # 5-3) Gemini -> 토큰(JSON) 추출
+            # tokens 예: [{"text":"만 18세", "type":"image"}, {"text":"가입", "type":"gloss"}]
+            tokens = extract_glosses(stt_text, model)
+            print(f"[Tokens] {tokens}")
+
+            # 5-4) [멀티모달 합성] 토큰별 영상 경로 생성
+            play_queue = []
+            
+            for token in tokens:
+                dtype = token.get("type", "gloss")
+                text = token.get("text", "")
+                
+                if not text: continue
+
+                if dtype == "gloss":
+                    # (A) 수어 단어 -> 룰 엔진 -> 영상 ID -> 파일 경로
+                    ids = resolve_gloss_token(text, stt_text, rules_json, index)
+                    paths = _paths_from_ids(ids)
+                    play_queue.extend(paths)
+                    if not ids:
+                        print(f"   (X) '{text}' 매칭 실패")
+
+                elif dtype == "image":
+                    # (B) 텍스트 -> 이미지 영상 생성 (2초)
+                    print(f"   (Img) '{text}' 이미지 생성")
+                    p = generate_image_video(text, duration=2.0)
+                    play_queue.append(p)
+                    
+                elif dtype == "pause":
+                    # (C) 휴지 -> 검은 화면 생성 (1초)
+                    print(f"   (Pause) 1초 휴지")
+                    p = generate_blank_video(duration=1.0)
+                    play_queue.append(p)
+
+            # 5-5) 최종 재생
+            if play_queue:
+                print(f"▶️  총 {len(play_queue)}개 클립 재생 시작")
+                play_sequence(play_queue)
+            else:
+                print("⚠️ 재생할 콘텐츠가 없습니다.")
+
+            # 5-6) 로그 저장 (JSON)
+            log_data = {
+                "timestamp": ts,
+                "stt": stt_text,
+                "tokens": tokens,
+                "play_queue": play_queue
+            }
+            with open(str(base) + ".json", "w", encoding="utf-8") as f:
+                json.dump(log_data, f, ensure_ascii=False, indent=2)
+            
+            snap_idx += 1
+
+        except KeyboardInterrupt:
+            print("\n[종료] 프로그램을 종료합니다.")
+            break
+        except Exception as e:
+            print(f"\n[Error] 처리 중 오류 발생: {e}")
+            continue
+
+    # 종료 정리
+    if sd_stream:
+        try: sd_stream.stop(); sd_stream.close()
+        except: pass
+
+
+if __name__ == "__main__":
+    main()
