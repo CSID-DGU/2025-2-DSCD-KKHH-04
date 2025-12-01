@@ -60,6 +60,10 @@ GLOSS_DICT_PATH = DATA_DIR / "gloss_dictionary_MOCK.csv"
 RULES_JSON_PATH = DATA_DIR / "rules.json"
 GLOSS_MP4_DIR = DATA_DIR / "service"
 
+VIDEO_OUT_DIR = ROOT_DIR / "vd_output"
+VIDEO_OUT_DIR.mkdir(exist_ok=True)
+
+
 # 폴더 자동 생성
 OUT_DIR.mkdir(exist_ok=True)
 
@@ -166,90 +170,82 @@ def build_gemini():
     
     sys_prompt = f"""
     당신은 '청각장애인을 위한 전문 수어(KSL) 통역사'입니다. 
-    입력된 한국어 문장의 '핵심 정보'를 추출하여, 농문화(Deaf Culture)와 한국수어 문법에 맞는 '수어 글로스(Gloss)' 시퀀스로 변환하세요.
+    입력된 문장을 단순 번역하지 말고, '농문화(Deaf Culture)'와 '한국수어 문법'에 맞춰 의미를 재구성(Paraphrasing)하십시오.
 
-    [핵심 문법 규칙 (Korean Sign Language Grammar)]
-    1. **어순 재배치 (Reordering)**:
-       - 기본 어순: [시간] -> [주어/화제] -> [목적어] -> [서술어]
-       - 부정문: 서술어 뒤에 부정어 위치 (예: "안 먹다" -> [먹다] [안하다])
-       - 의문문: 문장 맨 끝에 의문사 위치 (예: "이름이 뭐예요?" -> [이름] [무엇])
-       - 수식어: 명사 뒤에 형용사 위치 (예: "예쁜 딸" -> [딸] [예쁘다])
+    [핵심 작업 원칙]
+    1. 수지한국어(SK) 금지: 한국어의 어순이나 문법 요소(조사, 어미)를 그대로 따라가지 마십시오.
+    2. 의미 중심 번역: 문장의 '핵심 의도'를 파악하여 가장 직관적인 단어들의 나열로 바꾸십시오.
+    3. 메타 발화 삭제: "안내해 드리겠습니다", "말씀드리자면" 등 정보가가 없는 멘트는 과감히 삭제하십시오.
+       - 단, '안녕하세요', '반갑습니다', '고맙습니다(감사합니다)', '수고하셨습니다' 등 사회적 관계를 맺는 인사말은 삭제하지 말고 반드시 수어 단어로 변환하십시오.
+    4. 한국어 전용 출력 (Korean Only): 
+       - 결과 JSON의 'text' 필드 값에는 '반드시 한국어 또는 숫자'만 들어가야 합니다.
+       - 영어 단어(예: 'Limit', 'Bank')가 포함되면 무조건 한국어 뜻으로 번역하여 출력하십시오.
+
+
+    [문법 및 구조 규칙 (Strict Rules)]
     
-    2. **필터링 및 치환 (Filtering & Substitution)**:
-       - 조사(은/는/이/가/을/를/의)와 어미(-입니다/습니다/요)는 모두 삭제.
-       - 메타 발화(진행 멘트) 삭제: "말씀드리겠습니다", "안내해 드리자면" 등 정보가 없는 말은 삭제.
-       - 복잡한 서술어는 기초 어휘로 치환 (예: "지시하는" -> [결정], [하다] / "운용하다" -> [관리])
+    1. 화제-서술 구조 (Topic-Comment):
+       - 문장 맨 앞에 [시간] -> [장소] -> [화제(Topic)]를 배치하십시오.
+       - 화제와 서술부 사이에는 반드시 `type: "pause"`를 삽입하여 시각적 호흡을 주십시오.
+       - 예: "어제 집에서 밥을 먹었다" -> [어제], [집], [PAUSE], [밥], [먹다]
+    
+    2. 수량사 및 수식어 후치 (Post-position):
+       - [수량]: '한 사람', '두 개의 계좌'는 반드시 [명사] + [수량] 순서로 변경하십시오. 
+         -> "한 사람" (X) -> [사람], [1명(이미지)] (O)
+       - [부정어]: 서술어 뒤에 위치시킵니다. (예: [가다], [안하다])
+       - [형용사]: 명사 뒤에 위치시킵니다. (예: [딸], [예쁘다])
 
-    3. **구조 분해 (Structure Break-down)**:
-       - 긴 관형절("~하는 상품")은 [대상]을 먼저 제시하고, [PAUSE] 후 [설명]을 덧붙이는 구조로 변경.
-       - 화제 전환이나 의미 단락 구분이 필요할 때 `type: "pause"`를 적극 삽입.
+    3. 숫자 및 단위 처리 (이미지화):
+       - 오인식 방지를 위해 숫자가 포함된 모든 표현은 텍스트 이미지로 변환합니다.
+       - 관형사 '한, 두, 세'는 반드시 아라비아 숫자 '1, 2, 3'으로 변환하십시오.
+       - % (퍼센트): '[{{ "text": "3.5", "type": "image" }}, {{ "text": "퍼센트", "type": "gloss" }}]'
+       - %p (퍼센트 포인트): '[{{ "text": "0.5", "type": "image" }}, {{ "text": "퍼센트", "type": "gloss" }}, {{ "text": "포인트", "type": "gloss" }}]'
+       - 연 이율: '연'은 `[1년]` 수어로, 이율은 '[퍼센트]'로 처리.
 
-    [숫자/단위 처리 규칙 (Strict Rules)]
-    1. 나이: 숫자 앞에 '만' 결합 -> 이미지 (`{{ "text": "만 18세", "type": "image" }}`)
-    2. 일반 단위: 숫자+단위 결합 -> 이미지 (`{{ "text": "1억원", "type": "image" }}`)
-    3. 퍼센트: 숫자는 이미지, 단위는 글로스 (`[{{ "text": "3.5", "type": "image" }}, {{ "text": "퍼센트", "type": "gloss" }}]`)
+    4. 어휘 단순화 (Vocabulary Simplification):
+       - 어려운 한자어, 전문 용어는 기초적인 수어 단어의 조합으로 풀어서 설명하십시오.
+       - 예: "주택담보대출" -> '[집]', '[맡기다]', '[돈]', '[빌리다]'
+       - 예: "우대금리" -> '[특별]', '[이자]'
 
-    [Few-shot Examples (Based on KSL Grammar)]
+    [Few-shot Examples]
 
-    # 예시 1: 부정문과 어순 (부정어는 서술어 뒤에)
-    입력: "저는 아직 식사를 하지 못했습니다."
+    입력: "이 상품은 한 사람당 하나의 계좌만 개설 가능합니다."
     출력:
     {{
-        "cleaned": "나 밥 아직 못하다",
+        "cleaned": "상품 이것 사람 1명 계좌 1개 개설 가능",
         "tokens": [
-            {{ "text": "나", "type": "gloss" }},
-            {{ "text": "밥", "type": "gloss" }},
-            {{ "text": "아직", "type": "gloss" }},
-            {{ "text": "못하다", "type": "gloss" }}
-        ]
-    }}
-
-    # 예시 2: 수식어의 위치 (명사 + 형용사) & 메타 발화 삭제
-    입력: "가입 조건에 대해 설명해 드리겠습니다. 예쁜 딸을 낳으면 혜택이 있습니다."
-    출력:
-    {{
-        "cleaned": "가입 조건 설명 딸 예쁘다 낳다 혜택 있다",
-        "tokens": [
-            {{ "text": "가입", "type": "gloss" }},
-            {{ "text": "조건", "type": "gloss" }},
+            {{ "text": "상품", "type": "gloss" }},
+            {{ "text": "이것", "type": "gloss" }},
             {{ "text": "PAUSE", "type": "pause" }},
-            {{ "text": "딸", "type": "gloss" }},
-            {{ "text": "예쁘다", "type": "gloss" }},
-            {{ "text": "낳다", "type": "gloss" }},
-            {{ "text": "혜택", "type": "gloss" }},
-            {{ "text": "있다", "type": "gloss" }}
-        ]
-    }}
-
-    # 예시 3: 복합 문장 분해 (대상 -> 정의 -> 설명)
-    입력: "이 상품은 고객이 직접 운용 대상을 선택하는 신탁형 계좌입니다."
-    출력:
-    {{
-        "cleaned": "신탁형 계좌 고객 운용 대상 스스로 선택",
-        "tokens": [
-            {{ "text": "신탁형", "type": "gloss" }},
+            {{ "text": "사람", "type": "gloss" }},
+            {{ "text": "1명", "type": "image" }},
             {{ "text": "계좌", "type": "gloss" }},
-            {{ "text": "PAUSE", "type": "pause" }},
-            {{ "text": "고객", "type": "gloss" }},
-            {{ "text": "운용", "type": "gloss" }},
-            {{ "text": "대상", "type": "gloss" }},
-            {{ "text": "스스로", "type": "gloss" }},
-            {{ "text": "선택", "type": "gloss" }}
+            {{ "text": "1개", "type": "image" }},
+            {{ "text": "개설", "type": "gloss" }},
+            {{ "text": "가능", "type": "gloss" }}
         ]
     }}
 
-    # 예시 4: 의문문 (의문사 맨 뒤)
-    입력: "가입하려면 필요한 서류가 무엇입니까?"
+    입력: "금리는 연 3.5%포인트 우대 적용됩니다."
     출력:
     {{
-        "cleaned": "가입 필요 서류 무엇",
+        "cleaned": "금리 1년 3.5 퍼센트 점수 특별 적용",
         "tokens": [
-            {{ "text": "가입", "type": "gloss" }},
-            {{ "text": "필요", "type": "gloss" }},
-            {{ "text": "서류", "type": "gloss" }},
-            {{ "text": "무엇", "type": "gloss" }}
+            {{ "text": "금리", "type": "gloss" }},
+            {{ "text": "PAUSE", "type": "pause" }},
+            {{ "text": "1년", "type": "gloss" }},
+            {{ "text": "3.5", "type": "image" }},
+            {{ "text": "퍼센트", "type": "gloss" }},
+            {{ "text": "점수", "type": "gloss" }},
+            {{ "text": "특별", "type": "gloss" }},
+            {{ "text": "적용", "type": "gloss" }}
         ]
     }}
+    5. 범위 표현 (Range):
+       - '이상/이하/초과/미만'은 오역 방지를 위해 반드시 '부터(~부터)'와 '까지(~까지)'로 변환하십시오.
+       - 입력: "2.5% 이상" -> '[{{ "text": "2.5", "type": "image" }}, {{ "text": "퍼센트", "type": "gloss" }}, {{ "text": "부터", "type": "gloss" }}]'
+       - 입력: "3.5% 이하" -> '[{{ "text": "3.5", "type": "image" }}, {{ "text": "퍼센트", "type": "gloss" }}, {{ "text": "까지", "type": "gloss" }}]'
+       - 입력: "18세~30세" -> '[{{ "text": "18세", "type": "image" }}, {{ "text": "부터", "type": "gloss" }}, {{ "text": "30세", "type": "image" }}, {{ "text": "까지", "type": "gloss" }}]'
 
     [출력 포맷 (JSON Only)]
     반드시 JSON 형식만 출력하세요.
@@ -332,6 +328,7 @@ def load_gloss_index(csv_path: Path) -> dict:
     글로스 사전을 로드해 검색용 인덱스를 만든다.
     """
     rows, exact = [], {}
+    id_to_word = {}
 
     # utf-8-sig: BOM이 있어도 안전하게 처리
     with open(csv_path, "r", encoding="utf-8-sig") as f:
@@ -368,6 +365,9 @@ def load_gloss_index(csv_path: Path) -> dict:
             except Exception:
                 terms = [cell]
 
+            if terms:
+                id_to_word[gid] = terms[0]
+
             for term in terms:
                 term = _norm(term)
                 if not term:
@@ -392,37 +392,39 @@ def load_gloss_index(csv_path: Path) -> dict:
     rows.sort(key=lambda x: 0 if "전문용어" in x.get("cat_1", "") else 1)
 
     print(f"[Gloss] indexed rows={len(rows)}, exact_keys={len(exact)}")
-    return {"rows": rows, "exact": exact}
+    return {"rows": rows, "exact": exact, "id_to_word": id_to_word}
 
-def map_one_word_to_id(word: str, index: dict) -> str | None:
-    """
-    단일 글로스(단어) → gloss_id 1개를 매핑.
-    우선순위: 완전일치 > 포함후보 > 유사도
-    """
+# [수정] blacklist 인자 추가
+def map_one_word_to_id(word: str, index: dict, blacklist: list = None) -> str | None:
     if not word or not index:
         return None
+    
+    # 블랙리스트가 없으면 빈 리스트로 초기화
+    if blacklist is None: blacklist = []
 
     rows, exact = index["rows"], index["exact"]
-
-    w   = _first_word(word)   # 혹시 문구가 와도 첫 단어만 사용
+    w = _first_word(word)
     wns = _nospace(w)
-    if not wns:
-        return None
+    if not wns: return None
 
-    # 1) 완전 일치
+    # 1) 완전 일치 (블랙리스트 체크)
     gid = exact.get(wns)
-    if gid:
+    if gid and int(gid) not in blacklist:
         return gid
 
-    # 2) 포함 후보 중 가장 “작고 단순한” 항목 선택
-    cands = [r for r in rows if wns in r["term_ns"]]
+    # 2) 포함 후보 (블랙리스트 체크)
+    cands = [r for r in rows if wns in r["term_ns"] and int(r["gid"]) not in blacklist]
     if cands:
         cands.sort(key=lambda r: (r["token_cnt"], r["char_len"], r["term"], r["gid"]))
         return cands[0]["gid"]
 
-    # 3) 후보가 전혀 없으면 유사도 최상위 1개 선택
+    # 3) 유사도 검색 (블랙리스트 체크)
     best_gid, best_sc = None, 0.0
     for r in rows:
+        # [중요] 블랙리스트에 있는 ID는 유사도 계산 대상에서 제외
+        if int(r["gid"]) in blacklist: 
+            continue
+            
         sc = difflib.SequenceMatcher(None, wns, r["term_ns"]).ratio()
         if sc > best_sc:
             best_sc, best_gid = sc, r["gid"]
@@ -441,44 +443,79 @@ def to_gloss_ids(gloss_list: list[str], index: dict) -> list[str]:
             seen.add(gid)
     return out
 
+# [수정] 상세 로그(logs)를 함께 반환하도록 변경
 def resolve_gloss_token(token_text, original_sentence, rules, db_index):
-    """
-    단어 1개(token_text)를 rules.json과 DB를 통해 ID 리스트로 변환 (룰 엔진)
-    """
     final_ids = []
+    resolved_logs = [] 
     
-    # 1. Word Substitution (외부 미등재 단어 치환)
+    # ID -> 단어 사전 가져오기
+    id_map = db_index.get("id_to_word", {})
+
+    blacklist = rules.get("blacklist", [])
     sub_list = rules.get("word_substitution", {}).get(token_text, [token_text])
     
     for sub in sub_list:
-        target_id = None
-        
-        # 2. Fixed Mappings (강제 고정)
+        target_ids = []
+        method = "unknown"
+
+        # 1. Fixed Mappings
         if sub in rules.get("fixed_mappings", {}):
-            target_id = rules["fixed_mappings"][sub]
+            target_ids.append(rules["fixed_mappings"][sub])
+            method = "fixed_rule"
             
-        # 3. Disambiguation (동음이의어 문맥 검색)
+        # 2. Disambiguation
         elif sub in rules.get("disambiguation_rules", {}):
             rule = rules["disambiguation_rules"][sub]
             found = False
             for case in rule["cases"]:
                 for kw in case["keywords"]:
-                    if kw in original_sentence: # 원본 문장에서 키워드 검색
-                        target_id = case["target_id"]
+                    if kw in original_sentence:
+                        target_ids.append(case["target_id"])
                         found = True
+                        method = f"context({kw})"
                         break
                 if found: break
             if not found:
-                target_id = rule["default_id"]
-                
-        # 4. DB Search (일반 검색) - 기존 map_one_word_to_id 활용
+                target_ids.append(rule["default_id"])
+                method = "context_default"
+
+        # 3. DB Search & Decomposition
         else:
-            target_id = map_one_word_to_id(sub, db_index)
+            # (A) 일반 검색
+            gid = map_one_word_to_id(sub, db_index, blacklist)
+            if gid:
+                target_ids.append(gid)
+                method = "exact/similarity"
+            else:
+                # (B) 복합어 분해 시도
+                decomposed = decompose_compound_word(sub, db_index["exact"])
+                if decomposed:
+                    for part in decomposed:
+                        part_id = map_one_word_to_id(part, db_index, blacklist)
+                        if part_id: target_ids.append(part_id)
+                    method = f"decomposed({decomposed})"
+                else:
+                    # (C) 그래도 없으면 유사도 강제 검색 (이미 map_one_word_to_id에서 수행됨)
+                    pass 
+
+        if target_ids:
+            final_ids.extend(target_ids)
             
-        if target_id:
-            final_ids.append(target_id)
+            # [FIX] ID를 이용해 실제 사전에 있는 단어(Representative Word)를 찾음
+            real_words = []
+            for tid in target_ids:
+                # ID가 숫자형일 수 있으니 문자열로 변환하여 조회
+                rw = id_map.get(str(tid), "UnknownID") 
+                real_words.append(rw)
             
-    return final_ids
+            resolved_logs.append({
+                "token": sub,            # 입력 토큰
+                "resolved_word": real_words, # [NEW] 실제 매핑된 단어 리스트
+                "ids": target_ids,
+                "method": method
+            })
+            
+    return final_ids, resolved_logs
 
 def _paths_from_ids(gloss_ids):
     """
@@ -496,6 +533,16 @@ def _paths_from_ids(gloss_ids):
     if missing:
         print(f"⚠️  매핑 누락 (파일 없음) gloss_id: {missing}")
     return paths
+
+# [수정] 복합어 분해 함수 추가
+def decompose_compound_word(token, valid_keys):
+    if len(token) < 2: return None
+    for i in range(1, len(token)):
+        part1 = token[:i]
+        part2 = token[i:]
+        if part1 in valid_keys and part2 in valid_keys:
+            return [part1, part2]
+    return None
 
 
 # ==============================================================================
@@ -518,18 +565,18 @@ def get_korean_font(size=80):
     return ImageFont.load_default()
 
 def generate_image_video(text: str, duration: float = 2.0) -> str:
-    """텍스트가 적힌 이미지를 생성하고 2초짜리 mp4로 변환하여 경로 반환"""
+    """텍스트 이미지를 영상으로 변환 (전처리된 영상 스펙과 100% 일치시킴)"""
     with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tf:
         img_path = tf.name
 
-    # 1. 검은 배경에 흰 글씨 이미지 생성 (HD 해상도)
+    # 1. 검은 배경에 흰 글씨 이미지 생성
     width, height = 1280, 720
     img = Image.new('RGB', (width, height), color='black')
     d = ImageDraw.Draw(img)
     
     font = get_korean_font(80)
     
-    # 텍스트 중앙 정렬 계산 (간이 방식)
+    # 텍스트 중앙 정렬
     bbox = d.textbbox((0, 0), text, font=font)
     text_w = bbox[2] - bbox[0]
     text_h = bbox[3] - bbox[1]
@@ -538,33 +585,64 @@ def generate_image_video(text: str, duration: float = 2.0) -> str:
     d.text(position, text, font=font, fill="white")
     img.save(img_path)
 
-    # 2. FFmpeg로 정지 영상을 mp4로 변환
+    # 2. FFmpeg 변환 (Code 2의 스펙을 그대로 적용)
     out_mp4 = img_path.replace(".png", ".mp4")
     
     cmd = [
-        "ffmpeg", "-y", "-loop", "1", "-i", img_path,
-        "-t", str(duration),
-        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-vf", "scale=1280:720",
+        "ffmpeg", "-y",
+        "-loop", "1", "-i", img_path,    # 이미지 루프 입력
+        "-t", str(duration),             # 길이 설정
+        
+        # [핵심] 코덱 및 포맷 설정
+        "-c:v", "libx264",               # 이미지 변환은 CPU(libx264)가 더 안정적/빠를 수 있음
+        "-preset", "veryfast",           # 생성 속도 최적화
+        "-profile:v", "high",            # 프로파일: High
+        "-pix_fmt", "yuv420p",           # 픽셀 포맷
+        
+        # [핵심] 병합을 위한 물리적 스펙 통일
+        "-r", "30",                      # FPS 강제: 30
+        "-video_track_timescale", "90000", # 타임베이스: 90000
+        "-bf", "2",                      # B-frame: 2
+        
+        # [핵심] 오디오 제거 (기존 영상에 오디오가 없으므로)
+        "-an",
+        
+        # 리사이징 (혹시 모를 크기 오류 방지)
+        "-vf", "scale=1280:720",
+        
         "-loglevel", "error",
         out_mp4
     ]
     subprocess.run(cmd, check=True)
     
-    # 임시 이미지 삭제
     try: os.remove(img_path)
     except: pass
     
     return out_mp4
 
 def generate_blank_video(duration: float = 1.0) -> str:
-    """검은 화면(Pause) 영상 생성"""
+    """검은 화면(Pause) 영상 생성 (스펙 통일)"""
     with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tf:
         out_mp4 = tf.name
         
     cmd = [
         "ffmpeg", "-y",
         "-f", "lavfi", "-i", f"color=c=black:s=1280x720:d={duration}",
-        "-c:v", "libx264", "-pix_fmt", "yuv420p",
+        
+        # [핵심] 코덱 및 포맷 통일
+        "-c:v", "libx264",
+        "-preset", "veryfast",
+        "-profile:v", "high",
+        "-pix_fmt", "yuv420p",
+        
+        # [핵심] FPS 및 타임베이스 통일
+        "-r", "30",
+        "-video_track_timescale", "90000",
+        "-bf", "2",
+        
+        # 오디오 제거
+        "-an",
+        
         "-loglevel", "error",
         out_mp4
     ]
@@ -652,6 +730,46 @@ def play_sequence(paths):
         else:                                 # Linux 등
             subprocess.Popen(["xdg-open", str(out)])
         return True
+
+# ... (기존 play_sequence 함수 끝난 뒤 아래에 추가) ...
+
+def save_sequence(paths, output_path):
+    """
+    영상 경로 리스트(paths)를 받아 하나로 병합하여 output_path에 저장합니다.
+    """
+    if not paths: return
+
+    ffmpeg = shutil.which("ffmpeg") or "ffmpeg"
+    
+    # 1. 병합할 파일 리스트 생성 (temp file)
+    # Windows 경로 호환을 위해 백슬래시(\)를 슬래시(/)로 변경
+    with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False, encoding="utf-8") as f:
+        lst_path = f.name
+        for p in paths:
+            safe_path = str(Path(p).resolve()).replace('\\', '/')
+            f.write(f"file '{safe_path}'\n")
+
+    # 2. FFmpeg 병합 명령 (재인코딩 방식: 해상도/코덱 통일성을 위해 안전함)
+    try:
+        cmd = [
+            ffmpeg, "-y",
+            "-f", "concat", "-safe", "0",
+            "-i", lst_path,
+            "-c:v", "libx264", "-pix_fmt", "yuv420p",  # 호환성 높은 포맷
+            "-c:a", "aac",
+            "-loglevel", "error",
+            str(output_path)
+        ]
+        subprocess.run(cmd, check=True)
+        print(f"💾 영상 저장 완료: {output_path}")
+
+    except Exception as e:
+        print(f"❌ 영상 저장 실패: {e}")
+
+    finally:
+        # 임시 리스트 파일 삭제
+        try: os.remove(lst_path)
+        except: pass
 
 
 # ==============================================================================
@@ -744,51 +862,133 @@ def main():
             tokens = extract_glosses(stt_text, model)
             print(f"[Tokens] {tokens}")
 
-            # 5-4) [멀티모달 합성] 토큰별 영상 경로 생성
+            # 5-4) [멀티모달 합성] 및 [상세 비교 로깅]
             play_queue = []
+            debug_logs = []
             
+            print("\n" + "="*30 + " [토큰 매핑 상세 분석] " + "="*30)
+            print(f"📄 원본 STT: {stt_text}")
+            print("-" * 110)
+            # 헤더 출력 (가독성 확보)
+            print(f"{'NLP Token':<15} | {'Resolved Tokens':<20} | {'Method':<18} | {'Video IDs':<15} | {'Note'}")
+            print("-" * 110)
+
             for token in tokens:
                 dtype = token.get("type", "gloss")
                 text = token.get("text", "")
                 
-                if not text: continue
+                if not text and dtype != "pause": continue
 
+                token_log = {
+                    "nlp_token": text,
+                    "type": dtype,
+                    "final_mapping": {}
+                }
+
+                # [Case 1] 수어(Gloss) 처리
                 if dtype == "gloss":
-                    # (A) 수어 단어 -> 룰 엔진 -> 영상 ID -> 파일 경로
-                    ids = resolve_gloss_token(text, stt_text, rules_json, index)
-                    paths = _paths_from_ids(ids)
-                    play_queue.extend(paths)
-                    if not ids:
-                        print(f"   (X) '{text}' 매칭 실패")
+                    # ids: 최종 매핑된 영상 ID 리스트
+                    # logs: 알고리즘 거친 세부 내역 [{'token': '우대', 'method': '...'}, {'token': '금리' ...}]
+                    ids, logs = resolve_gloss_token(text, stt_text, rules_json, index)
+                    
+                    if ids:
+                        # (A) 매칭 성공
+                        paths = _paths_from_ids(ids)
+                        play_queue.extend(paths)
+                        
+                        # 비교 출력을 위한 데이터 가공
+                                   
+                        ids_str = ", ".join(map(str, ids))          # "10123, 10456"
+                        resolved_words_flat = []
+                        for l in logs:
+                            resolved_words_flat.extend(l.get('resolved_word', []))
+                        
+                        resolved_str = ", ".join(resolved_words_flat) # "둘, 미안하다" 처럼 출력됨
+                        
+                        # 방식은 첫 번째 것 혹은 복합적이면 'mixed'
+                        method_str = logs[0]['method'] if len(logs) == 1 else "compound/mixed"
+                        if "decomposed" in str(logs): method_str = "decomposed"
 
+                        # 파일명 추출 (확인용)
+                        file_names = [Path(p).name for p in paths]
+                        
+                        # [핵심] 한 줄에 비교 출력
+                        print(f"{text:<15} | {resolved_str:<20} | {method_str:<18} | {ids_str:<15} | {len(ids)} clips")
+                        
+                        # JSON 로그 저장 구조
+                        token_log["final_mapping"] = {
+                            "status": "success",
+                            "resolved_tokens": resolved_words_flat,
+                            "video_ids": ids,
+                            "method": method_str,
+                            "files": file_names
+                        }
+
+                    else:
+                        # (B) 매칭 실패 -> 텍스트 이미지(Fallback)
+                        print(f"{text:<15} | {'(IMAGE TEXT)':<20} | {'FALLBACK':<18} | {'-':<15} | Gen Image")
+                        
+                        calc_duration = max(1.5, len(text) * 0.5)
+                        p = generate_image_video(text, duration=calc_duration)
+                        play_queue.append(p)
+                        
+                        token_log["final_mapping"] = {
+                            "status": "fallback",
+                            "resolved_tokens": [text],
+                            "method": "text_image_generation"
+                        }
+
+                # [Case 2] 숫자/이미지 처리
                 elif dtype == "image":
-                    # (B) 텍스트 -> 이미지 영상 생성 (2초)
-                    print(f"   (Img) '{text}' 이미지 생성")
+                    print(f"{text:<15} | {'(IMAGE)':<20} | {'LLM_DIRECT':<18} | {'-':<15} | Gen Image")
                     p = generate_image_video(text, duration=2.0)
                     play_queue.append(p)
-                    
+                    token_log["final_mapping"] = {"status": "image", "method": "llm_directive"}
+
+                # [Case 3] 휴지(Pause) 처리
                 elif dtype == "pause":
-                    # (C) 휴지 -> 검은 화면 생성 (1초)
-                    print(f"   (Pause) 1초 휴지")
+                    print(f"{'PAUSE':<15} | {'(BLANK)':<20} | {'LLM_DIRECT':<18} | {'-':<15} | 1.0 sec")
                     p = generate_blank_video(duration=1.0)
                     play_queue.append(p)
+                    token_log["final_mapping"] = {"status": "pause", "duration": 1.0}
+                
+                debug_logs.append(token_log)
 
-            # 5-5) 최종 재생
-            if play_queue:
-                print(f"▶️  총 {len(play_queue)}개 클립 재생 시작")
-                play_sequence(play_queue)
-            else:
-                print("⚠️ 재생할 콘텐츠가 없습니다.")
+            print("-" * 110 + "\n")
 
-            # 5-6) 로그 저장 (JSON)
+            # [통합] 로그 데이터 구성 (아직 저장 안 함)
             log_data = {
                 "timestamp": ts,
-                "stt": stt_text,
-                "tokens": tokens,
-                "play_queue": play_queue
+                "stt_raw": stt_text,
+                "nlp_tokens": tokens,
+                "processing_detail": debug_logs, # 상세 로그
+                "play_queue": play_queue         # 재생 목록
             }
-            with open(str(base) + ".json", "w", encoding="utf-8") as f:
+
+            # 5-5) 최종 재생 및 영상 파일 저장
+            if play_queue:
+                print(f"▶️  총 {len(play_queue)}개 클립 재생 시작")
+                
+                # (1) 재생
+                play_sequence(play_queue)
+
+                # (2) 영상 파일 저장
+                save_filename = VIDEO_OUT_DIR / f"{ts}.mp4" 
+                print(f"💾 영상을 저장합니다... -> {save_filename}")
+                save_sequence(play_queue, save_filename)
+                
+                # 영상 저장 경로도 로그에 추가
+                log_data["saved_video_path"] = str(save_filename)
+
+            else:
+                print("⚠️ 재생할 콘텐츠가 없습니다.")
+                log_data["saved_video_path"] = None
+
+            # 5-6) 로그 파일 저장 (JSON) - [여기서 딱 한 번만 저장]
+            json_path = str(base) + ".json"
+            with open(json_path, "w", encoding="utf-8") as f:
                 json.dump(log_data, f, ensure_ascii=False, indent=2)
+            print(f"[Log Saved] {json_path}")
             
             snap_idx += 1
 
