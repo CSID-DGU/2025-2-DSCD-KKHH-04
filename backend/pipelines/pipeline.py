@@ -1,26 +1,29 @@
 # -*- coding: utf-8 -*-
+#new
+
 """
-서버용 파이프라인 모듈
+Django 백엔드용 파이프라인 모듈
 
-기능:
-- WAV/WEBM 등 음성 파일 → STT(openai-whisper)
-- STT 텍스트 → 글로스 추출(Gemini or 로컬 규칙)
-- 글로스 → gloss_id 매핑(CSV 사전)
-- gloss_id → 수어 영상(mp4) 경로 리스트
+역할:
+- WAV/WEBM 등 음성 파일 -> STT(whisper)
+- STT 텍스트 -> Gemini 기반 토큰 추출(tokens: gloss/image/pause)
+- 간단 버전: extract_glosses(text, model) -> gloss 문자열 리스트 (기존 service.py 호환)
+- gloss 리스트 -> gloss_id 매핑(CSV 사전)
+- gloss_id -> 수어 영상(mp4) 경로 리스트
 
-Django에서는:
-    from pipelines.pipeline import (
-        stt_from_file,
-        extract_glosses,
-        to_gloss_ids,
-        load_gloss_index,
-        _paths_from_ids,
-        build_gemini,
-        MEDIA_ROOT,
-        now_ts,
-    )
-
-같은 식으로 불러서 사용하면 된다.
+service.py에서 import 하는 심볼:
+    stt_from_file
+    extract_glosses
+    to_gloss_ids
+    load_gloss_index
+    _paths_from_ids
+    build_gemini
+    MEDIA_ROOT
+    now_ts
+    OUT_DIR
+    _norm
+    GEMINI_MODEL
+    _local_gloss_rules
 """
 
 import os
@@ -30,576 +33,831 @@ import json
 import ast
 import unicodedata
 import difflib
-import time
+import wave
 import sys
 from datetime import datetime
 from pathlib import Path
 import shutil
 import subprocess
+import tempfile
 
-import whisper  # openai-whisper
+import whisper
+from dotenv import load_dotenv
 
-# Gemini – 없으면 로컬 규칙으로만 글로스 추출
+from PIL import Image, ImageDraw, ImageFont
+
+# Gemini 라이브러리
 try:
     import google.generativeai as genai
 except Exception:
     genai = None
-    gexc = None
 
-# =========================================================
-# 전역 경로/환경 설정
-# =========================================================
+# Django MEDIA_ROOT 연동 (없으면 로컬 media 폴더 사용)
+try:
+    from django.conf import settings
+    MEDIA_ROOT = Path(getattr(settings, "MEDIA_ROOT", "media")).resolve()
+except Exception:
+    MEDIA_ROOT = Path(__file__).resolve().parent / "media"
 
-# pipeline.py 위치:
-#   C:\...\backend\pipelines\pipeline.py
-PIPELINE_DIR = Path(__file__).resolve().parent       # backend/pipelines
-ROOT_DIR = PIPELINE_DIR.parent                       # backend
 
-# Django MEDIA_ROOT와 맞춰두는 용도 (필요하면 settings와 맞추면 됨)
-MEDIA_ROOT = ROOT_DIR / "media"
+# 1. .env 로드
+load_dotenv()
 
-# 데이터/영상 폴더 (네 실제 구조에 맞춤)
-DATA_DIR = ROOT_DIR / "data"
+# 2. 환경 변수
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
-# 너가 실제로 가지고 있는 파일 기준
-#   C:\...\backend\data\gloss_dictionary_MOCK_1.csv
-GLOSS_INDEX_PATH = DATA_DIR / "gloss_dictionary_MOCK_1.csv"
+if not GOOGLE_API_KEY:
+    print("⚠️  [Warn] GOOGLE_API_KEY가 설정되지 않았습니다. Gemini 없이 로컬 규칙만 사용합니다.")
 
-#   C:\...\backend\pipelines\gloss_mp4\100123.mp4 ...
-SIGN_VID_DIR = ROOT_DIR / "pipelines" / "gloss_mp4"
-SIGN_VID_DIR.mkdir(parents=True, exist_ok=True)
+# 3. 경로 설정
+ROOT_DIR = Path(__file__).resolve().parent
 
-# 스냅샷/로그 폴더들
-SNAPSHOT_DIR = ROOT_DIR / "snapshots"
-SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
+GLOSS_NEW_DIR = ROOT_DIR / "gloss_new"
 
-OUT_DIR = SNAPSHOT_DIR / "local"
-OUT_DIR.mkdir(parents=True, exist_ok=True)
+DATA_DIR = GLOSS_NEW_DIR / "data"          # backend/pipelines/gloss_new/data
+OUT_DIR = GLOSS_NEW_DIR / "snapshots14"
 
-# delta 용 폴더는 현재 사용하지 않음
-# OUT_DIR_DELTA = SNAPSHOT_DIR / "delta_backend"
-# OUT_DIR_DELTA.mkdir(parents=True, exist_ok=True)
+# 이 경로들은 네 프로젝트 구조에 맞게 한 번 확인해줘
+GLOSS_DICT_PATH = DATA_DIR / "gloss_dictionary_MOCK.csv"
 
-OUT_JSON_DIR = SNAPSHOT_DIR / "json"
-OUT_JSON_DIR.mkdir(parents=True, exist_ok=True)
+# 규칙 파일 두 개 사용:
+# - rules_base.json: 사람이 관리하는 기본 규칙
+# - rules.json: 학습/추가 규칙 포함 실제 운영 규칙
+RULES_PATH = DATA_DIR / "rules.json"        # 실제 사용 · 자동 업데이트 대상
+RULES_BASE_PATH = DATA_DIR / "rules_base.json"
 
-# STT / Gemini 설정
-GOOGLE_API_KEY     = os.environ.get("GOOGLE_API_KEY", "")  # 없으면 Gemini 미사용
-GEMINI_MODEL_NAME  = "models/gemini-2.5-flash"
+GLOSS_MP4_DIR = Path(
+    r"C:\Users\user\Desktop\2025-2-DSCD-KKHH-04-git\backend\pipelines\gloss_new\data\service"
+)
+# 수어 mp4가 있는 루트 폴더 (하위 fi, li 등 포함)
+
+
+VIDEO_OUT_DIR = GLOSS_NEW_DIR / "vd_output"
+OUT_DIR.mkdir(exist_ok=True)
+VIDEO_OUT_DIR.mkdir(exist_ok=True)
+
+
+# =========================
+# rules.json / rules_base.json 유틸
+# =========================
+
+def _load_json(path: Path):
+    if not path.exists():
+        return {}
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _save_json(path: Path, data: dict):
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def merge_rules():
+    """
+    rules_base.json + rules.json을 합쳐서 하나의 dict로 반환.
+
+    구조 예:
+    {
+      "disambiguation_rules": { ... },
+      "text_normalization": [ {...}, {...} ]
+    }
+    """
+    base = _load_json(RULES_BASE_PATH)
+    learned = _load_json(RULES_PATH)
+
+    base_dis = base.get("disambiguation_rules", {}) or {}
+    learned_dis = learned.get("disambiguation_rules", {}) or {}
+
+    base_norm = base.get("text_normalization", []) or []
+    learned_norm = learned.get("text_normalization", []) or []
+
+    merged = {
+        "disambiguation_rules": {
+            **base_dis,
+            **learned_dis,   # learned가 있으면 base를 덮어씀
+        },
+        "text_normalization": base_norm + learned_norm,
+    }
+    return merged
+
+
+def append_learned_rule(wrong: str, correct: str):
+    """
+    프론트/로그에서 들어온 wrong→correct 규칙을 rules.json(text_normalization)에 추가.
+    rules_base.json은 건드리지 않음.
+    """
+    wrong = (wrong or "").strip()
+    correct = (correct or "").strip()
+    if not wrong or not correct:
+        return
+
+    data = _load_json(RULES_PATH)
+    if not isinstance(data, dict):
+        data = {}
+
+    tn_list = data.get("text_normalization", [])
+    if not isinstance(tn_list, list):
+        tn_list = []
+
+    for r in tn_list:
+        if r.get("wrong") == wrong and r.get("correct") == correct:
+            # 이미 동일 rule 존재
+            return
+
+    tn_list.append({"wrong": wrong, "correct": correct})
+    data["text_normalization"] = tn_list
+    _save_json(RULES_PATH, data)
+
+
+def apply_text_normalization(text: str, rules: dict | None = None) -> str:
+    """
+    rules["text_normalization"]에 있는
+    {wrong, correct} 리스트를 순서대로 적용해서 텍스트 정규화.
+    """
+    if not text:
+        return text
+
+    if rules is None:
+        rules = MERGED_RULES
+
+    norm_rules = rules.get("text_normalization", []) or []
+    out = text
+    for r in norm_rules:
+        w = (r.get("wrong") or "").strip()
+        c = (r.get("correct") or "").strip()
+        if not w or not c:
+            continue
+        out = out.replace(w, c)
+    return out
+
+
+# 모듈 로드 시 한 번 merge해서 전역으로 유지 (필요하면 service.py에서 사용)
+MERGED_RULES = merge_rules()
+
+print("🔄 NEW pipeline.py loaded")
+print("📁 GLOSS_DICT_PATH   =", GLOSS_DICT_PATH)
+print("📁 RULES_BASE_PATH   =", RULES_BASE_PATH)
+print("📁 RULES_PATH        =", RULES_PATH)
+print("📁 GLOSS_MP4_DIR     =", GLOSS_MP4_DIR)
+
+# 4. 모델/오디오 설정
+GEMINI_MODEL_NAME = "models/gemini-2.5-flash"
 WHISPER_MODEL_NAME = "small"
-WHISPER_LANG       = "ko"
+WHISPER_LANG = "ko"
+
+ALWAYS_RETURN_ID = True  # 매핑 실패 시에도 유사도 기반으로 ID 하나는 선택
+
+# 전역 캐시
+GEMINI_MODEL = None
+_WHISPER_MODEL = None
+
+# ======================================================================
+# 공통 유틸
+# ======================================================================
+
+def _norm(s: str) -> str:
+    """전각/반각 통일 + 양 끝 공백 제거 + 내부 다중 공백을 1칸으로 축소."""
+    s = unicodedata.normalize("NFKC", s or "").strip()
+    s = re.sub(r"\s+", " ", s)
+    return s
 
 
-def now_ts():
-    """로그/파일명에 쓰기 좋은 타임스탬프 문자열."""
+def _first_word(phrase: str) -> str:
+    """문장에서 첫 단어만 추출(글로스는 단어 1개라는 전제 유지용)."""
+    s = _norm(phrase)
+    return s.split()[0] if s else ""
+
+
+def _nospace(s: str) -> str:
+    """공백/기호 제거 후 비교용 키 생성."""
+    return re.sub(r"[^\w가-힣]", "", re.sub(r"\s+", "", _norm(s)))
+
+
+def now_ts() -> str:
+    """현재 시각을 YYYYmmdd_HHMMSS 문자열로 반환."""
     return datetime.now().strftime("%Y%m%d_%H%M%S")
 
 
-# =========================================================
-# 정규화 / 유틸
-# =========================================================
+# ======================================================================
+# STT (파일 기반) - service.py에서 사용
+# ======================================================================
 
-def _normalize_korean(text: str) -> str:
-    """한글 정규화: NFKC, 공백 정리 등."""
-    text = unicodedata.normalize("NFKC", text)
-    text = text.replace("\u3000", " ")
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
-
-
-def _norm(text: str) -> str:
-    if not text:
-        return ""
-    text = _normalize_korean(text)
-    # 불필요한 기호 제거 예시
-    text = re.sub(r'[“”\""]', "", text)
-    return text.strip()
+def _get_whisper_model():
+    global _WHISPER_MODEL
+    if _WHISPER_MODEL is None:
+        print(f"[Whisper] loading model: {WHISPER_MODEL_NAME}")
+        _WHISPER_MODEL = whisper.load_model(WHISPER_MODEL_NAME)
+    return _WHISPER_MODEL
 
 
-def safe_json_loads(s, default=None):
-    try:
-        return json.loads(s)
-    except Exception:
-        try:
-            return ast.literal_eval(s)
-        except Exception:
-            return default
-
-
-# =========================================================
-# Whisper STT 로딩
-# =========================================================
-
-print(f"[Whisper] loading model: {WHISPER_MODEL_NAME}")
-STT_MODEL = whisper.load_model(WHISPER_MODEL_NAME)
-
-
-def stt_from_file(file_path: str) -> str:
+def stt_from_file(audio_path: str) -> str:
     """
-    주어진 음성 파일 경로에서 STT 실행 후 정규화된 텍스트 반환.
+    서버에서 파일 경로를 받아 STT 수행 후 텍스트 반환.
+    service.py가 사용하는 진입점.
     """
-    result = STT_MODEL.transcribe(file_path, language=WHISPER_LANG)
-    text = result.get("text") or ""
-    return _norm(text)
+    model = _get_whisper_model()
+    res = model.transcribe(str(audio_path), language=WHISPER_LANG)
+    stt_text = _norm(res.get("text") or "")
+    print(f"[STT] {audio_path} -> \"{stt_text}\"")
+    return stt_text
 
 
-# =========================================================
-# Gemini 빌드
-# =========================================================
+# ======================================================================
+# Gemini 설정 및 토큰 추출 (고급 버전)
+# ======================================================================
 
 def build_gemini():
-    """환경변수와 라이브러리가 준비되면 Gemini 모델을 생성, 아니면 None."""
-
-    if genai is None:
-        print("[Gemini] generativeai 라이브러리 없음 → 로컬 규칙만 사용")
+    """
+    Gemini 모델 생성.
+    - GOOGLE_API_KEY 없으면 None 반환 (service.py에서 None 체크 후 로컬 규칙 사용 가능).
+    """
+    if not GOOGLE_API_KEY or genai is None:
         return None
 
-    if not GOOGLE_API_KEY:
-        print("[Gemini] GOOGLE_API_KEY 없음 → 로컬 규칙만 사용")
-        return None
+    genai.configure(api_key=GOOGLE_API_KEY)
 
-    # API 키 설정
-    try:
-        genai.configure(api_key=GOOGLE_API_KEY)
-    except Exception as e:
-        print(f"[Gemini] API 키 설정 실패: {e}")
-        return None
+    sys_prompt = """
+    당신은 '청각장애인을 위한 전문 수어(KSL) 통역사'입니다. 
+    입력된 문장을 단순 번역하지 말고, '농문화(Deaf Culture)'와 '한국수어 문법'에 맞춰 의미를 재구성(Paraphrasing)하십시오.
 
-    sys_prompt = (
-        "역할: 한국어 전사 교정 + 수어 글로스 추출기.\n"
-        '출력 형식: {"clean":"…","gloss":["…"]} — JSON 한 줄만.\n'
-        "규칙:\n"
-        "1) clean: 원문의 의미를 보존해 자연스러운 한 문장으로 교정.\n"
-        "2) gloss: 반드시 한국어 단어 1개(공백 금지)들로 이루어진 리스트.\n"
-        "   - 조사/어미/접사 금지(예: '대상에는' ✗ → '대상' ✓)\n"
-        "   - 표제형/명사형으로 적기('보호하다' ✗ → '보호' ✓)\n"
-        "   - 숫자·단위는 결합 표기 허용(예: 1억원, 6개월, 5년)\n"
-        "   - 의미를 포괄하되 중복 없이 1–10개 범위로 산출.\n"
-        "3) 예시:\n"
-        '   입력: "가입 대상에는 제한이 없으며 누구나 가입 가능합니다."\n'
-        '   gloss: ["가입","대상","제한","가능"]\n'
-        '   입력: "이 상품은 예금자보호법에 따라 원금과 이자를 합하여 1인당 1억원까지 보호됩니다."\n'
-        '   gloss: ["상품","예금자보호법","원금","이자","1인당","1억원","보호"]\n'
+    [핵심 작업 원칙]
+    1. 수지한국어(SK) 금지: 한국어의 어순이나 문법 요소(조사, 어미)를 그대로 따라가지 마십시오.
+    2. 의미 중심 번역: 문장의 '핵심 의도'를 파악하여 가장 직관적인 단어들의 나열로 바꾸십시오.
+    3. 메타 발화 삭제: "안내해 드리겠습니다", "말씀드리자면" 등 정보가가 없는 멘트는 과감히 삭제하십시오.
+       - 단, '안녕하세요', '반갑습니다', '고맙습니다(감사합니다)', '수고하셨습니다' 등 사회적 관계를 맺는 인사말은 삭제하지 말고 반드시 수어 단어로 변환하십시오.
+    4. 한국어 전용 출력 (Korean Only): 
+       - 결과 JSON의 'text' 필드 값에는 '반드시 한국어 또는 숫자'만 들어가야 합니다.
+       - 영어 단어가 포함되면 무조건 한국어 뜻으로 번역하여 출력하십시오.
+
+    [출력 포맷]
+    {
+      "cleaned": "정리된 한국어 문장",
+      "tokens": [
+         { "text": "상품", "type": "gloss" },
+         { "text": "1명", "type": "image" },
+         { "text": "PAUSE", "type": "pause" }
+      ]
+    }
+    이 JSON만 출력하십시오.
+    """
+
+    model = genai.GenerativeModel(
+        GEMINI_MODEL_NAME,
+        system_instruction=sys_prompt,
+        generation_config={
+            "response_mime_type": "application/json",
+            "temperature": 0.2,
+        },
     )
+    return model
 
-    try:
-        model = genai.GenerativeModel(
-            GEMINI_MODEL_NAME,
-            system_instruction=sys_prompt,
-            generation_config={
-                "response_mime_type": "application/json",
-                "temperature": 0.2,
-            },
+
+def _get_gemini_model():
+    global GEMINI_MODEL
+    if GEMINI_MODEL is None:
+        GEMINI_MODEL = build_gemini()
+    return GEMINI_MODEL
+
+
+def extract_tokens(text: str, model=None) -> list[dict]:
+    """
+    문장을 분석하여 토큰 리스트(dict) 반환.
+    반환 예시: [{'text': '나이', 'type': 'gloss'}, {'text': '18세', 'type': 'image'}]
+    """
+    clean = _norm(text)
+    if not clean:
+        return []
+
+    if model is None:
+        model = _get_gemini_model()
+
+    # 1) Gemini 사용
+    if model:
+        try:
+            parts = [{"role": "user", "parts": [clean]}]
+            resp = model.generate_content(parts)
+
+            try:
+                obj = json.loads(resp.text)
+            except Exception:
+                m = re.search(r"\{.*\}", resp.text, re.DOTALL)
+                if m:
+                    obj = json.loads(m.group())
+                else:
+                    obj = {}
+
+            tokens = obj.get("tokens", [])
+            if isinstance(tokens, list):
+                # 최소한 text/type 구조만 보장
+                out = []
+                for t in tokens:
+                    if not isinstance(t, dict):
+                        continue
+                    txt = _first_word(t.get("text", ""))
+                    if not txt:
+                        continue
+                    ttype = t.get("type", "gloss")
+                    out.append({"text": txt, "type": ttype})
+                if out:
+                    return out
+
+        except Exception as e:
+            print(f"[Gemini Error] {e}")
+
+    # 2) 로컬 폴백: 숫자 + 단위 또는 한글/영문 단어를 전부 gloss로 처리
+    tokens = re.findall(r"\d+(?:억원|억\s*원|개월|년|세|%)|[가-힣A-Za-z]+", clean)
+    return [{"text": _first_word(t), "type": "gloss"} for t in tokens if _first_word(t)]
+
+
+def extract_glosses(text: str, model=None) -> list[str]:
+    """
+    service.py 호환용 간단 인터페이스:
+    - 기존 버전처럼 '글로스 문자열 리스트'만 반환.
+    - 내부적으로는 extract_tokens를 사용하지만,
+      type == 'gloss' 인 것만 추려서 반환.
+    """
+    tokens = extract_tokens(text, model=model)
+    gloss_list = [
+        t["text"] for t in tokens
+        if isinstance(t, dict) and t.get("type", "gloss") == "gloss" and t.get("text")
+    ]
+    return gloss_list
+
+
+# ======================================================================
+# Gloss 사전 로드 및 매핑
+# ======================================================================
+
+VIDEO_PATH_INDEX = {}
+
+
+def build_video_index(root_dir: Path):
+    """
+    하위 폴더 포함 모든 mp4 파일을 검색하여
+    { "파일ID": "전체경로" } 형태의 지도를 만듦.
+    """
+    global VIDEO_PATH_INDEX
+    print(f"📂 영상 파일 인덱싱 중... ({root_dir})")
+
+    count = 0
+    for path in root_dir.rglob("*.mp4"):
+        file_id = path.stem
+        VIDEO_PATH_INDEX[file_id] = str(path.resolve())
+        count += 1
+
+    print(f"✅ 총 {count}개의 영상 파일을 찾았습니다.")
+
+
+# 모듈 로드 시 한 번 인덱스 구축
+try:
+    if GLOSS_MP4_DIR.exists():
+        build_video_index(GLOSS_MP4_DIR)
+    else:
+        print(f"⚠️ GLOSS_MP4_DIR가 존재하지 않습니다: {GLOSS_MP4_DIR}")
+except Exception as e:
+    print(f"⚠️ build_video_index 실행 중 오류: {e}")
+
+
+def load_gloss_index(csv_path: Path | str | None = None) -> dict:
+    """
+    글로스 사전을 로드해 검색용 인덱스를 만든다.
+    - csv_path를 안 넘기면 기본으로 GLOSS_DICT_PATH 사용
+      (service.py에서 load_gloss_index() 호출하는 것과 호환)
+    """
+    if csv_path is None:
+        csv_path = GLOSS_DICT_PATH
+
+    csv_path = Path(csv_path)
+
+    rows, exact = [], {}
+    id_to_word = {}
+
+    with open(csv_path, "r", encoding="utf-8-sig") as f:
+        rdr = csv.DictReader(f)
+        headers = [h.strip().lower() for h in (rdr.fieldnames or [])]
+
+        def pick(*cands):
+            for c in cands:
+                if c in headers:
+                    return c
+            return None
+
+        h_id = pick("gloss_id", "id", "gid")
+        h_ko = pick(
+            "korean_meanings", "korean", "ko",
+            "meaning_ko", "ko_meanings", "korean_meaning",
         )
-        print(f"[Gemini] 모델 준비 완료: {GEMINI_MODEL_NAME}")
-        return model
+        h_cat1 = pick("cat_1", "category_1", "category")
 
-    except Exception as e:
-        print(f"[Gemini] 모델 초기화 실패: {e}")
+        if not h_id or not h_ko:
+            raise RuntimeError(f"[Gloss] 헤더 감지 실패: {headers}")
+
+        for row in rdr:
+            gid = (row.get(h_id) or "").strip()
+            cell = (row.get(h_ko) or "").strip()
+            cat1 = (row.get(h_cat1) or "").strip() if h_cat1 else ""
+
+            if not gid or not cell:
+                continue
+
+            try:
+                obj = ast.literal_eval(cell)
+                if isinstance(obj, (list, tuple)):
+                    terms = [str(x) for x in obj]
+                else:
+                    terms = [str(obj)]
+            except Exception:
+                terms = [cell]
+
+            if terms:
+                id_to_word[gid] = terms[0]
+
+            for term in terms:
+                term = _norm(term)
+                if not term:
+                    continue
+                term_ns = _nospace(term)
+                token_cnt = len(term.split())
+                char_len = len(term_ns)
+                rows.append({
+                    "gid": gid,
+                    "term": term,
+                    "term_ns": term_ns,
+                    "token_cnt": token_cnt,
+                    "char_len": char_len,
+                    "cat_1": cat1,
+                })
+                exact.setdefault(term_ns, gid)
+
+    if not rows:
+        raise RuntimeError("[Gloss] 사전에 유효한 항목이 없습니다.")
+
+    rows.sort(key=lambda x: 0 if "전문용어" in (x.get("cat_1") or "") else 1)
+
+    print(f"[Gloss] indexed rows={len(rows)}, exact_keys={len(exact)}")
+    return {"rows": rows, "exact": exact, "id_to_word": id_to_word}
+
+
+def map_one_word_to_id(word: str, index: dict, blacklist: list | None = None) -> str | None:
+    if not word or not index:
+        return None
+    if blacklist is None:
+        blacklist = []
+
+    rows, exact = index["rows"], index["exact"]
+    w = _first_word(word)
+    wns = _nospace(w)
+    if not wns:
         return None
 
+    gid = exact.get(wns)
+    if gid and int(gid) not in blacklist:
+        return gid
 
-GEMINI_MODEL = build_gemini()
+    cands = [r for r in rows if wns in r["term_ns"] and int(r["gid"]) not in blacklist]
+    if cands:
+        cands.sort(key=lambda r: (r["token_cnt"], r["char_len"], r["term"], r["gid"]))
+        return cands[0]["gid"]
+
+    best_gid, best_sc = None, 0.0
+    for r in rows:
+        if int(r["gid"]) in blacklist:
+            continue
+        sc = difflib.SequenceMatcher(None, wns, r["term_ns"]).ratio()
+        if sc > best_sc:
+            best_sc, best_gid = sc, r["gid"]
+
+    if ALWAYS_RETURN_ID and best_gid:
+        return best_gid
+    return None
 
 
-# =========================================================
-# 글로스 인덱스 로딩
-# =========================================================
+def to_gloss_ids(gloss_list: list[str], index: dict) -> list[str]:
+    """글로스 리스트 → 중복 제거된 gloss_id 리스트(입력 순서 보존)."""
+    out, seen = [], set()
+    for g in gloss_list or []:
+        gid = map_one_word_to_id(g, index)
+        if gid and gid not in seen:
+            out.append(gid)
+            seen.add(gid)
+    return out
 
-def load_gloss_index(path: Path = None):
+
+def decompose_compound_word(token: str, valid_keys: dict) -> list[str] | None:
+    if len(token) < 2:
+        return None
+    for i in range(1, len(token)):
+        part1 = token[:i]
+        part2 = token[i:]
+        if part1 in valid_keys and part2 in valid_keys:
+            return [part1, part2]
+    return None
+
+
+def resolve_gloss_token(token_text, original_sentence, rules, db_index):
     """
-    gloss_dictionary_MOCK_1.csv를 읽어서
-    { "통장": "104886", "토끼": "104887", ... } 형태의 dict를 만든다.
-
-    CSV 헤더:
-      gloss_id,korean_meanings,cat_1,cat_2,cat_3,original_vd_idx,source
-    예시 행:
-      104886,['통장'],일상생활 수어,,,505,li
+    고급 규칙 기반 토큰 -> gloss_id 매핑 함수.
+    Django에서도 사용할 수 있게 남겨둠 (service.py에서 원하면 사용).
     """
-    p = path or GLOSS_INDEX_PATH
-    idx = {}
+    final_ids = []
+    resolved_logs = []
 
-    if not p.exists():
-        print(f"[GlossIndex] 파일 없음: {p}")
-        return idx
+    id_map = db_index.get("id_to_word", {})
 
-    with open(p, "r", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        print(f"[GlossIndex] 헤더: {reader.fieldnames}")
+    blacklist = rules.get("blacklist", [])
+    sub_list = rules.get("word_substitution", {}).get(token_text, [token_text])
 
-        for row in reader:
-            # 1) 어떤 ID를 쓸지 선택
-            #   - gloss_id = "104886"
-            #   - original_vd_idx = "505"
-            # mp4 파일 이름이 gloss_id 기준이면 아래처럼 gloss_id 사용
-            gid = (row.get("gloss_id") or "").strip()
+    for sub in sub_list:
+        target_ids = []
+        method = "unknown"
 
-            # 만약 mp4가 505.mp4 형식이면 아래 줄로 바꿔:
-            # gid = (row.get("original_vd_idx") or "").strip()
+        if sub in rules.get("fixed_mappings", {}):
+            target_ids.append(rules["fixed_mappings"][sub])
+            method = "fixed_rule"
 
-            # 2) korean_meanings 파싱: "['통장']" → ["통장"]
-            raw_meanings = row.get("korean_meanings", "")
-            meanings = safe_json_loads(raw_meanings, default=None)
+        elif sub in rules.get("disambiguation_rules", {}):
+            rule = rules["disambiguation_rules"][sub]
+            found = False
+            for case in rule["cases"]:
+                for kw in case["keywords"]:
+                    if kw in original_sentence:
+                        target_ids.append(case["target_id"])
+                        found = True
+                        method = f"context({kw})"
+                        break
+                if found:
+                    break
+            if not found:
+                target_ids.append(rule["default_id"])
+                method = "context_default"
 
-            tokens = []
-            if isinstance(meanings, list):
-                # ['통장'] 또는 ['정기예금', '적금'] 이런 리스트일 수 있음
-                for m in meanings:
-                    t = _norm(str(m))
-                    if t:
-                        tokens.append(t)
+        else:
+            gid = map_one_word_to_id(sub, db_index, blacklist)
+            if gid:
+                target_ids.append(gid)
+                method = "exact/similarity"
             else:
-                # 혹시 리스트 파싱이 안 되면, 그냥 문자열 하나로 처리
-                t = _norm(str(raw_meanings))
-                if t:
-                    tokens.append(t)
+                decomposed = decompose_compound_word(sub, db_index["exact"])
+                if decomposed:
+                    for part in decomposed:
+                        part_id = map_one_word_to_id(part, db_index, blacklist)
+                        if part_id:
+                            target_ids.append(part_id)
+                    method = f"decomposed({decomposed})"
 
-            # 3) 토큰들 → gid 매핑
-            for t in tokens:
-                if t and gid:
-                    idx[t] = gid
+        if target_ids:
+            final_ids.extend(target_ids)
 
-    print(f"[GlossIndex] 로딩 완료: {len(idx)}개, from {p}")
-    sample = list(idx.items())[:10]
-    print(f"[GlossIndex] 예시 몇 개: {sample}")
-    return idx
+            real_words = []
+            for tid in target_ids:
+                rw = id_map.get(str(tid), "UnknownID")
+                real_words.append(rw)
 
+            resolved_logs.append({
+                "token": sub,
+                "resolved_word": real_words,
+                "ids": target_ids,
+                "method": method,
+            })
 
-GLOSS_INDEX = load_gloss_index()
+    return final_ids, resolved_logs
 
-
-# =========================================================
-# 글로스 → ID 매핑 및 영상 경로 생성
-# =========================================================
 
 def _paths_from_ids(gloss_ids):
     """
-    gloss_id 리스트를 받아서 존재하는 mp4 경로 리스트로 변환.
-    - backend/pipelines/gloss_mp4/<gloss_id>.mp4
+    gloss_id 리스트를 받아 미리 만들어둔 지도(VIDEO_PATH_INDEX)에서 경로를 찾음.
+    service.py에서 그대로 사용 가능.
     """
-    paths = []
-    for gid in gloss_ids:
-        p = SIGN_VID_DIR / f"{gid}.mp4"
-        if p.exists():
-            paths.append(str(p))
+    paths, missing = [], []
+    for gid in gloss_ids or []:
+        gid_str = str(gid)
+        if gid_str in VIDEO_PATH_INDEX:
+            paths.append(VIDEO_PATH_INDEX[gid_str])
         else:
-            print(f"[WARN] gloss_id {gid}에 해당하는 영상 없음: {p}")
+            missing.append(gid)
+
+    if missing:
+        print(f"⚠️  매핑 누락 (파일 없음) gloss_id: {missing}")
     return paths
 
 
-def to_gloss_ids(gloss_list, gloss_index=None):
-    """
-    글로스 리스트를 gloss_id 리스트로 변환.
-    - exact match 우선
-    - 실패 시 유사도 기반 fallback (difflib)
-    """
-    idx = gloss_index or GLOSS_INDEX
-    ids = []
+# ======================================================================
+# 영상 합성/저장 (원하면 service.py에서 사용 가능)
+# ======================================================================
 
-    for token in gloss_list:
-        t = _norm(token)
-        if not t:
+def get_korean_font(size=80):
+    font_paths = [
+        "C:/Windows/Fonts/malgun.ttf",
+        "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+        "/usr/share/fonts/truetype/nanum/NanumGothic.ttf",
+        "AppleGothic.ttf",
+    ]
+    for path in font_paths:
+        try:
+            return ImageFont.truetype(path, size)
+        except Exception:
             continue
-
-        if t in idx:
-            ids.append(idx[t])
-            continue
-
-        # fallback: 비슷한 키 찾기
-        # candidates = difflib.get_close_matches(t, idx.keys(), n=1, cutoff=0.8)
-        candidates = difflib.get_close_matches(t, idx.keys(), n=1)
-        if candidates:
-            m = candidates[0]
-            print(f"[Fallback] '{t}' → '{m}' 매핑 사용")
-            ids.append(idx[m])
-        else:
-            print(f"[UnknownGloss] '{t}' 매핑 실패")
-    return ids
+    return ImageFont.load_default()
 
 
-# =========================================================
-# 글로스 추출 (STT 텍스트 → gloss list)
-# =========================================================
+def generate_image_video(text: str, duration: float = 2.0) -> str:
+    with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as tf:
+        img_path = tf.name
 
-def _local_gloss_rules(text: str):
-    """
-    Gemini를 쓰지 못할 때 사용하는 단순 로컬 규칙.
-    실제 서비스에서는 도메인 규칙/토크나이저로 대체하면 됨.
-    """
-    text = _norm(text)
-    if not text:
-        return []
+    width, height = 1280, 720
+    img = Image.new("RGB", (width, height), color="black")
+    d = ImageDraw.Draw(img)
 
-    # 매우 단순한 예: 공백 기준 토큰 분리
-    tokens = re.split(r"[ ,.!?]+", text)
-    tokens = [t for t in tokens if t]
-    return tokens
+    font = get_korean_font(80)
 
+    bbox = d.textbbox((0, 0), text, font=font)
+    text_w = bbox[2] - bbox[0]
+    text_h = bbox[3] - bbox[1]
+    position = ((width - text_w) / 2, (height - text_h) / 2)
 
-def extract_glosses(text: str, gemini_model=None):
-    """
-    STT 텍스트에서 gloss 리스트 추출.
-    - gemini_model 있으면 LLM 기반 파싱
-    - 없으면 로컬 규칙 기반 분리
-    """
-    model = gemini_model or GEMINI_MODEL
+    d.text(position, text, font=font, fill="white")
+    img.save(img_path)
 
-    if not model:
-        return _local_gloss_rules(text)
+    out_mp4 = img_path.replace(".png", ".mp4")
+    cmd = [
+        "ffmpeg", "-y",
+        "-loop", "1", "-i", img_path,
+        "-t", str(duration),
+        "-c:v", "libx264",
+        "-preset", "veryfast",
+        "-profile:v", "high",
+        "-pix_fmt", "yuv420p",
+        "-r", "30",
+        "-video_track_timescale", "90000",
+        "-bf", "2",
+        "-an",
+        "-vf", "scale=1280:720",
+        "-loglevel", "error",
+        out_mp4,
+    ]
+    subprocess.run(cmd, check=True)
 
-    prompt = f"""
-다음 한국어 문장을 수어 글로스 형태의 '토큰 리스트'로 만들어줘.
-- 불필요한 조사/어미는 제거
-- 핵심 의미 단어 위주로 단어 사이를 공백으로 구분
-- 출력은 JSON 배열 형식만 사용 (예: ["기간", "최소", "1년"])
-
-문장: "{text}"
-"""
     try:
-        resp = model.generate_content(prompt)
-        raw = resp.text.strip()
-        gloss_list = safe_json_loads(raw, default=None)
-        if isinstance(gloss_list, list):
-            return [_norm(str(t)) for t in gloss_list if str(t).strip()]
-        else:
-            # JSON 파싱 실패 시, 그냥 로컬 규칙 fall back
-            return _local_gloss_rules(text)
-    except Exception as e:
-        print(f"[Gemini.extract_glosses] 오류: {e}")
-        return _local_gloss_rules(text)
+        os.remove(img_path)
+    except Exception:
+        pass
+
+    return out_mp4
 
 
-# =========================================================
-# 문장 단위 파이프라인 (파일 입력)
-# =========================================================
-
-def run_full_pipeline_on_file(file_path: str):
-    """
-    한 번에:
-    - 음성 파일 → STT
-    - STT 텍스트 → gloss 리스트
-    - gloss 리스트 → gloss_id 리스트
-    - gloss_id → 영상 경로 리스트
-    결과(dict)를 반환.
-    """
-    t0 = time.perf_counter()
-    stt_text = stt_from_file(file_path)
-    t1 = time.perf_counter()
-
-    gloss_list = extract_glosses(stt_text, GEMINI_MODEL)
-    t2 = time.perf_counter()
-
-    gloss_ids = to_gloss_ids(gloss_list, GLOSS_INDEX)
-    paths = _paths_from_ids(gloss_ids)
-    t3 = time.perf_counter()
-
-    return {
-        "input_file": file_path,
-        "stt_text": stt_text,
-        "gloss": gloss_list,
-        "gloss_ids": gloss_ids,
-        "paths": paths,
-        "latency_ms": {
-            "total": round((t3 - t0) * 1000, 1),
-            "stt": round((t1 - t0) * 1000, 1),
-            "nlp": round((t2 - t1) * 1000, 1),
-            "mapping": round((t3 - t2) * 1000, 1),
-        },
-    }
-
-
-# =========================================================
-# (선택) ffmpeg로 문장 영상 합치기
-# =========================================================
-
-def concat_videos_ffmpeg(video_paths, out_path: Path):
-    """
-    여러 개 수어 mp4 파일을 ffmpeg로 하나의 문장 영상으로 합친다.
-    video_paths: 절대경로 리스트
-    out_path: 출력 mp4 경로
-    """
-    if not video_paths:
-        raise ValueError("video_paths 리스트가 비어 있음")
-
-    out_path = Path(out_path)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-
-    # ffmpeg concat용 임시 리스트 파일 생성
-    list_file = out_path.with_suffix(".txt")
-    with open(list_file, "w", encoding="utf-8") as f:
-        for p in video_paths:
-            f.write(f"file '{p}'\n")
+def generate_blank_video(duration: float = 1.0) -> str:
+    with tempfile.NamedTemporaryFile(suffix=".mp4", delete=False) as tf:
+        out_mp4 = tf.name
 
     cmd = [
-        "ffmpeg",
-        "-y",
-        "-f",
-        "concat",
-        "-safe",
-        "0",
-        "-i",
-        str(list_file),
-        "-c",
-        "copy",
-        str(out_path),
+        "ffmpeg", "-y",
+        "-f", "lavfi", "-i", f"color=c=black:s=1280x720:d={duration}",
+        "-c:v", "libx264",
+        "-preset", "veryfast",
+        "-profile:v", "high",
+        "-pix_fmt", "yuv420p",
+        "-r", "30",
+        "-video_track_timescale", "90000",
+        "-bf", "2",
+        "-an",
+        "-loglevel", "error",
+        out_mp4,
     ]
+    subprocess.run(cmd, check=True)
+    return out_mp4
+
+
+def play_sequence(paths):
+    if not paths:
+        print("⚠️ 재생할 영상이 없습니다.")
+        return False
+
+    ffmpeg = shutil.which("ffmpeg") or "ffmpeg"
+    ffplay = shutil.which("ffplay")
+
+    if ffplay:
+        with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False, encoding="utf-8") as f:
+            lst_path = f.name
+            for p in paths:
+                safe_path = str(Path(p).resolve()).replace("\\", "/")
+                f.write(f"file '{safe_path}'\n")
+        try:
+            cmd = [
+                ffplay,
+                "-autoexit",
+                "-hide_banner",
+                "-loglevel", "error",
+                "-f", "concat",
+                "-safe", "0",
+                "-i", lst_path,
+            ]
+            subprocess.run(cmd, check=True)
+            return True
+        finally:
+            try:
+                os.remove(lst_path)
+            except OSError:
+                pass
+
+    with tempfile.TemporaryDirectory() as td:
+        lst = Path(td) / "list.txt"
+        out = Path(td) / f"concat_{now_ts()}.mp4"
+
+        with open(lst, "w", encoding="utf-8") as f:
+            for p in paths:
+                safe_path = str(Path(p).resolve()).replace("\\", "/")
+                f.write(f"file '{safe_path}'\n")
+
+        copy_cmd = [
+            ffmpeg, "-y",
+            "-f", "concat", "-safe", "0",
+            "-i", str(lst),
+            "-c", "copy",
+            str(out),
+        ]
+        r = subprocess.run(copy_cmd)
+
+        if r.returncode != 0:
+            re_cmd = [
+                ffmpeg, "-y",
+                "-f", "concat", "-safe", "0",
+                "-i", str(lst),
+                "-vf", "format=yuv420p",
+                "-c:v", "libx264", "-crf", "20", "-preset", "veryfast",
+                "-c:a", "aac", "-b:a", "128k",
+                str(out),
+            ]
+            subprocess.run(re_cmd, check=True)
+
+        if sys.platform == "darwin":
+            subprocess.Popen(["open", str(out)])
+        elif os.name == "nt":
+            os.startfile(str(out))
+        else:
+            subprocess.Popen(["xdg-open", str(out)])
+        return True
+
+
+def save_sequence(paths, output_path: Path):
+    if not paths:
+        return
+
+    ffmpeg = shutil.which("ffmpeg") or "ffmpeg"
+
+    with tempfile.NamedTemporaryFile("w", suffix=".txt", delete=False, encoding="utf-8") as f:
+        lst_path = f.name
+        for p in paths:
+            safe_path = str(Path(p).resolve()).replace("\\", "/")
+            f.write(f"file '{safe_path}'\n")
 
     try:
-        subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        print(f"[FFmpeg] concat 완료 → {out_path}")
-    except subprocess.CalledProcessError as e:
-        print(f"[FFmpeg] 오류: {e.stderr.decode('utf-8', errors='ignore')}")
-        raise
+        cmd = [
+            ffmpeg, "-y",
+            "-f", "concat", "-safe", "0",
+            "-i", lst_path,
+            "-c:v", "libx264", "-pix_fmt", "yuv420p",
+            "-c:a", "aac",
+            "-loglevel", "error",
+            str(output_path),
+        ]
+        subprocess.run(cmd, check=True)
+        print(f"💾 영상 저장 완료: {output_path}")
+    except Exception as e:
+        print(f"❌ 영상 저장 실패: {e}")
     finally:
-        if list_file.exists():
-            list_file.unlink(missing_ok=True)
+        try:
+            os.remove(lst_path)
+        except Exception:
+            pass
 
-    return str(out_path)
+
+# 모듈 로드 시 Gemini 모델 한 번만 빌드
+if GOOGLE_API_KEY and genai is not None:
+    try:
+        GEMINI_MODEL = build_gemini()
+        print("[Gemini] 모델 초기화 완료")
+    except Exception as e:
+        GEMINI_MODEL = None
+        print(f"[Gemini] 초기화 실패, 로컬 규칙만 사용: {e}")
+else:
+    GEMINI_MODEL = None
+    print("[Gemini] API 키 없음 → 로컬 규칙만 사용")
 
 
-# =========================================================
-# 7) 실시간 성능평가용 delta 파이프라인 (현재 미사용, 전체 주석 처리)
-# =========================================================
+# ======================================================================
+# 로컬 규칙 기반 gloss 추출 (service.py에서 Gemini 실패 시 사용할 수 있는 최소 버전)
+# ======================================================================
 
-# DEBOUNCE_SEC = 1.0
-# ACTUAL_RATE = 16000  # 16kHz, 16bit PCM 기준 (len(blob)/(rate*2)로 길이 계산)
-#
-#
-# def main():
-#     """
-#     실시간 delta 음성 입력 기반 성능평가 모드.
-#     - Enter 입력 시 delta blob 추출
-#     - STT → gloss → gloss_id → json 로그 저장
-#
-#     주의:
-#     - pipelines/local_delta.py 에 cut_delta_blob(), play_sequence() 구현 필요
-#     - cut_delta_blob() → bytes (raw wav blob)
-#     - play_sequence(paths) → gloss 영상 리스트 재생
-#     """
-#
-#     from pipelines.local_delta import cut_delta_blob, play_sequence
-#
-#     snap = 0
-#     last_trigger = 0.0
-#
-#     print("\n[Delta Pipeline Ready]")
-#     print("[Enter] 키를 누르면 delta 구간을 전사합니다.\n")
-#
-#     while True:
-#         try:
-#             input("\n[Enter] 전사 시작 ")
-#
-#             now = time.time()
-#             if now - last_trigger < DEBOUNCE_SEC:
-#                 continue
-#             last_trigger = now
-#
-#             t_all0 = time.perf_counter()
-#
-#             blob = cut_delta_blob()
-#             if not blob:
-#                 print("[Info] 새 오디오 없음.")
-#                 continue
-#
-#             ts = now_ts()
-#             base = OUT_DIR_DELTA / f"snapshot_{ts}_{snap+1:02d}"
-#
-#             wav_path = str(base) + ".wav"
-#             with open(wav_path, "wb") as wf:
-#                 wf.write(blob)
-#
-#             dur = len(blob) / (ACTUAL_RATE * 2)
-#             print(f"[WAV] {wav_path} ({dur:.2f}s)")
-#
-#             t_stt0 = time.perf_counter()
-#             res = STT_MODEL.transcribe(wav_path, language=WHISPER_LANG)
-#             stt = _norm(res.get("text") or "")
-#             stt_ms = round((time.perf_counter() - t_stt0) * 1000, 1)
-#
-#             txt_path = str(base) + ".txt"
-#             with open(txt_path, "w", encoding="utf-8") as f:
-#                 f.write(stt + "\n")
-#
-#             print(f"[STT] {stt_ms} ms → {txt_path}")
-#
-#             t_nlp0 = time.perf_counter()
-#             gloss_list = extract_glosses(stt, GEMINI_MODEL)
-#             nlp_ms = round((time.perf_counter() - t_nlp0) * 1000, 1)
-#
-#             t_map0 = time.perf_counter()
-#             gloss_ids = to_gloss_ids(gloss_list, GLOSS_INDEX)
-#             paths = _paths_from_ids(gloss_ids)
-#             map_ms = round((time.perf_counter() - t_map0) * 1000, 1)
-#
-#             print("[GLOSS]", gloss_list)
-#             print("[GLOSS_ID]", gloss_ids)
-#
-#             t_vid0 = time.perf_counter()
-#             play_sequence(paths)
-#             video_ms = round((time.perf_counter() - t_vid0) * 1000, 1)
-#
-#             total_ms = round((time.perf_counter() - t_all0) * 1000, 1)
-#             print(
-#                 f"[LATENCY] STT={stt_ms} | NLP={nlp_ms} | "
-#                 f"MAP={map_ms} | VIDEO={video_ms} | TOTAL={total_ms} ms"
-#             )
-#
-#             payload = {
-#                 "timestamp": ts,
-#                 "snapshot_index": snap + 1,
-#                 "raw": {
-#                     "stt_text": stt,
-#                     "snapshot_mode": "delta",
-#                     "tail_seconds": None,
-#                 },
-#                 "timing": {
-#                     "stt_ms": stt_ms,
-#                     "nlp_ms": nlp_ms,
-#                     "mapping_ms": map_ms,
-#                     "video_ms": video_ms,
-#                     "total_ms": total_ms,
-#                 },
-#                 "gemini": {
-#                     "gloss": gloss_list,
-#                     "gloss_ids": gloss_ids,
-#                 },
-#             }
-#
-#             json_path = str(base) + ".json"
-#             with open(json_path, "w", encoding="utf-8") as f:
-#                 json.dump(payload, f, ensure_ascii=False, indent=2)
-#
-#             print(f"[JSON] {json_path}")
-#
-#             snap += 1
-#
-#         except KeyboardInterrupt:
-#             print("\n[종료] Ctrl+C 감지")
-#             break
-#
-#
-# # =========================================================
-# # 실행 엔트리포인트 (현재 미사용)
-# # =========================================================
-#
-# if __name__ == "__main__":
-#     main()
-# =========================================================
-# API snapshot 저장기
-# =========================================================
-
-API_SNAPSHOT_DIR = ROOT_DIR / "snapshots" / "api"
-API_SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
-
-def save_api_snapshot(data: dict):
+def _local_gloss_rules(text: str) -> list[str]:
     """
-    REST API 호출 시 STT/NLP/매핑/합성 정보를 snapshot JSON으로 저장.
+    Gemini 없이도 사용할 수 있는 초간단 폴백 규칙.
+    (기존 extract_glosses의 로컬 폴백과 동일한 수준)
     """
-    ts = now_ts()
-    out_path = API_SNAPSHOT_DIR / f"snapshot_{ts}.json"
-
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-    print(f"[API Snapshot saved] {out_path}")
-    return str(out_path)
+    clean = _norm(text)
+    tokens = re.findall(r"\d+(?:억원|억\s*원|개월|년|세|%)|[가-힣A-Za-z]+", clean)
+    return [_first_word(t) for t in tokens if _first_word(t)]
