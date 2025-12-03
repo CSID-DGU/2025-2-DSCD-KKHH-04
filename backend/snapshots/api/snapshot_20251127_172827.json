@@ -1,0 +1,36 @@
+{
+  "timestamp": "20251127_172827",
+  "session_id": null,
+  "mode": null,
+  "audio_sec": 2.22,
+  "text": "용액이나 나무대기 하는 그런 문제들",
+  "clean_text": "용액이나 나무와 관련된 문제들입니다.",
+  "latency_ms": {
+    "stt": 12480.8,
+    "nlp": 4816.1,
+    "mapping": 23.0,
+    "synth": 448.6,
+    "total": 17768.5
+  },
+  "gloss": [
+    "용액",
+    "나무",
+    "문제"
+  ],
+  "gloss_ids": [
+    "102858",
+    "103470",
+    "103235"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_172826.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102858.mp4",
+    "/media/sign_videos/103470.mp4",
+    "/media/sign_videos/103235.mp4"
+  ],
+  "gloss_labels": [
+    "용",
+    "목요일",
+    "문제"
+  ]
+}

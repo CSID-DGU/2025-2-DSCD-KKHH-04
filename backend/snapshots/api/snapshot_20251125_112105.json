@@ -1,0 +1,25 @@
+{
+  "timestamp": "20251125_112105",
+  "text": "그냥",
+  "clean_text": "그냥",
+  "latency_ms": {
+    "stt": 89990.5,
+    "nlp": 683.3,
+    "mapping": 0.7,
+    "synth": 268.6,
+    "total": 90943.1
+  },
+  "gloss": [
+    "그냥"
+  ],
+  "gloss_ids": [
+    "101440"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_112105.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101440.mp4"
+  ],
+  "gloss_labels": [
+    "그냥"
+  ]
+}

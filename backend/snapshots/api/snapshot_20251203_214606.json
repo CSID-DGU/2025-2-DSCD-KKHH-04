@@ -1,0 +1,40 @@
+{
+  "ts": "20251203_214606",
+  "timestamp": "20251203_214606",
+  "session_id": "sess_1764762019270_xk2zjg",
+  "mode": "설명",
+  "text": "어떻게 해드릴까요?",
+  "clean_text": "무엇 도와드릴까요?",
+  "gloss": [
+    "무엇",
+    "돕다"
+  ],
+  "gloss_ids": [
+    "102867",
+    "103533"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_214605.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102867.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103533.mp4"
+  ],
+  "gloss_labels": [
+    "어느",
+    "돕다"
+  ],
+  "audio_sec": 2.28,
+  "video_sec": 7.333,
+  "latency_ms": {
+    "stt": 15659.0,
+    "nlp": 3341.4,
+    "mapping": 0.0,
+    "synth": 1059.9
+  },
+  "latency_sec": {
+    "stt_sec": 15.66,
+    "nlp_sec": 3.34,
+    "mapping_sec": 0.0,
+    "synth_sec": 1.06,
+    "total_sec": 20.06
+  }
+}

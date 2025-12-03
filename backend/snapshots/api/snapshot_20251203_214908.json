@@ -1,0 +1,48 @@
+{
+  "ts": "20251203_214908",
+  "timestamp": "20251203_214908",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "만기에더게 해드릴까요?",
+  "clean_text": "만기에 더 해드릴까요?",
+  "gloss": [
+    "기간",
+    "끝나다",
+    "더",
+    "원하다"
+  ],
+  "gloss_ids": [
+    "103117",
+    "102280",
+    "104509",
+    "104680"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_214908.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103117.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102280.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104509.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104680.mp4"
+  ],
+  "gloss_labels": [
+    "동안",
+    "그만",
+    "더",
+    "내키다"
+  ],
+  "audio_sec": 3.96,
+  "video_sec": 16.166,
+  "latency_ms": {
+    "stt": 17505.1,
+    "nlp": 10831.5,
+    "mapping": 0.0,
+    "synth": 117.4
+  },
+  "latency_sec": {
+    "stt_sec": 17.51,
+    "nlp_sec": 10.83,
+    "mapping_sec": 0.0,
+    "synth_sec": 0.12,
+    "total_sec": 28.45
+  }
+}

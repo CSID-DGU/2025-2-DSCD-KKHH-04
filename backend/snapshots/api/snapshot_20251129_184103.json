@@ -1,0 +1,37 @@
+{
+  "timestamp": "20251129_184103",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 5.34,
+  "text": "이 대출은 최장 30년까지 성안할 수 있습니다.",
+  "clean_text": "이 대출은 최장 30년까지 이용할 수 있습니다.",
+  "latency_ms": {
+    "stt": 8766.1,
+    "nlp": 7097.4,
+    "mapping": 59.3,
+    "synth": 226.8,
+    "total": 16149.599999999999
+  },
+  "gloss": [
+    "대출",
+    "최장",
+    "30년",
+    "이용"
+  ],
+  "gloss_ids": [
+    "104486",
+    "104123",
+    "103092"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_184103.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104486.mp4",
+    "/media/sign_videos/104123.mp4",
+    "/media/sign_videos/103092.mp4"
+  ],
+  "gloss_labels": [
+    "대출금",
+    "시장",
+    "이용"
+  ]
+}

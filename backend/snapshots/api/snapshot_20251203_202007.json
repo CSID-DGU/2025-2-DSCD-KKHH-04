@@ -1,0 +1,44 @@
+{
+  "ts": "20251203_202007",
+  "timestamp": "20251203_202007",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은? 오늘의 주인공은?",
+  "clean_text": "오늘의 주인공은?",
+  "gloss": [
+    "오늘",
+    "주인공",
+    "누구"
+  ],
+  "gloss_ids": [
+    "102615",
+    "103072",
+    "103554"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_202006.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102615.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103072.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103554.mp4"
+  ],
+  "gloss_labels": [
+    "오늘",
+    "주인공",
+    "누구"
+  ],
+  "audio_sec": 6.9,
+  "video_sec": 11.399,
+  "latency_ms": {
+    "stt": 12588.3,
+    "nlp": 5180.8,
+    "mapping": 0.1,
+    "synth": 278.8
+  },
+  "latency_sec": {
+    "stt_sec": 12.59,
+    "nlp_sec": 5.18,
+    "mapping_sec": 0.0,
+    "synth_sec": 0.28,
+    "total_sec": 18.05
+  }
+}

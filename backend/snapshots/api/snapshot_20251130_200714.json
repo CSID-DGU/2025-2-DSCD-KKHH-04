@@ -1,0 +1,54 @@
+{
+  "ts": "20251130_200714",
+  "timestamp": "20251130_200714",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 7.38,
+  "text": "수입이 닮아라 달라지는 고객님이시라면 정립식의 가입 납빅 기능이 특히 요용해요.",
+  "clean_text": "수입이 변동되는 고객이라면 정립식 가입 납입 기능이 특히 유용해요.",
+  "latency_ms": {
+    "stt": 8314.7,
+    "nlp": 3673.2,
+    "mapping": 160.0,
+    "synth": 958.4,
+    "total": 13106.300000000001
+  },
+  "gloss": [
+    "수입",
+    "변동",
+    "고객",
+    "정립식",
+    "가입",
+    "납입",
+    "기능",
+    "유용"
+  ],
+  "gloss_ids": [
+    "101575",
+    "101664",
+    "101853",
+    "103220",
+    "103593",
+    "103150",
+    "100870"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_200713.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101575.mp4",
+    "/media/sign_videos/101664.mp4",
+    "/media/sign_videos/101853.mp4",
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/103150.mp4",
+    "/media/sign_videos/100870.mp4"
+  ],
+  "gloss_labels": [
+    "수입",
+    "갈다",
+    "초대",
+    "가입",
+    "납부",
+    "기",
+    "유통비용"
+  ]
+}

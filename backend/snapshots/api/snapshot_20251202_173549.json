@@ -1,0 +1,36 @@
+{
+  "ts": "20251202_173549",
+  "timestamp": "20251202_173549",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 4.62,
+  "text": "기여추나부터",
+  "clean_text": "기여와 추나부터",
+  "latency_ms": {
+    "stt": 33469.4,
+    "nlp": 9265.6,
+    "mapping": 49.2,
+    "synth": 180.2
+  },
+  "gloss": [
+    "기여",
+    "추나",
+    "시작"
+  ],
+  "gloss_ids": [
+    "103533",
+    "101576",
+    "101391"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_173549.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103533.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101576.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101391.mp4"
+  ],
+  "gloss_labels": [
+    "돕다",
+    "나",
+    "시작"
+  ]
+}

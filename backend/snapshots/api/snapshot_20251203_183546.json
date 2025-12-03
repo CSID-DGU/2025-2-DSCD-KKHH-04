@@ -1,0 +1,36 @@
+{
+  "ts": "20251203_183546",
+  "timestamp": "20251203_183546",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "예상라",
+  "clean_text": "예상하다",
+  "gloss": [
+    "추측하다"
+  ],
+  "gloss_ids": [
+    "101792"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_183545.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101792.mp4"
+  ],
+  "gloss_labels": [
+    "못생기다"
+  ],
+  "audio_sec": 10.56,
+  "video_sec": 3.333,
+  "latency_ms": {
+    "stt": 15913.7,
+    "nlp": 5897.0,
+    "mapping": 178.5,
+    "synth": 812.3
+  },
+  "latency_sec": {
+    "stt_sec": 15.91,
+    "nlp_sec": 5.9,
+    "mapping_sec": 0.18,
+    "synth_sec": 0.81,
+    "total_sec": 22.8
+  }
+}

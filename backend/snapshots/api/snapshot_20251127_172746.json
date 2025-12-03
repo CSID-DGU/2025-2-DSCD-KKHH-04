@@ -1,0 +1,54 @@
+{
+  "timestamp": "20251127_172746",
+  "session_id": null,
+  "mode": null,
+  "audio_sec": 8.34,
+  "text": "뭐 써야겠다 이런 것들을 직관적으로 알 수 있어야 돼요. 그리고 이제 이런 그래픔 이제 DFS 이용하는 문제 이것도 많이 나오고요.",
+  "clean_text": "무엇을 사용해야 할지 직관적으로 알 수 있어야 하며, 그래프에서 DFS를 이용하는 문제도 자주 출제됩니다.",
+  "latency_ms": {
+    "stt": 16325.2,
+    "nlp": 4406.1,
+    "mapping": 227.3,
+    "synth": 962.5,
+    "total": 21921.100000000002
+  },
+  "gloss": [
+    "무엇",
+    "사용",
+    "직관",
+    "알",
+    "그래프",
+    "DFS",
+    "이용",
+    "문제",
+    "출제"
+  ],
+  "gloss_ids": [
+    "102867",
+    "102387",
+    "103913",
+    "101702",
+    "103092",
+    "103235",
+    "101576"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_172745.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102867.mp4",
+    "/media/sign_videos/102387.mp4",
+    "/media/sign_videos/103913.mp4",
+    "/media/sign_videos/101702.mp4",
+    "/media/sign_videos/103092.mp4",
+    "/media/sign_videos/103235.mp4",
+    "/media/sign_videos/101576.mp4"
+  ],
+  "gloss_labels": [
+    "어느",
+    "사용",
+    "감투",
+    "알",
+    "이용",
+    "문제",
+    "나"
+  ]
+}

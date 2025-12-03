@@ -1,0 +1,49 @@
+{
+  "ts": "20251202_041909",
+  "timestamp": "20251202_041909",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 7.26,
+  "text": "이 계좌는 예금자 보호법에 따라 최대 5.5만원까지 보장됩니다.",
+  "clean_text": "이 계좌는 예금자 보호법에 의해 최대 5만 5천 원까지 보호됩니다.",
+  "latency_ms": {
+    "stt": 11864.5,
+    "nlp": 8845.4,
+    "mapping": 394.9,
+    "synth": 525.3,
+    "total": 21630.100000000002
+  },
+  "gloss": [
+    "계좌",
+    "예금자",
+    "보호법",
+    "최대",
+    "5만 5천 원",
+    "보호"
+  ],
+  "gloss_ids": [
+    "100089",
+    "100782",
+    "100606",
+    "103366",
+    "101940",
+    "102274"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_041908.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100089.mp4",
+    "/media/sign_videos/100782.mp4",
+    "/media/sign_videos/100606.mp4",
+    "/media/sign_videos/103366.mp4",
+    "/media/sign_videos/101940.mp4",
+    "/media/sign_videos/102274.mp4"
+  ],
+  "gloss_labels": [
+    "계좌",
+    "예금이자",
+    "소비자보호법",
+    "크다",
+    "만",
+    "보호"
+  ]
+}

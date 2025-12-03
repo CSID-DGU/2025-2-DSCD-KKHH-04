@@ -1,0 +1,36 @@
+{
+  "ts": "20251203_204025",
+  "timestamp": "20251203_204025",
+  "session_id": "sess_1764762019270_xk2zjg",
+  "mode": "질의",
+  "text": "끝",
+  "clean_text": "끝",
+  "gloss": [
+    "끝나다"
+  ],
+  "gloss_ids": [
+    "102280"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_204025.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102280.mp4"
+  ],
+  "gloss_labels": [
+    "그만"
+  ],
+  "audio_sec": 1.5,
+  "video_sec": 4.1,
+  "latency_ms": {
+    "stt": 3476.7,
+    "nlp": 1790.4,
+    "mapping": 0.0,
+    "synth": 178.8
+  },
+  "latency_sec": {
+    "stt_sec": 3.48,
+    "nlp_sec": 1.79,
+    "mapping_sec": 0.0,
+    "synth_sec": 0.18,
+    "total_sec": 5.45
+  }
+}

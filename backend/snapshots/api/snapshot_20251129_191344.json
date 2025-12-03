@@ -1,0 +1,29 @@
+{
+  "timestamp": "20251129_191344",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 6.12,
+  "text": "이 상품은 접근 상품입니다.",
+  "clean_text": "이 상품은 접근 상품입니다.",
+  "latency_ms": {
+    "stt": 5620.1,
+    "nlp": 4125.1,
+    "mapping": 20.7,
+    "synth": 522.2,
+    "total": 10288.100000000002
+  },
+  "gloss": [
+    "상품",
+    "접근"
+  ],
+  "gloss_ids": [
+    "103392"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_191344.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4"
+  ],
+  "gloss_labels": [
+    "물건"
+  ]
+}

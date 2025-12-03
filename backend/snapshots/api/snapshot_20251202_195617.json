@@ -1,0 +1,35 @@
+{
+  "ts": "20251202_195617",
+  "timestamp": "20251202_195617",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 1.32,
+  "text": "processors",
+  "clean_text": "프로세서",
+  "latency_ms": {
+    "stt": 56926.8,
+    "nlp": 4368.1,
+    "mapping": 57.8,
+    "synth": 97.3
+  },
+  "latency_sec": {
+    "stt_sec": 56.93,
+    "nlp_sec": 4.37,
+    "mapping_sec": 0.06,
+    "synth_sec": 0.1,
+    "total_sec": 61.45
+  },
+  "gloss": [
+    "프로세서"
+  ],
+  "gloss_ids": [
+    "104802"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_195617.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104802.mp4"
+  ],
+  "gloss_labels": [
+    "프로페셔널"
+  ]
+}

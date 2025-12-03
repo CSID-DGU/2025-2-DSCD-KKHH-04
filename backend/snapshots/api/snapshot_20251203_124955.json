@@ -1,0 +1,32 @@
+{
+  "ts": "20251203_124955",
+  "timestamp": "20251203_124955",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 3.42,
+  "text": "저는 김동호입니다.",
+  "clean_text": "저는 김동호입니다.",
+  "latency_ms": {
+    "stt": 5056.6,
+    "nlp": 9288.7,
+    "mapping": 52.0,
+    "synth": 145.1
+  },
+  "gloss": [
+    "나",
+    "김동호"
+  ],
+  "gloss_ids": [
+    "101576",
+    "101902"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_124955.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101576.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101902.mp4"
+  ],
+  "gloss_labels": [
+    "나",
+    "동쪽"
+  ]
+}

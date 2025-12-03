@@ -1,0 +1,21 @@
+{
+  "ts": "20251130_210204",
+  "timestamp": "20251130_210204",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "질의",
+  "audio_sec": 6.84,
+  "text": "",
+  "clean_text": "",
+  "latency_ms": {
+    "stt": 29841.8,
+    "nlp": 2348.6,
+    "mapping": 0.0,
+    "synth": 0.0,
+    "total": 32190.399999999998
+  },
+  "gloss": [],
+  "gloss_ids": [],
+  "sentence_video_url": null,
+  "sign_video_list": [],
+  "gloss_labels": []
+}

@@ -1,0 +1,33 @@
+{
+  "timestamp": "20251129_183047",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 3.66,
+  "text": "안녕하세요. 만나서 반갑습니다.",
+  "clean_text": "안녕하세요, 만나서 반갑습니다.",
+  "latency_ms": {
+    "stt": 4259.4,
+    "nlp": 3125.2,
+    "mapping": 97.1,
+    "synth": 419.4,
+    "total": 7901.099999999999
+  },
+  "gloss": [
+    "안녕",
+    "만남",
+    "반가움"
+  ],
+  "gloss_ids": [
+    "101932",
+    "103403"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_183047.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101932.mp4",
+    "/media/sign_videos/103403.mp4"
+  ],
+  "gloss_labels": [
+    "안녕",
+    "만"
+  ]
+}

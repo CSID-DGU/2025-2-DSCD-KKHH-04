@@ -1,0 +1,53 @@
+{
+  "ts": "20251202_013159",
+  "timestamp": "20251202_013159",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 6.3,
+  "text": "동합 저축은 일반 접근과 달리 회차 수가 가장 중요한 자격 기준입니다.",
+  "clean_text": "통합 저축은 일반 저축과 달리 회차 수가 가장 중요한 자격 기준입니다.",
+  "latency_ms": {
+    "stt": 12749.8,
+    "nlp": 4335.2,
+    "mapping": 41.2,
+    "synth": 545.3,
+    "total": 17671.5
+  },
+  "gloss": [
+    "통합",
+    "저축",
+    "일반",
+    "회차",
+    "중요",
+    "자격",
+    "기준"
+  ],
+  "gloss_ids": [
+    "104832",
+    "101937",
+    "102187",
+    "103115",
+    "102008",
+    "102689",
+    "100233"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_013158.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104832.mp4",
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/102187.mp4",
+    "/media/sign_videos/103115.mp4",
+    "/media/sign_videos/102008.mp4",
+    "/media/sign_videos/102689.mp4",
+    "/media/sign_videos/100233.mp4"
+  ],
+  "gloss_labels": [
+    "통합",
+    "저축",
+    "일반",
+    "단체",
+    "귀하다",
+    "자격",
+    "기준환율"
+  ]
+}

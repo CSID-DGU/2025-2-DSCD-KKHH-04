@@ -1,0 +1,29 @@
+{
+  "ts": "20251201_113616",
+  "timestamp": "20251201_113616",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 2.52,
+  "text": "To be continued",
+  "clean_text": "계속됩니다.",
+  "latency_ms": {
+    "stt": 25212.6,
+    "nlp": 3467.7,
+    "mapping": 0.5,
+    "synth": 264.4,
+    "total": 28945.2
+  },
+  "gloss": [
+    "계속"
+  ],
+  "gloss_ids": [
+    "103101"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_113615.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103101.mp4"
+  ],
+  "gloss_labels": [
+    "계속"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "timestamp": "20251129_184030",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 6.18,
+  "text": "이 상품은 5년 만기 확정 금리형으로 가입기간 동안 분한 인출이 불가능합니다.",
+  "clean_text": "이 상품은 5년 만기 확정 금리형으로, 가입 기간 동안 부분 인출이 불가능합니다.",
+  "latency_ms": {
+    "stt": 6638.4,
+    "nlp": 3480.5,
+    "mapping": 36.4,
+    "synth": 238.3,
+    "total": 10393.599999999999
+  },
+  "gloss": [
+    "상품",
+    "5년",
+    "만기",
+    "확정",
+    "금리형",
+    "가입",
+    "기간",
+    "부분",
+    "인출",
+    "불가능"
+  ],
+  "gloss_ids": [
+    "103392",
+    "101948",
+    "100357",
+    "101590",
+    "103220",
+    "103303",
+    "103115",
+    "100909",
+    "102743"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_184030.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/101948.mp4",
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/103115.mp4",
+    "/media/sign_videos/100909.mp4",
+    "/media/sign_videos/102743.mp4"
+  ],
+  "gloss_labels": [
+    "물건",
+    "년",
+    "만기",
+    "(값이)오르다",
+    "가입",
+    "기간",
+    "단체",
+    "인력수출",
+    "안되다"
+  ]
+}

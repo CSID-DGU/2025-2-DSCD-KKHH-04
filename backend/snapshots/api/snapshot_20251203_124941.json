@@ -1,0 +1,36 @@
+{
+  "ts": "20251203_124941",
+  "timestamp": "20251203_124941",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 3.9,
+  "text": "안녕하세요. 만나서 반갑습니다.",
+  "clean_text": "안녕하세요. 만나서 반갑습니다.",
+  "latency_ms": {
+    "stt": 2861.3,
+    "nlp": 7070.3,
+    "mapping": 0.0,
+    "synth": 163.3
+  },
+  "gloss": [
+    "안녕하세요",
+    "만나다",
+    "좋다"
+  ],
+  "gloss_ids": [
+    "104185",
+    "103655",
+    "102374"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_124941.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104185.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103655.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102374.mp4"
+  ],
+  "gloss_labels": [
+    "안녕하세요",
+    "만나다",
+    "좋다"
+  ]
+}

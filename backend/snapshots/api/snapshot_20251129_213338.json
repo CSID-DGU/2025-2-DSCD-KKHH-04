@@ -1,0 +1,37 @@
+{
+  "timestamp": "20251129_213338",
+  "session_id": "sess_1764419470492_og19zf",
+  "mode": "응답",
+  "audio_sec": 5.76,
+  "text": "가슴��은 12개 기간은 12개월월월월입니다.",
+  "clean_text": "가슴은 12개이며, 기간은 12개월입니다.",
+  "latency_ms": {
+    "stt": 29088.0,
+    "nlp": 13987.0,
+    "mapping": 26.4,
+    "synth": 262.1,
+    "total": 43363.5
+  },
+  "gloss": [
+    "가슴",
+    "12개",
+    "기간",
+    "12개월"
+  ],
+  "gloss_ids": [
+    "103137",
+    "103303",
+    "101993"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_213338.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103137.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/101993.mp4"
+  ],
+  "gloss_labels": [
+    "가슴",
+    "기간",
+    "개월"
+  ]
+}

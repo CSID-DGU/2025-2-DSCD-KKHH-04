@@ -1,0 +1,57 @@
+{
+  "timestamp": "20251129_183446",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 6.9,
+  "text": "이 상품은 5년 만기 확정 금리형으로 가입기간 동안 분할 인출이 불가능합니다.",
+  "clean_text": "이 상품은 5년 만기 확정 금리형으로, 가입 기간 동안 분할 인출이 불가능합니다.",
+  "latency_ms": {
+    "stt": 3747.9,
+    "nlp": 4602.3,
+    "mapping": 49.6,
+    "synth": 191.5,
+    "total": 8591.300000000001
+  },
+  "gloss": [
+    "상품",
+    "5년",
+    "만기",
+    "확정",
+    "금리",
+    "가입기간",
+    "분할",
+    "인출",
+    "불가능"
+  ],
+  "gloss_ids": [
+    "103392",
+    "101948",
+    "100357",
+    "101590",
+    "103303",
+    "101698",
+    "100909",
+    "102743"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_183446.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/101948.mp4",
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/101698.mp4",
+    "/media/sign_videos/100909.mp4",
+    "/media/sign_videos/102743.mp4"
+  ],
+  "gloss_labels": [
+    "물건",
+    "년",
+    "만기",
+    "(값이)오르다",
+    "기간",
+    "가르다",
+    "인력수출",
+    "안되다"
+  ]
+}

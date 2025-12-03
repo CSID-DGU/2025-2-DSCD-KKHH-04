@@ -1,0 +1,45 @@
+{
+  "timestamp": "20251127_150827",
+  "text": "만약 고객님이 동의하지 않으시면 개인정보 제3자 제공이 제한됩니다.",
+  "clean_text": "고객이 동의하지 않으면 개인정보 제3자 제공이 제한됩니다.",
+  "latency_ms": {
+    "stt": 4606.2,
+    "nlp": 3829.5,
+    "mapping": 45.4,
+    "synth": 278.0,
+    "total": 8759.1
+  },
+  "gloss": [
+    "고객",
+    "동의",
+    "개인정보",
+    "제3자",
+    "제공",
+    "제한"
+  ],
+  "gloss_ids": [
+    "101853",
+    "101977",
+    "102395",
+    "102290",
+    "102300",
+    "101717"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_150827.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101853.mp4",
+    "/media/sign_videos/101977.mp4",
+    "/media/sign_videos/102395.mp4",
+    "/media/sign_videos/102290.mp4",
+    "/media/sign_videos/102300.mp4",
+    "/media/sign_videos/101717.mp4"
+  ],
+  "gloss_labels": [
+    "초대",
+    "일치",
+    "정보",
+    "제자",
+    "주다",
+    "단위"
+  ]
+}

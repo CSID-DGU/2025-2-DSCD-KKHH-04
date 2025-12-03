@@ -1,0 +1,49 @@
+{
+  "timestamp": "20251127_145154",
+  "text": "비보장형 상품으로 손실이 발생할 수 있으니 신중한 판단이 필요합니다.",
+  "clean_text": "비보장형 상품은 손실이 발생할 수 있으므로 신중한 판단이 필요합니다.",
+  "latency_ms": {
+    "stt": 2244.3,
+    "nlp": 4025.1,
+    "mapping": 20.0,
+    "synth": 226.7,
+    "total": 6516.099999999999
+  },
+  "gloss": [
+    "비보장형",
+    "상품",
+    "손실",
+    "발생",
+    "신중",
+    "판단",
+    "필요"
+  ],
+  "gloss_ids": [
+    "101923",
+    "103392",
+    "104393",
+    "101833",
+    "101749",
+    "104131",
+    "104788"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_145154.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101923.mp4",
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/104393.mp4",
+    "/media/sign_videos/101833.mp4",
+    "/media/sign_videos/101749.mp4",
+    "/media/sign_videos/104131.mp4",
+    "/media/sign_videos/104788.mp4"
+  ],
+  "gloss_labels": [
+    "보증",
+    "물건",
+    "밑지다",
+    "발생",
+    "신중",
+    "조명",
+    "필요"
+  ]
+}

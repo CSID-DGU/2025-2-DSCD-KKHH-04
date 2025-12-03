@@ -1,0 +1,44 @@
+{
+  "ts": "20251203_125241",
+  "timestamp": "20251203_125241",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 6.06,
+  "text": "밥은 드셨나요? 저는 너무 배가 고파요",
+  "clean_text": "식사 했어요? 나 너무 배고파요.",
+  "latency_ms": {
+    "stt": 62936.3,
+    "nlp": 9122.3,
+    "mapping": 1.0,
+    "synth": 915.5
+  },
+  "gloss": [
+    "밥",
+    "먹다",
+    "나",
+    "정말",
+    "배고프다"
+  ],
+  "gloss_ids": [
+    "101748",
+    "102166",
+    "101576",
+    "101952",
+    "101775"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_125240.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101748.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102166.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101576.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101952.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101775.mp4"
+  ],
+  "gloss_labels": [
+    "식탁",
+    "먹다",
+    "나",
+    "사실",
+    "고프다"
+  ]
+}

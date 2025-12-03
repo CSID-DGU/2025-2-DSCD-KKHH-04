@@ -1,0 +1,45 @@
+{
+  "timestamp": "20251123_210827",
+  "text": "이 예금은 분리과세 대상이 아니며 종합과세로 합산되어 신고해야 합니다.",
+  "clean_text": "이 예금은 분리과세 대상이 아니며 종합과세로 합산하여 신고해야 합니다.",
+  "latency_ms": {
+    "stt": 13844.7,
+    "nlp": 3149.2,
+    "mapping": 94.0,
+    "synth": 644.0,
+    "total": 17731.9
+  },
+  "gloss": [
+    "예금",
+    "분리과세",
+    "대상",
+    "종합과세",
+    "합산",
+    "신고"
+  ],
+  "gloss_ids": [
+    "101937",
+    "101825",
+    "102805",
+    "102325",
+    "103844",
+    "102816"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_210826.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/101825.mp4",
+    "/media/sign_videos/102805.mp4",
+    "/media/sign_videos/102325.mp4",
+    "/media/sign_videos/103844.mp4",
+    "/media/sign_videos/102816.mp4"
+  ],
+  "gloss_labels": [
+    "저축",
+    "따로",
+    "상",
+    "종합",
+    "합치다",
+    "신고"
+  ]
+}

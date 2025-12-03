@@ -1,0 +1,65 @@
+{
+  "ts": "20251130_193113",
+  "timestamp": "20251130_193113",
+  "session_id": "sess_1764498568751_hgsvnm",
+  "mode": "설명",
+  "audio_sec": 9.36,
+  "text": "자동 2체로 설정해두면 미납 위험을 줄일 수 있고 중간에 지출이 많을 때는 일부 달만 감액 납입도 가능해서 장기 유지가 수월합니다",
+  "clean_text": "자동이체로 설정하면 미납 위험을 줄일 수 있고, 지출이 많을 때는 일부 기간 감액 납입도 가능하여 장기 유지가 수월합니다.",
+  "latency_ms": {
+    "stt": 7310.1,
+    "nlp": 6883.5,
+    "mapping": 102.6,
+    "synth": 528.8,
+    "total": 14825.0
+  },
+  "gloss": [
+    "자동이체",
+    "설정",
+    "미납",
+    "위험",
+    "지출",
+    "감액",
+    "납입",
+    "장기",
+    "유지",
+    "수월"
+  ],
+  "gloss_ids": [
+    "100953",
+    "102271",
+    "101747",
+    "102355",
+    "102387",
+    "103146",
+    "103593",
+    "102336",
+    "102220",
+    "104348"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_193113.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100953.mp4",
+    "/media/sign_videos/102271.mp4",
+    "/media/sign_videos/101747.mp4",
+    "/media/sign_videos/102355.mp4",
+    "/media/sign_videos/102387.mp4",
+    "/media/sign_videos/103146.mp4",
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/102336.mp4",
+    "/media/sign_videos/102220.mp4",
+    "/media/sign_videos/104348.mp4"
+  ],
+  "gloss_labels": [
+    "자동이체",
+    "설",
+    "아름답다",
+    "위험",
+    "사용",
+    "감",
+    "납부",
+    "장기",
+    "그만하다",
+    "월"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "20251129_213321",
+  "session_id": "sess_1764419470492_og19zf",
+  "mode": "응답",
+  "audio_sec": 3.24,
+  "text": "",
+  "clean_text": "",
+  "latency_ms": {
+    "stt": 18361.2,
+    "nlp": 3714.0,
+    "mapping": 0.0,
+    "synth": 0.0,
+    "total": 22075.2
+  },
+  "gloss": [],
+  "gloss_ids": [],
+  "sentence_video_url": null,
+  "sign_video_list": [],
+  "gloss_labels": []
+}

@@ -1,0 +1,29 @@
+{
+  "timestamp": "20251123_234104",
+  "text": "좋아요. 안녕하세요.",
+  "clean_text": "네, 안녕하세요.",
+  "latency_ms": {
+    "stt": 6742.7,
+    "nlp": 10222.7,
+    "mapping": 4.9,
+    "synth": 598.2,
+    "total": 17568.500000000004
+  },
+  "gloss": [
+    "네",
+    "안녕"
+  ],
+  "gloss_ids": [
+    "103689",
+    "101932"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_234104.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103689.mp4",
+    "/media/sign_videos/101932.mp4"
+  ],
+  "gloss_labels": [
+    "너",
+    "안녕"
+  ]
+}

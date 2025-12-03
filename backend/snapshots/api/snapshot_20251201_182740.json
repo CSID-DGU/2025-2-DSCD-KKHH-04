@@ -1,0 +1,35 @@
+{
+  "ts": "20251201_182740",
+  "timestamp": "20251201_182740",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 3.84,
+  "text": "워낙의βα implemented infrastructures 하는데<|hr|>",
+  "clean_text": "워낙 인프라 구축이 중요하다.",
+  "latency_ms": {
+    "stt": 86543.3,
+    "nlp": 21329.5,
+    "mapping": 314.2,
+    "synth": 1377.2,
+    "total": 109564.2
+  },
+  "gloss": [
+    "워낙",
+    "인프라",
+    "구축",
+    "중요"
+  ],
+  "gloss_ids": [
+    "102058",
+    "102008"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_182738.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102058.mp4",
+    "/media/sign_videos/102008.mp4"
+  ],
+  "gloss_labels": [
+    "아홉",
+    "귀하다"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "ts": "20251203_195038",
+  "timestamp": "20251203_195038",
+  "session_id": "sess_1764756868925_o4fov5",
+  "mode": "설명",
+  "text": "어떤 업�고몇���도모드의",
+  "clean_text": "어떤 업종이고 몇 가지 모드",
+  "gloss": [
+    "업종",
+    "어떤",
+    "모드",
+    "몇",
+    "가지"
+  ],
+  "gloss_ids": [
+    "101409",
+    "102867",
+    "101254",
+    "102555",
+    "102289"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_195037.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101409.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102867.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101254.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102555.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102289.mp4"
+  ],
+  "gloss_labels": [
+    "종류",
+    "어느",
+    "펀드",
+    "얼마",
+    "종류"
+  ],
+  "audio_sec": 3.24,
+  "video_sec": 20.465,
+  "latency_ms": {
+    "stt": 34851.7,
+    "nlp": 17371.3,
+    "mapping": 157.8,
+    "synth": 222.8
+  },
+  "latency_sec": {
+    "stt_sec": 34.85,
+    "nlp_sec": 17.37,
+    "mapping_sec": 0.16,
+    "synth_sec": 0.22,
+    "total_sec": 52.6
+  }
+}

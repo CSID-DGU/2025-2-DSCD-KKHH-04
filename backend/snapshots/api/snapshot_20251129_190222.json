@@ -1,0 +1,32 @@
+{
+  "timestamp": "20251129_190222",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 3.12,
+  "text": "plague어저나? payroll",
+  "clean_text": "역병과 급여입니다.",
+  "latency_ms": {
+    "stt": 35070.5,
+    "nlp": 11854.7,
+    "mapping": 23.2,
+    "synth": 199.5,
+    "total": 47147.899999999994
+  },
+  "gloss": [
+    "역병",
+    "급여"
+  ],
+  "gloss_ids": [
+    "104262",
+    "101228"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_190222.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104262.mp4",
+    "/media/sign_videos/101228.mp4"
+  ],
+  "gloss_labels": [
+    "기차역",
+    "퇴직급여"
+  ]
+}

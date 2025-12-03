@@ -1,0 +1,41 @@
+{
+  "ts": "20251201_170716",
+  "timestamp": "20251201_170716",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 3.66,
+  "text": "장수영이라든지 신수영은 많이 봤었는데",
+  "clean_text": "장수영이나 신수영은 많이 봤다.",
+  "latency_ms": {
+    "stt": 4330.2,
+    "nlp": 3943.7,
+    "mapping": 90.2,
+    "synth": 564.3,
+    "total": 8928.4
+  },
+  "gloss": [
+    "장수영",
+    "신수영",
+    "많이",
+    "보다"
+  ],
+  "gloss_ids": [
+    "104708",
+    "103630",
+    "104223",
+    "103631"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_170715.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104708.mp4",
+    "/media/sign_videos/103630.mp4",
+    "/media/sign_videos/104223.mp4",
+    "/media/sign_videos/103631.mp4"
+  ],
+  "gloss_labels": [
+    "장수",
+    "수영",
+    "백",
+    "보다"
+  ]
+}

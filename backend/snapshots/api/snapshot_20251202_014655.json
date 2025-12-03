@@ -1,0 +1,61 @@
+{
+  "ts": "20251202_014655",
+  "timestamp": "20251202_014655",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 9.54,
+  "text": "매달 일정납입 회차를 쌓여야 하기 때문에 미낙 없이 꾸준히 유지하는 게 중요해요",
+  "clean_text": "매달 일정 납입 회차를 쌓아야 하므로 미납 없이 꾸준히 유지하는 것이 중요합니다.",
+  "latency_ms": {
+    "stt": 7383.4,
+    "nlp": 4579.2,
+    "mapping": 82.7,
+    "synth": 336.3,
+    "total": 12381.599999999999
+  },
+  "gloss": [
+    "매달",
+    "일정",
+    "납입",
+    "회차",
+    "쌓기",
+    "미납",
+    "꾸준",
+    "유지",
+    "중요"
+  ],
+  "gloss_ids": [
+    "103323",
+    "102098",
+    "103593",
+    "103115",
+    "103150",
+    "101747",
+    "101845",
+    "102220",
+    "102008"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_014655.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103323.mp4",
+    "/media/sign_videos/102098.mp4",
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/103115.mp4",
+    "/media/sign_videos/103150.mp4",
+    "/media/sign_videos/101747.mp4",
+    "/media/sign_videos/101845.mp4",
+    "/media/sign_videos/102220.mp4",
+    "/media/sign_videos/102008.mp4"
+  ],
+  "gloss_labels": [
+    "매",
+    "하나",
+    "납부",
+    "단체",
+    "기",
+    "아름답다",
+    "근면",
+    "그만하다",
+    "귀하다"
+  ]
+}

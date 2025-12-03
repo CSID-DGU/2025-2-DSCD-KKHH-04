@@ -1,0 +1,67 @@
+{
+  "ts": "20251202_193107",
+  "timestamp": "20251202_193107",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 5.64,
+  "text": "여러분들은 내가 시험 끝라오고 목요일에서 금을 넘어가는 다음에 우리가 요약을 해서 마무리 할까?",
+  "clean_text": "여러분, 시험 끝나고 목요일, 금요일에 우리 요약 마무리할까요?",
+  "latency_ms": {
+    "stt": 17046.2,
+    "nlp": 12744.5,
+    "mapping": 158.4,
+    "synth": 576.9
+  },
+  "latency_sec": {
+    "stt_sec": 17.05,
+    "nlp_sec": 12.74,
+    "mapping_sec": 0.16,
+    "synth_sec": 0.58,
+    "total_sec": 30.53
+  },
+  "gloss": [
+    "여러분",
+    "시험",
+    "끝나다",
+    "목요일",
+    "금요일",
+    "우리",
+    "요약",
+    "마무리하다",
+    "질문"
+  ],
+  "gloss_ids": [
+    "102553",
+    "102137",
+    "102280",
+    "103470",
+    "103359",
+    "102648",
+    "101885",
+    "101418",
+    "101985"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_193107.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102553.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102137.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102280.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103470.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103359.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102648.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101885.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101418.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101985.mp4"
+  ],
+  "gloss_labels": [
+    "여러분",
+    "겨루다",
+    "그만",
+    "목요일",
+    "금요일",
+    "우리",
+    "간추리다",
+    "승리",
+    "문의"
+  ]
+}

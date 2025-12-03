@@ -1,0 +1,45 @@
+{
+  "timestamp": "20251129_185135",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 4.92,
+  "text": "해장 대출은 최장 30년까지 상한이 가능합니다.",
+  "clean_text": "해당 대출은 최장 30년까지 상환이 가능합니다.",
+  "latency_ms": {
+    "stt": 5073.8,
+    "nlp": 2585.7,
+    "mapping": 438.4,
+    "synth": 4735.2,
+    "total": 12833.099999999999
+  },
+  "gloss": [
+    "해당",
+    "대출",
+    "최장",
+    "30년",
+    "상환",
+    "가능"
+  ],
+  "gloss_ids": [
+    "103852",
+    "104486",
+    "104123",
+    "104021",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_185130.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103852.mp4",
+    "/media/sign_videos/104486.mp4",
+    "/media/sign_videos/104123.mp4",
+    "/media/sign_videos/104021.mp4",
+    "/media/sign_videos/101849.mp4"
+  ],
+  "gloss_labels": [
+    "날",
+    "대출금",
+    "시장",
+    "갚다",
+    "가능"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": "20251130_013726",
+  "session_id": "sess_1764433931715_d08bbh",
+  "mode": "설명",
+  "audio_sec": 7.38,
+  "text": "잘 지내세요",
+  "clean_text": "잘 지내세요",
+  "latency_ms": {
+    "stt": 1757.6,
+    "nlp": 1870.4,
+    "mapping": 26.4,
+    "synth": 160.7,
+    "total": 3815.1
+  },
+  "gloss": [
+    "잘",
+    "지내다"
+  ],
+  "gloss_ids": [
+    "102431",
+    "104350"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_013725.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102431.mp4",
+    "/media/sign_videos/104350.mp4"
+  ],
+  "gloss_labels": [
+    "잘하다",
+    "넘어가다"
+  ]
+}

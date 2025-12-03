@@ -1,0 +1,54 @@
+{
+  "timestamp": "20251127_135651",
+  "text": "형님이 가입하신 정립심 예금은 중도해지시 약정 예율이 적용되지 않을 수 있습니다.",
+  "clean_text": "형님이 가입한 정립식 예금은 중도 해지 시 약정 이율이 적용되지 않을 수 있습니다.",
+  "latency_ms": {
+    "stt": 2224.6,
+    "nlp": 3364.7,
+    "mapping": 28.0,
+    "synth": 413.7,
+    "total": 6030.999999999999
+  },
+  "gloss": [
+    "형님",
+    "가입",
+    "정립식",
+    "예금",
+    "중도",
+    "해지",
+    "약정",
+    "이율",
+    "적용"
+  ],
+  "gloss_ids": [
+    "104655",
+    "103220",
+    "101937",
+    "102958",
+    "101988",
+    "100725",
+    "100899",
+    "103238"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_135650.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104655.mp4",
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/102958.mp4",
+    "/media/sign_videos/101988.mp4",
+    "/media/sign_videos/100725.mp4",
+    "/media/sign_videos/100899.mp4",
+    "/media/sign_videos/103238.mp4"
+  ],
+  "gloss_labels": [
+    "형",
+    "가입",
+    "저축",
+    "중앙",
+    "해약",
+    "약정",
+    "이자율",
+    "겪다"
+  ]
+}

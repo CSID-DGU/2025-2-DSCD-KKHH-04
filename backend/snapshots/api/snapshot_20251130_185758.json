@@ -1,0 +1,49 @@
+{
+  "ts": "20251130_185758",
+  "timestamp": "20251130_185758",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 8.1,
+  "text": "정기 예금의 가장 큰 장점 중 하나는 이자 지급 방식을 선택할 수 있다는 점입니다.",
+  "clean_text": "정기 예금의 가장 큰 장점 중 하나는 이자 지급 방식을 선택할 수 있다는 것입니다.",
+  "latency_ms": {
+    "stt": 5118.0,
+    "nlp": 4084.1,
+    "mapping": 42.7,
+    "synth": 388.6,
+    "total": 9633.400000000001
+  },
+  "gloss": [
+    "정기예금",
+    "장점",
+    "이자",
+    "지급",
+    "방식",
+    "선택"
+  ],
+  "gloss_ids": [
+    "101065",
+    "104318",
+    "100899",
+    "103593",
+    "102330",
+    "101686"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_185758.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101065.mp4",
+    "/media/sign_videos/104318.mp4",
+    "/media/sign_videos/100899.mp4",
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/102330.mp4",
+    "/media/sign_videos/101686.mp4"
+  ],
+  "gloss_labels": [
+    "정기예금",
+    "소수점",
+    "이자율",
+    "납부",
+    "방법",
+    "선택"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "timestamp": "20251125_055339",
+  "text": "기본 글리는 연 3.2%입니다.",
+  "clean_text": "기본 금리는 연 3.2%입니다.",
+  "latency_ms": {
+    "stt": 5595.4,
+    "nlp": 6268.2,
+    "mapping": 30.0,
+    "synth": 243.6,
+    "total": 12137.199999999999
+  },
+  "gloss": [
+    "기본",
+    "금리",
+    "연",
+    "3.2%"
+  ],
+  "gloss_ids": [
+    "103996",
+    "101590",
+    "102293"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_055339.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103996.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/102293.mp4"
+  ],
+  "gloss_labels": [
+    "근본",
+    "(값이)오르다",
+    "연"
+  ]
+}

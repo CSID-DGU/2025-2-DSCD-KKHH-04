@@ -1,0 +1,53 @@
+{
+  "ts": "20251130_193116",
+  "timestamp": "20251130_193116",
+  "session_id": "sess_1764498568751_hgsvnm",
+  "mode": "설명",
+  "audio_sec": 8.76,
+  "text": "아이 입학, 출산 같은 일정에 맞춰 망기 일을 딱 맞게 설정할 수 있다는 점도 큰 장점입니다.",
+  "clean_text": "아이 입학이나 출산 같은 일정에 맞춰 만기일을 정확히 설정할 수 있다는 점도 큰 장점입니다.",
+  "latency_ms": {
+    "stt": 5439.6,
+    "nlp": 2736.5,
+    "mapping": 73.8,
+    "synth": 375.9,
+    "total": 8625.8
+  },
+  "gloss": [
+    "아이",
+    "입학",
+    "출산",
+    "일정",
+    "만기일",
+    "설정",
+    "장점"
+  ],
+  "gloss_ids": [
+    "101841",
+    "102312",
+    "103627",
+    "102098",
+    "100358",
+    "102271",
+    "104318"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_193116.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101841.mp4",
+    "/media/sign_videos/102312.mp4",
+    "/media/sign_videos/103627.mp4",
+    "/media/sign_videos/102098.mp4",
+    "/media/sign_videos/100358.mp4",
+    "/media/sign_videos/102271.mp4",
+    "/media/sign_videos/104318.mp4"
+  ],
+  "gloss_labels": [
+    "어린이",
+    "입학",
+    "낳다",
+    "하나",
+    "만기일",
+    "설",
+    "소수점"
+  ]
+}

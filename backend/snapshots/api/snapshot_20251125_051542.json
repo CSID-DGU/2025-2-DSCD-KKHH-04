@@ -1,0 +1,44 @@
+{
+  "timestamp": "20251125_051542",
+  "text": "기본 금리는 연 3.2%이며 5대 조건 충족 시 최대 연 4.0%까지 가능합니다.",
+  "clean_text": "기본 금리는 연 3.2%이며, 5가지 조건을 충족하면 최대 연 4.0%까지 적용됩니다.",
+  "latency_ms": {
+    "stt": 7318.7,
+    "nlp": 6793.2,
+    "mapping": 57.6,
+    "synth": 268.8,
+    "total": 14438.3
+  },
+  "gloss": [
+    "기본",
+    "금리",
+    "연 3.2%",
+    "5대 조건",
+    "충족",
+    "최대",
+    "연 4.0%",
+    "적용"
+  ],
+  "gloss_ids": [
+    "103996",
+    "101590",
+    "101821",
+    "104349",
+    "103238"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_051542.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103996.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/101821.mp4",
+    "/media/sign_videos/104349.mp4",
+    "/media/sign_videos/103238.mp4"
+  ],
+  "gloss_labels": [
+    "근본",
+    "(값이)오르다",
+    "만족",
+    "세대",
+    "겪다"
+  ]
+}

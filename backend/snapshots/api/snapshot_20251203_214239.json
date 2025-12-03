@@ -1,0 +1,52 @@
+{
+  "ts": "20251203_214239",
+  "timestamp": "20251203_214239",
+  "session_id": "sess_1764762019270_xk2zjg",
+  "mode": "설명",
+  "text": "이제는 매주에 대한 영상으로 돌아올게요.",
+  "clean_text": "이제 매주 영상으로 돌아올게요.",
+  "gloss": [
+    "지금부터",
+    "매주",
+    "나",
+    "영상",
+    "돌아오다"
+  ],
+  "gloss_ids": [
+    "102333",
+    "103106",
+    "101576",
+    "101501",
+    "101901"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_214239.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102333.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103106.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101576.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101501.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101901.mp4"
+  ],
+  "gloss_labels": [
+    "부터",
+    "매주",
+    "나",
+    "영상 메시지",
+    "되돌아오다"
+  ],
+  "audio_sec": 7.02,
+  "video_sec": 20.798,
+  "latency_ms": {
+    "stt": 10786.0,
+    "nlp": 4520.4,
+    "mapping": 50.9,
+    "synth": 214.0
+  },
+  "latency_sec": {
+    "stt_sec": 10.79,
+    "nlp_sec": 4.52,
+    "mapping_sec": 0.05,
+    "synth_sec": 0.21,
+    "total_sec": 15.57
+  }
+}

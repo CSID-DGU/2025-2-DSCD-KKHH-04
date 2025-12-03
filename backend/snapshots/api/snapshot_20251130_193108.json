@@ -1,0 +1,69 @@
+{
+  "ts": "20251130_193108",
+  "timestamp": "20251130_193108",
+  "session_id": "sess_1764498568751_hgsvnm",
+  "mode": "설명",
+  "audio_sec": 12.54,
+  "text": "겉이식 예금은 처음에 목도를 넣고 기다리기만 하면 되지만 이 상품은 월마다 얼마씩 나비패야 회차가 정상적으로 쌓이고 우대금리도 적용되는 구조예요",
+  "clean_text": "거치식 예금은 처음에 원금을 넣고 기다리기만 하면 되지만, 이 상품은 매월 일정 금액을 납입해야 납입 회차가 정상적으로 쌓이고 우대금리도 적용되는 구조입니다.",
+  "latency_ms": {
+    "stt": 7395.0,
+    "nlp": 11416.5,
+    "mapping": 159.2,
+    "synth": 656.3,
+    "total": 19627.0
+  },
+  "gloss": [
+    "거치식",
+    "예금",
+    "원금",
+    "납입",
+    "기다림",
+    "상품",
+    "매월",
+    "회차",
+    "적립",
+    "우대금리",
+    "적용"
+  ],
+  "gloss_ids": [
+    "100034",
+    "101937",
+    "102713",
+    "103593",
+    "102894",
+    "103392",
+    "104348",
+    "103115",
+    "101039",
+    "100311",
+    "103238"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_193107.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100034.mp4",
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/102894.mp4",
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/104348.mp4",
+    "/media/sign_videos/103115.mp4",
+    "/media/sign_videos/101039.mp4",
+    "/media/sign_videos/100311.mp4",
+    "/media/sign_videos/103238.mp4"
+  ],
+  "gloss_labels": [
+    "거치",
+    "저축",
+    "원금",
+    "납부",
+    "준비",
+    "물건",
+    "월",
+    "단체",
+    "적립금",
+    "대출금리",
+    "겪다"
+  ]
+}

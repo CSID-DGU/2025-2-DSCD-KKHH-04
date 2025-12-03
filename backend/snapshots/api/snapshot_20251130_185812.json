@@ -1,0 +1,37 @@
+{
+  "ts": "20251130_185812",
+  "timestamp": "20251130_185812",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 10.26,
+  "text": "고객님은 만기일에 맞춰 선택하면 됩니다.",
+  "clean_text": "고객님은 만기일에 맞춰 선택하면 됩니다.",
+  "latency_ms": {
+    "stt": 8927.9,
+    "nlp": 2908.2,
+    "mapping": 16.4,
+    "synth": 310.2,
+    "total": 12162.699999999999
+  },
+  "gloss": [
+    "고객",
+    "만기일",
+    "선택"
+  ],
+  "gloss_ids": [
+    "101853",
+    "100358",
+    "101686"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_185811.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101853.mp4",
+    "/media/sign_videos/100358.mp4",
+    "/media/sign_videos/101686.mp4"
+  ],
+  "gloss_labels": [
+    "초대",
+    "만기일",
+    "선택"
+  ]
+}

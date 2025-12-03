@@ -1,0 +1,28 @@
+{
+  "ts": "20251202_171700",
+  "timestamp": "20251202_171700",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 6.84,
+  "text": "여기가",
+  "clean_text": "여기",
+  "latency_ms": {
+    "stt": 31302.6,
+    "nlp": 4531.5,
+    "mapping": 0.0,
+    "synth": 423.0
+  },
+  "gloss": [
+    "여기"
+  ],
+  "gloss_ids": [
+    "102682"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_171700.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102682.mp4"
+  ],
+  "gloss_labels": [
+    "여기"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "ts": "20251203_193233",
+  "timestamp": "20251203_193233",
+  "session_id": "sess_1764756868925_o4fov5",
+  "mode": "설명",
+  "text": "정기관은 어떻게 하시겠어요?",
+  "clean_text": "정기관은 어떻게 할까요?",
+  "gloss": [
+    "정기관",
+    "어떻게",
+    "하다"
+  ],
+  "gloss_ids": [
+    "103136",
+    "102872",
+    "101892"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_193233.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103136.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102872.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101892.mp4"
+  ],
+  "gloss_labels": [
+    "기차",
+    "어떻게",
+    "거행"
+  ],
+  "audio_sec": 9.54,
+  "video_sec": 12.232,
+  "latency_ms": {
+    "stt": 11514.7,
+    "nlp": 7968.5,
+    "mapping": 46.1,
+    "synth": 157.5
+  },
+  "latency_sec": {
+    "stt_sec": 11.51,
+    "nlp_sec": 7.97,
+    "mapping_sec": 0.05,
+    "synth_sec": 0.16,
+    "total_sec": 19.69
+  }
+}

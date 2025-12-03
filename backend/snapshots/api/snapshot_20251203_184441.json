@@ -1,0 +1,40 @@
+{
+  "ts": "20251203_184441",
+  "timestamp": "20251203_184441",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "예금에는 입장하시겠어요?",
+  "clean_text": "예금하시겠어요?",
+  "gloss": [
+    "돈",
+    "넣다"
+  ],
+  "gloss_ids": [
+    "104190",
+    "103417"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_184441.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104190.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103417.mp4"
+  ],
+  "gloss_labels": [
+    "값",
+    "넣다"
+  ],
+  "audio_sec": 7.56,
+  "video_sec": 7.466,
+  "latency_ms": {
+    "stt": 8768.1,
+    "nlp": 6368.6,
+    "mapping": 0.1,
+    "synth": 117.1
+  },
+  "latency_sec": {
+    "stt_sec": 8.77,
+    "nlp_sec": 6.37,
+    "mapping_sec": 0.0,
+    "synth_sec": 0.12,
+    "total_sec": 15.25
+  }
+}

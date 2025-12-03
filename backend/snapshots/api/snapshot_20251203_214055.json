@@ -1,0 +1,78 @@
+{
+  "ts": "20251203_214055",
+  "timestamp": "20251203_214055",
+  "session_id": "sess_1764762019270_xk2zjg",
+  "mode": "설명",
+  "text": "이제는 매달 통장으로 받으실 수 있고 만개의 원금이랑 같이 받으실 수도 있습니다. 어떻게 해드릴까요?",
+  "clean_text": "이제 매달 통장으로 받을 수 있고, 만기 원금과 함께 받을 수도 있습니다. 어떻게 해드릴까요?",
+  "gloss": [
+    "지금",
+    "매달",
+    "통장",
+    "돈",
+    "받다",
+    "가능",
+    "만기",
+    "원금",
+    "같이",
+    "받다",
+    "가능",
+    "어떻게",
+    "원하다"
+  ],
+  "gloss_ids": [
+    "102522",
+    "103027",
+    "101215",
+    "104190",
+    "101466",
+    "101849",
+    "100357",
+    "100844",
+    "104786",
+    "102872",
+    "104680"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_214054.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102522.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103027.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101215.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104190.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101466.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101849.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100357.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100844.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104786.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102872.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104680.mp4"
+  ],
+  "gloss_labels": [
+    "지금",
+    "일개월",
+    "통장",
+    "값",
+    "받다",
+    "가능",
+    "만기",
+    "원금",
+    "함께",
+    "어떻게",
+    "내키다"
+  ],
+  "audio_sec": 7.08,
+  "video_sec": 41.298,
+  "latency_ms": {
+    "stt": 8887.9,
+    "nlp": 4915.6,
+    "mapping": 68.4,
+    "synth": 339.9
+  },
+  "latency_sec": {
+    "stt_sec": 8.89,
+    "nlp_sec": 4.92,
+    "mapping_sec": 0.07,
+    "synth_sec": 0.34,
+    "total_sec": 14.21
+  }
+}

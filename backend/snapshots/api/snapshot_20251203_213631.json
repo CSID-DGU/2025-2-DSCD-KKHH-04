@@ -1,0 +1,36 @@
+{
+  "ts": "20251203_213631",
+  "timestamp": "20251203_213631",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "만나서 반갑습니다.",
+  "clean_text": "만나서 반갑습니다.",
+  "gloss": [
+    "좋다"
+  ],
+  "gloss_ids": [
+    "102374"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_213631.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102374.mp4"
+  ],
+  "gloss_labels": [
+    "좋다"
+  ],
+  "audio_sec": 5.82,
+  "video_sec": 3.6,
+  "latency_ms": {
+    "stt": 4242.4,
+    "nlp": 6391.9,
+    "mapping": 0.0,
+    "synth": 126.5
+  },
+  "latency_sec": {
+    "stt_sec": 4.24,
+    "nlp_sec": 6.39,
+    "mapping_sec": 0.0,
+    "synth_sec": 0.13,
+    "total_sec": 10.76
+  }
+}

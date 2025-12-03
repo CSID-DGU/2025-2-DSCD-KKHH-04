@@ -1,0 +1,32 @@
+{
+  "timestamp": "20251129_213940",
+  "session_id": "sess_1764419961245_mjkcxh",
+  "mode": "응답",
+  "audio_sec": 3.9,
+  "text": "가입기간은 12개월입니다.",
+  "clean_text": "가입 기간은 12개월입니다.",
+  "latency_ms": {
+    "stt": 4959.8,
+    "nlp": 3508.1,
+    "mapping": 40.1,
+    "synth": 205.7,
+    "total": 8713.7
+  },
+  "gloss": [
+    "가입기간",
+    "12개월"
+  ],
+  "gloss_ids": [
+    "103303",
+    "101993"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_213939.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/101993.mp4"
+  ],
+  "gloss_labels": [
+    "기간",
+    "개월"
+  ]
+}

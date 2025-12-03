@@ -1,0 +1,57 @@
+{
+  "timestamp": "20251129_183440",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 7.14,
+  "text": "고객님이 가입하신 정립 예금은 중도해지시 약정 이유를 적용되지 않을 수 있습니다.",
+  "clean_text": "고객이 가입한 정립 예금은 중도 해지 시 약정 이율이 적용되지 않을 수 있습니다.",
+  "latency_ms": {
+    "stt": 4641.4,
+    "nlp": 4202.9,
+    "mapping": 110.9,
+    "synth": 746.5,
+    "total": 9701.699999999999
+  },
+  "gloss": [
+    "고객",
+    "가입",
+    "정립",
+    "예금",
+    "중도",
+    "해지",
+    "약정",
+    "이율",
+    "적용"
+  ],
+  "gloss_ids": [
+    "101853",
+    "103220",
+    "101937",
+    "102958",
+    "101988",
+    "100725",
+    "100899",
+    "103238"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_183439.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101853.mp4",
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/102958.mp4",
+    "/media/sign_videos/101988.mp4",
+    "/media/sign_videos/100725.mp4",
+    "/media/sign_videos/100899.mp4",
+    "/media/sign_videos/103238.mp4"
+  ],
+  "gloss_labels": [
+    "초대",
+    "가입",
+    "저축",
+    "중앙",
+    "해약",
+    "약정",
+    "이자율",
+    "겪다"
+  ]
+}

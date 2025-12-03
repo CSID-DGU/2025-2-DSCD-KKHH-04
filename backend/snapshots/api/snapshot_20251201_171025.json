@@ -1,0 +1,35 @@
+{
+  "ts": "20251201_171025",
+  "timestamp": "20251201_171025",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 12.84,
+  "text": "한 꼭지 Trung. 정석 accusations.",
+  "clean_text": "Trung에 대한 정석적인 비난 한 꼭지입니다.",
+  "latency_ms": {
+    "stt": 36920.2,
+    "nlp": 13670.4,
+    "mapping": 81.0,
+    "synth": 465.0,
+    "total": 51136.6
+  },
+  "gloss": [
+    "Trung",
+    "정석",
+    "비난",
+    "꼭지"
+  ],
+  "gloss_ids": [
+    "101797",
+    "101637"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_171024.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101797.mp4",
+    "/media/sign_videos/101637.mp4"
+  ],
+  "gloss_labels": [
+    "욕",
+    "꼭"
+  ]
+}

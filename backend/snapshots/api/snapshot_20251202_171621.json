@@ -1,0 +1,36 @@
+{
+  "ts": "20251202_171621",
+  "timestamp": "20251202_171621",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 3.72,
+  "text": "이 코드와 하이 코드에 대해서",
+  "clean_text": "이 코드와 하이 코드에 대해",
+  "latency_ms": {
+    "stt": 11283.1,
+    "nlp": 8024.5,
+    "mapping": 3.6,
+    "synth": 328.1
+  },
+  "gloss": [
+    "이",
+    "코드",
+    "하이"
+  ],
+  "gloss_ids": [
+    "101650",
+    "103519",
+    "104791"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_171621.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101650.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103519.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104791.mp4"
+  ],
+  "gloss_labels": [
+    "둘",
+    "녹음기",
+    "하이힐"
+  ]
+}

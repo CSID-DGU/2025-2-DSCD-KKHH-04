@@ -1,0 +1,53 @@
+{
+  "timestamp": "20251129_203045",
+  "session_id": "sess_1764415788532_ukcvug",
+  "mode": "응답",
+  "audio_sec": 6.48,
+  "text": "이 상품은 본현망기 확정금리험으로 가입기간 동안 분할 인출이 불가능합니다.",
+  "clean_text": "이 상품은 본현망기 확정금리험으로, 가입 기간 동안 분할 인출이 불가능합니다.",
+  "latency_ms": {
+    "stt": 7707.6,
+    "nlp": 7414.1,
+    "mapping": 89.9,
+    "synth": 398.3,
+    "total": 15609.9
+  },
+  "gloss": [
+    "상품",
+    "본현망기",
+    "확정금리험",
+    "가입",
+    "기간",
+    "분할",
+    "인출",
+    "불가능"
+  ],
+  "gloss_ids": [
+    "103392",
+    "100120",
+    "103220",
+    "103303",
+    "101698",
+    "100909",
+    "102743"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_203044.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/100120.mp4",
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/101698.mp4",
+    "/media/sign_videos/100909.mp4",
+    "/media/sign_videos/102743.mp4"
+  ],
+  "gloss_labels": [
+    "물건",
+    "공정금리",
+    "가입",
+    "기간",
+    "가르다",
+    "인력수출",
+    "안되다"
+  ]
+}

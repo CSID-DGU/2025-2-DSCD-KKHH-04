@@ -1,0 +1,57 @@
+{
+  "ts": "20251130_210221",
+  "timestamp": "20251130_210221",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "질의",
+  "audio_sec": 9.12,
+  "text": "고객님의 상관계에 상관없이 동일한 금리를 망기까지 안정적으로 받을 수 있습니다.",
+  "clean_text": "고객의 신용도와 관계없이 만기까지 동일한 금리를 안정적으로 받을 수 있습니다.",
+  "latency_ms": {
+    "stt": 51012.8,
+    "nlp": 4831.0,
+    "mapping": 234.8,
+    "synth": 879.6,
+    "total": 56958.200000000004
+  },
+  "gloss": [
+    "고객",
+    "신용",
+    "관계",
+    "만기",
+    "동일",
+    "금리",
+    "안정",
+    "수령"
+  ],
+  "gloss_ids": [
+    "101853",
+    "103313",
+    "102392",
+    "100357",
+    "104752",
+    "101590",
+    "103074",
+    "104138"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_210220.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101853.mp4",
+    "/media/sign_videos/103313.mp4",
+    "/media/sign_videos/102392.mp4",
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/104752.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/103074.mp4",
+    "/media/sign_videos/104138.mp4"
+  ],
+  "gloss_labels": [
+    "초대",
+    "믿다",
+    "연락",
+    "만기",
+    "균일",
+    "(값이)오르다",
+    "안심",
+    "수"
+  ]
+}
