@@ -45,8 +45,10 @@ from .pipeline import (
     GEMINI_MODEL,
     _local_gloss_rules,
     apply_text_normalization,
+    WHISPER_LOAD_MS,
+    log_gloss_mapping,    # 🔹 gloss 매핑 로그
 )
-# 로컬 규칙 기반 gloss 추출용 (Gemini 실패 시에만 사용) 🔹 여기 추가
+# 로컬 규칙 기반 gloss 추출용 (Gemini 실패 시에만 사용)
 from .pipeline import generate_image_video
 import re
 
@@ -242,6 +244,7 @@ def convert_to_wav_if_needed(src_path: Path) -> Path:
     subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return dst_path
 
+
 def get_media_duration(path: Path) -> float:
     """
     ffprobe로 미디어(오디오/비디오) 길이(초) 구하기.
@@ -308,6 +311,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
     text = stt_from_file(str(wav_path))   # Whisper STT 결과 (원문)
     t1 = time.perf_counter()
     latency["stt"] = round((t1 - t0) * 1000, 1)
+    latency["stt_load"] = WHISPER_LOAD_MS  # whisper 모델 로딩 시간(ms, 최초 1회)
 
     # STT 성능 로그
     stt_ms = latency["stt"]
@@ -415,10 +419,12 @@ def process_audio_file(django_file, mode=None, session_id=None):
     nlp_ms     = float(latency.get("nlp", 0.0))
     mapping_ms = float(latency.get("mapping", 0.0))
     synth_ms   = float(latency.get("synth", 0.0))
+    stt_load_ms = float(WHISPER_LOAD_MS or 0.0)
 
     total_ms = stt_ms + nlp_ms + mapping_ms + synth_ms
 
     latency_sec = {
+        "stt_load_sec": round(stt_load_ms / 1000.0, 2),
         "stt_sec":     round(stt_ms / 1000.0, 2),
         "nlp_sec":     round(nlp_ms / 1000.0, 2),
         "mapping_sec": round(mapping_ms / 1000.0, 2),
@@ -427,7 +433,8 @@ def process_audio_file(django_file, mode=None, session_id=None):
     }
 
     print(
-        f"[Perf Sentence] STT: {latency_sec['stt_sec']:.2f} s / "
+        f"[Perf Sentence] STT load: {latency_sec['stt_load_sec']:.2f} s / "
+        f"STT: {latency_sec['stt_sec']:.2f} s / "
         f"NLP: {latency_sec['nlp_sec']:.2f} s / "
         f"매핑: {latency_sec['mapping_sec']:.2f} s / "
         f"합성: {latency_sec['synth_sec']:.2f} s"
@@ -454,6 +461,21 @@ def process_audio_file(django_file, mode=None, session_id=None):
         "latency_ms": latency,
         "latency_sec": latency_sec,
     }
+
+    # 🔹 gloss vs gloss_labels 매핑 로그 기록 (mismatch만 저장)
+    try:
+        log_gloss_mapping(
+            gloss_list=gloss_list,
+            gloss_ids=[str(g) for g in gloss_ids],
+            gloss_labels=[str(l) for l in gloss_labels],
+            text=clean_text,
+            mode=mode,
+            session_id=session_id,
+            ts=current_ts,
+            only_mismatch=True,  # 전부 보고 싶으면 False로 변경
+        )
+    except Exception as e:
+        print(f"[GlossLog] logging error: {e}")
 
     # 🔹 세션별 최신 결과를 서버 캐시에 저장 (다른 브라우저에서도 공유)
     if session_id:

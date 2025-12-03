@@ -28,44 +28,51 @@ export default function BankerReceive() {
   // 🔹 세션 ID: 이미 만들어진 것만 사용
   const [sessionId] = useState(() => getExistingSessionId());
 
-  // 🔹 고객 정보 (BankerSend와 구조 동일하게 사용)
-  // 예: { name: "김도담" }
-  const [customerInfo, setCustomerInfo] = useState(null);
-
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, []);
 
-  // 🔹 session_id 기준으로 고객 정보 조회
-  // 변경 후
-useEffect(() => {
-  if (!sessionId) return;
+  // 🔹 메시지 연동: 백엔드에서 해당 session_id의 대화 불러오기
+  // useEffect(() => {
+  //   if (!sessionId) return;
 
-  const fetchCustomerInfo = async () => {
-    try {
-      const res = await fetch(
-        `${API_BASE}/api/accounts/session_customer/?session_id=${sessionId}`,
-        {
-          method: "GET",
-          credentials: "include", // ✅ 로그인 세션 쿠키 포함
-        }
-      );
-      if (!res.ok) {
-        console.error("고객 정보 조회 실패(receive):", await res.text());
-        return;
-      }
-      const data = await res.json();
-      setCustomerInfo(data);
-    } catch (err) {
-      console.error("고객 정보 조회 에러(receive):", err);
-    }
-  };
+  //   const fetchMessages = async () => {
+  //     try {
+  //       const res = await fetch(
+  //         `${API_BASE}/api/accounts/chat/?session_id=${sessionId}`,
+  //         {
+  //           method: "GET",
+  //           credentials: "include", // 로그인 세션 쿠키 포함
+  //         }
+  //       );
 
-  fetchCustomerInfo();
-}, [sessionId]);
+  //       if (!res.ok) {
+  //         console.error("대화 조회 실패(receive):", await res.text());
+  //         return;
+  //       }
 
+  //       const data = await res.json(); // 예: [{id, session_id, sender, role, text, created_at}, ...]
+  //       // 🔹 전역 store 형식에 맞게 매핑
+  //       const mapped = data.map((chat) => ({
+  //         id: chat.id,
+  //         from: chat.sender === "banker" ? "agent" : "user",
+  //         text: chat.text,
+  //         role: chat.role,
+  //         created_at: chat.created_at,
+  //       }));
+  //       setMessages(mapped);
+  //     } catch (err) {
+  //       console.error("대화 조회 에러(receive):", err);
+  //     }
+  //   };
+
+  //   fetchMessages();
+  // }, [sessionId, setMessages]);
 
   // 🔹 은행원 쪽에서 새 메시지 보낼 때 (전역 store만 업데이트)
+  //    → 실제 백엔드 저장은 BankerSend에서 하고 있으니까,
+  //       여기서는 단순히 화면상 추가만 해도 되고,
+  //       필요하면 나중에 POST 로직도 붙일 수 있음.
   const handleSend = (text) => {
     const trimmed = text.trim();
     if (!trimmed) return;
@@ -90,8 +97,8 @@ useEffect(() => {
           }}
         />
 
-        {/* 🔹 고객 정보 바: BankerSend와 동일한 customerInfo 사용 */}
-        <CustomerBar customer={customerInfo} />
+        {/* 🔹 고객 정보 바: 정적 텍스트로 표시 */}
+        <CustomerBar />
 
         <ChatPanel messages={messages} onSend={handleSend} />
         <ASRPanel />
@@ -101,22 +108,7 @@ useEffect(() => {
 }
 
 /* ---------------- 고객 정보 바 ---------------- */
-function CustomerBar({ customer }) {
-  const name =
-    customer?.name && customer.name.trim()
-      ? customer.name.trim()
-      : "고객 이름 미지정";
-
-  const bankName =
-    customer?.bank_name && customer.bank_name.trim()
-      ? customer.bank_name
-      : "은행 미지정";
-
-  const accountNumber =
-    customer?.account_number && customer.account_number.trim()
-      ? customer.account_number
-      : "계좌번호 미지정";
-
+function CustomerBar() {
   return (
     <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
       <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
@@ -124,14 +116,13 @@ function CustomerBar({ customer }) {
         <span>고객 정보</span>
       </div>
       <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
-        {name}
+        김희희
         <span className="mx-2 text-slate-400">|</span>
-        {bankName} {accountNumber}
+        XX은행 1002-123-4567
       </div>
     </section>
   );
 }
-
 
 /* ---------------- 상담 대화창 ---------------- */
 function ChatPanel({ messages, onSend }) {
@@ -212,9 +203,7 @@ function ChatBubble({ role, text }) {
   const isAgent = (role || "agent") === "agent";
   return (
     <div
-      className={
-        "flex items-start gap-2 " + (isAgent ? "" : "justify-end")
-      }
+      className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
     >
       {isAgent && <AvatarCommon />}
       <div className="max-w-[80%] rounded-2xl px-4 py-3 bg-white border border-slate-200">

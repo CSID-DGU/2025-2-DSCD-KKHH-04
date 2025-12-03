@@ -354,7 +354,11 @@ def session_customer(request):
         status=200,
     )
 
-
+@api_view(["GET"])
+def speech_logs(request):
+    logs = SpeechLog.objects.all().order_by('-created_at')
+    serializer = SpeechLogSerializer(logs, many=True)
+    return Response(serializer.data)
 
 # ----------------------
 # speech_logs (미사용)

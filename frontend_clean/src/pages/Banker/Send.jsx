@@ -33,10 +33,6 @@ export default function BankerSend() {
   // 🔹 세션 ID (처음 마운트 시 한 번만 생성/로드)
   const [sessionId] = useState(() => getOrCreateSessionId());
 
-  // 🔹 고객 정보 상태 (백엔드에서 받아옴)
-  //    예: { name: "김희희", bank_name: "XX은행", account_number: "1002-123-4567" }
-  const [customerInfo, setCustomerInfo] = useState(null);
-
   // 새로 추가되는 메시지용 id 카운터 (백엔드 응답 없을 때만 사용)
   const nextIdRef = useRef(Date.now());
 
@@ -49,36 +45,6 @@ export default function BankerSend() {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     localStorage.setItem("signanceDeafStatus", "idle");
   }, []);
-
-  // 🔹 sessionId 기준 고객 정보 조회
-  useEffect(() => {
-  if (!sessionId) return;
-
-  const fetchCustomerInfo = async () => {
-    try {
-      const res = await fetch(
-        `${API_BASE}/api/accounts/session_customer/?session_id=${sessionId}`,
-        {
-          method: "GET",
-          credentials: "include", // 로그인 세션 쿠키 포함
-        }
-      );
-
-      if (!res.ok) {
-        console.error("고객 정보 조회 실패:", await res.text());
-        return;
-      }
-
-      const data = await res.json();
-      setCustomerInfo(data);
-    } catch (err) {
-      console.error("고객 정보 조회 에러:", err);
-    }
-  };
-
-  fetchCustomerInfo();
-}, [sessionId]);
-
 
   /* ---------------- 백엔드 저장/수정 공통 함수 ---------------- */
 
@@ -116,17 +82,14 @@ export default function BankerSend() {
   const updateMessageOnBackend = async (backendId, { text, mode }) => {
     if (!backendId) return;
     try {
-      const res = await fetch(
-        `${API_BASE}/api/accounts/chat/${backendId}/`,
-        {
-          method: "PATCH", // 백엔드가 PUT만 지원하면 "PUT"으로 변경
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            text,
-            role: mode || "",
-          }),
-        }
-      );
+      const res = await fetch(`${API_BASE}/api/accounts/chat/${backendId}/`, {
+        method: "PATCH", // 백엔드가 PUT만 지원하면 "PUT"으로 변경
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          text,
+          role: mode || "",
+        }),
+      });
 
       if (!res.ok) {
         console.error("chat 수정 실패:", await res.text());
@@ -272,8 +235,8 @@ export default function BankerSend() {
           }}
         />
 
-        {/* 🔹 고객 정보 바: 백엔드에서 받은 customerInfo 전달 */}
-        <CustomerBar customer={customerInfo} />
+        {/* 🔹 고객 정보 바: 정적 내용 표시 */}
+        <CustomerBar />
 
         {/* 상담 대화창 – 상태는 전역 store에서 가져옴 */}
         <ChatPanel
@@ -296,38 +259,7 @@ export default function BankerSend() {
 
 /* ---------------- 고객 정보 바 ---------------- */
 
-// function CustomerBar() {
-//   return (
-//     <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
-//       <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
-//         <UserIcon className="h-5 w-5 text-slate-700" />
-//         <span>고객 정보</span>
-//       </div>
-//       <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
-//         김희희
-//         <span className="mx-2 text-slate-400">|</span>
-//         XX은행 1002-123-4567
-//       </div>function CustomerBar({ customer }) 
-//     </section>
-//   );
-// }
-function CustomerBar({ customer }) {
-  // 🔹 오직 백엔드에서 받은 customer 정보만 사용
-  const name =
-    customer?.name && customer.name.trim()
-      ? customer.name.trim()
-      : "고객 이름 미지정";
-
-  const bankName =
-    customer?.bank_name && customer.bank_name.trim()
-      ? customer.bank_name
-      : "은행 미지정";
-
-  const accountNumber =
-    customer?.account_number && customer.account_number.trim()
-      ? customer.account_number
-      : "계좌번호 미지정";
-
+function CustomerBar() {
   return (
     <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
       <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
@@ -335,9 +267,9 @@ function CustomerBar({ customer }) {
         <span>고객 정보</span>
       </div>
       <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
-        {name}
+        김희희
         <span className="mx-2 text-slate-400">|</span>
-        {bankName} {accountNumber}
+        XX은행 1002-123-4567
       </div>
     </section>
   );

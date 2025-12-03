@@ -33,6 +33,10 @@ export default function ASRPanel({ onPushToChat }) {
   // 🔹 문장 순서를 고정하기 위한 시퀀스 번호 (0,1,2,...)
   const sentenceSeqRef = useRef(0);
 
+  // 🔹 마이크 라운드(1,2,3,...) + 라운드 내 문장 인덱스(0,1,2,...) 추적
+  const roundRef = useRef(0);
+  const sentenceInRoundRef = useRef(0);
+
   const [isRec, setIsRec] = useState(false);
   const [mode, setMode] = useState("설명"); // "질의" / "설명"
 
@@ -52,7 +56,7 @@ export default function ASRPanel({ onPushToChat }) {
   const [isFinalizing, setIsFinalizing] = useState(false);
 
   // 각 문장별 latency 리스트 (발화 순서대로 index 고정)
-  const [latencyList, setLatencyList] = useState([]); // [{stt, nlp, mapping, synth, total, audioSec, videoSec}, …]
+  const [latencyList, setLatencyList] = useState([]); // [{stt, nlp, mapping, synth, total, audioSec, videoSec, round, idxInRound}, …]
 
   // 각 문장별 오디오 리스트 (발화 순서대로 index 고정)
   const [audioList, setAudioList] = useState([]); // [{url, blob}, …]
@@ -162,8 +166,14 @@ export default function ASRPanel({ onPushToChat }) {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isRec]);
 
-  // blob 업로드 (isFinal: 마지막 문장인지 여부, seq: 발화 순서 인덱스)
-  const uploadBlob = async (blob, isFinal = false, seq = null) => {
+  // blob 업로드 (isFinal: 마지막 문장인지 여부, seq: 발화 순서 인덱스, round/idxInRound: 라운드/번호)
+  const uploadBlob = async (
+    blob,
+    isFinal = false,
+    seq = null,
+    round = 1,
+    idxInRound = 0
+  ) => {
     if (!blob) {
       setApiErr("먼저 음성을 녹음해 주세요.");
       return;
@@ -343,6 +353,8 @@ export default function ASRPanel({ onPushToChat }) {
             typeof data.audio_sec === "number" ? data.audio_sec : null,
           videoSec:
             typeof data.video_sec === "number" ? data.video_sec : null,
+          round,
+          idxInRound,
         };
 
         // 3) 화면에 문장별 latency 표시용 (seq 인덱스에 고정)
@@ -388,6 +400,8 @@ export default function ASRPanel({ onPushToChat }) {
               typeof data.audio_sec === "number" ? data.audio_sec : null,
             video_sec:
               typeof data.video_sec === "number" ? data.video_sec : null,
+            round,
+            idxInRound,
           };
 
           prev.push(logEntry);
@@ -448,7 +462,6 @@ export default function ASRPanel({ onPushToChat }) {
           console.warn("failed to save signanceDeafVideoList:", e);
         }
       }
-
     } catch (e) {
       console.error(e);
       setApiErr("서버와 통신 중 오류가 발생했어요.");
@@ -483,8 +496,12 @@ export default function ASRPanel({ onPushToChat }) {
         const isFinalStop = finalStopRef.current;
         finalStopRef.current = false;
 
-        // 🔹 이 세그먼트의 발화 순서 인덱스 확정
+        // 🔹 이 세그먼트의 발화 순서 인덱스 확정 (전체 인덱스)
         const seq = sentenceSeqRef.current++;
+
+        // 🔹 현재 마이크 라운드 번호 + 라운드 내 문장 인덱스
+        const round = roundRef.current || 1;
+        const idxInRound = sentenceInRoundRef.current++;
 
         try {
           const blob = new Blob(chunksRef.current, { type: "audio/webm" });
@@ -507,8 +524,8 @@ export default function ASRPanel({ onPushToChat }) {
               return next;
             });
 
-            // 🔹 서버 업로드도 seq 함께
-            uploadBlob(blob, isFinalStop, seq);
+            // 🔹 서버 업로드도 seq + round 정보 함께
+            uploadBlob(blob, isFinalStop, seq, round, idxInRound);
           }
         } catch {
           setRecErr("오디오 데이터를 생성하지 못했어요.");
@@ -557,6 +574,10 @@ export default function ASRPanel({ onPushToChat }) {
     setAudioList([]);
     setLatencyList([]);
     sentenceSeqRef.current = 0;
+
+    // 🔹 새 마이크 라운드 시작 (1,2,3,...)
+    roundRef.current += 1;
+    sentenceInRoundRef.current = 0;
 
     setSessionActive(true);
     localStorage.setItem("signanceDeafStatus", "stt_running");
@@ -856,22 +877,28 @@ export default function ASRPanel({ onPushToChat }) {
       {/* 문장별 latency 표시 */}
       {latencyList.length > 0 && (
         <div className="mt-2 space-y-0.5 text-xs text-slate-500">
-          {latencyList.map((lat, idx) => (
-            <div key={idx} className="flex flex-wrap gap-x-4">
-              <span>
-                문장 {idx + 1}:
-                {lat.audioSec != null && (
-                  <> 발화: {lat.audioSec.toFixed(2)} s /</>
-                )}
-                {lat.videoSec != null && (
-                  <> 영상: {lat.videoSec.toFixed(2)} s /</>
-                )}{" "}
-                STT: {msToSec(lat.stt)} s / NLP: {msToSec(lat.nlp)} s /
-                매핑: {msToSec(lat.mapping)} s / 합성: {msToSec(lat.synth)} s
-              </span>
-              <span>🕐 총합: {msToSec(lat.total)} s</span>
-            </div>
-          ))}
+          {latencyList.map((lat, idx) => {
+            const label =
+              lat.round != null && lat.idxInRound != null
+                ? `${lat.round}-${lat.idxInRound + 1}`
+                : `${idx + 1}`;
+            return (
+              <div key={idx} className="flex flex-wrap gap-x-4">
+                <span>
+                  문장 {label}:
+                  {lat.audioSec != null && (
+                    <> 발화: {lat.audioSec.toFixed(2)} s /</>
+                  )}
+                  {lat.videoSec != null && (
+                    <> 영상: {lat.videoSec.toFixed(2)} s /</>
+                  )}{" "}
+                  STT: {msToSec(lat.stt)} s / NLP: {msToSec(lat.nlp)} s /
+                  매핑: {msToSec(lat.mapping)} s / 합성: {msToSec(lat.synth)} s
+                </span>
+                <span>🕐 총합: {msToSec(lat.total)} s</span>
+              </div>
+            );
+          })}
         </div>
       )}
 

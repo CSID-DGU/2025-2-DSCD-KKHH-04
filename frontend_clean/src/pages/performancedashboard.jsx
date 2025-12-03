@@ -89,18 +89,9 @@ export default function PerformanceDashboard() {
   const [logs, setLogs] = useState([]);
   const navigate = useNavigate();
 
-  const [sessionStart, setSessionStart] = useState(null);
+  // 🔹 자동 세션 구분선 관련 state 제거됨
   const [detailOpen, setDetailOpen] = useState(false);
   const [detailLog, setDetailLog] = useState(null);
-
-  useEffect(() => {
-    let session = sessionStorage.getItem("signanceSessionStart");
-    if (!session) {
-      session = Date.now();
-      sessionStorage.setItem("signanceSessionStart", session);
-    }
-    setSessionStart(Number(session));
-  }, []);
 
   // 로컬 로그 로드 + ts 보정 + 최신순 정렬
   useEffect(() => {
@@ -177,11 +168,14 @@ export default function PerformanceDashboard() {
     fetchServerLogs();
   }, []);
 
-  // 평균 계산 (발화 / 영상 포함)
+  // 🔹 평균 계산 시 dividerBefore 같은 플래그는 그냥 무시 (숫자 아니면 0으로 처리되니 그대로 둬도 됨)
   const averages = useMemo(() => {
     if (!logs.length) return {};
+    const realLogs = logs.filter((l) => !l._isDividerOnly); // 혹시 나중에 divider 전용 타입 생기면 대비
+    if (!realLogs.length) return {};
     const avg = (k) =>
-      logs.reduce((a, c) => a + (Number(c[k]) || 0), 0) / logs.length;
+      realLogs.reduce((a, c) => a + (Number(c[k]) || 0), 0) /
+      realLogs.length;
     return {
       stt: avg("stt"),
       nlp: avg("nlp"),
@@ -193,37 +187,61 @@ export default function PerformanceDashboard() {
     };
   }, [logs]);
 
-  // 세션 기준 divider 위치 (최신순)
-  const dividerIndex = useMemo(() => {
-    if (!sessionStart) return null;
-    return logs.findIndex((log) => getLogTimeValue(log) < sessionStart);
-  }, [logs, sessionStart]);
-
+  // session_id 기준 번호 생성 (1-1, 1-2, 2-1 ...)
   // session_id 기준 번호 생성 (1-1, 1-2, 2-1 ...)
   const numberedRows = useMemo(() => {
-    const sessionOrder = new Map(); // session_id -> 세션 번호
-    const sentenceCounts = new Map(); // 세션 번호 -> 몇 번째 문장인지
-    let nextSessionNo = 1;
+    if (!logs.length) return [];
 
-    return logs.map((log) => {
+    // 1) 세션별로 로그 모으기 (원래 인덱스도 같이 저장)
+    const bySession = new Map(); // sid -> [{ log, idx }]
+    logs.forEach((log, idx) => {
       const sid = log.session_id || log.sessionId || "unknown";
+      if (!bySession.has(sid)) bySession.set(sid, []);
+      bySession.get(sid).push({ log, idx });
+    });
 
-      let sessionNo = sessionOrder.get(sid);
-      if (!sessionNo) {
-        sessionNo = nextSessionNo++;
-        sessionOrder.set(sid, sessionNo);
+    // 2) 세션 번호(sessionNo)는 "현재 logs 순서" 기준으로 부여
+    //    (가장 최근에 첫 등장한 세션이 1번, 그 다음이 2번...)
+    const sessionOrder = new Map(); // sid -> sessionNo
+    let nextSessionNo = 1;
+    logs.forEach((log) => {
+      const sid = log.session_id || log.sessionId || "unknown";
+      if (!sessionOrder.has(sid)) {
+        sessionOrder.set(sid, nextSessionNo++);
       }
+    });
 
-      const count = (sentenceCounts.get(sessionNo) || 0) + 1;
-      sentenceCounts.set(sessionNo, count);
+    // 3) 각 세션 안에서 시간 오름차순으로 정렬해서
+    //    1,2,3,... 번호 매기기
+    const perLogSeq = new Map(); // idx -> { sessionNo, seq }
 
+    bySession.forEach((arr, sid) => {
+      const sessionNo = sessionOrder.get(sid) ?? 0;
+
+      // 해당 세션의 로그들을 시간 오름차순(과거 -> 최근)으로 정렬
+      arr.sort(
+        (a, b) => getLogTimeValue(a.log) - getLogTimeValue(b.log)
+      );
+
+      arr.forEach((item, i) => {
+        perLogSeq.set(item.idx, {
+          sessionNo,
+          seq: i + 1, // 1부터 시작
+        });
+      });
+    });
+
+    // 4) 최종 반환: 원래 logs 순서를 유지하면서 displayIndex만 붙이기
+    return logs.map((log, idx) => {
+      const info = perLogSeq.get(idx) || { sessionNo: 0, seq: 0 };
       return {
         ...log,
-        _sessionNo: sessionNo,
-        displayIndex: `${sessionNo}-${count}`,
+        _sessionNo: info.sessionNo,
+        displayIndex: `${info.sessionNo}-${info.seq}`,
       };
     });
   }, [logs]);
+
 
   // 삭제
   const handleDelete = (index) => {
@@ -236,6 +254,22 @@ export default function PerformanceDashboard() {
       return next;
     });
   };
+
+  // 🔹 구분선 토글: 해당 인덱스 로그 위에 구분선 표시 여부를 토글
+  const handleToggleDivider = (index) => {
+    setLogs((prev) => {
+      const next = prev.map((log, i) =>
+        i === index ? { ...log, _dividerBefore: !log._dividerBefore } : log
+      );
+      localStorage.setItem("signanceLatencyLogs", JSON.stringify(next));
+      return next;
+    });
+  };
+
+  const realSampleCount = useMemo(
+    () => logs.filter((l) => !l._isDividerOnly).length,
+    [logs]
+  );
 
   return (
     <div className="w-full h-auto overflow-hidden">
@@ -260,7 +294,7 @@ export default function PerformanceDashboard() {
 
         {/* 요약 카드: 발화 / 영상 평균 추가 */}
         <section className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-7 gap-3 mb-6">
-          <SummaryCard label="총 샘플" value={`${logs.length}회`} />
+          <SummaryCard label="총 샘플" value={`${realSampleCount}회`} />
           <SummaryCard label="평균 STT" value={`${msToSec(averages.stt)} s`} />
           <SummaryCard label="평균 NLP" value={`${msToSec(averages.nlp)} s`} />
           <SummaryCard
@@ -287,16 +321,19 @@ export default function PerformanceDashboard() {
               개별 측정 로그
             </h2>
 
-            <button
-              onClick={() => {
-                if (!window.confirm("정말 모든 로그를 초기화할까요?")) return;
-                setLogs([]);
-                localStorage.removeItem("signanceLatencyLogs");
-              }}
-              className="px-3 h-8 rounded-lg border border-slate-300 text-xs text-slate-600 hover:bg-slate-50"
-            >
-              로그 초기화
-            </button>
+            <div className="flex items-center gap-2">
+              {/* 필요하면 나중에 "위에 구분선 하나 추가" 같은 전역 버튼도 여기 배치 가능 */}
+              <button
+                onClick={() => {
+                  if (!window.confirm("정말 모든 로그를 초기화할까요?")) return;
+                  setLogs([]);
+                  localStorage.removeItem("signanceLatencyLogs");
+                }}
+                className="px-3 h-8 rounded-lg border border-slate-300 text-xs text-slate-600 hover:bg-slate-50"
+              >
+                로그 초기화
+              </button>
+            </div>
           </div>
 
           {logs.length === 0 ? (
@@ -318,14 +355,16 @@ export default function PerformanceDashboard() {
                     <th className="px-3 py-2 w-[90px] text-right">영상(s)</th>
                     <th className="px-3 py-2 w-[90px] text-right">총합(s)</th>
                     <th className="px-3 py-2 w-[90px] text-right">CER</th>
+                    {/* 🔹 새 컬럼: 구분선 토글 버튼 */}
+                    <th className="px-3 py-2 w-[70px] text-center">
+                      구분선
+                    </th>
                     <th className="px-3 py-2 w-[30px]" />
                   </tr>
                 </thead>
 
                 <tbody>
                   {numberedRows.map((log, i) => {
-                    const isDivider = dividerIndex === i;
-
                     const sttText =
                       log.stt_text ||
                       log.sttText ||
@@ -344,13 +383,16 @@ export default function PerformanceDashboard() {
                         ? computeCER(sttText, nlpText)
                         : null;
 
+                    const hasDividerBefore = !!log._dividerBefore;
+
                     return (
                       <React.Fragment key={`${getLogTs(log) ?? "no-ts"}-${i}`}>
-                        {isDivider && (
+                        {/* 🔹 사용자가 켠 구분선 */}
+                        {hasDividerBefore && (
                           <tr>
-                            <td colSpan={12} className="py-2">
-                              <div className="border-t border-slate-300 my-2 text-center text-xs text-slate-500">
-                                ─── 이전 세션 기록 ───
+                            <td colSpan={13} className="py-2">
+                              <div className="border-t border-dashed border-slate-400 my-2 text-center text-[11px] text-slate-500">
+                                ── 사용자 지정 구분선 ──
                               </div>
                             </td>
                           </tr>
@@ -406,6 +448,21 @@ export default function PerformanceDashboard() {
                             {cerValue != null
                               ? `${(cerValue * 100).toFixed(1)}%`
                               : "-"}
+                          </td>
+
+                          {/* 🔹 구분선 토글 버튼 */}
+                          <td className="px-1 py-1.5 w-[70px] text-center">
+                            <button
+                              type="button"
+                              onClick={() => handleToggleDivider(i)}
+                              className={`px-2 py-0.5 rounded-lg text-[11px] border transition-colors ${
+                                hasDividerBefore
+                                  ? "border-blue-500 text-blue-600 bg-blue-50"
+                                  : "border-slate-300 text-slate-600 hover:bg-slate-50"
+                              }`}
+                            >
+                              {hasDividerBefore ? "해제" : "추가"}
+                            </button>
                           </td>
 
                           <td className="px-1 py-1.5 w-[30px] text-center">

@@ -40,6 +40,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import tempfile
+import time  # 디버깅용
 
 import whisper
 from dotenv import load_dotenv
@@ -58,7 +59,6 @@ try:
     MEDIA_ROOT = Path(getattr(settings, "MEDIA_ROOT", "media")).resolve()
 except Exception:
     MEDIA_ROOT = Path(__file__).resolve().parent / "media"
-
 
 # 1. .env 로드
 load_dotenv()
@@ -91,10 +91,15 @@ GLOSS_MP4_DIR = Path(
 )
 # 수어 mp4가 있는 루트 폴더 (하위 fi, li 등 포함)
 
-
 VIDEO_OUT_DIR = GLOSS_NEW_DIR / "vd_output"
 OUT_DIR.mkdir(exist_ok=True)
 VIDEO_OUT_DIR.mkdir(exist_ok=True)
+
+# 🔹 gloss 매핑 로그 저장 폴더/파일 설정
+LOG_DIR = ROOT_DIR / "gloss_tools"
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+GLOSS_LOG_FILE = LOG_DIR / "gloss_mapping_log.csv"
+
 
 # =========================
 # rules_base.json + rules.json 유틸
@@ -224,11 +229,76 @@ def apply_text_normalization(text: str, rules: dict | None = None) -> str:
     return out
 
 
+def log_gloss_mapping(
+    gloss_list,
+    gloss_ids,
+    gloss_labels,
+    text=None,
+    mode=None,
+    session_id=None,
+    ts=None,
+    only_mismatch=True,
+):
+    """
+    gloss / gloss_ids / gloss_labels 매핑 결과를 CSV로 기록.
+    only_mismatch=True면, gloss != gloss_labels 있는 경우만 기록.
+    """
+    if gloss_list is None:
+        gloss_list = []
+    if gloss_ids is None:
+        gloss_ids = []
+    if gloss_labels is None:
+        gloss_labels = []
+
+    # mismatch 여부 체크
+    has_mismatch = any(
+        (g != l) for g, l in zip(gloss_list, gloss_labels)
+    )
+
+    # mismatch만 기록하고 싶으면
+    if only_mismatch and not has_mismatch:
+        return
+
+    if ts is None:
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+    row = {
+        "timestamp": ts,
+        "session_id": session_id or "",
+        "mode": mode or "",
+        "text": text or "",
+        "gloss": "|".join(gloss_list),
+        "gloss_ids": "|".join(gloss_ids),
+        "gloss_labels": "|".join(gloss_labels),
+        "has_mismatch": "1" if has_mismatch else "0",
+    }
+
+    file_exists = GLOSS_LOG_FILE.exists()
+    with GLOSS_LOG_FILE.open("a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "timestamp",
+                "session_id",
+                "mode",
+                "text",
+                "gloss",
+                "gloss_ids",
+                "gloss_labels",
+                "has_mismatch",
+            ],
+        )
+        if not file_exists:
+            writer.writeheader()
+        writer.writerow(row)
+
+
 print("🔄 NEW pipeline.py loaded")
 print("📁 GLOSS_DICT_PATH   =", GLOSS_DICT_PATH)
 print("📁 RULES_BASE_PATH   =", RULES_BASE_PATH)
 print("📁 RULES_PATH        =", RULES_PATH)
 print("📁 GLOSS_MP4_DIR     =", GLOSS_MP4_DIR)
+print("📁 GLOSS_LOG_FILE    =", GLOSS_LOG_FILE)
 
 # 4. 모델/오디오 설정
 GEMINI_MODEL_NAME = "models/gemini-2.5-flash"
@@ -240,6 +310,7 @@ ALWAYS_RETURN_ID = True  # 매핑 실패 시에도 유사도 기반으로 ID 하
 # 전역 캐시
 GEMINI_MODEL = None
 _WHISPER_MODEL = None
+WHISPER_LOAD_MS = None
 
 # ======================================================================
 # 공통 유틸
@@ -273,16 +344,23 @@ def now_ts() -> str:
 # ======================================================================
 
 def _get_whisper_model():
-    global _WHISPER_MODEL
+    global _WHISPER_MODEL, WHISPER_LOAD_MS
     if _WHISPER_MODEL is None:
         print(f"[Whisper] loading model: {WHISPER_MODEL_NAME}")
+        t0 = time.perf_counter()  # 🔹 로딩 시작 시간
         try:
-            # CPU 기준으로 명시 (예전 pipeline처럼)
+            # CPU 기준으로 명시
             _WHISPER_MODEL = whisper.load_model(WHISPER_MODEL_NAME, device="cpu")
+            WHISPER_LOAD_MS = (time.perf_counter() - t0) * 1000.0
+            print(
+                f"[Whisper Init] whisper.load_model('{WHISPER_MODEL_NAME}') "
+                f"{WHISPER_LOAD_MS:.1f} ms"
+            )
         except Exception as e:
             print(f"[Whisper] 모델 로딩 실패: {e}")
             raise
     return _WHISPER_MODEL
+
 
 def stt_from_file(audio_path: str) -> str:
     """
@@ -292,6 +370,7 @@ def stt_from_file(audio_path: str) -> str:
       짧은 인사 같은 문장이 빈 문자열로 날아가는 걸 줄인다.
     """
     model = _get_whisper_model()
+    t0 = time.perf_counter()
     res = model.transcribe(
         str(audio_path),
         language=WHISPER_LANG,
@@ -307,6 +386,9 @@ def stt_from_file(audio_path: str) -> str:
         logprob_threshold=-2.0,         # 너무 빡센 필터 완화
         compression_ratio_threshold=2.0 # 잡음 필터도 약하게
     )
+    t1 = time.perf_counter()
+    print(f"[STT inner] whisper.transcribe only: {t1 - t0:.2f} sec for {audio_path}")
+
     stt_text = _norm(res.get("text") or "")
     print(f"[STT] {audio_path} -> \"{stt_text}\"")
     return stt_text
@@ -956,12 +1038,13 @@ else:
     GEMINI_MODEL = None
     print("[Gemini] API 키 없음 → 로컬 규칙만 사용")
 
-# 🔹 여기 추가: Whisper 모델도 서버 시작 시 미리 로딩
+# 🔹 Whisper 모델도 서버 시작 시 미리 로딩
 try:
     _get_whisper_model()
     print("[Whisper] 모델 미리 로딩 완료")
 except Exception as e:
     print(f"[Whisper] 모델 미리 로딩 실패: {e}")
+
 
 # ======================================================================
 # 로컬 규칙 기반 gloss 추출 (service.py에서 Gemini 실패 시 사용할 수 있는 최소 버전)
