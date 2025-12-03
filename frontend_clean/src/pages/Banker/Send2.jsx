@@ -21,7 +21,7 @@ export default function BankerSend2() {
     if (idx === 0) {
       // 실시간 인식으로 이동했을 때 강제 상단 이동
       document.querySelector(".chat-scroll-box")?.scrollTo(0, 0);
-  }
+    }
 
     if (idx === 3) {
       navigate("/performance");
@@ -92,10 +92,13 @@ function ChatPanel2({ activeTab, logs }) {
           ) : (
             <table className="w-full table-fixed text-xs text-slate-700">
               <colgroup>
-                <col className="w-[60px]" />
-                <col className="w-[120px]" />
-                <col className="w-[40%]" />
-                <col className="w-[40%]" />
+                {/* 번호 / 시각 / STT / NLP / 오류 구간 / 수정 제안 */}
+                <col className="w-[50px]" />
+                <col className="w-[110px]" />
+                <col className="w-[24%]" />
+                <col className="w-[24%]" />
+                <col className="w-[14%]" />
+                <col className="w-[14%]" />
               </colgroup>
               <thead className="border-b border-slate-200 bg-slate-100">
                 <tr>
@@ -103,32 +106,91 @@ function ChatPanel2({ activeTab, logs }) {
                   <th className="px-2 py-1 text-left">시각</th>
                   <th className="px-2 py-1 text-left">STT 원문</th>
                   <th className="px-2 py-1 text-left">NLP 텍스트</th>
+                  <th className="px-2 py-1 text-left">오류 구간</th>
+                  <th className="px-2 py-1 text-left">수정 제안</th>
                 </tr>
               </thead>
               <tbody>
-                {logs.map((log, idx) => (
-                  <tr
-                    key={log.id || idx}
-                    className="border-b border-slate-100 align-top"
-                  >
-                    <td className="px-2 py-1 text-[11px] text-slate-500">
-                      {idx + 1}
-                    </td>
-                    <td className="px-2 py-1 text-[11px] text-slate-500">
-                      {log.createdAt || "-"}
-                    </td>
-                    <td className="px-2 py-1">
-                      <div className="text-xs whitespace-pre-wrap line-clamp-3">
-                        {log.sttText || "-"}
-                      </div>
-                    </td>
-                    <td className="px-2 py-1">
-                      <div className="text-xs whitespace-pre-wrap line-clamp-3">
-                        {log.cleanText || "-"}
-                      </div>
-                    </td>
-                  </tr>
-                ))}
+                {logs.map((log, idx) => {
+                  // spans 배열 → 여러 개 오류/수정, 없으면 기존 wrongSpan/correctSpan fallback
+                  const spans =
+                    Array.isArray(log.spans) && log.spans.length > 0
+                      ? log.spans
+                      : log.wrongSpan || log.correctSpan
+                      ? [
+                          {
+                            wrong: log.wrongSpan,
+                            correct: log.correctSpan,
+                          },
+                        ]
+                      : [];
+
+                  return (
+                    <tr
+                      key={log.id || idx}
+                      className="border-b border-slate-100 align-top hover:bg-slate-50/70"
+                    >
+                      <td className="px-2 py-1 text-[11px] text-slate-500">
+                        {idx + 1}
+                      </td>
+                      <td className="px-2 py-1 text-[11px] text-slate-500">
+                        {log.createdAt || "-"}
+                      </td>
+                      <td className="px-2 py-1">
+                        <div className="text-xs whitespace-pre-wrap line-clamp-3">
+                          {log.sttText || "-"}
+                        </div>
+                      </td>
+                      <td className="px-2 py-1">
+                        <div className="text-xs whitespace-pre-wrap line-clamp-3">
+                          {log.cleanText || "-"}
+                        </div>
+                      </td>
+                      <td className="px-2 py-1">
+                        <div className="space-y-1">
+                          {spans.length === 0 ? (
+                            <span className="text-[11px] text-slate-400">
+                              -
+                            </span>
+                          ) : (
+                            spans.map((s, i) => (
+                              <div
+                                key={i}
+                                className="text-[11px] whitespace-pre-wrap line-clamp-2 text-red-600"
+                              >
+                                <span className="mr-1 text-slate-400">
+                                  {i + 1}.
+                                </span>
+                                {s.wrong || "-"}
+                              </div>
+                            ))
+                          )}
+                        </div>
+                      </td>
+                      <td className="px-2 py-1">
+                        <div className="space-y-1">
+                          {spans.length === 0 ? (
+                            <span className="text-[11px] text-slate-400">
+                              -
+                            </span>
+                          ) : (
+                            spans.map((s, i) => (
+                              <div
+                                key={i}
+                                className="text-[11px] whitespace-pre-wrap line-clamp-2 text-emerald-700"
+                              >
+                                <span className="mr-1 text-slate-400">
+                                  {i + 1}.
+                                </span>
+                                {s.correct || "-"}
+                              </div>
+                            ))
+                          )}
+                        </div>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           )}
@@ -173,7 +235,6 @@ function ChatPanel2({ activeTab, logs }) {
   }
 
   // 기본: 실시간 인식 탭 (원래 ChatPanel과 거의 동일)
-  // 기본: 실시간 인식 탭 (원래 ChatPanel과 거의 동일)
   const [messages, setMessages] = useState([
     { from: "agent", text: "안녕하세요. 어떤 업무 도와드릴까요?" },
     { from: "user", text: "안녕하세요. 새 통장을 만들고 싶어요." },
@@ -199,9 +260,7 @@ function ChatPanel2({ activeTab, logs }) {
         <span>상담 대화창</span>
       </div>
 
-      <div
-  className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto chat-scroll-box"
->
+      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto chat-scroll-box">
         {messages.map((m, i) => (
           <ChatBubble key={i} role={m.from} text={m.text} />
         ))}
@@ -225,7 +284,6 @@ function ChatPanel2({ activeTab, logs }) {
       </div>
     </section>
   );
-
 }
 
 /* ---------------- ChatBubble / Avatar ---------------- */
@@ -282,6 +340,10 @@ function ASRPanel2({ onReportError }) {
 
   const [showDeafPopup, setShowDeafPopup] = useState(false);
   const navigate = useNavigate();
+
+  // 번역 오류 입력 모달 (여러 개)
+  const [showErrorPopup, setShowErrorPopup] = useState(false);
+  const [spans, setSpans] = useState([{ wrong: "", correct: "" }]);
 
   const mediaRecRef = useRef(null);
   const chunksRef = useRef([]);
@@ -487,7 +549,7 @@ function ASRPanel2({ onReportError }) {
     else startRec();
   };
 
-  // 번역 오류 → 부모로 entry 전달
+  // 번역 오류 모달 열기
   const handleReportErrorClick = () => {
     const rawText = localStorage.getItem("signanceDeafCaptionRaw") || "";
     const cleanText = text || "";
@@ -497,9 +559,42 @@ function ASRPanel2({ onReportError }) {
       return;
     }
 
+    setSpans([{ wrong: "", correct: "" }]);
+    setShowErrorPopup(true);
+  };
+
+  // spans 헬퍼
+  const addSpanRow = () => {
+    setSpans((prev) => [...prev, { wrong: "", correct: "" }]);
+  };
+
+  const updateSpan = (idx, key, value) => {
+    setSpans((prev) =>
+      prev.map((s, i) => (i === idx ? { ...s, [key]: value } : s))
+    );
+  };
+
+  // 저장 후 로그탭으로 entry 보내기
+  const handleConfirmError = () => {
+    const rawText = localStorage.getItem("signanceDeafCaptionRaw") || "";
+    const cleanText = text || "";
+
+    const filtered = spans
+      .map((s) => ({
+        wrong: s.wrong?.trim() || "",
+        correct: s.correct?.trim() || "",
+      }))
+      .filter((s) => s.wrong || s.correct);
+
+    if (filtered.length === 0) {
+      alert("오류 구간을 최소 1개 이상 입력해 주세요.");
+      return;
+    }
+
     const entry = {
       sttText: rawText,
       cleanText,
+      spans: filtered,
       createdAt: new Date().toLocaleTimeString("ko-KR", {
         hour: "2-digit",
         minute: "2-digit",
@@ -507,8 +602,31 @@ function ASRPanel2({ onReportError }) {
       }),
     };
 
+    // terminology 딕셔너리 누적
+    try {
+      const prev =
+        JSON.parse(localStorage.getItem("signanceTerminologyDict") || "[]") ||
+        [];
+      const merged = prev.concat(
+        filtered.map((s) => ({ wrong: s.wrong, correct: s.correct }))
+      );
+      localStorage.setItem(
+        "signanceTerminologyDict",
+        JSON.stringify(merged)
+      );
+    } catch (e) {
+      console.warn("terminology dict save error:", e);
+    }
+
     onReportError && onReportError(entry);
+    setShowErrorPopup(false);
   };
+
+  const hasAnySpanFilled = spans.some(
+    (s) =>
+      (s.wrong && s.wrong.trim().length > 0) ||
+      (s.correct && s.correct.trim().length > 0)
+  );
 
   return (
     <>
@@ -665,6 +783,86 @@ function ASRPanel2({ onReportError }) {
                 className="px-4 h-10 rounded-lg bg-slate-900 text-sm text-white hover:bg-slate-800"
               >
                 Deaf 화면 바로가기
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 번역 오류 입력 팝업 (여러 개 입력) */}
+      {showErrorPopup && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/30">
+          <div className="w-full max-w-md rounded-2xl bg-white p-6 shadow-xl border border-slate-200">
+            <div className="text-sm font-semibold text-slate-500 mb-1">
+              번역 오류 신고
+            </div>
+            <div className="text-lg font-semibold text-slate-900 mb-3">
+              어떤 부분을 어떻게 고치고 싶으신가요?
+            </div>
+
+            <div className="mb-3">
+              <div className="text-xs text-slate-500 mb-1">전체 문장</div>
+              <div className="rounded-xl bg-slate-50 px-3 py-2 text-sm text-slate-800 max-h-24 overflow-y-auto">
+                {text || "인식된 문장이 없습니다."}
+              </div>
+            </div>
+
+            <div className="mb-2 max-h-56 overflow-y-auto space-y-3 pr-1">
+              {spans.map((s, idx) => (
+                <div key={idx} className="flex gap-2">
+                  <div className="flex-1">
+                    <div className="text-xs text-slate-500 mb-1">
+                      잘못된 부분 {idx + 1}
+                    </div>
+                    <input
+                      className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-slate-300"
+                      placeholder="예: 정립심 예금"
+                      value={s.wrong}
+                      onChange={(e) =>
+                        updateSpan(idx, "wrong", e.target.value)
+                      }
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-xs text-slate-500 mb-1">
+                      올바른 표현 {idx + 1}
+                    </div>
+                    <input
+                      className="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-slate-300"
+                      placeholder="예: 적립식 예금"
+                      value={s.correct}
+                      onChange={(e) =>
+                        updateSpan(idx, "correct", e.target.value)
+                      }
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <button
+              type="button"
+              onClick={addSpanRow}
+              className="mb-4 text-[11px] text-slate-500 hover:text-slate-800"
+            >
+              + 오류 항목 추가
+            </button>
+
+            <div className="flex justify-end gap-2">
+              <button
+                type="button"
+                onClick={() => setShowErrorPopup(false)}
+                className="px-4 h-9 rounded-lg border border-slate-300 text-xs text-slate-700 hover:bg-slate-50"
+              >
+                취소
+              </button>
+              <button
+                type="button"
+                onClick={handleConfirmError}
+                className="px-4 h-9 rounded-lg bg-slate-900 text-xs text-white hover:bg-slate-800 disabled:bg-slate-400"
+                disabled={!hasAnySpanFilled}
+              >
+                저장 후 로그 보기
               </button>
             </div>
           </div>

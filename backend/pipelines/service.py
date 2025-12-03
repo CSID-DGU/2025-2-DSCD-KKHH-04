@@ -26,6 +26,7 @@ import contextlib
 import wave
 
 from django.conf import settings
+from django.core.cache import cache  # 🔹 추가
 
 # ============================== #
 # pipeline.py 내부 기능 import
@@ -41,12 +42,11 @@ from .pipeline import (
     now_ts,
     OUT_DIR,
     _norm,
-    GEMINI_MODEL,         
+    GEMINI_MODEL,
+    _local_gloss_rules,
+    apply_text_normalization,
 )
-# 로컬 규칙 기반 gloss 추출용 (Gemini 실패 시에만 사용)
-from .pipeline import _local_gloss_rules
-
-# 🔹 여기 추가
+# 로컬 규칙 기반 gloss 추출용 (Gemini 실패 시에만 사용) 🔹 여기 추가
 from .pipeline import generate_image_video
 import re
 
@@ -242,22 +242,32 @@ def convert_to_wav_if_needed(src_path: Path) -> Path:
     subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return dst_path
 
-
-def get_audio_duration(path: Path) -> float:
+def get_media_duration(path: Path) -> float:
     """
-    wav 파일 길이(초) 구하기.
+    ffprobe로 미디어(오디오/비디오) 길이(초) 구하기.
     실패하면 0.0 반환.
     """
     try:
-        with contextlib.closing(wave.open(str(path), "rb")) as wf:
-            frames = wf.getnframes()
-            rate = wf.getframerate()
-            if rate == 0:
-                return 0.0
-            return frames / float(rate)
+        cmd = [
+            "ffprobe",
+            "-v", "error",
+            "-show_entries", "format=duration",
+            "-of", "json",
+            str(path),
+        ]
+        r = subprocess.run(cmd, capture_output=True, text=True)
+        if r.returncode != 0:
+            return 0.0
+        data = json.loads(r.stdout)
+        return float(data["format"]["duration"])
     except Exception as e:
-        print(f"[Perf] get_audio_duration error: {e}")
+        print(f"[Perf] get_media_duration error: {e}")
         return 0.0
+
+
+def get_audio_duration(path: Path) -> float:
+    """과거 코드 호환용 wrapper (실제로는 get_media_duration 사용)"""
+    return get_media_duration(path)
 
 
 # ==============================
@@ -307,17 +317,19 @@ def process_audio_file(django_file, mode=None, session_id=None):
 
     # ----------------------------------------
     # 3) NLP 단계: clean + gloss 추출
-    #    (Gemini 사용 → clean_text / gloss 모두 여기서 결정)
     # ----------------------------------------
-    model = GEMINI_MODEL   # 🔹 서버 시작 시 한 번만 build 된 전역 모델
+    model = GEMINI_MODEL   # 서버 시작 시 한 번만 build 된 전역 모델
 
     t2 = time.perf_counter()
     clean_text, gloss_list = nlp_with_gemini(text, model)
     t3 = time.perf_counter()
     latency["nlp"] = round((t3 - t2) * 1000, 1)
 
+    # 3-1) rules.json 기반 텍스트 정규화 + 글로스 재추출
+    clean_text = apply_text_normalization(clean_text)
+    gloss_list = extract_glosses(clean_text, model=model)
+
     # ----------------------------------------
-        # ----------------------------------------
     # 4) gloss → gloss_id 매핑
     # ----------------------------------------
     t4 = time.perf_counter()
@@ -326,8 +338,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
     t5 = time.perf_counter()
     latency["mapping"] = round((t5 - t4) * 1000, 1)
 
-    # 🔹 4-1) 숫자/이미지 토큰에 대한 fallback: 이미지 기반 동영상 생성
-    #  - 예: "18세", "3년", "2회", "5%" 같은 토큰
+    # 4-1) 숫자/이미지 토큰에 대한 fallback: 이미지 기반 동영상 생성
     extra_video_paths = []
     num_pattern = re.compile(r"^\d+[가-힣%년월세원만원억개월회]*$")
 
@@ -336,7 +347,6 @@ def process_audio_file(django_file, mode=None, session_id=None):
         if not t:
             continue
 
-        # 숫자 기반 토큰이면 이미지 동영상 생성
         if num_pattern.match(t):
             try:
                 img_mp4 = generate_image_video(t, duration=1.5)
@@ -353,7 +363,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
     for gid in gloss_ids:
         terms = GLOSS_MEANINGS.get(gid) or []
         if terms:
-            gloss_labels.append(terms[0])  # 대표 의미 1개
+            gloss_labels.append(terms[0])
         else:
             gloss_labels.append(gid)
 
@@ -365,21 +375,25 @@ def process_audio_file(django_file, mode=None, session_id=None):
     t7 = time.perf_counter()
     latency["synth"] = round((t7 - t6) * 1000, 1)
 
-        # 개별 영상 URL 리스트(sign_video_list) 구성
-    # - video_paths_for_concat 안에는 기존 수어 mp4 + 숫자 이미지 mp4가 모두 들어 있음
+    # 5-1) 합성된 문장 영상 길이(초) 측정
+    video_sec = 0.0
+    if sent_abs is not None:
+        video_sec = get_media_duration(sent_abs)
+        print(f"[Perf] video_sec={video_sec:.2f} s")
+
+    # 개별 영상 URL 리스트(sign_video_list) 구성
     sign_video_list = []
     for p in video_paths_for_concat:
         p = Path(p)
         try:
-            # MEDIA_ROOT 기준 상대 경로로 바꾼 뒤 MEDIA_URL을 붙여서 URL 만들기
             rel = p.relative_to(MEDIA_ROOT)
             url = settings.MEDIA_URL.rstrip("/") + "/" + str(rel).replace("\\", "/")
             sign_video_list.append(url)
         except ValueError:
-            # MEDIA_ROOT 밖이면 일단 파일명만 넣어둠 (최소 NameError는 안 나게)
             sign_video_list.append(str(p))
+
     # ----------------------------------------
-    # 6) 디버그 로그 (지금 어디까지 나오는지 확인용)
+    # 6) 디버그 로그
     # ----------------------------------------
     print("\n========== [DEBUG process_audio_file] ==========")
     print(f"text (STT 원문): {repr(text)}")
@@ -392,19 +406,11 @@ def process_audio_file(django_file, mode=None, session_id=None):
     print(f"latency_ms: {latency}")
     print(f"video_paths_for_concat: {video_paths_for_concat}")
     print(f"sign_video_list: {sign_video_list}")
-    print(f"sentence_video_url: {sent_url}")
-
     print("===============================================\n")
 
     # ----------------------------------------
-    # 7) API 스냅샷 저장 (latency 포함)
-    # ----------------------------------------
-        # ----------------------------------------
-    # 7) API 스냅샷 저장 (latency 포함)
-        # ----------------------------------------
     # 7) latency 보정: sec 단위 + total까지 계산
     # ----------------------------------------
-    # ms 단위에서 꺼내기 (없는 키는 0으로)
     stt_ms     = float(latency.get("stt", 0.0))
     nlp_ms     = float(latency.get("nlp", 0.0))
     mapping_ms = float(latency.get("mapping", 0.0))
@@ -412,7 +418,6 @@ def process_audio_file(django_file, mode=None, session_id=None):
 
     total_ms = stt_ms + nlp_ms + mapping_ms + synth_ms
 
-    # 필요하면 sec 단위도 같이 만들어주기
     latency_sec = {
         "stt_sec":     round(stt_ms / 1000.0, 2),
         "nlp_sec":     round(nlp_ms / 1000.0, 2),
@@ -421,7 +426,6 @@ def process_audio_file(django_file, mode=None, session_id=None):
         "total_sec":   round(total_ms / 1000.0, 2),
     }
 
-    # 디버그 출력 (그 문장 1: ~~ s / 총합: ~~ s 형태)
     print(
         f"[Perf Sentence] STT: {latency_sec['stt_sec']:.2f} s / "
         f"NLP: {latency_sec['nlp_sec']:.2f} s / "
@@ -430,33 +434,34 @@ def process_audio_file(django_file, mode=None, session_id=None):
     )
     print(f"[Perf Sentence] 총합: {latency_sec['total_sec']:.2f} s")
 
-
     # ----------------------------------------
-    current_ts = now_ts()  # 🔹 한 번만 호출해서 공통으로 사용
+    current_ts = now_ts()
 
     result = {
-        # 🔹 대시보드/프론트 공통으로 쓸 시간 필드
-        "ts": current_ts,          # PerformanceDashboard에서 우선 사용
-        "timestamp": current_ts,   # 기존 필드도 유지
-
-        "session_id": session_id,    # 이번 상담 세션 ID (없으면 None)
-        "mode": mode,                # "질문"/"응답" 등 발화 타입 (없으면 None)
-        "audio_sec": audio_sec,      # 이번 발화 길이(초)
-        "text": text,                # STT 원문
-        "clean_text": clean_text,    # Gemini NLP 결과 (or fallback)
-        "latency_ms": latency,
-        "latency_sec": latency_sec,
+        "ts": current_ts,
+        "timestamp": current_ts,
+        "session_id": session_id,
+        "mode": mode,
+        "text": text,
+        "clean_text": clean_text,
         "gloss": gloss_list,
         "gloss_ids": gloss_ids,
-        "sentence_video_url": sent_url,   # 대표 문장 영상
-        "sign_video_list": sign_video_list,    # 개별 영상 리스트
-        "gloss_labels": gloss_labels,     # gloss_id → 대표 한글 의미
+        "sentence_video_url": sent_url,
+        "sign_video_list": sign_video_list,
+        "gloss_labels": gloss_labels,
+        "audio_sec": audio_sec,
+        "video_sec": video_sec,
+        "latency_ms": latency,
+        "latency_sec": latency_sec,
     }
 
+    # 🔹 세션별 최신 결과를 서버 캐시에 저장 (다른 브라우저에서도 공유)
+    if session_id:
+        cache_key = f"signance:last_result:{session_id}"
+        try:
+            cache.set(cache_key, result, timeout=60 * 60)  # 1시간
+        except Exception as e:
+            print(f"[Cache] save error for {cache_key}: {e}")
 
     save_api_snapshot(result)
-
-    # ----------------------------------------
-    # 8) 프론트로 반환
-    # ----------------------------------------
     return result

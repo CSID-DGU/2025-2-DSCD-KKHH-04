@@ -1,10 +1,8 @@
-// frontend_clean/src/pages/Banker/Logs.jsx
-import React, { useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
+import { cerPercent } from "../../utils/cer";
+import { XCircle } from "lucide-react";
 
-/**
- * 공통 페이지 헤더
- */
 function PanelHeader({ title }) {
   return (
     <div className="mb-4 text-lg font-semibold text-slate-900 flex items-center justify-between">
@@ -13,15 +11,11 @@ function PanelHeader({ title }) {
   );
 }
 
-/**
- * 날짜 포맷터
- * createdAt(ISO 문자열 또는 일반 문자열)을 사람이 읽기 좋은 형태로 변환
- */
 function formatTime(createdAt) {
   if (!createdAt) return "-";
   try {
     const d = new Date(createdAt);
-    if (isNaN(d.getTime())) return createdAt; // 이상하면 원문 그대로
+    if (isNaN(d.getTime())) return createdAt;
     const yy = d.getFullYear();
     const mm = String(d.getMonth() + 1).padStart(2, "0");
     const dd = String(d.getDate()).padStart(2, "0");
@@ -34,54 +28,150 @@ function formatTime(createdAt) {
   }
 }
 
-/**
- * BankerLogs
- * - BankerSend / BankerSend2 에서 navigate("/banker/logs", { state: { errorEntry } }) 로 전달된 로그 표시
- * - 전달된 errorEntry는 localStorage("signanceErrorLogs") 에 누적 저장
- * - 이후에는 누적된 전체 목록을 테이블로 렌더링
- *
- * errorEntry 예시(여러 오류 쌍 버전):
- * {
- *   sttText: "정립심 예금에 가입하셨습니다.",
- *   cleanText: "적립식 예금에 가입하셨습니다.",
- *   spans: [
- *     { wrong: "정립심", correct: "적립식" },
- *     { wrong: "예금에 가입하셨습니다", correct: "적립식 예금에 가입하셨습니다" }
- *   ],
- *   createdAt: "2025-11-23T12:34:56.789Z"
- * }
- */
+// 로그 고유 키 (dedupe + 삭제 공통 기준)
+function makeLogKey(log) {
+  return `${log.createdAt}__${log.sttText}__${log.cleanText}`;
+}
+
+// NLP 텍스트 안에서 오류 구간(wrong)만 빨간색 하이라이트
+function highlightWrong(text, spans) {
+  if (!text) return "-";
+  if (!Array.isArray(spans) || spans.length === 0) return text;
+
+  let result = text;
+
+  spans.forEach((s) => {
+    if (!s.wrong) return;
+
+    const escaped = s.wrong.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const regex = new RegExp(escaped, "g");
+
+    result = result.replace(
+      regex,
+      `<span class="text-red-600 font-semibold">${s.wrong}</span>`
+    );
+  });
+
+  return result;
+}
+
+// span 단위 CER -> 평균값으로 계산
+function calcCerForLog(stt, clean, spans) {
+  // spans 배열이 있으면 각 wrong/correct 쌍 단위로 CER 계산
+  if (Array.isArray(spans) && spans.length > 0) {
+    let sum = 0;
+    let count = 0;
+
+    spans.forEach((s) => {
+      const wrong = (s.wrong || "").trim();
+      const correct = (s.correct || "").trim();
+      if (!wrong || !correct) return;
+
+      const c = cerPercent(correct, wrong); // % 숫자
+      if (!isNaN(c)) {
+        sum += c;
+        count += 1;
+      }
+    });
+
+    if (count === 0) return null;
+    return Number((sum / count).toFixed(1)); // 평균 한 자리
+  }
+
+  // span 정보가 없으면 전체 문장 기준 CER
+  if (stt && clean) {
+    return cerPercent(clean, stt);
+  }
+  return null;
+}
+
 export default function BankerLogs() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // BankerSend / Send2에서 넘어온 오류 데이터(없을 수도 있음)
   const errorEntry = location.state?.errorEntry || null;
 
-  // logs 계산 (메모이제이션)
-  const logs = useMemo(() => {
+  const [logs, setLogs] = useState([]);
+
+  // 1) 마운트 시 기존 로그 불러오기 + dedupe
+  useEffect(() => {
     try {
-      // 기존에 저장된 로그 목록
       const saved =
         JSON.parse(localStorage.getItem("signanceErrorLogs") || "[]") || [];
 
-      // 새 errorEntry가 있다면 맨 뒤에 추가
-      if (errorEntry) {
-        saved.push(errorEntry);
-        localStorage.setItem("signanceErrorLogs", JSON.stringify(saved));
+      const deduped = [];
+      const seen = new Set();
+
+      for (const log of saved) {
+        const key = makeLogKey(log);
+        if (!seen.has(key)) {
+          seen.add(key);
+          deduped.push(log);
+        }
       }
 
-      return saved;
+      localStorage.setItem("signanceErrorLogs", JSON.stringify(deduped));
+      setLogs(deduped);
     } catch (e) {
       console.warn("failed to parse signanceErrorLogs:", e);
-      return errorEntry ? [errorEntry] : [];
+      setLogs([]);
     }
+  }, []);
+
+  // 2) 새 errorEntry 있으면 한 번만 추가
+  useEffect(() => {
+    if (!errorEntry) return;
+
+    setLogs((prev) => {
+      const exists = prev.some(
+        (log) => makeLogKey(log) === makeLogKey(errorEntry)
+      );
+      if (exists) return prev;
+
+      const next = [...prev, errorEntry];
+
+      try {
+        localStorage.setItem("signanceErrorLogs", JSON.stringify(next));
+      } catch (e) {
+        console.warn("failed to save signanceErrorLogs:", e);
+      }
+
+      return next;
+    });
   }, [errorEntry]);
+
+  // 행별 삭제
+  const handleDeleteOne = (targetLog) => {
+    if (!window.confirm("해당 로그를 삭제할까요?")) return;
+
+    setLogs((prev) => {
+      const filtered = prev.filter(
+        (log) => makeLogKey(log) !== makeLogKey(targetLog)
+      );
+      try {
+        localStorage.setItem("signanceErrorLogs", JSON.stringify(filtered));
+      } catch (e) {
+        console.warn("failed to save signanceErrorLogs:", e);
+      }
+      return filtered;
+    });
+  };
+
+  // 전체 삭제
+  const handleClearAll = () => {
+    if (!window.confirm("정말 모든 번역 오류 로그를 삭제할까요?")) return;
+
+    try {
+      localStorage.removeItem("signanceErrorLogs");
+    } catch (e) {
+      console.warn("failed to clear signanceErrorLogs:", e);
+    }
+    setLogs([]);
+  };
 
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        {/* 뒤로가기 (상담 화면으로) */}
         <button
           type="button"
           onClick={() => navigate(-1)}
@@ -90,11 +180,20 @@ export default function BankerLogs() {
           ← 상담 화면으로 돌아가기
         </button>
 
-        {/* 로그 리스트 카드 */}
         <section className="rounded-2xl border border-slate-200 bg-white p-4">
-          <PanelHeader title="대화 로그 / 번역 오류 목록" />
+          <div className="flex items-center justify-between mb-2">
+            <PanelHeader title="대화 로그 / 번역 오류 목록" />
+            {logs.length > 0 && (
+              <button
+                type="button"
+                onClick={handleClearAll}
+                className="ml-4 rounded-md border border-red-100 bg-red-50 px-2 py-1 text-[11px] text-red-600 hover:bg-red-100"
+              >
+                🗑 전체 삭제
+              </button>
+            )}
+          </div>
 
-          {/* 로그가 없을 경우 */}
           {logs.length === 0 ? (
             <p className="text-sm text-slate-500">
               아직 번역 오류 로그가 없습니다.
@@ -103,30 +202,36 @@ export default function BankerLogs() {
           ) : (
             <table className="w-full table-fixed text-xs text-slate-700">
               <colgroup>
-                {/* 번호 / 시각 / STT / NLP / 잘못된 표현 / 수정 표현 */}
-                <col className="w-[60px]" />
-                <col className="w-[120px]" />
-                <col className="w-[26%]" />
-                <col className="w-[26%]" />
-                <col className="w-[14%]" />
-                <col className="w-[14%]" />
+                {[
+                  <col key={1} className="w-[40px]" />,
+                  <col key={2} className="w-[110px]" />,
+                  <col key={3} className="w-[30%]" />,
+                  <col key={4} className="w-[30%]" />,
+                  <col key={5} className="w-[6%]" />,
+                  <col key={6} className="w-[10%]" />,
+                  <col key={7} className="w-[10%]" />,
+                  <col key={8} className="w-[40px]" />,
+                ]}
               </colgroup>
 
               <thead className="border-b border-slate-200 bg-slate-50">
                 <tr>
                   <th className="px-2 py-2 text-left">번호</th>
-                  <th className="px-2 py-2 text-left">시각</th>
+                  <th className="px-2 py-2 text-left">시간</th>
                   <th className="px-2 py-2 text-left">STT 원문</th>
                   <th className="px-2 py-2 text-left">NLP 텍스트</th>
+                  <th className="px-2 py-2 text-left">CER</th>
                   <th className="px-2 py-2 text-left">오류 구간</th>
                   <th className="px-2 py-2 text-left">수정 제안</th>
+                  <th className="px-2 py-2 text-left" />
                 </tr>
               </thead>
 
               <tbody>
                 {logs.map((log, idx) => {
-                  // 1) spans 배열이 있으면 그걸 사용
-                  // 2) 없고, 예전 구조(wrongSpan/correctSpan)만 있으면 그걸 한 개짜리 배열로 래핑해서 사용
+                  const stt = log.sttText || "";
+                  const clean = log.cleanText || "";
+
                   const spans =
                     Array.isArray(log.spans) && log.spans.length > 0
                       ? log.spans
@@ -139,36 +244,45 @@ export default function BankerLogs() {
                         ]
                       : [];
 
+                  const cer = calcCerForLog(stt, clean, spans);
+
                   return (
                     <tr
-                      key={idx}
+                      key={makeLogKey(log) || idx}
                       className="border-b border-slate-100 align-top hover:bg-slate-50/70"
                     >
-                      {/* 번호 (1부터) */}
                       <td className="px-2 py-2 text-[11px] text-slate-500">
                         {idx + 1}
                       </td>
-
-                      {/* 시각 */}
                       <td className="px-2 py-2 text-[11px] text-slate-500">
                         {formatTime(log.createdAt)}
                       </td>
 
-                      {/* STT 원문 전체 문장 */}
+                      {/* STT 원문 */}
                       <td className="px-2 py-2">
                         <div className="line-clamp-3 whitespace-pre-wrap">
-                          {log.sttText || "-"}
+                          {stt || "-"}
                         </div>
                       </td>
 
-                      {/* NLP 결과 전체 문장 */}
+                      {/* NLP 텍스트: 오류 구간 하이라이트 */}
                       <td className="px-2 py-2">
-                        <div className="line-clamp-3 whitespace-pre-wrap">
-                          {log.cleanText || "-"}
-                        </div>
+                        <div
+                          className="line-clamp-3 whitespace-pre-wrap"
+                          dangerouslySetInnerHTML={{
+                            __html: highlightWrong(clean, spans),
+                          }}
+                        />
                       </td>
 
-                      {/* 잘못된 표현 여러 개 */}
+                      {/* CER */}
+                      <td className="px-2 py-2">
+                        <span className="text-[11px] text-slate-700">
+                          {cer ?? "-"}
+                        </span>
+                      </td>
+
+                      {/* 오류 구간 목록 */}
                       <td className="px-2 py-2">
                         <div className="space-y-1">
                           {spans.length === 0 ? (
@@ -189,7 +303,7 @@ export default function BankerLogs() {
                         </div>
                       </td>
 
-                      {/* 수정 제안 여러 개 */}
+                      {/* 수정 제안 목록 */}
                       <td className="px-2 py-2">
                         <div className="space-y-1">
                           {spans.length === 0 ? (
@@ -208,6 +322,17 @@ export default function BankerLogs() {
                             ))
                           )}
                         </div>
+                      </td>
+
+                      {/* X 아이콘 삭제 버튼 */}
+                      <td className="px-2 py-2 text-center align-top">
+                        <button
+                          type="button"
+                          onClick={() => handleDeleteOne(log)}
+                          className="inline-flex items-center justify-center"
+                        >
+                          <XCircle className="w-4 h-4 text-red-500 hover:text-red-600 hover:scale-110 transition-transform" />
+                        </button>
                       </td>
                     </tr>
                   );

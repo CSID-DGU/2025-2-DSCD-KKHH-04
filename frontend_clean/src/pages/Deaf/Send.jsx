@@ -1,22 +1,37 @@
 // frontend_clean/src/pages/Deaf/Send.jsx
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import NavTabs from "../../components/NavTabs"; // ✅ 공통 NavTabs 가져오기
+import NavTabs from "../../components/NavTabs"; // 공통 NavTabs
+import { useChatStore } from "../../store/chatstore";
 
-// Receive와 동일한 카드 높이 (살짝 줄임)
+// Receive와 동일한 카드 높이
 const PANEL_HEIGHT = "h-[560px]";
+
+// 백엔드 주소 + 세션 키
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+const SESSION_KEY = "signanceSessionId";
+
+// Deaf 쪽에서도 기존 세션 읽어오기
+function getExistingSessionId() {
+  try {
+    return localStorage.getItem(SESSION_KEY) || null;
+  } catch {
+    return null;
+  }
+}
 
 export default function DeafSend() {
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        {/* 🔽 여기만 바꾸면 됨: mode X, rightSlot로 토글 전달 */}
         <NavTabs rightSlot={<SendReceiveToggle active="send" />} />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
           <VideoPanel />
           <ChatPanel />
         </div>
+
         <div className="mt-4">
           <ASRPanel />
         </div>
@@ -34,10 +49,6 @@ function PanelHeader({ icon, title }) {
     </div>
   );
 }
-/* ---------------- 공통 타이틀 ---------------- */
-
-/* ---------------- 탭 메뉴 (우측 송신/수신 토글 포함) ---------------- */
-
 
 /* ---------------- 수어 인식 카메라 ---------------- */
 function VideoPanel() {
@@ -201,41 +212,142 @@ function VideoPanel() {
   );
 }
 
-/* ---------------- 상담 대화창 ---------------- */
+/* ---------------- 상담 대화창 (DeafSend용) ---------------- */
 function ChatPanel() {
-  const [messages, setMessages] = useState([
-  {
-    role: "agent",
-    text: "안녕하세요. Signance 금융 상담 서비스입니다.",
-  },
-  {
-    role: "agent",
-    text: "어떤 업무 도와드릴까요? 예금, 적금, 대출 등 편하게 말씀해 주세요.",
-  },
-  { 
-    role: "user", 
-    text: "안녕하세요. 새 통장을 만들고 싶어요." 
-  },
-  {
-    role: "agent",
-    text: "통장 개설이 완료되었습니다. 오늘부터 바로 사용하실 수 있어요.",
-  },
-]);
-
+  const { messages, setMessages } = useChatStore();
   const [input, setInput] = useState("");
   const listRef = useRef(null);
 
+  // BankerSend에서 만든 session_id
+  const [sessionId, setSessionId] = useState(() => getExistingSessionId());
+
+  // 🔹 DeafSend 화면에 "들어온 시점" 이후 채팅만 보이기 위한 기준 시간
+  const [resetAfter] = useState(() => Date.now());
+
+  // 다른 탭에서 SESSION_KEY 바뀌면 따라가기
+  useEffect(() => {
+    const onStorage = (e) => {
+      if (e.key === SESSION_KEY) {
+        setSessionId(e.newValue || null);
+      }
+    };
+    window.addEventListener("storage", onStorage);
+    return () => window.removeEventListener("storage", onStorage);
+  }, []);
+
+  // 🔹 백엔드 채팅 폴링: DeafReceive와 동일하지만 resetAfter로 필터링
+  useEffect(() => {
+    let stopped = false;
+
+    const fetchAllMessages = async () => {
+      if (!sessionId) {
+        setMessages([]);
+        return;
+      }
+
+      try {
+        const url = new URL(`${API_BASE}/api/accounts/chat/`);
+        url.searchParams.set("session_id", sessionId);
+
+        const res = await fetch(url.toString());
+        if (!res.ok) {
+          console.error("DeafSend chat fetch 실패:", await res.text());
+          return;
+        }
+
+        const data = await res.json(); // [{ id, session_id, sender, role, text, created_at }, ...]
+        if (!Array.isArray(data) || stopped) return;
+
+        // ⬇ DeafSend에 들어온 "이후" 메시지만 남기기
+        let filtered = data;
+        if (resetAfter) {
+          const cutoff =
+            typeof resetAfter === "number"
+              ? resetAfter
+              : new Date(resetAfter).getTime();
+
+          filtered = data.filter((m) => {
+            if (!m.created_at) return false;
+            const t = new Date(m.created_at).getTime();
+            return !isNaN(t) && t >= cutoff;
+          });
+        }
+
+        const mapped = filtered.map((m) => ({
+          id: m.id,
+          backendId: m.id,
+          from: m.sender === "banker" ? "agent" : "user",
+          role: m.sender === "banker" ? "agent" : "user",
+          text: m.text,
+          mode: m.role,
+          created_at: m.created_at,
+        }));
+
+        setMessages(mapped);
+      } catch (err) {
+        console.error("DeafSend chat fetch error:", err);
+      }
+    };
+
+    fetchAllMessages();
+    const timer = setInterval(fetchAllMessages, 2000);
+
+    return () => {
+      stopped = true;
+      clearInterval(timer);
+    };
+  }, [sessionId, setMessages, resetAfter]);
+
+  // 표시용 매핑
+  const mappedMessages = React.useMemo(
+    () =>
+      (messages || []).map((m) => ({
+        role: m.from || m.role || "agent",
+        text: m.text,
+      })),
+    [messages]
+  );
+
+  // 스크롤 항상 맨 아래로
   useEffect(() => {
     if (listRef.current) {
       listRef.current.scrollTop = listRef.current.scrollHeight;
     }
-  }, [messages]);
+  }, [mappedMessages]);
 
-  const send = () => {
+  // DeafSend에서 농인이 텍스트 보내기 → 백엔드 POST
+  const send = async () => {
     const text = input.trim();
     if (!text) return;
-    setMessages((m) => [...m, { role: "user", text }]);
-    setInput("");
+
+    const curSession = sessionId || getExistingSessionId();
+    if (!curSession) {
+      alert("상담 세션이 없습니다. 은행원 화면에서 상담을 시작해 주세요.");
+      return;
+    }
+
+    try {
+      const res = await fetch(`${API_BASE}/api/accounts/chat/`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        credentials: "include",
+        body: JSON.stringify({
+          session_id: curSession,
+          sender: "deaf", // 서버에서 user 쪽으로 매핑
+          role: "",       // 필요하면 질문/응답으로 확장
+          text,
+        }),
+      });
+
+      if (!res.ok) {
+        console.error("DeafSend chat POST 실패:", await res.text());
+      }
+
+      // 실제 반영은 위 폴링으로 다시 가져오게 두고
+      setInput("");
+    } catch (err) {
+      console.error("DeafSend chat POST error:", err);
+    }
   };
 
   return (
@@ -248,7 +360,7 @@ function ChatPanel() {
         ref={listRef}
         className="mt-3 flex-1 min-h-0 overflow-y-auto rounded-xl border border-slate-200 p-4 bg-slate-50"
       >
-        {messages.map((m, i) => (
+        {mappedMessages.map((m, i) => (
           <ChatBubble key={i} role={m.role} text={m.text} />
         ))}
       </div>
@@ -279,7 +391,7 @@ function ASRPanel() {
 
   return (
     <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
-      <div className="flex items-center gap-4">
+      <div className="flex items-start gap-4">
         <div className="shrink-0 w-20 h-20 rounded-full border-2 border-slate-300 grid place-items-center">
           <HandIcon />
         </div>
@@ -294,44 +406,40 @@ function ASRPanel() {
           </div>
 
           <div className="mt-4 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 flex items-center">
-  <div className="flex gap-2 flex-shrink-0">
-    <button
-  onClick={() => setMode("질문")}
-  className={
-    "px-3 h-8 rounded-lg text-sm border " +
-    (mode === "질문"
-      ? "bg-slate-900 text-white border-slate-900"
-      : "bg-white text-slate-700 border-slate-300")
-  }
->
-  질문
-</button>
+            <div className="flex gap-2 flex-shrink-0">
+              <button
+                onClick={() => setMode("질문")}
+                className={
+                  "px-3 h-8 rounded-lg text-sm border " +
+                  (mode === "질문"
+                    ? "bg-slate-900 text-white border-slate-900"
+                    : "bg-white text-slate-700 border-slate-300")
+                }
+              >
+                질문
+              </button>
 
-<button
-  onClick={() => setMode("응답")}
-  className={
-    "px-3 h-8 rounded-lg text-sm border " +
-    (mode === "응답"
-      ? "bg-slate-900 text-white border-slate-900"
-      : "bg-white text-slate-700 border-slate-300")
-  }
->
-  응답
-</button>
+              <button
+                onClick={() => setMode("응답")}
+                className={
+                  "px-3 h-8 rounded-lg text-sm border " +
+                  (mode === "응답"
+                    ? "bg-slate-900 text-white border-slate-900"
+                    : "bg-white text-slate-700 border-slate-300")
+                }
+              >
+                응답
+              </button>
+            </div>
 
-  </div>
-
-  <input
-    type="text"
-    value={text}
-    onChange={(e) => setText(e.target.value)}
-    // banker: "음성 인식 결과가 여기에 표시됩니다."
-    // deaf:   "수어 인식 결과가 여기에 표시됩니다."
-    placeholder="수어 인식 결과가 여기에 표시됩니다."
-    className="flex-1 ml-4 text-base text-slate-800 placeholder-slate-400 border-none bg-transparent focus:outline-none"
-  />
-</div>
-
+            <input
+              type="text"
+              value={text}
+              onChange={(e) => setText(e.target.value)}
+              placeholder="수어 인식 결과가 여기에 표시됩니다."
+              className="flex-1 ml-4 text-base text-slate-800 placeholder-slate-400 border-none bg-transparent focus:outline-none"
+            />
+          </div>
         </div>
 
         <div className="flex flex-col gap-2">
@@ -347,7 +455,7 @@ function ASRPanel() {
   );
 }
 
-/* ---------------- 활성 상태 진행 바 (애니메이션) ---------------- */
+/* ---------------- 활성 상태 진행 바 ---------------- */
 function StageDots() {
   const [active, setActive] = useState(0);
 
@@ -373,8 +481,31 @@ function StageDots() {
   );
 }
 
-/* ---------------- 공통 컴포넌트 ---------------- */
+/* ---------------- 공통 말풍선 ---------------- */
 function ChatBubble({ role, text }) {
+  if (role === "system") {
+    return (
+      <div className="w-full flex justify-center my-4">
+        <div
+          className="
+            inline-block
+            max-w-[90%]
+            px-4 py-2
+            rounded-xl
+            bg-slate-100
+            text-slate-800
+            font-medium
+            text-center
+            border border-slate-200
+            shadow-sm
+          "
+        >
+          {text}
+        </div>
+      </div>
+    );
+  }
+
   const isAgent = role === "agent";
 
   return (
@@ -485,45 +616,36 @@ function HandIcon({ className = "" }) {
 /* ---------------- 송신/수신 토글 ---------------- */
 function SendReceiveToggle({ active }) {
   const navigate = useNavigate();
-
   const baseBtn =
     "px-4 py-1.5 text-sm rounded-full transition-all duration-150 whitespace-nowrap";
 
   return (
     <div className="inline-flex items-center rounded-full bg-slate-200 p-1 shadow-sm">
-      {/* 송신 */}
       <button
         type="button"
         onClick={() => {
-          if (active !== "send") navigate("/deaf/send"); // 라우트는 프로젝트에 맞게 수정
+          if (active !== "send") navigate("/deaf/send");
         }}
-        className={`
-          ${baseBtn}
-          ${
-            active === "send"
-              ? "bg-slate-900 text-white shadow-sm"
-              : "bg-white text-slate-700 hover:bg-slate-100"
-          }
-        `}
+        className={`${baseBtn} ${
+          active === "send"
+            ? "bg-slate-900 text-white shadow-sm"
+            : "bg-white text-slate-700 hover:bg-slate-100"
+        }`}
         aria-pressed={active === "send"}
       >
         송신
       </button>
 
-      {/* 수신 */}
       <button
         type="button"
         onClick={() => {
           if (active !== "receive") navigate("/deaf/receive");
         }}
-        className={`
-          ${baseBtn}
-          ${
-            active === "receive"
-              ? "bg-slate-900 text-white shadow-sm"
-              : "bg-white text-slate-700 hover:bg-slate-100"
-          }
-        `}
+        className={`${baseBtn} ${
+          active === "receive"
+            ? "bg-slate-900 text-white shadow-sm"
+            : "bg-white text-slate-700 hover:bg-slate-100"
+        }`}
         aria-pressed={active === "receive"}
       >
         수신

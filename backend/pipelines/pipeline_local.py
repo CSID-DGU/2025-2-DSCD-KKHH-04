@@ -26,6 +26,7 @@ import tempfile
 
 import sounddevice as sd        # 마이크 입력
 import whisper                  # STT
+import torch
 
 # Gemini – 없으면 로컬 규칙으로만 글로스 추출
 try:
@@ -347,7 +348,7 @@ def build_gemini():
         '   입력: \"가입 대상에는 제한이 없으며 누구나 가입 가능합니다.\"\n'
         '   gloss: [\"가입\",\"대상\",\"제한\",\"가능\"]\n'
         '   입력: \"이 상품은 예금자보호법에 따라 원금과 이자를 합하여 1인당 1억원까지 보호됩니다.\"\n'
-        '   gloss: [\"상품\",\"예금자보호법\",\"원금\",\"이자\",\"1인당\",\"1억원\",\"보호\"]\n"
+        '   gloss: [\"상품\",\"예금자보호법\",\"원금\",\"이자\",\"1인당\",\"1억원\",\"보호\"]\n"'
     )
 
     return genai.GenerativeModel(
@@ -470,8 +471,10 @@ def main():
     model = build_gemini()
 
     # 3) Whisper 모델 로드
-    print("[Whisper] loading:", WHISPER_MODEL_NAME)
-    wmodel = whisper.load_model(WHISPER_MODEL_NAME)
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"[Whisper] loading: {WHISPER_MODEL_NAME} on {DEVICE}")
+
+    wmodel = whisper.load_model(WHISPER_MODEL_NAME, device=DEVICE)
 
     # 4) 오디오 입력 스트림 시작
     list_devices()

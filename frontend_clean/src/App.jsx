@@ -11,6 +11,7 @@ import Login from "./pages/login";
 import SignUpTypePage from "./pages/signup-type";
 import SignUpBankerPage from "./pages/signup-banker";
 import SignUpCustomerPage from "./pages/signup-customer";
+import ProfileEdit from "./pages/profileedit";
 
 // PC (은행원)
 import BankerIndex from "./pages/Banker/index";
@@ -23,6 +24,8 @@ import BankerLogs from "./pages/Banker/logs";
 import DeafIndex from "./pages/Deaf/index";
 import DeafSend from "./pages/Deaf/Send";
 import DeafReceive from "./pages/Deaf/Receive";
+import DeafSend2 from "./pages/Deaf/Send2";
+import DeafReceive2 from "./pages/Deaf/Receive2";
 
 // 성능 대시보드
 import PerformanceDashboard from "./pages/performancedashboard";
@@ -40,7 +43,8 @@ export default function App() {
         <Route path="/signup" element={<SignUpTypePage />} />
         <Route path="/signup/banker" element={<SignUpBankerPage />} />
         <Route path="/signup/customer" element={<SignUpCustomerPage />} />
-
+        <Route path="/profile" element={<ProfileEdit />} />
+        
         {/* 은행원 단말 */}
         <Route path="/banker" element={<BankerIndex />} />
         <Route path="/banker/send" element={<BankerSend />} />
@@ -53,6 +57,8 @@ export default function App() {
         <Route path="/deaf" element={<DeafIndex />} />
         <Route path="/deaf/send" element={<DeafSend />} />
         <Route path="/deaf/receive" element={<DeafReceive />} />
+        <Route path="/deaf/send2" element={<DeafSend2 />} />
+        <Route path="/deaf/receive2" element={<DeafReceive2 />} />
 
         {/* 성능 대시보드 */}
         <Route path="/performance" element={<PerformanceDashboard />} />

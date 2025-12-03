@@ -1,7 +1,8 @@
-// frontend_clean/src/pages/performancedashboard.jsx
+// frontend_clean/src/pages/PerformanceDashboard.jsx
 import React, { useEffect, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { XCircle } from "lucide-react";
+import { computeCER } from "../utils/cer";
 
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
@@ -11,18 +12,77 @@ function msToSec(ms) {
   return (ms / 1000).toFixed(2);
 }
 
+// 여러 형태의 시간 값을 다 받아주는 파서
+function parseLogDate(ts) {
+  if (!ts) return null;
+
+  // Date 객체
+  if (ts instanceof Date) return isNaN(ts.getTime()) ? null : ts;
+
+  // 숫자(ms)
+  if (typeof ts === "number") {
+    const d = new Date(ts);
+    return isNaN(d.getTime()) ? null : d;
+  }
+
+  if (typeof ts === "string") {
+    // 1) 일반 ISO 문자열
+    let d = new Date(ts);
+    if (!isNaN(d.getTime())) return d;
+
+    // 2) now_ts(): "YYYYMMDD_HHMMSS"
+    const m = ts.match(
+      /^(\d{4})(\d{2})(\d{2})[_-]?(\d{2})(\d{2})(\d{2})$/
+    );
+    if (m) {
+      const [, y, mo, da, h, mi, s] = m;
+      d = new Date(
+        Number(y),
+        Number(mo) - 1,
+        Number(da),
+        Number(h),
+        Number(mi),
+        Number(s)
+      );
+      if (!isNaN(d.getTime())) return d;
+    }
+  }
+
+  return null;
+}
+
 function formatTs(ts) {
-  if (!ts) return "-";
-  const d = new Date(ts);
-  if (isNaN(d.getTime())) return "-";
+  const d = parseLogDate(ts);
+  if (!d) return "-";
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(
     2,
     "0"
   )}-${String(d.getDate()).padStart(2, "0")} ${String(
     d.getHours()
-  ).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}:${String(
-    d.getSeconds()
-  ).padStart(2, "0")}`;
+  ).padStart(2, "0")}:${String(d.getMinutes()).padStart(
+    2,
+    "0"
+  )}:${String(d.getSeconds()).padStart(2, "0")}`;
+}
+
+// 로그 객체에서 시간 후보 뽑기
+function getLogTs(log) {
+  if (!log) return null;
+  return (
+    log.ts ||
+    log.createdAt ||
+    log.created_at ||
+    log.timestamp ||
+    log.time ||
+    null
+  );
+}
+
+// 정렬용 숫자(ms)
+function getLogTimeValue(log) {
+  const cand = getLogTs(log);
+  const d = parseLogDate(cand);
+  return d ? d.getTime() : 0;
 }
 
 export default function PerformanceDashboard() {
@@ -42,47 +102,82 @@ export default function PerformanceDashboard() {
     setSessionStart(Number(session));
   }, []);
 
-  // 로컬 로그 로드 + 최신순으로 정렬
+  // 로컬 로그 로드 + ts 보정 + 최신순 정렬
   useEffect(() => {
     try {
       const raw = localStorage.getItem("signanceLatencyLogs");
       if (!raw) return;
       const parsed = JSON.parse(raw);
       if (Array.isArray(parsed)) {
-        parsed.sort((a, b) => new Date(b.ts) - new Date(a.ts));
-        setLogs(parsed);
+        const normalized = parsed.map((l) => ({
+          ...l,
+          ts:
+            l.ts ||
+            l.createdAt ||
+            l.created_at ||
+            l.timestamp ||
+            l.time ||
+            null,
+        }));
+        normalized.sort((a, b) => getLogTimeValue(b) - getLogTimeValue(a));
+        setLogs(normalized);
       }
-    } catch (e) {}
+    } catch (e) {
+      console.error("[PerformanceDashboard] load local logs error:", e);
+    }
   }, []);
 
-  // 서버 로그 로드 + 최신순으로 정렬
+  // 서버 로그 로드 + ts 보정 + 최신순 정렬
   useEffect(() => {
     async function fetchServerLogs() {
       try {
         const res = await fetch(`${API_BASE}/api/accounts/speech_logs/`);
         if (!res.ok) return;
-        const serverLogs = await res.json();
-        if (!Array.isArray(serverLogs)) return;
+        const serverRaw = await res.json();
+
+        // 응답이 [] 또는 {logs: []}
+        const arr = Array.isArray(serverRaw)
+          ? serverRaw
+          : Array.isArray(serverRaw.logs)
+          ? serverRaw.logs
+          : [];
+
+        const serverLogs = arr.map((s) => ({
+          ...s,
+          ts:
+            s.ts ||
+            s.createdAt ||
+            s.created_at ||
+            s.timestamp ||
+            s.time ||
+            null,
+        }));
 
         setLogs((prev) => {
           const merged = [...prev];
           serverLogs.forEach((s) => {
-            const key = `${s.ts}-${s.sentence}`;
-            if (!merged.some((l) => `${l.ts}-${l.sentence}` === key)) {
+            const key = `${getLogTs(s)}-${s.sentence || ""}`;
+            if (
+              !merged.some(
+                (l) => `${getLogTs(l)}-${l.sentence || ""}` === key
+              )
+            ) {
               merged.push(s);
             }
           });
 
-          merged.sort((a, b) => new Date(b.ts) - new Date(a.ts));
-
+          merged.sort((a, b) => getLogTimeValue(b) - getLogTimeValue(a));
           localStorage.setItem("signanceLatencyLogs", JSON.stringify(merged));
           return merged;
         });
-      } catch (e) {}
+      } catch (e) {
+        console.error("[PerformanceDashboard] fetch server logs error:", e);
+      }
     }
     fetchServerLogs();
   }, []);
 
+  // 평균 계산 (발화 / 영상 포함)
   const averages = useMemo(() => {
     if (!logs.length) return {};
     const avg = (k) =>
@@ -93,18 +188,44 @@ export default function PerformanceDashboard() {
       mapping: avg("mapping"),
       synth: avg("synth"),
       total: avg("total"),
+      utter: avg("utter_ms"), // 발화 시간(ms)
+      video: avg("video_ms"), // 영상 길이(ms)
     };
   }, [logs]);
 
-  // ★ 최신순 기준 divider 계산
+  // 세션 기준 divider 위치 (최신순)
   const dividerIndex = useMemo(() => {
     if (!sessionStart) return null;
-    return logs.findIndex(
-      (log) => new Date(log.ts).getTime() < sessionStart
-    );
+    return logs.findIndex((log) => getLogTimeValue(log) < sessionStart);
   }, [logs, sessionStart]);
 
-  // ★ 삭제 (이제 index 그대로 사용)
+  // session_id 기준 번호 생성 (1-1, 1-2, 2-1 ...)
+  const numberedRows = useMemo(() => {
+    const sessionOrder = new Map(); // session_id -> 세션 번호
+    const sentenceCounts = new Map(); // 세션 번호 -> 몇 번째 문장인지
+    let nextSessionNo = 1;
+
+    return logs.map((log) => {
+      const sid = log.session_id || log.sessionId || "unknown";
+
+      let sessionNo = sessionOrder.get(sid);
+      if (!sessionNo) {
+        sessionNo = nextSessionNo++;
+        sessionOrder.set(sid, sessionNo);
+      }
+
+      const count = (sentenceCounts.get(sessionNo) || 0) + 1;
+      sentenceCounts.set(sessionNo, count);
+
+      return {
+        ...log,
+        _sessionNo: sessionNo,
+        displayIndex: `${sessionNo}-${count}`,
+      };
+    });
+  }, [logs]);
+
+  // 삭제
   const handleDelete = (index) => {
     if (!window.confirm("해당 로그를 삭제할까요?")) return;
 
@@ -137,12 +258,27 @@ export default function PerformanceDashboard() {
           </button>
         </div>
 
-        <section className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-6">
+        {/* 요약 카드: 발화 / 영상 평균 추가 */}
+        <section className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-7 gap-3 mb-6">
           <SummaryCard label="총 샘플" value={`${logs.length}회`} />
           <SummaryCard label="평균 STT" value={`${msToSec(averages.stt)} s`} />
           <SummaryCard label="평균 NLP" value={`${msToSec(averages.nlp)} s`} />
-          <SummaryCard label="평균 합성" value={`${msToSec(averages.synth)} s`} />
-          <SummaryCard label="평균 총합" value={`${msToSec(averages.total)} s`} />
+          <SummaryCard
+            label="평균 합성"
+            value={`${msToSec(averages.synth)} s`}
+          />
+          <SummaryCard
+            label="평균 총합"
+            value={`${msToSec(averages.total)} s`}
+          />
+          <SummaryCard
+            label="평균 발화 길이"
+            value={`${msToSec(averages.utter)} s`}
+          />
+          <SummaryCard
+            label="평균 영상 길이"
+            value={`${msToSec(averages.video)} s`}
+          />
         </section>
 
         <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
@@ -170,27 +306,49 @@ export default function PerformanceDashboard() {
               <table className="min-w-full text-xs sm:text-sm text-left text-slate-700">
                 <thead className="bg-slate-100">
                   <tr>
-                    <th className="px-3 py-2 w-[50px]">#</th>
+                    <th className="px-3 py-2 w-[70px]">#</th>
                     <th className="px-3 py-2 w-[120px]">시간</th>
                     <th className="px-3 py-2 w-[420px]">문장</th>
                     <th className="px-3 py-2 w-[90px] text-right">STT(s)</th>
                     <th className="px-3 py-2 w-[90px] text-right">NLP(s)</th>
                     <th className="px-3 py-2 w-[90px] text-right">매핑(s)</th>
                     <th className="px-3 py-2 w-[90px] text-right">합성(s)</th>
+                    {/* 새 컬럼: 발화 / 영상 길이 */}
+                    <th className="px-3 py-2 w-[90px] text-right">발화(s)</th>
+                    <th className="px-3 py-2 w-[90px] text-right">영상(s)</th>
                     <th className="px-3 py-2 w-[90px] text-right">총합(s)</th>
+                    <th className="px-3 py-2 w-[90px] text-right">CER</th>
                     <th className="px-3 py-2 w-[30px]" />
                   </tr>
                 </thead>
 
                 <tbody>
-                  {logs.map((log, i) => {
+                  {numberedRows.map((log, i) => {
                     const isDivider = dividerIndex === i;
 
+                    const sttText =
+                      log.stt_text ||
+                      log.sttText ||
+                      log.raw_stt ||
+                      log.text ||
+                      "";
+                    const nlpText =
+                      log.nlp_text ||
+                      log.nlpText ||
+                      log.cleaned_text ||
+                      log.clean_text ||
+                      "";
+
+                    const cerValue =
+                      sttText && nlpText
+                        ? computeCER(sttText, nlpText)
+                        : null;
+
                     return (
-                      <React.Fragment key={`${log.ts}-${i}`}>
+                      <React.Fragment key={`${getLogTs(log) ?? "no-ts"}-${i}`}>
                         {isDivider && (
                           <tr>
-                            <td colSpan={9} className="py-2">
+                            <td colSpan={12} className="py-2">
                               <div className="border-t border-slate-300 my-2 text-center text-xs text-slate-500">
                                 ─── 이전 세션 기록 ───
                               </div>
@@ -199,9 +357,14 @@ export default function PerformanceDashboard() {
                         )}
 
                         <tr className={i % 2 ? "bg-slate-50/80" : "bg-white"}>
-                          <td className="px-3 py-1.5 w-[50px]">{logs.length - i}</td>
+                          {/* # 칸: 1-1, 1-2 형식 */}
+                          <td className="px-3 py-1.5 w-[70px] text-center">
+                            {log.displayIndex}
+                          </td>
+
+                          {/* 시간 */}
                           <td className="px-3 py-1.5 w-[120px]">
-                            {formatTs(log.ts)}
+                            {formatTs(log.ts || getLogTs(log))}
                           </td>
 
                           <td
@@ -226,8 +389,23 @@ export default function PerformanceDashboard() {
                           <td className="px-3 py-1.5 w-[90px] text-right">
                             {msToSec(log.synth)}
                           </td>
+
+                          {/* 발화 / 영상 길이 */}
+                          <td className="px-3 py-1.5 w-[90px] text-right">
+                            {msToSec(log.utter_ms)}
+                          </td>
+                          <td className="px-3 py-1.5 w-[90px] text-right">
+                            {msToSec(log.video_ms)}
+                          </td>
+
                           <td className="px-3 py-1.5 w-[90px] text-right font-medium">
                             {msToSec(log.total)}
+                          </td>
+
+                          <td className="px-3 py-1.5 w-[90px] text-right">
+                            {cerValue != null
+                              ? `${(cerValue * 100).toFixed(1)}%`
+                              : "-"}
                           </td>
 
                           <td className="px-1 py-1.5 w-[30px] text-center">
@@ -272,7 +450,7 @@ export default function PerformanceDashboard() {
             <div className="space-y-3 text-sm text-slate-800">
               <div>
                 <div className="text-xs text-slate-500 mb-0.5">시간</div>
-                <div>{formatTs(detailLog.ts)}</div>
+                <div>{formatTs(detailLog.ts || getLogTs(detailLog))}</div>
               </div>
 
               <div>
@@ -317,6 +495,7 @@ export default function PerformanceDashboard() {
                 </div>
               </div>
 
+              {/* 상세창에도 발화 / 영상 길이 표시 */}
               <div className="grid grid-cols-2 gap-2 pt-2 border-t border-slate-200 mt-2">
                 <DetailMetric
                   label="STT 지연"
@@ -337,6 +516,14 @@ export default function PerformanceDashboard() {
                 <DetailMetric
                   label="총합 지연"
                   value={`${msToSec(detailLog.total)} s`}
+                />
+                <DetailMetric
+                  label="발화 길이"
+                  value={`${msToSec(detailLog.utter_ms)} s`}
+                />
+                <DetailMetric
+                  label="영상 길이"
+                  value={`${msToSec(detailLog.video_ms)} s`}
                 />
               </div>
 
