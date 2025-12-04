@@ -909,32 +909,38 @@ export default function ASRPanel({ onPushToChat }) {
       </section>
 
       {/* 문장별 latency 표시 */}
-      {latencyList.length > 0 && (
-        <div className="mt-2 space-y-0.5 text-xs text-slate-500">
-          {latencyList.map((lat, idx) => {
-            const label =
-              lat.round != null && lat.idxInRound != null
-                ? `${lat.round}-${lat.idxInRound + 1}`
-                : `${idx + 1}`;
-            return (
-              <div key={idx} className="flex flex-wrap gap-x-4">
-                <span>
-                  문장 {label}:
-                  {lat.audioSec != null && (
-                    <> 발화: {lat.audioSec.toFixed(2)} s /</>
-                  )}
-                  {lat.videoSec != null && (
-                    <> 영상: {lat.videoSec.toFixed(2)} s /</>
-                  )}{" "}
-                  STT: {msToSec(lat.stt)} s / NLP: {msToSec(lat.nlp)} s /
-                  매핑: {msToSec(lat.mapping)} s / 합성: {msToSec(lat.synth)} s
-                </span>
-                <span>🕐 총합: {msToSec(lat.total)} s</span>
-              </div>
-            );
-          })}
+{latencyList.length > 0 && (
+  <div className="mt-2 space-y-0.5 text-xs text-slate-500">
+    {latencyList.map((lat, idx) => {
+      // lat이 비어있으면 렌더링 스킵 (undefined 방어)
+      if (!lat) return null;
+
+      const label =
+        typeof lat.round === "number" && typeof lat.idxInRound === "number"
+          ? `${lat.round}-${lat.idxInRound + 1}`
+          : `${idx + 1}`;
+
+      return (
+        <div key={idx} className="flex flex-wrap gap-x-4">
+          <span>
+            문장 {label}:
+            {typeof lat.audioSec === "number" && (
+              <> 발화: {lat.audioSec.toFixed(2)} s /</>
+            )}
+            {typeof lat.videoSec === "number" && (
+              <> 영상: {lat.videoSec.toFixed(2)} s /</>
+            )}{" "}
+            STT: {msToSec(lat.stt)} s / NLP: {msToSec(lat.nlp)} s /
+            매핑: {msToSec(lat.mapping)} s / 합성: {msToSec(lat.synth)} s
+          </span>
+          <span>🕐 총합: {msToSec(lat.total)} s</span>
         </div>
-      )}
+      );
+    })}
+  </div>
+)}
+
+
 
       {/* 문장별 오디오 미리듣기 */}
       {audioList.length > 0 && (

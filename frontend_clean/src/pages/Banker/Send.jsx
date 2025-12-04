@@ -182,7 +182,12 @@ export default function BankerSend() {
     // 2) id 결정: 백엔드 id가 있으면 그걸 쓰고, 없으면 로컬에서 발급
     const id = created?.id ?? nextIdRef.current++;
 
-    // 3) 프론트 상태 업데이트
+    // 3) ts 생성: 백엔드 created_at > 없으면 지금 시각
+    const ts =
+      created?.created_at ??
+      new Date().toISOString();
+
+    // 4) 프론트 상태 업데이트
     setMessages((prev) => [
       ...prev,
       {
@@ -191,6 +196,7 @@ export default function BankerSend() {
         text: created?.text ?? text,
         mode: created?.role ?? "",
         created_at: created?.created_at,
+        ts, // 🔹 발화 순서용 키
       },
     ]);
 
@@ -211,7 +217,13 @@ export default function BankerSend() {
     // 2) id 결정
     const id = created?.id ?? nextIdRef.current++;
 
-    // 3) 프론트 상태 업데이트
+    // 3) ts 결정: ASRPanel ts > created_at > now
+    const finalTs =
+      ts ??
+      created?.created_at ??
+      new Date().toISOString();
+
+    // 4) 프론트 상태 업데이트
     setMessages((prev) => [
       ...prev,
       {
@@ -219,7 +231,8 @@ export default function BankerSend() {
         from: "agent", // 필요하면 mode 보고 "user"/"agent" 나눌 수 있음
         text: created?.text ?? text,
         mode: created?.role ?? mode,
-        ts: ts ?? created?.created_at,
+        created_at: created?.created_at,
+        ts: finalTs, // 🔹 발화 순서용 키
       },
     ]);
   };
@@ -275,6 +288,39 @@ function CustomerBar() {
   );
 }
 
+/* ---------------- 상담 대화 정렬용 함수 ---------------- */
+
+function getOrderKey(m) {
+  const pick = (v) => {
+    if (v instanceof Date) return v.getTime();
+    if (typeof v === "number" && !Number.isNaN(v)) return v;
+    if (typeof v === "string") {
+      // '20251203_202107', '2025-12-03T20:21:07+09:00' 등 → 숫자만 뽑아서 비교
+      const digits = v.replace(/\D/g, "");
+      if (digits) {
+        const num = Number(digits);
+        if (!Number.isNaN(num)) return num;
+      }
+    }
+    return null;
+  };
+
+  // 1순위: ts (발화 시점)
+  let key = pick(m.ts);
+  if (key != null) return key;
+
+  // 2순위: created_at (백엔드 생성 시점)
+  key = pick(m.created_at);
+  if (key != null) return key;
+
+  // 3순위: id
+  key = pick(m.id);
+  if (key != null) return key;
+
+  // 그래도 없으면 0
+  return 0;
+}
+
 /* ---------------- 상담 대화 UI ---------------- */
 
 function ChatPanel({
@@ -290,9 +336,22 @@ function ChatPanel({
   const bottomRef = useRef(null);
   const inputRef = useRef(null);
 
+  // 🔹 발화 순서 기준으로 정렬된 메시지
+  const orderedMessages = [...(messages || [])].sort((a, b) => {
+    const ka = getOrderKey(a);
+    const kb = getOrderKey(b);
+    if (ka === kb) {
+      // 같은 시점이면 id 기준으로 한 번 더 정렬
+      const ida = Number(String(a.id ?? 0).replace(/\D/g, "")) || 0;
+      const idb = Number(String(b.id ?? 0).replace(/\D/g, "")) || 0;
+      return ida - idb;
+    }
+    return ka - kb;
+  });
+
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
+  }, [orderedMessages]);
 
   useEffect(() => {
     if (editMode) {
@@ -345,7 +404,7 @@ function ChatPanel({
       </div>
 
       <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
-        {messages.map((m, idx) => (
+        {orderedMessages.map((m, idx) => (
           <ChatBubble
             key={m.id ?? `${m.from}-${idx}`}
             role={m.role || m.from}

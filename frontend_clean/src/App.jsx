@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 // 레이아웃
 import DesktopLayout from "./layouts/DesktopLayout";
+import TabletLayout from "./layouts/TabletLayout";
 
 // 메인/회원 관련 페이지
 import MainIndex from "./pages/main";
@@ -33,7 +34,10 @@ import PerformanceDashboard from "./pages/performancedashboard";
 export default function App() {
   return (
     <Routes>
-      {/* 공통 상단바/레이아웃 */}
+
+      {/* ------------------------ */}
+      {/* ① DesktopLayout 그룹     */}
+      {/* ------------------------ */}
       <Route element={<DesktopLayout />}>
         {/* 메인 */}
         <Route path="/" element={<MainIndex />} />
@@ -44,7 +48,7 @@ export default function App() {
         <Route path="/signup/banker" element={<SignUpBankerPage />} />
         <Route path="/signup/customer" element={<SignUpCustomerPage />} />
         <Route path="/profile" element={<ProfileEdit />} />
-        
+
         {/* 은행원 단말 */}
         <Route path="/banker" element={<BankerIndex />} />
         <Route path="/banker/send" element={<BankerSend />} />
@@ -52,17 +56,24 @@ export default function App() {
         <Route path="/banker/receive" element={<BankerReceive />} />
         <Route path="/banker/logs" element={<BankerLogs />} />
 
+        {/* 성능 대시보드 (관리자용) */}
+        <Route path="/performance" element={<PerformanceDashboard />} />
+      </Route>
 
+
+
+      {/* ------------------------ */}
+      {/* ② TabletLayout 그룹      */}
+      {/* ------------------------ */}
+      <Route element={<TabletLayout />}>
         {/* 농인 단말 */}
         <Route path="/deaf" element={<DeafIndex />} />
         <Route path="/deaf/send" element={<DeafSend />} />
-        <Route path="/deaf/receive" element={<DeafReceive />} />
         <Route path="/deaf/send2" element={<DeafSend2 />} />
+        <Route path="/deaf/receive" element={<DeafReceive />} />
         <Route path="/deaf/receive2" element={<DeafReceive2 />} />
-
-        {/* 성능 대시보드 */}
-        <Route path="/performance" element={<PerformanceDashboard />} />
       </Route>
+
     </Routes>
   );
 }
