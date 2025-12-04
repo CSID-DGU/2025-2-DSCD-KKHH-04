@@ -7,6 +7,7 @@ const API_BASE =
 
 const ASR_PANEL_HEIGHT = "h-[167px]";
 const SESSION_KEY = "signanceSessionId";
+const MIC_RUN_KEY = "signanceMicRunNo";
 
 function getOrCreateSessionId() {
   try {
@@ -21,6 +22,25 @@ function getOrCreateSessionId() {
   }
 }
 
+// 마이크 라운드 번호 저장용
+function getMicRunNo() {
+  try {
+    const v = Number(localStorage.getItem(MIC_RUN_KEY));
+    return Number.isFinite(v) && v > 0 ? v : 0;
+  } catch {
+    return 0;
+  }
+}
+
+function nextMicRunNo() {
+  const current = getMicRunNo();
+  const next = current + 1;
+  try {
+    localStorage.setItem(MIC_RUN_KEY, String(next));
+  } catch {}
+  return next;
+}
+
 export default function ASRPanel({ onPushToChat }) {
   const [stage, setStage] = useState(0);
 
@@ -30,12 +50,16 @@ export default function ASRPanel({ onPushToChat }) {
     sessionActiveRef.current = sessionActive;
   }, [sessionActive]);
 
-  // 🔹 문장 순서를 고정하기 위한 시퀀스 번호 (0,1,2,...)
+  // 문장 순서를 고정하기 위한 시퀀스 번호 (0,1,2,...)
   const sentenceSeqRef = useRef(0);
 
-  // 🔹 마이크 라운드(1,2,3,...) + 라운드 내 문장 인덱스(0,1,2,...) 추적
+  // 마이크 라운드(1,2,3,...) + 라운드 내 문장 인덱스(0,1,2,...) 추적
   const roundRef = useRef(0);
   const sentenceInRoundRef = useRef(0);
+
+  // 마이크 라운드 번호 & 첫 문장 여부 (PerformanceDashboard 번호용)
+  const micRunRef = useRef(getMicRunNo());
+  const isFirstUtterRef = useRef(true);
 
   const [isRec, setIsRec] = useState(false);
   const [mode, setMode] = useState("설명"); // "질의" / "설명"
@@ -56,7 +80,7 @@ export default function ASRPanel({ onPushToChat }) {
   const [isFinalizing, setIsFinalizing] = useState(false);
 
   // 각 문장별 latency 리스트 (발화 순서대로 index 고정)
-  const [latencyList, setLatencyList] = useState([]); // [{stt, nlp, mapping, synth, total, audioSec, videoSec, round, idxInRound}, …]
+  const [latencyList, setLatencyList] = useState([]); // [{stt, nlp, mapping, synth, total, audioSec, videoSec, round, idxInRound, mic_run}, …]
 
   // 각 문장별 오디오 리스트 (발화 순서대로 index 고정)
   const [audioList, setAudioList] = useState([]); // [{url, blob}, …]
@@ -155,9 +179,9 @@ export default function ASRPanel({ onPushToChat }) {
         const mr = mediaRecRef.current;
         if (mr && mr.state === "recording") {
           try {
-            mr.requestData(); // 🔹 마지막 chunk까지 강제로 뱉기
+            mr.requestData(); // 마지막 chunk까지 강제로 뱉기
           } catch {}
-          mr.stop(); // 🔹 별도 딜레이 없이 즉시 stop
+          mr.stop(); // 별도 딜레이 없이 즉시 stop
         }
       } catch {}
     };
@@ -236,7 +260,7 @@ export default function ASRPanel({ onPushToChat }) {
       const rawText = data.text || "";
       const cleanedText = data.clean_text || rawText || "";
 
-      // 🔹 세그먼트 텍스트 누적 (seq 인덱스에 고정)
+      // 세그먼트 텍스트 누적 (seq 인덱스에 고정)
       if (cleanedText) {
         setSegments((prev) => {
           const next = [...prev];
@@ -280,7 +304,7 @@ export default function ASRPanel({ onPushToChat }) {
         }
       }
 
-      // 🔹 세그먼트마다 상담창으로 바로 push
+      // 세그먼트마다 상담창으로 바로 push
       const sentenceForChat = cleanedText || rawText;
       if (sentenceForChat && typeof onPushToChat === "function") {
         try {
@@ -294,7 +318,7 @@ export default function ASRPanel({ onPushToChat }) {
         }
       }
 
-      // 🔹 latency 로그 (ms + sec 모두 대응)
+      // latency 로그 (ms + sec 모두 대응)
       if (data.latency_ms || data.latency_sec) {
         const latMs = data.latency_ms || {};
         const latSec = data.latency_sec || {};
@@ -343,21 +367,26 @@ export default function ASRPanel({ onPushToChat }) {
           }
         }
 
+        const audioSec =
+          typeof data.audio_sec === "number" ? data.audio_sec : null;
+        const videoSec =
+          typeof data.video_sec === "number" ? data.video_sec : null;
+        const mic_run = micRunRef.current || round;
+
+        // 화면에 문장별 latency 표시용 (seq 인덱스에 고정)
         const logEntryForState = {
           stt: sttMs,
           nlp: nlpMs,
           mapping: mappingMs,
           synth: synthMs,
           total: totalMs,
-          audioSec:
-            typeof data.audio_sec === "number" ? data.audio_sec : null,
-          videoSec:
-            typeof data.video_sec === "number" ? data.video_sec : null,
+          audioSec,
+          videoSec,
           round,
           idxInRound,
+          mic_run,
         };
 
-        // 3) 화면에 문장별 latency 표시용 (seq 인덱스에 고정)
         setLatencyList((prev) => {
           const next = [...prev];
           const idx = typeof seq === "number" ? seq : next.length;
@@ -365,7 +394,7 @@ export default function ASRPanel({ onPushToChat }) {
           return next;
         });
 
-        // 4) localStorage에도 저장 (순서는 기존대로 ts 기준 정렬)
+        // localStorage에도 저장 (PerformanceDashboard용)
         try {
           const prevRaw =
             localStorage.getItem("signanceLatencyLogs") || "[]";
@@ -396,13 +425,22 @@ export default function ASRPanel({ onPushToChat }) {
             gloss_ids: data.gloss_ids || [],
             session_id: data.session_id || sessionId,
             mode: data.mode || mode,
-            audio_sec:
-              typeof data.audio_sec === "number" ? data.audio_sec : null,
-            video_sec:
-              typeof data.video_sec === "number" ? data.video_sec : null,
+            audio_sec: audioSec,
+            video_sec: videoSec,
+            // PerformanceDashboard용 ms 단위
+            utter_ms:
+              typeof audioSec === "number" ? audioSec * 1000 : null,
+            video_ms:
+              typeof videoSec === "number" ? videoSec * 1000 : null,
             round,
             idxInRound,
+            mic_run,
+            // 이 마이크 라운드의 첫 문장인지 표시 (자동 구분선/세션 번호용)
+            _dividerBefore: isFirstUtterRef.current === true,
           };
+
+          // 첫 로그 이후에는 divider 플래그 끔
+          isFirstUtterRef.current = false;
 
           prev.push(logEntry);
           prev.sort((a, b) => {
@@ -420,7 +458,7 @@ export default function ASRPanel({ onPushToChat }) {
         }
       }
 
-      // 🔹 영상 URL 저장 (문장 단위 + 전체 리스트)
+      // 영상 URL 저장 (문장 단위 + 전체 리스트)
       const rawVideoSingle =
         data.sentence_video_url ||
         data.video_url ||
@@ -451,7 +489,7 @@ export default function ASRPanel({ onPushToChat }) {
 
       if (Array.isArray(videoList) && videoList.length > 0) {
         try {
-          // 🔹 DeafReceive에서 읽는 키 이름에 맞추기
+          // DeafReceive에서 읽는 키 이름에 맞추기
           localStorage.setItem(
             "signanceDeafVideoList",
             JSON.stringify(videoList)
@@ -496,10 +534,10 @@ export default function ASRPanel({ onPushToChat }) {
         const isFinalStop = finalStopRef.current;
         finalStopRef.current = false;
 
-        // 🔹 이 세그먼트의 발화 순서 인덱스 확정 (전체 인덱스)
+        // 이 세그먼트의 발화 순서 인덱스 확정 (전체 인덱스)
         const seq = sentenceSeqRef.current++;
 
-        // 🔹 현재 마이크 라운드 번호 + 라운드 내 문장 인덱스
+        // 현재 마이크 라운드 번호 + 라운드 내 문장 인덱스
         const round = roundRef.current || 1;
         const idxInRound = sentenceInRoundRef.current++;
 
@@ -517,14 +555,14 @@ export default function ASRPanel({ onPushToChat }) {
             const url = URL.createObjectURL(blob);
             audioUrlsRef.current.push(url);
 
-            // 🔹 오디오도 seq 인덱스에 고정
+            // 오디오도 seq 인덱스에 고정
             setAudioList((prev) => {
               const next = [...prev];
               next[seq] = { url, blob };
               return next;
             });
 
-            // 🔹 서버 업로드도 seq + round 정보 함께
+            // 서버 업로드도 seq + round 정보 함께
             uploadBlob(blob, isFinalStop, seq, round, idxInRound);
           }
         } catch {
@@ -551,7 +589,7 @@ export default function ASRPanel({ onPushToChat }) {
         }
       };
 
-      // 🔹 0.25초 단위로 chunk 쪼개기 (Enter 이후 딜레이 줄이기)
+      // 0.25초 단위로 chunk 쪼개기 (Enter 이후 딜레이 줄이기)
       mr.start(250);
 
       setIsRec(true);
@@ -575,9 +613,12 @@ export default function ASRPanel({ onPushToChat }) {
     setLatencyList([]);
     sentenceSeqRef.current = 0;
 
-    // 🔹 새 마이크 라운드 시작 (1,2,3,...)
-    roundRef.current += 1;
+    // 새 마이크 라운드 시작 (1,2,3,...)
+    const newRound = nextMicRunNo();
+    roundRef.current = newRound;
+    micRunRef.current = newRound;
     sentenceInRoundRef.current = 0;
+    isFirstUtterRef.current = true;
 
     setSessionActive(true);
     localStorage.setItem("signanceDeafStatus", "stt_running");
@@ -593,7 +634,7 @@ export default function ASRPanel({ onPushToChat }) {
       const mr = mediaRecRef.current;
       if (mr && mr.state === "recording") {
         try {
-          mr.requestData(); // 🔹 마지막 chunk 강제 flush
+          mr.requestData(); // 마지막 chunk 강제 flush
         } catch {}
         mr.stop();
       }
@@ -646,9 +687,7 @@ export default function ASRPanel({ onPushToChat }) {
       return;
     }
 
-    // 🔹 문장 리스트 (cleaned 기준)
-    //  - 세그먼트가 있으면: segments[0], segments[1], ...
-    //  - 없으면: 전체를 하나의 문장으로 취급
+    // 문장 리스트 (cleaned 기준)
     const segmentTexts =
       segments.length > 0
         ? segments.map((s) => s.text || "")
@@ -656,17 +695,14 @@ export default function ASRPanel({ onPushToChat }) {
 
     const baseTime = new Date().toISOString();
 
-    // 🔹 span 개수만큼 로그 엔트리 쪼개기
-    //  - span[0] → 1번 문장
-    //  - span[1] → 2번 문장
-    //  - (문장 수보다 span이 많으면 마지막 문장에 붙이기)
+    // span 개수만큼 로그 엔트리 쪼개기
     const newEntries = filtered.map((s, idx) => {
       const segIdx = idx < segmentTexts.length ? idx : segmentTexts.length - 1;
       const segText = segmentTexts[segIdx] || cleanText || rawText;
 
       return {
-        sttText: segText, // STT 원문 칸에 보일 문장
-        cleanText: segText, // 필요하면 나중에 별도로 분리 가능
+        sttText: segText,
+        cleanText: segText,
         spans: [
           {
             wrong: s.wrong,
@@ -677,7 +713,7 @@ export default function ASRPanel({ onPushToChat }) {
       };
     });
 
-    // 🔹 용어 사전(치환 규칙)도 기존처럼 누적
+    // 용어 사전(치환 규칙) 누적
     try {
       const prevDict =
         JSON.parse(localStorage.getItem("signanceTerminologyDict") || "[]") ||
@@ -693,11 +729,11 @@ export default function ASRPanel({ onPushToChat }) {
       console.warn("terminology dict save error:", e);
     }
 
-    // 🔹 오류 로그(signanceErrorLogs)에 여러 개 행으로 저장
+    // 오류 로그 저장
     try {
       const prevLogs =
         JSON.parse(localStorage.getItem("signanceErrorLogs") || "[]") || [];
-      const mergedLogs = [...newEntries, ...prevLogs]; // 새 로그를 위에
+      const mergedLogs = [...newEntries, ...prevLogs];
       localStorage.setItem(
         "signanceErrorLogs",
         JSON.stringify(mergedLogs)
@@ -706,9 +742,7 @@ export default function ASRPanel({ onPushToChat }) {
       console.warn("signanceErrorLogs save error:", e);
     }
 
-    // 🔹 로그 화면으로 이동 (state 안 넘겨도 됨)
     navigate("/banker/logs");
-
     setShowErrorPopup(false);
   };
 
