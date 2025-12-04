@@ -1,0 +1,53 @@
+{
+  "timestamp": "20251201_215427",
+  "stt": "이거는 1개월 6개월 12개월 36개월 등 다양하게 선택하실 수 있습니다.",
+  "tokens": [
+    {
+      "text": "이것",
+      "type": "gloss"
+    },
+    {
+      "text": "기간",
+      "type": "gloss"
+    },
+    {
+      "text": "1개월",
+      "type": "image"
+    },
+    {
+      "text": "6개월",
+      "type": "image"
+    },
+    {
+      "text": "12개월",
+      "type": "image"
+    },
+    {
+      "text": "36개월",
+      "type": "image"
+    },
+    {
+      "text": "PAUSE",
+      "type": "pause"
+    },
+    {
+      "text": "선택",
+      "type": "gloss"
+    },
+    {
+      "text": "다양하다",
+      "type": "gloss"
+    }
+  ],
+  "play_queue": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\102682.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103117.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpwkarn7op.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpqryf2a6q.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmphvpwbxw2.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpe_7fdmyt.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmp2t232u20.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101686.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101649.mp4"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "20251120_142735",
+  "snapshot_index": 4,
+  "raw": {
+    "stt_text": "",
+    "whisper_latency_ms": 1359.8,
+    "snapshot_mode": "delta",
+    "tail_seconds": null
+  },
+  "gemini": {
+    "gloss": [],
+    "gloss_ids": []
+  }
+}

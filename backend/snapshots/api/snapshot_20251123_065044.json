@@ -1,0 +1,49 @@
+{
+  "text": "예금자 보호법에 따라 최대 1학원을 받으실 수 있습니다.",
+  "clean_text": "예금자 보호법에 따라 최대 1학원을 받으실 수 있습니다.",
+  "latency_ms": {
+    "stt": 3963.4,
+    "nlp": 5434.8,
+    "mapping": 73.7,
+    "synth": 180.8,
+    "total": 9652.7
+  },
+  "gloss": [
+    "예금자",
+    "보호법에",
+    "따라",
+    "최대",
+    "1학원을",
+    "받으실",
+    "수",
+    "있습니다"
+  ],
+  "gloss_ids": [
+    "100782",
+    "102274",
+    "104447",
+    "104349",
+    "104250",
+    "104138",
+    "101508"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_065043.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100782.mp4",
+    "/media/sign_videos/102274.mp4",
+    "/media/sign_videos/104447.mp4",
+    "/media/sign_videos/104349.mp4",
+    "/media/sign_videos/104250.mp4",
+    "/media/sign_videos/104138.mp4",
+    "/media/sign_videos/101508.mp4"
+  ],
+  "gloss_labels": [
+    "예금이자",
+    "보호",
+    "뒤따르다",
+    "세대",
+    "학원",
+    "수",
+    "-ㅂ니다"
+  ]
+}

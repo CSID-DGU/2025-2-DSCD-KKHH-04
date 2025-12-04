@@ -1,0 +1,30 @@
+{
+  "timestamp": "20251127_134222",
+  "text": "최대 0.4%까지 가능합니다.",
+  "clean_text": "최대 0.4%까지 가능합니다.",
+  "latency_ms": {
+    "stt": 5726.4,
+    "nlp": 2561.0,
+    "mapping": 21.6,
+    "synth": 152.7,
+    "total": 8461.7
+  },
+  "gloss": [
+    "최대",
+    "0.4%",
+    "가능"
+  ],
+  "gloss_ids": [
+    "104349",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_134222.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104349.mp4",
+    "/media/sign_videos/101849.mp4"
+  ],
+  "gloss_labels": [
+    "세대",
+    "가능"
+  ]
+}

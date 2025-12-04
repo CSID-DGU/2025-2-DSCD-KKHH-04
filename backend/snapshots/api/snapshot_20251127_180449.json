@@ -1,0 +1,36 @@
+{
+  "timestamp": "20251127_180449",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 1.8,
+  "text": "이거 다 썼는데 대부분",
+  "clean_text": "이것은 대부분 다 썼습니다.",
+  "latency_ms": {
+    "stt": 6456.2,
+    "nlp": 5629.2,
+    "mapping": 18.4,
+    "synth": 619.6,
+    "total": 12723.4
+  },
+  "gloss": [
+    "이것",
+    "대부분",
+    "사용"
+  ],
+  "gloss_ids": [
+    "102682",
+    "104629",
+    "102387"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_180448.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102682.mp4",
+    "/media/sign_videos/104629.mp4",
+    "/media/sign_videos/102387.mp4"
+  ],
+  "gloss_labels": [
+    "여기",
+    "대다수",
+    "사용"
+  ]
+}

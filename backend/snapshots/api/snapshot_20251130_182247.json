@@ -1,0 +1,61 @@
+{
+  "ts": "20251130_182247",
+  "timestamp": "20251130_182247",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 10.92,
+  "text": "가입 시점의 금리가 그대로 고정되기 때문에 앞으로 시장 금리가 상관없이 동일한 만기까지 안정적으로 받을 수 있습니다.",
+  "clean_text": "가입 시점의 금리가 고정되어 시장 금리 변동과 상관없이 만기까지 안정적으로 받을 수 있습니다.",
+  "latency_ms": {
+    "stt": 8531.2,
+    "nlp": 7072.0,
+    "mapping": 160.0,
+    "synth": 1003.9,
+    "total": 16767.100000000002
+  },
+  "gloss": [
+    "가입",
+    "시점",
+    "금리",
+    "고정",
+    "시장",
+    "변동",
+    "만기",
+    "안정",
+    "수령"
+  ],
+  "gloss_ids": [
+    "103220",
+    "104318",
+    "101590",
+    "104398",
+    "104123",
+    "101664",
+    "100357",
+    "103074",
+    "104138"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_182246.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/104318.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/104398.mp4",
+    "/media/sign_videos/104123.mp4",
+    "/media/sign_videos/101664.mp4",
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/103074.mp4",
+    "/media/sign_videos/104138.mp4"
+  ],
+  "gloss_labels": [
+    "가입",
+    "소수점",
+    "(값이)오르다",
+    "고정",
+    "시장",
+    "갈다",
+    "만기",
+    "안심",
+    "수"
+  ]
+}

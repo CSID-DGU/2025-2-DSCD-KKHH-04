@@ -1,0 +1,33 @@
+{
+  "ts": "20251130_184709",
+  "timestamp": "20251130_184709",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "질의",
+  "audio_sec": 6.72,
+  "text": "통장을 만들고 싶으신가요?",
+  "clean_text": "통장을 만들고 싶으신가요?",
+  "latency_ms": {
+    "stt": 3520.7,
+    "nlp": 4417.4,
+    "mapping": 0.6,
+    "synth": 275.7,
+    "total": 8214.4
+  },
+  "gloss": [
+    "통장",
+    "개설"
+  ],
+  "gloss_ids": [
+    "104886",
+    "100020"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_184708.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104886.mp4",
+    "/media/sign_videos/100020.mp4"
+  ],
+  "gloss_labels": [
+    "통장",
+    "개설"
+  ]
+}

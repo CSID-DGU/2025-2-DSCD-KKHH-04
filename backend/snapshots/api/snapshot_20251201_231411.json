@@ -1,0 +1,53 @@
+{
+  "ts": "20251201_231411",
+  "timestamp": "20251201_231411",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 6.78,
+  "text": "전기 예금은 원금 보장성 통증 가장 안정적인 형태입니다.",
+  "clean_text": "정기 예금은 원금 보장 상품 중 가장 안정적인 형태입니다.",
+  "latency_ms": {
+    "stt": 6119.0,
+    "nlp": 2860.1,
+    "mapping": 9.7,
+    "synth": 215.3,
+    "total": 9204.1
+  },
+  "gloss": [
+    "정기",
+    "예금",
+    "원금",
+    "보장",
+    "상품",
+    "안정",
+    "형태"
+  ],
+  "gloss_ids": [
+    "101067",
+    "101937",
+    "102713",
+    "101923",
+    "103392",
+    "103074",
+    "101926"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_231411.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101067.mp4",
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/101923.mp4",
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/103074.mp4",
+    "/media/sign_videos/101926.mp4"
+  ],
+  "gloss_labels": [
+    "정기휴업",
+    "저축",
+    "원금",
+    "보증",
+    "물건",
+    "안심",
+    "모습"
+  ]
+}

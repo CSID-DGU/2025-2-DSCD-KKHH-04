@@ -1,0 +1,36 @@
+{
+  "ts": "20251203_214521",
+  "timestamp": "20251203_214521",
+  "session_id": "sess_1764762019270_xk2zjg",
+  "mode": "설명",
+  "text": "이제 이제는",
+  "clean_text": "이제",
+  "gloss": [
+    "이제"
+  ],
+  "gloss_ids": [
+    "102522"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_214519.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102522.mp4"
+  ],
+  "gloss_labels": [
+    "지금"
+  ],
+  "audio_sec": 8.22,
+  "video_sec": 3.3,
+  "latency_ms": {
+    "stt": 23616.2,
+    "nlp": 2250.9,
+    "mapping": 0.0,
+    "synth": 2546.6
+  },
+  "latency_sec": {
+    "stt_sec": 23.62,
+    "nlp_sec": 2.25,
+    "mapping_sec": 0.0,
+    "synth_sec": 2.55,
+    "total_sec": 28.41
+  }
+}

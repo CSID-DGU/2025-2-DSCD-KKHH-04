@@ -1,0 +1,33 @@
+{
+  "timestamp": "20251127_142354",
+  "text": "안 할 수 있습니다",
+  "clean_text": "하지 않을 수 있습니다.",
+  "latency_ms": {
+    "stt": 14371.7,
+    "nlp": 8114.7,
+    "mapping": 11.4,
+    "synth": 498.7,
+    "total": 22996.500000000004
+  },
+  "gloss": [
+    "부정",
+    "행동",
+    "가능"
+  ],
+  "gloss_ids": [
+    "102779",
+    "104641",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_142354.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102779.mp4",
+    "/media/sign_videos/104641.mp4",
+    "/media/sign_videos/101849.mp4"
+  ],
+  "gloss_labels": [
+    "부정",
+    "행동",
+    "가능"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "ts": "20251201_180509",
+  "timestamp": "20251201_180509",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 4.26,
+  "text": "구독과 좋아요는 저에게 아주 큰 힘이 됩니다.",
+  "clean_text": "구독과 좋아요는 저에게 큰 힘이 됩니다.",
+  "latency_ms": {
+    "stt": 5948.5,
+    "nlp": 3712.0,
+    "mapping": 65.7,
+    "synth": 376.4,
+    "total": 10102.6
+  },
+  "gloss": [
+    "구독",
+    "좋아요",
+    "저",
+    "힘"
+  ],
+  "gloss_ids": [
+    "103461",
+    "102285",
+    "101913"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_180509.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103461.mp4",
+    "/media/sign_videos/102285.mp4",
+    "/media/sign_videos/101913.mp4"
+  ],
+  "gloss_labels": [
+    "독",
+    "자신",
+    "기운"
+  ]
+}

@@ -1,0 +1,32 @@
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+
+# 합칠 파일 목록
+files = [
+    ROOT / "gloss_tokens1.txt",
+    ROOT / "gloss_tokens2.txt",
+    ROOT / "gloss_tokens3.txt",
+    ROOT / "gloss_tokens4.txt",
+]
+
+output_path = ROOT / "gloss_tokens_merged.txt"
+
+unique_tokens = set()
+
+for f in files:
+    if f.exists():
+        with f.open("r", encoding="utf-8") as fp:
+            for line in fp:
+                token = line.strip()
+                if token:
+                    unique_tokens.add(token)
+
+# 정렬해서 저장 (원하면 제거 가능)
+sorted_tokens = sorted(unique_tokens)
+
+with output_path.open("w", encoding="utf-8") as out:
+    for token in sorted_tokens:
+        out.write(token + "\n")
+
+print(f"[Done] 총 {len(sorted_tokens)}개 저장 완료 → {output_path}")

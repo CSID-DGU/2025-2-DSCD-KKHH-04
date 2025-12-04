@@ -1,0 +1,37 @@
+{
+  "timestamp": "20251123_211001",
+  "text": "고객님께서 원하시면 지금 바로 금리를 비교해 드릴 수 있어요.",
+  "clean_text": "원하시면 지금 바로 금리를 비교해 드릴 수 있습니다.",
+  "latency_ms": {
+    "stt": 20591.1,
+    "nlp": 2881.8,
+    "mapping": 403.1,
+    "synth": 1154.4,
+    "total": 25030.399999999998
+  },
+  "gloss": [
+    "원",
+    "지금",
+    "금리",
+    "비교"
+  ],
+  "gloss_ids": [
+    "104680",
+    "102522",
+    "101590",
+    "101871"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_210959.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104680.mp4",
+    "/media/sign_videos/102522.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/101871.mp4"
+  ],
+  "gloss_labels": [
+    "내키다",
+    "지금",
+    "(값이)오르다",
+    "비교"
+  ]
+}

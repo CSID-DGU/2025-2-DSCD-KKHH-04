@@ -1,0 +1,29 @@
+{
+  "ts": "20251130_215339",
+  "timestamp": "20251130_215339",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 1.62,
+  "text": "안녕하세요",
+  "clean_text": "안녕하세요.",
+  "latency_ms": {
+    "stt": 6416.1,
+    "nlp": 2106.1,
+    "mapping": 0.5,
+    "synth": 406.2,
+    "total": 8928.900000000001
+  },
+  "gloss": [
+    "안녕"
+  ],
+  "gloss_ids": [
+    "101932"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_215339.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101932.mp4"
+  ],
+  "gloss_labels": [
+    "안녕"
+  ]
+}

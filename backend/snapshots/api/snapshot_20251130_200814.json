@@ -1,0 +1,21 @@
+{
+  "ts": "20251130_200814",
+  "timestamp": "20251130_200814",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 8.16,
+  "text": "",
+  "clean_text": "",
+  "latency_ms": {
+    "stt": 7663.5,
+    "nlp": 2135.8,
+    "mapping": 0.0,
+    "synth": 0.0,
+    "total": 9799.3
+  },
+  "gloss": [],
+  "gloss_ids": [],
+  "sentence_video_url": null,
+  "sign_video_list": [],
+  "gloss_labels": []
+}

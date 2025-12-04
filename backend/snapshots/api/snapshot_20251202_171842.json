@@ -1,0 +1,32 @@
+{
+  "ts": "20251202_171842",
+  "timestamp": "20251202_171842",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 5.1,
+  "text": "그렇습니다. под donburi",
+  "clean_text": "맞습니다. 덮밥입니다.",
+  "latency_ms": {
+    "stt": 31323.7,
+    "nlp": 11628.8,
+    "mapping": 102.7,
+    "synth": 401.4
+  },
+  "gloss": [
+    "맞다",
+    "덮밥"
+  ],
+  "gloss_ids": [
+    "101952",
+    "101748"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_171841.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101952.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101748.mp4"
+  ],
+  "gloss_labels": [
+    "사실",
+    "식탁"
+  ]
+}

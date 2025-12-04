@@ -1,0 +1,33 @@
+{
+  "ts": "20251130_182213",
+  "timestamp": "20251130_182213",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 2.88,
+  "text": "고객님 안녕하세요",
+  "clean_text": "안녕하세요.",
+  "latency_ms": {
+    "stt": 5036.3,
+    "nlp": 3951.2,
+    "mapping": 9.7,
+    "synth": 577.5,
+    "total": 9574.7
+  },
+  "gloss": [
+    "고객",
+    "안녕"
+  ],
+  "gloss_ids": [
+    "101853",
+    "101932"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_182212.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101853.mp4",
+    "/media/sign_videos/101932.mp4"
+  ],
+  "gloss_labels": [
+    "초대",
+    "안녕"
+  ]
+}

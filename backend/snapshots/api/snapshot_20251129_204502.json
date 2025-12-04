@@ -1,0 +1,32 @@
+{
+  "timestamp": "20251129_204502",
+  "session_id": "sess_1764416663609_4uy4a9",
+  "mode": "응답",
+  "audio_sec": 3.3,
+  "text": "안녕 가세요",
+  "clean_text": "안녕히 가세요.",
+  "latency_ms": {
+    "stt": 23090.4,
+    "nlp": 3374.7,
+    "mapping": 18.5,
+    "synth": 1142.4,
+    "total": 27626.000000000004
+  },
+  "gloss": [
+    "안녕",
+    "가다"
+  ],
+  "gloss_ids": [
+    "101932",
+    "103261"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_204501.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101932.mp4",
+    "/media/sign_videos/103261.mp4"
+  ],
+  "gloss_labels": [
+    "안녕",
+    "가다"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": "20251129_183105",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 7.08,
+  "text": "올 라미크 맥은 최소 10만원에서 최대 300만원까지 선택할 수 있습니다.",
+  "clean_text": "올 라미크 맥은 최소 10만원에서 최대 300만원까지 선택 가능합니다.",
+  "latency_ms": {
+    "stt": 5993.1,
+    "nlp": 3904.9,
+    "mapping": 66.9,
+    "synth": 252.2,
+    "total": 10217.1
+  },
+  "gloss": [
+    "올 라미크 맥",
+    "최소",
+    "10만원",
+    "최대",
+    "300만원",
+    "선택"
+  ],
+  "gloss_ids": [
+    "102584",
+    "101421",
+    "104349",
+    "101686"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_183104.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102584.mp4",
+    "/media/sign_videos/101421.mp4",
+    "/media/sign_videos/104349.mp4",
+    "/media/sign_videos/101686.mp4"
+  ],
+  "gloss_labels": [
+    "소",
+    "복잡하다",
+    "세대",
+    "선택"
+  ]
+}

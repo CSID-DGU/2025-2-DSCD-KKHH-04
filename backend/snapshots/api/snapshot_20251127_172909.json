@@ -1,0 +1,20 @@
+{
+  "timestamp": "20251127_172909",
+  "session_id": null,
+  "mode": null,
+  "audio_sec": 3.18,
+  "text": "",
+  "clean_text": "",
+  "latency_ms": {
+    "stt": 8769.5,
+    "nlp": 1902.0,
+    "mapping": 0.0,
+    "synth": 0.0,
+    "total": 10671.5
+  },
+  "gloss": [],
+  "gloss_ids": [],
+  "sentence_video_url": null,
+  "sign_video_list": [],
+  "gloss_labels": []
+}

@@ -1,0 +1,33 @@
+{
+  "timestamp": "20251125_112450",
+  "text": "distractions connected",
+  "clean_text": "방해 요소들이 연결되어 있습니다.",
+  "latency_ms": {
+    "stt": 192956.2,
+    "nlp": 6457.3,
+    "mapping": 26.2,
+    "synth": 226.4,
+    "total": 199666.1
+  },
+  "gloss": [
+    "방해",
+    "요소",
+    "연결"
+  ],
+  "gloss_ids": [
+    "104211",
+    "102584",
+    "102392"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_112450.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104211.mp4",
+    "/media/sign_videos/102584.mp4",
+    "/media/sign_videos/102392.mp4"
+  ],
+  "gloss_labels": [
+    "거치다",
+    "소",
+    "연락"
+  ]
+}

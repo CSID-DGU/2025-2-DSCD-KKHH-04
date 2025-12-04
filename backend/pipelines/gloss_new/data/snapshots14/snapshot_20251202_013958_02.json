@@ -1,0 +1,195 @@
+{
+  "timestamp": "20251202_013958",
+  "stt_raw": "한 통장당 한 계좌에 나비 금액을 설정하실 수 있습니다.",
+  "nlp_tokens": [
+    {
+      "text": "통장",
+      "type": "gloss"
+    },
+    {
+      "text": "1개",
+      "type": "image"
+    },
+    {
+      "text": "PAUSE",
+      "type": "pause"
+    },
+    {
+      "text": "계좌",
+      "type": "gloss"
+    },
+    {
+      "text": "1개",
+      "type": "image"
+    },
+    {
+      "text": "PAUSE",
+      "type": "pause"
+    },
+    {
+      "text": "나비",
+      "type": "gloss"
+    },
+    {
+      "text": "돈",
+      "type": "gloss"
+    },
+    {
+      "text": "정하다",
+      "type": "gloss"
+    },
+    {
+      "text": "가능",
+      "type": "gloss"
+    }
+  ],
+  "processing_detail": [
+    {
+      "nlp_token": "통장",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "통장"
+        ],
+        "video_ids": [
+          101215
+        ],
+        "method": "fixed_rule",
+        "files": [
+          "101215.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "1개",
+      "type": "image",
+      "final_mapping": {
+        "status": "image",
+        "method": "llm_directive"
+      }
+    },
+    {
+      "nlp_token": "PAUSE",
+      "type": "pause",
+      "final_mapping": {
+        "status": "pause",
+        "duration": 1.0
+      }
+    },
+    {
+      "nlp_token": "계좌",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "계좌"
+        ],
+        "video_ids": [
+          "100089"
+        ],
+        "method": "exact/similarity",
+        "files": [
+          "100089.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "1개",
+      "type": "image",
+      "final_mapping": {
+        "status": "image",
+        "method": "llm_directive"
+      }
+    },
+    {
+      "nlp_token": "PAUSE",
+      "type": "pause",
+      "final_mapping": {
+        "status": "pause",
+        "duration": 1.0
+      }
+    },
+    {
+      "nlp_token": "나비",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "나비"
+        ],
+        "video_ids": [
+          "104056"
+        ],
+        "method": "exact/similarity",
+        "files": [
+          "104056.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "돈",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "값"
+        ],
+        "video_ids": [
+          "104190"
+        ],
+        "method": "exact/similarity",
+        "files": [
+          "104190.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "정하다",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "결정"
+        ],
+        "video_ids": [
+          101691
+        ],
+        "method": "context_default",
+        "files": [
+          "101691.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "가능",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "가능"
+        ],
+        "video_ids": [
+          "101849"
+        ],
+        "method": "exact/similarity",
+        "files": [
+          "101849.mp4"
+        ]
+      }
+    }
+  ],
+  "play_queue": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101215.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpzcrz81py.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpbsqi3rtw.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100089.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpkosw0cqr.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmp5o0qppy6.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104056.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104190.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101691.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101849.mp4"
+  ],
+  "saved_video_path": "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\vd_output\\20251202_013958.mp4"
+}

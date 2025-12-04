@@ -1,0 +1,25 @@
+{
+  "timestamp": "20251125_125908",
+  "text": "flame",
+  "clean_text": "불꽃입니다.",
+  "latency_ms": {
+    "stt": 27036.3,
+    "nlp": 10133.9,
+    "mapping": 18.5,
+    "synth": 806.0,
+    "total": 37994.7
+  },
+  "gloss": [
+    "불꽃"
+  ],
+  "gloss_ids": [
+    "102665"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_125907.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102665.mp4"
+  ],
+  "gloss_labels": [
+    "불"
+  ]
+}

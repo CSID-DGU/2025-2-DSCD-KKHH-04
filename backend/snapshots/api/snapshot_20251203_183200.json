@@ -1,0 +1,56 @@
+{
+  "ts": "20251203_183200",
+  "timestamp": "20251203_183200",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "고객님 어서오세요 오늘 어떤 안무를 도와드릴까요",
+  "clean_text": "어서 오세요, 고객님. 오늘 어떤 업무를 도와드릴까요?",
+  "gloss": [
+    "안녕하세요",
+    "고객님",
+    "오늘",
+    "무슨",
+    "일",
+    "돕다"
+  ],
+  "gloss_ids": [
+    "104185",
+    "101853",
+    "102615",
+    "102867",
+    "101889",
+    "103533"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_183159.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104185.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101853.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102615.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102867.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101889.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103533.mp4"
+  ],
+  "gloss_labels": [
+    "안녕하세요",
+    "초대",
+    "오늘",
+    "어느",
+    "근로",
+    "돕다"
+  ],
+  "audio_sec": 5.22,
+  "video_sec": 23.031,
+  "latency_ms": {
+    "stt": 11945.2,
+    "nlp": 9045.1,
+    "mapping": 68.5,
+    "synth": 199.4
+  },
+  "latency_sec": {
+    "stt_sec": 11.95,
+    "nlp_sec": 9.05,
+    "mapping_sec": 0.07,
+    "synth_sec": 0.2,
+    "total_sec": 21.26
+  }
+}

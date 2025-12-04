@@ -1,0 +1,34 @@
+{
+  "ts": "20251201_170737",
+  "timestamp": "20251201_170737",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 4.74,
+  "text": "범주형때마를 가지고 얘기할거에요. 범주형때마를.. 범주형.. 아.. 네..자에 대해서..",
+  "clean_text": "범주형 변수에 대해 이야기할 거예요.",
+  "latency_ms": {
+    "stt": 17515.5,
+    "nlp": 6739.7,
+    "mapping": 83.8,
+    "synth": 326.4,
+    "total": 24665.4
+  },
+  "gloss": [
+    "범주형",
+    "변수",
+    "이야기"
+  ],
+  "gloss_ids": [
+    "104138",
+    "102955"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_170736.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104138.mp4",
+    "/media/sign_videos/102955.mp4"
+  ],
+  "gloss_labels": [
+    "수",
+    "이야기"
+  ]
+}

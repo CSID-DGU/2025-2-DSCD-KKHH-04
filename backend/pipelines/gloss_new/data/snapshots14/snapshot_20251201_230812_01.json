@@ -1,0 +1,200 @@
+{
+  "timestamp": "20251201_230812",
+  "stt_raw": "전기예금은 원금 보장 중 가장 안정적인 형태입니다.",
+  "nlp_tokens": [
+    {
+      "text": "예금",
+      "type": "gloss"
+    },
+    {
+      "text": "기간",
+      "type": "gloss"
+    },
+    {
+      "text": "정하다",
+      "type": "gloss"
+    },
+    {
+      "text": "PAUSE",
+      "type": "pause"
+    },
+    {
+      "text": "원금",
+      "type": "gloss"
+    },
+    {
+      "text": "보장",
+      "type": "gloss"
+    },
+    {
+      "text": "형태",
+      "type": "gloss"
+    },
+    {
+      "text": "안정",
+      "type": "gloss"
+    },
+    {
+      "text": "최고",
+      "type": "gloss"
+    }
+  ],
+  "processing_detail": [
+    {
+      "nlp_token": "예금",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "예금"
+        ],
+        "video_ids": [
+          100774
+        ],
+        "method": "context_default",
+        "files": [
+          "100774.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "기간",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "동안"
+        ],
+        "video_ids": [
+          103117
+        ],
+        "method": "context_default",
+        "files": [
+          "103117.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "정하다",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "결정"
+        ],
+        "video_ids": [
+          101691
+        ],
+        "method": "context_default",
+        "files": [
+          "101691.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "PAUSE",
+      "type": "pause",
+      "final_mapping": {
+        "status": "pause",
+        "duration": 1.0
+      }
+    },
+    {
+      "nlp_token": "원금",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "원금"
+        ],
+        "video_ids": [
+          100844
+        ],
+        "method": "context_default",
+        "files": [
+          "100844.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "보장",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "보증"
+        ],
+        "video_ids": [
+          "101923"
+        ],
+        "method": "exact/similarity",
+        "files": [
+          "101923.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "형태",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "모습"
+        ],
+        "video_ids": [
+          "101926"
+        ],
+        "method": "exact/similarity",
+        "files": [
+          "101926.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "안정",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "푹"
+        ],
+        "video_ids": [
+          102099
+        ],
+        "method": "context_default",
+        "files": [
+          "102099.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "최고",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "일등"
+        ],
+        "video_ids": [
+          104229
+        ],
+        "method": "context(가장)",
+        "files": [
+          "104229.mp4"
+        ]
+      }
+    }
+  ],
+  "play_queue": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100774.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103117.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101691.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmp_xhkv_hi.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100844.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101923.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101926.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102099.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104229.mp4"
+  ],
+  "saved_video_path": "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\vd_output\\20251201_230812.mp4"
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": "20251123_145527",
+  "text": "조금은 만기 이전에 일찌하면 세제팩이 사라질 수 있습니다.",
+  "clean_text": "만기 이전에 해지하면 세금 혜택이 사라질 수 있습니다.",
+  "latency_ms": {
+    "stt": 5985.8,
+    "nlp": 5469.7,
+    "mapping": 30.9,
+    "synth": 252.9,
+    "total": 11739.3
+  },
+  "gloss": [
+    "만기",
+    "이전",
+    "해지",
+    "세금",
+    "혜택",
+    "소멸"
+  ],
+  "gloss_ids": [
+    "100357",
+    "102596",
+    "101988",
+    "102808",
+    "103799"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_145527.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/102596.mp4",
+    "/media/sign_videos/101988.mp4",
+    "/media/sign_videos/102808.mp4",
+    "/media/sign_videos/103799.mp4"
+  ],
+  "gloss_labels": [
+    "만기",
+    "(시작 전)사전",
+    "해약",
+    "세금",
+    "소멸시효"
+  ]
+}

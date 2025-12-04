@@ -1,0 +1,50 @@
+{
+  "timestamp": "20251125_051247",
+  "text": "이 상품은 5년 만기 확정 금리형으로 가입기간 동안 금리가 변동되지 않습니다.",
+  "clean_text": "이 상품은 5년 만기 확정 금리형으로, 가입 기간 동안 금리가 변동되지 않습니다.",
+  "latency_ms": {
+    "stt": 10270.8,
+    "nlp": 3274.4,
+    "mapping": 19.3,
+    "synth": 279.4,
+    "total": 13843.899999999998
+  },
+  "gloss": [
+    "상품",
+    "5년",
+    "만기",
+    "확정",
+    "금리",
+    "가입",
+    "기간",
+    "변동"
+  ],
+  "gloss_ids": [
+    "103392",
+    "101948",
+    "100357",
+    "101590",
+    "103220",
+    "103303",
+    "101664"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_051247.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/101948.mp4",
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/101664.mp4"
+  ],
+  "gloss_labels": [
+    "물건",
+    "년",
+    "만기",
+    "(값이)오르다",
+    "가입",
+    "기간",
+    "갈다"
+  ]
+}

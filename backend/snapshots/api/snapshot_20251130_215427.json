@@ -1,0 +1,65 @@
+{
+  "ts": "20251130_215427",
+  "timestamp": "20251130_215427",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 9.24,
+  "text": "가입 시점의 금리가 그대로 고정되기 때문에 앞으로 시장 금리에 상관없이 동일한 금리를 만기까지 안정적으로 봐줄 수 있습니다.",
+  "clean_text": "가입 시점의 금리가 고정되어 시장 금리 변동과 관계없이 만기까지 동일한 금리를 안정적으로 유지할 수 있습니다.",
+  "latency_ms": {
+    "stt": 9013.4,
+    "nlp": 3823.0,
+    "mapping": 7.9,
+    "synth": 284.8,
+    "total": 13129.099999999999
+  },
+  "gloss": [
+    "가입",
+    "시점",
+    "금리",
+    "고정",
+    "시장",
+    "변동",
+    "만기",
+    "동일",
+    "안정",
+    "유지"
+  ],
+  "gloss_ids": [
+    "103220",
+    "104318",
+    "101590",
+    "104398",
+    "104123",
+    "101664",
+    "100357",
+    "104752",
+    "103074",
+    "102220"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_215427.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/104318.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/104398.mp4",
+    "/media/sign_videos/104123.mp4",
+    "/media/sign_videos/101664.mp4",
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/104752.mp4",
+    "/media/sign_videos/103074.mp4",
+    "/media/sign_videos/102220.mp4"
+  ],
+  "gloss_labels": [
+    "가입",
+    "소수점",
+    "(값이)오르다",
+    "고정",
+    "시장",
+    "갈다",
+    "만기",
+    "균일",
+    "안심",
+    "그만하다"
+  ]
+}

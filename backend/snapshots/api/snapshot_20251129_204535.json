@@ -1,0 +1,44 @@
+{
+  "timestamp": "20251129_204535",
+  "session_id": "sess_1764416710737_q04f9h",
+  "mode": "응답",
+  "audio_sec": 7.44,
+  "text": "고객님이 가입하신 정리식 예금은 중도 회지 시 약정 이유를 적용되지 않을 수 있습니다.",
+  "clean_text": "가입한 정리식 예금은 중도 해지 시 약정 이율이 적용되지 않을 수 있습니다.",
+  "latency_ms": {
+    "stt": 6001.5,
+    "nlp": 4364.3,
+    "mapping": 99.1,
+    "synth": 624.7,
+    "total": 11089.6
+  },
+  "gloss": [
+    "가입",
+    "정리식예금",
+    "중도해지",
+    "약정이율",
+    "적용"
+  ],
+  "gloss_ids": [
+    "103220",
+    "101065",
+    "101988",
+    "100729",
+    "103238"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_204535.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/101065.mp4",
+    "/media/sign_videos/101988.mp4",
+    "/media/sign_videos/100729.mp4",
+    "/media/sign_videos/103238.mp4"
+  ],
+  "gloss_labels": [
+    "가입",
+    "정기예금",
+    "해약",
+    "약정이자",
+    "겪다"
+  ]
+}

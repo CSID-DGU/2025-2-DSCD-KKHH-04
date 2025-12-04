@@ -1,0 +1,48 @@
+{
+  "ts": "20251203_113238",
+  "timestamp": "20251203_113238",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 5.22,
+  "text": "제가 직접 중간중간 확인하면서 개발을 진행하겠습니다.",
+  "clean_text": "내가 직접 중간중간 확인하며 개발 진행하겠다.",
+  "latency_ms": {
+    "stt": 43984.2,
+    "nlp": 9968.7,
+    "mapping": 392.4,
+    "synth": 354.4
+  },
+  "gloss": [
+    "나",
+    "직접",
+    "개발",
+    "진행",
+    "중간중간",
+    "확인"
+  ],
+  "gloss_ids": [
+    "101576",
+    "102424",
+    "100017",
+    "100350",
+    "101621",
+    "103579"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_113237.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101576.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102424.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100017.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100350.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101621.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103579.mp4"
+  ],
+  "gloss_labels": [
+    "나",
+    "직접",
+    "개발비",
+    "마진",
+    "간혹",
+    "도장"
+  ]
+}

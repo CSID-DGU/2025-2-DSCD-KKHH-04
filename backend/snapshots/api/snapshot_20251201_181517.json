@@ -1,0 +1,41 @@
+{
+  "ts": "20251201_181517",
+  "timestamp": "20251201_181517",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 7.26,
+  "text": "앨범 회사 그거 여기 아, 사장orn",
+  "clean_text": "여기 앨범 회사 사장입니다.",
+  "latency_ms": {
+    "stt": 27755.0,
+    "nlp": 5078.7,
+    "mapping": 20.6,
+    "synth": 541.6,
+    "total": 33395.899999999994
+  },
+  "gloss": [
+    "여기",
+    "앨범",
+    "회사",
+    "사장"
+  ],
+  "gloss_ids": [
+    "102682",
+    "102862",
+    "102175",
+    "103896"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_181516.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102682.mp4",
+    "/media/sign_videos/102862.mp4",
+    "/media/sign_videos/102175.mp4",
+    "/media/sign_videos/103896.mp4"
+  ],
+  "gloss_labels": [
+    "여기",
+    "앨범",
+    "기업",
+    "회장"
+  ]
+}

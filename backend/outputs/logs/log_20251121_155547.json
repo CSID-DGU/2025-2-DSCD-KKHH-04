@@ -1,0 +1,88 @@
+{
+  "timestamp": "2025-11-21 15:55:47",
+  "input_text": "이 상품은 만 19세 이상 개인 고객이며 거주자와 비 거주자 모두 가입이 가능합니다.",
+  "corrected_text": "상품 19세 이상 개인 고객 거주자 비거주자 모두 가입 가능",
+  "timings_sec": {
+    "Input": 0.0016406000358983874,
+    "STT": 2.4088936000480317,
+    "NLP": 12.309346700028982,
+    "Query": 1.3299984857439995e-05,
+    "Synth": 0.35102200001711026,
+    "Output": 4.422222499968484
+  },
+  "total_sec": 19.49583250004798,
+  "tokens": [
+    {
+      "text": "상품",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "[PAUSE]",
+      "type": "pause"
+    },
+    {
+      "text": "가입",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "조건",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "[PAUSE]",
+      "type": "pause"
+    },
+    {
+      "text": "19세",
+      "type": "image"
+    },
+    {
+      "text": "이상",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "개인",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "고객",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "거주자",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "비거주자",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "모두",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    },
+    {
+      "text": "가능",
+      "type": "gloss",
+      "id": null,
+      "status": "unknown"
+    }
+  ]
+}

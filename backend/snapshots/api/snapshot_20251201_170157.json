@@ -1,0 +1,33 @@
+{
+  "ts": "20251201_170157",
+  "timestamp": "20251201_170157",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 7.44,
+  "text": "집에 갈땐",
+  "clean_text": "집에 갈 때",
+  "latency_ms": {
+    "stt": 31934.1,
+    "nlp": 7278.3,
+    "mapping": 40.3,
+    "synth": 312.2,
+    "total": 39564.9
+  },
+  "gloss": [
+    "집",
+    "가기"
+  ],
+  "gloss_ids": [
+    "102324",
+    "103150"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_170156.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102324.mp4",
+    "/media/sign_videos/103150.mp4"
+  ],
+  "gloss_labels": [
+    "집",
+    "기"
+  ]
+}

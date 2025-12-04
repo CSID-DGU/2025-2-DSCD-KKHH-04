@@ -1,0 +1,44 @@
+{
+  "ts": "20251202_042808",
+  "timestamp": "20251202_042808",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 5.82,
+  "text": "기간은 1개월 6개월 12개월 36개월 등 다양하게 선택할 수 있습니다.",
+  "clean_text": "기간은 1개월, 6개월, 12개월, 36개월 등 다양하게 선택할 수 있습니다.",
+  "latency_ms": {
+    "stt": 19318.0,
+    "nlp": 10279.5,
+    "mapping": 275.4,
+    "synth": 193.6,
+    "total": 30066.5
+  },
+  "gloss": [
+    "기간",
+    "1개월",
+    "6개월",
+    "12개월",
+    "36개월",
+    "선택",
+    "다양하다"
+  ],
+  "gloss_ids": [
+    "103117",
+    "101993",
+    "101686",
+    "101649"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_042807.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103117.mp4",
+    "/media/sign_videos/101993.mp4",
+    "/media/sign_videos/101686.mp4",
+    "/media/sign_videos/101649.mp4"
+  ],
+  "gloss_labels": [
+    "동안",
+    "개월",
+    "선택",
+    "똑같다"
+  ]
+}

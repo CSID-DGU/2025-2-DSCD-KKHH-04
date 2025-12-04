@@ -1,0 +1,49 @@
+{
+  "ts": "20251130_182345",
+  "timestamp": "20251130_182345",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 10.5,
+  "text": "중도해지가 직접 방문하지 않으셔도 자동차 예치를 신청할 수 있습니다.",
+  "clean_text": "중도 해지 시에도 직접 방문 없이 자동차 예치를 신청할 수 있습니다.",
+  "latency_ms": {
+    "stt": 16940.4,
+    "nlp": 16683.7,
+    "mapping": 52.1,
+    "synth": 377.4,
+    "total": 34053.600000000006
+  },
+  "gloss": [
+    "중도해지",
+    "직접",
+    "방문",
+    "자동차",
+    "예치",
+    "신청"
+  ],
+  "gloss_ids": [
+    "101988",
+    "102424",
+    "102308",
+    "102683",
+    "100793",
+    "102939"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_182344.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101988.mp4",
+    "/media/sign_videos/102424.mp4",
+    "/media/sign_videos/102308.mp4",
+    "/media/sign_videos/102683.mp4",
+    "/media/sign_videos/100793.mp4",
+    "/media/sign_videos/102939.mp4"
+  ],
+  "gloss_labels": [
+    "해약",
+    "직접",
+    "방문",
+    "자동",
+    "예치금",
+    "신청"
+  ]
+}

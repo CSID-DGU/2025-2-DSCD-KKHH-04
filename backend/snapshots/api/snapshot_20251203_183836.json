@@ -1,0 +1,40 @@
+{
+  "ts": "20251203_183836",
+  "timestamp": "20251203_183836",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "예금을 좀 더",
+  "clean_text": "예금 더",
+  "gloss": [
+    "예금",
+    "더"
+  ],
+  "gloss_ids": [
+    "100774",
+    "104509"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_183836.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100774.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104509.mp4"
+  ],
+  "gloss_labels": [
+    "예금",
+    "더"
+  ],
+  "audio_sec": 6.9,
+  "video_sec": 8.8,
+  "latency_ms": {
+    "stt": 23863.4,
+    "nlp": 3187.5,
+    "mapping": 0.0,
+    "synth": 228.8
+  },
+  "latency_sec": {
+    "stt_sec": 23.86,
+    "nlp_sec": 3.19,
+    "mapping_sec": 0.0,
+    "synth_sec": 0.23,
+    "total_sec": 27.28
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "timestamp": "20251129_180623",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 5.04,
+  "text": "조금은 만기 이전에 해지하면 세제 혜택이 사라질 수 있습니다.",
+  "clean_text": "만기 이전에 해지하면 세제 혜택이 사라질 수 있습니다.",
+  "latency_ms": {
+    "stt": 5279.7,
+    "nlp": 5954.0,
+    "mapping": 35.3,
+    "synth": 205.5,
+    "total": 11474.5
+  },
+  "gloss": [
+    "만기",
+    "해지",
+    "세제",
+    "혜택",
+    "소멸"
+  ],
+  "gloss_ids": [
+    "100357",
+    "101988",
+    "103525",
+    "103799"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_180623.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/101988.mp4",
+    "/media/sign_videos/103525.mp4",
+    "/media/sign_videos/103799.mp4"
+  ],
+  "gloss_labels": [
+    "만기",
+    "해약",
+    "비누",
+    "소멸시효"
+  ]
+}

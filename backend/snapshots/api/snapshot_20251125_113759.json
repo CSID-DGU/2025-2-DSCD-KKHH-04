@@ -1,0 +1,17 @@
+{
+  "timestamp": "20251125_113759",
+  "text": "",
+  "clean_text": "",
+  "latency_ms": {
+    "stt": 16211.7,
+    "nlp": 698.7,
+    "mapping": 0.0,
+    "synth": 0.0,
+    "total": 16910.4
+  },
+  "gloss": [],
+  "gloss_ids": [],
+  "sentence_video_url": null,
+  "sign_video_list": [],
+  "gloss_labels": []
+}

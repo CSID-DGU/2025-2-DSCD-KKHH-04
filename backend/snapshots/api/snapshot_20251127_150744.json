@@ -1,0 +1,38 @@
+{
+  "timestamp": "20251127_150744",
+  "text": "월 남이 끝에 끈 채소 10만원에서 최대 300만원까지 선택할 수 있습니다.",
+  "clean_text": "월 납입금은 10만원부터 최대 300만원까지 선택할 수 있습니다.",
+  "latency_ms": {
+    "stt": 4087.8,
+    "nlp": 5541.0,
+    "mapping": 40.6,
+    "synth": 242.4,
+    "total": 9911.8
+  },
+  "gloss": [
+    "월납입금",
+    "10만원",
+    "최대",
+    "300만원",
+    "선택"
+  ],
+  "gloss_ids": [
+    "103593",
+    "101421",
+    "104349",
+    "101686"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_150743.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/101421.mp4",
+    "/media/sign_videos/104349.mp4",
+    "/media/sign_videos/101686.mp4"
+  ],
+  "gloss_labels": [
+    "납부",
+    "복잡하다",
+    "세대",
+    "선택"
+  ]
+}

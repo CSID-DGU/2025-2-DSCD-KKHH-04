@@ -1,0 +1,16 @@
+{
+  "text": "",
+  "clean_text": "",
+  "latency_ms": {
+    "stt": 1776.6,
+    "nlp": 1653.4,
+    "mapping": 0.0,
+    "synth": 0.0,
+    "total": 3430.0
+  },
+  "gloss": [],
+  "gloss_ids": [],
+  "sentence_video_url": null,
+  "sign_video_list": [],
+  "gloss_labels": []
+}

@@ -1,0 +1,36 @@
+{
+  "ts": "20251203_133726",
+  "timestamp": "20251203_133726",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 2.7,
+  "text": "집이 잘 아픈op",
+  "clean_text": "집에 문제가 있습니다.",
+  "latency_ms": {
+    "stt": 26618.0,
+    "nlp": 16062.8,
+    "mapping": 0.5,
+    "synth": 627.3
+  },
+  "gloss": [
+    "집",
+    "문제",
+    "있다"
+  ],
+  "gloss_ids": [
+    "102324",
+    "103235",
+    "102353"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_133726.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102324.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103235.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102353.mp4"
+  ],
+  "gloss_labels": [
+    "집",
+    "문제",
+    "있다"
+  ]
+}

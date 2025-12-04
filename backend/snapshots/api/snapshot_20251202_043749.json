@@ -1,0 +1,47 @@
+{
+  "ts": "20251202_043749",
+  "timestamp": "20251202_043749",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 8.76,
+  "text": "기간은 1개월 6개월 12개월 36개월 등 다양하게 선택하실 수 있습니다.",
+  "clean_text": "1개월, 6개월, 12개월, 36개월 등 다양한 기간을 선택할 수 있습니다.",
+  "latency_ms": {
+    "stt": 13357.2,
+    "nlp": 7880.5,
+    "mapping": 584.3,
+    "synth": 263.4
+  },
+  "gloss": [
+    "기간",
+    "1개월",
+    "6개월",
+    "12개월",
+    "36개월",
+    "다양하다",
+    "선택"
+  ],
+  "gloss_ids": [
+    "103117",
+    "101993",
+    "101649",
+    "101686"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_043748.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103117.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101993.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101649.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101686.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmp2kdp5h9s.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpe0xsixnz.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpa0k70ikv.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpa9co8u2_.mp4"
+  ],
+  "gloss_labels": [
+    "동안",
+    "개월",
+    "똑같다",
+    "선택"
+  ]
+}

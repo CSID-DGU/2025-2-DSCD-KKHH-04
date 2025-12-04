@@ -1,0 +1,44 @@
+{
+  "ts": "20251203_214731",
+  "timestamp": "20251203_214731",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "이제는 원단 만화",
+  "clean_text": "이제 원단 만화",
+  "gloss": [
+    "지금",
+    "원단",
+    "만화"
+  ],
+  "gloss_ids": [
+    "102522",
+    "104680",
+    "103657"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_214730.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102522.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104680.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103657.mp4"
+  ],
+  "gloss_labels": [
+    "지금",
+    "내키다",
+    "만화"
+  ],
+  "audio_sec": 9.84,
+  "video_sec": 10.933,
+  "latency_ms": {
+    "stt": 24874.0,
+    "nlp": 4586.6,
+    "mapping": 50.7,
+    "synth": 211.6
+  },
+  "latency_sec": {
+    "stt_sec": 24.87,
+    "nlp_sec": 4.59,
+    "mapping_sec": 0.05,
+    "synth_sec": 0.21,
+    "total_sec": 29.72
+  }
+}

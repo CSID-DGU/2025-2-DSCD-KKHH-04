@@ -1,0 +1,24 @@
+{
+  "ts": "20251201_181248",
+  "timestamp": "20251201_181248",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 4.38,
+  "text": "Wir Band 입니다. Tribble",
+  "clean_text": "Wir Band입니다. Tribble입니다.",
+  "latency_ms": {
+    "stt": 22493.1,
+    "nlp": 9338.5,
+    "mapping": 30.9,
+    "synth": 0.0,
+    "total": 31862.5
+  },
+  "gloss": [
+    "WirBand",
+    "Tribble"
+  ],
+  "gloss_ids": [],
+  "sentence_video_url": null,
+  "sign_video_list": [],
+  "gloss_labels": []
+}

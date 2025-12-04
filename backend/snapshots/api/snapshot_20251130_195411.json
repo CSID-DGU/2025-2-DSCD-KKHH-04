@@ -1,0 +1,50 @@
+{
+  "ts": "20251130_195411",
+  "timestamp": "20251130_195411",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 6.78,
+  "text": "직장인 우제 접금은 재직 중이신 고제직을 증명할 수 있는 서류만 제출하셔도 5대금리가 적용되요.",
+  "clean_text": "직장인 우대 적금은 재직증명서만 제출하면 우대금리가 적용됩니다.",
+  "latency_ms": {
+    "stt": 15064.4,
+    "nlp": 3983.8,
+    "mapping": 44.6,
+    "synth": 268.3,
+    "total": 19361.1
+  },
+  "gloss": [
+    "직장인",
+    "우대",
+    "적금",
+    "재직",
+    "증명서",
+    "제출",
+    "금리"
+  ],
+  "gloss_ids": [
+    "104811",
+    "102815",
+    "101937",
+    "104810",
+    "101757",
+    "101590"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_195411.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104811.mp4",
+    "/media/sign_videos/102815.mp4",
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/104810.mp4",
+    "/media/sign_videos/101757.mp4",
+    "/media/sign_videos/101590.mp4"
+  ],
+  "gloss_labels": [
+    "일자리",
+    "오른쪽",
+    "저축",
+    "증명서",
+    "봉사",
+    "(값이)오르다"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "ts": "20251130_193035",
+  "timestamp": "20251130_193035",
+  "session_id": "sess_1764498568751_hgsvnm",
+  "mode": "설명",
+  "audio_sec": 9.42,
+  "text": "고객님, 아이 교육비처럼 목표 시점이 명확한 자금은 정립식 구조가 가장 잘 맞아요.",
+  "clean_text": "아이 교육비처럼 목표 시점이 명확한 자금에는 정립식 구조가 가장 적합합니다.",
+  "latency_ms": {
+    "stt": 5904.6,
+    "nlp": 4073.1,
+    "mapping": 201.3,
+    "synth": 482.5,
+    "total": 10661.5
+  },
+  "gloss": [
+    "아이",
+    "교육비",
+    "목표",
+    "시점",
+    "명확",
+    "자금",
+    "정립식",
+    "구조",
+    "적합"
+  ],
+  "gloss_ids": [
+    "101841",
+    "103054",
+    "104341",
+    "104318",
+    "101840",
+    "103147",
+    "102433",
+    "103844"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_193035.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101841.mp4",
+    "/media/sign_videos/103054.mp4",
+    "/media/sign_videos/104341.mp4",
+    "/media/sign_videos/104318.mp4",
+    "/media/sign_videos/101840.mp4",
+    "/media/sign_videos/103147.mp4",
+    "/media/sign_videos/102433.mp4",
+    "/media/sign_videos/103844.mp4"
+  ],
+  "gloss_labels": [
+    "어린이",
+    "가르치다",
+    "승차권",
+    "소수점",
+    "명확하다",
+    "가치",
+    "조",
+    "합치다"
+  ]
+}

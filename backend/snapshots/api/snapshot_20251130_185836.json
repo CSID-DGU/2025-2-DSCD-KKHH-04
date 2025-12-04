@@ -1,0 +1,49 @@
+{
+  "ts": "20251130_185836",
+  "timestamp": "20251130_185836",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 9.24,
+  "text": "하나는 원리금이 입출금 통장으로 자동이 끈되는 자동해지 방식 다른 하나는 자동예 제해지 방식입니다",
+  "clean_text": "하나는 원리금이 입출금 통장으로 자동 이체되는 자동 해지 방식이고, 다른 하나는 자동 재예치 해지 방식입니다.",
+  "latency_ms": {
+    "stt": 12480.4,
+    "nlp": 5230.4,
+    "mapping": 152.6,
+    "synth": 500.7,
+    "total": 18364.1
+  },
+  "gloss": [
+    "원리금",
+    "입출금통장",
+    "자동이체",
+    "자동해지",
+    "재예치",
+    "방식"
+  ],
+  "gloss_ids": [
+    "100846",
+    "100785",
+    "100953",
+    "101988",
+    "100793",
+    "102330"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_185835.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100846.mp4",
+    "/media/sign_videos/100785.mp4",
+    "/media/sign_videos/100953.mp4",
+    "/media/sign_videos/101988.mp4",
+    "/media/sign_videos/100793.mp4",
+    "/media/sign_videos/102330.mp4"
+  ],
+  "gloss_labels": [
+    "원리금",
+    "예금통장",
+    "자동이체",
+    "해약",
+    "예치금",
+    "방법"
+  ]
+}

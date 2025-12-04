@@ -1,0 +1,57 @@
+{
+  "ts": "20251203_151249",
+  "timestamp": "20251203_151249",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 10.32,
+  "text": "지금 모이톡 일종 12월에 12월 19일날 금요일 12시부터 4시 하나 남아있고",
+  "clean_text": "모이톡, 12월 19일 금요일, 12시부터 4시까지, 한 개 남았습니다.",
+  "latency_ms": {
+    "stt": 13501.9,
+    "nlp": 9258.3,
+    "mapping": 240.9,
+    "synth": 208.9
+  },
+  "gloss": [
+    "모이톡",
+    "12월",
+    "19일",
+    "금요일",
+    "12시",
+    "4시",
+    "하나",
+    "남다"
+  ],
+  "gloss_ids": [
+    "103844",
+    "104348",
+    "102318",
+    "103359",
+    "103571",
+    "102098",
+    "103980"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_151249.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103844.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104348.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102318.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103359.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103571.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102098.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103980.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmp_3mz0_nq.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpnkszz1fg.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpo27k8mw8.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpjhtv776s.mp4"
+  ],
+  "gloss_labels": [
+    "합치다",
+    "월",
+    "1층(일층)",
+    "금요일",
+    "도시",
+    "하나",
+    "나머지"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": "20251123_211032",
+  "text": "신용 점수 700점 이상일 경우 대출 금리가 이나도 됩니다.",
+  "clean_text": "신용 점수 700점 이상이면 대출 금리가 낮아질 수 있습니다.",
+  "latency_ms": {
+    "stt": 12817.1,
+    "nlp": 5364.6,
+    "mapping": 137.9,
+    "synth": 987.6,
+    "total": 19307.2
+  },
+  "gloss": [
+    "신용점수",
+    "700점",
+    "이상",
+    "대출",
+    "금리",
+    "인하"
+  ],
+  "gloss_ids": [
+    "102475",
+    "104097",
+    "104486",
+    "101590",
+    "103341"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_211031.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102475.mp4",
+    "/media/sign_videos/104097.mp4",
+    "/media/sign_videos/104486.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/103341.mp4"
+  ],
+  "gloss_labels": [
+    "성적",
+    "상류",
+    "대출금",
+    "(값이)오르다",
+    "때문"
+  ]
+}

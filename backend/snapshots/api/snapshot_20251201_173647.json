@@ -1,0 +1,53 @@
+{
+  "ts": "20251201_173647",
+  "timestamp": "20251201_173647",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 6.42,
+  "text": "그는 아까 약간 빛이 너무 쉬었 también дов��라� Dance Frame 아시IB archetypal Bruce Lee",
+  "clean_text": "그는 아까 빛이 약간 너무 셌다고 말했다.",
+  "latency_ms": {
+    "stt": 44054.8,
+    "nlp": 13560.5,
+    "mapping": 73.2,
+    "synth": 792.3,
+    "total": 58480.8
+  },
+  "gloss": [
+    "그",
+    "아까",
+    "빛",
+    "약간",
+    "너무",
+    "강함",
+    "말"
+  ],
+  "gloss_ids": [
+    "102006",
+    "102580",
+    "104454",
+    "102573",
+    "103405",
+    "104040",
+    "103568"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_173646.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102006.mp4",
+    "/media/sign_videos/102580.mp4",
+    "/media/sign_videos/104454.mp4",
+    "/media/sign_videos/102573.mp4",
+    "/media/sign_videos/103405.mp4",
+    "/media/sign_videos/104040.mp4",
+    "/media/sign_videos/103568.mp4"
+  ],
+  "gloss_labels": [
+    "그",
+    "아까",
+    "광",
+    "작다",
+    "무",
+    "강",
+    "말"
+  ]
+}

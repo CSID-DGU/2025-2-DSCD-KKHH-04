@@ -1,0 +1,52 @@
+{
+  "timestamp": "20251129_183056",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 7.26,
+  "text": "올리금 비보장형 손품으로 손실이 발생할 수 있으니 신중한 품단이 필요합니다.",
+  "clean_text": "원금 비보장형 상품으로 손실이 발생할 수 있으니 신중한 판단이 필요합니다.",
+  "latency_ms": {
+    "stt": 5647.8,
+    "nlp": 2762.7,
+    "mapping": 87.7,
+    "synth": 675.8,
+    "total": 9174.0
+  },
+  "gloss": [
+    "원금",
+    "비보장",
+    "상품",
+    "손실",
+    "발생",
+    "신중",
+    "판단"
+  ],
+  "gloss_ids": [
+    "102713",
+    "101923",
+    "103392",
+    "104393",
+    "101833",
+    "101749",
+    "104131"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_183056.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/101923.mp4",
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/104393.mp4",
+    "/media/sign_videos/101833.mp4",
+    "/media/sign_videos/101749.mp4",
+    "/media/sign_videos/104131.mp4"
+  ],
+  "gloss_labels": [
+    "원금",
+    "보증",
+    "물건",
+    "밑지다",
+    "발생",
+    "신중",
+    "조명"
+  ]
+}

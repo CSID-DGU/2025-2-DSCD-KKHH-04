@@ -1,0 +1,45 @@
+{
+  "timestamp": "20251123_140328",
+  "text": "원리근 비 보장형 성포모로 손실이 발생할 수 있으니 신중한 판단이 필요합니다.",
+  "clean_text": "원리금 비보장형 상품으로 손실이 발생할 수 있으니 신중한 판단이 필요합니다.",
+  "latency_ms": {
+    "stt": 5609.4,
+    "nlp": 4494.3,
+    "mapping": 26.6,
+    "synth": 485.4,
+    "total": 10615.7
+  },
+  "gloss": [
+    "원리금",
+    "비보장",
+    "상품",
+    "손실",
+    "신중",
+    "판단"
+  ],
+  "gloss_ids": [
+    "100846",
+    "101923",
+    "103392",
+    "104393",
+    "101749",
+    "104131"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_140328.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100846.mp4",
+    "/media/sign_videos/101923.mp4",
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/104393.mp4",
+    "/media/sign_videos/101749.mp4",
+    "/media/sign_videos/104131.mp4"
+  ],
+  "gloss_labels": [
+    "원리금",
+    "보증",
+    "물건",
+    "밑지다",
+    "신중",
+    "조명"
+  ]
+}

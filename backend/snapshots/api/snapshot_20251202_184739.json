@@ -1,0 +1,55 @@
+{
+  "ts": "20251202_184739",
+  "timestamp": "20251202_184739",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 4.5,
+  "text": "나왔따 뭐지? 아니 나는 약간 이상한 질거니까",
+  "clean_text": "나왔다. 이게 뭐지? 아니, 내가 좀 이상하게 될 것 같아.",
+  "latency_ms": {
+    "stt": 6540.3,
+    "nlp": 20954.0,
+    "mapping": 216.5,
+    "synth": 384.6
+  },
+  "latency_sec": {
+    "stt_sec": 6.54,
+    "nlp_sec": 20.95,
+    "mapping_sec": 0.22,
+    "synth_sec": 0.38,
+    "total_sec": 28.1
+  },
+  "gloss": [
+    "나오다",
+    "무엇",
+    "아니",
+    "나",
+    "이상하다",
+    "예상"
+  ],
+  "gloss_ids": [
+    "101833",
+    "102867",
+    "101903",
+    "101576",
+    "104383",
+    "102124"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_184738.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101833.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102867.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101903.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101576.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104383.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102124.mp4"
+  ],
+  "gloss_labels": [
+    "발생",
+    "어느",
+    "아니다",
+    "나",
+    "상하다",
+    "예"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "20251125_045727",
+  "text": "안녕하세용",
+  "clean_text": "안녕하세요.",
+  "latency_ms": {
+    "stt": 11454.0,
+    "nlp": 2239.1,
+    "mapping": 125.4,
+    "synth": 1106.4,
+    "total": 14924.9
+  },
+  "gloss": [
+    "안녕"
+  ],
+  "gloss_ids": [
+    "101932"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_045726.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101932.mp4"
+  ],
+  "gloss_labels": [
+    "안녕"
+  ]
+}

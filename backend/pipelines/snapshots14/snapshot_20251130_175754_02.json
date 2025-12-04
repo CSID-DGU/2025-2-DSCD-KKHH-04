@@ -1,0 +1,11 @@
+{
+  "timestamp": "20251130_175754",
+  "stt": "안녕하세용",
+  "tokens": [
+    {
+      "text": "안녕",
+      "type": "gloss"
+    }
+  ],
+  "play_queue": []
+}

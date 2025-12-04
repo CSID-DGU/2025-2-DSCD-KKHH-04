@@ -1,0 +1,62 @@
+{
+  "ts": "20251130_193054",
+  "timestamp": "20251130_193054",
+  "session_id": "sess_1764498568751_hgsvnm",
+  "mode": "설명",
+  "audio_sec": 10.38,
+  "text": "KBI 사랑 접금은 아인아이에 맞춰 12회차, 24회차 등 기간을 선택해서 매일 일정 금액을 쌓는 방식입니다.",
+  "clean_text": "KBI 사랑 적금은 아인아이에 맞춰 12회차, 24회차 등 기간을 선택하여 매일 일정 금액을 적립하는 방식입니다.",
+  "latency_ms": {
+    "stt": 6330.9,
+    "nlp": 11113.1,
+    "mapping": 80.9,
+    "synth": 490.6,
+    "total": 18015.5
+  },
+  "gloss": [
+    "KBI",
+    "사랑",
+    "적금",
+    "아인아이",
+    "기간",
+    "선택",
+    "매일",
+    "금액",
+    "적립",
+    "방식"
+  ],
+  "gloss_ids": [
+    "102545",
+    "101937",
+    "101841",
+    "103303",
+    "101686",
+    "101880",
+    "104190",
+    "101039",
+    "102330"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_193053.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102545.mp4",
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/101841.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/101686.mp4",
+    "/media/sign_videos/101880.mp4",
+    "/media/sign_videos/104190.mp4",
+    "/media/sign_videos/101039.mp4",
+    "/media/sign_videos/102330.mp4"
+  ],
+  "gloss_labels": [
+    "사랑",
+    "저축",
+    "어린이",
+    "기간",
+    "선택",
+    "날마다",
+    "값",
+    "적립금",
+    "방법"
+  ]
+}

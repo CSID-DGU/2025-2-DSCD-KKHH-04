@@ -1,0 +1,38 @@
+{
+  "ts": "20251201_160549",
+  "timestamp": "20251201_160549",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 2.58,
+  "text": "안녕하세요. 신한은행의 은행원 김다영입니다.",
+  "clean_text": "안녕하세요, 신한은행 은행원 김다영입니다.",
+  "latency_ms": {
+    "stt": 13120.1,
+    "nlp": 4201.9,
+    "mapping": 42.1,
+    "synth": 201.6,
+    "total": 17565.699999999997
+  },
+  "gloss": [
+    "인사",
+    "신한은행",
+    "은행원",
+    "김다영"
+  ],
+  "gloss_ids": [
+    "102835",
+    "103723",
+    "104519"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_160549.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102835.mp4",
+    "/media/sign_videos/103723.mp4",
+    "/media/sign_videos/104519.mp4"
+  ],
+  "gloss_labels": [
+    "인사",
+    "한국은행",
+    "금융"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "timestamp": "20251201_223545",
+  "stt_raw": "2자는 1개월 6개월 18개월 중에 선택할 수 있습니다.",
+  "nlp_tokens": [
+    {
+      "text": "기간",
+      "type": "gloss"
+    },
+    {
+      "text": "PAUSE",
+      "type": "pause"
+    },
+    {
+      "text": "1개월",
+      "type": "image"
+    },
+    {
+      "text": "6개월",
+      "type": "image"
+    },
+    {
+      "text": "18개월",
+      "type": "image"
+    },
+    {
+      "text": "중",
+      "type": "gloss"
+    },
+    {
+      "text": "선택",
+      "type": "gloss"
+    },
+    {
+      "text": "가능",
+      "type": "gloss"
+    }
+  ],
+  "processing_detail": [
+    {
+      "nlp_token": "기간",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "동안"
+        ],
+        "video_ids": [
+          103117
+        ],
+        "method": "context_default",
+        "files": [
+          "103117.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "PAUSE",
+      "type": "pause",
+      "final_mapping": {
+        "status": "pause",
+        "duration": 1.0
+      }
+    },
+    {
+      "nlp_token": "1개월",
+      "type": "image",
+      "final_mapping": {
+        "status": "image",
+        "method": "llm_directive"
+      }
+    },
+    {
+      "nlp_token": "6개월",
+      "type": "image",
+      "final_mapping": {
+        "status": "image",
+        "method": "llm_directive"
+      }
+    },
+    {
+      "nlp_token": "18개월",
+      "type": "image",
+      "final_mapping": {
+        "status": "image",
+        "method": "llm_directive"
+      }
+    },
+    {
+      "nlp_token": "중",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "중앙"
+        ],
+        "video_ids": [
+          "102958"
+        ],
+        "method": "exact/similarity",
+        "files": [
+          "102958.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "선택",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "선택"
+        ],
+        "video_ids": [
+          "101686"
+        ],
+        "method": "exact/similarity",
+        "files": [
+          "101686.mp4"
+        ]
+      }
+    },
+    {
+      "nlp_token": "가능",
+      "type": "gloss",
+      "final_mapping": {
+        "status": "success",
+        "resolved_tokens": [
+          "가능"
+        ],
+        "video_ids": [
+          "101849"
+        ],
+        "method": "exact/similarity",
+        "files": [
+          "101849.mp4"
+        ]
+      }
+    }
+  ],
+  "play_queue": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103117.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpj1xu_qzk.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpnktzyu6z.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmp_gkfxtin.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpk1xgttp5.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102958.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101686.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101849.mp4"
+  ],
+  "saved_video_path": "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\vd_output\\20251201_223545.mp4"
+}

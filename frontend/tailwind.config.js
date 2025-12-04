@@ -1,11 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{ts,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Pretendard", "ui-sans-serif", "system-ui"],
+      },
+    },
   },
   plugins: [],
 }

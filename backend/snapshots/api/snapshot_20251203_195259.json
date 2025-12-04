@@ -1,0 +1,44 @@
+{
+  "ts": "20251203_195259",
+  "timestamp": "20251203_195259",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "고객님님의 업무를 도와 드릴까요?",
+  "clean_text": "고객님, 업무를 도와드릴까요?",
+  "gloss": [
+    "손님",
+    "업무",
+    "돕다"
+  ],
+  "gloss_ids": [
+    "101853",
+    "100747",
+    "103533"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_195256.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101853.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100747.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103533.mp4"
+  ],
+  "gloss_labels": [
+    "초대",
+    "여신업무",
+    "돕다"
+  ],
+  "audio_sec": 3.3,
+  "video_sec": 19.099,
+  "latency_ms": {
+    "stt": 10554.1,
+    "nlp": 5236.8,
+    "mapping": 1.6,
+    "synth": 2862.8
+  },
+  "latency_sec": {
+    "stt_sec": 10.55,
+    "nlp_sec": 5.24,
+    "mapping_sec": 0.0,
+    "synth_sec": 2.86,
+    "total_sec": 18.66
+  }
+}
