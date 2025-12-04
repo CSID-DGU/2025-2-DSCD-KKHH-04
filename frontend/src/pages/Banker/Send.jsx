@@ -1,69 +1,284 @@
+// frontend_clean/src/pages/Banker/Send.jsx
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
+
+import NavTabs from "../../components/NavTabs";
+import ASRPanel from "../../components/Banker/ASRPanel";
+import { useChatStore } from "../../store/chatstore"; // 🔹 전역 스토어 import
+
+const SESSION_KEY = "signanceSessionId";
 
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
+function getOrCreateSessionId() {
+  try {
+    let sid = localStorage.getItem(SESSION_KEY);
+    if (!sid) {
+      sid = `sess_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+      localStorage.setItem(SESSION_KEY, sid);
+    }
+    return sid;
+  } catch {
+    return `sess_${Date.now()}`;
+  }
+}
+
 export default function BankerSend() {
+  const navigate = useNavigate();
+
+  // 🔹 전역 상담 메시지 상태 (모든 페이지에서 공유)
+  const { messages, setMessages } = useChatStore();
+
+  // 🔹 세션 ID (처음 마운트 시 한 번만 생성/로드)
+  const [sessionId] = useState(() => getOrCreateSessionId());
+
+  // 새로 추가되는 메시지용 id 카운터 (백엔드 응답 없을 때만 사용)
+  const nextIdRef = useRef(Date.now());
+
+  // 입력값 / 수정 모드 상태
+  const [inputValue, setInputValue] = useState("");
+  const [editMode, setEditMode] = useState(false); // 연필 버튼 on/off
+  const [editTargetId, setEditTargetId] = useState(null); // 어떤 말풍선 수정 중인지
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    localStorage.setItem("signanceDeafStatus", "idle");
   }, []);
 
+  /* ---------------- 백엔드 저장/수정 공통 함수 ---------------- */
+
+  // 🔹 chat 생성 (입력창 / ASR 둘 다 여기로)
+  //    → 성공 시 생성된 row(JSON) 리턴: { id, session_id, sender, role, text, created_at, ... }
+  const saveMessageToBackend = async ({ text, mode }) => {
+    try {
+      const res = await fetch(`${API_BASE}/api/accounts/chat/`, {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          session_id: sessionId,
+          sender: "banker", // 은행원 화면
+          role: mode || "", // "질의"/"설명"/"응답" 등
+          text,
+        }),
+      });
+
+      if (!res.ok) {
+        console.error("chat 저장 실패:", await res.text());
+        return null;
+      }
+
+      const data = await res.json();
+      return data;
+    } catch (err) {
+      console.error("chat 저장 실패:", err);
+      return null;
+    }
+  };
+
+  // 🔹 chat 수정 (기존 발화 수정 시 사용)
+  //    backendId = 백엔드 chat row id (우리는 message.id랑 같게 씀)
+  const updateMessageOnBackend = async (backendId, { text, mode }) => {
+    if (!backendId) return;
+    try {
+      const res = await fetch(`${API_BASE}/api/accounts/chat/${backendId}/`, {
+        method: "PATCH", // 백엔드가 PUT만 지원하면 "PUT"으로 변경
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          text,
+          role: mode || "",
+        }),
+      });
+
+      if (!res.ok) {
+        console.error("chat 수정 실패:", await res.text());
+      }
+    } catch (err) {
+      console.error("chat 수정 에러:", err);
+    }
+  };
+
+  /* ---------------- 연필 버튼 / 삭제 / 선택 ---------------- */
+
+  // 연필 버튼 토글
+  const handleToggleEditMode = () => {
+    setEditMode((prev) => {
+      const next = !prev;
+      if (!next) {
+        // 수정 모드 종료 시 초기화
+        setEditTargetId(null);
+        setInputValue("");
+      }
+      return next;
+    });
+  };
+
+  // 말풍선 하나 선택해서 수정 시작
+  const handleSelectBubbleForEdit = (id) => {
+    const target = messages.find((m) => m.id === id);
+    if (!target) return;
+    setEditMode(true);
+    setEditTargetId(id);
+    setInputValue(target.text);
+  };
+
+  const handleDeleteMessage = (id) => {
+    if (!editMode) return; // 수정 모드에서만 삭제 허용
+
+    setMessages((prev) => prev.filter((m) => m.id !== id));
+
+    if (editTargetId === id) {
+      setEditTargetId(null);
+      setInputValue("");
+    }
+  };
+
+  /* ---------------- 입력창: 보내기 / 수정 완료 ---------------- */
+
+  const handleSendOrUpdate = async () => {
+    const text = inputValue.trim();
+    if (!text) return;
+
+    // ✅ 수정 모드인 경우: 프론트 + 백엔드 둘 다 수정
+    if (editMode && editTargetId != null) {
+      let targetBackendId = null;
+      let targetMode = "";
+
+      // 1) 프론트 상태 먼저 수정
+      setMessages((prev) =>
+        prev.map((m) => {
+          if (m.id === editTargetId) {
+            // DeafReceive에서 들어온 메시지 포함: m.id = 백엔드 id
+            targetBackendId = m.id ?? null;
+            targetMode = m.mode ?? "";
+            return {
+              ...m,
+              text,
+            };
+          }
+          return m;
+        })
+      );
+
+      // 2) 백엔드도 수정 반영
+      if (targetBackendId) {
+        await updateMessageOnBackend(targetBackendId, {
+          text,
+          mode: targetMode,
+        });
+      }
+
+      setInputValue("");
+      setEditMode(false);
+      setEditTargetId(null);
+      return;
+    }
+
+    // ✅ 신규 말풍선 추가 (항상 은행원 발화)
+    // 1) 백엔드에 먼저 저장
+    const created = await saveMessageToBackend({ text });
+
+    // 2) id 결정: 백엔드 id가 있으면 그걸 쓰고, 없으면 로컬에서 발급
+    const id = created?.id ?? nextIdRef.current++;
+
+    // 3) ts 생성: 백엔드 created_at > 없으면 지금 시각
+    const ts =
+      created?.created_at ??
+      new Date().toISOString();
+
+    // 4) 프론트 상태 업데이트
+    setMessages((prev) => [
+      ...prev,
+      {
+        id, // 항상 백엔드 id를 우선으로 사용
+        from: "agent",
+        text: created?.text ?? text,
+        mode: created?.role ?? "",
+        created_at: created?.created_at,
+        ts, // 🔹 발화 순서용 키
+      },
+    ]);
+
+    setInputValue("");
+    setEditMode(false);
+    setEditTargetId(null);
+  };
+
+  /* ---------------- ASRPanel → 채팅으로 푸시 ---------------- */
+
+  // ASRPanel에서 onPushToChat({ text, mode, ts }) 형태로 호출
+  const handlePushFromASR = async ({ text, mode, ts }) => {
+    if (!text) return;
+
+    // 1) 백엔드 저장
+    const created = await saveMessageToBackend({ text, mode });
+
+    // 2) id 결정
+    const id = created?.id ?? nextIdRef.current++;
+
+    // 3) ts 결정: ASRPanel ts > created_at > now
+    const finalTs =
+      ts ??
+      created?.created_at ??
+      new Date().toISOString();
+
+    // 4) 프론트 상태 업데이트
+    setMessages((prev) => [
+      ...prev,
+      {
+        id,
+        from: "agent", // 필요하면 mode 보고 "user"/"agent" 나눌 수 있음
+        text: created?.text ?? text,
+        mode: created?.role ?? mode,
+        created_at: created?.created_at,
+        ts: finalTs, // 🔹 발화 순서용 키
+      },
+    ]);
+  };
+
   return (
-    <div className="w-full h-auto overflow-hidden">
+    <div className="w-full h-auto">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs />
+        <NavTabs
+          rightSlot={<SendReceiveToggle active="send" />}
+          onTabClick={(idx) => {
+            if (idx === 1) navigate("/banker/logs");
+            if (idx === 3) navigate("/performance");
+          }}
+        />
+
+        {/* 🔹 고객 정보 바: 정적 내용 표시 */}
         <CustomerBar />
-        <ChatPanel />
-        <ASRPanel />
+
+        {/* 상담 대화창 – 상태는 전역 store에서 가져옴 */}
+        <ChatPanel
+          messages={messages}
+          inputValue={inputValue}
+          setInputValue={setInputValue}
+          onSendOrUpdate={handleSendOrUpdate}
+          editMode={editMode}
+          onToggleEditMode={handleToggleEditMode}
+          onSelectBubbleForEdit={handleSelectBubbleForEdit}
+          onDeleteMessage={handleDeleteMessage}
+        />
+
+        {/* 수어 인식 패널 – 여기서 onPushToChat으로 채팅으로 전송 */}
+        <ASRPanel onPushToChat={handlePushFromASR} />
       </main>
     </div>
   );
 }
 
-/* ---------------- NavTabs ---------------- */
-function NavTabs() {
-  const tabs = ["실시간 인식", "대화 로그", "고객 메모", "시스템 상태"];
-  const [active, setActive] = useState(0);
+/* ---------------- 고객 정보 바 ---------------- */
 
-  return (
-    <nav className="w-full bg-white rounded-xl shadow-sm border border-slate-200 px-3 pb-3">
-      <div className="flex items-start justify-between gap-4">
-        <ul className="flex flex-wrap gap-6 mt-2">
-          {tabs.map((t, i) => (
-            <li key={t}>
-              <button
-                onClick={() => setActive(i)}
-                className={
-                  "px-4 py-2 rounded-lg text-sm sm:text-base " +
-                  (active === i
-                    ? "bg-slate-900 text-white"
-                    : "text-slate-700 hover:bg-slate-100")
-                }
-              >
-                {t}
-              </button>
-            </li>
-          ))}
-        </ul>
-
-        <div className="mt-2">
-          <SendReceiveToggle active="send" />
-        </div>
-      </div>
-    </nav>
-  );
-}
-
-/* ---------------- CustomerBar ---------------- */
 function CustomerBar() {
   return (
     <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
-      <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
+      <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
         <UserIcon className="h-5 w-5 text-slate-700" />
         <span>고객 정보</span>
       </div>
-
       <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
         김희희
         <span className="mx-2 text-slate-400">|</span>
@@ -73,50 +288,149 @@ function CustomerBar() {
   );
 }
 
-/* ---------------- ChatPanel ---------------- */
-function ChatPanel() {
-  const [messages, setMessages] = useState([
-    { from: "agent", text: "안녕하세요. 어떤 업무 도와드릴까요?" },
-    { from: "user", text: "안녕하세요. 새 통장을 만들고 싶어요." },
-  ]);
-  const [input, setInput] = useState("");
+/* ---------------- 상담 대화 정렬용 함수 ---------------- */
+
+function getOrderKey(m) {
+  const pick = (v) => {
+    if (v instanceof Date) return v.getTime();
+    if (typeof v === "number" && !Number.isNaN(v)) return v;
+    if (typeof v === "string") {
+      // '20251203_202107', '2025-12-03T20:21:07+09:00' 등 → 숫자만 뽑아서 비교
+      const digits = v.replace(/\D/g, "");
+      if (digits) {
+        const num = Number(digits);
+        if (!Number.isNaN(num)) return num;
+      }
+    }
+    return null;
+  };
+
+  // 1순위: ts (발화 시점)
+  let key = pick(m.ts);
+  if (key != null) return key;
+
+  // 2순위: created_at (백엔드 생성 시점)
+  key = pick(m.created_at);
+  if (key != null) return key;
+
+  // 3순위: id
+  key = pick(m.id);
+  if (key != null) return key;
+
+  // 그래도 없으면 0
+  return 0;
+}
+
+/* ---------------- 상담 대화 UI ---------------- */
+
+function ChatPanel({
+  messages,
+  inputValue,
+  setInputValue,
+  onSendOrUpdate,
+  editMode,
+  onToggleEditMode,
+  onSelectBubbleForEdit,
+  onDeleteMessage,
+}) {
   const bottomRef = useRef(null);
+  const inputRef = useRef(null);
+
+  // 🔹 발화 순서 기준으로 정렬된 메시지
+  const orderedMessages = [...(messages || [])].sort((a, b) => {
+    const ka = getOrderKey(a);
+    const kb = getOrderKey(b);
+    if (ka === kb) {
+      // 같은 시점이면 id 기준으로 한 번 더 정렬
+      const ida = Number(String(a.id ?? 0).replace(/\D/g, "")) || 0;
+      const idb = Number(String(b.id ?? 0).replace(/\D/g, "")) || 0;
+      return ida - idb;
+    }
+    return ka - kb;
+  });
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages]);
+  }, [orderedMessages]);
 
-  const send = () => {
-    const text = input.trim();
-    if (!text) return;
-    setMessages((prev) => [...prev, { from: "agent", text }]);
-    setInput("");
+  useEffect(() => {
+    if (editMode) {
+      inputRef.current?.focus();
+    }
+  }, [editMode]);
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      onSendOrUpdate();
+    }
   };
+
+  const placeholder = editMode
+    ? "수정할 말풍선을 클릭하고 내용을 수정한 뒤 [보내기]를 눌러주세요."
+    : "메시지를 입력하세요";
 
   return (
     <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col">
-      <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
-        <BubbleIcon />
-        <span>상담 대화창</span>
+      <div className="flex items-center justify-between w-full">
+        {/* 왼쪽: 상담 대화창 */}
+        <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
+          <BubbleIcon />
+          <span>상담 대화창</span>
+        </div>
+
+        {/* 오른쪽: 안내문 + 연필 버튼 */}
+        <div className="flex items-center gap-3">
+          {editMode && (
+            <span className="text-xs text-slate-500 font-normal">
+              수정할 말풍선을 클릭하면 아래 입력창에서 내용을 편집할 수
+              있습니다.
+            </span>
+          )}
+
+          <button
+            type="button"
+            onClick={onToggleEditMode}
+            className={`inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs border transition-colors ${
+              editMode
+                ? "bg-slate-900 text-white border-slate-900"
+                : "bg-white text-slate-700 border-slate-300 hover:bg-slate-50"
+            }`}
+          >
+            <EditIcon className="w-3.5 h-3.5" />
+            <span>{editMode ? "수정 종료" : "문장 수정"}</span>
+          </button>
+        </div>
       </div>
 
       <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
-        {messages.map((m, i) => (
-          <ChatBubble key={i} role={m.from} text={m.text} />
+        {orderedMessages.map((m, idx) => (
+          <ChatBubble
+            key={m.id ?? `${m.from}-${idx}`}
+            role={m.role || m.from}
+            text={m.text}
+            mode={m.mode}
+            editable={editMode}
+            onClick={() => {
+              if (editMode) onSelectBubbleForEdit(m.id);
+            }}
+            onDelete={() => onDeleteMessage && onDeleteMessage(m.id)}
+          />
         ))}
         <div ref={bottomRef} />
       </div>
 
       <div className="mt-3 flex gap-2">
         <input
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => e.key === "Enter" && send()}
-          placeholder="메시지를 입력하세요"
+          ref={inputRef}
+          value={inputValue}
+          onChange={(e) => setInputValue(e.target.value)}
+          onKeyDown={handleKeyDown}
+          placeholder={placeholder}
           className="flex-1 h-11 rounded-xl border border-slate-300 px-3 text-base text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300"
         />
         <button
-          onClick={send}
+          onClick={onSendOrUpdate}
           className="h-11 px-4 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800"
         >
           보내기
@@ -126,9 +440,33 @@ function ChatPanel() {
   );
 }
 
-/* ---------------- ChatBubble ---------------- */
-function ChatBubble({ role, text }) {
+function ChatBubble({ role, text, mode, editable, onClick, onDelete }) {
+  // system 메시지: 가운데 정렬 안내문
+  if (role === "system") {
+    return (
+      <div className="w-full flex justify-center my-4">
+        <div
+          className="
+          inline-block
+          max-w-[90%]
+          px-4 py-2
+          rounded-xl
+          bg-slate-100
+          text-slate-800
+          font-medium
+          text-center
+          border border-slate-200
+          shadow-sm
+        "
+        >
+          {text}
+        </div>
+      </div>
+    );
+  }
+
   const isAgent = role === "agent";
+  const label = null;
 
   return (
     <div
@@ -137,9 +475,43 @@ function ChatBubble({ role, text }) {
       }
     >
       {isAgent && <AvatarCommon />}
-      <div className="max-w-[80%] rounded-2xl px-4 py-3 bg-white border border-slate-200">
-        <p className="text-base leading-relaxed text-slate-800">{text}</p>
+
+      {/* 🔹 여기에서 max-w를 래퍼로 옮김 */}
+      <div className="relative max-w-[80%]">
+        <button
+          type="button"
+          onClick={onClick}
+          className={
+            "w-full text-left rounded-2xl px-4 py-3 bg-white border border-slate-200 " +
+            (editable ? "cursor-pointer hover:bg-slate-50" : "")
+          }
+        >
+          {label && (
+            <div className="mb-1">
+              <span className="inline-flex items-center rounded-full px-2 py-0.5 text-[10px] font-medium bg-slate-100 text-slate-600">
+                {label}
+              </span>
+            </div>
+          )}
+          <p className="text-base leading-relaxed text-slate-800">{text}</p>
+        </button>
+
+        {editable && isAgent && onDelete && (
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              onDelete();
+            }}
+            className="absolute -top-1 -right-1 w-5 h-5 flex items-center justify-center
+               rounded-full bg-[#2b5486] text-white text-[10px] font-bold
+               shadow-md hover:bg-[#1e3e63] transition"
+          >
+            ×
+          </button>
+        )}
       </div>
+
       {!isAgent && <AvatarCommon />}
     </div>
   );
@@ -162,378 +534,8 @@ function AvatarCommon() {
   );
 }
 
-/* ---------------- ASRPanel ---------------- */
-function ASRPanel() {
-  const [stage, setStage] = useState(0);
-  const [isRec, setIsRec] = useState(false);
-  const [mode, setMode] = useState("응답");
-  const [text, setText] = useState("");
-  const [recErr, setRecErr] = useState("");
-  const [sec, setSec] = useState(0);
-  const [lastAudio, setLastAudio] = useState(null);
+/* ---------------- 아이콘 & 토글 ---------------- */
 
-  const [isSending, setIsSending] = useState(false);
-  const [apiErr, setApiErr] = useState("");
-
-  // 음성 인식 상태: idle(대기), done(완료)
-  const [recStatus, setRecStatus] = useState("idle");
-
-  // ✅ 수어 영상 전달 완료 팝업 상태
-  const [showDeafPopup, setShowDeafPopup] = useState(false);
-  const navigate = useNavigate(); // ✅ DeafReceive로 이동용
-
-  const mediaRecRef = useRef(null);
-  const chunksRef = useRef([]);
-  const streamRef = useRef(null);
-  const timerRef = useRef(null);
-
-  /* ---------------- 진행 바 애니메이션 ---------------- */
-  useEffect(() => {
-    const id = setInterval(() => setStage((s) => (s + 1) % 4), 1600);
-    return () => clearInterval(id);
-  }, []);
-
-  /* ---------------- 타이머 ---------------- */
-  useEffect(() => {
-    if (isRec) {
-      timerRef.current = setInterval(() => setSec((s) => s + 1), 1000);
-    } else {
-      clearInterval(timerRef.current);
-      timerRef.current = null;
-    }
-    return () => {
-      clearInterval(timerRef.current);
-      timerRef.current = null;
-    };
-  }, [isRec]);
-
-  /* ---------------- 클린업 ---------------- */
-  useEffect(() => {
-    return () => {
-      try {
-        mediaRecRef.current?.stop?.();
-      } catch {}
-      streamRef.current?.getTracks?.().forEach((t) => t.stop());
-      if (lastAudio?.url) URL.revokeObjectURL(lastAudio.url);
-    };
-  }, [lastAudio]);
-
-  /* ---------------- Blob 업로드 ---------------- */
-  const uploadBlob = async (blob) => {
-    if (!blob) {
-      setApiErr("먼저 음성을 녹음해 주세요.");
-      return;
-    }
-
-    setIsSending(true);
-    setApiErr("");
-    setRecStatus("idle");
-
-    try {
-      const fd = new FormData();
-      fd.append("audio", blob, "speech.webm");
-
-      const resp = await fetch(`${API_BASE}/api/accounts/speech_to_sign/`, {
-        method: "POST",
-        body: fd,
-      });
-
-      if (!resp.ok) {
-        const txt = await resp.text();
-        console.error("speech_to_sign error:", resp.status, txt);
-        setApiErr("음성 처리 중 서버 오류가 발생했어요.");
-        return;
-      }
-
-      const data = await resp.json();
-      console.log("speech_to_sign result:", data);
-
-      // ✅ 1) 화면에 보여줄 텍스트 선택: gemini.clean > raw.clean_text > data.text
-      const cleanedText =
-        (data.gemini && data.gemini.clean) ||
-        (data.raw && data.raw.clean_text) ||
-        data.text ||
-        "";
-
-      if (cleanedText) {
-        setText(cleanedText);
-        localStorage.setItem("signanceDeafCaption", cleanedText);
-        // 텍스트 들어온 시점에 완료 상태
-        setRecStatus("done");
-      }
-
-      // 2) 대표 영상 URL 저장
-      let hasVideo = false;
-
-      if (data.video_url) {
-        localStorage.setItem("signanceDeafVideoUrl", data.video_url);
-        console.log("대표 수어 영상 URL:", data.video_url);
-        hasVideo = true;
-      }
-
-      // 3) 여러 개 영상 리스트 저장
-      if (data.video_urls) {
-        localStorage.setItem(
-          "signanceDeafVideoUrls",
-          JSON.stringify(data.video_urls)
-        );
-        console.log("수어 영상 리스트:", data.video_urls);
-        if (Array.isArray(data.video_urls) && data.video_urls.length > 0) {
-          hasVideo = true;
-        }
-      }
-
-      // ✅ 수어 영상이 하나라도 있으면 팝업 띄우기
-      if (hasVideo) {
-        setShowDeafPopup(true);
-      }
-    } catch (e) {
-      console.error(e);
-      setApiErr("서버와 통신 중 오류가 발생했어요.");
-      setRecStatus("idle");
-    } finally {
-      setIsSending(false);
-    }
-  };
-
-  /* ---------------- 등록된 blob 전송 ---------------- */
-  const sendToServer = async () => {
-    await uploadBlob(lastAudio?.blob);
-  };
-
-  /* ---------------- 녹음 시작 ---------------- */
-  const startRec = async () => {
-    setRecErr("");
-    setApiErr("");
-    setRecStatus("idle");
-
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      streamRef.current = stream;
-
-      const mr = new MediaRecorder(stream);
-      mediaRecRef.current = mr;
-      chunksRef.current = [];
-      setSec(0);
-
-      mr.ondataavailable = (e) => {
-        if (e.data && e.data.size > 0) chunksRef.current.push(e.data);
-      };
-
-      mr.onstop = () => {
-        try {
-          const blob = new Blob(chunksRef.current, { type: "audio/webm" });
-          const url = URL.createObjectURL(blob);
-
-          if (lastAudio?.url) URL.revokeObjectURL(lastAudio.url);
-          setLastAudio({ url, blob });
-
-          uploadBlob(blob); // 자동 업로드
-        } catch {
-          setRecErr("오디오 데이터를 생성하지 못했어요.");
-        }
-
-        streamRef.current?.getTracks?.().forEach((t) => t.stop());
-        streamRef.current = null;
-      };
-
-      mr.start();
-      setIsRec(true);
-    } catch {
-      setRecErr("마이크 권한을 확인해 주세요. (https / localhost 권장)");
-      setIsRec(false);
-    }
-  };
-
-  /* ---------------- 종료 ---------------- */
-  const stopRec = () => {
-    try {
-      mediaRecRef.current?.stop();
-    } catch {}
-    setIsRec(false);
-  };
-
-  const toggleRec = () => {
-    if (isRec) stopRec();
-    else startRec();
-  };
-
-  /* ---------------- JSX ---------------- */
-  return (
-    <>
-      <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
-        <div className="flex items-center gap-4">
-          <div className="shrink-0 w-20 h-20 rounded-full border-2 border-slate-300 grid place-items-center">
-            <button
-              type="button"
-              onClick={toggleRec}
-              aria-pressed={isRec}
-              title={isRec ? "녹음 중지" : "녹음 시작"}
-              className={
-                "flex items-center justify-center rounded-full bg-white transition-all " +
-                (isRec
-                  ? "h-[72px] w-[72px] border-2 border-slate-900 ring-4 ring-slate-200 animate-pulse"
-                  : "h-[64px] w-[64px] border border-slate-300")
-              }
-            >
-              <MicIconStroke
-                className={
-                  isRec ? "h-9 w-9 text-slate-900" : "h-8 w-8 text-slate-800"
-                }
-              />
-            </button>
-          </div>
-
-          <div className="flex-1">
-            <div className="flex items-baseline gap-2 font-semibold text-base text-slate-800">
-              <span>
-                {isRec
-                  ? "녹음 중..."
-                  : recStatus === "done"
-                  ? "음성 인식 완료 !"
-                  : "음성 인식 대기 중..."}
-              </span>
-              {isRec && (
-                <span className="text-xs font-normal text-slate-500">
-                  {formatTime(sec)}
-                </span>
-              )}
-            </div>
-
-            <div className="mt-3">
-              <StageDots active={stage} />
-            </div>
-
-            <div className="mt-4 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 flex items-center">
-              <div className="flex gap-2 flex-shrink-0">
-                <button
-                  onClick={() => setMode("질문")}
-                  className={
-                    "px-3 h-8 rounded-lg text-sm border " +
-                    (mode === "질문"
-                      ? "bg-slate-900 text-white border-slate-900"
-                      : "bg-white text-slate-700 border-slate-300")
-                  }
-                >
-                  질문
-                </button>
-                <button
-                  onClick={() => setMode("응답")}
-                  className={
-                    "px-3 h-8 rounded-lg text-sm border " +
-                    (mode === "응답"
-                      ? "bg-slate-900 text-white border-slate-900"
-                      : "bg-white text-slate-700 border-slate-300")
-                  }
-                >
-                  응답
-                </button>
-              </div>
-
-              <input
-                type="text"
-                value={text}
-                onChange={(e) => setText(e.target.value)}
-                placeholder="음성 인식 결과가 여기에 표시됩니다."
-                className="flex-1 ml-4 text-base text-slate-800 placeholder-slate-400 border-none bg-transparent focus:outline-none"
-              />
-            </div>
-
-            {(recErr || apiErr) && (
-              <div className="mt-2 text-xs text-red-600">
-                {recErr || apiErr}
-              </div>
-            )}
-          </div>
-
-          <div className="flex flex-col gap-2">
-            <button
-              className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap disabled:bg-slate-400"
-              onClick={sendToServer}
-              disabled={isSending}
-            >
-              {isSending ? "전송 중..." : "응답 전송"}
-            </button>
-            <button className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap">
-              번역 오류
-            </button>
-          </div>
-        </div>
-
-        {lastAudio?.url && (
-          <div className="mt-3 space-y-2">
-            <audio controls src={lastAudio.url} className="w-full" />
-          </div>
-        )}
-      </section>
-
-      {/* ✅ 수어 영상 전달 완료 팝업 */}
-      {showDeafPopup && (
-        <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/30">
-          <div className="w-full max-w-md rounded-2xl bg-white p-6 shadow-xl border border-slate-200">
-            <div className="text-sm font-semibold text-slate-500 mb-1">
-              수어 영상 전달 완료
-            </div>
-            <div className="text-lg font-semibold text-slate-900 mb-2">
-              농인 화면으로 영상이 전송되었어요.
-            </div>
-            <p className="text-sm text-slate-600 mb-5">
-              DeafReceive 화면으로 이동해서
-              <br />
-              매핑된 수어 영상을 확인해 보시겠습니까?
-            </p>
-
-            <div className="flex justify-end gap-2">
-              <button
-                type="button"
-                onClick={() => setShowDeafPopup(false)}
-                className="px-4 h-10 rounded-lg border border-slate-300 text-sm text-slate-700 hover:bg-slate-50"
-              >
-                나중에 보기
-              </button>
-              <button
-                type="button"
-                onClick={() => {
-                  setShowDeafPopup(false);
-                  navigate("/deaf/receive"); // ✅ DeafReceive 페이지로 이동
-                }}
-                className="px-4 h-10 rounded-lg bg-slate-900 text-sm text-white hover:bg-slate-800"
-              >
-                Deaf 화면 바로가기
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-    </>
-  );
-}
-
-/* ---------------- StageDots ---------------- */
-function StageDots({ active = 0 }) {
-  return (
-    <div className="flex items-center gap-6">
-      {[0, 1, 2, 3].map((i) => (
-        <div
-          key={i}
-          className={
-            "h-2 w-12 rounded-full transition-all " +
-            (active >= i ? "bg-slate-800" : "bg-slate-200")
-          }
-        />
-      ))}
-    </div>
-  );
-}
-
-/* ---------------- Util ---------------- */
-function formatTime(s) {
-  const m = Math.floor(s / 60);
-  const ss = s % 60;
-  return `${String(m).padStart(2, "0")}:${String(ss).padStart(2, "0")}`;
-}
-
-/* ---------------- Icons ---------------- */
 function BubbleIcon() {
   return (
     <svg
@@ -546,6 +548,21 @@ function BubbleIcon() {
       className="text-slate-700"
     >
       <path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v8z" />
+    </svg>
+  );
+}
+
+function EditIcon({ className = "" }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
+      <path d="M4 20h4l10.5-10.5-4-4L4 16v4z" />
+      <path d="M14.5 5.5l4 4" />
     </svg>
   );
 }
@@ -563,24 +580,6 @@ function UserIcon({ className = "" }) {
   );
 }
 
-function MicIconStroke({ className = "" }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      className={className}
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.8"
-    >
-      <rect x="9" y="4" width="6" height="10" rx="3" />
-      <path d="M5 11a7 7 0 0 0 14 0" />
-      <path d="M12 18v4" />
-      <path d="M9 22h6" />
-    </svg>
-  );
-}
-
-/* ---------------- Send/Receive Toggle ---------------- */
 function SendReceiveToggle({ active }) {
   const navigate = useNavigate();
   const baseBtn =

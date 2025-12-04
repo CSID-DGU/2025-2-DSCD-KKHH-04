@@ -1,61 +1,111 @@
+// frontend_clean/src/pages/Banker/Receive.jsx
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom"; // ✅ 추가
+import { useNavigate } from "react-router-dom";
+
+import NavTabs from "../../components/NavTabs";
+import { useChatStore } from "../../store/chatstore"; // 🔹 전역 상담 대화
+
+// 🔹 세션 & API 기본 값 (BankerSend랑 맞춤)
+const SESSION_KEY = "signanceSessionId";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+
+// 🔹 Receive는 기존 세션만 읽기 (새로 만들지 않음)
+function getExistingSessionId() {
+  try {
+    return localStorage.getItem(SESSION_KEY) || null;
+  } catch {
+    return null;
+  }
+}
 
 export default function BankerReceive() {
-  // ✅ 이 화면 들어올 때마다 스크롤 맨 위로
+  const navigate = useNavigate();
+
+  // 🔹 전역 상담 대화
+  const { messages, setMessages } = useChatStore();
+
+  // 🔹 세션 ID: 이미 만들어진 것만 사용
+  const [sessionId] = useState(() => getExistingSessionId());
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, []);
 
+  // 🔹 메시지 연동: 백엔드에서 해당 session_id의 대화 불러오기
+  // useEffect(() => {
+  //   if (!sessionId) return;
+
+  //   const fetchMessages = async () => {
+  //     try {
+  //       const res = await fetch(
+  //         `${API_BASE}/api/accounts/chat/?session_id=${sessionId}`,
+  //         {
+  //           method: "GET",
+  //           credentials: "include", // 로그인 세션 쿠키 포함
+  //         }
+  //       );
+
+  //       if (!res.ok) {
+  //         console.error("대화 조회 실패(receive):", await res.text());
+  //         return;
+  //       }
+
+  //       const data = await res.json(); // 예: [{id, session_id, sender, role, text, created_at}, ...]
+  //       // 🔹 전역 store 형식에 맞게 매핑
+  //       const mapped = data.map((chat) => ({
+  //         id: chat.id,
+  //         from: chat.sender === "banker" ? "agent" : "user",
+  //         text: chat.text,
+  //         role: chat.role,
+  //         created_at: chat.created_at,
+  //       }));
+  //       setMessages(mapped);
+  //     } catch (err) {
+  //       console.error("대화 조회 에러(receive):", err);
+  //     }
+  //   };
+
+  //   fetchMessages();
+  // }, [sessionId, setMessages]);
+
+  // 🔹 은행원 쪽에서 새 메시지 보낼 때 (전역 store만 업데이트)
+  //    → 실제 백엔드 저장은 BankerSend에서 하고 있으니까,
+  //       여기서는 단순히 화면상 추가만 해도 되고,
+  //       필요하면 나중에 POST 로직도 붙일 수 있음.
+  const handleSend = (text) => {
+    const trimmed = text.trim();
+    if (!trimmed) return;
+    setMessages((prev) => [
+      ...prev,
+      {
+        id: Date.now(),
+        from: "agent",
+        text: trimmed,
+      },
+    ]);
+  };
+
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs />
+        {/* 상단 탭 */}
+        <NavTabs
+          rightSlot={<SendReceiveToggle active="receive" />}
+          onTabClick={(idx) => {
+            if (idx === 3) navigate("/performance");
+          }}
+        />
+
+        {/* 🔹 고객 정보 바: 정적 텍스트로 표시 */}
         <CustomerBar />
-        <ChatPanel />
+
+        <ChatPanel messages={messages} onSend={handleSend} />
         <ASRPanel />
       </main>
     </div>
   );
 }
-
-/* ---------------- 탭 + 송신/수신 토글 ---------------- */
-/* ---------------- 탭 + 송신/수신 토글 ---------------- */
-function NavTabs() {
-  const tabs = ["실시간 인식", "대화 로그", "고객 메모", "시스템 상태"];
-  const [active, setActive] = useState(0);
-
-  return (
-    <nav className="w-full bg-white rounded-xl shadow-sm border border-slate-200 px-3 pb-3">
-      <div className="flex items-start justify-between gap-4">
-        {/* 왼쪽: 탭 메뉴 */}
-        <ul className="flex flex-wrap gap-6 mt-2">
-          {tabs.map((t, i) => (
-            <li key={t}>
-              <button
-                onClick={() => setActive(i)}
-                className={
-                  "px-4 py-2 rounded-lg text-sm sm:text-base " +
-                  (active === i
-                    ? "bg-slate-900 text-white"
-                    : "text-slate-700 hover:bg-slate-100")
-                }
-              >
-                {t}
-              </button>
-            </li>
-          ))}
-        </ul>
-
-        {/* 오른쪽: 송신/수신 토글 (수신 활성) */}
-        <div className="mt-2">
-          <SendReceiveToggle active="receive" />
-        </div>
-      </div>
-    </nav>
-  );
-}
-
 
 /* ---------------- 고객 정보 바 ---------------- */
 function CustomerBar() {
@@ -75,11 +125,7 @@ function CustomerBar() {
 }
 
 /* ---------------- 상담 대화창 ---------------- */
-function ChatPanel() {
-  const [messages, setMessages] = useState([
-    { from: "agent", text: "안녕하세요. 어떤 업무 도와드릴까요?" },
-    { from: "user", text: "안녕하세요. 새 통장을 만들고 싶어요." },
-  ]);
+function ChatPanel({ messages, onSend }) {
   const [input, setInput] = useState("");
   const bottomRef = useRef(null);
 
@@ -90,7 +136,7 @@ function ChatPanel() {
   const send = () => {
     const txt = input.trim();
     if (!txt) return;
-    setMessages((prev) => [...prev, { from: "agent", text: txt }]);
+    onSend?.(txt);
     setInput("");
   };
 
@@ -101,20 +147,9 @@ function ChatPanel() {
         <span>상담 대화창</span>
       </div>
 
-      <div
-        className="
-          mt-3
-          rounded-xl
-          border border-slate-200
-          bg-slate-50
-          p-4
-          space-y-3
-          h-[318px]
-          overflow-y-auto
-        "
-      >
+      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
         {messages.map((m, i) => (
-          <ChatBubble key={i} role={m.from} text={m.text} />
+          <ChatBubble key={m.id ?? i} role={m.from || m.role} text={m.text} />
         ))}
         <div ref={bottomRef} />
       </div>
@@ -140,12 +175,35 @@ function ChatPanel() {
 
 /* ---------------- 말풍선 ---------------- */
 function ChatBubble({ role, text }) {
-  const isAgent = role === "agent";
+  // system 메시지: 가운데 정렬 안내문
+  if (role === "system") {
+    return (
+      <div className="w-full flex justify-center my-4">
+        <div
+          className="
+          inline-block
+          max-w-[90%]
+          px-4 py-2
+          rounded-xl
+          bg-slate-100
+          text-slate-800
+          font-medium
+          text-center
+          border border-slate-200
+          shadow-sm
+        "
+        >
+          {text}
+        </div>
+      </div>
+    );
+  }
+
+  // 일반 메시지
+  const isAgent = (role || "agent") === "agent";
   return (
     <div
-      className={
-        "flex items-start gap-2 " + (isAgent ? "" : "justify-end")
-      }
+      className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
     >
       {isAgent && <AvatarCommon />}
       <div className="max-w-[80%] rounded-2xl px-4 py-3 bg-white border border-slate-200">
@@ -362,7 +420,6 @@ function HandIcon({ className = "" }) {
 /* ---------------- 상단 송신/수신 토글 ---------------- */
 function SendReceiveToggle({ active }) {
   const navigate = useNavigate();
-
   const baseBtn =
     "px-4 py-1.5 text-sm rounded-full transition-all duration-150 whitespace-nowrap";
 

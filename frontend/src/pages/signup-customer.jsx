@@ -236,6 +236,10 @@ export default function SignUpCustomerPage() {
   const [phone1, setPhone1] = useState("");
   const [phone2, setPhone2] = useState("");
 
+  // 계좌 정보
+  const [bankName, setBankName] = useState("");
+  const [accountNumber, setAccountNumber] = useState("");
+
   const [loading, setLoading] = useState(false);
 
   const onSubmit = async () => {
@@ -258,6 +262,8 @@ export default function SignUpCustomerPage() {
       password,
       phone,
       contactMethod: contact,
+      bankName,
+      accountNumber,
     };
 
     try {
@@ -419,7 +425,7 @@ export default function SignUpCustomerPage() {
                 >
                   <option>010</option>
                   <option>011</option>
-                  <option>016</option>
+                  <option>012</option>
                 </select>
                 <span style={hyphenStyle}>-</span>
                 <input
@@ -437,6 +443,24 @@ export default function SignUpCustomerPage() {
                 />
               </div>
             </FormRow>
+                        <FormRow label="은행명">
+              <input
+                style={inputStyle}
+                placeholder="예: XX은행"
+                value={bankName}
+                onChange={(e) => setBankName(e.target.value)}
+              />
+            </FormRow>
+
+            <FormRow label="계좌번호">
+              <input
+                style={inputStyle}
+                placeholder="예: 1002-123-456789"
+                value={accountNumber}
+                onChange={(e) => setAccountNumber(e.target.value)}
+              />
+            </FormRow>
+            
           </section>
         </div>
 

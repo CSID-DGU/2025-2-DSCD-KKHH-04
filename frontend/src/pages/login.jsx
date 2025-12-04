@@ -18,7 +18,7 @@ export default function Login() {
 
     // 아주 기본 체크
     if (!email || !password) {
-      setErrorMsg("이메일(ID)과 비밀번호를 입력해 달라.");
+      setErrorMsg("이메일(ID)과 비밀번호를 입력해주세요.");
       return;
     }
 
@@ -34,7 +34,7 @@ export default function Login() {
           email,
           password,
         }),
-      });
+});
 
       const data = await res.json().catch(() => null);
 
@@ -103,7 +103,7 @@ export default function Login() {
                 type="text"
                 className="w-full h-14 rounded-lg border border-slate-300 px-4 text-base
                            focus:outline-none focus:ring-2 focus:ring-[#2b5486]/40 focus:border-[#2b5486]"
-                placeholder="이메일(ID)을 입력해 달라."
+                placeholder="이메일(ID)을 입력해주세요."
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
@@ -118,7 +118,7 @@ export default function Login() {
                 type="password"
                 className="w-full h-14 rounded-lg border border-slate-300 px-4 text-base
                            focus:outline-none focus:ring-2 focus:ring-[#2b5486]/40 focus:border-[#2b5486]"
-                placeholder="비밀번호를 입력해 달라."
+                placeholder="비밀번호를 입력해주세요."
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
