@@ -1,3 +1,5 @@
+# 병렬 폴더 구조에서 labels.csv 파일 만드는 스크립트
+
 import csv
 from pathlib import Path
 

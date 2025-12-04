@@ -11,7 +11,7 @@ export class HttpBatchTransport implements ISeqTransport {
   onResult?: (data: any) => void;
 
   constructor(
-    url: string,
+    url: string,          // 예: "/api/ingest-and-infer-seq/"
     private sessionId: string,
     private fps = 30
   ) {
@@ -36,8 +36,6 @@ export class HttpBatchTransport implements ISeqTransport {
       frames: this.buffer,
     };
 
-    this.buffer = [];
-
     try {
       console.log("[HttpBatchTransport] POST", this.url, payload);
 
@@ -50,7 +48,14 @@ export class HttpBatchTransport implements ISeqTransport {
       console.log("[HttpBatchTransport] response status", r.status);
 
       if (!r.ok) {
-        console.error("[HttpBatchTransport] HTTP error", r.status);
+        // 🔍 에러 응답 body까지 같이 출력
+        let text: string;
+        try {
+          text = await r.text();
+        } catch {
+          text = "<no body>";
+        }
+        console.error("[HttpBatchTransport] HTTP error", r.status, text);
         return;
       }
 
@@ -60,8 +65,12 @@ export class HttpBatchTransport implements ISeqTransport {
       if (this.onResult) {
         this.onResult(data);
       }
+
+      // ✅ 여기까지 성공하면 버퍼 비우기
+      this.buffer = [];
     } catch (err) {
       console.error("[HttpBatchTransport] network error", err);
+      // 네트워크 에러면 버퍼는 그대로 두고, 다음 flush 때 다시 시도 가능
     }
   }
 

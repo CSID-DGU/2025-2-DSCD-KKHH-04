@@ -1,5 +1,5 @@
 // src/components/SystemStatusPanel.tsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 // 타입 정의 (대충이라도 해두면 에러 훅 줄어듦)
 type BackendStatus = {

@@ -443,6 +443,80 @@ def augment_seq(seq_tf: np.ndarray) -> np.ndarray:
 
 
 # =========================================================
+# 휴지기 기반 segmentation 유틸
+# =========================================================
+def compute_motion_per_frame(seq: np.ndarray) -> np.ndarray:
+    """
+    프레임 간 차이를 이용해 '움직임 크기'를 계산.
+    seq: [T, F]
+    return: [T]  (0번째 프레임은 0으로 둔다)
+    """
+    seq = _to_numpy_2d(seq)
+    T = seq.shape[0]
+    if T <= 1:
+        return np.zeros((T,), dtype=np.float32)
+
+    diff = np.diff(seq.astype(np.float32), axis=0)   # [T-1, F]
+    motion = np.linalg.norm(diff, axis=1)           # [T-1]
+    motion = np.concatenate([[0.0], motion]).astype(np.float32)
+    return motion
+
+
+def segment_by_pause(
+    seq: np.ndarray,
+    fps: float,
+    pause_sec: float = 2.0,       # 휴지기로 인정할 최소 시간(초) – 기본 2초
+    motion_th: float = 0.02,      # 이 값보다 작은 motion이면 '정지'로 간주
+    min_word_sec: float = 0.3,    # 단어 하나로 인정할 최소 길이(초)
+):
+    """
+    휴지기(손이 거의 안 움직이는 구간)를 기준으로 단어 구간을 자른다.
+
+    - seq: [T, F]
+    - fps: 이 시퀀스의 프레임 레이트 (예: 30)
+    - pause_sec: 휴지기로 인정할 최소 시간 (예: 2.0초)
+    - motion_th: 이 값보다 작은 프레임은 '정지'로 취급
+    - min_word_sec: 단어 하나로 인정할 최소 길이 (너무 짧은 것은 버림)
+
+    return: List[(start_idx, end_idx)]  (end는 '포함 안 함')
+    """
+    seq = _to_numpy_2d(seq)
+    T = seq.shape[0]
+    if T == 0 or fps <= 0:
+        return []
+
+    motion = compute_motion_per_frame(seq)      # [T]
+    is_pause = motion < motion_th              # [T] bool
+
+    # 휴지기/단어 길이를 프레임 단위로 변환
+    min_pause_frames = max(1, int(round(pause_sec * fps)))
+    min_word_frames = max(1, int(round(min_word_sec * fps)))
+
+    segments: List[Tuple[int, int]] = []
+    last_cut = 0
+    streak = 0
+
+    for t in range(1, T):
+        if is_pause[t]:
+            streak += 1
+        else:
+            # 직전에 충분히 긴 휴지기가 있었다면 그 지점을 경계로 사용
+            if streak >= min_pause_frames:
+                pause_start = t - streak
+                word_end = pause_start
+                if word_end - last_cut >= min_word_frames:
+                    segments.append((last_cut, word_end))
+                    last_cut = t  # 휴지기 이후부터 새 단어 시작
+            streak = 0
+
+    # 마지막 조각 처리
+    if T - last_cut >= min_word_frames:
+        segments.append((last_cut, T))
+
+    return segments
+
+
+# =========================================================
 # Dataset (CTC/단어 공용)
 # =========================================================
 class SignDataset(Dataset):

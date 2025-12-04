@@ -1,4 +1,4 @@
-# sign/gloss_model.py  (단어학습 eco_word_1000_closed.pt 전용)
+# sign/gloss_model.py  (단어학습 recorded_word_44.pt 전용)
 import time
 from pathlib import Path
 import numpy as np
@@ -9,21 +9,29 @@ from data import normalize_hands_frame  # frame 정규화 (학습과 동일)
 
 
 # ========= 경로 설정 ============
+
+# BASE_DIR: backend 폴더 기준 (sign/의 상위)
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-CKPT_PATH = BASE_DIR / "runs" / "recorded_word.pt"
+CKPT_PATH = BASE_DIR / "runs" / "recorded_word_57.pt"
+
 # 필요하면 나중에 쓸 수 있게만 둠 (필수 X)
 WORD_ROOT = BASE_DIR / "dataset" / "npz" / "recorded"
 VOCAB_JSON = WORD_ROOT / "vocab_recorded.json"
 
 
 # ========= 전역 객체 ============
+
 _device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 _model = None
 _id2token = None
 
 
 def _load_model_if_needed():
+    """
+    ckpt와 vocab을 1번만 로드해 두고,
+    이후 infer_gloss_from_seq 호출 시 재사용한다.
+    """
     global _model, _id2token
 
     if _model is not None:
@@ -44,7 +52,7 @@ def _load_model_if_needed():
     # 3) backbone 설정 추출
     in_dim = ckpt.get("in_dim", 126)
     hid = ckpt.get("hid", 256)
-    depth = ckpt.get("depth", 6)           # ckpt에 없으면 기본값
+    depth = ckpt.get("depth", 6)
     nhead = ckpt.get("nhead", 4)
     p = ckpt.get("p", 0.1)
     subsample_stages = ckpt.get("subsample_stages", 1)
@@ -73,7 +81,11 @@ def _load_model_if_needed():
 
 def infer_gloss_from_seq(seq_tf: np.ndarray, topk: int = 3):
     """
-    단어 모델: 한 seq -> 한 단어 분류 (Top-K 반환)
+    단어 모델: 하나의 시퀀스 (T,F)를 받아서
+    1개 단어를 분류 (Top-K 결과 반환).
+
+    - seq_tf: (T,F) numpy float32
+    - topk: 상위 K개 토큰 반환
     """
     _load_model_if_needed()
     assert _model is not None
@@ -88,7 +100,7 @@ def infer_gloss_from_seq(seq_tf: np.ndarray, topk: int = 3):
     if seq_tf.ndim != 2:
         raise ValueError(f"seq_tf는 (T,F) 2D여야 합니다. 현재 shape={seq_tf.shape}")
 
-    # 정규화
+    # 프레임 단위 정규화 (학습과 동일)
     seq_tf = np.apply_along_axis(normalize_hands_frame, 1, seq_tf).astype(np.float32)
 
     x = torch.from_numpy(seq_tf).unsqueeze(0).to(_device)  # [1,T,F]

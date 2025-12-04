@@ -1,3 +1,5 @@
+# vocab.json 만드는 스크립트
+
 import json
 import csv
 

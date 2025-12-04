@@ -15,7 +15,10 @@ import type {
   Hand as TxHand,
 } from "@/lib/seqTransport";
 import { useHands } from "@/hooks/useHands";
-import { useSequenceSender } from "@/hooks/useSequenceSender";
+import {
+  useSequenceSender,
+  type SignInferenceResult,
+} from "@/hooks/useSequenceSender";
 
 /* ========= useHands.Frame → seqTransport.Frame 변환 헬퍼 ========= */
 function toTxFrame(frame: HandsFrame): TxFrame {
@@ -46,15 +49,24 @@ function PanelHeader({ icon, title }: PanelHeaderProps) {
 
 /* ======================== 메인 페이지 컴포넌트 ======================== */
 export default function DeafSend() {
-  // 🔥 top-1 토큰 저장
+  // 🔥 인식 결과 텍스트 (자연어 문장 우선)
   const [prediction, setPrediction] = useState("");
 
   const sessionId = useMemo(() => `sess_${Date.now()}`, []);
 
   // 🔥 useSequenceSender에 콜백으로 연결
-  const transport = useSequenceSender(sessionId, (top1) => {
-    setPrediction(top1);
-  });
+  const transport = useSequenceSender(
+    sessionId,
+    (result: SignInferenceResult) => {
+      // 자연어 문장 > 글로스 문장 > 빈 문자열 순으로 선택
+      const text =
+        result.natural_sentence ||
+        result.gloss_sentence ||
+        "";
+      console.log("[DeafSend] inference result:", result);
+      setPrediction(text);
+    }
+  );
 
   // 이제 useHands에서는 respText 안 씀
   const { start, stop, status } = useHands({
