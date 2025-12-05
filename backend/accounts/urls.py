@@ -1,5 +1,6 @@
 from django.urls import path
 from . import views
+from django.views.generic import RedirectView
 
 urlpatterns = [
     path("signup/", views.signup, name="signup"),
@@ -22,4 +23,7 @@ urlpatterns = [
     path("chat/<int:pk>/", views.chat_detail, name="chat-detail"),
     path("sign_result/latest/", views.latest_sign_result, name="latest_sign_result",
          ),
+    
+    path("favicon.ico", RedirectView.as_view(url="/static/favicon.ico")),
+
 ]

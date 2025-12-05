@@ -70,6 +70,16 @@ export default function BankerSend() {
       }
 
       const data = await res.json();
+      // 🔹 백엔드에서 새로 내려준 tokens 사용
+      const tokens = data.tokens || [];
+
+      const gloss = tokens.map(t => t.text);
+      const glossType = tokens.map(t => t.type);
+
+      console.log("[speech_to_sign] tokens:", tokens);
+      console.log("[speech_to_sign] gloss:", gloss);
+      console.log("[speech_to_sign] glossType:", glossType);
+
       return data;
     } catch (err) {
       console.error("chat 저장 실패:", err);

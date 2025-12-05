@@ -728,13 +728,50 @@ def map_one_word_to_id(word: str, index: dict, blacklist: list | None = None) ->
 
 
 def to_gloss_ids(gloss_list: list[str], index: dict) -> list[str]:
-    """글로스 리스트 → 중복 제거된 gloss_id 리스트(입력 순서 보존)."""
-    out, seen = [], set()
-    for g in gloss_list or []:
-        gid = map_one_word_to_id(g, index)
-        if gid and gid not in seen:
-            out.append(gid)
-            seen.add(gid)
+    """
+    gloss_list: ["자동이체", "값", "gloss:자동이체", "image:1년", ...] 등
+      - "image:" 토큰은 여기서 처리하지 않음 (service.py에서 generate_image_video)
+      - "gloss:" 접두어는 떼고 순수 텍스트로만 ID 매핑
+    index: { "자동이체": "100123", ... }
+
+    반환: 중복 제거된 gloss_id 리스트(입력 순서 보존)
+    """
+    out: list[str] = []
+    seen: set[str] = set()
+
+    for raw in (gloss_list or []):
+        if raw is None:
+            continue
+
+        g = str(raw).strip()
+        if not g:
+            continue
+
+        # 1) 접두어 정리
+        if g.startswith("image:"):
+            # image 토큰은 여기서 ID 변환하지 않음
+            print(f"[to_gloss_ids] skip image token: {g!r}")
+            continue
+
+        if g.startswith("gloss:"):
+            g_clean = g[len("gloss:"):].strip()
+        else:
+            g_clean = g
+
+        if not g_clean:
+            continue
+
+        # 2) 실제 ID 매핑
+        gid = map_one_word_to_id(g_clean, index)
+        if not gid:
+            print(f"[to_gloss_ids] no id for gloss='{g_clean}' (from {g!r})")
+            continue
+
+        gid_str = str(gid)
+        if gid_str not in seen:
+            out.append(gid_str)
+            seen.add(gid_str)
+
     return out
 
 
@@ -821,21 +858,34 @@ def resolve_gloss_token(token_text, original_sentence, rules, db_index):
 def _paths_from_ids(gloss_ids):
     """
     gloss_id 리스트를 받아 미리 만들어둔 지도(VIDEO_PATH_INDEX)에서 경로를 찾음.
-    service.py에서 그대로 사용 가능.
+    - 여기로 들어오는 값은 원칙상 "100123" 같은 순수 ID여야 함.
+    - 혹시 'gloss:...', 'image:...'가 섞여 들어와도 경로로 사용하지 않고 스킵.
     """
     paths, missing = [], []
     for gid in gloss_ids or []:
-        gid_str = str(gid)
+        gid_str = str(gid).strip()
+        if not gid_str:
+            continue
+
+        # 방어 코드: 잘못 들어온 접두어 토큰은 무시
+        if gid_str.startswith("image:"):
+            print(f"[paths_from_ids] skip image token in gloss_ids: {gid_str!r}")
+            continue
+        if gid_str.startswith("gloss:"):
+            print(f"[paths_from_ids] unexpected gloss: prefix in gloss_ids: {gid_str!r}")
+            # 필요하면 여기서 접두어 떼고 다시 VIDEO_PATH_INDEX 조회해도 됨
+            gid_str = gid_str[len("gloss:"):].strip()
+            if not gid_str:
+                continue
+
         if gid_str in VIDEO_PATH_INDEX:
             paths.append(VIDEO_PATH_INDEX[gid_str])
         else:
-            missing.append(gid)
+            missing.append(gid_str)
 
     if missing:
         print(f"⚠️  매핑 누락 (파일 없음) gloss_id: {missing}")
     return paths
-
-
 # ======================================================================
 # 영상 합성/저장 (원하면 service.py에서 사용 가능)
 # ======================================================================
