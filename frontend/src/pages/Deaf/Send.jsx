@@ -1,8 +1,13 @@
-// frontend_clean/src/pages/Deaf/Send.jsx
-import React, { useEffect, useRef, useState } from "react";
+// src/pages/Deaf/Send.jsx
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import NavTabs from "../../components/NavTabs"; // 공통 NavTabs
+import NavTabs from "../../components/NavTabs";
 import { useChatStore } from "../../store/chatstore";
+
+import { useHands } from "../../hooks/useHands";
+import { useSequenceSender } from "../../hooks/useSequenceSender";
+
+/* ========= 공통 상수 & 유틸 ========= */
 
 // Receive와 동일한 카드 높이
 const PANEL_HEIGHT = "h-[560px]";
@@ -21,23 +26,15 @@ function getExistingSessionId() {
   }
 }
 
-export default function DeafSend() {
-  return (
-    <div className="w-full h-auto overflow-hidden">
-      <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs rightSlot={<SendReceiveToggle active="send" />} />
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
-          <VideoPanel />
-          <ChatPanel />
-        </div>
-
-        <div className="mt-4">
-          <ASRPanel />
-        </div>
-      </main>
-    </div>
-  );
+/* ========= useHands.Frame → seqTransport.Frame 변환 헬퍼 ========= */
+function toTxFrame(frame) {
+  return {
+    ts: frame.ts,
+    hands: frame.hands.map((h) => ({
+      ...h,
+      handedness: h.handedness === "Left" ? "Left" : "Right",
+    })),
+  };
 }
 
 /* ---------------- 공통 타이틀 ---------------- */
@@ -50,90 +47,152 @@ function PanelHeader({ icon, title }) {
   );
 }
 
-/* ---------------- 수어 인식 카메라 ---------------- */
-function VideoPanel() {
+/* ======================== 메인 페이지 컴포넌트 ======================== */
+export default function DeafSend() {
+  // 🔥 인식 결과 텍스트 (자연어 문장 우선)
+  const [prediction, setPrediction] = useState("");
+
+  // 🔥 수어 인식용 세션 (NPZ/ingest용, 채팅 세션과는 별개)
+  const sessionId = useMemo(() => `sess_${Date.now()}`, []);
+
+  // 🔥 useSequenceSender에 콜백으로 연결
+  const transport = useSequenceSender(sessionId, (result) => {
+    const text =
+      result.natural_sentence || result.gloss_sentence || "";
+    console.log("[DeafSend] inference result:", result);
+    setPrediction(text);
+  });
+
+  // useHands: 프레임 들어올 때마다 seqTransport로 push
+  const { start, stop, status } = useHands({
+    onFrame: (frame) => {
+      console.log("[DeafSend] onFrame");
+      transport.pushFrame(toTxFrame(frame));
+    },
+  });
+
+  const flushSeq = async () => {
+    console.log("[DeafSend] flushSeq called");
+    await transport.flush();
+  };
+
+  // 카메라/인식 진행 여부 (StageDots 제어용)
+  const [recognizing, setRecognizing] = useState(false);
+
+  return (
+    <div className="w-full h-auto overflow-hidden">
+      <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
+        {/* 상단 탭 (기존 디자인 유지) */}
+        <NavTabs rightSlot={<SendReceiveToggle active="send" />} />
+
+        {/* 상단 2열: 수어 카메라 + 상담 대화창 */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
+          <VideoPanel
+            start={start}
+            stop={stop}
+            status={status}
+            onFlush={flushSeq}
+            onStarted={() => setRecognizing(true)}
+            onStopped={() => setRecognizing(false)}
+          />
+          <ChatPanel />
+        </div>
+
+        {/* 하단 수어 인식 결과 패널 */}
+        <div className="mt-4">
+          <ASRPanel respText={prediction} isActive={recognizing} />
+        </div>
+      </main>
+    </div>
+  );
+}
+
+/* ---------------- 수어 인식 카메라 패널 ---------------- */
+
+function VideoPanel({
+  start,
+  stop,
+  status,
+  onFlush,
+  onStarted,
+  onStopped,
+}) {
+  const containerRef = useRef(null);
   const videoRef = useRef(null);
-  const streamRef = useRef(null);
-  const [devices, setDevices] = useState([]);
-  const [deviceId, setDeviceId] = useState("");
-  const [facing, setFacing] = useState("user");
-  const [running, setRunning] = useState(false);
-  const [error, setError] = useState("");
+  const canvasRef = useRef(null);
 
-  const stopStream = () => {
-    if (streamRef.current) {
-      streamRef.current.getTracks().forEach((t) => t.stop());
-      streamRef.current = null;
-    }
-    if (videoRef.current) videoRef.current.srcObject = null;
-    setRunning(false);
-  };
+  const [started, setStarted] = useState(false);
+  const [mirror, setMirror] = useState(true);
 
-  const startCamera = async (opts = {}) => {
-    try {
-      setError("");
-      const constraints = {
-        audio: false,
-        video: {
-          width: { ideal: 1280 },
-          height: { ideal: 720 },
-          frameRate: { ideal: 30, max: 60 },
-          ...(deviceId
-            ? { deviceId: { exact: deviceId } }
-            : { facingMode: facing }),
-          ...opts,
-        },
-      };
-
-      stopStream();
-      const stream = await navigator.mediaDevices.getUserMedia(constraints);
-      streamRef.current = stream;
-
-      if (videoRef.current) {
-        videoRef.current.srcObject = stream;
-        await videoRef.current.play();
-      }
-
-      setRunning(true);
-
-      const list = await navigator.mediaDevices.enumerateDevices();
-      const cams = list.filter((d) => d.kind === "videoinput");
-      setDevices(cams);
-      if (!deviceId && cams[0]?.deviceId) setDeviceId(cams[0].deviceId);
-    } catch (e) {
-      console.error(e);
-      setError(e?.message || "카메라를 시작할 수 없습니다.");
-      setRunning(false);
-    }
-  };
-
+  // 컨테이너 크기에 맞춰 canvas 크기 동기화
   useEffect(() => {
-    startCamera();
-    return stopStream;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const container = containerRef.current;
+    const canvas = canvasRef.current;
+    if (!container || !canvas) return;
+
+    const syncCanvasSize = () => {
+      const w = container.clientWidth;
+      const h = container.clientHeight;
+      const dpr = window.devicePixelRatio || 1;
+
+      canvas.style.width = `${w}px`;
+      canvas.style.height = `${h}px`;
+
+      const pxW = Math.max(1, Math.round(w * dpr));
+      const pxH = Math.max(1, Math.round(h * dpr));
+      if (canvas.width !== pxW) canvas.width = pxW;
+      if (canvas.height !== pxH) canvas.height = pxH;
+    };
+
+    const ro = new ResizeObserver(syncCanvasSize);
+    ro.observe(container);
+    syncCanvasSize();
+
+    return () => ro.disconnect();
   }, []);
 
-  useEffect(() => {
-    if (deviceId) startCamera();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [deviceId]);
+  const handleStart = async () => {
+    if (!videoRef.current || !canvasRef.current) return;
 
-  const toggleFacing = async () => {
-    setFacing((p) => (p === "user" ? "environment" : "user"));
-    setDeviceId("");
-    await startCamera();
+    const container = containerRef.current;
+    const canvas = canvasRef.current;
+    if (container && canvas) {
+      const w = container.clientWidth;
+      const h = container.clientHeight;
+      const dpr = window.devicePixelRatio || 1;
+      canvas.style.width = `${w}px`;
+      canvas.style.height = `${h}px`;
+      canvas.width = Math.max(1, Math.round(w * dpr));
+      canvas.height = Math.max(1, Math.round(h * dpr));
+    }
+
+    await start(videoRef.current, canvasRef.current);
+    setStarted(true);
+    onStarted && onStarted();
+  };
+
+  const handleStop = async () => {
+    stop();
+    setStarted(false);
+    if (onFlush) await onFlush();
+    onStopped && onStopped();
   };
 
   const capture = () => {
-    if (!videoRef.current) return;
     const v = videoRef.current;
+    if (!v) return;
+
     const canvas = document.createElement("canvas");
     canvas.width = v.videoWidth;
     canvas.height = v.videoHeight;
     const ctx = canvas.getContext("2d");
+    if (!ctx) return;
 
-    ctx.translate(canvas.width, 0);
-    ctx.scale(-1, 1);
+    if (mirror) {
+      ctx.translate(canvas.width, 0);
+      ctx.scale(-1, 1);
+    }
+
     ctx.drawImage(v, 0, 0, canvas.width, canvas.height);
 
     const dataUrl = canvas.toDataURL("image/png");
@@ -150,36 +209,28 @@ function VideoPanel() {
       <PanelHeader icon={<CameraIcon />} title="수어 인식 카메라" />
 
       <div className="mt-2 flex flex-wrap items-center gap-2 text-sm">
-        <select
-          className="h-9 rounded-lg border border-slate-300 px-2 text-sm"
-          value={deviceId}
-          onChange={(e) => setDeviceId(e.target.value)}
-        >
-          {devices.length === 0 && <option>카메라 검색 중…</option>}
-          {devices.map((d) => (
-            <option key={d.deviceId} value={d.deviceId}>
-              {d.label || `Camera ${d.deviceId.slice(0, 6)}`}
-            </option>
-          ))}
-        </select>
-
         <button
-          onClick={toggleFacing}
-          className="h-9 px-3 rounded-lg border border-slate-300 hover:bg-slate-50 text-sm whitespace-nowrap"
+          onClick={() => setMirror((m) => !m)}
+          className={
+            "h-9 px-3 rounded-lg border text-sm " +
+            (mirror
+              ? "bg-slate-900 text-white border-slate-900"
+              : "bg-white text-slate-700 border-slate-300 hover:bg-slate-50")
+          }
         >
-          전·후면
+          {mirror ? "미러 ON" : "미러 OFF"}
         </button>
 
-        {running ? (
+        {started ? (
           <button
-            onClick={stopStream}
+            onClick={handleStop}
             className="h-9 px-3 rounded-lg bg-slate-900 text-white hover:bg-slate-800 text-sm"
           >
-            일시정지
+            멈추기
           </button>
         ) : (
           <button
-            onClick={() => startCamera()}
+            onClick={handleStart}
             className="h-9 px-3 rounded-lg bg-slate-900 text-white hover:bg-slate-800 text-sm"
           >
             시작
@@ -192,34 +243,54 @@ function VideoPanel() {
         >
           스냅샷
         </button>
+
+        <span className="ml-auto text-xs text-slate-500">
+          상태: {status || "-"}
+        </span>
       </div>
 
       <div className="mt-3 flex-1 min-h-0">
-        <div className="h-full rounded-xl overflow-hidden border border-slate-200 bg-black grid place-items-center">
+        <div
+          ref={containerRef}
+          className="relative h-full rounded-xl overflow-hidden border border-slate-200 bg-black"
+        >
           <video
             ref={videoRef}
-            className="w-full h-full object-cover transform -scale-x-100"
+            className="absolute inset-0 w-full h-full object-cover"
+            style={{
+              transform: mirror ? "scaleX(-1)" : "none",
+              transformOrigin: "center",
+            }}
             playsInline
             autoPlay
             muted
           />
+          <canvas
+            ref={canvasRef}
+            className="absolute inset-0 w-full h-full pointer-events-none"
+            style={{
+              transform: mirror ? "scaleX(-1)" : "none",
+              transformOrigin: "center",
+            }}
+          />
         </div>
-        {error && (
-          <p className="mt-2 text-sm text-red-600 px-1">{error}</p>
-        )}
       </div>
     </section>
   );
 }
 
-/* ---------------- 상담 대화창 (DeafSend용) ---------------- */
+/* ---------------- 상담 대화창 (백엔드 폴링 버전) ---------------- */
+
 function ChatPanel() {
   const { messages, setMessages } = useChatStore();
+
   const [input, setInput] = useState("");
   const listRef = useRef(null);
 
   // BankerSend에서 만든 session_id
-  const [sessionId, setSessionId] = useState(() => getExistingSessionId());
+  const [sessionId, setSessionId] = useState(() =>
+    getExistingSessionId()
+  );
 
   // 🔹 DeafSend 화면에 "들어온 시점" 이후 채팅만 보이기 위한 기준 시간
   const [resetAfter] = useState(() => Date.now());
@@ -258,7 +329,6 @@ function ChatPanel() {
         const data = await res.json(); // [{ id, session_id, sender, role, text, created_at }, ...]
         if (!Array.isArray(data) || stopped) return;
 
-        // ⬇ DeafSend에 들어온 "이후" 메시지만 남기기
         let filtered = data;
         if (resetAfter) {
           const cutoff =
@@ -290,16 +360,15 @@ function ChatPanel() {
     };
 
     fetchAllMessages();
-    const timer = setInterval(fetchAllMessages, 2000);
+    const timer = window.setInterval(fetchAllMessages, 2000);
 
     return () => {
       stopped = true;
-      clearInterval(timer);
+      window.clearInterval(timer);
     };
   }, [sessionId, setMessages, resetAfter]);
 
-  // 표시용 매핑
-  const mappedMessages = React.useMemo(
+  const mappedMessages = useMemo(
     () =>
       (messages || []).map((m) => ({
         role: m.from || m.role || "agent",
@@ -310,8 +379,9 @@ function ChatPanel() {
 
   // 스크롤 항상 맨 아래로
   useEffect(() => {
-    if (listRef.current) {
-      listRef.current.scrollTop = listRef.current.scrollHeight;
+    const el = listRef.current;
+    if (el) {
+      el.scrollTop = el.scrollHeight;
     }
   }, [mappedMessages]);
 
@@ -333,8 +403,8 @@ function ChatPanel() {
         credentials: "include",
         body: JSON.stringify({
           session_id: curSession,
-          sender: "deaf", // 서버에서 user 쪽으로 매핑
-          role: "",       // 필요하면 질문/응답으로 확장
+          sender: "deaf",
+          role: "",
           text,
         }),
       });
@@ -343,7 +413,6 @@ function ChatPanel() {
         console.error("DeafSend chat POST 실패:", await res.text());
       }
 
-      // 실제 반영은 위 폴링으로 다시 가져오게 두고
       setInput("");
     } catch (err) {
       console.error("DeafSend chat POST error:", err);
@@ -369,7 +438,7 @@ function ChatPanel() {
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => (e.key === "Enter" ? send() : null)}
+          onKeyDown={(e) => (e.key === "Enter" ? send() : undefined)}
           placeholder="메시지를 입력하세요"
           className="flex-1 h-11 rounded-xl border border-slate-300 px-3 text-base text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300"
         />
@@ -384,10 +453,15 @@ function ChatPanel() {
   );
 }
 
-/* ---------------- 수어 인식 결과 패널 (ASRPanel) ---------------- */
-function ASRPanel() {
+/* ---------------- 수어 인식 결과 패널 ---------------- */
+
+function ASRPanel({ respText, isActive }) {
   const [mode, setMode] = useState("응답");
   const [text, setText] = useState("");
+
+  useEffect(() => {
+    setText(respText);
+  }, [respText]);
 
   return (
     <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
@@ -398,11 +472,11 @@ function ASRPanel() {
 
         <div className="flex-1">
           <div className="font-semibold text-base text-slate-800">
-            수어 인식 중...
+            {isActive ? "수어 인식 중..." : "대기 중"}
           </div>
 
           <div className="mt-3">
-            <StageDots />
+            <StageDots running={isActive} />
           </div>
 
           <div className="mt-4 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 flex items-center">
@@ -455,16 +529,23 @@ function ASRPanel() {
   );
 }
 
-/* ---------------- 활성 상태 진행 바 ---------------- */
-function StageDots() {
+/* ---------------- StageDots ---------------- */
+
+function StageDots({ running }) {
   const [active, setActive] = useState(0);
 
   useEffect(() => {
-    const id = setInterval(() => {
+    if (!running) {
+      setActive(0);
+      return;
+    }
+
+    const id = window.setInterval(() => {
       setActive((prev) => (prev + 1) % 4);
     }, 400);
-    return () => clearInterval(id);
-  }, []);
+
+    return () => window.clearInterval(id);
+  }, [running]);
 
   return (
     <div className="flex items-center gap-6">
@@ -482,6 +563,7 @@ function StageDots() {
 }
 
 /* ---------------- 공통 말풍선 ---------------- */
+
 function ChatBubble({ role, text }) {
   if (role === "system") {
     return (
@@ -529,6 +611,8 @@ function ChatBubble({ role, text }) {
     </div>
   );
 }
+
+/* ---------------- 아이콘들 ---------------- */
 
 function CameraIcon() {
   return (
@@ -614,6 +698,7 @@ function HandIcon({ className = "" }) {
 }
 
 /* ---------------- 송신/수신 토글 ---------------- */
+
 function SendReceiveToggle({ active }) {
   const navigate = useNavigate();
   const baseBtn =

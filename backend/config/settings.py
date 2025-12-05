@@ -39,8 +39,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "corsheaders",  
     "sign",
-    "rest_framework",
-    "corsheaders", # 필요하면 활성화
     "accounts", 
     "rest_framework",
     # "channels",     # 실시간 통신 추가 시 활성화

@@ -1,7 +1,7 @@
 // src/hooks/useSequenceSender.ts
 import { useMemo, useEffect } from "react";
-import { HttpBatchTransport } from "@/lib/httpTransport";
-import type { ISeqTransport } from "@/lib/seqTransport";
+import { HttpBatchTransport } from "../lib/httpTransport";
+import type { ISeqTransport } from "../lib/seqTransport";
 
 // 백엔드 /api/ingest-and-infer/ 응답 타입 (새 구조)
 export interface SignInferenceResult {
