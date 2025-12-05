@@ -92,12 +92,6 @@ TEMPLATES = [
     },
 ]
 
-CORS_ALLOWED_ORIGINS = [
-"http://localhost:5173",
-"http://127.0.0.1:5173",
-]
-
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
 # ASGI/WSGI (Channels 연동 시 ASGI 사용)
 ASGI_APPLICATION = "config.asgi.application"
