@@ -375,7 +375,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
             print(f"[ImageToken Video ERROR] token={t}: {e}")
 
     # (2) 혹시 image로 안 찍혔지만 숫자 형태인 gloss들은 fallback으로 처리
-    num_pattern = re.compile(r"^\d+[가-힣%년월세원만원억개월회]*$")
+    num_pattern = re.compile(r"^\d+(\.\d+)?[가-힣%년월세원만원억개월회]*$")
 
     for tok in gloss_list or []:
         t = _norm(str(tok))

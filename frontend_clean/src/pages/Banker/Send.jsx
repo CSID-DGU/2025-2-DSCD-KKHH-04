@@ -11,6 +11,7 @@ const SESSION_KEY = "signanceSessionId";
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
+
 function getOrCreateSessionId() {
   try {
     let sid = localStorage.getItem(SESSION_KEY);
@@ -282,7 +283,31 @@ export default function BankerSend() {
 
 /* ---------------- 고객 정보 바 ---------------- */
 
+/* ---------------- 고객 정보 바 ---------------- */
+
 function CustomerBar() {
+  const [customerInfo, setCustomerInfo] = useState({
+    name: "",
+    birth: "",
+    phone: "",
+  });
+
+  // 컴포넌트가 화면에 처음 나올 때 localStorage에서 읽어오기
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem("customerInfo");
+      if (raw) {
+        setCustomerInfo(JSON.parse(raw));
+      }
+    } catch (e) {
+      console.error("customerInfo 파싱 에러:", e);
+    }
+  }, []);
+
+  const name = customerInfo.name || "고객 성함 미입력";
+  const birth = customerInfo.birth || "생년월일 미입력";
+  const phone = customerInfo.phone || "연락처 미입력";
+
   return (
     <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
       <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
@@ -290,13 +315,16 @@ function CustomerBar() {
         <span>고객 정보</span>
       </div>
       <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
-        김희희
+        고객 이름 : {name}
         <span className="mx-2 text-slate-400">|</span>
-        XX은행 1002-123-4567
+        생년월일 : {birth}
+        <span className="mx-2 text-slate-400">|</span>
+        전화번호 : {phone}
       </div>
     </section>
   );
 }
+
 
 /* ---------------- 상담 대화 정렬용 함수 ---------------- */
 
