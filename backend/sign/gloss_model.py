@@ -13,7 +13,7 @@ from data import normalize_hands_frame  # frame 정규화 (학습과 동일)
 # BASE_DIR: backend 폴더 기준 (sign/의 상위)
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-CKPT_PATH = BASE_DIR / "runs" / "recorded_word_57.pt"
+CKPT_PATH = BASE_DIR / "runs" / "recorded_word_86.pt"
 
 # 필요하면 나중에 쓸 수 있게만 둠 (필수 X)
 WORD_ROOT = BASE_DIR / "dataset" / "npz" / "recorded"
