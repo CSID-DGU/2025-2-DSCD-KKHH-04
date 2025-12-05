@@ -60,6 +60,10 @@ export default function DeafReceive() {
   // "초기 스냅샷(ts만 읽기)"가 끝났는지 여부
   const initializedRef = useRef(false);
 
+  
+  // 다음 문장을 기다리는 중인지 여부
+  const waitingForNextRef = useRef(false);
+
   // DeafReceive 처음 들어올 때 기존 영상은 "이미 본 것"으로 처리
   useEffect(() => {
     const existing = localStorage.getItem("signanceDeafVideoUrl");
@@ -133,10 +137,28 @@ export default function DeafReceive() {
   }, [sessionId]);
 
   /* ------------------- 영상 재생 완료 시 ------------------- */
-  const handleVideoEnded = () => {
-    // 자동으로 다음 문장을 재생하지는 않고, 상태만 ready로
-    localStorage.setItem("signanceDeafStatus", "video_ready");
-  };
+/* ------------------- 영상 재생 완료 시 ------------------- */
+const handleVideoEnded = () => {
+  setCurrentIndex((idx) => {
+    if (idx < 0) return idx; // 아직 아무 것도 없을 때
+
+    const nextIdx = idx + 1;
+
+    // 이미 history에 다음 문장이 있는 경우 → 바로 다음 문장 재생
+    if (nextIdx < history.length) {
+      // 다음 문장 재생 준비 상태
+      waitingForNextRef.current = false;
+      localStorage.setItem("signanceDeafStatus", "video_ready");
+      return nextIdx; // VideoPanel에서 videoSrc 바뀌면서 자동 재생
+    }
+
+    // 다음 문장이 아직 안 온 경우 → "다음 발화 대기 중"
+    waitingForNextRef.current = true;
+    localStorage.setItem("signanceDeafStatus", "waiting_next");
+    return idx;
+  });
+};
+
 
   /* ------------------- 서버 폴링 (영상 수신) ------------------- */
   useEffect(() => {
@@ -225,11 +247,31 @@ export default function DeafReceive() {
         };
 
         // 3) 히스토리에 문장 추가 + 현재 인덱스를 마지막으로 이동
-        setHistory((prev) => {
-          const next = [...prev, item];
-          setCurrentIndex(next.length - 1);
-          return next;
-        });
+        // 3) 히스토리에 문장 추가
+      // 3) 히스토리에 문장 추가
+      setHistory((prev) => {
+        const next = [...prev, item];
+
+        // 아직 아무 문장도 선택되지 않은 상태라면
+        // 첫 문장을 현재 문장으로 선택 (자동 재생용)
+        if (prev.length === 0 && currentIndex === -1) {
+          // 첫 문장 인덱스(0)부터 재생
+          setCurrentIndex(0);
+        }
+        // 이전 영상이 끝나고 "다음 문장을 기다리는 중"이었다면
+        // 새로 들어온 문장을 바로 재생
+        else if (waitingForNextRef.current) {
+          const newIndex = next.length - 1; // 방금 들어온 문장
+          waitingForNextRef.current = false;
+          setCurrentIndex(newIndex); // VideoPanel에서 자동 재생
+          // 상태도 영상 재생 쪽으로 이동
+          localStorage.setItem("signanceDeafStatus", "video_ready");
+        }
+
+        return next;
+      });
+
+
 
         // 이 영상을 "마지막으로 본 영상"으로 기억
         lastVideoKeyRef.current = primaryUrl || null;
@@ -272,7 +314,8 @@ export default function DeafReceive() {
       stopped = true;
       clearInterval(timer);
     };
-  }, [sessionId]);
+  }, [sessionId, currentIndex]);
+
 
   /* ------------------- 백엔드 채팅 폴링 (/api/accounts/chat/) ------------------- */
   useEffect(() => {
@@ -865,6 +908,12 @@ function ASRPanel({ onResetAll }) {
         return { label: "음성 인식 중…", desc: "은행원 발화 인식 중", step: 0 };
       case "stt_done":
         return { label: "발화 인식 완료", desc: "텍스트 변환 완료", step: 1 };
+      case "waiting_next":
+        return {
+          label: "다음 발화 대기 중…",
+          desc: "은행원이 다음 문장을 발화하면 영상이 자동으로 재생돼요",
+          step: 1,
+        };
       case "video_ready":
         return { label: "영상 준비 완료", desc: "영상 재생 가능", step: 2 };
       case "video_playing":
@@ -881,6 +930,7 @@ function ASRPanel({ onResetAll }) {
         };
     }
   })();
+
 
   return (
     <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
