@@ -9,6 +9,16 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "0.10.22-rc.20250304",
+    "lucide-react": "^0.554.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.28.0",
+    "vite-plugin-pwa": "0.20.5",
+    "workbox-window": "7.1.0",
+    "zustand": "^5.0.8"
+  },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@types/react": "^19.2.5",
@@ -22,12 +32,5 @@
     "postcss": "8.4.47",
     "tailwindcss": "3.4.13",
     "vite": "^7.2.4"
-  },
-  "dependencies": {
-    "lucide-react": "^0.554.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.28.0",
-    "zustand": "^5.0.8"
   }
 }
