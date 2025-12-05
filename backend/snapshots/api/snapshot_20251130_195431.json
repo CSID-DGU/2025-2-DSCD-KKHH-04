@@ -1,0 +1,69 @@
+{
+  "ts": "20251130_195431",
+  "timestamp": "20251130_195431",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 14.64,
+  "text": "여기에 자동이체 유지, 카드 일정 금액 사용 등 여러 조건을 추가로 충족하면 우대금리가 누적되어 금리가 상당히 올라갑니다.",
+  "clean_text": "자동이체 유지, 카드 일정 금액 사용 등 여러 조건을 추가로 충족하면 우대금리가 누적되어 금리가 상당히 올라갑니다.",
+  "latency_ms": {
+    "stt": 8707.8,
+    "nlp": 6675.3,
+    "mapping": 32.7,
+    "synth": 344.7,
+    "total": 15760.5
+  },
+  "gloss": [
+    "자동이체",
+    "유지",
+    "카드",
+    "사용",
+    "조건",
+    "추가",
+    "충족",
+    "우대금리",
+    "누적",
+    "금리",
+    "상승"
+  ],
+  "gloss_ids": [
+    "100953",
+    "102220",
+    "101620",
+    "102387",
+    "102484",
+    "104509",
+    "101821",
+    "100311",
+    "103238",
+    "101590",
+    "102421"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_195431.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100953.mp4",
+    "/media/sign_videos/102220.mp4",
+    "/media/sign_videos/101620.mp4",
+    "/media/sign_videos/102387.mp4",
+    "/media/sign_videos/102484.mp4",
+    "/media/sign_videos/104509.mp4",
+    "/media/sign_videos/101821.mp4",
+    "/media/sign_videos/100311.mp4",
+    "/media/sign_videos/103238.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/102421.mp4"
+  ],
+  "gloss_labels": [
+    "자동이체",
+    "그만하다",
+    "카드",
+    "사용",
+    "조건",
+    "더",
+    "만족",
+    "대출금리",
+    "겪다",
+    "(값이)오르다",
+    "진보"
+  ]
+}

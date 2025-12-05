@@ -1,0 +1,53 @@
+{
+  "timestamp": "20251123_204119",
+  "text": "원래 끈비 보장형 상품으로 손실이 발생할 수 있으니 신중한 판단이 필요합니다.",
+  "clean_text": "끈비 보장형 상품은 손실이 발생할 수 있으므로 신중한 판단이 필요합니다.",
+  "latency_ms": {
+    "stt": 3115.0,
+    "nlp": 9797.4,
+    "mapping": 34.8,
+    "synth": 381.3,
+    "total": 13328.499999999998
+  },
+  "gloss": [
+    "끈비",
+    "보장형",
+    "상품",
+    "손실",
+    "발생",
+    "신중",
+    "판단",
+    "필요"
+  ],
+  "gloss_ids": [
+    "103607",
+    "101923",
+    "103392",
+    "104393",
+    "101833",
+    "101749",
+    "104131",
+    "104788"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_204119.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103607.mp4",
+    "/media/sign_videos/101923.mp4",
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/104393.mp4",
+    "/media/sign_videos/101833.mp4",
+    "/media/sign_videos/101749.mp4",
+    "/media/sign_videos/104131.mp4",
+    "/media/sign_videos/104788.mp4"
+  ],
+  "gloss_labels": [
+    "비",
+    "보증",
+    "물건",
+    "밑지다",
+    "발생",
+    "신중",
+    "조명",
+    "필요"
+  ]
+}

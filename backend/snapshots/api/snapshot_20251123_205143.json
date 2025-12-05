@@ -1,0 +1,41 @@
+{
+  "timestamp": "20251123_205143",
+  "text": "조금만 기다려주시면 해당 내역을 조회해 드리겠습니다.",
+  "clean_text": "조금만 기다려주시면 해당 내역을 조회해 드리겠습니다.",
+  "latency_ms": {
+    "stt": 4975.1,
+    "nlp": 5914.8,
+    "mapping": 28.1,
+    "synth": 405.2,
+    "total": 11323.200000000003
+  },
+  "gloss": [
+    "조금",
+    "기다림",
+    "해당",
+    "내역",
+    "조회"
+  ],
+  "gloss_ids": [
+    "102573",
+    "102894",
+    "103852",
+    "101754",
+    "103115"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_205143.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102573.mp4",
+    "/media/sign_videos/102894.mp4",
+    "/media/sign_videos/103852.mp4",
+    "/media/sign_videos/101754.mp4",
+    "/media/sign_videos/103115.mp4"
+  ],
+  "gloss_labels": [
+    "작다",
+    "준비",
+    "날",
+    "내용",
+    "단체"
+  ]
+}

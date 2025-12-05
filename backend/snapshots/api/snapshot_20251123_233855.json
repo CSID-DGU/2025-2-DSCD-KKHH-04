@@ -1,0 +1,29 @@
+{
+  "timestamp": "20251123_233855",
+  "text": "여기서 안녕하세용",
+  "clean_text": "여기서 안녕하세요.",
+  "latency_ms": {
+    "stt": 6383.0,
+    "nlp": 3798.6,
+    "mapping": 20.2,
+    "synth": 718.8,
+    "total": 10920.6
+  },
+  "gloss": [
+    "여기",
+    "안녕"
+  ],
+  "gloss_ids": [
+    "102682",
+    "101932"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_233855.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102682.mp4",
+    "/media/sign_videos/101932.mp4"
+  ],
+  "gloss_labels": [
+    "여기",
+    "안녕"
+  ]
+}

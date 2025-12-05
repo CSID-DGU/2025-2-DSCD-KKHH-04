@@ -1,0 +1,41 @@
+{
+  "timestamp": "20251129_180626",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 6.24,
+  "text": "태당 대출은 최장 30년까지 상환이 가능합니다.",
+  "clean_text": "이 대출은 최장 30년까지 상환할 수 있습니다.",
+  "latency_ms": {
+    "stt": 4328.7,
+    "nlp": 3250.1,
+    "mapping": 44.8,
+    "synth": 214.4,
+    "total": 7837.999999999999
+  },
+  "gloss": [
+    "대출",
+    "최장",
+    "30년",
+    "상환",
+    "가능"
+  ],
+  "gloss_ids": [
+    "104486",
+    "104123",
+    "104021",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_180626.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104486.mp4",
+    "/media/sign_videos/104123.mp4",
+    "/media/sign_videos/104021.mp4",
+    "/media/sign_videos/101849.mp4"
+  ],
+  "gloss_labels": [
+    "대출금",
+    "시장",
+    "갚다",
+    "가능"
+  ]
+}

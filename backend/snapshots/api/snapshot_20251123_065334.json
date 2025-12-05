@@ -1,0 +1,46 @@
+{
+  "text": "가입 기간은 12개월이고 기본 금리는 3전 2.8%입니다.",
+  "clean_text": "가입 기간은 12개월이고 기본 금리는 3전 2.8%입니다.",
+  "latency_ms": {
+    "stt": 6154.1,
+    "nlp": 4269.6,
+    "mapping": 156.9,
+    "synth": 529.7,
+    "total": 11110.300000000001
+  },
+  "gloss": [
+    "가입",
+    "기간은",
+    "12개월이고",
+    "기본",
+    "금리는",
+    "3전",
+    "2",
+    "8%입니다"
+  ],
+  "gloss_ids": [
+    "103220",
+    "103303",
+    "103996",
+    "101590",
+    "103912",
+    "101090"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_065333.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/103996.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/103912.mp4",
+    "/media/sign_videos/101090.mp4"
+  ],
+  "gloss_labels": [
+    "가입",
+    "기간",
+    "근본",
+    "(값이)오르다",
+    "과거",
+    "주2"
+  ]
+}

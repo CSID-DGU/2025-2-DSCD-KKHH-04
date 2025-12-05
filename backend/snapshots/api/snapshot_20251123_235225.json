@@ -1,0 +1,29 @@
+{
+  "timestamp": "20251123_235225",
+  "text": "그게 되는 거지?",
+  "clean_text": "그것이 가능한가요?",
+  "latency_ms": {
+    "stt": 5094.3,
+    "nlp": 3457.7,
+    "mapping": 48.7,
+    "synth": 831.2,
+    "total": 9431.900000000001
+  },
+  "gloss": [
+    "그것",
+    "가능"
+  ],
+  "gloss_ids": [
+    "102006",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_235224.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102006.mp4",
+    "/media/sign_videos/101849.mp4"
+  ],
+  "gloss_labels": [
+    "그",
+    "가능"
+  ]
+}

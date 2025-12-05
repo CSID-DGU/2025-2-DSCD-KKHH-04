@@ -1,0 +1,37 @@
+{
+  "ts": "20251130_185816",
+  "timestamp": "20251130_185816",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 3.54,
+  "text": "만기일에도 두 가지 선택이 있어요.",
+  "clean_text": "만기일에는 두 가지 선택지가 있습니다.",
+  "latency_ms": {
+    "stt": 3512.7,
+    "nlp": 4295.6,
+    "mapping": 41.8,
+    "synth": 384.7,
+    "total": 8234.800000000001
+  },
+  "gloss": [
+    "만기일",
+    "2가지",
+    "선택"
+  ],
+  "gloss_ids": [
+    "100358",
+    "103132",
+    "101686"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_185816.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100358.mp4",
+    "/media/sign_videos/103132.mp4",
+    "/media/sign_videos/101686.mp4"
+  ],
+  "gloss_labels": [
+    "만기일",
+    "가지",
+    "선택"
+  ]
+}

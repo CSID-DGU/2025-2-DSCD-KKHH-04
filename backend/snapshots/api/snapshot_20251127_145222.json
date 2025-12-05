@@ -1,0 +1,42 @@
+{
+  "timestamp": "20251127_145222",
+  "text": "대자는 예금자 보호법에 따라 1인당 최고 5천만 원까지 보호됩니다.",
+  "clean_text": "예금은 예금자 보호법에 따라 1인당 최고 5천만 원까지 보호됩니다.",
+  "latency_ms": {
+    "stt": 2114.9,
+    "nlp": 4246.4,
+    "mapping": 40.2,
+    "synth": 179.7,
+    "total": 6581.199999999999
+  },
+  "gloss": [
+    "예금",
+    "예금자보호법",
+    "1인당",
+    "최고",
+    "5천만원",
+    "보호"
+  ],
+  "gloss_ids": [
+    "101937",
+    "100606",
+    "104229",
+    "101421",
+    "102274"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_145221.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/100606.mp4",
+    "/media/sign_videos/104229.mp4",
+    "/media/sign_videos/101421.mp4",
+    "/media/sign_videos/102274.mp4"
+  ],
+  "gloss_labels": [
+    "저축",
+    "소비자보호법",
+    "일등",
+    "복잡하다",
+    "보호"
+  ]
+}

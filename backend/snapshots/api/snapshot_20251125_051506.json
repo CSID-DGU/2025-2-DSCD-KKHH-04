@@ -1,0 +1,44 @@
+{
+  "timestamp": "20251125_051506",
+  "text": "기본금위는 연 3.2%이며 5대 조건 충족 시 최대 연 4.0%까지 가능합니다",
+  "clean_text": "기본 금리는 연 3.2%이며, 5대 조건 충족 시 최대 연 4.0%까지 가능합니다.",
+  "latency_ms": {
+    "stt": 5575.4,
+    "nlp": 5086.9,
+    "mapping": 52.9,
+    "synth": 292.4,
+    "total": 11007.599999999999
+  },
+  "gloss": [
+    "기본",
+    "금리",
+    "연 3.2%",
+    "5대 조건",
+    "충족",
+    "최대",
+    "연 4.0%",
+    "가능"
+  ],
+  "gloss_ids": [
+    "103996",
+    "101590",
+    "101821",
+    "104349",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_051506.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103996.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/101821.mp4",
+    "/media/sign_videos/104349.mp4",
+    "/media/sign_videos/101849.mp4"
+  ],
+  "gloss_labels": [
+    "근본",
+    "(값이)오르다",
+    "만족",
+    "세대",
+    "가능"
+  ]
+}

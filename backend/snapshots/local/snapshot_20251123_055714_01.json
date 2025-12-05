@@ -1,0 +1,20 @@
+{
+  "timestamp": "20251123_055714",
+  "snapshot_index": 1,
+  "raw": {
+    "stt_text": "안녕하세요",
+    "clean_text": "안녕하세요",
+    "whisper_latency_ms": null,
+    "upload_filename": "speech.webm",
+    "snapshot_mode": "api"
+  },
+  "gemini": {
+    "clean": "안녕하세요",
+    "gloss": [
+      "안녕하세요"
+    ],
+    "gloss_ids": [
+      "104185"
+    ]
+  }
+}

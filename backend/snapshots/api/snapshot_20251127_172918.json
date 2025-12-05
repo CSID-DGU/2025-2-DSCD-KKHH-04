@@ -1,0 +1,32 @@
+{
+  "timestamp": "20251127_172918",
+  "session_id": null,
+  "mode": null,
+  "audio_sec": 1.38,
+  "text": "여러분들은 아직까지",
+  "clean_text": "여러분은 아직까지",
+  "latency_ms": {
+    "stt": 13912.2,
+    "nlp": 11224.6,
+    "mapping": 1.2,
+    "synth": 375.6,
+    "total": 25513.600000000002
+  },
+  "gloss": [
+    "여러분",
+    "아직"
+  ],
+  "gloss_ids": [
+    "102553",
+    "104186"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_172917.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102553.mp4",
+    "/media/sign_videos/104186.mp4"
+  ],
+  "gloss_labels": [
+    "여러분",
+    "미-"
+  ]
+}

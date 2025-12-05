@@ -1,0 +1,40 @@
+{
+  "ts": "20251202_174334",
+  "timestamp": "20251202_174334",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 5.22,
+  "text": "저기 유럽 sexually taken",
+  "clean_text": "저기 유럽에서 성폭행당했다.",
+  "latency_ms": {
+    "stt": 38842.5,
+    "nlp": 13479.2,
+    "mapping": 111.5,
+    "synth": 353.8
+  },
+  "gloss": [
+    "저기",
+    "유럽",
+    "성폭행",
+    "당하다"
+  ],
+  "gloss_ids": [
+    "102285",
+    "104747",
+    "104238",
+    "101482"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_174334.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102285.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104747.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104238.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101482.mp4"
+  ],
+  "gloss_labels": [
+    "자신",
+    "구주",
+    "성폭행",
+    "당하다"
+  ]
+}

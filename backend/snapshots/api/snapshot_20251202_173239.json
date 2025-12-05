@@ -1,0 +1,44 @@
+{
+  "ts": "20251202_173239",
+  "timestamp": "20251202_173239",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 5.28,
+  "text": "이렇게 하면 전관이 무엇을 할까? 전관이 뭐 어떻게 할까? 뭐가 중요해?",
+  "clean_text": "전관이 어떻게 할지, 중요하지 않다.",
+  "latency_ms": {
+    "stt": 30397.2,
+    "nlp": 13965.9,
+    "mapping": 58.3,
+    "synth": 233.1
+  },
+  "gloss": [
+    "전관",
+    "어떻게",
+    "하다",
+    "중요",
+    "아니다"
+  ],
+  "gloss_ids": [
+    "102212",
+    "102872",
+    "101892",
+    "102008",
+    "101383"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_173239.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102212.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102872.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101892.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102008.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101383.mp4"
+  ],
+  "gloss_labels": [
+    "-관",
+    "어떻게",
+    "거행",
+    "귀하다",
+    "아니다"
+  ]
+}

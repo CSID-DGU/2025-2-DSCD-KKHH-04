@@ -1,0 +1,36 @@
+{
+  "ts": "20251203_201943",
+  "timestamp": "20251203_201943",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "안녕하세여",
+  "clean_text": "안녕하세요",
+  "gloss": [
+    "안녕하세요"
+  ],
+  "gloss_ids": [
+    "104185"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_201943.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104185.mp4"
+  ],
+  "gloss_labels": [
+    "안녕하세요"
+  ],
+  "audio_sec": 2.34,
+  "video_sec": 3.966,
+  "latency_ms": {
+    "stt": 3897.1,
+    "nlp": 5169.6,
+    "mapping": 0.0,
+    "synth": 151.1
+  },
+  "latency_sec": {
+    "stt_sec": 3.9,
+    "nlp_sec": 5.17,
+    "mapping_sec": 0.0,
+    "synth_sec": 0.15,
+    "total_sec": 9.22
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": "20251125_052548",
+  "text": "통이체를 설정하면 추가 오대 금리를 받을 수 있습니다.",
+  "clean_text": "통이체를 설정하면 추가 우대 금리를 받을 수 있습니다.",
+  "latency_ms": {
+    "stt": 13535.8,
+    "nlp": 4354.3,
+    "mapping": 60.6,
+    "synth": 563.4,
+    "total": 18514.1
+  },
+  "gloss": [
+    "통이체",
+    "설정",
+    "추가",
+    "우대",
+    "금리",
+    "수령"
+  ],
+  "gloss_ids": [
+    "102271",
+    "104509",
+    "102815",
+    "101590",
+    "104138"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_052548.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102271.mp4",
+    "/media/sign_videos/104509.mp4",
+    "/media/sign_videos/102815.mp4",
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/104138.mp4"
+  ],
+  "gloss_labels": [
+    "설",
+    "더",
+    "오른쪽",
+    "(값이)오르다",
+    "수"
+  ]
+}

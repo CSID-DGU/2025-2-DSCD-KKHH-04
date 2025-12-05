@@ -1,0 +1,42 @@
+{
+  "timestamp": "20251127_141301",
+  "text": "고객님이 가입하신 정립신 예금은 0.4%까지 보장됩니다.",
+  "clean_text": "고객이 가입한 정립신 예금은 0.4%까지 보장됩니다.",
+  "latency_ms": {
+    "stt": 18201.8,
+    "nlp": 6206.0,
+    "mapping": 89.4,
+    "synth": 603.3,
+    "total": 25100.5
+  },
+  "gloss": [
+    "고객",
+    "가입",
+    "정립신",
+    "예금",
+    "0.4%",
+    "보장"
+  ],
+  "gloss_ids": [
+    "101853",
+    "103220",
+    "102228",
+    "101937",
+    "101923"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_141300.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101853.mp4",
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/102228.mp4",
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/101923.mp4"
+  ],
+  "gloss_labels": [
+    "초대",
+    "가입",
+    "정신",
+    "저축",
+    "보증"
+  ]
+}

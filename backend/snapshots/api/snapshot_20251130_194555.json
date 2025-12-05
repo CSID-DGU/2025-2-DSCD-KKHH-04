@@ -1,0 +1,33 @@
+{
+  "ts": "20251130_194555",
+  "timestamp": "20251130_194555",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 220.5,
+  "text": "아이씨.. 또 염둥이 안돼 또 염둥이 안돼 염둥이.. 염둥이.. 염둥이.. 염둥이.. 염둥이.. 염둥이.. 염둥이..",
+  "clean_text": "염둥이는 안 돼.",
+  "latency_ms": {
+    "stt": 27700.6,
+    "nlp": 3782.0,
+    "mapping": 16.7,
+    "synth": 248.5,
+    "total": 31747.8
+  },
+  "gloss": [
+    "염둥이",
+    "안돼"
+  ],
+  "gloss_ids": [
+    "102316",
+    "102087"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_194555.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102316.mp4",
+    "/media/sign_videos/102087.mp4"
+  ],
+  "gloss_labels": [
+    "지저귀다",
+    "내부"
+  ]
+}

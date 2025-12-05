@@ -1,0 +1,33 @@
+{
+  "ts": "20251202_002527",
+  "timestamp": "20251202_002527",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 149.22,
+  "text": "Exhale",
+  "clean_text": "숨을 내쉬세요.",
+  "latency_ms": {
+    "stt": 64343.3,
+    "nlp": 3671.1,
+    "mapping": 2.2,
+    "synth": 286.8,
+    "total": 68303.40000000001
+  },
+  "gloss": [
+    "숨",
+    "내쉬다"
+  ],
+  "gloss_ids": [
+    "102572",
+    "102067"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_002527.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102572.mp4",
+    "/media/sign_videos/102067.mp4"
+  ],
+  "gloss_labels": [
+    "심호흡",
+    "내쉬다"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "20251127_200613",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 1.86,
+  "text": "고생하셨습니다",
+  "clean_text": "고생하셨습니다.",
+  "latency_ms": {
+    "stt": 3061.1,
+    "nlp": 3212.2,
+    "mapping": 0.6,
+    "synth": 225.6,
+    "total": 6499.5
+  },
+  "gloss": [
+    "고생"
+  ],
+  "gloss_ids": [
+    "103299"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_200612.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103299.mp4"
+  ],
+  "gloss_labels": [
+    "고난"
+  ]
+}

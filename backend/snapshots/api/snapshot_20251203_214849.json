@@ -1,0 +1,48 @@
+{
+  "ts": "20251203_214849",
+  "timestamp": "20251203_214849",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "이제는 매달 통장으로 받으실 수도 있고",
+  "clean_text": "이제 매달 통장으로도 받을 수 있다.",
+  "gloss": [
+    "매달",
+    "통장",
+    "받다",
+    "가능"
+  ],
+  "gloss_ids": [
+    "103027",
+    "101215",
+    "101466",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_214849.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103027.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101215.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101466.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101849.mp4"
+  ],
+  "gloss_labels": [
+    "일개월",
+    "통장",
+    "받다",
+    "가능"
+  ],
+  "audio_sec": 7.08,
+  "video_sec": 13.566,
+  "latency_ms": {
+    "stt": 3688.8,
+    "nlp": 8758.3,
+    "mapping": 42.8,
+    "synth": 274.9
+  },
+  "latency_sec": {
+    "stt_sec": 3.69,
+    "nlp_sec": 8.76,
+    "mapping_sec": 0.04,
+    "synth_sec": 0.27,
+    "total_sec": 12.76
+  }
+}

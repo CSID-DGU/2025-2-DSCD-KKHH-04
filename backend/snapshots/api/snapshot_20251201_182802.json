@@ -1,0 +1,42 @@
+{
+  "ts": "20251201_182802",
+  "timestamp": "20251201_182802",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 6.24,
+  "text": "동의 변화의 옵션에 따라서 설치된 환경에 따라서",
+  "clean_text": "동의 변화 옵션과 설치 환경에 따라",
+  "latency_ms": {
+    "stt": 29161.0,
+    "nlp": 5522.9,
+    "mapping": 61.4,
+    "synth": 1388.5,
+    "total": 36133.8
+  },
+  "gloss": [
+    "동의",
+    "변화",
+    "옵션",
+    "설치",
+    "환경"
+  ],
+  "gloss_ids": [
+    "101977",
+    "103684",
+    "102271",
+    "104636"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_182800.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101977.mp4",
+    "/media/sign_videos/103684.mp4",
+    "/media/sign_videos/102271.mp4",
+    "/media/sign_videos/104636.mp4"
+  ],
+  "gloss_labels": [
+    "일치",
+    "변하다",
+    "설",
+    "환경"
+  ]
+}

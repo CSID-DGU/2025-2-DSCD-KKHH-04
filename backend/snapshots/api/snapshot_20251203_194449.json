@@ -1,0 +1,28 @@
+{
+  "ts": "20251203_194449",
+  "timestamp": "20251203_194449",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "",
+  "clean_text": "",
+  "gloss": [],
+  "gloss_ids": [],
+  "sentence_video_url": null,
+  "sign_video_list": [],
+  "gloss_labels": [],
+  "audio_sec": 3.0,
+  "video_sec": 0.0,
+  "latency_ms": {
+    "stt": 15470.0,
+    "nlp": 4013.2,
+    "mapping": 0.0,
+    "synth": 0.0
+  },
+  "latency_sec": {
+    "stt_sec": 15.47,
+    "nlp_sec": 4.01,
+    "mapping_sec": 0.0,
+    "synth_sec": 0.0,
+    "total_sec": 19.48
+  }
+}

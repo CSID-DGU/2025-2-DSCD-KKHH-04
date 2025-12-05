@@ -1,0 +1,41 @@
+{
+  "timestamp": "20251125_052828",
+  "text": "이체를 설정하면 추가우대의 금리를 받을 수 있습니다.",
+  "clean_text": "이체를 설정하면 추가 우대 금리를 받을 수 있습니다.",
+  "latency_ms": {
+    "stt": 7651.4,
+    "nlp": 4768.5,
+    "mapping": 27.0,
+    "synth": 412.1,
+    "total": 12859.0
+  },
+  "gloss": [
+    "이체",
+    "설정",
+    "추가",
+    "우대",
+    "금리"
+  ],
+  "gloss_ids": [
+    "100953",
+    "102271",
+    "104509",
+    "102815",
+    "101590"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_052828.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100953.mp4",
+    "/media/sign_videos/102271.mp4",
+    "/media/sign_videos/104509.mp4",
+    "/media/sign_videos/102815.mp4",
+    "/media/sign_videos/101590.mp4"
+  ],
+  "gloss_labels": [
+    "자동이체",
+    "설",
+    "더",
+    "오른쪽",
+    "(값이)오르다"
+  ]
+}

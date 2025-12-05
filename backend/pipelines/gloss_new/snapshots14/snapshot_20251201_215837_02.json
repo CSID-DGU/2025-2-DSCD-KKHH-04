@@ -1,0 +1,43 @@
+{
+  "timestamp": "20251201_215837",
+  "stt": "기간은 1개월 6개월 12개월 등 다양하게 선택할 수 있습니다.",
+  "tokens": [
+    {
+      "text": "기간",
+      "type": "gloss"
+    },
+    {
+      "text": "1개월",
+      "type": "image"
+    },
+    {
+      "text": "6개월",
+      "type": "image"
+    },
+    {
+      "text": "12개월",
+      "type": "image"
+    },
+    {
+      "text": "다양하다",
+      "type": "gloss"
+    },
+    {
+      "text": "선택",
+      "type": "gloss"
+    },
+    {
+      "text": "가능",
+      "type": "gloss"
+    }
+  ],
+  "play_queue": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103117.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmp3o_ht_p0.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpoecxbfoi.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpjpae44_u.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101649.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101686.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101849.mp4"
+  ]
+}

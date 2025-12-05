@@ -1,0 +1,32 @@
+{
+  "ts": "20251202_170649",
+  "timestamp": "20251202_170649",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 7.38,
+  "text": "커피沙",
+  "clean_text": "카페",
+  "latency_ms": {
+    "stt": 54144.8,
+    "nlp": 9400.4,
+    "mapping": 0.1,
+    "synth": 652.0
+  },
+  "gloss": [
+    "커피",
+    "가게"
+  ],
+  "gloss_ids": [
+    "103003",
+    "101658"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_170649.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103003.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101658.mp4"
+  ],
+  "gloss_labels": [
+    "커피",
+    "장사"
+  ]
+}

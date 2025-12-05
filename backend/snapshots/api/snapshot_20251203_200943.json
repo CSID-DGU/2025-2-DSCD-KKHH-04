@@ -1,0 +1,36 @@
+{
+  "ts": "20251203_200943",
+  "timestamp": "20251203_200943",
+  "session_id": "sess_1764756868925_o4fov5",
+  "mode": "설명",
+  "text": "고객님!",
+  "clean_text": "고객님",
+  "gloss": [
+    "고객님"
+  ],
+  "gloss_ids": [
+    "101853"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_200942.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101853.mp4"
+  ],
+  "gloss_labels": [
+    "초대"
+  ],
+  "audio_sec": 2.7,
+  "video_sec": 4.333,
+  "latency_ms": {
+    "stt": 4215.7,
+    "nlp": 5566.3,
+    "mapping": 126.4,
+    "synth": 278.4
+  },
+  "latency_sec": {
+    "stt_sec": 4.22,
+    "nlp_sec": 5.57,
+    "mapping_sec": 0.13,
+    "synth_sec": 0.28,
+    "total_sec": 10.19
+  }
+}

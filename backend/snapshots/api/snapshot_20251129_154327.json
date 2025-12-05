@@ -1,0 +1,33 @@
+{
+  "timestamp": "20251129_154327",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 1.2,
+  "text": "들uder",
+  "clean_text": "(알 수 없음)",
+  "latency_ms": {
+    "stt": 20521.9,
+    "nlp": 4056.0,
+    "mapping": 36.7,
+    "synth": 218.2,
+    "total": 24832.800000000003
+  },
+  "gloss": [
+    "(알",
+    "수",
+    "없음)"
+  ],
+  "gloss_ids": [
+    "101702",
+    "104138"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_154327.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101702.mp4",
+    "/media/sign_videos/104138.mp4"
+  ],
+  "gloss_labels": [
+    "알",
+    "수"
+  ]
+}

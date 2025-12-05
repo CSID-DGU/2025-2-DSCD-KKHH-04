@@ -1,0 +1,88 @@
+{
+  "timestamp": "20251201_213711",
+  "stt": "이거는 1개월 6개월 12개월 36개월 등 다양하게 선택할 수 있고 이자 지급 방식도 만기일시 지급 중에서 선택할 수 있어요",
+  "tokens": [
+    {
+      "text": "이것",
+      "type": "gloss"
+    },
+    {
+      "text": "기간",
+      "type": "gloss"
+    },
+    {
+      "text": "1개월",
+      "type": "image"
+    },
+    {
+      "text": "6개월",
+      "type": "image"
+    },
+    {
+      "text": "12개월",
+      "type": "image"
+    },
+    {
+      "text": "36개월",
+      "type": "image"
+    },
+    {
+      "text": "다양하다",
+      "type": "gloss"
+    },
+    {
+      "text": "선택",
+      "type": "gloss"
+    },
+    {
+      "text": "PAUSE",
+      "type": "pause"
+    },
+    {
+      "text": "이자",
+      "type": "gloss"
+    },
+    {
+      "text": "지급",
+      "type": "gloss"
+    },
+    {
+      "text": "방법",
+      "type": "gloss"
+    },
+    {
+      "text": "만기",
+      "type": "gloss"
+    },
+    {
+      "text": "일시",
+      "type": "gloss"
+    },
+    {
+      "text": "지급",
+      "type": "gloss"
+    },
+    {
+      "text": "선택",
+      "type": "gloss"
+    }
+  ],
+  "play_queue": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\102682.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103117.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpycf32ppl.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpgo7ddb0a.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpone9gzn0.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpnn88pkhh.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101649.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101686.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpv31poe0q.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\100654.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103593.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\102330.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\100357.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103170.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103593.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101686.mp4"
+  ]
+}

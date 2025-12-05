@@ -1,0 +1,65 @@
+{
+  "ts": "20251130_194128",
+  "timestamp": "20251130_194128",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 10.86,
+  "text": "매달 일정 금액을 나비패 회차를 쌓아야 청약 자격 가점 산정에 유리하기 때문에 미남 없이 꾸준히 유지하는 것이 무엇보다 중요해요.",
+  "clean_text": "매달 일정 금액을 납입하여 회차를 쌓아야 청약 자격 가점 산정에 유리하므로, 미납 없이 꾸준히 유지하는 것이 무엇보다 중요합니다.",
+  "latency_ms": {
+    "stt": 8348.8,
+    "nlp": 3550.6,
+    "mapping": 63.6,
+    "synth": 291.1,
+    "total": 12254.1
+  },
+  "gloss": [
+    "매달",
+    "금액",
+    "납입",
+    "회차",
+    "청약",
+    "자격",
+    "가점",
+    "산정",
+    "유지",
+    "중요"
+  ],
+  "gloss_ids": [
+    "103323",
+    "104190",
+    "103593",
+    "103115",
+    "104850",
+    "102689",
+    "104318",
+    "101018",
+    "102220",
+    "102008"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_194128.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103323.mp4",
+    "/media/sign_videos/104190.mp4",
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/103115.mp4",
+    "/media/sign_videos/104850.mp4",
+    "/media/sign_videos/102689.mp4",
+    "/media/sign_videos/104318.mp4",
+    "/media/sign_videos/101018.mp4",
+    "/media/sign_videos/102220.mp4",
+    "/media/sign_videos/102008.mp4"
+  ],
+  "gloss_labels": [
+    "매",
+    "값",
+    "납부",
+    "단체",
+    "파랑",
+    "자격",
+    "소수점",
+    "재산감정",
+    "그만하다",
+    "귀하다"
+  ]
+}

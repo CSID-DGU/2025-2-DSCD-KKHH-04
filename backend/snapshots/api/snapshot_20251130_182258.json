@@ -1,0 +1,49 @@
+{
+  "ts": "20251130_182258",
+  "timestamp": "20251130_182258",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 6.06,
+  "text": "이자 지급 방식은 장점이 예금자 보호입니다.",
+  "clean_text": "이자 지급 방식의 장점은 예금자 보호입니다.",
+  "latency_ms": {
+    "stt": 10515.1,
+    "nlp": 3505.1,
+    "mapping": 60.6,
+    "synth": 303.4,
+    "total": 14384.2
+  },
+  "gloss": [
+    "이자",
+    "지급",
+    "방식",
+    "장점",
+    "예금자",
+    "보호"
+  ],
+  "gloss_ids": [
+    "100899",
+    "103593",
+    "102330",
+    "104318",
+    "100782",
+    "102274"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_182257.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100899.mp4",
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/102330.mp4",
+    "/media/sign_videos/104318.mp4",
+    "/media/sign_videos/100782.mp4",
+    "/media/sign_videos/102274.mp4"
+  ],
+  "gloss_labels": [
+    "이자율",
+    "납부",
+    "방법",
+    "소수점",
+    "예금이자",
+    "보호"
+  ]
+}

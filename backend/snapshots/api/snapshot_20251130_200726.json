@@ -1,0 +1,62 @@
+{
+  "ts": "20251130_200726",
+  "timestamp": "20251130_200726",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 7.8,
+  "text": "정립식은 회차 유지만 되면 금액을 줄여도 회차가 이어지고 다음 달 원래 금액으로 돌아가도 문제 없습니다.",
+  "clean_text": "정립식은 회차만 유지된다면 금액을 줄여도 회차는 계속 이어지며, 다음 달에 원래 금액으로 다시 납입해도 문제없습니다.",
+  "latency_ms": {
+    "stt": 9372.9,
+    "nlp": 7288.0,
+    "mapping": 86.8,
+    "synth": 318.9,
+    "total": 17066.600000000002
+  },
+  "gloss": [
+    "정립식",
+    "회차",
+    "유지",
+    "금액",
+    "축소",
+    "계속",
+    "다음달",
+    "원래금액",
+    "납입",
+    "문제없음"
+  ],
+  "gloss_ids": [
+    "103115",
+    "102220",
+    "104190",
+    "102991",
+    "103101",
+    "104524",
+    "102772",
+    "103593",
+    "103235"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_200726.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103115.mp4",
+    "/media/sign_videos/102220.mp4",
+    "/media/sign_videos/104190.mp4",
+    "/media/sign_videos/102991.mp4",
+    "/media/sign_videos/103101.mp4",
+    "/media/sign_videos/104524.mp4",
+    "/media/sign_videos/102772.mp4",
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/103235.mp4"
+  ],
+  "gloss_labels": [
+    "단체",
+    "그만하다",
+    "값",
+    "줄이다",
+    "계속",
+    "그다음",
+    "원래",
+    "납부",
+    "문제"
+  ]
+}

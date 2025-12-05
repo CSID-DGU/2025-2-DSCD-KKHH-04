@@ -1,0 +1,33 @@
+{
+  "ts": "20251130_202135",
+  "timestamp": "20251130_202135",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "질의",
+  "audio_sec": 3.66,
+  "text": "통장을 개설해드릴까요?",
+  "clean_text": "통장을 개설해 드릴까요?",
+  "latency_ms": {
+    "stt": 3779.8,
+    "nlp": 2197.7,
+    "mapping": 0.3,
+    "synth": 157.6,
+    "total": 6135.400000000001
+  },
+  "gloss": [
+    "통장",
+    "개설"
+  ],
+  "gloss_ids": [
+    "104886",
+    "100020"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_202134.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104886.mp4",
+    "/media/sign_videos/100020.mp4"
+  ],
+  "gloss_labels": [
+    "통장",
+    "개설"
+  ]
+}

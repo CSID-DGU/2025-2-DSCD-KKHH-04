@@ -1,0 +1,41 @@
+{
+  "timestamp": "20251123_204346",
+  "text": "자동 2체를 설정하면 추가 5대 곱리를 받을 수 있습니다.",
+  "clean_text": "자동 이체를 설정하면 5배의 추가 금리를 받을 수 있습니다.",
+  "latency_ms": {
+    "stt": 11018.6,
+    "nlp": 6762.8,
+    "mapping": 62.4,
+    "synth": 344.2,
+    "total": 18188.000000000004
+  },
+  "gloss": [
+    "자동이체",
+    "설정",
+    "5배",
+    "추가",
+    "금리"
+  ],
+  "gloss_ids": [
+    "100953",
+    "102271",
+    "102731",
+    "104509",
+    "101590"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_204346.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100953.mp4",
+    "/media/sign_videos/102271.mp4",
+    "/media/sign_videos/102731.mp4",
+    "/media/sign_videos/104509.mp4",
+    "/media/sign_videos/101590.mp4"
+  ],
+  "gloss_labels": [
+    "자동이체",
+    "설",
+    "배",
+    "더",
+    "(값이)오르다"
+  ]
+}

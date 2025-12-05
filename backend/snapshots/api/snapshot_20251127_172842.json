@@ -1,0 +1,37 @@
+{
+  "timestamp": "20251127_172842",
+  "session_id": null,
+  "mode": null,
+  "audio_sec": 5.4,
+  "text": "여러 가지 문제를 보고 어 내가 이 문제를 어떤 알고리즘을 풀면 나갈 수 있을까",
+  "clean_text": "여러 가지 문제를 보고 내가 이 문제를 어떤 알고리즘으로 해결할 수 있을까",
+  "latency_ms": {
+    "stt": 11934.2,
+    "nlp": 7991.5,
+    "mapping": 44.3,
+    "synth": 552.5,
+    "total": 20522.5
+  },
+  "gloss": [
+    "여러",
+    "문제",
+    "알고리즘",
+    "해결"
+  ],
+  "gloss_ids": [
+    "101390",
+    "103235",
+    "103694"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_172842.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101390.mp4",
+    "/media/sign_videos/103235.mp4",
+    "/media/sign_videos/103694.mp4"
+  ],
+  "gloss_labels": [
+    "들",
+    "문제",
+    "풀이"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "20251129_191358",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 6.42,
+  "text": "이 상품은 5년 만 기 국정북미형으로 가입기관 동안 국리가 공동되지 않습니다.",
+  "clean_text": "이 상품은 5년 만기 고정금리형으로, 가입 기간 동안 금리가 변동되지 않습니다.",
+  "latency_ms": {
+    "stt": 6553.6,
+    "nlp": 10403.6,
+    "mapping": 67.2,
+    "synth": 443.7,
+    "total": 17468.100000000002
+  },
+  "gloss": [
+    "상품",
+    "5년",
+    "만기",
+    "고정금리",
+    "가입",
+    "기간",
+    "변동"
+  ],
+  "gloss_ids": [
+    "103392",
+    "101948",
+    "100357",
+    "100120",
+    "103220",
+    "103303",
+    "101664"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_191358.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/101948.mp4",
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/100120.mp4",
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/103303.mp4",
+    "/media/sign_videos/101664.mp4"
+  ],
+  "gloss_labels": [
+    "물건",
+    "년",
+    "만기",
+    "공정금리",
+    "가입",
+    "기간",
+    "갈다"
+  ]
+}

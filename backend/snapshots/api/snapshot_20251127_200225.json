@@ -1,0 +1,30 @@
+{
+  "timestamp": "20251127_200225",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 4.2,
+  "text": "ᄒᄒ스팀 VoN л innovation",
+  "clean_text": "HH스팀 VoN은 혁신입니다.",
+  "latency_ms": {
+    "stt": 36139.5,
+    "nlp": 11338.8,
+    "mapping": 18.2,
+    "synth": 152.2,
+    "total": 47648.7
+  },
+  "gloss": [
+    "HH스팀",
+    "VoN",
+    "혁신"
+  ],
+  "gloss_ids": [
+    "104608"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_200225.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104608.mp4"
+  ],
+  "gloss_labels": [
+    "혁신"
+  ]
+}

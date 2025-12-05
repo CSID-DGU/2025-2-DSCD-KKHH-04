@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     "corsheaders",  
     "sign",
     "rest_framework",
-    "stream",
+    "corsheaders", # 필요하면 활성화
+    "accounts", 
+    "rest_framework",
     # "channels",     # 실시간 통신 추가 시 활성화
 ]
 
@@ -54,6 +56,25 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
+
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:5174",
+    "http://127.0.0.1:5174",
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    "http://localhost:5174",
+    "http://127.0.0.1:5174",
+]
+
+# CORS_ALLOW_ALL_ORIGINS = True
+
 
 ROOT_URLCONF = "config.urls"
 
@@ -151,3 +172,5 @@ CHANNEL_LAYERS = {
         "CONFIG": {"hosts": [REDIS_URL]},
     }
 }
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR / "media"

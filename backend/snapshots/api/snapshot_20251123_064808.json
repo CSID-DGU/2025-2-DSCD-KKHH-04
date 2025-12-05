@@ -1,0 +1,32 @@
+{
+  "text": "예금자 보호법에 따라",
+  "clean_text": "예금자 보호법에 따라",
+  "latency_ms": {
+    "stt": 3928.8,
+    "nlp": 3154.3,
+    "mapping": 37.8,
+    "synth": 196.5,
+    "total": 7317.400000000001
+  },
+  "gloss": [
+    "예금자",
+    "보호법에",
+    "따라"
+  ],
+  "gloss_ids": [
+    "100782",
+    "102274",
+    "104447"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_064807.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100782.mp4",
+    "/media/sign_videos/102274.mp4",
+    "/media/sign_videos/104447.mp4"
+  ],
+  "gloss_labels": [
+    "예금이자",
+    "보호",
+    "뒤따르다"
+  ]
+}

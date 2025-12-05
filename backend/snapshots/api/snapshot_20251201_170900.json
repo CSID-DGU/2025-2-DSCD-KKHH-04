@@ -1,0 +1,57 @@
+{
+  "ts": "20251201_170900",
+  "timestamp": "20251201_170900",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 7.32,
+  "text": "이제 그 들 사이에 뭐야 단위가 다를 경우가 어떻게 돼 그런 걸 다 통일해서 만들어야겠지 그런 것들이 제기적으로 이게 변화",
+  "clean_text": "이제 그들 사이에 단위가 다를 경우, 이를 통일해야 하며, 통일된 기준은 지속적인 변화에 맞춰 관리해야 한다.",
+  "latency_ms": {
+    "stt": 21538.1,
+    "nlp": 7316.7,
+    "mapping": 93.2,
+    "synth": 687.8,
+    "total": 29635.8
+  },
+  "gloss": [
+    "사이",
+    "단위",
+    "다름",
+    "통일",
+    "기준",
+    "지속",
+    "변화",
+    "관리"
+  ],
+  "gloss_ids": [
+    "103117",
+    "101717",
+    "103170",
+    "104675",
+    "100233",
+    "103101",
+    "103684",
+    "103915"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_170859.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103117.mp4",
+    "/media/sign_videos/101717.mp4",
+    "/media/sign_videos/103170.mp4",
+    "/media/sign_videos/104675.mp4",
+    "/media/sign_videos/100233.mp4",
+    "/media/sign_videos/103101.mp4",
+    "/media/sign_videos/103684.mp4",
+    "/media/sign_videos/103915.mp4"
+  ],
+  "gloss_labels": [
+    "동안",
+    "단위",
+    "모두",
+    "한꺼번에",
+    "기준환율",
+    "계속",
+    "변하다",
+    "관리"
+  ]
+}

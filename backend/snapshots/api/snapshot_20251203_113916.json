@@ -1,0 +1,32 @@
+{
+  "ts": "20251203_113916",
+  "timestamp": "20251203_113916",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 3.84,
+  "text": "안녕하세요 반갑습니다",
+  "clean_text": "안녕하세요 반갑습니다",
+  "latency_ms": {
+    "stt": 4301.0,
+    "nlp": 8917.9,
+    "mapping": 214.4,
+    "synth": 653.7
+  },
+  "gloss": [
+    "안녕하세요",
+    "반갑습니다"
+  ],
+  "gloss_ids": [
+    "104185",
+    "101508"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_113915.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104185.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101508.mp4"
+  ],
+  "gloss_labels": [
+    "안녕하세요",
+    "-ㅂ니다"
+  ]
+}

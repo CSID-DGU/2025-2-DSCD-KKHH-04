@@ -1,0 +1,41 @@
+{
+  "ts": "20251201_225522",
+  "timestamp": "20251201_225522",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 10.32,
+  "text": "아... 아... 아... 아... 아...",
+  "clean_text": "아무 말도 하지 않았습니다.",
+  "latency_ms": {
+    "stt": 12668.3,
+    "nlp": 11120.8,
+    "mapping": 24.0,
+    "synth": 208.7,
+    "total": 24021.8
+  },
+  "gloss": [
+    "아무",
+    "말도",
+    "하지",
+    "않았습니다"
+  ],
+  "gloss_ids": [
+    "102867",
+    "103568",
+    "102050",
+    "101508"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_225522.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102867.mp4",
+    "/media/sign_videos/103568.mp4",
+    "/media/sign_videos/102050.mp4",
+    "/media/sign_videos/101508.mp4"
+  ],
+  "gloss_labels": [
+    "어느",
+    "말",
+    "뒤엎다",
+    "-ㅂ니다"
+  ]
+}

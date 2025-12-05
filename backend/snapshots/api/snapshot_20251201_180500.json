@@ -1,0 +1,29 @@
+{
+  "ts": "20251201_180500",
+  "timestamp": "20251201_180500",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 4.62,
+  "text": "timer",
+  "clean_text": "타이머",
+  "latency_ms": {
+    "stt": 36010.8,
+    "nlp": 2892.1,
+    "mapping": 166.0,
+    "synth": 1011.8,
+    "total": 40080.700000000004
+  },
+  "gloss": [
+    "타이머"
+  ],
+  "gloss_ids": [
+    "103485"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_180459.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103485.mp4"
+  ],
+  "gloss_labels": [
+    "넥타이"
+  ]
+}

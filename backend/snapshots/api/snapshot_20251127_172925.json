@@ -1,0 +1,41 @@
+{
+  "timestamp": "20251127_172925",
+  "session_id": null,
+  "mode": null,
+  "audio_sec": 3.36,
+  "text": "분명히 좋은 결과를 만들 수 있다라고 하고",
+  "clean_text": "분명히 좋은 결과를 만들 수 있다.",
+  "latency_ms": {
+    "stt": 13543.1,
+    "nlp": 6585.5,
+    "mapping": 102.4,
+    "synth": 598.5,
+    "total": 20829.5
+  },
+  "gloss": [
+    "분명",
+    "좋음",
+    "결과",
+    "만들",
+    "가능"
+  ],
+  "gloss_ids": [
+    "101840",
+    "101696",
+    "101919",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251127_172924.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101840.mp4",
+    "/media/sign_videos/101696.mp4",
+    "/media/sign_videos/101919.mp4",
+    "/media/sign_videos/101849.mp4"
+  ],
+  "gloss_labels": [
+    "명확하다",
+    "결과",
+    "짓다",
+    "가능"
+  ]
+}

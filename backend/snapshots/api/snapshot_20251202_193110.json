@@ -1,0 +1,71 @@
+{
+  "ts": "20251202_193110",
+  "timestamp": "20251202_193110",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 1.86,
+  "text": "여러분들은 내가 시험 끝라오고 목요일에서 금을 넘어가는 다음에 우리가 요약을 해서 마무리 할까?",
+  "clean_text": "여러분, 내 시험 끝나고 목요일 밤 지나 금요일에 우리 요약해서 마무리할까요?",
+  "latency_ms": {
+    "stt": 20669.0,
+    "nlp": 15932.0,
+    "mapping": 368.6,
+    "synth": 497.2
+  },
+  "latency_sec": {
+    "stt_sec": 20.67,
+    "nlp_sec": 15.93,
+    "mapping_sec": 0.37,
+    "synth_sec": 0.5,
+    "total_sec": 37.47
+  },
+  "gloss": [
+    "여러분",
+    "나",
+    "시험",
+    "끝나다",
+    "목요일",
+    "금요일",
+    "요약",
+    "마무리",
+    "우리",
+    "어때?"
+  ],
+  "gloss_ids": [
+    "102553",
+    "101576",
+    "102137",
+    "102280",
+    "103470",
+    "103359",
+    "101885",
+    "101820",
+    "102648",
+    "103241"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_193109.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102553.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101576.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102137.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102280.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103470.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103359.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101885.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101820.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102648.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103241.mp4"
+  ],
+  "gloss_labels": [
+    "여러분",
+    "나",
+    "겨루다",
+    "그만",
+    "목요일",
+    "금요일",
+    "간추리다",
+    "억지",
+    "우리",
+    "때"
+  ]
+}

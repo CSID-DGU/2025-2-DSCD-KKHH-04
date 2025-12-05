@@ -1,0 +1,69 @@
+{
+  "timestamp": "20251201_213205",
+  "stt": "고객님 전기예금은 말 그대로 목도나를 한 번에 예치해놓고 약정 기간 동안 안정적으로 금리를 받는 상품입니다.",
+  "tokens": [
+    {
+      "text": "전기예금",
+      "type": "gloss"
+    },
+    {
+      "text": "PAUSE",
+      "type": "pause"
+    },
+    {
+      "text": "목돈",
+      "type": "gloss"
+    },
+    {
+      "text": "한번",
+      "type": "gloss"
+    },
+    {
+      "text": "예치",
+      "type": "gloss"
+    },
+    {
+      "text": "기간",
+      "type": "gloss"
+    },
+    {
+      "text": "약속",
+      "type": "gloss"
+    },
+    {
+      "text": "동안",
+      "type": "gloss"
+    },
+    {
+      "text": "금리",
+      "type": "gloss"
+    },
+    {
+      "text": "안정",
+      "type": "gloss"
+    },
+    {
+      "text": "받다",
+      "type": "gloss"
+    },
+    {
+      "text": "상품",
+      "type": "gloss"
+    }
+  ],
+  "play_queue": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101065.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpj6ym0y_h.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\104190.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103536.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\102098.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\102117.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103117.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101637.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103117.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\100183.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\102099.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101466.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\100535.mp4"
+  ]
+}

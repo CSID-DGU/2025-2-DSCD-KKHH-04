@@ -1,0 +1,41 @@
+{
+  "ts": "20251202_015111",
+  "timestamp": "20251202_015111",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 5.88,
+  "text": "필요하면 가비, 나메그로 조절해야 합니다.",
+  "clean_text": "필요시 가비와 나메그로 조절해야 합니다.",
+  "latency_ms": {
+    "stt": 5405.5,
+    "nlp": 4200.7,
+    "mapping": 32.6,
+    "synth": 207.9,
+    "total": 9846.7
+  },
+  "gloss": [
+    "필요",
+    "가비",
+    "나메그",
+    "조절"
+  ],
+  "gloss_ids": [
+    "104788",
+    "103607",
+    "103874",
+    "102445"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_015111.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/104788.mp4",
+    "/media/sign_videos/103607.mp4",
+    "/media/sign_videos/103874.mp4",
+    "/media/sign_videos/102445.mp4"
+  ],
+  "gloss_labels": [
+    "필요",
+    "비",
+    "나그네",
+    "조절"
+  ]
+}

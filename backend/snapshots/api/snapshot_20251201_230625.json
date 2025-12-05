@@ -1,0 +1,49 @@
+{
+  "ts": "20251201_230625",
+  "timestamp": "20251201_230625",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 7.56,
+  "text": "전기 예금은 원금 보장 상품 중에서도 가장 안정적인 형태입니다.",
+  "clean_text": "전기 예금은 원금 보장 상품 중 가장 안정적인 형태입니다.",
+  "latency_ms": {
+    "stt": 15186.1,
+    "nlp": 2551.3,
+    "mapping": 17.2,
+    "synth": 490.9,
+    "total": 18245.500000000004
+  },
+  "gloss": [
+    "전기예금",
+    "원금",
+    "보장",
+    "상품",
+    "안정",
+    "형태"
+  ],
+  "gloss_ids": [
+    "101065",
+    "102713",
+    "101923",
+    "103392",
+    "103074",
+    "101926"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_230625.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101065.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/101923.mp4",
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/103074.mp4",
+    "/media/sign_videos/101926.mp4"
+  ],
+  "gloss_labels": [
+    "정기예금",
+    "원금",
+    "보증",
+    "물건",
+    "안심",
+    "모습"
+  ]
+}

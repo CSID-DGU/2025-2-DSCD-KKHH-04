@@ -1,0 +1,48 @@
+{
+  "ts": "20251203_214413",
+  "timestamp": "20251203_214413",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "text": "이제는 매달에 어떻게 해드릴까요?",
+  "clean_text": "이제 매달 어떻게 해드릴까요?",
+  "gloss": [
+    "앞으로",
+    "매달",
+    "어떻게",
+    "할까요"
+  ],
+  "gloss_ids": [
+    "102840",
+    "103027",
+    "102872",
+    "101379"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_214413.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102840.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103027.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102872.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101379.mp4"
+  ],
+  "gloss_labels": [
+    "앞",
+    "일개월",
+    "어떻게",
+    "할까봐"
+  ],
+  "audio_sec": 7.74,
+  "video_sec": 14.566333,
+  "latency_ms": {
+    "stt": 17312.4,
+    "nlp": 6484.1,
+    "mapping": 127.6,
+    "synth": 403.3
+  },
+  "latency_sec": {
+    "stt_sec": 17.31,
+    "nlp_sec": 6.48,
+    "mapping_sec": 0.13,
+    "synth_sec": 0.4,
+    "total_sec": 24.33
+  }
+}

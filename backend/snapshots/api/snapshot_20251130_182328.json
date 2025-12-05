@@ -1,0 +1,70 @@
+{
+  "ts": "20251130_182328",
+  "timestamp": "20251130_182328",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 11.82,
+  "text": "고객님이 예치하는 원금과 이자를 합산하여 1인당 5천만 원까지 예금 보험공사에서 보호를 해주기 때문에 원금 손실 위험 없이 안전하게 자산을 운영할 수 있습니다.",
+  "clean_text": "예금보험공사가 고객의 예치 원금과 이자를 합산하여 1인당 5천만 원까지 보호하므로, 원금 손실 위험 없이 자산을 안전하게 운영할 수 있습니다.",
+  "latency_ms": {
+    "stt": 8505.0,
+    "nlp": 7607.1,
+    "mapping": 145.4,
+    "synth": 11730.4,
+    "total": 27987.9
+  },
+  "gloss": [
+    "예금보험공사",
+    "원금",
+    "이자",
+    "합산",
+    "1인당",
+    "5천만원",
+    "보호",
+    "원금손실",
+    "위험",
+    "안전",
+    "자산",
+    "운영"
+  ],
+  "gloss_ids": [
+    "100779",
+    "102713",
+    "100899",
+    "103844",
+    "101421",
+    "102274",
+    "102713",
+    "102355",
+    "103074",
+    "100977",
+    "102170"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_182316.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100779.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/100899.mp4",
+    "/media/sign_videos/103844.mp4",
+    "/media/sign_videos/101421.mp4",
+    "/media/sign_videos/102274.mp4",
+    "/media/sign_videos/102713.mp4",
+    "/media/sign_videos/102355.mp4",
+    "/media/sign_videos/103074.mp4",
+    "/media/sign_videos/100977.mp4",
+    "/media/sign_videos/102170.mp4"
+  ],
+  "gloss_labels": [
+    "예금보험",
+    "원금",
+    "이자율",
+    "합치다",
+    "복잡하다",
+    "보호",
+    "원금",
+    "위험",
+    "안심",
+    "자산액",
+    "운영"
+  ]
+}

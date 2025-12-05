@@ -1,0 +1,42 @@
+{
+  "timestamp": "20251123_204637",
+  "text": "적금은 만기 이전에 해지하면 세제 혜택이 사라질 수 있습니다.",
+  "clean_text": "적금을 만기 전에 해지하면 세제 혜택이 사라질 수 있습니다.",
+  "latency_ms": {
+    "stt": 14687.5,
+    "nlp": 4030.1,
+    "mapping": 44.1,
+    "synth": 173.7,
+    "total": 18935.399999999998
+  },
+  "gloss": [
+    "적금",
+    "만기",
+    "해지",
+    "세제",
+    "혜택",
+    "소멸"
+  ],
+  "gloss_ids": [
+    "101937",
+    "100357",
+    "101988",
+    "103525",
+    "103799"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_204637.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/100357.mp4",
+    "/media/sign_videos/101988.mp4",
+    "/media/sign_videos/103525.mp4",
+    "/media/sign_videos/103799.mp4"
+  ],
+  "gloss_labels": [
+    "저축",
+    "만기",
+    "해약",
+    "비누",
+    "소멸시효"
+  ]
+}

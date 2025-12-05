@@ -1,0 +1,44 @@
+{
+  "ts": "20251203_114649",
+  "timestamp": "20251203_114649",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 77.76,
+  "text": "사쉬 recognizes . 돼 actor 이런 두 cholesterol",
+  "clean_text": "사쉬는 배우가 되고, 이런 두 가지 콜레스테롤을 인식한다.",
+  "latency_ms": {
+    "stt": 365736.5,
+    "nlp": 17594.6,
+    "mapping": 98.7,
+    "synth": 242.9
+  },
+  "gloss": [
+    "사쉬",
+    "배우",
+    "되다",
+    "콜레스테롤",
+    "알다"
+  ],
+  "gloss_ids": [
+    "101947",
+    "102624",
+    "103377",
+    "104414",
+    "102914"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251203_114649.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101947.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102624.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\103377.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\104414.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102914.mp4"
+  ],
+  "gloss_labels": [
+    "넷",
+    "배우",
+    "되다",
+    "드레스",
+    "알다"
+  ]
+}

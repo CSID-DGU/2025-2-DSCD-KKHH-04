@@ -1,0 +1,52 @@
+{
+  "ts": "20251202_163845",
+  "timestamp": "20251202_163845",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 8.1,
+  "text": "금리는 3.2%이면 무대의 조건 충족 시 연 4.0%까지 가능합니다.",
+  "clean_text": "금리는 3.2%이며, 조건 충족 시 연 4.0%까지 가능합니다.",
+  "latency_ms": {
+    "stt": 15699.2,
+    "nlp": 12054.1,
+    "mapping": 231.7,
+    "synth": 639.6
+  },
+  "gloss": [
+    "금리",
+    "3.2%",
+    "조건",
+    "충족",
+    "연",
+    "4.0%",
+    "가능"
+  ],
+  "gloss_ids": [
+    "100183",
+    "101090",
+    "102484",
+    "101821",
+    "102293",
+    "100344",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_163845.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100183.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101090.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102484.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101821.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102293.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\100344.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\101849.mp4"
+  ],
+  "gloss_labels": [
+    "금리",
+    "주2",
+    "조건",
+    "만족",
+    "연",
+    "리베이트4",
+    "가능"
+  ]
+}

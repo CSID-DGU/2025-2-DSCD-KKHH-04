@@ -1,0 +1,61 @@
+{
+  "ts": "20251130_200819",
+  "timestamp": "20251130_200819",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 8.28,
+  "text": "수입이 닮아도 달라도 회차가 이어지고 다음 달 다시 원래 금액으로 돌아가도 문제없습니다.",
+  "clean_text": "수입이 변동되더라도 회차가 계속 이어지고 다음 달에 원래 금액으로 돌아가도 문제없습니다.",
+  "latency_ms": {
+    "stt": 18021.2,
+    "nlp": 5315.2,
+    "mapping": 39.9,
+    "synth": 226.6,
+    "total": 23602.9
+  },
+  "gloss": [
+    "수입",
+    "변동",
+    "회차",
+    "계속",
+    "다음 달",
+    "원래",
+    "금액",
+    "복귀",
+    "문제"
+  ],
+  "gloss_ids": [
+    "101575",
+    "101664",
+    "103115",
+    "103101",
+    "104524",
+    "102772",
+    "104190",
+    "101669",
+    "103235"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_200818.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101575.mp4",
+    "/media/sign_videos/101664.mp4",
+    "/media/sign_videos/103115.mp4",
+    "/media/sign_videos/103101.mp4",
+    "/media/sign_videos/104524.mp4",
+    "/media/sign_videos/102772.mp4",
+    "/media/sign_videos/104190.mp4",
+    "/media/sign_videos/101669.mp4",
+    "/media/sign_videos/103235.mp4"
+  ],
+  "gloss_labels": [
+    "수입",
+    "갈다",
+    "단체",
+    "계속",
+    "그다음",
+    "원래",
+    "값",
+    "복귀",
+    "문제"
+  ]
+}

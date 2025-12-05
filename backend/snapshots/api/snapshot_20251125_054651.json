@@ -1,0 +1,38 @@
+{
+  "timestamp": "20251125_054651",
+  "text": "자동 2체를 두껀 설정하면 추가 오대 금리를 받을 수 있습니다.",
+  "clean_text": "자동 이체 2건을 설정하면 추가 우대 금리를 받을 수 있습니다.",
+  "latency_ms": {
+    "stt": 2445.9,
+    "nlp": 3475.7,
+    "mapping": 37.9,
+    "synth": 213.5,
+    "total": 6173.0
+  },
+  "gloss": [
+    "자동이체",
+    "2건",
+    "설정",
+    "추가",
+    "우대금리"
+  ],
+  "gloss_ids": [
+    "100953",
+    "102271",
+    "104509",
+    "100311"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_054651.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/100953.mp4",
+    "/media/sign_videos/102271.mp4",
+    "/media/sign_videos/104509.mp4",
+    "/media/sign_videos/100311.mp4"
+  ],
+  "gloss_labels": [
+    "자동이체",
+    "설",
+    "더",
+    "대출금리"
+  ]
+}

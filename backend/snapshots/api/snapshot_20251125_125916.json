@@ -1,0 +1,41 @@
+{
+  "timestamp": "20251125_125916",
+  "text": "오늘 트레이닝이 되고 왜 하는지 알아야 되는거고 뭐하는거지?",
+  "clean_text": "오늘 트레이닝이 되고 왜 하는지 알아야 되는거고 뭐하는거지?",
+  "latency_ms": {
+    "stt": 5000.5,
+    "nlp": 833.6,
+    "mapping": 178.6,
+    "synth": 589.7,
+    "total": 6602.400000000001
+  },
+  "gloss": [
+    "오늘",
+    "트레이닝이",
+    "되고",
+    "왜",
+    "하는지",
+    "알아야",
+    "되는거고",
+    "뭐하는거지"
+  ],
+  "gloss_ids": [
+    "102615",
+    "101971",
+    "102599",
+    "102050"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251125_125915.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102615.mp4",
+    "/media/sign_videos/101971.mp4",
+    "/media/sign_videos/102599.mp4",
+    "/media/sign_videos/102050.mp4"
+  ],
+  "gloss_labels": [
+    "오늘",
+    "고",
+    "왜",
+    "뒤엎다"
+  ]
+}

@@ -2,20 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ============================
-   Base reset (필요한 최소만 유지)
-   ============================ */
+/* 전역 기본값은 base 레이어에서 */
 @layer base {
   :root {
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    /* 예전 프로젝트처럼 sans = Pretendard 기반 */
+    font-family: "Pretendard", -apple-system, BlinkMacSystemFont,
+      system-ui, "Segoe UI", sans-serif;
     line-height: 1.5;
     font-weight: 400;
 
-    /* 다크모드 대비 설정 */
-    color-scheme: light dark;
-
-    color: #213547;
-    background-color: #ffffff;
+    color-scheme: light;
+    color: #111827;
+    background-color: #f5f7fb;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -28,79 +26,31 @@
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
-    display: block; /* 기본값 */
-    background-color: #ffffff;
+    background-color: #f5f7fb;
+    color: #111827;
+
+    /* 여기에서 Tailwind의 font-sans = Pretendard 적용 */
+    
   }
 
-  @media (prefers-color-scheme: dark) {
-    :root {
-      color: rgba(255, 255, 255, 0.87);
-      background-color: #242424;
-    }
+  html,
+  body,
+  #root {
+    height: 100%;
   }
-}
 
-/* ============================
-   Components layer
-   ============================ */
-@layer components {
-  /* default anchor */
   a {
     font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
-  }
-  a:hover {
-    color: #535bf2;
+    color: #1d4ed8;
+    text-decoration: none;
   }
 
-  /* default button (Tailwind와 충돌하지 않는 최소 설정) */
+  a:hover {
+    color: #1e40af;
+  }
+
   button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
     font-family: inherit;
     cursor: pointer;
-    background-color: #ffffff;
-    transition: border-color 0.25s;
-  }
-
-  button:hover {
-    border-color: #646cff;
-  }
-
-  button:focus,
-  button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
-  }
-
-  /* Demo용 logo 클래스 → 현재 프로젝트엔 영향 없음, 유지 */
-  .logo {
-    height: 6rem;
-    padding: 1.5rem;
-    will-change: filter;
-    transition: filter 0.2s;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-  }
-
-  @media (prefers-reduced-motion: no-preference) {
-    @keyframes logo-spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-    .logo.react {
-      animation: logo-spin 20s linear infinite;
-    }
   }
 }

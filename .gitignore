@@ -16,3 +16,21 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 .idea
+node_modules
+
+# ==== Signance STT / AI Snapshots ====
+backend/pipelines/snapshots/
+backend/snapshots/
+backend/snapshots/api/
+
+# ==== Gloss MP4 / Sign Video Assets ====
+backend/data/gloss_mp4/
+backend/pipelines/gloss_mp4/
+backend/pipelines/gloss_new/data/service/
+backend/pipelines/gloss_new/data/vd_output/
+backend/pipelines/gloss_new/data/snapshots14
+backend/pipelines/gloss_new/snapshots14
+backend/pipelines/gloss_new/vd_output
+
+# ==== Media ====
+backend/media/

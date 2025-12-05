@@ -1,0 +1,29 @@
+{
+  "ts": "20251201_173713",
+  "timestamp": "20251201_173713",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 6.36,
+  "text": "sorry",
+  "clean_text": "죄송합니다.",
+  "latency_ms": {
+    "stt": 29934.5,
+    "nlp": 3124.9,
+    "mapping": 39.8,
+    "synth": 354.8,
+    "total": 33454.00000000001
+  },
+  "gloss": [
+    "죄송"
+  ],
+  "gloss_ids": [
+    "101618"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_173713.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101618.mp4"
+  ],
+  "gloss_labels": [
+    "죄송하다"
+  ]
+}

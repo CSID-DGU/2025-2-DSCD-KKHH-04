@@ -1,0 +1,65 @@
+{
+  "ts": "20251130_194201",
+  "timestamp": "20251130_194201",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 12.6,
+  "text": "거치식 예고처럼 얼마를 예체는 야 보다 몇 회 차를 꾸준히 납했는가가 훨씬 중요한 구조이기 때문에 죽어 준비하는 고객이라며 거의 필수로 가입하시는 상품이에요",
+  "clean_text": "이 상품은 거치식 예금처럼 얼마를 예치했는지보다 몇 회차를 꾸준히 납입했는지가 훨씬 중요한 구조이므로, 노후를 준비하는 고객이라면 거의 필수로 가입하는 상품입니다.",
+  "latency_ms": {
+    "stt": 8859.4,
+    "nlp": 10574.0,
+    "mapping": 57.7,
+    "synth": 248.5,
+    "total": 19739.600000000002
+  },
+  "gloss": [
+    "상품",
+    "예치",
+    "회차",
+    "납입",
+    "중요",
+    "노후",
+    "준비",
+    "고객",
+    "필수",
+    "가입"
+  ],
+  "gloss_ids": [
+    "103392",
+    "100793",
+    "103115",
+    "103593",
+    "102008",
+    "104006",
+    "102894",
+    "101853",
+    "101637",
+    "103220"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_194201.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/100793.mp4",
+    "/media/sign_videos/103115.mp4",
+    "/media/sign_videos/103593.mp4",
+    "/media/sign_videos/102008.mp4",
+    "/media/sign_videos/104006.mp4",
+    "/media/sign_videos/102894.mp4",
+    "/media/sign_videos/101853.mp4",
+    "/media/sign_videos/101637.mp4",
+    "/media/sign_videos/103220.mp4"
+  ],
+  "gloss_labels": [
+    "물건",
+    "예치금",
+    "단체",
+    "납부",
+    "귀하다",
+    "나중",
+    "준비",
+    "초대",
+    "꼭",
+    "가입"
+  ]
+}

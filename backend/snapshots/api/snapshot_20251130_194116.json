@@ -1,0 +1,55 @@
+{
+  "ts": "20251130_194116",
+  "timestamp": "20251130_194116",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 6.36,
+  "text": "청의학 종합저축은 일반 적금과 달리 회차수 자체가 중요한 가격 기준입니다.",
+  "clean_text": "청의학 종합저축은 일반 적금과 달리 회차수 자체가 중요한 가격 기준입니다.",
+  "latency_ms": {
+    "stt": 5116.1,
+    "nlp": 5624.1,
+    "mapping": 60.5,
+    "synth": 453.7,
+    "total": 11254.400000000001
+  },
+  "gloss": [
+    "청의학",
+    "종합저축",
+    "일반",
+    "적금",
+    "차이",
+    "회차수",
+    "중요",
+    "가격",
+    "기준"
+  ],
+  "gloss_ids": [
+    "102325",
+    "102187",
+    "101937",
+    "101872",
+    "102008",
+    "104190",
+    "100233"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_194115.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102325.mp4",
+    "/media/sign_videos/102187.mp4",
+    "/media/sign_videos/101937.mp4",
+    "/media/sign_videos/101872.mp4",
+    "/media/sign_videos/102008.mp4",
+    "/media/sign_videos/104190.mp4",
+    "/media/sign_videos/100233.mp4"
+  ],
+  "gloss_labels": [
+    "종합",
+    "일반",
+    "저축",
+    "차이",
+    "귀하다",
+    "값",
+    "기준환율"
+  ]
+}

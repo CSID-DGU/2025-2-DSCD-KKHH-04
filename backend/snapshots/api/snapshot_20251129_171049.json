@@ -1,0 +1,44 @@
+{
+  "timestamp": "20251129_171049",
+  "session_id": "sess_1764232566125_w1ukzd",
+  "mode": "응답",
+  "audio_sec": 6.24,
+  "text": "안녕하세요. 일반 출입도 하고요. 영무실 가서 여쭤보세요? 영무실 가서 여쭤보세요?",
+  "clean_text": "일반 출입이 가능하니 영무실에 문의해 보세요.",
+  "latency_ms": {
+    "stt": 5293.3,
+    "nlp": 5126.5,
+    "mapping": 32.5,
+    "synth": 256.4,
+    "total": 10708.699999999999
+  },
+  "gloss": [
+    "일반",
+    "출입",
+    "가능",
+    "영무실",
+    "문의"
+  ],
+  "gloss_ids": [
+    "102187",
+    "102552",
+    "101849",
+    "104550",
+    "101985"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_171048.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/102187.mp4",
+    "/media/sign_videos/102552.mp4",
+    "/media/sign_videos/101849.mp4",
+    "/media/sign_videos/104550.mp4",
+    "/media/sign_videos/101985.mp4"
+  ],
+  "gloss_labels": [
+    "일반",
+    "입",
+    "가능",
+    "교무실",
+    "문의"
+  ]
+}

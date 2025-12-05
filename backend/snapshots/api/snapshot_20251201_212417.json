@@ -1,0 +1,57 @@
+{
+  "ts": "20251201_212417",
+  "timestamp": "20251201_212417",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 7.02,
+  "text": "전기 예금은 말 그대로 목돈을 한 번에 예치해놓고 약정 기간 동안 안정적인 안녕하세요. 안녕하세요.",
+  "clean_text": "전기 예금은 목돈을 한 번에 예치하여 약정 기간 동안 안정적으로 운용하는 상품입니다.",
+  "latency_ms": {
+    "stt": 47111.5,
+    "nlp": 7286.2,
+    "mapping": 102.0,
+    "synth": 309.8,
+    "total": 54809.5
+  },
+  "gloss": [
+    "전기예금",
+    "목돈",
+    "한 번",
+    "예치",
+    "약정기간",
+    "안정",
+    "운용",
+    "상품"
+  ],
+  "gloss_ids": [
+    "101065",
+    "103504",
+    "102098",
+    "100793",
+    "100725",
+    "103074",
+    "100964",
+    "103392"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251201_212417.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101065.mp4",
+    "/media/sign_videos/103504.mp4",
+    "/media/sign_videos/102098.mp4",
+    "/media/sign_videos/100793.mp4",
+    "/media/sign_videos/100725.mp4",
+    "/media/sign_videos/103074.mp4",
+    "/media/sign_videos/100964.mp4",
+    "/media/sign_videos/103392.mp4"
+  ],
+  "gloss_labels": [
+    "정기예금",
+    "목",
+    "하나",
+    "예치금",
+    "약정",
+    "안심",
+    "자본운용",
+    "물건"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "ts": "20251130_182230",
+  "timestamp": "20251130_182230",
+  "session_id": "sess_1764489631147_tslkpc",
+  "mode": "설명",
+  "audio_sec": 7.08,
+  "text": "지금처럼 금리 변동이 많은 시기에는 고정 금리형 상품을 선호하시는 분들이 많아요.",
+  "clean_text": "금리 변동이 많은 시기에는 고정 금리형 상품을 선호하는 사람들이 많습니다.",
+  "latency_ms": {
+    "stt": 6652.6,
+    "nlp": 3655.0,
+    "mapping": 42.7,
+    "synth": 293.0,
+    "total": 10643.300000000001
+  },
+  "gloss": [
+    "금리",
+    "변동",
+    "시기",
+    "고정금리",
+    "상품",
+    "선호",
+    "사람"
+  ],
+  "gloss_ids": [
+    "101590",
+    "101664",
+    "104366",
+    "100120",
+    "103392",
+    "102324",
+    "103831"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251130_182229.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101590.mp4",
+    "/media/sign_videos/101664.mp4",
+    "/media/sign_videos/104366.mp4",
+    "/media/sign_videos/100120.mp4",
+    "/media/sign_videos/103392.mp4",
+    "/media/sign_videos/102324.mp4",
+    "/media/sign_videos/103831.mp4"
+  ],
+  "gloss_labels": [
+    "(값이)오르다",
+    "갈다",
+    "샘",
+    "공정금리",
+    "물건",
+    "집",
+    "분"
+  ]
+}

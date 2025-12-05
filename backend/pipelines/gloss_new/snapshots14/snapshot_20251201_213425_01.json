@@ -1,0 +1,98 @@
+{
+  "timestamp": "20251201_213425",
+  "stt": "이거는 1개월 6개월 12개월 등 다양하게 선택하실 수 있고 이자지급 방식도 만기일시지급을 복리단지 중에서 선택할 수 있어요.",
+  "tokens": [
+    {
+      "text": "기간",
+      "type": "gloss"
+    },
+    {
+      "text": "선택",
+      "type": "gloss"
+    },
+    {
+      "text": "다양하다",
+      "type": "gloss"
+    },
+    {
+      "text": "1개월",
+      "type": "image"
+    },
+    {
+      "text": "6개월",
+      "type": "image"
+    },
+    {
+      "text": "12개월",
+      "type": "image"
+    },
+    {
+      "text": "PAUSE",
+      "type": "pause"
+    },
+    {
+      "text": "이자",
+      "type": "gloss"
+    },
+    {
+      "text": "지급",
+      "type": "gloss"
+    },
+    {
+      "text": "방식",
+      "type": "gloss"
+    },
+    {
+      "text": "만기",
+      "type": "gloss"
+    },
+    {
+      "text": "일시",
+      "type": "gloss"
+    },
+    {
+      "text": "지급",
+      "type": "gloss"
+    },
+    {
+      "text": "복리",
+      "type": "gloss"
+    },
+    {
+      "text": "단리",
+      "type": "gloss"
+    },
+    {
+      "text": "중",
+      "type": "gloss"
+    },
+    {
+      "text": "선택",
+      "type": "gloss"
+    },
+    {
+      "text": "가능",
+      "type": "gloss"
+    }
+  ],
+  "play_queue": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103117.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101686.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101649.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpqolccm8n.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmp3bov_mbu.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmpugiamanf.mp4",
+    "C:\\Users\\Public\\Documents\\ESTsoft\\CreatorTemp\\tmp55khz5e4.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\100654.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103593.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\102330.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\100357.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103170.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\103593.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\100463.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\100280.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\102958.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101686.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_mp4\\101849.mp4"
+  ]
+}

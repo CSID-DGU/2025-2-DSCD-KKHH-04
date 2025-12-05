@@ -1,0 +1,38 @@
+{
+  "timestamp": "20251129_213952",
+  "session_id": "sess_1764419961245_mjkcxh",
+  "mode": "응답",
+  "audio_sec": 6.36,
+  "text": "가입두꺼는 만 18세부터 만 30세까지 청년입니다.",
+  "clean_text": "가입 대상은 만 18세부터 만 30세까지의 청년입니다.",
+  "latency_ms": {
+    "stt": 6304.6,
+    "nlp": 3112.8,
+    "mapping": 41.7,
+    "synth": 292.1,
+    "total": 9751.200000000003
+  },
+  "gloss": [
+    "가입",
+    "대상",
+    "18세",
+    "30세",
+    "청년"
+  ],
+  "gloss_ids": [
+    "103220",
+    "102805",
+    "104723"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_213952.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/102805.mp4",
+    "/media/sign_videos/104723.mp4"
+  ],
+  "gloss_labels": [
+    "가입",
+    "상",
+    "젊은이"
+  ]
+}

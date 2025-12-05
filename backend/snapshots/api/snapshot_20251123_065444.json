@@ -1,0 +1,55 @@
+{
+  "text": "고객님이 가입하신 정립심 예금은 중도해지시 약정 이유를 적용되지 않을 수 있습니다.",
+  "clean_text": "고객님이 가입하신 정립심 예금은 중도해지시 약정 이유를 적용되지 않을 수 있습니다.",
+  "latency_ms": {
+    "stt": 5857.2,
+    "nlp": 8190.7,
+    "mapping": 222.1,
+    "synth": 450.8,
+    "total": 14720.8
+  },
+  "gloss": [
+    "고객님이",
+    "가입하신",
+    "정립심",
+    "예금은",
+    "중도해지시",
+    "약정",
+    "이유를",
+    "적용되지",
+    "않을",
+    "수",
+    "있습니다"
+  ],
+  "gloss_ids": [
+    "101853",
+    "103220",
+    "100780",
+    "100725",
+    "102033",
+    "103748",
+    "104138",
+    "101508"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251123_065443.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/101853.mp4",
+    "/media/sign_videos/103220.mp4",
+    "/media/sign_videos/100780.mp4",
+    "/media/sign_videos/100725.mp4",
+    "/media/sign_videos/102033.mp4",
+    "/media/sign_videos/103748.mp4",
+    "/media/sign_videos/104138.mp4",
+    "/media/sign_videos/101508.mp4"
+  ],
+  "gloss_labels": [
+    "초대",
+    "가입",
+    "예금은행",
+    "약정",
+    "까닭",
+    "백지",
+    "수",
+    "-ㅂ니다"
+  ]
+}

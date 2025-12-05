@@ -1,0 +1,39 @@
+{
+  "ts": "20251202_182206",
+  "timestamp": "20251202_182206",
+  "session_id": "sess_1764499253688_iyzisj",
+  "mode": "설명",
+  "audio_sec": 3.3,
+  "text": "Greek Congize",
+  "clean_text": "그리스 콩지즈",
+  "latency_ms": {
+    "stt": 25851.6,
+    "nlp": 11465.9,
+    "mapping": 85.6,
+    "synth": 290.4
+  },
+  "latency_sec": {
+    "stt_sec": 25.85,
+    "nlp_sec": 11.47,
+    "mapping_sec": 0.09,
+    "synth_sec": 0.29,
+    "total_sec": 37.69
+  },
+  "gloss": [
+    "그리스",
+    "콩지즈"
+  ],
+  "gloss_ids": [
+    "102213",
+    "102873"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251202_182206.mp4",
+  "sign_video_list": [
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102213.mp4",
+    "C:\\Users\\user\\Desktop\\2025-2-DSCD-KKHH-04-git\\backend\\pipelines\\gloss_new\\data\\service\\102873.mp4"
+  ],
+  "gloss_labels": [
+    "그리스",
+    "콩"
+  ]
+}

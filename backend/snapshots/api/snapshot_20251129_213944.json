@@ -1,0 +1,41 @@
+{
+  "timestamp": "20251129_213944",
+  "session_id": "sess_1764419961245_mjkcxh",
+  "mode": "응답",
+  "audio_sec": 4.56,
+  "text": "1인당 1개자만 개설 가능합니다.",
+  "clean_text": "1인당 1개 계좌만 개설 가능합니다.",
+  "latency_ms": {
+    "stt": 4321.1,
+    "nlp": 3411.7,
+    "mapping": 125.4,
+    "synth": 553.5,
+    "total": 8411.7
+  },
+  "gloss": [
+    "1인당",
+    "1개",
+    "계좌",
+    "개설",
+    "가능"
+  ],
+  "gloss_ids": [
+    "103867",
+    "100089",
+    "100020",
+    "101849"
+  ],
+  "sentence_video_url": "/media/sign_sentences/sent_20251129_213944.mp4",
+  "sign_video_list": [
+    "/media/sign_videos/103867.mp4",
+    "/media/sign_videos/100089.mp4",
+    "/media/sign_videos/100020.mp4",
+    "/media/sign_videos/101849.mp4"
+  ],
+  "gloss_labels": [
+    "개",
+    "계좌",
+    "개설",
+    "가능"
+  ]
+}
