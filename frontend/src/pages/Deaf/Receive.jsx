@@ -593,11 +593,11 @@ function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
           </div>
         )}
 
-        {glossLabels.length > 0 && (
+        {/* {glossLabels.length > 0 && (
           <div className="absolute top-3 left-3 bg-black/70 text-white text-xs px-3 py-1 rounded-md">
             {glossLabels.join(" · ")}
           </div>
-        )}
+        )} */}
 
         {showOverlay && captionText && (
           <div

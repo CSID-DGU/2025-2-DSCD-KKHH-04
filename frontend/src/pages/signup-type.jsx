@@ -6,6 +6,7 @@ export default function SignUpTypePage() {
   const bannerSrc = `${import.meta.env.BASE_URL}signance-banner.jpg`;
 
   return (
+
     <div className="min-h-[calc(100vh-56px)] flex flex-col bg-gradient-to-b from-[#f5f9fc] to-[#eaf3fb]">
       {/* 상단 문구 */}
       <div className="text-center mt-14 mb-3">
@@ -13,7 +14,7 @@ export default function SignUpTypePage() {
           먼저 서비스에서 사용하실 회원 유형을 선택해 주세요.
         </p>
         <p className="text-3xl md:text-5xl font-extrabold text-[#1f3b63] leading-snug">
-          Signance 회원 유형 선택
+          회원 유형 선택
         </p>
       </div>
 
