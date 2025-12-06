@@ -488,7 +488,7 @@ function ChatPanel({
         </div>
       </div>
 
-      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4.space-y-3 h-[318px] overflow-y-auto">
+      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
         {orderedMessages.map((m, idx) => (
           <ChatBubble
             key={m.id ?? `${m.from}-${idx}`}
@@ -566,8 +566,11 @@ function ChatBubble({ role, text, mode, editable, onClick, onDelete }) {
           type="button"
           onClick={onClick}
           className={
-            "w-full text-left rounded-2xl px-4 py-3 bg-white border border-slate-200 " +
-            (editable ? "cursor-pointer hover:bg-slate-50" : "")
+            "w-full text-left rounded-2xl px-4 py-3 " +
+            (isAgent
+              ? "bg-white border border-slate-200"
+              : "bg-[#e9f2ff] border border-slate-200") +
+            (editable ? " cursor-pointer hover:bg-slate-50" : "")
           }
         >
           {label && (
@@ -601,22 +604,6 @@ function ChatBubble({ role, text, mode, editable, onClick, onDelete }) {
   );
 }
 
-function AvatarCommon() {
-  return (
-    <div className="w-9 h-9 rounded-full bg-slate-200 grid place-items-center overflow-hidden">
-      <svg
-        viewBox="0 0 24 24"
-        width="20"
-        height="20"
-        fill="currentColor"
-        className="text-slate-500"
-      >
-        <circle cx="12" cy="8" r="4" />
-        <path d="M3 21a9 9 0 0 1 18 0" />
-      </svg>
-    </div>
-  );
-}
 
 /* ---------------- 아이콘 & 토글 ---------------- */
 function BubbleIcon() {

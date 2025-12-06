@@ -296,20 +296,27 @@ function ChatBubble({ role, text }) {
     );
   }
 
+
   const isAgent = (role || "agent") === "agent";
   return (
     <div
       className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
     >
       {isAgent && <AvatarCommon />}
-      <div className="max-w-[80%] rounded-2xl px-4 py-3 bg-white border border-slate-200">
+      <div
+        className={
+          "max-w-[80%] rounded-2xl px-4 py-3 " +
+          (isAgent
+            ? "bg-white border border-slate-200"
+            : "bg-[#e9f2ff] border border-slate-200")
+        }
+      >
         <p className="text-base leading-relaxed text-slate-800">{text}</p>
       </div>
       {!isAgent && <AvatarCommon />}
     </div>
   );
 }
-
 function AvatarCommon() {
   return (
     <div className="w-9 h-9 rounded-full bg-slate-200 grid place-items-center overflow-hidden">
