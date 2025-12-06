@@ -18,6 +18,7 @@ from __future__ import annotations
 
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+from sign.intersection import gloss_tokens_to_korean
 
 import numpy as np
 
@@ -444,8 +445,13 @@ def infer_segments_from_seq(
 
         prev_top1 = final_top1
 
-    tokens = [s["token"] for s in seg_results]
-    sentence = " ".join(tokens)
+        tokens = [s["token"] for s in seg_results]
+
+    # 글로스만 공백으로 이어붙인 원문 (디버깅/로그용)
+    gloss_sentence = " ".join(tokens)
+
+    # ✅ 여기서 intersection.py의 로직 사용
+    korean_sentence = gloss_tokens_to_korean(tokens)
 
     return {
         "ok": True,
@@ -463,8 +469,10 @@ def infer_segments_from_seq(
         "motion_stats": motion_stats,
         "segments": seg_results,
         "tokens": tokens,
-        "gloss_sentence": sentence,
+        "gloss_sentence": gloss_sentence,   # 글로스 문장 (디버깅용)
+        "korean_sentence": korean_sentence, # ✅ 최종 한국어 문장
     }
+
 
 
 def infer_segments_from_npz(
