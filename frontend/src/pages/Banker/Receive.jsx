@@ -1,17 +1,16 @@
 // frontend_clean/src/pages/Banker/Receive.jsx
-// frontend_clean/src/pages/Banker/Receive.jsx
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import NavTabs from "../../components/NavTabs";
-import { useChatStore } from "../../store/chatstore"; // 🔹 전역 상담 대화
+import { useChatStore } from "../../store/chatstore"; // 전역 상담 대화
 
-// 🔹 세션 & API 기본 값 (BankerSend랑 맞춤)
+// 세션 & API 기본 값 (BankerSend랑 맞춤)
 const SESSION_KEY = "signanceSessionId";
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
-// 🔹 Receive는 기존 세션만 읽기 (새로 만들지 않음)
+// Receive는 기존 세션만 읽기 (새로 만들지 않음)
 function getExistingSessionId() {
   try {
     return localStorage.getItem(SESSION_KEY) || null;
@@ -41,8 +40,8 @@ function CustomerBar() {
   }, []);
 
   const name = customerInfo.name || "고객 성함 미입력";
-  const birth = customerInfo.birth || "--";     // "생년월일 미입력" 대신 "--" 사용하고 싶으면 이렇게
-  const phone = customerInfo.phone || "--";     // "연락처 미입력" 대신 "--"
+  const birth = customerInfo.birth || "--";
+  const phone = customerInfo.phone || "--";
 
   return (
     <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
@@ -64,53 +63,18 @@ function CustomerBar() {
 export default function BankerReceive() {
   const navigate = useNavigate();
 
-  // 🔹 전역 상담 대화
+  // 전역 상담 대화
   const { messages, setMessages } = useChatStore();
 
-  // 🔹 세션 ID: 이미 만들어진 것만 사용
+  // 세션 ID: 이미 만들어진 것만 사용
   const [sessionId] = useState(() => getExistingSessionId());
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, []);
 
-  // 🔹 메시지 연동: 백엔드에서 해당 session_id의 대화 불러오기
-  // useEffect(() => {
-  //   if (!sessionId) return;
-
-  //   const fetchMessages = async () => {
-  //     try {
-  //       const res = await fetch(
-  //         `${API_BASE}/api/accounts/chat/?session_id=${sessionId}`,
-  //         {
-  //           method: "GET",
-  //           credentials: "include", // 로그인 세션 쿠키 포함
-  //         }
-  //       );
-
-  //       if (!res.ok) {
-  //         console.error("대화 조회 실패(receive):", await res.text());
-  //         return;
-  //       }
-
-  //       const data = await res.json(); // 예: [{id, session_id, sender, role, text, created_at}, ...]
-  //       // 🔹 전역 store 형식에 맞게 매핑
-  //       const mapped = data.map((chat) => ({
-  //         id: chat.id,
-  //         from: chat.sender === "banker" ? "agent" : "user",
-  //         text: chat.text,
-  //         role: chat.role,
-  //         created_at: chat.created_at,
-  //       }));
-  //       setMessages(mapped);
-  //     } catch (err) {
-  //       console.error("대화 조회 에러(receive):", err);
-  //     }
-  //   };
-
-  //   fetchMessages();
-  // }, [sessionId, setMessages]);
-
+  // 필요하면 나중에 이쪽도 백엔드에서 /chat?session_id=... 폴링해서 맞출 수 있음
+  // 지금은 단순히 전역 store에 추가만 하는 send 핸들러
   const handleSend = (text) => {
     const trimmed = text.trim();
     if (!trimmed) return;
@@ -135,7 +99,7 @@ export default function BankerReceive() {
           }}
         />
 
-        {/* 🔹 고객 정보 바 */}
+        {/* 고객 정보 바 */}
         <CustomerBar />
 
         <ChatPanel messages={messages} onSend={handleSend} />
@@ -146,7 +110,6 @@ export default function BankerReceive() {
 }
 
 /* ---------------- 상담 대화창 ---------------- */
-function ChatPanel({ messages, onSend }) {
 function ChatPanel({ messages, onSend }) {
   const [input, setInput] = useState("");
   const bottomRef = useRef(null);
@@ -159,7 +122,6 @@ function ChatPanel({ messages, onSend }) {
     const txt = input.trim();
     if (!txt) return;
     onSend?.(txt);
-    onSend?.(txt);
     setInput("");
   };
 
@@ -170,11 +132,13 @@ function ChatPanel({ messages, onSend }) {
         <span>상담 대화창</span>
       </div>
 
-      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
-      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
+      <div className="mt-3 flex-1 overflow-y-auto space-y-2 pr-2">
         {messages.map((m, i) => (
-          <ChatBubble key={m.id ?? i} role={m.from || m.role} text={m.text} />
-          <ChatBubble key={m.id ?? i} role={m.from || m.role} text={m.text} />
+          <ChatBubble
+            key={m.id ?? i}
+            role={m.from || m.role}
+            text={m.text}
+          />
         ))}
         <div ref={bottomRef} />
       </div>
@@ -226,7 +190,6 @@ function ChatBubble({ role, text }) {
   const isAgent = (role || "agent") === "agent";
   return (
     <div
-      className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
       className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
     >
       {isAgent && <AvatarCommon />}
