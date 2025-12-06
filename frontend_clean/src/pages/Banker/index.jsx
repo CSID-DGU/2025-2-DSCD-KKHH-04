@@ -58,7 +58,7 @@ export default function BankerIndex() {
             </button>
 
             {/* 안내 문구 */}
-            <p className="text-2xl font-bold text-center mb-6 text-[#1f3b63] leading-relaxed">
+            <p className="text-2xl font-bold text-center mt-2 mb-12 text-[#1f3b63] leading-relaxed">
               신분증을 확인 후 고객 정보를 입력해주세요
             </p>
 
@@ -164,7 +164,7 @@ export default function BankerIndex() {
             {/* 저장 버튼 */}
             <button
               onClick={saveCustomerInfo}
-              className="w-full bg-[#2b5486] text-white py-4 rounded-2xl mt-6 text-lg font-semibold hover:bg-[#24436e]"
+              className="w-full bg-[#2b5486] text-white py-4 rounded-2xl mt-12 mb-12text-lg font-semibold hover:bg-[#24436e]"
             >
               입력 완료
             </button>

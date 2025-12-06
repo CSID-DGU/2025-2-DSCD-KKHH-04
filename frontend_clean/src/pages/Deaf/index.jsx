@@ -1,9 +1,13 @@
 // frontend_clean/src/pages/Deaf/index.jsx
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Send, MessageSquare } from "lucide-react";
 
-const SESSION_KEY = "signanceSessionId";
+import helloVideo from "../../components/1.mp4";
+import idVideo from "../../components/2.mp4";
+
+const SESSION_KEY = "signanceSessionId"; // (안 쓰면 나중에 지워도 됨)
+const videoList = [helloVideo, idVideo];
 
 export default function DeafIndex() {
   const nav = useNavigate();
@@ -13,6 +17,40 @@ export default function DeafIndex() {
 
   // 페이지 들어오자마자 팝업 보이게
   const [showPopup, setShowPopup] = useState(true);
+
+  // 팝업 열릴 때 수어 영상 2개 연달아 재생
+  useEffect(() => {
+    if (!showPopup) return; // 팝업 닫히면 재생 안 함
+
+    const videoElement = document.getElementById("signVideo");
+    if (!videoElement) return;
+
+    let index = 0;
+
+    const playNext = () => {
+      if (index >= videoList.length) return;
+      videoElement.src = videoList[index];
+      videoElement
+        .play()
+        .catch((e) => {
+          console.warn("video play error", e);
+        });
+      index++;
+    };
+
+    // 첫 영상 재생
+    playNext();
+
+    // 끝날 때마다 다음 영상
+    videoElement.onended = () => {
+      playNext();
+    };
+
+    // cleanup
+    return () => {
+      videoElement.onended = null;
+    };
+  }, [showPopup]);
 
   // 메인 패널 스타일
   const panel =
@@ -34,14 +72,19 @@ export default function DeafIndex() {
               ✕
             </button>
 
-            {/* 수어 영상 자리 (비워둔 상태) */}
+            {/* 수어 영상 자리 */}
             <div className="w-full h-80 bg-gray-200 rounded-xl flex items-center justify-center mb-6">
-              <span className="text-gray-500">[수어 영상 자리]</span>
+              <video
+                id="signVideo"
+                className="w-full h-full object-contain rounded-xl"
+                autoPlay
+                muted
+                playsInline
+              />
             </div>
 
             {/* 안내 문구 */}
             <p className="text-xl font-semibold text-center text-[#1f3b63] leading-relaxed">
-
               안녕하세요 고객님
               <br />
               확인을 위해 신분증을 주세요

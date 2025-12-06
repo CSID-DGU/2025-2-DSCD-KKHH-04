@@ -1,7 +1,7 @@
 // frontend_clean/src/pages/Deaf/Receive.jsx
 import React, { useEffect, useRef, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import NavTabs from "../../components/NavTabs";
+// import NavTabs from "../../components/NavTabs";
 import { useChatStore } from "../../store/chatstore";
 
 // 기본 영상/자막은 없음 (현재는 미사용이지만 그대로 둠)
@@ -412,8 +412,10 @@ const handleVideoEnded = () => {
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs rightSlot={<SendReceiveToggle active="receive" />} />
-
+        {/* <NavTabs rightSlot={<SendReceiveToggle active="receive" />} /> */}
+        <div className="flex items-center justify-end">
+          <SendReceiveToggle active="receive" />
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
           <VideoPanel
             item={currentItem}

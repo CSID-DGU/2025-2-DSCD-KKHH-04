@@ -1,7 +1,7 @@
 // frontend_clean/src/pages/Deaf/Send.jsx
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import NavTabs from "../../components/NavTabs"; // 공통 NavTabs
+// import NavTabs from "../../components/NavTabs"; // ← 사용 안 함
 import { useChatStore } from "../../store/chatstore";
 
 // Receive와 동일한 카드 높이
@@ -25,7 +25,10 @@ export default function DeafSend() {
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs rightSlot={<SendReceiveToggle active="send" />} />
+        {/* 상단: 오른쪽에 송신/수신 토글만 */}
+        <div className="flex items-center justify-end">
+          <SendReceiveToggle active="send" />
+        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
           <VideoPanel />
@@ -221,7 +224,7 @@ function ChatPanel() {
   // BankerSend에서 만든 session_id
   const [sessionId, setSessionId] = useState(() => getExistingSessionId());
 
-  // 🔹 DeafSend 화면에 "들어온 시점" 이후 채팅만 보이기 위한 기준 시간
+  // DeafSend 화면에 "들어온 시점" 이후 채팅만 보이기 위한 기준 시간
   const [resetAfter] = useState(() => Date.now());
 
   // 다른 탭에서 SESSION_KEY 바뀌면 따라가기
@@ -235,7 +238,7 @@ function ChatPanel() {
     return () => window.removeEventListener("storage", onStorage);
   }, []);
 
-  // 🔹 백엔드 채팅 폴링: DeafReceive와 동일하지만 resetAfter로 필터링
+  // 백엔드 채팅 폴링
   useEffect(() => {
     let stopped = false;
 
@@ -255,10 +258,9 @@ function ChatPanel() {
           return;
         }
 
-        const data = await res.json(); // [{ id, session_id, sender, role, text, created_at }, ...]
+        const data = await res.json();
         if (!Array.isArray(data) || stopped) return;
 
-        // ⬇ DeafSend에 들어온 "이후" 메시지만 남기기
         let filtered = data;
         if (resetAfter) {
           const cutoff =
@@ -298,7 +300,6 @@ function ChatPanel() {
     };
   }, [sessionId, setMessages, resetAfter]);
 
-  // 표시용 매핑
   const mappedMessages = React.useMemo(
     () =>
       (messages || []).map((m) => ({
@@ -308,14 +309,12 @@ function ChatPanel() {
     [messages]
   );
 
-  // 스크롤 항상 맨 아래로
   useEffect(() => {
     if (listRef.current) {
       listRef.current.scrollTop = listRef.current.scrollHeight;
     }
   }, [mappedMessages]);
 
-  // DeafSend에서 농인이 텍스트 보내기 → 백엔드 POST
   const send = async () => {
     const text = input.trim();
     if (!text) return;
@@ -333,8 +332,8 @@ function ChatPanel() {
         credentials: "include",
         body: JSON.stringify({
           session_id: curSession,
-          sender: "deaf", // 서버에서 user 쪽으로 매핑
-          role: "",       // 필요하면 질문/응답으로 확장
+          sender: "deaf",
+          role: "",
           text,
         }),
       });
@@ -343,7 +342,6 @@ function ChatPanel() {
         console.error("DeafSend chat POST 실패:", await res.text());
       }
 
-      // 실제 반영은 위 폴링으로 다시 가져오게 두고
       setInput("");
     } catch (err) {
       console.error("DeafSend chat POST error:", err);
@@ -388,6 +386,45 @@ function ChatPanel() {
 function ASRPanel() {
   const [mode, setMode] = useState("응답");
   const [text, setText] = useState("");
+
+  // 🔹 번역 오류 → rules.json에 규칙 추가
+  const handleReportError = async () => {
+    // 1) 잘못 인식된 표현(wrong) / 올바른 표현(correct) 입력 받기
+    //   - 지금은 간단히 prompt로, 나중에 전용 모달 만들어도 됨
+    const wrong = window.prompt(
+      "잘못 인식된 원문(교정하고 싶은 구간)을 입력하세요.",
+      text || ""
+    );
+    if (!wrong) return;
+
+    const correct = window.prompt(
+      "올바른 표현(정답)을 입력하세요.",
+      wrong
+    );
+    if (!correct) return;
+
+    try {
+      const res = await fetch(`${API_BASE}/api/accounts/add_rule/`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        // 필요하면 credentials: "include" 추가
+        body: JSON.stringify({ wrong, correct }),
+      });
+
+      const data = await res.json();
+      console.log("[add_rule] result:", data);
+
+      if (!res.ok || !data.ok) {
+        alert("규칙 추가 실패: " + (data.error || "알 수 없는 오류"));
+        return;
+      }
+
+      alert(`규칙이 저장되었습니다.\n"${wrong}" → "${correct}"`);
+    } catch (e) {
+      console.error("add_rule 호출 실패:", e);
+      alert("서버 연결 오류로 규칙을 저장하지 못했습니다.");
+    }
+  };
 
   return (
     <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
@@ -446,7 +483,11 @@ function ASRPanel() {
           <button className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap">
             응답 전송
           </button>
-          <button className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap">
+          <button
+            type="button"
+            onClick={handleReportError}   // 🔹 여기 연결
+            className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap"
+          >
             번역 오류
           </button>
         </div>
@@ -454,6 +495,7 @@ function ASRPanel() {
     </section>
   );
 }
+
 
 /* ---------------- 활성 상태 진행 바 ---------------- */
 function StageDots() {

@@ -831,26 +831,26 @@ export default function ASRPanel({ onPushToChat }) {
                 {/* 왼쪽: 질의/설명 토글 */}
                 <div className="flex gap-2 flex-shrink-0">
                   <button
-                    onClick={() => setMode("질의")}
+                    onClick={() => setMode("질문")}
                     className={
                       "px-3 h-8 rounded-lg text-sm border " +
-                      (mode === "질의"
+                      (mode === "질문"
                         ? "bg-slate-900 text-white border-slate-900"
                         : "bg-white text-slate-700 border-slate-300")
                     }
                   >
-                    질의
+                    질문
                   </button>
                   <button
-                    onClick={() => setMode("설명")}
+                    onClick={() => setMode("응답")}
                     className={
                       "px-3 h-8 rounded-lg text-sm border " +
-                      (mode === "설명"
+                      (mode === "응답"
                         ? "bg-slate-900 text-white border-slate-900"
                         : "bg-white text-slate-700 border-slate-300")
                     }
                   >
-                    설명
+                    응답
                   </button>
                 </div>
 
