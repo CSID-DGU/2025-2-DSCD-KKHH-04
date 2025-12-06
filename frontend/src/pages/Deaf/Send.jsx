@@ -1,7 +1,7 @@
 // src/pages/Deaf/Send.jsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import NavTabs from "../../components/NavTabs";
+// import NavTabs from "../../components/NavTabs";
 import { useChatStore } from "../../store/chatstore";
 
 import { useHands } from "../../hooks/useHands";
@@ -116,31 +116,34 @@ export default function DeafSend() {
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        {/* 상단 탭 (기존 디자인 유지) */}
-        <NavTabs rightSlot={<SendReceiveToggle active="send" />} />
+  {/* 상단: 송신/수신 토글만 표시 */}
+  <div className="w-full flex justify-end mb-2">
+    <SendReceiveToggle active="send" />
+  </div>
 
-        {/* 상단 2열: 수어 카메라 + 상담 대화창 */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
-          <VideoPanel
-            start={start}
-            stop={stop}
-            status={status}
-            onFlush={flushSeq}
-            onStarted={() => setRecognizing(true)}
-            onStopped={() => setRecognizing(false)}
-          />
-          <ChatPanel />
-        </div>
+  {/* 상단 2열: 수어 카메라 + 상담 대화창 */}
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
+    <VideoPanel
+      start={start}
+      stop={stop}
+      status={status}
+      onFlush={flushSeq}
+      onStarted={() => setRecognizing(true)}
+      onStopped={() => setRecognizing(false)}
+    />
+    <ChatPanel />
+  </div>
 
-        {/* 하단 수어 인식 결과 패널 */}
-        <div className="mt-4">
-          <ASRPanel 
-          respText={prediction} 
-          isActive={recognizing} 
-          onSend={sendDeafChat}
-          />
-        </div>
-      </main>
+  {/* 하단 수어 인식 결과 패널 */}
+  <div className="mt-4">
+    <ASRPanel
+      respText={prediction}
+      isActive={recognizing}
+      onSend={sendDeafChat}
+    />
+  </div>
+</main>
+
     </div>
   );
 }
