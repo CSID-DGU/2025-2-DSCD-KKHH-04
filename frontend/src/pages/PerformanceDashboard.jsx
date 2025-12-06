@@ -324,8 +324,7 @@ export default function PerformanceDashboard() {
               파이프라인 성능 대시보드
             </h1>
             <p className="text-sm text-slate-500 mt-1">
-              Banker 화면에서 전송한 음성의 STT / NLP / 매핑 / 합성 지연시간
-              기록
+              Banker 화면에서 전송한 음성의 STT / NLP / 매핑 / 합성 지연시간 기록
             </p>
           </div>
 
@@ -369,6 +368,15 @@ export default function PerformanceDashboard() {
 
             <div className="flex items-center gap-2">
               <button
+                type="button"
+                onClick={() => exportLatencyCsv(logs)}
+                className="px-3 h-8 rounded-lg border border-slate-300 text-xs text-slate-600 bg-white hover:bg-slate-50"
+              >
+                로그 CSV로 내보내기
+              </button>
+
+              <button
+                type="button"
                 onClick={() => {
                   if (!window.confirm("정말 모든 로그를 초기화할까요?")) return;
                   setLogs([]);
@@ -393,25 +401,13 @@ export default function PerformanceDashboard() {
                     <th className="px-3 py-2 w-[420px]">문장</th>
                     <th className="px-3 py-2 w-[90px] text-right">STT(s)</th>
                     <th className="px-3 py-2 w-[90px] text-right">NLP(s)</th>
-                    <th className="px-3 py-2 w-[90px] text-right">
-                      매핑(s)
-                    </th>
-                    <th className="px-3 py-2 w-[90px] text-right">
-                      합성(s)
-                    </th>
-                    <th className="px-3 py-2 w-[90px] text-right">
-                      발화(s)
-                    </th>
-                    <th className="px-3 py-2 w-[90px] text-right">
-                      영상(s)
-                    </th>
-                    <th className="px-3 py-2 w-[90px] text-right">
-                      총합(s)
-                    </th>
+                    <th className="px-3 py-2 w-[90px] text-right">매핑(s)</th>
+                    <th className="px-3 py-2 w-[90px] text-right">합성(s)</th>
+                    <th className="px-3 py-2 w-[90px] text-right">발화(s)</th>
+                    <th className="px-3 py-2 w-[90px] text-right">영상(s)</th>
+                    <th className="px-3 py-2 w-[90px] text-right">총합(s)</th>
                     <th className="px-3 py-2 w-[90px] text-right">CER</th>
-                    <th className="px-3 py-2 w-[70px] text-center">
-                      구분선
-                    </th>
+                    <th className="px-3 py-2 w-[70px] text-center">구분선</th>
                     <th className="px-3 py-2 w-[30px]" />
                   </tr>
                 </thead>
@@ -468,9 +464,7 @@ export default function PerformanceDashboard() {
                         )}
 
                         <tr
-                          className={
-                            i % 2 ? "bg-slate-50/80" : "bg-white"
-                          }
+                          className={i % 2 ? "bg-slate-50/80" : "bg-white"}
                         >
                           {/* # 칸: 1-1, 1-2 형식 */}
                           <td className="px-3 py-1.5 w-[70px] text-center">
@@ -725,4 +719,69 @@ function DetailMetric({ label, value }) {
       <span className="text-sm text-slate-900">{value}</span>
     </div>
   );
+}
+
+function exportLatencyCsv(logs) {
+  try {
+    const realLogs = (logs || []).filter((l) => !l._isDividerOnly);
+
+    const header = [
+      "idx",
+      "ts",
+      "sentence",
+      "audio_sec",
+      "video_sec",
+      "stt_sec",
+      "nlp_sec",
+      "mapping_sec",
+      "synth_sec",
+      "total_sec",
+    ];
+
+    const rows = realLogs.map((row, i) => {
+      // 발화/영상 길이(ms → sec) 보정
+      let audioSec = null;
+      if (typeof row.utter_ms === "number") {
+        audioSec = row.utter_ms / 1000;
+      } else if (typeof row.audio_sec === "number") {
+        audioSec = row.audio_sec;
+      }
+
+      let videoSec = null;
+      if (typeof row.video_ms === "number") {
+        videoSec = row.video_ms / 1000;
+      } else if (typeof row.video_sec === "number") {
+        videoSec = row.video_sec;
+      }
+
+      return [
+        i + 1,
+        row.ts || row.timestamp || row.time || "",
+        row.sentence || "",
+        audioSec ?? "",
+        videoSec ?? "",
+        row.stt != null ? (row.stt / 1000).toFixed(3) : "",
+        row.nlp != null ? (row.nlp / 1000).toFixed(3) : "",
+        row.mapping != null ? (row.mapping / 1000).toFixed(3) : "",
+        row.synth != null ? (row.synth / 1000).toFixed(3) : "",
+        row.total != null ? (row.total / 1000).toFixed(3) : "",
+      ];
+    });
+
+    const csv = [
+      header.join(","),
+      ...rows.map((r) => r.join(",")),
+    ].join("\n");
+
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "signance_latency_logs.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+  } catch (e) {
+    console.error(e);
+    alert("로그 내보내기 중 오류가 발생했습니다.");
+  }
 }

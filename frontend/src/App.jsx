@@ -30,7 +30,6 @@ import DeafReceive2 from "./pages/Deaf/Receive2";
 
 // 성능 대시보드
 import PerformanceDashboard from "./pages/performancedashboard";
-
 export default function App() {
   return (
     <Routes>

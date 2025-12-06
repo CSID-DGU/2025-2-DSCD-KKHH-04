@@ -3,14 +3,14 @@ import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import NavTabs from "../../components/NavTabs";
-import { useChatStore } from "../../store/chatstore"; // 🔹 전역 상담 대화
+import { useChatStore } from "../../store/chatstore"; // 전역 상담 대화
 
-// 🔹 세션 & API 기본 값 (BankerSend랑 맞춤)
+// 세션 & API 기본 값 (BankerSend랑 맞춤)
 const SESSION_KEY = "signanceSessionId";
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 
-// 🔹 Receive는 기존 세션만 읽기 (새로 만들지 않음)
+// Receive는 기존 세션만 읽기 (새로 만들지 않음)
 function getExistingSessionId() {
   try {
     return localStorage.getItem(SESSION_KEY) || null;
@@ -19,60 +19,62 @@ function getExistingSessionId() {
   }
 }
 
+/* ---------------- 고객 정보 바 ---------------- */
+function CustomerBar() {
+  const [customerInfo, setCustomerInfo] = useState({
+    name: "",
+    birth: "",
+    phone: "",
+  });
+
+  // 컴포넌트가 화면에 처음 나올 때 localStorage에서 읽어오기
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem("customerInfo");
+      if (raw) {
+        setCustomerInfo(JSON.parse(raw));
+      }
+    } catch (e) {
+      console.error("customerInfo 파싱 에러:", e);
+    }
+  }, []);
+
+  const name = customerInfo.name || "고객 성함 미입력";
+  const birth = customerInfo.birth || "--";
+  const phone = customerInfo.phone || "--";
+
+  return (
+    <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
+      <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
+        <UserIcon className="h-5 w-5 text-slate-700" />
+        <span>고객 정보</span>
+      </div>
+      <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
+        고객 이름 : {name}
+        <span className="mx-2 text-slate-400">|</span>
+        생년월일 : {birth}
+        <span className="mx-2 text-slate-400">|</span>
+        전화번호 : {phone}
+      </div>
+    </section>
+  );
+}
+
 export default function BankerReceive() {
   const navigate = useNavigate();
 
-  // 🔹 전역 상담 대화
+  // 전역 상담 대화
   const { messages, setMessages } = useChatStore();
 
-  // 🔹 세션 ID: 이미 만들어진 것만 사용
+  // 세션 ID: 이미 만들어진 것만 사용
   const [sessionId] = useState(() => getExistingSessionId());
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, []);
 
-  // 🔹 메시지 연동: 백엔드에서 해당 session_id의 대화 불러오기
-  // useEffect(() => {
-  //   if (!sessionId) return;
-
-  //   const fetchMessages = async () => {
-  //     try {
-  //       const res = await fetch(
-  //         `${API_BASE}/api/accounts/chat/?session_id=${sessionId}`,
-  //         {
-  //           method: "GET",
-  //           credentials: "include", // 로그인 세션 쿠키 포함
-  //         }
-  //       );
-
-  //       if (!res.ok) {
-  //         console.error("대화 조회 실패(receive):", await res.text());
-  //         return;
-  //       }
-
-  //       const data = await res.json(); // 예: [{id, session_id, sender, role, text, created_at}, ...]
-  //       // 🔹 전역 store 형식에 맞게 매핑
-  //       const mapped = data.map((chat) => ({
-  //         id: chat.id,
-  //         from: chat.sender === "banker" ? "agent" : "user",
-  //         text: chat.text,
-  //         role: chat.role,
-  //         created_at: chat.created_at,
-  //       }));
-  //       setMessages(mapped);
-  //     } catch (err) {
-  //       console.error("대화 조회 에러(receive):", err);
-  //     }
-  //   };
-
-  //   fetchMessages();
-  // }, [sessionId, setMessages]);
-
-  // 🔹 은행원 쪽에서 새 메시지 보낼 때 (전역 store만 업데이트)
-  //    → 실제 백엔드 저장은 BankerSend에서 하고 있으니까,
-  //       여기서는 단순히 화면상 추가만 해도 되고,
-  //       필요하면 나중에 POST 로직도 붙일 수 있음.
+  // 필요하면 나중에 이쪽도 백엔드에서 /chat?session_id=... 폴링해서 맞출 수 있음
+  // 지금은 단순히 전역 store에 추가만 하는 send 핸들러
   const handleSend = (text) => {
     const trimmed = text.trim();
     if (!trimmed) return;
@@ -97,30 +99,13 @@ export default function BankerReceive() {
           }}
         />
 
-        {/* 🔹 고객 정보 바: 정적 텍스트로 표시 */}
+        {/* 고객 정보 바 */}
         <CustomerBar />
 
         <ChatPanel messages={messages} onSend={handleSend} />
         <ASRPanel />
       </main>
     </div>
-  );
-}
-
-/* ---------------- 고객 정보 바 ---------------- */
-function CustomerBar() {
-  return (
-    <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
-      <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
-        <UserIcon className="h-5 w-5 text-slate-700" />
-        <span>고객 정보</span>
-      </div>
-      <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
-        김희희
-        <span className="mx-2 text-slate-400">|</span>
-        XX은행 1002-123-4567
-      </div>
-    </section>
   );
 }
 
@@ -147,9 +132,13 @@ function ChatPanel({ messages, onSend }) {
         <span>상담 대화창</span>
       </div>
 
-      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
+      <div className="mt-3 flex-1 overflow-y-auto space-y-2 pr-2">
         {messages.map((m, i) => (
-          <ChatBubble key={m.id ?? i} role={m.from || m.role} text={m.text} />
+          <ChatBubble
+            key={m.id ?? i}
+            role={m.from || m.role}
+            text={m.text}
+          />
         ))}
         <div ref={bottomRef} />
       </div>
@@ -175,7 +164,6 @@ function ChatPanel({ messages, onSend }) {
 
 /* ---------------- 말풍선 ---------------- */
 function ChatBubble({ role, text }) {
-  // system 메시지: 가운데 정렬 안내문
   if (role === "system") {
     return (
       <div className="w-full flex justify-center my-4">
@@ -199,7 +187,6 @@ function ChatBubble({ role, text }) {
     );
   }
 
-  // 일반 메시지
   const isAgent = (role || "agent") === "agent";
   return (
     <div
@@ -238,7 +225,6 @@ function ASRPanel() {
   const [mode, setMode] = useState("응답");
   const [text, setText] = useState("");
 
-  // 진행바 애니메이션
   useEffect(() => {
     const id = setInterval(() => setStage((s) => (s + 1) % 4), 1600);
     return () => clearInterval(id);
@@ -251,7 +237,6 @@ function ASRPanel() {
   return (
     <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
       <div className="flex items-center gap-4">
-        {/* 왼쪽: 동그라미 버튼 (수어 아이콘) */}
         <div className="shrink-0 w-20 h-20 rounded-full border-2 border-slate-300 grid place-items-center">
           <button
             type="button"
@@ -273,7 +258,6 @@ function ASRPanel() {
           </button>
         </div>
 
-        {/* 가운데: 제목 / 진행바 / 입력창 */}
         <div className="flex-1">
           <div className="font-semibold text-base text-slate-800">
             {isRec ? "녹음 중..." : "수어 인식 중..."}
@@ -319,7 +303,6 @@ function ASRPanel() {
           </div>
         </div>
 
-        {/* 오른쪽: 버튼 두 개 세로 */}
         <div className="flex flex-col gap-2">
           <button className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap">
             응답 전송
@@ -425,7 +408,6 @@ function SendReceiveToggle({ active }) {
 
   return (
     <div className="inline-flex items-center rounded-full bg-slate-200 p-1 shadow-sm">
-      {/* 송신 */}
       <button
         type="button"
         onClick={() => {
@@ -441,7 +423,6 @@ function SendReceiveToggle({ active }) {
         송신
       </button>
 
-      {/* 수신 */}
       <button
         type="button"
         onClick={() => {

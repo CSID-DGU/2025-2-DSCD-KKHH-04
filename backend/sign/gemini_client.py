@@ -3,12 +3,13 @@ import os
 from google import genai
 
 # 🔹 API 키 읽기 (환경변수)
-API_KEY = os.environ.get("GEMINI_API_KEY")
+API_KEY = os.environ.get("GOOGLE_API_KEY")
 if not API_KEY:
-    raise RuntimeError("환경변수 GEMINI_API_KEY가 없습니다. 서버 환경변수를 확인하세요.")
+    raise RuntimeError("환경변수 GOOGLE_API_KEY가 없습니다. 서버 환경변수를 확인하세요.")
+
+client = genai.Client(api_key=API_KEY)
 
 # 🔹 GenAI 클라이언트
-client = genai.Client(api_key=API_KEY)
 DEFAULT_MODEL = "gemini-2.5-flash"
 
 # 🔹 팀원이 만든 SYSTEM PROMPT만 그대로 사용
