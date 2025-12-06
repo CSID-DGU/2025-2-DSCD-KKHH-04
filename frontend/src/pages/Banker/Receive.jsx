@@ -147,7 +147,6 @@ export default function BankerReceive() {
 
 /* ---------------- 상담 대화창 ---------------- */
 function ChatPanel({ messages, onSend }) {
-function ChatPanel({ messages, onSend }) {
   const [input, setInput] = useState("");
   const bottomRef = useRef(null);
 
@@ -157,8 +156,7 @@ function ChatPanel({ messages, onSend }) {
 
   const send = () => {
     const txt = input.trim();
-    if (!txt) return;
-    onSend?.(txt);
+    if (!txt) return;    
     onSend?.(txt);
     setInput("");
   };
@@ -171,9 +169,7 @@ function ChatPanel({ messages, onSend }) {
       </div>
 
       <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
-      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
         {messages.map((m, i) => (
-          <ChatBubble key={m.id ?? i} role={m.from || m.role} text={m.text} />
           <ChatBubble key={m.id ?? i} role={m.from || m.role} text={m.text} />
         ))}
         <div ref={bottomRef} />
@@ -226,7 +222,6 @@ function ChatBubble({ role, text }) {
   const isAgent = (role || "agent") === "agent";
   return (
     <div
-      className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
       className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
     >
       {isAgent && <AvatarCommon />}
