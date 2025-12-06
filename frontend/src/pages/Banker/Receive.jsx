@@ -19,6 +19,38 @@ function getExistingSessionId() {
   }
 }
 
+/* 🔹 공통: 은행원(banker) 채팅 전송 함수 */
+async function sendBankerChat(text, mode = "") {
+  const trimmed = (text || "").trim();
+  if (!trimmed) return;
+
+  const sessionId = getExistingSessionId();
+  if (!sessionId) {
+    alert("상담 세션이 없습니다. 상담을 먼저 시작해 주세요.");
+    return;
+  }
+
+  try {
+    const res = await fetch(`${API_BASE}/api/accounts/chat/`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "include",
+      body: JSON.stringify({
+        session_id: sessionId,
+        sender: "banker",
+        role: mode === "질문" || mode === "응답" ? mode : "",
+        text: trimmed,
+      }),
+    });
+
+    if (!res.ok) {
+      console.error("sendBankerChat POST 실패:", await res.text());
+    }
+  } catch (err) {
+    console.error("sendBankerChat POST error:", err);
+  }
+}
+
 /* ---------------- 고객 정보 바 ---------------- */
 function CustomerBar() {
   const [customerInfo, setCustomerInfo] = useState({
@@ -67,25 +99,101 @@ export default function BankerReceive() {
   const { messages, setMessages } = useChatStore();
 
   // 세션 ID: 이미 만들어진 것만 사용
-  const [sessionId] = useState(() => getExistingSessionId());
+  const [sessionId, setSessionId] = useState(() => getExistingSessionId());
 
+  // 이 화면에 "들어온 시점" 기록 (이후 메시지만 보기 위함)
+  const [resetAfter] = useState(() => Date.now());
+
+  // 화면 들어올 때 기존 messages 초기화
+  useEffect(() => {
+    setMessages([]);
+  }, [setMessages]);
+
+  // BankerReceive 들어올 때 화면 맨 위로
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, []);
 
-  // 필요하면 나중에 이쪽도 백엔드에서 /chat?session_id=... 폴링해서 맞출 수 있음
-  // 지금은 단순히 전역 store에 추가만 하는 send 핸들러
-  const handleSend = (text) => {
+  // 다른 탭에서 SESSION_KEY 바뀌면 sessionId 갱신
+  useEffect(() => {
+    const onStorage = (e) => {
+      if (e.key === SESSION_KEY) {
+        setSessionId(e.newValue || null);
+      }
+    };
+    window.addEventListener("storage", onStorage);
+    return () => window.removeEventListener("storage", onStorage);
+  }, []);
+
+  // 🔹 백엔드 /chat 폴링: DeafSend, DeafReceive와 동일 구조 + resetAfter 필터
+  useEffect(() => {
+    let stopped = false;
+
+    const fetchAllMessages = async () => {
+      if (!sessionId) {
+        setMessages([]);
+        return;
+      }
+
+      try {
+        const url = new URL(`${API_BASE}/api/accounts/chat/`);
+        url.searchParams.set("session_id", sessionId);
+
+        const res = await fetch(url.toString());
+        if (!res.ok) {
+          console.error("BankerReceive chat fetch 실패:", await res.text());
+          return;
+        }
+
+        const data = await res.json(); // [{ id, session_id, sender, role, text, created_at }, ...]
+        if (!Array.isArray(data) || stopped) return;
+
+        // 새로고침/진입 시점 이후 메시지만 보기
+        let filtered = data;
+        if (resetAfter) {
+          const cutoff =
+            typeof resetAfter === "number"
+              ? resetAfter
+              : new Date(resetAfter).getTime();
+
+          filtered = data.filter((m) => {
+            if (!m.created_at) return false;
+            const t = new Date(m.created_at).getTime();
+            return !isNaN(t) && t >= cutoff;
+          });
+        }
+
+        const mapped = filtered.map((m) => ({
+          id: m.id,
+          backendId: m.id,
+          from: m.sender === "banker" ? "agent" : "user",
+          role: m.sender === "banker" ? "agent" : "user",
+          text: m.text,
+          mode: m.role,
+          created_at: m.created_at,
+        }));
+
+        setMessages(mapped);
+      } catch (err) {
+        console.error("BankerReceive chat fetch error:", err);
+      }
+    };
+
+    fetchAllMessages();
+    const timer = window.setInterval(fetchAllMessages, 2000);
+
+    return () => {
+      stopped = true;
+      window.clearInterval(timer);
+    };
+  }, [sessionId, setMessages, resetAfter]);
+
+  // 입력창에서 보내기 눌렀을 때 → 백엔드로 POST
+  const handleSend = async (text) => {
     const trimmed = text.trim();
     if (!trimmed) return;
-    setMessages((prev) => [
-      ...prev,
-      {
-        id: Date.now(),
-        from: "agent",
-        text: trimmed,
-      },
-    ]);
+    await sendBankerChat(trimmed);
+    // 폴링으로 다시 가져오니까 messages 직접 건들 필요 없음
   };
 
   return (
@@ -102,6 +210,7 @@ export default function BankerReceive() {
         {/* 고객 정보 바 */}
         <CustomerBar />
 
+        {/* 상담 대화창 + 아래 ASRPanel(디자인용) */}
         <ChatPanel messages={messages} onSend={handleSend} />
         <ASRPanel />
       </main>
@@ -142,7 +251,6 @@ function ChatPanel({ messages, onSend }) {
         ))}
         <div ref={bottomRef} />
       </div>
-
 
       <div className="mt-3 flex gap-2">
         <input
@@ -219,7 +327,7 @@ function AvatarCommon() {
   );
 }
 
-/* ---------------- 음성(수어) 인식 패널 ---------------- */
+/* ---------------- 음성(수어) 인식 패널 (디자인용) ---------------- */
 function ASRPanel() {
   const [stage, setStage] = useState(0);
   const [isRec, setIsRec] = useState(false);

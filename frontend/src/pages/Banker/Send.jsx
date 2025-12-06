@@ -31,6 +31,9 @@ export default function BankerSend() {
   // 세션 ID (처음 마운트 시 한 번만 생성/로드)
   const [sessionId] = useState(() => getOrCreateSessionId());
 
+  // 이 화면에 "들어온 시점" 기록 (이후 메시지만 보기 위함)
+  const [resetAfter] = useState(() => Date.now());
+
   // 새로 추가되는 메시지용 id 카운터 (백엔드 응답 없을 때만 사용)
   const nextIdRef = useRef(Date.now());
 
@@ -39,10 +42,75 @@ export default function BankerSend() {
   const [editMode, setEditMode] = useState(false); // 연필 버튼 on/off
   const [editTargetId, setEditTargetId] = useState(null); // 어떤 말풍선 수정 중인지
 
+  // 화면 진입 시: 전역 messages 비우고, 스크롤 맨 위로
   useEffect(() => {
+    setMessages([]);
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     localStorage.setItem("signanceDeafStatus", "idle");
-  }, []);
+  }, [setMessages]);
+
+  /* ---------------- /chat 폴링: DeafSend/BankerReceive와 연동 ---------------- */
+  useEffect(() => {
+    let stopped = false;
+
+    const fetchAllMessages = async () => {
+      if (!sessionId) {
+        setMessages([]);
+        return;
+      }
+
+      try {
+        const url = new URL(`${API_BASE}/api/accounts/chat/`);
+        url.searchParams.set("session_id", sessionId);
+
+        const res = await fetch(url.toString());
+        if (!res.ok) {
+          console.error("BankerSend chat fetch 실패:", await res.text());
+          return;
+        }
+
+        const data = await res.json(); // [{ id, session_id, sender, role, text, created_at }, ...]
+        if (!Array.isArray(data) || stopped) return;
+
+        // 새로고침/진입 시점 이후 메시지만 보기
+        let filtered = data;
+        if (resetAfter) {
+          const cutoff =
+            typeof resetAfter === "number"
+              ? resetAfter
+              : new Date(resetAfter).getTime();
+
+          filtered = data.filter((m) => {
+            if (!m.created_at) return false;
+            const t = new Date(m.created_at).getTime();
+            return !isNaN(t) && t >= cutoff;
+          });
+        }
+
+        const mapped = filtered.map((m) => ({
+          id: m.id,
+          from: m.sender === "banker" ? "agent" : "user",
+          role: m.sender === "banker" ? "agent" : "user",
+          text: m.text,
+          mode: m.role,
+          created_at: m.created_at,
+          ts: m.created_at,
+        }));
+
+        setMessages(mapped);
+      } catch (err) {
+        console.error("BankerSend chat fetch error:", err);
+      }
+    };
+
+    fetchAllMessages();
+    const timer = window.setInterval(fetchAllMessages, 2000);
+
+    return () => {
+      stopped = true;
+      window.clearInterval(timer);
+    };
+  }, [sessionId, setMessages, resetAfter]);
 
   /* ---------------- 백엔드 저장/수정 공통 함수 ---------------- */
 
@@ -56,7 +124,7 @@ export default function BankerSend() {
         body: JSON.stringify({
           session_id: sessionId,
           sender: "banker", // 은행원 화면
-          role: mode || "", // "질의"/"설명"/"응답" 등
+          role: mode || "", // "질문"/"응답" 등
           text,
         }),
       });
@@ -196,6 +264,7 @@ export default function BankerSend() {
       {
         id,
         from: "agent",
+        role: "agent",
         text: created?.text ?? text,
         mode: created?.role ?? "",
         created_at: created?.created_at,
@@ -229,6 +298,7 @@ export default function BankerSend() {
       {
         id,
         from: "agent",
+        role: "agent",
         text: created?.text ?? text,
         mode: created?.role ?? mode,
         created_at: created?.created_at,
@@ -418,7 +488,7 @@ function ChatPanel({
         </div>
       </div>
 
-      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
+      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4.space-y-3 h-[318px] overflow-y-auto">
         {orderedMessages.map((m, idx) => (
           <ChatBubble
             key={m.id ?? `${m.from}-${idx}`}
