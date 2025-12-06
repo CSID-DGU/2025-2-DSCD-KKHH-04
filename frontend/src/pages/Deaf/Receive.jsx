@@ -1,8 +1,12 @@
 // frontend_clean/src/pages/Deaf/Receive.jsx
 import React, { useEffect, useRef, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import NavTabs from "../../components/NavTabs";
+// import NavTabs from "../../components/NavTabs";
 import { useChatStore } from "../../store/chatstore";
+
+// 기본 영상/자막은 없음 (현재는 미사용이지만 그대로 둠)
+const DEFAULT_VIDEO_SRC = null;
+const DEFAULT_CAPTION = "";
 
 const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
@@ -11,7 +15,7 @@ const API_BASE =
 const PANEL_HEIGHT = "h-[560px]";
 const SESSION_KEY = "signanceSessionId";
 
-// 🔹 DeafReceive는 세션을 "만들지 않고" 이미 만들어진 세션만 읽기
+// DeafReceive는 세션을 "만들지 않고" 이미 만들어진 세션만 읽기
 function getExistingSessionId() {
   try {
     return localStorage.getItem(SESSION_KEY) || null;
@@ -29,24 +33,42 @@ export default function DeafReceive() {
     setMessages([]);
   }, [setMessages]);
 
-  // 🔹 BankerSend에서 만든 session_id만 읽어서 사용
+  // BankerSend에서 만든 session_id만 읽어서 사용
   const [sessionId, setSessionId] = useState(() => getExistingSessionId());
 
   // DeafReceive에서 '여기서부터 새 상담방처럼 보기' 기준 시간
   const [resetAfter, setResetAfter] = useState(() => Date.now());
 
-  // 영상 재생 큐 + 현재 아이템
-  const [queue, setQueue] = useState([]);
-  const [currentItem, setCurrentItem] = useState(null);
+  // 문장별 영상 히스토리
+  const [history, setHistory] = useState([]); // [{ id, videoUrl, ... }]
+  const [currentIndex, setCurrentIndex] = useState(-1);
+
+  const currentItem = useMemo(
+    () =>
+      currentIndex >= 0 && currentIndex < history.length
+        ? history[currentIndex]
+        : null,
+    [history, currentIndex]
+  );
 
   // localStorage 변경 감지용 ref
   const lastVideoKeyRef = useRef(null);
 
-  // 🔹 DeafReceive 처음 들어올 때 기존 영상은 "이미 본 것"으로 처리
+  // 서버에서 받은 마지막 결과 ts 기억 (중복 처리 방지)
+  const lastResultTsRef = useRef(null);
+
+  // "초기 스냅샷(ts만 읽기)"가 끝났는지 여부
+  const initializedRef = useRef(false);
+
+  
+  // 다음 문장을 기다리는 중인지 여부
+  const waitingForNextRef = useRef(false);
+
+  // DeafReceive 처음 들어올 때 기존 영상은 "이미 본 것"으로 처리
   useEffect(() => {
     const existing = localStorage.getItem("signanceDeafVideoUrl");
     if (existing) {
-      lastVideoKeyRef.current = existing; // 기존 값은 새 영상으로 인식하지 않도록 설정
+      lastVideoKeyRef.current = existing;
     }
   }, []);
 
@@ -55,7 +77,7 @@ export default function DeafReceive() {
     localStorage.setItem("signanceDeafStatus", "idle");
   }, []);
 
-  // 🔹 다른 탭/페이지에서 SESSION_KEY가 바뀌면 따라감
+  // 다른 탭/페이지에서 SESSION_KEY가 바뀌면 따라감
   useEffect(() => {
     const onStorage = (e) => {
       if (e.key === SESSION_KEY) {
@@ -66,119 +88,241 @@ export default function DeafReceive() {
     return () => window.removeEventListener("storage", onStorage);
   }, []);
 
-  /* ------------------- 영상 재생 완료 시 ------------------- */
-  const handleVideoEnded = () => {
-    setQueue((prev) => {
-      if (prev.length === 0) {
-        return [];
-      }
-      const [next, ...rest] = prev;
-      setCurrentItem(next);
-      return rest;
-    });
-    localStorage.setItem("signanceDeafStatus", "video_ready");
-  };
-
-  /* ------------------- localStorage 폴링 (영상 수신) ------------------- */
+  /* ------------------- 초기 스냅샷: 이전 결과(ts만 기억, 화면에는 안 띄움) ------------------- */
   useEffect(() => {
-    const readFromStorage = () => {
-      const storedVideo = localStorage.getItem("signanceDeafVideoUrl");
-      const storedVideoList = localStorage.getItem("signanceDeafVideoList");
-      const storedCaptionClean =
-        localStorage.getItem("signanceDeafCaptionClean");
-      const storedGlossLabels =
-        localStorage.getItem("signanceDeafGlossLabels");
-      const storedCaptionRaw =
-        localStorage.getItem("signanceDeafCaptionRaw");
-      const storedMode = localStorage.getItem("signanceDeafMode");
+    if (!sessionId) return;
 
-      // 새로운 영상이 들어온 경우
-      if (storedVideo && storedVideo !== lastVideoKeyRef.current) {
-        // 🔹 1) 리스트 파싱 (있으면 우선 사용)
-        let list = [];
-        if (storedVideoList) {
-          try {
-            const parsed = JSON.parse(storedVideoList);
-            if (Array.isArray(parsed)) list = parsed;
-          } catch {
-            // JSON이 아니고 "a.mp4,b.mp4" 형태로 저장돼 있으면 쉼표 분리
-            list = storedVideoList
-              .split(",")
-              .map((s) => s.trim())
-              .filter(Boolean);
-          }
+    let stopped = false;
+
+    const initLatestTs = async () => {
+      try {
+        const url = new URL(`${API_BASE}/api/accounts/sign_result/latest/`);
+        url.searchParams.set("session_id", sessionId);
+
+        const res = await fetch(url.toString());
+
+        if (stopped) return;
+
+        if (res.status === 204) {
+          // 아직 결과가 한 번도 없었다면 그냥 패스
+          initializedRef.current = true;
+          return;
         }
 
-        // 🔹 2) 리스트가 비어 있으면 기존 단일 URL을 리스트 1개로
-        if (!list.length && storedVideo) {
-          list = [storedVideo];
+        if (!res.ok) {
+          console.error("init latest_sign_result 실패:", await res.text());
+          initializedRef.current = true;
+          return;
         }
 
-        // 🔹 3) API_BASE 붙이기
-        const fullList = list.map((u) =>
-          u.startsWith("http") ? u : `${API_BASE}${u}`
-        );
+        const data = await res.json();
+        const ts = data.timestamp || data.ts || null;
 
-        const primaryUrl = fullList[0] || null;
-
-        let glossArr = [];
-        if (storedGlossLabels) {
-          try {
-            const parsed = JSON.parse(storedGlossLabels);
-            if (Array.isArray(parsed)) glossArr = parsed;
-          } catch {}
+        // 이전에 만들어져 있던 마지막 ts만 기억해두고 화면에는 안 보여줌
+        if (ts) {
+          lastResultTsRef.current = ts;
         }
+        initializedRef.current = true;
+      } catch (err) {
+        console.error("init latest_sign_result error:", err);
+        initializedRef.current = true;
+      }
+    };
+
+    initLatestTs();
+
+    return () => {
+      stopped = true;
+    };
+  }, [sessionId]);
+
+  /* ------------------- 영상 재생 완료 시 ------------------- */
+/* ------------------- 영상 재생 완료 시 ------------------- */
+const handleVideoEnded = () => {
+  setCurrentIndex((idx) => {
+    if (idx < 0) return idx; // 아직 아무 것도 없을 때
+
+    const nextIdx = idx + 1;
+
+    // 이미 history에 다음 문장이 있는 경우 → 바로 다음 문장 재생
+    if (nextIdx < history.length) {
+      // 다음 문장 재생 준비 상태
+      waitingForNextRef.current = false;
+      localStorage.setItem("signanceDeafStatus", "video_ready");
+      return nextIdx; // VideoPanel에서 videoSrc 바뀌면서 자동 재생
+    }
+
+    // 다음 문장이 아직 안 온 경우 → "다음 발화 대기 중"
+    waitingForNextRef.current = true;
+    localStorage.setItem("signanceDeafStatus", "waiting_next");
+    return idx;
+  });
+};
+
+
+  /* ------------------- 서버 폴링 (영상 수신) ------------------- */
+  useEffect(() => {
+    if (!sessionId) return;
+
+    let stopped = false;
+
+    const fetchLatestResult = async () => {
+      if (stopped) return;
+
+      // 초기 스냅샷 읽기 전이라면 대기
+      if (!initializedRef.current) return;
+
+      try {
+        const url = new URL(`${API_BASE}/api/accounts/sign_result/latest/`);
+        url.searchParams.set("session_id", sessionId);
+
+        const res = await fetch(url.toString());
+        if (res.status === 204) {
+          // 아직 결과 없음
+          return;
+        }
+        if (!res.ok) {
+          console.error("latest_sign_result 실패:", await res.text());
+          return;
+        }
+
+        const data = await res.json();
+        const ts = data.timestamp || data.ts || null;
+
+        // 같은 결과(ts 기준)를 또 처리하지 않도록 방지
+        if (!ts || ts === lastResultTsRef.current) return;
+        lastResultTsRef.current = ts;
+
+        // 1) 영상 리스트 구성 (문장 단위 + 개별 영상)
+        const rawSentenceUrl =
+          data.sentence_video_url ||
+          data.video_url ||
+          data.sign_video_url ||
+          data.sign_video_path ||
+          null;
+
+        const baseList =
+          data.sign_video_list ||
+          data.video_urls ||
+          data.video_paths ||
+          (rawSentenceUrl ? [rawSentenceUrl] : []);
+
+        const fullList = (baseList || [])
+          .map((u) =>
+            typeof u === "string" && u.startsWith("http")
+              ? u
+              : `${API_BASE}${u}`
+          )
+          .filter(Boolean);
+
+        const primaryUrl =
+          (rawSentenceUrl &&
+            (rawSentenceUrl.startsWith("http")
+              ? rawSentenceUrl
+              : `${API_BASE}${rawSentenceUrl}`)) ||
+          fullList[0] ||
+          null;
+
+        // 2) 자막/글로스/모드
+        const captionClean = data.clean_text || "";
+        const captionRaw = data.text || "";
+        const glossLabels = Array.isArray(data.gloss_labels)
+          ? data.gloss_labels
+          : [];
+        const mode = data.mode || "";
 
         const item = {
           id: Date.now(),
-          videoUrl: primaryUrl, // 처음 자동 재생용 (문장 단위)
-          videoList: fullList, // 🔹 다시재생에서 쓸 전체 리스트
-          caption: storedCaptionClean || storedCaptionRaw || "",
-          rawText: storedCaptionRaw || "",
-          glossLabels: glossArr,
-          mode: storedMode || "",
+          videoUrl: primaryUrl,
+          videoList:
+            fullList.length > 0
+              ? fullList
+              : primaryUrl
+              ? [primaryUrl]
+              : [],
+          caption: captionClean || captionRaw || "",
+          rawText: captionRaw || "",
+          glossLabels,
+          mode,
         };
 
-        setQueue((prev) => {
-          if (!currentItem && prev.length === 0) {
-            setCurrentItem(item);
-            return [];
+        // 3) 히스토리에 문장 추가 + 현재 인덱스를 마지막으로 이동
+        // 3) 히스토리에 문장 추가
+      // 3) 히스토리에 문장 추가
+      setHistory((prev) => {
+        const next = [...prev, item];
+
+        // 아직 아무 문장도 선택되지 않은 상태라면
+        // 첫 문장을 현재 문장으로 선택 (자동 재생용)
+        if (prev.length === 0 && currentIndex === -1) {
+          // 첫 문장 인덱스(0)부터 재생
+          setCurrentIndex(0);
+        }
+        // 이전 영상이 끝나고 "다음 문장을 기다리는 중"이었다면
+        // 새로 들어온 문장을 바로 재생
+        else if (waitingForNextRef.current) {
+          const newIndex = next.length - 1; // 방금 들어온 문장
+          waitingForNextRef.current = false;
+          setCurrentIndex(newIndex); // VideoPanel에서 자동 재생
+          // 상태도 영상 재생 쪽으로 이동
+          localStorage.setItem("signanceDeafStatus", "video_ready");
+        }
+
+        return next;
+      });
+
+
+
+        // 이 영상을 "마지막으로 본 영상"으로 기억
+        lastVideoKeyRef.current = primaryUrl || null;
+
+        // 4) 필요하면 localStorage에도 백업
+        try {
+          if (rawSentenceUrl) {
+            localStorage.setItem("signanceDeafVideoUrl", rawSentenceUrl);
           }
-          return [...prev, item];
-        });
+          localStorage.setItem(
+            "signanceDeafVideoList",
+            JSON.stringify(baseList || [])
+          );
+          localStorage.setItem(
+            "signanceDeafCaptionClean",
+            captionClean || ""
+          );
+          localStorage.setItem("signanceDeafCaptionRaw", captionRaw || "");
+          localStorage.setItem(
+            "signanceDeafGlossLabels",
+            JSON.stringify(glossLabels)
+          );
+          localStorage.setItem("signanceDeafMode", mode);
+        } catch (e) {
+          console.warn("DeafReceive localStorage backup error:", e);
+        }
 
-        lastVideoKeyRef.current = storedVideo;
+        // 영상 준비 상태
+        localStorage.setItem("signanceDeafStatus", "video_ready");
+      } catch (err) {
+        console.error("latest_sign_result fetch error:", err);
       }
     };
 
-    readFromStorage();
-    const timer = setInterval(readFromStorage, 500);
+    // 최초 1번 + 주기적 폴링
+    fetchLatestResult();
+    const timer = setInterval(fetchLatestResult, 1000);
 
-    const onStorage = (e) => {
-      if (
-        e.key === "signanceDeafVideoUrl" ||
-        e.key === "signanceDeafVideoList" ||
-        e.key === "signanceDeafCaptionClean" ||
-        e.key === "signanceDeafGlossLabels" ||
-        e.key === "signanceDeafCaptionRaw"
-      ) {
-        readFromStorage();
-      }
-    };
-
-    window.addEventListener("storage", onStorage);
     return () => {
+      stopped = true;
       clearInterval(timer);
-      window.removeEventListener("storage", onStorage);
     };
-  }, [currentItem]);
+  }, [sessionId, currentIndex]);
+
 
   /* ------------------- 백엔드 채팅 폴링 (/api/accounts/chat/) ------------------- */
   useEffect(() => {
     let stopped = false;
 
     const fetchAllMessages = async () => {
-      // 🔹 세션이 없으면 그냥 채팅 비우고 리턴
+      // 세션이 없으면 그냥 채팅 비우고 리턴
       if (!sessionId) {
         setMessages([]);
         return;
@@ -241,10 +385,11 @@ export default function DeafReceive() {
 
   /* ------------------- 상태 초기화: 영상 + 채팅 ------------------- */
   const handleResetAll = () => {
-    // 1) 영상 / 큐 초기화
-    setQueue([]);
-    setCurrentItem(null);
+    // 1) 영상 히스토리 초기화
+    setHistory([]);
+    setCurrentIndex(-1);
     lastVideoKeyRef.current = null;
+    lastResultTsRef.current = null;
 
     // 2) 상담 대화창 비우기 (전역 store)
     setMessages([]);
@@ -261,13 +406,31 @@ export default function DeafReceive() {
     localStorage.removeItem("signanceDeafCaptionRaw");
   };
 
+  const hasPrev = currentIndex > 0;
+  const hasNext = currentIndex >= 0 && currentIndex < history.length - 1;
+
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs rightSlot={<SendReceiveToggle active="receive" />} />
-
+        {/* <NavTabs rightSlot={<SendReceiveToggle active="receive" />} /> */}
+        <div className="flex items-center justify-end">
+          <SendReceiveToggle active="receive" />
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
-          <VideoPanel item={currentItem} onEnded={handleVideoEnded} />
+          <VideoPanel
+            item={currentItem}
+            onEnded={handleVideoEnded}
+            onPrev={() => {
+              setCurrentIndex((idx) => (idx > 0 ? idx - 1 : idx));
+            }}
+            onNext={() => {
+              setCurrentIndex((idx) =>
+                idx < history.length - 1 ? idx + 1 : idx
+              );
+            }}
+            hasPrev={hasPrev}
+            hasNext={hasNext}
+          />
 
           {/* 상담 대화창: DeafReceive 전용 ChatPanel */}
           <ChatPanel />
@@ -292,7 +455,8 @@ function PanelHeader({ icon, title }) {
 }
 
 /* ---------------- 수어 영상 패널 ---------------- */
-function VideoPanel({ item, onEnded }) {
+
+function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
   const vidRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
@@ -303,17 +467,6 @@ function VideoPanel({ item, onEnded }) {
   const glossLabels = Array.isArray(item?.glossLabels)
     ? item.glossLabels
     : [];
-
-  // 🔹 여러 영상 지원
-  const videoList = useMemo(
-    () =>
-      Array.isArray(item?.videoList) && item.videoList.length > 0
-        ? item.videoList
-        : videoSrc
-        ? [videoSrc]
-        : [],
-    [item, videoSrc]
-  );
 
   const modeLabel =
     item?.mode === "질문" || item?.mode === "질의"
@@ -329,9 +482,34 @@ function VideoPanel({ item, onEnded }) {
     return "text-base sm:text-lg";
   }, [captionText]);
 
-  const safePlay = async () => {
+  // 공통: videoSrc를 확실히 다시 물려주고 재생
+  const playFromStart = async () => {
     const v = vidRef.current;
     if (!v || !videoSrc) return;
+
+    setErrMsg("");
+    try {
+      // 혹시 남아있던 소스/상태 초기화
+      v.pause();
+      v.removeAttribute("src");
+      v.load();
+    } catch (e) {
+      // 무시
+    }
+
+    v.src = videoSrc;
+
+    try {
+      v.load();
+    } catch (e) {
+      // 무시
+    }
+
+    try {
+      v.currentTime = 0;
+    } catch (e) {
+      // 무시
+    }
 
     try {
       await v.play();
@@ -339,21 +517,30 @@ function VideoPanel({ item, onEnded }) {
       setShowOverlay(true);
       localStorage.setItem("signanceDeafStatus", "video_playing");
       return;
-    } catch {}
+    } catch (e1) {
+      // 한 번 실패하면 muted로 재시도
+    }
+
     try {
       v.muted = true;
       await v.play();
       setIsPlaying(true);
       setShowOverlay(true);
       localStorage.setItem("signanceDeafStatus", "video_playing");
-    } catch {
+    } catch (e2) {
+      console.warn("video play failed in playFromStart:", e2);
       setErrMsg("영상 재생을 시작할 수 없습니다.");
     }
   };
 
-  // 새 영상 들어올 때 자동 재생
+  // 새 문장 들어올 때 자동 재생
   useEffect(() => {
-    if (!videoSrc) return;
+    if (!videoSrc) {
+      setIsPlaying(false);
+      setShowOverlay(false);
+      setErrMsg("");
+      return;
+    }
 
     setIsPlaying(false);
     setShowOverlay(false);
@@ -362,15 +549,21 @@ function VideoPanel({ item, onEnded }) {
     localStorage.setItem("signanceDeafStatus", "video_ready");
 
     const timer = setTimeout(() => {
-      safePlay();
+      playFromStart();
     }, 50);
 
     return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [videoSrc]);
 
   const handlePause = () => {
     setIsPlaying(false);
     setShowOverlay(false);
+  };
+
+  const handleReplay = () => {
+    // 그냥 현재 문장 처음부터 다시
+    playFromStart();
   };
 
   return (
@@ -434,84 +627,56 @@ function VideoPanel({ item, onEnded }) {
       </div>
 
       <div className="mt-3 flex items-center gap-3">
-        <RoundBtn label="이전">
+        {/* 맨 왼쪽: 이전 문장 (◀◀) */}
+        <RoundBtn
+          label="이전 문장"
+          onClick={() => {
+            if (!hasPrev) return;
+            onPrev?.();
+          }}
+          disabled={!hasPrev}
+        >
           <PrevIcon />
         </RoundBtn>
 
+        {/* 가운데: 현재 문장 재생 / 일시정지 */}
         <RoundBtn
           label={isPlaying ? "일시정지" : "재생"}
           onClick={() => {
-            if (!videoSrc) return;
-            if (isPlaying) vidRef.current.pause();
-            else safePlay();
+            const v = vidRef.current;
+            if (!videoSrc || !v) return;
+            if (isPlaying) v.pause();
+            else playFromStart();
           }}
         >
           {isPlaying ? <PauseIcon /> : <PlayIcon />}
         </RoundBtn>
 
-        {/* 🔹 전체 다시재생 버튼 */}
-        <RoundBtn
-          label="다시재생"
-          onClick={async () => {
-            if (!videoList.length || !vidRef.current) return;
-
-            setShowOverlay(false);
-            setErrMsg("");
-            setIsPlaying(false);
-
-            const v = vidRef.current;
-
-            for (const url of videoList) {
-              await new Promise((resolve) => {
-                const handleEnd = () => {
-                  v.removeEventListener("ended", handleEnd);
-                  v.removeEventListener("error", handleError);
-                  resolve();
-                };
-                const handleError = () => {
-                  v.removeEventListener("ended", handleEnd);
-                  v.removeEventListener("error", handleError);
-                  resolve();
-                };
-
-                v.addEventListener("ended", handleEnd);
-                v.addEventListener("error", handleError);
-
-                v.src = url;
-                v.currentTime = 0;
-
-                v
-                  .play()
-                  .then(() => {
-                    setIsPlaying(true);
-                    setShowOverlay(true);
-                    localStorage.setItem(
-                      "signanceDeafStatus",
-                      "video_playing"
-                    );
-                  })
-                  .catch(() => {
-                    resolve();
-                  });
-              });
-            }
-
-            // 전체 끝나면 상태 초기화
-            setIsPlaying(false);
-            setShowOverlay(false);
-            localStorage.setItem("signanceDeafStatus", "video_ready");
-          }}
-        >
+        {/* 오른쪽: 현재 문장 처음부터 다시 재생 */}
+        <RoundBtn label="다시재생" onClick={handleReplay}>
           <ReplayIcon />
+        </RoundBtn>
+
+        {/* 맨 오른쪽: 다음 문장 (▶▶) */}
+        <RoundBtn
+          label="다음 문장"
+          onClick={() => {
+            if (!hasNext) return;
+            onNext?.();
+          }}
+          disabled={!hasNext}
+        >
+          <NextIcon />
         </RoundBtn>
       </div>
     </section>
   );
 }
 
+
 /* ---------------- 말풍선 ---------------- */
 function ChatBubble({ role, text, mode }) {
-  // 1) system 메시지: 가운데 정렬 안내문
+  // system 메시지: 가운데 정렬 안내문
   if (role === "system") {
     return (
       <div className="w-full flex justify-center my-4">
@@ -535,10 +700,9 @@ function ChatBubble({ role, text, mode }) {
     );
   }
 
-  // 2) 일반 메시지 (기존 로직)
+  // 일반 메시지
   const isAgent = role === "agent"; // 은행원 = 왼쪽, 고객 = 오른쪽
 
-  // 🔹 모드 라벨: BankerSend → backend.role → 여기서 표시
   const label =
     mode === "질의" || mode === "질문"
       ? "질문"
@@ -639,7 +803,7 @@ function ChatPanel() {
         ))}
       </div>
 
-      {/* 🔽 DeafSend와 동일한 입력창 + 보내기 버튼 */}
+      {/* DeafSend와 동일한 입력창 + 보내기 버튼 */}
       <div className="mt-3 flex gap-2">
         <input
           value={input}
@@ -746,6 +910,12 @@ function ASRPanel({ onResetAll }) {
         return { label: "음성 인식 중…", desc: "은행원 발화 인식 중", step: 0 };
       case "stt_done":
         return { label: "발화 인식 완료", desc: "텍스트 변환 완료", step: 1 };
+      case "waiting_next":
+        return {
+          label: "다음 발화 대기 중…",
+          desc: "은행원이 다음 문장을 발화하면 영상이 자동으로 재생돼요",
+          step: 1,
+        };
       case "video_ready":
         return { label: "영상 준비 완료", desc: "영상 재생 가능", step: 2 };
       case "video_playing":
@@ -762,6 +932,7 @@ function ASRPanel({ onResetAll }) {
         };
     }
   })();
+
 
   return (
     <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
@@ -858,11 +1029,15 @@ function BubbleIcon() {
   );
 }
 
-function RoundBtn({ children, label, onClick }) {
+function RoundBtn({ children, label, onClick, disabled }) {
   return (
     <button
-      onClick={onClick}
-      className="h-10 w-10 grid place-items-center rounded-full border border-slate-300"
+      onClick={disabled ? undefined : onClick}
+      disabled={disabled}
+      className={
+        "h-10 w-10 grid place-items-center rounded-full border border-slate-300 " +
+        (disabled ? "opacity-40 cursor-default" : "")
+      }
       title={label}
     >
       {children}
@@ -872,9 +1047,13 @@ function RoundBtn({ children, label, onClick }) {
 
 function PrevIcon() {
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-      <polygon points="16,5 7,12 16,19" />
-    </svg>
+    <span className="text-xs leading-none select-none">◀◀</span>
+  );
+}
+
+function NextIcon() {
+  return (
+    <span className="text-xs leading-none select-none">▶▶</span>
   );
 }
 function PlayIcon() {

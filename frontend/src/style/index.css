@@ -1,6 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* 선택: 글로벌 폰트/배경 */
-html, body, #root { height: 100%; }

@@ -1,64 +1,48 @@
+// frontend_clean/src/pages/Banker/Receive.jsx
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom"; // ✅ 추가
+import { useNavigate } from "react-router-dom";
 
-export default function BankerReceive() {
-  // ✅ 이 화면 들어올 때마다 스크롤 맨 위로
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-  }, []);
+import NavTabs from "../../components/NavTabs";
+import { useChatStore } from "../../store/chatstore"; // 🔹 전역 상담 대화
 
-  return (
-    <div className="w-full h-auto overflow-hidden">
-      <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs />
-        <CustomerBar />
-        <ChatPanel />
-        <ASRPanel />
-      </main>
-    </div>
-  );
+// 🔹 세션 & API 기본 값 (BankerSend랑 맞춤)
+const SESSION_KEY = "signanceSessionId";
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+
+// 🔹 Receive는 기존 세션만 읽기 (새로 만들지 않음)
+function getExistingSessionId() {
+  try {
+    return localStorage.getItem(SESSION_KEY) || null;
+  } catch {
+    return null;
+  }
 }
-
-/* ---------------- 탭 + 송신/수신 토글 ---------------- */
-/* ---------------- 탭 + 송신/수신 토글 ---------------- */
-function NavTabs() {
-  const tabs = ["실시간 인식", "대화 로그", "고객 메모", "시스템 상태"];
-  const [active, setActive] = useState(0);
-
-  return (
-    <nav className="w-full bg-white rounded-xl shadow-sm border border-slate-200 px-3 pb-3">
-      <div className="flex items-start justify-between gap-4">
-        {/* 왼쪽: 탭 메뉴 */}
-        <ul className="flex flex-wrap gap-6 mt-2">
-          {tabs.map((t, i) => (
-            <li key={t}>
-              <button
-                onClick={() => setActive(i)}
-                className={
-                  "px-4 py-2 rounded-lg text-sm sm:text-base " +
-                  (active === i
-                    ? "bg-slate-900 text-white"
-                    : "text-slate-700 hover:bg-slate-100")
-                }
-              >
-                {t}
-              </button>
-            </li>
-          ))}
-        </ul>
-
-        {/* 오른쪽: 송신/수신 토글 (수신 활성) */}
-        <div className="mt-2">
-          <SendReceiveToggle active="receive" />
-        </div>
-      </div>
-    </nav>
-  );
-}
-
 
 /* ---------------- 고객 정보 바 ---------------- */
 function CustomerBar() {
+  const [customerInfo, setCustomerInfo] = useState({
+    name: "",
+    birth: "",
+    phone: "",
+  });
+
+  // 컴포넌트가 화면에 처음 나올 때 localStorage에서 읽어오기
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem("customerInfo");
+      if (raw) {
+        setCustomerInfo(JSON.parse(raw));
+      }
+    } catch (e) {
+      console.error("customerInfo 파싱 에러:", e);
+    }
+  }, []);
+
+  const name = customerInfo.name || "고객 성함 미입력";
+  const birth = customerInfo.birth || "--";     // "생년월일 미입력" 대신 "--" 사용하고 싶으면 이렇게
+  const phone = customerInfo.phone || "--";     // "연락처 미입력" 대신 "--"
+
   return (
     <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
       <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
@@ -66,20 +50,102 @@ function CustomerBar() {
         <span>고객 정보</span>
       </div>
       <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
-        김희희
+        고객 이름 : {name}
         <span className="mx-2 text-slate-400">|</span>
-        XX은행 1002-123-4567
+        생년월일 : {birth}
+        <span className="mx-2 text-slate-400">|</span>
+        전화번호 : {phone}
       </div>
     </section>
   );
 }
 
+export default function BankerReceive() {
+  const navigate = useNavigate();
+
+  // 🔹 전역 상담 대화
+  const { messages, setMessages } = useChatStore();
+
+  // 🔹 세션 ID: 이미 만들어진 것만 사용
+  const [sessionId] = useState(() => getExistingSessionId());
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, []);
+
+  // 🔹 메시지 연동: 백엔드에서 해당 session_id의 대화 불러오기
+  // useEffect(() => {
+  //   if (!sessionId) return;
+
+  //   const fetchMessages = async () => {
+  //     try {
+  //       const res = await fetch(
+  //         `${API_BASE}/api/accounts/chat/?session_id=${sessionId}`,
+  //         {
+  //           method: "GET",
+  //           credentials: "include", // 로그인 세션 쿠키 포함
+  //         }
+  //       );
+
+  //       if (!res.ok) {
+  //         console.error("대화 조회 실패(receive):", await res.text());
+  //         return;
+  //       }
+
+  //       const data = await res.json(); // 예: [{id, session_id, sender, role, text, created_at}, ...]
+  //       // 🔹 전역 store 형식에 맞게 매핑
+  //       const mapped = data.map((chat) => ({
+  //         id: chat.id,
+  //         from: chat.sender === "banker" ? "agent" : "user",
+  //         text: chat.text,
+  //         role: chat.role,
+  //         created_at: chat.created_at,
+  //       }));
+  //       setMessages(mapped);
+  //     } catch (err) {
+  //       console.error("대화 조회 에러(receive):", err);
+  //     }
+  //   };
+
+  //   fetchMessages();
+  // }, [sessionId, setMessages]);
+
+  const handleSend = (text) => {
+    const trimmed = text.trim();
+    if (!trimmed) return;
+    setMessages((prev) => [
+      ...prev,
+      {
+        id: Date.now(),
+        from: "agent",
+        text: trimmed,
+      },
+    ]);
+  };
+
+  return (
+    <div className="w-full h-auto overflow-hidden">
+      <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
+        {/* 상단 탭 */}
+        <NavTabs
+          rightSlot={<SendReceiveToggle active="receive" />}
+          onTabClick={(idx) => {
+            if (idx === 3) navigate("/performance");
+          }}
+        />
+
+        {/* 🔹 고객 정보 바 */}
+        <CustomerBar />
+
+        <ChatPanel messages={messages} onSend={handleSend} />
+        <ASRPanel />
+      </main>
+    </div>
+  );
+}
+
 /* ---------------- 상담 대화창 ---------------- */
-function ChatPanel() {
-  const [messages, setMessages] = useState([
-    { from: "agent", text: "안녕하세요. 어떤 업무 도와드릴까요?" },
-    { from: "user", text: "안녕하세요. 새 통장을 만들고 싶어요." },
-  ]);
+function ChatPanel({ messages, onSend }) {
   const [input, setInput] = useState("");
   const bottomRef = useRef(null);
 
@@ -90,7 +156,7 @@ function ChatPanel() {
   const send = () => {
     const txt = input.trim();
     if (!txt) return;
-    setMessages((prev) => [...prev, { from: "agent", text: txt }]);
+    onSend?.(txt);
     setInput("");
   };
 
@@ -101,20 +167,9 @@ function ChatPanel() {
         <span>상담 대화창</span>
       </div>
 
-      <div
-        className="
-          mt-3
-          rounded-xl
-          border border-slate-200
-          bg-slate-50
-          p-4
-          space-y-3
-          h-[318px]
-          overflow-y-auto
-        "
-      >
+      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
         {messages.map((m, i) => (
-          <ChatBubble key={i} role={m.from} text={m.text} />
+          <ChatBubble key={m.id ?? i} role={m.from || m.role} text={m.text} />
         ))}
         <div ref={bottomRef} />
       </div>
@@ -140,12 +195,33 @@ function ChatPanel() {
 
 /* ---------------- 말풍선 ---------------- */
 function ChatBubble({ role, text }) {
-  const isAgent = role === "agent";
+  if (role === "system") {
+    return (
+      <div className="w-full flex justify-center my-4">
+        <div
+          className="
+          inline-block
+          max-w-[90%]
+          px-4 py-2
+          rounded-xl
+          bg-slate-100
+          text-slate-800
+          font-medium
+          text-center
+          border border-slate-200
+          shadow-sm
+        "
+        >
+          {text}
+        </div>
+      </div>
+    );
+  }
+
+  const isAgent = (role || "agent") === "agent";
   return (
     <div
-      className={
-        "flex items-start gap-2 " + (isAgent ? "" : "justify-end")
-      }
+      className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
     >
       {isAgent && <AvatarCommon />}
       <div className="max-w-[80%] rounded-2xl px-4 py-3 bg-white border border-slate-200">
@@ -180,7 +256,6 @@ function ASRPanel() {
   const [mode, setMode] = useState("응답");
   const [text, setText] = useState("");
 
-  // 진행바 애니메이션
   useEffect(() => {
     const id = setInterval(() => setStage((s) => (s + 1) % 4), 1600);
     return () => clearInterval(id);
@@ -193,7 +268,6 @@ function ASRPanel() {
   return (
     <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
       <div className="flex items-center gap-4">
-        {/* 왼쪽: 동그라미 버튼 (수어 아이콘) */}
         <div className="shrink-0 w-20 h-20 rounded-full border-2 border-slate-300 grid place-items-center">
           <button
             type="button"
@@ -215,7 +289,6 @@ function ASRPanel() {
           </button>
         </div>
 
-        {/* 가운데: 제목 / 진행바 / 입력창 */}
         <div className="flex-1">
           <div className="font-semibold text-base text-slate-800">
             {isRec ? "녹음 중..." : "수어 인식 중..."}
@@ -261,7 +334,6 @@ function ASRPanel() {
           </div>
         </div>
 
-        {/* 오른쪽: 버튼 두 개 세로 */}
         <div className="flex flex-col gap-2">
           <button className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap">
             응답 전송
@@ -362,13 +434,11 @@ function HandIcon({ className = "" }) {
 /* ---------------- 상단 송신/수신 토글 ---------------- */
 function SendReceiveToggle({ active }) {
   const navigate = useNavigate();
-
   const baseBtn =
     "px-4 py-1.5 text-sm rounded-full transition-all duration-150 whitespace-nowrap";
 
   return (
     <div className="inline-flex items-center rounded-full bg-slate-200 p-1 shadow-sm">
-      {/* 송신 */}
       <button
         type="button"
         onClick={() => {
@@ -384,7 +454,6 @@ function SendReceiveToggle({ active }) {
         송신
       </button>
 
-      {/* 수신 */}
       <button
         type="button"
         onClick={() => {
