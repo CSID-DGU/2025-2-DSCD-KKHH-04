@@ -47,6 +47,8 @@ from .pipeline import (
     apply_text_normalization,
     WHISPER_LOAD_MS,
     log_gloss_mapping,    # 🔹 gloss 매핑 로그
+    extract_tokens,
+    generate_image_video,
 )
 # 로컬 규칙 기반 gloss 추출용 (Gemini 실패 시에만 사용)
 from .pipeline import generate_image_video
@@ -282,7 +284,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
     STT → NLP → gloss_id → 영상 합성 → latency → snapshot 저장 → 최종 응답
 
     mode: "질문" / "응답" 등 프론트에서 넘겨주는 발화 타입 (선택)
-    session_id: 이번 상담 세션 식별자 (선택)
+    session_id: 이번 상담 세션 식별자 (선택)from .pipeline import
     """
 
     # ----------------------------------------
@@ -319,19 +321,36 @@ def process_audio_file(django_file, mode=None, session_id=None):
     print(f"[Perf] audio_sec={audio_sec:.2f}, stt_ms={stt_ms:.1f}, ratio={ratio:.2f}")
     print(f"[DEBUG] STT raw text: {repr(text)}")
 
-    # ----------------------------------------
-    # 3) NLP 단계: clean + gloss 추출
-    # ----------------------------------------
-    model = GEMINI_MODEL   # 서버 시작 시 한 번만 build 된 전역 모델
+    # 3) NLP 단계: clean + gloss 후보 (nlp_with_gemini는 일단 유지)
+    model = GEMINI_MODEL
 
     t2 = time.perf_counter()
-    clean_text, gloss_list = nlp_with_gemini(text, model)
+    clean_text, _gloss_dummy = nlp_with_gemini(text, model)
     t3 = time.perf_counter()
     latency["nlp"] = round((t3 - t2) * 1000, 1)
 
-    # 3-1) rules.json 기반 텍스트 정규화 + 글로스 재추출
+    # 3-1) rules.json 기반 텍스트 정규화
     clean_text = apply_text_normalization(clean_text)
-    gloss_list = extract_glosses(clean_text, model=model)
+
+    # 🔹 3-2) Gemini 토큰 추출: gloss / image / pause 모두 포함
+    tokens = extract_tokens(clean_text, model=model)
+
+    # 🔹 3-3) 파이프라인에서 쓸 gloss_list / image_tokens 분리
+    gloss_list = [
+        t["text"]
+        for t in tokens
+        if isinstance(t, dict)
+        and t.get("type", "gloss") == "gloss"
+        and (t.get("text") or "").strip()
+    ]
+
+    image_tokens = [
+        (t.get("text") or "").strip()
+        for t in tokens
+        if isinstance(t, dict)
+        and t.get("type") == "image"
+        and (t.get("text") or "").strip()
+    ]
 
     # ----------------------------------------
     # 4) gloss → gloss_id 매핑
@@ -343,12 +362,28 @@ def process_audio_file(django_file, mode=None, session_id=None):
     latency["mapping"] = round((t5 - t4) * 1000, 1)
 
     # 4-1) 숫자/이미지 토큰에 대한 fallback: 이미지 기반 동영상 생성
+    # 4-1) 텍스트 이미지 토큰 처리: image 토큰 + 숫자 패턴 fallback
     extra_video_paths = []
-    num_pattern = re.compile(r"^\d+[가-힣%년월세원만원억개월회]*$")
+
+    # (1) Gemini가 type="image"로 준 토큰 우선 처리
+    for t in image_tokens:
+        try:
+            img_mp4 = generate_image_video(t, duration=1.5)
+            extra_video_paths.append(img_mp4)
+            print(f"[ImageToken Video] token={t} -> {img_mp4}")
+        except Exception as e:
+            print(f"[ImageToken Video ERROR] token={t}: {e}")
+
+    # (2) 혹시 image로 안 찍혔지만 숫자 형태인 gloss들은 fallback으로 처리
+    num_pattern = re.compile(r"^\d+(\.\d+)?[가-힣%년월세원만원억개월회]*$")
 
     for tok in gloss_list or []:
         t = _norm(str(tok))
         if not t:
+            continue
+
+        # 이미 image_tokens에서 처리된 값이면 생략
+        if t in image_tokens:
             continue
 
         if num_pattern.match(t):
@@ -460,6 +495,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
         "video_sec": video_sec,
         "latency_ms": latency,
         "latency_sec": latency_sec,
+        "tokens": tokens,
     }
 
     # 🔹 gloss vs gloss_labels 매핑 로그 기록 (mismatch만 저장)

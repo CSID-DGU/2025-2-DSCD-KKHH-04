@@ -1,4 +1,5 @@
 // frontend_clean/src/pages/Banker/Receive.jsx
+// frontend_clean/src/pages/Banker/Receive.jsx
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -17,6 +18,47 @@ function getExistingSessionId() {
   } catch {
     return null;
   }
+}
+
+/* ---------------- 고객 정보 바 ---------------- */
+function CustomerBar() {
+  const [customerInfo, setCustomerInfo] = useState({
+    name: "",
+    birth: "",
+    phone: "",
+  });
+
+  // 컴포넌트가 화면에 처음 나올 때 localStorage에서 읽어오기
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem("customerInfo");
+      if (raw) {
+        setCustomerInfo(JSON.parse(raw));
+      }
+    } catch (e) {
+      console.error("customerInfo 파싱 에러:", e);
+    }
+  }, []);
+
+  const name = customerInfo.name || "고객 성함 미입력";
+  const birth = customerInfo.birth || "--";     // "생년월일 미입력" 대신 "--" 사용하고 싶으면 이렇게
+  const phone = customerInfo.phone || "--";     // "연락처 미입력" 대신 "--"
+
+  return (
+    <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
+      <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
+        <UserIcon className="h-5 w-5 text-slate-700" />
+        <span>고객 정보</span>
+      </div>
+      <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
+        고객 이름 : {name}
+        <span className="mx-2 text-slate-400">|</span>
+        생년월일 : {birth}
+        <span className="mx-2 text-slate-400">|</span>
+        전화번호 : {phone}
+      </div>
+    </section>
+  );
 }
 
 export default function BankerReceive() {
@@ -69,10 +111,6 @@ export default function BankerReceive() {
   //   fetchMessages();
   // }, [sessionId, setMessages]);
 
-  // 🔹 은행원 쪽에서 새 메시지 보낼 때 (전역 store만 업데이트)
-  //    → 실제 백엔드 저장은 BankerSend에서 하고 있으니까,
-  //       여기서는 단순히 화면상 추가만 해도 되고,
-  //       필요하면 나중에 POST 로직도 붙일 수 있음.
   const handleSend = (text) => {
     const trimmed = text.trim();
     if (!trimmed) return;
@@ -97,7 +135,7 @@ export default function BankerReceive() {
           }}
         />
 
-        {/* 🔹 고객 정보 바: 정적 텍스트로 표시 */}
+        {/* 🔹 고객 정보 바 */}
         <CustomerBar />
 
         <ChatPanel messages={messages} onSend={handleSend} />
@@ -107,24 +145,8 @@ export default function BankerReceive() {
   );
 }
 
-/* ---------------- 고객 정보 바 ---------------- */
-function CustomerBar() {
-  return (
-    <section className="mt-4 w-full bg-white rounded-2xl border border-slate-200 shadow-sm p-4">
-      <div className="flex items-center gap-2 text-lg font-semibold text-slate-700">
-        <UserIcon className="h-5 w-5 text-slate-700" />
-        <span>고객 정보</span>
-      </div>
-      <div className="mt-3 ml-[2.1rem] text-slate-800 text-base font-medium">
-        김희희
-        <span className="mx-2 text-slate-400">|</span>
-        XX은행 1002-123-4567
-      </div>
-    </section>
-  );
-}
-
 /* ---------------- 상담 대화창 ---------------- */
+function ChatPanel({ messages, onSend }) {
 function ChatPanel({ messages, onSend }) {
   const [input, setInput] = useState("");
   const bottomRef = useRef(null);
@@ -137,6 +159,7 @@ function ChatPanel({ messages, onSend }) {
     const txt = input.trim();
     if (!txt) return;
     onSend?.(txt);
+    onSend?.(txt);
     setInput("");
   };
 
@@ -148,7 +171,9 @@ function ChatPanel({ messages, onSend }) {
       </div>
 
       <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
+      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
         {messages.map((m, i) => (
+          <ChatBubble key={m.id ?? i} role={m.from || m.role} text={m.text} />
           <ChatBubble key={m.id ?? i} role={m.from || m.role} text={m.text} />
         ))}
         <div ref={bottomRef} />
@@ -175,7 +200,6 @@ function ChatPanel({ messages, onSend }) {
 
 /* ---------------- 말풍선 ---------------- */
 function ChatBubble({ role, text }) {
-  // system 메시지: 가운데 정렬 안내문
   if (role === "system") {
     return (
       <div className="w-full flex justify-center my-4">
@@ -199,10 +223,10 @@ function ChatBubble({ role, text }) {
     );
   }
 
-  // 일반 메시지
   const isAgent = (role || "agent") === "agent";
   return (
     <div
+      className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
       className={"flex items-start gap-2 " + (isAgent ? "" : "justify-end")}
     >
       {isAgent && <AvatarCommon />}
@@ -238,7 +262,6 @@ function ASRPanel() {
   const [mode, setMode] = useState("응답");
   const [text, setText] = useState("");
 
-  // 진행바 애니메이션
   useEffect(() => {
     const id = setInterval(() => setStage((s) => (s + 1) % 4), 1600);
     return () => clearInterval(id);
@@ -251,7 +274,6 @@ function ASRPanel() {
   return (
     <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
       <div className="flex items-center gap-4">
-        {/* 왼쪽: 동그라미 버튼 (수어 아이콘) */}
         <div className="shrink-0 w-20 h-20 rounded-full border-2 border-slate-300 grid place-items-center">
           <button
             type="button"
@@ -273,7 +295,6 @@ function ASRPanel() {
           </button>
         </div>
 
-        {/* 가운데: 제목 / 진행바 / 입력창 */}
         <div className="flex-1">
           <div className="font-semibold text-base text-slate-800">
             {isRec ? "녹음 중..." : "수어 인식 중..."}
@@ -319,7 +340,6 @@ function ASRPanel() {
           </div>
         </div>
 
-        {/* 오른쪽: 버튼 두 개 세로 */}
         <div className="flex flex-col gap-2">
           <button className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap">
             응답 전송
@@ -425,7 +445,6 @@ function SendReceiveToggle({ active }) {
 
   return (
     <div className="inline-flex items-center rounded-full bg-slate-200 p-1 shadow-sm">
-      {/* 송신 */}
       <button
         type="button"
         onClick={() => {
@@ -441,7 +460,6 @@ function SendReceiveToggle({ active }) {
         송신
       </button>
 
-      {/* 수신 */}
       <button
         type="button"
         onClick={() => {

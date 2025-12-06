@@ -1,8 +1,12 @@
 // frontend_clean/src/pages/Deaf/Receive.jsx
 import React, { useEffect, useRef, useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
-import NavTabs from "../../components/NavTabs";
+// import NavTabs from "../../components/NavTabs";
 import { useChatStore } from "../../store/chatstore";
+
+// 기본 영상/자막은 없음 (현재는 미사용이지만 그대로 둠)
+const DEFAULT_VIDEO_SRC = null;
+const DEFAULT_CAPTION = "";
 
 // 기본 영상/자막은 없음 (현재는 미사용이지만 그대로 둠)
 const DEFAULT_VIDEO_SRC = null;
@@ -15,6 +19,7 @@ const API_BASE =
 const PANEL_HEIGHT = "h-[560px]";
 const SESSION_KEY = "signanceSessionId";
 
+// DeafReceive는 세션을 "만들지 않고" 이미 만들어진 세션만 읽기
 // DeafReceive는 세션을 "만들지 않고" 이미 만들어진 세션만 읽기
 function getExistingSessionId() {
   try {
@@ -34,11 +39,23 @@ export default function DeafReceive() {
   }, [setMessages]);
 
   // BankerSend에서 만든 session_id만 읽어서 사용
+  // BankerSend에서 만든 session_id만 읽어서 사용
   const [sessionId, setSessionId] = useState(() => getExistingSessionId());
 
   // DeafReceive에서 '여기서부터 새 상담방처럼 보기' 기준 시간
   const [resetAfter, setResetAfter] = useState(() => Date.now());
 
+  // 문장별 영상 히스토리
+  const [history, setHistory] = useState([]); // [{ id, videoUrl, ... }]
+  const [currentIndex, setCurrentIndex] = useState(-1);
+
+  const currentItem = useMemo(
+    () =>
+      currentIndex >= 0 && currentIndex < history.length
+        ? history[currentIndex]
+        : null,
+    [history, currentIndex]
+  );
   // 문장별 영상 히스토리
   const [history, setHistory] = useState([]); // [{ id, videoUrl, ... }]
   const [currentIndex, setCurrentIndex] = useState(-1);
@@ -60,10 +77,15 @@ export default function DeafReceive() {
   // "초기 스냅샷(ts만 읽기)"가 끝났는지 여부
   const initializedRef = useRef(false);
 
+  
+  // 다음 문장을 기다리는 중인지 여부
+  const waitingForNextRef = useRef(false);
+
   // DeafReceive 처음 들어올 때 기존 영상은 "이미 본 것"으로 처리
   useEffect(() => {
     const existing = localStorage.getItem("signanceDeafVideoUrl");
     if (existing) {
+      lastVideoKeyRef.current = existing;
       lastVideoKeyRef.current = existing;
     }
   }, []);
@@ -73,6 +95,7 @@ export default function DeafReceive() {
     localStorage.setItem("signanceDeafStatus", "idle");
   }, []);
 
+  // 다른 탭/페이지에서 SESSION_KEY가 바뀌면 따라감
   // 다른 탭/페이지에서 SESSION_KEY가 바뀌면 따라감
   useEffect(() => {
     const onStorage = (e) => {
@@ -132,14 +155,149 @@ export default function DeafReceive() {
     };
   }, [sessionId]);
 
+  /* ------------------- 초기 스냅샷: 이전 결과(ts만 기억, 화면에는 안 띄움) ------------------- */
+  useEffect(() => {
+    if (!sessionId) return;
+
+    let stopped = false;
+
+    const initLatestTs = async () => {
+      try {
+        const url = new URL(`${API_BASE}/api/accounts/sign_result/latest/`);
+        url.searchParams.set("session_id", sessionId);
+
+        const res = await fetch(url.toString());
+
+        if (stopped) return;
+
+        if (res.status === 204) {
+          // 아직 결과가 한 번도 없었다면 그냥 패스
+          initializedRef.current = true;
+          return;
+        }
+
+        if (!res.ok) {
+          console.error("init latest_sign_result 실패:", await res.text());
+          initializedRef.current = true;
+          return;
+        }
+
+        const data = await res.json();
+        const ts = data.timestamp || data.ts || null;
+
+        // 이전에 만들어져 있던 마지막 ts만 기억해두고 화면에는 안 보여줌
+        if (ts) {
+          lastResultTsRef.current = ts;
+        }
+        initializedRef.current = true;
+      } catch (err) {
+        console.error("init latest_sign_result error:", err);
+        initializedRef.current = true;
+      }
+    };
+
+    initLatestTs();
+
+    return () => {
+      stopped = true;
+    };
+  }, [sessionId]);
+
   /* ------------------- 영상 재생 완료 시 ------------------- */
-  const handleVideoEnded = () => {
-    // 자동으로 다음 문장을 재생하지는 않고, 상태만 ready로
-    localStorage.setItem("signanceDeafStatus", "video_ready");
-  };
+/* ------------------- 영상 재생 완료 시 ------------------- */
+const handleVideoEnded = () => {
+  setCurrentIndex((idx) => {
+    if (idx < 0) return idx; // 아직 아무 것도 없을 때
+
+    const nextIdx = idx + 1;
+
+    // 이미 history에 다음 문장이 있는 경우 → 바로 다음 문장 재생
+    if (nextIdx < history.length) {
+      // 다음 문장 재생 준비 상태
+      waitingForNextRef.current = false;
+      localStorage.setItem("signanceDeafStatus", "video_ready");
+      return nextIdx; // VideoPanel에서 videoSrc 바뀌면서 자동 재생
+    }
+
+    // 다음 문장이 아직 안 온 경우 → "다음 발화 대기 중"
+    waitingForNextRef.current = true;
+    localStorage.setItem("signanceDeafStatus", "waiting_next");
+    return idx;
+  });
+};
+
 
   /* ------------------- 서버 폴링 (영상 수신) ------------------- */
+  /* ------------------- 서버 폴링 (영상 수신) ------------------- */
   useEffect(() => {
+    if (!sessionId) return;
+
+    let stopped = false;
+
+    const fetchLatestResult = async () => {
+      if (stopped) return;
+
+      // 초기 스냅샷 읽기 전이라면 대기
+      if (!initializedRef.current) return;
+
+      try {
+        const url = new URL(`${API_BASE}/api/accounts/sign_result/latest/`);
+        url.searchParams.set("session_id", sessionId);
+
+        const res = await fetch(url.toString());
+        if (res.status === 204) {
+          // 아직 결과 없음
+          return;
+        }
+        if (!res.ok) {
+          console.error("latest_sign_result 실패:", await res.text());
+          return;
+        }
+
+        const data = await res.json();
+        const ts = data.timestamp || data.ts || null;
+
+        // 같은 결과(ts 기준)를 또 처리하지 않도록 방지
+        if (!ts || ts === lastResultTsRef.current) return;
+        lastResultTsRef.current = ts;
+
+        // 1) 영상 리스트 구성 (문장 단위 + 개별 영상)
+        const rawSentenceUrl =
+          data.sentence_video_url ||
+          data.video_url ||
+          data.sign_video_url ||
+          data.sign_video_path ||
+          null;
+
+        const baseList =
+          data.sign_video_list ||
+          data.video_urls ||
+          data.video_paths ||
+          (rawSentenceUrl ? [rawSentenceUrl] : []);
+
+        const fullList = (baseList || [])
+          .map((u) =>
+            typeof u === "string" && u.startsWith("http")
+              ? u
+              : `${API_BASE}${u}`
+          )
+          .filter(Boolean);
+
+        const primaryUrl =
+          (rawSentenceUrl &&
+            (rawSentenceUrl.startsWith("http")
+              ? rawSentenceUrl
+              : `${API_BASE}${rawSentenceUrl}`)) ||
+          fullList[0] ||
+          null;
+
+        // 2) 자막/글로스/모드
+        const captionClean = data.clean_text || "";
+        const captionRaw = data.text || "";
+        const glossLabels = Array.isArray(data.gloss_labels)
+          ? data.gloss_labels
+          : [];
+        const mode = data.mode || "";
     if (!sessionId) return;
 
     let stopped = false;
@@ -222,14 +380,45 @@ export default function DeafReceive() {
           rawText: captionRaw || "",
           glossLabels,
           mode,
+          videoUrl: primaryUrl,
+          videoList:
+            fullList.length > 0
+              ? fullList
+              : primaryUrl
+              ? [primaryUrl]
+              : [],
+          caption: captionClean || captionRaw || "",
+          rawText: captionRaw || "",
+          glossLabels,
+          mode,
         };
 
         // 3) 히스토리에 문장 추가 + 현재 인덱스를 마지막으로 이동
-        setHistory((prev) => {
-          const next = [...prev, item];
-          setCurrentIndex(next.length - 1);
-          return next;
-        });
+        // 3) 히스토리에 문장 추가
+      // 3) 히스토리에 문장 추가
+      setHistory((prev) => {
+        const next = [...prev, item];
+
+        // 아직 아무 문장도 선택되지 않은 상태라면
+        // 첫 문장을 현재 문장으로 선택 (자동 재생용)
+        if (prev.length === 0 && currentIndex === -1) {
+          // 첫 문장 인덱스(0)부터 재생
+          setCurrentIndex(0);
+        }
+        // 이전 영상이 끝나고 "다음 문장을 기다리는 중"이었다면
+        // 새로 들어온 문장을 바로 재생
+        else if (waitingForNextRef.current) {
+          const newIndex = next.length - 1; // 방금 들어온 문장
+          waitingForNextRef.current = false;
+          setCurrentIndex(newIndex); // VideoPanel에서 자동 재생
+          // 상태도 영상 재생 쪽으로 이동
+          localStorage.setItem("signanceDeafStatus", "video_ready");
+        }
+
+        return next;
+      });
+
+
 
         // 이 영상을 "마지막으로 본 영상"으로 기억
         lastVideoKeyRef.current = primaryUrl || null;
@@ -270,15 +459,18 @@ export default function DeafReceive() {
 
     return () => {
       stopped = true;
+      stopped = true;
       clearInterval(timer);
     };
-  }, [sessionId]);
+  }, [sessionId, currentIndex]);
+
 
   /* ------------------- 백엔드 채팅 폴링 (/api/accounts/chat/) ------------------- */
   useEffect(() => {
     let stopped = false;
 
     const fetchAllMessages = async () => {
+      // 세션이 없으면 그냥 채팅 비우고 리턴
       // 세션이 없으면 그냥 채팅 비우고 리턴
       if (!sessionId) {
         setMessages([]);
@@ -345,7 +537,11 @@ export default function DeafReceive() {
     // 1) 영상 히스토리 초기화
     setHistory([]);
     setCurrentIndex(-1);
+    // 1) 영상 히스토리 초기화
+    setHistory([]);
+    setCurrentIndex(-1);
     lastVideoKeyRef.current = null;
+    lastResultTsRef.current = null;
     lastResultTsRef.current = null;
 
     // 2) 상담 대화창 비우기 (전역 store)
@@ -366,12 +562,31 @@ export default function DeafReceive() {
   const hasPrev = currentIndex > 0;
   const hasNext = currentIndex >= 0 && currentIndex < history.length - 1;
 
+  const hasPrev = currentIndex > 0;
+  const hasNext = currentIndex >= 0 && currentIndex < history.length - 1;
+
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
-        <NavTabs rightSlot={<SendReceiveToggle active="receive" />} />
-
+        {/* <NavTabs rightSlot={<SendReceiveToggle active="receive" />} /> */}
+        <div className="flex items-center justify-end">
+          <SendReceiveToggle active="receive" />
+        </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 items-stretch">
+          <VideoPanel
+            item={currentItem}
+            onEnded={handleVideoEnded}
+            onPrev={() => {
+              setCurrentIndex((idx) => (idx > 0 ? idx - 1 : idx));
+            }}
+            onNext={() => {
+              setCurrentIndex((idx) =>
+                idx < history.length - 1 ? idx + 1 : idx
+              );
+            }}
+            hasPrev={hasPrev}
+            hasNext={hasNext}
+          />
           <VideoPanel
             item={currentItem}
             onEnded={handleVideoEnded}
@@ -412,6 +627,8 @@ function PanelHeader({ icon, title }) {
 /* ---------------- 수어 영상 패널 ---------------- */
 
 function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
+
+function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
   const vidRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
@@ -439,8 +656,34 @@ function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
 
   // 공통: videoSrc를 확실히 다시 물려주고 재생
   const playFromStart = async () => {
+  // 공통: videoSrc를 확실히 다시 물려주고 재생
+  const playFromStart = async () => {
     const v = vidRef.current;
     if (!v || !videoSrc) return;
+
+    setErrMsg("");
+    try {
+      // 혹시 남아있던 소스/상태 초기화
+      v.pause();
+      v.removeAttribute("src");
+      v.load();
+    } catch (e) {
+      // 무시
+    }
+
+    v.src = videoSrc;
+
+    try {
+      v.load();
+    } catch (e) {
+      // 무시
+    }
+
+    try {
+      v.currentTime = 0;
+    } catch (e) {
+      // 무시
+    }
 
     setErrMsg("");
     try {
@@ -476,6 +719,10 @@ function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
       // 한 번 실패하면 muted로 재시도
     }
 
+    } catch (e1) {
+      // 한 번 실패하면 muted로 재시도
+    }
+
     try {
       v.muted = true;
       await v.play();
@@ -484,12 +731,21 @@ function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
       localStorage.setItem("signanceDeafStatus", "video_playing");
     } catch (e2) {
       console.warn("video play failed in playFromStart:", e2);
+    } catch (e2) {
+      console.warn("video play failed in playFromStart:", e2);
       setErrMsg("영상 재생을 시작할 수 없습니다.");
     }
   };
 
   // 새 문장 들어올 때 자동 재생
+  // 새 문장 들어올 때 자동 재생
   useEffect(() => {
+    if (!videoSrc) {
+      setIsPlaying(false);
+      setShowOverlay(false);
+      setErrMsg("");
+      return;
+    }
     if (!videoSrc) {
       setIsPlaying(false);
       setShowOverlay(false);
@@ -505,15 +761,22 @@ function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
 
     const timer = setTimeout(() => {
       playFromStart();
+      playFromStart();
     }, 50);
 
     return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [videoSrc]);
 
   const handlePause = () => {
     setIsPlaying(false);
     setShowOverlay(false);
+  };
+
+  const handleReplay = () => {
+    // 그냥 현재 문장 처음부터 다시
+    playFromStart();
   };
 
   const handleReplay = () => {
@@ -591,13 +854,27 @@ function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
           }}
           disabled={!hasPrev}
         >
+        {/* 맨 왼쪽: 이전 문장 (◀◀) */}
+        <RoundBtn
+          label="이전 문장"
+          onClick={() => {
+            if (!hasPrev) return;
+            onPrev?.();
+          }}
+          disabled={!hasPrev}
+        >
           <PrevIcon />
         </RoundBtn>
 
         {/* 가운데: 현재 문장 재생 / 일시정지 */}
+        {/* 가운데: 현재 문장 재생 / 일시정지 */}
         <RoundBtn
           label={isPlaying ? "일시정지" : "재생"}
           onClick={() => {
+            const v = vidRef.current;
+            if (!videoSrc || !v) return;
+            if (isPlaying) v.pause();
+            else playFromStart();
             const v = vidRef.current;
             if (!videoSrc || !v) return;
             if (isPlaying) v.pause();
@@ -620,7 +897,21 @@ function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
             onNext?.();
           }}
           disabled={!hasNext}
+        {/* 오른쪽: 현재 문장 처음부터 다시 재생 */}
+        <RoundBtn label="다시재생" onClick={handleReplay}>
+          <ReplayIcon />
+        </RoundBtn>
+
+        {/* 맨 오른쪽: 다음 문장 (▶▶) */}
+        <RoundBtn
+          label="다음 문장"
+          onClick={() => {
+            if (!hasNext) return;
+            onNext?.();
+          }}
+          disabled={!hasNext}
         >
+          <NextIcon />
           <NextIcon />
         </RoundBtn>
       </div>
@@ -629,8 +920,10 @@ function VideoPanel({ item, onEnded, onPrev, onNext, hasPrev, hasNext }) {
 }
 
 
+
 /* ---------------- 말풍선 ---------------- */
 function ChatBubble({ role, text, mode }) {
+  // system 메시지: 가운데 정렬 안내문
   // system 메시지: 가운데 정렬 안내문
   if (role === "system") {
     return (
@@ -655,6 +948,7 @@ function ChatBubble({ role, text, mode }) {
     );
   }
 
+  // 일반 메시지
   // 일반 메시지
   const isAgent = role === "agent"; // 은행원 = 왼쪽, 고객 = 오른쪽
 
@@ -758,6 +1052,7 @@ function ChatPanel() {
         ))}
       </div>
 
+      {/* DeafSend와 동일한 입력창 + 보내기 버튼 */}
       {/* DeafSend와 동일한 입력창 + 보내기 버튼 */}
       <div className="mt-3 flex gap-2">
         <input
@@ -865,6 +1160,12 @@ function ASRPanel({ onResetAll }) {
         return { label: "음성 인식 중…", desc: "은행원 발화 인식 중", step: 0 };
       case "stt_done":
         return { label: "발화 인식 완료", desc: "텍스트 변환 완료", step: 1 };
+      case "waiting_next":
+        return {
+          label: "다음 발화 대기 중…",
+          desc: "은행원이 다음 문장을 발화하면 영상이 자동으로 재생돼요",
+          step: 1,
+        };
       case "video_ready":
         return { label: "영상 준비 완료", desc: "영상 재생 가능", step: 2 };
       case "video_playing":
@@ -881,6 +1182,7 @@ function ASRPanel({ onResetAll }) {
         };
     }
   })();
+
 
   return (
     <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
@@ -978,8 +1280,15 @@ function BubbleIcon() {
 }
 
 function RoundBtn({ children, label, onClick, disabled }) {
+function RoundBtn({ children, label, onClick, disabled }) {
   return (
     <button
+      onClick={disabled ? undefined : onClick}
+      disabled={disabled}
+      className={
+        "h-10 w-10 grid place-items-center rounded-full border border-slate-300 " +
+        (disabled ? "opacity-40 cursor-default" : "")
+      }
       onClick={disabled ? undefined : onClick}
       disabled={disabled}
       className={
@@ -995,6 +1304,13 @@ function RoundBtn({ children, label, onClick, disabled }) {
 
 function PrevIcon() {
   return (
+    <span className="text-xs leading-none select-none">◀◀</span>
+  );
+}
+
+function NextIcon() {
+  return (
+    <span className="text-xs leading-none select-none">▶▶</span>
     <span className="text-xs leading-none select-none">◀◀</span>
   );
 }

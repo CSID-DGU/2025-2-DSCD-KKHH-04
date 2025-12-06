@@ -1,4 +1,14 @@
 {
+  "text_normalization": [
+    {
+      "wrong": "됩니다",
+      "correct": "된다"
+    },
+    {
+      "wrong": "정립식",
+      "correct": "적립식"
+    }
+  ],
   "disambiguation_rules": {
     "-자": {
       "default_id": 101622,
