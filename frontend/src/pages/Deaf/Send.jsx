@@ -322,7 +322,6 @@ function VideoPanel({
 function ChatPanel() {
   const { messages, setMessages } = useChatStore();
 
-  const [input, setInput] = useState("");
   const listRef = useRef(null);
 
   // BankerSend에서 만든 session_id
@@ -423,40 +422,7 @@ function ChatPanel() {
     }
   }, [mappedMessages]);
 
-  // DeafSend에서 농인이 텍스트 보내기 → 백엔드 POST
-  const send = async () => {
-    const text = input.trim();
-    if (!text) return;
-
-    const curSession = sessionId || getExistingSessionId();
-    if (!curSession) {
-      alert("상담 세션이 없습니다. 은행원 화면에서 상담을 시작해 주세요.");
-      return;
-    }
-
-    try {
-      const res = await fetch(`${API_BASE}/api/accounts/chat/`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        credentials: "include",
-        body: JSON.stringify({
-          session_id: curSession,
-          sender: "deaf",
-          role: "",
-          text,
-        }),
-      });
-
-      if (!res.ok) {
-        console.error("DeafSend chat POST 실패:", await res.text());
-      }
-
-      setInput("");
-    } catch (err) {
-      console.error("DeafSend chat POST error:", err);
-    }
-  };
-
+  // 🔹 하단 입력창은 완전히 제거 → 읽기 전용 채팅창
   return (
     <section
       className={`bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col ${PANEL_HEIGHT}`}
@@ -471,26 +437,9 @@ function ChatPanel() {
           <ChatBubble key={i} role={m.role} text={m.text} />
         ))}
       </div>
-
-      <div className="mt-3 flex gap-2">
-        <input
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => (e.key === "Enter" ? send() : undefined)}
-          placeholder="메시지를 입력하세요"
-          className="flex-1 h-11 rounded-xl border border-slate-300 px-3 text-base text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300"
-        />
-        <button
-          onClick={send}
-          className="h-11 px-4 rounded-xl bg-slate-900 text-white text-base font-medium hover:bg-slate-800"
-        >
-          보내기
-        </button>
-      </div>
     </section>
   );
 }
-
 /* ---------------- 수어 인식 결과 패널 ---------------- */
 
 function ASRPanel({ respText, isActive, onSend }) {
