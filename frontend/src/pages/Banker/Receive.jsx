@@ -132,7 +132,7 @@ function ChatPanel({ messages, onSend }) {
         <span>상담 대화창</span>
       </div>
 
-      <div className="mt-3 flex-1 overflow-y-auto space-y-2 pr-2">
+      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
         {messages.map((m, i) => (
           <ChatBubble
             key={m.id ?? i}
@@ -142,6 +142,7 @@ function ChatPanel({ messages, onSend }) {
         ))}
         <div ref={bottomRef} />
       </div>
+
 
       <div className="mt-3 flex gap-2">
         <input

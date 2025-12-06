@@ -17,12 +17,46 @@ const API_BASE =
   import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 const SESSION_KEY = "signanceSessionId";
 
+
 // Deaf 쪽에서도 기존 세션 읽어오기
 function getExistingSessionId() {
   try {
     return localStorage.getItem(SESSION_KEY) || null;
   } catch {
     return null;
+  }
+}
+
+// 🔹 공통: 농인(deaf) 채팅 전송 함수
+async function sendDeafChat(text, mode = "") {
+  const trimmed = (text || "").trim();
+  if (!trimmed) return;
+
+  const sessionId = getExistingSessionId();
+  if (!sessionId) {
+    alert("상담 세션이 없습니다. 은행원 화면에서 상담을 시작해 주세요.");
+    return;
+  }
+
+  try {
+    const res = await fetch(`${API_BASE}/api/accounts/chat/`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "include",
+      body: JSON.stringify({
+        session_id: sessionId,
+        sender: "deaf",
+        // 질문 / 응답 모드 정보도 같이 보내고 싶으면 role에 넣기
+        role: mode === "질문" || mode === "응답" ? mode : "",
+        text: trimmed,
+      }),
+    });
+
+    if (!res.ok) {
+      console.error("sendDeafChat POST 실패:", await res.text());
+    }
+  } catch (err) {
+    console.error("sendDeafChat POST error:", err);
   }
 }
 
@@ -100,7 +134,11 @@ export default function DeafSend() {
 
         {/* 하단 수어 인식 결과 패널 */}
         <div className="mt-4">
-          <ASRPanel respText={prediction} isActive={recognizing} />
+          <ASRPanel 
+          respText={prediction} 
+          isActive={recognizing} 
+          onSend={sendDeafChat}
+          />
         </div>
       </main>
     </div>
@@ -455,13 +493,25 @@ function ChatPanel() {
 
 /* ---------------- 수어 인식 결과 패널 ---------------- */
 
-function ASRPanel({ respText, isActive }) {
+function ASRPanel({ respText, isActive, onSend }) {
   const [mode, setMode] = useState("응답");
   const [text, setText] = useState("");
 
   useEffect(() => {
     setText(respText);
   }, [respText]);
+
+  // 🔹 여기 추가
+  const handleSend = async () => {
+    const msg = (text || "").trim();
+    if (!msg) return;
+
+    if (onSend) {
+      await onSend(msg, mode);  // mode: "질문" / "응답"
+    }
+    // 전송 후 비우고 싶으면 아래 주석 해제
+    // setText("");
+  };
 
   return (
     <section className="bg-white rounded-2xl shadow-sm border border-slate-200 p-4">
@@ -517,9 +567,13 @@ function ASRPanel({ respText, isActive }) {
         </div>
 
         <div className="flex flex-col gap-2">
-          <button className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap">
+          <button
+            onClick={handleSend}
+            className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap"
+          >
             응답 전송
           </button>
+
           <button className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap">
             번역 오류
           </button>
