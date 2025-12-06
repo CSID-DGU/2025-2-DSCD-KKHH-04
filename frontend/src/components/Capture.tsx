@@ -1,13 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import type { Frame as HandsFrame } from "@/hooks/useHands";
+import type { Frame as HandsFrame } from "../hooks/useHands";
 import type {
   Frame as TxFrame,
   Hand as TxHand,
-} from "@/lib/seqTransport";
-import { useHands } from "@/hooks/useHands";
-import { useSequenceSender } from "@/hooks/useSequenceSender";
+} from "../lib/seqTransport";
+import { useHands } from "../hooks/useHands";
+import { useSequenceSender } from "../hooks/useSequenceSender";
 
-// ✅ useHands.Frame → seqTransport.Frame 변환 헬퍼
+// useHands.Frame → seqTransport.Frame 변환 헬퍼
 function toTxFrame(frame: HandsFrame): TxFrame {
   return {
     ts: frame.ts,

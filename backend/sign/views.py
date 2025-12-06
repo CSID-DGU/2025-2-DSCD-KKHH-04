@@ -11,7 +11,7 @@ from .segment_infer import (
     infer_segments_from_seq,
     load_seq_from_npz,
 )
-from .gemini_client import gloss_to_sentence_korean
+from .intersection import gloss_tokens_to_korean  # ✅ 단어 1개 예외 처리 + Gemini 호출 래퍼
 
 
 @api_view(["POST", "OPTIONS"])
@@ -57,9 +57,10 @@ def ingest_and_infer(request):
     1) frames를 받아서 npz로 저장 (enqueue_frames)
     2) 저장된 npz에서 (T,F) 시퀀스를 로드
     3) segment_infer.infer_segments_from_seq 로 세그먼트 + 글로스 시퀀스 추론
-    4) 글로스 토큰 시퀀스를 gemini_client.gloss_to_sentence_korean 으로 보내
-       자연스러운 한국어 문장 생성
-    5) 저장 정보 + 세그먼트/글로스/Gemini 결과를 같이 반환
+    4) 글로스 토큰 시퀀스를 intersection.gloss_tokens_to_korean 으로 보내
+       - 단어 1개면 Gemini 거치지 않고 '입니다/에요'만 붙이고
+       - 단어 2개 이상이면 Gemini로 자연스러운 한국어 문장 생성
+    5) 저장 정보 + 세그먼트/글로스/한국어 문장을 같이 반환
     """
     # CORS preflight
     if request.method == "OPTIONS":
@@ -128,16 +129,18 @@ def ingest_and_infer(request):
     gloss_tokens = seg_result.get("tokens", [])
     gloss_sentence = seg_result.get("gloss_sentence", "")
 
-    # 4) Gemini 로 자연어 문장 생성
+    # 4) 글로스 토큰 → 한국어 문장
+    #    - 단어 1개면 Gemini 안 거치고 '입니다/에요'만 붙이는 로직은
+    #      intersection.gloss_tokens_to_korean 안에 들어있음
     try:
-        natural_sentence = gloss_to_sentence_korean(gloss_tokens)
+        natural_sentence = gloss_tokens_to_korean(gloss_tokens)
     except Exception as e:
         return Response(
-            {"ok": False, "error": f"Gemini 호출 에러: {e}"},
+            {"ok": False, "error": f"문장 생성 에러: {e}"},
             status=status.HTTP_500_INTERNAL_SERVER_ERROR,
         )
 
-    # 5) 저장 정보 + 세그먼트/글로스/Gemini 결과 한꺼번에 반환
+    # 5) 저장 정보 + 세그먼트/글로스/한국어 문장 한꺼번에 반환
     return Response(
         {
             "ok": True,
@@ -146,7 +149,7 @@ def ingest_and_infer(request):
             "fps": fps_val,
             "text": f"{T}프레임을 {file_path} 로 저장했습니다.",
 
-            # 세그먼트 + 글로스 + Gemini 결과
+            # 세그먼트 + 글로스 + 한국어 문장 결과
             "gloss_tokens": gloss_tokens,
             "gloss_sentence": gloss_sentence,
             "natural_sentence": natural_sentence,
