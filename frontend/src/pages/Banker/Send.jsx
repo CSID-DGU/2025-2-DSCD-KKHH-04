@@ -604,6 +604,22 @@ function ChatBubble({ role, text, mode, editable, onClick, onDelete }) {
   );
 }
 
+function AvatarCommon() {
+  return (
+    <div className="w-9 h-9 rounded-full bg-slate-200 grid place-items-center overflow-hidden">
+      <svg
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        fill="currentColor"
+        className="text-slate-500"
+      >
+        <circle cx="12" cy="8" r="4" />
+        <path d="M3 21a9 9 0 0 1 18 0" />
+      </svg>
+    </div>
+  );
+}
 
 /* ---------------- 아이콘 & 토글 ---------------- */
 function BubbleIcon() {
