@@ -21,6 +21,7 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* ❗❗ 문제였던 flex 제거 */
   body {
     margin: 0;
     min-width: 320px;

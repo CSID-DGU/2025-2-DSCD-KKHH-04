@@ -57,6 +57,8 @@ export default function DeafIndex() {
     "mx-auto w-full max-w-5xl rounded-3xl bg-white/90 border border-blue-200/60 " +
     "shadow-[0_8px_40px_rgba(30,64,175,0.12)] px-16 py-10 sm:px-20 sm:py-12 " +
     "backdrop-blur-sm text-center";
+    "shadow-[0_8px_40px_rgba(30,64,175,0.12)] px-16 py-10 sm:px-20 sm:py-12 " +
+    "backdrop-blur-sm text-center";
 
   return (
     <div className="relative min-h-screen bg-gradient-to-b from-[#f5f9fc] to-[#eaf3fb]">
@@ -113,8 +115,10 @@ export default function DeafIndex() {
 
         <div className={panel}>
           {/* 일러스트 + 제목 */}
+          {/* 일러스트 + 제목 */}
           <div className="flex flex-col items-center mb-10">
             <div className="bg-[#e3f2fd] p-5 rounded-full mb-5 shadow-inner mt-4">
+              {/* 타원형 컨테이너 */}
               {/* 타원형 컨테이너 */}
               <div className="w-40 h-44 rounded-[50%/55%] overflow-hidden">
                 <img
@@ -129,6 +133,7 @@ export default function DeafIndex() {
             </h2>
           </div>
 
+          {/* 버튼 두 개 */}
           {/* 버튼 두 개 */}
           <div className="flex justify-center gap-10 mt-8">
             {/* 은행원에게 메시지 보내기 = DeafSend로 이동 */}

@@ -84,6 +84,92 @@ function getLogTimeValue(log) {
   const d = parseLogDate(cand);
   return d ? d.getTime() : 0;
 }
+// frontend_clean/src/pages/PerformanceDashboard.jsx
+import React, { useEffect, useState, useMemo } from "react";
+import { useNavigate } from "react-router-dom";
+import { XCircle } from "lucide-react";
+import { computeCER } from "../utils/cer";
+
+const API_BASE =
+  import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+
+function msToSec(ms) {
+  if (ms == null || isNaN(ms)) return "-";
+  return (ms / 1000).toFixed(2);
+}
+
+// 여러 형태의 시간 값을 다 받아주는 파서
+function parseLogDate(ts) {
+  if (!ts) return null;
+
+  // Date 객체
+  if (ts instanceof Date) return isNaN(ts.getTime()) ? null : ts;
+
+  // 숫자(ms)
+  if (typeof ts === "number") {
+    const d = new Date(ts);
+    return isNaN(d.getTime()) ? null : d;
+  }
+
+  if (typeof ts === "string") {
+    // 1) 일반 ISO 문자열
+    let d = new Date(ts);
+    if (!isNaN(d.getTime())) return d;
+
+    // 2) now_ts(): "YYYYMMDD_HHMMSS"
+    const m = ts.match(
+      /^(\d{4})(\d{2})(\d{2})[_-]?(\d{2})(\d{2})(\d{2})$/
+    );
+    if (m) {
+      const [, y, mo, da, h, mi, s] = m;
+      d = new Date(
+        Number(y),
+        Number(mo) - 1,
+        Number(da),
+        Number(h),
+        Number(mi),
+        Number(s)
+      );
+      if (!isNaN(d.getTime())) return d;
+    }
+  }
+
+  return null;
+}
+
+function formatTs(ts) {
+  const d = parseLogDate(ts);
+  if (!d) return "-";
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(
+    2,
+    "0"
+  )}-${String(d.getDate()).padStart(2, "0")} ${String(
+    d.getHours()
+  ).padStart(2, "0")}:${String(d.getMinutes()).padStart(
+    2,
+    "0"
+  )}:${String(d.getSeconds()).padStart(2, "0")}`;
+}
+
+// 로그 객체에서 시간 후보 뽑기
+function getLogTs(log) {
+  if (!log) return null;
+  return (
+    log.ts ||
+    log.createdAt ||
+    log.created_at ||
+    log.timestamp ||
+    log.time ||
+    null
+  );
+}
+
+// 정렬용 숫자(ms)
+function getLogTimeValue(log) {
+  const cand = getLogTs(log);
+  const d = parseLogDate(cand);
+  return d ? d.getTime() : 0;
+}
 
 export default function PerformanceDashboard() {
   const [logs, setLogs] = useState([]);
@@ -714,6 +800,9 @@ function SummaryCard({ label, value }) {
 
 function DetailMetric({ label, value }) {
   return (
+    <div className="flex flex-col gap-0.5">
+      <span className="text-[11px] text-slate-500">{label}</span>
+      <span className="text-sm text-slate-900">{value}</span>
     <div className="flex flex-col gap-0.5">
       <span className="text-[11px] text-slate-500">{label}</span>
       <span className="text-sm text-slate-900">{value}</span>
