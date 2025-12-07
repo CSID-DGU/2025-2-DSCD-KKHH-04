@@ -377,6 +377,14 @@ export default function PerformanceDashboard() {
 
               <button
                 type="button"
+                onClick={() => exportTokenCsv(logs)}
+                className="px-3 h-8 rounded-lg border border-slate-300 text-xs text-slate-600 bg-white hover:bg-slate-50"
+              >
+                토큰 CSV로 내보내기
+              </button>
+
+              <button
+                type="button"
                 onClick={() => {
                   if (!window.confirm("정말 모든 로그를 초기화할까요?")) return;
                   setLogs([]);
@@ -631,6 +639,36 @@ export default function PerformanceDashboard() {
                 </div>
               </div>
 
+              {Array.isArray(detailLog.tokens) &&
+                detailLog.tokens.length > 0 && (
+                  <div>
+                    <div className="text-xs text-slate-500 mb-0.5">
+                      글로스 토큰 시퀀스
+                    </div>
+                    <div className="flex flex-wrap gap-1 max-h-32 overflow-y-auto border border-slate-200 rounded-lg p-2">
+                      {detailLog.tokens.map((t, idx) => (
+                        <span
+                          key={idx}
+                          className={`px-1.5 py-0.5 rounded-full text-[11px] border ${
+                            t.type === "gloss"
+                              ? "border-emerald-400 bg-emerald-50"
+                              : t.type === "image"
+                              ? "border-indigo-400 bg-indigo-50"
+                              : t.type === "pause"
+                              ? "border-amber-400 bg-amber-50"
+                              : "border-slate-300 bg-slate-50"
+                          }`}
+                        >
+                          <span className="mr-1">{t.text}</span>
+                          <span className="text-[10px] text-slate-500">
+                            {t.type}
+                          </span>
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
               {/* 상세창에도 발화 / 영상 길이 표시 */}
               {(() => {
                 const utterMs =
@@ -783,5 +821,73 @@ function exportLatencyCsv(logs) {
   } catch (e) {
     console.error(e);
     alert("로그 내보내기 중 오류가 발생했습니다.");
+  }
+}
+
+function exportTokenCsv(logs) {
+  try {
+    const realLogs = (logs || []).filter(
+      (l) => !l._isDividerOnly && Array.isArray(l.tokens) && l.tokens.length > 0
+    );
+
+    if (!realLogs.length) {
+      alert("토큰 정보가 포함된 로그가 없습니다.");
+      return;
+    }
+
+    const header = [
+      "sample_idx", // 한 문장(로그) 기준 인덱스
+      "ts",
+      "sentence",
+      "token_idx", // 토큰 순서
+      "token_text",
+      "token_type",
+    ];
+
+    const rows = [];
+
+    realLogs.forEach((row, i) => {
+      const ts = row.ts || row.timestamp || row.time || "";
+      const sentence = row.sentence || "";
+      const tokens = row.tokens || [];
+
+      tokens.forEach((t, idx) => {
+        rows.push([
+          i + 1,
+          ts,
+          sentence,
+          idx + 1,
+          t?.text ?? "",
+          t?.type ?? "",
+        ]);
+      });
+    });
+
+    const csvLines = [
+      header.join(","),
+      ...rows.map((r) =>
+        r
+          .map((v) => {
+            const s = String(v ?? "");
+            // 따옴표 이스케이프 + 전체를 큰따옴표로 감싸기
+            return `"${s.replace(/"/g, '""')}"`;
+          })
+          .join(",")
+      ),
+    ];
+
+    const csv = csvLines.join("\n");
+    const blob = new Blob([csv], {
+      type: "text/csv;charset=utf-8;",
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "signance_token_logs.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+  } catch (e) {
+    console.error(e);
+    alert("토큰 로그 내보내기 중 오류가 발생했습니다.");
   }
 }

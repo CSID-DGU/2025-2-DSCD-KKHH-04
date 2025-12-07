@@ -65,7 +65,9 @@ except Exception:
 load_dotenv()
 
 # 2. 환경 변수
+print("[PIPELINE] GOOGLE_API_KEY =", os.getenv("GOOGLE_API_KEY"))
 GOOGLE_API_KEY = (os.getenv("GOOGLE_API_KEY") or "").strip().strip("'\"")
+print("[DEBUG] GOOGLE_API_KEY prefix:", (GOOGLE_API_KEY or "")[:15], "...")
 
 if not GOOGLE_API_KEY:
     print("⚠️  [Warn] GOOGLE_API_KEY가 설정되지 않았습니다. Gemini 없이 로컬 규칙만 사용합니다.")
@@ -284,7 +286,7 @@ def log_gloss_mapping(
             writer.writeheader()
         writer.writerow(row)
 
-
+# 파일 업로드
 print("🔄 NEW pipeline.py loaded")
 print("📁 GLOSS_DICT_PATH   =", GLOSS_DICT_PATH)
 print("📁 RULES_BASE_PATH   =", RULES_BASE_PATH)
@@ -559,6 +561,7 @@ def build_gemini():
     출력:
 
     {{
+        ]
 
         "cleaned": "금리 1년 3.5 퍼센트 점수 특별 적용",
 
@@ -573,7 +576,6 @@ def build_gemini():
             {{ "text": "특별", "type": "gloss" }},
             {{ "text": "적용", "type": "gloss" }}
 
-        ]
 
     }}
 

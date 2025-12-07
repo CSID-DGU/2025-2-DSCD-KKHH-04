@@ -909,7 +909,8 @@ export default function ASRPanel({ onPushToChat }) {
       </section>
 
       {/* 문장별 latency 표시 */}
-{latencyList.length > 0 && (
+      
+{false && latencyList.length > 0 && (
   <div className="mt-2 space-y-0.5 text-xs text-slate-500">
     {latencyList.map((lat, idx) => {
       // lat이 비어있으면 렌더링 스킵 (undefined 방어)

@@ -5,9 +5,8 @@ Django API(/speech_to_sign)에서 호출되는 파이프라인 래퍼
 
 기능:
 - 업로드된 audio 파일 → wav 변환
-- STT → clean → gloss 추출
-- gloss → gloss_id 매핑
-- gloss_id → mp4 영상 리스트
+- STT → Gemini(NLP) → cleaned + tokens(gloss/image/pause)
+- tokens → gloss_list / gloss_ids / 수어 mp4 영상 리스트
 - 문장 단위 영상 concat
 - latency 측정
 - 스냅샷(snapshot) 저장 (backend/snapshots/api)
@@ -24,6 +23,7 @@ import csv
 import ast
 import contextlib
 import wave
+import re
 
 from django.conf import settings
 from django.core.cache import cache  # 🔹 추가
@@ -47,12 +47,8 @@ from .pipeline import (
     apply_text_normalization,
     WHISPER_LOAD_MS,
     log_gloss_mapping,    # 🔹 gloss 매핑 로그
-    extract_tokens,
-    generate_image_video,
+    build_video_sequence_from_tokens,  # 🔹 tokens → 영상 시퀀스
 )
-# 로컬 규칙 기반 gloss 추출용 (Gemini 실패 시에만 사용)
-from .pipeline import generate_image_video
-import re
 
 # ==============================
 # API Snapshot 디렉토리
@@ -64,70 +60,69 @@ API_SNAPSHOT_DIR.mkdir(parents=True, exist_ok=True)
 
 def nlp_with_gemini(text, model):
     """
-    Gemini가 {"clean": "...", "gloss": [...]} 형태로 줄 때
-    clean & gloss 모두 가져오는 함수.
-    오류 시 fallback = (원문 정규화, 로컬 gloss)
+    Gemini가 {"cleaned": "...", "tokens": [...]} 형식으로 줄 때
+    cleaned & tokens 모두 가져오는 함수.
+    오류 시 fallback = (STT 정규화, 로컬 gloss)
 
     반환:
-      clean_text: 교정된 문장 (또는 STT 정규화)
-      gloss_list: 의미 단위 토큰 리스트
+      cleaned: 정규화된 한국어 문장 (자막용)
+      gloss : tokens 중 type=="gloss"만 뽑은 리스트
+      tokens: [{text, type}] 리스트 (gloss / image / pause)
     """
-    # 1) Gemini 모델이 전혀 준비 안 된 경우 → STT 정규화 + 로컬 규칙 gloss
+    clean = _norm(text)
+
+    # 1) Gemini 모델이 아예 없으면 → 정규화 + 로컬 규칙
     if not model:
-        clean = _norm(text)
+        tokens = []
         gloss = _local_gloss_rules(clean)
-        return clean, gloss
+        return clean, gloss, tokens
 
     try:
-        # 2) Gemini 호출
-        #    system_instruction(build_gemini)에서 이미
-        #    {"clean":"…","gloss":["…"]} 형식으로 JSON만 반환하도록 지시함.
-        prompt = f"""
-역할: 한국어 전사 교정 + 수어 글로스 추출기.
-아래 한국어 문장을 기반으로 JSON 하나만 반환하세요.
+        # build_gemini에서 system_instruction + response_mime_type=application/json 세팅 완료
+        parts = [{"role": "user", "parts": [clean]}]
+        resp = model.generate_content(parts)
 
-형식:
-{{
-  "clean": "<교정된 자연스러운 한국어 문장>",
-  "gloss": ["의미단어1","의미단어2", ...]
-}}
+        raw = resp.text if getattr(resp, "text", None) else ""
+        raw = (raw or "").strip()
 
-규칙:
-- "clean": 원문의 의미는 유지하되 불필요한 반복, 말투, 조사 등을 정리한 자연스러운 문장
-- "gloss": 조사를 제거한 핵심 의미 단어들만, 중복 없이 1~10개 정도
-- 출력은 위 JSON 하나만, 추가 설명/문장은 넣지 말 것.
+        # ```json ... ``` 래핑 제거
+        if raw.startswith("```"):
+            raw = raw.strip("`")
+            if raw.lower().startswith("json"):
+                raw = raw[4:].lstrip()
 
-입력: "{text}"
-"""
-        resp = model.generate_content(prompt)
+        # 본문에서 JSON 부분만 추출
+        start = raw.find("{")
+        end = raw.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            raw_json = raw[start : end + 1]
+        else:
+            raw_json = raw
 
-        # build_gemini에서 response_mime_type="application/json"을 줬기 때문에
-        # resp.text는 JSON 문자열이어야 함.
-        raw = resp.text
-        data = json.loads(raw)
+        obj = json.loads(raw_json)
 
-        # 3) clean / gloss 파싱
-        clean = _norm(data.get("clean", text))
+        cleaned = _norm(obj.get("cleaned") or clean)
+        tokens = obj.get("tokens") or []
 
-        gloss_raw = data.get("gloss", [])
-        gloss = []
-        for x in gloss_raw:
-            s = _norm(str(x))
-            if s:
-                gloss.append(s)
+        # gloss 리스트는 tokens에서 type=="gloss"만 모아서 만들기
+        gloss = [
+            (t.get("text") or "").strip()
+            for t in tokens
+            if isinstance(t, dict)
+            and t.get("type", "gloss") == "gloss"
+            and (t.get("text") or "").strip()
+        ]
 
-        # 혹시 gloss가 비어버렸다면 최소한 로컬 규칙이라도 사용
         if not gloss:
-            gloss = _local_gloss_rules(clean)
+            gloss = _local_gloss_rules(cleaned)
 
-        return clean, gloss
+        return cleaned, gloss, tokens
 
     except Exception as e:
-        # 4) 어떤 이유로든 Gemini 파싱 실패 시 → 안전한 fallback
         print(f"[Gemini NLP ERROR] {e}")
-        clean = _norm(text)
-        gloss = _local_gloss_rules(clean)
-        return clean, gloss
+        cleaned = _norm(text)
+        gloss = _local_gloss_rules(cleaned)
+        return cleaned, gloss, []
 
 
 def save_api_snapshot(payload: dict) -> str:
@@ -281,10 +276,10 @@ def get_audio_duration(path: Path) -> float:
 def process_audio_file(django_file, mode=None, session_id=None):
     """
     업로드된 오디오를 처리하여
-    STT → NLP → gloss_id → 영상 합성 → latency → snapshot 저장 → 최종 응답
+    STT → Gemini(NLP) → tokens → gloss_id → 영상 합성 → latency → snapshot 저장 → 최종 응답
 
     mode: "질문" / "응답" 등 프론트에서 넘겨주는 발화 타입 (선택)
-    session_id: 이번 상담 세션 식별자 (선택)from .pipeline import
+    session_id: 이번 상담 세션 식별자 (선택)
     """
 
     # ----------------------------------------
@@ -315,89 +310,48 @@ def process_audio_file(django_file, mode=None, session_id=None):
     latency["stt"] = round((t1 - t0) * 1000, 1)
     latency["stt_load"] = WHISPER_LOAD_MS  # whisper 모델 로딩 시간(ms, 최초 1회)
 
+    
+    # 자막/인풋박스에 쓸 문장 (원하면 여기서 살짝 _norm 해도 됨)
+    ui_text = _norm(text)
+
     # STT 성능 로그
     stt_ms = latency["stt"]
     ratio = stt_ms / (audio_sec * 1000 + 1e-6) if audio_sec else 0.0
     print(f"[Perf] audio_sec={audio_sec:.2f}, stt_ms={stt_ms:.1f}, ratio={ratio:.2f}")
     print(f"[DEBUG] STT raw text: {repr(text)}")
 
-    # 3) NLP 단계: clean + gloss 후보 (nlp_with_gemini는 일단 유지)
+    # ----------------------------------------
+    # 3) NLP 단계: clean + gloss + tokens (Gemini)
+    # ----------------------------------------
     model = GEMINI_MODEL
 
     t2 = time.perf_counter()
-    clean_text, _gloss_dummy = nlp_with_gemini(text, model)
+    clean_text, gloss_list, tokens = nlp_with_gemini(text, model)
     t3 = time.perf_counter()
     latency["nlp"] = round((t3 - t2) * 1000, 1)
 
     # 3-1) rules.json 기반 텍스트 정규화
     clean_text = apply_text_normalization(clean_text)
 
-    # 🔹 3-2) Gemini 토큰 추출: gloss / image / pause 모두 포함
-    tokens = extract_tokens(clean_text, model=model)
-
-    # 🔹 3-3) 파이프라인에서 쓸 gloss_list / image_tokens 분리
-    gloss_list = [
-        t["text"]
-        for t in tokens
-        if isinstance(t, dict)
-        and t.get("type", "gloss") == "gloss"
-        and (t.get("text") or "").strip()
-    ]
-
-    image_tokens = [
-        (t.get("text") or "").strip()
-        for t in tokens
-        if isinstance(t, dict)
-        and t.get("type") == "image"
-        and (t.get("text") or "").strip()
-    ]
-
     # ----------------------------------------
-    # 4) gloss → gloss_id 매핑
+    # 4) tokens → 영상 시퀀스 (토큰 순서 그대로)
     # ----------------------------------------
     t4 = time.perf_counter()
-    gloss_ids = to_gloss_ids(gloss_list, GLOSS_INDEX)
-    video_paths = _paths_from_ids(gloss_ids)
+    video_paths_for_concat, debug_info = build_video_sequence_from_tokens(
+        tokens=tokens,
+        db_index=GLOSS_INDEX,
+        original_text=clean_text,
+        # rules=None  # 넘기지 않으면 MERGED_RULES 사용
+        include_pause=False,   # pause를 실제 빈 화면으로 넣고 싶으면 True
+        pause_duration=0.7,
+        debug_log=True,        # 디버깅 로그 보고 싶으면 True
+    )
     t5 = time.perf_counter()
     latency["mapping"] = round((t5 - t4) * 1000, 1)
 
-    # 4-1) 숫자/이미지 토큰에 대한 fallback: 이미지 기반 동영상 생성
-    # 4-1) 텍스트 이미지 토큰 처리: image 토큰 + 숫자 패턴 fallback
-    extra_video_paths = []
+    # gloss_ids / gloss_labels는 "메타 정보" 용도로만 따로 계산
+    gloss_ids = to_gloss_ids(gloss_list, GLOSS_INDEX)
 
-    # (1) Gemini가 type="image"로 준 토큰 우선 처리
-    for t in image_tokens:
-        try:
-            img_mp4 = generate_image_video(t, duration=1.5)
-            extra_video_paths.append(img_mp4)
-            print(f"[ImageToken Video] token={t} -> {img_mp4}")
-        except Exception as e:
-            print(f"[ImageToken Video ERROR] token={t}: {e}")
-
-    # (2) 혹시 image로 안 찍혔지만 숫자 형태인 gloss들은 fallback으로 처리
-    num_pattern = re.compile(r"^\d+(\.\d+)?[가-힣%년월세원만원억개월회]*$")
-
-    for tok in gloss_list or []:
-        t = _norm(str(tok))
-        if not t:
-            continue
-
-        # 이미 image_tokens에서 처리된 값이면 생략
-        if t in image_tokens:
-            continue
-
-        if num_pattern.match(t):
-            try:
-                img_mp4 = generate_image_video(t, duration=1.5)
-                extra_video_paths.append(img_mp4)
-                print(f"[Fallback ImageVideo] token={t} -> {img_mp4}")
-            except Exception as e:
-                print(f"[Fallback ImageVideo ERROR] token={t}: {e}")
-
-    # 최종 합성에 쓸 경로들 (기존 수어 영상 + 숫자 이미지 영상)
-    video_paths_for_concat = video_paths + extra_video_paths
-
-    # gloss_id → 한글 meaning 대표 레이블
     gloss_labels = []
     for gid in gloss_ids:
         terms = GLOSS_MEANINGS.get(gid) or []
@@ -440,7 +394,6 @@ def process_audio_file(django_file, mode=None, session_id=None):
     print(f"gloss_list: {gloss_list}")
     print(f"gloss_ids: {gloss_ids}")
     print(f"gloss_labels: {gloss_labels}")
-    print(f"video_paths: {video_paths}")
     print(f"sentence_video_url: {sent_url}")
     print(f"latency_ms: {latency}")
     print(f"video_paths_for_concat: {video_paths_for_concat}")
@@ -450,10 +403,10 @@ def process_audio_file(django_file, mode=None, session_id=None):
     # ----------------------------------------
     # 7) latency 보정: sec 단위 + total까지 계산
     # ----------------------------------------
-    stt_ms     = float(latency.get("stt", 0.0))
-    nlp_ms     = float(latency.get("nlp", 0.0))
-    mapping_ms = float(latency.get("mapping", 0.0))
-    synth_ms   = float(latency.get("synth", 0.0))
+    stt_ms      = float(latency.get("stt", 0.0))
+    nlp_ms      = float(latency.get("nlp", 0.0))
+    mapping_ms  = float(latency.get("mapping", 0.0))
+    synth_ms    = float(latency.get("synth", 0.0))
     stt_load_ms = float(WHISPER_LOAD_MS or 0.0)
 
     total_ms = stt_ms + nlp_ms + mapping_ms + synth_ms
@@ -485,7 +438,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
         "session_id": session_id,
         "mode": mode,
         "text": text,
-        "clean_text": clean_text,
+        "clean_text": ui_text,
         "gloss": gloss_list,
         "gloss_ids": gloss_ids,
         "sentence_video_url": sent_url,
@@ -495,7 +448,8 @@ def process_audio_file(django_file, mode=None, session_id=None):
         "video_sec": video_sec,
         "latency_ms": latency,
         "latency_sec": latency_sec,
-        "tokens": tokens,
+        "tokens": tokens,        # Gemini가 준 전체 토큰 로그
+        "debug_info": debug_info # 토큰별 매핑 상세 (원하면 프론트에서 써도 됨)
     }
 
     # 🔹 gloss vs gloss_labels 매핑 로그 기록 (mismatch만 저장)

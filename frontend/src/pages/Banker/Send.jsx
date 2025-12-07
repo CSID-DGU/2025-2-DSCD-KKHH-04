@@ -153,25 +153,27 @@ export default function BankerSend() {
   };
 
   // chat 수정 (기존 발화 수정 시 사용)
-  const updateMessageOnBackend = async (backendId, { text, mode }) => {
-    if (!backendId) return;
-    try {
-      const res = await fetch(`${API_BASE}/api/accounts/chat/${backendId}/`, {
-        method: "PATCH",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          text,
-          role: mode || "",
-        }),
-      });
+const updateMessageOnBackend = async (backendId, { text, mode }) => {
+  if (!backendId) return;
+  try {
+    const res = await fetch(`${API_BASE}/api/accounts/chat/${backendId}/`, {
+      method: "PATCH",
+      credentials: "include",   // ← 추가
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        text,
+        role: mode || "",
+      }),
+    });
 
-      if (!res.ok) {
-        console.error("chat 수정 실패:", await res.text());
-      }
-    } catch (err) {
-      console.error("chat 수정 에러:", err);
+    if (!res.ok) {
+      console.error("chat 수정 실패:", await res.text());
     }
-  };
+  } catch (err) {
+    console.error("chat 수정 에러:", err);
+  }
+};
+
 
   /* ---------------- 연필 버튼 / 삭제 / 선택 ---------------- */
 
@@ -196,18 +198,36 @@ export default function BankerSend() {
     setEditTargetId(id);
     setInputValue(target.text);
   };
-
-  const handleDeleteMessage = (id) => {
-    if (!editMode) return; // 수정 모드에서만 삭제 허용
-
-    setMessages((prev) => prev.filter((m) => m.id !== id));
-
-    if (editTargetId === id) {
-      setEditTargetId(null);
-      setInputValue("");
+// chat 삭제 (수정 모드에서 말풍선 지울 때 사용)
+const deleteMessageOnBackend = async (backendId) => {
+  if (!backendId) return;
+  try {
+    const res = await fetch(`${API_BASE}/api/accounts/chat/${backendId}/`, {
+      method: "DELETE",
+      credentials: "include",
+    });
+    if (!res.ok && res.status !== 204) {
+      console.error("chat 삭제 실패:", await res.text());
     }
-  };
+  } catch (err) {
+    console.error("chat 삭제 에러:", err);
+  }
+};
 
+const handleDeleteMessage = async (id) => {
+  if (!editMode) return; // 수정 모드에서만 삭제 허용
+
+  // 1) 프론트에서 먼저 제거
+  setMessages((prev) => prev.filter((m) => m.id !== id));
+
+  if (editTargetId === id) {
+    setEditTargetId(null);
+    setInputValue("");
+  }
+
+  // 2) 백엔드에서도 제거
+  await deleteMessageOnBackend(id);
+};
   /* ---------------- 입력창: 보내기 / 수정 완료 ---------------- */
 
   const handleSendOrUpdate = async () => {
@@ -434,9 +454,12 @@ function ChatPanel({
     return ka - kb;
   });
 
+  // ✅ 메시지 개수만 의존하게 변경
+  const messageCount = messages?.length || 0;
+
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [orderedMessages]);
+  }, [messageCount]); // ← orderedMessages 대신 messageCount
 
   useEffect(() => {
     if (editMode) {
@@ -457,37 +480,7 @@ function ChatPanel({
 
   return (
     <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col">
-      <div className="flex items-center justify-between w-full">
-        {/* 왼쪽: 상담 대화창 */}
-        <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
-          <BubbleIcon />
-          <span>상담 대화창</span>
-        </div>
-
-        {/* 오른쪽: 안내문 + 연필 버튼 */}
-        <div className="flex items-center gap-3">
-          {editMode && (
-            <span className="text-xs text-slate-500 font-normal">
-              수정할 말풍선을 클릭하면 아래 입력창에서 내용을 편집할 수
-              있습니다.
-            </span>
-          )}
-
-          <button
-            type="button"
-            onClick={onToggleEditMode}
-            className={`inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs border transition-colors ${
-              editMode
-                ? "bg-slate-900 text-white border-slate-900"
-                : "bg-white text-slate-700 border-slate-300 hover:bg-slate-50"
-            }`}
-          >
-            <EditIcon className="w-3.5 h-3.5" />
-            <span>{editMode ? "수정 종료" : "문장 수정"}</span>
-          </button>
-        </div>
-      </div>
-
+      {/* ... 나머지 JSX 그대로 ... */}
       <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
         {orderedMessages.map((m, idx) => (
           <ChatBubble
@@ -504,26 +497,11 @@ function ChatPanel({
         ))}
         <div ref={bottomRef} />
       </div>
-
-      <div className="mt-3 flex gap-2">
-        <input
-          ref={inputRef}
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-          onKeyDown={handleKeyDown}
-          placeholder={placeholder}
-          className="flex-1 h-11 rounded-xl border border-slate-300 px-3 text-base text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-300"
-        />
-        <button
-          onClick={onSendOrUpdate}
-          className="h-11 px-4 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800"
-        >
-          보내기
-        </button>
-      </div>
+      {/* ... 이하 동일 ... */}
     </section>
   );
 }
+
 
 function ChatBubble({ role, text, mode, editable, onClick, onDelete }) {
   // system 메시지: 가운데 정렬 안내문
