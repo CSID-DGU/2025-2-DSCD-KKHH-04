@@ -18782,7 +18782,7 @@
     }
   },
   "blacklist": [
-    102270, 
+    102270,
     102293,
     101989,
     101650,
@@ -18791,6 +18791,91 @@
     101508,
     102456,
     103438
+  ],
+  "text_normalization": [
+    {
+      "wrong": "그벼 이 채",
+      "correct": "급여이체"
+    },
+    {
+      "wrong": "이처",
+      "correct": "이체"
+    },
+    {
+      "wrong": "금기",
+      "correct": "금리"
+    },
+    {
+      "wrong": "민압",
+      "correct": "미납"
+    },
+    {
+      "wrong": "2체",
+      "correct": "이체"
+    },
+    {
+      "wrong": "글로",
+      "correct": "근로"
+    },
+    {
+      "wrong": "무대금기",
+      "correct": "우대금리"
+    },
+    {
+      "wrong": "글로소득자",
+      "correct": "근로소득자"
+    },
+    {
+      "wrong": "상원",
+      "correct": "상환"
+    },
+    {
+      "wrong": "헌도",
+      "correct": "한도"
+    },
+    {
+      "wrong": "상원액",
+      "correct": "상환액"
+    },
+    {
+      "wrong": "국공체",
+      "correct": "국공채"
+    },
+    {
+      "wrong": "우량 회사체",
+      "correct": "우량 회사채"
+    },
+    {
+      "wrong": "대당금",
+      "correct": "배당금"
+    },
+    {
+      "wrong": "나빕",
+      "correct": "납입"
+    },
+    {
+      "wrong": "나빕기간",
+      "correct": "납입 기간"
+    },
+    {
+      "wrong": "나빕액",
+      "correct": "납입액"
+    },
+    {
+      "wrong": "황금급",
+      "correct": "환급금"
+    },
+    {
+      "wrong": "전기 예금",
+      "correct": "정기 예금"
+    },
+    {
+      "wrong": "전기",
+      "correct": "정기"
+    },
+    {
+      "wrong": "나비",
+      "correct": "납입"
+    }
   ]
-
 }

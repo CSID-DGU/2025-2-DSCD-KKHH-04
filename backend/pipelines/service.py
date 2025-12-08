@@ -304,15 +304,16 @@ def process_audio_file(django_file, mode=None, session_id=None):
     # ----------------------------------------
     # 2) STT
     # ----------------------------------------
+        # 2) STT
     t0 = time.perf_counter()
     text = stt_from_file(str(wav_path))   # Whisper STT 결과 (원문)
     t1 = time.perf_counter()
     latency["stt"] = round((t1 - t0) * 1000, 1)
     latency["stt_load"] = WHISPER_LOAD_MS  # whisper 모델 로딩 시간(ms, 최초 1회)
 
-    
-    # 자막/인풋박스에 쓸 문장 (원하면 여기서 살짝 _norm 해도 됨)
-    ui_text = _norm(text)
+    # 2-1) 화면/자막용 문장: STT 결과 + 발음/오타 교정만 적용
+    stt_norm = _norm(text)
+    ui_text = apply_text_normalization(stt_norm)
 
     # STT 성능 로그
     stt_ms = latency["stt"]
@@ -326,12 +327,14 @@ def process_audio_file(django_file, mode=None, session_id=None):
     model = GEMINI_MODEL
 
     t2 = time.perf_counter()
-    clean_text, gloss_list, tokens = nlp_with_gemini(text, model)
+    # 교정된 ui_text를 가지고 Gemini 돌리기
+    nlp_clean_text, gloss_list, tokens = nlp_with_gemini(ui_text, model)
     t3 = time.perf_counter()
     latency["nlp"] = round((t3 - t2) * 1000, 1)
 
-    # 3-1) rules.json 기반 텍스트 정규화
-    clean_text = apply_text_normalization(clean_text)
+    # 3-1) 수어용 cleaned에도 규칙 한 번 더 적용(선택 사항이지만 문제 없음)
+    nlp_clean_text = apply_text_normalization(nlp_clean_text)
+
 
     # ----------------------------------------
     # 4) tokens → 영상 시퀀스 (토큰 순서 그대로)
@@ -390,8 +393,10 @@ def process_audio_file(django_file, mode=None, session_id=None):
     # ----------------------------------------
     print("\n========== [DEBUG process_audio_file] ==========")
     print(f"text (STT 원문): {repr(text)}")
-    print(f"clean_text: {repr(clean_text)}")
+    print(f"ui_text (교정된 STT): {repr(ui_text)}")
+    print(f"nlp_clean_text (수어용): {repr(nlp_clean_text)}")
     print(f"gloss_list: {gloss_list}")
+
     print(f"gloss_ids: {gloss_ids}")
     print(f"gloss_labels: {gloss_labels}")
     print(f"sentence_video_url: {sent_url}")
@@ -439,6 +444,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
         "mode": mode,
         "text": text,
         "clean_text": ui_text,
+        "nlp_clean_text": nlp_clean_text,  
         "gloss": gloss_list,
         "gloss_ids": gloss_ids,
         "sentence_video_url": sent_url,

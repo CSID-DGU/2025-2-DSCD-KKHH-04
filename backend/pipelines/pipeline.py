@@ -214,8 +214,9 @@ def apply_text_normalization(text: str, rules: dict | None = None) -> str:
     if not text:
         return text
 
+    # ✅ rules 파라미터가 안 들어오면, 매번 최신 rules_base.json + rules.json을 다시 합쳐서 사용
     if rules is None:
-        rules = MERGED_RULES
+        rules = merge_rules()
 
     norm_rules = rules.get("text_normalization", []) or []
     out = text
@@ -226,6 +227,7 @@ def apply_text_normalization(text: str, rules: dict | None = None) -> str:
             continue
         out = out.replace(w, c)
     return out
+
 
 
 def log_gloss_mapping(
@@ -718,6 +720,42 @@ def extract_tokens(text: str, model=None) -> list[dict]:
 
 
 def extract_glosses(text: str, model=None) -> list[str]:
+    # 1) 토큰 뽑기
+    tokens = extract_tokens(text, model=model)
+
+    # 2) 사전 인덱스 & 규칙 불러오기
+    index = load_gloss_index()   # CSV 사전
+    rules = MERGED_RULES
+
+    gloss_words: list[str] = []
+
+    for t in tokens:
+        if not isinstance(t, dict):
+            continue
+        if t.get("type", "gloss") != "gloss":
+            continue
+
+        raw = (t.get("text") or "").strip()
+        if not raw:
+            continue
+
+        # 여기서 resolve_gloss_token 사용
+        ids, resolve_logs = resolve_gloss_token(
+            token_text=raw,
+            original_sentence=text,
+            rules=rules,
+            db_index=index,
+        )
+
+        # id -> 실제 사전 단어로 다시 매핑
+        id_to_word = index.get("id_to_word", {})
+        for gid in ids:
+            w = id_to_word.get(str(gid))
+            if w:
+                gloss_words.append(w)
+
+    return gloss_words
+
     """
     service.py 호환용 간단 인터페이스.
     """
