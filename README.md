@@ -68,8 +68,8 @@
 <img src="https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/851eeaa4f5e9f3b4ee702ac8a6db0b8ff9b219c7/images/structure.png" width="700"/>
 
 ### 설명 및 응답 파이프라인
-* **설명(Explanation):** `음성 입력` → `Faster-Whisper(STT)` → `Gemini(NLP/Gloss)` → `DB 매핑` → `FFmpeg(영상합성)` → `수어 출력`
-* **응답(Response):** `수어 영상` → `MediaPipe(랜드마크)` → `TCN-Transformer(단어인식)` → `Gemini(자연어복원)` → `텍스트 출력`
+* **설명(Explanation):** `음성 입력` → `Faster-Whisper(STT)` → `Gemini(NLP/단어 추출)` → `DB 매핑` → `FFmpeg(영상합성)` → `수어 출력`
+* **응답(Response):** `수어 영상` → `MediaPipe(랜드마크)` → `TCN-Transformer(단어 인식)` → `Gemini(자연어복원)` → `텍스트 출력`
 <br/><br/>
 ## 📊 프로젝트 성과 (Performance)
 * **설명 파이프라인:** Gloss 매핑 정확도 **93.58%**, 지연 시간 **11.10초** 
