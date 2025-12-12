@@ -46,9 +46,9 @@
 
 | 메인 화면 | 은행원 상담 화면 |
 |:---:|:---:|
-| <img src="images/main_page.png" width="400"/> | <img src="[images/banker_page.png](https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/40f00a62b5fd58f013692306c1ba75a6927fc2d9/images/banker.png)" width="400"/> |
+| <img src="https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/834aaf1d51d18658ed3db504129f4ec6333da5a6/images/main.png" width="400"/> | <img src="https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/40f00a62b5fd58f013692306c1ba75a6927fc2d9/images/banker.png" width="400"/> |
 | **고객(청각장애인) 수신 화면** | **고객 송신 화면** |
-| <img src="https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/40f00a62b5fd58f013692306c1ba75a6927fc2d9/images/deaf1.png" width="400"/> | <img src="[images/dashboard.png](https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/40f00a62b5fd58f013692306c1ba75a6927fc2d9/images/deaf2.png)" width="400"/> |
+| <img src="https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/40f00a62b5fd58f013692306c1ba75a6927fc2d9/images/deaf1.png" width="400"/> | <img src="https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/40f00a62b5fd58f013692306c1ba75a6927fc2d9/images/deaf2.png" width="400"/> |
 
 ## 🔧 기술 스택
 
