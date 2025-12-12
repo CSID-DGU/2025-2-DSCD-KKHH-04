@@ -46,9 +46,9 @@
 
 | 메인 화면 | 은행원 상담 화면 |
 |:---:|:---:|
-| <img src="images/main_page.png" width="400"/> | <img src="images/banker_page.png" width="400"/> |
-| **고객(청각장애인) 상담 화면** | **파이프라인 성능 대시보드** |
-| <img src="images/customer_page.png" width="400"/> | <img src="images/dashboard.png" width="400"/> |
+| <img src="images/main_page.png" width="400"/> | <img src="[images/banker_page.png](https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/40f00a62b5fd58f013692306c1ba75a6927fc2d9/images/banker.png)" width="400"/> |
+| **고객(청각장애인) 수신 화면** | **고객 송신 화면** |
+| <img src="https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/40f00a62b5fd58f013692306c1ba75a6927fc2d9/images/deaf1.png" width="400"/> | <img src="[images/dashboard.png](https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/40f00a62b5fd58f013692306c1ba75a6927fc2d9/images/deaf2.png)" width="400"/> |
 
 ## 🔧 기술 스택
 
@@ -60,8 +60,6 @@
 | **Media** | <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white"> |
 | **Database** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"> |
 | **Infra** | <img src="https://img.shields.io/badge/AWS EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white"> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"> |
-
-## 🧾 시스템 아키텍처
 
 ### 전체 시스템 구조
 <img src="images/system_architecture.png" width="700"/>
@@ -76,55 +74,68 @@
 * **최종 결과:** 제1금융권 8개 상품군 대상 **실시간 양방향 상담 프로토타입** 완성
 
 ## 📂 프로젝트 구조
-Signance/
-├── backend/                     # Django 기반 서버 및 AI 파이프라인
-│   ├── accounts/                # 세션 관리, 챗 로그 API, 규칙 기반 교정 API
-│   ├── sign/                    # 수어 인식(TCN-Transformer) 및 응답 파이프라인
-│   ├── pipeline/                # 음성→STT→Gloss→수어 영상 합성 전체 파이프라인
-│   │   ├── pipeline.py          # 실제 실행되는 설명 파이프라인 메인 모듈
-│   │   ├── gloss_dictionary.csv # Gloss 사전 (금융 도메인 기반)
-│   │   ├── gloss_mp4/           # gloss_id 기반 수어 영상(mp4)
-│   │   └── snapshots*/          # 발화·STT·NLP·매핑 결과 로그 저장
-│   ├── media/                   # 사용자 업로드 데이터 및 생성 영상 저장
-│   ├── static/                  # Django 정적 파일
-│   ├── db.sqlite3               # 개발환경용 DB
-│   └── manage.py
+2025-2-DSCD-KKHH-04-GIT/
+├── README.md
+│       └─ 프로젝트 설명 문서 (서비스 개요, 설치 방법, 구조 등)
 │
-├── frontend_clean/              # React + Vite 프론트엔드
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Banker/          # 은행원 화면 UI 컴포넌트
-│   │   │   │   ├── ASRPanel.jsx # 은행원 발화 인식 패널
-│   │   │   │   ├── ChatPanel.jsx
-│   │   │   │   └── SendPanel.jsx
-│   │   │   ├── Deaf/            # 청각장애인 고객 화면 컴포넌트
-│   │   │   │   ├── VideoPanel.jsx
-│   │   │   │   └── ReceivePanel.jsx
-│   │   │   ├── Dashboard/       # 파이프라인 성능 대시보드
-│   │   │   └── NavTabs.jsx      # 공통 탭 UI
-│   │   ├── pages/
-│   │   │   ├── MainPage.jsx
-│   │   │   ├── BankerPage.jsx
-│   │   │   ├── DeafPage.jsx
-│   │   │   └── DashboardPage.jsx
-│   │   ├── hooks/
-│   │   ├── utils/
-│   │   └── App.jsx
-│   ├── public/
-│   └── index.html
+├── backend/                                 # Django 기반 백엔드 서버
+│   ├── (accounts, sign, pipeline 등)        # 사용자 인증, 세션 관리, STT·NLP·수어 파이프라인
+│   ├── manage.py                            # Django 실행 엔트리 포인트
+│   └── ...                                   # 세부 백엔드 구조 생략
 │
-├── infra/
-│   ├── nginx.conf               # Reverse proxy 및 API 라우팅 설정
-│   ├── docker-compose.yml       # 배포용 Docker 구성
-│   └── aws/                     # EC2 배포 관련 스크립트
-│
-├── docs/
-│   ├── proposal/                # 제안서
-│   ├── midterm/                 # 중간 보고서
-│   ├── final/                   # 최종 보고서 및 발표 자료
-│   └── architecture/            # 시스템 아키텍처 다이어그램
-│
-└── README.md                    # 프로젝트 설명 문서
+└── frontend/                                # React + Vite로 구현된 웹 프론트엔드
+    ├── index.html                            # SPA 엔트리 HTML
+    │
+    └── src/
+        ├── api/                              # API 통신 로직 (axios)
+        │   ├── config.js                     # 서버 URL, 요청 설정 (Axios 기본 세팅)
+        │   └── data.js                       # API 요청 함수 모음
+        │
+        ├── assets/                           # 이미지·로고·아이콘 등 정적 리소스
+        │   ├── figma_logo.svg
+        │   ├── logo_signance.jpg
+        │   ├── logo_signance.svg
+        │   ├── sign1.png                     # 서비스 UI에 사용되는 수어 이미지 예시
+        │   └── sign2.png
+        │
+        ├── components/                       # 재사용 가능한 UI 컴포넌트 묶음
+        │   ├── Chat.css / Chat.jsx           # 채팅 UI 공통 컴포넌트
+        │   ├── Log.css / Log.jsx             # 로그(상담 기록) 표시 컴포넌트
+        │   ├── Tab.css / Tab.jsx             # 상단/하단 탭 UI
+        │   ├── Tooltip.css / Tooltip.jsx     # 툴팁 UI 컴포넌트
+        │   ├── DeafReceive.jsx               # Deaf 측 메시지 수신용 공통 컴포넌트
+        │   │
+        │   ├── banker/                       # 은행원(상담사) 화면 전용 컴포넌트
+        │   │   ├── ASRPanel.jsx              # 음성 인식(STT) 패널
+        │   │   ├── ChatPanel.jsx             # 대화 목록 패널
+        │   │   └── SendPanel.jsx             # 발화 → STT 처리 후 전송 컴포넌트
+        │   │
+        │   └── deaf/                         # 청각장애인 고객 화면 전용 컴포넌트
+        │       ├── ReceivePanel.jsx          # 은행원 설명(수어 영상/텍스트)을 수신해 보여주는 패널
+        │       └── VideoPanel.jsx            # 수어 합성 영상 출력 패널
+        │
+        ├── hooks/
+        │   └── useScrollToBottom.js          # 채팅창 자동 스크롤 hook
+        │
+        ├── layouts/                          # 페이지 전체 레이아웃 정의
+        │   ├── MainLayout.css / MainLayout.jsx  # 메인 화면 레이아웃(헤더/풋터 포함)
+        │   ├── SubLayout.css / SubLayout.jsx    # 서브 페이지 레이아웃
+        │
+        ├── lib/
+        │   └── utils.js                      # 공통 유틸 함수 모음
+        │
+        └── pages/                             # 실제 라우팅되는 화면들
+            ├── Banker/                        # 은행원 상담 UI 페이지 폴더
+            ├── Deaf/                          # 청각장애인 고객 UI 페이지 폴더
+            │
+            ├── PerformanceDashboard.jsx       # STT·NLP·수어 파이프라인 성능 대시보드
+            ├── login.jsx                      # 로그인 페이지
+            ├── main.jsx                       # 서비스 메인 페이지
+            ├── profileedit.jsx                # 프로필 수정 페이지
+            ├── signup-banker.jsx              # 은행원 회원가입 페이지
+            ├── signup-customer.jsx            # 고객 회원가입 페이지
+            └── signup-type.jsx                # 회원가입 유형 선택 페이지
+
 
 
 📘 디렉토리 상세 설명
