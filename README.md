@@ -2,7 +2,7 @@
 
 ## 2025-2 데이터사이언스캡스톤디자인 4조 김김희희
 
-<img src="images/logo.png" width="200"/> 
+<img src="https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/9035a878ce7c93f4d5203e568227ddeaf65102c6/images/logo.jpg" width="200"/> 
 
 ## 💡 프로젝트 개요
 ‘Signance’는 **청각장애인과 은행원 간의 의사소통 장벽을 허무는 양방향 금융 상담 지원 서비스**입니다. 

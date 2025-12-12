@@ -18,15 +18,15 @@ import ProfileEdit from "./pages/profileedit";
 import BankerIndex from "./pages/Banker/index";
 import BankerSend from "./pages/Banker/Send";
 import BankerReceive from "./pages/Banker/Receive";
-import BankerSend2 from "./pages/Banker/Send2";
+//import BankerSend2 from "./pages/Banker/Send2";
 import BankerLogs from "./pages/Banker/logs";
 
 // Tablet (농인)
 import DeafIndex from "./pages/Deaf/index";
 import DeafSend from "./pages/Deaf/Send";
 import DeafReceive from "./pages/Deaf/Receive";
-import DeafSend2 from "./pages/Deaf/Send2";
-import DeafReceive2 from "./pages/Deaf/Receive2";
+// import DeafSend2 from "./pages/Deaf/Send2";
+// import DeafReceive2 from "./pages/Deaf/Receive2";
 
 // 성능 대시보드
 import PerformanceDashboard from "./pages/performancedashboard";
@@ -51,7 +51,7 @@ export default function App() {
         {/* 은행원 단말 */}
         <Route path="/banker" element={<BankerIndex />} />
         <Route path="/banker/send" element={<BankerSend />} />
-        <Route path="/banker/send2" element={<BankerSend2 />} />
+        {/* <Route path="/banker/send2" element={<BankerSend2 />} /> */}
         <Route path="/banker/receive" element={<BankerReceive />} />
         <Route path="/banker/logs" element={<BankerLogs />} />
 
@@ -68,9 +68,9 @@ export default function App() {
         {/* 농인 단말 */}
         <Route path="/deaf" element={<DeafIndex />} />
         <Route path="/deaf/send" element={<DeafSend />} />
-        <Route path="/deaf/send2" element={<DeafSend2 />} />
+        {/* <Route path="/deaf/send2" element={<DeafSend2 />} /> */}
         <Route path="/deaf/receive" element={<DeafReceive />} />
-        <Route path="/deaf/receive2" element={<DeafReceive2 />} />
+        {/* <Route path="/deaf/receive2" element={<DeafReceive2 />} /> */}
       </Route>
 
     </Routes>
