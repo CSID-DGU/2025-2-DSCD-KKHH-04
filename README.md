@@ -154,4 +154,5 @@ Dashboard 화면: STT/NLP/합성 시간, CER 등 시스템 성능 분석
 TailwindCSS + PWA 구성으로 반응형 UI 완성
 
 infra/AWS EC2 + Nginx + Docker 기반 배포 환경 구성
-# 2025-2-DSCD-KKHH-04
+
+
