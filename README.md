@@ -62,7 +62,7 @@
 | **Infra** | <img src="https://img.shields.io/badge/AWS EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white"> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"> |
 
 ### 전체 시스템 구조
-<img src="images/system_architecture.png" width="700"/>
+<img src="[images/system_architecture](https://github.com/CSID-DGU/2025-2-DSCD-KKHH-04/blob/851eeaa4f5e9f3b4ee702ac8a6db0b8ff9b219c7/images/structure.png).png" width="700"/>
 
 ### 설명 및 응답 파이프라인
 * **설명(Explanation):** `음성 입력` → `Faster-Whisper(STT)` → `Gemini(NLP/Gloss)` → `DB 매핑` → `FFmpeg(영상합성)` → `수어 출력`
