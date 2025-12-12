@@ -429,6 +429,8 @@ function getOrderKey(m) {
 }
 
 /* ---------------- 상담 대화 UI ---------------- */
+/* ---------------- 상담 대화 UI ---------------- */
+/* ---------------- 상담 대화 UI ---------------- */
 function ChatPanel({
   messages,
   inputValue,
@@ -454,12 +456,12 @@ function ChatPanel({
     return ka - kb;
   });
 
-  // ✅ 메시지 개수만 의존하게 변경
+  // ✅ 메시지 개수만 의존
   const messageCount = messages?.length || 0;
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messageCount]); // ← orderedMessages 대신 messageCount
+  }, [messageCount]);
 
   useEffect(() => {
     if (editMode) {
@@ -480,8 +482,35 @@ function ChatPanel({
 
   return (
     <section className="mt-4 bg-white rounded-2xl shadow-sm border border-slate-200 p-4 flex flex-col">
-      {/* ... 나머지 JSX 그대로 ... */}
-      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[318px] overflow-y-auto">
+      {/* 상단 타이틀 + 수정 모드 토글 */}
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2 text-lg font-semibold text-slate-800">
+          <BubbleIcon />
+          <span>상담 대화창</span>
+        </div>
+
+        <button
+          type="button"
+          onClick={onToggleEditMode}
+          className={
+            "inline-flex items-center gap-1.5 px-3 h-9 rounded-full border text-xs font-medium transition " +
+            (editMode
+              ? "bg-[#263a61] text-white border-[#263a61]"
+              : "bg-white text-slate-700 border-slate-300 hover:bg-slate-50")
+          }
+        >
+          <EditIcon
+            className={
+              "w-3.5 h-3.5 " +
+              (editMode ? "text-white" : "text-slate-600")
+            }
+          />
+          <span>{editMode ? "수정 모드 ON" : "수정 모드"}</span>
+        </button>
+      </div>
+
+      {/* 채팅 리스트 */}
+      <div className="mt-3 rounded-xl border border-slate-200 bg-slate-50 p-4 space-y-3 h-[360px] overflow-y-auto">
         {orderedMessages.map((m, idx) => (
           <ChatBubble
             key={m.id ?? `${m.from}-${idx}`}
@@ -497,10 +526,46 @@ function ChatPanel({
         ))}
         <div ref={bottomRef} />
       </div>
-      {/* ... 이하 동일 ... */}
+
+      {/* 🔽 하단 입력 영역 + placeholder 여기 있음 */}
+      <div className="mt-3 flex items-end gap-3">
+        <div className="flex-1">
+          <textarea
+            ref={inputRef}
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value)}
+            onKeyDown={handleKeyDown}
+            placeholder={placeholder}
+            rows={2}
+            className="
+              w-full resize-none
+              rounded-xl border border-slate-300
+              px-3 py-2 text-sm text-slate-800
+              bg-white
+              outline-none
+              focus:ring-2 focus:ring-[#263a61] focus:border-[#263a61]
+            "
+          />
+        </div>
+
+        <button
+          type="button"
+          onClick={onSendOrUpdate}
+          className="
+            h-11 px-5 rounded-xl
+            bg-[#263a61] text-white text-base
+            hover:bg-[#1f3253]
+            whitespace-nowrap
+            transition
+          "
+        >
+          {editMode ? "수정 완료" : "보내기"}
+        </button>
+      </div>
     </section>
   );
 }
+
 
 
 function ChatBubble({ role, text, mode, editable, onClick, onDelete }) {

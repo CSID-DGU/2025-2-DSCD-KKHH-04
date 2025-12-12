@@ -1,16 +1,21 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { cerPercent } from "../../utils/cer";
-import { XCircle } from "lucide-react";
+import { XCircle, ArrowLeft } from "lucide-react";
 
+// ----------------------------
+// Panel Header
+// ----------------------------
 function PanelHeader({ title }) {
   return (
-    <div className="mb-4 text-lg font-semibold text-slate-900 flex items-center justify-between">
-      <span>📜 {title}</span>
+    <div className="mb-4 text-lg font-semibold text-slate-900 flex items-center justify-between pl-2">
+      <span>{title}</span>
     </div>
   );
 }
 
+// ----------------------------
+// 시간 포맷
+// ----------------------------
 function formatTime(createdAt) {
   if (!createdAt) return "-";
   try {
@@ -28,12 +33,13 @@ function formatTime(createdAt) {
   }
 }
 
-// 로그 고유 키 (dedupe + 삭제 공통 기준)
 function makeLogKey(log) {
   return `${log.createdAt}__${log.sttText}__${log.cleanText}`;
 }
 
-// NLP 텍스트 안에서 오류 구간(wrong)만 빨간색 하이라이트
+// ----------------------------
+// 오류 단어 하이라이트
+// ----------------------------
 function highlightWrong(text, spans) {
   if (!text) return "-";
   if (!Array.isArray(spans) || spans.length === 0) return text;
@@ -42,7 +48,6 @@ function highlightWrong(text, spans) {
 
   spans.forEach((s) => {
     if (!s.wrong) return;
-
     const escaped = s.wrong.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const regex = new RegExp(escaped, "g");
 
@@ -55,45 +60,19 @@ function highlightWrong(text, spans) {
   return result;
 }
 
-// span 단위 CER -> 평균값으로 계산
-function calcCerForLog(stt, clean, spans) {
-  // spans 배열이 있으면 각 wrong/correct 쌍 단위로 CER 계산
-  if (Array.isArray(spans) && spans.length > 0) {
-    let sum = 0;
-    let count = 0;
-
-    spans.forEach((s) => {
-      const wrong = (s.wrong || "").trim();
-      const correct = (s.correct || "").trim();
-      if (!wrong || !correct) return;
-
-      const c = cerPercent(correct, wrong); // % 숫자
-      if (!isNaN(c)) {
-        sum += c;
-        count += 1;
-      }
-    });
-
-    if (count === 0) return null;
-    return Number((sum / count).toFixed(1)); // 평균 한 자리
-  }
-
-  // span 정보가 없으면 전체 문장 기준 CER
-  if (stt && clean) {
-    return cerPercent(clean, stt);
-  }
-  return null;
-}
-
+// ======================================================
+// 메인 컴포넌트
+// ======================================================
 export default function BankerLogs() {
   const navigate = useNavigate();
   const location = useLocation();
 
   const errorEntry = location.state?.errorEntry || null;
-
   const [logs, setLogs] = useState([]);
 
-  // 1) 마운트 시 기존 로그 불러오기 + dedupe
+  // ------------------------
+  // localStorage 로드 + 중복 제거
+  // ------------------------
   useEffect(() => {
     try {
       const saved =
@@ -118,7 +97,9 @@ export default function BankerLogs() {
     }
   }, []);
 
-  // 2) 새 errorEntry 있으면 한 번만 추가
+  // ------------------------
+  // 새 errorEntry가 있으면 추가
+  // ------------------------
   useEffect(() => {
     if (!errorEntry) return;
 
@@ -140,7 +121,9 @@ export default function BankerLogs() {
     });
   }, [errorEntry]);
 
-  // 행별 삭제
+  // ------------------------
+  // 삭제 기능
+  // ------------------------
   const handleDeleteOne = (targetLog) => {
     if (!window.confirm("해당 로그를 삭제할까요?")) return;
 
@@ -157,10 +140,8 @@ export default function BankerLogs() {
     });
   };
 
-  // 전체 삭제
   const handleClearAll = () => {
     if (!window.confirm("정말 모든 번역 오류 로그를 삭제할까요?")) return;
-
     try {
       localStorage.removeItem("signanceErrorLogs");
     } catch (e) {
@@ -169,20 +150,33 @@ export default function BankerLogs() {
     setLogs([]);
   };
 
+  // ------------------------
+  // 렌더링
+  // ------------------------
   return (
     <div className="w-full h-auto overflow-hidden">
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-8 bg-slate-50 min-h-[calc(100vh-56px)]">
+
+        {/* 뒤로가기 버튼 */}
         <button
           type="button"
-          onClick={() => navigate(-1)}
-          className="mb-3 text-xs text-slate-500 hover:text-slate-800"
+          onClick={() =>
+            navigate("/banker", {
+              state: { preserveChat: true },
+            })
+          }
+          className="mb-4 inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1.5 text-[11px] font-medium text-slate-600 shadow-sm hover:bg-slate-50 hover:border-slate-300 hover:text-slate-900 transition"
         >
-          ← 상담 화면으로 돌아가기
+          <ArrowLeft className="w-3 h-3" />
+          <span>상담 화면으로 돌아가기</span>
         </button>
 
+        {/* 메인 섹션 */}
         <section className="rounded-2xl border border-slate-200 bg-white p-4">
+
           <div className="flex items-center justify-between mb-2">
             <PanelHeader title="대화 로그 / 번역 오류 목록" />
+
             {logs.length > 0 && (
               <button
                 type="button"
@@ -197,6 +191,7 @@ export default function BankerLogs() {
           {logs.length === 0 ? (
             <p className="text-sm text-slate-500">
               아직 번역 오류 로그가 없습니다.
+              <br />
               상담 화면에서 "번역 오류" 버튼을 눌러 오류 문장을 등록할 수 있습니다.
             </p>
           ) : (
@@ -207,7 +202,6 @@ export default function BankerLogs() {
                   <col key={2} className="w-[110px]" />,
                   <col key={3} className="w-[30%]" />,
                   <col key={4} className="w-[30%]" />,
-                  <col key={5} className="w-[6%]" />,
                   <col key={6} className="w-[10%]" />,
                   <col key={7} className="w-[10%]" />,
                   <col key={8} className="w-[40px]" />,
@@ -220,10 +214,9 @@ export default function BankerLogs() {
                   <th className="px-2 py-2 text-left">시간</th>
                   <th className="px-2 py-2 text-left">STT 원문</th>
                   <th className="px-2 py-2 text-left">NLP 텍스트</th>
-                  <th className="px-2 py-2 text-left">CER</th>
                   <th className="px-2 py-2 text-left">오류 구간</th>
                   <th className="px-2 py-2 text-left">수정 제안</th>
-                  <th className="px-2 py-2 text-left" />
+                  <th />
                 </tr>
               </thead>
 
@@ -232,6 +225,7 @@ export default function BankerLogs() {
                   const stt = log.sttText || "";
                   const clean = log.cleanText || "";
 
+                  // spans 구성
                   const spans =
                     Array.isArray(log.spans) && log.spans.length > 0
                       ? log.spans
@@ -244,8 +238,6 @@ export default function BankerLogs() {
                         ]
                       : [];
 
-                  const cer = calcCerForLog(stt, clean, spans);
-
                   return (
                     <tr
                       key={makeLogKey(log) || idx}
@@ -254,18 +246,17 @@ export default function BankerLogs() {
                       <td className="px-2 py-2 text-[11px] text-slate-500">
                         {idx + 1}
                       </td>
+
                       <td className="px-2 py-2 text-[11px] text-slate-500">
                         {formatTime(log.createdAt)}
                       </td>
 
-                      {/* STT 원문 */}
                       <td className="px-2 py-2">
                         <div className="line-clamp-3 whitespace-pre-wrap">
                           {stt || "-"}
                         </div>
                       </td>
 
-                      {/* NLP 텍스트: 오류 구간 하이라이트 */}
                       <td className="px-2 py-2">
                         <div
                           className="line-clamp-3 whitespace-pre-wrap"
@@ -275,14 +266,7 @@ export default function BankerLogs() {
                         />
                       </td>
 
-                      {/* CER */}
-                      <td className="px-2 py-2">
-                        <span className="text-[11px] text-slate-700">
-                          {cer ?? "-"}
-                        </span>
-                      </td>
-
-                      {/* 오류 구간 목록 */}
+                      {/* CER 제거됨 → 오류 구간만 표시 */}
                       <td className="px-2 py-2">
                         <div className="space-y-1">
                           {spans.length === 0 ? (
@@ -303,7 +287,6 @@ export default function BankerLogs() {
                         </div>
                       </td>
 
-                      {/* 수정 제안 목록 */}
                       <td className="px-2 py-2">
                         <div className="space-y-1">
                           {spans.length === 0 ? (
@@ -324,7 +307,6 @@ export default function BankerLogs() {
                         </div>
                       </td>
 
-                      {/* X 아이콘 삭제 버튼 */}
                       <td className="px-2 py-2 text-center align-top">
                         <button
                           type="button"

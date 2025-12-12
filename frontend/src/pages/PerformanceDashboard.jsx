@@ -320,11 +320,11 @@ export default function PerformanceDashboard() {
       <main className="w-full px-4 sm:px-6 lg:px-10 pt-4 pb-10 bg-slate-50 min-h-[calc(100vh-56px)]">
         <div className="flex items-center justify-between mb-4">
           <div>
-            <h1 className="text-xl font-semibold text-slate-900">
+            <h1 className="text-xl font-semibold text-slate-900 mt-1 mb-2">
               파이프라인 성능 대시보드
             </h1>
-            <p className="text-sm text-slate-500 mt-1">
-              Banker 화면에서 전송한 음성의 STT / NLP / 매핑 / 합성 지연시간 기록
+            <p className="text-sm text-slate-500 mt-1 mb-2">
+              은행원 화면에서 전송한 음성의 STT / NLP / 매핑 / 합성 지연시간 기록
             </p>
           </div>
 

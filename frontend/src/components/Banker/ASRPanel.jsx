@@ -927,7 +927,14 @@ export default function ASRPanel({ onPushToChat }) {
           <div className="flex flex-col gap-2">
             <button
               type="button"
-              className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap disabled:bg-slate-400"
+              className="
+                h-11 px-5 rounded-xl 
+                bg-[#263a61] text-white text-base 
+                hover:bg-[#1f3253] 
+                whitespace-nowrap 
+                disabled:bg-[#9aa8c2]
+                transition
+              "
               onClick={() => {}}
               disabled={isSending || isFinalizing}
             >
@@ -936,8 +943,14 @@ export default function ASRPanel({ onPushToChat }) {
 
             <button
               type="button"
-              className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap"
               onClick={handleReportError}
+              className="
+                px-3 py-2 rounded-lg 
+                border border-[#263a61] 
+                bg-white text-[#263a61] text-base font-medium 
+                hover:bg-[#f3f6ff]
+                transition
+              "
             >
               번역 오류
             </button>
@@ -977,7 +990,6 @@ export default function ASRPanel({ onPushToChat }) {
     })}
   </div>
 )}
-
 
 
       {/* 문장별 오디오 미리듣기 */}
