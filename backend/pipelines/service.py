@@ -343,7 +343,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
     video_paths_for_concat, debug_info = build_video_sequence_from_tokens(
         tokens=tokens,
         db_index=GLOSS_INDEX,
-        original_text=clean_text,
+        original_text=nlp_clean_text,
         # rules=None  # 넘기지 않으면 MERGED_RULES 사용
         include_pause=False,   # pause를 실제 빈 화면으로 넣고 싶으면 True
         pause_duration=0.7,
@@ -464,7 +464,7 @@ def process_audio_file(django_file, mode=None, session_id=None):
             gloss_list=gloss_list,
             gloss_ids=[str(g) for g in gloss_ids],
             gloss_labels=[str(l) for l in gloss_labels],
-            text=clean_text,
+            text=nlp_clean_text,
             mode=mode,
             session_id=session_id,
             ts=current_ts,
