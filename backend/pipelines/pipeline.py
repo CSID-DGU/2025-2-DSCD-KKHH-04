@@ -398,8 +398,8 @@ def build_gemini():
     당신은 '청각장애인을 위한 전문 수어(KSL) 통역사'입니다.
 
     입력된 문장을 단순 번역하지 말고, '농문화(Deaf Culture)'와 '한국수어 문법'에 맞춰 의미를 재구성(Paraphrasing)하십시오.
-
-
+    전사된 문장이 오류가 있음을 가정하고, 최대한 자연스럽고 이해하기 쉬운 수어 표현으로 바꾸는 데 집중하십시오.
+    cleaned는 오류가 없게끔, 자연스러운 한국어 문장으로 정리하고, tokens는 수어 표현 단위로 쪼갠 JSON 배열로 만드십시오.
 
     [핵심 작업 원칙]
 
@@ -532,7 +532,7 @@ def build_gemini():
 
     {{
 
-        "cleaned": "상품 이것 사람 1명 계좌 1개 개설 가능",
+          "cleaned": "이 상품은 1인당 계좌 1개만 개설 가능합니다.",
 
         "tokens": [
 
@@ -565,7 +565,7 @@ def build_gemini():
     {{
         ]
 
-        "cleaned": "금리 1년 3.5 퍼센트 점수 특별 적용",
+        "cleaned": "금리는 연 3.5%p 우대 적용됩니다.",
 
         "tokens": [
 
@@ -574,8 +574,8 @@ def build_gemini():
             {{ "text": "1년", "type": "gloss" }},
             {{ "text": "3.5", "type": "image" }},
             {{ "text": "퍼센트", "type": "gloss" }},
-            {{ "text": "점수", "type": "gloss" }},
-            {{ "text": "특별", "type": "gloss" }},
+            {{ "text": "포인트", "type": "gloss" }},
+            {{ "text": "우대", "type": "gloss" }},
             {{ "text": "적용", "type": "gloss" }}
 
 
