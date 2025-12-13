@@ -9,6 +9,46 @@ const ASR_PANEL_HEIGHT = "h-[167px]";
 const SESSION_KEY = "signanceSessionId";
 const MIC_RUN_KEY = "signanceMicRunNo";
 
+// 번역 오류 규칙 서버로 전송
+async function sendNormalizationRules(ruleList) {
+  if (!Array.isArray(ruleList) || ruleList.length === 0) return;
+
+  for (const r of ruleList) {
+    const wrong = (r.wrong || "").trim();
+    const correct = (r.correct || "").trim();
+    if (!wrong || !correct) continue;
+
+    try {
+      const resp = await fetch(`${API_BASE}/api/accounts/add_rule/`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ wrong, correct }),
+      });
+
+      if (!resp.ok) {
+        const txt = await resp.text();
+        console.warn(
+          "[ASRPanel] add_rule 실패:",
+          resp.status,
+          txt
+        );
+      } else {
+        console.log(
+          "[ASRPanel] add_rule 성공:",
+          wrong,
+          "→",
+          correct
+        );
+      }
+    } catch (err) {
+      console.error("[ASRPanel] add_rule 통신 에러:", err);
+    }
+  }
+}
+
+
 function getOrCreateSessionId() {
   try {
     let sid = localStorage.getItem(SESSION_KEY);
@@ -98,6 +138,7 @@ export default function ASRPanel({ onPushToChat }) {
 
   const shouldRestartRef = useRef(false); // Enter로 문장 끊기
   const finalStopRef = useRef(false); // 마이크 버튼으로 완전 종료
+
 
   // 진행 바 (1.6초마다 한 칸 → 한 사이클 6.4초, BankerReceive와 동일)
   useEffect(() => {
@@ -670,7 +711,7 @@ export default function ASRPanel({ onPushToChat }) {
     );
   };
 
-  const handleConfirmError = () => {
+  const handleConfirmError = async () => {
     const rawText = localStorage.getItem("signanceDeafCaptionRaw") || "";
     const cleanText = text || "";
 
@@ -687,7 +728,10 @@ export default function ASRPanel({ onPushToChat }) {
       return;
     }
 
-    // 문장 리스트 (cleaned 기준)
+    // 1) 규칙 서버로도 전송 (rules.json 반영)
+    await sendNormalizationRules(filtered);
+
+    // 2) 문장 리스트 (cleaned 기준)
     const segmentTexts =
       segments.length > 0
         ? segments.map((s) => s.text || "")
@@ -695,25 +739,16 @@ export default function ASRPanel({ onPushToChat }) {
 
     const baseTime = new Date().toISOString();
 
-    // span 개수만큼 로그 엔트리 쪼개기
-    const newEntries = filtered.map((s, idx) => {
-      const segIdx = idx < segmentTexts.length ? idx : segmentTexts.length - 1;
-      const segText = segmentTexts[segIdx] || cleanText || rawText;
+    // 🔹 이번 신고 1건에 대해 로그 1개만 만들고,
+    //    그 안에 spans 배열로 여러 wrong/correct 쌍을 넣는다.
+    const newEntry = {
+      sttText: segmentTexts.join("\n"),        // STT/clean 문장
+      cleanText: cleanText || rawText || "",
+      spans: filtered,                         // ← 여러 개 쌍 그대로
+      createdAt: baseTime,
+    };
 
-      return {
-        sttText: segText,
-        cleanText: segText,
-        spans: [
-          {
-            wrong: s.wrong,
-            correct: s.correct,
-          },
-        ],
-        createdAt: baseTime,
-      };
-    });
-
-    // 용어 사전(치환 규칙) 누적
+    // 3) 용어 사전(치환 규칙) 누적 (기존 그대로)
     try {
       const prevDict =
         JSON.parse(localStorage.getItem("signanceTerminologyDict") || "[]") ||
@@ -729,11 +764,11 @@ export default function ASRPanel({ onPushToChat }) {
       console.warn("terminology dict save error:", e);
     }
 
-    // 오류 로그 저장
+    // 4) 오류 로그 저장: newEntry 하나만 추가
     try {
       const prevLogs =
         JSON.parse(localStorage.getItem("signanceErrorLogs") || "[]") || [];
-      const mergedLogs = [...newEntries, ...prevLogs];
+      const mergedLogs = [newEntry, ...prevLogs];
       localStorage.setItem(
         "signanceErrorLogs",
         JSON.stringify(mergedLogs)
@@ -742,9 +777,11 @@ export default function ASRPanel({ onPushToChat }) {
       console.warn("signanceErrorLogs save error:", e);
     }
 
+    // 로그 화면으로 이동
     navigate("/banker/logs");
     setShowErrorPopup(false);
   };
+
 
   const hasAnySpanFilled = spans.some(
     (s) =>
@@ -890,7 +927,14 @@ export default function ASRPanel({ onPushToChat }) {
           <div className="flex flex-col gap-2">
             <button
               type="button"
-              className="h-11 px-5 rounded-xl bg-slate-900 text-white text-base hover:bg-slate-800 whitespace-nowrap disabled:bg-slate-400"
+              className="
+                h-11 px-5 rounded-xl 
+                bg-[#263a61] text-white text-base 
+                hover:bg-[#1f3253] 
+                whitespace-nowrap 
+                disabled:bg-[#9aa8c2]
+                transition
+              "
               onClick={() => {}}
               disabled={isSending || isFinalizing}
             >
@@ -899,8 +943,14 @@ export default function ASRPanel({ onPushToChat }) {
 
             <button
               type="button"
-              className="h-11 px-5 rounded-xl border border-slate-300 text-base hover:bg-slate-50 whitespace-nowrap"
               onClick={handleReportError}
+              className="
+                px-3 py-2 rounded-lg 
+                border border-[#263a61] 
+                bg-white text-[#263a61] text-base font-medium 
+                hover:bg-[#f3f6ff]
+                transition
+              "
             >
               번역 오류
             </button>
@@ -909,7 +959,8 @@ export default function ASRPanel({ onPushToChat }) {
       </section>
 
       {/* 문장별 latency 표시 */}
-{latencyList.length > 0 && (
+      
+{false && latencyList.length > 0 && (
   <div className="mt-2 space-y-0.5 text-xs text-slate-500">
     {latencyList.map((lat, idx) => {
       // lat이 비어있으면 렌더링 스킵 (undefined 방어)
@@ -939,7 +990,6 @@ export default function ASRPanel({ onPushToChat }) {
     })}
   </div>
 )}
-
 
 
       {/* 문장별 오디오 미리듣기 */}

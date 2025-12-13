@@ -299,7 +299,7 @@ export default function DeafReceive() {
 
     // 최초 1번 + 주기적 폴링
     fetchLatestResult();
-    const timer = setInterval(fetchLatestResult, 1000);
+    const timer = setInterval(fetchLatestResult, 1300);
 
     return () => {
       stopped = true;
@@ -365,7 +365,7 @@ export default function DeafReceive() {
 
     // 최초 1번 + 이후 2초마다 전체 동기화
     fetchAllMessages();
-    const timer = setInterval(fetchAllMessages, 2000);
+    const timer = setInterval(fetchAllMessages, 1300);
 
     return () => {
       stopped = true;
