@@ -1,6 +1,6 @@
 // 추후 websocekt 연결시 사용
 
-import msgpack from '@msgpack/msgpack';
+import * as msgpack from "@msgpack/msgpack";
 import type { ISeqTransport, Frame } from './seqTransport';
 
 export class WsTransport implements ISeqTransport {

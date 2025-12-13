@@ -3,7 +3,7 @@
 // ❌ 옛날 Mediapipe 타입 import 제거
 // import type { Results } from "@mediapipe/hands";
 
-import type { Frame, Hand, Landmark } from "@/lib/seqTransport";
+import type { Frame, Hand, Landmark } from "./seqTransport";
 
 // Mediapipe 결과에서 실제로 쓰는 필드 모양만 정의
 type MPHandLandmark = {
