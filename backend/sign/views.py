@@ -1,5 +1,6 @@
 # backend/sign/views.py
 from pathlib import Path
+import time  # ★ 총 소요 시간 측정용
 
 from django.conf import settings
 from rest_framework.decorators import api_view
@@ -12,6 +13,7 @@ from .segment_infer import (
     load_seq_from_npz,
 )
 from .intersection import gloss_tokens_to_korean  # ✅ 단어 1개 예외 처리 + Gemini 호출 래퍼
+from .log_utils import append_e2e_log            # ★ 로그 기록 함수 (별도 파일)
 
 
 @api_view(["POST", "OPTIONS"])
@@ -61,6 +63,7 @@ def ingest_and_infer(request):
        - 단어 1개면 Gemini 거치지 않고 '입니다/에요'만 붙이고
        - 단어 2개 이상이면 Gemini로 자연스러운 한국어 문장 생성
     5) 저장 정보 + 세그먼트/글로스/한국어 문장을 같이 반환
+    6) 위 전체 과정을 로그 CSV에 기록 (총 소요 시간 포함)
     """
     # CORS preflight
     if request.method == "OPTIONS":
@@ -69,6 +72,7 @@ def ingest_and_infer(request):
     data = request.data
 
     session_id = data.get("session_id")
+    eval_id = data.get("eval_id", "")  # ★ 평가용 문장 ID (옵션)
     fps = data.get("fps")
     frames = data.get("frames", [])
 
@@ -83,6 +87,9 @@ def ingest_and_infer(request):
         fps_val = float(fps) if fps is not None else 30.0
     except (TypeError, ValueError):
         fps_val = 30.0
+
+    # ★ 여기서부터 E2E 시간 측정 시작
+    t0 = time.time()
 
     # 1) 먼저 npz 저장 (기존 ingest와 동일)
     try:
@@ -130,8 +137,6 @@ def ingest_and_infer(request):
     gloss_sentence = seg_result.get("gloss_sentence", "")
 
     # 4) 글로스 토큰 → 한국어 문장
-    #    - 단어 1개면 Gemini 안 거치고 '입니다/에요'만 붙이는 로직은
-    #      intersection.gloss_tokens_to_korean 안에 들어있음
     try:
         natural_sentence = gloss_tokens_to_korean(gloss_tokens)
     except Exception as e:
@@ -140,7 +145,29 @@ def ingest_and_infer(request):
             status=status.HTTP_500_INTERNAL_SERVER_ERROR,
         )
 
-    # 5) 저장 정보 + 세그먼트/글로스/한국어 문장 한꺼번에 반환
+    # ★ 총 소요 시간 계산 (프레임 저장 ~ 한국어 문장 생성까지)
+    elapsed = time.time() - t0
+
+    # 5) E2E 로그 CSV에 한 줄 기록
+    try:
+        append_e2e_log(
+            eval_id=eval_id,
+            session_id=session_id,
+            gloss_tokens=gloss_tokens,
+            sent_pred=natural_sentence,
+            elapsed_sec=elapsed,
+            meta={
+                "fps": fps_val,
+                "npz_path": str(npz_path),
+                "T": int(T),
+                "gloss_sentence": gloss_sentence,
+            },
+        )
+    except Exception:
+        # 로그 실패는 서비스 동작에 영향 안 주도록 조용히 무시
+        pass
+
+    # 6) 저장 정보 + 세그먼트/글로스/한국어 문장 한꺼번에 반환
     return Response(
         {
             "ok": True,
@@ -156,6 +183,9 @@ def ingest_and_infer(request):
             "segments": seg_result.get("segments", []),
             "params": seg_result.get("params", {}),
             "motion_stats": seg_result.get("motion_stats", {}),
+
+            # ★ E2E 소요 시간(초)
+            "elapsed_sec": elapsed,
         },
         status=status.HTTP_200_OK,
     )

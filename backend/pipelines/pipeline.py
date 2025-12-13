@@ -90,7 +90,7 @@ RULES_PATH = DATA_DIR / "rules.json"  # 실제 사용 · 자동 업데이트 대
 RULES_BASE_PATH = DATA_DIR / "rules_base.json"
 
 GLOSS_MP4_DIR = Path(
-    r"C:\Users\user\Desktop\2025-2-DSCD-KKHH-04-git\backend\pipelines\gloss_new\data\service"
+    r"D:\2025-2-DSCD-KKHH-04\backend\pipelines\gloss_new\data\service"
 )
 # 수어 mp4가 있는 루트 폴더 (하위 fi, li 등 포함)
 

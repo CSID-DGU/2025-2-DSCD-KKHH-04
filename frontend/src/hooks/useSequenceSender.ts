@@ -3,38 +3,42 @@ import { useMemo, useEffect } from "react";
 import { HttpBatchTransport } from "../lib/httpTransport";
 import type { ISeqTransport } from "../lib/seqTransport";
 
-// 백엔드 /api/ingest-and-infer/ 응답 타입 (새 구조)
 export interface SignInferenceResult {
   ok: boolean;
   file: string;
   T: number;
   fps: number;
   text: string;
-
-  gloss_tokens: string[];      // ["예금", "비밀번호", "분실", ...]
-  gloss_sentence: string;      // "예금 비밀번호 분실"
-  natural_sentence: string;    // "계좌 비밀번호를 잊어버렸어요."
-  segments: any[];             // 세그먼트 정보 (필요하면 타입 나중에 더 세게 잡아도 됨)
-
+  gloss_tokens: string[];
+  gloss_sentence: string;
+  natural_sentence: string;
+  segments: any[];
   params?: Record<string, unknown>;
   motion_stats?: Record<string, unknown>;
 }
 
-// 세션별 시퀀스 전송 훅
-// - sessionId: 세션 식별자
-// - onResult : 백엔드에서 온 전체 추론 결과를 받고 싶을 때 콜백
+/**
+ * sessionId: 세션 아이디
+ * onResult : 백엔드 결과 콜백
+ * evalId  : (선택) 평가용 문장 ID (로그용)
+ */
 export function useSequenceSender(
   sessionId: string,
-  onResult?: (result: SignInferenceResult) => void
+  onResult?: (result: SignInferenceResult) => void,
+  evalId?: string,                       // ★ 3번째 인자로 이동
 ): ISeqTransport {
-  // 1) transport 인스턴스는 sessionId 로만 고정
   const transport = useMemo<ISeqTransport>(() => {
     const t = new HttpBatchTransport("/api/ingest-and-infer/", sessionId, 30);
-    console.log("[useSequenceSender] new transport created", sessionId);
-    return t;
-  }, [sessionId]);
 
-  // 2) 콜백(onResult)은 effect 에서 갈아끼우기만 함 (인스턴스는 그대로)
+    // ★ 필요하면 여기서 evalId를 세팅
+    if (evalId) {
+      (t as HttpBatchTransport).evalId = evalId;
+    }
+
+    console.log("[useSequenceSender] new transport created", sessionId, evalId);
+    return t;
+  }, [sessionId, evalId]);
+
   useEffect(() => {
     const t = transport as HttpBatchTransport;
 
@@ -46,7 +50,6 @@ export function useSequenceSender(
         return;
       }
 
-      // 타입 단언해서 콜백에 넘겨줌
       const result = data as SignInferenceResult;
 
       console.log(
@@ -57,14 +60,11 @@ export function useSequenceSender(
       );
 
       if (onResult) {
-        onResult(result);
+        onResult(result);      // ★ 다시 제대로 콜백 호출
       }
     };
-
-    // cleanup 에서 굳이 onResult 를 지울 필요는 없음
   }, [transport, onResult]);
 
-  // 3) 언마운트 / 세션 변경 시에만 close 호출
   useEffect(() => {
     return () => {
       console.log("[useSequenceSender] cleanup → transport.close()");
