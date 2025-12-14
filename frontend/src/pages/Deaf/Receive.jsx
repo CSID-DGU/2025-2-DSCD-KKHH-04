@@ -221,7 +221,8 @@ export default function DeafReceive() {
           null;
 
         // 2) 자막/글로스/모드
-        const captionClean = data.clean_text || "";
+        const captionClean 
+          = data.nlp_clean_text || data.llm_clean_text || data.clean_text || "";
         const captionRaw = data.text || "";
         const glossLabels = Array.isArray(data.gloss_labels)
           ? data.gloss_labels
