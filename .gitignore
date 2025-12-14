@@ -34,3 +34,7 @@ backend/pipelines/gloss_new/vd_output
 
 # ==== Media ====
 backend/media/
+
+venv/
+__pycache__/
+*.dll

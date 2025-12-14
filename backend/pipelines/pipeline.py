@@ -77,7 +77,7 @@ ROOT_DIR = Path(__file__).resolve().parent
 
 GLOSS_NEW_DIR = ROOT_DIR / "gloss_new"
 
-DATA_DIR = GLOSS_NEW_DIR / "data"  # backend/pipelines/gloss_new/data
+DATA_DIR = GLOSS_NEW_DIR / "data"
 OUT_DIR = GLOSS_NEW_DIR / "snapshots14"
 
 # 이 경로들은 네 프로젝트 구조에 맞게 한 번 확인해줘
@@ -90,7 +90,7 @@ RULES_PATH = DATA_DIR / "rules.json"  # 실제 사용 · 자동 업데이트 대
 RULES_BASE_PATH = DATA_DIR / "rules_base.json"
 
 GLOSS_MP4_DIR = Path(
-    r"D:\2025-2-DSCD-KKHH-04\backend\pipelines\gloss_new\data\service"
+    r"D:\GitHub\2025-2-DSCD-KKHH-04\backend\pipelines\gloss_new\data\service"
 )
 # 수어 mp4가 있는 루트 폴더 (하위 fi, li 등 포함)
 
@@ -102,7 +102,6 @@ VIDEO_OUT_DIR.mkdir(exist_ok=True)
 LOG_DIR = ROOT_DIR / "gloss_tools"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 GLOSS_LOG_FILE = LOG_DIR / "gloss_mapping_log.csv"
-
 
 # =========================
 # rules_base.json + rules.json 유틸
@@ -119,7 +118,6 @@ def _load_json(path: Path) -> dict:
             return json.load(f)
     except Exception:
         return {}
-
 
 def _save_json(path: Path, data: dict):
     """
@@ -412,11 +410,8 @@ def build_gemini():
        - 단, '안녕하세요', '반갑습니다', '고맙습니다(감사합니다)', '수고하셨습니다' 등 사회적 관계를 맺는 인사말은 삭제하지 말고 반드시 수어 단어로 변환하십시오.
 
     4. 한국어 전용 출력 (Korean Only):
-
        - 결과 JSON의 'text' 필드 값에는 '반드시 한국어 또는 숫자'만 들어가야 합니다.
-
        - 영어 단어(예: 'Limit', 'Bank')가 포함되면 무조건 한국어 뜻으로 번역하여 출력하십시오.
-
         [cleaned 필드 규칙 – 아주 중요]
     1. cleaned는 화면에 자막으로 그대로 표시될, 사람용 자연스러운 한국어 문장입니다.
     2. 입력 문장의 존댓말/어미/높임(예: 주세요, 입니다, 해요)을 유지하십시오.
@@ -507,68 +502,38 @@ def build_gemini():
        - % (퍼센트): '[{{ "text": "3.5", "type": "image" }}, {{ "text": "퍼센트", "type": "gloss" }}]'
 
        - %p (퍼센트 포인트): '[{{ "text": "0.5", "type": "image" }}, {{ "text": "퍼센트", "type": "gloss" }}, {{ "text": "포인트", "type": "gloss" }}]'
-
        - 연 이율: '연'은 `[1년]` 수어로, 이율은 '[퍼센트]'로 처리.
 
-
-
     4. 어휘 단순화 (Vocabulary Simplification):
-
        - 어려운 한자어, 전문 용어는 기초적인 수어 단어의 조합으로 풀어서 설명하십시오.
-
        - 예: "주택담보대출" -> '[집]', '[맡기다]', '[돈]', '[빌리다]'
-
        - 예: "우대금리" -> '[특별]', '[이자]'
 
 
 
     [Few-shot Examples]
-
-
-
     입력: "이 상품은 한 사람당 하나의 계좌만 개설 가능합니다."
-
     출력:
-
     {{
-
-          "cleaned": "이 상품은 1인당 계좌 1개만 개설 가능합니다.",
-
+        "cleaned": "이 상품은 1인당 계좌 1개만 개설 가능합니다.",
         "tokens": [
-
             {{ "text": "상품", "type": "gloss" }},
-
             {{ "text": "이것", "type": "gloss" }},
-
             {{ "text": "PAUSE", "type": "pause" }},
-
             {{ "text": "사람", "type": "gloss" }},
-
             {{ "text": "1명", "type": "image" }},
-
             {{ "text": "계좌", "type": "gloss" }},
-
             {{ "text": "1개", "type": "image" }},
             {{ "text": "개설", "type": "gloss" }},
             {{ "text": "가능", "type": "gloss" }}
 
-        ]
-
     }}
 
-
-
     입력: "금리는 연 3.5%포인트 우대 적용됩니다."
-
     출력:
-
     {{
-        ]
-
         "cleaned": "금리는 연 3.5%p 우대 적용됩니다.",
-
         "tokens": [
-
             {{ "text": "금리", "type": "gloss" }},
             {{ "text": "PAUSE", "type": "pause" }},
             {{ "text": "1년", "type": "gloss" }},
@@ -577,8 +542,6 @@ def build_gemini():
             {{ "text": "포인트", "type": "gloss" }},
             {{ "text": "우대", "type": "gloss" }},
             {{ "text": "적용", "type": "gloss" }}
-
-
     }}
 
     5. 범위 표현 (Range):
@@ -587,12 +550,8 @@ def build_gemini():
        - 입력: "3.5% 이하" -> '[{{ "text": "3.5", "type": "image" }}, {{ "text": "퍼센트", "type": "gloss" }}, {{ "text": "까지", "type": "gloss" }}]'
        - 입력: "18세~30세" -> '[{{ "text": "18세", "type": "image" }}, {{ "text": "부터", "type": "gloss" }}, {{ "text": "30세", "type": "image" }}, {{ "text": "까지", "type": "gloss" }}]'
 
-       
-
     [출력 포맷 (JSON Only)]
-
     반드시 JSON 형식만 출력하세요.
-
     """
     
 
@@ -677,6 +636,7 @@ def extract_tokens(text: str, model=None) -> list[dict]:
 
                 obj = json.loads(raw_json)
 
+                cleaned = obj.get("cleaned", text)
                 tokens = obj.get("tokens") or []
                 out: list[dict] = []
                 for t in tokens:
@@ -689,8 +649,9 @@ def extract_tokens(text: str, model=None) -> list[dict]:
                     out.append({"text": txt, "type": typ})
 
                 if out:
+                    print(f"[Gemini] cleand -> {cleaned}")
                     print(f"[Gemini] tokens -> {out}")
-                    return out
+                    return out, cleaned
 
         except Exception as e:
             print(f"[Gemini Error] {e}")
@@ -716,7 +677,11 @@ def extract_tokens(text: str, model=None) -> list[dict]:
         clean,
         re.VERBOSE,
     )
-    return [{"text": _first_word(t), "type": "gloss"} for t in tokens if _first_word(t)]
+    print(f"[LocalFallback] Gemini 토큰 없음 → regex 사용")
+    # ✅ 3. 로컬 폴백 결과 반환 시에도 형식 통일
+    # (토큰 리스트, 원본 텍스트)
+    fallback_tokens = [{"text": _first_word(t), "type": "gloss"} for t in tokens if _first_word(t)]
+    return fallback_tokens, text
 
 
 def extract_glosses(text: str, model=None) -> list[str]:
@@ -1067,12 +1032,10 @@ def _paths_from_ids(gloss_ids):
         print(f"⚠️  매핑 누락 (파일 없음) gloss_id: {missing}")
     return paths
 
-
 # ======================================================================
 # 영상 합성/저장 및 텍스트 이미지 영상 (캐시 포함)
 # ======================================================================
 IMAGE_VIDEO_CACHE: dict[str, str] = {}  # key: "text|duration" -> mp4 경로
-
 
 def get_korean_font(size=80):
     font_paths = [
