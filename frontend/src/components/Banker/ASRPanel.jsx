@@ -297,10 +297,20 @@ export default function ASRPanel({ onPushToChat }) {
           console.warn("failed to save gloss_labels:", e);
         }
       }
-
-      const rawText = data.text || "";
-      const cleanedText = data.clean_text || rawText || "";
-
+      const rawText =
+        typeof data.text === "string" ? data.text : "";
+      
+      const llmClean =
+        typeof data.nlp_clean_text === "string" && data.nlp_clean_text.trim()
+          ? data.nlp_clean_text
+          : "";
+      
+      const ruleClean =
+        typeof data.clean_text === "string" && data.clean_text.trim()
+          ? data.clean_text
+          : "";
+      
+      const cleanedText = llmClean || ruleClean || rawText;
       // 세그먼트 텍스트 누적 (seq 인덱스에 고정)
       if (cleanedText) {
         setSegments((prev) => {
