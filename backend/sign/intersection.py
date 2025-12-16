@@ -14,7 +14,7 @@ FORCE_GEMINI_WORDS = {
 
 def _attach_polite_suffix(word: str) -> str:
     """단어 1개일 때 붙일 존댓말."""
-    return word + "입니다"
+    return word + "입니다."
 
 
 def gloss_tokens_to_korean(tokens: list[str]) -> str:
