@@ -61,7 +61,6 @@
 | **Backend** | <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/Django Channels-092E20?style=flat-square"> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"> |
 | **AI / Model** | <img src="https://img.shields.io/badge/Faster Whisper-000000?style=flat-square"> <img src="https://img.shields.io/badge/Gemini API-8E75B2?style=flat-square&logo=googlebard&logoColor=white"> <img src="https://img.shields.io/badge/MediaPipe-005571?style=flat-square&logo=mediaPipe&logoColor=white"> |
 | **Media** | <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white"> |
-| **Database** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"> |
 | **Infra** | <img src="https://img.shields.io/badge/AWS EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white"> <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"> |
 <br/><br/>
 ### 전체 시스템 구조
